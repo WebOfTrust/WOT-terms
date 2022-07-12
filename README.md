@@ -1,3 +1,3 @@
 # terms-wiki
 
-This a repo that mainly facilitates the [Wiki](wiki) for the concepts, terminology and glossary pages for KERI, CESR, OOBI and ACDC.
+This a repo that mainly facilitates the [Wiki](./WOT-terms/wiki) for the concepts, terminology and glossary pages for KERI, CESR, OOBI and ACDC.
