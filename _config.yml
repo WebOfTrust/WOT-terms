@@ -109,10 +109,9 @@ sidebars:
 description: "Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features."
 # the description is used in the feed.xml file
 
-# needed for sitemap.xml file only
-# url: http://idratherbewriting.com
-# baseurl: /documentation-theme-jekyll
-
+# Github pages 
+url: http://henkvancann.github.io
+baseurl: /WOT-terms
 
 github: [metadata]
 
