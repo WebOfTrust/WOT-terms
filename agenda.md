@@ -14,13 +14,30 @@ Agenda:
 - [Draft](https://github.com/henkvancann/WOT-terms/blob/main/agenda.md)
 - [Definitive](https://github.com/weboftrust/WOT-terms/blob/main/agenda.md)
 
-Zoom Meeting:
-{URL}
-Meeting ID: {ID}
-Passcode: {ID}
+### Zoom Meeting
 
-Calendar Invite:
-{here the link}
+Topic: **KERI Concepts and Terms**
+
+Time: Jul 28, 2022 08:00 AM Mountain Time (US and Canada), 4PM CEST
+
+Every 2 weeks on Thu, until Oct 20, 2022, 7 occurrence(s)
+- Jul 28, 2022 08:00 AM
+- Aug 11, 2022 08:00 AM
+- Aug 25, 2022 08:00 AM
+- Sep 8, 2022 08:00 AM
+- Sep 22, 2022 08:00 AM
+- Oct 6, 2022 08:00 AM
+- Oct 20, 2022 08:00 AM
+
+Please download and import the following [iCalendar (.ics) files](./meeting-89893527631.ics) to your calendar system.
+Weekly: https://us02web.zoom.us/meeting/tZ0lfuqtrDwsGdXO34oUxPbSpcf4X1Lcdmb-/ics?icsToken=98tyKuGhpjIpH9aSthqGRpx5Gor4b-_zpmZdjadls0yxDBVLUgHFJuFEZoouPNvU
+
+#### Calendar Invite
+Join Zoom Meeting
+https://us02web.zoom.us/j/89893527631?pwd=S1VheVF4d2xpTTRTdERYbFFGUFdPUT09
+
+Meeting ID: 898 9352 7631\
+Passcode: 197037
 
 KERI Slack: keriworld.slack.com
 https://join.slack.com/t/keriworld/shared_invite/zt-14326yxue-p7P~GEmAZ65luGSZvbgFAQ
