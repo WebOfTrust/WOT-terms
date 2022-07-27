@@ -11,7 +11,8 @@ Co-Host: Philip Feairheller [email](pfeairheller@gmail.com)
 Meeting Bi-weekly starting on 2022-07-28 at 10 am EDT, 4PM CEST
 
 Agenda:
-[here](./agenda.md)
+- [Draft](https://github.com/henkvancann/WOT-terms/blob/main/agenda.md)
+- [Definitive](https://github.com/weboftrust/WOT-terms/blob/main/agenda.md)
 
 Zoom Meeting:
 {URL}
