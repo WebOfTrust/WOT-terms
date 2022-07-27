@@ -54,5 +54,3 @@ Explanation of KERI development tools and techniques (preliminary link): [KERI d
   - How to sync glossaries with the outside world, a proposal
   - How to set up KERI/ACDC education at various levels of understanding.
   - {any other pressing questions / issues / suggestions ?}
-
-
