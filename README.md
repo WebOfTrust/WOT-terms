@@ -12,8 +12,20 @@ The table below lists all deliverables of the KERI Community:
 
 ### Why Concepts, Terminology and Education
 
-The value statement and organizational principles of the IETF strongly resonate with KERI.
-Quoting from [The Tao of IETF](https://www.ietf.org/about/participate/tao/), **emphasis added**:
+You can set up and offer a technical tool, but it's a choice to use the tool and the freedom to do so (use cases!) and give meaning.
+
+{Explain Concepts}
+
+{EXplain IETF, ToIP, eSSIF}
+
+Within the KERI scope, a search for criteria and consciously, on the basis of objectives, switching from one frame of reference to another, for example from KERI <-> ToIP <-> eSSIF <-> KERI 
+
+{Explain transformations and criteria as the basis to make decisions and understand each other}
+
+An example transformation KERI <-> eSSIF
+- Two stars (**) Verification "yes, the passport is valid".
+- One star (*) Validation "no, you can't use it in China, because less than 6 months to expiry date")
+- Three stars (***) Validation and verification are synonymous under the bonnet of KERI, with the criterion that everything must be cryptographically verifiable to the root-of-trust as soon as it comes to yes/no derivations, Veracity ("is it true what is said?") covers under the bonnet the grey area where VCs do their work.
 
 ### Policy
 See the documents in this repo titled [LICENSE.md](https://github.com/WebOfTrust/Keri/blob/main/LICENSE.md) and [CONTRIBUTING.md](https://github.com/WebOfTrust/Keri/blob/main/CONTRIBUTING.md) for licensing and contributing policy. Besides the IETF licensing terms, these include the comprehensive Apache2 license for all associated intellectual property (IP) including patents. The advantage of one comprehensive license for all contributions is that there will always be alignment between all contibutors and for any type of contribution. This alignment includes an **inbound=outbound** [policy](https://opensource.guide/legal/) for all related IP. We only want contributions to KERI made here in the WebOfTrust project that are licensed as free, and [nonreciprocal](https://opensource.org/node/875) open source be it software or specification.  
