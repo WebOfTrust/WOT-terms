@@ -11,7 +11,7 @@ Co-Host: Philip Feairheller [email](pfeairheller@gmail.com)
 Meeting Bi-weekly starting on 2022-07-28 at 10 am EDT, 4PM CEST
 
 Agenda:
-https://github.com/WebOfTrust/WOT-terms/blob/main/agenda.md
+[here](./agenda.md)
 
 Zoom Meeting:
 {URL}
@@ -19,7 +19,7 @@ Meeting ID: {ID}
 Passcode: {ID}
 
 Calendar Invite:
-https://us02web.zoom.us/meeting/tZ0lc-uhrjsrEtFmV2aSfAzR015DDL-ld-hg/ics?icsToken=98tyKuGhpj8oE9SVsRGCRpx5Go-ga_PziGJcj7d7kSm3AhNVQxnEZrMXFpZTXdTU
+{here the link}
 
 KERI Slack: keriworld.slack.com
 https://join.slack.com/t/keriworld/shared_invite/zt-14326yxue-p7P~GEmAZ65luGSZvbgFAQ
