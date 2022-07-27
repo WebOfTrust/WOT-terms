@@ -3,7 +3,7 @@ tags: KERI, CESR, OOBI, ACDC, IETF, Concepts, Terminology, Education, Glossary
 ---
 
 # KERI Terminology and Education Meeting Agenda
-
+[![hackmd-github-sync-badge](https://hackmd.io/gHe_VCAwT9qmdzXe-Cx3MA/badge)](https://hackmd.io/gHe_VCAwT9qmdzXe-Cx3MA)
 
 Host: Henk van Cann [email](h.vancann@blockchainbird.org)
 Co-Host: Philip Feairheller [email](pfeairheller@gmail.com)
