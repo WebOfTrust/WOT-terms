@@ -12,23 +12,29 @@ The table below lists all deliverables of the KERI Community:
 
 ### Why Concepts, Terminology and Education
 
+**How will KERI (secure attribution) and ACDC (veracity) be adopted?**
+
 You can set up and offer a technical tool, but it's a choice to use the tool and the freedom to do so (use cases!) and give meaning.
 
 {Explain Concepts}
 
 {EXplain IETF, ToIP, eSSIF}
 
+### Frame of reference
+
 Within the KERI scope, a search for criteria and consciously, on the basis of objectives, switching from one frame of reference to another, for example from KERI <-> ToIP <-> eSSIF <-> KERI 
 
 {Explain transformations and criteria as the basis to make decisions and understand each other}
 
-An example transformation KERI <-> eSSIF
+An *example* transformation KERI <-> eSSIF
+
 - Two stars (**) Verification "yes, the passport is valid".
 - One star (*) Validation "no, you can't use it in China, because less than 6 months to expiry date")
 - Three stars (***) Validation and verification are synonymous under the bonnet of KERI, with the criterion that everything must be cryptographically verifiable to the root-of-trust as soon as it comes to yes/no derivations, Veracity ("is it true what is said?") covers under the bonnet the grey area where VCs do their work.
 
 ### Policy
-See the documents in this repo titled [LICENSE.md](https://github.com/WebOfTrust/Keri/blob/main/LICENSE.md) and [CONTRIBUTING.md](https://github.com/WebOfTrust/Keri/blob/main/CONTRIBUTING.md) for licensing and contributing policy. Besides the IETF licensing terms, these include the comprehensive Apache2 license for all associated intellectual property (IP) including patents. The advantage of one comprehensive license for all contributions is that there will always be alignment between all contibutors and for any type of contribution. This alignment includes an **inbound=outbound** [policy](https://opensource.guide/legal/) for all related IP. We only want contributions to KERI made here in the WebOfTrust project that are licensed as free, and [nonreciprocal](https://opensource.org/node/875) open source be it software or specification.  
+
+See the documents in this repo titled [LICENSE.md](https://github.com/WebOfTrust/Keri/blob/main/LICENSE.md) and [CONTRIBUTING.md](https://github.com/WebOfTrust/Keri/blob/main/CONTRIBUTING.md) for licensing and contributing policy. Besides the IETF licensing terms, these include the comprehensive Apache2 license for all associated intellectual property (IP) including patents. The advantage of one comprehensive license for all contributions is that there will always be alignment between all contributors and for any type of contribution. This alignment includes an **inbound=outbound** [policy](https://opensource.guide/legal/) for all related IP. We only want contributions to KERI made here in the WebOfTrust project that are licensed as free, and [nonreciprocal](https://opensource.org/node/875) open source be it software or specification.  
 
 ## Meetings
 
@@ -38,7 +44,15 @@ The zoom link is here:
 The meeting agenda may be found [here](https://github.com/WebOfTrust/WOT-terms/blob/main/agenda.md)
 
 ### Related Meetings
-A closely related specification that leverages KERI is ACDC. This is hosted at ToIP and meets on the alternate weeks at the same time as the KERI meetings. These meetings complement the KERI meetings reference above. For information look here [ToIP ACDC Task Force](https://wiki.trustoverip.org/display/HOME/ACDC+Meeting+Page) and here [ACDC IETF Draft](https://github.com/trustoverip/tswg-acdc-specification).
+
+Our Terms and Education meeting is at the intersection Technical and Conceptual meetings. For KERI, CESR, OOBI and ACDC it's especially important to explain our concepts to the outside world because it's new and complex matter.
+
+#### Technical
+ACDC leverages KERI. The [ACDC Task Force meeting](https://wiki.trustoverip.org/display/HOME/ACDC+%28Authentic+Chained+Data+Container%29+Task+Force) is hosted at ToIP and meets on the alternate weeks at the same time as the [KERI meetings](https://github.com/WebOfTrust/keri/blob/main/agenda.md). The ACDC meetings complement the KERI meetings. Both meetings are focussed on technicalities, specifications and code developments.
+
+#### Conceptual
+There also is the [Concepts and terminology](https://wiki.trustoverip.org/pages/viewpage.action?pageId=65700) of Trust over IP. It's a meeting that aligns Trust over IP (North America) and eSSIF (Europe) efforts in getting understood: concepts, terminology and glossaries and importantly being able to use and reference each others work.
+
 
 ## Existing Implementations
 The reference implementation for KERI is the keripy implementation. This is hosted here by the WebOfTrust project. The repository may be found here:  
