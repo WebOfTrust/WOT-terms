@@ -110,7 +110,8 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 # the description is used in the feed.xml file
 
 # Github pages 
-url: http://henkvancann.github.io
+# url: http://henkvancann.github.io
+url: http://weboftrust.github.io
 baseurl: /WOT-terms
 
 github: [metadata]
