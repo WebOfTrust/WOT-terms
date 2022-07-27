@@ -1,0 +1,44 @@
+# WebofTrust Concepts, Terminology and Education
+
+
+### Associated Specifications
+The table below lists all deliverables of the KERI Community:
+| Acronym | Full Name of Deliverable | Link to Deliverable | Lead Authors | Status / Notes |
+|---|---|---|---|---|
+| KERI | Attributable (Autonomic) Identifiers (KERI) | [IETF KERI Draft](https://github.com/WebOfTrust/ietf-keri) | Samuel Smith | |
+| CESR | Composable Event Streaming Representation | [IETF CESR Draft](https://github.com/WebOfTrust/ietf-cesr)| Samuel Smith |[Active Draft](https://datatracker.ietf.org/doc/draft-ssmith-cesr/)|
+| ACDC | Authentic Chained Data Containers | [IETF ACDC Draft](https://github.com/trustoverip/tswg-acdc-specification) | Samuel Smith | [Active Draft](https://datatracker.ietf.org/doc/draft-ssmith-acdc/) |
+| OOBI | Out-Of-Band-Introduction | [IETF OOBI Draft](https://github.com/WebOfTrust/ietf-oobi) | Sam Smith |[Active Draft](https://datatracker.ietf.org/doc/draft-ssmith-oobi/)|
+
+### Why Concepts, Terminology and Education
+
+The value statement and organizational principles of the IETF strongly resonate with KERI.
+Quoting from [The Tao of IETF](https://www.ietf.org/about/participate/tao/), **emphasis added**:
+
+### Policy
+See the documents in this repo titled [LICENSE.md](https://github.com/WebOfTrust/Keri/blob/main/LICENSE.md) and [CONTRIBUTING.md](https://github.com/WebOfTrust/Keri/blob/main/CONTRIBUTING.md) for licensing and contributing policy. Besides the IETF licensing terms, these include the comprehensive Apache2 license for all associated intellectual property (IP) including patents. The advantage of one comprehensive license for all contributions is that there will always be alignment between all contibutors and for any type of contribution. This alignment includes an **inbound=outbound** [policy](https://opensource.guide/legal/) for all related IP. We only want contributions to KERI made here in the WebOfTrust project that are licensed as free, and [nonreciprocal](https://opensource.org/node/875) open source be it software or specification.  
+
+## Meetings
+
+We meet every other Thursday at 10 am EDT (or EST). (First meeting 2022 July 28)
+The zoom link is here:
+{TBW prio 1 data}
+The meeting agenda may be found [here](https://github.com/WebOfTrust/WOT-terms/blob/main/agenda.md)
+
+### Related Meetings
+A closely related specification that leverages KERI is ACDC. This is hosted at ToIP and meets on the alternate weeks at the same time as the KERI meetings. These meetings complement the KERI meetings reference above. For information look here [ToIP ACDC Task Force](https://wiki.trustoverip.org/display/HOME/ACDC+Meeting+Page) and here [ACDC IETF Draft](https://github.com/trustoverip/tswg-acdc-specification).
+
+## Existing Implementations
+The reference implementation for KERI is the keripy implementation. This is hosted here by the WebOfTrust project. The repository may be found here:  
+* [keripy](https://github.com/WebOfTrust/keripy) – under development  
+
+The keripy implementation is Apache2 licensed as are all repositories in the WebOfTrust project. 
+
+There is also an Apache2 licensed Rust implementation of KERI hosted by the WebOfTrust project which may be found here:   
+* [keriox](https://github.com/WebOfTrust/keriox) – under development  
+
+The primary contributors to keriox have since moved their efforts to a [repository](https://github.com/THCLab/keriox) with a non Apache2 license. 
+As a result the WebOfTrust keriox implementation above is somewhat behind the keripy implementation in terms of
+feature support. We encourage the community to step forward and continue development of the Apache2 licensed Rust implementation.
+
+We also encourage creation of Educational material and resources for KERI, CESR, OOBI and ACDC in other appearances. We are happy to host other activities here in the WebOfTrust project as long as they are Apache2 licensed.
