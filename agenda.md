@@ -69,10 +69,8 @@ Explanation of KERI development tools and techniques (preliminary link): [KERI d
 - Recording {link}
 
 - Agenda
-  - Why are we doing the Terms & Edu call?
+  - Why are we doing the Concepts, Terms & Edu call?
   - What are the main sources of info / concepts / terms currently for KERI/ACDC
   - How to sync glossaries with the outside world, a proposal
   - How to set up KERI/ACDC education at various levels of understanding.
   - {any other pressing questions / issues / suggestions ?}
-
-
