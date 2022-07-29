@@ -137,7 +137,7 @@ One idea was to OCR one or both presentations of `Philip` that have been recorde
 
 `Steven` express his wish for easy to use Developer-tooling CLI, and Docker containers to able to demonstrate KERI/ACDC to others. `Philip` says the status of the currently outdated Docker container of *Keripy* and *Keep*: 'to be updated soon'.
 
-The meeting concluded with the structure of the future agenda (by `Philip`): time-slot based, and addressing the topics list under the [new agenda](./2022-08-11) for the next meeting.
+The meeting concluded with the structure of the future agenda (by `Philip`): time-slot based, and addressing the topics list under the [new agenda](#2022-08-11) for the next meeting.
 
 ---
 
