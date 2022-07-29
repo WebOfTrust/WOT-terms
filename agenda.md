@@ -90,6 +90,7 @@ Michal Pietrus
 - Recording {no recording made}
 
 - Agenda
+
   1. Why are we doing the Terms & Edu call?
   2. What are the main sources of info / concepts / terms currently for KERI/ACDC
   3. How to sync glossaries with the outside world, a proposal
@@ -113,7 +114,7 @@ Main take away: What `Henk` would like participants to do is
 > as far as adoption of KERI/ACDC is concerned
 Our target groups apart from the KERI/ACDC development teams, are:
 1. The participants of this Zoom meeting series
-2. People working for Foundations like ToIP, eSSIF and DIF
+2. People working for Foundations like ToIP, eSSIF-lab and DIF
 3. SSI Experts
 4. Experts working in the security and Identity field
 
@@ -137,3 +138,5 @@ One idea was to OCR one or both presentations of `Philip` that have been recorde
 `Steven` express his wish for easy to use Developer-tooling CLI, and Docker containers to able to demonstrate KERI/ACDC to others. `Philip` says the status of the currently outdated Docker container of *Keripy* and *Keep*: 'to be updated soon'.
 
 The meeting concluded with the structure of the future agenda (by `Philip`): time-slot based, and addressing the topics list under the [new agenda](./2022-08-11) for the next meeting.
+---
+End of report first Zoom meeting
