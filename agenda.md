@@ -121,7 +121,7 @@ Our target groups apart from the KERI/ACDC development teams, are:
 `Henk` suggest to explicitely not target the outside world (family, friends, etc) to try and convince, because that'll be another level of complexity to achieve?
 
 ##### Agenda-point 2 not explicitely addressed: resource list
-Although we haven't really addressed the agenda item 2 "What are the main sources of info / concepts / terms currently for KERI/ACDC" the list is in the making [here]#resources. Feel free to offer Pull Requests and extend the list.
+Although we haven't really addressed the agenda item 2 "What are the main sources of info / concepts / terms currently for KERI/ACDC" the list is in the making [here](#resources). Feel free to offer Pull Requests and extend the list.
 
 #### Get the content out
 
