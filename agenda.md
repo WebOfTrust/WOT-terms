@@ -59,6 +59,7 @@ Explanation of KERI development tools and techniques (preliminary link): [KERI d
 ## Meetings
 
 ### Future Topics
+Steven Milstein: Developer-tooling CLI, Docker containers
 
 ### ToDo
 
@@ -89,35 +90,50 @@ Michal Pietrus
 - Recording {no recording made}
 
 - Agenda
-  - Why are we doing the Terms & Edu call?
-  - What are the main sources of info / concepts / terms currently for KERI/ACDC
-  - How to sync glossaries with the outside world, a proposal
-  - How to set up KERI/ACDC education at various levels of understanding.
-  - {any other pressing questions / issues / suggestions ?}
+  1. Why are we doing the Terms & Edu call?
+  2. What are the main sources of info / concepts / terms currently for KERI/ACDC
+  3. How to sync glossaries with the outside world, a proposal
+  4. How to set up KERI/ACDC education at various levels of understanding.
 
 - Minutes\
   Skipped round of intros, but asked for personal motivation to join the Zoom meeting:\
   `Steven` misses the foundational work to structure the KERI and ACDC terminology: "It's a blur full of acronyms, I would like to change this"\
   `Kent` sees SSI in general and KERI/ACDC in particulier being able to change the current power dynamics (e.g. CBDC, central bank digital currencies) for the good: control over your identifiers. "I'd like to do this via strictly open source development on one hand and the development of courses as a commercial activity on the other"\
   `Joseph`'s preference is top down approach, but minimalistic. He sees Use cases as the most important stepping stone to a sophisticated Terminology base, "and from this custom made towards target groups."\
-  `Philip` stresses the importance of getting the word out. "We've been working heads done to get the code ready, now it's time to document it properly"
-  `Mijo` is in de provenance team and working with on Kimi the mobile interface. That's his perspective, he recognizes the jungle of wording Steven pointed out and want to learn what KERI and ACDC is all about.
+  `Philip` stresses the importance of getting the word out. "We've been working heads done to get the code ready, now it's time to document it properly"\
+  `Mijo` is in de provenance team and working with on Kimi the mobile interface. That's his perspective, he recognizes the jungle of wording Steven pointed out and want to learn what KERI and ACDC is all about.\
   `Henk` presented his personal motivation during the presentation.
 
 #### Presentation
 
-[Google slides](https://docs.google.com/presentation/d/1Aqj8GkiLLo2bvwJK_9wU3h_1vGtYVU5zKe4KjFQ-Ga4/edit#slide=id.g13fad489b5e_0_175) 
+[Google slides](https://docs.google.com/presentation/d/1Aqj8GkiLLo2bvwJK_9wU3h_1vGtYVU5zKe4KjFQ-Ga4/edit#slide=id.g13fad489b5e_0_175) meant to introduce three of four agenda items (1,3 and 4).
 
-Main take away: What Henk would like participants to do is 
+Main take away: What `Henk` would like participants to do is 
 > think about what's important to you
 > as far as adoption of KERI/ACDC is concerned
-  
-As dicussion evolved during the meeting, we've changed this to *usecase-based* way (the voting example) of thinking and to keep it *very practical and simple*.\
+Our target groups apart from the KERI/ACDC development teams, are:
+1. The participants of this Zoom meeting series
+2. People working for Foundations like ToIP, eSSIF and DIF
+3. SSI Experts
+4. Experts working in the security and Identity field
+
+`Henk` suggest to explicitely not target the outside world (family, friends, etc) to try and convince, because that'll be another level of complexity to achieve?
+
+#### Get the content out
+
+`Steven` strongly advices from his experience (with analysis paralysis) to:
+1. Keep the .md harvesting manual, simple and get the content out.
+`Joseph` adds:
+2. Describe credible use cases and 
+3. derive target groups from use cases, not the other way around.
+
+As dicussion evolved during the meeting, we've changed this to *usecase-based* way (the voting example and the 'I control my data' narrative; by `Kent`) of thinking and to keep it *very practical and simple*.\
 We need appealing narratives.
 
-One idea was to OCR one or both presentations of Philip that have been recorded:
+One idea was to OCR one or both presentations of `Philip` that have been recorded. 
 - [Phil's demo](https://onedrive.live.com/?authkey=%21AMjKofNCEMxYC10&cid=67133A6AC26E649A&id=67133A6AC26E649A%21118&parId=root&o=OneUp)
 - {the other one is??}
 
-The meeting concluded with the structure of the future agenda: time slot based and addressing the topics listen under the [new agenda](./2022-08-11) for the next meeting.
+`Steven` express his wish for easy to use Developer-tooling CLI, and Docker containers to able to demonstrate KERI/ACDC to others. `Philip` says the status of the currently outdated Docker container of *Keripy* and *Keep*: 'to be updated soon'.
 
+The meeting concluded with the structure of the future agenda (by `Philip`): time-slot based, and addressing the topics list under the [new agenda](./2022-08-11) for the next meeting.
