@@ -18,15 +18,15 @@ You can set up and offer a technical tool, but it's a choice to use the tool and
 
 {Explain Concepts}
 
-{EXplain IETF, ToIP, eSSIF}
+{EXplain IETF, ToIP, eSSIF-Lab}
 
 ### Frame of reference
 
-Within the KERI scope, a search for criteria and consciously, on the basis of objectives, switching from one frame of reference to another, for example from KERI <-> ToIP <-> eSSIF <-> KERI 
+Within the KERI scope, a search for criteria and consciously, on the basis of objectives, switching from one frame of reference to another, for example from KERI <-> ToIP <-> eSSIF-Lab <-> KERI 
 
 {Explain transformations and criteria as the basis to make decisions and understand each other}
 
-An *example* transformation KERI <-> eSSIF
+An *example* transformation KERI <-> eSSIF-Lab
 
 - Two stars (**) Verification "yes, the passport is valid".
 - One star (*) Validation "no, you can't use it in China, because less than 6 months to expiry date")
