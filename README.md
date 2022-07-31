@@ -14,9 +14,17 @@ The table below lists all deliverables of the KERI Community:
 
 **How will KERI (secure attribution) and ACDC (veracity) be adopted?**
 
-You can set up and offer a technical tool, but it's a choice to use the tool and the freedom to do so (use cases!) and give meaning.
+Anyone can set up and offer a technical tool and proponents could explain perceived use-cases, technology applications, even their general advantages and face-value features, but it's what the recipient ***believes***. Subsequently it's a choice to either study and use the tool or ignore it.\
+This attitude could well be Reciprocal: designers and creators of technology have the freedom to not be bothered by the lack of practical use cases at all. Or misunderstanding the concepts behind the tooling.
 
-{Explain Concepts}
+Given a wish to be mutually understand each-other (this includes the awareness of being understood) we could serve the interested recipient of information about this great innovation by:
+
+1. **Explaining the concepts** that introduce terminology, explain the terminology at various levels of understanding and in certain domains (e.g. in certain use-cases)
+2. **Asking questions** about how this explanation is received and offer next steps to dive deeper into the resources available
+
+Then what might magically happen is that somewhere in this process the recipients concludes that the tool has **meaning** for them! He/she believes it has unique characteristics, value, practical application etc. There might even be someone that *sees* it's the next big thing on the web, like the KERI / ACDC tends to believe.
+
+So this is why we explain our concepts in various levels of understanding and link it to terminology spun in a interrelated glossary. Here you can find the KERI, OOBI, CESR and ACDC concepts, starting points and principles: [Concepts.md](./concept.md)
 
 {EXplain IETF, ToIP, eSSIF-Lab}
 
