@@ -17,7 +17,7 @@ Understanding could vary in different domains and use-cases (e.g. a controller i
 
 ### New terminology, acronyms and abbreviations
 
-KERI is a totally different beast. So inevitably new terminology surfaces in the process of designing KERI and ACDC. In this concepts page we try to explain them in few levels of understanding and using analogies to and symbols in the world the newbie identity expert
+KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevitably, new terminology has surfaced in the design of KERI and ACDC. In this `concepts` page we try to explain them in a few [levels of understanding](./README.md#levels-of-understanding) and we've used analogies and symbols that hopefully make sense in the worlds of respectively the newbie - and the advanced identity expert.
 
 ## Concepts
 
