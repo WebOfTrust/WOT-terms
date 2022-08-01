@@ -25,7 +25,7 @@ is an often used phrase. Not to intimidate or to be condescending, but to stress
 
 > Without understanding our peers, 
 > we won't be able to help them understand the KERI /ACDC concepts, 
-> without understanding and believe, 
+> without understanding and belief, 
 > there won't be adoption.
 
 ### Concepts, here we go!
@@ -52,7 +52,7 @@ So far we've used a star system that indicates the suitability of questions, ans
 
 ### We need use cases for adoption
 
-"We need use cases for adoption" is a claim based on strong believes among the participant of the WOT-terms (Zoom) group.
+"We need use cases for adoption" is a claim based on strong beliefs among the participant of the WOT-terms (Zoom) group.
 
 We could investigate the **correlation between levels of understanding** (beginner, advanced, expert) **and how use cases could be approached**. To illustrate this presumed correlation, we sketch the *adoption of cars* in hindsight: 
 
