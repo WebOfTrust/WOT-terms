@@ -29,22 +29,25 @@ KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevit
 
 #### Secure Attribution over the internet - verifiability to root-of-trust - no middlemen
 
+<!-- #######NEW BLOCK####### -->
 ### Objectives of Authentic Chained Data Containers (ACDC)
 
 #### Veracity of credentials through authoritative proof of authorship
 
 #### Self-contained data - Self addressing identifier - self proving data blocks - provable consistency -  signed commitments by controllers of the identifiers
 
+<!-- #######NEW BLOCK####### -->
 ### Practical principles
 
 #### Simple cryptography, which has a long standing durability record
 
-#### Minimal sufficient means to an end
+#### Minimal sufficient means to an end - thresholded multi signs
 
 #### Round-robin transposable streaming format text-binary-text-binary-etc
 
 #### Out-of-band introduction - strong in-band validation
 
+<!-- #######NEW BLOCK####### -->
 ### Framework conditions
 
 #### Its and Bits - Cryptography and one-way functions is the only thing than can safe our digital twin
@@ -55,6 +58,7 @@ KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevit
 
 #### Anonymity is non-existing anymore - second best is expensive and timely pseudonymity
 
+<!-- #######NEW BLOCK####### -->
 ### Design principles
 
 #### Security first, then confidentiality, then privacy
@@ -69,7 +73,11 @@ KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevit
 
 #### Internal consistency (VDS) and external consistency
 
-#### Ambient verifiability
+#### Key events - sequence number
+
+#### Transaction event log (TEL) separated - anchored in KEL - minimal sufficient means - secondary root-of-trust (dependent of anchoring KEL for primary root-of-trust validation)
+
+#### Ambient verifiability - hash chained data structures
 
 #### Content addressable hashes - uniqueness - finding - unchanged
 
@@ -77,8 +85,9 @@ KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevit
 
 #### Pre-rotation - quantum protection - security fallback (exposure, theft) - portray changing power dynamics
 
-#### Rotation - control authority without transaction
+#### Rotation - transfer of control authority without transaction
 
+<!-- #######NEW BLOCK####### -->
 ### Autonomic governance principles and pre-conditions
 
 #### Duplicity - Don’t trust unique identifiers with multiple states per default
@@ -89,6 +98,7 @@ KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevit
 
 #### Secondary root-of-trust - non-portable anchoring to blockchains as an extra layer of guarantee (above KELs)
 
+<!-- #######NEW BLOCK####### -->
 ### Human governance principles and pre-conditions
 
 #### Freedom of witness and backer organization
@@ -97,6 +107,9 @@ KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevit
 
 #### Private keys need to be kept private
 
+#### Validation of Key event logs to the point where you arrived last time
+
+<!-- #######NEW BLOCK####### -->
 ### Criteria we share with the SSI community
 
 #### 10 principles of SSI
