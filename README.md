@@ -23,7 +23,10 @@ Ignoring could be reciprocal. Designers and creators of the (KERI / ACDC) techno
 ```
 is an often used phrase. Not to intimidate or to be condescending, but to stress criteria that decide whether a certain perceived 'situation' is relevant within the constraints of KERI or ACDC or not. Especially experts from the blockchain world and DID world have a hard time to get their head around KERI and ACDC. That's a statistical fact, and again, hopefully not a way to put people off but to create a sort of awareness that the road to understanding KERI / ACDC could be a bumpy one.
 
-Without understanding our peers, we won't be able to help them understand the KERI concepts, without understanding and believe, there won't be adoption.
+> Without understanding our peers, 
+> we won't be able to help them understand the KERI /ACDC concepts, 
+> without understanding and believe, 
+> there won't be adoption.
 
 ### Concepts, here we go!
 
@@ -53,8 +56,8 @@ So far we've used a star system that indicates the suitability of questions, ans
 
 We could investigate the **correlation between levels of understanding** (beginner, advanced, expert) **and how use cases could be approached**. To illustrate this presumed correlation, we sketch the *adoption of cars* in hindsight: 
 
-'* beginner -> a newbie might be triggered by meaning and practical advantages (transportation, entertainment, etc.)
-'** advanced -> an advanced person is a skilled power user of the car (she knows about refuelling, starting, shifting, steering, braking, maintenance, etc.)
+'* beginner -> a newbie might be triggered by meaning and practical advantages (transportation, entertainment, etc.)\
+'** advanced -> an advanced person is a skilled power user of the car (she knows about refuelling, starting, shifting, steering, braking, maintenance, etc.)\
 '*** expert -> this is the car mechanic: technically skilled and very knowledgeable (mastering everything under the bonnet, and comparisons from the top of his head.)
 
 {TBW prio 2: how to investigate whether this correlation is present and if so how it could work with the one, two, three star model. }
