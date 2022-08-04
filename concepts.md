@@ -61,7 +61,7 @@ KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevit
 <!-- #######NEW BLOCK####### -->
 ### Design principles
 
-#### Security first, then confidentiality, then privacy
+#### Security first (no compromise), then confidentiality (gradually give up in exchange for), then privacy (personal choice within the boundaries of confidentiality at hand)
 
 #### Strong bindings - security first
 
@@ -69,7 +69,18 @@ KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevit
 
 #### Primary root of trust - sufficient entropy / randomness + Private keys need to be kept private
 
-#### Portability - no anchoring to silos
+#### Generic classes of self-certifying identifiers
+
+The KERI design approach is to build composable primitives instead of custom functionality that is so typical of other DKMI approaches:
+
+- transferable identifiers
+- non-transferable identifiers
+- delegated identifiers Consequently when applied recursively, delegation may be used to compose arbitrarily complex trees of hierarchical (delegative) key management event streams. 
+
+This is the arguably most powerful capability that may provide an essential building block for a generic universal decentralized key management infrastructure (DKMI) that is also compatible with the demand of generic event streaming applications.
+(new invention) More in the [whitepaper](https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf)
+
+#### Portability - no dependent anchoring to silos - extensible - transfer them off a ledger
 
 #### Internal consistency (VDS) and external consistency
 
@@ -77,7 +88,7 @@ KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevit
 
 #### Transaction event log (TEL) separated - anchored in KEL - minimal sufficient means - secondary root-of-trust (dependent of anchoring KEL for primary root-of-trust validation)
 
-#### Ambient verifiability - hash chained data structures
+#### Ambient verifiability - hash chained data structures - scalable
 
 #### Content addressable hashes - uniqueness - finding - unchanged
 
@@ -85,35 +96,51 @@ KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevit
 
 #### Pre-rotation - quantum protection - security fallback (exposure, theft) - portray changing power dynamics
 
-#### Rotation - transfer of control authority without transaction
+#### Rotation - transfer of control authority without transaction - scalable
+
+#### JSON-LD and triples are too simple (only "is"/"has") - we are proponents of property graphs
 
 <!-- #######NEW BLOCK####### -->
 ### Autonomic governance principles and pre-conditions
 
 #### Duplicity - Don’t trust unique identifiers with multiple states per default
 
-#### Reconciliation - use consensus mechanism to try to recover from duplicity
+#### Reconciliation - use consensus mechanism to try to recover from duplicity - scalable
 
-#### Delegation - non-custodial - always staying in control
+#### Delegation - non-custodial - always staying in control - scalable
 
 #### Secondary root-of-trust - non-portable anchoring to blockchains as an extra layer of guarantee (above KELs)
 
 <!-- #######NEW BLOCK####### -->
 ### Human governance principles and pre-conditions
 
-#### Freedom of witness and backer organization
+#### Freedom of witness and backer organization - extensible - scalable
 
-#### Freedom of validator and watchtower organization
+#### Freedom of validator and watchtower organization - extensible - scalable
 
 #### Private keys need to be kept private
 
 #### Validation of Key event logs to the point where you arrived last time
 
+#### Strive to minimize correlation 
+Correlation between identifiers and there controlling human beings and binding of identifiers to human beings in general.
+
+#### ALl we can do to guarantee sufficient randomness, we (advise to) do
+Applying salts, stretching passwords, etc.
+
 <!-- #######NEW BLOCK####### -->
 ### Criteria we share with the SSI community
+
+#### Zero trust
 
 #### 10 principles of SSI
 
 #### SSI identity book Reed / Preuschat
 
 #### Key management and asset planning
+
+#### Prevent repeated use of a public key 
+It weakens them, because it exposes it and allows people an opportunity to try and work against it.
+
+#### Self-dertimination
+It's all your own identifier and you're controlling your identifier, so it's up to you what security constraints you want for that identifier. Anchoring, witness pools, thresholds, etc.
