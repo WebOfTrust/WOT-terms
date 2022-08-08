@@ -31,8 +31,6 @@ Don't try KERI and ACDC on your family, friends and other innocent bystanders.
 The .CSV-file [here](https://github.com/WebOfTrust/WOT-terms/blob/main/resources/Terms-transcription-Phils-demo-IIIW.csv) that is the basis for this page, could be used to be imported elsewhere, to filter on the level field, and/or provide links or brief explanation to students.
 
 
-<div class="foo">
-
 | Term | link | vidstart | level | text |
 |---|---|---|---|---|
 | IIW | https://internetidentityworkshop.com | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m03s | 7 | Internet Identity Workshop twice in a year un-conference since 2005 | 0:00:03.520 | 00 | 03 |
@@ -142,5 +140,3 @@ The .CSV-file [here](https://github.com/WebOfTrust/WOT-terms/blob/main/resources
 | escrow states |  | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=56m59s | 7 |  | 0:56:59.200 | 56 | 59 |
 | server-sent events |  | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=57m19s | 7 |  | 0:57:19.920 | 57 | 19 |
 |  |  |  |  |  |  |  |  |
-
-</div>
