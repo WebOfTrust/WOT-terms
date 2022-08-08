@@ -1,9 +1,6 @@
 <style>
 /*.foo table {*/
 
-body {
-    font-size: 500%;
-}
     
 table th:first-of-type {
     width: 20%;
