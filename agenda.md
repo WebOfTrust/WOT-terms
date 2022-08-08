@@ -43,7 +43,8 @@ KERI Slack: keriworld.slack.com
 https://join.slack.com/t/keriworld/shared_invite/zt-14326yxue-p7P~GEmAZ65luGSZvbgFAQ
 
 ### Resources
-[Technical Concepts](https://keri.one/keri-resources) developed by and explained by prof. Samuel M. Smith
+[Technical Concepts](https://keri.one/keri-resources) developed by and explained by prof. Samuel M. Smith\
+Direct links: All relevant [white papers](https://github.com/SmithSamuelM/Papers) and a table of [IETF-drafts](https://github.com/WebOfTrust/keri) of which the status is kept up to date.
 
 Explanatory articles from Henk van Cann about KERI, CESR, OOBI, Autonomic identifiers:
 
@@ -90,7 +91,6 @@ Michal Pietrus
 - Recording {no recording made}
 
 - Agenda
-
   1. Why are we doing the Terms & Edu call?
   2. What are the main sources of info / concepts / terms currently for KERI/ACDC
   3. How to sync glossaries with the outside world, a proposal
@@ -114,14 +114,11 @@ Main take away: What `Henk` would like participants to do is
 > as far as adoption of KERI/ACDC is concerned
 Our target groups apart from the KERI/ACDC development teams, are:
 1. The participants of this Zoom meeting series
-2. People working for Foundations like ToIP, eSSIF-lab and DIF
+2. People working for Foundations like ToIP, eSSIF and DIF
 3. SSI Experts
 4. Experts working in the security and Identity field
 
 `Henk` suggest to explicitely not target the outside world (family, friends, etc) to try and convince, because that'll be another level of complexity to achieve?
-
-##### Agenda-point 2 not explicitely addressed: resource list
-Although we haven't really addressed the agenda item 2 "What are the main sources of info / concepts / terms currently for KERI/ACDC" the list is in the making [here](#resources). Feel free to offer Pull Requests and extend the list.
 
 #### Get the content out
 
@@ -140,8 +137,4 @@ One idea was to OCR one or both presentations of `Philip` that have been recorde
 
 `Steven` express his wish for easy to use Developer-tooling CLI, and Docker containers to able to demonstrate KERI/ACDC to others. `Philip` says the status of the currently outdated Docker container of *Keripy* and *Keep*: 'to be updated soon'.
 
-The meeting concluded with the structure of the future agenda (by `Philip`): time-slot based, and addressing the topics list under the [new agenda](#2022-08-11) for the next meeting.
-
----
-
-End of report first Zoom meeting
+The meeting concluded with the structure of the future agenda (by `Philip`): time-slot based, and addressing the topics list under the [new agenda](./2022-08-11) for the next meeting.
