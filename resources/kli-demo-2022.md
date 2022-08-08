@@ -1,6 +1,5 @@
 
-<link rel="stylesheet" href="../style.css" type="text/css">
-
+<link rel="stylesheet" href="../style.css" type="text/css"></link>
 
 # kli-demo-2022
 
