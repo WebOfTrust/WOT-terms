@@ -92,7 +92,11 @@ This is the arguably most powerful capability that may provide an essential buil
 
 #### Content addressable hashes - uniqueness - finding - unchanged
 
+#### Non-repudiability
+See [glossary item](https://github.com/trustoverip/acdc/wiki/non-repudiable)
+
 #### First seen - timing solution - overload protection
+KERI alternative to total global ordering and consensus protocols is a mechanism called [duplicity](duplicity) detection. In the [verification](verifiers) and [validation](validation) **watchers are all that matter**; they guarantee that logs are immutable by one very simple rule: "[first seen](first seen) wins".
 
 #### Pre-rotation - quantum protection - security fallback (exposure, theft) - portray changing power dynamics
 
@@ -127,6 +131,10 @@ Correlation between identifiers and there controlling human beings and binding o
 
 #### ALl we can do to guarantee sufficient randomness, we (advise to) do
 Applying salts, stretching passwords, etc.
+
+#### Dumb crypto
+"The point is to be used, not to use the latest, coolest technique that is also very difficult to implement properly. That's the principle of KERI: solve a problem in the real world with the minimum techniques needed. The dumber the technology, but still sufficient to solve the problem, the better. 'Dumb technology' is freely available, understandable to everyone and easy to implement. In our case: just hashes and digital signatures."
+Source: [Sam Smith](https://docs.google.com/document/d/1quOTSGPuFXa_pduaGSHWY8LpfXZiYjzR) 2022
 
 <!-- #######NEW BLOCK####### -->
 ### Criteria we share with the SSI community
