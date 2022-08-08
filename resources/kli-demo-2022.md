@@ -1,26 +1,5 @@
-<style>
-/*.foo table {*/
 
-    
-table th:first-of-type {
-    width: 20%;
-}
-table th:nth-of-type(2) {
-    width: 10%;
-}
-table th:nth-of-type(3) {
-    width: 10%;
-}
-table th:nth-of-type(4) {
-    width: 10%;
-}
-table th:nth-of-type(5) {
-    width: 30%;
-}
-
-/*}*/
-</style>
-
+<link rel="stylesheet" href="../style.css" type="text/css"></link>
 
 # kli-demo-2022
 
@@ -51,8 +30,6 @@ Don't try KERI and ACDC on your family, friends and other innocent bystanders.
 ## Usage of the Comma Separated file
 The .CSV-file [here](https://github.com/WebOfTrust/WOT-terms/blob/main/resources/Terms-transcription-Phils-demo-IIIW.csv) that is the basis for this page, could be used to be imported elsewhere, to filter on the level field, and/or provide links or brief explanation to students.
 
-
-<div class="foo">
 
 | Term | link | vidstart | level | text |
 |---|---|---|---|---|
@@ -163,5 +140,3 @@ The .CSV-file [here](https://github.com/WebOfTrust/WOT-terms/blob/main/resources
 | escrow states |  | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=56m59s | 7 |  | 0:56:59.200 | 56 | 59 |
 | server-sent events |  | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=57m19s | 7 |  | 0:57:19.920 | 57 | 19 |
 |  |  |  |  |  |  |  |  |
-
-</div>
