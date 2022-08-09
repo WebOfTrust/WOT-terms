@@ -12,11 +12,11 @@ folder: mydoc
 
 {% for term in site.terms %}
   <h2>
-    <a href="{{ term.link }}">
-      {{ term.Term }} - {{ term.Level }}\
-      {{ term.Text}}
+    <a href="{{ term.Link }}">
+      {{ term.Term }} - {{ term.Level }}
     </a>
   </h2>
+  <h4>{{ term.Text }}</h4>
   <p>{{ term.content | excerpt }}</p>
 {% endfor %}
 
