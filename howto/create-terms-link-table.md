@@ -46,9 +46,8 @@ As you edit, also have a an Excel sheet open with a few columns:
 
 There are lots of tips and tools on the web you can find to edit your Youtube subtitles / captions. Just to link a few:
 
-- <https://www.makeuseof.com/how-to-create-edit-youtube-subtitles/>
-- <https://support.google.com/youtube/answer/2734705?hl=en>
-- <https://www.makeuseof.com/how-to-create-edit-youtube-subtitles/>
+- https://www.makeuseof.com/how-to-create-edit-youtube-subtitles
+- https://support.google.com/youtube/answer/2734705?hl=en
 
 #### Level
 
@@ -181,7 +180,7 @@ For example:
 
 This is the HackMD result from the step by step above
 
-[[kli-demo-2022](https://hackmd.io/pv11Cne-TiG4zhXUS-T6IA)
+[kli-demo-2022](https://hackmd.io/pv11Cne-TiG4zhXUS-T6IA)
 
 And this the file on Github (notice the fact you need to scroll right through the table)
 
