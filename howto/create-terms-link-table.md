@@ -176,3 +176,13 @@ For example:
 
 <img src="https://hackmd.io/_uploads/HyYs35JC9.png" width="500">
 
+
+## Result
+
+This is the HackMD result from the step by step above
+
+[[kli-demo-2022](https://hackmd.io/pv11Cne-TiG4zhXUS-T6IA)
+
+And this the file on Github (notice the fact you need to scroll right through the table)
+
+[kli-demo-2022.md](https://github.com/WebOfTrust/WOT-terms/blob/main/resources/kli-demo-2022.md)
