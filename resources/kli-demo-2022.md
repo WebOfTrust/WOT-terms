@@ -2,6 +2,8 @@
 <!-- <link rel="stylesheet" href="../style.css" type="text/css"></link> -->
 
 <!-- This should be placed in a CSS file and referenced with the command above in comments -->
+
+
 <style>
 table a {
     display: inline-block;
@@ -54,8 +56,7 @@ Since KERI and ACDC education start off at the level of SSI-expert, a *beginner*
 Just my 2 cents:
 Don't try KERI and ACDC on your family, friends and other innocent bystanders.
 ```
-## Usage of the Comma Separated file
-The .CSV-file [here](https://github.com/WebOfTrust/WOT-terms/blob/main/resources/Terms-transcription-Phils-demo-IIIW.csv) that is the basis for this page, could be used to be imported elsewhere, to filter on the level field, and/or provide links or brief explanation to students.
+
 
 <!-- Paste table data between <Div > tags and cut off unnecessary columnns  
 Adjust column width in the table CSS style definition above -->
@@ -63,7 +64,7 @@ Adjust column width in the table CSS style definition above -->
 
     
 | Term | text | link | vidstart | level | 
-|---|----|---|---|---|
+|---|---|---|---|---|
 | IIW | Internet Identity Workshop twice in a year un-conference since 2005 | https://internetidentityworkshop.com | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m03s | 7 | 0:00:03.520 | 00 | 03 |
 | KERI | Key Event Receipt Infrastructure | https://github.com/WebOfTrust/keri | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m12s | 7 | 0:00:12.480 | 00 | 12 |
 | repo | Software repository | https://github.com/trustoverip/acdc/wiki/repo | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m27s | 3 | 0:00:27.600 | 00 | 27 |
@@ -155,21 +156,21 @@ Adjust column width in the table CSS style definition above -->
 | URLs | A reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it | https://github.com/trustoverip/acdc/wiki/uniform-resource-locator-(URL) | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=33m00s | 1 | 0:33:00.720 | 33 | 00 |
 | IP-address | A numerical label such as '192.0.2.1' that is connected to a computer network that uses the Internet Protocol for communication | https://github.com/trustoverip/acdc/wiki/ip-address | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=33m42s | 1 | 0:33:42.160 | 33 | 42 |
 | TCP endpoint | This is a service endpoint of the web transmission control protocol | https://github.com/trustoverip/acdc/wiki/tcp-endpoint | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=34m00s | 3 | 0:34:00.320 | 34 | 00 |
-| inquisitor |  |  | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=37m19s | 7 | 0:37:19.280 | 37 | 19 |
+| inquisitor |  | https://github.com/trustoverip/acdc/wiki/inquisitor | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=37m19s | 7 | 0:37:19.280 | 37 | 19 |
 | dip: tag |  |  | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=49m13s | 7 | 0:49:13.520 | 49 | 13 |
 | icp: tag |  |  | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=49m13s | 7 | 0:49:13.520 | 49 | 13 |
 | di: tag |  |  | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=49m20s | 7 | 0:49:20.000 | 49 | 20 |
-| locked state |  |  | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=52m22s | 7 | 0:52:22.640 | 52 | 22 |
-| onepass |  |  | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=53m04s | 7 | 0:53:04.320 | 53 | 04 |
+| locked state | default state of an encrypted KERI data store with a passcode | https://github.com/trustoverip/acdc/wiki/locked-state | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=52m22s | 7 | 0:52:22.640 | 52 | 22 |
+| onepass | password manager | https://github.com/doglex/onepass | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=53m04s | 7 | 0:53:04.320 | 53 | 04 |
 | data OOBIs | data out-of-band ntroductions | https://github.com/trustoverip/acdc/wiki/out-of-band-introduction-(OOBI) | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=53m48s | 7 | 0:53:48.720 | 53 | 48 |
 | credential schema OOBIs | credential schema out-of-band ntroductions | https://github.com/trustoverip/acdc/wiki/out-of-band-introduction-(OOBI) | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=53m54s | 7 | 0:53:54.800 | 53 | 54 |
 | Keep | Is KERI's and ACDC's crypto wallet: A task orientated application for managing AIDs in ecosystems, e.g. the vLEI Ecosystem | https://github.com/trustoverip/acdc/wiki/keep | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=54m12s | 7 | 0:54:12.560 | 54 | 12 |
 | zero trust | a Zero Trust approach trusts no one | https://github.com/trustoverip/acdc/wiki/zero-trust | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=55m37s | 3 | 0:55:37.600 | 55 | 37 |
-| credential registries |  |  | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=55m53s | 3 | 0:55:53.840 | 55 | 53 |
+| credential registries | Is a functional component that has the capability to register and advertise the information about Credential Types that their respective Governing Parties have decided to disclose | https://essif-lab.github.io/framework/docs/terms/credential-catalogue | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=55m53s | 3 | 0:55:53.840 | 55 | 53 |
 | revocation events | An event that revokes control authority over an identifier | https://github.com/trustoverip/acdc/wiki/revocation-event | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=55m58s | 3 | 0:55:58.400 | 55 | 58 |
-| two-factor auth |  |  | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=56m13s | 1 | 0:56:13.360 | 56 | 13 |
-| escrow states |  |  | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=56m59s | 7 | 0:56:59.200 | 56 | 59 |
-| server-sent events |  |  | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=57m19s | 7 | 0:57:19.920 | 57 | 19 |
+| two-factor auth | Is an electronic authentication method in which a user is granted access to a website or application only after successfully presenting two or more pieces of evidence | https://en.wikipedia.org/wiki/Multi-factor_authentication | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=56m13s | 1 | 0:56:13.360 | 56 | 13 |
+| escrow states |  | https://github.com/trustoverip/acdc/wiki/escrow-state | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=56m59s | 7 | 0:56:59.200 | 56 | 59 |
+| server-sent events | Mailbox notifications; a streaming service for the agent U/I, to get notifications from the KERI system itself | https://github.com/trustoverip/acdc/wiki/server-sent-event | https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=57m19s | 7 | 0:57:19.920 | 57 | 19 |
 |  |  |  |  |  |  |  |  |
 
 </div>
