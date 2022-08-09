@@ -15,7 +15,16 @@
 
 ### Demand
 
-A certain resource needs to be subtitled, explained further, etc. Be sure it has the added value you think it has. Because there'll a hugh effort involved to transcribe the resource, correct the subtitles, connect the resource to the glossary and create an index of terms used in the resource into the video (timing) and into the glossary.
+A certain resource needs to be subtitled, explained further, etc. Be sure it has the added value you think it has. Ask around. Because there'll a hugh effort involved to:
+
+-  transcribe the resource
+- correct the subtitles by listening carefully what's been said by whom
+- connect the resource to the glossary
+- create new glossary items and amend existing ones (to avoid confusion when a term in a different context means something else)
+- create an index of terms used in the resource into the video (timing) and into the glossary
+- document the resource properly and take into production after testing.
+
+An hour of footage can take days to decipher and document. Again, be sure it's worth it.
 
 ### Use Youtube to subtitle the resource
 
