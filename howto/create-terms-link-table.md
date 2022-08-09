@@ -26,9 +26,9 @@ A certain resource needs to be subtitled, explained further, etc. Be sure it has
 
 An hour of footage can take days to decipher and document. Again, be sure it's worth it.
 
-### Use Youtube to subtitle the resource
+### Use a video platform to subtitle the resource
 
-Upload the video to Youtube. Choose the right confidentiality and Youtube will start to create subtitles automatically. *Download* the subtitle-file to your local machine once it's ready: a `.sbv` file.
+Upload the video to for example Youtube. Choose the right confidentiality and Youtube will start to create subtitles automatically. *Download* the subtitle-file to your local machine once it's ready: a `.sbv` file. Mind the copy rights of your video platform.
 
 ### Edit subtitles
 
