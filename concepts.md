@@ -47,6 +47,9 @@ KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevit
 
 #### Out-of-band introduction - strong in-band validation
 
+#### Possibilty to transfer off a leger
+See the features here : https://github.com/trustoverip/acdc/wiki/transfer-off-ledger
+
 <!-- #######NEW BLOCK####### -->
 ### Framework conditions
 
