@@ -13,10 +13,11 @@ folder: mydoc
 {% for term in site.terms %}
   <h2>
     <a href="{{ term.link }}">
-      {{ term.term }} - {{ term.level }}
+      {{ term.Term }} - {{ term.Level }}\
+      {{ term.Text}}
     </a>
   </h2>
-  <p>{{ term.content | markdownify }}</p>
+  <p>{{ term.content | excerpt }}</p>
 {% endfor %}
 
 You can create a glossary for your content. First create your glossary items in a data file such as glossary.yml.
