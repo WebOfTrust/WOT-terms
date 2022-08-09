@@ -88,16 +88,22 @@ I've used [Tablesgenerator.com](https://www.tablesgenerator.com). Use the follow
 
 <img src="https://hackmd.io/_uploads/S19Llo1C9.png" width="400" align="right">
 
+<img src="https://hackmd.io/_uploads/Hk93ki1Aq.png" width="500">
+
 #### Check the result
 And then copy the result; use the clipboard
 
 <img src="https://hackmd.io/_uploads/rkljgoyA9.png" width="200">
 
-and paste into your editor
 
-remove the column you don't need, by not referencing them (the data is still in the column, redundantly)
+and paste into your editor. After pasting the column headers in compact form will show
 
-<img src="https://hackmd.io/_uploads/Hk93ki1Aq.png" width="500">
+<img src="https://hackmd.io/_uploads/BkwAmsJ09.png" width="500">
+
+remove the column you don't need, by not referencing them (the data is still in the column, redundantly). In this example I removed 3 columns:
+
+<img src="https://hackmd.io/_uploads/S1qt4sJ0q.png" width="400">
+
 
 ### Create the description file of the resource where the Links Table is included
 
