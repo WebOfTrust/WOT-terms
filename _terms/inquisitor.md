@@ -1,7 +1,9 @@
-## Definition
-In the ACDC context it's a general term for someone (in a validating role) that launches an inquiry at some KERI [witness](witness).
+---
+Term: inquisitor
+Text: Someone (in a validating role) that launches an inquiry at some KERI witness
+Link: https://github.com/trustoverip/acdc/wiki/inquisitor
+Videostart: https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=37m19s
+Level: 7
+---
 
-## More broadly accepted notion
-
-An inquisitor was an [official](https://en.wikipedia.org/wiki/Official) (usually with [judicial](https://en.wikipedia.org/wiki/Judicial) or investigative functions) in an [inquisition](https://en.wikipedia.org/wiki/Inquisition) – an organization or program intended to eliminate [heresy](https://en.wikipedia.org/wiki/Heresy) and other things contrary to the [doctrine](https://en.wikipedia.org/wiki/Doctrine) or teachings.\
-Source: [Wikipedia](https://en.wikipedia.org/wiki/Inquisitor)
+{% include_relative gloss/inquisitor.md %}

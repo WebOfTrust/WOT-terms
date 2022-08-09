@@ -1,4 +1,9 @@
-## Definition
-The terms Backer and [Witness](https://github.com/trustoverip/acdc/wiki/_new#witness) are closely related in KERI. Backers include both regular KERI witnesses and ledger-registered backers.
+---
+Term: backer
+Text: Backers include both regular KERI witnesses and ledger-registered backers
+Link: https://github.com/trustoverip/acdc/wiki/backer
+Videostart: https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=27m48s
+Level: 7
+---
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/keri/main/images/backer-witness.png" width="496" height="510"/>
+{% include_relative gloss/backer.md %}

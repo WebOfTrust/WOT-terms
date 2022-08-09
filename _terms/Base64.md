@@ -1,5 +1,9 @@
-## Definition
+---
+Term: Base64
+Text: A group of binary-to-text encoding schemes that represent binary data
+Link: https://github.com/trustoverip/acdc/wiki/base64
+Videostart: https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=16m53s
+Level: 7
+---
 
-In [computer programming](https://en.wikipedia.org/wiki/Computer_programming), Base64 is a group of [binary-to-text encoding](https://en.wikipedia.org/wiki/Binary-to-text_encoding) schemes that represent [binary data](https://en.wikipedia.org/wiki/Binary_data) (more specifically, a sequence of 8-bit bytes) in sequences of 24 bits that can be represented by four 6-bit Base64 digits.
-
-More on source [Wikipedia](https://en.wikipedia.org/wiki/Base64)
+{% include_relative gloss/Base64.md %}
