@@ -15,7 +15,7 @@
 
 ### Demand
 
-A certain resource needs to be subtitled, explained further, etc. Be sure it has the added value you think it has. Ask around. Because there'll a hugh effort involved to:
+A certain resource needs to be subtitled, explained further, etc. Be sure it has the added value you think it has. Ask around. Because there'll be a hugh effort involved to:
 
 -  transcribe the resource
 - correct the subtitles by listening carefully what's been said by whom
