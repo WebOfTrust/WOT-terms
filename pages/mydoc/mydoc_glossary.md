@@ -10,6 +10,14 @@ toc: false
 folder: mydoc
 ---
 
+{% for term in site.terms %}
+  <h2>
+    <a href="{{ term.link }}">
+      {{ term.term }} - {{ term.level }}
+    </a>
+  </h2>
+  <p>{{ term.content | markdownify }}</p>
+{% endfor %}
 
 You can create a glossary for your content. First create your glossary items in a data file such as glossary.yml.
 
