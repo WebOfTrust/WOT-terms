@@ -21,6 +21,9 @@ KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevit
 
 ## Concept details
 
+### We don't have version 1 of the specs of KERI
+We split the KERIpy repo in two branches `dev` and `main`
+
 ### Objectives of Key Event Receipt Infrastructure (KERI)
 
 #### Open source - Apache2
@@ -60,6 +63,11 @@ See the features here : https://github.com/trustoverip/acdc/wiki/transfer-off-le
 #### Moore’s law in IoT - centralized systems not capable of handling exponentially growing numbers
 
 #### Anonymity is non-existing anymore - second best is expensive and timely pseudonymity
+
+#### CESR composeable without having to parse (in CBOR this is needed)
+
+#### GDDP True gossip protocol AND Round Robin (KERI meeting Tue Aug 9)
+Sam is going to develop this
 
 <!-- #######NEW BLOCK####### -->
 ### Design principles
