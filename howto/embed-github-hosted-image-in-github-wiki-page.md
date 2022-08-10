@@ -24,9 +24,10 @@ Even though that URL ends with "png", what it returns is not a raw PNG, but an a
 
 ## How to do it the right way?
 
-To embed an image properly in a github wiki page (whether the wiki page is a terms wiki or not), **you need to get the URL for the raw image file**. You can get this by
+To embed an image properly in a github wiki page (whether the wiki page is a terms wiki or not), **you need to get the URL for the raw image file**. You can get this done by
 
-Two ways
+THREE different ways!
+
 A.
 
 1. clicking the button that says "Download" and 
@@ -47,6 +48,14 @@ B.
 Either way will work. Here's the proof :), that I've deleted already:
 
 <img src="https://hackmd.io/_uploads/B1l9wwX-09.png" width="700">
+
+C. Just add `?raw=true` to the URL
+
+> example result: https://github.com/WebOfTrust/keri/blob/main/images/prefix.png?raw=true
+
+Either way will work. And here is the proof, that I've already deleted of course from the production environment:
+
+<img src="https://hackmd.io/_uploads/S15bh7Z09.png" width="800">
 
 
 In this case, the correct URL for the PNG is actually https://github.com/WebOfTrust/keri/raw/main/images/prefix.png. THAT URL is actually to a PNG file.
