@@ -58,6 +58,6 @@ Either way will work. And here is the proof, that I've already deleted of course
 <img src="https://hackmd.io/_uploads/S15bh7Z09.png" width="800">
 
 
-In this case, the correct URL for the PNG is actually https://github.com/WebOfTrust/keri/raw/main/images/prefix.png. THAT URL is actually to a PNG file.
+## Resume
 
 I think this will fix your broken image links and resolve the [issue](#issue) mentioned above.
