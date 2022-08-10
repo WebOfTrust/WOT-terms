@@ -32,6 +32,8 @@ A.
 1. clicking the button that says "Download" and 
 2. right-clicking the image and choose "Copy Image Address"
 
+> Example result: `https://raw.githubusercontent.com/WebOfTrust/keri/main/images/prefix.png`
+
 OR
 
 B.
@@ -39,7 +41,13 @@ B.
 1. right-clicking on the button that says "Download" and 
 2. choosing "Copy Link"
 
-Either way will work.
+> Example result: `https://github.com/WebOfTrust/keri/raw/main/images/prefix.png`
+
+
+Either way will work. Here's the proof :), that I've deleted already:
+
+<img src="https://hackmd.io/_uploads/B1l9wwX-09.png" width="700">
+
 
 In this case, the correct URL for the PNG is actually https://github.com/WebOfTrust/keri/raw/main/images/prefix.png. THAT URL is actually to a PNG file.
 
