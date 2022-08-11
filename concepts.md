@@ -21,8 +21,10 @@ KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevit
 
 ## Concept details
 
-### We don't have version 1 of the specs of KERI
-We split the KERIpy repo in two branches `dev` and `main`
+### We don't have version 1 of the specs of KERI yet.
+As soon as we do, the code will look the version up, and act accordingly (backward compatibility).
+
+We split the KERIpy repo in two branches `dev` and `main`, so people can rely on a stable production version in `main`.
 
 ### Objectives of Key Event Receipt Infrastructure (KERI)
 
@@ -52,6 +54,11 @@ We split the KERIpy repo in two branches `dev` and `main`
 
 #### Possibilty to transfer off a leger
 See the features here : https://github.com/trustoverip/acdc/wiki/transfer-off-ledger
+
+#### REST API
+
+ACDC has been implemented inside of keripy.  We have full credential issuance, revocation and streaming support in both the REST API as well as the command line.\
+Source P. Feairheller, 2022
 
 <!-- #######NEW BLOCK####### -->
 ### Framework conditions
