@@ -27,7 +27,7 @@ Also a [howto](https://github.com/WebOfTrust/WOT-terms/tree/main/howto) will be 
 ## When?
 The intention is to have *resources* (glossaries, videos, etc.) and *howtos* available continuously. It'll hopefully improve over time. 
 The resulting static **WebofTrust-site** is already here: https://weboftrust.github.io/WOT-terms/ and will be automatically generated with Github Actions.
-All intermediate results are also **directly available**:
+All partial results are also **directly available**:
 - [resources](https://github.com/WebOfTrust/WOT-terms/tree/main/resources)
 - [howtos](https://github.com/WebOfTrust/WOT-terms/tree/main/howto)
 - Glossaries: [TrustoverIP/ACDC](https://github.com/trustoverip/acdc/wiki) and [eSSIF-lab](https://essif-lab.github.io/framework/docs/essifLab-glossary)
