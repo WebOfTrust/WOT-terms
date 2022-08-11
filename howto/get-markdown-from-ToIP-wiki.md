@@ -34,6 +34,6 @@ Go to a folder on your local computer and type
 Go to your newly created local repository and all the .MD files will be there
 
 > Example:\
-> <img src="hhttps://hackmd.io/_uploads/r12bxjMAc.png" width="600" alt="list of term .MD files in the wiki repo">
+> <img src="https://hackmd.io/_uploads/H1SO-jMAq.png" width="600" alt="list of term .MD files in the wiki repo">
 
 
