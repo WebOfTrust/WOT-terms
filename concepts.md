@@ -1,5 +1,8 @@
 # Concepts
 
+[![hackmd-github-sync-badge](https://hackmd.io/TYKEsJ5OQy-4w78NUGRSMA/badge)](https://hackmd.io/TYKEsJ5OQy-4w78NUGRSMA)
+
+
 THIS IS UNDER CONSTRUCTION
 Would you like to contribute? Join us at the Concepts, Terms and Edu [bi-weekly Zoom session](./agenda.md)
 
