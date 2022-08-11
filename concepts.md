@@ -6,9 +6,42 @@
 THIS IS UNDER CONSTRUCTION
 Would you like to contribute? Join us at the Concepts, Terms and Edu [bi-weekly Zoom session](./agenda.md)
 
-Explanation of concepts 
+## What is this?
+This concepts page explains the main design objectives of KERI and ACDC, which results in a scope (or context) and links them to
+1. the things we've designed (whitepapers, technical designs)
+2. the things we've created (repos and code)
+3. the terminology we use.
 
-Concepts uses existing terms (which could create confusion) and introduces new terminology. It's aimed at identity experts in general and Self-Sovereign Identity experts specifically.
+## Why this page?
+To be better and quicker understood. It's a way to anchor our language and the words we use to our objectives. This pages shares and exchanges our criteria to why and in which situation something is important to us.
+
+## For Whom?
+The ultimate goal is to make sense in the perception of respectively the newbie -, the advanced - and the advanced **identity expert**.\
+We'll not try to reach out to laymen.
+
+## How?
+A static site generated on Github, that uses resources all over the web and can be commented on.
+
+Also a [howto](https://github.com/WebOfTrust/WOT-terms/tree/main/howto) will be written along side to inform contributors how to add, link and amend resources.
+
+## When?
+The intention is to have *resources* (glossaries, videos, etc.) and *howtos* available continuously. It'll hopefully improve over time. 
+The resulting static **WebofTrust-site** is already here: https://weboftrust.github.io/WOT-terms/ and will be automatically generated with Github Actions.
+All intermediate results are also **directly available**:
+- [resources](https://github.com/WebOfTrust/WOT-terms/tree/main/resources)
+- [howtos](https://github.com/WebOfTrust/WOT-terms/tree/main/howto)
+- Glossaries: [TrustoverIP/ACDC](https://github.com/trustoverip/acdc/wiki) and [eSSIF-lab](https://essif-lab.github.io/framework/docs/essifLab-glossary)
+
+#### Vision
+We reuse and reorganise as much as possible, using open source tools. 
+
+Contributions welcome!
+
+<img src="https://hackmd.io/_uploads/r1BYbPfA5.png" width="1000" alt="CDCI design for WOT-terms">
+
+## Explanation of concepts 
+
+Concepts use existing terms (which could create confusion) and introduces new terminology. It's aimed at identity experts in general and Self-Sovereign Identity experts specifically.
 
 ### Familiar terms
 
@@ -22,10 +55,10 @@ Understanding could vary in different domains and use-cases (e.g. a controller i
 
 KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevitably, new terminology has surfaced in the design of KERI and ACDC. In this `concepts` page we try to explain related terms in a few [levels of understanding](./README.md#levels-of-understanding). We've used analogies and symbols to clear up complex and intangible concepts for those new to KERI / ACDC and even for those experts that we consider being 'advanced'. The ultimate goal is to try to make sense in the perception of respectively the newbie - and the advanced identity expert.
 
-## Concept details
+## Concept details (NO ORDERING yet)
 
 ### We don't have version 1 of the specs of KERI
-We split the KERIpy repo in two branches `dev` and `main`
+We'll split the KERIpy repo in two branches `dev` and `main`
 
 ### Objectives of Key Event Receipt Infrastructure (KERI)
 
@@ -152,6 +185,15 @@ Source: [Sam Smith](https://docs.google.com/document/d/1quOTSGPuFXa_pduaGSHWY8Lp
 
 <!-- #######NEW BLOCK####### -->
 ### Criteria we share with the SSI community
+
+#### Open source
+There are a few commons reasons to choose development tools. Mostly because they have the following features:
+
+- open source
+- not patented
+- best of breed
+- universally applicable
+- tested for a few years
 
 #### Zero trust
 
