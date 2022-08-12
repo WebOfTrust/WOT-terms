@@ -119,5 +119,7 @@ baseurl: /WOT-terms
 
 github: [metadata]
 
-
+algolia:
+  application_id: 'FSH23UI187'
+  index_name: dev_bcws
 # Copyright 2021 Google LLC
