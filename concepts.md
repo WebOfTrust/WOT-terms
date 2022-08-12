@@ -41,19 +41,22 @@ Contributions welcome!
 
 ## Explanation of concepts 
 
-Concepts use existing terms (which could create confusion) and introduces new terminology. It's aimed at identity experts in general and Self-Sovereign Identity experts specifically.
+Concepts use existing terms (which could create confusion) and introduces new terminology. On our case this mix of new - and exiting terms is aimed at identity experts in general and Self-Sovereign Identity experts specifically.
 
 ### Familiar terms
 
-We explain the terminology at various [levels of understanding](#levels-of-understanding), and also **our criteria** how we judge certain terms to be defined for the sake of KERI / ACDC. E.g. `multisignatures`, `validators` and `verifiers`. What are they exactly? 
+We explain the terminology at various [levels of understanding](#levels-of-understanding), and also **our criteria** how we judge certain terms to be defined for the sake of KERI / ACDC. 
+
+> Example:\
+> `multi-signatures`, `validators` and `verifiers`. What are they exactly? 
 
 ### Use cases and domains
 
-Understanding could vary in different domains and use-cases (e.g. a controller in finance is quite different from a controller of an identifier). We need to be sure that sender and recipient are talking about "the same thing".
+Meaning of a term could vary in different domains and use-cases (e.g. a `controller` in finance is quite different from a `controller` of an identifier). We need to be sure that sender and recipient are talking about "the same thing".
 
 ### New terminology, acronyms and abbreviations
 
-KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevitably, new terminology has surfaced in the design of KERI and ACDC. In this `concepts` page we try to explain related terms in a few [levels of understanding](./README.md#levels-of-understanding). We've used analogies and symbols to clear up complex and intangible concepts for those new to KERI / ACDC and even for those experts that we consider being 'advanced'. The ultimate goal is to try to make sense in the perception of respectively the newbie - and the advanced identity expert.
+KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevitably, new terminology has surfaced in the design of KERI and ACDC. In this `concepts` page we try to explain related terms in a few [levels of understanding](./README.md#levels-of-understanding). We've used analogies and symbols to clear up complex and intangible concepts for those new to KERI / ACDC; even for those experts that we consider being 'advanced'. The ultimate goal is to try to make sense to respectively the newbie - and the advanced identity expert.
 
 ## Concept details (NO ORDERING yet)
 
@@ -65,6 +68,13 @@ We split the KERIpy repo in two branches `dev` and `main`, so people can rely on
 ### Objectives of Key Event Receipt Infrastructure (KERI)
 
 #### Open source - Apache2
+There are a few commons reasons to choose development tools. Mostly because they have the following features:
+
+- open source
+- not patented
+- best of breed
+- universally applicable
+- tested for a few years
 
 #### Waist identity layer for the internet - maximum coverage - prefixes
 
@@ -192,15 +202,6 @@ Source: [Sam Smith](https://docs.google.com/document/d/1quOTSGPuFXa_pduaGSHWY8Lp
 
 <!-- #######NEW BLOCK####### -->
 ### Criteria we share with the SSI community
-
-#### Open source
-There are a few commons reasons to choose development tools. Mostly because they have the following features:
-
-- open source
-- not patented
-- best of breed
-- universally applicable
-- tested for a few years
 
 #### Zero trust
 
