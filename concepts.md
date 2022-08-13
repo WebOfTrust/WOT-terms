@@ -27,7 +27,7 @@ Also a [howto](https://github.com/WebOfTrust/WOT-terms/tree/main/howto) will be 
 ## When?
 The intention is to have *resources* (glossaries, videos, etc.) and *howtos* available continuously. It'll hopefully improve over time. 
 The resulting static **WebofTrust-site** is already here: https://weboftrust.github.io/WOT-terms/ and will be automatically generated with Github Actions.
-All partial results are also **directly available**:
+All intermediate results are also **directly available**:
 - [resources](https://github.com/WebOfTrust/WOT-terms/tree/main/resources)
 - [howtos](https://github.com/WebOfTrust/WOT-terms/tree/main/howto)
 - Glossaries: [TrustoverIP/ACDC](https://github.com/trustoverip/acdc/wiki) and [eSSIF-lab](https://essif-lab.github.io/framework/docs/essifLab-glossary)
@@ -41,40 +41,39 @@ Contributions welcome!
 
 ## Explanation of concepts 
 
-Concepts use existing terms (which could create confusion) and introduces new terminology. On our case this mix of new - and exiting terms is aimed at identity experts in general and Self-Sovereign Identity experts specifically.
+Concepts use existing terms (which could create confusion) and introduces new terminology. It's aimed at identity experts in general and Self-Sovereign Identity experts specifically.
 
 ### Familiar terms
 
-We explain the terminology at various [levels of understanding](#levels-of-understanding), and also **our criteria** how we judge certain terms to be defined for the sake of KERI / ACDC. 
-
-> Example:\
-> `multi-signatures`, `validators` and `verifiers`. What are they exactly? 
+We explain the terminology at various [levels of understanding](#levels-of-understanding), and also **our criteria** how we judge certain terms to be defined for the sake of KERI / ACDC. E.g. `multisignatures`, `validators` and `verifiers`. What are they exactly? 
 
 ### Use cases and domains
 
-Meaning of a term could vary in different domains and use-cases (e.g. a `controller` in finance is quite different from a `controller` of an identifier). We need to be sure that sender and recipient are talking about "the same thing".
+Understanding could vary in different domains and use-cases (e.g. a controller in finance is quite different from a controller of an identifier). We need to be sure that sender and recipient are talking about "the same thing".
 
 ### New terminology, acronyms and abbreviations
 
-KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevitably, new terminology has surfaced in the design of KERI and ACDC. In this `concepts` page we try to explain related terms in a few [levels of understanding](./README.md#levels-of-understanding). We've used analogies and symbols to clear up complex and intangible concepts for those new to KERI / ACDC; even for those experts that we consider being 'advanced'. The ultimate goal is to try to make sense to respectively the newbie - and the advanced identity expert.
+KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevitably, new terminology has surfaced in the design of KERI and ACDC. In this `concepts` page we try to explain related terms in a few [levels of understanding](./README.md#levels-of-understanding). We've used analogies and symbols to clear up complex and intangible concepts for those new to KERI / ACDC and even for those experts that we consider being 'advanced'. The ultimate goal is to try to make sense in the perception of respectively the newbie - and the advanced identity expert.
 
 ## Concept details (NO ORDERING yet)
 
-### We don't have version 1 of the specs of KERI yet.
-As soon as we do, the code will look the version up, and act accordingly (backward compatibility).
+### Values
 
-We split the KERIpy repo in two branches `dev` and `main`, so people can rely on a stable production version in `main`.
+#### Social values
+- existance and persistance
+- access and transparency
+- privacy - consent to use
+- confidentiality - minimal disclosure
+
+#### Societal values
+- commitment en compliance to rules - signature
+- freedom of speech and movement - inception of AIDs, rotation
+- self-sovereignty - delegation and revocation
+- Protection – users’ rights, censorship-resistant
 
 ### Objectives of Key Event Receipt Infrastructure (KERI)
 
 #### Open source - Apache2
-There are a few commons reasons to choose development tools. Mostly because they have the following features:
-
-- open source
-- not patented
-- best of breed
-- universally applicable
-- tested for a few years
 
 #### Waist identity layer for the internet - maximum coverage - prefixes
 
@@ -101,10 +100,23 @@ There are a few commons reasons to choose development tools. Mostly because they
 #### Possibilty to transfer off a leger
 See the features here : https://github.com/trustoverip/acdc/wiki/transfer-off-ledger
 
+#### Use dumb crypto
+"The point is to be used, not to use the latest, coolest technique that is also very difficult to implement properly. That's the principle of KERI: solve a problem in the real world with the minimum techniques needed. The dumber the technology, but still sufficient to solve the problem, the better. 'Dumb technology' is freely available, understandable to everyone and easy to implement. In our case: just hashes and digital signatures."
+Source: [Sam Smith](https://docs.google.com/document/d/1quOTSGPuFXa_pduaGSHWY8LpfXZiYjzR) 2022
+
+### Development choices
+
 #### REST API
 
 ACDC has been implemented inside of keripy.  We have full credential issuance, revocation and streaming support in both the REST API as well as the command line.\
 Source P. Feairheller, 2022
+
+#### It's under construction
+> "We don't have version 1 of the specs of KERI yet.""
+
+As soon as we do, the code will look the version up, and act accordingly (backward compatibility).
+
+We split the KERIpy repo in two branches `dev` and `main`, so people can rely on a stable production version in `main`.
 
 <!-- #######NEW BLOCK####### -->
 ### Framework conditions
@@ -117,10 +129,9 @@ Source P. Feairheller, 2022
 
 #### Anonymity is non-existing anymore - second best is expensive and timely pseudonymity
 
-#### CESR composeable without having to parse (in CBOR this is needed)
-
-#### GDDP True gossip protocol AND Round Robin (KERI meeting Tue Aug 9)
 Sam is going to develop this
+
+## Guiding Principles 
 
 <!-- #######NEW BLOCK####### -->
 ### Design principles
@@ -168,8 +179,13 @@ KERI alternative to total global ordering and consensus protocols is a mechanism
 
 #### JSON-LD and triples are too simple (only "is"/"has") - we are proponents of property graphs
 
+#### CESR composeable without having to parse (in CBOR this is needed)
+
+#### GDDP True gossip protocol AND Round Robin (KERI meeting Tue Aug 9)
+
 <!-- #######NEW BLOCK####### -->
-### Autonomic governance principles and pre-conditions
+### Autonomic governance 
+principles and pre-conditions
 
 #### Duplicity - Don’t trust unique identifiers with multiple states per default
 
@@ -180,7 +196,8 @@ KERI alternative to total global ordering and consensus protocols is a mechanism
 #### Secondary root-of-trust - non-portable anchoring to blockchains as an extra layer of guarantee (above KELs)
 
 <!-- #######NEW BLOCK####### -->
-### Human governance principles and pre-conditions
+### Human governance 
+principles and pre-conditions
 
 #### Freedom of witness and backer organization - extensible - scalable
 
@@ -196,16 +213,26 @@ Correlation between identifiers and there controlling human beings and binding o
 #### ALl we can do to guarantee sufficient randomness, we (advise to) do
 Applying salts, stretching passwords, etc.
 
-#### Dumb crypto
-"The point is to be used, not to use the latest, coolest technique that is also very difficult to implement properly. That's the principle of KERI: solve a problem in the real world with the minimum techniques needed. The dumber the technology, but still sufficient to solve the problem, the better. 'Dumb technology' is freely available, understandable to everyone and easy to implement. In our case: just hashes and digital signatures."
-Source: [Sam Smith](https://docs.google.com/document/d/1quOTSGPuFXa_pduaGSHWY8LpfXZiYjzR) 2022
 
 <!-- #######NEW BLOCK####### -->
-### Criteria we share with the SSI community
+### Sharing SSI-community values
+
+#### Open source
+There are a few commons reasons to choose development tools. Mostly because they have the following features:
+
+- open source
+- not patented
+- best of breed
+- universally applicable
+- tested for a few years
 
 #### Zero trust
 
 #### 10 principles of SSI
+The 10 principles were coined by Christopher Allen, one of the pioneers within this world, concerning the Self-Sovereign Identity (SSI). According to Allen, SSI can be interpreted in two ways: the first is ideological, which (key reading) affirms the importance of being able to control one’s own identity on the network without the need to counter trust; the second is technological, which means analysing which technologies and technological standards can enable this objective. 
+The 10 principles of the SSI are precisely intended to define what values and goals the idea and technology should pursue. They were first enunciated in [Allen’s blog](http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html).\
+We've integrated the 10 principles in [Social Values](#social-values) and [Societal Values](#societal-values) above.
+
 
 #### SSI identity book Reed / Preuschat
 
@@ -214,5 +241,9 @@ Source: [Sam Smith](https://docs.google.com/document/d/1quOTSGPuFXa_pduaGSHWY8Lp
 #### Prevent repeated use of a public key 
 It weakens them, because it exposes it and allows people an opportunity to try and work against it.
 
-#### Self-dertimination
+#### Self-determination
 It's all your own identifier and you're controlling your identifier, so it's up to you what security constraints you want for that identifier. Anchoring, witness pools, thresholds, etc.
+
+#### Permission-less society
+Best and compactly described by Daniel Hardman in [Security, Silos, and Sovereignty](https://daniel-hardman.medium.com/security-silos-and-sovereignty-522e30bb8eb4) 2022:\
+"SSI is not bestowed by corporate IT (Active Directory/LDAP systems); it’s not granted by internet giants (“sign in with Google/Facebook”); it’s not arranged through single sign-on vendors. SSI is for ordinary people who detest their messy collection of usernames and passwords, and just want bad guys to go away and good guys to enjoy the trust they deserve. SSI puts us — not institutions that leak our data to hackers, sell our data to partners, or surveil us for their own purposes — in charge. It also empowers governments, businesses, and other institutions that want to revolutionize privacy, redefine the cybersecurity and regulatory landscape, reduce cost and risk, keep people safe in pandemics, and do right by the people they serve."
