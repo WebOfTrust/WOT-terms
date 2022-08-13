@@ -1,158 +1,155 @@
 # Mindmap
-
 [![hackmd-github-sync-badge](https://hackmd.io/AvVG2cZxQJCIe_VHQR8e8Q/badge)](https://hackmd.io/AvVG2cZxQJCIe_VHQR8e8Q)
 
 This is a mindmap of the emcompassing concept of KERI and ACDC
-```markmap
 
-# Concept
+## Concept
 
-## [What is this](./concepts.md#what-is-this)?
+### [What is this](./concepts.md#what-is-this)?
 1. the things we've designed (whitepapers, technical designs)
 2. the things we've created (repos and code)
 3. the terminology we use.
 
-## [Why this page](./concepts.md#why-this-page)?
+### [Why this page](./concepts.md#why-this-page)?
 1. to be better and quicker understood
 2. anchor our wording to our objectives 
 3. criteria how we distinguish importance to us
 
-## [For Whom](./concepts.md#for-whom)?
+### [For Whom](./concepts.md#for-whom)?
 1. the newbie digital identity expert
 2. the advanced SSI identity expert
 3. SSI expert
 
-## [How](./concepts.md#how)?
+### [How](./concepts.md#how)?
 1. static site generated on Github
 2. reuse resources all over the web 
 3. can be searched and commented on
 
-## [When](./concepts.md#when)?
+### [When](./concepts.md#when)?
 1. continuously from now
 2. automatic deployment at changes
 
-# Core Values
+## Core Values
 
-## [Social values](./concepts.md#social-values)
+### [Social values](./concepts.md#social-values)
 - existance and persistance
 - access and transparency
 - privacy - consent to use
 - confidentiality - minimal disclosure
 
-## [Societal values](./concepts.md#societal-values)
+### [Societal values](./concepts.md#societal-values)
 - commitment and compliance to rules - signature
 - freedom of speech and movement - inception of AIDs, rotation
 - self-sovereignty - portability, delegation and revocation
 - Protection – users’ rights, censorship-resistant
 
-## Use cases
+### Use cases
 - Self-sovereign security
 - portable identifiers
 - proofs verifiable to the root-of-trust
 - break down silos of control and surveillance
 
-# KERI
+## KERI
 
-## [Objectives KERI](./concepts.md#objectives-keri)
+### [Objectives KERI](./concepts.md#objectives-keri)
 
-### Open source - Apache2
+#### Open source - Apache2
 
-### Waist identity layer for the internet
+#### Waist identity layer for the internet
 
-### Secure Attribution over the internet
-
-<!-- #######NEW BLOCK####### -->
-## [Practical principles](./concepts.md#practical-principles)
-
-### Simple cryptography
-
-### Minimal sufficient means to an end
-
-### Round-robin transposable streaming format
-
-### Out-of-band introduction, strong in-band validation
-
-### Possibilty to transfer off a leger
-
-### Use dumb crypto
-
-## [Development choices](./concepts.md#development-choices)
-
-### REST API
-
-### It's under construction
-
-# ACDC
+#### Secure Attribution over the internet
 
 <!-- #######NEW BLOCK####### -->
-## [Objectives ACDC](./concepts.md#objectives-acdc)
+### [Practical principles](./concepts.md#practical-principles)
 
-### Veracity of credentials 
+#### Simple cryptography
+
+#### Minimal sufficient means to an end
+
+#### Round-robin transposable streaming format
+
+#### Out-of-band introduction, strong in-band validation
+
+#### Possibilty to transfer off a leger
+
+#### Use dumb crypto
+
+### [Development choices](./concepts.md#development-choices)
+
+#### REST API
+
+#### It's under construction
+
+## ACDC
+
+<!-- #######NEW BLOCK####### -->
+### [Objectives ACDC](./concepts.md#objectives-acdc)
+
+#### Veracity of credentials 
  
-### Signed commitments by controllers
+#### Signed commitments by controllers
 
-## [Framework conditions](./concepts.md#framework-conditions)
+### [Framework conditions](./concepts.md#framework-conditions)
 
-### Only cryptography can safe our digital twin
+#### Only cryptography can safe our digital twin
 
-### Network dynamics prove that centralized system will lose
+#### Network dynamics prove that centralized system will lose
 
-### Moore’s law in IoT
+#### Moore’s law in IoT
 
-### Anonymity doesn't exist
+#### Anonymity doesn't exist
 
-# Guiding Principles 
+## Guiding Principles 
 
-## [Design principles](./concepts.md#design-principles)
+### [Design principles](./concepts.md#design-principles)
 1. Security first
 2. then confidentiality
 3. then privacy
 
-### Strong bindings - security first
+#### Strong bindings - security first
 
-### Verifiable to primary root of trust
+#### Verifiable to primary root of trust
 
-### Generic classes of self-certifying identifiers
+#### Generic classes of self-certifying identifiers
 
-## [Autonomic Governance](./concepts.md#autonomic-governance)
+### [Autonomic Governance](./concepts.md#autonomic-governance)
 
-### Don't trust duplicity
+#### Don't trust duplicity
 
-### Use consensus mechanism to reconcile duplicity
+#### Use consensus mechanism to reconcile duplicity
 
-### Non-custodial delegation 
+#### Non-custodial delegation 
 
-### Secondary extra layer of guarantee
+#### Secondary extra layer of guarantee
 
-## [Human governance](./concepts.md#human-governance)
+### [Human governance](./concepts.md#human-governance)
 
-### Freedom of witness and backer organization 
+#### Freedom of witness and backer organization 
 
-### Freedom of validator and watchtower organization
+#### Freedom of validator and watchtower organization
 
-### Private keys need to be kept private
+#### Private keys need to be kept private
 
-### Verfication of Key event logs to last verified
+#### Verfication of Key event logs to last verified
 
-### Minimize correlation 
+#### Minimize correlation 
 
-### Guarantee sufficient randomness
+#### Guarantee sufficient randomness
 
-## [Sharing SSI-community values](./concepts.md#sharing-ssi-community-values)
+### [Sharing SSI-community values](./concepts.md#sharing-ssi-community-values)
 
-### Open source
+#### Open source
 
-### Zero trust
+#### Zero trust
 
-### 10 principles of SSI
+#### 10 principles of SSI
 
-### SSI identity book Reed / Preukschat
+#### SSI identity book Reed / Preukschat
 
-### Key management and asset planning
+#### Key management and asset planning
 
-### Prevent repeated use of a public key 
+#### Prevent repeated use of a public key 
 
-### Self-determination
+#### Self-determination
 
-### Permission-less society
-```
+#### Permission-less society
