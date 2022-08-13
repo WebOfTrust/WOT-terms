@@ -2,7 +2,7 @@
 
 [![hackmd-github-sync-badge](https://hackmd.io/AvVG2cZxQJCIe_VHQR8e8Q/badge)](https://hackmd.io/AvVG2cZxQJCIe_VHQR8e8Q)
 
-Here some explanation about what this is
+This is a mindmap of the emcompassing concept of KERI and ACDC
 ```markmap
 
 # Concept
@@ -155,5 +155,4 @@ Here some explanation about what this is
 ### Self-determination
 
 ### Permission-less society
-
 ```
