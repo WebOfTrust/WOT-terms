@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.13.5/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.13.5"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.13.5/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+        const markmap = getMarkmap();
+        window.mm = markmap.Markmap.create('svg#mindmap', (getOptions || markmap.deriveOptions)(jsonOptions), root);
+      })(() => window.markmap,null,{"type":"heading","depth":0,"payload":{"lines":[0,1]},"content":"Mindmap","children":[{"type":"fence","depth":1,"content":"<pre class=\"language-markmap\"><code class=\"language-markmap\">\n# Concept\n\n## [What is this](./concepts.md#what-is-this)?\n1. the things we've designed (whitepapers, technical designs)\n2. the things we've created (repos and code)\n3. the terminology we use.\n\n## [Why this page](./concepts.md#why-this-page)?\n1. to be better and quicker understood\n2. anchor our wording to our objectives \n3. criteria how we distinguish importance to us\n\n## [For Whom](./concepts.md#for-whom)?\n1. the newbie digital identity expert\n2. the advanced SSI identity expert\n3. SSI expert\n\n## [How](./concepts.md#how)?\n1. static site generated on Github\n2. reuse resources all over the web \n3. can be searched and commented on\n\n## [When](./concepts.md#when)?\n1. continuously from now\n2. automatic deployment at changes\n\n# Core Values\n\n## [Social values](./concepts.md#social-values)\n- existance and persistance\n- access and transparency\n- privacy - consent to use\n- confidentiality - minimal disclosure\n\n## [Societal values](./concepts.md#societal-values)\n- commitment and compliance to rules - signature\n- freedom of speech and movement - inception of AIDs, rotation\n- self-sovereignty - portability, delegation and revocation\n- Protection – users’ rights, censorship-resistant\n\n## Use cases\n- Self-sovereign security\n- portable identifiers\n- proofs verifiable to the root-of-trust\n- break down silos of control and surveillance\n\n# KERI\n\n## [Objectives KERI](./concepts.md#objectives-keri)\n\n### Open source - Apache2\n\n### Waist identity layer for the internet\n\n### Secure Attribution over the internet\n\n&lt;!-- #######NEW BLOCK####### --&gt;\n## [Practical principles](./concepts.md#practical-principles)\n\n### Simple cryptography\n\n### Minimal sufficient means to an end\n\n### Round-robin transposable streaming format\n\n### Out-of-band introduction, strong in-band validation\n\n### Possibilty to transfer off a leger\n\n### Use dumb crypto\n\n## [Development choices](./concepts.md#development-choices)\n\n### REST API\n\n### It's under construction\n\n# ACDC\n\n&lt;!-- #######NEW BLOCK####### --&gt;\n## [Objectives ACDC](./concepts.md#objectives-acdc)\n\n### Veracity of credentials \n \n### Signed commitments by controllers\n\n## [Framework conditions](./concepts.md#framework-conditions)\n\n### Only cryptography can safe our digital twin\n\n### Network dynamics prove that centralized system will lose\n\n### Moore’s law in IoT\n\n### Anonymity doesn't exist\n\n# Guiding Principles \n\n## [Design principles](./concepts.md#design-principles)\n1. Security first\n2. then confidentiality\n3. then privacy\n\n### Strong bindings - security first\n\n### Verifiable to primary root of trust\n\n### Generic classes of self-certifying identifiers\n\n## [Autonomic Governance](./concepts.md#autonomic-governance)\n\n### Don't trust duplicity\n\n### Use consensus mechanism to reconcile duplicity\n\n### Non-custodial delegation \n\n### Secondary extra layer of guarantee\n\n## [Human governance](./concepts.md#human-governance)\n\n### Freedom of witness and backer organization \n\n### Freedom of validator and watchtower organization\n\n### Private keys need to be kept private\n\n### Verfication of Key event logs to last verified\n\n### Minimize correlation \n\n### Guarantee sufficient randomness\n\n## [Sharing SSI-community values](./concepts.md#sharing-ssi-community-values)\n\n### Open source\n\n### Zero trust\n\n### 10 principles of SSI\n\n### SSI identity book Reed / Preukschat\n\n### Key management and asset planning\n\n### Prevent repeated use of a public key \n\n### Self-determination\n\n### Permission-less society\n\n</code></pre>\n"}]},{})</script>
+</body>
+</html>
