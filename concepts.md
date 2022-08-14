@@ -278,3 +278,9 @@ It's all your own identifier and you're controlling your identifier, so it's up 
 #### Permission-less society
 Best and compactly described by Daniel Hardman in [Security, Silos, and Sovereignty](https://daniel-hardman.medium.com/security-silos-and-sovereignty-522e30bb8eb4) 2022:\
 "SSI is not bestowed by corporate IT (Active Directory/LDAP systems); it’s not granted by internet giants (“sign in with Google/Facebook”); it’s not arranged through single sign-on vendors. SSI is for ordinary people who detest their messy collection of usernames and passwords, and just want bad guys to go away and good guys to enjoy the trust they deserve. SSI puts us — not institutions that leak our data to hackers, sell our data to partners, or surveil us for their own purposes — in charge. It also empowers governments, businesses, and other institutions that want to revolutionize privacy, redefine the cybersecurity and regulatory landscape, reduce cost and risk, keep people safe in pandemics, and do right by the people they serve."
+
+#### No needless control, no needless surveillance
+Principle: In a society there needs some control and surveillance of individuals (or individual entities) for the sake of the security of soceity as a whole. However, those situation should be limited to absolute minimum needed and be strictly independently monitored.
+
+Manifestion: A robust witness network along with consistent witness rotation provides protection from monitoring and association of an individual's activity inside a KERI network.\
+Source [Phil Feairheller](https://github.com/WebOfTrust/ietf-did-keri/blob/main/draft-pfeairheller-did-keri.md#privacy-considerations) 

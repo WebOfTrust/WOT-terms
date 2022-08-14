@@ -164,3 +164,5 @@ This is a mindmap of the emcompassing concept of KERI and ACDC
 #### Self-determination
 
 #### Permission-less society
+
+#### No needless control, no needless surveillance
