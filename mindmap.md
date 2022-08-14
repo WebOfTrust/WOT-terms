@@ -57,7 +57,7 @@ This is a mindmap of the emcompassing concept of KERI and ACDC
 
 #### Open source - Apache2
 
-#### Waist identity layer for the internet
+#### [Trust spanning layer for the internet](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#trust-spanning-layer-for-the-internet)
 
 #### Secure Attribution over the internet
 
@@ -83,6 +83,15 @@ This is a mindmap of the emcompassing concept of KERI and ACDC
 #### It's under construction
 
 ## ACDC
+1. authentic
+2. chained
+3. serialized data containers
+
+### SAID
+1. greater interoperability
+2. reduced ambiguity
+3. enhanced security
+4. better immutably 
 
 <!-- #######NEW BLOCK####### -->
 ### [Objectives ACDC](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#objectives-acdc)

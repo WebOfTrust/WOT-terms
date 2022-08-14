@@ -73,9 +73,23 @@ KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevit
 
 ### Objectives of Key Event Receipt Infrastructure (KERI)
 
-#### Open source - Apache2
+#### Freedom
 
-#### Waist identity layer for the internet - maximum coverage - prefixes
+KERI came to be in occasional happenings, online and in-person, in which individuals voluntarily participated. It has no members, and no dues. This is how the KERI community strives to further work. 
+
+Manifestation: KERI has found the IETF as a home. This is because its value statement and organizational principles strongly resonate with KERI.
+
+#### Open source
+
+Manifestation:\
+Apache2
+
+#### Trust spanning layer for the internet
+Need: Fix the limitations of the original PKI-based WebofTrust.
+Goal: Achieve a truly decentralized trust spanning layer for the Internet; (see [Hourglass Model](https://cacm.acm.org/magazines/2019/7/237714-on-the-hourglass-model/fulltext))
+
+Manifestation:\
+security - maximum coverage (extensible prefixes) - no middle men - portability
 
 #### Secure Attribution over the internet - verifiability to root-of-trust - no middlemen
 
@@ -112,12 +126,29 @@ ACDC has been implemented inside of keripy.  We have full credential issuance, r
 Source P. Feairheller, 2022
 
 #### It's under construction
+
 > "We don't have version 1 of the specs of KERI yet.""
 
 As soon as we do, the code will look the version up, and act accordingly (backward compatibility).
 
 We split the KERIpy repo in two branches `dev` and `main`, so people can rely on a stable production version in `main`.
 
+## ACDC
+1. Authentic
+2. Chained
+3. Data containers (serialization of them)
+Mainly through SAIDs.
+
+### Self-Adressing Identifiers
+
+Embedding a SAID as a field in the associated
+serialization indicates a preferred content-addressable identifier for that serialization that facilitates **greater interoperability**, **reduced ambiguity**, and **enhanced security** when reasoning about the serialization.  Moreover, given sufficient cryptographic strength, a cryptographic commitment such as a signature, digest, or another SAID, to a given SAID is essentially equivalent to a commitment to its associated serialization.  Any change to the serialization invalidates its SAID thereby ensuring secure immutability evident reasoning with SAIDs about serializations or equivalently their SAIDs.  Thus SAIDs **better facilitate immutably** referenced data serializations for applications such as Verifiable Credentials or Ricardian Contracts.\
+
+[Source](https://datatracker.ietf.org/doc/draft-ssmith-said/)
+
+
+<!-- #######NEW BLOCK####### -->
+### [Objectives ACDC](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#objectives-acdc)
 <!-- #######NEW BLOCK####### -->
 ### Framework conditions
 
