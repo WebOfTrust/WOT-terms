@@ -6,6 +6,6 @@ Videostart: https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG
 Level: 7
 ---
 
-{{ page.collection }} -- **{{ page.term }}**
-   {{ page.text }} 
+{{ page.collection }} -- **{{ page.term }}**" >> ./_terms/issuance-event.md
+    echo  {{ page.text }}"
 {% include_relative glossary/issuance-event.md %}
