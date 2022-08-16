@@ -33,7 +33,7 @@ do
 	echo "Level: $lvl" >> $filename
     echo "---" >> $filename
     echo "" >> $filename
-    echo "{{ page.collection }} -- {{ page.term }}" >> $filename
+    echo "{{ page.collection }} - {{ page.Term }}" >> $filename
     echo "" >> $filename
     echo "   {{ page.text }}" >> $filename
     echo "" >> $filename
