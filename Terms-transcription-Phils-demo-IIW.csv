@@ -1,15 +1,3 @@
-﻿Term; text; link;vidstart; level; start;minutes;seconds
-IIW;Internet Identity Workshop twice in a year un-conference since 2005;https://internetidentityworkshop.com;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m03s;7; 0:00:03.520;00;03
-KERI;Key Event Receipt Infrastructure;https://github.com/WebOfTrust/keri;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m12s;7; 0:00:12.480;00;12
-repo;Software repository;https://github.com/trustoverip/acdc/wiki/repo;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m27s;3;0:00:27.600;00;27
-KERIpy;Python implementation of KERI;https://github.com/WebOfTrust/keripy;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m27s;7; 0:00:27.600;00;27
-repo;Software repository;https://github.com/trustoverip/acdc/wiki/repo;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m33s;1; 0:00:33.120;00;33
-coroutines;Computer programs that can be suspended and resumed at will.;https://github.com/trustoverip/acdc/wiki/coroutines;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m41s;1; 0:00:41.840;00;41
-I/O;Input / output;https://github.com/trustoverip/acdc/wiki/input-output-(I-O);https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m41s;1; 0:00:41.840;00;41
-hio;Hierarchical asynchronous coroutines and I/O in Python;https://github.com/trustoverip/acdc/wiki/hio;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m41s;7; 0:00:41.840;00;41
-Sam Smith;Samuel M. Smith PhD, Inventor and lead developer of KERI;https://www.linkedin.com/in/samuel-m-smith/;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m41s;7; 0:00:41.840;00;41
-python;Programming Language;https://www.python.org;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m49s;3; 0:00:49.840;00;49
-clone;A copy of a system that is - and works exactly as the original;https://github.com/trustoverip/acdc/wiki/clone;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m55s;3; 0:00:55.200;00;55
 branch;A duplicate of an object under version control for further separate modification;https://github.com/trustoverip/acdc/wiki/branch;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=01m00s;3; 0:01:00.000;01;00
 kli;KERI command line interface;https://github.com/trustoverip/acdc/wiki/kli;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=01m12s;7; 0:01:12.960;01;12
 Kubernetes;Kubernetes is an open source platform for managing software containers;https://kubernetes.io;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=01m18s;3; 0:01:18.720;01;18

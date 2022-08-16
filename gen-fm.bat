@@ -4,8 +4,8 @@
 # Adjustments for use: Henk van Cann
 # Run this script from the root dir in repo
 # ------------------------------------------
-INPUT=Terms-transcription-Phils-demo-IIIW.csv
-
+INPUT=Terms-transcription-Phils-demo-IIW.csv
+sed -i.bak '1d' $INPUT    # remove the header from the file, create a backup file
 SUBSRC='glossary' 
 BASEDIR='_terms'
 
@@ -16,11 +16,12 @@ OLDIFS=$IFS               # $IFS is a special shell variable in Bash
 IFS=';'
 
 [ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
-read trm txt lnk vid lvl void1 void2 void3; # skip the first line of the file with the headers
 
 while read trm txt lnk vid lvl void1 void2 void3
 do
-    trm=$(echo $trm | sed -e 's/^[ \t]*//;s/[ \t]*$//' | sed -e 's/[^A-Za-z0-9._-]/-/g'  )
+    trm=$(echo $trm |  sed -e 's/^[[:space:]]*//' )  # remove preceding and trailing blanks
+    trm=$(echo $trm | sed -e 's/[^A-Za-z0-9._-]/-/g')  # replace unwanted chars in filename
+
     filename="./$BASEDIR/$trm.md"
     echo "---" > $filename
 	echo "Term: $trm" >> $filename

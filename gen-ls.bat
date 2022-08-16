@@ -37,7 +37,7 @@ echo "" > $filename
 # empty file when file exists
 
 
-while read trm
+while read cd trm
 do
 
     # The following command will remove the spaces from the beginning of the variable
