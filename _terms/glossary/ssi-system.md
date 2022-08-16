@@ -8,4 +8,3 @@ Source [eSSIF-lab](https://essif-lab.github.io/framework/docs/terms/ssi-infrastr
 
 ## KERI and ACDC related
 The team has put stress on the principle 'security first, confidentiality second and privacy third'. All systems and infrastructure KERI and ACDC has presented therefore constitute a rather small subset of all [self-sovereign identity systems (SSI)](self-sovereign-identity-(SSI)) available nowadays.
-
