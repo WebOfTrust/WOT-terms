@@ -5,8 +5,6 @@ This is a mindmap of the emcompassing concept of KERI and ACDC
 
 ## Concept
 
-
-
 ### [What is this](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#what-is-this)?
 1. the things we've designed (whitepapers, technical designs)
 2. the things we've created (repos and code)

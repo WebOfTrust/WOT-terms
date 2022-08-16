@@ -126,7 +126,6 @@ ACDC has been implemented inside of keripy.  We have full credential issuance, r
 Source P. Feairheller, 2022
 
 #### It's under construction
-
 > "We don't have version 1 of the specs of KERI yet.""
 
 As soon as we do, the code will look the version up, and act accordingly (backward compatibility).
