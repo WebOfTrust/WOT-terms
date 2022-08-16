@@ -281,6 +281,7 @@ Best and compactly described by Daniel Hardman in [Security, Silos, and Sovereig
 
 #### No needless control, no needless surveillance
 Principle: In a society there needs some control and surveillance of individuals (or individual entities) for the sake of the security of soceity as a whole. However, those situation should be limited to absolute minimum needed and be strictly independently monitored.
+We consider all other control and surveillance to be 'needless'.
 
 Manifestion: A robust witness network along with consistent witness rotation provides protection from monitoring and association of an individual's activity inside a KERI network.\
 Source [Phil Feairheller](https://github.com/WebOfTrust/ietf-did-keri/blob/main/draft-pfeairheller-did-keri.md#privacy-considerations) 

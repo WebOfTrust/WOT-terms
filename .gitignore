@@ -7,3 +7,5 @@ _pdf
 vendor/
 .bundle/
 .vscode/
+*.bak
+output/
