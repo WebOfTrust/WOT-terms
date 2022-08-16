@@ -6,6 +6,8 @@ Videostart: https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG
 Level: 3
 ---
 
-{{ page.collection }} -- **{{ page.term }}**" >> ./_terms/identifier.md
-    echo  {{ page.text }}"
+{{ page.collection }} -- {{ page.term }}
+
+   {{ page.text }}
+
 {% include_relative glossary/identifier.md %}

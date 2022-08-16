@@ -33,8 +33,10 @@ do
 	echo "Level: $lvl" >> $filename
     echo "---" >> $filename
     echo "" >> $filename
-    echo "{{ page.collection }} -- **{{ page.term }}**\" >> $filename
-    echo "   {{ page.text }}\" >> $filename
+    echo "{{ page.collection }} -- {{ page.term }}" >> $filename
+    echo "" >> $filename
+    echo "   {{ page.text }}" >> $filename
+    echo "" >> $filename
 
     if [  -f "$BASEDIR/$SUBSRC/$trm.md" ]; then
         echo "{% include_relative $SUBSRC/$trm.md %}" >> $filename
