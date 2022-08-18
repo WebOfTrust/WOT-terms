@@ -13,7 +13,7 @@
 The main reason is interoperability. We want to join in the effort to create cross-referencing concepts, terms and glossary resources at WebofTrust.
 
 **Why don't we do it on our own, on our own repo [WebofTrust](https://github.com/WebOfTrust)?**
-- we would to have to build similar Github Actions tooling like [ToIP](https://github.com/trustoverip) already has.
+- we would to have to build similar Github Actions tooling like [ToIP](https://wiki.trustoverip.org/display/HOME/Terms+Wikis) already has.
 - we can't join the synchronization effort already taking place with [eSSIF-lab]()
 - we would have to maintain these auxiliary which keeps us off other important work
  

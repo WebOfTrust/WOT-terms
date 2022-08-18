@@ -105,6 +105,7 @@ defaults:
 sidebars:
 - home_sidebar
 - mydoc_sidebar
+- wot_sidebar
 - product1_sidebar
 - product2_sidebar
 - other
