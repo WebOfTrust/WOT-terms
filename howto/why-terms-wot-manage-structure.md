@@ -5,6 +5,8 @@ What we have to generate our static content site:
 2. a sheet called _Terms WOT manage_ (`.xls`) a central location with strict editing rights.
 3. a comma separated file _Terms WOT manage_ (`.csv`) in the root directory of the `gh-pages` branch of `WOT-terms` repo.
 
+<img src="./images/Terms-wot-manage-screen-example.png" alt="Terms-wot-manage-screen-example" width="800">
+
 ## Why a sheet and why is it called Terms WOT manage?
 We need a place where terms are defined and declared. A sheet of terms is very practical:
 - lots of software available to amend and manage sheets
