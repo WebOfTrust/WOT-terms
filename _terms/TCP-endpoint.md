@@ -11,4 +11,3 @@ Level: 3
    {{ page.text }}
 
 {% include_relative glossary/tcp-endpoint.md %}
-
