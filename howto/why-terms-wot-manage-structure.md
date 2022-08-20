@@ -84,9 +84,9 @@ Recently the tool has been engineered towards the WOT-terms challenge:
    2. number of appearances, the actual count
 
 #### Regular expression to hit
- - Some abbreviation are too short. They acronyms match non-relevant things in the text. E.g. "AN", "AID" and "SAID". We need to look for "(AN)", " AN " or at the beginning of a paragraph: "\nAN ".
- - multiple word expression like "virtual-credential-transaction-event-log" should be look for using "virtual credential transaction event log"
- - The longer combination that matches exactly takes precedence in the count:
+ - Some abbreviationS are too short. The acronyms match non-relevant things in the text. E.g. "AN", "AID" and "SAID". We need to look for "(AN)", " AN " or at the beginning of a paragraph: "\nAN ".
+ - multiple-word expressions like "virtual-credential-transaction-event-log" should be looked for using "virtual credential transaction event log".
+ - The longer combination that matches exactly, takes precedence in the count:
 "virtual-credential-transaction-event-log", then "credential transaction event log" and lastly "transaction event log". No double counts here. Same with acronyms: an exact match for "VC-TEL" implies that there's no count for "TEL". Lastly also in syllables: a hit for "keridemlia" doesn't count "keri" in this word. 
 
 ### Results
