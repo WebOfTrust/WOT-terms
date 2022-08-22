@@ -1,6 +1,7 @@
 # The Terms WOT manage structure explained
 
-What we have to generate our static content site on the Github project page of this [WOT-terms page](https://weboftrust.github.io/WOT-terms/) repo:
+What we have, to generate our static content site on the Github project page of this [WOT-terms page](https://weboftrust.github.io/WOT-terms/) repo, is:
+
 1. wiki resources, terms in separate `.md` files in a Jekyll directory structure
 2. a sheet called _Terms WOT manage_ (`.xls`) a central location with strict editing rights.
 3. a comma separated file _Terms WOT manage_ (`.csv`) in the root directory of the `gh-pages` branch of `WOT-terms` repo.
@@ -8,7 +9,9 @@ What we have to generate our static content site on the Github project page of t
 <img src="./images/Terms-wot-manage-screen-example.png" alt="Terms-wot-manage-screen-example" width="800">
 
 ## Why a sheet and why is it called Terms WOT manage?
+
 We need a place where terms are defined and declared. A sheet of terms is very practical:
+
 - lots of software available to amend and manage sheets
 - many people have the skills to manage sheets with this type of software (Excel, Google sheets, Numbers, etc.)
 - a sheet can enforce a notion of a unique value ('Key') in a column, a meaningless long-living identifier
@@ -24,7 +27,7 @@ The reason it's called '_Terms WOT manage_':
 
 
 ## Term life cycle
-A term is a bitch. A term might have one or more abbreviations that are assimilated already (e.g. 'PTEL' and 'Public TEL' for public-transaction-event-log). It can be lower case, upper case, mixed case (e.g. 'vLEI'). it can be singular and plural (e.g. 'OOBIs' is more used than 'OOBI'). So, to have a term as identifying `Key` to itself (self-referential) is a pain as long as the process hasn't completed, the term hasn't hardened yet. This process is very different for every single term. For example `icp: tag` doesn't even have a proper term name yet.
+A term is a bitch. A term might have one or more abbreviations that are assimilated already (e.g. 'PTEL' and 'Public TEL' for public-transaction-event-log). It can be lower case, upper case, mixed case (e.g. 'vLEI'). it can be singular and plural (e.g. 'OOBIs' is more used than 'OOBI'). So, to have a term as identifying `Key` to itself (self-referential) is a pain as long as the process hasn't completed; the term hasn't _hardened_ yet. This process is very different for every single term. For example `icp: tag` doesn't even have a proper term name yet (mid 2022).
 
 ### Lifecycle phases
 
@@ -67,6 +70,7 @@ A verifiable data structure that is a backward and forward chained ...
 ```
 
 ### Why not a database?
+
 We're generating static websites, for good reasons. [More info](https://www.cloudflare.com/en-gb/learning/performance/static-site-generator#Pros). But feel free to Google comparison and evaluations which direction you consider best. E.g. [wpamelia.com](https://wpamelia.com/static-vs-dynamic-website/?gclid=Cj0KCQjwxveXBhDDARIsAI0Q0x234PSArlYOfbriIL6u0g3RUlRST8zfdAnYtkrRSs-GJ3RdgwaCSaEaArioEALw_wcB).
 
 Because we've chosen a static site generator, [Jekyll](https://jekyllrb.com) for the time being, but there are other open-source options, **a database would be balast**.
@@ -94,6 +98,7 @@ We count, so we're lazily up to date.**
 ### Redesign
 
 Recently the tool has been engineered towards the WOT-terms challenge:
+
 - it crawls any Github page and also pdfs (if necessary)
 - the tool uses the 'Terms WOT manage' sheet to match terms
 - the scores are based on a combination of parameters:
@@ -101,9 +106,10 @@ Recently the tool has been engineered towards the WOT-terms challenge:
    2. number of appearances, the actual count
 
 #### Regular expression to hit
- - Some abbreviationS are too short. The acronyms match non-relevant things in the text. E.g. "AN", "AID" and "SAID". We need to look for "(AN)", " AN " or at the beginning of a paragraph: "\nAN ".
- - multiple-word expressions like "virtual-credential-transaction-event-log" should be looked for using "virtual credential transaction event log".
- - The longer combination that matches exactly, takes precedence in the count:
+
+- Some abbreviations are too short. The acronyms match non-relevant things in the text. E.g. "AN", "AID" and "SAID". We need to look for "(AN)", " AN " or at the beginning of a paragraph: "\nAN " instead.
+- multiple-word expressions like "virtual-credential-transaction-event-log" should be looked for using "virtual credential transaction event log".
+- The longer combination that matches exactly, takes precedence in the count:
 "virtual-credential-transaction-event-log", then "credential transaction event log" and lastly "transaction event log". No double counts here. Same with acronyms: an exact match for "VC-TEL" implies that there's no count for "TEL". Lastly also in syllables: a hit for "keridemlia" doesn't count "keri" in this word. 
 
 ### Results
@@ -114,7 +120,7 @@ The count of terms are in the Cat_CCCCC columns after a (re)run of the counting 
 
 ## Why do we need this?
 
-- Key: We might need a Key field **to be able to** have a unique long-living identifier for a term in the WebofTrust domain. However any term goes through a life cycle, with the end state of a term being well-known, unchanged for a while and unique. The Key field then has become superfluous.
+- Key: We might need a Key field **to be able to** have a unique long-living identifier for a term in the WebofTrust domain. However, any term goes through a life cycle, with the end state of a term being well-known, unchanged for a while and unique. The `Key` field has become superfluous by then.
 - TTTTT_Fkey / TTTTT_start: We use this Foreign Key to link to other educational resources of the this term, like Youtube footage*, webpages and other glossaries.
 - level: We assess a [level of understanding](../README.md#levels-of-understanding) to meaningful study a term. Regardless this subjective and personal judgement, the filtering options are numerous:
 
