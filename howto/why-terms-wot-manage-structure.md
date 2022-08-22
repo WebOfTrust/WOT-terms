@@ -22,12 +22,29 @@ The reason it's called '_Terms WOT manage_':
 2. it covers all the concepts, terms, categories, dictionaries, tags in the WebofTrust (WOT) field.
 3. The smallest unit of declaration is a 'Term'.
 
+
+## Term life cycle
+A term is a bitch. A term might have one or more abbreviations that are assimilated already (e.g. 'PTEL' and 'Public TEL' for public-transaction-event-log). It can be lower case, upper case, mixed case (e.g. 'vLEI'). it can be singular and plural (e.g. 'OOBIs' is more used than 'OOBI'). So, to have a term as identifying `Key` to itself (self-referential) is a pain as long as the process hasn't completed, the term hasn't hardened yet. This process is very different for every single term. For example `icp: tag` doesn't even have a proper term name yet.
+
+### Lifecycle phases
+
+- Start: We need a 'Key' field to identify a most probably changing term and prevent the database from getting polluted with double terms.
+- Midlife: We need a 'Key' field to uniquely identify a term that might have various names used in the same (!) context.
+- End: A term is well-known, agreed upon by the community, therefore assimilated and unique, and we don't need 'Key' anymore.
+
+### Three simple rules (for now, feel free to comment!)
+
+1. We prefer **a singular expression** over plural expression. So for example the term is OOBI not OOBIs, unless it's grammatically incorrect (can't think of anything now).
+2. We use **lower case** as much as we can in the long (identifying) terms. The abbreviated term are linkers: they will get a `## See` header and a link to the long more meaningful term in itself.
+3. **Longer compound terms take precedence** over the parts. `public TEL` or `public-transaction-event-log` is apparently worth explaining as a special form of `TEL` or `transaction-event-log`. So we first look for a hit on the longer term while parsing texts.
+
 ## Conventions and comparison to database
 
 Columns are comparable to _fields_ in a database. The rows are the _records_ in a database.
 
 Field _names_ are in the first row. A few columns maintain our database-like structure:
-- Key: a unique incremental meaningless numeric identifier. The uniqueness is not enforced by code, but by userinterface: conditional formatting colours the cells with the same value red.
+
+- Key: a unique incremental meaningless numeric identifier. The uniqueness is not enforced by code, but by userinterface: conditional formatting colours the cells with the same value red. The Key field becomes redundant as soon as the term itself is a well-known meaningful Key and Term at the same time, like a [country code](https://www.countrycode.org).
 - TTTTT_FKey: this columns contains foreigns key into another table or sheet. TTTTT can be a file that has terms mentioned in a video ("PhilVid") or another Glossary ("eSSIF-lab") that are related to the matching term on a specific row in our sheet.
 - Cat_CCCCC: this columns contains Categories. We consider a term from a certain category went it's mentioned regularly in the content of certain repository (e.g. 'KERI' or 'OOBI') of the WebofTrust Github site.
 
@@ -97,7 +114,7 @@ The count of terms are in the Cat_CCCCC columns after a (re)run of the counting 
 
 ## Why do we need this?
 
-- Key: We need a Key field to be able to have a unique long-living identifier for a term in the WebofTrust domain.
+- Key: We might need a Key field **to be able to** have a unique long-living identifier for a term in the WebofTrust domain. However any term goes through a life cycle, with the end state of a term being well-known, unchanged for a while and unique. The Key field then has become superfluous.
 - TTTTT_Fkey / TTTTT_start: We use this Foreign Key to link to other educational resources of the this term, like Youtube footage*, webpages and other glossaries.
 - level: We assess a [level of understanding](../README.md#levels-of-understanding) to meaningful study a term. Regardless this subjective and personal judgement, the filtering options are numerous:
 
