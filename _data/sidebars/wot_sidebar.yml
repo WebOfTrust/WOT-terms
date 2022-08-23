@@ -1,4 +1,6 @@
-# This is your automatically generated TOC using gen-yml.bat. The sidebar code loops through sections here and provides the appropriate formatting.
+# This script automatically generated this Terms menu YAML file , with arguments Overview and all.
+# The sidebar code loops through sections here and provides the appropriate formatting.
+# Generated running gen-yml.bat located in /Users/hvc/apps/WOT-terms, by UID hvc on Tue Aug 23 14:31:12 WEST 2022.
 
 entries:
 - title: sidebar
@@ -19,6 +21,6 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Overview
+  - title: 
     output: web, pdf
     folderitems:
