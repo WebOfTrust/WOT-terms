@@ -4,13 +4,14 @@
 # Adjustments for use: Henk van Cann
 # Run this script from the root dir in repo
 # ------------------------------------------
-# Include the usage function:
-# .  /gen-usage.bat
+# Includes the usage function:
+# ./gen-usage.sh
 # ------------------------------------------
 USERNAME=$(id -un)
 DATETIME=$(date)
 SOURCE=Terms-WOT-manage.txt   # will stay in tact
 INPUT=Terms-workfile.txt      # will be overridden
+AWKOUT=AwkOut-workfile.txt    # will be overridden
 HEADER=Header-workfile.txt    # will be overridden
 OUTYAMLFILE=wot_sidebar.yml          # resulting yml file
 
@@ -35,6 +36,7 @@ NAMESTRLEN=20     # We need short menu item names
 if [ $# -lt 1 ]; then
   MENUNAME="Overview"
   CATNAME="all"
+  LEVELNR="1"  # 1 is all terms will be shown in a certain categorie
 fi   # lt 1
 
 # Getopts handling or arguments handling
@@ -51,6 +53,11 @@ while [ ! -z "$1" ]; do
             echo "You entered category as: $1"
             CATNAME=$1
             ;;
+        --level|-l)
+            shift
+            echo "You entered level as: $1"
+            LEVELNR=$1
+            ;;
         *)
             show_usage
             ;;
@@ -60,32 +67,73 @@ if [ $# -gt 0 ]; then
 fi
 done    # while loop getopts
 
-# Verifying the existence of CATNAME in COLS array and we need the index
+# Test whether LEVEL has an appropriate value
+case $LEVELNR in 
+  1 | 3 | 7)
+    #echo "a valid level has been assigned: $LEVELNR"
+    ;;
+  *)
+    echo "an invalid level number ($LEVELNR) has been assigned"
+    exit 3
+    ;;
+esac
+
+# Verifying the existence of CATNAME in COLS array and we need the 
 if [[ ${CATNAME} == "all" ]]; then
   COLUMNINDEX=999  # This means "all categories relevant"
 else    # looking for a matching column name
   found='false'
-  for i in "${COLS[@]}"
+  for i in "${!COLS[@]}"
     do
-      if [ "$i" == "$CATNAME" ] ; then
-      COLUMNINDEX=$i     # assigns the first exactly matching column, following ignored
+      if [ "${COLS[$i]}" == "$CATNAME" ] ; then
+      let COLUMNINDEX=$i+1     # assigns the index number to use in AWK command of the first exactly matching column, following ignored
       found='true'
       fi  # found i
     done  # for loop
-  if [ "$found" == "false"]; then 
+  if [ "$found" == "false" ]; then 
     echo "${CATNAME} not found in ${COLS[*]}"
     exit 1
   fi # found is false, CATNAME not in COLS
 fi # CATNAME == all
 
-OLDIFS="$IFS"               # $IFS is a special shell variable in Bash
-IFS=$';'
+# Filter the relevant terms (lines in the INPUT)
+#####################################
+# IMPORTANT In these AWK command, I haven't been able to make the column number variable :
+#           Therefore Level column is fixed $8 
+#           Therefore the Cat_XXXXX columns are fixed too: $9-$16
+# We strip the number of records (rows) and field (columns) according to the arguments passed
+# The Workfile INPUT will be overriden in the consequetive steps
 
-[ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
-FILENAME="./$BASEDIR/$OUTYAMLFILE"
+# awk 'BEGIN { FS=OFS=";" } ($8>=1 && $9>=1) { print $1, $4, $6, $8, $14 }' ${INPUT}
+
+# Construct the string of fields
+IndexArray=(1 4 6 8 $COLUMNINDEX)
+
+for i in "${IndexArray[@]}"; do
+    fields="$fields,\$$i"
+done
+fields=$( echo "$fields" | sed 's/^,//' ) # Remove the leading comma
+
+if [ $COLUMNINDEX = "999" ]; then
+  echo "TBW some logic here to make a loop through all categories" # some logic here to make a loop through all categories 
+else
+  catsel="\$$COLUMNINDEX" # We'd like to choose the right category column
+  cat "${INPUT}" | awk -v levelNr=$LEVELNR 'BEGIN { FS=OFS=";" }  {if (($8 >= levelNr) && ( '$catsel' >= 1 )) print '$fields' }' > "$AWKOUT"
+fi   # COLUMNINDEX
+
+
+
+OLDIFS="$IFS"               # $IFS is a special shell variable in Bash
+IFS=';'
+
+[ ! -f $AWKOUT ] && { echo "$AWKOUT file not found"; exit 99; }
+echo $FILENAME
+FILENAME="./$BASEDIR/${CATNAME}_lvl${LEVELNR}_${OUTYAMLFILE}"
+echo $FILENAME
 
 # Start write to resulting yaml file
-echo "# This script automatically generated this Terms menu YAML file , with arguments ${MENUNAME} and ${CATNAME}."  > $FILENAME 
+echo "# This script automatically generated this Terms menu YAML file , with arguments" > $FILENAME
+echo "# menuname: ${MENUNAME}, catname: ${CATNAME} and level: ${LEVELNR}."  >> $FILENAME 
 echo "# The sidebar code loops through sections here and provides the appropriate formatting." >> $FILENAME
 echo "# Generated running $(basename ${0}) located in $(dirname ${0}), by UID ${USERNAME} on ${DATETIME}." >> $FILENAME
 echo "" >> $FILENAME
@@ -108,42 +156,25 @@ echo "      url: /tocpage.html" >> $FILENAME
 echo "      output: pdf" >> $FILENAME
 echo "      type: frontmatter" >> $FILENAME
 echo "" >> $FILENAME
-echo "  - title: $menuName" >> $FILENAME
+echo "  - title: $MENUNAME" >> $FILENAME
 echo "    output: web, pdf" >> $FILENAME
 echo "    folderitems:" >> $FILENAME
 
-while read Key ToIP_Fkey Philvid_Fkey Term text	link vidstart level Cat_PTEL Cat_IPEX Cat_OOBI Cat_CESR Cat_ACDC Cat_KERI Cat_SAID Cat_GLEIF
+# 1 Key - 4 Term - 6 link - 8 level - YY Cat_XXXX  
+while read Key Term link level $CATNAME
 do
+
     Term=$( echo $Term |  sed -e 's/^[[:space:]]*//' )  # remove preceding and trailing blanks
     Term=$( echo $Term | sed -e 's/[^A-Za-z0-9._-]/-/g')  # replace unwanted chars in filename
-
-    text=$( echo $text | sed -e 's/\:/\;/g')   # replace ':' with ';' because in front matter ':' has a meaning and can occur only once per line.
-
-    if [ $Cat_KERI -gt 0 ]; then
-      echo "" >> $FILENAME
-        if [ ${#$Term} -gt $NAMESTRLEN ]; then
-          nameTerm = ${$Term:0:$NAMESTRLEN}
-          echo "    - title: $nameTerm" >> $FILENAME
-          echo "      url: $link" >> $FILENAME
-          echo "      output: web, pdf" >> FILENAME
-        fi  
-    fi
-    echo "Key: $Key"                   # >> $FILENAME
-    echo "ToIP-Fkey: $ToIP_Fkey"       # >> $FILENAME
-	echo "Philvid-Fkey: $Philvid_Fkey" # >> $FILENAME
-	echo "Term: $Term"       # >> $FILENAME
-    echo "text: $text"       # >> $FILENAME
-    echo "Link: $link"       # >> $FILENAME
-	echo "Videostart: $vidstart" # >> $FILENAME
-	echo "Level: $level"      # >> $FILENAME
-    echo "Cat_PTEL: $Cat_PTEL" # >> $FILENAME
-    echo "Cat_IPEX: $Cat_IPEX" # >> $FILENAME
-    echo "Cat_OOBI: $Cat_OOBI" # >> $FILENAME
-    echo "Cat_CESR: $Cat_CSER" # >> $FILENAME
-    echo "Cat_ACDC: $Cat_ACDC" # >> $FILENAME
-    echo "Cat_KERI: $Cat_KERI" # >> $FILENAME
-    echo "Cat_SAID: $Cat_SAID" # >> $FILENAME
-    echo "Cat_GLEIF: $Cat_GLEIF" # >> $FILENAME
+    
+    if [ ${#Term} -gt $NAMESTRLEN ]; then
+      Term = ${$Term:0:$NAMESTRLEN}  # shorten the Term to an acceptable menu item name
+    fi  # Term too long for being menu item name
   
-done < $INPUT
+    echo "" >> $FILENAME
+    echo "    - title: $Term" >> $FILENAME
+    echo "      url: $link" >> $FILENAME
+    echo "      output: web, pdf" >> $FILENAME
+
+done < $AWKOUT
 IFS="$OLDIFS"   # $IFS is a special shell variable in Bash, set it back to the old value

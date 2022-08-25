@@ -10,6 +10,7 @@ function show_usage (){
     printf "Options:\n"
     printf " -n|--name, Menu name is used in menu\n"
     printf " -c|--column, Choose category column\n"
+    printf " -l|--level, Choose level of understanding (1=expert digital ID, 3=expert SSI, 7=expert Autonomic IDs)\n"
     printf " -h|--help, Print help\n"
 
 return 0

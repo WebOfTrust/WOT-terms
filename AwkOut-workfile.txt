@@ -1,0 +1,5 @@
+6;BADA;https://github.com/trustoverip/acdc/wiki/BADA.md;7;1
+29;OOBI;https://github.com/trustoverip/acdc/wiki/OOBI.md;7;1
+39;TCP;https://github.com/trustoverip/acdc/wiki/TCP.md;3;1
+41;UI;https://github.com/trustoverip/acdc/wiki/UI.md;1;1
+42;URL;https://github.com/trustoverip/acdc/wiki/URL.md;1;1
