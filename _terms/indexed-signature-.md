@@ -4,6 +4,7 @@ Text: Used when signing anything with a multi-key autonomic identifier, a verifi
 Link: https://github.com/trustoverip/acdc/wiki/indexed-signature 
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

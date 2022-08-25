@@ -4,6 +4,7 @@ Text: A prefix that is composed of a basic Base-64 (URL safe) derivation code pr
 Link: https://github.com/trustoverip/acdc/wiki/prefix
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

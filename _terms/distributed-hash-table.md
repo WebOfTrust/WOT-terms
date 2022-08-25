@@ -4,6 +4,7 @@ Text:
 Link: https://github.com/trustoverip/acdc/wiki/distributed-hash-table.md
 Videostart: 
 Level: 3
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

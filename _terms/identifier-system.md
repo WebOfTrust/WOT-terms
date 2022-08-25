@@ -4,6 +4,7 @@ Text: Something to uniquely identify (public) identities, pointing to something 
 Link: https://github.com/trustoverip/acdc/wiki/identifier-system
 Videostart: 
 Level: 3
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

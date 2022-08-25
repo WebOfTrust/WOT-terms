@@ -4,6 +4,7 @@ Text: A copy of a system that is - and works exactly as the original
 Link: https://github.com/trustoverip/acdc/wiki/clone
 Videostart: 
 Level: 3
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

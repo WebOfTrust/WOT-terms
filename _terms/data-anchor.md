@@ -4,6 +4,7 @@ Text: Data anchors are digests of digital data, that uniquely identify this data
 Link: https://github.com/trustoverip/acdc/wiki/data-anchor
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

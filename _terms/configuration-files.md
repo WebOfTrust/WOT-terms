@@ -4,6 +4,7 @@ Text: File used to configure the parameters and initial settings for some comput
 Link: https://github.com/trustoverip/acdc/wiki/configuration-files
 Videostart: 
 Level: 1
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

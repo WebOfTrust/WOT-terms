@@ -4,6 +4,7 @@ Text: Key Event Log is the native KERI verifiable data structure
 Link: https://github.com/trustoverip/acdc/wiki/key-event-log
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

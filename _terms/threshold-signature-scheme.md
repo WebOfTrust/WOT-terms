@@ -4,6 +4,7 @@ Text: The minimum number of valid witness signatures required
 Link: https://github.com/trustoverip/acdc/wiki/threshold-signature-scheme
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

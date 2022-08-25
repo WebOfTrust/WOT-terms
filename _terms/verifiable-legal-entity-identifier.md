@@ -4,6 +4,7 @@ Text: Digital verifiable credentials issued by (delegates) of GLEIF to prove tha
 Link: https://github.com/trustoverip/acdc/wiki/verifiable-legal-entity-identifier
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

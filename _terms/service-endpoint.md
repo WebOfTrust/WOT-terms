@@ -4,6 +4,7 @@ Text: A web service endpoint which is a URL at which clients of specific service
 Link: https://github.com/trustoverip/acdc/wiki/service-endpoint
 Videostart: 
 Level: 3
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

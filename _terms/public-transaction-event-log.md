@@ -4,6 +4,7 @@ Text: Is a hash linked data structure of transactions that can be used to track 
 Link: https://github.com/trustoverip/acdc/wiki/public-transaction-event-log
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

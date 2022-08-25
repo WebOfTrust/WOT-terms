@@ -4,6 +4,7 @@ Text: Verifiable cryptographic commitment. It's a collision resistant hash of co
 Link: https://github.com/trustoverip/acdc/wiki/digest
 Videostart: 
 Level: 3
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

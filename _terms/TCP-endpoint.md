@@ -4,6 +4,7 @@ Text: This is a service endpoint of the web transmission control protocol
 Link: https://github.com/trustoverip/acdc/wiki/tcp-endpoint
 Videostart: 
 Level: 3
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

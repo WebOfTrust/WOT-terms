@@ -4,6 +4,7 @@ Text:
 Link: https://github.com/trustoverip/acdc/wiki/verifiable-data-structure.md
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

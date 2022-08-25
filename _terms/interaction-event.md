@@ -4,6 +4,7 @@ Text: Anchors external data to the key-state as established by the most recent p
 Link: https://github.com/trustoverip/acdc/wiki/interaction-event
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

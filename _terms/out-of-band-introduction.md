@@ -4,6 +4,7 @@ Text: credential schema out-of-band ntroductions
 Link: https://github.com/trustoverip/acdc/wiki/out-of-band-introduction
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

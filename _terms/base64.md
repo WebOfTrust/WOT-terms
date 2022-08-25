@@ -4,6 +4,7 @@ Text: A group of binary-to-text encoding schemes that represent binary data
 Link: https://github.com/trustoverip/acdc/wiki/base64
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

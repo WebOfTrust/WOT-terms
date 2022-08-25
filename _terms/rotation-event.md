@@ -4,6 +4,7 @@ Text: Changes the key-state which includes a change to the set of authoritative 
 Link: https://github.com/trustoverip/acdc/wiki/rotation-event
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

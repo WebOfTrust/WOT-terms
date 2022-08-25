@@ -4,6 +4,7 @@ Text: An event that establishes control authority
 Link: https://github.com/trustoverip/acdc/wiki/establishment-event
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

@@ -4,6 +4,7 @@ Text: A duplicate of an object under version control for further separate modifi
 Link: https://github.com/trustoverip/acdc/wiki/branch
 Videostart: 
 Level: 3
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

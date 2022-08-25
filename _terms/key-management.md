@@ -4,6 +4,7 @@ Text: Management of cryptographic keys in a crypto-system.
 Link: https://github.com/trustoverip/acdc/wiki/key-management
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

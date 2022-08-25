@@ -4,6 +4,7 @@ Text: An identifier that is controlled by a one-of-one signing keypair
 Link: https://github.com/trustoverip/acdc/wiki/single-signature-identifier
 Videostart: 
 Level: 3
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

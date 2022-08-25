@@ -4,6 +4,7 @@ Text: A reference to a web resource that specifies its location on a computer ne
 Link: https://github.com/trustoverip/acdc/wiki/uniform-resource-locator
 Videostart: 
 Level: 1
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

@@ -4,6 +4,7 @@ Text:
 Link: https://github.com/trustoverip/acdc/wiki/inception-event.md
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

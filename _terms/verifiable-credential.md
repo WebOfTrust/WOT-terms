@@ -4,6 +4,7 @@ Text: The digital variant of our daily live's credentials (ike passport, driver'
 Link: https://github.com/trustoverip/acdc/wiki/verifiable-credential
 Videostart: 
 Level: 1
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

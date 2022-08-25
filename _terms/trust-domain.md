@@ -4,6 +4,7 @@ Text:
 Link: https://github.com/trustoverip/acdc/wiki/trust-domain.md
 Videostart: 
 Level: 1
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

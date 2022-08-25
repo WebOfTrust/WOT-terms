@@ -4,6 +4,7 @@ Text: delegated identifiers under multi-signature control
 Link: https://github.com/trustoverip/acdc/wiki/delegation
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

@@ -4,6 +4,7 @@ Text: The current state of all the temporary storage locations (what events are 
 Link: https://github.com/trustoverip/acdc/wiki/escrow-state
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

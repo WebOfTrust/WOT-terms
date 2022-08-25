@@ -4,6 +4,7 @@ Text: a Zero Trust approach trusts no one
 Link: https://github.com/trustoverip/acdc/wiki/zero-trust
 Videostart: 
 Level: 3
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

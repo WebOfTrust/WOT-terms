@@ -4,6 +4,7 @@ Text:
 Link: https://github.com/trustoverip/acdc/wiki/key-event-receipt-infrastructure.md
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

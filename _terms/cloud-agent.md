@@ -4,6 +4,7 @@ Text: Cloud agent is software that is installed on the cloud server instances fo
 Link: https://github.com/trustoverip/acdc/wiki/cloud-agent
 Videostart: 
 Level: 3
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

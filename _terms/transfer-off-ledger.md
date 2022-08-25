@@ -4,6 +4,7 @@ Text: The act of transferring control authority over an identifier from a ledger
 Link: https://github.com/trustoverip/acdc/wiki/transfer-off-ledger
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

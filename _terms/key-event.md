@@ -4,6 +4,7 @@ Text: Events happening to controlling keys of an identifier recorded in a Key Ev
 Link: https://github.com/trustoverip/acdc/wiki/key-event
 Videostart: 
 Level: 3
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

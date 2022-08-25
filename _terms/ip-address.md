@@ -4,6 +4,7 @@ Text: A numerical label such as '192.0.2.1' that is connected to a computer netw
 Link: https://github.com/trustoverip/acdc/wiki/ip-address
 Videostart: 
 Level: 1
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

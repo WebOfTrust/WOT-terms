@@ -4,6 +4,7 @@ Text: A keystore in KERI is the encrypted data store that hold the private keys 
 Link: https://github.com/trustoverip/acdc/wiki/keystore
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

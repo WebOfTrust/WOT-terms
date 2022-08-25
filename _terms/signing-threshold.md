@@ -4,6 +4,7 @@ Text: Minimum number of valid signatures to satisfy the requirement for successf
 Link: https://github.com/trustoverip/acdc/wiki/signing-threshold
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

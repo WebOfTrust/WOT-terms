@@ -4,6 +4,7 @@ Text: SSI Infrastructure consisting of the technological components that are dep
 Link: https://github.com/trustoverip/acdc/wiki/ssi-system
 Videostart: 
 Level: 1
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

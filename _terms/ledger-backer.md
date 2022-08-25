@@ -4,6 +4,7 @@ Text: A witness in KERI that is ledger-registered
 Link: https://github.com/trustoverip/acdc/wiki/ledger-backer
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

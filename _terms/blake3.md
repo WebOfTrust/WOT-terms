@@ -4,6 +4,7 @@ Text: BLAKE3 is a relatively young (2020) cryptographic hash function based on B
 Link: https://github.com/trustoverip/acdc/wiki/blake3
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

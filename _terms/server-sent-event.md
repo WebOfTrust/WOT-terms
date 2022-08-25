@@ -4,6 +4,7 @@ Text: Mailbox notifications, a streaming service for the agent U/I, to get notif
 Link: https://github.com/trustoverip/acdc/wiki/server-sent-event
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

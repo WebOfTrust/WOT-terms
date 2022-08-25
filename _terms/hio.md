@@ -4,6 +4,7 @@ Text: Hierarchical asynchronous coroutines and I/O in Python
 Link: https://github.com/trustoverip/acdc/wiki/hio
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

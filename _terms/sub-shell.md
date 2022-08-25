@@ -4,6 +4,7 @@ Text: a child shell started up from - and contained in another parent shell
 Link: https://github.com/trustoverip/acdc/wiki/sub-shell
 Videostart: 
 Level: 1
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

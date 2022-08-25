@@ -4,6 +4,7 @@ Text: Guarantee that KERI logs are immutable
 Link: https://github.com/trustoverip/acdc/wiki/watcher
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

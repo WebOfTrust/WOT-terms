@@ -45,6 +45,8 @@ do
 	echo "Link: $link" >> $filename
 	echo "Videostart: $vidstart" >> $filename
 	echo "Level: $level" >> $filename
+    echo "layout: page" >> $filename
+   # echo "folder: terms" >> $filename
     echo "---" >> $filename
     echo "" >> $filename
     echo "{{ page.collection }} - {{ page.Term }}" >> $filename

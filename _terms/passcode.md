@@ -4,6 +4,7 @@ Text: Secret data, typically a string of characters, usually used to confirm a u
 Link: https://github.com/trustoverip/acdc/wiki/passcode
 Videostart: 
 Level: 3
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

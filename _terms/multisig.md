@@ -4,6 +4,7 @@ Text: A digital signature scheme which allows a group of users to sign a single 
 Link: https://github.com/trustoverip/acdc/wiki/multisig
 Videostart: 
 Level: 1
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

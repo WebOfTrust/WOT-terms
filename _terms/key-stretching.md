@@ -4,6 +4,7 @@ Text: make a possibly weak key, typically a password or passphrase, more secure 
 Link: https://github.com/trustoverip/acdc/wiki/key-stretching
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

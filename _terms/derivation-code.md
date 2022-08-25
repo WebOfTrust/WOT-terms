@@ -4,6 +4,7 @@ Text: A special character that encodes the derivation process, pre-pended to the
 Link: https://github.com/trustoverip/acdc/wiki/derivation-code
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}

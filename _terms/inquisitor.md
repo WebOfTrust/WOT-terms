@@ -4,6 +4,7 @@ Text: Someone (in a validating role) that launches an inquiry at some KERI witne
 Link: https://github.com/trustoverip/acdc/wiki/inquisitor
 Videostart: 
 Level: 7
+layout: page
 ---
 
 {{ page.collection }} - {{ page.Term }}
