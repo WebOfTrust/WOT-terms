@@ -66,7 +66,9 @@ collections:
   terms:
     output: true
     permalink: /terms/:path/
-    
+    # Path to the document relative to the collection's directory, 
+    # including base filename of the document.
+
 defaults:
   -
     scope:

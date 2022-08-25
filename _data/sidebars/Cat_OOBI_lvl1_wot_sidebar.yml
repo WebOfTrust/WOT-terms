@@ -1,7 +1,7 @@
 # This script automatically generated this Terms menu YAML file , with arguments
 # menuname: Henk, catname: Cat_OOBI and level: 1.
 # The sidebar code loops through sections here and provides the appropriate formatting.
-# Generated running gen-yml.sh located in /Users/hvc/apps/WOT-terms, by UID hvc on Thu Aug 25 11:42:38 WEST 2022.
+# Generated running gen-yml.sh located in /Users/hvc/apps/WOT-terms, by UID hvc on Thu Aug 25 12:33:21 WEST 2022.
 
 entries:
 - title: sidebar
@@ -27,17 +27,21 @@ entries:
     folderitems:
 
     - title: BADA
-      url: https://github.com/trustoverip/acdc/wiki/BADA
+      url: https://weboftrust.github.io/WOT-terms/terms/BADA/index.html
       output: web, pdf
 
     - title: OOBI
-      url: https://github.com/trustoverip/acdc/wiki/OOBI
+      url: https://weboftrust.github.io/WOT-terms/terms/OOBI/index.html
       output: web, pdf
 
     - title: TCP
-      url: https://github.com/trustoverip/acdc/wiki/TCP
+      url: https://weboftrust.github.io/WOT-terms/terms/TCP/index.html
       output: web, pdf
 
     - title: UI
-      url: https://github.com/trustoverip/acdc/wiki/UI
+      url: https://weboftrust.github.io/WOT-terms/terms/UI/index.html
+      output: web, pdf
+
+    - title: URL
+      url: https://weboftrust.github.io/WOT-terms/terms/URL/index.html
       output: web, pdf
