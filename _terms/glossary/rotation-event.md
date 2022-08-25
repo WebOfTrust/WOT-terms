@@ -1,5 +1,5 @@
 ## Definition
-Establishment Event that provides the information needed to change the key-state which includes a change to the set of authoritative keypairs for an AID.\
+A type of [establishment event](establishment-event) that provides the information needed to change the key-state which includes a change to the set of [authoritative](authoritative) keypairs for an [AID](autonomic-identifier).\
 Source [Sam Smith](https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-keri.md#basic-terminology)
 
 ## The inner working
