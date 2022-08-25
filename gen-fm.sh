@@ -37,7 +37,7 @@ do
     Term=$( echo $Term | sed -e 's/[^A-Za-z0-9._-]/-/g')  # replace unwanted chars in filename
 
     filename="./$BASEDIR/$Term.md"
-    txt=$( echo $text | sed -e 's/\:/\;/g')   # replace ':' with ';' in front matter 
+    text=$( echo $text | sed -e 's/\:/\;/g')   # replace ':' with ';' in front matter 
 
     echo "---" > $filename
 	echo "Term: $Term" >> $filename

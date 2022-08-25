@@ -166,7 +166,10 @@ do
 
     Term=$( echo $Term |  sed -e 's/^[[:space:]]*//' )  # remove preceding and trailing blanks
     Term=$( echo $Term | sed -e 's/[^A-Za-z0-9._-]/-/g')  # replace unwanted chars in filename
-    
+    # Multifunctional splitting base and filename - got it from here: https://www.oncrashreboot.com/use-sed-to-split-path-into-filename-extension-and-directory
+    # echo "/User/talha/content/images/README.example.md" | sed 's/\(.*\)\/\(.*\)\.\(.*\)$/\1\n\2\n\3/'
+    link=$( echo $link | sed -e 's/\(.*\)\/\(.*\)\.\(.*\)$/\1\/\2/')
+  
     if [ ${#Term} -gt $NAMESTRLEN ]; then
       Term = ${$Term:0:$NAMESTRLEN}  # shorten the Term to an acceptable menu item name
     fi  # Term too long for being menu item name
