@@ -65,9 +65,7 @@ collections:
 # collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
   terms:
     output: true
-    permalink: /terms/:path/
-    # Path to the document relative to the collection's directory, 
-    # including base filename of the document.
+    permalink: /:collection
 
 defaults:
   -

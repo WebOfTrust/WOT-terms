@@ -28,7 +28,6 @@ if [  ${length} -gt 0 ]; then  # non-empty header string
   IFS=';' read -r -a COLS <<< "${string}"  # Colums names in an array
 fi    # if length > 0
 
-
 # Some guidance of the output
 BASEDIR='_data/sidebars'   # Jekyll theme needs the yaml data in this dir
 NAMESTRLEN=20     # We need short menu item names
@@ -169,10 +168,9 @@ do
     Term=$( echo $Term | sed -e 's/[^A-Za-z0-9._-]/-/g')  # replace unwanted chars in filename
     # Multifunctional splitting base and filename - got it from here: https://www.oncrashreboot.com/use-sed-to-split-path-into-filename-extension-and-directory
     # echo "/User/talha/content/images/README.example.md" | sed 's/\(.*\)\/\(.*\)\.\(.*\)$/\1\n\2\n\3/'
-    # link=$( echo $link | sed -e 's/\(.*\)\/\(.*\)\.\(.*\)$/\/\2/') # remove filename extension
-    # link="$JEKYLLOUTDIR"$link"/index.html" # convert to standard permalink of the collection terms
-    link="/"$Term
-    
+    link=$( echo $link | sed -e 's/\(.*\)\/\(.*\)\.\(.*\)$/\/\2\3/') # remove path
+    link="/"$link
+
     if [ ${#Term} -gt $NAMESTRLEN ]; then
       Term = ${$Term:0:$NAMESTRLEN}  # shorten the Term to an acceptable menu item name
     fi  # Term too long for being menu item name
