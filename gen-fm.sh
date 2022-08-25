@@ -4,8 +4,22 @@
 # Adjustments for use: Henk van Cann
 # Run this script from the root dir in repo
 # ------------------------------------------
-INPUT=Terms-transcription-Phils-demo-IIW.csv
-sed -i.bak '1d' $INPUT    # remove the header from the file, create a backup file
+SOURCE=Terms-WOT-manage.txt   # will stay in tact
+INPUT=Terms-workfile.txt      # will be overridden
+HEADER=Header-workfile.txt    # will be overridden
+
+sed '1d' "${SOURCE}" > "${INPUT}"   # remove the header from the file by creating a work file
+sed -n '1p' "${SOURCE}" > "${HEADER}"   # add the header from the file by creating a work file
+
+string=$(cat "${HEADER}")
+# echo "${string//$'\n'/\\n}"
+
+# length=${#string}
+
+# if [  ${length} -gt 0 ]; then  # non-empty header string
+#  IFS=';' read -r -a COLS <<< "${string}"  # Colums names in an array
+#fi    # if length > 0
+
 SUBSRC='glossary' 
 BASEDIR='_terms'
 
@@ -17,20 +31,20 @@ IFS=';'
 
 [ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
 
-while read trm txt lnk vid lvl void1 void2 void3
+while read Key	ToIP_Fkey	Philvid_Fkey	Term	 text	 link	Philvid_start	 level	Cat_PTEL	Cat_IPEX	Cat_OOBI	Cat_CESR	Cat_ACDC	Cat_KERI	Cat_SAID	Cat_GLEIF
 do
-    trm=$( echo $trm |  sed -e 's/^[[:space:]]*//' )  # remove preceding and trailing blanks
-    trm=$( echo $trm | sed -e 's/[^A-Za-z0-9._-]/-/g')  # replace unwanted chars in filename
+    Term=$( echo $Term |  sed -e 's/^[[:space:]]*//' )  # remove preceding and trailing blanks
+    Term=$( echo $Term | sed -e 's/[^A-Za-z0-9._-]/-/g')  # replace unwanted chars in filename
 
-    filename="./$BASEDIR/$trm.md"
-    txt=$( echo $txt | sed -e 's/\:/\;/g')   # replace ':' with ';' in front matter 
+    filename="./$BASEDIR/$Term.md"
+    txt=$( echo $text | sed -e 's/\:/\;/g')   # replace ':' with ';' in front matter 
 
     echo "---" > $filename
-	echo "Term: $trm" >> $filename
-	echo "Text: $txt" >> $filename
-	echo "Link: $lnk" >> $filename
-	echo "Videostart: $vid" >> $filename
-	echo "Level: $lvl" >> $filename
+	echo "Term: $Term" >> $filename
+	echo "Text: $text" >> $filename
+	echo "Link: $link" >> $filename
+	echo "Videostart: $vidstart" >> $filename
+	echo "Level: $level" >> $filename
     echo "---" >> $filename
     echo "" >> $filename
     echo "{{ page.collection }} - {{ page.Term }}" >> $filename
@@ -38,8 +52,8 @@ do
     echo "   {{ page.text }}" >> $filename
     echo "" >> $filename
 
-    if [  -f "$BASEDIR/$SUBSRC/$trm.md" ]; then
-        echo "{% include_relative $SUBSRC/$trm.md %}" >> $filename
+    if [  -f "$BASEDIR/$SUBSRC/$Term.md" ]; then
+        echo "{% include_relative $SUBSRC/$Term.md %}" >> $filename
     fi
 
     # the script adds the include_relative only if we have .md external sources in $SUBSRC/$trm.md available
