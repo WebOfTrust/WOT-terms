@@ -1,0 +1,2 @@
+## Definition
+Legal Entity Identifier

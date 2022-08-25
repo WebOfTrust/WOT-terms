@@ -1,0 +1,2 @@
+A designated representative of a [QVI](QVI) authorized, to conduct QVI operations with GLEIF and [Legal Entities](legal-entity). Also referring to a person in the role of a QAR.\
+Paraphrased by @henkvancann from [source](https://www.gleif.org/vlei/introducing-the-vlei-ecosystem-governance-framework/2022-02-07_verifiable-lei-vlei-ecosystem-governance-framework-glossary-draft-publication_v0.9-draft.pdf) Draft vLEI Ecosystem Governance Framework Glossary.
