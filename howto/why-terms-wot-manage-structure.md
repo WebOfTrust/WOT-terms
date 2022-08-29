@@ -4,9 +4,26 @@ What we have, to generate our static content site on the Github project page of 
 
 1. wiki resources, terms in separate `.md` files in a Jekyll directory structure
 2. a sheet called _Terms WOT manage_ (`.xls`) a central location with strict editing rights.
-3. a comma separated file _Terms WOT manage_ (`.csv`) in the root directory of the `gh-pages` branch of `WOT-terms` repo.
+3. a comma separated file _Terms WOT manage_ (`.csv`) exported from Excel in any directory locally.
 
 <img src="./images/Terms-wot-manage-screen-example.png" alt="Terms-wot-manage-screen-example" width="800">
+<img src="./images/csv-utf-8-save-as.png" alt="csv-utf-8-save-as" width="600">
+
+4. A comma separated text file _Terms WOT manage_ (`.txt`) in the root directory of the `gh-pages` branch of `WOT-terms` repo. Use a plain text editor.
+
+<img src="./images/rename-csv-to-txt1.png" alt="Rename-csv-to-txt step1" width="400">
+<img src="./images/rename-csv-to-txt2.png" alt="Rrename-csv-to-txt step2" width="400">
+
+#### Why not straigth export from Excel to a semi-colon separated text file.
+In Excel the _"save as"_ option does not provide a text export with semi-colons.\
+The third and fourth step have proven necessary to generate a semi-colon-separated text file.
+> Note by Henk van Cann
+> Beware of non-ascii characters still present on the first line of the file coming from Excel. 
+> I trimmed them out with the `tr` command in my bash-tools to handle the sheet.
+
+```
+cat ${SOURCE} | tr -cd '\11\12\40-\176' > "${INPUT}" # want to get rid of non-printable character Excel leaves in the text export
+```
 
 ## Why a sheet and why is it called Terms WOT manage?
 
