@@ -92,6 +92,7 @@ Manifestation:\
 security - maximum coverage (extensible prefixes) - no middle men - portability
 
 #### Secure Attribution over the internet - verifiability to root-of-trust - no middlemen
+We only have one set of tools for truly secure data control! Cryptographic one-way functions! [source](https://www.youtube.com/watch?v=L82O9nqHjRE)
 
 <!-- #######NEW BLOCK####### -->
 ### Objectives of Authentic Chained Data Containers (ACDC)
@@ -153,6 +154,8 @@ serialization indicates a preferred content-addressable identifier for that seri
 
 #### Its and Bits - Cryptography and one-way functions is the only thing than can safe our digital twin
 
+Use [trans-contextual value](trans-contextual-value) creation and capture to fuel cooperative network effects.
+
 #### Network dynamics - centralized system will lose
 
 #### Moore’s law in IoT - centralized systems not capable of handling exponentially growing numbers
@@ -210,6 +213,26 @@ KERI alternative to total global ordering and consensus protocols is a mechanism
 #### JSON-LD and triples are too simple (only "is"/"has") - we are proponents of property graphs
 
 #### CESR composeable without having to parse (in CBOR this is needed)
+([Source](https://medium.com/happy-blockchains/cesr-one-of-sam-smiths-inventions-is-as-controversial-as-genius-d757f36b88f8))
+**CESR is digital data streaming that** 
+1. can freely concatenate pieces of data
+2. Has a fixed streamlet size in both text and binary format
+3. Converts back and forth from text to binary without data loss and round robin
+4. Is able to express complex data structures
+5. Is extensible with derivation codes
+7. Is extremely compact
+8. Works asynchronously, e.g. collecting primitives, such as individual signatures of a Multisig from the web.
+9. Is ready for post-quantum cryptography
+10. Contributes to legally sound identifiers, because everything is “readable” in text format.
+
+“CESR doesn’t provide post-quantum proofing. The hash does. CESR just makes it easier to process the crypto material. How you use crypto material is not up to CESR.”
+Samual M. Smith\
+This list of reinforcing features might make you think of new fields of application. That’s not entirely surprising and, to reiterate, that was my only goal with this article.\
+Let me offer you a few applicable and hopefully inspiring facts to play around with in your head.\
+Composability allows text domain streams of primitives or portions of streams (streamlets) to be converted as a whole to the binary domain and back again without loss.\
+Fully qualified KERI cryptographic primitives are composable via concatenation in both the text (Base64) and binary domains.\
+CESR’s approach to filling its derivation-code tables is a first needed, first served basis.\
+In addition CESR’s requirement that all cryptographic operations maintain at least 128 bits of cryptographic strength precludes the entry of many weak cryptographic suites into the tables.
 
 #### GDDP True gossip protocol AND Round Robin (KERI meeting Tue Aug 9)
 

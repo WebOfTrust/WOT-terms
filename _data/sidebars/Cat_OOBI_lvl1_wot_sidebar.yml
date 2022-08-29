@@ -1,7 +1,7 @@
 # This script automatically generated this Terms menu YAML file , with arguments
-# menuname: Henk, catname: Cat_OOBI and level: 1.
+# menuname: KERI-3, catname: Cat_OOBI and level: 1.
 # The sidebar code loops through sections here and provides the appropriate formatting.
-# Generated running gen-yml.sh located in /Users/hvc/apps/WOT-terms, by UID hvc on Thu Aug 25 12:53:40 WEST 2022.
+# Generated running gen-yml.sh located in /Users/hvc/apps/WOT-terms, by UID hvc on Mon Aug 29 12:49:05 WEST 2022.
 
 entries:
 - title: sidebar
@@ -22,26 +22,34 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Henk
+  - title: KERI-3
     output: web, pdf
     folderitems:
 
     - title: BADA
-      url: /BADA
+      url: /term_BADA.html
       output: web, pdf
 
     - title: OOBI
-      url: /OOBI
+      url: /term_OOBI.html
       output: web, pdf
 
     - title: TCP
-      url: /TCP
+      url: /term_TCP.html
       output: web, pdf
 
     - title: UI
-      url: /UI
+      url: /term_UI.html
       output: web, pdf
 
     - title: URL
-      url: /URL
+      url: /term_URL.html
+      output: web, pdf
+
+    - title: authorization
+      url: /term_authorization.html
+      output: web, pdf
+
+    - title: key-pair
+      url: /term_key-pair.html
       output: web, pdf

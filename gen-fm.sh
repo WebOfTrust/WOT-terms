@@ -14,14 +14,9 @@ sed -n '1p' "${SOURCE}" > "${HEADER}"   # add the header from the file by creati
 string=$(cat "${HEADER}")
 # echo "${string//$'\n'/\\n}"
 
-# length=${#string}
-
-# if [  ${length} -gt 0 ]; then  # non-empty header string
-#  IFS=';' read -r -a COLS <<< "${string}"  # Colums names in an array
-#fi    # if length > 0
-
 SUBSRC='glossary' 
 BASEDIR='_terms'
+DESTPRE='term'   
 
 # Copy all the ToIP wiki glossary files to $SUBSRC/$trm.md, Jekyll will use this dir as a source
 # ------------------------------------------
@@ -36,7 +31,7 @@ do
     Term=$( echo $Term |  sed -e 's/^[[:space:]]*//' )  # remove preceding and trailing blanks
     Term=$( echo $Term | sed -e 's/[^A-Za-z0-9._-]/-/g')  # replace unwanted chars in filename
 
-    filename="./$BASEDIR/$Term.md"
+    filename="./$BASEDIR/${DESTPRE}_${Term}.md"
     text=$( echo $text | sed -e 's/\:/\;/g')   # replace ':' with ';' in front matter 
 
     echo "---" > $filename
@@ -45,7 +40,10 @@ do
 	echo "Link: $link" >> $filename
 	echo "Videostart: $vidstart" >> $filename
 	echo "Level: $level" >> $filename
-    echo "layout: page" >> $filename
+    perma="/${DESTPRE}_${Term}.html"  
+    echo "permalink: $perma" >> $filename
+    echo "folder: "
+
    # echo "folder: terms" >> $filename
     echo "---" >> $filename
     echo "" >> $filename
@@ -55,8 +53,12 @@ do
     echo "" >> $filename
 
     if [  -f "$BASEDIR/$SUBSRC/$Term.md" ]; then
+    
         echo "{% include_relative $SUBSRC/$Term.md %}" >> $filename
     fi
+
+    echo "" >> $filename
+    echo " {% include links.html %} "
 
     # the script adds the include_relative only if we have .md external sources in $SUBSRC/$trm.md available
     # Conditionally, because if there's no source file available, an 'include_relative' will fail during Jekyll build

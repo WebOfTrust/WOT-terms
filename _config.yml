@@ -65,7 +65,7 @@ collections:
 # collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
   terms:
     output: true
-    permalink: /:collection
+    permalink: /:path
 
 defaults:
   -
@@ -105,9 +105,10 @@ defaults:
 sidebars:
 - home_sidebar
 - mydoc_sidebar
-- wot_sidebar
 - product1_sidebar
 - product2_sidebar
+- Cat_OOBI_lvl1_wot_sidebar.yml
+- Cat_KERI_lvl7_wot_sidebar.yml
 - other
 
 description: "Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features."
@@ -124,3 +125,11 @@ algolia:
   application_id: 'FSH23UI187'
   index_name: dev_bcws
 # Copyright 2021 Google LLC
+
+# Specially for GitHub Pages based resources in inter-linking md glossary files:
+plugins:
+  - jekyll-relative-links
+# More info: https://mademistakes.com/mastering-jekyll/how-to-link/#jekyll-relative-links-plugin
+relative_links:
+  enabled:     true
+  collections: true

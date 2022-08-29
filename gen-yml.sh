@@ -7,26 +7,36 @@
 # Includes the usage function:
 # ./gen-usage.sh
 # ------------------------------------------
-USERNAME=$(id -un)
-DATETIME=$(date)
-SOURCE=Terms-WOT-manage.txt   # will stay in tact
+# echo "bash version: "  $(bash --version)
+USERNAME="$(id -un)"
+DATETIME="$(date)"
+SOURCE="Terms-WOT-manage.txt"   # will stay in tact
+
 # JEKYLLOUTDIR=https://weboftrust.github.io/WOT-terms/terms  # will stay in tact
-INPUT=Terms-workfile.txt      # will be overridden
-AWKOUT=AwkOut-workfile.txt    # will be overridden
-HEADER=Header-workfile.txt    # will be overridden
-OUTYAMLFILE=wot_sidebar.yml          # resulting yml file
+INPUT="Terms-workfile.txt"      # will be overridden
+AWKOUT="AwkOut-workfile.txt"    # will be overridden
+HEADER="Header-workfile.txt"    # will be overridden
+OUTYAMLFILE="wot_sidebar.yml"          # resulting yml file
+DESTPRE="term"  # Jekyll Documentation Theme convention
 
-sed '1d' "${SOURCE}" > "${INPUT}"   # remove the header from the file by creating a work file
-sed -n '1p' "${SOURCE}" > "${HEADER}"   # add the header from the file by creating a work file
 
-string=$(cat "${HEADER}")
-# echo "${string//$'\n'/\\n}"
+cat ${SOURCE} | tr -cd '\11\12\40-\176' > "${INPUT}" # want to get rid of non-printable character Excel leaves in the text export
+cat ${INPUT} | sed -n '1p' > "${HEADER}" # create a file with the columns headers
+cat ${INPUT} | sed '1d' > "${INPUT}" # create a file with only the data (no header)
 
+string="$(cat ${HEADER})" # pull the header file into a string for testing presence of a header row
 length=${#string}
+if [  ${length} -eq 0 ]; then  # empty header string
+exit 1
+fi    # if length = 0
 
-if [  ${length} -gt 0 ]; then  # non-empty header string
-  IFS=';' read -r -a COLS <<< "${string}"  # Colums names in an array
-fi    # if length > 0
+declare -a COLS  # pull the file into an indexed array
+COLS=($(cat ${HEADER} | tr ';' '\n'))  # New way of getting the column headers in an array: replace separator ; with \n and feed array
+
+# The -a option of read caused a lot of hassle: it was allowed in Vicual Studio Code, but not in bash 5.1.x on MAcOS
+# IFS=';' read -ra COLS <<< "${string}"  # Column names in an array - OLD WAY
+
+for i in "${COLS[@]}"; do echo $i; done
 
 # Some guidance of the output
 BASEDIR='_data/sidebars'   # Jekyll theme needs the yaml data in this dir
@@ -168,11 +178,11 @@ do
     Term=$( echo $Term | sed -e 's/[^A-Za-z0-9._-]/-/g')  # replace unwanted chars in filename
     # Multifunctional splitting base and filename - got it from here: https://www.oncrashreboot.com/use-sed-to-split-path-into-filename-extension-and-directory
     # echo "/User/talha/content/images/README.example.md" | sed 's/\(.*\)\/\(.*\)\.\(.*\)$/\1\n\2\n\3/'
-    link=$( echo $link | sed -e 's/\(.*\)\/\(.*\)\.\(.*\)$/\/\2\3/') # remove path
-    link="/"$link
-
+   
+    link="/${DESTPRE}_${Term}.html"  
+  
     if [ ${#Term} -gt $NAMESTRLEN ]; then
-      Term = ${$Term:0:$NAMESTRLEN}  # shorten the Term to an acceptable menu item name
+      Term=$( echo $Term | cut -c 1-$NAMESTRLEN )  # shorten the Term to an acceptable menu item name
     fi  # Term too long for being menu item name
   
     echo "" >> $FILENAME

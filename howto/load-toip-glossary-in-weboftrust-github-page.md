@@ -16,7 +16,18 @@ The main reason is interoperability. We want to join in the effort to create cro
 - we would to have to build similar Github Actions tooling like [ToIP](https://wiki.trustoverip.org/display/HOME/Terms+Wikis) already has.
 - we can't join the synchronization effort already taking place with [eSSIF-lab]()
 - we would have to maintain these auxiliary which keeps us off other important work
- 
+
+## Software environment
+
+For Github pages Jekyll runs locally and remotely (Github Actions). **Be sure to**:
+1. Have the same version of Jekyll installed locally as Github currently uses remotely; which is Jekyll 3.9.2 end of August 2022.
+2. study [this guide](https://mademistakes.com/mastering-jekyll/how-to-link/) to avoid frustration with paths.
+3. Install the auxillary software specifically for Github pages, as adviced in the doc under 2. Especially because we have many inter-referencing markdownfiles `.md` in our glossaries, sourced from elsewhere (ToIP, eSSIF-lab). 
+
+> Ad. 3:
+> If you have repository of Markdown files on GitHub with links like [foo](bar.md). On GitHub.com these links are valid and work. But on the documentation site you built using these same Markdown source files — the links are broken.
+> Using the [jekyll-relative-links](https://github.com/benbalter/jekyll-relative-links) plugin can solve this by converting relative links to Markdown files into links to the appropriate Jekyll generated .html files.
+
 ## Steps
 
 ### Pull the ToIP wiki

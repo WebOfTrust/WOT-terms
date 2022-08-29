@@ -1,6 +1,9 @@
 ## Definition
 Verifiable credentials (VCs) are an [open standard](https://en.wikipedia.org/wiki/Open_standard) for digital credentials. They can represent information found in physical credentials, such as a passport or license, as well as new things that have no physical equivalent, such as ownership of a bank account.
 
+### The ToIP definition
+[here](https://github.com/trustoverip/toip/wiki/verifiable-credential)
+
 ## More on source Wikipedia
 [VCs](https://en.wikipedia.org/wiki/Verifiable_credentials)
 

@@ -265,7 +265,7 @@
 265;;onepass;;password manager ;https://github.com/doglex/onepass;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=53m04s;7;;;;;;;;
 266;out-of-band-introduction;data OOBIs;out-of-band-introduction;data out-of-band ntroductions;https://github.com/trustoverip/acdc/wiki/out-of-band-introduction;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=53m48s;7;;;;;;;;
 267;out-of-band-introduction;credential schema OOBIs;out-of-band-introduction;credential schema out-of-band ntroductions;https://github.com/trustoverip/acdc/wiki/out-of-band-introduction;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=53m54s;7;;;;;;;;
-268;keep;keep;keep;Is KERI's and ACDC's crypto wallet: A task orientated application for managing AIDs in ecosystems, e.g. the vLEI Ecosystem;https://github.com/trustoverip/acdc/wiki/keep;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=54m12s;7;;;;;;;;
+268;keep;keep;keep;Is KERI's and ACDC's crypto wallet, a task orientated application for managing AIDs in ecosystems, e.g. the vLEI Ecosystem;https://github.com/trustoverip/acdc/wiki/keep;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=54m12s;7;;;;;;;;
 269;zero-trust;zero trust;zero-trust;a Zero Trust approach trusts no one;https://github.com/trustoverip/acdc/wiki/zero-trust;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=55m37s;3;;;;;;;;
 270;;credential registries;;Is a functional component that has the capability to register and advertise the information about Credential Types that their respective Governing Parties have decided to disclose;https://essif-lab.github.io/framework/docs/terms/credential-catalogue;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=55m53s;3;;;;;;;;
 271;revocation-event;revocation events;revocation-event;An event that revokes control authority over an identifier;https://github.com/trustoverip/acdc/wiki/revocation-event;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=55m58s;3;;;;;;;;
@@ -313,4 +313,18 @@
 313;custodial-agent;;custodial-agent;;https://github.com/trustoverip/acdc/wiki/custodial-agent;;7;;;;;;1;;
 314;signing-authority;;signing-authority;;https://github.com/trustoverip/acdc/wiki/signing-authority;;7;;;;;;1;;
 315;rotation-authority;;rotation-authority;;https://github.com/trustoverip/acdc/wiki/rotation-authority;;7;;;;;;1;;
-316;;;;;;;;;;;;;;;
+316;trans-contextual-value;;trans-contextual-value;Value that is transferrable between contexts;https://github.com/trustoverip/acdc/wiki/trans-contextual-value;;1;;;;;;1;;
+317;source-of-truth;;source-of-truth;;https://github.com/trustoverip/acdc/wiki/source-of-truth;;1;;;;;;1;;
+318;authorization;;authorization;;https://github.com/trustoverip/acdc/wiki/authorization;;1;;;1;;1;1;;
+319;application-programming-interface;;application-programming-interface;;https://github.com/trustoverip/acdc/wiki/application-programming-interface;;1;;;;;1;1;;
+320;API;;API;;https://github.com/trustoverip/acdc/wiki/API;;1;;;;;1;1;;
+321;key-pair;;key-pair;;https://github.com/trustoverip/acdc/wiki/key-pair;;1;;;1;1;1;1;;
+322;;;;;;;;;;;;;;;
+323;;;;;;;;;;;;;;;
+324;;;;;;;;;;;;;;;
+325;;;;;;;;;;;;;;;
+326;;;;;;;;;;;;;;;
+327;;;;;;;;;;;;;;;
+328;;;;;;;;;;;;;;;
+329;;;;;;;;;;;;;;;
+330;;;;;;;;;;;;;;;
