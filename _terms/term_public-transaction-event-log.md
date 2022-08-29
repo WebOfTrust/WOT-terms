@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/public-transaction-event-log
 Videostart: 
 Level: 7
 permalink: /term_public-transaction-event-log.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_public-transaction-event-log.html
    {{ page.text }}
 
 {% include_relative glossary/public-transaction-event-log.md %}
+
+ {% include links.html %} 

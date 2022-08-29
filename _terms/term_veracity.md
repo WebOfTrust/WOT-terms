@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/veracity.md
 Videostart: 
 Level: 3
 permalink: /term_veracity.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_veracity.html
    {{ page.text }}
 
 {% include_relative glossary/veracity.md %}
+
+ {% include links.html %} 

@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/base64
 Videostart: 
 Level: 7
 permalink: /term_base64.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_base64.html
    {{ page.text }}
 
 {% include_relative glossary/base64.md %}
+
+ {% include links.html %} 

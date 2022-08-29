@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/verify-signature
 Videostart: 
 Level: 7
 permalink: /term_verify-signature.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_verify-signature.html
    {{ page.text }}
 
 {% include_relative glossary/verify-signature.md %}
+
+ {% include links.html %} 

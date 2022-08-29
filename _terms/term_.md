@@ -1,13 +1,16 @@
 ---
 Term: 
-Text: Is an electronic authentication method in which a user is granted access to a website or application only after successfully presenting two or more pieces of evidence 
-Link: https://en.wikipedia.org/wiki/Multi-factor_authentication
+Text: 
+Link: 
 Videostart: 
-Level: 1
+Level: 
 permalink: /term_.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
    {{ page.text }}
 
+
+ {% include links.html %} 

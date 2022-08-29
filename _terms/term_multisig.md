@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/multisig
 Videostart: 
 Level: 1
 permalink: /term_multisig.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_multisig.html
    {{ page.text }}
 
 {% include_relative glossary/multisig.md %}
+
+ {% include links.html %} 

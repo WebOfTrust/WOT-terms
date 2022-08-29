@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/threshold-signature-scheme
 Videostart: 
 Level: 7
 permalink: /term_threshold-signature-scheme.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_threshold-signature-scheme.html
    {{ page.text }}
 
 {% include_relative glossary/threshold-signature-scheme.md %}
+
+ {% include links.html %} 

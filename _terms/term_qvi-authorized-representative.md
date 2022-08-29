@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/qvi-authorized-representative
 Videostart: 
 Level: 3
 permalink: /term_qvi-authorized-representative.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_qvi-authorized-representative.html
    {{ page.text }}
 
 {% include_relative glossary/qvi-authorized-representative.md %}
+
+ {% include links.html %} 

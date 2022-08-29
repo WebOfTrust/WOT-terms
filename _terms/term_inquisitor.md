@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/inquisitor
 Videostart: 
 Level: 7
 permalink: /term_inquisitor.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_inquisitor.html
    {{ page.text }}
 
 {% include_relative glossary/inquisitor.md %}
+
+ {% include links.html %} 

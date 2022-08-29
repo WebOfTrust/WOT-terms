@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/locked-state
 Videostart: 
 Level: 7
 permalink: /term_locked-state.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_locked-state.html
    {{ page.text }}
 
 {% include_relative glossary/locked-state.md %}
+
+ {% include links.html %} 

@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/proof-of-authority.md
 Videostart: 
 Level: 3
 permalink: /term_proof-of-authority.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_proof-of-authority.html
    {{ page.text }}
 
 {% include_relative glossary/proof-of-authority.md %}
+
+ {% include links.html %} 

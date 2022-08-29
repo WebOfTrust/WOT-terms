@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/verifiable-credential
 Videostart: 
 Level: 1
 permalink: /term_verifiable-credential.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_verifiable-credential.html
    {{ page.text }}
 
 {% include_relative glossary/verifiable-credential.md %}
+
+ {% include links.html %} 

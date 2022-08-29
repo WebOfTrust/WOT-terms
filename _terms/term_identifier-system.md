@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/identifier-system
 Videostart: 
 Level: 3
 permalink: /term_identifier-system.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_identifier-system.html
    {{ page.text }}
 
 {% include_relative glossary/identifier-system.md %}
+
+ {% include links.html %} 

@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/witness
 Videostart: 
 Level: 7
 permalink: /term_witness.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_witness.html
    {{ page.text }}
 
 {% include_relative glossary/witness.md %}
+
+ {% include links.html %} 

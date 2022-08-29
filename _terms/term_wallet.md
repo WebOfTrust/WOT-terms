@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/wallet
 Videostart: 
 Level: 7
 permalink: /term_wallet.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_wallet.html
    {{ page.text }}
 
 {% include_relative glossary/wallet.md %}
+
+ {% include links.html %} 

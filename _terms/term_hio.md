@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/hio
 Videostart: 
 Level: 7
 permalink: /term_hio.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_hio.html
    {{ page.text }}
 
 {% include_relative glossary/hio.md %}
+
+ {% include links.html %} 

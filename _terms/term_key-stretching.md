@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/key-stretching
 Videostart: 
 Level: 7
 permalink: /term_key-stretching.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_key-stretching.html
    {{ page.text }}
 
 {% include_relative glossary/key-stretching.md %}
+
+ {% include links.html %} 

@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/legal-entity-official-organizatio
 Videostart: 
 Level: 3
 permalink: /term_legal-entity-official-organizational-role-vlei-credential-governance-framework.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_legal-entity-official-organizational-role-vlei-credential-gover
    {{ page.text }}
 
 {% include_relative glossary/legal-entity-official-organizational-role-vlei-credential-governance-framework.md %}
+
+ {% include links.html %} 

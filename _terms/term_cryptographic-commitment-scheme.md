@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/cryptographic-commitment-scheme.m
 Videostart: 
 Level: 3
 permalink: /term_cryptographic-commitment-scheme.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_cryptographic-commitment-scheme.html
    {{ page.text }}
 
 {% include_relative glossary/cryptographic-commitment-scheme.md %}
+
+ {% include links.html %} 

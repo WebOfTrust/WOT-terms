@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/service-endpoint
 Videostart: 
 Level: 3
 permalink: /term_service-endpoint.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_service-endpoint.html
    {{ page.text }}
 
 {% include_relative glossary/service-endpoint.md %}
+
+ {% include links.html %} 

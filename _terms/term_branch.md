@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/branch
 Videostart: 
 Level: 3
 permalink: /term_branch.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_branch.html
    {{ page.text }}
 
 {% include_relative glossary/branch.md %}
+
+ {% include links.html %} 

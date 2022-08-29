@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/prefix
 Videostart: 
 Level: 7
 permalink: /term_prefix.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_prefix.html
    {{ page.text }}
 
 {% include_relative glossary/prefix.md %}
+
+ {% include links.html %} 

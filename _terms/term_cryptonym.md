@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/cryptonym.md
 Videostart: 
 Level: 3
 permalink: /term_cryptonym.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_cryptonym.html
    {{ page.text }}
 
 {% include_relative glossary/cryptonym.md %}
+
+ {% include links.html %} 

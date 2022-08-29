@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/indexed-signature.md
 Videostart: 
 Level: 7
 permalink: /term_indexed-signature.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_indexed-signature.html
    {{ page.text }}
 
 {% include_relative glossary/indexed-signature.md %}
+
+ {% include links.html %} 

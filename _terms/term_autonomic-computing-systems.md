@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/autonomic-computing-systems.md
 Videostart: 
 Level: 3
 permalink: /term_autonomic-computing-systems.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_autonomic-computing-systems.html
    {{ page.text }}
 
 {% include_relative glossary/autonomic-computing-systems.md %}
+
+ {% include links.html %} 

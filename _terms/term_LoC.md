@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/LoC.md
 Videostart: 
 Level: 3
 permalink: /term_LoC.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_LoC.html
    {{ page.text }}
 
 {% include_relative glossary/LoC.md %}
+
+ {% include links.html %} 

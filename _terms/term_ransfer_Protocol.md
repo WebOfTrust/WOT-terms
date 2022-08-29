@@ -5,9 +5,12 @@ Link: https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 Videostart: 
 Level: 3
 permalink: /term_ransfer_Protocol.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
    {{ page.text }}
 
+
+ {% include links.html %} 

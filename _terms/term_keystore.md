@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/keystore
 Videostart: 
 Level: 7
 permalink: /term_keystore.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_keystore.html
    {{ page.text }}
 
 {% include_relative glossary/keystore.md %}
+
+ {% include links.html %} 

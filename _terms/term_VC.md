@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/VC.md
 Videostart: 
 Level: 1
 permalink: /term_VC.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_VC.html
    {{ page.text }}
 
 {% include_relative glossary/VC.md %}
+
+ {% include links.html %} 

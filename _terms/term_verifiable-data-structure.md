@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/verifiable-data-structure.md
 Videostart: 
 Level: 7
 permalink: /term_verifiable-data-structure.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_verifiable-data-structure.html
    {{ page.text }}
 
 {% include_relative glossary/verifiable-data-structure.md %}
+
+ {% include links.html %} 

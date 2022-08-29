@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/composable-event-streaming-repres
 Videostart: 
 Level: 7
 permalink: /term_composable-event-streaming-representation.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_composable-event-streaming-representation.html
    {{ page.text }}
 
 {% include_relative glossary/composable-event-streaming-representation.md %}
+
+ {% include links.html %} 

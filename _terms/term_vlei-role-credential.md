@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/vlei-role-credential
 Videostart: 
 Level: 3
 permalink: /term_vlei-role-credential.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_vlei-role-credential.html
    {{ page.text }}
 
 {% include_relative glossary/vlei-role-credential.md %}
+
+ {% include links.html %} 

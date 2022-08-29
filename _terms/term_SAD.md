@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/SAD.md
 Videostart: 
 Level: 7
 permalink: /term_SAD.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_SAD.html
    {{ page.text }}
 
 {% include_relative glossary/SAD.md %}
+
+ {% include links.html %} 

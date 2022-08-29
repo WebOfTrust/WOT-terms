@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/transfer-off-ledger
 Videostart: 
 Level: 7
 permalink: /term_transfer-off-ledger.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_transfer-off-ledger.html
    {{ page.text }}
 
 {% include_relative glossary/transfer-off-ledger.md %}
+
+ {% include links.html %} 

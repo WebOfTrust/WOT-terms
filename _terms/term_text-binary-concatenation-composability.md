@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/text-binary-concatenation-composa
 Videostart: 
 Level: 7
 permalink: /term_text-binary-concatenation-composability.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_text-binary-concatenation-composability.html
    {{ page.text }}
 
 {% include_relative glossary/text-binary-concatenation-composability.md %}
+
+ {% include links.html %} 

@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/public-verifiable-credential-regi
 Videostart: 
 Level: 7
 permalink: /term_public-verifiable-credential-registry.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_public-verifiable-credential-registry.html
    {{ page.text }}
 
 {% include_relative glossary/public-verifiable-credential-registry.md %}
+
+ {% include links.html %} 

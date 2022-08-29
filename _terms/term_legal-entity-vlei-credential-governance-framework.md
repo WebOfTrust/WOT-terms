@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/legal-entity-vlei-credential-gove
 Videostart: 
 Level: 3
 permalink: /term_legal-entity-vlei-credential-governance-framework.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_legal-entity-vlei-credential-governance-framework.html
    {{ page.text }}
 
 {% include_relative glossary/legal-entity-vlei-credential-governance-framework.md %}
+
+ {% include links.html %} 

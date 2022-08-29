@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/signing-threshold
 Videostart: 
 Level: 7
 permalink: /term_signing-threshold.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_signing-threshold.html
    {{ page.text }}
 
 {% include_relative glossary/signing-threshold.md %}
+
+ {% include links.html %} 

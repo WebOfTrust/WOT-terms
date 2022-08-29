@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/verifiable-legal-entity-identifie
 Videostart: 
 Level: 7
 permalink: /term_verifiable-legal-entity-identifier.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_verifiable-legal-entity-identifier.html
    {{ page.text }}
 
 {% include_relative glossary/verifiable-legal-entity-identifier.md %}
+
+ {% include links.html %} 

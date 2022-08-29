@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/blake3
 Videostart: 
 Level: 7
 permalink: /term_blake3.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_blake3.html
    {{ page.text }}
 
 {% include_relative glossary/blake3.md %}
+
+ {% include links.html %} 

@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/secondary-root-of-trust.md
 Videostart: 
 Level: 7
 permalink: /term_secondary-root-of-trust.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_secondary-root-of-trust.html
    {{ page.text }}
 
 {% include_relative glossary/secondary-root-of-trust.md %}
+
+ {% include links.html %} 

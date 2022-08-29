@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/partial-rotation
 Videostart: 
 Level: 7
 permalink: /term_partial-rotation.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_partial-rotation.html
    {{ page.text }}
 
 {% include_relative glossary/partial-rotation.md %}
+
+ {% include links.html %} 

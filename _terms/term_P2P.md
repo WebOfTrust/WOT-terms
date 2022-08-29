@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/P2P.md
 Videostart: 
 Level: 1
 permalink: /term_P2P.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_P2P.html
    {{ page.text }}
 
 {% include_relative glossary/P2P.md %}
+
+ {% include links.html %} 

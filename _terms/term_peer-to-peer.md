@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/peer-to-peer
 Videostart: 
 Level: 3
 permalink: /term_peer-to-peer.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_peer-to-peer.html
    {{ page.text }}
 
 {% include_relative glossary/peer-to-peer.md %}
+
+ {% include links.html %} 

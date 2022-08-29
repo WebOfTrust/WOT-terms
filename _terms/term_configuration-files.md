@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/configuration-files
 Videostart: 
 Level: 1
 permalink: /term_configuration-files.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_configuration-files.html
    {{ page.text }}
 
 {% include_relative glossary/configuration-files.md %}
+
+ {% include links.html %} 

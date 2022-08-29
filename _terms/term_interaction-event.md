@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/interaction-event
 Videostart: 
 Level: 7
 permalink: /term_interaction-event.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_interaction-event.html
    {{ page.text }}
 
 {% include_relative glossary/interaction-event.md %}
+
+ {% include links.html %} 

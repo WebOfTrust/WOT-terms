@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/ghost-credential
 Videostart: 
 Level: 3
 permalink: /term_ghost-credential.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_ghost-credential.html
    {{ page.text }}
 
 {% include_relative glossary/ghost-credential.md %}
+
+ {% include links.html %} 

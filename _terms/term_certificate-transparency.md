@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/certificate-transparency.md
 Videostart: 
 Level: 3
 permalink: /term_certificate-transparency.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_certificate-transparency.html
    {{ page.text }}
 
 {% include_relative glossary/certificate-transparency.md %}
+
+ {% include links.html %} 

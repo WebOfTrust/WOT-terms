@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/derivation-code
 Videostart: 
 Level: 7
 permalink: /term_derivation-code.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_derivation-code.html
    {{ page.text }}
 
 {% include_relative glossary/derivation-code.md %}
+
+ {% include links.html %} 

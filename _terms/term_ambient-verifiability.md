@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/ambient-verifiability.md
 Videostart: 
 Level: 7
 permalink: /term_ambient-verifiability.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_ambient-verifiability.html
    {{ page.text }}
 
 {% include_relative glossary/ambient-verifiability.md %}
+
+ {% include links.html %} 

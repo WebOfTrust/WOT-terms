@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/delegation
 Videostart: 
 Level: 7
 permalink: /term_delegation.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_delegation.html
    {{ page.text }}
 
 {% include_relative glossary/delegation.md %}
+
+ {% include links.html %} 

@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/OOBI.md
 Videostart: 
 Level: 7
 permalink: /term_OOBI.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_OOBI.html
    {{ page.text }}
 
 {% include_relative glossary/OOBI.md %}
+
+ {% include links.html %} 

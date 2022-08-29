@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/vlei-ecosystem-governance-framewo
 Videostart: 
 Level: 3
 permalink: /term_vlei-ecosystem-governance-framework.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_vlei-ecosystem-governance-framework.html
    {{ page.text }}
 
 {% include_relative glossary/vlei-ecosystem-governance-framework.md %}
+
+ {% include links.html %} 

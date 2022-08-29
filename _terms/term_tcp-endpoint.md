@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/tcp-endpoint
 Videostart: 
 Level: 3
 permalink: /term_tcp-endpoint.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_tcp-endpoint.html
    {{ page.text }}
 
 {% include_relative glossary/tcp-endpoint.md %}
+
+ {% include links.html %} 

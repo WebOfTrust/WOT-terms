@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/keri-agreement-algorithm-for-cont
 Videostart: 
 Level: 7
 permalink: /term_keri-agreement-algorithm-for-control-establishment.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_keri-agreement-algorithm-for-control-establishment.html
    {{ page.text }}
 
 {% include_relative glossary/keri-agreement-algorithm-for-control-establishment.md %}
+
+ {% include links.html %} 

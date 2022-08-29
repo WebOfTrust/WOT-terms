@@ -5,9 +5,12 @@ Link: https://github.com/trustoverip/acdc/wiki/non-transferable-identitifer
 Videostart: 
 Level: 7
 permalink: /term_non-transferable-identitifer.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
    {{ page.text }}
 
+
+ {% include links.html %} 

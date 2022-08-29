@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/key-event-receipt-infrastructure.
 Videostart: 
 Level: 7
 permalink: /term_key-event-receipt-infrastructure.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_key-event-receipt-infrastructure.html
    {{ page.text }}
 
 {% include_relative glossary/key-event-receipt-infrastructure.md %}
+
+ {% include links.html %} 

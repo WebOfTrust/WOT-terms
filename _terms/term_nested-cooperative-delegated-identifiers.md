@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/nested-cooperative-delegated-iden
 Videostart: 
 Level: 7
 permalink: /term_nested-cooperative-delegated-identifiers.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_nested-cooperative-delegated-identifiers.html
    {{ page.text }}
 
 {% include_relative glossary/nested-cooperative-delegated-identifiers.md %}
+
+ {% include links.html %} 

@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/dual-text-binary-encoding-format.
 Videostart: 
 Level: 7
 permalink: /term_dual-text-binary-encoding-format.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_dual-text-binary-encoding-format.html
    {{ page.text }}
 
 {% include_relative glossary/dual-text-binary-encoding-format.md %}
+
+ {% include links.html %} 

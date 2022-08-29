@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/non-transferable.md
 Videostart: 
 Level: 1
 permalink: /term_non-transferable.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_non-transferable.html
    {{ page.text }}
 
 {% include_relative glossary/non-transferable.md %}
+
+ {% include links.html %} 

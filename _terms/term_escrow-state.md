@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/escrow-state
 Videostart: 
 Level: 7
 permalink: /term_escrow-state.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_escrow-state.html
    {{ page.text }}
 
 {% include_relative glossary/escrow-state.md %}
+
+ {% include links.html %} 

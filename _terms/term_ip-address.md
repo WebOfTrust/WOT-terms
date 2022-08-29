@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/ip-address
 Videostart: 
 Level: 1
 permalink: /term_ip-address.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_ip-address.html
    {{ page.text }}
 
 {% include_relative glossary/ip-address.md %}
+
+ {% include links.html %} 

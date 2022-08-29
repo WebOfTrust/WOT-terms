@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/gleif
 Videostart: 
 Level: 1
 permalink: /term_GLEIF.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_GLEIF.html
    {{ page.text }}
 
 {% include_relative glossary/GLEIF.md %}
+
+ {% include links.html %} 

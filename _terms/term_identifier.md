@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/identifier.md
 Videostart: 
 Level: 1
 permalink: /term_identifier.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_identifier.html
    {{ page.text }}
 
 {% include_relative glossary/identifier.md %}
+
+ {% include links.html %} 

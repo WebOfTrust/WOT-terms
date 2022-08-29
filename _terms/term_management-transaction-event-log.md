@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/management-transaction-event-log.
 Videostart: 
 Level: 7
 permalink: /term_management-transaction-event-log.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_management-transaction-event-log.html
    {{ page.text }}
 
 {% include_relative glossary/management-transaction-event-log.md %}
+
+ {% include links.html %} 

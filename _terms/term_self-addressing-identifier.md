@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/self-addressing-identifier
 Videostart: 
 Level: 7
 permalink: /term_self-addressing-identifier.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_self-addressing-identifier.html
    {{ page.text }}
 
 {% include_relative glossary/self-addressing-identifier.md %}
+
+ {% include links.html %} 

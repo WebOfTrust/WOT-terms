@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/key-state.md
 Videostart: 
 Level: 3
 permalink: /term_key-state.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_key-state.html
    {{ page.text }}
 
 {% include_relative glossary/key-state.md %}
+
+ {% include links.html %} 

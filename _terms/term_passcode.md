@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/passcode
 Videostart: 
 Level: 3
 permalink: /term_passcode.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_passcode.html
    {{ page.text }}
 
 {% include_relative glossary/passcode.md %}
+
+ {% include links.html %} 

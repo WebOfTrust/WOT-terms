@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/registrar.md
 Videostart: 
 Level: 7
 permalink: /term_registrar.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_registrar.html
    {{ page.text }}
 
 {% include_relative glossary/registrar.md %}
+
+ {% include links.html %} 

@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/spanning-layer.md
 Videostart: 
 Level: 7
 permalink: /term_spanning-layer.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_spanning-layer.html
    {{ page.text }}
 
 {% include_relative glossary/spanning-layer.md %}
+
+ {% include links.html %} 

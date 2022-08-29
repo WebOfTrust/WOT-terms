@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/data-anchor
 Videostart: 
 Level: 7
 permalink: /term_data-anchor.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_data-anchor.html
    {{ page.text }}
 
 {% include_relative glossary/data-anchor.md %}
+
+ {% include links.html %} 

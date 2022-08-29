@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/authorized-vlei-representative
 Videostart: 
 Level: 3
 permalink: /term_authorized-vlei-representative.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_authorized-vlei-representative.html
    {{ page.text }}
 
 {% include_relative glossary/authorized-vlei-representative.md %}
+
+ {% include links.html %} 

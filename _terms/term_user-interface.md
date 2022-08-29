@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/user-interface
 Videostart: 
 Level: 1
 permalink: /term_user-interface.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_user-interface.html
    {{ page.text }}
 
 {% include_relative glossary/user-interface.md %}
+
+ {% include links.html %} 

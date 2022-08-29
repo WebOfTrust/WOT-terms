@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/best-available-data-acceptance-me
 Videostart: 
 Level: 7
 permalink: /term_best-available-data-acceptance-mechanism.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_best-available-data-acceptance-mechanism.html
    {{ page.text }}
 
 {% include_relative glossary/best-available-data-acceptance-mechanism.md %}
+
+ {% include links.html %} 

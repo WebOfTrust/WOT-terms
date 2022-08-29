@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/ledger-backer
 Videostart: 
 Level: 7
 permalink: /term_ledger-backer.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_ledger-backer.html
    {{ page.text }}
 
 {% include_relative glossary/ledger-backer.md %}
+
+ {% include links.html %} 

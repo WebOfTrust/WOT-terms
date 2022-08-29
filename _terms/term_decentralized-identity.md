@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/decentralized-identity.md
 Videostart: 
 Level: 1
 permalink: /term_decentralized-identity.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_decentralized-identity.html
    {{ page.text }}
 
 {% include_relative glossary/decentralized-identity.md %}
+
+ {% include links.html %} 

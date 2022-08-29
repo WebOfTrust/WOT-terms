@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/coroutines
 Videostart: 
 Level: 1
 permalink: /term_coroutines.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_coroutines.html
    {{ page.text }}
 
 {% include_relative glossary/coroutines.md %}
+
+ {% include links.html %} 

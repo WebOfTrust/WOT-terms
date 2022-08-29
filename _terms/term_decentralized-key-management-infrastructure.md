@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/decentralized-key-management-infr
 Videostart: 
 Level: 3
 permalink: /term_decentralized-key-management-infrastructure.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_decentralized-key-management-infrastructure.html
    {{ page.text }}
 
 {% include_relative glossary/decentralized-key-management-infrastructure.md %}
+
+ {% include links.html %} 

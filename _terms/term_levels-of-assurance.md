@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/levels-of-assurance.md
 Videostart: 
 Level: 7
 permalink: /term_levels-of-assurance.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_levels-of-assurance.html
    {{ page.text }}
 
 {% include_relative glossary/levels-of-assurance.md %}
+
+ {% include links.html %} 

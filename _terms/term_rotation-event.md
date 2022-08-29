@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/rotation-event
 Videostart: 
 Level: 7
 permalink: /term_rotation-event.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_rotation-event.html
    {{ page.text }}
 
 {% include_relative glossary/rotation-event.md %}
+
+ {% include links.html %} 

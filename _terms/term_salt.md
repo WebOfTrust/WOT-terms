@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/salt
 Videostart: 
 Level: 7
 permalink: /term_salt.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_salt.html
    {{ page.text }}
 
 {% include_relative glossary/salt.md %}
+
+ {% include links.html %} 

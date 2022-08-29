@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/liveness.md
 Videostart: 
 Level: 7
 permalink: /term_liveness.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_liveness.html
    {{ page.text }}
 
 {% include_relative glossary/liveness.md %}
+
+ {% include links.html %} 

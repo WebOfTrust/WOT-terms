@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/watcher
 Videostart: 
 Level: 7
 permalink: /term_watcher.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_watcher.html
    {{ page.text }}
 
 {% include_relative glossary/watcher.md %}
+
+ {% include links.html %} 

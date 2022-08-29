@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/ssi-system
 Videostart: 
 Level: 1
 permalink: /term_ssi-system.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_ssi-system.html
    {{ page.text }}
 
 {% include_relative glossary/ssi-system.md %}
+
+ {% include links.html %} 

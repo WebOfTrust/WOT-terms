@@ -5,6 +5,7 @@ Link: https://github.com/trustoverip/acdc/wiki/internet-assigned-numbers-authori
 Videostart: 
 Level: 7
 permalink: /term_internet-assigned-numbers-authority.html
+folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
@@ -12,3 +13,5 @@ permalink: /term_internet-assigned-numbers-authority.html
    {{ page.text }}
 
 {% include_relative glossary/internet-assigned-numbers-authority.md %}
+
+ {% include links.html %} 
