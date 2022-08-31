@@ -1,2 +1,2 @@
 ## See
-[Key event log](key-event-log)
+[Key event log](term_key-event-log)

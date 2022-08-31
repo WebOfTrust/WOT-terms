@@ -16,6 +16,7 @@ string=$(cat "${HEADER}")
 
 SUBSRC='glossary' 
 BASEDIR='_terms'
+DESTDIR='terms'
 DESTPRE='term'   
 
 # Copy all the ToIP wiki glossary files to $SUBSRC/$trm.md, Jekyll will use this dir as a source
@@ -42,7 +43,7 @@ do
 	echo "Level: $level" >> $filename
     perma="/${DESTPRE}_${Term}.html"  
     echo "permalink: $perma" >> $filename
-    echo "folder: "
+    echo "folder: ${DESTDIR}" >> $filename
 
    # echo "folder: terms" >> $filename
     echo "---" >> $filename
@@ -53,12 +54,12 @@ do
     echo "" >> $filename
 
     if [  -f "$BASEDIR/$SUBSRC/$Term.md" ]; then
-    
+
         echo "{% include_relative $SUBSRC/$Term.md %}" >> $filename
     fi
 
     echo "" >> $filename
-    echo " {% include links.html %} "
+    echo " {% include links.html %} " >> $filename
 
     # the script adds the include_relative only if we have .md external sources in $SUBSRC/$trm.md available
     # Conditionally, because if there's no source file available, an 'include_relative' will fail during Jekyll build

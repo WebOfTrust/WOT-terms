@@ -1,2 +1,2 @@
 ## See
-[Self addressing data](self-addressing-data)
+[Self addressing data](term_self-addressing-data)

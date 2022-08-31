@@ -1,2 +1,2 @@
 ## See
-[Internet assigned numbers authority](internet-assigned-numbers-authority)
+[Internet assigned numbers authority](term_internet-assigned-numbers-authority)

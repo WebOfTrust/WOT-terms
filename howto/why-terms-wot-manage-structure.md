@@ -4,7 +4,7 @@ What we have, to generate our static content site on the Github project page of 
 
 1. wiki resources, terms in separate `.md` files in a Jekyll directory structure
 2. a sheet called _Terms WOT manage_ (`.xls`) a central location with strict editing rights.
-3. a comma separated file _Terms WOT manage_ (`.csv`) exported from Excel in any directory locally.
+3. a "comma separated" file _Terms WOT manage_ (`.csv`) exported from Excel in any directory locally. In fact it's a semi-colon-separated text file that you might get; so check the result.
 
 <img src="./images/Terms-wot-manage-screen-example.png" alt="Terms-wot-manage-screen-example" width="800">
 <img src="./images/csv-utf-8-save-as.png" alt="csv-utf-8-save-as" width="600">

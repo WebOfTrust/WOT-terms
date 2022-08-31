@@ -1,13 +1,18 @@
 #!/bin/bash
-# Purpose: Read Comma Separated CSV File
-# Author: Vivek Gite under GPL v2.0+
-# Adjustments for use: Henk van Cann
-# Run this script from the root dir in repo
+# Purpose: Read Semicolon Separated File
+# Henk van Cann
+# It generates two types of sidebar yml files for the Jekyll Documentation Theme
+# One is a 2-level harmonica and the second type is a 1-level harmonica
+# 2-level: all categories | 1-level: selected Category
+# argument to the script: 'all' (2-level) or 'Cat_XXXX' where XXXX is one Cat
 # ------------------------------------------
 # Includes the usage function:
 # ./gen-usage.sh
+# ./gen-menu-groups.sh
 # ------------------------------------------
 # echo "bash version: "  $(bash --version)
+
+
 USERNAME="$(id -un)"
 DATETIME="$(date)"
 SOURCE="Terms-WOT-manage.txt"   # will stay in tact
@@ -15,10 +20,12 @@ SOURCE="Terms-WOT-manage.txt"   # will stay in tact
 # JEKYLLOUTDIR=https://weboftrust.github.io/WOT-terms/terms  # will stay in tact
 INPUT="Terms-workfile.txt"      # will be overridden
 AWKOUT="AwkOut-workfile.txt"    # will be overridden
+AWKOUTMENU="AwkOutMenu-workfile.txt"    # will be overridden
 HEADER="Header-workfile.txt"    # will be overridden
 OUTYAMLFILE="wot_sidebar.yml"          # resulting yml file
 DESTPRE="term"  # Jekyll Documentation Theme convention
-
+CATLIST=(9 10 11 12 13 14 15 16) # Order numbers of the columns in the WOT-terms-manage sheet: all categories 
+INDEXARRAY=(1 4 6 8) # Order numbers of the content columns in the WOT-terms-manage sheet
 
 cat ${SOURCE} | tr -cd '\11\12\40-\176' > "${INPUT}" # want to get rid of non-printable character Excel leaves in the text export
 cat ${INPUT} | sed -n '1p' > "${HEADER}" # create a file with the columns headers
@@ -31,12 +38,11 @@ exit 1
 fi    # if length = 0
 
 declare -a COLS  # pull the file into an indexed array
-COLS=($(cat ${HEADER} | tr ';' '\n'))  # New way of getting the column headers in an array: replace separator ; with \n and feed array
-
+#COLS=("$(cat ${HEADER} | tr ';' '\n')")  # New way of getting the column headers in an array: replace separator ; with \n and feed array
+OIFS="$IFS"; IFS=';'; COLS=($(<${HEADER})); IFS="$OIFS"
 # The -a option of read caused a lot of hassle: it was allowed in Vicual Studio Code, but not in bash 5.1.x on MAcOS
 # IFS=';' read -ra COLS <<< "${string}"  # Column names in an array - OLD WAY
-
-for i in "${COLS[@]}"; do echo $i; done
+#for i in "${COLS[@]}"; do echo $i; done
 
 # Some guidance of the output
 BASEDIR='_data/sidebars'   # Jekyll theme needs the yaml data in this dir
@@ -95,12 +101,13 @@ else    # looking for a matching column name
   found='false'
   for i in "${!COLS[@]}"
     do
-      if [ "${COLS[$i]}" == "$CATNAME" ] ; then
+      if [[ "${COLS[$i]}" == "$CATNAME" ]] ; then
       let COLUMNINDEX=$i+1     # assigns the index number to use in AWK command of the first exactly matching column, following ignored
       found='true'
+      CATLIST=($COLUMNINDEX)   # overwrite the CATLIST for we have found and matched a single selected Category
       fi  # found i
     done  # for loop
-  if [ "$found" == "false" ]; then 
+  if [[ "$found" == "false" ]]; then 
     echo "${CATNAME} not found in ${COLS[*]}"
     exit 1
   fi # found is false, CATNAME not in COLS
@@ -117,27 +124,158 @@ fi # CATNAME == all
 # awk 'BEGIN { FS=OFS=";" } ($8>=1 && $9>=1) { print $1, $4, $6, $8, $14 }' ${INPUT}
 
 # Construct the string of fields
-IndexArray=(1 4 6 8 $COLUMNINDEX)
 
-for i in "${IndexArray[@]}"; do
+if [ $COLUMNINDEX = "999" ]; then  # all categories
+  INDEXARRAY=("${INDEXARRAY[@]}" "${CATLIST[@]}")
+#  echo "${INDEXARRAY[@]}"
+else  # one specific category selected
+  INDEXARRAY=("${INDEXARRAY[@]}" "${CATLIST[@]}")
+#  echo "${INDEXARRAY[@]}"
+fi   # all cats or just one
+# The fields array is initialized with the content record of the WOT-terms-sheet plus Category columns
+
+for i in ${INDEXARRAY[@]}; do
     fields="$fields,\$$i"
 done
 fields=$( echo "$fields" | sed 's/^,//' ) # Remove the leading comma
 
-if [ $COLUMNINDEX = "999" ]; then
-  echo "TBW some logic here to make a loop through all categories" # some logic here to make a loop through all categories 
-else
-  catsel="\$$COLUMNINDEX" # We'd like to choose the right category column
-  cat "${INPUT}" | awk -v levelNr=$LEVELNR 'BEGIN { FS=OFS=";" }  {if (($8 >= levelNr) && ( '$catsel' >= 1 )) print '$fields' }' > "$AWKOUT"
-fi   # COLUMNINDEX
 
+# select the relevant records (terms) for the sheet and sort on second column of the output
+# We want no empty keys: $4 represents the keyfield for this bashscript: it's the term used in the ToIP glossary
+cat "${INPUT}" | awk -v levelNr=$LEVELNR 'BEGIN { FS=OFS=";" }  {if (($4 != "") && ($8 >= levelNr)) print }' | sort -t ';' -b -k2.1,2.10 --ignore-case -o "${AWKOUT}"
+# Sort explanation -> -t : the column delimiter in the pipe, -k2 : column 2 resulting from the pipe, on char 1-10, -b : ignore leading blanks in a field, -o : output file
 
+function split-files () {
+  
+  num_files=$1
+  baseoutname=$2
+  
+  if [[ $1 -gt 10 ]]; then
+    exit 7
+  else 
+    if [ -z $1 ]; then
+      num_files=10 # set default value   
+    fi # no arguments passed   
+  fi   # maximum number of split-menu files generated, default 7
 
-OLDIFS="$IFS"               # $IFS is a special shell variable in Bash
-IFS=';'
+  if [ -z $2 ]; then
+    exit 8
+  fi   # any string as input
+
+  # Work out lines per file.
+  echo $num_files
+  echo ${NUMMENUITEMS}
+  let x=${NUMMENUITEMS}+${num_files}
+  let y=${num_files}
+  let lines_per_file=$x/$y
+  # let lines_per_file= $( ( ( ${NUMMENUITEMS} + ${num_files} - 1 ) / ${num_files} ) )
+  # Split the actual file, maintaining lines
+
+  split -l ${lines_per_file} "${AWKOUTMENU}" "${baseoutname}"
+
+  # Debug information
+
+  echo "Total lines     = ${total_lines}"
+  echo "Lines  per file = ${lines_per_file}"    
+  wc -l ${baseoutname}*
+}
+
+function group_menu_items (){
+  # takes argument being the level of deepness we can afford to create
+
+  if [[ $1 -gt 3 ]]; then
+    exit 5
+  fi   # maximum depth of the menus in the Jekyll Documentation Theme is 2
+
+#if [[ ! "${CATLIST[*]}" == *${2}* ]]; then
+#    exit 6
+#fi  # not a valid category number passed
+
+  MENULEVEL=$1
+  # CATNR=$2
+  splitwfbase="Split_"
+
+  # while  [ ${MENULEVEL} -ne 0 ] ; do
+
+  cat "${AWKOUT}" | awk 'BEGIN { FS=OFS=";" }  {if ($14 >= "1") print '$fields' }' > "${AWKOUTMENU}"
+  
+  [ ! -f $AWKOUTMENU ] && { echo "$AWKOUTMENU file not found"; exit 99; }
+
+  #echo "menulevel = $MENULEVEL"
+  #let MENULEVEL=$MENULEVEL-1
+  #done # for menulevels
+
+  NUMMENUITEMS=$(wc -l < "$AWKOUTMENU" | xargs )  # xargs: we want to strip the leading and trailing blanks off the variable
+
+  NUMSPLITFILE="1"
+
+  if [[ "${NUMMENUITEMS}" -gt "100" ]]; then
+    echo $NUMMENUITEMS
+    let NUMSPLITFILE=${NUMMENUITEMS}/20
+ 
+    ## echo "0-10" | sed 's/^/NR==/' and then pipe into awk
+
+    # group terms drastically
+    echo $NUMMENUITEMS
+  else 
+    if [[ "${NUMMENUITEMS}" -gt "14" ]]; then
+    # echo $NUMMENUITEMS
+    let NUMSPLITFILE=${NUMMENUITEMS}/7
+    
+    # group terms
+    fi # > 10 items
+  fi # > 100 items
+
+  let NUMSPLITFILE=$(echo $NUMSPLITFILE | awk '{print int($1+0.5)}') ## round the number
+  split-files $NUMSPLITFILE "${splitwfbase}"  # This takes $AWKOUTMENU as a source
+
+  for f in ${splitwfbase}*; do echo "Processing $f file..."
+    FROMREC="$(head -n1 $f)"
+    TOREC="$(tail -n1 $f)"
+    # We'd like to use substr: substr(s, i [, n]) It return the at most n-character 
+    # substring of s starting at i. If n is omitted, use the rest of s
+    from=$( echo "$FROMREC" | awk 'BEGIN { FS=OFS=";" } { print substr($2, index(0,3))} ')
+    to=$( echo "$TOREC" | awk 'BEGIN { FS=OFS=";" } { print substr($2, index(0,3))}') 
+    MENUNAME="${from} - ${to}" # We create a menu item name that holds the Alphabetic range of the items under it.
+
+    echo "" >> $FILENAME
+    echo "  - title: $MENUNAME" >> $FILENAME
+    echo "    output: web, pdf" >> $FILENAME
+    echo "    folderitems:" >> $FILENAME
+    ################################################# 
+    # 1 Key - 4 Term - 6 link - 8 level - YY Cat_XXXX
+    #################################################
+    [ ! -f $AWKOUTMENU ] && { echo "$AWKOUTMENU file not found"; exit 99; }
+    OLDIFS="$IFS"               # $IFS is a special shell variable in Bash
+    IFS=';'
+    while read Key Term link level $CATNAME
+    do
+
+        Term=$( echo $Term |  sed -e 's/^[[:space:]]*//' )  # remove preceding and trailing blanks
+        Term=$( echo $Term | sed -e 's/[^A-Za-z0-9._-]/-/g')  # replace unwanted chars in filename
+        # Multifunctional splitting base and filename - got it from here: https://www.oncrashreboot.com/use-sed-to-split-path-into-filename-extension-and-directory
+        # echo "/User/talha/content/images/README.example.md" | sed 's/\(.*\)\/\(.*\)\.\(.*\)$/\1\n\2\n\3/'
+      
+        link="/${DESTPRE}_${Term}.html"  
+      
+        if [ ${#Term} -gt $NAMESTRLEN ]; then
+          Term=$( echo $Term | cut -c 1-$NAMESTRLEN )  # shorten the Term to an acceptable menu item name
+        fi  # Term too long for being menu item name
+      
+        echo "" >> $FILENAME
+        echo "    - title: $Term" >> $FILENAME
+        echo "      url: $link" >> $FILENAME
+        echo "      output: web, pdf" >> $FILENAME
+    # 1 Key - 4 Term - 6 link - 8 level - YY Cat_XXXX  
+    done < $f # for all records in Splitfile
+    IFS="$OLDIFS"   # $IFS is a special shell variable in Bash, set it back to the old value
+  done # for all splitfiles
+
+return 0
+}
 
 [ ! -f $AWKOUT ] && { echo "$AWKOUT file not found"; exit 99; }
-echo $FILENAME
+# echo $FILENAME
 FILENAME="./$BASEDIR/${CATNAME}_lvl${LEVELNR}_${OUTYAMLFILE}"
 echo $FILENAME
 
@@ -165,30 +303,64 @@ echo "    - title:" >> $FILENAME
 echo "      url: /tocpage.html" >> $FILENAME
 echo "      output: pdf" >> $FILENAME
 echo "      type: frontmatter" >> $FILENAME
+
 echo "" >> $FILENAME
+# one selected category OR "Overview" in level 1 menu
 echo "  - title: $MENUNAME" >> $FILENAME
 echo "    output: web, pdf" >> $FILENAME
 echo "    folderitems:" >> $FILENAME
 
-# 1 Key - 4 Term - 6 link - 8 level - YY Cat_XXXX  
-while read Key Term link level $CATNAME
-do
+if [  $COLUMNINDEX = "999" ]; then 
+  echo "  - title: $MENUNAME" >> $FILENAME
+  echo "    output: web, pdf" >> $FILENAME
+  echo "    folderitems:" >> $FILENAME
 
-    Term=$( echo $Term |  sed -e 's/^[[:space:]]*//' )  # remove preceding and trailing blanks
-    Term=$( echo $Term | sed -e 's/[^A-Za-z0-9._-]/-/g')  # replace unwanted chars in filename
+  # Now we'd like to go through all categories
+  for i in ${CATLIST[@]}; do
+   # MENUNAME=$(echo ${COLS[$i]} | sed 's/Cat_//') # we set the menu level 1 to the Cat name found in the header of the sheet
+    echo "  - title: $MENUNAME" >> $FILENAME
+    echo "    output: web, pdf" >> $FILENAME
+    echo "    folderitems:" >> $FILENAME
+    
+    group_menu_items 2 $i
+
+  #  groupmenu items
+  done # columns in category list
+
+else  # we have just one category selected
+  group_menu_items 1 $COLUMNINDEX
+
+fi # all categories
+
+# 1 Key - 4 Term - 6 link - 8 level - YY Cat_XXXX  
+#while read Key Term link level $CATNAME
+#do
+
+ #   Term=$( echo $Term |  sed -e 's/^[[:space:]]*//' )  # remove preceding and trailing blanks
+ #   Term=$( echo $Term | sed -e 's/[^A-Za-z0-9._-]/-/g')  # replace unwanted chars in filename
     # Multifunctional splitting base and filename - got it from here: https://www.oncrashreboot.com/use-sed-to-split-path-into-filename-extension-and-directory
     # echo "/User/talha/content/images/README.example.md" | sed 's/\(.*\)\/\(.*\)\.\(.*\)$/\1\n\2\n\3/'
    
-    link="/${DESTPRE}_${Term}.html"  
+ #   link="/${DESTPRE}_${Term}.html"  
   
-    if [ ${#Term} -gt $NAMESTRLEN ]; then
-      Term=$( echo $Term | cut -c 1-$NAMESTRLEN )  # shorten the Term to an acceptable menu item name
-    fi  # Term too long for being menu item name
+ #   if [ ${#Term} -gt $NAMESTRLEN ]; then
+ #     Term=$( echo $Term | cut -c 1-$NAMESTRLEN )  # shorten the Term to an acceptable menu item name
+#  fi  # Term too long for being menu item name
   
-    echo "" >> $FILENAME
-    echo "    - title: $Term" >> $FILENAME
-    echo "      url: $link" >> $FILENAME
-    echo "      output: web, pdf" >> $FILENAME
+#    echo "" >> $FILENAME
+#    echo "    - title: $Term" >> $FILENAME
+#    echo "      url: $link" >> $FILENAME
+#    echo "      output: web, pdf" >> $FILENAME
 
-done < $AWKOUT
+ #   echo "" >> $FILENAME
+ #   echo "      subfolders:" >> $FILENAME
+ #   echo "      - title: Tag archive pages" >> $FILENAME
+#  echo "        output: web" >> $FILENAME
+#   echo "        subfolderitems:" >> $FILENAME
+#    echo "" >> $FILENAME
+#    echo "         - title: Formatting pages" >> $FILENAME
+#    echo "           url: /tag_formatting.html" >> $FILENAME
+#    echo "           output: web" >> $FILENAME
+#done < $AWKOUT
 IFS="$OLDIFS"   # $IFS is a special shell variable in Bash, set it back to the old value
+

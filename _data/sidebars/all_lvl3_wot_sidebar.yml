@@ -1,0 +1,33 @@
+# This script automatically generated this Terms menu YAML file , with arguments
+# menuname: All WOT-terms, catname: all and level: 3.
+# The sidebar code loops through sections here and provides the appropriate formatting.
+# Generated running gen-yml.sh located in /Users/hvc/apps/WOT-terms, by UID hvc on Wed Aug 31 19:38:14 WEST 2022.
+
+entries:
+- title: sidebar
+  product: Glossary KERI/ACDC
+  version: 0.2
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: All WOT-terms
+    output: web, pdf
+    folderitems:
+  - title: All WOT-terms
+    output: web, pdf
+    folderitems:
+  - title: 
+    output: web, pdf
+    folderitems:

@@ -1,2 +1,2 @@
 ## See
-[Public transaction event log](public-transaction-event-log)
+[Public transaction event log](term_public-transaction-event-log)

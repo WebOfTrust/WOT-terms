@@ -1,2 +1,2 @@
 ## See
-[Javascript object signing and encryption](javascript-object-signing-and-encryption)
+[Javascript object signing and encryption](term_javascript-object-signing-and-encryption)

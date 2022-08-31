@@ -1,2 +1,2 @@
 ## See
-[Directed acyclic graph](directed-acyclic-graph)
+[Directed acyclic graph](term_directed-acyclic-graph)

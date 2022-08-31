@@ -1,2 +1,2 @@
 ## See
-[Transmission control protocol](transmission-control-protocol)
+[Transmission control protocol](term_transmission-control-protocol)

@@ -1,2 +1,2 @@
 ## See
-[Transaction event log](transaction-event-log)
+[Transaction event log](term_transaction-event-log)

@@ -1,2 +1,2 @@
 ## See
-[Gnu privacy guard](gnu-privacy-guard)
+[Gnu privacy guard](term_gnu-privacy-guard)
