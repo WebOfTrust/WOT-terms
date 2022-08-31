@@ -232,7 +232,7 @@
 233;blake3;Blake3 hash;blake3;BLAKE3 is a relatively young (2020) cryptographic hash function based on Bao and BLAKE2.;https://github.com/trustoverip/acdc/wiki/blake3;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=16m57s;7;;;;;;;;
 234;data-anchor;anchor data into;data-anchor;Data anchors are digests of digital data, that uniquely identify this data;https://github.com/trustoverip/acdc/wiki/data-anchor;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=17m14s;7;;;;;;;;
 235;autonomic-identifier;AID;autonomic-identifier;An identifier that is self-certifying and self-sovereign;https://github.com/trustoverip/acdc/wiki/autonomic-identifier;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=17m50s;7;;;;;;;;
-236;-sequences/;sequence number;-sequences/;Incremental number in a log;https://www.storyofmathematics.com/number-sequences/;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=17m57s;3;;;;;;;;
+236;;sequence number;;Incremental number in a log;https://www.storyofmathematics.com/number-sequences/;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=17m57s;3;;;;;;;;
 237;digest;digest;digest;Verifiable cryptographic commitment. It's a collision resistant hash of content;https://github.com/trustoverip/acdc/wiki/digest;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=17m57s;3;1;;;;;;;
 238;issuance-event;issuance event;issuance-event;The inception event of a verifiable credential;https://github.com/trustoverip/acdc/wiki/issuance-event;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=18m02s;7;;;;;;;;
 239;public-transaction-event-log;public transaction event log;public-transaction-event-log;Is a hash linked data structure of transactions that can be used to track state;https://github.com/trustoverip/acdc/wiki/public-transaction-event-log;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=18m05s;7;;;;;;;;
@@ -318,9 +318,9 @@
 319;application-programming-interface;;application-programming-interface;;https://github.com/trustoverip/acdc/wiki/application-programming-interface;;1;;;;;1;1;;
 320;API;;API;;https://github.com/trustoverip/acdc/wiki/API;;1;;;;;1;1;;
 321;key-pair;;key-pair;;https://github.com/trustoverip/acdc/wiki/key-pair;;1;;;1;1;1;1;;
-322;;;;;;;;;;;;;;;
-323;;;;;;;;;;;;;;;
-324;;;;;;;;;;;;;;;
+322;owner;;owner;;https://github.com/trustoverip/acdc/wiki/owner;;1;;;;;1;1;1;1
+322;ownership;;ownership;;https://github.com/trustoverip/acdc/wiki/ownership;;1;;;;;1;1;1;1
+324;self-sovereignty;;self-sovereignty;;https://github.com/trustoverip/acdc/wiki/self-sovereignty;;1;;;;;1;1;;1
 325;;;;;;;;;;;;;;;
 326;;;;;;;;;;;;;;;
 327;;;;;;;;;;;;;;;
