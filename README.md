@@ -28,10 +28,14 @@ is an often used phrase. Not to intimidate or to be condescending, but to stress
 > without understanding and belief, 
 > there won't be adoption.
 
-### What values are behind our plan?
+### Values at the base of our plan
 
 1. On-line education is important. We think it's an endless effort to improve the **understandability** of highly technical on-line resources and dedication is needed to achieve this value.
-2. Static sites, its generation and all its plusses; among them: working on continuously harvested copies of external resources (independence, improving UX, etc.), works off-line as a charm, inclusion by low-bandwidth requirements.
+2. **Static sites** have value. A few relevant advantages: 
+    - after creation it's fixed in a directory structure, make it read-only and it's safe
+    - working on continuously harvested copies of external resources (independence, improving UX, etc.)
+    - a static site works off-line as a charm
+    - inclusion by low-bandwidth requirements.
 3. **Continuous Development Continuous Integration** (CDCI) - Github actions keeps things up to date (as few human hands as possible).
  
 ### Concepts, here we go!
