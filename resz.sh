@@ -1,5 +1,8 @@
 #!/bin/bash
-# Present in _terms/glossary directory
+# Status: operational draft
+# Quick & Dirty script used for converting files purposes locally
+# Later to be used in Github Actions to post process .md files from the ToIP Glosssary wiki
+# Your working dir Needs to be set to _terms/glossary directory
 #cd ..
 #rm -rf _terms
 #mkdir _terms

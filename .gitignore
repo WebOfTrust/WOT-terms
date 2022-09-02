@@ -10,4 +10,4 @@ vendor/
 *.bak
 output/
 Split_*
-*_workfile.txt
+*-workfile.txt
