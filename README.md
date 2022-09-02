@@ -35,9 +35,9 @@ is an often used phrase. Not to intimidate or to be condescending, but to stress
     - after creation it's fixed in a directory structure, make it read-only and it's safe
     - working on continuously harvested copies of external resources (independence, improving UX, etc.)
     - a static site works off-line as a charm
-    - inclusion by low-bandwidth requirements.
-3. **Continuous Development Continuous Integration** (CDCI) - Github actions keeps things up to date (as few human hands as possible).
- 
+    - supports _inclusion_ by low-bandwidth requirements.
+3. **Continuous Development Continuous Integration** (CDCI) - Github actions can keep things up to date (it's valuable that we can automate tasks that usually are manual).
+
 ### Concepts, here we go!
 
 That said, we consider there's given a wish to mutually understand each-other (this includes the awareness of being understood). If so, we could serve the interested recipient of information about this great innovation by:
