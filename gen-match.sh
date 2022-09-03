@@ -20,35 +20,36 @@ MINLENGTHACRONYM="5"  #to invoke searches of acronyms only between whitespace an
 # Some guidance of the output
 BASEDIR=''   # Jekyll theme needs the yaml data in this dir
 OUTCNTFILE="count.txt"          # resulting yml file trailer *wot_sidebar.yml
-CATLIST=(9 10 11 12 13 14 15 16) # Order numbers of the columns in the WOT-terms-manage sheet: all categories 
-INDEXARRAY=(1 4 6 8) # Order numbers of the content columns in the WOT-terms-manage sheet
+CATLIST=(9 10) # Order numbers of the columns in the WOT-terms-manage sheet: all categories 
+INDEXARRAY=(1 2) # Order numbers of the content columns in the WOT-terms-manage sheet
+FUZZYTYPE="1"
 
 # ------------------------------------------
 if [ $# -lt 1 ]; then
   CATNAME="all"
-  TERMSOURCE="Count-Wot-terms.txt"   # will stay in tact
-  DOCNAME="hvancann-ietf-CESR-CHANGED.md" # Example file
+  TERMSOURCE="Count-Wot-terms-SMALL.txt"   # will stay in tact
+  DOCNAME="hvancann-ietf-CESR-CHANGED.md" # Example file  
 fi   # lt 1
 
 # Getopts handling or arguments handling
 
-while [ ! -z "${1}" ]; do
+while [ ! -z "$1" ]; do
     case $1 in
         --terms|-t)
             shift       # echo "You entered termsfile as: $1"           
-            TERMSOURCE=${1}
+            TERMSOURCE="$1"
             ;;
         --fuzzy|-f)
             shift       # echo "You entered fuzziness as: $1"           
-            FUZZYTYPE=${1}
+            FUZZYTYPE="$1"
             ;;    
         --docname|-d)
             shift       # echo "You entered name as: $1"           
-            DOCNAME=${1}
+            DOCNAME="$1"
             ;;
         --column|-c)
             shift       # echo "You entered category as: $1"
-            CATNAME=${1}
+            CATNAME="$1"
             ;;
         *)
             show_usage
@@ -72,7 +73,7 @@ fi    # if length = 0
 
 declare -a COLS  # pull the file into an indexed array
 #COLS=("$(cat ${HEADER} | tr ';' '\n')")  # New way of getting the column headers in an array: replace separator ; with \n and feed array
-OIFS="$IFS"; IFS=';'; COLS=($(<${HEADER})); IFS="$OIFS"
+OIFS="$IFS"; IFS=' '; COLS=($(<${HEADER})); IFS="$OIFS"
 # The -a option of read caused a lot of hassle: it was allowed in Vicual Studio Code, but not in bash 5.1.x on MAcOS
 # IFS=';' read -ra COLS <<< "${string}"  # Column names in an array - OLD WAY
 #for i in "${COLS[@]}"; do echo $i; done
@@ -118,7 +119,7 @@ fields=$( echo "$fields" | sed 's/^,//' ) # Remove the leading comma
 
 # Below select the relevant records (terms) for the sheet and sort on second column of the output
 # We want no empty keys: $4 represents the keyfield for this bashscript: it's the term used in the ToIP glossary
-cat "${INPUT}" | awk -v levelNr=$LEVELNR 'BEGIN { FS=OFS=";" }  {if ($1 != "")  print $1,$4 }' > "${AWKOUTCNT}"
+cat "${INPUT}" | awk 'BEGIN { FS=OFS=";" }  {if ($1 != "")  print $1,$4 }' > "${AWKOUTCNT}"
 # 'Sort' explanation -> -t : the column delimiter in the pipe, -k2 : column 2 resulting from the pipe, on char 1-10, -b : ignore leading blanks in a field, -o : output file
 
 FILENAME="./${BASEDIR}${CATNAME}_${OUTCNTFILE}"
@@ -130,63 +131,69 @@ function add_count_Rows (){
 # type 2: Example "A B C D" will be searched as type 1 + "A", "A B", "A B C"                             
 # type 3:  Example "A B C D" will be searched as type 2 and as "A D", "B C", "A C" and "B D"; all combination are possible, but not in a changed order.
 
-        if  [ -z $1 ]; then
-            local searchTerm=$Term          # set default value to global Term being processed  
-        else 
-            local searchTerm=$1             # searchTerm passed as an argument
-        fi     # no arguments passed 
+local count=0  # default value
+#echo $1
+#echo $2
+if  [ -z $1 ]; then               # if empty
+     exit 3 # local searchTerm=$Term          # set default value to global Term being processed  
+else 
+    local searchTerm=$1             # searchTerm passed as an argument
+fi     # no arguments passed 
 
-        if  [ -z $2 ]; then
-            if [ -z $FUZZYTYPE ]; then
-               local typeSearch=1        # default type of search
-            fi  # no argument and no script argument passed     
-            local typeSearch=$FUZZYTYPE      # type of search called in script
-        else 
-            local typeSearch=$1             # searchTerm passed as an argument to function
-        fi     # no arguments passed 
+if  [ -z $2 ]; then               # if empty
+    if [ -z "$FUZZYTYPE" ]; then
+        local typeSearch=1        # default type of search
+    fi  # no argument and no script argument passed     
+    local typeSearch=$FUZZYTYPE      # type of search called in script
+else 
+    local typeSearch=$2             # searchTerm passed as an argument to function
+fi     # no arguments passed 
 
-        if [ ${#searchTerm} -lt $MINLENGTHACRONYM ]; then
-            pattern="([.,;\(\[ ]+)${Term}([ .,;\)\]]?)"
-            count=$( egrep -ci "${pattern}" ${DOCNAME})
-            if [ count -gt "0" ]; then
-              echo "${Key};${Term};${count};${pattern}" >> $FILENAME
-            fi  # only add non-zero counts in the database
-        else
-            if [[ $(wc -w <<< $searchTerm) -gt 1 ]]; then # more than one word in a term
-                # sed -r 's/([ ])/\[\1-\]\?/g' <<< $searchTerm     does the trick of the loop too
-                patrn=""
-                for j in $searchTerm; do
-                    case $typeSearch in
-                    -1|2)
-                        patrn=$patrn"${j}[ -]?"
-                    ;;
-                    -3)
-                        patrn=$patrn"[${j}]?[ -]?"
-                    ;;
-                    *)
-                        echo "An INVALID type encountered: $typeSearch"
-                        exit 2
-                    ;;
-                    esac  # type switch
-                done   # looping j substring Term
+if [ ${#searchTerm} -lt $MINLENGTHACRONYM ]; then
+        pattern="([.,;\(\[ ]+)${Term}([ .,;\)\]]?)"
+#        count=$( egrep -ci "${pattern}" ${DOCNAME})
+#       if [ $count -gt 0 ]; then
+#            echo "${Key};${Term};${count};${pattern}" >> $FILENAME
+#        fi  # only add non-zero counts in the database
+else  #  term not too short
+    multiWord=$(wc -w <<< "$searchTerm" | sed 's/^[ \t]*//' )  # cut leading blanks from the wc result
+    if [[ $multiWord -gt 1 ]]; then # more than one word in a term
+        # sed -r 's/([ ])/\[\1-\]\?/g' <<< $searchTerm     does the trick of the loop too
+        patrn=""
+        for j in $searchTerm; do
+            case $typeSearch in
+            1|2)
+                patrn=$patrn"${j}[ -]?"
+            ;;
+            3)
+                patrn=$patrn"[${j}]?[ -]?"
+            ;;
+            *)
+                echo "An INVALID type encountered: $typeSearch"
+                exit 2
+            ;;
+            esac  # type switch
 
-                pattern="{$patrn}"
+        done   # looping j substring Term
+        pattern=$patrn
 
-            else # just one word in a term
-                pattern=${Term}  
+    else # just the exact word in a term
+        pattern=${Term}  
 
-            fi  #   more than one word in a term
-            count=$( egrep -ci "${pattern}" ${DOCNAME})
-            if [ count -gt "0" ]; then
-              echo "${Key};${Term};${count};${pattern}" >> $FILENAME
-            fi  # only add non-zero counts in the database
-        fi # else if Term too short
-    fi  # Term "" 
+    fi  #   more than one word in a term
 
- #   echo "${Key};${Term};${count}" >> $FILENAME
+fi # else if Term too short
+local len=${#searchTerm}  # function could have been called with an empty search string
+if [  ${len} -ne 0 ]; then   # we're good
 
+    let count="$( egrep -ci "${pattern}" ${DOCNAME})"
+    if [ ${count} -gt 0 ]; then
+        echo "${Key};${Term};${count};${pattern}" >> $FILENAME
+    fi  # only add non-zero counts in the database
+fi # len searchterm -ne 0
+
+# 1 Key - 2 Term - 3 Count - 4 Pattern
 } # end function add_count_Rows
-
 
 # echo $FILENAME
 
@@ -201,8 +208,8 @@ echo "# This script automatically counts Terms in a guest file , with arguments"
 # 1 Key - 2 Term - Count
 #########################
 [ ! -f $AWKOUTCNT ] && { echo "$AWKOUTCNT file not found"; exit 99; }
-OLDIFS="$IFS"               # $IFS is a special shell variable in Bash
-IFS=' '
+#OLDIFS="$IFS"               # $IFS is a special shell variable in Bash
+#IFS=' '
 
 while read Key Term
 do
@@ -212,55 +219,60 @@ do
     # echo "/User/talha/content/images/README.example.md" | sed 's/\(.*\)\/\(.*\)\.\(.*\)$/\1\n\2\n\3/'
 
     if [ ${#Term} -eq 0 ]; then
-        count="";pattern="";echo "${Key};${Term};${count};${pattern}" >> $FILENAME   # skip empty records, but leave the original record in tact
+        echo "${Key};;;" >> $FILENAME   # skip empty records, but leave the original record in tact
+        continue    # next loop iteration, we're done with this one
     fi # empty record
 
     # When a Term is a compound of words, we let the longest composition prevail, but we count particles from right to left too
-    arrayWords=($(echo $Term | tr " " "\n"))
+    arrayWords=( $(echo $Term | tr " " "\n") )
         #Print the split string
-    numWords=${#arrayWords[@]}
+    numWords=$( echo "${#arrayWords[@]}" )
     patrn=""
     #echo "numWords: $numWords"
-    if [numWords -eq "1"]; then
-      add_count_Rows $term $FUZZYTYPE
-    fi # one word Term  
+#    if [ $numWords -eq 1 ]; then
+#      add_count_Rows ${Term} 1
+#    fi # one word Term  
     
-    case $typeSearch in
-    -1) # Compose type 2: Example "A B C D" will be searched as type 1 + "A", "A B", "A B C"
-        i=$numWords
-        patrn=${arrayWords[$i]}
-        while [! i -gt 0]; do
-        patrn=$patrn"${i} "
-        add_count_Rows $patrn $typeSearch
-        let i+=1
+    case $FUZZYTYPE in
+    1) # Compose type 2: Example "A B C D" will be searched as type 1 + "D", "C D", "B C D"
+       let i=$numWords-1  # index of an array starts at 0, so -1 for total number to traverse correctly
+        echo ${arrayWords[@]}
+        echo ${numWords}
+        while [ $i -ge 0 ]; do
+            # test1="${patrn} VOID"
+            # test2="$(echo ${arrayWords[${i}]})"
+            # echo "test1:$test1, test2:$test2"
+            patrn="$(echo ${arrayWords[${i}]}) ${patrn}"
+            echo $patrn
+            trimPatrn=$(echo "$patrn" | sed 's/ $//' )  # remove trailing space
+            add_count_Rows "$trimPatrn" "${FUZZYTYPE}"
+            let i-=1
         done
-    ;;
-    -2) # Compose type 2: Example "A B C D" will be searched as type 1 + "A", "A B", "A B C"                              
-        j=1
-        while [! j -ge $numWords]; do
-            patrn=$patrn" ${j}"
+        ;;
+    2) # Compose type 2: Example "A B C D" will be searched as type 1 + "A", "A B", "A B C"                              
+        j=0
+        maxIndex=$numWords-1
+        while [ ! $j -gt $maxIndex ]; do
+            patrn=$patrn" ${arrayWords[${j}]}"
             # echo "${arrayWords[$j]} ${arrayWords[$numWords]}"
-            add_count_Rows $patrn 1
-            add_count_Rows $patrn $typeSearch
+            patrn="${patrn} $(echo ${arrayWords[${i}]})"
+            trimPatrn=$(echo "$patrn" | sed 's/^ //' )  # remove leading space
+            add_count_Rows "$trimPatrn" 1
+            add_count_Rows "$trimPatrn" "$FUZZYTYPE"
             let j+=1
         done      
-    ;;
-    -3) # Compose type 3: Example "A B C D" will be searched as type 2 and as "A D", "B C", "A C" and "B D", "B", "C"; all combination are possible, but not in a changed order.
-            add_count_Rows $Term 1
-            add_count_Rows $Term 2
-            add_count_Rows $Term $typeSearch
-    ;;
+        ;;
+    3) # Compose type 3: Example "A B C D" will be searched as type 2 and as "A D", "B C", "A C" and "B D", "B", "C"; all combination are possible, but not in a changed order.
+        add_count_Rows "$Term" 1
+        add_count_Rows "$Term" 2
+        add_count_Rows "$Term" "$FUZZYTYPE"
+        ;;
     *)
         echo "An INVALID type encountered: $typeSearch"
         exit 2
     ;;
     esac  # type switch
 
-
-
-
-
-    # 1 Key - 2 Term - 3 Count  
 done <${AWKOUTCNT}  # for all records
 
 IFS="$OLDIFS"   # $IFS is a special shell variable in Bash, set it back to the old value
