@@ -1,0 +1,330 @@
+# This script automatically counts Terms in a guest file , with arguments
+1;ACDC;1
+2;ADC;0
+3;AID;0
+4;AN;30
+5;APC;0
+6;BADA;0
+7;BFT;0
+8;CESR;24
+9;CT;0
+10;DAG;0
+11;DEL;0
+12;DHT;0
+13;DKMI;0
+14;DPKI;0
+15;GPG;2
+16;I O;0
+17;IANA;2
+18;IPEX;0
+19;JOSE;0
+20;KA2CE;0
+21;KAACE;0
+22;KEL;0
+23;KERI;3
+24;KERL;0
+25;KID;0
+26;LoA;0
+27;LoC;0
+28;NFT;0
+29;OOBI;0
+30;P2P;0
+31;PGP;0
+32;PKI;0
+33;PTEL;0
+34;SAD;0
+35;SAID;0
+36;SATP;0
+37;SCID;0
+38;SSI;0
+39;TCP;1
+40;TEL;0
+41;UI;0
+42;URL;1
+43;VC TEL;0
+44;VC;0
+45;VDS;0
+46;agency;0
+47;ambient verifiability;0
+48;append only event logs;0
+49;authentic chained data container;0
+50;authentic data container;0
+51;authentic provenance chain;0
+52;authenticity;0
+53;autonomic computing systems;0
+54;autonomic identity system;0
+55;autonomic namespace;0
+56;best available data acceptance mechanism;0
+57;binding;0
+58;byzantine agreement;0
+59;byzantine fault tolerance;0
+60;certificate transparency;0
+61;cesr proof signatures;0
+62;chain of custody;0
+63;claim;0
+64;composable event streaming representation;0
+65;consensus mechanism;0
+66;content addressable hash;0
+67;control authority;0
+68;controller;3
+69;correlation;0
+70;credential;0
+71;crypto libraries;0
+72;cryptocurrency;0
+73;cryptographic commitment scheme;0
+74;cryptographic strength;0
+75;cryptonym;0
+76;decentralized identity;0
+77;decentralized key management infrastructure;0
+78;delegated identifier;0
+79;digital signature;0
+80;directed acyclic graph;0
+81;distributed hash table;0
+82;dual text binary encoding format;0
+83;duplicitous event log;0
+84;duplicity;0
+85;electronic signature;0
+86;end verifiable;0
+87;entropy;1
+88;ephemeral;0
+89;first seen;0
+90;gnu privacy guard;0
+91;habery;0
+92;hierarchical asynchronous coroutines and input output;0
+93;identifier;2
+94;identity;0
+95;inception event;0
+96;inception;0
+97;inconsistency;0
+98;indexed signature;0
+99;internal inconsistency;0
+100;internet assigned numbers authority;0
+101;issuance and presentation exchange protocol;0
+102;javascript object signing and encryption;0
+103;judge;0
+104;keri agreement algorithm for control establishment;0
+105;keri command line interface;0
+106;keri improvement doc;0
+107;keridemlia;0
+108;key compromise;0
+109;key event message;0
+110;key event receipt infrastructure;0
+111;key event receipt log;0
+112;key event receipt;0
+113;key state;0
+114;key transparency;0
+115;key;18
+116;levels of assurance;0
+117;liveness;0
+118;loci of control;0
+119;management transaction event log;0
+120;message;8
+121;multicodec;6
+122;namespace;0
+123;nested cooperative delegated identifiers;0
+124;non establishment event;0
+125;non fungible token;0
+126;non normative;0
+127;non repudiable;0
+128;non transferable;0
+129;normative;1
+130;one way functions;0
+131;payload;0
+132;pretty good privacy;0
+133;primary root of trust;0
+134;primitive;79
+135;proof of authority;0
+136;proof of authorship;0
+137;provenance;0
+138;public key infrastructure;0
+139;public verifiable credential registry;0
+140;race condition;0
+141;receipt log;0
+142;receipt;3
+143;registrar;0
+144;root of trust;0
+145;rotation;0
+146;secondary root of trust;0
+147;secure asset transfer protocol;0
+148;secure attribution;0
+149;seed;4
+150;self addressing data;0
+151;self certifying identifier;0
+152;self framing;0
+153;self sovereign identity;0
+154;signed digest;0
+155;spanning layer;0
+156;text binary concatenation composability;0
+157;transaction event log;0
+158;transmission control protocol;0
+159;trust domain;0
+160;validator;0
+161;veracity;0
+162;verifiable data structure;0
+163;verifiable;1
+164;verifier;0
+165;version;43
+166;virtual credential transaction event log;0
+167;web of trust;0
+168;well knownwitnesses;0
+169;;
+170;;
+171;repo;0
+172;;
+173;coroutines;0
+174;input output;0
+175;hio;0
+176;;
+177;;
+178;clone;0
+179;branch;0
+180;kli;0
+181;;
+182;;
+183;verifiable credential;0
+184;;
+185;sub shell;0
+186;agent;0
+187;cloud agent;0
+188;;
+189;;
+190;user interface;0
+191;multisig;0
+192;identifier system;0
+193;wallet;2
+194;;
+195;witness;2
+196;watcher;0
+197;key management;0
+198;;
+199;single signature identifier;0
+200;keystore;0
+201;key event;0
+202;interaction event;0
+203;rotation event;0
+204;signing threshold;0
+205;key event log;0
+206;verify signature;0
+207;peer to peer;0
+208;;
+209;salt;1
+210;delegation;0
+211;delegation;0
+212;;
+213;transferable identifier;0
+214;;
+215;configuration files;0
+216;;
+217;;
+218;;
+219;ransfer_Protocol;0
+220;;
+221;passcode;0
+222;key stretching;0
+223;;
+224;non transferable identitifer;0
+225;;
+226;threshold signature scheme;0
+227;pre rotation;0
+228;prefix;5
+229;base64;104
+230;qualified;21
+231;derivation code;0
+232;blake3;3
+233;data anchor;0
+234;autonomic identifier;0
+235;;
+236;digest;16
+237;issuance event;0
+238;public transaction event log;0
+239;verify signature;0
+240;establishment event;0
+241;emory Mapped_Database;0
+242;indexed signature ;0
+243;;
+244;;
+245;self addressing identifier;0
+246;;
+247;ledger backer;0
+248;witness;2
+249;verifiable legal entity identifier;0
+250;ssi system;0
+251;;
+252;transfer off ledger;0
+253;;
+254;;
+255;service endpoint;0
+256;uniform resource locator;0
+257;ip address;0
+258;tcp endpoint;0
+259;inquisitor;0
+260;;
+261;;
+262;;
+263;locked state;0
+264;;
+265;out of band introduction;0
+266;out of band introduction;0
+267;keep;0
+268;zero trust;0
+269;;
+270;revocation event;0
+271;;
+272;escrow state;0
+273;server sent event;0
+274;seal;6
+275;authoritative;0
+276;QVI;0
+277;qualified vlei issuer;0
+278;ghost credential;0
+279;redundant credential;0
+280;engagement context role;0
+281;ECR;0
+282;gleif authorized representative;0
+283;GAR;0
+284;GLEIF;0
+285;DAR;0
+286;designated authorized representative;0
+287;AVR;0
+288;authorized vlei representative;0
+289;LEI;0
+290;legal entity;0
+291;OOR;0
+292;official organizational role;0
+293;qvi authorized representative;0
+294;QAR;0
+295;vlei ecosystem governance framework;0
+296;solicited issuance;0
+297;unsolicited issuance;0
+298;governance framework;0
+299;GLEIS;0
+300;vlei credential;0
+301;legal entity engagement context role vlei credential governance framework;0
+302;vlei role credential;0
+303;legal entity official organizational role vlei credential governance framework;0
+304;legal entity vlei credential governance framework;0
+305;qualified vlei issuer vlei credential governance framework;0
+306;DID;0
+307;decentralized identifier;0
+308;partial pre rotation;0
+309;partial rotation;0
+310;custodial rotation;0
+311;reserve rotation;0
+312;custodial agent;0
+313;signing authority;0
+314;rotation authority;0
+315;trans contextual value;0
+316;source of truth;0
+317;authorization;0
+318;application programming interface;0
+319;API;0
+320;key pair;0
+321;owner;0
+322;ownership;0
+323;self sovereignty;0
+324;;
+325;;
+326;;
+327;;
+328;;
+329;;
