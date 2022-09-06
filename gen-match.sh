@@ -10,7 +10,7 @@
 USERNAME="$(id -un)"
 DATETIME="$(date)"
 INPUT="Count-workfile.txt"            # will be overridden
-AWKOUTCNT="AWKOUTCNT-workfile.txt"          # will be overridden
+AWKOUTCNT="AwkOutCount_workfile.txt"          # will be overridden
 MINLENGTHACRONYM="5"  #to invoke searches of acronyms only between whitespace and/or delimiting characters
 # Some guidance of the output
 BASEDIR=''   # Jekyll theme needs the yaml data in this dir
@@ -135,7 +135,7 @@ else
     local searchTerm="$1"             # searchTerm passed as an argument
 fi     # no arguments passed 
 
-if  [ -z"$2" ]; then               # if empty
+if  [ -z "$2" ]; then               # if empty
     if [ -z "$FUZZYTYPE" ]; then
         local typeSearch=1        # default type of search
     fi  # no argument and no script argument passed     
@@ -153,17 +153,17 @@ if [ ${#searchTerm} -lt $MINLENGTHACRONYM ]; then
 else  #  term not too short
     multiWord=$(wc -w <<< "$searchTerm" | sed 's/^[ \t]*//' )  # cut leading blanks from the wc result
     if [[ $multiWord -gt 1 ]]; then # more than one word in a term
-    #  local j=""
+      local j=""
        local patrnLoc=""
-        # for j in $searchTerm; do
+         for j in $searchTerm; do
         case "$typeSearch" in
         1|2)
-            sed -r 's/([ ])/\[\1-\]\?/g' <<< $searchTerm     
-        #    patrnLoc=$patrnLoc"${j}[ -]?"
+        #     patrnLoc="$(sed -r 's/([ ])/\[\1-\]\?/g' <<< $searchTerm)"     
+            patrnLoc=$patrnLoc"${j}[ -]?"
         ;;
         3)
-            sed -r 's/([A-Za-z0-9_])([ ])/\[\1\]\?\[\2-\]\?/g' <<< $searchTerm     
-        #    patrnLoc=$patrnLoc"[${j}]?[ -]?"
+        #     patrnLoc="$(sed -r 's/([A-Za-z0-9_])([ ])/\[\1\]\?\[\2-\]\?/g' <<< $searchTerm)"   
+            patrnLoc=$patrnLoc"[${j}]?[ -]?"
         ;;
         *)
             echo "An INVALID type encountered: $typeSearch"
@@ -171,11 +171,11 @@ else  #  term not too short
         ;;
         esac  # type switch
 
-        #done   # looping j substring Term
+        done   # looping j substring Term
         pattern="$patrnLoc"
 
     else # just the exact word in a term
-        pattern=${Term}  
+        pattern="${Term}"  
 
     fi  #   more than one word in a term
 
@@ -204,14 +204,14 @@ echo "# This script automatically counts Terms in a guest file , with arguments"
 #########################
 # 1 Key - 2 Term - Count
 #########################
+OLDIFS="$IFS"               # $IFS is a special shell variable in Bash
+IFS=';'
 [ ! -f $AWKOUTCNT ] && { echo "$AWKOUTCNT file not found"; exit 99; }
-#OLDIFS="$IFS"               # $IFS is a special shell variable in Bash
-#IFS=' '
 
 while read Key Term
 do
-    Term=$( echo $Term |  sed -e 's/-/ /g' )  # remove preceding and trailing -
-    Term=$( echo $Term | sed -e 's/[^ A-Za-z0-9_]//g')  # remove unwanted chars in term before search, leave spaces in (among other chars)!
+    Term="$( echo $Term |  sed -e 's/-/#/g' )"  # remove preceding and trailing -
+    Term="$( echo $Term | sed -e 's/[^ #A-Za-z0-9_]//g')"  # remove unwanted chars in term before search, leave spaces in (among other chars)!
     # Multifunctional splitting base and filename - got it from here: https://www.oncrashreboot.com/use-sed-to-split-path-into-filename-extension-and-directory
     # echo "/User/talha/content/images/README.example.md" | sed 's/\(.*\)\/\(.*\)\.\(.*\)$/\1\n\2\n\3/'
 
@@ -221,7 +221,7 @@ do
     fi # empty record
 
     # When a Term is a compound of words, we let the longest composition prevail, but we count particles from right to left too
-    arrayWords=( $(echo $Term | tr " " "\n") )
+    arrayWords=( $(echo "$Term" | tr "#" " ") )
         #Print the split string
     numWords=$( echo "${#arrayWords[@]}" )
     patrn=""

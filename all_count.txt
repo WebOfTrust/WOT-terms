@@ -1,1 +1,165 @@
 # This script automatically counts Terms in a guest file , with arguments
+1;ACDC;8;[ .,;({]?ACDC[ .,;)}]?
+3;AID;63;[ .,;({]?AID[ .,;)}]?
+4;AN;192;[ .,;({]?AN[ .,;)}]?
+8;CESR;12;[ .,;({]?CESR[ .,;)}]?
+9;CT;111;[ .,;({]?CT[ .,;)}]?
+11;DEL;13;[ .,;({]?DEL[ .,;)}]?
+12;DHT;2;[ .,;({]?DHT[ .,;)}]?
+13;DKMI;2;[ .,;({]?DKMI[ .,;)}]?
+17;IANA;2;[ .,;({]?IANA[ .,;)}]?
+20;KA2CE;2;KA2CE
+22;KEL;23;[ .,;({]?KEL[ .,;)}]?
+23;KERI;70;[ .,;({]?KERI[ .,;)}]?
+24;KERL;3;[ .,;({]?KERL[ .,;)}]?
+26;LoA;4;[ .,;({]?LoA[ .,;)}]?
+27;LoC;8;[ .,;({]?LoC[ .,;)}]?
+29;OOBI;3;[ .,;({]?OOBI[ .,;)}]?
+31;PGP;1;[ .,;({]?PGP[ .,;)}]?
+32;PKI;6;[ .,;({]?PKI[ .,;)}]?
+34;SAD;2;[ .,;({]?SAD[ .,;)}]?
+35;SAID;17;[ .,;({]?SAID[ .,;)}]?
+37;SCID;10;[ .,;({]?SCID[ .,;)}]?
+38;SSI;19;[ .,;({]?SSI[ .,;)}]?
+40;TEL;6;[ .,;({]?TEL[ .,;)}]?
+41;UI;34;[ .,;({]?UI[ .,;)}]?
+42;URL;7;[ .,;({]?URL[ .,;)}]?
+44;VC;3;[ .,;({]?VC[ .,;)}]?
+45;VDS;5;[ .,;({]?VDS[ .,;)}]?
+47;ambient#verifiability;1;ambient verifiability[ -]?
+52;authenticity;6;authenticity
+54;autonomic#identity#system;1;autonomic identity system[ -]?
+55;autonomic#namespace;1;autonomic namespace[ -]?
+57;binding;7;binding
+60;certificate#transparency;4;certificate transparency[ -]?
+64;composable#event#streaming#representation;1;composable event streaming representation[ -]?
+67;control#authority;13;control authority[ -]?
+68;controller;16;controller
+74;cryptographic#strength;10;cryptographic strength[ -]?
+75;cryptonym;7;cryptonym
+77;decentralized#key#management#infrastructure;1;decentralized key management infrastructure[ -]?
+79;digital#signature;5;digital signature[ -]?
+84;duplicity;8;duplicity
+86;end#verifiable;1;end verifiable[ -]?
+87;entropy;2;entropy
+88;ephemeral;5;ephemeral
+89;first#seen;1;first seen[ -]?
+93;identifier;52;identifier
+94;identity;4;identity
+95;inception#event;20;inception event[ -]?
+96;inception;27;inception
+97;inconsistency;2;inconsistency
+108;key#compromise;1;key compromise[ -]?
+109;key#event#message;5;key event message[ -]?
+110;key#event#receipt#infrastructure;5;key event receipt infrastructure[ -]?
+111;key#event#receipt#log;1;key event receipt log[ -]?
+112;key#event#receipt;6;key event receipt[ -]?
+113;key#state;14;key state[ -]?
+115;key;131;[ .,;({]?key[ .,;)}]?
+120;message;50;message
+122;namespace;7;namespace
+129;normative;3;normative
+131;payload;2;payload
+134;primitive;10;primitive
+137;provenance;1;provenance
+141;receipt#log;1;receipt log[ -]?
+142;receipt;11;receipt
+145;rotation;61;rotation
+148;secure#attribution;2;secure attribution[ -]?
+149;seed;6;[ .,;({]?seed[ .,;)}]?
+155;spanning#layer;2;spanning layer[ -]?
+157;transaction#event#log;1;transaction event log[ -]?
+160;validator;7;validator
+161;veracity;1;veracity
+162;verifiable#data#structure;10;verifiable data structure[ -]?
+163;verifiable;36;verifiable
+164;verifier;4;verifier
+165;version;14;version
+167;web#of#trust;1;web of trust[ -]?
+169;;;
+170;;;
+171;repo;2;[ .,;({]?repo[ .,;)}]?
+172;;;
+175;hio;1;[ .,;({]?hio[ .,;)}]?
+176;;;
+177;;;
+181;;;
+182;;;
+184;;;
+186;agent;3;agent
+188;;;
+189;;;
+192;identifier#system;8;identifier system[ -]?
+194;;;
+195;witness;1;witness
+197;key#management;3;key management[ -]?
+198;;;
+201;key#event;27;key event[ -]?
+202;interaction#event;2;interaction event[ -]?
+203;rotation#event;17;rotation event[ -]?
+204;signing#threshold;5;signing threshold[ -]?
+205;key#event#log;8;key event log[ -]?
+208;;;
+209;salt;9;[ .,;({]?salt[ .,;)}]?
+210;delegation;1;delegation
+211;delegation;1;delegation
+212;;;
+213;transferable#identifier;1;transferable identifier[ -]?
+214;;;
+216;;;
+217;;;
+218;;;
+220;;;
+222;key#stretching;1;key stretching[ -]?
+223;;;
+225;;;
+228;prefix;7;prefix
+229;base64;3;base64
+230;qualified;13;qualified
+231;derivation#code;7;derivation code[ -]?
+232;blake3;10;blake3
+233;data#anchor;1;data anchor[ -]?
+234;autonomic#identifier;9;autonomic identifier[ -]?
+235;;;
+236;digest;32;digest
+240;establishment#event;28;establishment event[ -]?
+243;;;
+244;;;
+246;;;
+248;witness;1;witness
+251;;;
+253;;;
+254;;;
+257;ip#address;1;ip address[ -]?
+260;;;
+261;;;
+262;;;
+264;;;
+267;keep;3;[ .,;({]?keep[ .,;)}]?
+269;;;
+271;;;
+274;seal;13;[ .,;({]?seal[ .,;)}]?
+275;authoritative;21;authoritative
+281;ECR;12;[ .,;({]?ECR[ .,;)}]?
+283;GAR;2;[ .,;({]?GAR[ .,;)}]?
+284;GLEIF;1;GLEIF
+285;DAR;6;[ .,;({]?DAR[ .,;)}]?
+289;LEI;1;[ .,;({]?LEI[ .,;)}]?
+306;DID;10;[ .,;({]?DID[ .,;)}]?
+307;decentralized#identifier;2;decentralized identifier[ -]?
+309;partial#rotation;5;partial rotation[ -]?
+310;custodial#rotation;3;custodial rotation[ -]?
+311;reserve#rotation;3;reserve rotation[ -]?
+312;custodial#agent;1;custodial agent[ -]?
+313;signing#authority;9;signing authority[ -]?
+314;rotation#authority;8;rotation authority[ -]?
+317;authorization;2;authorization
+319;API;8;[ .,;({]?API[ .,;)}]?
+320;key#pair;1;key pair[ -]?
+321;owner;2;owner
+327;issuer;1;issuer
+335;ricardian#contract;2;ricardian contract[ -]?
+339;protocol;17;protocol
+decentralized network protocols";1;192;[ .,;({]?1[ .,;)}]?
+340;;;
+341;;;

@@ -1,5 +1,5 @@
-﻿Key;ToIP_Fkey;Philvid_Fkey;Term; text; link;Philvid_start; level;Cat_PTEL;Cat_IPEX;Cat_OOBI;Cat_CESR;Cat_ACDC;Cat_KERI;Cat_SAID;Cat_GLEIF
-`;ACDC;;ACDC;Type of data as issuance concretely defined by the authentic-chained-data-container specification;https://github.com/trustoverip/acdc/wiki/ACDC.md;;7;;;;;1;;;
+Key;ToIP_Fkey;Philvid_Fkey;Term; text; link;Philvid_start; level;Cat_PTEL;Cat_IPEX;Cat_OOBI;Cat_CESR;Cat_ACDC;Cat_KERI;Cat_SAID;Cat_GLEIF
+1;ACDC;;ACDC;Type of data as issuance concretely defined by the authentic-chained-data-container specification;https://github.com/trustoverip/acdc/wiki/ACDC.md;;7;;;;;1;;;
 2;ADC;;ADC;;https://github.com/trustoverip/acdc/wiki/ADC.md;;7;;;;;1;;;
 3;AID;;AID;;https://github.com/trustoverip/acdc/wiki/AID.md;;7;;;;;1;;1;
 4;AN;;AN;;https://github.com/trustoverip/acdc/wiki/AN.md;;7;;;;;;1;;
