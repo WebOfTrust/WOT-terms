@@ -123,9 +123,9 @@ The Composable Event Streaming Representation (CESR) is a dual text-binary encod
 
 # Introduction
 
-One way to better secure event-streaming representation Internet communications is to use cryptographically verifiable primitives and data structures both inside messages and in support of messaging protocols. Cryptographically verifiable primitives provide essential building blocks for zero-trust computing and networking architectures. Traditionally cryptographic primitives including but not limited to digests, salts, seeds (private keys), public keys, and digital signatures have been largely represented in some type of binary encoding. This limits their usability in domains or protocols that are human-centric or equivalently that only support {{ASCII}} text-printable characters, {{RFC20}}. These domains include source code,  documents, system logs, audit logs, Ricardian contracts, and human-readable text documents of many types {{JSON}}{{RFC4627}}.
+One way to better secure Internet communications is to use cryptographically verifiable primitives and data structures both inside messages and in support of messaging protocols. Cryptographically verifiable primitives provide essential building blocks for zero-trust computing and networking architectures. Traditionally cryptographic primitives including but not limited to digests, salts, seeds (private keys), public keys, and digital signatures have been largely represented in some type of binary encoding. This limits their usability in domains or protocols that are human-centric or equivalently that only support {{ASCII}} text-printable characters, {{RFC20}}. These domains include source code,  documents, system logs, audit logs, Ricardian contracts, and human-readable text documents of many types {{JSON}}{{RFC4627}}.
 
-Generic binary-to-text, {{Bin2Txt}}, event streaming-representation or simply textual encodings such as Base64 {{RFC4648}}, do not provide any information about the type or size of the underlying event-streaming cryptographic primitive. Base64 only provides "value" information. More recently {{Base58Check}} was developed as a fit-for-purpose textual encoding of cryptographic primitives for shared distributed ledger applications that in addition to value may include information about the type and in some cases the size of the underlying cryptographic primitive, {{WIF}}. But each application may use a non-interoperable encoding of type and optionally size. Interestingly because a binary encoding may include as a subset some codes that are in the text-printable compatible subset of {{ASCII}} such as ISO Latin-1, {{Latin1}} or UTF-8, {{UTF8}}, one may *serendipitously* find, for a given cryptographic primitive, a text-printable type code from a binary code table such as the table {{MCTable}} from {{MultiCodec}} for {{IPFS}}. Indeed some {{Base58Check}} applications take advantage of the binary MultiCodec tables but only used *serendipitous* text-compatible type codes. *Serendipitous* text encodings that appear in binary code tables, do not, however, work in general for any size or type. So the *Serendipitous* approach is not universally applicable and is no substitute for a true textual encoding protocol for cryptographic primitives.
+Generic binary-to-text, {{Bin2Txt}}, or simply textual encodings such as Base64 {{RFC4648}}, do not provide any information about the type or size of the underlying cryptographic primitive. Base64 only provides "value" information. More recently {{Base58Check}} was developed as a fit-for-purpose textual encoding of cryptographic primitives for shared distributed ledger applications that in addition to value may include information about the type and in some cases the size of the underlying cryptographic primitive, {{WIF}}. But each application may use a non-interoperable encoding of type and optionally size. Interestingly because a binary encoding may include as a subset some codes that are in the text-printable compatible subset of {{ASCII}} such as ISO Latin-1, {{Latin1}} or UTF-8, {{UTF8}}, one may *serendipitously* find, for a given cryptographic primitive, a text-printable type code from a binary code table such as the table {{MCTable}} from {{MultiCodec}} for {{IPFS}}. Indeed some {{Base58Check}} applications take advantage of the binary MultiCodec tables but only used *serendipitous* text-compatible type codes. *Serendipitous* text encodings that appear in binary code tables, do not, however, work in general for any size or type. So the *Serendipitous* approach is not universally applicable and is no substitute for a true textual encoding protocol for cryptographic primitives.
 
 In general, there is no standard text-based encoding protocol that provides universal type, size, and value encoding for cryptographic primitives. Providing this capability is the primary motivation for the encoding protocol defined herein.
 
@@ -217,20 +217,16 @@ Text, *T*, domain representations in CESR use only the characters from the URL a
 
 Notable is the fact that, Base64 {{RFC4648}} by itself does not satisfy the composability property and must employ pad characters to ensure one-way convertability between binary and text.
 
-In CESR, however, both *T* and *B* domain representations include a prepended framing code prefix that is structured in such ambient   verifiability a way as to ensure composability.
+In CESR, however, both *T* and *B* domain representations include a prepended framing code prefix that is structured in such a way as to ensure composability.
 
-Suppose for example we wish to use Base64 characters in the text domain and binary bytes in the binary domain. For the sake of example, we will call these respectively, naive text and naive binary encodings and domains. Recall that a byte encodes 8 bits of information and a Base64 character encodes 6 bits of information. Furthermore suppose that we have three primitives denoted `a`, `b`, and `c` in the naive binary domain with lengths of 1, 2, and 3 bytes respectively. ambient-verifiability
+Suppose for example we wish to use Base64 characters in the text domain and binary bytes in the binary domain. For the sake of example, we will call these respectively, naive text and naive binary encodings and domains. Recall that a byte encodes 8 bits of information and a Base64 character encodes 6 bits of information. Furthermore suppose that we have three primitives denoted `a`, `b`, and `c` in the naive binary domain with lengths of 1, 2, and 3 bytes respectively.
 
-ambient - - verifiability
-
-
-In the following diagrams, we denote each byte in a naive binary primitive with zero-based most significant bit first indices ambient verifiability.  For example, `a1` is bit one from `a`, `a0` is bit zero, and `A0` for byte zero, `A1` for byte 1, etc.
+In the following diagrams, we denote each byte in a naive binary primitive with zero-based most significant bit first indices.  For example, `a1` is bit one from `a`, `a0` is bit zero, and `A0` for byte zero, `A1` for byte 1, etc.
 
 The byte and bit-level diagrams for `a` is shown below where we use `A` to denote its bytes:
 
 ~~~text
 |           A0          |
-ambientverifiability
 |a7:a6:a5:a4:a3:a2:a1:a0|
 ~~~
 
@@ -261,9 +257,7 @@ Therefore encoding `a` in Base64 requires at least two Base64 characters because
 ~~~
 where `aX` represents a bit from `A0` and `zX` represents a zeroed pad bit, and `TX` represents a non-pad character from the converted Base64 text representing one hextet of information from the converted binary string.
 
-Naive Base64 encoding always pads each individual conversion of a string of bytes to an even multiple of four characters. This provides a property that is not true composability but does ensure that multiple distinct concatenated conversions from binary to Base64 text are separable. It may be described as a sort of one-way composability. So with pad characters, denoted by replacing the spaces with `=` characters, the Base64 conversion of 
-verifiability ambient
-`a` is as follows:
+Naive Base64 encoding always pads each individual conversion of a string of bytes to an even multiple of four characters. This provides a property that is not true composability but does ensure that multiple distinct concatenated conversions from binary to Base64 text are separable. It may be described as a sort of one-way composability. So with pad characters, denoted by replacing the spaces with `=` characters, the Base64 conversion of `a` is as follows:
 
 ~~~text
 |           A0          |
@@ -321,23 +315,6 @@ If we concatenate these two primitives as `u + v` in the text domain and then co
 We see that all six bits of information in `U0` is included in `B2` along with the least significant two bits of information in `V2`. Therefore a binary domain parser is unable to cleanly de-concatenate on a byte-by-byte basis the conversion of `u + v` into separate binary domain primitives. Therefore, standard (naive) Base64 to binary conversion does not satisfy the composability constraint.
 
 Indeed, the composability property is only satisfied if each primitive in the *T* domain is an integer multiple of four Base64 characters (24 bits) and each primitive in the *B* domain is an integer multiple of three bytes (24 bits). Each of either four Base64 text characters or three binary bytes captures twenty-four bits of information. Twenty-four is the least common multiple of six and eight. Therefore in order to cleanly capture integer multiples of twenty-four bits of information, primitive lengths MUST be integer multiples of either four Base64 text characters or three binary bytes in their respective domains. Given the constraint of alignment on 24-bit boundaries in either text or binary domains is satisfied, the conversion of concatenated primitives in one domain never results in the same byte or character in the converted domain sharing bits from two adjacent primitives. This constraint of 24-bit alignment, therefore, satisfies the *composability* property.
-
-logs
-event-logs
-only-event-logs
-append
-append-only
-append-only-event
-append-only-event-logs
-logs append event 
-logs
-event logs
-only event logs
-append
-append only
-append only event
-append only event logs
-
 
 To elaborate, when converting streams made up of concatenated primitives back and forth between the *T* and *B* domains, the converted results will not align on byte or character boundaries at the end of each primitive unless the primitives themselves are integer multiples of twenty-four bits of information. In other words, all primitives must be aligned on twenty-four-bit boundaries to satisfy the composability property. This means that the length of any primitive in the *B* domain MUST be an integer multiple of three binary bytes with a minimum length of three binary bytes. Likewise, this means that the length of any primitive in the *T* domain MUST be an integer multiple of 4 Base64 characters with a minimum length of four Base64 characters.
 

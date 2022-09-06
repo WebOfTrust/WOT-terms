@@ -1,0 +1,329 @@
+# This script automatically counts Terms in a guest file , with arguments
+1              	1	ACDC
+2              	1	ADC
+3              	2	AID
+4              	45	AN
+5              	1	APC
+6              	1	BADA
+7              	1	BFT
+8              	2	CESR
+9              	16	CT
+10             	1	DAG
+11             	5	DEL
+12             	1	DHT
+13             	1	DKMI
+14             	1	DPKI
+15             	1	GPG
+16             	146	I O
+17             	1	IANA
+18             	1	IPEX
+19             	1	JOSE
+20             	1	KA2CE
+21             	1	KAACE
+22             	1	KEL
+23             	5	KERI
+24             	1	KERL
+25             	1	KID
+26             	2	LoA
+27             	4	LoC
+28             	1	NFT
+29             	1	OOBI
+30             	1	P2P
+31             	1	PGP
+32             	2	PKI
+33             	1	PTEL
+34             	1	SAD
+35             	1	SAID
+36             	1	SATP
+37             	1	SCID
+38             	6	SSI
+39             	2	TCP
+40             	3	TEL
+41             	2	UI
+42             	1	URL
+43             	4	VC TEL
+44             	2	VC
+45             	1	VDS
+46             	1	agency
+47             	1	ambient verifiability
+48             	4	append only event logs
+49             	4	authentic chained data container
+50             	3	authentic data container
+51             	2	authentic provenance chain
+52             	1	authenticity
+53             	2	autonomic computing systems
+54             	2	autonomic identity system
+55             	1	autonomic namespace
+56             	4	best available data acceptance mechanism
+57             	1	binding
+58             	1	byzantine agreement
+59             	2	byzantine fault tolerance
+60             	1	certificate transparency
+61             	2	cesr proof signatures
+62             	2	chain of custody
+63             	1	claim
+64             	3	composable event streaming representation
+65             	1	consensus mechanism
+66             	4	content addressable hash
+67             	1	control authority
+68             	1	controller
+69             	1	correlation
+70             	12	credential
+71             	1	crypto libraries
+72             	1	cryptocurrency
+73             	2	cryptographic commitment scheme
+74             	1	cryptographic strength
+75             	1	cryptonym
+76             	1	decentralized identity
+77             	3	decentralized key management infrastructure
+78             	2	delegated identifier
+79             	1	digital signature
+80             	2	directed acyclic graph
+81             	2	distributed hash table
+82             	4	dual text binary encoding format
+83             	17	duplicitous event log
+84             	1	duplicity
+85             	1	electronic signature
+86             	1	end verifiable
+87             	1	entropy
+88             	1	ephemeral
+89             	2	first seen
+90             	2	gnu privacy guard
+91             	1	habery
+92             	6	hierarchical asynchronous coroutines and input output
+93             	11	identifier
+94             	4	identity
+95             	1	inception event
+96             	2	inception
+97             	2	inconsistency
+98             	2	indexed signature
+99             	1	internal inconsistency
+100            	3	internet assigned numbers authority
+101            	4	issuance and presentation exchange protocol
+102            	4	javascript object signing and encryption
+103            	1	judge
+104            	5	keri agreement algorithm for control establishment
+105            	3	keri command line interface
+106            	3	keri improvement doc
+107            	1	keridemlia
+108            	1	key compromise
+109            	2	key event message
+110            	3	key event receipt infrastructure
+111            	13	key event receipt log
+112            	6	key event receipt
+113            	1	key state
+114            	1	key transparency
+115            	17	key
+116            	2	levels of assurance
+117            	1	liveness
+118            	2	loci of control
+119            	21	management transaction event log
+120            	2	message
+121            	1	multicodec
+122            	2	namespace
+123            	3	nested cooperative delegated identifiers
+124            	3	non establishment event
+125            	2	non fungible token
+126            	1	non normative
+127            	1	non repudiable
+128            	2	non transferable
+129            	2	normative
+130            	2	one way functions
+131            	1	payload
+132            	2	pretty good privacy
+133            	8	primary root of trust
+134            	1	primitive
+135            	2	proof of authority
+136            	2	proof of authorship
+137            	2	provenance
+138            	2	public key infrastructure
+139            	3	public verifiable credential registry
+140            	1	race condition
+141            	11	receipt log
+142            	5	receipt
+143            	1	registrar
+144            	7	root of trust
+145            	8	rotation
+146            	8	secondary root of trust
+147            	3	secure asset transfer protocol
+148            	1	secure attribution
+149            	1	seed
+150            	9	self addressing data
+151            	2	self certifying identifier
+152            	1	self framing
+153            	2	self sovereign identity
+154            	1	signed digest
+155            	1	spanning layer
+156            	3	text binary concatenation composability
+157            	20	transaction event log
+158            	2	transmission control protocol
+159            	1	trust domain
+160            	1	validator
+161            	1	veracity
+162            	2	verifiable data structure
+163            	6	verifiable
+164            	1	verifier
+165            	1	version
+166            	22	virtual credential transaction event log
+167            	5	web of trust
+169            	0	
+170            	0	
+171            	1	repo
+172            	0	
+173            	2	coroutines
+174            	2	input output
+175            	1	hio
+176            	0	
+177            	0	
+178            	1	clone
+179            	1	branch
+180            	1	kli
+181            	0	
+182            	0	
+183            	2	verifiable credential
+184            	0	
+185            	1	sub shell
+186            	3	agent
+187            	1	cloud agent
+188            	0	
+189            	0	
+190            	1	user interface
+191            	1	multisig
+192            	1	identifier system
+193            	1	wallet
+194            	0	
+195            	3	witness
+196            	1	watcher
+197            	2	key management
+198            	0	
+199            	2	single signature identifier
+200            	1	keystore
+201            	6	key event
+202            	1	interaction event
+203            	1	rotation event
+204            	1	signing threshold
+205            	17	key event log
+206            	2	verify signature
+207            	3	peer to peer
+208            	0	
+209            	1	salt
+210            	2	delegation
+211            	2	delegation
+212            	0	
+213            	1	transferable identifier
+214            	0	
+215            	1	configuration files
+216            	0	
+217            	0	
+218            	0	
+219            	1	ransfer_Protocol
+220            	0	
+221            	1	passcode
+222            	1	key stretching
+223            	0	
+224            	2	non transferable identitifer
+225            	0	
+226            	2	threshold signature scheme
+227            	2	pre rotation
+228            	1	prefix
+229            	1	base64
+230            	3	qualified
+231            	4	derivation code
+232            	1	blake3
+233            	1	data anchor
+234            	1	autonomic identifier
+235            	0	
+236            	2	digest
+237            	1	issuance event
+238            	21	public transaction event log
+239            	2	verify signature
+240            	2	establishment event
+241            	1	emory Mapped_Database
+242            	2	indexed signature 
+243            	0	
+244            	0	
+245            	2	self addressing identifier
+246            	0	
+247            	1	ledger backer
+248            	3	witness
+249            	3	verifiable legal entity identifier
+250            	1	ssi system
+251            	0	
+252            	2	transfer off ledger
+253            	0	
+254            	0	
+255            	1	service endpoint
+256            	2	uniform resource locator
+257            	1	ip address
+258            	1	tcp endpoint
+259            	1	inquisitor
+260            	0	
+261            	0	
+262            	0	
+263            	1	locked state
+264            	0	
+265            	6	out of band introduction
+266            	6	out of band introduction
+267            	1	keep
+268            	1	zero trust
+269            	0	
+270            	1	revocation event
+271            	0	
+272            	1	escrow state
+273            	2	server sent event
+274            	1	seal
+275            	1	authoritative
+276            	2	QVI
+277            	4	qualified vlei issuer
+278            	1	ghost credential
+279            	1	redundant credential
+280            	9	engagement context role
+281            	1	ECR
+282            	5	gleif authorized representative
+283            	1	GAR
+284            	2	GLEIF
+285            	2	DAR
+286            	4	designated authorized representative
+287            	1	AVR
+288            	2	authorized vlei representative
+289            	13	LEI
+290            	5	legal entity
+291            	1	OOR
+292            	9	official organizational role
+293            	4	qvi authorized representative
+294            	1	QAR
+295            	8	vlei ecosystem governance framework
+296            	2	solicited issuance
+297            	1	unsolicited issuance
+298            	6	governance framework
+299            	1	GLEIS
+300            	5	vlei credential
+301            	20	legal entity engagement context role vlei credential governance framework
+302            	2	vlei role credential
+303            	20	legal entity official organizational role vlei credential governance framework
+304            	16	legal entity vlei credential governance framework
+305            	17	qualified vlei issuer vlei credential governance framework
+306            	1	DID
+307            	1	decentralized identifier
+308            	3	partial pre rotation
+309            	1	partial rotation
+310            	1	custodial rotation
+311            	1	reserve rotation
+312            	1	custodial agent
+313            	1	signing authority
+314            	1	rotation authority
+315            	2	trans contextual value
+316            	2	source of truth
+317            	1	authorization
+318            	2	application programming interface
+319            	1	API
+320            	2	key pair
+321            	2	owner
+322            	1	ownership
+323            	1	self sovereignty
+324            	0	
+325            	0	
+326            	0	
+327            	0	
+328            	0	
+329            	0	

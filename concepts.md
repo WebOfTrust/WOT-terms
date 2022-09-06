@@ -253,6 +253,10 @@ principles and pre-conditions
 principles and pre-conditions
 
 #### Freedom of witness and backer organization - extensible - scalable
+We have two types: witnesses (for the controller) and backer to check duplicity in the network. The reason we've done this because we thus avoid the [eclipse attack](), that blockchains suffer from.
+
+We foresee witness and watcher hosting services, just like web hosting currently. Technically speaking a watcher and a witness use the same code and protocol, watchers run in [promiscuous mode]().
+
 
 #### Freedom of validator and watchtower organization - extensible - scalable
 
