@@ -6,7 +6,7 @@ Therefore we pull in the original documents in markdown format in our Jekyll sit
 ## How to find a document
 Search the [WebofTrust Github repos](https://github.com/WebOfTrust/ietf-keri/blob/main) for an interesting resource.
 
-<img src="https://hackmd.io/_uploads/ByvtKgBls.png)" width="400">
+<img src="https://hackmd.io/_uploads/ByvtKgBls.png)" width="600">
 
 ## Save the doc as a 'raw' .md file
 
