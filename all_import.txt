@@ -1,8 +1,3 @@
-# DOCNAME: draft-ssmith-ietf-cesr.md
-# Generated running gen-match.sh located in /Users/hvc/apps/WOT-terms, by UID hvc on Mon Sep 19 14:16:21 CEST 2022.	0	
-# The code loops through the terms, searches the target text	0	
-# and provides the appropriate counts per pattern in two extra columns.	0	
-decentralized network protocols"	179	1
 1              	1	ACDC
 3              	1	AID
 4              	167	AN

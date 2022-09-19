@@ -25,6 +25,7 @@ OUTYAMLFILE="wot_sidebar.yml"          # resulting yml file trailer *wot_sidebar
 DESTPRE="term"  # Jekyll Documentation Theme convention: a pre-text to recognize the origin of the output files
 CATLIST=(9 10 11 12 13 14 15 16) # Order numbers of the columns in the WOT-terms-manage sheet: all categories 
 INDEXARRAY=(1 4 6 8) # Order numbers of the content columns in the WOT-terms-manage sheet
+MENUDONE=0  # The yaml file has certain heights of menu, height "0"is the entrance level for writing the yaml file
 
 cat ${SOURCE} | tr -cd '\11\12\40-\176' > "${INPUT}" # want to get rid of non-printable character Excel leaves in the text export
 cat ${INPUT} | sed -n '1p' > "${HEADER}" # create a file with the columns headers
@@ -47,7 +48,7 @@ OIFS="$IFS"; IFS=';'; COLS=($(<${HEADER})); IFS="$OIFS"
 if [ $# -lt 1 ]; then
   MENUNAME="Overview"
   CATNAME="all"
-  LEVELNR="1"  # 1 is all terms will be shown in a certain categorie
+  LEVELNR="1"  # level of the user, "1" is all terms will be shown in a certain categorie
 fi   # lt 1
 
 # Getopts handling or arguments handling
@@ -167,48 +168,187 @@ IFS="$OLDIFS"   # $IFS is a special shell variable in Bash, set it back to the o
 
 ####     ####     ####     ####     ####     ####     ####     ####     ####     ####     
 function group_menu_items (){
-} # end function group_menu_items
 
+if  [ -z $1 ]; then
+    local menulvl=2              # set default value if no value passed
+  else 
+    if [[ $1 -gt 3 ]] || [[ $1 -lt 1 ]]; then
+      exit 5
+    else
+      local menulvl=$1
+    fi   # check maximum depth of the menus in the Jekyll Documentation Theme
+fi # $1 check
 
-[ ! -f $AWKOUT ] && { echo "$AWKOUT file not found"; exit 99; }
+if  [ -z $2 ]; then
+      echo "No category provided, second argument of the function call is: $2."    # no category provided, so split of all categories at this level
+  else 
+    case $2 in
+        9)
+            CATNR=$2; echo "You entered Category: $2"
+            cat "${AWKOUT}" | awk 'BEGIN { FS=OFS=";" }  {if ($9 >= "1") print '$fields' }' > "${AWKOUTMENU}"
+            ;;
+        10)
+            CATNR=$2; echo "You entered Category: $2"
+            cat "${AWKOUT}" | awk 'BEGIN { FS=OFS=";" }  {if ($10 >= "1") print '$fields' }' > "${AWKOUTMENU}"
+            ;;
+        11)
+            CATNR=$2; echo "You entered Category: $2"
+            cat "${AWKOUT}" | awk 'BEGIN { FS=OFS=";" }  {if ($11 >= "1") print '$fields' }' > "${AWKOUTMENU}"
+            ;;
+        12)
+            CATNR=$2; echo "You entered Category: $2"
+            cat "${AWKOUT}" | awk 'BEGIN { FS=OFS=";" }  {if ($12 >= "1") print '$fields' }' > "${AWKOUTMENU}"
+            ;;
+        13)
+            CATNR=$2; echo "You entered Category: $2"
+            cat "${AWKOUT}" | awk 'BEGIN { FS=OFS=";" }  {if ($13 >= "1") print '$fields' }' > "${AWKOUTMENU}"
+            ;;
+        14)
+            CATNR=$2; echo "You entered Category: $2"
+            cat "${AWKOUT}" | awk 'BEGIN { FS=OFS=";" }  {if ($14 >= "1") print '$fields' }' > "${AWKOUTMENU}"
+            ;;
+        15)
+            CATNR=$2; echo "You entered Category: $2"
+            cat "${AWKOUT}" | awk 'BEGIN { FS=OFS=";" }  {if ($15 >= "1") print '$fields' }' > "${AWKOUTMENU}"
+            ;;
+        16)
+            CATNR=$2; echo "You entered Category: $2"
+            cat "${AWKOUT}" | awk 'BEGIN { FS=OFS=";" }  {if ($16 >= "1") print '$fields' }' > "${AWKOUTMENU}"
+            ;;
+        *)
+            echo "You entered no valid Category: $2; top level menu items will be generated in the yaml file"
+            
+            ;;
+    esac   # Category switch
+fi  # $2 check 
 
-FILENAME="./$BASEDIR/${CATNAME}_lvl${LEVELNR}_${OUTYAMLFILE}"
-# echo $FILENAME
+if [  ${menulvl} -eq 1 ] && [  ${menulvl} -gt ${MENUDONE} ]; then 
+  # Start write to resulting yaml file
+  echo "# This script automatically generated this Terms menu YAML file , with arguments" > $FILENAME
+  echo "# menuname: ${MENUNAME}, catname: ${CATNAME} and level: ${LEVELNR}."  >> $FILENAME 
+  echo "# The sidebar code loops through sections here and provides the appropriate formatting." >> $FILENAME
+  echo "# Generated running $(basename ${0}) located in $(dirname ${0}), by UID ${USERNAME} on ${DATETIME}." >> $FILENAME
+  echo "" >> $FILENAME
+  echo "entries:" >> $FILENAME
+  echo "- title: sidebar" >> $FILENAME
+  echo "  product: Glossary KERI/ACDC" >> $FILENAME
+  echo "  version: 0.2" >> $FILENAME
+  echo "  folders:" >> $FILENAME
+  echo ""  >> $FILENAME
+  echo "  - title:" >> $FILENAME
+  echo "    output: pdf" >> $FILENAME
+  echo "    type: frontmatter" >> $FILENAME
+  echo "    folderitems:" >> $FILENAME
+  echo "    - title:" >> $FILENAME
+  echo "      url: /titlepage.html" >> $FILENAME
+  echo "      output: pdf" >> $FILENAME
+  echo "      type: frontmatter" >> $FILENAME
+  echo "    - title:" >> $FILENAME
+  echo "      url: /tocpage.html" >> $FILENAME
+  echo "      output: pdf" >> $FILENAME
+  echo "      type: frontmatter" >> $FILENAME
 
-# Start write to resulting yaml file
-echo "# This script automatically generated this Terms menu YAML file , with arguments" > $FILENAME
-echo "# menuname: ${MENUNAME}, catname: ${CATNAME} and level: ${LEVELNR}."  >> $FILENAME 
-echo "# The sidebar code loops through sections here and provides the appropriate formatting." >> $FILENAME
-echo "# Generated running $(basename ${0}) located in $(dirname ${0}), by UID ${USERNAME} on ${DATETIME}." >> $FILENAME
-echo "" >> $FILENAME
-echo "entries:" >> $FILENAME
-echo "- title: sidebar" >> $FILENAME
-echo "  product: Glossary KERI/ACDC" >> $FILENAME
-echo "  version: 0.2" >> $FILENAME
-echo "  folders:" >> $FILENAME
-echo ""  >> $FILENAME
-echo "  - title:" >> $FILENAME
-echo "    output: pdf" >> $FILENAME
-echo "    type: frontmatter" >> $FILENAME
-echo "    folderitems:" >> $FILENAME
-echo "    - title:" >> $FILENAME
-echo "      url: /titlepage.html" >> $FILENAME
-echo "      output: pdf" >> $FILENAME
-echo "      type: frontmatter" >> $FILENAME
-echo "    - title:" >> $FILENAME
-echo "      url: /tocpage.html" >> $FILENAME
-echo "      output: pdf" >> $FILENAME
-echo "      type: frontmatter" >> $FILENAME
+  echo "" >> $FILENAME
+  # one selected category OR "Overview" in level 1 menu
+  echo "  - title: $MENUNAME" >> $FILENAME
+  echo "    output: web, pdf" >> $FILENAME
+  echo "    folderitems:" >> $FILENAME
+  echo "    - title:" >> $FILENAME
+  echo "      url: /tocpage.html" >> $FILENAME
+  echo "      output: web, pdf" >> $FILENAME
+  echo "      type: frontmatter" >> $FILENAME
+  MENUDONE=1  # we confirm that all height "1" data has been writen to the file 
 
-echo "" >> $FILENAME
-# one selected category OR "Overview" in level 1 menu
-echo "  - title: $MENUNAME" >> $FILENAME
-echo "    output: web, pdf" >> $FILENAME
-echo "    folderitems:" >> $FILENAME
-echo "    - title:" >> $FILENAME
-echo "      url: /tocpage.html" >> $FILENAME
-echo "      output: web, pdf" >> $FILENAME
-echo "      type: frontmatter" >> $FILENAME
+else # we want recursive menu creation calls
+  if [ ${menulvl} -ge 2 ] && [  ${menulvl} -gt ${MENUDONE} ]; then
+    local splitwfbase="Split_"
+    [ ! -f $AWKOUTMENU ] && { echo "$AWKOUTMENU file not found"; exit 99; }
+
+    NUMMENUITEMS=$(wc -l < "$AWKOUTMENU" | xargs )  # xargs: we want to strip the leading and trailing blanks off the variable
+
+    local numSplitFiles="1"  # Default is we keep just one file
+
+    if [[ "${NUMMENUITEMS}" -gt "100" ]]; then
+      echo $NUMMENUITEMS
+      let numSplitFiles=${NUMMENUITEMS}/20
+
+      # group terms drastically
+      echo $NUMMENUITEMS
+    else 
+      if [[ "${NUMMENUITEMS}" -gt "14" ]]; then
+      # echo $NUMMENUITEMS
+      let numSplitFiles=${NUMMENUITEMS}/7
+      # group terms
+      fi # > 10 items
+    fi # > 100 items
+
+    let numSplitFiles=$(echo $numSplitFiles | awk '{print int($1+0.5)}') ## round the number
+    split-files $numSplitFiles "${splitwfbase}"  # This takes $AWKOUTMENU as a source
+
+    for f in ${splitwfbase}*; do echo "Processing $f file..."
+      local fromRec="$(head -n1 $f)"
+      local toRec="$(tail -n1 $f)"
+      # We'd like to use substr: substr(s, i [, n]) It return the at most n-character 
+      # substring of s starting at i. If n is omitted, use the rest of s
+      from=$( echo "$fromRec" | awk 'BEGIN { FS=OFS=";" } { print substr($2, index(0,3))} ')
+      to=$( echo "$toRec" | awk 'BEGIN { FS=OFS=";" } { print substr($2, index(0,3))}') 
+      local menuName="${from} - ${to}" # We create a menu item name that holds the Alphabetic range of the items under it.
+      
+      # Create the yaml output for the menu per menulvl
+      local indentSpaces="  " # 2 spaces
+      echo "" >> $FILENAME
+      echo "${indentSpaces}- title: $menuName" >> $FILENAME
+      echo "${indentSpaces}  output: web, pdf" >> $FILENAME
+      echo "${indentSpaces}  folderitems:" >> $FILENAME
+      if [ ${menulvl} -eq 3 ]; then
+        echo "M3nulevel: ${menulvl}"
+        indentSpaces="      "  # 6 spaces
+      else
+        if  [ ${menulvl} -eq 2 ]; then
+          echo "Menul3vel: ${menulvl}"
+          indentSpaces="    "  # 4 spaces
+        else #menulvl 1
+              echo "Menulev3l: ${menulvl}"
+        fi # menulvl 2 call switch
+      fi # menulvl 3 call switch
+
+      ################################################# 
+      # 1 Key - 4 Term - 6 link - 8 level - YY Cat_XXXX
+      #################################################
+      [ ! -f $AWKOUTMENU ] && { echo "$AWKOUTMENU file not found"; exit 99; }
+      OLDIFS="$IFS"               # $IFS is a special shell variable in Bash
+      IFS=';'
+      while read Key Term link level $CATNAME
+      do
+        Term=$( echo $Term |  sed -e 's/^[[:space:]]*//' )  # remove preceding and trailing blanks
+        Term=$( echo $Term | sed -e 's/[^A-Za-z0-9._-]/-/g')  # replace unwanted chars in filename
+        # Multifunctional splitting base and filename - got it from here: https://www.oncrashreboot.com/use-sed-to-split-path-into-filename-extension-and-directory
+        # echo "/User/talha/content/images/README.example.md" | sed 's/\(.*\)\/\(.*\)\.\(.*\)$/\1\n\2\n\3/'
+      
+        link="/${DESTPRE}_${Term}.html"  
+      
+        if [ ${#Term} -gt $NAMESTRLEN ]; then
+          Term=$( echo $Term | cut -c 1-$NAMESTRLEN )  # shorten the Term to an acceptable menu item name
+        fi  # Term too long for being menu item name
+      
+        echo "" >> $FILENAME
+        echo "${indentSpaces}- title: $Term" >> $FILENAME
+        echo "${indentSpaces}  url: $link" >> $FILENAME
+        echo "${indentSpaces}  output: web, pdf" >> $FILENAME
+        #echo "${indentSpaces}  folderitems:" >> $FILENAME
+
+      # 1 Key - 4 Term - 6 link - 8 level - YY Cat_XXXX  
+      done < $f # for all records in Splitfile
+
+      IFS="$OLDIFS"   # $IFS is a special shell variable in Bash, set it back to the old value
+
+    done # for all splitfiles
+
+  else # ${menulvl} -eq 3!
+    MENUDONE=3  # we confirm that all height "3" data has been writen to the file
+  fi # menu level ge 2
+  MENUDONE=2  # we confirm that all height "2" data has been writen to the file
+fi # ${menulvl} -eq 1
 
 if [  $COLUMNINDEX = "999" ]; then 
   # Now we'd like to go through all categories
@@ -221,15 +361,27 @@ if [  $COLUMNINDEX = "999" ]; then
     echo "      url: /Cat${i}_tocpage.html" >> $FILENAME
     echo "      output: web, pdf" >> $FILENAME
     echo "      type: frontmatter" >> $FILENAME
-    group_menu_items 3 $i
-
-  #  groupmenu items
+    group_menu_items 3 "$i"
   done # columns in category list
 
 else  # we have just one category selected
-  group_menu_items 2 $COLUMNINDEX
+  if [  $MENUDONE -le "1" ]; then 
+    group_menu_items 2 "$COLUMNINDEX"
+  fi # $MENUDONE = "0"
 
 fi # all categories
+
+} # end function group_menu_items
+
+[ ! -f $AWKOUT ] && { echo "$AWKOUT file not found"; exit 99; }
+
+FILENAME="./$BASEDIR/${CATNAME}_lvl${LEVELNR}_${OUTYAMLFILE}"
+# echo $FILENAME
+
+if [  $MENUDONE = "0" ]; then 
+  group_menu_items 1 "Void"
+fi # $MENUDONE = "0"
+
 
 # 1 Key - 4 Term - 6 link - 8 level - YY Cat_XXXX  
 #while read Key Term link level $CATNAME
@@ -265,146 +417,3 @@ fi # all categories
 # takes argument being the level of deepness in the menu-structure we can afford to create
 # Global variable: AWKOUT, AWKOUTMENU : filenames, NUMMENUITEMS : integer
 ####     ####     ####     ####     ####     ####     ####     ####     ####     ####     
-local splitwfbase="Split_"
-local menulvl=$1
-
-if  [ -z $1 ]; then
-      local menulvl=2              # set default value from the number of submenus allowed 
-  else 
-  if [[ $1 -gt 3 ]] || [[ $1 -lt 1 ]]; then
-    exit 5
-  fi   # check maximum depth of the menus in the Jekyll Documentation Theme
-
-if  [ -z $2 ]; then
-      echo "No category provided, second argument of the function call is: $2."           # no category provided, so split of all categories at this level
-  else 
-    case $2 in
-        -9)
-            CATNR=$2; echo "You entered Category: $2"
-            cat "${AWKOUT}" | awk 'BEGIN { FS=OFS=";" }  {if ($9 >= "1") print '$fields' }' > "${AWKOUTMENU}"
-            ;;
-        -10)
-            CATNR=$2; echo "You entered Category: $2"
-            cat "${AWKOUT}" | awk 'BEGIN { FS=OFS=";" }  {if ($10 >= "1") print '$fields' }' > "${AWKOUTMENU}"
-            ;;
-        -11)
-            CATNR=$2; echo "You entered Category: $2"
-            cat "${AWKOUT}" | awk 'BEGIN { FS=OFS=";" }  {if ($11 >= "1") print '$fields' }' > "${AWKOUTMENU}"
-            ;;
-        -12)
-            CATNR=$2; echo "You entered Category: $2"
-            cat "${AWKOUT}" | awk 'BEGIN { FS=OFS=";" }  {if ($12 >= "1") print '$fields' }' > "${AWKOUTMENU}"
-            ;;
-        -13)
-            CATNR=$2; echo "You entered Category: $2"
-            cat "${AWKOUT}" | awk 'BEGIN { FS=OFS=";" }  {if ($13 >= "1") print '$fields' }' > "${AWKOUTMENU}"
-            ;;
-        -14)
-            CATNR=$2; echo "You entered Category: $2"
-            cat "${AWKOUT}" | awk 'BEGIN { FS=OFS=";" }  {if ($14 >= "1") print '$fields' }' > "${AWKOUTMENU}"
-            ;;
-        -15)
-            CATNR=$2; echo "You entered Category: $2"
-            cat "${AWKOUT}" | awk 'BEGIN { FS=OFS=";" }  {if ($15 >= "1") print '$fields' }' > "${AWKOUTMENU}"
-            ;;
-        -16)
-            CATNR=$2; echo "You entered Category: $2"
-            cat "${AWKOUT}" | awk 'BEGIN { FS=OFS=";" }  {if ($16 >= "1") print '$fields' }' > "${AWKOUTMENU}"
-            ;;
-        *)
-            echo "You entered an INVALID Category: $2"
-            exit 6
-            ;;
-    esac   # Category switch
-fi  # $2 check 
-
-if [ ${menulvl} -eq 3 ]; then
-  echo "M3nulevel: ${menulvl}"
-else
-  if  [ ${menulvl} -eq 2 ]; then
-    echo "Menul3vel: ${menulvl}"
-  else #menulvl 1
-      echo "Menulev3l: ${menulvl}"
-  fi # menulvl 2 call switch
-fi # menulvl 3 call switch
-
-[ ! -f $AWKOUTMENU ] && { echo "$AWKOUTMENU file not found"; exit 99; }
-
-NUMMENUITEMS=$(wc -l < "$AWKOUTMENU" | xargs )  # xargs: we want to strip the leading and trailing blanks off the variable
-
-local numSplitFiles="1"  # Default is we keep just one file
-
-if [[ "${NUMMENUITEMS}" -gt "100" ]]; then
-  echo $NUMMENUITEMS
-  let numSplitFiles=${NUMMENUITEMS}/20
-
-  # group terms drastically
-  echo $NUMMENUITEMS
-else 
-  if [[ "${NUMMENUITEMS}" -gt "14" ]]; then
-  # echo $NUMMENUITEMS
-  let numSplitFiles=${NUMMENUITEMS}/7
-  # group terms
-  fi # > 10 items
-fi # > 100 items
-
-let numSplitFiles=$(echo $numSplitFiles | awk '{print int($1+0.5)}') ## round the number
-split-files $numSplitFiles "${splitwfbase}"  # This takes $AWKOUTMENU as a source
-
-for f in ${splitwfbase}*; do echo "Processing $f file..."
-  local fromRec="$(head -n1 $f)"
-  local toRec="$(tail -n1 $f)"
-  # We'd like to use substr: substr(s, i [, n]) It return the at most n-character 
-  # substring of s starting at i. If n is omitted, use the rest of s
-  from=$( echo "$fromRec" | awk 'BEGIN { FS=OFS=";" } { print substr($2, index(0,3))} ')
-  to=$( echo "$toRec" | awk 'BEGIN { FS=OFS=";" } { print substr($2, index(0,3))}') 
-  local menuName="${from} - ${to}" # We create a menu item name that holds the Alphabetic range of the items under it.
-  
-  # Create the yaml output for the menu per menulvl
-  local indentSpaces="    " # 4 spaces
-  echo "" >> $FILENAME
-  echo "${indentSpaces}- title: $menuName" >> $FILENAME
-  echo "${indentSpaces}  output: web, pdf" >> $FILENAME
-  echo "${indentSpaces}  folderitems:" >> $FILENAME
-  if [ ${menulvl} -eq 3 ]; then
-    echo "M3nulevel: ${menulvl}"
-    indentSpaces="        "  # 8 spaces
-  else
-    if  [ ${menulvl} -eq 2 ]; then
-      echo "Menul3vel: ${menulvl}"
-      indentSpaces="      "  # 6 spaces
-    else #menulvl 1
-          echo "Menulev3l: ${menulvl}"
-    fi # menulvl 2 call switch
-  fi # menulvl 3 call switch
-
-  ################################################# 
-  # 1 Key - 4 Term - 6 link - 8 level - YY Cat_XXXX
-  #################################################
-  [ ! -f $AWKOUTMENU ] && { echo "$AWKOUTMENU file not found"; exit 99; }
-  OLDIFS="$IFS"               # $IFS is a special shell variable in Bash
-  IFS=';'
-  while read Key Term link level $CATNAME
-  do
-    Term=$( echo $Term |  sed -e 's/^[[:space:]]*//' )  # remove preceding and trailing blanks
-    Term=$( echo $Term | sed -e 's/[^A-Za-z0-9._-]/-/g')  # replace unwanted chars in filename
-    # Multifunctional splitting base and filename - got it from here: https://www.oncrashreboot.com/use-sed-to-split-path-into-filename-extension-and-directory
-    # echo "/User/talha/content/images/README.example.md" | sed 's/\(.*\)\/\(.*\)\.\(.*\)$/\1\n\2\n\3/'
-  
-    link="/${DESTPRE}_${Term}.html"  
-  
-    if [ ${#Term} -gt $NAMESTRLEN ]; then
-      Term=$( echo $Term | cut -c 1-$NAMESTRLEN )  # shorten the Term to an acceptable menu item name
-    fi  # Term too long for being menu item name
-  
-    echo "" >> $FILENAME
-    echo "${indentSpaces}- title: $menuName" >> $FILENAME
-    echo "${indentSpaces}  output: web, pdf" >> $FILENAME
-    echo "${indentSpaces}  folderitems:" >> $FILENAME
-
-  # 1 Key - 4 Term - 6 link - 8 level - YY Cat_XXXX  
-  done < $f # for all records in Splitfile
-  IFS="$OLDIFS"   # $IFS is a special shell variable in Bash, set it back to the old value
-done # for all splitfiles
-
-return 0

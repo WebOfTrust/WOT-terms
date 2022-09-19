@@ -1,30 +1,30 @@
-1;ACDC;;ACDC;;https://github.com/trustoverip/acdc/wiki/ACDC.md;;7;;;;;1;;;
-2;ADC;;ADC;;https://github.com/trustoverip/acdc/wiki/ADC.md;;7;;;;;1;;;
-3;AID;;AID;;https://github.com/trustoverip/acdc/wiki/AID.md;;7;;;;;1;;1;
-4;AN;;AN;;https://github.com/trustoverip/acdc/wiki/AN.md;;7;;;;;;1;;
+1;ACDC;;ACDC;Type of data as issuance concretely defined by the authentic-chained-data-container specification;https://github.com/trustoverip/acdc/wiki/ACDC.md;;7;;;;1;1;;;
+2;ADC;;ADC;An authentic data container conveys data that allows the authenticity of its content to be proved.;https://github.com/trustoverip/acdc/wiki/ADC.md;;7;;;;;1;;;
+3;AID;;AID;An identifier that is self-certifying and self-sovereign.;https://github.com/trustoverip/acdc/wiki/AID.md;;7;;;;1;1;;1;
+4;AN;;AN;A namespace that is truly self-sovereign.;https://github.com/trustoverip/acdc/wiki/AN.md;;7;;;;167;;1;;
 5;APC;;APC;;https://github.com/trustoverip/acdc/wiki/APC.md;;7;;;;;;;;
 6;BADA;;BADA;;https://github.com/trustoverip/acdc/wiki/BADA.md;;7;;;1;;;;;
 7;BFT;;BFT;;https://github.com/trustoverip/acdc/wiki/BFT.md;;7;;;;;;;;
-8;CESR;;CESR;;https://github.com/trustoverip/acdc/wiki/CESR.md;;7;;;;1;;1;;
-9;CT;;CT;;https://github.com/trustoverip/acdc/wiki/CT.md;;3;;;;;;;;
+8;CESR;;CESR;;https://github.com/trustoverip/acdc/wiki/CESR.md;;7;;;;32;;1;;
+9;CT;;CT;;https://github.com/trustoverip/acdc/wiki/CT.md;;3;;;;163;;;;
 10;DAG;;DAG;;https://github.com/trustoverip/acdc/wiki/DAG.md;;3;;;;;;;;
-11;DEL;;DEL;;https://github.com/trustoverip/acdc/wiki/DEL.md;;7;;;;;;1;;
+11;DEL;;DEL;;https://github.com/trustoverip/acdc/wiki/DEL.md;;7;;;;3;;1;;
 12;DHT;;DHT;;https://github.com/trustoverip/acdc/wiki/DHT.md;;3;;;;;;1;;
 13;DKMI;;DKMI;;https://github.com/trustoverip/acdc/wiki/DKMI.md;;3;;;;;;1;;
 14;DPKI;;DPKI;;https://github.com/trustoverip/acdc/wiki/DPKI.md;;3;;;;;;;;
-15;GPG;;GPG;;https://github.com/trustoverip/acdc/wiki/GPG.md;;3;;;;;;;;
-16;I-O;;I-O;;https://github.com/trustoverip/acdc/wiki/I-O.md;;1;;;;;;;;
-17;IANA;;IANA;;https://github.com/trustoverip/acdc/wiki/IANA.md;;3;;;;;;;;
+15;GPG;;GPG;;https://github.com/trustoverip/acdc/wiki/GPG.md;;3;;;;2;;;;
+16;I-O;;I-O;;https://github.com/trustoverip/acdc/wiki/I-O.md;;1;;;;400;;;;
+17;IANA;;IANA;;https://github.com/trustoverip/acdc/wiki/IANA.md;;3;;;;2;;;;
 18;IPEX;;IPEX;;https://github.com/trustoverip/acdc/wiki/IPEX.md;;7;;1;;;;1;;
 19;JOSE;;JOSE;;https://github.com/trustoverip/acdc/wiki/JOSE.md;;7;;;;;;1;;
 20;KA2CE;;KA2CE;;https://github.com/trustoverip/acdc/wiki/KA2CE.md;;7;;;;;;1;;
 21;KAACE;;KAACE;;https://github.com/trustoverip/acdc/wiki/KAACE.md;;7;;;;;;1;;
 22;KEL;;KEL;;https://github.com/trustoverip/acdc/wiki/KEL.md;;7;;;;;;1;;
-23;KERI;;KERI;;https://github.com/trustoverip/acdc/wiki/KERI.md;;7;;;;;;1;;
+23;KERI;;KERI;;https://github.com/trustoverip/acdc/wiki/KERI.md;;7;;;;4;;1;;
 24;KERL;;KERL;;https://github.com/trustoverip/acdc/wiki/KERL.md;;7;;;;;;1;;
 25;KID;;KID;;https://github.com/trustoverip/acdc/wiki/KID.md;;7;;;;;;1;;
-26;LoA;;LoA;;https://github.com/trustoverip/acdc/wiki/LoA.md;;3;;;;;;;;
-27;LoC;;LoC;;https://github.com/trustoverip/acdc/wiki/LoC.md;;3;;;;;;;;
+26;LoA;;LoA;;https://github.com/trustoverip/acdc/wiki/LoA.md;;3;;;;8;;;;
+27;LoC;;LoC;;https://github.com/trustoverip/acdc/wiki/LoC.md;;3;;;;3;;;;
 28;NFT;;NFT;;https://github.com/trustoverip/acdc/wiki/NFT.md;;1;;;;;;;;
 29;OOBI;;OOBI;;https://github.com/trustoverip/acdc/wiki/OOBI.md;;7;;;1;;;;;
 30;P2P;;P2P;;https://github.com/trustoverip/acdc/wiki/P2P.md;;1;;;;;;;;
@@ -35,295 +35,307 @@
 35;SAID;;SAID;;https://github.com/trustoverip/acdc/wiki/SAID.md;;7;;;;;1;;1;
 36;SATP;;SATP;;https://github.com/trustoverip/acdc/wiki/SATP.md;;7;;;;;;;;
 37;SCID;;SCID;;https://github.com/trustoverip/acdc/wiki/SCID.md;;7;;;;;;1;;
-38;SSI;;SSI;;https://github.com/trustoverip/acdc/wiki/SSI.md;;1;;;;;1;1;;1
-39;TCP;;TCP;;https://github.com/trustoverip/acdc/wiki/TCP.md;;3;;;1;;1;1;;
-40;TEL;;TEL;;https://github.com/trustoverip/acdc/wiki/TEL.md;;7;1;;;;1;1;;
-41;UI;;UI;;https://github.com/trustoverip/acdc/wiki/UI.md;;1;1;1;1;1;1;1;1;1
+38;SSI;;SSI;;https://github.com/trustoverip/acdc/wiki/SSI.md;;1;;;;16;1;1;;1
+39;TCP;;TCP;;https://github.com/trustoverip/acdc/wiki/TCP.md;;3;;;1;1;1;1;;
+40;TEL;;TEL;;https://github.com/trustoverip/acdc/wiki/TEL.md;;7;1;;;2;1;1;;
+41;UI;;UI;;https://github.com/trustoverip/acdc/wiki/UI.md;;1;1;1;1;33;1;1;1;1
 42;URL;;URL;;https://github.com/trustoverip/acdc/wiki/URL.md;;1;1;1;1;1;1;1;1;1
-43;VC-TEL;;VC-TEL;;https://github.com/trustoverip/acdc/wiki/VC-TEL.md;;7;1;;;;;;;
+43;VC-TEL;;VC-TEL;;https://github.com/trustoverip/acdc/wiki/VC-TEL.md;;7;1;;;2;;;;
 44;VC;;VC;;https://github.com/trustoverip/acdc/wiki/VC.md;;1;;;;;1;;;1
 45;VDS;;VDS;;https://github.com/trustoverip/acdc/wiki/VDS.md;;7;;;;;;;;
-46;agency;;agency;;https://github.com/trustoverip/acdc/wiki/agency.md;;3;;;;;1;;1;1
+46;agency;;agency;a service that a representative for an identity (agent) offers;https://github.com/trustoverip/acdc/wiki/agency.md;;3;;;;;1;;1;1
 47;ambient-verifiability;;ambient-verifiability;;https://github.com/trustoverip/acdc/wiki/ambient-verifiability.md;;7;;;;;;;;
-48;append-only-event-logs;;append-only-event-logs;;https://github.com/trustoverip/acdc/wiki/append-only-event-logs.md;;3;;;;;;;;
+48;append-only-event-logs;;append-only-event-logs;;https://github.com/trustoverip/acdc/wiki/append-only-event-logs.md;;3;;;;1;;;;
 49;authentic-chained-data-container;;authentic-chained-data-container;;https://github.com/trustoverip/acdc/wiki/authentic-chained-data-container.md;;7;;;;;;;;
 50;authentic-data-container;;authentic-data-container;;https://github.com/trustoverip/acdc/wiki/authentic-data-container.md;;7;;;;;;;;
 51;authentic-provenance-chain;;authentic-provenance-chain;;https://github.com/trustoverip/acdc/wiki/authentic-provenance-chain.md;;7;;;;;;;;
 52;authenticity;;authenticity;;https://github.com/trustoverip/acdc/wiki/authenticity.md;;3;;;;;;;;
 53;autonomic-computing-systems;;autonomic-computing-systems;;https://github.com/trustoverip/acdc/wiki/autonomic-computing-systems.md;;3;;;;;;;;
-54;autonomic-identity-system;;autonomic-identity-system;;https://github.com/trustoverip/acdc/wiki/autonomic-identity-system.md;;3;;;;;;;;
+54;autonomic-identity-system;;autonomic-identity-system;;https://github.com/trustoverip/acdc/wiki/autonomic-identity-system.md;;3;;;;1;;;;
 55;autonomic-namespace;;autonomic-namespace;;https://github.com/trustoverip/acdc/wiki/autonomic-namespace.md;;3;;;;;;;;
-56;best-available-data-acceptance-mechanism;;best-available-data-acceptance-mechanism;;https://github.com/trustoverip/acdc/wiki/best-available-data-acceptance-mechanism.md;;7;;;;;;;;
+56;best-available-data-acceptance-mechanism;;best-available-data-acceptance-mechanism;;https://github.com/trustoverip/acdc/wiki/best-available-data-acceptance-mechanism.md;;7;;;;1;;;;
 57;binding;;binding;;https://github.com/trustoverip/acdc/wiki/binding.md;;1;;;;;;;;
 58;byzantine-agreement;;byzantine-agreement;;https://github.com/trustoverip/acdc/wiki/byzantine-agreement.md;;3;;;;;;;;
 59;byzantine-fault-tolerance;;byzantine-fault-tolerance;;https://github.com/trustoverip/acdc/wiki/byzantine-fault-tolerance.md;;3;;;;;;;;
 60;certificate-transparency;;certificate-transparency;;https://github.com/trustoverip/acdc/wiki/certificate-transparency.md;;3;;;;;;;;
-61;cesr-proof-signatures;;cesr-proof-signatures;;https://github.com/trustoverip/acdc/wiki/cesr-proof-signatures.md;;7;;;;;;;;
+61;cesr-proof-signatures;;cesr-proof-signatures;;https://github.com/trustoverip/acdc/wiki/cesr-proof-signatures.md;;7;;;;9;;;;
 62;chain-of-custody;;chain-of-custody;;https://github.com/trustoverip/acdc/wiki/chain-of-custody.md;;3;;;;;;;;
 63;claim;;claim;;https://github.com/trustoverip/acdc/wiki/claim.md;;1;;;;;;;;
-64;composable-event-streaming-representation;;composable-event-streaming-representation;;https://github.com/trustoverip/acdc/wiki/composable-event-streaming-representation.md;;7;;;;;;;;
-65;consensus-mechanism;;consensus-mechanism;;https://github.com/trustoverip/acdc/wiki/consensus-mechanism.md;;3;;;;;;;;
-66;content-addressable-hash;;content-addressable-hash;;https://github.com/trustoverip/acdc/wiki/content-addressable-hash.md;;3;;;;;;;;
+64;composable-event-streaming-representation;;composable-event-streaming-representation;;https://github.com/trustoverip/acdc/wiki/composable-event-streaming-representation.md;;7;;;;22;;;;
+65;consensus-mechanism;;consensus-mechanism;;https://github.com/trustoverip/acdc/wiki/consensus-mechanism.md;;3;;;;1;;;;
+66;content-addressable-hash;;content-addressable-hash;;https://github.com/trustoverip/acdc/wiki/content-addressable-hash.md;;3;;;;3;;;;
 67;control-authority;;control-authority;;https://github.com/trustoverip/acdc/wiki/control-authority.md;;3;;;;;;;;
-68;controller;;controller;;https://github.com/trustoverip/acdc/wiki/controller.md;;3;;;;;;;;
+68;controller;;controller;;https://github.com/trustoverip/acdc/wiki/controller.md;;3;;;;3;;;;
 69;correlation;;correlation;;https://github.com/trustoverip/acdc/wiki/correlation.md;;1;;;;;;;;
 70;credential;;credential;;https://github.com/trustoverip/acdc/wiki/credential.md;;1;;;;;;;;
-71;crypto-libraries;;crypto-libraries;;https://github.com/trustoverip/acdc/wiki/crypto-libraries.md;;1;;;;;;;;
+71;crypto-libraries;;crypto-libraries;;https://github.com/trustoverip/acdc/wiki/crypto-libraries.md;;1;;;;3;;;;
 72;cryptocurrency;;cryptocurrency;;https://github.com/trustoverip/acdc/wiki/cryptocurrency.md;;1;;;;;;;;
-73;cryptographic-commitment-scheme;;cryptographic-commitment-scheme;;https://github.com/trustoverip/acdc/wiki/cryptographic-commitment-scheme.md;;3;;;;;;;;
-75;cryptographic-strength;;cryptographic-strength;;https://github.com/trustoverip/acdc/wiki/cryptographic-strength.md;;1;;;;;;;;
-76;cryptonym;;cryptonym;;https://github.com/trustoverip/acdc/wiki/cryptonym.md;;3;;;;;;;;
-77;decentralized-identity;;decentralized-identity;;https://github.com/trustoverip/acdc/wiki/decentralized-identity.md;;1;;;;;;;;
-78;decentralized-key-management-infrastructure;;decentralized-key-management-infrastructure;;https://github.com/trustoverip/acdc/wiki/decentralized-key-management-infrastructure.md;;3;;;;;;;;
-79;delegated-identifier;;delegated-identifier;;https://github.com/trustoverip/acdc/wiki/delegated-identifier.md;;7;;;;;;;;
-80;digital-signature;;digital-signature;;https://github.com/trustoverip/acdc/wiki/digital-signature.md;;1;;;;;;;;
-81;directed-acyclic-graph;;directed-acyclic-graph;;https://github.com/trustoverip/acdc/wiki/directed-acyclic-graph.md;;3;;;;;;1;;
-82;distributed-hash-table;;distributed-hash-table;;https://github.com/trustoverip/acdc/wiki/distributed-hash-table.md;;3;;;;;;;;
-83;dual-text-binary-encoding-format;;dual-text-binary-encoding-format;;https://github.com/trustoverip/acdc/wiki/dual-text-binary-encoding-format.md;;7;;;;;;1;;
-84;duplicitous-event-log;;duplicitous-event-log;;https://github.com/trustoverip/acdc/wiki/duplicitous-event-log.md;;7;;;;;;1;;
-85;duplicity;;duplicity;;https://github.com/trustoverip/acdc/wiki/duplicity.md;;7;;;;;;1;;
-86;electronic-signature;;electronic-signature;;https://github.com/trustoverip/acdc/wiki/electronic-signature.md;;1;;;;;;;;
-87;end-verifiable;;end-verifiable;;https://github.com/trustoverip/acdc/wiki/end-verifiable.md;;7;;;;;;1;;
-88;entropy;;entropy;;https://github.com/trustoverip/acdc/wiki/entropy.md;;3;;;;;;1;;
-89;ephemeral;;ephemeral;;https://github.com/trustoverip/acdc/wiki/ephemeral.md;;3;;;;;;1;;
-90;first-seen;;first-seen;;https://github.com/trustoverip/acdc/wiki/first-seen.md;;7;;;;;;1;;
-91;gnu-privacy-guard;;gnu-privacy-guard;;https://github.com/trustoverip/acdc/wiki/gnu-privacy-guard.md;;3;;;;;;;;
-92;habery;;habery;;https://github.com/trustoverip/acdc/wiki/habery.md;;7;;;;;;;;
-93;hierarchical-asynchronous-coroutines-and-input-output;;hierarchical-asynchronous-coroutines-and-input-output;;https://github.com/trustoverip/acdc/wiki/hierarchical-asynchronous-coroutines-and-input-output.md;;7;;;;;;;;
-94;identifier;;identifier;;https://github.com/trustoverip/acdc/wiki/identifier.md;;1;;;;;;;;
-95;identity;;identity;;https://github.com/trustoverip/acdc/wiki/identity.md;;3;;;;;;;;
-96;inception-event;;inception-event;;https://github.com/trustoverip/acdc/wiki/inception-event.md;;7;1;;;;;1;;
-97;inception;;inception;;https://github.com/trustoverip/acdc/wiki/inception.md;;3;;;;;;;;
-98;inconsistency;;inconsistency;;https://github.com/trustoverip/acdc/wiki/inconsistency.md;;1;;;;;;1;;
-99;indexed-signature;;indexed-signature;;https://github.com/trustoverip/acdc/wiki/indexed-signature.md;;7;;;;;;;;
-100;internal-inconsistency;;internal-inconsistency;;https://github.com/trustoverip/acdc/wiki/internal-inconsistency.md;;3;;;;;;1;;
-101;internet-assigned-numbers-authority;;internet-assigned-numbers-authority;;https://github.com/trustoverip/acdc/wiki/internet-assigned-numbers-authority.md;;7;;;;;;;;
-102;issuance-and-presentation-exchange-protocol;;issuance-and-presentation-exchange-protocol;;https://github.com/trustoverip/acdc/wiki/issuance-and-presentation-exchange-protocol.md;;7;;;;;1;;;
-103;javascript-object-signing-and-encryption;;javascript-object-signing-and-encryption;;https://github.com/trustoverip/acdc/wiki/javascript-object-signing-and-encryption.md;;1;;;;;;;;
-104;judge;;judge;;https://github.com/trustoverip/acdc/wiki/judge.md;;7;;;;;;;;
-105;keri-agreement-algorithm-for-control-establishment;;keri-agreement-algorithm-for-control-establishment;;https://github.com/trustoverip/acdc/wiki/keri-agreement-algorithm-for-control-establishment.md;;7;;;;;;1;;
-106;keri-command-line-interface;;keri-command-line-interface;;https://github.com/trustoverip/acdc/wiki/keri-command-line-interface.md;;7;;;;;1;1;;
-107;keri-improvement-doc;;keri-improvement-doc;;https://github.com/trustoverip/acdc/wiki/keri-improvement-doc.md;;7;;;;;;1;;
-108;keridemlia;;keridemlia;;https://github.com/trustoverip/acdc/wiki/keridemlia.md;;7;;;;;;;;
-109;key-compromise;;key-compromise;;https://github.com/trustoverip/acdc/wiki/key-compromise.md;;3;;;;;;1;;
-110;key-event-message;;key-event-message;;https://github.com/trustoverip/acdc/wiki/key-event-message.md;;7;;;;;;1;;
-111;key-event-receipt-infrastructure;;key-event-receipt-infrastructure;;https://github.com/trustoverip/acdc/wiki/key-event-receipt-infrastructure.md;;7;;;;;;1;;
-112;key-event-receipt-log;;key-event-receipt-log;;https://github.com/trustoverip/acdc/wiki/key-event-receipt-log.md;;7;;;;;;1;;
-113;key-event-receipt;;key-event-receipt;;https://github.com/trustoverip/acdc/wiki/key-event-receipt.md;;7;;;;;;1;;
-114;key-state;;key-state;;https://github.com/trustoverip/acdc/wiki/key-state.md;;3;;;;;;1;;
-115;key-transparency;;key-transparency;;https://github.com/trustoverip/acdc/wiki/key-transparency.md;;7;;;;;;1;;
-116;key;;key;;https://github.com/trustoverip/acdc/wiki/key.md;;3;;;;;;1;;
-117;levels-of-assurance;;levels-of-assurance;;https://github.com/trustoverip/acdc/wiki/levels-of-assurance.md;;7;;;;;;;;
-118;liveness;;liveness;;https://github.com/trustoverip/acdc/wiki/liveness.md;;7;;;;;;;;
-119;loci-of-control;;loci-of-control;;https://github.com/trustoverip/acdc/wiki/loci-of-control.md;;7;;;;;;;;
-120;management-transaction-event-log;;management-transaction-event-log;;https://github.com/trustoverip/acdc/wiki/management-transaction-event-log.md;;7;;;;;;;;
-121;message;;message;;https://github.com/trustoverip/acdc/wiki/message.md;;1;;;;;;;;
-122;multicodec;;multicodec;;https://github.com/trustoverip/acdc/wiki/multicodec.md;;3;;;;;;;;
-123;namespace;;namespace;;https://github.com/trustoverip/acdc/wiki/namespace.md;;1;1;;;;;;;
-124;nested-cooperative-delegated-identifiers;;nested-cooperative-delegated-identifiers;;https://github.com/trustoverip/acdc/wiki/nested-cooperative-delegated-identifiers.md;;7;;;;;;;;
-125;non-establishment-event;;non-establishment-event;;https://github.com/trustoverip/acdc/wiki/non-establishment-event.md;;7;;;;;;;;
-126;non-fungible-token;;non-fungible-token;;https://github.com/trustoverip/acdc/wiki/non-fungible-token.md;;3;;;;;;;;
-127;non-normative;;non-normative;;https://github.com/trustoverip/acdc/wiki/non-normative.md;;1;;;;;;;;
-128;non-repudiable;;non-repudiable;;https://github.com/trustoverip/acdc/wiki/non-repudiable.md;;3;;;;;;;;
-129;non-transferable;;non-transferable;;https://github.com/trustoverip/acdc/wiki/non-transferable.md;;1;;;;;;;;
-130;normative;;normative;;https://github.com/trustoverip/acdc/wiki/normative.md;;1;;;;;;;;
-131;one-way-functions;;one-way-functions;;https://github.com/trustoverip/acdc/wiki/one-way-functions.md;;3;;;;;;;;
-132;payload;;payload;;https://github.com/trustoverip/acdc/wiki/payload.md;;1;;;;;;;;
-133;pretty-good-privacy;;pretty-good-privacy;;https://github.com/trustoverip/acdc/wiki/pretty-good-privacy.md;;1;;;;;;;;
-134;primary-root-of-trust;;primary-root-of-trust;;https://github.com/trustoverip/acdc/wiki/primary-root-of-trust.md;;3;;;;;;;;
-135;primitive;;primitive;;https://github.com/trustoverip/acdc/wiki/primitive.md;;1;;;;;;;;
-136;proof-of-authority;;proof-of-authority;;https://github.com/trustoverip/acdc/wiki/proof-of-authority.md;;3;;;;;;;;
-137;proof-of-authorship;;proof-of-authorship;;https://github.com/trustoverip/acdc/wiki/proof-of-authorship.md;;3;;;;;;;;
-138;provenance;;provenance;;https://github.com/trustoverip/acdc/wiki/provenance.md;;3;;;;;;;;
-139;public-key-infrastructure;;public-key-infrastructure;;https://github.com/trustoverip/acdc/wiki/public-key-infrastructure.md;;3;;;;;;;;
-140;public-verifiable-credential-registry;;public-verifiable-credential-registry;;https://github.com/trustoverip/acdc/wiki/public-verifiable-credential-registry.md;;7;1;;;;;;;
-141;race-condition;;race-condition;;https://github.com/trustoverip/acdc/wiki/race-condition.md;;7;;;;;;;;
-142;receipt-log;;receipt-log;;https://github.com/trustoverip/acdc/wiki/receipt-log.md;;7;;;;;;;;
-143;receipt;;receipt;;https://github.com/trustoverip/acdc/wiki/receipt.md;;7;;;;;;;;
-144;registrar;;registrar;;https://github.com/trustoverip/acdc/wiki/registrar.md;;7;;;;;;;;
-145;root-of-trust;;root-of-trust;;https://github.com/trustoverip/acdc/wiki/root-of-trust.md;;3;;;;;;;;
-146;rotation;;rotation;;https://github.com/trustoverip/acdc/wiki/rotation.md;;3;;;;;;;;
-147;secondary-root-of-trust;;secondary-root-of-trust;;https://github.com/trustoverip/acdc/wiki/secondary-root-of-trust.md;;7;;;;;;;;
-148;secure-asset-transfer-protocol;;secure-asset-transfer-protocol;;https://github.com/trustoverip/acdc/wiki/secure-asset-transfer-protocol.md;;7;;;;;;;;
-149;secure-attribution;;secure-attribution;;https://github.com/trustoverip/acdc/wiki/secure-attribution.md;;7;;;;;;;;
-150;seed;;seed;;https://github.com/trustoverip/acdc/wiki/seed.md;;1;;;;;;;;
-151;self-addressing-data;;self-addressing-data;;https://github.com/trustoverip/acdc/wiki/self-addressing-data.md;;7;;;;;;;;
-152;self-certifying-identifier;;self-certifying-identifier;;https://github.com/trustoverip/acdc/wiki/self-certifying-identifier.md;;7;;;;;;;;
-153;self-framing;;self-framing;;https://github.com/trustoverip/acdc/wiki/self-framing.md;;7;;;;;;;;
-154;self-sovereign-identity;;self-sovereign-identity;;https://github.com/trustoverip/acdc/wiki/self-sovereign-identity.md;;3;;;;;;;;
-155;signed-digest;;signed-digest;;https://github.com/trustoverip/acdc/wiki/signed-digest.md;;3;;;;;;;;
-156;spanning-layer;;spanning-layer;;https://github.com/trustoverip/acdc/wiki/spanning-layer.md;;7;;;;;;;;
-157;text-binary-concatenation-composability;;text-binary-concatenation-composability;;https://github.com/trustoverip/acdc/wiki/text-binary-concatenation-composability.md;;7;;;;;;;;
-158;transaction-event-log;;transaction-event-log;;https://github.com/trustoverip/acdc/wiki/transaction-event-log.md;;7;;;;;;;;
-159;transmission-control-protocol;;transmission-control-protocol;;https://github.com/trustoverip/acdc/wiki/transmission-control-protocol.md;;1;;;;;;;;
-160;trust-domain;;trust-domain;;https://github.com/trustoverip/acdc/wiki/trust-domain.md;;1;;;;;;;;
-161;validator;;validator;;https://github.com/trustoverip/acdc/wiki/validator.md;;3;1;;;;;;;
-162;veracity;;veracity;;https://github.com/trustoverip/acdc/wiki/veracity.md;;3;;;;;;;;
-163;verifiable-data-structure;;verifiable-data-structure;;https://github.com/trustoverip/acdc/wiki/verifiable-data-structure.md;;7;;;;;;;;
-164;verifiable;;verifiable;;https://github.com/trustoverip/acdc/wiki/verifiable.md;;3;;;;;;;;
-165;verifier;;verifier;;https://github.com/trustoverip/acdc/wiki/verifier.md;;3;;;;;;;;
-166;version;;version;;https://github.com/trustoverip/acdc/wiki/version.md;;1;;;;;;;;
-167;virtual-credential-transaction-event-log;;virtual-credential-transaction-event-log;;https://github.com/trustoverip/acdc/wiki/virtual-credential-transaction-event-log.md;;7;;;;;;;;
-168;web-of-trust;;web-of-trust;;https://github.com/trustoverip/acdc/wiki/web-of-trust.md;;3;;;;;;;;
-169;well-knownwitnesses;;well-knownwitnesses;;https://github.com/trustoverip/acdc/wiki/well-knownwitnesses.md;;7;;;;;;;;
-170;;IIW;;Internet Identity Workshop twice in a year un-conference since 2005;https://internetidentityworkshop.com;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m03s;7;;;;;;;;
-171;;KERI;;Key Event Receipt Infrastructure;https://github.com/WebOfTrust/keri;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m12s;7;1;;;;;;;
-172;repo;repo;repo;Software repository;https://github.com/trustoverip/acdc/wiki/repo;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m27s;3;;;;;;;;
-173;;KERIpy;;Python implementation of KERI;https://github.com/WebOfTrust/keripy;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m27s;7;;;;;;;;
-174;coroutines;coroutines;coroutines;Computer programs that can be suspended and resumed at will.;https://github.com/trustoverip/acdc/wiki/coroutines;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m41s;1;;;;;;;;
-175;input-output;I/O;input-output;Input / output;https://github.com/trustoverip/acdc/wiki/input-output;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m41s;1;;;;;;;;
-176;hio;hio;hio;Hierarchical asynchronous coroutines and I/O in Python;https://github.com/trustoverip/acdc/wiki/hio;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m41s;7;;;;;;;;
-177;;Sam Smith;;Samuel M. Smith PhD, Inventor and lead developer of KERI;https://www.linkedin.com/in/samuel-m-smith/;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m41s;7;;;;;;;;
-178;;python;;Programming Language;https://www.python.org;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m49s;3;;;;;;;;
-179;clone;clone;clone;A copy of a system that is - and works exactly as the original;https://github.com/trustoverip/acdc/wiki/clone;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m55s;3;;;;;;;;
-180;branch;branch;branch;A duplicate of an object under version control for further separate modification;https://github.com/trustoverip/acdc/wiki/branch;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=01m00s;3;;;;;;;;
-181;kli;kli;kli;KERI command line interface;https://github.com/trustoverip/acdc/wiki/kli;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=01m12s;7;;;;;;;;
-182;;Kubernetes;;Kubernetes is an open source platform for managing software containers;https://kubernetes.io;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=01m18s;3;;;;;;;;
-183;;kubectl;;Kubernetes command line interface;https://kubernetes.io/docs/reference/kubectl/;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=01m18s;7;;;;;;;;
-184;verifiable-credential;verifiable credentials;verifiable-credential;The digital variant of our daily live's credentials (ike passport, driver's license), but in a machine-verifiable way;https://github.com/trustoverip/acdc/wiki/verifiable-credential;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=01m26s;1;;;;;;;;
-185;;Docker containers;;Docker takes away repetitive, mundane configuration tasks and is used for application development;https://www.docker.com;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=01m38s;3;;;;;;;;
-186;sub-shell;sub shell;sub-shell;a child shell started up from - and contained in another parent shell;https://github.com/trustoverip/acdc/wiki/sub-shell;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=01m46s;1;;;;;;;;
-187;agent;agent;agent;A representative for an identity;https://github.com/trustoverip/acdc/wiki/agent;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m01s;3;;;;;;;;
-188;cloud-agent;cloud agent;cloud-agent;Cloud agent is software that is installed on the cloud server instances for  security, monitoring, and analysis;https://github.com/trustoverip/acdc/wiki/cloud-agent;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m01s;3;;;;;;;;
-189;;Py installer;;Python installer bundles a Python application and all its dependencies into a single package;https://pypi.org/project/pyinstaller/;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m09s;3;;;;;;;;
-190;;Electron;;A Python interface for Apache Electron command line interface;https://pypi.org/project/python-electron/;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m16s;3;;;;;;;;
-191;user-interface;U/I;user-interface;A user interface (UI) is the space where interactions between humans and machines occur.;https://github.com/trustoverip/acdc/wiki/user-interface;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m16s;1;;;;;;;;
-192;multisig;multi-sig;multisig;A digital signature scheme which allows a group of users to sign a single piece of digital data.;https://github.com/trustoverip/acdc/wiki/multisig;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m29s;1;;;;;;;;
-193;identifier-system;identifier;identifier-system;Something to uniquely identify (public) identities, pointing to something or someone else.;https://github.com/trustoverip/acdc/wiki/identifier-system;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m29s;3;;;;;;;;
-194;wallet;wallet;wallet;A wallet is a collection of data stores, made up of akeystore, local and remote key event log database and credential database.;https://github.com/trustoverip/acdc/wiki/wallet;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m34s;7;;;;;;;;
-195;;wallet commands;;The section of kli where verifiable credentials can be listed;https://docs.google.com/presentation/d/1RIMX7J-cdg8OctoG4JqxPOfqKZsVNodqajtpQ0oFIyE/edit#slide=id.gf2168aef68_0_12;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m34s;7;;;;;;;;
-196;witness;witnesses;witness;Entity that may receive, verify, and store key events for an identifier;https://github.com/trustoverip/acdc/wiki/witness;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m44s;7;;;;;;;;
-197;watcher;watchers;watcher;Guarantee that KERI logs are immutable;https://github.com/trustoverip/acdc/wiki/watcher;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m44s;7;;;;;;;;
-198;key-management;key management;key-management;Management of cryptographic keys in a crypto-system.;https://github.com/trustoverip/acdc/wiki/key-management;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=04m16s;7;;;;;;;;
-199;;init;;Initialization, a command in the kli;https://docs.google.com/presentation/d/1RIMX7J-cdg8OctoG4JqxPOfqKZsVNodqajtpQ0oFIyE/edit#slide=id.gf2168aef68_0_12;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=04m21s;3;;;;;;;;
-200;single-signature-identifier;single sig identifier;single-signature-identifier;An identifier that is controlled by a one-of-one signing keypair;https://github.com/trustoverip/acdc/wiki/single-signature-identifier;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=04m27s;3;;;;;;;;
-201;keystore;key store;keystore;A keystore in KERI is the encrypted data store that hold the private keys for a collection of AIDs.;https://github.com/trustoverip/acdc/wiki/keystore;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=04m33s;7;;;;;;;;
-202;key-event;key events;key-event;Events happening to controlling keys of an identifier recorded in a Key Event Log (KEL).;https://github.com/trustoverip/acdc/wiki/key-event;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=04m39s;3;1;;;;;;;
-203;interaction-event;interaction event;interaction-event;Anchors external data to the key-state as established by the most recent prior establishment event;https://github.com/trustoverip/acdc/wiki/interaction-event;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=04m39s;7;;;;;;;;
-204;rotation-event;rotation event;rotation-event;Changes the key-state which includes a change to the set of authoritative keypairs for an AID;https://github.com/trustoverip/acdc/wiki/rotation-event;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=04m39s;7;;;;;;;;
-205;signing-threshold;signing thresholds;signing-threshold;Minimum number of valid signatures to satisfy the requirement for successful validation;https://github.com/trustoverip/acdc/wiki/signing-threshold;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=04m48s;7;;;;;;;;
-206;key-event-log;KEL;key-event-log;Key Event Log is the native KERI verifiable data structure;https://github.com/trustoverip/acdc/wiki/key-event-log;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=05m01s;7;1;;;;;;;
-207;verify-signature;verify signatures;verify-signature;Applying an algorithm that either accepts or rejects the message's claim to authenticity;https://github.com/trustoverip/acdc/wiki/verify-signature;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=05m32s;3;;;;;;;;
-208;peer-to-peer;peer-to-peer communications;peer-to-peer;Peers are equally privileged, equipotent participants in a network;https://github.com/trustoverip/acdc/wiki/peer-to-peer;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=06m13s;3;;;;;;;;
-209;;bootstrap command;;Start an empty agent or to run a single agent against one that's already been started;https://docs.google.com/presentation/d/1RIMX7J-cdg8OctoG4JqxPOfqKZsVNodqajtpQ0oFIyE/edit#slide=id.gf2168aef68_0_20;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=06m31s;3;;;;;;;;
-210;salt;salts;salt;Random data that is used as an additional input to a cryptographic one-way function;https://github.com/trustoverip/acdc/wiki/salt;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=06m50s;7;;;;;;;;
-211;delegation;delegation;delegation;Delegation can be defined as the act of empowering to act for another;https://github.com/trustoverip/acdc/wiki/delegation;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=07m44s;7;;;;;;;;
-212;delegation;multi-sig delegation;delegation;delegated identifiers under multi-signature control;https://github.com/trustoverip/acdc/wiki/delegation;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=07m44s;7;;;;;;;;
-213;;json;;JavaScript Object Notation;https://en.wikipedia.org/wiki/JSON;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=08m08s;3;;;;;;;;
-214;transferable-identifier;transferable;transferable-identifier;Control over identifier can be transferred by rotating keys;https://github.com/trustoverip/acdc/wiki/transferable-identifier;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=08m34s;7;;;;;;;;
-215;;ports;;A number assigned to uniquely identify a connection endpoint and to direct data to a specific service.;https://en.wikipedia.org/wiki/Port_(computer_networking);https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=09m04s;3;;;;;;;;
-216;configuration-files;configuration file;configuration-files;File used to configure the parameters and initial settings for some computer programs;https://github.com/trustoverip/acdc/wiki/configuration-files;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=09m16s;1;;;;;;;;
-217;;REST;;REpresentational State Transfer (REST) is a software architectural style that developers apply to web APIs;https://github.com/WebOfTrust/keri/blob/main/docs/keri-dev-env.md#what-exactly-is-a-rest-api;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=10m00s;3;;;;;;;;
-218;;APIs;;Application Programming Interface;https://github.com/WebOfTrust/keri/blob/main/docs/keri-dev-env.md#what-exactly-is-a-rest-api;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=10m00s;3;;;;;;;;
-219;;curl;;Command-line tool (curl) for transferring data using various network protocols. ;https://en.wikipedia.org/wiki/CURL;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=10m17s;3;;;;;;;;
-220;ransfer_Protocol;post and put;ransfer_Protocol;HTTP request methods to indicate the desired action to be performed on the identified resource ;https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=10m17s;3;;;;;;;;
-221;;Swagger;;OpenAPI (former Swagger) is important to KERI, CESR and ACDC. It's open sourced and has many ready-usable extensions in JSON available.;https://github.com/WebOfTrust/keri/blob/main/docs/keri-dev-env.md#what-is-swagger-and-openapi;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=10m31s;7;;;;;;;;
-222;passcode;passcode;passcode;Secret data, typically a string of characters, usually used to confirm a user's identity;https://github.com/trustoverip/acdc/wiki/passcode;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=11m06s;3;;;;;;;;
-223;key-stretching;stretched into an encryption key;key-stretching;make a possibly weak key, typically a password or passphrase, more secure against a brute-force attack by increasing the resources;https://github.com/trustoverip/acdc/wiki/key-stretching;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=11m11s;7;;;;;;;;
-224;;flag;;Many command line programs can be set to various mode by using a flag, e.g. -v or --verbose for verbose mode;https://en.wikipedia.org/wiki/Verbose_mode;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=12m20s;3;;;;;;;;
-225;non-transferable-identitifer;non-transferable identifier;non-transferable-identitifer;Controlling keys over this identifier cannot be rotated and therefore this identifier is non-transferable to other control;https://github.com/trustoverip/acdc/wiki/non-transferable-identitifer;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=14m28s;7;;;;;;;;
-226;;toad;;Field in KERI data structure for describing the witness thresshold;https://github.com/WebOfTrust/keripy/blob/28873f42aabef096d2b6f4bf1af5dbd9e219d13f/src/keri/core/eventing.py;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=15m37s;7;;;;;;;;
-227;threshold-signature-scheme;witness threshold;threshold-signature-scheme;The minimum number of valid witness signatures required;https://github.com/trustoverip/acdc/wiki/threshold-signature-scheme;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=15m37s;7;;;;;;;;
-228;pre-rotation;pre-rotation;pre-rotation;commitment to next rotated key set in previous rotation or inception event;https://github.com/trustoverip/acdc/wiki/pre-rotation;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=15m54s;7;;;;;;;;
-229;prefix;prefixes;prefix;A prefix that is composed of a basic Base-64 (URL safe) derivation code pre-pended to Base-64 encoding of a basic public digital signing key;https://github.com/trustoverip/acdc/wiki/prefix;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=16m47s;7;;;;;;;;
-230;base64;base64;base64;A group of binary-to-text encoding schemes that represent binary data;https://github.com/trustoverip/acdc/wiki/base64;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=16m53s;7;;;;;;;;
-231;qualified;qualified;qualified;when qualified, a cryptographic primitive includes a prepended derivation code;https://github.com/trustoverip/acdc/wiki/qualified;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=16m53s;7;;;;;;;;
-232;derivation-code;derivation code;derivation-code;A special character that encodes the derivation process, pre-pended to the identifier;https://github.com/trustoverip/acdc/wiki/derivation-code;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=16m53s;7;;;;;;;;
-233;blake3;Blake3 hash;blake3;BLAKE3 is a relatively young (2020) cryptographic hash function based on Bao and BLAKE2.;https://github.com/trustoverip/acdc/wiki/blake3;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=16m57s;7;;;;;;;;
-234;data-anchor;anchor data into;data-anchor;Data anchors are digests of digital data, that uniquely identify this data;https://github.com/trustoverip/acdc/wiki/data-anchor;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=17m14s;7;;;;;;;;
-235;autonomic-identifier;AID;autonomic-identifier;An identifier that is self-certifying and self-sovereign;https://github.com/trustoverip/acdc/wiki/autonomic-identifier;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=17m50s;7;;;;;;;;
-236;;sequence number;;Incremental number in a log;https://www.storyofmathematics.com/number-sequences/;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=17m57s;3;;;;;;;;
-237;digest;digest;digest;Verifiable cryptographic commitment. It's a collision resistant hash of content;https://github.com/trustoverip/acdc/wiki/digest;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=17m57s;3;1;;;;;;;
-238;issuance-event;issuance event;issuance-event;The inception event of a verifiable credential;https://github.com/trustoverip/acdc/wiki/issuance-event;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=18m02s;7;;;;;;;;
-239;public-transaction-event-log;public transaction event log;public-transaction-event-log;Is a hash linked data structure of transactions that can be used to track state;https://github.com/trustoverip/acdc/wiki/public-transaction-event-log;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=18m05s;7;;;;;;;;
-240;verify-signature;verifiable;verify-signature;When you can succesfully verify a signature;https://github.com/trustoverip/acdc/wiki/verify-signature;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=19m34s;7;;;;;;;;
-241;establishment-event;establishment;establishment-event;An event that establishes control authority;https://github.com/trustoverip/acdc/wiki/establishment-event;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=19m39s;7;;;;;;;;
-242;emory-Mapped_Database;lmdb databases;emory-Mapped_Database;Lightning Memory-Mapped Database;https://en.wikipedia.org/wiki/Lightning_Memory-Mapped_Database;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=21m42s;7;;;;;;;;
-243;indexed-signature ;indexed signatures;indexed-signature ;Used when signing anything with a multi-key autonomic identifier, a verifier knows which of the multiple public keys was used;https://github.com/trustoverip/acdc/wiki/indexed-signature ;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=23m46s;7;;;;;;;;
-244;;hex;;Hexadecimal notation;https://en.wikipedia.org/wiki/Hexadecimal;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=23m59s;3;;;;;;;;
-245;;verbose;;An option available in many computer operating systems and programming languages that provides additional details as to what the computer is doing;https://en.wikipedia.org/wiki/Verbose_mode;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=25m01s;3;;;;;;;;
-246;self-addressing-identifier;self-addressing identifiers;self-addressing-identifier;An identifier that is deterministically generated from and embedded in the content it identifies, making it and its data mutually tamper-evident;https://github.com/trustoverip/acdc/wiki/self-addressing-identifier;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=25m29s;7;;;;;;;;
-247;;backer;;Backers include both regular KERI witnesses and ledger-registered backers;https://github.com/trustoverip/acdc/wiki/backer;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=27m48s;7;;;;;;;;
-248;ledger-backer;ledger backer;ledger-backer;A witness in KERI that is ledger-registered;https://github.com/trustoverip/acdc/wiki/ledger-backer;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=27m55s;7;;;;;;;;
-249;witness;witness backer;witness;A native KERI witness whose control authority is established in a KEL;https://github.com/trustoverip/acdc/wiki/witness;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=27m55s;7;;;;;;;;
-250;verifiable-legal-entity-identifier;vLEI;verifiable-legal-entity-identifier;Digital verifiable credentials issued by (delegates) of GLEIF to prove that information about a legel entity is verifiably authentic;https://github.com/trustoverip/acdc/wiki/verifiable-legal-entity-identifier;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=30m17s;7;;;;;;;;
-251;ssi-system;SSI system;ssi-system;SSI Infrastructure consisting of the technological components that are deployed all over the world;https://github.com/trustoverip/acdc/wiki/ssi-system;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=30m22s;1;;;;;;;;
-252;;Indy network;;Hyperledger Indy network is an SSI system based on a private blockchain;https://www.hyperledger.org/use/hyperledger-indy;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=30m22s;7;;;;;;;;
-253;transfer-off-ledger;transfer off a ledger;transfer-off-ledger;The act of transferring control authority over an identifier from a ledger (or blockchain) to the native verifiable KERI data structure KEL;https://github.com/trustoverip/acdc/wiki/transfer-off-ledger;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=30m39s;7;;;;;;;;
-254;;Ethereum;;Ethereum is the community-run technology powering the cryptocurrency ether (ETH) and thousands of decentralized applications;https://ethereum.org/en/;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=31m02s;7;;;;;;;;
-255;;Aries;;Hyperledger Aries provides an interoperable tool kit for creating, transmitting and storing verifiable digital credentials;https://www.hyperledger.org/use/aries;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=31m46s;7;;;;;;;;
-256;service-endpoint;service endpoints;service-endpoint;A web service endpoint which is a URL at which clients of specific service can get access to the service.;https://github.com/trustoverip/acdc/wiki/service-endpoint;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=32m54s;3;;;;;;;;
-257;uniform-resource-locator;URLs;uniform-resource-locator;A reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it;https://github.com/trustoverip/acdc/wiki/uniform-resource-locator;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=33m00s;1;;;;;;;;
-258;ip-address;ip-address;ip-address;A numerical label such as '192.0.2.1' that is connected to a computer network that uses the Internet Protocol for communication;https://github.com/trustoverip/acdc/wiki/ip-address;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=33m42s;1;;;;;;;;
-259;tcp-endpoint;TCP endpoint;tcp-endpoint;This is a service endpoint of the web transmission control protocol;https://github.com/trustoverip/acdc/wiki/tcp-endpoint;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=34m00s;3;;;;;;;;
-260;inquisitor;inquisitor;inquisitor;Someone (in a validating role) that launches an inquiry at some KERI witness;https://github.com/trustoverip/acdc/wiki/inquisitor;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=37m19s;7;;;;;;;;
-261;;dip: tag;;;;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=49m13s;7;;;;;;;;
-262;;icp: tag;;;;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=49m13s;7;;;;;;;;
-263;;di: tag;;;;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=49m20s;7;;;;;;;;
-264;locked-state;locked state;locked-state;default state of an encrypted KERI data store with a passcode;https://github.com/trustoverip/acdc/wiki/locked-state;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=52m22s;7;;;;;;;;
-265;;onepass;;password manager ;https://github.com/doglex/onepass;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=53m04s;7;;;;;;;;
-266;out-of-band-introduction;data OOBIs;out-of-band-introduction;data out-of-band ntroductions;https://github.com/trustoverip/acdc/wiki/out-of-band-introduction;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=53m48s;7;;;;;;;;
-267;out-of-band-introduction;credential schema OOBIs;out-of-band-introduction;credential schema out-of-band ntroductions;https://github.com/trustoverip/acdc/wiki/out-of-band-introduction;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=53m54s;7;;;;;;;;
-268;keep;keep;keep;Is KERI's and ACDC's crypto wallet, a task orientated application for managing AIDs in ecosystems, e.g. the vLEI Ecosystem;https://github.com/trustoverip/acdc/wiki/keep;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=54m12s;7;;;;;;;;
-269;zero-trust;zero trust;zero-trust;a Zero Trust approach trusts no one;https://github.com/trustoverip/acdc/wiki/zero-trust;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=55m37s;3;;;;;;;;
-270;;credential registries;;Is a functional component that has the capability to register and advertise the information about Credential Types that their respective Governing Parties have decided to disclose;https://essif-lab.github.io/framework/docs/terms/credential-catalogue;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=55m53s;3;;;;;;;;
-271;revocation-event;revocation events;revocation-event;An event that revokes control authority over an identifier;https://github.com/trustoverip/acdc/wiki/revocation-event;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=55m58s;3;;;;;;;;
-272;;two-factor auth;;Is an electronic authentication method in which a user is granted access to a website or application only after successfully presenting two or more pieces of evidence ;https://en.wikipedia.org/wiki/Multi-factor_authentication;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=56m13s;1;;;;;;;;
-273;escrow-state;escrow states;escrow-state;The current state of all the temporary storage locations (what events are waiting for what other information) that KERI protocol needs to keep track of, due to its fully asynchronous nature.;https://github.com/trustoverip/acdc/wiki/escrow-state;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=56m59s;7;;;;;;;;
-274;server-sent-event;server-sent events;server-sent-event;Mailbox notifications, a streaming service for the agent U/I, to get notifications from the KERI system itself;https://github.com/trustoverip/acdc/wiki/server-sent-event;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=57m19s;7;;;;;;;;
-275;seal;;seal;;https://github.com/trustoverip/acdc/wiki/seal;;3;1;;;;;;;
-276;authoritative;;authoritative;;https://github.com/trustoverip/acdc/wiki/authoritative;;7;1;;;;;;;
-277;QVI;;QVI;;https://github.com/trustoverip/acdc/wiki/qvi;;3;;;;;;;;1
-278;qualified-vlei-issuer;;qualified-vlei-issuer;;https://github.com/trustoverip/acdc/wiki/qualified-vlei-issuer;;3;;;;;;;;1
-279;ghost-credential;;ghost-credential;;https://github.com/trustoverip/acdc/wiki/ghost-credential;;3;;;;;;;;1
-280;redundant-credential;;redundant-credential;;https://github.com/trustoverip/acdc/wiki/redundant-credential;;3;;;;;;;;1
-281;engagement-context-role;;engagement-context-role;;https://github.com/trustoverip/acdc/wiki/engagement-context-role;;3;;;;;;;;1
-282;ECR;;ECR;;https://github.com/trustoverip/acdc/wiki/rECR;;3;;;;;;;;1
-283;gleif-authorized-representative;;gleif authorized representative;;https://github.com/trustoverip/acdc/wiki/gleif authorized representative.md;;3;;;;;;;;1
-284;GAR;;GAR;;https://github.com/trustoverip/acdc/wiki/GAR;;3;;;;;;;;1
-285;GLEIF;;GLEIF;;https://github.com/trustoverip/acdc/wiki/gleif;;1;;;;;;;;1
-286;DAR;;DAR;;https://github.com/trustoverip/acdc/wiki/DAR;;3;;;;;;;;1
-287;designated-authorized-representative;;designated-authorized-representative;;https://github.com/trustoverip/acdc/wiki/https://github.com/trustoverip/acdc/wiki/gleif;;3;;;;;;;;1
-288;AVR;;AVR;;https://github.com/trustoverip/acdc/wiki/AVR;;3;;;;;;;;1
-289;authorized-vlei-representative;;authorized-vlei-representative;;https://github.com/trustoverip/acdc/wiki/authorized-vlei-representative;;3;;;;;;;;1
-290;LEI;;LEI;;https://github.com/trustoverip/acdc/wiki/LEI;;3;;;;;;;;1
-291;legal-entity;;legal-entity;;https://github.com/trustoverip/acdc/wiki/legal-entity;;3;;;;;;;;1
-292;OOR;;OOR;;https://github.com/trustoverip/acdc/wiki/OOR;;3;;;;;;;;1
-293;official-organizational-role;;official-organizational-role;;https://github.com/trustoverip/acdc/wiki/official-organizational-role;;3;;;;;;;;1
-294;qvi-authorized-representative;;qvi-authorized-representative;;https://github.com/trustoverip/acdc/wiki/qvi-authorized-representative;;3;;;;;;;;1
-295;QAR;;QAR;;https://github.com/trustoverip/acdc/wiki/QAR;;3;;;;;;;;1
-296;vlei-ecosystem-governance-framework;;vlei-ecosystem-governance-framework;;https://github.com/trustoverip/acdc/wiki/vlei-ecosystem-governance-framework;;3;;;;;;;;1
-297;solicited-issuance;;solicited-issuance;;https://github.com/trustoverip/acdc/wiki/solicited-issuance;;3;;;;;;;;1
-298;unsolicited-issuance;;unsolicited-issuance;;https://github.com/trustoverip/acdc/wiki/unsolicited-issuance;;3;;;;;;;;1
-299;governance-framework;;governance-framework;;https://github.com/trustoverip/acdc/wiki/governance-framework;;3;;;;;;;;1
-300;GLEIS;;GLEIS;;https://github.com/trustoverip/acdc/wiki/GLEIS;;3;;;;;;;;1
-301;vlei-credential;;vlei-credential;;https://github.com/trustoverip/acdc/wiki/vlei-credential;;3;;;;;;;;1
-302;legal-entity-engagement-context-role-vlei-credential-governance-framework;;legal-entity-engagement-context-role-vlei-credential-governance-framework;;https://github.com/trustoverip/acdc/wiki/legal-entity-engagement-context-role-vlei-credential-governance-framework;;3;;;;;;;;1
-303;vlei-role-credential;;vlei-role-credential;;https://github.com/trustoverip/acdc/wiki/vlei-role-credential;;3;;;;;;;;1
-304;legal-entity-official-organizational-role-vlei-credential-governance-framework;;legal-entity-official-organizational-role-vlei-credential-governance-framework;;https://github.com/trustoverip/acdc/wiki/legal-entity-official-organizational-role-vlei-credential-governance-framework;;3;;;;;;;;1
-305;legal-entity-vlei-credential-governance-framework;;legal-entity-vlei-credential-governance-framework;;https://github.com/trustoverip/acdc/wiki/legal-entity-vlei-credential-governance-framework;;3;;;;;;;;1
-306;qualified-vlei-issuer-vlei-credential-governance-framework;;qualified-vlei-issuer-vlei-credential-governance-framework;;https://github.com/trustoverip/acdc/wiki/qualified-vlei-issuer-vlei-credential-governance-framework;;3;;;;;;;;1
-307;DID;;DID;;https://github.com/trustoverip/acdc/wiki/DID;;3;;;;;;;;
-308;decentralized-identifier;;decentralized-identifier;;https://github.com/trustoverip/acdc/wiki/decentralized-identifier;;1;;;;;;;;
-309;partial-pre-rotation;;partial-pre-rotation;;https://github.com/trustoverip/acdc/wiki/partial-pre-rotation;;7;;;;;;1;;
-310;partial-rotation;;partial-rotation;;https://github.com/trustoverip/acdc/wiki/partial-rotation;;7;;;;;;1;;
-311;custodial-rotation;;custodial-rotation;;https://github.com/trustoverip/acdc/wiki/custodial-rotation;;7;;;;;;1;;
-312;reserve-rotation;;reserve-rotation;;https://github.com/trustoverip/acdc/wiki/reserve-rotation;;7;;;;;;1;;
-313;custodial-agent;;custodial-agent;;https://github.com/trustoverip/acdc/wiki/custodial-agent;;7;;;;;;1;;
-314;signing-authority;;signing-authority;;https://github.com/trustoverip/acdc/wiki/signing-authority;;7;;;;;;1;;
-315;rotation-authority;;rotation-authority;;https://github.com/trustoverip/acdc/wiki/rotation-authority;;7;;;;;;1;;
-316;trans-contextual-value;;trans-contextual-value;Value that is transferrable between contexts;https://github.com/trustoverip/acdc/wiki/trans-contextual-value;;1;;;;;;1;;
-317;source-of-truth;;source-of-truth;;https://github.com/trustoverip/acdc/wiki/source-of-truth;;1;;;;;;1;;
-318;authorization;;authorization;;https://github.com/trustoverip/acdc/wiki/authorization;;1;;;1;;1;1;;
-319;application-programming-interface;;application-programming-interface;;https://github.com/trustoverip/acdc/wiki/application-programming-interface;;1;;;;;1;1;;
-320;API;;API;;https://github.com/trustoverip/acdc/wiki/API;;1;;;;;1;1;;
-321;key-pair;;key-pair;;https://github.com/trustoverip/acdc/wiki/key-pair;;1;;;1;1;1;1;;
-322;owner;;owner;;https://github.com/trustoverip/acdc/wiki/owner;;1;;;;;1;1;1;1
-322;ownership;;ownership;;https://github.com/trustoverip/acdc/wiki/ownership;;1;;;;;1;1;1;1
-324;self-sovereignty;;self-sovereignty;;https://github.com/trustoverip/acdc/wiki/self-sovereignty;;1;;;;;1;1;;1
-325;;;;;;;;;;;;;;;
-326;;;;;;;;;;;;;;;
-327;;;;;;;;;;;;;;;
-328;;;;;;;;;;;;;;;
-329;;;;;;;;;;;;;;;
-330;;;;;;;;;;;;;;;
+73;cryptographic-commitment-scheme;;cryptographic-commitment-scheme;;https://github.com/trustoverip/acdc/wiki/cryptographic-commitment-scheme.md;;3;;;;13;;;;
+74;cryptographic-strength;;cryptographic-strength;;https://github.com/trustoverip/acdc/wiki/cryptographic-strength.md;;1;;;;8;;;;
+75;cryptonym;;cryptonym;;https://github.com/trustoverip/acdc/wiki/cryptonym.md;;3;;;;;;;;
+76;decentralized-identity;;decentralized-identity;;https://github.com/trustoverip/acdc/wiki/decentralized-identity.md;;1;;;;;;;;
+77;decentralized-key-management-infrastructure;;decentralized-key-management-infrastructure;;https://github.com/trustoverip/acdc/wiki/decentralized-key-management-infrastructure.md;;3;;;;1;;;;
+78;delegated-identifier;;delegated-identifier;;https://github.com/trustoverip/acdc/wiki/delegated-identifier.md;;7;;;;2;;;;
+79;digital-signature;;digital-signature;;https://github.com/trustoverip/acdc/wiki/digital-signature.md;;1;;;;18;;;;
+80;directed-acyclic-graph;;directed-acyclic-graph;;https://github.com/trustoverip/acdc/wiki/directed-acyclic-graph.md;;3;;;;19;;1;;
+81;distributed-hash-table;;distributed-hash-table;;https://github.com/trustoverip/acdc/wiki/distributed-hash-table.md;;3;;;;92;;;;
+82;dual-text-binary-encoding-format;;dual-text-binary-encoding-format;;https://github.com/trustoverip/acdc/wiki/dual-text-binary-encoding-format.md;;7;;;;52;;1;;
+83;duplicitous-event-log;;duplicitous-event-log;;https://github.com/trustoverip/acdc/wiki/duplicitous-event-log.md;;7;;;;6;;1;;
+84;duplicity;;duplicity;;https://github.com/trustoverip/acdc/wiki/duplicity.md;;7;;;;;;1;;
+85;electronic-signature;;electronic-signature;;https://github.com/trustoverip/acdc/wiki/electronic-signature.md;;1;;;;17;;;;
+86;end-verifiable;;end-verifiable;;https://github.com/trustoverip/acdc/wiki/end-verifiable.md;;7;;;;1;;1;;
+87;entropy;;entropy;;https://github.com/trustoverip/acdc/wiki/entropy.md;;3;;;;1;;1;;
+88;ephemeral;;ephemeral;;https://github.com/trustoverip/acdc/wiki/ephemeral.md;;3;;;;;;1;;
+89;first-seen;;first-seen;;https://github.com/trustoverip/acdc/wiki/first-seen.md;;7;;;;2;;1;;
+90;gnu-privacy-guard;;gnu-privacy-guard;;https://github.com/trustoverip/acdc/wiki/gnu-privacy-guard.md;;3;;;;;;;;
+91;habery;;habery;;https://github.com/trustoverip/acdc/wiki/habery.md;;7;;;;;;;;
+92;hierarchical-asynchronous-coroutines-and-input-output;;hierarchical-asynchronous-coroutines-and-input-output;;https://github.com/trustoverip/acdc/wiki/hierarchical-asynchronous-coroutines-and-input-output.md;;7;;;;1;;;;
+93;identifier;;identifier;;https://github.com/trustoverip/acdc/wiki/identifier.md;;1;;;;2;;;;
+94;identity;;identity;;https://github.com/trustoverip/acdc/wiki/identity.md;;3;;;;;;;;
+95;inception-event;;inception-event;;https://github.com/trustoverip/acdc/wiki/inception-event.md;;7;1;;;7;;1;;
+96;inception;;inception;;https://github.com/trustoverip/acdc/wiki/inception.md;;3;;;;;;;;
+97;inconsistency;;inconsistency;;https://github.com/trustoverip/acdc/wiki/inconsistency.md;;1;;;;;;1;;
+98;indexed-signature;;indexed-signature;;https://github.com/trustoverip/acdc/wiki/indexed-signature.md;;7;;;;22;;;;
+99;internal-inconsistency;;internal-inconsistency;;https://github.com/trustoverip/acdc/wiki/internal-inconsistency.md;;3;;;;;;1;;
+100;internet-assigned-numbers-authority;;internet-assigned-numbers-authority;;https://github.com/trustoverip/acdc/wiki/internet-assigned-numbers-authority.md;;7;;;;;;;;
+101;issuance-and-presentation-exchange-protocol;;issuance-and-presentation-exchange-protocol;;https://github.com/trustoverip/acdc/wiki/issuance-and-presentation-exchange-protocol.md;;7;;;;11;1;;;
+102;javascript-object-signing-and-encryption;;javascript-object-signing-and-encryption;;https://github.com/trustoverip/acdc/wiki/javascript-object-signing-and-encryption.md;;1;;;;3;;;;
+103;judge;;judge;;https://github.com/trustoverip/acdc/wiki/judge.md;;7;;;;;;;;
+104;keri-agreement-algorithm-for-control-establishment;;keri-agreement-algorithm-for-control-establishment;;https://github.com/trustoverip/acdc/wiki/keri-agreement-algorithm-for-control-establishment.md;;7;;;;;;1;;
+105;keri-command-line-interface;;keri-command-line-interface;;https://github.com/trustoverip/acdc/wiki/keri-command-line-interface.md;;7;;;;;1;1;;
+106;keri-improvement-doc;;keri-improvement-doc;;https://github.com/trustoverip/acdc/wiki/keri-improvement-doc.md;;7;;;;7;;1;;
+107;keridemlia;;keridemlia;;https://github.com/trustoverip/acdc/wiki/keridemlia.md;;7;;;;;;;;
+108;key-compromise;;key-compromise;;https://github.com/trustoverip/acdc/wiki/key-compromise.md;;3;;;;;;1;;
+109;key-event-message;;key-event-message;;https://github.com/trustoverip/acdc/wiki/key-event-message.md;;7;;;;8;;1;;
+110;key-event-receipt-infrastructure;;key-event-receipt-infrastructure;;https://github.com/trustoverip/acdc/wiki/key-event-receipt-infrastructure.md;;7;;;;4;;1;;
+111;key-event-receipt-log;;key-event-receipt-log;;https://github.com/trustoverip/acdc/wiki/key-event-receipt-log.md;;7;;;;6;;1;;
+112;key-event-receipt;;key-event-receipt;;https://github.com/trustoverip/acdc/wiki/key-event-receipt.md;;7;;;;5;;1;;
+113;key-state;;key-state;;https://github.com/trustoverip/acdc/wiki/key-state.md;;3;;;;3;;1;;
+114;key-transparency;;key-transparency;;https://github.com/trustoverip/acdc/wiki/key-transparency.md;;7;;;;;;1;;
+115;key;;key;;https://github.com/trustoverip/acdc/wiki/key.md;;3;;;;26;;1;;
+116;levels-of-assurance;;levels-of-assurance;;https://github.com/trustoverip/acdc/wiki/levels-of-assurance.md;;7;;;;;;;;
+117;liveness;;liveness;;https://github.com/trustoverip/acdc/wiki/liveness.md;;7;;;;;;;;
+118;loci-of-control;;loci-of-control;;https://github.com/trustoverip/acdc/wiki/loci-of-control.md;;7;;;;3;;;;
+119;management-transaction-event-log;;management-transaction-event-log;;https://github.com/trustoverip/acdc/wiki/management-transaction-event-log.md;;7;;;;6;;;;
+120;message;;message;;https://github.com/trustoverip/acdc/wiki/message.md;;1;;;;8;;;;
+121;multicodec;;multicodec;;https://github.com/trustoverip/acdc/wiki/multicodec.md;;3;;;;6;;;;
+122;namespace;;namespace;;https://github.com/trustoverip/acdc/wiki/namespace.md;;1;1;;;;;;;
+123;nested-cooperative-delegated-identifiers;;nested-cooperative-delegated-identifiers;;https://github.com/trustoverip/acdc/wiki/nested-cooperative-delegated-identifiers.md;;7;;;;;;;;
+124;non-establishment-event;;non-establishment-event;;https://github.com/trustoverip/acdc/wiki/non-establishment-event.md;;7;;;;7;;;;
+125;non-fungible-token;;non-fungible-token;;https://github.com/trustoverip/acdc/wiki/non-fungible-token.md;;3;;;;;;;;
+126;non-normative;;non-normative;;https://github.com/trustoverip/acdc/wiki/non-normative.md;;1;;;;1;;;;
+127;non-repudiable;;non-repudiable;;https://github.com/trustoverip/acdc/wiki/non-repudiable.md;;3;;;;;;;;
+128;non-transferable;;non-transferable;;https://github.com/trustoverip/acdc/wiki/non-transferable.md;;1;;;;10;;;;
+129;normative;;normative;;https://github.com/trustoverip/acdc/wiki/normative.md;;1;;;;1;;;;
+130;one-way-functions;;one-way-functions;;https://github.com/trustoverip/acdc/wiki/one-way-functions.md;;3;;;;1;;;;
+131;payload;;payload;;https://github.com/trustoverip/acdc/wiki/payload.md;;1;;;;;;;;
+132;pretty-good-privacy;;pretty-good-privacy;;https://github.com/trustoverip/acdc/wiki/pretty-good-privacy.md;;1;;;;;;;;
+133;primary-root-of-trust;;primary-root-of-trust;;https://github.com/trustoverip/acdc/wiki/primary-root-of-trust.md;;3;;;;2;;;;
+134;primitive;;primitive;;https://github.com/trustoverip/acdc/wiki/primitive.md;;1;;;;79;;;;
+135;proof-of-authority;;proof-of-authority;;https://github.com/trustoverip/acdc/wiki/proof-of-authority.md;;3;;;;;;;;
+136;proof-of-authorship;;proof-of-authorship;;https://github.com/trustoverip/acdc/wiki/proof-of-authorship.md;;3;;;;;;;;
+137;provenance;;provenance;;https://github.com/trustoverip/acdc/wiki/provenance.md;;3;;;;;;;;
+138;public-key-infrastructure;;public-key-infrastructure;;https://github.com/trustoverip/acdc/wiki/public-key-infrastructure.md;;3;;;;1;;;;
+139;public-verifiable-credential-registry;;public-verifiable-credential-registry;;https://github.com/trustoverip/acdc/wiki/public-verifiable-credential-registry.md;;7;1;;;1;;;;
+140;race-condition;;race-condition;;https://github.com/trustoverip/acdc/wiki/race-condition.md;;7;;;;;;;;
+141;receipt-log;;receipt-log;;https://github.com/trustoverip/acdc/wiki/receipt-log.md;;7;;;;6;;;;
+142;receipt;;receipt;;https://github.com/trustoverip/acdc/wiki/receipt.md;;7;;;;3;;;;
+143;registrar;;registrar;;https://github.com/trustoverip/acdc/wiki/registrar.md;;7;;;;;;;;
+144;root-of-trust;;root-of-trust;;https://github.com/trustoverip/acdc/wiki/root-of-trust.md;;3;;;;2;;;;
+145;rotation;;rotation;;https://github.com/trustoverip/acdc/wiki/rotation.md;;3;;;;;;;;
+146;secondary-root-of-trust;;secondary-root-of-trust;;https://github.com/trustoverip/acdc/wiki/secondary-root-of-trust.md;;7;;;;2;;;;
+147;secure-asset-transfer-protocol;;secure-asset-transfer-protocol;;https://github.com/trustoverip/acdc/wiki/secure-asset-transfer-protocol.md;;7;;;;11;;;;
+148;secure-attribution;;secure-attribution;;https://github.com/trustoverip/acdc/wiki/secure-attribution.md;;7;;;;;;;;
+149;seed;;seed;;https://github.com/trustoverip/acdc/wiki/seed.md;;1;;;;5;;;;
+150;self-addressing-data;;self-addressing-data;;https://github.com/trustoverip/acdc/wiki/self-addressing-data.md;;7;;;;12;;;;
+151;self-certifying-identifier;;self-certifying-identifier;;https://github.com/trustoverip/acdc/wiki/self-certifying-identifier.md;;7;;;;2;;;;
+152;self-framing;;self-framing;;https://github.com/trustoverip/acdc/wiki/self-framing.md;;7;;;;27;;;;
+153;self-sovereign-identity;;self-sovereign-identity;;https://github.com/trustoverip/acdc/wiki/self-sovereign-identity.md;;3;;;;;;;;
+154;signed-digest;;signed-digest;;https://github.com/trustoverip/acdc/wiki/signed-digest.md;;3;;;;16;;;;
+155;spanning-layer;;spanning-layer;;https://github.com/trustoverip/acdc/wiki/spanning-layer.md;;7;;;;;;;;
+156;text-binary-concatenation-composability;;text-binary-concatenation-composability;;https://github.com/trustoverip/acdc/wiki/text-binary-concatenation-composability.md;;7;;;;35;;;;
+157;transaction-event-log;;transaction-event-log;;https://github.com/trustoverip/acdc/wiki/transaction-event-log.md;;7;;;;6;;;;
+158;transmission-control-protocol;;transmission-control-protocol;;https://github.com/trustoverip/acdc/wiki/transmission-control-protocol.md;;1;;;;11;;;;
+159;trust-domain;;trust-domain;;https://github.com/trustoverip/acdc/wiki/trust-domain.md;;1;;;;67;;;;
+160;validator;;validator;;https://github.com/trustoverip/acdc/wiki/validator.md;;3;1;;;;;;;
+161;veracity;;veracity;;https://github.com/trustoverip/acdc/wiki/veracity.md;;3;;;;;;;;
+162;verifiable-data-structure;;verifiable-data-structure;;https://github.com/trustoverip/acdc/wiki/verifiable-data-structure.md;;7;;;;8;;;;
+163;verifiable;;verifiable;;https://github.com/trustoverip/acdc/wiki/verifiable.md;;3;;;;1;;;;
+164;verifier;;verifier;;https://github.com/trustoverip/acdc/wiki/verifier.md;;3;;;;;;;;
+165;version;;version;;https://github.com/trustoverip/acdc/wiki/version.md;;1;;;;43;;;;
+166;virtual-credential-transaction-event-log;;virtual-credential-transaction-event-log;;https://github.com/trustoverip/acdc/wiki/virtual-credential-transaction-event-log.md;;7;;;;6;;;;
+167;web-of-trust;;web-of-trust;;https://github.com/trustoverip/acdc/wiki/web-of-trust.md;;3;;;;2;;;;
+168;well-known-witnesses;;well-knownwitnesses;;https://github.com/trustoverip/acdc/wiki/well-knownwitnesses.md;;7;;;;;;;;
+169;;IIW;;Internet Identity Workshop twice in a year un-conference since 2005;https://internetidentityworkshop.com;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m03s;7;;;;0;;;;
+170;;KERI;;Key Event Receipt Infrastructure;https://github.com/WebOfTrust/keri;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m12s;7;1;;;0;;;;
+171;repo;repo;repo;Software repository;https://github.com/trustoverip/acdc/wiki/repo;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m27s;3;;;;;;;;
+172;;KERIpy;;Python implementation of KERI;https://github.com/WebOfTrust/keripy;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m27s;7;;;;0;;;;
+173;coroutines;coroutines;coroutines;Computer programs that can be suspended and resumed at will.;https://github.com/trustoverip/acdc/wiki/coroutines;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m41s;1;;;;;;;;
+174;input-output;I/O;input-output;Input / output;https://github.com/trustoverip/acdc/wiki/input-output;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m41s;1;;;;1;;;;
+175;hio;hio;hio;Hierarchical asynchronous coroutines and I/O in Python;https://github.com/trustoverip/acdc/wiki/hio;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m41s;7;;;;;;;;
+176;;Sam Smith;;Samuel M. Smith PhD, Inventor and lead developer of KERI;https://www.linkedin.com/in/samuel-m-smith/;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m41s;7;;;;0;;;;
+177;;python;;Programming Language;https://www.python.org;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m49s;3;;;;0;;;;
+178;clone;clone;clone;A copy of a system that is - and works exactly as the original;https://github.com/trustoverip/acdc/wiki/clone;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=00m55s;3;;;;;;;;
+179;branch;branch;branch;A duplicate of an object under version control for further separate modification;https://github.com/trustoverip/acdc/wiki/branch;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=01m00s;3;;;;;;;;
+180;kli;kli;kli;KERI command line interface;https://github.com/trustoverip/acdc/wiki/kli;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=01m12s;7;;;;;;;;
+181;;Kubernetes;;Kubernetes is an open source platform for managing software containers;https://kubernetes.io;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=01m18s;3;;;;0;;;;
+182;;kubectl;;Kubernetes command line interface;https://kubernetes.io/docs/reference/kubectl/;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=01m18s;7;;;;0;;;;
+183;verifiable-credential;verifiable credentials;verifiable-credential;The digital variant of our daily live's credentials (ike passport, driver's license), but in a machine-verifiable way;https://github.com/trustoverip/acdc/wiki/verifiable-credential;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=01m26s;1;;;;;;;;
+184;;Docker containers;;Docker takes away repetitive, mundane configuration tasks and is used for application development;https://www.docker.com;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=01m38s;3;;;;0;;;;
+185;sub-shell;sub shell;sub-shell;a child shell started up from - and contained in another parent shell;https://github.com/trustoverip/acdc/wiki/sub-shell;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=01m46s;1;;;;;;;;
+186;agent;agent;agent;a representative for an identity;https://github.com/trustoverip/acdc/wiki/agent;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m01s;3;;;;;;;;
+187;cloud-agent;cloud agent;cloud-agent;Cloud agent is software that is installed on the cloud server instances for  security, monitoring, and analysis;https://github.com/trustoverip/acdc/wiki/cloud-agent;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m01s;3;;;;;;;;
+188;;Py installer;;Python installer bundles a Python application and all its dependencies into a single package;https://pypi.org/project/pyinstaller/;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m09s;3;;;;0;;;;
+189;;Electron;;A Python interface for Apache Electron command line interface;https://pypi.org/project/python-electron/;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m16s;3;;;;0;;;;
+190;user-interface;U/I;user-interface;A user interface (UI) is the space where interactions between humans and machines occur.;https://github.com/trustoverip/acdc/wiki/user-interface;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m16s;1;;;;;;;;
+191;multisig;multi-sig;multisig;A digital signature scheme which allows a group of users to sign a single piece of digital data.;https://github.com/trustoverip/acdc/wiki/multisig;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m29s;1;;;;;;;;
+192;identifier-system;identifier;identifier-system;Something to uniquely identify (public) identities, pointing to something or someone else.;https://github.com/trustoverip/acdc/wiki/identifier-system;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m29s;3;;;;1;;;;
+193;wallet;wallet;wallet;A wallet is a collection of data stores, made up of akeystore, local and remote key event log database and credential database.;https://github.com/trustoverip/acdc/wiki/wallet;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m34s;7;;;;2;;;;
+194;;wallet commands;;The section of kli where verifiable credentials can be listed;https://docs.google.com/presentation/d/1RIMX7J-cdg8OctoG4JqxPOfqKZsVNodqajtpQ0oFIyE/edit#slide=id.gf2168aef68_0_12;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m34s;7;;;;0;;;;
+195;witness;witnesses;witness;Entity that may receive, verify, and store key events for an identifier;https://github.com/trustoverip/acdc/wiki/witness;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m44s;7;;;;2;;;;
+196;watcher;watchers;watcher;Guarantee that KERI logs are immutable;https://github.com/trustoverip/acdc/wiki/watcher;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=02m44s;7;;;;;;;;
+197;key-management;key management;key-management;Management of cryptographic keys in a crypto-system.;https://github.com/trustoverip/acdc/wiki/key-management;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=04m16s;7;;;;1;;;;
+198;;init;;Initialization, a command in the kli;https://docs.google.com/presentation/d/1RIMX7J-cdg8OctoG4JqxPOfqKZsVNodqajtpQ0oFIyE/edit#slide=id.gf2168aef68_0_12;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=04m21s;3;;;;0;;;;
+199;single-signature-identifier;single sig identifier;single-signature-identifier;An identifier that is controlled by a one-of-one signing keypair;https://github.com/trustoverip/acdc/wiki/single-signature-identifier;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=04m27s;3;;;;2;;;;
+200;keystore;key store;keystore;A keystore in KERI is the encrypted data store that hold the private keys for a collection of AIDs.;https://github.com/trustoverip/acdc/wiki/keystore;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=04m33s;7;;;;;;;;
+201;key-event;key events;key-event;Events happening to controlling keys of an identifier recorded in a Key Event Log (KEL).;https://github.com/trustoverip/acdc/wiki/key-event;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=04m39s;3;1;;;8;;;;
+202;interaction-event;interaction event;interaction-event;Anchors external data to the key-state as established by the most recent prior establishment event;https://github.com/trustoverip/acdc/wiki/interaction-event;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=04m39s;7;;;;7;;;;
+203;rotation-event;rotation event;rotation-event;Changes the key-state which includes a change to the set of authoritative keypairs for an AID;https://github.com/trustoverip/acdc/wiki/rotation-event;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=04m39s;7;;;;7;;;;
+204;signing-threshold;signing thresholds;signing-threshold;Minimum number of valid signatures to satisfy the requirement for successful validation;https://github.com/trustoverip/acdc/wiki/signing-threshold;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=04m48s;7;;;;1;;;;
+205;key-event-log;KEL;key-event-log;Key Event Log is the native KERI verifiable data structure;https://github.com/trustoverip/acdc/wiki/key-event-log;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=05m01s;7;1;;;6;;;;
+206;verify-signature;verify signatures;verify-signature;Applying an algorithm that either accepts or rejects the message's claim to authenticity;https://github.com/trustoverip/acdc/wiki/verify-signature;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=05m32s;3;;;;17;;;;
+207;peer-to-peer;peer-to-peer communications;peer-to-peer;Peers are equally privileged, equipotent participants in a network;https://github.com/trustoverip/acdc/wiki/peer-to-peer;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=06m13s;3;;;;;;;;
+208;;bootstrap command;;Start an empty agent or to run a single agent against one that's already been started;https://docs.google.com/presentation/d/1RIMX7J-cdg8OctoG4JqxPOfqKZsVNodqajtpQ0oFIyE/edit#slide=id.gf2168aef68_0_20;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=06m31s;3;;;;0;;;;
+209;salt;salts;salt;Random data that is used as an additional input to a cryptographic one-way function;https://github.com/trustoverip/acdc/wiki/salt;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=06m50s;7;;;;2;;;;
+210;delegation;delegation;delegation;Delegation can be defined as the act of empowering to act for another;https://github.com/trustoverip/acdc/wiki/delegation;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=07m44s;7;;;;;;;;
+211;delegation;multi-sig delegation;delegation;delegated identifiers under multi-signature control;https://github.com/trustoverip/acdc/wiki/delegation;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=07m44s;7;;;;;;;;
+212;;json;;JavaScript Object Notation;https://en.wikipedia.org/wiki/JSON;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=08m08s;3;;;;0;;;;
+213;transferable-identifier;transferable;transferable-identifier;Control over identifier can be transferred by rotating keys;https://github.com/trustoverip/acdc/wiki/transferable-identifier;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=08m34s;7;;;;4;;;;
+214;;ports;;A number assigned to uniquely identify a connection endpoint and to direct data to a specific service.;https://en.wikipedia.org/wiki/Port_(computer_networking);https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=09m04s;3;;;;0;;;;
+215;configuration-files;configuration file;configuration-files;File used to configure the parameters and initial settings for some computer programs;https://github.com/trustoverip/acdc/wiki/configuration-files;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=09m16s;1;;;;;;;;
+216;;REST;;REpresentational State Transfer (REST) is a software architectural style that developers apply to web APIs;https://github.com/WebOfTrust/keri/blob/main/docs/keri-dev-env.md#what-exactly-is-a-rest-api;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=10m00s;3;;;;0;;;;
+217;;APIs;;Application Programming Interface;https://github.com/WebOfTrust/keri/blob/main/docs/keri-dev-env.md#what-exactly-is-a-rest-api;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=10m00s;3;;;;0;;;;
+218;;curl;;Command-line tool (curl) for transferring data using various network protocols. ;https://en.wikipedia.org/wiki/CURL;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=10m17s;3;;;;0;;;;
+219;ransfer_Protocol;post and put;ransfer_Protocol;HTTP request methods to indicate the desired action to be performed on the identified resource ;https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=10m17s;3;;;;;;;;
+220;;Swagger;;OpenAPI (former Swagger) is important to KERI, CESR and ACDC. It's open sourced and has many ready-usable extensions in JSON available.;https://github.com/WebOfTrust/keri/blob/main/docs/keri-dev-env.md#what-is-swagger-and-openapi;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=10m31s;7;;;;0;;;;
+221;passcode;passcode;passcode;Secret data, typically a string of characters, usually used to confirm a user's identity;https://github.com/trustoverip/acdc/wiki/passcode;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=11m06s;3;;;;;;;;
+222;key-stretching;stretched into an encryption key;key-stretching;make a possibly weak key, typically a password or passphrase, more secure against a brute-force attack by increasing the resources;https://github.com/trustoverip/acdc/wiki/key-stretching;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=11m11s;7;;;;;;;;
+223;;flag;;Many command line programs can be set to various mode by using a flag, e.g. -v or --verbose for verbose mode;https://en.wikipedia.org/wiki/Verbose_mode;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=12m20s;3;;;;0;;;;
+224;non-transferable-identitifer;non-transferable identifier;non-transferable-identitifer;Controlling keys over this identifier cannot be rotated and therefore this identifier is non-transferable to other control;https://github.com/trustoverip/acdc/wiki/non-transferable-identitifer;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=14m28s;7;;;;;;;;
+225;;toad;;Field in KERI data structure for describing the witness thresshold;https://github.com/WebOfTrust/keripy/blob/28873f42aabef096d2b6f4bf1af5dbd9e219d13f/src/keri/core/eventing.py;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=15m37s;7;;;;0;;;;
+226;threshold-signature-scheme;witness threshold;threshold-signature-scheme;The minimum number of valid witness signatures required;https://github.com/trustoverip/acdc/wiki/threshold-signature-scheme;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=15m37s;7;;;;15;;;;
+227;pre-rotation;pre-rotation;pre-rotation;commitment to next rotated key set in previous rotation or inception event;https://github.com/trustoverip/acdc/wiki/pre-rotation;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=15m54s;7;;;;;;;;
+228;prefix;prefixes;prefix;A prefix that is composed of a basic Base-64 (URL safe) derivation code pre-pended to Base-64 encoding of a basic public digital signing key;https://github.com/trustoverip/acdc/wiki/prefix;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=16m47s;7;;;;5;;;;
+229;base64;base64;base64;A group of binary-to-text encoding schemes that represent binary data;https://github.com/trustoverip/acdc/wiki/base64;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=16m53s;7;;;;104;;;;
+230;qualified;qualified;qualified;when qualified, a cryptographic primitive includes a prepended derivation code;https://github.com/trustoverip/acdc/wiki/qualified;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=16m53s;7;;;;21;;;;
+231;derivation-code;derivation code;derivation-code;A special character that encodes the derivation process, pre-pended to the identifier;https://github.com/trustoverip/acdc/wiki/derivation-code;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=16m53s;7;;;;152;;;;
+232;blake3;Blake3 hash;blake3;BLAKE3 is a relatively young (2020) cryptographic hash function based on Bao and BLAKE2.;https://github.com/trustoverip/acdc/wiki/blake3;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=16m57s;7;;;;3;;;;
+233;data-anchor;anchor data into;data-anchor;Data anchors are digests of digital data, that uniquely identify this data;https://github.com/trustoverip/acdc/wiki/data-anchor;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=17m14s;7;;;;2;;;;
+234;autonomic-identifier;AID;autonomic-identifier;An identifier that is self-certifying and self-sovereign;https://github.com/trustoverip/acdc/wiki/autonomic-identifier;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=17m50s;7;;;;2;;;;
+235;;sequence number;;Incremental number in a log;https://www.storyofmathematics.com/number-sequences/;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=17m57s;3;;;;0;;;;
+236;digest;digest;digest;Verifiable cryptographic commitment. It's a collision resistant hash of content;https://github.com/trustoverip/acdc/wiki/digest;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=17m57s;3;1;;;16;;;;
+237;issuance-event;issuance event;issuance-event;The inception event of a verifiable credential;https://github.com/trustoverip/acdc/wiki/issuance-event;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=18m02s;7;;;;7;;;;
+238;public-transaction-event-log;public transaction event log;public-transaction-event-log;Is a hash linked data structure of transactions that can be used to track state;https://github.com/trustoverip/acdc/wiki/public-transaction-event-log;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=18m05s;7;;;;6;;;;
+239;verify-signature;verifiable;verify-signature;When you can succesfully verify a signature;https://github.com/trustoverip/acdc/wiki/verify-signature;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=19m34s;7;;;;17;;;;
+240;establishment-event;establishment;establishment-event;An event that establishes control authority;https://github.com/trustoverip/acdc/wiki/establishment-event;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=19m39s;7;;;;7;;;;
+241;emory-Mapped_Database;lmdb databases;emory-Mapped_Database;Lightning Memory-Mapped Database;https://en.wikipedia.org/wiki/Lightning_Memory-Mapped_Database;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=21m42s;7;;;;;;;;
+242;indexed-signature ;indexed signatures;indexed-signature ;Used when signing anything with a multi-key autonomic identifier, a verifier knows which of the multiple public keys was used;https://github.com/trustoverip/acdc/wiki/indexed-signature ;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=23m46s;7;;;;12;;;;
+243;;hex;;Hexadecimal notation;https://en.wikipedia.org/wiki/Hexadecimal;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=23m59s;3;;;;0;;;;
+244;;verbose;;An option available in many computer operating systems and programming languages that provides additional details as to what the computer is doing;https://en.wikipedia.org/wiki/Verbose_mode;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=25m01s;3;;;;0;;;;
+245;self-addressing-identifier;self-addressing identifiers;self-addressing-identifier;An identifier that is deterministically generated from and embedded in the content it identifies, making it and its data mutually tamper-evident;https://github.com/trustoverip/acdc/wiki/self-addressing-identifier;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=25m29s;7;;;;2;;;;
+246;;backer;;Backers include both regular KERI witnesses and ledger-registered backers;https://github.com/trustoverip/acdc/wiki/backer;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=27m48s;7;;;;0;;;;
+247;ledger-backer;ledger backer;ledger-backer;A witness in KERI that is ledger-registered;https://github.com/trustoverip/acdc/wiki/ledger-backer;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=27m55s;7;;;;;;;;
+248;witness;witness backer;witness;A native KERI witness whose control authority is established in a KEL;https://github.com/trustoverip/acdc/wiki/witness;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=27m55s;7;;;;2;;;;
+249;verifiable-legal-entity-identifier;vLEI;verifiable-legal-entity-identifier;Digital verifiable credentials issued by (delegates) of GLEIF to prove that information about a legel entity is verifiably authentic;https://github.com/trustoverip/acdc/wiki/verifiable-legal-entity-identifier;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=30m17s;7;;;;2;;;;
+250;ssi-system;SSI system;ssi-system;SSI Infrastructure consisting of the technological components that are deployed all over the world;https://github.com/trustoverip/acdc/wiki/ssi-system;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=30m22s;1;;;;1;;;;
+251;;Indy network;;Hyperledger Indy network is an SSI system based on a private blockchain;https://www.hyperledger.org/use/hyperledger-indy;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=30m22s;7;;;;0;;;;
+252;transfer-off-ledger;transfer off a ledger;transfer-off-ledger;The act of transferring control authority over an identifier from a ledger (or blockchain) to the native verifiable KERI data structure KEL;https://github.com/trustoverip/acdc/wiki/transfer-off-ledger;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=30m39s;7;;;;1;;;;
+253;;Ethereum;;Ethereum is the community-run technology powering the cryptocurrency ether (ETH) and thousands of decentralized applications;https://ethereum.org/en/;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=31m02s;7;;;;0;;;;
+254;;Aries;;Hyperledger Aries provides an interoperable tool kit for creating, transmitting and storing verifiable digital credentials;https://www.hyperledger.org/use/aries;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=31m46s;7;;;;0;;;;
+255;service-endpoint;service endpoints;service-endpoint;A web service endpoint which is a URL at which clients of specific service can get access to the service.;https://github.com/trustoverip/acdc/wiki/service-endpoint;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=32m54s;3;;;;;;;;
+256;uniform-resource-locator;URLs;uniform-resource-locator;A reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it;https://github.com/trustoverip/acdc/wiki/uniform-resource-locator;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=33m00s;1;;;;;;;;
+257;ip-address;ip-address;ip-address;A numerical label such as '192.0.2.1' that is connected to a computer network that uses the Internet Protocol for communication;https://github.com/trustoverip/acdc/wiki/ip-address;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=33m42s;1;;;;9;;;;
+258;tcp-endpoint;TCP endpoint;tcp-endpoint;This is a service endpoint of the web transmission control protocol;https://github.com/trustoverip/acdc/wiki/tcp-endpoint;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=34m00s;3;;;;;;;;
+259;inquisitor;inquisitor;inquisitor;Someone (in a validating role) that launches an inquiry at some KERI witness;https://github.com/trustoverip/acdc/wiki/inquisitor;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=37m19s;7;;;;;;;;
+260;;dip: tag;;;;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=49m13s;7;;;;0;;;;
+261;;icp: tag;;;;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=49m13s;7;;;;0;;;;
+262;;di: tag;;;;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=49m20s;7;;;;0;;;;
+263;locked-state;locked state;locked-state;default state of an encrypted KERI data store with a passcode;https://github.com/trustoverip/acdc/wiki/locked-state;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=52m22s;7;;;;3;;;;
+264;;onepass;;password manager ;https://github.com/doglex/onepass;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=53m04s;7;;;;0;;;;
+265;out-of-band-introduction;data OOBIs;out-of-band-introduction;data out-of-band ntroductions;https://github.com/trustoverip/acdc/wiki/out-of-band-introduction;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=53m48s;7;;;;1;;;;
+266;out-of-band-introduction;credential schema OOBIs;out-of-band-introduction;credential schema out-of-band ntroductions;https://github.com/trustoverip/acdc/wiki/out-of-band-introduction;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=53m54s;7;;;;1;;;;
+267;keep;keep;keep;Is KERI's and ACDC's crypto wallet, a task orientated application for managing AIDs in ecosystems, e.g. the vLEI Ecosystem;https://github.com/trustoverip/acdc/wiki/keep;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=54m12s;7;;;;;;;;
+268;zero-trust;zero trust;zero-trust;a Zero Trust approach trusts no one;https://github.com/trustoverip/acdc/wiki/zero-trust;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=55m37s;3;;;;3;;;;
+269;;credential registries;;Is a functional component that has the capability to register and advertise the information about Credential Types that their respective Governing Parties have decided to disclose;https://essif-lab.github.io/framework/docs/terms/credential-catalogue;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=55m53s;3;;;;0;;;;
+270;revocation-event;revocation events;revocation-event;An event that revokes control authority over an identifier;https://github.com/trustoverip/acdc/wiki/revocation-event;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=55m58s;3;;;;7;;;;
+271;;two-factor auth;;Is an electronic authentication method in which a user is granted access to a website or application only after successfully presenting two or more pieces of evidence ;https://en.wikipedia.org/wiki/Multi-factor_authentication;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=56m13s;1;;;;0;;;;
+272;escrow-state;escrow states;escrow-state;The current state of all the temporary storage locations (what events are waiting for what other information) that KERI protocol needs to keep track of, due to its fully asynchronous nature.;https://github.com/trustoverip/acdc/wiki/escrow-state;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=56m59s;7;;;;3;;;;
+273;server-sent-event;server-sent events;server-sent-event;Mailbox notifications, a streaming service for the agent U/I, to get notifications from the KERI system itself;https://github.com/trustoverip/acdc/wiki/server-sent-event;https://youtu.be/GqjsRuu0V5A?list=PLXVbQu7JH_LHVhs0rZ9Bb8ocyKlPljkaG&t=57m19s;7;;;;7;;;;
+274;seal;;seal;;https://github.com/trustoverip/acdc/wiki/seal;;3;1;;;6;;;;
+275;authoritative;;authoritative;;https://github.com/trustoverip/acdc/wiki/authoritative;;7;1;;;;;;;
+276;QVI;;QVI;;https://github.com/trustoverip/acdc/wiki/qvi;;3;;;;;;;;1
+277;qualified-vlei-issuer;;qualified-vlei-issuer;;https://github.com/trustoverip/acdc/wiki/qualified-vlei-issuer;;3;;;;;;;;1
+278;ghost-credential;;ghost-credential;;https://github.com/trustoverip/acdc/wiki/ghost-credential;;3;;;;;;;;1
+279;redundant-credential;;redundant-credential;;https://github.com/trustoverip/acdc/wiki/redundant-credential;;3;;;;;;;;1
+280;engagement-context-role;;engagement-context-role;;https://github.com/trustoverip/acdc/wiki/engagement-context-role;;3;;;;;;;;1
+281;ECR;;ECR;;https://github.com/trustoverip/acdc/wiki/rECR;;3;;;;;;;;1
+282;gleif-authorized-representative;;gleif authorized representative;;https://github.com/trustoverip/acdc/wiki/gleif authorized representative.md;;3;;;;;;;;1
+283;GAR;;GAR;;https://github.com/trustoverip/acdc/wiki/GAR;;3;;;;3;;;;1
+284;GLEIF;;GLEIF;;https://github.com/trustoverip/acdc/wiki/gleif;;1;;;;;;;;1
+285;DAR;;DAR;;https://github.com/trustoverip/acdc/wiki/DAR;;3;;;;29;;;;1
+286;designated-authorized-representative;;designated-authorized-representative;;https://github.com/trustoverip/acdc/wiki/https://github.com/trustoverip/acdc/wiki/gleif;;3;;;;;;;;1
+287;AVR;;AVR;;https://github.com/trustoverip/acdc/wiki/AVR;;3;;;;;;;;1
+288;authorized-vlei-representative;;authorized-vlei-representative;;https://github.com/trustoverip/acdc/wiki/authorized-vlei-representative;;3;;;;;;;;1
+289;LEI;;LEI;;https://github.com/trustoverip/acdc/wiki/LEI;;3;;;;;;;;1
+290;legal-entity;;legal-entity;;https://github.com/trustoverip/acdc/wiki/legal-entity;;3;;;;;;;;1
+291;OOR;;OOR;;https://github.com/trustoverip/acdc/wiki/OOR;;3;;;;1;;;;1
+292;official-organizational-role;;official-organizational-role;;https://github.com/trustoverip/acdc/wiki/official-organizational-role;;3;;;;;;;;1
+293;qvi-authorized-representative;;qvi-authorized-representative;;https://github.com/trustoverip/acdc/wiki/qvi-authorized-representative;;3;;;;;;;;1
+294;QAR;;QAR;;https://github.com/trustoverip/acdc/wiki/QAR;;3;;;;;;;;1
+295;vlei-ecosystem-governance-framework;;vlei-ecosystem-governance-framework;;https://github.com/trustoverip/acdc/wiki/vlei-ecosystem-governance-framework;;3;;;;;;;;1
+296;solicited-issuance;;solicited-issuance;;https://github.com/trustoverip/acdc/wiki/solicited-issuance;;3;;;;;;;;1
+297;unsolicited-issuance;;unsolicited-issuance;;https://github.com/trustoverip/acdc/wiki/unsolicited-issuance;;3;;;;;;;;1
+298;governance-framework;;governance-framework;;https://github.com/trustoverip/acdc/wiki/governance-framework;;3;;;;;;;;1
+299;GLEIS;;GLEIS;;https://github.com/trustoverip/acdc/wiki/GLEIS;;3;;;;;;;;1
+300;vlei-credential;;vlei-credential;;https://github.com/trustoverip/acdc/wiki/vlei-credential;;3;;;;;;;;1
+301;legal-entity-engagement-context-role-vlei-credential-governance-framework;;legal-entity-engagement-context-role-vlei-credential-governance-framework;;https://github.com/trustoverip/acdc/wiki/legal-entity-engagement-context-role-vlei-credential-governance-framework;;3;;;;;;;;1
+302;vlei-role-credential;;vlei-role-credential;;https://github.com/trustoverip/acdc/wiki/vlei-role-credential;;3;;;;;;;;1
+303;legal-entity-official-organizational-role-vlei-credential-governance-framework;;legal-entity-official-organizational-role-vlei-credential-governance-framework;;https://github.com/trustoverip/acdc/wiki/legal-entity-official-organizational-role-vlei-credential-governance-framework;;3;;;;;;;;1
+304;legal-entity-vlei-credential-governance-framework;;legal-entity-vlei-credential-governance-framework;;https://github.com/trustoverip/acdc/wiki/legal-entity-vlei-credential-governance-framework;;3;;;;;;;;1
+305;qualified-vlei-issuer-vlei-credential-governance-framework;;qualified-vlei-issuer-vlei-credential-governance-framework;;https://github.com/trustoverip/acdc/wiki/qualified-vlei-issuer-vlei-credential-governance-framework;;3;;;;;;;;1
+306;DID;;DID;;https://github.com/trustoverip/acdc/wiki/DID;;3;;;;1;;;;
+307;decentralized-identifier;;decentralized-identifier;;https://github.com/trustoverip/acdc/wiki/decentralized-identifier;;1;;;;2;;;;
+308;partial-pre-rotation;;partial-pre-rotation;change of control but partially keep some keys unexposed while exposing others as needed.;https://github.com/trustoverip/acdc/wiki/partial-pre-rotation;;7;;;;;;1;;
+309;partial-rotation;;partial-rotation;change of control but partially keep some keys unexposed while exposing others as needed.;https://github.com/trustoverip/acdc/wiki/partial-rotation;;7;;;;;;1;;
+310;custodial-rotation;;custodial-rotation;change of control that is split between two key sets;https://github.com/trustoverip/acdc/wiki/custodial-rotation;;7;;;;;;1;;
+311;reserve-rotation;;reserve-rotation;preparatory key pairs being held in reserve and not exposed;https://github.com/trustoverip/acdc/wiki/reserve-rotation;;7;;;;;;1;;
+312;custodial-agent;;custodial-agent;a custodian who has been granted signing authority and usually also being the host of the running agent software.;https://github.com/trustoverip/acdc/wiki/custodial-agent;;7;;;;;;1;;
+313;signing-authority;;signing-authority;the authority to sign on behalf of the controller of an identifier.;https://github.com/trustoverip/acdc/wiki/signing-authority;;7;;;;;;1;;
+314;rotation-authority;;rotation-authority;the (exclusive) right to change control over an identifier;https://github.com/trustoverip/acdc/wiki/rotation-authority;;7;;;;;;1;;
+315;trans-contextual-value;;trans-contextual-value;value that is transferrable between contexts;https://github.com/trustoverip/acdc/wiki/trans-contextual-value;;1;;;;56;;1;;
+316;source-of-truth;;source-of-truth;"a trusted data source that gives a complete picture of the ""truth"" about a data object.";https://github.com/trustoverip/acdc/wiki/source-of-truth;;1;;;;;;1;;
+317;authorization;;authorization;specifying access rights or privileges to resources;https://github.com/trustoverip/acdc/wiki/authorization;;1;;;1;;1;1;;
+318;application-programming-interface;;application-programming-interface; a way for two or more computer programs to communicate with each other.;https://github.com/trustoverip/acdc/wiki/application-programming-interface;;1;;;;;1;1;;
+319;API;;API;an application Programming Interface, a way for two or more computer programs to communicate with each other.;https://github.com/trustoverip/acdc/wiki/API;;1;;;;5;1;1;;
+320;key-pair;;key-pair;a public key and its corresponding private key.;https://github.com/trustoverip/acdc/wiki/key-pair;;1;;;1;4;1;1;;
+321;owner;;owner;a role that exercizes its legal, rightful or natural title to control something.;https://github.com/trustoverip/acdc/wiki/owner;;1;;;;;1;1;1;1
+322;ownership;;ownership;a relationship between two, one of these (the owner) is entitled to enjoy, dispose of, and control the other sovereignly. ;https://github.com/trustoverip/acdc/wiki/ownership;;1;;;;;1;1;1;1
+323;self-sovereignty;;self-sovereignty;the characteristic of every party that it is autonomous in managing and operating its own knowledge;https://github.com/trustoverip/acdc/wiki/self-sovereignty;;1;;;;;1;1;;1
+324;presentation-exchange;;presentation-exchange;an exchange that provides disclosure of one or moreACDCs between a Discloser and a Disclosee.;https://github.com/trustoverip/acdc/wiki/presentation-exchange;;7;;1;;;;;;
+325;discloser;;discloser;an ACDC in a disclosure isdisclosed bytheDiscloser.;https://github.com/trustoverip/acdc/wiki/discloser;;1;;1;;;;;;
+326;disclosee;;disclosee;an ACDC in a disclosure isdisclosed totheDisclosee.;https://github.com/trustoverip/acdc/wiki/disclosee;;1;;1;;;;;;
+327;issuer;;issuer;anACDCisissued bytheIssuer. TheIssueridentifier (AID) appears in the top level of the ACDC.;https://github.com/trustoverip/acdc/wiki/issuer;;1;;1;;;;;;
+328;issuee;;issuee;an ACDC is optionally issued to the Issuee.;https://github.com/trustoverip/acdc/wiki/issuee;;1;;1;;;;;;
+329;issuance-exchange;;issuance-exchange;a special case of a presentation exchange where the Discloser is the Issuer of the origin (Primary) ACDC;https://github.com/trustoverip/acdc/wiki/issuance-exchange;;7;;1;;;;;;
+330;chain-link-confidentiality;;chain-link-confidentiality;chains together a sequence ofDisclosees. Each Disclosee in the sequence in turn is theDiscloserto the next Disclosee.;https://github.com/trustoverip/acdc/wiki/chain-link-confidentiality;;7;;1;;;;;;
+331;graduated-disclosure;;graduated-disclosure;disclosure performed by a presentation exchange that has cross-variant Issuer commitment verifiability as an essential property.;https://github.com/trustoverip/acdc/wiki/graduated-disclosure;;7;;1;;;;;;
+332;top-level-section;;top-level-section;are the fields of an ACDC compact variant.;https://github.com/trustoverip/acdc/wiki/top-level-section;;3;;1;;1;;;;
+333;compact-variant;;compact-variant;an Issuer commitment via a signature to any variant of ACDC;https://github.com/trustoverip/acdc/wiki/compact-variant;;7;;1;;3;;;;
+334;contractually-protected-disclosure;;contractually-protected-disclosure;the most elaborate form of disclosure by an IPEX. Contractually protected disclosure includes both chain-link confidential and contingent disclosure.;https://github.com/trustoverip/acdc/wiki/contractually-protected-disclosure;;7;;1;;;;;;
+335;ricardian-contract;;ricardian-contract;a method of recording a document as a contract at law, and linking it securely to other systems;https://github.com/trustoverip/acdc/wiki/ricardian-contract;;3;;1;;2;;;;
+336;contingent-disclosure;;contingent-disclosure;;https://github.com/trustoverip/acdc/wiki/contingent-disclosure;;7;;1;;;;;;
+337;eclipse-attack;;eclipse-attack;an eclipse attack is a P2P network-based attack, an attacker tries to isolate a node from the rest of the network;https://github.com/trustoverip/acdc/wiki/eclipse-attack;;3;;;;1;;1;;
+338;promiscuous-mode;;promiscuous-mode;the indiscriminate mode a watcher (network) runs in.;https://github.com/trustoverip/acdc/wiki/promiscuous-mode;;7;;;;3;;;;
+339;protocol;;protocol;a code of correct conduct, in our case specifically communication protocols, cryptographic protocols, and decentralized network protocols;https://github.com/trustoverip/acdc/wiki/protocol;;1;1;1;1;11;1;1;;
+340;;;;;;;;;;;0;;;;
+341;;;;;;;;;;;0;;;;

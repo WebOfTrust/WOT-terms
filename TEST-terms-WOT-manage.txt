@@ -1,0 +1,29 @@
+313;signing-authority;;signing-authority;;https://github.com/trustoverip/acdc/wiki/signing-authority;;7;;;;;;1;;
+314;rotation-authority;;rotation-authority;;https://github.com/trustoverip/acdc/wiki/rotation-authority;;7;;;;;;1;;
+315;trans-contextual-value;;trans-contextual-value;Value that is transferrable between contexts;https://github.com/trustoverip/acdc/wiki/trans-contextual-value;;1;;;;;;1;;
+316;source-of-truth;;source-of-truth;;https://github.com/trustoverip/acdc/wiki/source-of-truth;;1;;;;;;1;;
+317;authorization;;authorization;;https://github.com/trustoverip/acdc/wiki/authorization;;1;;;1;;1;1;;
+318;application-programming-interface;;application-programming-interface;;https://github.com/trustoverip/acdc/wiki/application-programming-interface;;1;;;;;1;1;;
+319;API;;API;;https://github.com/trustoverip/acdc/wiki/API;;1;;;;;1;1;;
+320;key-pair;;key-pair;;https://github.com/trustoverip/acdc/wiki/key-pair;;1;;;1;1;1;1;;
+321;owner;;owner;;https://github.com/trustoverip/acdc/wiki/owner;;1;;;;;1;1;1;1
+322;ownership;;ownership;;https://github.com/trustoverip/acdc/wiki/ownership;;1;;;;;1;1;1;1
+323;self-sovereignty;;self-sovereignty;;https://github.com/trustoverip/acdc/wiki/self-sovereignty;;1;;;;;1;1;;1
+324;presentation-exchange;;presentation-exchange;An exchange that provides disclosure of one or more ACDCs between a Discloser and a Disclosee.;https://github.com/trustoverip/acdc/wiki/presentation-exchange;;7;;1;;;;;;
+325;discloser;;discloser;An ACDC in a disclosure is disclosed by the Discloser.;https://github.com/trustoverip/acdc/wiki/discloser;;1;;1;;;;;;
+326;disclosee;;disclosee;An ACDC in a disclosure is disclosed to the Disclosee.;https://github.com/trustoverip/acdc/wiki/disclosee;;1;;1;;;;;;
+327;issuer;;issuer;An ACDC is issued by the Issuer. The Issuer identifier (AID) appears in the top level of the ACDC.;https://github.com/trustoverip/acdc/wiki/issuer;;1;;1;;;;;;
+328;issuee;;issuee;An ACDC is optionally issued to the Issuee.;https://github.com/trustoverip/acdc/wiki/issuee;;1;;1;;;;;;
+329;issuance-exchange;;issuance-exchange;A special case of a presentation exchange where the Discloser is the Issuer of the origin (Primary) ACDC;https://github.com/trustoverip/acdc/wiki/issuance-exchange;;7;;1;;;;;;
+330;chain-link-confidentiality;;chain-link-confidentiality;chains together a sequence of Disclosees. Each Disclosee in the sequence in turn is the Discloser to the next Disclosee.;https://github.com/trustoverip/acdc/wiki/chain-link-confidentiality;;7;;1;;;;;;
+331;graduated-disclosure;;graduated-disclosure;disclosure performed by a presentation exchange that has cross-variant Issuer commitment verifiability as an essential property. ;https://github.com/trustoverip/acdc/wiki/graduated-disclosure;;7;;1;;;;;;
+332;top-level-section;;top-level-section;The fields of an ACDC compact variant.;https://github.com/trustoverip/acdc/wiki/top-level-section;;3;;1;;;;;;
+333;compact-variant;;compact-variant;an Issuer commitment via a signature to any variant of ACDC;https://github.com/trustoverip/acdc/wiki/compact-variant;;7;;1;;;;;;
+334;contractually-protected-disclosure;;contractually-protected-disclosure;most elaborate form of disclosure by an IPEX. Contractually protected disclosure includes both chain-link confidential and contingent disclosure.;https://github.com/trustoverip/acdc/wiki/contractually-protected-disclosure;;7;;1;;;;;;
+335;ricardian-contract;;ricardian-contract;a method of recording a document as a contract at law, and linking it securely to other systems;https://github.com/trustoverip/acdc/wiki/ricardian-contract;;3;;1;;;;;;
+336;contingent-disclosure;;contingent-disclosure;;https://github.com/trustoverip/acdc/wiki/contingent-disclosure;;7;;1;;;;;;
+337;eclipse-attack;;eclipse-attack;an eclipse attack is a P2P network-based attack, an attacker tries to isolate a node from the rest of the network;https://github.com/trustoverip/acdc/wiki/eclipse-attack;;3;;;;;;1;;
+338;promiscuous-mode;;promiscuous-mode;the indiscriminate mode a watcher (network) runs in.;https://github.com/trustoverip/acdc/wiki/promiscuous-mode;;7;;;;;;;;
+339;protocol;;protocol;"a code of correct conduct, in our case specifically communication protocols, cryptographic protocols, and decentralized network protocols";https://github.com/trustoverip/acdc/wiki/protocol;;1;1;1;1;1;1;1;;
+340;;;;;;;;;;;;;;;
+341;;;;;;;;;;;;;;;
