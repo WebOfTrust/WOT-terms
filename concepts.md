@@ -45,7 +45,7 @@ Concepts use existing terms (which could create confusion) and introduces new te
 
 ### Familiar terms
 
-We explain the terminology at various [levels of understanding](#levels-of-understanding), and also **our criteria** how we judge certain terms to be defined for the sake of KERI / ACDC. E.g. `multisignatures`, `validators` and `verifiers`. What are they exactly? 
+We explain the terminology at various [levels of understanding](README.md#levels-of-understanding), and also **our criteria** how we judge certain terms to be defined for the sake of KERI / ACDC. E.g. `multisignatures`, `validators` and `verifiers`. What are they exactly? 
 
 ### Use cases and domains
 
@@ -73,11 +73,26 @@ KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevit
 
 ### Objectives of Key Event Receipt Infrastructure (KERI)
 
-#### Open source - Apache2
+#### Freedom
 
-#### Waist identity layer for the internet - maximum coverage - prefixes
+KERI came to be in occasional happenings, online and in-person, in which individuals voluntarily participated. It has no members, and no dues. This is how the KERI community strives to further work. 
+
+Manifestation: KERI has found the IETF as a home. This is because its value statement and organizational principles strongly resonate with KERI.
+
+#### Open source
+
+Manifestation:\
+Apache2
+
+#### Trust spanning layer for the internet
+Need: Fix the limitations of the original PKI-based WebofTrust.
+Goal: Achieve a truly decentralized trust spanning layer for the Internet; (see [Hourglass Model](https://cacm.acm.org/magazines/2019/7/237714-on-the-hourglass-model/fulltext))
+
+Manifestation:\
+security - maximum coverage (extensible prefixes) - no middle men - portability
 
 #### Secure Attribution over the internet - verifiability to root-of-trust - no middlemen
+We only have one set of tools for truly secure data control! Cryptographic one-way functions! [source](https://www.youtube.com/watch?v=L82O9nqHjRE)
 
 <!-- #######NEW BLOCK####### -->
 ### Objectives of Authentic Chained Data Containers (ACDC)
@@ -118,10 +133,28 @@ As soon as we do, the code will look the version up, and act accordingly (backwa
 
 We split the KERIpy repo in two branches `dev` and `main`, so people can rely on a stable production version in `main`.
 
+## ACDC
+1. Authentic
+2. Chained
+3. Data containers (serialization of them)
+Mainly through SAIDs.
+
+### Self-Adressing Identifiers
+
+Embedding a SAID as a field in the associated
+serialization indicates a preferred content-addressable identifier for that serialization that facilitates **greater interoperability**, **reduced ambiguity**, and **enhanced security** when reasoning about the serialization.  Moreover, given sufficient cryptographic strength, a cryptographic commitment such as a signature, digest, or another SAID, to a given SAID is essentially equivalent to a commitment to its associated serialization.  Any change to the serialization invalidates its SAID thereby ensuring secure immutability evident reasoning with SAIDs about serializations or equivalently their SAIDs.  Thus SAIDs **better facilitate immutably** referenced data serializations for applications such as Verifiable Credentials or Ricardian Contracts.\
+
+[Source](https://datatracker.ietf.org/doc/draft-ssmith-said/)
+
+
+<!-- #######NEW BLOCK####### -->
+### [Objectives ACDC](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#objectives-acdc)
 <!-- #######NEW BLOCK####### -->
 ### Framework conditions
 
 #### Its and Bits - Cryptography and one-way functions is the only thing than can safe our digital twin
+
+Use [trans-contextual value](trans-contextual-value) creation and capture to fuel cooperative network effects.
 
 #### Network dynamics - centralized system will lose
 
@@ -177,9 +210,36 @@ KERI alternative to total global ordering and consensus protocols is a mechanism
 
 #### Rotation - transfer of control authority without transaction - scalable
 
+#### Event streaming
+Because the cryptographic material in the events may be of variable length, a fixed field length serialization is not a viable approach. Consequently KERI must support variable length field serialization. 
+
+Only the controller of the associated identifier prefix may compose KERI events, the ordering of elements in the event serialization may be determined solely by that controller. Other entities may sign the event serialization provided by the controller but do not need to provide a serialization of their own.
+
+In summary, the necessary constraint for complete event serialization is support for arbitrary data structures with variable length fields that are serializable and de-serializable in multiple formats. Reproducible ordering is not a necessary constraint. [Source](https://github.com/decentralized-identity/keri/blob/master/kids/kid0003.md)
+
 #### JSON-LD and triples are too simple (only "is"/"has") - we are proponents of property graphs
 
 #### CESR composeable without having to parse (in CBOR this is needed)
+([Source](https://medium.com/happy-blockchains/cesr-one-of-sam-smiths-inventions-is-as-controversial-as-genius-d757f36b88f8))
+**CESR is digital data streaming that** 
+1. can freely concatenate pieces of data
+2. Has a fixed streamlet size in both text and binary format
+3. Converts back and forth from text to binary without data loss and round robin
+4. Is able to express complex data structures
+5. Is extensible with derivation codes
+7. Is extremely compact
+8. Works asynchronously, e.g. collecting primitives, such as individual signatures of a Multisig from the web.
+9. Is ready for post-quantum cryptography
+10. Contributes to legally sound identifiers, because everything is “readable” in text format.
+
+“CESR doesn’t provide post-quantum proofing. The hash does. CESR just makes it easier to process the crypto material. How you use crypto material is not up to CESR.”
+Samual M. Smith\
+This list of reinforcing features might make you think of new fields of application. That’s not entirely surprising and, to reiterate, that was my only goal with this article.\
+Let me offer you a few applicable and hopefully inspiring facts to play around with in your head.\
+Composability allows text domain streams of primitives or portions of streams (streamlets) to be converted as a whole to the binary domain and back again without loss.\
+Fully qualified KERI cryptographic primitives are composable via concatenation in both the text (Base64) and binary domains.\
+CESR’s approach to filling its derivation-code tables is a first needed, first served basis.\
+In addition CESR’s requirement that all cryptographic operations maintain at least 128 bits of cryptographic strength precludes the entry of many weak cryptographic suites into the tables.
 
 #### GDDP True gossip protocol AND Round Robin (KERI meeting Tue Aug 9)
 
@@ -200,6 +260,10 @@ principles and pre-conditions
 principles and pre-conditions
 
 #### Freedom of witness and backer organization - extensible - scalable
+We have two types: witnesses (for the controller) and backer to check duplicity in the network. The reason we've done this because we thus avoid the [eclipse attack](), that blockchains suffer from.
+
+We foresee witness and watcher hosting services, just like web hosting currently. Technically speaking a watcher and a witness use the same code and protocol, watchers run in [promiscuous mode]().
+
 
 #### Freedom of validator and watchtower organization - extensible - scalable
 
@@ -247,3 +311,10 @@ It's all your own identifier and you're controlling your identifier, so it's up 
 #### Permission-less society
 Best and compactly described by Daniel Hardman in [Security, Silos, and Sovereignty](https://daniel-hardman.medium.com/security-silos-and-sovereignty-522e30bb8eb4) 2022:\
 "SSI is not bestowed by corporate IT (Active Directory/LDAP systems); it’s not granted by internet giants (“sign in with Google/Facebook”); it’s not arranged through single sign-on vendors. SSI is for ordinary people who detest their messy collection of usernames and passwords, and just want bad guys to go away and good guys to enjoy the trust they deserve. SSI puts us — not institutions that leak our data to hackers, sell our data to partners, or surveil us for their own purposes — in charge. It also empowers governments, businesses, and other institutions that want to revolutionize privacy, redefine the cybersecurity and regulatory landscape, reduce cost and risk, keep people safe in pandemics, and do right by the people they serve."
+
+#### No needless control, no needless surveillance
+Principle: In a society there needs some control and surveillance of individuals (or individual entities) for the sake of the security of soceity as a whole. However, those situation should be limited to absolute minimum needed and be strictly independently monitored.
+We consider all other control and surveillance to be 'needless'.
+
+Manifestion: A robust witness network along with consistent witness rotation provides protection from monitoring and association of an individual's activity inside a KERI network.\
+Source [Phil Feairheller](https://github.com/WebOfTrust/ietf-did-keri/blob/main/draft-pfeairheller-did-keri.md#privacy-considerations) 
