@@ -1,16 +1,18 @@
 ---
+title: Glossary - verifier
 Term: verifier
-Text: 
+summary: 
 Link: https://github.com/trustoverip/acdc/wiki/verifier.md
 Videostart: 
 Level: 3
 permalink: /term_verifier.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/verifier.md %}
 

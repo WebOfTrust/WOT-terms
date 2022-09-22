@@ -1,2 +1,2 @@
 ## See
-[Duplicitous event log](term_duplicitous-event-log)
+[Duplicitous event log](duplicitous-event-log)

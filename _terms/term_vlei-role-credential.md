@@ -1,16 +1,18 @@
 ---
+title: Glossary - vlei-role-credential
 Term: vlei-role-credential
-Text: 
+summary: 
 Link: https://github.com/trustoverip/acdc/wiki/vlei-role-credential
 Videostart: 
 Level: 3
 permalink: /term_vlei-role-credential.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/vlei-role-credential.md %}
 

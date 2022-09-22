@@ -1,16 +1,20 @@
 ---
+title: Glossary - source-of-truth
+tags: [KERI]
 Term: source-of-truth
-Text: 
+summary: "a trusted data source that gives a complete picture of the truth about a data object."
 Link: https://github.com/trustoverip/acdc/wiki/source-of-truth
 Videostart: 
 Level: 1
 permalink: /term_source-of-truth.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
+{{ page.title }}
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/source-of-truth.md %}
 

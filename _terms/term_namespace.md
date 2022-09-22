@@ -1,16 +1,19 @@
 ---
+title: Glossary - namespace
+tags: [PTEL]
 Term: namespace
-Text: 
+summary: 
 Link: https://github.com/trustoverip/acdc/wiki/namespace.md
 Videostart: 
 Level: 1
 permalink: /term_namespace.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/namespace.md %}
 

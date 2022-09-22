@@ -1,16 +1,19 @@
 ---
+title: Glossary - witness
+tags: [CESR]
 Term: witness
-Text: A native KERI witness whose control authority is established in a KEL
+summary: A native KERI witness whose control authority is established in a KEL
 Link: https://github.com/trustoverip/acdc/wiki/witness
 Videostart: 
 Level: 7
 permalink: /term_witness.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/witness.md %}
 

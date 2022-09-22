@@ -1,16 +1,19 @@
 ---
+title: Glossary - KA2CE
+tags: [KERI]
 Term: KA2CE
-Text: 
+summary: 
 Link: https://github.com/trustoverip/acdc/wiki/KA2CE.md
 Videostart: 
 Level: 7
 permalink: /term_KA2CE.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/KA2CE.md %}
 

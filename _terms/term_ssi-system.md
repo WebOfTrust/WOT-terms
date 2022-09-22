@@ -1,16 +1,19 @@
 ---
+title: Glossary - ssi-system
+tags: [CESR]
 Term: ssi-system
-Text: SSI Infrastructure consisting of the technological components that are deployed all over the world
+summary: SSI Infrastructure consisting of the technological components that are deployed all over the world
 Link: https://github.com/trustoverip/acdc/wiki/ssi-system
 Videostart: 
 Level: 1
 permalink: /term_ssi-system.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/ssi-system.md %}
 

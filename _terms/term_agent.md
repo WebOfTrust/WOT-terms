@@ -1,16 +1,18 @@
 ---
+title: Glossary - agent
 Term: agent
-Text: A representative for an identity
+summary: a representative for an identity
 Link: https://github.com/trustoverip/acdc/wiki/agent
 Videostart: 
 Level: 3
 permalink: /term_agent.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/agent.md %}
 

@@ -1,16 +1,18 @@
 ---
+title: Glossary - 
 Term: 
-Text: 
+summary: 
 Link: 
 Videostart: 
 Level: 
 permalink: /term_.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 
  {% include links.html %} 

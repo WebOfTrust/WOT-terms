@@ -1,16 +1,19 @@
 ---
+title: Glossary - controller
+tags: [CESR]
 Term: controller
-Text: 
+summary: 
 Link: https://github.com/trustoverip/acdc/wiki/controller.md
 Videostart: 
 Level: 3
 permalink: /term_controller.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/controller.md %}
 

@@ -1,16 +1,19 @@
 ---
+title: Glossary - issuance-event
+tags: [CESR]
 Term: issuance-event
-Text: The inception event of a verifiable credential
+summary: The inception event of a verifiable credential
 Link: https://github.com/trustoverip/acdc/wiki/issuance-event
 Videostart: 
 Level: 7
 permalink: /term_issuance-event.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/issuance-event.md %}
 

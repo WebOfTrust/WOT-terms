@@ -1,16 +1,18 @@
 ---
+title: Glossary - kli
 Term: kli
-Text: KERI command line interface
+summary: KERI command line interface
 Link: https://github.com/trustoverip/acdc/wiki/kli
 Videostart: 
 Level: 7
 permalink: /term_kli.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/kli.md %}
 

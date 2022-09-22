@@ -1,2 +1,2 @@
 ## See
-[Verifiable credential](term_verifiable-credential)
+[Verifiable credential](verifiable-credential)

@@ -1,16 +1,18 @@
 ---
+title: Glossary - authentic-data-container
 Term: authentic-data-container
-Text: 
+summary: 
 Link: https://github.com/trustoverip/acdc/wiki/authentic-data-container.md
 Videostart: 
 Level: 7
 permalink: /term_authentic-data-container.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/authentic-data-container.md %}
 

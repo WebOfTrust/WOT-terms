@@ -1,16 +1,18 @@
 ---
+title: Glossary - byzantine-fault-tolerance
 Term: byzantine-fault-tolerance
-Text: 
+summary: 
 Link: https://github.com/trustoverip/acdc/wiki/byzantine-fault-tolerance.md
 Videostart: 
 Level: 3
 permalink: /term_byzantine-fault-tolerance.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/byzantine-fault-tolerance.md %}
 

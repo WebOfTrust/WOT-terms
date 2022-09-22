@@ -1,16 +1,19 @@
 ---
+title: Glossary - cryptographic-strength
+tags: [CESR]
 Term: cryptographic-strength
-Text: 
+summary: 
 Link: https://github.com/trustoverip/acdc/wiki/cryptographic-strength.md
 Videostart: 
 Level: 1
 permalink: /term_cryptographic-strength.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/cryptographic-strength.md %}
 

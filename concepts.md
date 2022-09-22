@@ -210,6 +210,13 @@ KERI alternative to total global ordering and consensus protocols is a mechanism
 
 #### Rotation - transfer of control authority without transaction - scalable
 
+#### Event streaming
+Because the cryptographic material in the events may be of variable length, a fixed field length serialization is not a viable approach. Consequently KERI must support variable length field serialization. 
+
+Only the controller of the associated identifier prefix may compose KERI events, the ordering of elements in the event serialization may be determined solely by that controller. Other entities may sign the event serialization provided by the controller but do not need to provide a serialization of their own.
+
+In summary, the necessary constraint for complete event serialization is support for arbitrary data structures with variable length fields that are serializable and de-serializable in multiple formats. Reproducible ordering is not a necessary constraint. [Source](https://github.com/decentralized-identity/keri/blob/master/kids/kid0003.md)
+
 #### JSON-LD and triples are too simple (only "is"/"has") - we are proponents of property graphs
 
 #### CESR composeable without having to parse (in CBOR this is needed)

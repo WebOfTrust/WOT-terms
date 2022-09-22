@@ -1,2 +1,2 @@
 ## See
-[Loci of control](term_loci-of-control)
+[Loci of control](loci-of-control)

@@ -1,16 +1,18 @@
 ---
+title: Glossary - SATP
 Term: SATP
-Text: 
+summary: 
 Link: https://github.com/trustoverip/acdc/wiki/SATP.md
 Videostart: 
 Level: 7
 permalink: /term_SATP.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/SATP.md %}
 

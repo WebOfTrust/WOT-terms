@@ -1,16 +1,18 @@
 ---
+title: Glossary - authorized-vlei-representative
 Term: authorized-vlei-representative
-Text: 
+summary: 
 Link: https://github.com/trustoverip/acdc/wiki/authorized-vlei-representative
 Videostart: 
 Level: 3
 permalink: /term_authorized-vlei-representative.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/authorized-vlei-representative.md %}
 

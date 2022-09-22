@@ -1,16 +1,18 @@
 ---
+title: Glossary - ECR
 Term: ECR
-Text: 
+summary: 
 Link: https://github.com/trustoverip/acdc/wiki/rECR
 Videostart: 
 Level: 3
 permalink: /term_ECR.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/ECR.md %}
 

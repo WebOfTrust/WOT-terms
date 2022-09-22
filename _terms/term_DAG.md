@@ -1,16 +1,18 @@
 ---
+title: Glossary - DAG
 Term: DAG
-Text: 
+summary: 
 Link: https://github.com/trustoverip/acdc/wiki/DAG.md
 Videostart: 
 Level: 3
 permalink: /term_DAG.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/DAG.md %}
 

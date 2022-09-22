@@ -1,16 +1,18 @@
 ---
+title: Glossary - nested-cooperative-delegated-identifiers
 Term: nested-cooperative-delegated-identifiers
-Text: 
+summary: 
 Link: https://github.com/trustoverip/acdc/wiki/nested-cooperative-delegated-identifiers.md
 Videostart: 
 Level: 7
 permalink: /term_nested-cooperative-delegated-identifiers.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/nested-cooperative-delegated-identifiers.md %}
 

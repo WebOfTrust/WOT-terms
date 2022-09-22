@@ -1,16 +1,18 @@
 ---
+title: Glossary - passcode
 Term: passcode
-Text: Secret data, typically a string of characters, usually used to confirm a user's identity
+summary: Secret data, typically a string of characters, usually used to confirm a user's identity
 Link: https://github.com/trustoverip/acdc/wiki/passcode
 Videostart: 
 Level: 3
 permalink: /term_passcode.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/passcode.md %}
 

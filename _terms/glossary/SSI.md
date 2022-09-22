@@ -1,2 +1,2 @@
 ## See
-[Self-sovereign identity](term_self-sovereign-identity)
+[Self-sovereign identity](self-sovereign-identity)

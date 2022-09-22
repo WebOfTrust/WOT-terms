@@ -7,5 +7,5 @@ Control over the identifier can be transferred by rotating keys\
 The KERI design approach is to build composable primitives instead of custom functionality that is so typical of other DKMI approaches:
 
 - transferable identifiers
-- [non-transferable identifiers](term_non-transferable-identifier)
-- [delegated identifiers](term_delegated-identifier)
+- [non-transferable identifiers](non-transferable-identifier)
+- [delegated identifiers](delegated-identifier)

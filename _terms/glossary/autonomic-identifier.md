@@ -1,9 +1,9 @@
 ## Definition
 
-An identifier that is [self-certifying](term_self-certifying-identifier) and [self-sovereign](term_self-sovereign-identity).
+An identifier that is [self-certifying](self-certifying-identifier) and [self-sovereign](self-sovereign-identity).
 
 ## KERI related requirements
-A self-managing [cryptonym](term_cryptonymous)ous identifier that MUST be self-certifying (self-authenticating) and MUST be encoded in CESR as a [qualified](term_qualified) cryptographic primitive. An AID MAY exhibit other self-managing properties such as transferable control using key [pre-rotation](term_pre-rotation) which enables control over such an AID to persist in spite of key weakness or compromise due to exposure. [Authoritative](term_authoritative) control over the identifier persists in spite of the evolution of the key-state.\
+A self-managing [cryptonym](cryptonymous)ous identifier that MUST be self-certifying (self-authenticating) and MUST be encoded in CESR as a [qualified](qualified) cryptographic primitive. An AID MAY exhibit other self-managing properties such as transferable control using key [pre-rotation](pre-rotation) which enables control over such an AID to persist in spite of key weakness or compromise due to exposure. [Authoritative](authoritative) control over the identifier persists in spite of the evolution of the key-state.\
 Source Samuel M. Smith, [ietf-keri draft](https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-keri.md)
 
 ## Autonomic Identifier more general

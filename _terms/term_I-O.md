@@ -1,16 +1,19 @@
 ---
+title: Glossary - I-O
+tags: [CESR]
 Term: I-O
-Text: 
+summary: 
 Link: https://github.com/trustoverip/acdc/wiki/I-O.md
 Videostart: 
 Level: 1
 permalink: /term_I-O.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/I-O.md %}
 

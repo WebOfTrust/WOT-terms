@@ -1,16 +1,19 @@
 ---
+title: Glossary - DEL
+tags: [CESR,KERI]
 Term: DEL
-Text: 
+summary: 
 Link: https://github.com/trustoverip/acdc/wiki/DEL.md
 Videostart: 
 Level: 7
 permalink: /term_DEL.html
+sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
 {{ page.collection }} - {{ page.Term }}
 
-   {{ page.text }}
+   {{ page.summary }}
 
 {% include_relative glossary/DEL.md %}
 
