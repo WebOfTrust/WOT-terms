@@ -5,8 +5,8 @@ tags: KERI, CESR, OOBI, ACDC, IETF, Concepts, Terminology, Education, Glossary
 # KERI Terminology and Education Meeting Agenda
 [![hackmd-github-sync-badge](https://hackmd.io/gHe_VCAwT9qmdzXe-Cx3MA/badge)](https://hackmd.io/gHe_VCAwT9qmdzXe-Cx3MA)
 
-Host: Henk van Cann [email](h.vancann@blockchainbird.org)
-Co-Host: Philip Feairheller [email](pfeairheller@gmail.com)
+Host: Henk van Cann [email](term_h.vancann@blockchainbird.org)
+Co-Host: Philip Feairheller [email](term_pfeairheller@gmail.com)
 
 Meeting Bi-weekly starting on 2022-07-28 at 10 am EDT, 4PM CEST
 
@@ -29,7 +29,7 @@ Every 2 weeks on Thu, until Oct 20, 2022, 7 occurrence(s)
 - Oct 6, 2022 08:00 AM
 - Oct 20, 2022 08:00 AM
 
-Please download and import the following [iCalendar (.ics) files](./meeting-89893527631.ics) to your calendar system.
+Please download and import the following [iCalendar (.ics) files](./term_meeting-89893527631.ics) to your calendar system.
 Weekly: https://us02web.zoom.us/meeting/tZ0lfuqtrDwsGdXO34oUxPbSpcf4X1Lcdmb-/ics?icsToken=98tyKuGhpjIpH9aSthqGRpx5Gor4b-_zpmZdjadls0yxDBVLUgHFJuFEZoouPNvU
 
 #### Calendar Invite
@@ -276,4 +276,4 @@ One idea was to OCR one or both presentations of `Philip` that have been recorde
 
 `Steven` express his wish for easy to use Developer-tooling CLI, and Docker containers to able to demonstrate KERI/ACDC to others. `Philip` says the status of the currently outdated Docker container of *Keripy* and *Keep*: 'to be updated soon'.
 
-The meeting concluded with the structure of the future agenda (by `Philip`): time-slot based, and addressing the topics list under the [new agenda](./2022-08-11) for the next meeting.
+The meeting concluded with the structure of the future agenda (by `Philip`): time-slot based, and addressing the topics list under the [new agenda](./term_2022-08-11) for the next meeting.

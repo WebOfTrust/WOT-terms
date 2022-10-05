@@ -1,20 +1,20 @@
 #!/bin/bash
 # Status: operational draft
+# Present in dir WOT-terms
 # Quick & Dirty script used for converting files purposes locally
 # Later to be used in Github Actions to post process .md files from the ToIP Glosssary wiki
 # Your working dir Needs to be set to _terms/glossary directory
-#cd ..
-#rm -rf _terms
-#mkdir _terms
-#cd _terms
-#mkdir glossary
-#cp ../../acdc.wiki/* ./glossary
+rm -rf _terms
+mkdir _terms
+cd _terms
+mkdir glossary
+cp ../../acdc.wiki/* ./glossary
 
 # This sed command is the crucial linking pin between WOT-terms-manage, Jekyll Documentation Theme and ToIP glossary
 
-#if [$( pwd )<>"/Users/hvc/apps/WOT-terms/_terms/glossary" ]; then
-#exit 1
-#fi
+if [ $( pwd ) <> "/Users/hvc/apps/WOT-terms/_terms/glossary" ]; then
+exit 1
+fi
 
 SOURCE_DIR=""
 
@@ -22,7 +22,7 @@ files=(
    "$SOURCE_DIR"*.md
 )
 
-#files=($( find ./ -type f -name "*.md" )) #Add () to convert output to array
+files=($( find ./ -type f -name "*.md" )) #Add () to convert output to array
 
 total=0
 for i in ${files[@]} ; do

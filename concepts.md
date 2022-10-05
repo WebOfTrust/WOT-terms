@@ -4,7 +4,7 @@
 
 
 THIS IS UNDER CONSTRUCTION
-Would you like to contribute? Join us at the Concepts, Terms and Edu [bi-weekly Zoom session](./agenda.md)
+Would you like to contribute? Join us at the Concepts, Terms and Edu [bi-weekly Zoom session](./term_agenda.md)
 
 ## What is this?
 This concepts page explains the main design objectives of KERI and ACDC, which results in a scope (or context) and links them to
@@ -45,7 +45,7 @@ Concepts use existing terms (which could create confusion) and introduces new te
 
 ### Familiar terms
 
-We explain the terminology at various [levels of understanding](README.md#levels-of-understanding), and also **our criteria** how we judge certain terms to be defined for the sake of KERI / ACDC. E.g. `multisignatures`, `validators` and `verifiers`. What are they exactly? 
+We explain the terminology at various [levels of understanding](term_README.md#levels-of-understanding), and also **our criteria** how we judge certain terms to be defined for the sake of KERI / ACDC. E.g. `multisignatures`, `validators` and `verifiers`. What are they exactly? 
 
 ### Use cases and domains
 
@@ -53,7 +53,7 @@ Understanding could vary in different domains and use-cases (e.g. a controller i
 
 ### New terminology, acronyms and abbreviations
 
-KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevitably, new terminology has surfaced in the design of KERI and ACDC. In this `concepts` page we try to explain related terms in a few [levels of understanding](./README.md#levels-of-understanding). We've used analogies and symbols to clear up complex and intangible concepts for those new to KERI / ACDC and even for those experts that we consider being 'advanced'. The ultimate goal is to try to make sense in the perception of respectively the newbie - and the advanced identity expert.
+KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevitably, new terminology has surfaced in the design of KERI and ACDC. In this `concepts` page we try to explain related terms in a few [levels of understanding](./term_README.md#levels-of-understanding). We've used analogies and symbols to clear up complex and intangible concepts for those new to KERI / ACDC and even for those experts that we consider being 'advanced'. The ultimate goal is to try to make sense in the perception of respectively the newbie - and the advanced identity expert.
 
 ## Concept details (NO ORDERING yet)
 
@@ -154,7 +154,7 @@ serialization indicates a preferred content-addressable identifier for that seri
 
 #### Its and Bits - Cryptography and one-way functions is the only thing than can safe our digital twin
 
-Use [trans-contextual value](trans-contextual-value) creation and capture to fuel cooperative network effects.
+Use [trans-contextual value](term_trans-contextual-value) creation and capture to fuel cooperative network effects.
 
 #### Network dynamics - centralized system will lose
 
@@ -204,7 +204,7 @@ This is the arguably most powerful capability that may provide an essential buil
 See [glossary item](https://github.com/trustoverip/acdc/wiki/non-repudiable)
 
 #### First seen - timing solution - overload protection
-KERI alternative to total global ordering and consensus protocols is a mechanism called [duplicity](duplicity) detection. In the [verification](verifiers) and [validation](validation) **watchers are all that matter**; they guarantee that logs are immutable by one very simple rule: "[first seen](first seen) wins".
+KERI alternative to total global ordering and consensus protocols is a mechanism called [duplicity](term_duplicity) detection. In the [verification](term_verifiers) and [validation](term_validation) **watchers are all that matter**; they guarantee that logs are immutable by one very simple rule: "[first seen](term_first seen) wins".
 
 #### Pre-rotation - quantum protection - security fallback (exposure, theft) - portray changing power dynamics
 
@@ -221,6 +221,15 @@ In summary, the necessary constraint for complete event serialization is support
 
 #### CESR composeable without having to parse (in CBOR this is needed)
 ([Source](https://medium.com/happy-blockchains/cesr-one-of-sam-smiths-inventions-is-as-controversial-as-genius-d757f36b88f8))
+
+CESR uses a parse table so the same parsing code works on all codes.
+
+#### text and binary domains
+The text domain representation of a stream enables better usability (readability) and the binary domain representation of a stream enables better compactness. 
+
+#### Pipelined hierarchical composition codes 
+Allow efficient conversion or off-loading for concurrent processing of composed (concatenated) groups of primitives in a stream without having to individually parse each primitive before off-loading.
+
 **CESR is digital data streaming that** 
 1. can freely concatenate pieces of data
 2. Has a fixed streamlet size in both text and binary format
@@ -240,6 +249,20 @@ Composability allows text domain streams of primitives or portions of streams (s
 Fully qualified KERI cryptographic primitives are composable via concatenation in both the text (Base64) and binary domains.\
 CESR’s approach to filling its derivation-code tables is a first needed, first served basis.\
 In addition CESR’s requirement that all cryptographic operations maintain at least 128 bits of cryptographic strength precludes the entry of many weak cryptographic suites into the tables.
+
+#### Design choices CESR
+
+"There are many coding schemes that could satisfy the composability constraint of alignment on 24-bit boundaries. The main reason for using a text domain-centric encoding is higher usability, readability, or human friendliness. Indeed **a primary design goal of CESR is to select an encoding approach that provides high usability, readability, or human friendliness** in the *text* domain. This type of usability goal is simply not realizable in the binary domain.\
+The *binary* domain's purpose is merely to **provide convenient compactness at scale**. We believe usability in the text domain is maximized when the *type* portion of the prepended framing code is stable or invariant. Stable type coding makes it much easier to recognize primitives of a given type when debugging source, reading messages, or documents in the text domain that include encoded primitives. This is true even when those primitives have different lengths or values."\
+[Source](https://github.com/WebOfTrust/ietf-cesr/blob/main/draft-ssmith-cesr.md) IETF Draft CESR.
+
+There are two possibilities for CESR's coding scheme to ensure a composable 24-bit alignment. The first is to add trailing pad characters post-conversion. The second is to add leading pad bytes pre-conversion. Because of the greater readability of the value portion of both the fully qualified text, T, or fully qualified binary, B, domain representations, the second approach was chosen for CESR.\
+[Source](https://github.com/WebOfTrust/ietf-cesr/blob/main/draft-ssmith-cesr.md#code-characters-and-lead-bytes) IETF Draft CESR.
+
+Good cold start **re-synchronization** is essential to robust performant stream processing. Special CESR count codes support re-synchronization at each boundary between interleaved CESR and other serializations like JSON, CBOR, or MGPK
+
+#### Multiple Code Table Approach
+The design goals for CESR framing codes include minimizing the framing code size for the most frequently used (most popular) codes while also supporting a sufficiently comprehensive set of codes for all foreseeable current and future applications. The design strives for a high degree of both flexibility and extensibility. We believe this is best achieved with multiple code tables each with a different coding scheme that is optimized for a different set of features instead of a single one-size-fits-all scheme. [Source](https://github.com/WebOfTrust/ietf-cesr/blob/main/draft-ssmith-cesr.md#multiple-code-table-approach).
 
 #### GDDP True gossip protocol AND Round Robin (KERI meeting Tue Aug 9)
 

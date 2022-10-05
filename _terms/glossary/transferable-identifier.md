@@ -1,5 +1,7 @@
 ## Definition
-Control over the identifier can be transferred by rotating keys\
+Control over the identifier [can be transferred](transferable) by rotating keys.\
+A synonym is 'persistent identifier'.
+
 {TBW prio 1}
 
 ## KERI related

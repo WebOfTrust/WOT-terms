@@ -1,12 +1,12 @@
 ## Definition
 Is a type of Establishment Event, it's the first event that establishes an identifier. \
 (_SamMSmith_)\
-Establishment Event that provides the incepting information needed to derive an [AID] and establish its initial key-state.\
+Establishment Event that provides the incepting information needed to derive an [AID](AID) and establish its initial key-state.\
 Source [Sam Smith](https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-keri.md#basic-terminology)
 
 ### Inception Statement
 
-<img src="../images/inception-statement.png" alt="inception statement" border="0" width="200" style="float:right">
+<img src="https://github.com/WebOfTrust/keri/blob/7fc96da6c277d3921fb1248ce9235400a4ff6af7/images/inception-statement.png" alt="inception statement" border="0" width="400" style="float:right">
 
 **In brief: It's the signed version of a statement containing the inception event with some extra data.**\
 (_@henkvancann_)

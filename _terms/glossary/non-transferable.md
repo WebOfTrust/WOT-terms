@@ -1,11 +1,7 @@
 ## Definition
-Controlling keys over this identifier cannot be rotated and therefore this identifier is non-transferable to other control.\
-{TBW prio1}
+No [capacity to transfer](transferable) (the control over) a certain digital asset in an unobstructed or loss-less manner. As opposed to [transferable](transferable).
+
+For example not legally transferable to the ownership of another entity.
 
 ## KERI related
-
-The KERI design approach is to build composable primitives instead of custom functionality that is so typical of other DKMI approaches:
-
-- [transferable identifiers](transferable-identifier)
-- non-transferable identifiers
-- [delegated identifiers](delegated-identifier)
+A specific type of identifier we distinguish is a [non-transferable identifier](non-transferable-identifier); it is has specific positive features like short-lived, peer to peer, one-time use, discardable, etc. that are very practical in certain use cases.
