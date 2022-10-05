@@ -1,2 +1,2 @@
 ## See
-[Composability](composable)
+[Composability](term_composable)

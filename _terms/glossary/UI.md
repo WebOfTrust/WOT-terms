@@ -1,2 +1,2 @@
 ## See
-[User interface](user-interface)
+[User interface](term_user-interface)

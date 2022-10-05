@@ -1,2 +1,2 @@
 ## See
-[Byzantine fault tolerance](byzantine-fault-tolerance)
+[Byzantine fault tolerance](term_byzantine-fault-tolerance)

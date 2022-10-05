@@ -236,6 +236,10 @@ entries:
       url: /mydoc_glossary.html
       output: web, pdf
 
+    - title: MRG layout
+      url: /mydoc_mrg.html
+      output: web, pdf
+
     - title: FAQ layout
       url: /mydoc_faq_layout.html
       output: web, pdf

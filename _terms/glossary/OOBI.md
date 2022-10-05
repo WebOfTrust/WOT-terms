@@ -1,2 +1,2 @@
 ## See
-[Out-of-band introduction](out-of-band-introduction)
+[Out-of-band introduction](term_out-of-band-introduction)

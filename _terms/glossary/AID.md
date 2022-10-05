@@ -1,2 +1,2 @@
 ## See
-[Autonomic identifier](autonomic-identifier)
+[Autonomic identifier](term_autonomic-identifier)

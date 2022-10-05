@@ -1,2 +1,2 @@
 ## See
-[Authentic provenance chain](authentic-provenance-chain)
+[Authentic provenance chain](term_authentic-provenance-chain)

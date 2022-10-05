@@ -1,0 +1,485 @@
+---
+terminology:
+  scopetag: "tev2"
+  scopedir: "https://github.com/datasoc-ltd/framework/tree/master/docs/tev2"
+scopes:
+ -
+  scopetags:
+   - "essiflab"
+   - "essif-lab"
+  scopedir: "https://github.com/essif-lab/framework/tree/master/docs"
+ -
+  scopetags:
+   - "ctwg"
+   - "toip-ctwg"
+  scopedir: "https://github.com/trustoverip/ctwg"
+ -
+  scopetags:
+   - "sihtev2"
+  scopedir: "https://github.com/datasoc-ltd/ctwg-tev2"
+entries:
+ -
+  id: "@"
+  termtype: "error"
+  termid: "@"
+  formphrases: null
+  status: null
+  grouptags: null
+  created: null
+  updated: null
+  vsntag: null
+  commit: null
+  contributors: null
+  headingids: []
+  locator: "@.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "concept"
+  termtype: "concept"
+  termid: "concept"
+  formphrases: "concept{ss}"
+  status: "proposed"
+  grouptags: null
+  created: "2022-06-06"
+  updated: "2022-06-06"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "concept.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "curated-text-body"
+  termtype: "concept"
+  termid: "curated-text-body"
+  formphrases: "curated-text-bod{yies}, ctext-bod{yies}, bod{yies}"
+  status: "proposed"
+  grouptags: "ctext"
+  created: "2022-06-02"
+  updated: "2022-06-02"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "curated-text-body.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "curated-text-header"
+  termtype: "concept"
+  termid: "curated-text-header"
+  formphrases: "curated-text-header{ss}, ctext-header{ss}, header{ss}"
+  status: "proposed"
+  grouptags: "ctext"
+  created: "2022-06-02"
+  updated: "2022-06-02"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "curated-text-header.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "curated-text-identifier"
+  termtype: "concept"
+  termid: "curated-text-identifier"
+  formphrases: "curated-text-identifier{ss}, ctext-identifier{ss}, curated-text-id{ss},\
+    \ ctext-id{ss}"
+  status: "proposed"
+  grouptags: "ctext, identifier"
+  created: "2022-07-27"
+  updated: "2022-07-27"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "curated-text-identifier.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "curated-text"
+  termtype: "concept"
+  termid: "curated-text"
+  formphrases: "curated-text{ss}, ctext{ss}"
+  status: "proposed"
+  grouptags: "ctext"
+  created: "2022-06-02"
+  updated: "2022-06-02"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "curated-text.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "curatedir"
+  termtype: "concept"
+  termid: "curatedir"
+  formphrases: "glossary-director{yies}, curatedir{ss}"
+  status: "proposed"
+  grouptags: null
+  created: "2022-07-29"
+  updated: "2022-07-29"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "curatedir.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "definition"
+  termtype: "concept"
+  termid: "definition"
+  formphrases: "definition{ss}"
+  status: "proposed"
+  grouptags: null
+  created: "2022-06-06"
+  updated: "2022-06-06"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "definition.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "dictionary"
+  termtype: "concept"
+  termid: "dictionary"
+  formphrases: "dictionar{yies}"
+  status: "proposed"
+  grouptags: null
+  created: "2022-06-06"
+  updated: "2022-06-06"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "dictionary.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "glossary"
+  termtype: "concept"
+  termid: "glossary"
+  formphrases: "glossar{yies}"
+  status: "proposed"
+  grouptags: null
+  created: "2022-06-06"
+  updated: "2022-06-06"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "glossary.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "glossarydir"
+  termtype: "concept"
+  termid: "glossarydir"
+  formphrases: "glossary-director{yies}, glossarydir{ss}"
+  status: "proposed"
+  grouptags: null
+  created: "2022-07-29"
+  updated: "2022-07-29"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "glossarydir.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "grouptag"
+  termtype: "concept"
+  termid: "grouptag"
+  formphrases: "grouptag{ss}, group-tag{ss}"
+  status: "proposed"
+  grouptags: null
+  created: "2022-06-06"
+  updated: "2022-07-28"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "grouptag.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "identifier"
+  termtype: "concept"
+  termid: "identifier"
+  formphrases: "identifier{ss}"
+  status: "proposed"
+  grouptags: "identification"
+  created: "2021-06-01"
+  updated: "2021-06-01"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "identifier.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "identify"
+  termtype: "concept"
+  termid: "identify"
+  formphrases: "identif{yies}, identif{ying}, identifiable, identification"
+  status: "proposed"
+  grouptags: "identification"
+  created: "2021-06-01"
+  updated: "2021-06-01"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "identify.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "knowledge-artifact"
+  termtype: "concept"
+  termid: "knowledge-artifact"
+  formphrases: "knowledge-artifact{ss}"
+  status: "proposed"
+  grouptags: null
+  created: "2022-07-27"
+  updated: "2022-07-27"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "knowledge-artifact.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "mental-model"
+  termtype: "concept"
+  termid: "mental-model"
+  formphrases: "mental-model{ss}, pattern{ss}, conceptual-model{ss}"
+  status: "proposed"
+  grouptags: null
+  created: "2022-06-06"
+  updated: "2022-06-07"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "mental-model.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "scope-directory"
+  termtype: "concept"
+  termid: "scope-directory"
+  formphrases: "scope-director{yies}, scopedir{ss}"
+  status: "proposed"
+  grouptags: null
+  created: "2022-07-29"
+  updated: "2022-07-29"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "scope-directory.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "scope"
+  termtype: "concept"
+  termid: "scope"
+  formphrases: "scope{ss}"
+  status: "proposed"
+  grouptags: null
+  created: "2022-06-06"
+  updated: "2022-06-06"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "scope.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "scoped-term"
+  termtype: "concept"
+  termid: "scoped-term"
+  formphrases: null
+  status: "proposed"
+  grouptags: null
+  created: "2022-06-06"
+  updated: "2022-06-06"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "scoped-term.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "scopetag"
+  termtype: "concept"
+  termid: "scopetag"
+  formphrases: "scopetag{ss}, scope-tag{ss}"
+  status: "proposed"
+  grouptags: null
+  created: "2022-06-06"
+  updated: "2022-07-28"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "scopetag.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "semantics"
+  termtype: "concept"
+  termid: "semantics"
+  formphrases: "semantics"
+  status: "proposed"
+  grouptags: null
+  created: "2022-06-06"
+  updated: "2022-06-06"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "semantics.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "tag"
+  termtype: "concept"
+  termid: "tag"
+  formphrases: "tag{ss}"
+  status: "proposed"
+  grouptags: null
+  created: "2022-06-06"
+  updated: "2022-06-06"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "tag.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "term"
+  termtype: "concept"
+  termid: "term"
+  formphrases: "term{ss}, word{ss}, phrase{ss}"
+  status: "proposed"
+  grouptags: null
+  created: "2022-06-06"
+  updated: "2022-07-29"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "term.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "terminology-process"
+  termtype: "concept"
+  termid: "terminology-process"
+  formphrases: "terminology-process, terminology-processes"
+  status: "proposed"
+  grouptags: null
+  created: "2022-06-06"
+  updated: "2022-06-06"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "terminology-process.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "terminology"
+  termtype: "concept"
+  termid: "terminology"
+  formphrases: "terminolog{yies}"
+  status: "proposed"
+  grouptags: null
+  created: "2022-06-06"
+  updated: "2022-06-06"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "terminology.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "terms-community"
+  termtype: "concept"
+  termid: "terms-community"
+  formphrases: "terms-communit{yies}"
+  status: "proposed"
+  grouptags: null
+  created: "2022-06-06"
+  updated: "2022-06-06"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "terms-community.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "versiontag"
+  termtype: "concept"
+  termid: "versiontag"
+  formphrases: "versiontag{ss}, version-tag{ss}"
+  status: "proposed"
+  grouptags: null
+  created: "2022-06-06"
+  updated: "2022-07-28"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "versiontag.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "vocabulary"
+  termtype: "concept"
+  termid: "vocabulary"
+  formphrases: "vocabular{yies}"
+  status: "proposed"
+  grouptags: null
+  created: "2022-06-06"
+  updated: "2022-06-06"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "RieksJ"
+  headingids: []
+  locator: "vocabulary.md"
+  navurl: "To be definedT"
+  scopetag: "tev2"
+ -
+  id: "test1"
+  termtype: "concept"
+  termid: "test1"
+  formphrases: "test1{ss}"
+  status: "proposed"
+  grouptags: null
+  created: "2022-07-29"
+  updated: "2022-08-01"
+  vsntag: "v0.1"
+  commit: null
+  contributors: "sih"
+  headingids: []
+  locator: "definition.md"
+  navurl: "To be definedT"
+  scopetag: "sihtev2"

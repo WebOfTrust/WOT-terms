@@ -1,2 +1,2 @@
 ## See
-[Issuance and presentation exchange protocol](issuance-and-presentation-exchange-protocol)
+[Issuance and presentation exchange protocol](term_issuance-and-presentation-exchange-protocol)

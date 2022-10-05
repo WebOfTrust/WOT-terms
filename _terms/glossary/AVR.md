@@ -1,2 +1,2 @@
 ## See
-[Authorized vLEI Representative](authorized-vlei-representative)
+[Authorized vLEI Representative](term_authorized-vlei-representative)

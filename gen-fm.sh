@@ -4,9 +4,9 @@
 # Adjustments for use: Henk van Cann
 # Run this script from the root dir in repo
 # ------------------------------------------
-SOURCE=Terms-WOT-manage.txt   # will stay in tact
-INPUT=Terms-workfile.txt      # will be overridden
-HEADER=Header-workfile.txt    # will be overridden
+SOURCE="Terms-WOT-manage.txt"   # will stay in tact
+INPUT="Terms-workfile.txt"      # will be overridden
+HEADER="Header-workfile.txt"    # will be overridden
 
 sed '1d' "${SOURCE}" > "${INPUT}"   # remove the header from the file by creating a work file
 sed -n '1p' "${SOURCE}" > "${HEADER}"   # add the header from the file by creating a work file
@@ -18,7 +18,7 @@ BASEDIR='_terms'
 DESTDIR='terms'
 DESTPRE='term'  
 
-function create_tagstring(){
+function create_tagstring (){
 
 CATLIST=(9 10 11 12 13 14 15 16) # Order numbers of the columns in the WOT-terms-manage sheet: all categories 
 COLS=("PTEL" "IPEX" "OOBI" "CESR" "ACDC" "KERI" "SAID" "GLEIF")  # Column names WOT-terms-manage sheet
@@ -32,11 +32,10 @@ for i in "${!COLS[@]}"; do
     fi  # a term is mentioned in this category
 done  # for loop
 TAGSTRING=$( echo "$TAGSTRING" | sed 's/^,//'  ) # Remove the leading comma
-echo ${TAGSTRING}
+echo "${TAGSTRING}"
 
 }
   
-
 # Copy all the ToIP wiki glossary files to $SUBSRC/$trm.md, Jekyll will use this dir as a source
 # ------------------------------------------
 
@@ -56,6 +55,7 @@ do
     text=$( echo $text | sed -e 's/\:/\;/g')   # replace ':' with ';' in front matter 
 
     echo "---" > $filename
+    echo "layout: default" >> $filename
     echo "title: Glossary - $Term" >> $filename
     if [[ ! -z $TAGSTRING ]]; then
       echo "tags: ["$TAGSTRING"]" >> $filename

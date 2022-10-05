@@ -4,4 +4,4 @@ It is robust through use of identification by [cryptographic hash function](http
 More at [source Wikipedia](https://en.wikipedia.org/wiki/Ricardian_contract)
 
 ## Related to KERI and ACDC
-Ricardian contracts provide a human readable twin to the seals and and signatures (commitments) in binary format in [ACDC](ACDC).
+Ricardian contracts provide a human readable twin to the seals and and signatures (commitments) in binary format in [ACDC](term_ACDC).

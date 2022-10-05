@@ -1,2 +1,2 @@
 ## See
-[Peer to peer](peer-to-peer)
+[Peer to peer](term_peer-to-peer)

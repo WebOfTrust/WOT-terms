@@ -4,4 +4,4 @@ A _digital_ signature is a mathematical scheme for verifying the authenticity of
 
 ## Electronic signatures
 
-There are `digital signatures` and [Electronic signatures](electronic-signature), the latter are quite different in purpose and practical use.
+There are `digital signatures` and [Electronic signatures](term_electronic-signature), the latter are quite different in purpose and practical use.

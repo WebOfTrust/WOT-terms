@@ -1,2 +1,2 @@
 ## See
-[Non-fungible token](non-fungible-token)
+[Non-fungible token](term_non-fungible-token)

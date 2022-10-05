@@ -1,2 +1,2 @@
 ## See
-[KERI improvement doc](keri-improvement-doc)
+[KERI improvement doc](term_keri-improvement-doc)

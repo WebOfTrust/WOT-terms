@@ -1,6 +1,6 @@
 ## Definition
 
-An encoding has _composability_ when any set of [self-framing](self-framing) concatenated primitives expressed in either the text domain or binary domain may be converted as a group to the other domain and back again without loss.
+An encoding has _composability_ when any set of [self-framing](term_self-framing) concatenated primitives expressed in either the text domain or binary domain may be converted as a group to the other domain and back again without loss.
 
 ## CESR related
 CESR is fully text binary concatenation composable.

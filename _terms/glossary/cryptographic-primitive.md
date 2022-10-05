@@ -3,7 +3,7 @@ Cryptographic primitives are well-established, low-level [cryptographic](https:/
 More on source [Wikipedia-page](https://en.wikipedia.org/wiki/Cryptographic_primitive)
 
 ## KERI related
-In KERI and ACDC it a serialization of a unitary value associated with a cryptographic operation including but not limited to a digest (hash), a salt, a seed, a private key, a public key, or a signature. All primitives in KERI MUST be expressed in [CESR](composable-event-streaming-representation-(CESR)).
+In KERI and ACDC it a serialization of a unitary value associated with a cryptographic operation including but not limited to a digest (hash), a salt, a seed, a private key, a public key, or a signature. All primitives in KERI MUST be expressed in [CESR](term_composable-event-streaming-representation-(CESR)).
 
 ## See also
-The more general term [primitive](primitive).
+The more general term [primitive](term_primitive).

@@ -8,4 +8,4 @@ In addition, governance frameworks define, guide, and provide for enforcement of
 Within GLEIF context, _governance frameworks_ manifest in a document that details the requirements for vLEI credentials.
 
 ## eSSIF-lab definition
-[governance framework](governance-framework@gswg) in the **#gswg** glossary [here](https://trustoverip.github.io/gswg/glossary#governance-framework).
+[governance framework](term_governance-framework@gswg) in the **#gswg** glossary [here](https://trustoverip.github.io/gswg/glossary#governance-framework).

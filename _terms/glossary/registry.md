@@ -4,12 +4,12 @@ When people refer to a registry, they usually mean a specific instance, within a
 
 ## Unique Registries
 
-A unique registry can be referenced in one of two ways, by [namespace](namespace), or by [domain](domain).
+A unique registry can be referenced in one of two ways, by [namespace](term_namespace), or by [domain](term_domain).
 
 <img src="https://hackmd.io/_uploads/HyXBDKbGi.png" width="400">
 
 [Source](https://stevelasker.blog/2020/02/17/registry-namespace-repo-names/)
 
 ## ACDC related
-ACDCs and SAIDS eliminated the need for a centrally controlled namespace registry for credential schemas. [schema registry](schema-registry).
+ACDCs and SAIDS eliminated the need for a centrally controlled namespace registry for credential schemas. [schema registry](term_schema-registry).
 
