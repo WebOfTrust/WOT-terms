@@ -57,20 +57,199 @@ Explanatory articles from Henk van Cann about KERI, CESR, OOBI, Autonomic identi
 
 Explanation of KERI development tools and techniques (preliminary link): [KERI development environment](https://github.com/henkvancann/keri-1/blob/main/docs/keri-dev-env.md)
 
+Howto's of WebofTrust documentation effort in github project page: [Howto](https://github.com/WebOfTrust/WOT-terms/tree/gh-pages/howto)
+
 ## Meetings
 ### Structure
-- Agenda\
- 20 minutes - Roadmap documentation: Delta between WPs - Techn. Design and Code at various repos / branches
- 20 minutes - Supported documents GLEIF use case\
- 10 minutes - Q&A
+- Agenda
+1. 20 minutes - Roadmap documentation: Delta between WPs - Techn. Design and Code at various repos / branches
+2. 20 minutes - Q&A
+3. 10 minutes - Supported documents GLEIF use case
+
 
 ### Future Topics
 Steven Milstein: Developer-tooling CLI, Docker containers
 
 ### ToDo
-- [ ] organize host rights - request sent Aug 11 by Henk to Philip/Sam
+- [x] organize host rights - request sent Aug 11 by Henk to Philip/Sam
 
 ### Discussion items
+
+Please provide questions you want answered about a give topic in the chat. Any question about KERI-ACDC-IPEX-CESR-OOBI. Feel free.
+
+Are there any terms you'd like to have defined?
+
+Reverse engineer a concepts - document. Can we still use / refer to the KIDs (comments) at DIF? Where has this content gone in WebofTrust / IETF?
+
+CESR: https://hackmd.io/GbQO3p6QTge-8eQMGuMaeQ#First-questions
+
+### 2022-10-06
+Henk van Cann (host)\
+Philip Feairheller (host)\
+Mark Scott\
+Randy Warshaw\
+Kent Bull\
+Steven Milstein
+
+Recording : https://drive.google.com/file/d/1MPeX8aN6D7HoWHTKDleq4QqFnyl7ozYk/view?usp=sharing
+
+Meeting minutes
+
+Henk reports efforts put into educational resources the last fortnight:
+
+- **Machine Readable Glossary (MRG)** - together with eSSIF-lab. Here is an  [example](http://127.0.0.1:4000/WOT-terms/mydoc_mrg.html) how a MRG glossary can be imported into "our" documentation site in the making. Data based on YAML, Liquid-based reporting, Jekyll static site on Github project page.
+- Import, filtering (levels of understanding, tags, categories), automatic site generation. [Example](http://127.0.0.1:4000/WOT-terms/mydoc_about_ruby_gems_etc.html). How can we **bring back the human scale** into the KERI-complexity equation. Next step: pimp up copies of the various whitepapers.
+
+There was a lively discussion which you can revisit in the recording. Some interesting points highlighted (feel free to amend!):
+
+- Which Christopher Allen paper is being referred to?
+    - He wrote the 10 principles of SSI in the past:
+	http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html
+- The 5 Whys
+	- “the autonomous control of authentic data and relationships." Timothy Ruff
+	https://rufftimo.medium.com/web3-web5-ssi-3870c298c7b4\
+    Added to the Which problems are solved by KERI
+
+- Usecases seem the final most important step: what problem -> (reserved documented) design principles -> use cases (real-world examples). We chose a step by step approach, today *what problem does .... solve?*
+
+- Not all people need to be offered solutions. The helicopter view on problem solving that can achieved with the KERI/ACDC suite (only), could choose wording that resonates with all human beings, as well as the experts. However the problems auxiliary systems solve could have a more technical nature. They serve the greater good, and you could ask yourself 'what **derived** problem does ... solve?'
+
+- That does not absolve us from thinking about the main problem that KERI solves; indeed, we might even create a derived hierarchy with sub-problems descending from the big picture.
+
+- [Issue](https://github.com/WebOfTrust/WOT-terms/issues/17) closed; [Draft](https://hackmd.io/2_rftT-USdys8onc8Echdw) Meaningful problem-solving opened. Feel free to amend and/or comment.
+
+- One last topic that has only been touched sideways: we are very lucky to have Sam on board, because the hard work has already been done relentlessly over the past years: 
+    - anchoring every design choice in scientific literature and/or 
+    - laid out concepts in over-night written whitepapers and 
+    - numerous responses in polemics with fellow experts in issues, social media, at IIWs, etc.
+    - we're negotiation with Google to add a new language pair *SAM - EN* in Google Translate; the 'detection' mode is a vital feature
+     
+  One of my favorite quotes of Sam: "You may dislike KERI but don't tell me KERI can't do it" And next he'll tell you exactly how it can.
+  So we only need to **reverse document the creation**, for KERI+ACDC's concept have already been anchored in history.\
+  Does this sound biased? :)
+
+### 2022-09-22
+Henk van Cann (host)\
+Philip Feairheller (host)\
+Mark Scott\
+Randy Warshaw\
+Harold Carr\
+Ruth Choueka
+
+Recording : https://drive.google.com/file/d/1L2xVBV7xwirKn7q2RSwFFLnRN3LAjB_v/view?usp=sharing
+
+Meeting minutes:
+#### Progress
+- [X] [Roadmap, Status and Resources](https://hackmd.io/yYpd2uhRTpCadsGVw3Rl-A?both)
+- [X] gen-* shellscripts to generate context-adaptive glossary links: [gen-fm](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/gen-fm.sh), [gen-yml](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/gen-yml.sh), and [gen-match](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/gen-match.sh). Status? see previous bullet point :).
+	- Gen-fm -> generate frontmatter, which are instruction for a static site generator ![Terms-WOT-manage.txt](https://hackmd.io/_uploads/BkvTOCtbi.png)
+#### Question & Answers
+
+Ruth Choueka : Are there different types of rotations?  For instance is it different if you rotate because your private key is compromised, or you rotate because you want to add another signing key?
+
+Mark Scott : Another rotation type, delegation?
+
+Henk van Cann : Reverse engineer a concepts - document. Can we still use / refer to the KIDs (comments) at DIF? Where has this content gone in 
+
+Harold Carr : What does KIDS mean? Answer: KERI improvement documents or implementation docs. [link](https://github.com/decentralized-identity/keri/tree/master/kids)
+
+Ruth Choueka : Are all of the ACDC field names fully documented? Answer: yes. See the [IETF ACDC draft](https://trustoverip.github.io/tswg-acdc-specification/draft-ssmith-acdc.html#section-2.1).
+
+Questions about writing CESR adapters: https://hackmd.io/GbQO3p6QTge-8eQMGuMaeQ#First-questions  Philip Feairheller : https://github.com/WebOfTrust/ietf-cesr look at the master table and connect with Sam Smith to grant / reserve letters. We're up to 'M' now.
+
+### 2022-09-08
+Mark Scott\
+Henk van Cann (host)\
+Philip Feairheller (host)\
+Ruth Choueka\
+Kent Bull\
+Steven Milstein
+
+Recording : https://drive.google.com/file/d/1KqW82Syaelnw_AJuAwL31-FzPqn6UvA9/view?usp=sharing
+
+Meeting minutes:
+
+#### Additions to issues and draft
+- [Roadmap draft](https://hackmd.io/yYpd2uhRTpCadsGVw3Rl-A?view)
+- [What problem does ... solve?](https://github.com/WebOfTrust/WOT-terms/issues/17)
+- We discussed and improved the ToC of [the envisaged roadmap](https://github.com/WebOfTrust/WOT-terms/issues/16)
+
+
+#### Recovery vs. rotation
+Ruth: what's the difference between recovery and rotation in KERI? Rotation is recovery, why do we use 'recovery' as a term?
+Henk: In the KERI/ACDC team we have to formulate our criteria whether a certain term covers something of our interest.
+Phil: In KERI recovery of an identifier is performed using rotation.
+
+#### Base and IP of glossary terms
+Steven: why do we disperse terms over various repos?\
+Henk: 
+- it's historically grown that we store our terms at [toip](https://github.com/trustoverip/acdc/wiki), using their software machinery (Github actions).
+- we reuse terms defined by other SSI umbrella organisations (e.g. [Toip general glossary](https://github.com/trustoverip/toip/wiki)) **only if** we happen to attach the same meaning to it **or** when it's useful to put our definition and criteria in a different perspective.
+- There's only one place where the glossary resides; the master glossary ([currently here](https://github.com/trustoverip/acdc/wiki))
+- The resulting website is at WebofTrust and uses a harvested copy (or "slave") of the glossary and modfies the data in a semi-automatic way. Reason: to be able to present with a more sophisticated user interface: context sensitive, filtering, side menus, search, comments options etc ([here](https://weboftrust.github.io/WOT-terms/)); *status*: development - test site.  
+
+#### Appeal
+An appeal has been made to assign the task in the issues to yourself and contribute with effort (apart from much appreciated words) to the solution of the issues (and to the creation of their intended results).
+
+---
+
+### 2022-08-25
+Ruth Choueka\
+Kent Bull\
+Steven Milstein\
+Joseph Hunsaker\
+Mark Scott\
+Henk van Cann (host)
+
+Recording : https://drive.google.com/file/d/1JNjCJQJ3V26GXYPdhYoZ40B2hfkOKjCs/view?usp=sharing
+
+ - [ ] Actionlist
+`Henk` suggests to work together (joint effort). He will therefore list actions that are still pending as a result of the former two meetings and this one. He'll use the Github issue functionality where we can assign ourselves to - or accept tasks and also track progress and completion. See the current list of [issues](https://github.com/WebOfTrust/WOT-terms/issues) and feel free to accept a task and / or create one of your own.
+
+- Agenda of this particular meeting:
+1. 20 minutes - Roadmap documentation: Delta between WPs - Techn. Design and Code at various repos / branches
+2. 20 minutes - Supported documents GLEIF use case
+3. 10 minutes - Q&A
+
+ - Minutes
+
+1. Roadmap
+It's important to realize this is about the KERI / ACDC roadmap and not our own roadmap in the Concepts-Terms-Edu group. It's too early to have an Edu roadmap and "eat our own dogfood". 
+Discussion
+ `Ruth`: What is and what is not implemented : Watcher service (Not), revocation (is, but not working)\
+ `Joseph`: where are we, so I could recommend certain parts or applications of KERI\
+ `Steven`: what's GLEIF and what's KERI?\
+ `Kent`: focus on Key management in the roadmap (+ storage / rotation )\
+ `Kent`: 3 stages: familiar with KERI -> easy CLI to demo -> to do a basic reference implementation\
+ `Steven`: 3 usecases for what hasn't been created yet: what would you do with KERI if you had it?
+
+2. GLEIF use case
+`Steven/Kent`: GLEIF is a good start, but centralized, a "phone home" solution.\
+`Steven`: What is the actual problem we're trying solving? We need to find the problem - solution - fit. Can we demonstrate that we understand what their problem is?\
+`Joseph`: In the past before we had Single Sign On. And people got it when we got SSO "single sign on is great". Now we have KERI, which is basically SSO on steroids. "This is my end-all-be-all SSO for life" -> that would be selling a problem.\
+Steven response to Joseph: 'It's not the problem GLEIF is solving. \
+`Kent`: GLEIF solves the problem of verifiable legal attestations in control of the company, but sharable in a zero trust architecture and verifiable in a decentralized manner.\
+`Steven` : is a centralized trust registry which is anti-decentralized. `Ruth` : GLEIF is the root of trust, indeed.\
+`Henk`: Could we describe the actual situation in the GLEIF implementation and how far away it is from the real unique value proposition KERI / ACDC has? And how it could change in the future? \
+`Kent`: We need a much more spohisticated educational resources than just the recordings of a technical demo.\
+`Ruth`: It's great that GLEIF is working worldwide and that vLEI is an actually used identifier.
+
+The demo footage of Steven and Phil that's been discussed was [this one](https://www.youtube.com/watch?v=GqjsRuu0V5A&t=1020s). The essence of the discussion was that it takes a big effort to make these kinds of vids accessable. Is it really the way to go.
+Maybe for our current target group (ID-, SSI- and Autonomic ID experts) but definitely not for the average citizen.
+
+3. Q&A 
+A few practical issues where raised where to find what. It is possible to comment in Hackmd.io to the text. The hosts will edit the minutes accordingly and cherry pick from the saved chat, upload the recording.
+It's also possible to raise a github issue [here](https://github.com/WebOfTrust/WOT-terms/issues)
+
+4. Chat - recommended links and podcast
+
+15:18:00 From Steven Milstein to Everyone:
+	https://www.yubico.com/solutions/cryptocurrency/ ?
+15:28:09 From Kent Bull to Everyone:
+	https://podcasts.google.com/feed/aHR0cHM6Ly90aGUtcnVicmljLmNhc3Rvcy5jb20vZmVlZA/episode/aHR0cHM6Ly9ydWJyaWMuY2MvP3Bvc3RfdHlwZT1wb2RjYXN0JnA9MTg5Ng?ep=14
+	And
+https://podcasts.google.com/feed/aHR0cHM6Ly90aGUtcnVicmljLmNhc3Rvcy5jb20vZmVlZA/episode/aHR0cHM6Ly9ydWJyaWMuY2MvP3Bvc3RfdHlwZT1wb2RjYXN0JnA9MTkwMA?ep=14
+
 
 ### 2022-08-11
 
@@ -117,6 +296,7 @@ There was pretty soon consensus about the argumentation that someone brought up 
 The current agenda items are suitable for offline processsing:
 - concepts and terms: the tools are there to amend, feel free to do it
 - more usecases, less focus. We have our minds and hands full on GLEIF.
+
 
 
 ### 2022-07-28
