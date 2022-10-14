@@ -82,14 +82,14 @@ Manifestation: KERI has found the IETF as a home. This is because its value stat
 #### Open source
 
 The KERI team maintains the following rules of thumb for all the repos in the [WoT project](https://github.com/WebOfTrust):
-- '*outgoing == incoming*' policy
+- '*outgoing == incoming*' policy ([Read more](#outgoing-is-incoming))
 - No restrictions more stringent than Apache2 ([No poisoning](#no-poisoning))
 - comprehensive licensing
 - No splitting contributions between different licenses
-- Possible to have less restrictive outgoing than incoming ( [Read more](possibility-to-have-less-restrictive-outgoing-than-incoming))
+- Possible to have less restrictive outgoing than incoming ( [Read more](##possibility-to-have-less-restrictive-outgoing-than-incoming) )
 
- or have multiple outgoing licenses that are of the same or less level of restriction but with different names because some consumers want to consume (outgoing) under a different license.
 
+##### Outgoing is incoming
 All the repos in the [WoT project](https://github.com/WebOfTrust) where the KERI code and related standards reside, have a '*outgoing == incoming*' policy. This means that someones use (outgoing) of a contribution (incoming) is on the same basis or license.
 
 ##### No poisoning
