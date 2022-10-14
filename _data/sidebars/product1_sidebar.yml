@@ -39,6 +39,10 @@ entries:
       url: /p1_sample3.html
       output: web, pdf
 
+    - title: testRLOUT
+      url: /testRLOUT.html
+      output: web, pdf
+
   - title: Another heading
     output: web, pdf
 

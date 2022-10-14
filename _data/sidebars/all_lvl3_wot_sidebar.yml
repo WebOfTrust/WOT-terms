@@ -1,0 +1,231 @@
+# This script automatically generated this Terms menu YAML file , with arguments
+# menuname: All WOT-terms, catname: all and level: 3.
+# The sidebar code loops through sections here and provides the appropriate formatting.
+# Generated running gen-yml.sh located in /Users/hvc/apps/WOT-terms, by UID hvc on Wed Aug 31 21:14:28 WEST 2022.
+
+entries:
+- title: sidebar
+  product: Glossary KERI/ACDC
+  version: 0.2
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: All WOT-terms
+    output: web, pdf
+    folderitems:
+
+  - title: AN - DKMI
+    output: web, pdf
+    folderitems:
+
+    - title: AN
+      url: /term_AN.html
+      output: web, pdf
+
+    - title: CESR
+      url: /term_CESR.html
+      output: web, pdf
+
+    - title: custodial-rotation
+      url: /term_custodial-rotation.html
+      output: web, pdf
+
+    - title: custodial-agent
+      url: /term_custodial-agent.html
+      output: web, pdf
+
+    - title: DEL
+      url: /term_DEL.html
+      output: web, pdf
+
+    - title: DHT
+      url: /term_DHT.html
+      output: web, pdf
+
+    - title: directed-acyclic-gra
+      url: /term_directed-acyclic-graph.html
+      output: web, pdf
+
+    - title: DKMI
+      url: /term_DKMI.html
+      output: web, pdf
+
+  - title: dual-text-binary-encoding-format - inception-event
+    output: web, pdf
+    folderitems:
+
+    - title: dual-text-binary-enc
+      url: /term_dual-text-binary-encoding-format.html
+      output: web, pdf
+
+    - title: duplicitous-event-lo
+      url: /term_duplicitous-event-log.html
+      output: web, pdf
+
+    - title: duplicity
+      url: /term_duplicity.html
+      output: web, pdf
+
+    - title: end-verifiable
+      url: /term_end-verifiable.html
+      output: web, pdf
+
+    - title: entropy
+      url: /term_entropy.html
+      output: web, pdf
+
+    - title: ephemeral
+      url: /term_ephemeral.html
+      output: web, pdf
+
+    - title: first-seen
+      url: /term_first-seen.html
+      output: web, pdf
+
+    - title: inception-event
+      url: /term_inception-event.html
+      output: web, pdf
+
+  - title: internal-inconsistency - keri-command-line-interface
+    output: web, pdf
+    folderitems:
+
+    - title: internal-inconsisten
+      url: /term_internal-inconsistency.html
+      output: web, pdf
+
+    - title: IPEX
+      url: /term_IPEX.html
+      output: web, pdf
+
+    - title: JOSE
+      url: /term_JOSE.html
+      output: web, pdf
+
+    - title: KA2CE
+      url: /term_KA2CE.html
+      output: web, pdf
+
+    - title: KAACE
+      url: /term_KAACE.html
+      output: web, pdf
+
+    - title: KEL
+      url: /term_KEL.html
+      output: web, pdf
+
+    - title: keri-agreement-algor
+      url: /term_keri-agreement-algorithm-for-control-establishment.html
+      output: web, pdf
+
+    - title: keri-command-line-in
+      url: /term_keri-command-line-interface.html
+      output: web, pdf
+
+  - title: keri-improvement-doc - key-event-receipt
+    output: web, pdf
+    folderitems:
+
+    - title: keri-improvement-doc
+      url: /term_keri-improvement-doc.html
+      output: web, pdf
+
+    - title: KERI
+      url: /term_KERI.html
+      output: web, pdf
+
+    - title: KERL
+      url: /term_KERL.html
+      output: web, pdf
+
+    - title: key-compromise
+      url: /term_key-compromise.html
+      output: web, pdf
+
+    - title: key-event-message
+      url: /term_key-event-message.html
+      output: web, pdf
+
+    - title: key-event-receipt-in
+      url: /term_key-event-receipt-infrastructure.html
+      output: web, pdf
+
+    - title: key-event-receipt-lo
+      url: /term_key-event-receipt-log.html
+      output: web, pdf
+
+    - title: key-event-receipt
+      url: /term_key-event-receipt.html
+      output: web, pdf
+
+  - title: key-state - reserve-rotation
+    output: web, pdf
+    folderitems:
+
+    - title: key-state
+      url: /term_key-state.html
+      output: web, pdf
+
+    - title: key-transparency
+      url: /term_key-transparency.html
+      output: web, pdf
+
+    - title: key
+      url: /term_key.html
+      output: web, pdf
+
+    - title: KID
+      url: /term_KID.html
+      output: web, pdf
+
+    - title: partial-pre-rotation
+      url: /term_partial-pre-rotation.html
+      output: web, pdf
+
+    - title: partial-rotation
+      url: /term_partial-rotation.html
+      output: web, pdf
+
+    - title: PKI
+      url: /term_PKI.html
+      output: web, pdf
+
+    - title: reserve-rotation
+      url: /term_reserve-rotation.html
+      output: web, pdf
+
+  - title: rotation-authority - TEL
+    output: web, pdf
+    folderitems:
+
+    - title: rotation-authority
+      url: /term_rotation-authority.html
+      output: web, pdf
+
+    - title: SCID
+      url: /term_SCID.html
+      output: web, pdf
+
+    - title: signing-authority
+      url: /term_signing-authority.html
+      output: web, pdf
+
+    - title: TCP
+      url: /term_TCP.html
+      output: web, pdf
+
+    - title: TEL
+      url: /term_TEL.html
+      output: web, pdf

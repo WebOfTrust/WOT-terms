@@ -28,6 +28,16 @@ is an often used phrase. Not to intimidate or to be condescending, but to stress
 > without understanding and belief, 
 > there won't be adoption.
 
+### Values at the base of our plan
+
+1. On-line education is important. We think it's an endless effort to improve the **understandability** of highly technical on-line resources and dedication is needed to achieve this value.
+2. **Static sites** have value. A few relevant advantages: 
+    - after creation it's fixed in a directory structure, make it read-only and it's safe
+    - working on continuously harvested copies of external resources (independence, improving UX, etc.)
+    - a static site works off-line as a charm
+    - inclusion by low-bandwidth requirements.
+3. **Continuous Development Continuous Integration** (CDCI) - Github actions keeps things up to date (as few human hands as possible).
+ 
 ### Concepts, here we go!
 
 That said, we consider there's given a wish to mutually understand each-other (this includes the awareness of being understood). If so, we could serve the interested recipient of information about this great innovation by:
@@ -37,7 +47,7 @@ That said, we consider there's given a wish to mutually understand each-other (t
 
 Then what might magically happen is that somewhere in this process the recipients concludes that the tool has **meaning** for them! He/she believes it has unique characteristics, value, practical application etc. There might even be someone that *sees* it's the next big thing on the web, like the KERI / ACDC tends to believe.
 
-So this is why we explain our concepts in various levels of understanding and link it to terminology spun in a interrelated glossary. Here you can find the KERI, OOBI, CESR and ACDC concepts, starting points and principles: [Concepts.md](./concepts.md)
+So this is why we explain our concepts in various levels of understanding and link it to terminology spun in a interrelated glossary. Here you can find the KERI, OOBI, CESR and ACDC concepts, starting points and principles: [Concepts.md](./term_concepts.md)
 
 {EXplain IETF, ToIP, eSSIF-Lab}
 

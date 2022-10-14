@@ -280,6 +280,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-algolia (~> 1.0)
+  jekyll-relative-links
   webrick (~> 1.7)
 
 BUNDLED WITH

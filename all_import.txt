@@ -1,0 +1,177 @@
+1              	1	ACDC
+3              	1	AID
+4              	167	AN
+8              	32	CESR
+9              	163	CT
+11             	3	DEL
+15             	2	GPG
+16             	400	I#O
+17             	2	IANA
+23             	4	KERI
+26             	8	LoA
+27             	3	LoC
+38             	16	SSI
+39             	1	TCP
+40             	2	TEL
+41             	33	UI
+42             	1	URL
+43             	2	VC#TEL
+48             	1	append#only#event#logs
+54             	1	autonomic#identity#system
+56             	1	best#available#data#acceptance#mechanism
+61             	9	cesr#proof#signatures
+64             	22	composable#event#streaming#representation
+65             	1	consensus#mechanism
+66             	3	content#addressable#hash
+68             	3	controller
+71             	3	crypto#libraries
+73             	13	cryptographic#commitment#scheme
+74             	8	cryptographic#strength
+77             	1	decentralized#key#management#infrastructure
+78             	2	delegated#identifier
+79             	18	digital#signature
+80             	19	directed#acyclic#graph
+81             	92	distributed#hash#table
+82             	52	dual#text#binary#encoding#format
+83             	6	duplicitous#event#log
+85             	17	electronic#signature
+86             	1	end#verifiable
+87             	1	entropy
+89             	2	first#seen
+92             	1	hierarchical#asynchronous#coroutines#and#input#output
+93             	2	identifier
+95             	7	inception#event
+98             	22	indexed#signature
+101            	11	issuance#and#presentation#exchange#protocol
+102            	3	javascript#object#signing#and#encryption
+106            	7	keri#improvement#doc
+109            	8	key#event#message
+110            	4	key#event#receipt#infrastructure
+111            	6	key#event#receipt#log
+112            	5	key#event#receipt
+113            	3	key#state
+115            	26	key
+118            	3	loci#of#control
+119            	6	management#transaction#event#log
+120            	8	message
+121            	6	multicodec
+124            	7	non#establishment#event
+126            	1	non#normative
+128            	10	non#transferable
+129            	1	normative
+130            	1	one#way#functions
+133            	2	primary#root#of#trust
+134            	79	primitive
+138            	1	public#key#infrastructure
+139            	1	public#verifiable#credential#registry
+141            	6	receipt#log
+142            	3	receipt
+144            	2	root#of#trust
+146            	2	secondary#root#of#trust
+147            	11	secure#asset#transfer#protocol
+149            	5	seed
+150            	12	self#addressing#data
+151            	2	self#certifying#identifier
+152            	27	self#framing
+154            	16	signed#digest
+156            	35	text#binary#concatenation#composability
+157            	6	transaction#event#log
+158            	11	transmission#control#protocol
+159            	67	trust#domain
+162            	8	verifiable#data#structure
+163            	1	verifiable
+165            	43	version
+166            	6	virtual#credential#transaction#event#log
+167            	2	web#of#trust
+169            	0	
+170            	0	
+172            	0	
+174            	1	input#output
+176            	0	
+177            	0	
+181            	0	
+182            	0	
+184            	0	
+188            	0	
+189            	0	
+192            	1	identifier#system
+193            	2	wallet
+194            	0	
+195            	2	witness
+197            	1	key#management
+198            	0	
+199            	2	single#signature#identifier
+201            	8	key#event
+202            	7	interaction#event
+203            	7	rotation#event
+204            	1	signing#threshold
+205            	6	key#event#log
+206            	17	verify#signature
+208            	0	
+209            	2	salt
+212            	0	
+213            	4	transferable#identifier
+214            	0	
+216            	0	
+217            	0	
+218            	0	
+220            	0	
+223            	0	
+225            	0	
+226            	15	threshold#signature#scheme
+228            	5	prefix
+229            	104	base64
+230            	21	qualified
+231            	152	derivation#code
+232            	3	blake3
+233            	2	data#anchor
+234            	2	autonomic#identifier
+235            	0	
+236            	16	digest
+237            	7	issuance#event
+238            	6	public#transaction#event#log
+239            	17	verify#signature
+240            	7	establishment#event
+242            	12	indexed#signature 
+243            	0	
+244            	0	
+245            	2	self#addressing#identifier
+246            	0	
+248            	2	witness
+249            	2	verifiable#legal#entity#identifier
+250            	1	ssi#system
+251            	0	
+252            	1	transfer#off#ledger
+253            	0	
+254            	0	
+257            	9	ip#address
+260            	0	
+261            	0	
+262            	0	
+263            	3	locked#state
+264            	0	
+265            	1	out#of#band#introduction
+266            	1	out#of#band#introduction
+268            	3	zero#trust
+269            	0	
+270            	7	revocation#event
+271            	0	
+272            	3	escrow#state
+273            	7	server#sent#event
+274            	6	seal
+283            	3	GAR
+285            	29	DAR
+291            	1	OOR
+306            	1	DID
+307            	2	decentralized#identifier
+315            	56	trans#contextual#value
+319            	5	API
+320            	4	key#pair
+332            	1	top#level#section
+333            	3	compact#variant
+335            	2	ricardian#contract
+337            	1	eclipse#attack
+338            	3	promiscuous#mode
+339            	11	protocol
+340            	0	
+341            	0	
