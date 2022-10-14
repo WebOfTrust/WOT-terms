@@ -4,7 +4,7 @@
 
 
 THIS IS UNDER CONSTRUCTION
-Would you like to contribute? Join us at the Concepts, Terms and Edu [bi-weekly Zoom session](./agenda.md)
+Would you like to contribute? Join us at the Concepts, Terms and Edu [bi-weekly Zoom session](./term_agenda.md)
 
 ## What is this?
 This concepts page explains the main design objectives of KERI and ACDC, which results in a scope (or context) and links them to
@@ -45,7 +45,7 @@ Concepts use existing terms (which could create confusion) and introduces new te
 
 ### Familiar terms
 
-We explain the terminology at various [levels of understanding](README.md#levels-of-understanding), and also **our criteria** how we judge certain terms to be defined for the sake of KERI / ACDC. E.g. `multisignatures`, `validators` and `verifiers`. What are they exactly? 
+We explain the terminology at various [levels of understanding](term_README.md#levels-of-understanding), and also **our criteria** how we judge certain terms to be defined for the sake of KERI / ACDC. E.g. `multisignatures`, `validators` and `verifiers`. What are they exactly? 
 
 ### Use cases and domains
 
@@ -53,7 +53,7 @@ Understanding could vary in different domains and use-cases (e.g. a controller i
 
 ### New terminology, acronyms and abbreviations
 
-KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevitably, new terminology has surfaced in the design of KERI and ACDC. In this `concepts` page we try to explain related terms in a few [levels of understanding](./README.md#levels-of-understanding). We've used analogies and symbols to clear up complex and intangible concepts for those new to KERI / ACDC and even for those experts that we consider being 'advanced'. The ultimate goal is to try to make sense in the perception of respectively the newbie - and the advanced identity expert.
+KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevitably, new terminology has surfaced in the design of KERI and ACDC. In this `concepts` page we try to explain related terms in a few [levels of understanding](./term_README.md#levels-of-understanding). We've used analogies and symbols to clear up complex and intangible concepts for those new to KERI / ACDC and even for those experts that we consider being 'advanced'. The ultimate goal is to try to make sense in the perception of respectively the newbie - and the advanced identity expert.
 
 ## Concept details (NO ORDERING yet)
 
@@ -81,8 +81,27 @@ Manifestation: KERI has found the IETF as a home. This is because its value stat
 
 #### Open source
 
-Manifestation:\
-Apache2
+The KERI team maintains the following rules of thumb for all the repos in the [WoT project](https://github.com/WebOfTrust):
+- '*outgoing == incoming*' policy ([Read more](#outgoing-is-incoming))
+- No restrictions more stringent than Apache2 ([No poisoning](#no-poisoning))
+- comprehensive licensing
+- No splitting contributions between different licenses
+- Possible to have less restrictive outgoing than incoming ( [Read more](##possibility-to-have-less-restrictive-outgoing-than-incoming) )
+
+
+##### Outgoing is incoming
+All the repos in the [WoT project](https://github.com/WebOfTrust) where the KERI code and related standards reside, have a '*outgoing == incoming*' policy. This means that someones use (outgoing) of a contribution (incoming) is on the same basis or license.
+
+##### No poisoning
+Prevent contributions to the code from being poisoned by other contributions that have a different i.e. more restrictive outgoing license, because once contributed there is no way to separate contributions.
+> Example:
+> IETF requires that IETF spec language be contributed under BSD not Apache2. But BSD is no less restrictive than Apache2 for outgoing so it does not poison the apache2 contributions. A consumer can consume under apache2 or via IETF through BSD. BSD is no more restrictive than Apache2. The license for the IETF spec repos in WoT include the BSD outgoing in addition to Apache2 for this reason.
+
+##### Possibility to have less restrictive outgoing than incoming
+or have multiple outgoing licenses that are of the same or less level of restriction but with different names because some consumers want to consume (outgoing) under a different license.
+
+**Manifestation:**\
+**Apache2 license default**
 
 #### Trust spanning layer for the internet
 Need: Fix the limitations of the original PKI-based WebofTrust.
@@ -104,9 +123,16 @@ We only have one set of tools for truly secure data control! Cryptographic one-w
 <!-- #######NEW BLOCK####### -->
 ### Practical principles
 
+#### Foreseeable future
+All designs accommodate for the foreseeable future in terms of size and number of types or variations.
+
 #### Simple cryptography, which has a long standing durability record
 
 #### Minimal sufficient means to an end - thresholded multi signs
+Example in CSER:
+> The design aesthetic is based on the understanding that there is a minimally sufficient cryptographic strength and more cryptographic strength is just wasting computation and bandwidth.
+> The accepted minimum for cryptographic strength is 128 bits of entropy or equivalently 2**128 (2 raised to the 128th power) brute force trials.
+[Source](https://github.com/WebOfTrust/ietf-cesr/blob/main/draft-ssmith-cesr.md#compact-fixed-size-codes) IETF Draft CESR
 
 #### Round-robin transposable streaming format text-binary-text-binary-etc
 
@@ -154,7 +180,7 @@ serialization indicates a preferred content-addressable identifier for that seri
 
 #### Its and Bits - Cryptography and one-way functions is the only thing than can safe our digital twin
 
-Use [trans-contextual value](trans-contextual-value) creation and capture to fuel cooperative network effects.
+Use [trans-contextual value](term_trans-contextual-value) creation and capture to fuel cooperative network effects.
 
 #### Network dynamics - centralized system will lose
 
@@ -171,9 +197,49 @@ Sam is going to develop this
 
 #### Security first (no compromise), then confidentiality (gradually give up in exchange for), then privacy (personal choice within the boundaries of confidentiality at hand)
 
-#### Strong bindings - security first
+**Security: technical**\
+Sufficient cryptographic strength (quantum safe)\
+Everything signed enforced ([strong bindings](#strong-bindings) and commitments, immutability)\
+[Verifiable to root-of-trust](#verifiable-to-the-root-of-trust) (no middlemen)\
+Fine-grained control mechanisms (lossless scalable in every technical direction; speed, prog.languages, codetables in CESR, )\
+Proven technology for cryptographic functions (robustness)\
+Interoperable by design (covers everthing; internet and off-line)\
+Minimalized attack surface (reuse of primitives)\
+Continuous internal and external consistency checks of data structures (duplicity)
+
+**Security: human self protection**\
+Private keys as far away from agents as possible (only signatures exposed)\
+pre-rotation (double-checked control authority)\
+Rotation (act when you smell danger)\
+Delegation (engage service provider without losing control; middleman on a leash)\
+Revocation (minimize effects of adversely situation)\
+Scalable witness & watchers network (reconciliation options; [first seen]())\
+Round-robin composable streaming (for readability of commitments)\
+Tamper evident (duplicity checks)\
+Non-repudiation
+
+#### KERI can't be (that) secure when
+
+- Private keys are not being kept private
+- Private keys are reused over and over to sign stuff
+
+#### KERI can't be (that) confidential when
+
+- Controller binds cryptographic protected data to him/herself (by mistake)
+- Graduated disclosure isn't used
+{TBW}
+
+#### KERI can't be (that) privacy protecting when
+
+- Third party binds cryptographic protected data to other actors involved (by mistake)
+{TBW}
+
+
+#### Strong bindings
+*Security first*
 
 #### Verifiable to the root of trust
+*Security first*, *confidentiallity*, *privacy*
 
 #### Primary root of trust - sufficient entropy / randomness + Private keys need to be kept private
 
@@ -192,7 +258,7 @@ This is the arguably most powerful capability that may provide an essential buil
 
 #### Internal consistency (VDS) and external consistency
 
-#### Key events - sequence number
+#### Key events - sequence number - first seen
 
 #### Transaction event log (TEL) separated - anchored in KEL - minimal sufficient means - secondary root-of-trust (dependent of anchoring KEL for primary root-of-trust validation)
 
@@ -204,7 +270,7 @@ This is the arguably most powerful capability that may provide an essential buil
 See [glossary item](https://github.com/trustoverip/acdc/wiki/non-repudiable)
 
 #### First seen - timing solution - overload protection
-KERI alternative to total global ordering and consensus protocols is a mechanism called [duplicity](duplicity) detection. In the [verification](verifiers) and [validation](validation) **watchers are all that matter**; they guarantee that logs are immutable by one very simple rule: "[first seen](first seen) wins".
+KERI alternative to total global ordering and consensus protocols is a mechanism called [duplicity](term_duplicity) detection. In the [verification](term_verifiers) and [validation](term_validation) **watchers are all that matter**; they guarantee that logs are immutable by one very simple rule: "[first seen](term_first-seen) wins".
 
 #### Pre-rotation - quantum protection - security fallback (exposure, theft) - portray changing power dynamics
 
@@ -221,6 +287,15 @@ In summary, the necessary constraint for complete event serialization is support
 
 #### CESR composeable without having to parse (in CBOR this is needed)
 ([Source](https://medium.com/happy-blockchains/cesr-one-of-sam-smiths-inventions-is-as-controversial-as-genius-d757f36b88f8))
+
+CESR uses a parse table so the same parsing code works on all codes.
+
+#### text and binary domains
+The text domain representation of a stream enables better usability (readability) and the binary domain representation of a stream enables better compactness. 
+
+#### Pipelined hierarchical composition codes 
+Allow efficient conversion or off-loading for concurrent processing of composed (concatenated) groups of primitives in a stream without having to individually parse each primitive before off-loading.
+
 **CESR is digital data streaming that** 
 1. can freely concatenate pieces of data
 2. Has a fixed streamlet size in both text and binary format
@@ -240,6 +315,20 @@ Composability allows text domain streams of primitives or portions of streams (s
 Fully qualified KERI cryptographic primitives are composable via concatenation in both the text (Base64) and binary domains.\
 CESR’s approach to filling its derivation-code tables is a first needed, first served basis.\
 In addition CESR’s requirement that all cryptographic operations maintain at least 128 bits of cryptographic strength precludes the entry of many weak cryptographic suites into the tables.
+
+#### Design choices CESR
+
+"There are many coding schemes that could satisfy the composability constraint of alignment on 24-bit boundaries. The main reason for using a text domain-centric encoding is higher usability, readability, or human friendliness. Indeed **a primary design goal of CESR is to select an encoding approach that provides high usability, readability, or human friendliness** in the *text* domain. This type of usability goal is simply not realizable in the binary domain.\
+The *binary* domain's purpose is merely to **provide convenient compactness at scale**. We believe usability in the text domain is maximized when the *type* portion of the prepended framing code is stable or invariant. Stable type coding makes it much easier to recognize primitives of a given type when debugging source, reading messages, or documents in the text domain that include encoded primitives. This is true even when those primitives have different lengths or values."\
+[Source](https://github.com/WebOfTrust/ietf-cesr/blob/main/draft-ssmith-cesr.md) IETF Draft CESR.
+
+There are two possibilities for CESR's coding scheme to ensure a composable 24-bit alignment. The first is to add trailing pad characters post-conversion. The second is to add leading pad bytes pre-conversion. Because of the greater readability of the value portion of both the fully qualified text, T, or fully qualified binary, B, domain representations, the second approach was chosen for CESR.\
+[Source](https://github.com/WebOfTrust/ietf-cesr/blob/main/draft-ssmith-cesr.md#code-characters-and-lead-bytes) IETF Draft CESR.
+
+Good cold start **re-synchronization** is essential to robust performant stream processing. Special CESR count codes support re-synchronization at each boundary between interleaved CESR and other serializations like JSON, CBOR, or MGPK
+
+#### Multiple Code Table Approach
+The design goals for CESR framing codes include minimizing the framing code size for the most frequently used (most popular) codes while also supporting a sufficiently comprehensive set of codes for all foreseeable current and future applications. The design strives for a high degree of both flexibility and extensibility. We believe this is best achieved with multiple code tables each with a different coding scheme that is optimized for a different set of features instead of a single one-size-fits-all scheme. [Source](https://github.com/WebOfTrust/ietf-cesr/blob/main/draft-ssmith-cesr.md#multiple-code-table-approach).
 
 #### GDDP True gossip protocol AND Round Robin (KERI meeting Tue Aug 9)
 
@@ -313,7 +402,7 @@ Best and compactly described by Daniel Hardman in [Security, Silos, and Sovereig
 "SSI is not bestowed by corporate IT (Active Directory/LDAP systems); it’s not granted by internet giants (“sign in with Google/Facebook”); it’s not arranged through single sign-on vendors. SSI is for ordinary people who detest their messy collection of usernames and passwords, and just want bad guys to go away and good guys to enjoy the trust they deserve. SSI puts us — not institutions that leak our data to hackers, sell our data to partners, or surveil us for their own purposes — in charge. It also empowers governments, businesses, and other institutions that want to revolutionize privacy, redefine the cybersecurity and regulatory landscape, reduce cost and risk, keep people safe in pandemics, and do right by the people they serve."
 
 #### No needless control, no needless surveillance
-Principle: In a society there needs some control and surveillance of individuals (or individual entities) for the sake of the security of soceity as a whole. However, those situation should be limited to absolute minimum needed and be strictly independently monitored.
+Principle: In a society there needs some control and surveillance of individuals (or individual entities) for the sake of the security of society as a whole. However, those situation should be limited to absolute minimum needed and be strictly independently monitored.
 We consider all other control and surveillance to be 'needless'.
 
 Manifestion: A robust witness network along with consistent witness rotation provides protection from monitoring and association of an individual's activity inside a KERI network.\
