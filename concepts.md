@@ -81,8 +81,27 @@ Manifestation: KERI has found the IETF as a home. This is because its value stat
 
 #### Open source
 
-Manifestation:\
-Apache2
+The KERI team maintains the following rules of thumb for all the repos in the [WoT project](https://github.com/WebOfTrust):
+- '*outgoing == incoming*' policy
+- No restrictions more stringent than Apache2 ([No poisoning](#no-poisoning))
+- comprehensive licensing
+- No splitting contributions between different licenses
+- Possible to have less restrictive outgoing than incoming ( [Read more](possibility-to-have-less-restrictive-outgoing-than-incoming))
+
+ or have multiple outgoing licenses that are of the same or less level of restriction but with different names because some consumers want to consume (outgoing) under a different license.
+
+All the repos in the [WoT project](https://github.com/WebOfTrust) where the KERI code and related standards reside, have a '*outgoing == incoming*' policy. This means that someones use (outgoing) of a contribution (incoming) is on the same basis or license.
+
+##### No poisoning
+Prevent contributions to the code from being poisoned by other contributions that have a different i.e. more restrictive outgoing license, because once contributed there is no way to separate contributions.
+> Example:
+> IETF requires that IETF spec language be contributed under BSD not Apache2. But BSD is no less restrictive than Apache2 for outgoing so it does not poison the apache2 contributions. A consumer can consume under apache2 or via IETF through BSD. BSD is no more restrictive than Apache2. The license for the IETF spec repos in WoT include the BSD outgoing in addition to Apache2 for this reason.
+
+##### Possibility to have less restrictive outgoing than incoming
+or have multiple outgoing licenses that are of the same or less level of restriction but with different names because some consumers want to consume (outgoing) under a different license.
+
+**Manifestation:**\
+**Apache2 license default**
 
 #### Trust spanning layer for the internet
 Need: Fix the limitations of the original PKI-based WebofTrust.
@@ -104,9 +123,16 @@ We only have one set of tools for truly secure data control! Cryptographic one-w
 <!-- #######NEW BLOCK####### -->
 ### Practical principles
 
+#### Foreseeable future
+All designs accommodate for the foreseeable future in terms of size and number of types or variations.
+
 #### Simple cryptography, which has a long standing durability record
 
 #### Minimal sufficient means to an end - thresholded multi signs
+Example in CSER:
+> The design aesthetic is based on the understanding that there is a minimally sufficient cryptographic strength and more cryptographic strength is just wasting computation and bandwidth.
+> The accepted minimum for cryptographic strength is 128 bits of entropy or equivalently 2**128 (2 raised to the 128th power) brute force trials.
+[Source](https://github.com/WebOfTrust/ietf-cesr/blob/main/draft-ssmith-cesr.md#compact-fixed-size-codes) IETF Draft CESR
 
 #### Round-robin transposable streaming format text-binary-text-binary-etc
 
@@ -171,9 +197,49 @@ Sam is going to develop this
 
 #### Security first (no compromise), then confidentiality (gradually give up in exchange for), then privacy (personal choice within the boundaries of confidentiality at hand)
 
-#### Strong bindings - security first
+**Security: technical**\
+Sufficient cryptographic strength (quantum safe)\
+Everything signed enforced ([strong bindings](#strong-bindings) and commitments, immutability)\
+[Verifiable to root-of-trust](#verifiable-to-the-root-of-trust) (no middlemen)\
+Fine-grained control mechanisms (lossless scalable in every technical direction; speed, prog.languages, codetables in CESR, )\
+Proven technology for cryptographic functions (robustness)\
+Interoperable by design (covers everthing; internet and off-line)\
+Minimalized attack surface (reuse of primitives)\
+Continuous internal and external consistency checks of data structures (duplicity)
+
+**Security: human self protection**\
+Private keys as far away from agents as possible (only signatures exposed)\
+pre-rotation (double-checked control authority)\
+Rotation (act when you smell danger)\
+Delegation (engage service provider without losing control; middleman on a leash)\
+Revocation (minimize effects of adversely situation)\
+Scalable witness & watchers network (reconciliation options; [first seen]())\
+Round-robin composable streaming (for readability of commitments)\
+Tamper evident (duplicity checks)\
+Non-repudiation
+
+#### KERI can't be (that) secure when
+
+- Private keys are not being kept private
+- Private keys are reused over and over to sign stuff
+
+#### KERI can't be (that) confidential when
+
+- Controller binds cryptographic protected data to him/herself (by mistake)
+- Graduated disclosure isn't used
+{TBW}
+
+#### KERI can't be (that) privacy protecting when
+
+- Third party binds cryptographic protected data to other actors involved (by mistake)
+{TBW}
+
+
+#### Strong bindings
+*Security first*
 
 #### Verifiable to the root of trust
+*Security first*, *confidentiallity*, *privacy*
 
 #### Primary root of trust - sufficient entropy / randomness + Private keys need to be kept private
 
@@ -192,7 +258,7 @@ This is the arguably most powerful capability that may provide an essential buil
 
 #### Internal consistency (VDS) and external consistency
 
-#### Key events - sequence number
+#### Key events - sequence number - first seen
 
 #### Transaction event log (TEL) separated - anchored in KEL - minimal sufficient means - secondary root-of-trust (dependent of anchoring KEL for primary root-of-trust validation)
 
@@ -204,7 +270,7 @@ This is the arguably most powerful capability that may provide an essential buil
 See [glossary item](https://github.com/trustoverip/acdc/wiki/non-repudiable)
 
 #### First seen - timing solution - overload protection
-KERI alternative to total global ordering and consensus protocols is a mechanism called [duplicity](term_duplicity) detection. In the [verification](term_verifiers) and [validation](term_validation) **watchers are all that matter**; they guarantee that logs are immutable by one very simple rule: "[first seen](term_first seen) wins".
+KERI alternative to total global ordering and consensus protocols is a mechanism called [duplicity](term_duplicity) detection. In the [verification](term_verifiers) and [validation](term_validation) **watchers are all that matter**; they guarantee that logs are immutable by one very simple rule: "[first seen](term_first-seen) wins".
 
 #### Pre-rotation - quantum protection - security fallback (exposure, theft) - portray changing power dynamics
 
@@ -336,7 +402,7 @@ Best and compactly described by Daniel Hardman in [Security, Silos, and Sovereig
 "SSI is not bestowed by corporate IT (Active Directory/LDAP systems); it’s not granted by internet giants (“sign in with Google/Facebook”); it’s not arranged through single sign-on vendors. SSI is for ordinary people who detest their messy collection of usernames and passwords, and just want bad guys to go away and good guys to enjoy the trust they deserve. SSI puts us — not institutions that leak our data to hackers, sell our data to partners, or surveil us for their own purposes — in charge. It also empowers governments, businesses, and other institutions that want to revolutionize privacy, redefine the cybersecurity and regulatory landscape, reduce cost and risk, keep people safe in pandemics, and do right by the people they serve."
 
 #### No needless control, no needless surveillance
-Principle: In a society there needs some control and surveillance of individuals (or individual entities) for the sake of the security of soceity as a whole. However, those situation should be limited to absolute minimum needed and be strictly independently monitored.
+Principle: In a society there needs some control and surveillance of individuals (or individual entities) for the sake of the security of society as a whole. However, those situation should be limited to absolute minimum needed and be strictly independently monitored.
 We consider all other control and surveillance to be 'needless'.
 
 Manifestion: A robust witness network along with consistent witness rotation provides protection from monitoring and association of an individual's activity inside a KERI network.\
