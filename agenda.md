@@ -298,7 +298,6 @@ The current agenda items are suitable for offline processsing:
 - more usecases, less focus. We have our minds and hands full on GLEIF.
 
 
-
 ### 2022-07-28
 
 Present:\
