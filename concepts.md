@@ -79,7 +79,7 @@ KERI came to be in occasional happenings, online and in-person, in which individ
 
 Manifestation: KERI has found the IETF as a home. This is because its value statement and organizational principles strongly resonate with KERI.
 
-#### Open source
+#### Open source licensing
 
 The KERI team maintains the following rules of thumb for all the repos in the [WoT project](https://github.com/WebOfTrust):
 - '*outgoing == incoming*' policy ([Read more](#outgoing-is-incoming))

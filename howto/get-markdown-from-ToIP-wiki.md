@@ -36,4 +36,17 @@ Go to your newly created local repository and all the .MD files will be there
 > Example:\
 > <img src="https://hackmd.io/_uploads/H1SO-jMAq.png" width="600" alt="list of term .MD files in the wiki repo">
 
+## How to retrieve updates of the actual .MD-file to my local machine?
 
+Suppose you're in the root of the `acdc.wiki`
+
+Command
+```
+git remote -v
+```
+tells you from which remote location you'd like to pull the changes from
+
+Then pull the `.md`-files in:
+```
+git pull origin master
+```
