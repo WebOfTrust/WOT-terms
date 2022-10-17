@@ -210,7 +210,7 @@ do
     patrn=""
     
     case $FUZZYTYPE in
-    1) # Compose type 2: Example "A B C D" will be searched as type 1 + "D", "C D", "B C D"
+    1) # Compose type 1: Example "A B C D" will be searched as type 1 + "D", "C D", "B C D"
        let i=$numWords-1  # index of an array starts at 0, so -1 for total number to traverse correctly
         echo "words: ${arrayWords[@]} ; numWords: ${numWords}"
         while [ $i -ge 0 ]; do
