@@ -10,36 +10,6 @@ folder:
 Samuel M. Smith Ph.D.\
 v1.33 2021/05/16
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/key-event-promulgation-service.png" width="800">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Abstract
 A universal theory for identifiers is presented. This theory is based on a unified model of identifiers that include cryptographic autonomic identifiers (AIDs) and legitimized (authorized) human meaningful identifiers (LIDs). This model provides truly decentralized trust bases each derived from the cryptographic root-of-trust of a given AID. An AID is based on a self-certifying identifier (SCID) prefix. Self certifying identifiers are not human meaningful but have strong cryptographic properties. The associated self-certifying trust basis gives rise to a trust domain for associated cryptographically verifiable non-repudiable statements. Every other type of identifier including human meaningful identifiers may then be secured in this resultant trust domain via an end-verifiable authorization. This authorization legitimizes that human meaningful identifier as an LID though its association with an AID. The result is a secured trust domain specific identifier couplet of aid|lid. AIDs are provided by the open standard key event receipt infrastructure (KERI) [42]. This unified model provides a systematic methodology for the design and implementation of secure decentralized identifier systems that underpin decentralized trust bases and their associated ecosystems of interactions.
 
@@ -55,7 +25,7 @@ We use the term identifier system instead of identity system to emphasize that i
 
 In general we want to have a theory or model of how to design identifier systems with desirable properties. As mentioned above, some desirable properties are security, trustability, and universality. Historically identifier systems has been designed without any unifying theory to guide the designers. This means that many identifier systems are largely bespoke to a given application. This may be problematic especially when the identifier system does not have a well defined approach to security. More recently, explicitly characterizing identifier properties has gained some recognition as a prerequisite to identifier system design. For example, the well known Zooko's triangle or trilemma is based on recognizing a conflict between three different desirable properties for an identifier [61]. The three properties are human meaningful, secure, and decentralized. The trilemma states that an identifier may have any two of the three properties by not all three. Some have claimed to have solved the trilemma by using a hybrid identifier system where human meaningful but insecure identifiers may be registered on a distributed consensus ledger. The registration process itself uses identifiers that are secure and decentralized but not human meaningful [50]. The fact that not one identifier but a combination of identifiers is needed to solve the trilemma hints that the identifier model therein employed is incomplete. A notional diagram of Zooko's triangle is shown below:
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/zookos-triangle.png" width="800">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/zookos-triangle.png" width="500">
 
 #### Figure 1.1.  Zooko's Triangle
 
@@ -107,7 +77,7 @@ aid|lid	(1.2)
 
 where aid represents the cryptographic identifier prefix of an AID, the vertical bar, |, represents the legitimizing authorization, and lid represents the legitimized human meaningful identifier. This couplet may be diagrammed as follows:
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/aid-lid-couplet.png" width="800">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/aid-lid-couplet.png" width="100">
 
 #### Figure 1.5.  AID|LID couplet
   This coupling is a special type of name spacing. For example suppose the LID is a library Dewey Decimal code for a book such as:
@@ -122,7 +92,7 @@ The trust domain of an AID provides a context in which to interpret the appearan
 
 To further explicate this concept, we may characterize any aid|lid couplet as consisting of two classes of identifiers, primary and secondary. Primary identifiers are AIDs and are self-certifying to a cryptographic root-of-trust. Secondary identifiers are LIDs and are not self-certifying but are secured under the aegis of an associated primary identifier's trust domain. A tertiary class of identifier has no external security properties but may be useful within the confines of an application user interface or other local content. In other words, tertiary identifiers are unsecured and may only be used internally or where security is unimportant whereas primary and secondary identifier may be used externally. A primary may appear alone but a secondary must either appear within the known context of a primary or as a couplet with the primary itself. This trust domain contextualization is shown in the following diagram:
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/aid-trust-domain.png" width="800">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/aid-trust-domain.png" width="300">
 
 #### Figure 1.6.  LIDs within the context of an AID trust domain
 This unified model of primary, secondary, and tertiary identifiers may now be used to guide the design of any identifier system. The design of the primary AID may be tuned to the specific security, performance, and governance properties of the application. The design of the secondary LID may be tuned to provide any other desirable human meaningful properties of the identifier. And all other identifiers are tertiary.
@@ -132,7 +102,7 @@ In the context of an autonomic identifier system, trust has two distinct meaning
 
 Identifier systems need both attributional trust and reputational trust. The first derived from  consistent attribution, enables us to trust that a statement was made by an entity (who) and the second, reputation, enables us to trust in what that entity said. This forms a trust balance.  For example, a verifiable credential issued by an entity is only of value if we can trust both that the entity indeed issued it and that the contents or attributes of the credential are accurate. Cryptography allows us to verify that the issuer truly created the credential but we must trust the institutional, organizational, behavioral integrity or reputation of the issuer in order to trust in what the credential asserts. The later requires reputational trust in the issuer of the credential. Another way of understanding this trust balance is that the primary value in any issuance of information is dependent on the veracity of that information and that veracity is dependent on the credibility (reputation) of the issuer but we may only securely associate that reputation to that information if the authenticity of the issuer is established. So first authenticity (AID) and then veracity (LID). This dependency is shown in the following diagram.
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/veracity-authenticity.png" width="800">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/veracity-authenticity.png" width="300">
 
 #### Figure 1.7.  Veracity dependency on authenticity.
 
@@ -214,11 +184,11 @@ The reason a system may not provide all three completely is that no single crypt
 
 KERI employs non-repudiable signatures which provide the highest degree of authenticity in a practical cryptographic operation. But verifiable non-repudiable signatures are correlation points for the associated identifier. This makes privacy incomplete. Alternatively a Diffie-Hellman key exchange provides encryption keys for confidentiality, but does not provide non-repudiation so does not provide complete authenticity. Without going into detail here, careful examination of any cryptographic operation exposes a similar tradeoff.  This triangle is diagrammed below:
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/smiths-triangle.png" width="800">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/smiths-triangle.png" width="500">
 
 #### Figure 1.8.  Triangle/Trilemma of Identifier System Properties
 
-## 2 SEPARABLE ROOTS-OF-TRUST
+## 2. SEPARABLE ROOTS-OF-TRUST
 
 KERI supports separable control over shared data. This separation of control is between the controller and the validator. The controller controls the generation and promulgation of key events for the controller's AID and the validator controls the confirmation network that verifies the key events.
 
@@ -311,7 +281,7 @@ Policies for authentication and authorization must be governed by end-verified d
 
 Hosts or host components executing any of the logic mentioned above must be locked down. Any changes to the host execution logic or behavior must be fully security tested and validated over the respective possible combinations of hardware and software platform. This means locking down key management and cryptographic operations on the devices. This includes key generation and storage, as well as signature generation and signature verification. These may benefit from the use of some form of trusted execution environment (TEE) either generally or specially as in a trusted platform module (TPM) or a hardware security module (HSM). In addition to key management and cryptographic operations, special security measures must be implemented regarding secure execution of the application logic (e.g. code injection, insecure object references, cross-site/service request forgery, cross-service scripting, etc.).
 
-## 3 SECURITY SUMMARY
+## 3. SECURITY SUMMARY
 
 One useful way of describing KERI is as a decentralized key management infrastructure (DKMI) based on key change events that supports attestable key events and consensus-based verification of key events.
 
@@ -319,7 +289,7 @@ With KERI, security becomes largely a function of a given participant's infrastr
 
 It's much easier to secure one's own keys well than to secure everyone else's internet computing infrastructure well.
 
-## 4 KEY ROTATION AND STATEMENT REVOCATION
+## 4. KEY ROTATION AND STATEMENT REVOCATION
 
 The term revocation has two completely different meanings in the identity space. In key management one may speak of revoking keys. With statement issuance, authorization issuance, or credential issuance, one may speak of revoking an authorization statement, a token, or a credential.
 
@@ -353,15 +323,16 @@ Typically, the ephemeral authorization model works best in a bipartite VC model 
 
 Any presentation of a signed statement with persistent authorization must include a reference to its location in the VDR (log) to determine the authoritative keys at the time (location) in the VDR when the statement was signed. The signed statement is authorized until revoked (rescinded) with another signed statement that is signed with the set of authoritative keys at the time of the signing of the revocation statement. If the VDR location reference is absent in the presentation, then the authorization is assumed to be ephemeral and the verifier uses the current authoritative keys to verify the authorization status of the signed statement.
 
+This is a hybrid of Rule 1 and Rule 2. In this model, only logged signed statements use rule 1) and all other signed statements use rule 2). Because Rule 3) requires a log for the persistently authorized signed statements, it may still be privacy preserving relative to a Rule 2 implementation without a log. In this case the verifier need only reference the log (VDR) to get the authoritative keys instead of making a presentation directly to the verifier. KERI supports Rule 3 because it provides both the key state and may also provide any anchored signed statement state.
 
-  This is a hybrid of Rule 1 and Rule 2. In this model, only logged signed statements use rule 1) and all other signed statements use rule 2). Because Rule 3) requires a log for the persistently authorized signed statements, it may still be privacy preserving relative to a Rule 2 implementation without a log. In this case the verifier need only reference the log (VDR) to get the authoritative keys instead of making a presentation directly to the verifier. KERI supports Rule 3 because it provides both the key state and may also provide any anchored signed statement state.
+To elaborate, for Rule 1 or 3 to be practically implemented, one must maintain a verifiable data registry (VDR), such as, either a log of signed statements or a cryptographic commitment (digest) to those statements (via a Merkle tree or hash chained data structure). With a VDR one can verify that a persistently authorized statement was signed with the authoritative set of keys at the time of signing. Verification is always with respect to the set of signing keys used to create the signature at the time the statement was signed. This means the verifier must have a way of determining the history or lineage of control authority via a log or ledger of the key rotation history to know that a persistently authorized statement was signed with the authoritative set of keys at the time of signing. This means that the log or ledger must not only log the lineage of keys (key rotation history), but also the statements (or at least a digest of the statements) signed by those keys. Otherwise, a compromise of the current signing keys (which rotation protects from) would allow an exploit to create forged but verifiable supposedly authorized statements after the keys have been rotated. 
 
-  To elaborate, for Rule 1 or 3 to be practically implemented, one must maintain a verifiable data registry (VDR), such as, either a log of signed statements or a cryptographic commitment (digest) to those statements (via a Merkle tree or hash chained data structure). With a VDR one can verify that a persistently authorized statement was signed with the authoritative set of keys at the time of signing. Verification is always with respect to the set of signing keys used to create the signature at the time the statement was signed. This means the verifier must have a way of determining the history or lineage of control authority via a log or ledger of the key rotation history to know that a persistently authorized statement was signed with the authoritative set of keys at the time of signing. This means that the log or ledger must not only log the lineage of keys (key rotation history), but also the statements (or at least a digest of the statements) signed by those keys. Otherwise, a compromise of the current signing keys (which rotation protects from) would allow an exploit to create forged but verifiable supposedly authorized statements after the keys have been rotated. 
+The log itself allows the controller to anchor cryptographic digests of any other data to the log at a specific place in the log. One may use the KERI KEL as a hash chain clock. The log provides a point in hash chain time for any anchored data item. That anchor is a cryptographic commitment to that data. The ordering of all anchored statement may then be verifiable like a ledger but without needing a "ledger", as the KEL is effectively a "micro ledger". This means that, with KERI, one may use the KEL as a clock for determining both the issuance and later revocation time for any anchored statements associated with VCs.
 
-  The log itself allows the controller to anchor cryptographic digests of any other data to the log at a specific place in the log. One may use the KERI KEL as a hash chain clock. The log provides a point in hash chain time for any anchored data item. That anchor is a cryptographic commitment to that data. The ordering of all anchored statement may then be verifiable like a ledger but without needing a "ledger", as the KEL is effectively a "micro ledger". This means that, with KERI, one may use the KEL as a clock for determining both the issuance and later revocation time for any anchored statements associated with VCs.
+If the use of a VDR (log or ledger) is not practical, then only Rule 2 is feasible. This is one reason why token-based authorization systems such as OIDC and JWT only use Rule 2. This means that when the keys used to sign the token have been rotated the token�s authorization is automatically revoked; effectively, the token is always verified by the current set of signing keys so it will fail verification after key rotation.
 
-  If the use of a VDR (log or ledger) is not practical, then only Rule 2 is feasible. This is one reason why token-based authorization systems such as OIDC and JWT only use Rule 2. This means that when the keys used to sign the token have been rotated the token�s authorization is automatically revoked; effectively, the token is always verified by the current set of signing keys so it will fail verification after key rotation.
-  When leveraging authorization tooling to implement VCs, one should carefully consider how much is gained or lost by using tools built for different authorization models.
+When leveraging authorization tooling to implement VCs, one should carefully consider how much is gained or lost by using tools built for different authorization models.
+
 > Rule 4: Rotate the Identifier not the Keys Model
 
 A signed statement's authorization is persistent until the ephemeral identifier associated with the authoritative keys has been rotated. Rotation of the identifier effectively rotates the authoritative keys.
@@ -382,11 +353,11 @@ This same strategy may be applied to any management domain where one transferabl
 
 Another example is an IoT application where a marshal maintains a template of the network configuration with a mapping between IoT device identifiers and network addresses. The Marshal may benefit from a transferable identifier but the IoT devices need only use ephemeral (non-transferable) identifiers because should they ever be compromised the marshal may replace their entry in the template with a new identifier (and associated keys).
 
-## 5 MULTI-VALENT KEY MANAGEMENT INFRASTRUCTURE FOR AN ENTITY
+## 5. MULTI-VALENT KEY MANAGEMENT INFRASTRUCTURE FOR AN ENTITY
 
 The root-of-trust for an AID based trust domain in KERI is the self-certifying identifier prefix for that AID. The security of that root-of-trust is essentially the security of the private key(s)  that control that identifier prefix. More generally this is the security of the key management of the associated private keys. Recall that in KERI the keys being managed for control authority are cryptographic signing keys. The essential management functions we call the three R's of key management. These are key reproduction (key pair generation and storage), key recovery, and key rotation. Key rotation depends on the reproduction function for new key generation and storage and key recovery provides redundancy in the key storage or recreation. In addition to these management functions the other important relevant operations are event generation and event signing with those private keys. A useful way of viewing key management is that there are two infrastructures. One is the key-pair generation and storage infrastructure and the other is the key event generation and signing infrastructure. This is shown in the figure below.
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/univalent-key-man-infra.png" width="800">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/univalent-key-man-infra.png" width="300">
 
 #### Figure 5.1.  Univalent key management infrastructure
 
@@ -402,7 +373,7 @@ To elaborate, in a cooperative delegation, the key generation and storage functi
 
 The only data that needs to move between the two infrastructures (delegator and delegate) comes from the associated key events in the delegations. The movement of signed event data does not pose a security risk in any meaningful sense. A signed event is a verifiable statement that contains no secrets and given sufficient cryptographic strength of the underlying one way functions may not be forged by any practical means. The important feature of a delegated identifier prefix is that recovery from a compromise of the private keys of the delegate may be performed via a rotation event authorized by the delegator. In the worst case the delegator may revoke the delegates identifier prefix and replace it with a new one. This allows a beneficial separation of concerns where the delegator's key management infrastructure may be much more secure but less performant while the delegate's key management infrastructure may be less secure but much more performant. The delegate's infrastructure is still protected by recovery via the more secure delegator's infrastructure. In a bivalent setup, the delegator need only authorize delegation events which happens relatively infrequently so that high performance is not needed. Conversely the delegate may need to sign at scale other statements for various application interactions. The following diagram shows the key event streams for a delegation. 
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/delegation-key-event-streams.png" width="800">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/delegation-key-event-streams.png" width="500">
 
 #### Figure 5.3.  Delegation key event streams
 
@@ -426,7 +397,7 @@ The RID key events should only be rotation events. This is the most secure use o
 ### 5.2 Delegations
 Delegated identifiers are used to control the other components at the top level of the ecosystem. These include a delegate to control internally facing infrastructure and multiple delegates to control different externally facing infrastructures. A notional diagram of those delegations is shown in the following diagram.
   
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/multivalent-delegated-controller-key-management-infrastructure.png" width="800">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/multivalent-delegated-controller-key-management-infrastructure.png" width="1000">
 
 #### Figure 5.5.  Multivalent delegated controller key management infrastructure
 
@@ -434,16 +405,16 @@ This key infrastructure must be online in order to issue verifiable credential V
 
 The next layer down in the delegation hierarchy may employ one of two control mechanisms depending on how tightly the root entity chooses to control that layer. The two control approaches are as follows: The first is a combination of delegated identifiers for each of the next layer down entities coupled with authorizing verifiable credentials (VCs). The second is merely authorizing verifiable credentials with each entity creating their own trust domains via their own root AIDs. The former case allows the root entity to both recover or revoke delegated AID identifiers not merely the authorizing VCs. The latter case only allows revocation of authorizing VCs and does not enable the root entity to recover or revoke the associated lower lever entity delegated AID. Revocation of the delegated AIDs provides a more comprehensive control mechanism but imposes more of a burden on the root entity for management of those AIDs.  The two approaches are shown in the following two diagrams. The first is the delegated AID plus VC approach and the second is the VC only approach.
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/multilevel-delegated-key-man-and-VC-issuance-infra.png" width="800">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/multilevel-delegated-key-man-and-VC-issuance-infra.png" width="1000">
 
 #### Figure 5.6.  Multilevel delegated key management and VC issuance infrastructure
 
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/delegated-key-man-and-VC-issuance-infra.png" width="800">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/delegated-key-man-and-VC-issuance-infra.png" width="1000">
 
 #### Figure 5.7.  Delegated key management and VC issuance infrastructure
 
-## 6 PROMULGATION INFRASTRUCTURE
+## 6. PROMULGATION INFRASTRUCTURE
 
 As described above KERI enables a separation of control between promulgation and confirmation infrastructure. A given promulgation infrastructure is under the aegis of its controller and a given confirmation infrastructure is under the aegis of its validator. In a multivalent key management infrastructure there may be multiple instances of promulgation infrastructure, one for each controller where each delegator or delegate is a controller in its own right at each layer of the infrastructure. Likewise validators of controllers at each layer may have have multiple instances of confirmation infrastructure.
 
@@ -451,57 +422,57 @@ One of the issues facing a root entity that provides the root-of-trust for an ec
 
 Specifically, one important class of infrastructure for both promulgation and confirmation are shared distributed ledgers (blockchains) such as Sovrin or Ethereum. In KERI a special case for both a witness and a watcher is a shared ledger oracle. This is shown in the following diagram.
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/shared-ledger-oracles-for-witness-and-watcher.png" width="800">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/shared-ledger-oracles-for-witness-and-watcher.png" width="1000">
 
 #### Figure 6.1.  Shared ledger oracles for witness and watcher
 
 Given ledger oracles as witnesses  and in combination with delegated identifiers controlling those oracles, the root entity may implement an heterogeneous promulgation infrastructure using a combination of cloud hosted witnesses and ledger oracle witnesses for its externally facing infrastructure. Each ledger provides the basis for a network of participants associated with that ledger. The ledger itself is also a network of hosts. Thus it is appropriate to call this a network of networks approach to the witness (promulgation) infrastructure. A notional diagram of this architecture is shown below.
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/ecosystem-witness-network-of-networks.png" width="800">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/ecosystem-witness-network-of-networks.png" width="1000">
 
 #### Figure 6.2.  Ecosystem witness network-of-networks
 
 In the diagram above, the entity cloud box represents a high performant globally distributed and synchronized cluster of KERI witnesses. The Indy/Sovrin box represents at the very least the Sovrin Foundation MainNet and may eventually include any interoperable Indy networks in the Sovrin ecosystem's own network-of-networks. The Ethereum box represents use of the the Ethereum Ledger as a witness. Each of these non-native KERI witness networks will need a KERI interoperability graft. This is already anticipated for inclusion in the new Indy DID method. The following diagram shows in more detail a notional architecture for the controller and witness network of networks.
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/ecosystem-controller-and-witness-network-of-networks.png" width="800">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/ecosystem-controller-and-witness-network-of-networks.png" width="1000">
 
 #### Figure 6.3.  Ecosystem controller and witness network-of-networks
 
 We can expand the diagram above to include the watchers and witnesses of the next layer in the delgation hierarchy. This is shown in the following diagram:
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/delegated-ecosystem-participants-in-network-of-networks.png" width="800">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/delegated-ecosystem-participants-in-network-of-networks.png" width="1000">
 
 
 #### Figure 6.4.  Delegated Ecosystem participants in network-of-networks
 
 The portability of KERI identifier prefixes is provided via the key event receipt log (KERL) for each prefix. A witness provides a copy of a KERL. The control authority over that prefix may be established by verifying the KERL. The KERL provides a cryptographic proof of control authority that is not dependent on the source of the copy of the KERL. Moreover, each prefix merely contains a universally unique string of cryptographic material. A given prefix may be used to control any and all name spaces that share that same prefix. Because a KERL is only concerned with the identifier prefix not any associated name space. The proof of control authority via the KERL is the same for all the name spaces that share the same prefix and therefore share the same KERL. To clarify, the same KERL may be used to prove control authority over any name space that shares its associated prefix. This includes the disparate name spaces for each of the witness networks shown above. This makes AIDs based on KERI truly portable.
 
-## 7 VERIFIABLE CREDENTIAL ISSUANCE ARCHITECTURE FOR ECOSYSTEM
+## 7. VERIFIABLE CREDENTIAL ISSUANCE ARCHITECTURE FOR ECOSYSTEM
 
 As previously discussed in the unified identifier theory section. A given AID forms a trust domain within which LIDs may be verifiable authorized. The root AID, that is, the RID forms the ecosystem trust domain within which the root entity may authorize the issuance of verifiable LIDs. Verifiable issuance of LIDs may be performed using verifiable credentials (VCs). VCs may also be issued as a delegation where a VC issued by one entity authorizes another entity to issue a delegated VCs. The verification logic may then traverse back up the delegation chain to the the root VC issuance. Each VC issuer must have and AID and each VC holder (issued to) must have an AID. These may be either independently generated or delegated AIDs. When the associated entities act under the auspices of the same parent organization then it may make sense to use delegated AIDs for the entities. This has the advantage that the delegated AIDs are published in the delegator's KEL and therefore may not need a separate publication mechanism for verification of authorization to participate in under the auspices of the organization. The delegation events provide that proof of authorization. This delegation chain forms a nested set of trust-domains. This is shown in the following diagram.
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/delegated-entity-chain-of-trust.png" width="800">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/delegated-entity-chain-of-trust.png" width="1000">
 
 #### Figure 7.1.  Delegated entity chain-of-trust
 
 An important detail to understand about VC issuance is that an organization does not actually issue a VC. Some entity that works for the organization actually issues the VC. This entity is usually a natural person but may be a software agent. Ultimately a software agent is managed by some person. Best practices for securing issuance recognizes that persons are the ultimate source of issuance authorization actions. This means that fraudulent issuance is a vulnerability that is a function of the loyalty and accountability of the issuing person or agent to the issuing organization.  One mechanism for increasing issuing accountability is to explicitly identify the issuing persons or agents. There are two mechanisms within KERI for doing that. One is to explicitly track the holders of key pairs. Thus any issuance action may be tracked via the signing keys. This has the drawback that a key rotation is required to remove signing authority. This may not be a problem for senior or trusted company officials but may be problematic for front line workers or software agents. The second method for tracking accountability is to issue authorized issuance capability credentials to front-line workers and agents. This adds a more flexibly revocable issuance accountability. The two methods are best employed in concert with both key holder tracking of the organizational VC and tracking of the issuing AID of a delegated VC issuer. This provides two non-common mode accountability mechanisms that have to both be suborned in order to successfully improperly issue a VC.  The following diagram extends the previous nested trust domain issuance diagram to include individual employee delegated AID as tracked delegated VC issuers. This provides a highly fraud resistant approach to VC issuance within and across organizations in an ecosystem. 
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/delegated-entity-with-employee-chain-of-trust.png" width="800">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/delegated-entity-with-employee-chain-of-trust.png" width="1000">
 
 #### Figure 7.2.  Delegated entity with employee chain-of-trust
 In the diagram above, every entity labeled Employee could just as well be labeled software agent. The diagram shows a gross level of granularity in terms of employee/agent accountability. For more highly automated VC issuance processes a verifiable data supply chain may be used.
 
-## 8 VERIFIABLE ALGORITHMS FOR LID ISSUANCE
+## 8. VERIFIABLE ALGORITHMS FOR LID ISSUANCE
 
 As the VC issuance process becomes more highly automated the accountability architecture needs to become more granular. The end result is what we call a verifiable algorithm that uses a provenanced data supply chain. This is described in some detail here [10; 46]. A verifiable algorithm is both an explainable algorithm and a transparent algorithm which achieves fine grained GDPR compliance for transparency and fairness verifiability. Furthermore a verifiable algorithm for VC issuance provides point accountability of the individual software agents that contribute to the issuance of each LID VC. An example of a provenanced data supply chain for verifiable algorithms is shown below.
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/provenanced-data-supply-chain-for-verifiable-algorithmic-VC-issuance.png" width="800">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/provenanced-data-supply-chain-for-verifiable-algorithmic-VC-issuance.png" width="1000">
 
 #### Figure 8.1.  Provenanced data supply chain for verifiable algorithmic VC issuance
 
 Each transformation block (with an AID) in the diagram may be a software agent or processing unit that transforms the data provided to it. The data flow shows how each block's transformed data contributes to a final aggregated data product. Because each transform block includes a digest of its priors and each block is signed, then the algorithm itself verifiable. In this case the data product is a VC that authorizes an LID.
 
-## 9 CONCLUSION
+## 9. CONCLUSION
 
 A unified model for the design of universal identifier systems is presented. The core concept is that an autonomic identifier (AID) may provide a trust domain for authorized human meaningful identifiers issued within the context of that AID. This authorized human meaningful identifiers are thereby legitimized by association with that AID. We call these legitimized identifiers LIDs. The fundamental construct is the couplet, aid|lid, where the vertical bar represents the authorization or legitimization of the LID with respect to the trust domain of the AID. Given this model, a verifiable LID issuance infrastructure based on KERI is provided. The model includes the decentralized key management infrastructure as well as the verifiable credential (VC) issuance infrastructure. The design trade-offs are explained. This explains the methodology for design and implementation using an autonomic (end-verifiable cryptographic) root-of-trust. This enables true portability of the associated identifiers across different support infrastructures both in time and space. This is an innovative approach that mitigates the primary security vulnerabilities of an administrative (trusted entity) root-of-trust and the primary portability limitations of an algorithmic (shared ledger) root-of-trust. This provides a security model for truly decentralized internet based ecosystems where each ecosystem may control is own trust domain but inter-operably interact with any other trust domain.
 
@@ -511,11 +482,11 @@ The author wishes to thank all those that provided helpful feedback.
 
 ### AUTHOR
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/ssmith-photo.png" width="800">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/ssmith-photo.png" width="200">
 
 Samuel M. Smith Ph.D. has a deep interest in decentralized identity and reputation systems. Samuel received a Ph.D. in Electrical and Computer Engineering from Brigham Young University in 1991. He then spent 10 years at Florida Atlantic University, eventually reaching full professor status. In addition to decentralized identity and reputation, he has performed pioneering research in automated reasoning, machine learning, and autonomous vehicle systems. He has over 100 refereed publications in these areas and was principal investigator on numerous federally funded research projects. Dr. Smith has been an active participant in open standards development for networking protocols, and decentralized identity. He is also a serial entrepreneur.
 
-### REFERENCES 
+### REFERENCES
 
 [1]	�Global Location Numbers (GLN): A key enabler for improving efficiency and visibility of the supply and demand chains,� 
 	https://www.gs1.org/docs/idkeys/GS1_Global_Location_Numbers.pdf
