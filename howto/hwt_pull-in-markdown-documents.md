@@ -1,3 +1,11 @@
+---
+layout: default
+Title: HowTo
+tags: [KERI,ACDC]
+permalink: /hwt_pull-in-markdown-documents.html
+sidebar: all_lvl3_wot_sidebar
+folder: 
+---
 # Pull in markdown documents
 
 Ietf draft are standardized write-ups for experts. Although these drafts contains loads of valuable information and learning resources, the layout and accessibility is cumbersome for training and education purposes.

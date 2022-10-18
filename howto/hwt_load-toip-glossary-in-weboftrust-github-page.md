@@ -1,3 +1,11 @@
+---
+layout: default
+Title: HowTo
+tags: [KERI,ACDC]
+permalink: /hwt_load-toip-glossary-in-weboftrust-github-page.html
+sidebar: all_lvl3_wot_sidebar
+folder: 
+---
 # Load ToIP glossary in weboftrust github page
 
 ## Input

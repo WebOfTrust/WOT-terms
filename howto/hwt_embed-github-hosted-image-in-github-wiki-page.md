@@ -1,3 +1,11 @@
+---
+layout: default
+Title: HowTo
+tags: [KERI,ACDC]
+permalink: /hwt_embed-github-hosted-image-in-github-wiki-page.html
+sidebar: all_lvl3_wot_sidebar
+folder:
+---
 # Embed a Github-hosted image in a Github wiki page
 
 ## Issue

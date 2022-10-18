@@ -1,3 +1,11 @@
+---
+layout: default
+Title: HowTo
+tags: [KERI,ACDC]
+permalink: /hwt_create-terms-link-table.html
+sidebar: all_lvl3_wot_sidebar
+folder: 
+---
 # Create an online table to link terms to resources
 
 ## Input

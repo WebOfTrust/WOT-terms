@@ -1,3 +1,11 @@
+---
+layout: default
+Title: HowTo
+tags: [KERI,ACDC]
+permalink: /hwt_why-terms-wot-manage-structure.html
+sidebar: all_lvl3_wot_sidebar
+folder: 
+---
 # The Terms WOT manage structure explained
 
 What we have, to generate our static content site on the Github project page of this [WOT-terms page](https://weboftrust.github.io/WOT-terms/) repo, is:

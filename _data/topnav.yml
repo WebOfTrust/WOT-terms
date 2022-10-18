@@ -52,4 +52,22 @@ topnav_dropdowns:
 #        - title: Product 2
 #          url: /p2_landing_page.html
 
+    - title: HowTos
+      folderitems:
+        - title: Manage Struct
+          url: /hwt_why-terms-wot-manage-structure.html
+        - title: Create Link table
+          url: /hwt_create-terms-link-table.html
+        - title: Embed Github Image
+          url: /hwt_embed-github-hosted-image-in-github-wiki-page.html
+        - title: Fuzzy Count Terms 
+          url: /hwt_fuzzy-count-terms.html
+        - title: Get Markdown Terms
+          url: /hwt_get-markdown-from-ToIP-wiki.html
+        - title: Load ToIP Glossary
+          url: /hwt_load-toip-glossary-in-weboftrust-github-page.html
+        - title: Pull Docs to Site
+          url: /hwt_pull-in-markdown-documents.html
+  
+
 # Copyright 2021 Google LLC

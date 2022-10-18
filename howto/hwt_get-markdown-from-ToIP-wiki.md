@@ -1,3 +1,11 @@
+---
+layout: default
+Title: HowTo
+tags: [KERI,ACDC]
+permalink: /hwt_get-markdown-from-ToIP-wiki.html
+sidebar: all_lvl3_wot_sidebar
+folder: 
+---
 # Get Markdown files from ToIP wiki glossary terms
 
 In a Trust over IP glossary you can easily change its underlying Markdown. 

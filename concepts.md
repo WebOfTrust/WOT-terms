@@ -32,6 +32,9 @@ All intermediate results are also **directly available**:
 - [howtos](https://github.com/WebOfTrust/WOT-terms/tree/main/howto)
 - Glossaries: [TrustoverIP/ACDC](https://github.com/trustoverip/acdc/wiki) and [eSSIF-lab](https://essif-lab.github.io/framework/docs/essifLab-glossary)
 
+## Related
+The [Mental Model](https://github.com/WebOfTrust/WOT-terms/blob/main/mental-model.md) of KERI suite gives the frame of reference for our concepts below.
+
 #### Vision
 We reuse and reorganise as much as possible, using open source tools. 
 
