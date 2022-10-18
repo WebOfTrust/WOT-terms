@@ -77,7 +77,7 @@ aid|lid	(1.2)
 
 where aid represents the cryptographic identifier prefix of an AID, the vertical bar, |, represents the legitimizing authorization, and lid represents the legitimized human meaningful identifier. This couplet may be diagrammed as follows:
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/aid-lid-couplet.png" width="300">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/aid-lid-couplet.png" width="150">
 
 #### Figure 1.5.  AID|LID couplet
   This coupling is a special type of name spacing. For example suppose the LID is a library Dewey Decimal code for a book such as:
@@ -102,7 +102,7 @@ In the context of an autonomic identifier system, trust has two distinct meaning
 
 Identifier systems need both attributional trust and reputational trust. The first derived from  consistent attribution, enables us to trust that a statement was made by an entity (who) and the second, reputation, enables us to trust in what that entity said. This forms a trust balance.  For example, a verifiable credential issued by an entity is only of value if we can trust both that the entity indeed issued it and that the contents or attributes of the credential are accurate. Cryptography allows us to verify that the issuer truly created the credential but we must trust the institutional, organizational, behavioral integrity or reputation of the issuer in order to trust in what the credential asserts. The later requires reputational trust in the issuer of the credential. Another way of understanding this trust balance is that the primary value in any issuance of information is dependent on the veracity of that information and that veracity is dependent on the credibility (reputation) of the issuer but we may only securely associate that reputation to that information if the authenticity of the issuer is established. So first authenticity (AID) and then veracity (LID). This dependency is shown in the following diagram.
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/veracity-authenticity.png" width="100">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/uidt/veracity-authenticity.png" width="150">
 
 #### Figure 1.7.  Veracity dependency on authenticity.
 
