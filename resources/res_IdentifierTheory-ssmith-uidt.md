@@ -1,12 +1,12 @@
 ---
 layout: default
 Title: Product
-tags: [ACDC]
-permalink: /res_draft-ssmith-acdc.html
+tags: [KERI,ACDC]
+permalink: /res_IdentifierTheory-ssmith-uidt.html
 sidebar: all_lvl3_wot_sidebar
 folder: 
 ---
-# UNIVERSAL IDENTIFIER THEORY1
+# UNIVERSAL IDENTIFIER THEORY
 Samuel M. Smith Ph.D.\
 v1.33 2021/05/16
 
@@ -488,129 +488,126 @@ Samuel M. Smith Ph.D. has a deep interest in decentralized identity and reputati
 
 ### REFERENCES
 
-[1]	�Global Location Numbers (GLN): A key enabler for improving efficiency and visibility of the supply and demand chains,� 
-	https://www.gs1.org/docs/idkeys/GS1_Global_Location_Numbers.pdf
-[2]	�A Deep Dive on the Recent Widespread DNS Hijacking Attacks,� KrebsonSecurity, 2019/02/19 
-	https://krebsonsecurity.com/2019/02/a-deep-dive-on-the-recent-widespread-dns-hijacking-attacks/
-[3]	�A Universally Unique Identifier (UUID) URN Namespace,� IETF RFC-4122, 2005/07/01 
-	https://tools.ietf.org/html/rfc4122
-[4]	Birge-Lee, H., Sun, Y., Edmundson, A., Rexford, J. and Mittal, P., �Using BGP to acquire bogus TLS certificates,� vol. Workshop on Hot Topics in Privacy Enhancing Technologies, no. HotPETs 2017, 2017 
-[5]	Birge-Lee, H., Sun, Y., Edmundson, A., Rexford, J. and Mittal, P., �Bamboozling certificate authorities with {BGP},� vol. 27th {USENIX} Security Symposium, no. {USENIX} Security 18, pp. 833-849, 2018 
-	https://www.usenix.org/conference/usenixsecurity18/presentation/birge-lee
-[6]	Birge-Lee, H., Wang, L., Rexford, J. and Mittal, P., �Sico: Surgical interception attacks by manipulating bgp communities,� vol. Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security, pp. 431-448, 2019 
-	https://dl.acm.org/doi/abs/10.1145/3319535.3363197
-[7]	�Byzantine fault tolerance,� Wikipedia, 
-	https://en.wikipedia.org/wiki/Byzantine_fault_tolerance
-[8]	Castro, M. and Liskov, B., �Practical Byzantine fault tolerance,� vol. OSDI 99, pp. 173-186, 1999 
-	http://www.pmg.lcs.mit.edu/papers/osdi99.pdf
-[9]	Clement, A., Wong, E. L., Alvisi, L., Dahlin, M. and Marchetti, M., �Making Byzantine Fault Tolerant Systems Tolerate Byzantine Faults.,� vol. NSDI 9, pp. 153-168, 2009 
-	http://static.usenix.org/events/nsdi09/tech/full_papers/clement/clement.pdf
-[10]	Conway, S., Hughes, A., Ma, M. et al., �A DID for Everything,� Rebooting the Web of Trust RWOT 7, 2018/09/26 
-	https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/A_DID_for_everything.pdf
-[11]	Cooper, D., Santesson, S., Farrell, S. et al., �RFC 5280 Internet X.509 Public Key Infrastructure Certificate
- and Certificate Revocation List (CRL) Profile,� IETF, 2008/05/01 
-	https://tools.ietf.org/html/rfc5280
-[12]	�DIF KERI Python Implementation Repository (keripy),� Decentralized Identity Foundation, 
-	https://github.com/decentralized-identity/keripy
-[13]	Dingle, P., Hammann, S., Hardman, D., Winczewski, C. and Smith, S., �Alice Attempts to Abuse a Verifiable Credential,� RWOT 9, 2020/01/24 
-	https://github.com/WebOfTrustInfo/rwot9-prague/blob/master/final-documents/alice-attempts-abuse-verifiable-credential.pdf
-[14]	�DNS Certification Authority Authorization,� 
-	https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization
-[15]	�Domain Name System,� Wikipedia, 
-	https://en.wikipedia.org/wiki/Domain_Name_System
-[16]	�EJC-RFID Info: Item Level Identification,� epc-rfid.info, 
-	https://www.epc-rfid.info/sgtin
-[17]	�EPC Tag Data Standard 1.11,� GS1, 2017/09/01 
-	https://www.gs1.org/sites/default/files/docs/epc/GS1_EPC_TDS_i1_11.pdf
-[18]	�Ethereum,� Ethereum Foundation, 
-	http://www.ethdocs.org/en/latest/introduction/index.html
-[19]	Gavrichenkov, A., �Breaking HTTPS with BGP Hijacking,� BlackHat, 2015 
-	https://www.blackhat.com/docs/us-15/materials/us-15-Gavrichenkov-Breaking-HTTPS-With-BGP-Hijacking-wp.pdf
-[20]	Girault, M., �Self-certified public keys,� EUROCRYPT 1991: Advances in Cryptology, pp. 490-497, 1991 
-	https://link.springer.com/content/pdf/10.1007%2F3-540-46416-6_42.pdf
-[21]	�GLN Allocation Rules,� GS1, 
-	https://www.gs1.org/glnrules
-[22]	�Global Location Number (GLN),� GS1, 
-	https://www.gs1.org/standards/id-keys/gln
-[23]	Goodin, D., �A DNS hijacking wave is targeting companies at an almost unprecedented scale,� Ars Technica, 2019/01/10 
-	https://arstechnica.com/information-technology/2019/01/a-dns-hijacking-wave-is-targeting-companies-at-an-almost-unprecedented-scale/
-[24]	Grant, A. C., �Search for Trust: An Analysis and Comparison of CA System Alternatives and Enhancements,� Dartmouth Computer Science Technical Report TR2012-716, 2012 
-	https://pdfs.semanticscholar.org/7876/380d71dd718a22546664b7fcc5b413c1fa49.pdf
-[25]	�GS1 DataMatrix Guideline 2.5.1: Overview and technical introduction to the use of GS1 DataMatrix,� GS1, 2018/01/01 
-	https://www.gs1.org/docs/barcodes/GS1_DataMatrix_Guideline.pdf
-[26]	�GS1 General Specifications 20.0,� GS1, 2020/01/01 
-	https://www.gs1.org/docs/barcodes/GS1_General_Specifications.pdf
-[27]	�GS1 GLN Allocation Rules Standard 2.0.1,� GS1, 2017/01/01 
-	https://www.gs1.org/docs/barcodes/GS1_GLN_Allocation_Rules.pdf
-[28]	�GS1 Lightweight Messaging Standard for Verification of Product Identifiers 1.1,� GS1, 2019/07/01 
-	https://www.gs1.org/sites/default/files/docs/standards/gs1_lightweight_verification_messaging_standard_v1-1.pdf
-[29]	�How Cybercrime Exploits Digital Certificates,� InfoSecInstitute, 2014/07/28 
-	https://resources.infosecinstitute.com/cybercrime-exploits-digital-certificates/#gref
-[30]	�How to Translate a U.P.C. to a GTIN to an SGTIN to an EPC,� GS1, 
-	https://www.gs1us.org/DesktopModules/Bring2mind/DMX/Download.aspx?Command=Core_Download&EntryId=389&language=en-US&PortalId=0&TabId=134
-[31]	�Introducing the Legal Entity Identifier (LEI),� GLEIF, 
-	https://www.gleif.org/en/about-lei/introducing-the-legal-entity-identifier-lei#
-[32]	�ISO 17442-1:2020
-Financial services � Legal entity identifier (LEI) � Part 1: Assignment,� ISO, 2020/08/01 
-	https://www.iso.org/standard/78829.html
-[33]	�ISO 17442-2:2020
-Financial services � Legal entity identifier (LEI) � Part 2: Application in digital certificates,� ISO, 2020/08/01 
-	https://www.iso.org/standard/79917.html
-[34]	Kaminsky, M. and Banks, E., �SFS-HTTP: Securing the Web with Self-Certifying URLs,� MIT, 1999 
-	https://pdos.csail.mit.edu/~kaminsky/sfs-http.ps
-[35]	�KERI Project DIF,� Decentralized Identity Foundation, 
-	https://github.com/decentralized-identity/keri
-[36]	Mazieres, D. and Kaashoek, M. F., �Escaping the Evils of Centralized Control with self-certifying pathnames,� MIT Laboratory for Computer Science, 2000 
-	http://www.sigops.org/ew-history/1998/papers/mazieres.ps
-[37]	Mazieres, D., �Self-certifying File System,� MIT Ph.D. Dissertation, 2000/06/01 
-	https://pdos.csail.mit.edu/~ericp/doc/sfs-thesis.ps
-[38]	Nottingham, M., �Well-Known Uniform Resource Identifiers (URIs),� IETF 8615, 2019/05/01 
-	https://tools.ietf.org/html/rfc8615
-[39]	�Remote ATtestation proceduresS (RATS) WG,� IETF, 
-	https://datatracker.ietf.org/wg/rats/about/
-[40]	Serrano, N., Hadan, H. and Camp, L. J., �A complete study of PKI (PKI�s Known Incidents),� Available at SSRN 3425554, 2019 
-	https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3425554
-[41]	Shae, M., Smith, S. M. and Stocker, C., �Decentralized Identity as a Meta-platform: How Cooperation Beats Aggregation,� Rebooting the Web of Trust, vol. RWOT 9, 2019/11/19 
-	https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/CooperationBeatsAggregation.pdf
-[42]	Smith, S. M., �Kery Event Receipt Infrastructure (KERI) Design,� Github, 2020/04/22 
-	https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf
-[43]	Smith, S. M., �Open Reputation Framework,� vol. Version 1.2, 2015/05/13 
-	https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/open-reputation-low-level-whitepaper.pdf
-[44]	Smith, S. M. and Khovratovich, D., �Identity System Essentials,� 2016/03/29 
-	https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/Identity-System-Essentials.pdf
-[45]	Smith, S. M., �Meta-Platforms and Cooperative Network-of-Networks Effects: Why Decentralized Platforms Will Eat Centralized Platforms,� SelfRule, 2018/04/25 
-	https://medium.com/selfrule/meta-platforms-and-cooperative-network-of-networks-effects-6e61eb15c586
-[46]	Smith, S. M., �Decentralized Autonomic Data (DAD) and the three R�s of Key Management,� Rebooting the Web of Trust RWOT 6, Spring 2018 
-	https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/DecentralizedAutonomicData.pdf
-[47]	�Sovrin: A Protocol and Token for Self- Sovereign Identity and Decentralized Trust,� Sovrin.org, 2018/01/01 
-	https://sovrin.org/wp-content/uploads/2018/03/Sovrin-Protocol-and-Token-White-Paper.pdf
-[48]	Stevens, G., �DNS Poisoning Attacks: A Guide for Website Admins,� HashedOut, 2020/01/21 
-	https://www.thesslstore.com/blog/dns-poisoning-attacks-a-guide-for-website-admins/
-[49]	Stocker, C., Smith, S. and Caballero, J., �Quantum Secure DIDs,� RWOT10, 2020/07/09 
-	https://github.com/WebOfTrustInfo/rwot10-buenosaires/blob/master/final-documents/quantum-secure-dids.pdf
-[50]	Szabo, N., �Secure Property Titles with Owner Authority,� 1998 
-	https://nakamotoinstitute.org/secure-property-titles/
-[51]	Szabo, N., �Advances in Distributed Security,� 2003 
-	https://nakamotoinstitute.org/advances-in-distributed-security/
-[52]	TCG, �Implicit Identity Based Device Attestation,� Trusted Computing Group, vol. Version 1.0, 2018/03/05 
-	https://trustedcomputinggroup.org/wp-content/uploads/TCG-DICE-Arch-Implicit-Identity-Based-Device-Attestation-v1-rev93.pdf
-[53]	�Transport Layer Security,� Wikipedia, 
-	https://en.wikipedia.org/wiki/Transport_Layer_Security
-[54]	�Uniform Resource Identifier (URI): Generic Syntax,� IETF RFC-3986, 2005/01/01 
-	https://tools.ietf.org/html/rfc3986
-[55]	�Verifiable Credentials Data Model,� W3C Candidate Recommendation, 
-	https://w3c.github.io/vc-data-model/
-[56]	�Verification Messaging: GS1 Lightweight Messaging Standard for Verification of Product Identifiers,� GS1, 
-	https://www.gs1.org/verification-messaging
-[57]	W3C, �Decentralized Identifiers (DIDs),� W3C Draft Community Group Report, 
-	https://www.w3.org/TR/did-core/
-[58]	�Well Known DID Configuration: DIF Working Group Approved Draft,� DIF, 
-	https://identity.foundation/.well-known/resources/did-configuration/
-[59]	Windley, P. J., �The Architecture of Identity Systems,� Technometria, 2020/09/28 
-	https://www.windley.com/archives/2020/09/the_architecture_of_identity_systems.shtml
-[60]	�X.509,� Wikipedia, 
-	https://en.wikipedia.org/wiki/X.509
-[61]	�Zooko�s Triange,� Wikipedia, 
-	https://en.wikipedia.org/wiki/Zooko%27s_triangle
+[1]	"Global Location Numbers (GLN): A key enabler for improving efficiency and visibility of the supply and demand chains," https://www.gs1.org/docs/idkeys/GS1_Global_Location_Numbers.pdf
 
-  1.	https://keri.one
+[2]	"A Deep Dive on the Recent Widespread DNS Hijacking Attacks," KrebsonSecurity, 2019/02/19https://krebsonsecurity.com/2019/02/a-deep-dive-on-the-recent-widespread-dns-hijacking-attacks/
+
+[3]	"A Universally Unique Identifier (UUID) URN Namespace," IETF RFC-4122, 2005/07/01https://tools.ietf.org/html/
+rfc4122
+
+[4]	Birge-Lee, H., Sun, Y., Edmundson, A., Rexford, J. and Mittal, P., "Using BGP to acquire bogus TLS certificates," vol. Workshop on Hot Topics in Privacy Enhancing Technologies, no. HotPETs 2017, 2017
+
+[5]	Birge-Lee, H., Sun, Y., Edmundson, A., Rexford, J. and Mittal, P., "Bamboozling certificate authorities with {BGP}," vol. 27th {USENIX} Security Symposium, no. {USENIX} Security 18, pp. 833-849, 2018https://www.usenix.org/conference/usenixsecurity18/presentation/birge-lee
+
+[6]	Birge-Lee, H., Wang, L., Rexford, J. and Mittal, P., "Sico: Surgical interception attacks by manipulating bgp communities," vol. Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security, pp. 431-448, 2019 https://dl.acm.org/doi/abs/10.1145/3319535.3363197
+[7] "Byzantine fault tolerance," Wikipedia,https://en.wikipedia.org/wiki/Byzantine_fault_tolerance
+[8]	Castro, M. and Liskov, B., "Practical Byzantine fault tolerance," vol. OSDI 99, pp. 173-186, 1999http://www.pmg.lcs.mit.edu/papers/osdi99.pdf
+
+[9]	Clement, A., Wong, E. L., Alvisi, L., Dahlin, M. and Marchetti, M., "Making Byzantine Fault Tolerant Systems Tolerate Byzantine Faults.," vol. NSDI 9, pp. 153-168, 2009http://static.usenix.org/events/nsdi09/tech/full_papers/clement/clement.pdf
+
+[10]	Conway, S., Hughes, A., Ma, M. et al., "A DID for Everything," Rebooting the Web of Trust RWOT 7, 2018/09/26https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/A_DID_for_everything.pdf
+
+[11]	Cooper, D., Santesson, S., Farrell, S. et al., "RFC 5280 Internet X.509 Public Key Infrastructure Certificate
+ and Certificate Revocation List (CRL) Profile," IETF, 2008/05/01https://tools.ietf.org/html/rfc5280
+
+[12] "DIF KERI Python Implementation Repository (keripy)," Decentralized Identity Foundation,https://github.com/decentralized-identity/keripy
+
+[13]	Dingle, P., Hammann, S., Hardman, D., Winczewski, C. and Smith, S., "Alice Attempts to Abuse a Verifiable Credential," RWOT 9, 2020/01/24 https://github.com/WebOfTrustInfo/rwot9-prague/blob/master/final-documents/alice-attempts-abuse-verifiable-credential.pdf
+
+[14] "DNS Certification Authority Authorization," https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization
+
+[15] "Domain Name System," Wikipedia, https://en.wikipedia.org/wiki/Domain_Name_System
+
+[16] "EJC-RFID Info: Item Level Identification," epc-rfid.info, https://www.epc-rfid.info/sgtin
+
+[17] "EPC Tag Data Standard 1.11," GS1, 2017/09/01 https://www.gs1.org/sites/default/files/docs/epc/GS1_EPC_TDS_i1_11.pdf
+
+[18] "Ethereum," Ethereum Foundation, http://www.ethdocs.org/en/latest/introduction/index.html
+
+[19]	Gavrichenkov, A., "Breaking HTTPS with BGP Hijacking," BlackHat, 2015 https://www.blackhat.com/docs/us-15/materials/us-15-Gavrichenkov-Breaking-HTTPS-With-BGP-Hijacking-wp.pdf
+
+[20]	Girault, M., "Self-certified public keys," EUROCRYPT 1991: Advances in Cryptology, pp. 490-497, 1991 https://link.springer.com/content/pdf/10.1007%2F3-540-46416-6_42.pdf
+
+[21] "GLN Allocation Rules," GS1, https://www.gs1.org/glnrules
+
+[22] "Global Location Number (GLN)," GS1, https://www.gs1.org/standards/id-keys/gln
+
+[23]	Goodin, D., "A DNS hijacking wave is targeting companies at an almost unprecedented scale," Ars Technica, 2019/01/10 https://arstechnica.com/information-technology/2019/01/a-dns-hijacking-wave-is-targeting-companies-at-an-almost-unprecedented-scale/
+
+[24]	Grant, A. C., "Search for Trust: An Analysis and Comparison of CA System Alternatives and Enhancements," Dartmouth Computer Science Technical Report TR2012-716, 2012 https://pdfs.semanticscholar.org/7876/380d71dd718a22546664b7fcc5b413c1fa49.pdf
+
+[25] "GS1 DataMatrix Guideline 2.5.1: Overview and technical introduction to the use of GS1 DataMatrix," GS1, 2018/01/01 https://www.gs1.org/docs/barcodes/GS1_DataMatrix_Guideline.pdf
+
+[26] "GS1 General Specifications 20.0," GS1, 2020/01/01 https://www.gs1.org/docs/barcodes/GS1_General_Specifications.pdf
+
+[27] "GS1 GLN Allocation Rules Standard 2.0.1," GS1, 2017/01/01 https://www.gs1.org/docs/barcodes/GS1_GLN_Allocation_Rules.pdf
+
+[28] "GS1 Lightweight Messaging Standard for Verification of Product Identifiers 1.1," GS1, 2019/07/01 https://www.gs1.org/sites/default/files/docs/standards/gs1_lightweight_verification_messaging_standard_v1-1.pdf
+
+[29] "How Cybercrime Exploits Digital Certificates," InfoSecInstitute, 2014/07/28 https://resources.infosecinstitute.com/cybercrime-exploits-digital-certificates/#gref
+
+[30] "How to Translate a U.P.C. to a GTIN to an SGTIN to an EPC," GS1, https://www.gs1us.org/DesktopModules/Bring2mind/DMX/Download.aspx?Command=Core_Download&EntryId=389&language=en-US&PortalId=0&TabId=134
+
+[31] "Introducing the Legal Entity Identifier (LEI)," GLEIF, https://www.gleif.org/en/about-lei/introducing-the-legal-entity-identifier-lei#
+
+[32] "ISO 17442-1:2020
+Financial services " Legal entity identifier (LEI) " Part 1: Assignment," ISO, 2020/08/01 https://www.iso.org/standard/78829.html
+
+[33] "ISO 17442-2:2020
+Financial services " Legal entity identifier (LEI) " Part 2: Application in digital certificates," ISO, 2020/08/01 https://www.iso.org/standard/79917.html
+
+[34]	Kaminsky, M. and Banks, E., "SFS-HTTP: Securing the Web with Self-Certifying URLs," MIT, 1999 https://pdos.csail.mit.edu/~kaminsky/sfs-http.ps
+
+[35] "KERI Project DIF," Decentralized Identity Foundation, https://github.com/decentralized-identity/keri
+
+[36]	Mazieres, D. and Kaashoek, M. F., "Escaping the Evils of Centralized Control with self-certifying pathnames," MIT Laboratory for Computer Science, 2000 http://www.sigops.org/ew-history/1998/papers/mazieres.ps
+
+[37]	Mazieres, D., "Self-certifying File System," MIT Ph.D. Dissertation, 2000/06/01 https://pdos.csail.mit.edu/~ericp/doc/sfs-thesis.ps
+
+[38]	Nottingham, M., "Well-Known Uniform Resource Identifiers (URIs)," IETF 8615, 2019/05/01 https://tools.ietf.org/html/rfc8615
+
+[39] "Remote ATtestation proceduresS (RATS) WG," IETF, https://datatracker.ietf.org/wg/rats/about/
+
+[40]	Serrano, N., Hadan, H. and Camp, L. J., "A complete study of PKI (PKI�s Known Incidents)," Available at SSRN 3425554, 2019 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3425554
+
+[41]	Shae, M., Smith, S. M. and Stocker, C., "Decentralized Identity as a Meta-platform: How Cooperation Beats Aggregation," Rebooting the Web of Trust, vol. RWOT 9, 2019/11/19 https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/CooperationBeatsAggregation.pdf
+
+[42]	Smith, S. M., "Kery Event Receipt Infrastructure (KERI) Design," Github, 2020/04/22 https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf
+
+[43]	Smith, S. M., "Open Reputation Framework," vol. Version 1.2, 2015/05/13 https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/open-reputation-low-level-whitepaper.pdf
+
+[44]	Smith, S. M. and Khovratovich, D., "Identity System Essentials," 2016/03/29 https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/Identity-System-Essentials.pdf
+
+[45]	Smith, S. M., "Meta-Platforms and Cooperative Network-of-Networks Effects: Why Decentralized Platforms Will Eat Centralized Platforms," SelfRule, 2018/04/25 https://medium.com/selfrule/meta-platforms-and-cooperative-network-of-networks-effects-6e61eb15c586
+
+[46]	Smith, S. M., "Decentralized Autonomic Data (DAD) and the three R�s of Key Management," Rebooting the Web of Trust RWOT 6, Spring 2018 https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/DecentralizedAutonomicData.pdf
+
+[47] "Sovrin: A Protocol and Token for Self- Sovereign Identity and Decentralized Trust," Sovrin.org, 2018/01/01 https://sovrin.org/wp-content/uploads/2018/03/Sovrin-Protocol-and-Token-White-Paper.pdf
+
+[48]	Stevens, G., "DNS Poisoning Attacks: A Guide for Website Admins," HashedOut, 2020/01/21 https://www.thesslstore.com/blog/dns-poisoning-attacks-a-guide-for-website-admins/
+
+[49]	Stocker, C., Smith, S. and Caballero, J., "Quantum Secure DIDs," RWOT10, 2020/07/09 https://github.com/WebOfTrustInfo/rwot10-buenosaires/blob/master/final-documents/quantum-secure-dids.pdf
+
+[50]	Szabo, N., "Secure Property Titles with Owner Authority," 1998 https://nakamotoinstitute.org/secure-property-titles/
+
+[51]	Szabo, N., "Advances in Distributed Security," 2003 https://nakamotoinstitute.org/advances-in-distributed-security/
+
+[52]	TCG, "Implicit Identity Based Device Attestation," Trusted Computing Group, vol. Version 1.0, 2018/03/05 https://trustedcomputinggroup.org/wp-content/uploads/TCG-DICE-Arch-Implicit-Identity-Based-Device-Attestation-v1-rev93.pdf
+
+[53] "Transport Layer Security," Wikipedia, https://en.wikipedia.org/wiki/Transport_Layer_Security
+
+[54] "Uniform Resource Identifier (URI): Generic Syntax," IETF RFC-3986, 2005/01/01 https://tools.ietf.org/html/rfc3986
+
+[55] "Verifiable Credentials Data Model," W3C Candidate Recommendation, https://w3c.github.io/vc-data-model/
+
+[56] "Verification Messaging: GS1 Lightweight Messaging Standard for Verification of Product Identifiers," GS1, https://www.gs1.org/verification-messaging
+
+[57]	W3C, "Decentralized Identifiers (DIDs)," W3C Draft Community Group Report, https://www.w3.org/TR/did-core/
+
+[58] "Well Known DID Configuration: DIF Working Group Approved Draft," DIF, https://identity.foundation/.well-known/resources/did-configuration/
+
+[59]	Windley, P. J., "The Architecture of Identity Systems," Technometria, 2020/09/28 https://www.windley.com/archives/2020/09/the_architecture_of_identity_systems.shtml
+
+[60]	"X.509," Wikipedia, https://en.wikipedia.org/wiki/X.509
+
+[61] "Zooko's Triange, " Wikipedia, https://en.wikipedia.org/wiki/Zooko%27s_triangle
