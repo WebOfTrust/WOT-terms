@@ -500,7 +500,9 @@ rfc4122
 [5]	Birge-Lee, H., Sun, Y., Edmundson, A., Rexford, J. and Mittal, P., "Bamboozling certificate authorities with {BGP}," vol. 27th {USENIX} Security Symposium, no. {USENIX} Security 18, pp. 833-849, 2018https://www.usenix.org/conference/usenixsecurity18/presentation/birge-lee
 
 [6]	Birge-Lee, H., Wang, L., Rexford, J. and Mittal, P., "Sico: Surgical interception attacks by manipulating bgp communities," vol. Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security, pp. 431-448, 2019 https://dl.acm.org/doi/abs/10.1145/3319535.3363197
+
 [7] "Byzantine fault tolerance," Wikipedia,https://en.wikipedia.org/wiki/Byzantine_fault_tolerance
+
 [8]	Castro, M. and Liskov, B., "Practical Byzantine fault tolerance," vol. OSDI 99, pp. 173-186, 1999http://www.pmg.lcs.mit.edu/papers/osdi99.pdf
 
 [9]	Clement, A., Wong, E. L., Alvisi, L., Dahlin, M. and Marchetti, M., "Making Byzantine Fault Tolerant Systems Tolerate Byzantine Faults.," vol. NSDI 9, pp. 153-168, 2009http://static.usenix.org/events/nsdi09/tech/full_papers/clement/clement.pdf
