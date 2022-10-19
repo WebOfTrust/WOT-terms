@@ -27,6 +27,8 @@ topnav_dropdowns:
    
     - title: Products
       folderitems:
+        - title: Identifier Theory
+          url: /res_IdentifierTheory-ssmith-uidt.md
         - title: KERI
           url: /res_draft-ssmith-keri.html
         - title: ACDC
