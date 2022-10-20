@@ -39,7 +39,37 @@ Solves the hard problem of *zero-trust* architectures, which is [signed-at-rest]
                 - Ambient verifiability:  everything can be verified offline, even copies.
 
 
-## Mental model of Verifiable Data Structures all the way down
+## Speak the language of the majority of people
+
+This is hard for several reasons:
+
+- They are not there yet
+- Identity is vague and vast 
+- Digital identity is complex and all-encompassing
+- They don't feel the need, nor the pain, nor the problem
+- They think we're nuts and have been smoking marihuana
+
+### How can we break through blissful ignorance
+
+The **discomfort** many people experience on digital media like
+
+- on the web
+- in the main stream media (radio, tv, newspaper)
+- on phone calls
+- receiving text messages
+- chat bots
+
+might be a lead. Best expressed by Andy:
+
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/discomfort-on-the-web.drawio.png" alt="Andy and Lou from Little Britain" width="600">
+
+Acknowledgement: Little Britain character expressing his ever-negative judgement "I don't want no .. 'anything' ". [Lou and Andy](https://en.wikipedia.org/wiki/Lou_and_Andy) Example: ["Want a chocolate!"](https://www.youtube.com/watch?v=oegFZUodeJA).
+
+### How can we shine the spotlight on the unique feature mix of the KERI suite?
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/mental-Model-KERI.drawio.png" alt="Andy from Little Britain" width="600">
+
+
+## Pseudo code of Mental model: Verifiable Data Structures all the way down
 
 > Or: the inner working of 'Eywa'
 
