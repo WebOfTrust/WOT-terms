@@ -124,7 +124,8 @@ github: [metadata]
 algolia:
   application_id: 'FSH23UI187'
   index_name: dev_bcws
-# Copyright 2021 Google LLC
+  vars: ["title", "excerpt", "date", "url", "categories", "tags"]
+  search_only_api_key: 'bdc36025938111a18bda9bfb9b651ceb'
 
 # Specially for GitHub Pages based resources in inter-linking md glossary files:
 plugins:

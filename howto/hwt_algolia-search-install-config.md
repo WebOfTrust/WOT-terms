@@ -1,3 +1,11 @@
+---
+layout: default
+Title: HowTo
+tags: [KERI,ACDC]
+permalink: /hwt_algolia-search-install-config.html
+sidebar: all_lvl3_wot_sidebar
+folder: 
+---
 # Algolia search install and configuration
 
 @henkvancann: These are the instructions I followed and implemented in the site. Oct 2022.
@@ -22,3 +30,6 @@ So I Googled more and found ->
 https://community.algolia.com/jekyll-algolia/
 
 https://community.algolia.com/jekyll-algolia/getting-started.html#front-end
+
+## Installed instantsearch.js
+https://www.npmjs.com/package/instantsearch.js

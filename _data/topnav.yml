@@ -28,7 +28,7 @@ topnav_dropdowns:
     - title: Products
       folderitems:
         - title: Identifier Theory
-          url: /res_IdentifierTheory-ssmith-uidt.md
+          url: /res_IdentifierTheory-ssmith-uidt.html
         - title: KERI
           url: /res_draft-ssmith-keri.html
         - title: ACDC
@@ -70,6 +70,8 @@ topnav_dropdowns:
           url: /hwt_load-toip-glossary-in-weboftrust-github-page.html
         - title: Pull Docs to Site
           url: /hwt_pull-in-markdown-documents.html
+        - title: Algolia search install & config
+          url: /hwt_algolia-search-install-config.html
   
 
 # Copyright 2021 Google LLC
