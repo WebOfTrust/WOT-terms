@@ -12,13 +12,16 @@ If we wrap up the definition of the authentic web [here](https://github.com/trus
 
 ### The authentic web is the internet as a whole giant verifiable data structure.
 
-## The meaning of a technical summary
+## Technical implications
 
 How to make any data authentic using the KERI suite? -> create and append to an ever growing _Authentic Web_ where everything is signed and connected. 
 
-As often filmmakers are visionairs: an anology for the authentic web is **Eywa** from the *Avatar* film: the tree of truth and interconnection.
+### Visionaries
 
-<img src="https://hackmd.io/_uploads/BkZxirnXj.png)" width="600">
+As often _filmmakers_ are visionaries: an analogy for the authentic web is **Eywa** from the *Avatar* film: the tree of truth and interconnection.
+
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/eywa-analogy-authentic-web.png" width="600">
+
 
 Back with our feet on the ground of worldly realm:
 
@@ -40,47 +43,49 @@ Solves the hard problem of *zero-trust* architectures, which is [signed-at-rest]
 
 Or: the inner working of 'Eywa'
 
-- Genealized hash chained signed data structures (provenanceable)
-    - hashed list. 
-    - hash of concatenated hashes in list
-    - hash of cat blineded hashes in list
-    - Hash Graph
-        - Hash DAG
-        - Custom Hash DAG
-        - Merkle root hash (binary tree) Sparse Merkle Tree
-        - Patricia Merkle (Trie) root hash 
-    - Signed Hash Graph
-        - Signed Hash DAG
-            - ACDC is a type of Custom signed Hash DAG iteself and distribute universal Hash DAG fragment
-    - Cryptographic Accumulators
-        - Collective Signatures (BBS+)
-        - CL Signatures (AnonCreds)
-- Hash Log
-    - KEL is a hash log for key state
-    - TEL is a hash log for every other kind of state anchored to key state
-        - TEL as versioned hash log
-- Content Addressable (Hash indexed) Database
-    - De-duplication
-    - universaly unique identifers as indexes = secure distributable database 
-    - SAID as index = crypto agile interoperable universally unique identifiers as indexes
-        - ACDC is a type of content addressable SAID database fragment, graph fragment
-    - B-Tree branch 
-- Append to Extend
-- permissionless data type registry
-- permissionless rules registry
-- ecosystem governance through permissionless but trusted (reputable) (web-of-trust)  registries
-- Versioned Authentic data
-- TEL transfer registry for versioned authentic data
-- TEL transfer registry for NFTs
-- TEL/ACDC for authentic messaging registry
-- TEL/ACDC for authentic versioned document registry
-- ACDCs are modeled as graph fragments.
-- BADA/RUN when not use KEL Seals for distributed authentic database
-- replay attack protection through monotonicity
-    - replay signed date-time stamped message 
-    - replay stale keys to newly date-time stamp and sign message
-    - ephemeral identifiers as auxilaries to persistent identifers
-        - signed at rest of auxiliary ephemeral identifier
+            - Genealized hash chained signed data structures (provenanceable)
+                - hashed list. 
+                - hash of concatenated hashes in list
+                - hash of cat blineded hashes in list
+                - Hash Graph
+                    - Hash DAG
+                    - Custom Hash DAG
+                    - Merkle root hash (binary tree) Sparse Merkle Tree
+                    - Patricia Merkle (Trie) root hash 
+                - Signed Hash Graph
+                    - Signed Hash DAG
+                        - ACDC is a type of Custom signed Hash DAG iteself and distribute universal Hash DAG fragment
+                - Cryptographic Accumulators
+                    - Collective Signatures (BBS+)
+                    - CL Signatures (AnonCreds)
+            - Hash Log
+                - KEL is a hash log for key state
+                - TEL is a hash log for every other kind of state anchored to key state
+                    - TEL as versioned hash log
+            - Content Addressable (Hash indexed) Database
+                - De-duplication
+                - universaly unique identifers as indexes = secure distributable database 
+                - SAID as index = crypto agile interoperable universally unique identifiers as indexes
+                    - ACDC is a type of content addressable SAID database fragment, graph fragment
+                - B-Tree branch 
+        - Append to Extend
+            - permissionless data type registry
+            - permissionless rules registry
+            - ecosystem governance through permissionless but trusted (reputable) (web-of-trust)  registries
+        - Versioned Authentic data
+            - TEL transfer registry for versioned authentic data
+            - TEL transfer registry for NFTs
+            - TEL/ACDC for authentic messaging registry
+            - TEL/ACDC for authentic versioned document registry
+            - ACDCs are modeled as graph fragments.
+        - BADA/RUN when not use KEL Seals for distributed authentic database
+            - replay attack protection through monotonicity
+                - replay signed date-time stamped message 
+                - replay stale keys to newly date-time stamp and sign message
+                - ephemeral identifiers as auxilaries to persistent identifers
+                    - signed at rest of auxiliary ephemeral identifier
+
+
 
 ## Concepts
 See more [Concepts](https://github.com/WebOfTrust/WOT-terms/blob/main/concepts.md) behind KERI. This is an elaboration on the why's of KERI within the mental model describes in detail above.
