@@ -41,7 +41,7 @@ Solves the hard problem of *zero-trust* architectures, which is [signed-at-rest]
 
 ## Mental model of Verifiable Data Structures all the way down
 
-Or: the inner working of 'Eywa'
+> Or: the inner working of 'Eywa'
 
             - Genealized hash chained signed data structures (provenanceable)
                 - hashed list. 
@@ -67,7 +67,9 @@ Or: the inner working of 'Eywa'
                 - universaly unique identifers as indexes = secure distributable database 
                 - SAID as index = crypto agile interoperable universally unique identifiers as indexes
                     - ACDC is a type of content addressable SAID database fragment, graph fragment
-                - B-Tree branch 
+                - B-Tree branch
+
+
         - Append to Extend
             - permissionless data type registry
             - permissionless rules registry
@@ -82,7 +84,7 @@ Or: the inner working of 'Eywa'
             - replay attack protection through monotonicity
                 - replay signed date-time stamped message 
                 - replay stale keys to newly date-time stamp and sign message
-                - ephemeral identifiers as auxilaries to persistent identifers
+                - ephemeral identifiers as auxiliaries to persistent identifiers
                     - signed at rest of auxiliary ephemeral identifier
 
 
