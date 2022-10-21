@@ -63,7 +63,7 @@ might be a lead. Best expressed by Andy:
 
 <img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/discomfort-on-the-web.drawio.png" alt="Andy and Lou from Little Britain" width="600">
 
-Acknowledgement: Little Britain character expressing his ever-negative judgement "I don't want no .. 'anything' ". [Lou and Andy](https://en.wikipedia.org/wiki/Lou_and_Andy) Example: ["Want a chocolate!"](https://www.youtube.com/watch?v=oegFZUodeJA).
+Acknowledgement: Little Britain character expressing his ever-negative judgement "I don't want no .. { fill in anything } ". [Lou and Andy](https://en.wikipedia.org/wiki/Lou_and_Andy) Example: ["Want a chocolate!"](https://www.youtube.com/watch?v=oegFZUodeJA).
 
 ### How can we shine the spotlight on the unique feature mix of the KERI suite?
 <img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/mental-Model-KERI.drawio.png" alt="Andy from Little Britain" width="600">
@@ -73,10 +73,10 @@ Acknowledgement: Little Britain character expressing his ever-negative judgement
 
 > Or: the inner working of 'Eywa'
 
-            - Genealized hash chained signed data structures (provenanceable)
+### Genealized hash chained signed data structures (provenanceable)
                 - hashed list. 
                 - hash of concatenated hashes in list
-                - hash of cat blineded hashes in list
+                - hash of cat blinded hashes in list
                 - Hash Graph
                     - Hash DAG
                     - Custom Hash DAG
@@ -88,29 +88,28 @@ Acknowledgement: Little Britain character expressing his ever-negative judgement
                 - Cryptographic Accumulators
                     - Collective Signatures (BBS+)
                     - CL Signatures (AnonCreds)
-            - Hash Log
+### Hash Log
                 - KEL is a hash log for key state
                 - TEL is a hash log for every other kind of state anchored to key state
                     - TEL as versioned hash log
-            - Content Addressable (Hash indexed) Database
+### Content Addressable (Hash indexed) Database
                 - De-duplication
                 - universaly unique identifers as indexes = secure distributable database 
                 - SAID as index = crypto agile interoperable universally unique identifiers as indexes
                     - ACDC is a type of content addressable SAID database fragment, graph fragment
                 - B-Tree branch
 
-
-        - Append to Extend
-            - permissionless data type registry
-            - permissionless rules registry
-            - ecosystem governance through permissionless but trusted (reputable) (web-of-trust)  registries
-        - Versioned Authentic data
+## Append to Extend
+            - permission-less data type registry
+            - permission-less rules registry
+            - ecosystem governance through permission-less but trusted (reputable) (web-of-trust)  registries
+## Versioned Authentic data
             - TEL transfer registry for versioned authentic data
             - TEL transfer registry for NFTs
             - TEL/ACDC for authentic messaging registry
             - TEL/ACDC for authentic versioned document registry
             - ACDCs are modeled as graph fragments.
-        - BADA/RUN when not use KEL Seals for distributed authentic database
+## BADA/RUN when not use KEL Seals for distributed authentic database
             - replay attack protection through monotonicity
                 - replay signed date-time stamped message 
                 - replay stale keys to newly date-time stamp and sign message
