@@ -66,6 +66,21 @@ Acknowledgement: Little Britain character expressing his ever-negative judgement
 ### How can we shine the spotlight on the unique feature mix of the KERI suite?
 <img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/mental-Model-KERI.drawio.png" alt="Andy from Little Britain" width="600">
 
+| What | Why | How |
+| -------- | -------- | -------- |
+| Secure attribution | For sure know who said | Verifiability to root-of-trust |
+| Ambient available | Anyone anywhere anytime should be able to use it, zero trust | interoperability by design, witness network |
+| Compact means | heavy duty | minimal sufficient means, durable cyrptography |
+| Free and Open | Anyone anywhere anytime should be able to use it, verifiable | Apache 2 license, no patents |
+| Secure channels | security first and for all | composable event streaming Representation (CESR) |
+| Secure key management |||
+| Duplicity reconciliation|||
+| Seals and Sigatures|||
+| Witness and Watchers |||
+| Veracity aid |To make an informed personal call on veracity with the help of borrowed reputation claims | Chained credentials and Self-addressing Autonomic Identifiers |
+| Self control |||
+
+
 ## Pseudo code of Mental model: Verifiable Data Structures all the way down
 
 > Or: the inner working of 'Eywa'
