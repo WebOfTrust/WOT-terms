@@ -20,7 +20,7 @@ https://github.com/algolia/jekyll-algolia
 
 ## Install & config help programs
 
-https://forestry.io/blog/search-with-algolia-in-jekyll/#3-sending-your-search-index-to-algolia
+[3-sending-your-search-index-to-algolia](https://forestry.io/blog/search-with-algolia-in-jekyll/#3-sending-your-search-index-to-algolia)
 
 But I stopped at this point: 3. NPM things
 

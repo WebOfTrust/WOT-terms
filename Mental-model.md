@@ -18,10 +18,9 @@ How to make any data authentic using the KERI suite? -> create and append to an 
 
 ### Visionaries
 
-As often _filmmakers_ are visionaries: an analogy for the authentic web is **Eywa** from the *Avatar* film: the tree of truth and interconnection.
+As often *film makers* are visionaries: an analogy for the authentic web is **Eywa** from the *Avatar* film: the tree of truth and interconnection.
 
 <img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/eywa-analogy-authentic-web.png" width="600">
-
 
 Back with our feet on the ground of worldly realm:
 
@@ -31,20 +30,19 @@ Now try to convince your date to go to that movie.
 
 What does this mean?
 
-Solves the hard problem of *zero-trust* architectures, which is [signed-at-rest](https://github.com/trustoverip/acdc/wiki/authentic-web). Conversely, _Signed in motion_ is relatively easy because we can use ephemeral identifiers with ephemeral key state for tokens
+Solves the hard problem of *zero-trust* architectures, which is [signed-at-rest](https://github.com/trustoverip/acdc/wiki/authentic-web). Conversely, *Signed in motion* is relatively easy because we can use ephemeral identifiers with ephemeral key state for tokens
 
 *Key state at rest* is hard because have to solve key rotation problem for persistent identifiers
             - signed data at rest using key state at rest of persistent identifiers
                 - Use ephemeral identifiers as auxiliaries to persistent identifiers
                 - Ambient verifiability:  everything can be verified offline, even copies.
 
-
 ## Speak the language of the majority of people
 
 This is hard for several reasons:
 
 - They are not there yet
-- Identity is vague and vast 
+- Identity is vague and vast
 - Digital identity is complex and all-encompassing
 - They don't feel the need, nor the pain, nor the problem
 - They think we're nuts and have been smoking marihuana
@@ -68,55 +66,62 @@ Acknowledgement: Little Britain character expressing his ever-negative judgement
 ### How can we shine the spotlight on the unique feature mix of the KERI suite?
 <img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/mental-Model-KERI.drawio.png" alt="Andy from Little Britain" width="600">
 
-
 ## Pseudo code of Mental model: Verifiable Data Structures all the way down
 
 > Or: the inner working of 'Eywa'
 
-### Genealized hash chained signed data structures (provenanceable)
-                - hashed list. 
-                - hash of concatenated hashes in list
-                - hash of cat blinded hashes in list
-                - Hash Graph
-                    - Hash DAG
-                    - Custom Hash DAG
-                    - Merkle root hash (binary tree) Sparse Merkle Tree
-                    - Patricia Merkle (Trie) root hash 
-                - Signed Hash Graph
-                    - Signed Hash DAG
-                        - ACDC is a type of Custom signed Hash DAG iteself and distribute universal Hash DAG fragment
-                - Cryptographic Accumulators
-                    - Collective Signatures (BBS+)
-                    - CL Signatures (AnonCreds)
+### Genealized hash chained signed data structures (provenance-able)
+
+- hashed list
+    1. hash of concatenated hashes in list
+    2. hash of cat blinded hashes in list
+- Hash Graph
+    1. Hash DAG
+    2. Custom Hash DAG
+    3. Merkle root hash (binary tree) Sparse Merkle Tree
+    4. Patricia Merkle (Trie) root hash
+- Signed Hash Graph
+    1. Signed Hash DAG
+        - ACDC is a type of Custom signed Hash DAG itself and distribute universal Hash DAG fragment
+- Cryptographic Accumulators
+    1. Collective Signatures (BBS+)
+    2. CL Signatures (AnonCreds)
+
 ### Hash Log
-                - KEL is a hash log for key state
-                - TEL is a hash log for every other kind of state anchored to key state
-                    - TEL as versioned hash log
+
+- KEL is a hash log for key state
+- TEL is a versioned hash log for every other kind of state anchored to key state
+
 ### Content Addressable (Hash indexed) Database
-                - De-duplication
-                - universaly unique identifers as indexes = secure distributable database 
-                - SAID as index = crypto agile interoperable universally unique identifiers as indexes
-                    - ACDC is a type of content addressable SAID database fragment, graph fragment
-                - B-Tree branch
+
+- De-duplication
+- universally unique identifiers as indexes = secure distributable database
+- SAID as index = crypto agile interoperable universally unique identifiers as indexes
+- ACDC is a type of content addressable SAID database fragment, graph fragment
+- B-Tree branch
 
 ## Append to Extend
-            - permission-less data type registry
-            - permission-less rules registry
-            - ecosystem governance through permission-less but trusted (reputable) (web-of-trust)  registries
+
+- permission-less data type registry
+- permission-less rules registry
+- ecosystem governance through permission-less but trusted (reputable) (web-of-trust)  registries
+
 ## Versioned Authentic data
-            - TEL transfer registry for versioned authentic data
-            - TEL transfer registry for NFTs
-            - TEL/ACDC for authentic messaging registry
-            - TEL/ACDC for authentic versioned document registry
-            - ACDCs are modeled as graph fragments.
+
+- TEL transfer registry for versioned authentic data
+- TEL transfer registry for NFTs
+- TEL/ACDC for authentic messaging registry
+- TEL/ACDC for authentic versioned document registry
+- ACDCs are modeled as graph fragments
+
 ## BADA/RUN when not use KEL Seals for distributed authentic database
-            - replay attack protection through monotonicity
-                - replay signed date-time stamped message 
-                - replay stale keys to newly date-time stamp and sign message
-                - ephemeral identifiers as auxiliaries to persistent identifiers
-                    - signed at rest of auxiliary ephemeral identifier
 
-
+- replay attack protection through monotonicity
+    1. replay signed date-time stamped message
+    2. replay stale keys to newly date-time stamp and sign message
+- ephemeral identifiers as auxiliaries to persistent identifiers
+   1. signed at rest of auxiliary ephemeral identifier
 
 ## Concepts
+
 See more [Concepts](https://github.com/WebOfTrust/WOT-terms/blob/main/concepts.md) behind KERI. This is an elaboration on the why's of KERI within the mental model describes in detail above.
