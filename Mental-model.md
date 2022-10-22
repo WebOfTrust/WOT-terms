@@ -68,7 +68,7 @@ Acknowledgement: Little Britain character expressing his ever-negative judgement
 
 | What | Why | How |
 | -------- | -------- | -------- |
-| Secure attribution | For sure know who said | Verifiability to root-of-trust |
+| Secure attribution | For sure know who said what | Verifiability to root-of-trust |
 | Ambient available | Anyone anywhere anytime should be able to use it, zero trust | interoperability by design, witness network |
 | Compact means | heavy duty | minimal sufficient means, durable cyrptography |
 | Free and Open | Anyone anywhere anytime should be able to use it, verifiable | Apache 2 license, no patents |

@@ -1,131 +1,131 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     {% include head.html %}
     <script>
-        $(document).ready(function() {
-            // Initialize navgoco with default options
-            $("#mysidebar").navgoco({
-                caretHtml: '',
-                accordion: true,
-                openClass: 'active', // open
-                save: false, // leave false or nav highlighting doesn't work right
-                cookie: {
-                    name: 'navgoco',
-                    expires: false,
-                    path: '/'
-                },
-                slide: {
-                    duration: 400,
-                    easing: 'swing'
-                }
-            });
+      $(document).ready(function() {
 
-            $("#collapseAll").click(function(e) {
-                e.preventDefault();
-                $("#mysidebar").navgoco('toggle', false);
-            });
-
-            $("#expandAll").click(function(e) {
-                e.preventDefault();
-                $("#mysidebar").navgoco('toggle', true);
-            });
-
+// Initialize navgoco with default options
+        $("#mysidebar").navgoco({
+          caretHtml: '',
+          accordion: true,
+          openClass: 'active', // open
+          save: false, // leave false or nav highlighting doesn't work right
+          cookie: {
+            name: 'navgoco',
+            expires: false,
+            path: '/'
+          },
+          slide: {
+            duration: 400,
+            easing: 'swing'
+          }
         });
 
-    </script>
-    <script>
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
-    </script>
-    <script>
-        $(document).ready(function() {
-            $("#tg-sb-link").click(function() {
-                $("#tg-sb-sidebar").toggle();
-                $("#tg-sb-content").toggleClass('col-md-9');
-                $("#tg-sb-content").toggleClass('col-md-12');
-                $("#tg-sb-icon").toggleClass('fa-toggle-on');
-                $("#tg-sb-icon").toggleClass('fa-toggle-off');
-            });
+        $("#collapseAll").click(function(e) {
+          e.preventDefault();
+          $("#mysidebar").navgoco('toggle', false);
         });
+
+        $("#expandAll").click(function(e) {
+          e.preventDefault();
+          $("#mysidebar").navgoco('toggle', true);
+        });
+
+      });
+    </script>
+    <script>
+      $(function() {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+    </script>
+    <script>
+      $(document).ready(function() {
+        $("#tg-sb-link").click(function() {
+          $("#tg-sb-sidebar").toggle();
+          $("#tg-sb-content").toggleClass('col-md-9');
+          $("#tg-sb-content").toggleClass('col-md-12');
+          $("#tg-sb-icon").toggleClass('fa-toggle-on');
+          $("#tg-sb-icon").toggleClass('fa-toggle-off');
+        });
+      });
     </script>
     {% if page.datatable == true %}
-    <!-- Include the standard DataTables bits -->
-    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
-    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
-    <!-- First, this walks through the tables that occur between ...-begin
-         and ...-end and add the "datatable" class to them.
-         Then it invokes DataTable's standard initializer
-         Credit here: http://www.beardedhacker.com/blog/2015/08/28/add-class-attribute-to-markdown-table/
+      <!-- Include the standard DataTables bits -->
+      <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
+      <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
+      <!-- First, this walks through the tables that occur between ...-begin
+      and ...-end and add the "datatable" class to them.
+      Then it invokes DataTable's standard initializer
+      Credit here: http://www.beardedhacker.com/blog/2015/08/28/add-class-attribute-to-markdown-table/
       -->
-    <script>
-      $(document).ready(function(){
+      <script>
+        $(document).ready(function() {
           $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
-          $('table.display').DataTable( {
-              paging: true,
-              stateSave: true,
-              searching: true
-          });
-       });
-    </script>
+          $('table.display').DataTable({paging: true, stateSave: true, searching: true});
+        });
+      </script>
     {% endif %}
 
-</head>
-<body>
-<!--Test search results Algolia-->
- 
-{% include algolia.html %}
-{% include topnav.html %}
-<!-- Page Content -->
-<div class="container">
-  <div id="main">
-    <!-- Content Row -->
-    <div class="row">
-        {% assign content_col_size = "col-md-12" %}
-        {% unless page.hide_sidebar %}
+  </head>
+  <body>
+    <!--Test search results Algolia-->
+
+    {% include topnav.html %}
+    <!-- Page Content -->
+    <div class="container">
+      <div id="main">
+        <!-- Content Row -->
+        <div class="row">
+          {% assign content_col_size = "col-md-12" %}
+          {% unless page.hide_sidebar %}
             <!-- Sidebar Column -->
             <div class="col-md-3" id="tg-sb-sidebar">
-                {% include sidebar.html %}
+              {% include sidebar.html %}
             </div>
             {% assign content_col_size = "col-md-9" %}
-        {% endunless %}
+          {% endunless %}
 
-        <!-- Content Column -->
-        <div class="{{content_col_size}}" id="tg-sb-content">
-            <div id="search-searchbar"></div>   
-             <!-- Test Home.html code Algolia test -->
+          <!-- Content Column -->
+          <div class="{{content_col_size}}" id="tg-sb-content">
+            <div id="search-searchbar"></div>
+            <!-- Test Home.html code Algolia test -->
             <div id="search-hits">
-                {% for post in site.posts %}
-                  <div class="post-item">
-                    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-                    <span class="post-meta">{{ post.date | date: date_format }}</span>
-            
-                    <h2>
-                      <a class="post-link" href="{{ post.url | relative_url }}">
-                        {{ post.title | escape }}
-                      </a>
-                      TESTEN MAAR
-                    </h2>
-            
-                    <div class="post-snippet">{{ post.excerpt }}</div>
+              {% for post in site.posts %}
+                <div class="post-item">
+                  {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                  <span class="post-meta">{{ post.date | date: date_format }}
+                  </span>
+
+                  <h2>
+                    <a class="post-link" href="{{ post.url | relative_url }}">
+                      {{ post.title | escape }}
+                    </a>
+                    TESTEN MAAR
+                  </h2>
+
+                  <div class="post-snippet">{{ post.excerpt }}
                   </div>
-                {% endfor %}
-              </div>
-            
+                </div>
+              {% endfor %}
+            </div>
+
             {{content}}
+          </div>
+          <!-- /.row -->
         </div>
-    <!-- /.row -->
-</div>
-<!-- /.container -->
-</div>
-<!-- /#main -->
+        <!-- /.container -->
+      </div>
+      <!-- /#main -->
     </div>
 
-</body>
-{% if site.google_analytics %}
-{% include google_analytics.html %}
-{% endif %}
+  </body>
+  {% include algolia.html %}
+  {% if site.google_analytics %}
+    {% include google_analytics.html %}
+  {% endif %}
 </html>
 
-{% comment %} Copyright 2021 Google LLC {% endcomment %}
+{% comment %}
+  Copyright 2021 Google LLC
+{% endcomment %}

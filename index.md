@@ -9,6 +9,26 @@ summary: These brief instructions will help you get started quickly with the the
 
 {% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
 
+
+  <div id="search-searchbar"></div>
+
+  <div class="post-list" id="search-hits">
+    {% for post in site.posts %}
+      <div class="post-item">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h2>
+
+        <div class="post-snippet">{{ post.excerpt }}</div>
+      </div>
+    {% endfor %}
+  </div>
+
 ## Build the Theme
 
 Follow these instructions to build the theme.
