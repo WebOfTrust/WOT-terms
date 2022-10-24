@@ -28,25 +28,25 @@ topnav_dropdowns:
     - title: Products
       folderitems:
         - title: Identifier Theory
-          url: /res_IdentifierTheory-ssmith-uidt.html
+          url: /resrc_IdentifierTheory-ssmith-uidt.html
         - title: KERI
-          url: /res_draft-ssmith-keri.html
+          url: /resrc_draft-ssmith-keri.html
         - title: ACDC
-          url: /res_draft-ssmith-acdc.html
+          url: /resrc_draft-ssmith-acdc.html
         - title: CESR 
-          url: /res_draft-ssmith-cesr.html
+          url: /resrc_draft-ssmith-cesr.html
         - title: CESR Proof 
-          url: /res_draft-pfeairheller-cesr-proof.html
+          url: /resrc_draft-pfeairheller-cesr-proof.html
         - title: OOBI
-          url: /res_draft-ssmith-oobi.html
+          url: /resrc_draft-ssmith-oobi.html
         - title: SAID
-          url: /res_draft-ssmith-said.html
+          url: /resrc_draft-ssmith-said.html
         - title: IPEX
-          url: /res_draft-ssmith-ipex.html
+          url: /resrc_draft-ssmith-ipex.html
         - title: PTEL
-          url: /res_draft-pfeairheller-ptel.html
+          url: /resrc_draft-pfeairheller-ptel.html
         - title: DID KERI
-          url: /res_draft-pfeairheller-did-keri.html
+          url: /resrc_draft-pfeairheller-did-keri.html
         - title: Jekyll Documentation Theme
           url: /mydoc_introduction.html
 #        - title: Product 1

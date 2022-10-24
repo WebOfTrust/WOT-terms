@@ -31,6 +31,8 @@ exclude:
   - .idea/
   - .gitignore
   - vendor
+  - node_modules
+  - Gemfile
 # these are the files and directories that jekyll will exclude from the build
 
 feedback_subject_line: WebofTrust documentation and education
@@ -64,6 +66,9 @@ collections:
     output: false
 # collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
   terms:
+    output: true
+    permalink: /:path
+  resources:
     output: true
     permalink: /:path
 
@@ -119,7 +124,7 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 url: http://weboftrust.github.io
 baseurl: /WOT-terms
 
-github: [metadata]
+github: [metadata]   # hvc: important for the Github access token error (locally) to become a warning
 
 algolia:
   application_id: 'FSH23UI187'

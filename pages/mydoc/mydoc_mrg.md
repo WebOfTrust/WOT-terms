@@ -15,12 +15,12 @@ folder: mydoc
 <ul>
 {% for entry in site.data.mrgtest.entries %}
   
-  {% if entry.scopetag == {{site.data.mrgtest.terminology.scopetag}} %}
+  {% if entry.scopetag == site.data.mrgtest.terminology.scopetag %}
     {% capture urlmd %}{{termscopedir}}/terms/{{entry.locator}}{% endcapture %}
   {% endif %}
 
   {% for scope in site.data.mrgtest.scopes %}
-    {% if entry.scopetag == {{scope.scopetag}} %}
+    {% if entry.scopetag == scope.scopetag %}
         {% capture urlmd %}{{scope.scopedir}}/{{entry.locator}}{% endcapture %}
     {% endif %}
   {% endfor %}
