@@ -21,7 +21,7 @@ Also could you look at the description of the terms wikis [here]()
 {TBW}
 
 ## How to use a terms wiki
-Go to any of them, for example to the [acdc]() wiki of the KERI team. It's not only acdc by the way, the KERI suite has been defined in terms there.
+Go to any of them, for example to the [acdc](https://github.com/trustoverip/acdc/wiki) wiki of the KERI team. It's not only acdc by the way, the KERI suite has been defined in terms there.
 
 1. **Find a page**: To find a term just type part of it and the available list will be filtered instantly
 <img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/find-a-page.png" alt="how to create a new term in the terms wiki" width="300">
@@ -67,3 +67,5 @@ Originally, the instruction was to create a term and is acronym the way you have
 
 However, it turns out that generating two entries from one wiki page creates some undesirable complications. The tool needs to generate two tag lists and two edit histories as well. References to the term have an ID that is the same for both the short and the long form, and which authors may not remember. (You're writing a doc and you want to link to "SSI" but you have to remember to link to "self sovereign identity (SSI)" instead.) Etc.\
 (Source: Daniel Hardman)
+
+{% include links.html %}
