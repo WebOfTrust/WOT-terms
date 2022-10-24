@@ -7,10 +7,17 @@ However, the mental model changes drastically when you would state that the *sun
 
 More on this can be read here: eSSIF-lab [mental models](https://essif-lab.github.io/framework/docs/terms/pattern).
 
+## A mental model for every target group
+If we'd like to get the message across and be understood we have to understand that every mental model has its own target group.
+
+'Authentic web' is multi explicable, if only it would make sense in the first place.
+
 ## Authentic web
 If we wrap up the definition of the authentic web [here](https://github.com/trustoverip/acdc/wiki/authentic-web) we could say:
 
 ### The authentic web is the internet as a whole giant verifiable data structure.
+
+But who do we intend to reach with a definition like this? Definitely insiders or computer-savy people. Acknowledging this, let's go for this target group briefly. And try to expand the reach later.
 
 ## Technical implications
 
@@ -80,12 +87,43 @@ Acknowledgement: Little Britain character expressing his ever-negative judgement
 | Veracity aid |To make an informed personal call on veracity with the help of borrowed reputation claims | Chained credentials and Self-addressing Autonomic Identifiers |
 | Self control |Self sovereignty, decentralization, freedom, self determination, avoid totalitarian control and surveillance| no middlemen, private key inception, delegation, key rotation, revocation |
 
+### "Never explain a joke"
+
+Running to risk of violating this rule right way, I feel the need to explain some of the icons.
+
+#### Secure attribution
+
+**The paper arrow with a lock**
+For me it’s an image of somebody sending a message and I can be 100% sure it’s from him or her. 
+
+##### Analogy Snowball
+
+Like a snowball in the school yard; it landed cold and wet in your neck, you turned around and wondered ‘who did it’?! Relatable?\
+You look around and a few class mates are laughing, some are smiling at you. You can’t be sure, so you try to hit the one with the biggest smile on his face with the snowball you had just been preparing when one of them hit you off guard.
+
+**Same with paper arrows going through a class room**: it lands on your desk, our in your hair, but again… *who dunnit*?!
+
+#### Compact means
+
+When we design long living, all encompassing identifier systems for people, orgs and IoT devices, we have to take of every single bit and byte we use. And happily KERI, ACDC, CESR, OOBI etc, do so. So it’s the minimal sufficient means variant and the best environmental friendly approach we can have for persistent identifiers.
+
+#### Secure channels
+
+Peer-to-peer, OOBI and CESR. 
+
+Going over them in reverse order.
+
+1. If you can’t read what going over the line, security is no more than pure trust. CESR is round robin composable and makes it cryptographically verifiable and visually verifiable and solves this problem.
+2. OOBI is an extra, time-gap-bridging  guarantee (by authentication) that some entity is the one who you think it is while being introduced to it. OOBI is discovery via URI, trust via KERI. Confidentiality and Verifiability is preserved; therefor a (just authenticated) secure one-to-one channel.
+3. The two-headed arrow symbolizes the p2p nature of this exchange. (edited) 
+
+> Again, if I have to explain the icon, it’s not a good-enough icon. But if we describe the analogy we all can relate to, we could find somebody to draw a matching icon all along.
 
 ## Pseudo code of Mental model: Verifiable Data Structures all the way down
 
 > Or: the inner working of 'Eywa'
 
-### Genealized hash chained signed data structures (provenance-able)
+### Generalized hash chained signed data structures (provenance-able)
 
 - hashed list
     1. hash of concatenated hashes in list
