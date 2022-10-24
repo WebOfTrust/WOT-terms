@@ -131,6 +131,18 @@ algolia:
   index_name: dev_bcws
   vars: ["title", "excerpt", "date", "url", "categories", "tags"]
   search_only_api_key: 'bdc36025938111a18bda9bfb9b651ceb'
+  # Exclude more files from indexing
+  files_to_exclude:
+    - index.html
+    - index.md
+    - mydoc_*.html
+    - images/*
+    - js/*
+    - fonts/*
+  #  - excluded-file.html
+  #  - _posts/2017-01-20-date-to-forget.md
+  #  - **/*.tmp.html
+  files_to_include: mydoc_glossary.html
 
 # Specially for GitHub Pages based resources in inter-linking md glossary files:
 plugins:

@@ -59,7 +59,7 @@ The **discomfort** many people experience on digital media like
 
 might be a lead. Best expressed by Andy:
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/discomfort-on-the-web.drawio.png" alt="Andy and Lou from Little Britain" width="600">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/discomfort-on-the-web.drawio.png" alt="Andy and Lou from Little Britain" width="800">
 
 Acknowledgement: Little Britain character expressing his ever-negative judgement "I don't want no .. { fill in anything } ". [Lou and Andy](https://en.wikipedia.org/wiki/Lou_and_Andy) Example: ["Want a chocolate!"](https://www.youtube.com/watch?v=oegFZUodeJA).
 
