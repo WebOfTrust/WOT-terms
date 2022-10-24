@@ -32,13 +32,14 @@ So I Googled more and found ->
 
 ## Help and front-end code
 
-https://community.algolia.com/jekyll-algolia/
+[[jekyll-algolia community site]](https://community.algolia.com/jekyll-algolia/)
 
-https://community.algolia.com/jekyll-algolia/getting-started.html#front-end
+
+[getting started](https://community.algolia.com/jekyll-algolia/getting-started.html#front-end)
 
 ### Tutorial
 
-https://community.algolia.com/jekyll-algolia/blog.html
+[tutorial in blog](https://community.algolia.com/jekyll-algolia/blog.html)
 
 #### Algolia.html
 
@@ -46,9 +47,9 @@ In this file the [template code](https://community.algolia.com/jekyll-algolia/bl
 
 ### Bend the tutorial to Jekyll Documentation Theme
 
-`Index.md` must have the `home.hml` code, however **exclusive** the `{% include algolia.html %}` call.
+`Index.md` must have the `home.hml` code, however **exclusive** the `\{\% include algolia.html \%\}` call.
 
-`{% include algolia.html %}` gets a spot under the `</body>` tag in de `default.html` file in the `_layout` directory of Jekyll.
+`\{\% include algolia.html \%\}` gets a spot under the `</body>` tag in de `default.html` file in the `_layout` directory of Jekyll.
 
 <img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/include-algolia-guide.png" alt="config Algolia search use in Jekyll theme" width="300">
 
@@ -56,7 +57,7 @@ Every Jekyll Documentation Theme layout includes `default.html` via front matter
 
 ## Installed instantsearch.js
 
-https://www.npmjs.com/package/instantsearch.js
+[Package instantsearch](https://www.npmjs.com/package/instantsearch.js)
 
 Be sure to exclude the `node_module` directory in `_config.yml` because its READMEs and CHANGELOGs create Jekyll warnings:
 
