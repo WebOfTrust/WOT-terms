@@ -66,6 +66,8 @@ topnav_dropdowns:
           url: /hwt_fuzzy-count-terms.html
         - title: Get Markdown Terms
           url: /hwt_get-markdown-from-ToIP-wiki.html
+        - title: Fill out Terms ToIP wiki
+          url: /hwt_fill-out-terms-toip-wiki.html
         - title: Load ToIP Glossary
           url: /hwt_load-toip-glossary-in-weboftrust-github-page.html
         - title: Pull Docs to Site
