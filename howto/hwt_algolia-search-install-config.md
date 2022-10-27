@@ -65,3 +65,36 @@ Be sure to exclude the `node_module` directory in `_config.yml` because its READ
 exclude:
   - node_modules
 ```
+
+## Github Actions for Algolia CI
+
+Since our site is already in github, I chose Github Actions to leverage this action for me. I just have to create the following yaml in the `.github/workflows` folder of our repo:
+
+### .github/workflows/jekyll-algolia.yml
+
+```
+on: [push]
+
+jobs:
+  build:
+    name: Algolia push records
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Set up Ruby 2.6
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6.x
+      - name: Install dependencies and push records
+        run: |
+          gem install bundler
+          bundle install --jobs 4 --retry 3
+          bundle exec jekyll algolia
+        env:
+          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+```
+
+As you can see it this will install the dependencies and launch the command to push the data to Algolia. Please note that the `ALGOLIA_API_KEY` needs to be defined in the **github secrets** (to be found in the left sidebar after clicking `Settings` of the Github Repo).\
+[Source](https://cristianpb.github.io/blog/jekyll-algolia)
