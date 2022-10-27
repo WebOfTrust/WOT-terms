@@ -16,7 +16,7 @@ This page tells a little bit about how to use the ToIP terms wiki:
 ## Video Daniel Hardman
 For new learners, the [video]() of Daniel Hardman is very educational. 
 
-Also could you look at the description of the terms wikis [here]()
+You could also have a look at the elaborate and complete description of the ToIP terms wikis [here](https://github.com/trustoverip/toip)
 
 {TBW}
 

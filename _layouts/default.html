@@ -120,8 +120,13 @@
     </div>
 
   </body>
+  {% comment %}
+    Added by Kor & Henk Oct 2022
+  {% endcomment %}
   {% include algolia.html %}
-  {% if site.google_analytics %}
+  if (document.querySelector("#search-searchbar.innerHTML) === "") {
+      document.querySelector("#search-hits").innerHTML = "")
+    }{% if site.google_analytics %}
     {% include google_analytics.html %}
   {% endif %}
 </html>

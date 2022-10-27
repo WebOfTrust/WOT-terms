@@ -142,7 +142,7 @@ algolia:
   #  - excluded-file.html
   #  - _posts/2017-01-20-date-to-forget.md
   #  - **/*.tmp.html
-  files_to_include: mydoc_glossary.html
+  files_to_include: mydoc_glossary.html # just a blind guess no clue of this one works, hvc Oct 2022
 
 # Specially for GitHub Pages based resources in inter-linking md glossary files:
 plugins:
