@@ -21,13 +21,16 @@ Topic: **KERI Concepts and Terms**
 Time: Jul 28, 2022 08:00 AM Mountain Time (US and Canada), 4PM CEST
 
 Every 2 weeks on Thu, until Oct 20, 2022, 7 occurrence(s)
-- Jul 28, 2022 08:00 AM
-- Aug 11, 2022 08:00 AM
-- Aug 25, 2022 08:00 AM
-- Sep 8, 2022 08:00 AM
-- Sep 22, 2022 08:00 AM
-- Oct 6, 2022 08:00 AM
-- Oct 20, 2022 08:00 AM
+- **Done** Jul 28, 2022 08:00 AM + Aug 11, 2022 08:00 AM + Aug 25, 2022 08:00 AM + Sep 8, 2022 08:00 AM + Sep 22, 2022 08:00 AM + Oct 6, 2022 08:00 AM + Oct 20, 2022 08:00 AM
+- Nov 3, 2022 08:00 AM
+- Nov 17, 2022 08:00 AM
+- Dec  1, 2022 08:00 AM
+- Dec 15, 2022 08:00 AM
+- Dec 29, 2022 08:00 AM
+- Jan 12, 2023 08:00 AM
+- Jan 26, 2023 08:00 AM
+- Feb  9, 2023 08:00 AM
+- Feb 23, 2023 08:00 AM
 
 Please download and import the following [iCalendar (.ics) files](./meeting-89893527631.ics) to your calendar system.
 Weekly: https://us02web.zoom.us/meeting/tZ0lfuqtrDwsGdXO34oUxPbSpcf4X1Lcdmb-/ics?icsToken=98tyKuGhpjIpH9aSthqGRpx5Gor4b-_zpmZdjadls0yxDBVLUgHFJuFEZoouPNvU
@@ -70,8 +73,6 @@ Howto's of WebofTrust documentation effort in github project page: [Howto](https
 ### Future Topics
 Steven Milstein: Developer-tooling CLI, Docker containers
 
-### ToDo
-- [x] organize host rights - request sent Aug 11 by Henk to Philip/Sam
 
 ### Discussion items
 
@@ -82,6 +83,73 @@ Are there any terms you'd like to have defined?
 Reverse engineer a concepts - document. Can we still use / refer to the KIDs (comments) at DIF? Where has this content gone in WebofTrust / IETF?
 
 CESR: https://hackmd.io/GbQO3p6QTge-8eQMGuMaeQ#First-questions
+
+### 2022-10-20
+Henk van Cann (host)\
+Ruth Choueka\
+Mark Scott\
+Randy Warshaw\
+Kent Bull\
+Joseph Hunsaker\
+Steven Milstein
+
+Recording : https://drive.google.com/file/d/1NAJlSiIgYwYeiusbN-xYv7ePuAL_zBoW/view?usp=sharing
+
+### Topics
+1. [Status reporting](https://hackmd.io/yYpd2uhRTpCadsGVw3Rl-A?both) No table for CESROX yet. Were waiting fro Phil to contribute an improved structure of the tables.  
+2. [Mental Model](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/Mental-model.md) Authentic Web
+
+
+#### Mental model
+The whole meeting has been devoted to Mental Model of the *Authentic web*. Below thoughts that have been shared and actionpoint distiled from this.
+
+**Objective**\
+The objective of the agenda point was to create more understandable language to explain the mental model as [described by Phil](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/Mental-model.md#mental-model-of-verifiable-data-structures-all-the-way-down) before.
+
+#### Renarks made in a random order
+We need a visual representation of the Mental Model - Steven\
+Phil's All The Way Down description is a pseudo code definition of the model
+
+The forest of interconnectied trees - Joseph\
+We need labels to analogies we create - Joseph
+
+What's the infratstructure I need for KERI? This is very hard to explain to the average interested person. - Randy
+People start comparing to what you can't compare. Sam Smith: KERI is the [internet identifier Platypus](https://github.com/WebOfTrust/keri/blob/main/docs/Q-and-A.md#keri-the-internet-identifier-platypus) 
+
+What are the key selling points of KERI - Kent
+
+So you could attach your Authentic Web Tree in the forest of trees to bitcoin transaction and selectively disclose it. Adding anchored reputation to single transactions (e.g. BTC transaction hash in a TEL and sealed in a KEL). - Joseph & Henk
+
+"the autonomous control of authentic data and relationships" Timothy Ruff [Medium article](	https://rufftimo.medium.com/web3-web5-ssi-3870c298c7b4)
+
+Randy: KERI solves the problem of *trusted communication* where we get *good info as the basis of decisions*
+Randy: KERI fully decentralized verifiability
+
+Misinformation, fake news, cancel culture
+Answers to question like Where did you here that?, Do you know what it is, where it came from and whether it's true or not.
+
+The phone calls and text messages example: "oh yeah?, how do you know it's authentic?"
+
+KERI solves:
+- [Zero trust](https://github.com/trustoverip/acdc/wiki/zero-trust)
+- [Signed at rest](https://github.com/trustoverip/acdc/wiki/authentic-web#related)
+- [Keystate at rest](https://github.com/trustoverip/acdc/wiki/authentic-web#related)
+
+Henk: When I asked people do you need what KERI solves, it's always "I don't have this problem". Steven: they're not there yet. 
+Too early to be specific about a mental model - Kent
+Henk: But which wording can we use to bridge the gap and raising awareness?
+
+Joseph: it always seems to come down to personal assessment. Whereas I can or cannot trust certain *curations* of info by centralized parties like Twitter. Henk: there are certain features in the KERI suite that let's you inherit or borrow support from certain credentials in a cryptographical verfiable manner (e.g. chained credentials, OOBIs). I foresee curation algorithms on top of the KERI suite infrastructure to help you borrow trust from credentials (verifiably supported by third parties). Analogy: Tooling on top of public blockchains, the most basic being: blockchain explorers, e.g. https://www.blockchain.com/explorer/assets/btc
+
+#### Agreement on these points
+- We stick to the definition of Mental Model that eSSIF-lab has introduced and try not to integrate but stay in line with them.
+- We acknowledge that KERI solves secure attribution (we're not going to argue cryptography), but not veracity, it only helps to assess it (Ruth).
+
+#### Action 
+ - [ ]  More visual presentations - Henk will get in contact with a cartoonist
+ - [ ] Line up with Timothy Ruff's [medium article](https://rufftimo.medium.com/web3-web5-ssi-3870c298c7b4) - Henk
+ - [ ] Henk will add insights ofd today's meeting to[What problem does KERI solve](https://hackmd.io/2_rftT-USdys8onc8Echdw?both)?
+
 
 ### 2022-10-06
 Henk van Cann (host)\
@@ -300,6 +368,9 @@ The current agenda items are suitable for offline processsing:
 
 
 ### 2022-07-28
+
+#### ToDo
+- [x] organize host rights - request sent Aug 11 by Henk to Philip/Sam
 
 Present:\
 Philip Feairheller (co-host)\
