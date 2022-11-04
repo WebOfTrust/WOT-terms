@@ -81,8 +81,8 @@ Acknowledgement: Little Britain character expressing his ever-negative judgement
 | Free and Open | Anyone anywhere anytime should be able to use it, verifiable | Apache 2 license, no patents |
 | Secure channels | security first and for all | composable event streaming Representation (CESR) |
 | Secure key management |You gotta keep your secrets secret |Proven dumb cryptography with all inception features needed, like multisig |
-| Duplicity reconciliation|Not all double speak has negative intent |consensus mechanism reconcile from duplicity in some cases|
-| Seals and Signatures|Offer the ability to verify everything and not trust it |Hashing, self-addressing identifiers, signatures|
+| Duplicity detection | We don't trust double speak but act on it | rotate controlling keys |
+| Seals and Signatures|Offer the ability to verify everything and not trust it; non-repudiable |Hashing, self-addressing identifiers, signatures|
 | Witness and Watchers |Scalable presence of promulgator of key state, proofs and credentials|through secure peer-to-peer channels and cryptographic receipts|
 | Veracity aid |To make an informed personal call on veracity with the help of borrowed reputation claims | Chained credentials and Self-addressing Autonomic Identifiers |
 | Self control |Self sovereignty, decentralization, freedom, self determination, avoid totalitarian control and surveillance| no middlemen, private key inception, delegation, key rotation, revocation |
