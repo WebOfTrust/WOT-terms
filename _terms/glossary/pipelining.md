@@ -3,4 +3,4 @@ In [computing](https://en.wikipedia.org/wiki/Computing), a pipeline, also known 
 More on source [Wikipedia-page](https://en.wikipedia.org/wiki/Pipeline_(computing))
 
 ## Related
-[Multiplexing](term_multiplexing)
+[Multiplexing](multiplexing)

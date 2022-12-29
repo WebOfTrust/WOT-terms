@@ -1,11 +1,3 @@
----
-layout: default
-Title: Product
-tags: [KERI]
-permalink: /res_draft-pfeairheller-did-keri.html
-sidebar: all_lvl3_wot_sidebar
-folder: 
----
 title: "The did:keri DID Method"
 abbrev: "DID-KERI"
 docname: draft-pfeairheller-did-keri-latest

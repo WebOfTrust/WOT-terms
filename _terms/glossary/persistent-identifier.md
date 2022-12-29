@@ -1,2 +1,2 @@
 ## See
-[Transferable Identifiers](term_transferable-identifier)
+[Transferable Identifiers](transferable-identifier)

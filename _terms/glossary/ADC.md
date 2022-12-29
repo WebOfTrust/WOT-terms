@@ -1,2 +1,2 @@
 ## See
-[Authentic data container](term_authentic-data-container)
+[Authentic data container](authentic-data-container)

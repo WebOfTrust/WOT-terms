@@ -1,2 +1,2 @@
 ## See
-[Interoperability](term_interoperability)
+[Interoperability](interoperability)

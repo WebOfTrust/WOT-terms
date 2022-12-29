@@ -1,11 +1,3 @@
----
-layout: default
-Title: Product
-tags: [OOBI]
-permalink: /res_draft-ssmith-oobi.html
-sidebar: all_lvl3_wot_sidebar
-folder: 
----
 title: "Out-Of-Band-Introduction (OOBI) Protocol"
 abbrev: "OOBI"
 category: info

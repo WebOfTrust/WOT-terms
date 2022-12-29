@@ -1,11 +1,3 @@
----
-layout: default
-Title: Product
-tags: [ACDC]
-permalink: /res_draft-ssmith-acdc.html
-sidebar: all_lvl3_wot_sidebar
-folder: 
----
 title: "Authentic Chained Data Containers (ACDC)"
 abbrev: "ACDC"
 category: info

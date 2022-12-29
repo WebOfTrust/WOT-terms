@@ -1,2 +1,2 @@
 ## See
-[Levels of assurance](term_levels-of-assurance)
+[Levels of assurance](levels-of-assurance)

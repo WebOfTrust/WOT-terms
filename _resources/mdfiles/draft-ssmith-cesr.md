@@ -1,12 +1,3 @@
----
-layout: default
-Title: Product
-tags: [KERI,CESR]
-permalink: /res_draft-ssmith-cesr.html
-sidebar: all_lvl3_wot_sidebar
-folder: 
----
-
 title: "Composable Event Streaming Representation (CESR)"
 abbrev: "CESR"
 docname: draft-ssmith-cesr-latest

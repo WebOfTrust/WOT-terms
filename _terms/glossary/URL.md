@@ -1,2 +1,2 @@
 ## See
-[Uniform resource locator](term_uniform-resource-locator)
+[Uniform resource locator](uniform-resource-locator)

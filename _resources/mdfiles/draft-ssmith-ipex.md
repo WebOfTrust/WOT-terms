@@ -1,11 +1,3 @@
----
-layout: default
-Title: Product
-tags: [IPEX]
-permalink: /res_draft-ssmith-ipex.html
-sidebar: all_lvl3_wot_sidebar
-folder: 
----
 title: "Issuance and Presentation Exchange Protocol"
 abbrev: "IPEX"
 category: info

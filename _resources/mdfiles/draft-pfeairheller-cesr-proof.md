@@ -1,11 +1,3 @@
----
-layout: default
-Title: Product
-tags: [KERI,CESR]
-permalink: /res_draft-pfeairheller-cesr-proof.html
-sidebar: all_lvl3_wot_sidebar
-folder: 
----
 title: "CESR Proof Signatures"
 abbrev: "CESR-PROOF"
 docname: draft-pfeairheller-cesr-proof-latest

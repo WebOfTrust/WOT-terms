@@ -1,2 +1,2 @@
 ## See
-[Self-certifying identifier](term_self-certifying-identifier)
+[Self-certifying identifier](self-certifying-identifier)

@@ -1,11 +1,3 @@
----
-layout: default
-Title: Product
-tags: [KERI,PTEL]
-permalink: /res_draft-pfeairheller-ptel.html
-sidebar: all_lvl3_wot_sidebar
-folder: 
----
 title: "Public Transaction Event Logs (PTEL)"
 abbrev: "PTEL"
 docname: draft-pfeairheller-ptel-latest

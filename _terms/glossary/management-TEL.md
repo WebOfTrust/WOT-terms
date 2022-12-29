@@ -1,2 +1,2 @@
 ## See
-[Management transaction event log](term_management-transaction-event-log)
+[Management transaction event log](management-transaction-event-log)

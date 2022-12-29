@@ -1,12 +1,3 @@
----
-layout: default
-Title: Product
-tags: [KERI, SAID]
-permalink: /res_draft-ssmith-said.html
-sidebar: all_lvl3_wot_sidebar
-folder: 
----
-
 title: "Self-Addressing IDentifier (SAID)"
 abbrev: "SAID"
 docname: draft-ssmith-said-latest

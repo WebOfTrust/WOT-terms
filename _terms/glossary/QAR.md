@@ -1,2 +1,2 @@
 ## See
-[QVI Authorized Representative](term_qvi-authorized-representative)
+[QVI Authorized Representative](qvi-authorized-representative)

@@ -1,2 +1,2 @@
 ## See
-[Virtual credential transaction event log](term_virtual-credential-transaction-event-log)
+[Virtual credential transaction event log](virtual-credential-transaction-event-log)

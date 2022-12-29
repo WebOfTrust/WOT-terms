@@ -1,2 +1,2 @@
 ## See
-[Input output](term_input-output)
+[Input output](input-output)
