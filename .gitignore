@@ -12,3 +12,4 @@ output/
 Split_*
 *-workfile.txt
 .history
+/.devcontainer
