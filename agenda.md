@@ -21,13 +21,16 @@ Topic: **KERI Concepts and Terms**
 Time: Jul 28, 2022 08:00 AM Mountain Time (US and Canada), 4PM CEST
 
 Every 2 weeks on Thu, until Oct 20, 2022, 7 occurrence(s)
-- Jul 28, 2022 08:00 AM
-- Aug 11, 2022 08:00 AM
-- Aug 25, 2022 08:00 AM
-- Sep 8, 2022 08:00 AM
-- Sep 22, 2022 08:00 AM
-- Oct 6, 2022 08:00 AM
-- Oct 20, 2022 08:00 AM
+- **Done** Jul 28, 2022 08:00 AM + Aug 11, 2022 08:00 AM + Aug 25, 2022 08:00 AM + Sep 8, 2022 08:00 AM + Sep 22, 2022 08:00 AM + Oct 6, 2022 08:00 AM + Oct 20, 2022 08:00 AM
+- Nov 3, 2022 08:00 AM
+- Nov 17, 2022 08:00 AM
+- Dec  1, 2022 08:00 AM
+- Dec 15, 2022 08:00 AM
+- Dec 29, 2022 08:00 AM
+- Jan 12, 2023 08:00 AM
+- Jan 26, 2023 08:00 AM
+- Feb  9, 2023 08:00 AM
+- Feb 23, 2023 08:00 AM
 
 Please download and import the following [iCalendar (.ics) files](./meeting-89893527631.ics) to your calendar system.
 Weekly: https://us02web.zoom.us/meeting/tZ0lfuqtrDwsGdXO34oUxPbSpcf4X1Lcdmb-/ics?icsToken=98tyKuGhpjIpH9aSthqGRpx5Gor4b-_zpmZdjadls0yxDBVLUgHFJuFEZoouPNvU
@@ -70,8 +73,6 @@ Howto's of WebofTrust documentation effort in github project page: [Howto](https
 ### Future Topics
 Steven Milstein: Developer-tooling CLI, Docker containers
 
-### ToDo
-- [x] organize host rights - request sent Aug 11 by Henk to Philip/Sam
 
 ### Discussion items
 
@@ -82,6 +83,142 @@ Are there any terms you'd like to have defined?
 Reverse engineer a concepts - document. Can we still use / refer to the KIDs (comments) at DIF? Where has this content gone in WebofTrust / IETF?
 
 CESR: https://hackmd.io/GbQO3p6QTge-8eQMGuMaeQ#First-questions
+
+### 2022-11-03
+Henk van Cann (host)\
+Phil Feairheller (host)\
+Mark Scott\
+Kent Bull\
+Joseph Hunsaker\
+
+Recording : https://drive.google.com/file/d/1P6V_RJNL_RFY5pL8tudqTe9iTsREos1c/view?usp=share_link
+
+### Topic
+[Mental Model](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/Mental-model.md) The tables and info graphics.
+
+#### Duplicity reconciliation must be 'detection'
+Phil argues: duplicity is two key event in the KEL with same sequence number: key compromise. It can have consequences for ACDCs. The controller decides what to do (most prob key rotation), there's no automatism in place.\
+The non-repudiation is the key feature that is in danger with duplicity.
+
+#### The hard problem of reaching the public with what problem KERI solves
+Phil: What problem did Linux solve? How many people know what Linux is? There will be loads of unintended consequences too, if you dare to compare KERI's impact to Linux's impact.\
+Joseph: The Authentic web experience, hwo do we get that into a state of "not unconsiously"?
+KERI in the end is about better **reputation**, with al lot of adjectives to add before it (non-repudiable, verifiable-to-the-root-of-trust, etc). We can build a better world future with it.
+The anchoring in use-cases will happen and then we can start evangelizing.
+
+Henk: should we drop the target groups that are more general than "Digital Identity Experts"? Should we get rid of the [Andy - diagram](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/Mental-model.md#how-can-we-break-through-blissful-ignorance) and his feeling of un-easiness with the things that happen to him on the web and that he can't pin-point yet?\
+Phil: No, I'ld not do this. We need to reach out to them too.
+
+### Analogies to be used to explain KERI
+#### The Car analogy with KERIs unique problem solving capacity
+- Parts, and parts manufacturers
+- Automatic breaking system
+- Steering wheel analogy: you are in control, but get supported by crafty technology.
+
+#### Voting
+Kent wants to look into voting as a killer app for KERI. 
+
+#### Fake News
+Phil shared the idea of a site that is an early member / part of the Authentic web where you can attest to news (target group: politicians)
+
+Joseph elaborates in Slack on this:
+> For @Phil Feairheller
+’s use case about authenticating video… that got me thinking, and I just want to express my thoughts here if you don’t mind.  Usually the videos that go viral are controversial … like “I cannot believe they said that”… And you are never going to get a politician or rioter anyone someone to “sign” your video.  But this got me thinking… how can one of those videos be authenticated in general? It would take a fundamental shift in how the world works (which I am still able to believe can happen) -- It must stem from lower level (or common) attestations that people are willing to make. For example… Politician A was in location X giving a speech. They attest to time and location for that event. (maybe they should verifiably attest to their location all the time as a public servant?). The video that was taken was taken by person B also verifiably attested to be at location X. The camera C may need to have some “verifiable video” mechanism internally? Maybe another verifiable record of the purchase of camera C by person B…  So much needs to be in place, in order for someone to write a “reputation algorithm” And the algorithms could use this or any number of other types of attestations (key event logs?)\
+3:23
+So much needs to be in place for some of these higher level scenarios.. but even just one of these components could be valuable\
+3:25
+Like if we had a “time and place” signature app that attests to where your phone has been (notice I said your phone, not necessarily YOU) … but then that combined with biometric unlocks of the phone can certainly verifiably place YOU at place and time\
+3:25
+Just that can be something used in a court of law … “Where were you on the night of… ” type of legal questions. (edited) \
+3:25
+“Authentic Location” app\
+3:26
+I would love it if politicians had to have this :joy:\
+3:26
+or if they CHOSE to have it\
+3:27
+in order to say “I am an authentic politician and I share my authentic location” ( I suppose that could be dangerous LIVE… but it could be shared publicly from the past weeks or months)\
+3:28
+I know Google already tracks us. I have seen the data of where I have been\
+
+Henk: I too believe that you could have an authentic web closing in on anyone trying to repudiate something they’ve said or done.\
+10:26
+Like the “alternative facts” around the inauguration of Trump. Just as an example. There was at least ‘duplicity’ in play.
+
+### GLEIF
+LEI is a universal organisational ID. vLEI is ultimately there to to sell more LEIs.
+
+### Actions
+ - [x]  Change picture with new bird logo and Dup. detection + add Non-repudiation as unique feature of singing and seals in KERI - Henk
+ - [ ]  Use little britain "I don't want no" and check response - Henk
+
+
+### 2022-10-20
+Henk van Cann (host)\
+Ruth Choueka\
+Mark Scott\
+Randy Warshaw\
+Kent Bull\
+Joseph Hunsaker\
+Steven Milstein
+
+Recording : https://drive.google.com/file/d/1NAJlSiIgYwYeiusbN-xYv7ePuAL_zBoW/view?usp=sharing
+
+### Topics
+1. [Status reporting](https://hackmd.io/yYpd2uhRTpCadsGVw3Rl-A?both) No table for CESROX yet. Were waiting fro Phil to contribute an improved structure of the tables.  
+2. [Mental Model](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/Mental-model.md) Authentic Web
+
+
+#### Mental model
+The whole meeting has been devoted to Mental Model of the *Authentic web*. Below thoughts that have been shared and actionpoint distiled from this.
+
+**Objective**\
+The objective of the agenda point was to create more understandable language to explain the mental model as [described by Phil](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/Mental-model.md#mental-model-of-verifiable-data-structures-all-the-way-down) before.
+
+#### Renarks made in a random order
+We need a visual representation of the Mental Model - Steven\
+Phil's All The Way Down description is a pseudo code definition of the model
+
+The forest of interconnectied trees - Joseph\
+We need labels to analogies we create - Joseph
+
+What's the infratstructure I need for KERI? This is very hard to explain to the average interested person. - Randy
+People start comparing to what you can't compare. Sam Smith: KERI is the [internet identifier Platypus](https://github.com/WebOfTrust/keri/blob/main/docs/Q-and-A.md#keri-the-internet-identifier-platypus) 
+
+What are the key selling points of KERI - Kent
+
+So you could attach your Authentic Web Tree in the forest of trees to bitcoin transaction and selectively disclose it. Adding anchored reputation to single transactions (e.g. BTC transaction hash in a TEL and sealed in a KEL). - Joseph & Henk
+
+"the autonomous control of authentic data and relationships" Timothy Ruff [Medium article](	https://rufftimo.medium.com/web3-web5-ssi-3870c298c7b4)
+
+Randy: KERI solves the problem of *trusted communication* where we get *good info as the basis of decisions*
+Randy: KERI fully decentralized verifiability
+
+Misinformation, fake news, cancel culture
+Answers to question like Where did you here that?, Do you know what it is, where it came from and whether it's true or not.
+
+The phone calls and text messages example: "oh yeah?, how do you know it's authentic?"
+
+KERI solves:
+- [Zero trust](https://github.com/trustoverip/acdc/wiki/zero-trust)
+- [Signed at rest](https://github.com/trustoverip/acdc/wiki/authentic-web#related)
+- [Keystate at rest](https://github.com/trustoverip/acdc/wiki/authentic-web#related)
+
+Henk: When I asked people do you need what KERI solves, it's always "I don't have this problem". Steven: they're not there yet. 
+Too early to be specific about a mental model - Kent
+Henk: But which wording can we use to bridge the gap and raising awareness?
+
+Joseph: it always seems to come down to personal assessment. Whereas I can or cannot trust certain *curations* of info by centralized parties like Twitter. Henk: there are certain features in the KERI suite that let's you inherit or borrow support from certain credentials in a cryptographic verifiable manner (e.g. chained credentials, OOBIs). I foresee curation algorithms on top of the KERI suite infrastructure to help you borrow trust from credentials (verifiably supported by third parties). Analogy: Tooling on top of public blockchains, the most basic being: blockchain explorers, e.g. https://www.blockchain.com/explorer/assets/btc
+
+#### Agreement on these points
+- We stick to the definition of Mental Model that eSSIF-lab has introduced and try not to integrate but stay in line with them.
+- We acknowledge that KERI solves secure attribution (we're not going to argue cryptography), but not veracity, it only helps to assess it (Ruth).
+
+#### Action 
+ - [x]  More visual presentations - Henk will get in contact with a cartoonist
+ - [ ] Line up with Timothy Ruff's [medium article](https://rufftimo.medium.com/web3-web5-ssi-3870c298c7b4) - Henk
+ - [ ] Henk will add insights of today's meeting to[What problem does KERI solve](https://hackmd.io/2_rftT-USdys8onc8Echdw?both)?
+
 
 ### 2022-10-06
 Henk van Cann (host)\
@@ -298,7 +435,11 @@ The current agenda items are suitable for offline processsing:
 - more usecases, less focus. We have our minds and hands full on GLEIF.
 
 
+
 ### 2022-07-28
+
+#### ToDo
+- [x] organize host rights - request sent Aug 11 by Henk to Philip/Sam
 
 Present:\
 Philip Feairheller (co-host)\
