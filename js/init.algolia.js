@@ -2,7 +2,10 @@ const search = instantsearch({
     appId: 'FSH23UI187',
     apiKey: 'bdc36025938111a18bda9bfb9b651ceb',
     indexName: 'dev_bcws',
-    onStateChange({ uiState, setUiState }) {
+    onStateChange({
+        uiState,
+        setUiState
+    }) {
         // Custom logic
         console.log("state changes");
     },
@@ -96,7 +99,9 @@ const hitTemplate = function (hit) {
 
 
 search.addWidget(instantsearch.widgets.searchBox({
-    container: '#search-searchbar', placeholder: 'Search into whitepapers, Q&A\'s, articles, glossaries ...', poweredBy: true // This is required if you're on the free Community plan
+    container: '#search-searchbar',
+    placeholder: 'Search into whitepapers, Q&A\'s, articles, glossaries ...',
+    poweredBy: true // This is required if you're on the free Community plan
 }));
 
 search.addWidget(instantsearch.widgets.hits({
@@ -129,26 +134,22 @@ search.addWidget(instantsearch.widgets.hits({
 //     )
 // )
 search.addWidget(
-    instantsearch.widgets.refinementList(
-        {
-            container: "#titles",
-            attributeName: "title",
-            templates: {
-                header: "Titles"
-            }
+    instantsearch.widgets.refinementList({
+        container: "#titles",
+        attributeName: "title",
+        templates: {
+            header: "Titles"
         }
-    )
+    })
 )
 search.addWidget(
-    instantsearch.widgets.refinementList(
-        {
-            container: "#tags",
-            attributeName: "tags",
-            templates: {
-                header: "Tags"
-            }
+    instantsearch.widgets.refinementList({
+        container: "#tags",
+        attributeName: "tags",
+        templates: {
+            header: "Tags"
         }
-    )
+    })
 )
 
 
