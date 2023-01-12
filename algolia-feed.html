@@ -9,7 +9,7 @@ search: exclude
     "date": "{{ page.date }}",
     "title": "{{ page.title }}",
     "snippet": "{{ page.excerpt }}",
-    "tags": "{{ page.tags.replace(/"/g, "'")}}",
+    "tags": "{{ page.tags }}",
     "categories": "{{ page.categories | jsonify }}",
     "url": "{{ page.url }}",
     "slug": "{{ page.slug }}"
