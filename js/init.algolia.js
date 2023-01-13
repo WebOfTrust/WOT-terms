@@ -36,9 +36,20 @@ const hitTemplate = function (hit) {
         date = moment.unix(hit.date).format('MMM D, YYYY');
     }
 
-    let url = `${hit.url
-        }#${hit.anchor
-        }`;
+    // version 1: no url path included
+    // let url = "/WOT-terms" + `${hit.url}#${hit.anchor}`;
+
+    // version 2: url path included
+    // let base_url = window.location.origin;
+    // let host = window.location.host;
+    let pathArray = window.location.pathname.split('/');
+    console.log("pathArray: " + pathArray);
+
+    // TODO: extract path without filename
+    let url = "/" + pathArray[1] + `${hit.url}#${hit.anchor}`;
+    // let url = "/" + pathArray[1] + "/" + pathArray[2] + "/" + pathArray[3] + `${hit.url}#${hit.anchor}`;
+    console.log("url: " + url);
+
 
     let title = "";
     if (hit._highlightResult.title) {
