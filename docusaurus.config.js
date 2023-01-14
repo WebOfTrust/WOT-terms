@@ -110,7 +110,7 @@ const config = {
         links: [{
             title: 'Docs',
             items: [{
-              label: 'Tutorial',
+              label: 'Documentation',
               to: '/docs/intro',
             }, ],
           },
