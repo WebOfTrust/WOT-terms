@@ -9,7 +9,7 @@ const config = {
   title: 'WOT terms',
   tagline: 'Documentation',
   url: 'https://dwarshuis.com',
-  baseUrl: '/test/wot-terms2/7/',
+  baseUrl: '/test/wot-terms2/8/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -57,9 +57,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'WOT terms',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'WOT terms Logo',
           src: 'img/logo.svg',
         },
         items: [
