@@ -71,8 +71,7 @@ const config = {
             to: '/howtos-menu',
             label: 'HowTos',
             position: 'left',
-            items: [
-              {
+            items: [{
                 to: '/howtos/hwt_embed-github-hosted-image-in-github-wiki-page',
                 label: 'Embed a Github-hosted image in a Github wiki page',
               },
@@ -93,6 +92,11 @@ const config = {
                 label: 'The Terms WOT manage structure explained',
               }
             ]
+          },
+          {
+            href: '/feedback',
+            label: 'Feedback',
+            position: 'left'
           },
           {
             href: 'https://github.com/facebook/docusaurus',
