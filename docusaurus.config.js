@@ -71,7 +71,16 @@ const config = {
             to: '/howtos-menu',
             label: 'HowTos',
             position: 'left',
-            items: [{
+            items: [
+              {
+                to: '/howtos/hwt_embed-github-hosted-image-in-github-wiki-page',
+                label: 'Embed a Github-hosted image in a Github wiki page',
+              },
+              {
+                to: '/howtos/hwt_get-markdown-from-ToIP-wiki',
+                label: 'Get Markdown files from ToIP wiki glossary terms',
+              },
+              {
                 to: '/howtos/hwt_load-toip-glossary-in-weboftrust-github-page',
                 label: 'Load ToIP glossary in weboftrust github page',
               },
