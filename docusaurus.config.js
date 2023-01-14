@@ -70,7 +70,20 @@ const config = {
           {
             to: '/howtos-menu',
             label: 'HowTos',
-            position: 'left'
+            position: 'left',
+            items: [{
+                to: '/howtos/hwt_load-toip-glossary-in-weboftrust-github-page',
+                label: 'Load ToIP glossary in weboftrust github page',
+              },
+              {
+                to: '/howtos/hwt_pull-in-markdown-documents',
+                label: 'Pull in markdown documents',
+              },
+              {
+                to: '/howtos/hwt_why-terms-wot-manage-structure',
+                label: 'The Terms WOT manage structure explained',
+              }
+            ]
           },
           {
             href: 'https://github.com/facebook/docusaurus',
