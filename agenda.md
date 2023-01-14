@@ -92,7 +92,7 @@ Mark Scott\
 Joseph Hunsaker\
 Steven Milstein
 
-Recording: {}
+Recording: https://drive.google.com/file/d/1atO-mnrXFuSX7mJQJhr8bhOqXdPMsCGI/view?usp=share_link
 
 ### Topic
 **vLEI Governance Framework - where do users run into?**
