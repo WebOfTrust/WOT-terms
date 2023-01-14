@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'WOT terms',
-  tagline: 'Documentation',
+  tagline: 'Documenting everything about the Web of Trust.',
   url: 'https://dwarshuis.com',
   baseUrl: '/test/wot-terms2/8/',
   onBrokenLinks: 'throw',
