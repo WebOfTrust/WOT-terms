@@ -58,7 +58,7 @@ const config = {
         title: 'WOT terms',
         logo: {
           alt: 'WOT terms Logo',
-          src: 'img/logo.svg',
+          src: 'img/stamp.png',
         },
         items: [{
             type: 'doc',
