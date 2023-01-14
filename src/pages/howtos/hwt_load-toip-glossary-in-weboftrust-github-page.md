@@ -19,7 +19,7 @@ The main reason is interoperability. We want to join in the effort to create cro
 **Why don't we do it on our own, on our own repo [WebofTrust](https://github.com/WebOfTrust)?**
 
 - we would to have to build similar Github Actions tooling like [ToIP](https://wiki.trustoverip.org/display/HOME/Terms+Wikis) already has.
-- we can't join the synchronization effort already taking place with [eSSIF-lab](https://example.com)
+- we can't join the synchronization effort already taking place with [eSSIF-lab]()
 - we would have to maintain these auxiliary which keeps us off other important work
 
 ## Software environment
