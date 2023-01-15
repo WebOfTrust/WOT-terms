@@ -1,6 +1,7 @@
 {% assign sidebar = site.data.sidebars[page.sidebar].entries %}
-
-<ul id="mysidebar" class="nav">
+<!--<div id="total-sidebar" class="nav affix">-->
+<div id="total-sidebar" class="nav position-sticky pt-3 sidebar-sticky" >
+<ul id="mysidebar">
   <li class="sidebarTitle">{{sidebar[0].product}} {{sidebar[0].version}}</li>
   {% for entry in sidebar %}
   {% for folder in entry.folders %}
@@ -54,7 +55,20 @@
          -->
 </ul>
 
+
+<!-- Added by Kor 2022-11-25 -->
+<div id="algolia-widgets" class="ms-2 me-1">
+    <!-- <hr>
+    <div class="filter-widgets" id="level"></div>-->
+    <hr>
+    <div class="filter-widgets" id="tags"></div>
+    <hr>
+    <div class="filter-widgets" id="titles"></div>
+</div>
+<hr>
+
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
 
 {% comment %} Copyright 2021 Google LLC {% endcomment %}
+</div>
