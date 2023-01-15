@@ -49,7 +49,7 @@ git remote get-url origin
 ls
 ```
 
-<!-- <img src="./images/wiki-repo-ls.png" width="400" alt="wiki-repo-ls-result"> -->
+![wiki-repo-ls-result](images/wiki-repo-ls.png)
 
 #### Refresh the acdc.wiki repo to local
 

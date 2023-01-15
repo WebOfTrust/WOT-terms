@@ -32,7 +32,7 @@ The wiki section of Repo has an own git remote link.
 
 Copy the link to the wiki repo of certain Github repo. Use the functionality at the bottom of the glossary:
 
-<!-- <img src="https://hackmd.io/_uploads/SJspA9MRq.png" width="400" alt="clone the wiki of a repo"> -->
+![clone the wiki of a repo](https://hackmd.io/_uploads/SJspA9MRq.png)
 
 Go to a folder on your local computer and type
 
@@ -45,7 +45,7 @@ Go to your newly created local repository and all the .MD files will be there
 
 > Example:\
 
-<!-- > <img src="https://hackmd.io/_uploads/H1SO-jMAq.png" width="600" alt="list of term .MD files in the wiki repo"> -->
+![list of term .MD files in the wiki repo](https://hackmd.io/_uploads/H1SO-jMAq.png)
 
 ## How to retrieve updates of the actual .MD-file to my local machine?
 

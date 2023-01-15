@@ -10,13 +10,15 @@ What we have, to generate our static content site on the Github project page of 
 2. a sheet called _Terms WOT manage_ (`.xls`) a central location with strict editing rights.
 3. a "comma separated" file _Terms WOT manage_ (`.csv`) exported from Excel in any directory locally. In fact it's a semi-colon-separated text file that you might get; so check the result.
 
-<!-- <img src="./images/Terms-wot-manage-screen-example.png" alt="Terms-wot-manage-screen-example" width="800"> -->
-<!-- <img src="./images/csv-utf-8-save-as.png" alt="csv-utf-8-save-as" width="600"> -->
+![](images/Terms-wot-manage-screen-example.png)
+
+![](images/csv-utf-8-save-as.png)
 
 4. A comma separated text file _Terms WOT manage_ (`.txt`) in the root directory of the `gh-pages` branch of `WOT-terms` repo. Use a plain text editor.
 
-<!-- <img src="./images/rename-csv-to-txt1.png" alt="Rename-csv-to-txt step1" width="400"> -->
-<!-- <img src="./images/rename-csv-to-txt2.png" alt="Rrename-csv-to-txt step2" width="400"> -->
+![](images/rename-csv-to-txt1.png)
+
+![](images/rename-csv-to-txt2.png)
 
 #### Why not straigth export from Excel to a semi-colon separated text file.
 
