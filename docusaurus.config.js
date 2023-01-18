@@ -9,7 +9,7 @@ const config = {
   title: 'WOT terms',
   tagline: 'Documenting everything about the Web of Trust.',
   url: 'https://dwarshuis.com',
-  baseUrl: '/test/wot-terms2/8/',
+  baseUrl: '/test/wot-terms',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
