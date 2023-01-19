@@ -14,3 +14,4 @@ Split_*
 .history
 /.devcontainer
 /node_modules
+.docusaurus
