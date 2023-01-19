@@ -13,3 +13,4 @@ Split_*
 *-workfile.txt
 .history
 /.devcontainer
+/node_modules
