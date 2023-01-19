@@ -150,6 +150,22 @@ Source: [Sam Smith](https://docs.google.com/document/d/1quOTSGPuFXa_pduaGSHWY8Lp
 
 ### Development choices
 
+#### Semantic Naming in KeriPy
+Samuel Smith about `English Semantic Naming`:
+- English has operators and has 6M words
+- To Polysemi = ambiguity
+- ‘Type’ as an example -> too many meanings, you need to disambigue this
+- Book “C-elements and style” is advised: https://www.amazon.com/Elements-Style-Programmers-Elegant-Programs/dp/1558512918
+
+> Example: Habitat ‘where everything resides’ -> Hab -> Habery
+
+##### Conventions
+{noun}
+Er = object instances that do stuff
+Ery = a class that manage other classes
+Siger(s) = a list of …
+
+
 #### REST API
 
 ACDC has been implemented inside of keripy.  We have full credential issuance, revocation and streaming support in both the REST API as well as the command line.\
