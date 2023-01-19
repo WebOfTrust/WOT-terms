@@ -150,6 +150,27 @@ Source: [Sam Smith](https://docs.google.com/document/d/1quOTSGPuFXa_pduaGSHWY8Lp
 
 ### Development choices
 
+#### Semantic Naming in KeriPy
+Samuel Smith about `English Semantic Naming`:
+- English has operators and has 6M words. Operators can be used to create valid words that are not in the dictionary. 6 million words in the English language, many relatively unused, and without baggage.
+
+> GOAL: Keep KERIpy more readable with short, evocative names.
+- To Polysemy (ambiguity): ‘Type’ as an example -> too many meanings, you need to disambigue this
+- Book “C elements and style” is advised: https://www.amazon.com/Elements-Style-Programmers-Elegant-Programs/dp/1558512918
+
+> Example: Habitat ‘where everything resides’ -> Hab -> Habery
+
+##### Conventions
+1. {noun}
+2. Er = object instances that do stuff
+3. Ery = factory classes or classes that manage other classes
+4. {noun}+s -> Sigs, Sigers = a list of Sig and a list of Siger
+
+> Example II:
+> * siger - creates signatures
+> * sig - would be qb64 representation of a signature
+> * sigs - would be a list of signatures
+
 #### REST API
 
 ACDC has been implemented inside of keripy.  We have full credential issuance, revocation and streaming support in both the REST API as well as the command line.\
