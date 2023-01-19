@@ -150,21 +150,50 @@ Source: [Sam Smith](https://docs.google.com/document/d/1quOTSGPuFXa_pduaGSHWY8Lp
 
 ### Development choices
 
+English Semantic Naming Conventions
+2. English words have many operators. Can be used to create valid words that are not in the dictionary.
+English has the issue of polysemy.
+6 million words in the English language, many relatively unused, and without baggage.
+Keep KERIpy more readable with short, evocative names.
+Short, but descriptive names.
+50 to 100 suffixes can be used to convert a noun to an adjective.
+- book: C Elements of Style: The Programmer’s Style Manual for Elegant C and C++ Programs
+- rules
+* -er object instances that do stuff - manager, parser, kever
+* -ery factory classes or classes that manage other classes
+* Matter classes are qb64 representations
+* -s plural are list of things.
+* Plural noun for plural name, singular noun for singular name
+* Example:
+* siger - creates signatures
+* sig - would be qb64 repreesentation of a signature
+* sigs - would be a list of signatures
+
+
+
+
 #### Semantic Naming in KeriPy
 Samuel Smith about `English Semantic Naming`:
-- English has operators and has 6M words
-- To Polysemi = ambiguity
+- English has operators and has 6M words. Operators can be used to create valid words that are not in the dictionary. 6 million words in the English language, many relatively unused, and without baggage.
+
+> GOAL: Keep KERIpy more readable with short, evocative names.
+
+- To Polysemy (ambiguity)
 - ‘Type’ as an example -> too many meanings, you need to disambigue this
-- Book “C-elements and style” is advised: https://www.amazon.com/Elements-Style-Programmers-Elegant-Programs/dp/1558512918
+- Book “C elements and style” is advised: https://www.amazon.com/Elements-Style-Programmers-Elegant-Programs/dp/1558512918
 
 > Example: Habitat ‘where everything resides’ -> Hab -> Habery
 
 ##### Conventions
-{noun}
-Er = object instances that do stuff
-Ery = a class that manage other classes
-Siger(s) = a list of …
+1. {noun}
+2. Er = object instances that do stuff
+3. Ery = factory classes or classes that manage other classes
+4. {noun}+s -> Sigs, Sigers = a list of Sig and a list of Siger
 
+> Example II:
+> * siger - creates signatures
+> * sig - would be qb64 representation of a signature
+> * sigs - would be a list of signatures
 
 #### REST API
 
