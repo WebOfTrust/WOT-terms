@@ -123,3 +123,5 @@ As a result the WebOfTrust keriox implementation above is somewhat behind the ke
 feature support. We encourage the community to step forward and continue development of the Apache2 licensed Rust implementation.
 
 We also encourage creation of Educational material and resources for KERI, CESR, OOBI and ACDC in other appearances. We are happy to host other activities here in the WebOfTrust project as long as they are Apache2 licensed.
+
+TEST
