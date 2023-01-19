@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "algoliasearch": "^4.14.2",
-    "instantsearch.js": "^4.48.1"
-  }
-}
