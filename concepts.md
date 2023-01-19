@@ -155,9 +155,7 @@ Samuel Smith about `English Semantic Naming`:
 - English has operators and has 6M words. Operators can be used to create valid words that are not in the dictionary. 6 million words in the English language, many relatively unused, and without baggage.
 
 > GOAL: Keep KERIpy more readable with short, evocative names.
-
-- To Polysemy (ambiguity)
-- ‘Type’ as an example -> too many meanings, you need to disambigue this
+- To Polysemy (ambiguity): ‘Type’ as an example -> too many meanings, you need to disambigue this
 - Book “C elements and style” is advised: https://www.amazon.com/Elements-Style-Programmers-Elegant-Programs/dp/1558512918
 
 > Example: Habitat ‘where everything resides’ -> Hab -> Habery
