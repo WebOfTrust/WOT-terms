@@ -175,8 +175,8 @@ const config = {
         //... other Algolia params
       },
     }),
-  plugins: [
-    [
+  // plugins: [
+    // [
       // require.resolve("@cmfcmf/docusaurus-search-local"),
       // {
       //   // whether to index docs pages
@@ -244,8 +244,8 @@ const config = {
       //     parentCategoriesBoost: 2, // Only used when indexDocSidebarParentCategories > 0
       //   }
       // },
-    ],
-  ],
+    // ],
+  // ],
 };
 
 module.exports = config;
