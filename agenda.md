@@ -84,73 +84,98 @@ Reverse engineer a concepts - document. Can we still use / refer to the KIDs (co
 
 CESR: https://hackmd.io/GbQO3p6QTge-8eQMGuMaeQ#First-questions
 
-### 2022-11-03
+### 2023-01-12
+Philip Feairheller (host)\
 Henk van Cann (host)\
-Phil Feairheller (host)\
+Kor Dwarshuis\
+Mark Scott\
+Joseph Hunsaker\
+Steven Milstein
+
+Recording: https://drive.google.com/file/d/1atO-mnrXFuSX7mJQJhr8bhOqXdPMsCGI/view?usp=share_link
+
+### Topic
+**vLEI Governance Framework - where do users run into?**
+
+Kick-off slides of Henk: https://ibb.co/mFKGbBc
+Ultimate goal: improve the WOT-terms site with accessible and to-the-point information for the most important usergroups about the governance of vLEIs.
+
+Discussion starts with:
+1. Where do users run into? (Bugs, ,explanatory resources not available, want help / support, .. )
+2. How do users get their input level of knowledge, both from the GLEIF side as from the technical KERI/ACDC side?
+3. How do users proceed? How do they get to results in their job?
+
+Karla McKenna has written most of the GLEIF vLEI governance docs.
+- [ ] Action by Philip: Let's try to get hold of the WORD version via Karla, there's more automated semantics and structure compared to the PDF versions of the content.
+
+Steven remembers his effort to understand the draft versions of the governance framework (pdfs to be found [here](https://www.gleif.org/en/vlei/introducing-the-vlei-ecosystem-governance-framework) ):
+1. Naming of the files is only distinctive at the end of the name
+2. There's inherently a lot of reference in vLEI to the LEI governance framework, but no direct links to right spots.
+3. Average required technical level is too high for a QVI.
+4. SSI without governance is anarchy.
+
+The most important user groups in the VLEI ecosystem:
+GLEIF, QVIs, QVI's clients, Clients of QVI clients. Philip would focus on QVIs.
+
+- [ ] Action Henk: Look whether the QVI qualification program has enough bootstrapping information to answer Discussion points 2. en 3. above.
+- [ ] Action Henk: Ask provenant about what they run into and what they are willing to share.
+
+Steven: the steps (Discuss 3.) to take are:
+- Framework
+- Policy
+- Conformance
+- Compliance
+
+Joseph likes the idea of a more generalized approach. How could we write a selection of governance framework docs that work for GLEIF VLEIsm but also for 4 or 5 different application fields?
+
+Henk thinks of documentation that uses lots of fields to replace the right terms for placeholders. And if the content is still correct for every implementation / use case at hand, then it is a *generic* governance doc.
+
+Phillip:
+We might need documentation that is ahead of the governance framework PDFs. And answer questions like:
+- Why would you become a QVI?
+- And can you get started?
+- Why do I need a LEI at scale in the first place
+- And why do I need it now (can I postpone becoming decentralized?)
+
+General unique selling points of KERI/ACDC in a governance framework:
+- reduce the opportunity of fraud
+- near-instantly get authorizations / credentials proveably from the root the trust of identifiers.
+
+In any future application the connection of KERI-based identifiers will have to cope with an existing identifier system (example vLEI - LEI). 
+The connection is managed in the governance framework and are expected to have general principles (independent of the use-case/implementors) and tailor-made rules.
+Practically KERI/ACDC solves the connection between legacy systems and decentralized systems with *reputation*: offering the old identifier's reputation as a credential attached to the decentralised counterpart-or-twin identifiers.
+
+### 2022-12-25
+Philip Feairheller (host)\
+Henk van Cann (host)\
 Mark Scott\
 Kent Bull\
 Joseph Hunsaker\
+Steven Milstein
 
-Recording : https://drive.google.com/file/d/1P6V_RJNL_RFY5pL8tudqTe9iTsREos1c/view?usp=share_link
+Recording: https://drive.google.com/file/d/1UMfdzQNbSWWti1qRUdQQPGLg00Q3u_Ef/view?usp=share_link
 
-### Topic
-[Mental Model](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/Mental-model.md) The tables and info graphics.
+### Topics
+1. WOT-terms site review
 
-#### Duplicity reconciliation must be 'detection'
-Phil argues: duplicity is two key event in the KEL with same sequence number: key compromise. It can have consequences for ACDCs. The controller decides what to do (most prob key rotation), there's no automatism in place.\
-The non-repudiation is the key feature that is in danger with duplicity.
+[PDF with 3 Q&As](https://keriworld.slack.com/files/U02PA6UQ6BV/F04G4BUF3L0/edu_meeting_dec_15.key.pdf) uploaded in Slack.
 
-#### The hard problem of reaching the public with what problem KERI solves
-Phil: What problem did Linux solve? How many people know what Linux is? There will be loads of unintended consequences too, if you dare to compare KERI's impact to Linux's impact.\
-Joseph: The Authentic web experience, hwo do we get that into a state of "not unconsiously"?
-KERI in the end is about better **reputation**, with al lot of adjectives to add before it (non-repudiable, verifiable-to-the-root-of-trust, etc). We can build a better world future with it.
-The anchoring in use-cases will happen and then we can start evangelizing.
+Governance needs to be in. It's half of the [ToIP Stack](https://trustoverip.github.io/deliverables/_images/process/tswg-lis.png). GLEIF issues Word documents soon. Henk will convert them to Markdown as soon as it's available. Apache 2 license so no problem to copy to the WOT-terms-site. 
+The [site is here](https://dwarshuis.com/test/wot-terms2/4/) (maybe broken link because temporary draft site)
 
-Henk: should we drop the target groups that are more general than "Digital Identity Experts"? Should we get rid of the [Andy - diagram](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/Mental-model.md#how-can-we-break-through-blissful-ignorance) and his feeling of un-easiness with the things that happen to him on the web and that he can't pin-point yet?\
-Phil: No, I'ld not do this. We need to reach out to them too.
+2. Ask Me Anything
+Joseph: How are the KERIPy architecture and components, how is this structured and connected?
+Neil: suggest to work the recording of this into a clickable infographic. But let the Youtube transcript do the work. 
 
-### Analogies to be used to explain KERI
-#### The Car analogy with KERIs unique problem solving capacity
-- Parts, and parts manufacturers
-- Automatic breaking system
-- Steering wheel analogy: you are in control, but get supported by crafty technology.
+Philip answered Joseph's question and Henk's question about the personna we'd like to define from a GLEIF perspective using the WOT-terms website and Search engine.
 
-#### Voting
-Kent wants to look into voting as a killer app for KERI. 
+### 2022-12-01 No meeting bc of Hosts bussy elsewhere
 
-#### Fake News
-Phil shared the idea of a site that is an early member / part of the Authentic web where you can attest to news (target group: politicians)
+### 2022-11-18 No meeting bc of IIW
 
-Joseph elaborates in Slack on this:
-> For @Phil Feairheller
-’s use case about authenticating video… that got me thinking, and I just want to express my thoughts here if you don’t mind.  Usually the videos that go viral are controversial … like “I cannot believe they said that”… And you are never going to get a politician or rioter anyone someone to “sign” your video.  But this got me thinking… how can one of those videos be authenticated in general? It would take a fundamental shift in how the world works (which I am still able to believe can happen) -- It must stem from lower level (or common) attestations that people are willing to make. For example… Politician A was in location X giving a speech. They attest to time and location for that event. (maybe they should verifiably attest to their location all the time as a public servant?). The video that was taken was taken by person B also verifiably attested to be at location X. The camera C may need to have some “verifiable video” mechanism internally? Maybe another verifiable record of the purchase of camera C by person B…  So much needs to be in place, in order for someone to write a “reputation algorithm” And the algorithms could use this or any number of other types of attestations (key event logs?)\
-3:23
-So much needs to be in place for some of these higher level scenarios.. but even just one of these components could be valuable\
-3:25
-Like if we had a “time and place” signature app that attests to where your phone has been (notice I said your phone, not necessarily YOU) … but then that combined with biometric unlocks of the phone can certainly verifiably place YOU at place and time\
-3:25
-Just that can be something used in a court of law … “Where were you on the night of… ” type of legal questions. (edited) \
-3:25
-“Authentic Location” app\
-3:26
-I would love it if politicians had to have this :joy:\
-3:26
-or if they CHOSE to have it\
-3:27
-in order to say “I am an authentic politician and I share my authentic location” ( I suppose that could be dangerous LIVE… but it could be shared publicly from the past weeks or months)\
-3:28
-I know Google already tracks us. I have seen the data of where I have been\
+### 2022-11-04
 
-Henk: I too believe that you could have an authentic web closing in on anyone trying to repudiate something they’ve said or done.\
-10:26
-Like the “alternative facts” around the inauguration of Trump. Just as an example. There was at least ‘duplicity’ in play.
-
-### GLEIF
-LEI is a universal organisational ID. vLEI is ultimately there to to sell more LEIs.
-
-### Actions
- - [x]  Change picture with new bird logo and Dup. detection + add Non-repudiation as unique feature of singing and seals in KERI - Henk
- - [ ]  Use little britain "I don't want no" and check response - Henk
+Recording: https://drive.google.com/file/d/1P6V_RJNL_RFY5pL8tudqTe9iTsREos1c/view?usp=share_link
 
 
 ### 2022-10-20
@@ -208,16 +233,16 @@ Henk: When I asked people do you need what KERI solves, it's always "I don't hav
 Too early to be specific about a mental model - Kent
 Henk: But which wording can we use to bridge the gap and raising awareness?
 
-Joseph: it always seems to come down to personal assessment. Whereas I can or cannot trust certain *curations* of info by centralized parties like Twitter. Henk: there are certain features in the KERI suite that let's you inherit or borrow support from certain credentials in a cryptographic verifiable manner (e.g. chained credentials, OOBIs). I foresee curation algorithms on top of the KERI suite infrastructure to help you borrow trust from credentials (verifiably supported by third parties). Analogy: Tooling on top of public blockchains, the most basic being: blockchain explorers, e.g. https://www.blockchain.com/explorer/assets/btc
+Joseph: it always seems to come down to personal assessment. Whereas I can or cannot trust certain *curations* of info by centralized parties like Twitter. Henk: there are certain features in the KERI suite that let's you inherit or borrow support from certain credentials in a cryptographical verfiable manner (e.g. chained credentials, OOBIs). I foresee curation algorithms on top of the KERI suite infrastructure to help you borrow trust from credentials (verifiably supported by third parties). Analogy: Tooling on top of public blockchains, the most basic being: blockchain explorers, e.g. https://www.blockchain.com/explorer/assets/btc
 
 #### Agreement on these points
 - We stick to the definition of Mental Model that eSSIF-lab has introduced and try not to integrate but stay in line with them.
 - We acknowledge that KERI solves secure attribution (we're not going to argue cryptography), but not veracity, it only helps to assess it (Ruth).
 
 #### Action 
- - [x]  More visual presentations - Henk will get in contact with a cartoonist
+ - [ ]  More visual presentations - Henk will get in contact with a cartoonist
  - [ ] Line up with Timothy Ruff's [medium article](https://rufftimo.medium.com/web3-web5-ssi-3870c298c7b4) - Henk
- - [ ] Henk will add insights of today's meeting to[What problem does KERI solve](https://hackmd.io/2_rftT-USdys8onc8Echdw?both)?
+ - [ ] Henk will add insights ofd today's meeting to[What problem does KERI solve](https://hackmd.io/2_rftT-USdys8onc8Echdw?both)?
 
 
 ### 2022-10-06
