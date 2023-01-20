@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwot_terms_docusaurus=self.webpackChunkwot_terms_docusaurus||[]).push([[7997],{5588:s=>{s.exports=JSON.parse('{"label":"Web of Trust","permalink":"/WOT-terms/blog/tags/web-of-trust","allTagsPath":"/WOT-terms/blog/tags","count":1}')}}]);
