@@ -32,6 +32,9 @@ All intermediate results are also **directly available**:
 - [howtos](https://github.com/WebOfTrust/WOT-terms/tree/main/howto)
 - Glossaries: [TrustoverIP/ACDC](https://github.com/trustoverip/acdc/wiki) and [eSSIF-lab](https://essif-lab.github.io/framework/docs/essifLab-glossary)
 
+## Related
+The [Mental Model](https://github.com/WebOfTrust/WOT-terms/blob/main/mental-model.md) of KERI suite gives the frame of reference for our concepts below.
+
 #### Vision
 We reuse and reorganise as much as possible, using open source tools. 
 
@@ -79,7 +82,11 @@ KERI came to be in occasional happenings, online and in-person, in which individ
 
 Manifestation: KERI has found the IETF as a home. This is because its value statement and organizational principles strongly resonate with KERI.
 
+<<<<<<< HEAD
 #### Open source
+=======
+#### Open source licensing
+>>>>>>> gh-pages
 
 The KERI team maintains the following rules of thumb for all the repos in the [WoT project](https://github.com/WebOfTrust):
 - '*outgoing == incoming*' policy ([Read more](#outgoing-is-incoming))
@@ -175,6 +182,15 @@ serialization indicates a preferred content-addressable identifier for that seri
 
 <!-- #######NEW BLOCK####### -->
 ### [Objectives ACDC](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#objectives-acdc)
+<<<<<<< HEAD
+=======
+
+#### Barriers to Adoption of Linked Data VCs
+
+The purpose of this paper is to capture and convey to a broader audience my increasingly worrisome concerns about the adoption path for Verifiable Credentials (VCs). My concerns began with the security limitations of VCs that use Linked Data (otherwise known as JSON-LD/RDF) and have since extended to the semantic inference limitations of Linked Data. My concerns may be expressed succinctly as, the VC standard appears to be an adoption vector for Linked Data, not the other way around. My overriding interest is that the concept of a VC as a securely attributable statement is a very powerful and attractive one and therefore should be widely adopted. We should therefore be picking the best technologies that best support broad VC adoption, not the other way around.\
+[Source:]() VC Spec Enhancement Strategy Proposal by Sam Smith
+
+>>>>>>> gh-pages
 <!-- #######NEW BLOCK####### -->
 ### Framework conditions
 
@@ -234,6 +250,21 @@ Non-repudiation
 - Third party binds cryptographic protected data to other actors involved (by mistake)
 {TBW}
 
+<<<<<<< HEAD
+=======
+#### Difference between privacy and confidentiality
+
+|BASIS FOR COMPARISON|PRIVACY|CONFIDENTIALITY|
+| -------- | -------- | -------- |
+|Meaning|The state of being secluded is known as Privacy.|Confidentiality refers to the the situation when it is expected from someone that he will not divulge the information to any other person.|
+|What is it?|It is the right to be let alone.|It is an agreement between the persons standing in fiduciary to maintain the secrecy of sensitive information and documents.|
+|Concept|Limits the access of the public.|Prevents information and documents from unauthorized access.|
+|Applies to|Individual|Information|
+|Obligatory|No, it is the personal choice of an individual|Yes, when the information is professional and legal.|
+|Disallowed|Everyone is disallowed from involving the personal affairs of an individual.|Only unauthorized persons are disallowed from using the information.|
+
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/privacy-vs-confidentiality.png" alt="privacy-vs-confidentiality table" width="100"> [Source: ](https://keydifferences.com/difference-between-privacy-and-confidentiality.html) Keydifferences.com
+>>>>>>> gh-pages
 
 #### Strong bindings
 *Security first*

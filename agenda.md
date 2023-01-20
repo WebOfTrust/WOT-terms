@@ -84,6 +84,7 @@ Reverse engineer a concepts - document. Can we still use / refer to the KIDs (co
 
 CESR: https://hackmd.io/GbQO3p6QTge-8eQMGuMaeQ#First-questions
 
+<<<<<<< HEAD
 ### 2023-01-12
 Philip Feairheller (host)\
 Henk van Cann (host)\
@@ -176,6 +177,75 @@ Philip answered Joseph's question and Henk's question about the personna we'd li
 ### 2022-11-04
 
 Recording: https://drive.google.com/file/d/1P6V_RJNL_RFY5pL8tudqTe9iTsREos1c/view?usp=share_link
+=======
+### 2022-11-03
+Henk van Cann (host)\
+Phil Feairheller (host)\
+Mark Scott\
+Kent Bull\
+Joseph Hunsaker\
+
+Recording : https://drive.google.com/file/d/1P6V_RJNL_RFY5pL8tudqTe9iTsREos1c/view?usp=share_link
+
+### Topic
+[Mental Model](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/Mental-model.md) The tables and info graphics.
+
+#### Duplicity reconciliation must be 'detection'
+Phil argues: duplicity is two key event in the KEL with same sequence number: key compromise. It can have consequences for ACDCs. The controller decides what to do (most prob key rotation), there's no automatism in place.\
+The non-repudiation is the key feature that is in danger with duplicity.
+
+#### The hard problem of reaching the public with what problem KERI solves
+Phil: What problem did Linux solve? How many people know what Linux is? There will be loads of unintended consequences too, if you dare to compare KERI's impact to Linux's impact.\
+Joseph: The Authentic web experience, hwo do we get that into a state of "not unconsiously"?
+KERI in the end is about better **reputation**, with al lot of adjectives to add before it (non-repudiable, verifiable-to-the-root-of-trust, etc). We can build a better world future with it.
+The anchoring in use-cases will happen and then we can start evangelizing.
+
+Henk: should we drop the target groups that are more general than "Digital Identity Experts"? Should we get rid of the [Andy - diagram](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/Mental-model.md#how-can-we-break-through-blissful-ignorance) and his feeling of un-easiness with the things that happen to him on the web and that he can't pin-point yet?\
+Phil: No, I'ld not do this. We need to reach out to them too.
+
+### Analogies to be used to explain KERI
+#### The Car analogy with KERIs unique problem solving capacity
+- Parts, and parts manufacturers
+- Automatic breaking system
+- Steering wheel analogy: you are in control, but get supported by crafty technology.
+
+#### Voting
+Kent wants to look into voting as a killer app for KERI. 
+
+#### Fake News
+Phil shared the idea of a site that is an early member / part of the Authentic web where you can attest to news (target group: politicians)
+
+Joseph elaborates in Slack on this:
+> For @Phil Feairheller
+’s use case about authenticating video… that got me thinking, and I just want to express my thoughts here if you don’t mind.  Usually the videos that go viral are controversial … like “I cannot believe they said that”… And you are never going to get a politician or rioter anyone someone to “sign” your video.  But this got me thinking… how can one of those videos be authenticated in general? It would take a fundamental shift in how the world works (which I am still able to believe can happen) -- It must stem from lower level (or common) attestations that people are willing to make. For example… Politician A was in location X giving a speech. They attest to time and location for that event. (maybe they should verifiably attest to their location all the time as a public servant?). The video that was taken was taken by person B also verifiably attested to be at location X. The camera C may need to have some “verifiable video” mechanism internally? Maybe another verifiable record of the purchase of camera C by person B…  So much needs to be in place, in order for someone to write a “reputation algorithm” And the algorithms could use this or any number of other types of attestations (key event logs?)\
+3:23
+So much needs to be in place for some of these higher level scenarios.. but even just one of these components could be valuable\
+3:25
+Like if we had a “time and place” signature app that attests to where your phone has been (notice I said your phone, not necessarily YOU) … but then that combined with biometric unlocks of the phone can certainly verifiably place YOU at place and time\
+3:25
+Just that can be something used in a court of law … “Where were you on the night of… ” type of legal questions. (edited) \
+3:25
+“Authentic Location” app\
+3:26
+I would love it if politicians had to have this :joy:\
+3:26
+or if they CHOSE to have it\
+3:27
+in order to say “I am an authentic politician and I share my authentic location” ( I suppose that could be dangerous LIVE… but it could be shared publicly from the past weeks or months)\
+3:28
+I know Google already tracks us. I have seen the data of where I have been\
+
+Henk: I too believe that you could have an authentic web closing in on anyone trying to repudiate something they’ve said or done.\
+10:26
+Like the “alternative facts” around the inauguration of Trump. Just as an example. There was at least ‘duplicity’ in play.
+
+### GLEIF
+LEI is a universal organisational ID. vLEI is ultimately there to to sell more LEIs.
+
+### Actions
+ - [x]  Change picture with new bird logo and Dup. detection + add Non-repudiation as unique feature of singing and seals in KERI - Henk
+ - [ ]  Use little britain "I don't want no" and check response - Henk
+>>>>>>> gh-pages
 
 
 ### 2022-10-20
@@ -233,16 +303,26 @@ Henk: When I asked people do you need what KERI solves, it's always "I don't hav
 Too early to be specific about a mental model - Kent
 Henk: But which wording can we use to bridge the gap and raising awareness?
 
+<<<<<<< HEAD
 Joseph: it always seems to come down to personal assessment. Whereas I can or cannot trust certain *curations* of info by centralized parties like Twitter. Henk: there are certain features in the KERI suite that let's you inherit or borrow support from certain credentials in a cryptographical verfiable manner (e.g. chained credentials, OOBIs). I foresee curation algorithms on top of the KERI suite infrastructure to help you borrow trust from credentials (verifiably supported by third parties). Analogy: Tooling on top of public blockchains, the most basic being: blockchain explorers, e.g. https://www.blockchain.com/explorer/assets/btc
+=======
+Joseph: it always seems to come down to personal assessment. Whereas I can or cannot trust certain *curations* of info by centralized parties like Twitter. Henk: there are certain features in the KERI suite that let's you inherit or borrow support from certain credentials in a cryptographic verifiable manner (e.g. chained credentials, OOBIs). I foresee curation algorithms on top of the KERI suite infrastructure to help you borrow trust from credentials (verifiably supported by third parties). Analogy: Tooling on top of public blockchains, the most basic being: blockchain explorers, e.g. https://www.blockchain.com/explorer/assets/btc
+>>>>>>> gh-pages
 
 #### Agreement on these points
 - We stick to the definition of Mental Model that eSSIF-lab has introduced and try not to integrate but stay in line with them.
 - We acknowledge that KERI solves secure attribution (we're not going to argue cryptography), but not veracity, it only helps to assess it (Ruth).
 
 #### Action 
+<<<<<<< HEAD
  - [ ]  More visual presentations - Henk will get in contact with a cartoonist
  - [ ] Line up with Timothy Ruff's [medium article](https://rufftimo.medium.com/web3-web5-ssi-3870c298c7b4) - Henk
  - [ ] Henk will add insights ofd today's meeting to[What problem does KERI solve](https://hackmd.io/2_rftT-USdys8onc8Echdw?both)?
+=======
+ - [x]  More visual presentations - Henk will get in contact with a cartoonist
+ - [ ] Line up with Timothy Ruff's [medium article](https://rufftimo.medium.com/web3-web5-ssi-3870c298c7b4) - Henk
+ - [ ] Henk will add insights of today's meeting to[What problem does KERI solve](https://hackmd.io/2_rftT-USdys8onc8Echdw?both)?
+>>>>>>> gh-pages
 
 
 ### 2022-10-06

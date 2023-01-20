@@ -5,39 +5,39 @@ This is a mindmap of the emcompassing concept of KERI and ACDC
 
 ## Concept
 
-### [What is this](./concepts.md#what-is-this)?
+### [What is this](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#what-is-this)?
 1. the things we've designed (whitepapers, technical designs)
 2. the things we've created (repos and code)
 3. the terminology we use.
 
-### [Why this page](./concepts.md#why-this-page)?
+### [Why this page](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#why-this-page)?
 1. to be better and quicker understood
 2. anchor our wording to our objectives 
 3. criteria how we distinguish importance to us
 
-### [For Whom](./concepts.md#for-whom)?
+### [For Whom](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#for-whom)?
 1. the newbie digital identity expert
 2. the advanced SSI identity expert
 3. SSI expert
 
-### [How](./concepts.md#how)?
+### [How](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#how)?
 1. static site generated on Github
 2. reuse resources all over the web 
 3. can be searched and commented on
 
-### [When](./concepts.md#when)?
+### [When](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#when)?
 1. continuously from now
 2. automatic deployment at changes
 
 ## Core Values
 
-### [Social values](./concepts.md#social-values)
+### [Social values](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#social-values)
 - existance and persistance
 - access and transparency
 - privacy - consent to use
 - confidentiality - minimal disclosure
 
-### [Societal values](./concepts.md#societal-values)
+### [Societal values](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#societal-values)
 - commitment and compliance to rules - signature
 - freedom of speech and movement - inception of AIDs, rotation
 - self-sovereignty - portability, delegation and revocation
@@ -51,16 +51,16 @@ This is a mindmap of the emcompassing concept of KERI and ACDC
 
 ## KERI
 
-### [Objectives KERI](./concepts.md#objectives-keri)
+### [Objectives KERI](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#objectives-keri)
 
 #### Open source - Apache2
 
-#### Waist identity layer for the internet
+#### [Trust spanning layer for the internet](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#trust-spanning-layer-for-the-internet)
 
 #### Secure Attribution over the internet
 
 <!-- #######NEW BLOCK####### -->
-### [Practical principles](./concepts.md#practical-principles)
+### [Practical principles](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#practical-principles)
 
 #### Simple cryptography
 
@@ -74,22 +74,31 @@ This is a mindmap of the emcompassing concept of KERI and ACDC
 
 #### Use dumb crypto
 
-### [Development choices](./concepts.md#development-choices)
+### [Development choices](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#development-choices)
 
 #### REST API
 
 #### It's under construction
 
 ## ACDC
+1. authentic
+2. chained
+3. serialized data containers
+
+### SAID
+1. greater interoperability
+2. reduced ambiguity
+3. enhanced security
+4. better immutably 
 
 <!-- #######NEW BLOCK####### -->
-### [Objectives ACDC](./concepts.md#objectives-acdc)
+### [Objectives ACDC](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#objectives-acdc)
 
 #### Veracity of credentials 
  
 #### Signed commitments by controllers
 
-### [Framework conditions](./concepts.md#framework-conditions)
+### [Framework conditions](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#framework-conditions)
 
 #### Only cryptography can safe our digital twin
 
@@ -101,7 +110,7 @@ This is a mindmap of the emcompassing concept of KERI and ACDC
 
 ## Guiding Principles 
 
-### [Design principles](./concepts.md#design-principles)
+### [Design principles](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#design-principles)
 1. Security first
 2. then confidentiality
 3. then privacy
@@ -112,7 +121,7 @@ This is a mindmap of the emcompassing concept of KERI and ACDC
 
 #### Generic classes of self-certifying identifiers
 
-### [Autonomic Governance](./concepts.md#autonomic-governance)
+### [Autonomic Governance](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#autonomic-governance)
 
 #### Don't trust duplicity
 
@@ -122,7 +131,7 @@ This is a mindmap of the emcompassing concept of KERI and ACDC
 
 #### Secondary extra layer of guarantee
 
-### [Human governance](./concepts.md#human-governance)
+### [Human governance](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#human-governance)
 
 #### Freedom of witness and backer organization 
 
@@ -136,7 +145,7 @@ This is a mindmap of the emcompassing concept of KERI and ACDC
 
 #### Guarantee sufficient randomness
 
-### [Sharing SSI-community values](./concepts.md#sharing-ssi-community-values)
+### [Sharing SSI-community values](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/concepts.md#sharing-ssi-community-values)
 
 #### Open source
 
@@ -153,3 +162,5 @@ This is a mindmap of the emcompassing concept of KERI and ACDC
 #### Self-determination
 
 #### Permission-less society
+
+#### No needless control, no needless surveillance
