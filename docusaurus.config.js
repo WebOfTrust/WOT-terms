@@ -11,7 +11,7 @@ const config = {
   title: 'WOT terms',
   tagline: 'Documenting everything about the Web of Trust.',
   url: "http://weboftrust.github.io",
-  baseUrl: "/WOT-terms",
+  baseUrl: "/WOT-terms/docs/",
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
