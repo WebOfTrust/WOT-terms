@@ -153,12 +153,12 @@ const config = {
       },
       algolia: { // https://docusaurus.io/docs/search#connecting-algolia
         // The application ID provided by Algolia
-        appId: process.env.ALGOLIA_APP_ID,
+        appId: "IW4ZBUTOR5",
 
         // Public API key: it is safe to commit it
-        apiKey: process.env.ALGOLIA_SEARCH_API_KEY,
+        apiKey: "e2255f4a064d3a246866c5b83d3f593e",
 
-        indexName: process.env.ALGOLIA_INDEX_NAME,
+        indexName: "wot-terms1",
 
         // Optional: see doc section below
         contextualSearch: true,
