@@ -10,8 +10,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'WOT terms',
   tagline: 'Documenting everything about the Web of Trust.',
-  url: process.env.URL,
-  baseUrl: process.env.BASEURL,
+  url: "http://weboftrust.github.io",
+  baseUrl: "/WOT-terms",
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
