@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwot_terms_docusaurus=self.webpackChunkwot_terms_docusaurus||[]).push([[6402],{5987:s=>{s.exports=JSON.parse('{"label":"SSI","permalink":"/WOT-terms/docs/blog/tags/ssi","allTagsPath":"/WOT-terms/docs/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwot_terms_docusaurus=self.webpackChunkwot_terms_docusaurus||[]).push([[6720],{4486:s=>{s.exports=JSON.parse('{"permalink":"/WOT-terms/docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

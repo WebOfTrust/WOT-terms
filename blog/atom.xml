@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://weboftrust.github.io/WOT-terms/docs/blog</id>
+    <title>WOT terms Blog</title>
+    <updated>2021-08-26T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="http://weboftrust.github.io/WOT-terms/docs/blog"/>
+    <subtitle>WOT terms Blog</subtitle>
+    <icon>http://weboftrust.github.io/WOT-terms/docs/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>welcome</id>
+        <link href="http://weboftrust.github.io/WOT-terms/docs/blog/welcome"/>
+        <updated>2021-08-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Blog post.]]></summary>
+        <content type="html"><![CDATA[<p>Blog post.</p>]]></content>
+        <author>
+            <name>Henk van Cann</name>
+            <uri>https://github.com/henkvancann</uri>
+        </author>
+        <category label="WOT terms" term="WOT terms"/>
+        <category label="SSI" term="SSI"/>
+        <category label="Web of Trust" term="Web of Trust"/>
+    </entry>
+</feed>

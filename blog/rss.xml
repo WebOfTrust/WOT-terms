@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>WOT terms Blog</title>
+        <link>http://weboftrust.github.io/WOT-terms/docs/blog</link>
+        <description>WOT terms Blog</description>
+        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>http://weboftrust.github.io/WOT-terms/docs/blog/welcome</link>
+            <guid>welcome</guid>
+            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Blog post.]]></description>
+            <content:encoded><![CDATA[<p>Blog post.</p>]]></content:encoded>
+            <category>WOT terms</category>
+            <category>SSI</category>
+            <category>Web of Trust</category>
+        </item>
+    </channel>
+</rss>
