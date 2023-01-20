@@ -25,12 +25,9 @@ yarn-error.log*
 .DS_Store
 .idea
 .vscode/
-<<<<<<< HEAD
 *.bak
 output/
 Split_*
 *-workfile.txt
-=======
 .history
->>>>>>> gh-pages
 /.devcontainer

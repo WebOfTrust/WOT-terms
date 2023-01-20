@@ -32,21 +32,12 @@ is an often used phrase. Not to intimidate or to be condescending, but to stress
 ### Values at the base of our plan
 
 1. On-line education is important. We think it's an endless effort to improve the **understandability** of highly technical on-line resources and dedication is needed to achieve this value.
-<<<<<<< HEAD
-2. **Static sites** have value. A few relevant advantages: 
-    - after creation it's fixed in a directory structure, make it read-only and it's safe
-    - working on continuously harvested copies of external resources (independence, improving UX, etc.)
-    - a static site works off-line as a charm
-    - supports _inclusion_ by low-bandwidth requirements.
-3. **Continuous Development Continuous Integration** (CDCI) - Github actions can keep things up to date (it's valuable that we can automate tasks that usually are manual).
-=======
 2. **Static sites** have value. A few relevant advantages:
    - after creation it's fixed in a directory structure, make it read-only and it's safe
    - working on continuously harvested copies of external resources (independence, improving UX, etc.)
    - a static site works off-line as a charm
    - inclusion by low-bandwidth requirements.
 3. **Continuous Development Continuous Integration** (CDCI) - Github actions keeps things up to date (as few human hands as possible).
->>>>>>> gh-pages
 
 ### Concepts, here we go!
 
