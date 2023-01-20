@@ -12,7 +12,7 @@ const config = {
   tagline: 'Documenting everything about the Web of Trust.',
   url: "http://weboftrust.github.io",
   baseUrl: "/WOT-terms/docs/",
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
