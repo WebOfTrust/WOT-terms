@@ -2,7 +2,6 @@
 layout: default
 Title: HowTo
 tags: [KERI,ACDC]
-permalink: /hwt_create-terms-link-table.html
 sidebar: all_lvl3_wot_sidebar
 folder: 
 ---
@@ -10,7 +9,7 @@ folder:
 
 ## Input
 
-- A resource (like footage, e.g. [Phil's IIW demo]() interview with Steven)
+- A resource (like footage, e.g. [Phil's IIW demo](https://youtu.be/GqjsRuu0V5A) interview with Steven)
 - Subtitle (.sbv) file
 - [Glossary](https://www.makeuseof.com/how-to-create-edit-youtube-subtitles/)
 - Excel or open source alternative
@@ -133,7 +132,7 @@ Use the following CSS styling and adjust the column width at will (be sure it's 
 <!-- <link rel="stylesheet" href="../style.css" type="text/css"></link> -->
 
 <!-- This should be placed in a CSS file and referenced with the command above in comments -->
-<style>
+\<style\>
 table a {
     display: inline-block;
     width: 50px;
@@ -157,7 +156,7 @@ table a {
   table th:nth-of-type(5) {
       width: 10%;
   }
-  </style>
+\</style\>
 ```
 
 #### Github Repo markdown file

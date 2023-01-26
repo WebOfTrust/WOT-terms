@@ -2,7 +2,6 @@
 layout: default
 title: Resource - draft-pfeairheller-cesr-proof
 summary: _ abstractCESR Proof Signatures are an extension to the Composable Event Streaming Representation [CESR] that provide transposable cryptographic signature attachments on self-addressing data (SAD) [SA
-permalink: /resrc_draft-pfeairheller-cesr-proof.html
 sidebar: all_lvl3_wot_sidebar
 folder: resources
 ---

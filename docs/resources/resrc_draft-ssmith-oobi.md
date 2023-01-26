@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Resource - draft-ssmith-oobi
-summary: _ abstractAn Out-Of-Band Introduction (OOBI) provides a discovery mechanism that associates a given URI or URL with a given AID (Autonomic IDentifier) or SAID (Self-Addressing IDentifier) %%KERI_ID%%%
-permalink: /resrc_draft-ssmith-oobi.html
+summary: _ abstractAn Out-Of-Band Introduction (OOBI) provides a discovery mechanism that associates a given URI or URL with a given AID (Autonomic IDentifier) or SAID (Self-Addressing IDentifier) KERI_ID
 sidebar: all_lvl3_wot_sidebar
 folder: resources
 ---

@@ -1,5 +1,3 @@
----
-
 title: "Composable Event Streaming Representation (CESR)"
 abbrev: "CESR"
 docname: draft-ssmith-cesr-latest

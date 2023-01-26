@@ -14,7 +14,7 @@ This page tells a little bit about how to use the ToIP terms wiki:
 - how to manage
 
 ## Video Daniel Hardman
-For new learners, the [video]() of Daniel Hardman is very educational. 
+For new learners, the video {TBW prio1} of Daniel Hardman is very educational. 
 
 You could also have a look at the elaborate and complete description of the ToIP terms wikis [here](https://github.com/trustoverip/toip)
 

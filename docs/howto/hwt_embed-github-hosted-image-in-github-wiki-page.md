@@ -68,4 +68,4 @@ Either way will work. And here is the proof, that I've already deleted of course
 
 ## Resume
 
-I think this will fix your broken image links and resolve the [issue](#issue) mentioned above.
+I think this will fix your broken image links and resolve the issue mentioned above.

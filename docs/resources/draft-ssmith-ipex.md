@@ -1,4 +1,3 @@
----
 title: "Issuance and Presentation Exchange Protocol"
 abbrev: "IPEX"
 category: info

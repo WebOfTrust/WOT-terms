@@ -2,7 +2,6 @@
 layout: default
 title: Resource - kli-demo-2022
 summary: 
-permalink: /resrc_kli-demo-2022.html
 sidebar: all_lvl3_wot_sidebar
 folder: resources
 ---
