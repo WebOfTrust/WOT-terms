@@ -31,3 +31,4 @@ Split_*
 *-workfile.txt
 .history
 /.devcontainer
+docusaurus.config.*.js
