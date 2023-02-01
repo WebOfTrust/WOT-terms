@@ -1,14 +1,7 @@
-import ExecutionEnvironment from "@docusaurus/ExecutionEnvironment";
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 
 const doYourCustomStuff = () => {
   // your JS code goes here
-
-  const testje = document.querySelector("h3");
-
-  testje
-    ? (testje.innerHTML =
-        "XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX  ")
-    : null;
 };
 
 export function onRouteDidUpdate({ location, previousLocation }) {
@@ -22,7 +15,7 @@ if (ExecutionEnvironment.canUseDOM) {
   // We also need to setCodeRevealTriggers when the page first loads; otherwise,
   // after reloading the page, these triggers will not be set until the user
   // navigates somewhere.
-  window.addEventListener("load", () => {
+  window.addEventListener('load', () => {
     setTimeout(doYourCustomStuff, 1000);
   });
 }
