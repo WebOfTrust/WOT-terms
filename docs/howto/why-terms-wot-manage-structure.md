@@ -1,24 +1,18 @@
----
-title: HowTo
----
-
 # The Terms WOT manage structure explained
 
-What we have, to generate our static content site on the Github project page of this [WOT-terms page](https://weboftrust.github.io/WOT-terms/) repo, is:
+To generate our static content site on the Github project page of this [WOT-terms page](https://weboftrust.github.io/WOT-terms/) repo, we have:
 
-1. wiki resources, terms in separate `.md` files in a Jekyll directory structure
+1. wiki resources, terms in separate `.md` files in a Docusaurus directory structure
 2. a sheet called _Terms WOT manage_ (`.xls`) a central location with strict editing rights.
 3. a "comma separated" file _Terms WOT manage_ (`.csv`) exported from Excel in any directory locally. In fact it's a semi-colon-separated text file that you might get; so check the result.
 
-![](images/Terms-wot-manage-screen-example.png)
-
-![](images/csv-utf-8-save-as.png)
+<img src="./images/Terms-wot-manage-screen-example.png" alt="Terms-wot-manage-screen-example" width="800" />
+<img src="./images/csv-utf-8-save-as.png" alt="csv-utf-8-save-as" width="600" />
 
 4. A comma separated text file _Terms WOT manage_ (`.txt`) in the root directory of the `gh-pages` branch of `WOT-terms` repo. Use a plain text editor.
 
-![](images/rename-csv-to-txt1.png)
-
-![](images/rename-csv-to-txt2.png)
+<img src="./images/rename-csv-to-txt1.png" alt="Rename-csv-to-txt step1" width="400" />
+<img src="./images/rename-csv-to-txt2.png" alt="Rename-csv-to-txt step2" width="400" />
 
 #### Why not straigth export from Excel to a semi-colon separated text file.
 
@@ -29,9 +23,9 @@ The third and fourth step have proven necessary to generate a semi-colon-separat
 > Beware of non-ascii characters still present on the first line of the file coming from Excel.
 > I trimmed them out with the `tr` command in my bash-tools to handle the sheet.
 
-```
+<code>
 cat ${SOURCE} | tr -cd '\11\12\40-\176' > "${INPUT}" # want to get rid of non-printable character Excel leaves in the text export
-```
+</code>
 
 ## Why a sheet and why is it called Terms WOT manage?
 
@@ -101,7 +95,7 @@ A verifiable data structure that is a backward and forward chained ...
 
 We're generating static websites, for good reasons. [More info](https://www.cloudflare.com/en-gb/learning/performance/static-site-generator#Pros). But feel free to Google comparison and evaluations which direction you consider best. E.g. [wpamelia.com](https://wpamelia.com/static-vs-dynamic-website/?gclid=Cj0KCQjwxveXBhDDARIsAI0Q0x234PSArlYOfbriIL6u0g3RUlRST8zfdAnYtkrRSs-GJ3RdgwaCSaEaArioEALw_wcB).
 
-Because we've chosen a static site generator, [Jekyll](https://jekyllrb.com) for the time being, but there are other open-source options, **a database would be balast**.
+Because we've chosen a static site generator, [Docusaurus](https://docusaurus.io) for the time being, but there are other open-source options, **a database would be balast**.
 
 ## Counting tool
 
@@ -145,7 +139,7 @@ Recently the tool has been engineered towards the WOT-terms challenge:
 
 The count of terms are in the Cat_CCCCC columns after a (re)run of the counting tool.
 
-{TBW prio 1: the tool is currently being re-developed, August 18 2022 }
+| TBW prio 1: the tool is currently being re-developed, August 18 2022 |
 
 ## Why do we need this?
 
@@ -172,7 +166,7 @@ By offering "everything we have" about a certain term in one file, a reader is a
 
 Three major applications:
 
-Being the home of our terms maintenance, we [load ToIP glossary](./load-toip-glossary-in-weboftrust-github-page.md) and generate our Jekyll [static content site](https://weboftrust.github.io/WOT-terms/) on Github. This whole process is steered with the content in the _Terms WOT manage sheet_.
+Being the home of our terms maintenance, we [load ToIP glossary](./load-toip-glossary-in-weboftrust-github-page.md) and generate our Docusaurus [static content site](https://weboftrust.github.io/WOT-terms/) on Github. This whole process is steered with the content in the _Terms WOT manage sheet_.
 
 Any resource that mentions WebofTrust terms can be much easier enriched with the use of _Terms WOT manage sheet_.
 For example, we can create a [terms link table for any footage](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/howto/create-terms-link-table.md) from the sheet Terms WOT manage sheet.
