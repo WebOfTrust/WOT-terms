@@ -1,36 +1,32 @@
----
-layout: default
-Title: HowTo
-tags: [KERI,ACDC]
-permalink: /hwt_fill-out-terms-toip-wiki.html
-sidebar: all_lvl3_wot_sidebar
-folder: 
----
 # Fill out terms in one of the ToIP wikis
 
 This page tells a little bit about how to use the ToIP terms wiki:
+
 - how to use
 - how to fill
 - how to manage
 
 ## Video Daniel Hardman
-For new learners, the video {TBW prio1} of Daniel Hardman is very educational. 
+
+For new learners, the video | TBW prio1 | of Daniel Hardman is very educational.
 
 You could also have a look at the elaborate and complete description of the ToIP terms wikis [here](https://github.com/trustoverip/toip)
 
-{TBW}
+| TBW |
 
 ## How to use a terms wiki
+
 Go to any of them, for example to the [acdc](https://github.com/trustoverip/acdc/wiki) wiki of the KERI team. It's not only acdc by the way, the KERI suite has been defined in terms there.
 
 1. **Find a page**: To find a term just type part of it and the available list will be filtered instantly
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/find-a-page.png" alt="how to create a new term in the terms wiki" width="300">
+   <img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/find-a-page.png" alt="how to create a new term in the terms wiki" width="300" />
 
 > this is a very handy feature when attending virtual meeting and the experts are throwing in various terms.
-> you could save the newcomers by throwing links in the chat to the matching terms in the wiki. 
+> you could save the newcomers by throwing links in the chat to the matching terms in the wiki.
+
 ### Result filtered pages
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/filter-pages.png" alt="how to create a new term in the terms wiki" width="300">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/filter-pages.png" alt="how to create a new term in the terms wiki" width="300" />
 
 ## A few guidelines
 
@@ -42,13 +38,12 @@ Go to any of them, for example to the [acdc](https://github.com/trustoverip/acdc
 
 2. Only for those entries complying to 1.
 
-
 ```
 ## Definition
 The authentic web is the internet as a whole giant verifiable data structure. Also called Web5. The web will be one big graph. That's the mental model of the 'authentic web'.
 ```
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/new-term-wiki-page.png" alt="how to create a new term in the terms wiki" width="600">
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/new-term-wiki-page.png" alt="how to create a new term in the terms wiki" width="600" />
 
 3. Abbreviations
 
@@ -67,5 +62,3 @@ Originally, the instruction was to create a term and is acronym the way you have
 
 However, it turns out that generating two entries from one wiki page creates some undesirable complications. The tool needs to generate two tag lists and two edit histories as well. References to the term have an ID that is the same for both the short and the long form, and which authors may not remember. (You're writing a doc and you want to link to "SSI" but you have to remember to link to "self sovereign identity (SSI)" instead.) Etc.\
 (Source: Daniel Hardman)
-
-{% include links.html %}

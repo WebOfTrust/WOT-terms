@@ -1,11 +1,3 @@
----
-layout: default
-Title: HowTo
-tags: [KERI,ACDC]
-permalink: hwt_algolia-search-install-config.html
-sidebar: all_lvl3_wot_sidebar
-folder: 
----
 # Algolia search install and configuration
 
 @henkvancann: These are the instructions I followed and implemented in the site. Oct 2022.
@@ -36,11 +28,9 @@ So I Googled more and found ->
 
 #### Algolia.html
 
-
 ## Installed instantsearch.js
 
 [Package instantsearch](https://www.npmjs.com/package/instantsearch.js)
-
 
 ## Github Actions for Algolia CI
 

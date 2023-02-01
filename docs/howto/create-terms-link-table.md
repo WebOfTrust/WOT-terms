@@ -1,10 +1,3 @@
----
-layout: default
-Title: HowTo
-tags: [KERI,ACDC]
-sidebar: all_lvl3_wot_sidebar
-folder: 
----
 # Create an online table to link terms to resources
 
 ## Input
@@ -24,7 +17,7 @@ folder:
 
 A certain resource needs to be subtitled, explained further, etc. Be sure it has the added value you think it has. Ask around. Because there'll be a hugh effort involved to:
 
--  transcribe the resource
+- transcribe the resource
 - correct the subtitles by listening carefully what's been said by whom
 - connect the resource to the glossary
 - create new glossary items and amend existing ones (to avoid confusion when a term in a different context means something else)
@@ -35,7 +28,7 @@ An hour of footage can take days to decipher and document. Again, be sure it's w
 
 ### Use a video platform to subtitle the resource
 
-Upload the video to for example Youtube. Choose the right confidentiality and Youtube will start to create subtitles automatically. *Download* the subtitle-file to your local machine once it's ready: a `.sbv` file. Mind the copy rights of your video platform.
+Upload the video to for example Youtube. Choose the right confidentiality and Youtube will start to create subtitles automatically. _Download_ the subtitle-file to your local machine once it's ready: a `.sbv` file. Mind the copy rights of your video platform.
 
 ### Edit subtitles
 
@@ -47,7 +40,7 @@ As you edit, also have a an Excel sheet open with a few columns:
 - link
 - vidstart
 
-**Term**s are words used by the speakers in the resource, you can provide a **link** to more explanation, mainly to the [ACDC glossary](https://github.com/trustoverip/acdc/wiki/). The point in the video where a speaker *mentions the term for the first time* is called **vidstart**, you can copy this data from from the .sbv subtitle file downloaded from Youtube. the **level** of understanding at which this term might need explanation, and finally a *brief explanation* in field **text** of the term in the first column.
+**Term**s are words used by the speakers in the resource, you can provide a **link** to more explanation, mainly to the [ACDC glossary](https://github.com/trustoverip/acdc/wiki/). The point in the video where a speaker _mentions the term for the first time_ is called **vidstart**, you can copy this data from from the .sbv subtitle file downloaded from Youtube. the **level** of understanding at which this term might need explanation, and finally a _brief explanation_ in field **text** of the term in the first column.
 
 #### Tools and techniques
 
@@ -58,7 +51,7 @@ There are lots of tips and tools on the web you can find to edit your Youtube su
 
 #### Level
 
-Since KERI and ACDC education start off at the level of SSI-expert, a *beginner* is not a layman, but somebody with a good common understanding of IT and digital identity.
+Since KERI and ACDC education start off at the level of SSI-expert, a _beginner_ is not a layman, but somebody with a good common understanding of IT and digital identity.
 
 - 1=beginner digital identity expert
 - 3=advanced self-sovereign identity expert
@@ -69,7 +62,8 @@ Since KERI and ACDC education start off at the level of SSI-expert, a *beginner*
 Do this simultaneously.
 
 ### Use these functions in Excel to create the URL time format:
-Mind you `F2` is the cell that contains the time in Youtube time format:  `0:00:00.000`
+
+Mind you `F2` is the cell that contains the time in Youtube time format: `0:00:00.000`
 
 - Minutes: `=MID(TRIM(F2);3;2)` the example here has the Minutes in cell `G2`
 - Seconds: `=MID(TRIM(F2);6;2)` the example here has the Seconds in cell `H2`
@@ -82,7 +76,7 @@ And glue it together into a clickable and working URL to the right spot/timing i
 
 The start of example Excel sheet would like this:
 
-<img src="https://hackmd.io/_uploads/rkWsMskAc.png" width="800" align="right">
+<img src="https://hackmd.io/_uploads/rkWsMskAc.png" width="800" align="right" />
 
 The Excel file can be saved as a Comma Separated file `.csv`
 
@@ -99,26 +93,25 @@ I've used [Tablesgenerator.com](https://www.tablesgenerator.com). Use the follow
 
 #### Upload `.csv` file
 
-<img src="https://hackmd.io/_uploads/HJ3zejyCq.png" width="300">
+<img src="https://hackmd.io/_uploads/HJ3zejyCq.png" width="300" />
 
-<img src="https://hackmd.io/_uploads/S19Llo1C9.png" width="400" align="right">
+<img src="https://hackmd.io/_uploads/S19Llo1C9.png" width="400" align="right" />
 
-<img src="https://hackmd.io/_uploads/Hk93ki1Aq.png" width="500">
+<img src="https://hackmd.io/_uploads/Hk93ki1Aq.png" width="500" />
 
 #### Check the result
+
 And then copy the result; use the clipboard
 
-<img src="https://hackmd.io/_uploads/rkljgoyA9.png" width="200">
-
+<img src="https://hackmd.io/_uploads/rkljgoyA9.png" width="200" />
 
 and paste into your editor. After pasting the column headers in compact form will show
 
-<img src="https://hackmd.io/_uploads/BkwAmsJ09.png" width="500">
+<img src="https://hackmd.io/_uploads/BkwAmsJ09.png" width="500" />
 
 remove the column you don't need, by not referencing them (the data is still in the column, redundantly). In this example I removed 3 columns:
 
-<img src="https://hackmd.io/_uploads/S1qt4sJ0q.png" width="400">
-
+<img src="https://hackmd.io/_uploads/S1qt4sJ0q.png" width="400" />
 
 ### Create the description file of the resource where the Links Table is included
 
@@ -136,11 +129,11 @@ Use the following CSS styling and adjust the column width at will (be sure it's 
 table a {
     display: inline-block;
     width: 50px;
-    white-space: nowrap; 
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
-      
+
   table th:first-of-type {
       width: 20%;
   }
@@ -160,11 +153,14 @@ table a {
 ```
 
 #### Github Repo markdown file
+
 Use git functionality to push the HackMD file to your destination repo and or use a local repository to sync the `.md` file with your remote production repo.
 
 The `.md` file will show, however:
+
 ##### Scroll table to the right
-To get to the links and other columns of the table you might need to scroll the table all the way to the right. 
+
+To get to the links and other columns of the table you might need to scroll the table all the way to the right.
 
 The reason is that Github ignores all CSS input to normal repo .md files while rendering the output of `.MD` files in browsers. There are work-arounds but I don't advice those. Static pages generators can overcome this.
 
@@ -180,8 +176,7 @@ Any source that uses the css to adjust the column and cell width (to shrink the 
 
 For example:
 
-<img src="https://hackmd.io/_uploads/HyYs35JC9.png" width="500">
-
+<img src="https://hackmd.io/_uploads/HyYs35JC9.png" width="500" />
 
 ## Result
 
