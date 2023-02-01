@@ -46,8 +46,8 @@ As you edit, also have a an Excel sheet open with a few columns:
 
 There are lots of tips and tools on the web you can find to edit your Youtube subtitles / captions. Just to link a few:
 
-- https://www.makeuseof.com/how-to-create-edit-youtube-subtitles
-- https://support.google.com/youtube/answer/2734705?hl=en
+- <https://www.makeuseof.com/how-to-create-edit-youtube-subtitles>
+- <https://support.google.com/youtube/answer/2734705?hl=en>
 
 #### Level
 
@@ -61,7 +61,7 @@ Since KERI and ACDC education start off at the level of SSI-expert, a _beginner_
 
 Do this simultaneously.
 
-### Use these functions in Excel to create the URL time format:
+### Use these functions in Excel to create the URL time format
 
 Mind you `F2` is the cell that contains the time in Youtube time format: `0:00:00.000`
 
