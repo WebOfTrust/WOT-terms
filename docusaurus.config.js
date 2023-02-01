@@ -10,8 +10,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'WOT terms',
   tagline: 'Documenting everything about the Web of Trust.',
-  url: "http://weboftrust.github.io",
-  baseUrl: "/WOT-terms/",
+  url: 'https://dwarshuis.com',
+  baseUrl: '/test/wot-terms/1/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -23,7 +23,7 @@ const config = {
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
+  // to replace 'en' with 'zh-Hans'.
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -37,14 +37,15 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          // Remove this to remove the 'edit this page' links.
           // editUrl: 'https://github.com/kordwarshuis/WOT-terms-docusaurus/tree/main/',//TODO: find correct url
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // Remove this to remove the 'edit this page' links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -62,7 +63,8 @@ const config = {
           alt: 'WOT terms Logo',
           src: 'img/stamp.png',
         },
-        items: [{
+        items: [
+          {
             type: 'doc',
             docId: 'intro',
             position: 'left',
@@ -73,7 +75,8 @@ const config = {
             to: '/howtos-menu',
             label: 'HowTos',
             position: 'left',
-            items: [{
+            items: [
+              {
                 to: '/howtos/hwt_embed-github-hosted-image-in-github-wiki-page',
                 label: 'Embed a Github-hosted image in a Github wiki page',
               },
@@ -92,13 +95,13 @@ const config = {
               {
                 to: '/howtos/hwt_why-terms-wot-manage-structure',
                 label: 'The Terms WOT manage structure explained',
-              }
-            ]
+              },
+            ],
           },
           {
             href: '/feedback',
             label: 'Feedback',
-            position: 'left'
+            position: 'left',
           },
           {
             href: 'https://github.com/weboftrust/WOT-terms',
@@ -109,12 +112,15 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [{
+        links: [
+          {
             title: 'Docs',
-            items: [{
-              label: 'Documentation',
-              to: '/docs/intro',
-            }, ],
+            items: [
+              {
+                label: 'Documentation',
+                to: '/docs/intro',
+              },
+            ],
           },
           // {
           //   title: 'Community',
@@ -134,7 +140,8 @@ const config = {
           // },
           {
             title: 'More',
-            items: [{
+            items: [
+              {
                 label: 'Blog',
                 to: '/blog',
               },
@@ -151,14 +158,15 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      algolia: { // https://docusaurus.io/docs/search#connecting-algolia
+      algolia: {
+        // https://docusaurus.io/docs/search#connecting-algolia
         // The application ID provided by Algolia
-        appId: "IW4ZBUTOR5",
+        appId: 'IW4ZBUTOR5',
 
         // Public API key: it is safe to commit it
-        apiKey: "e2255f4a064d3a246866c5b83d3f593e",
+        apiKey: 'e2255f4a064d3a246866c5b83d3f593e',
 
-        indexName: "wot-terms1",
+        indexName: 'wot-terms1',
 
         // Optional: see doc section below
         contextualSearch: true,
@@ -177,7 +185,7 @@ const config = {
     }),
   plugins: [
     [
-      require.resolve("@cmfcmf/docusaurus-search-local"),
+      require.resolve('@cmfcmf/docusaurus-search-local'),
       {
         // whether to index docs pages
         indexDocs: true,
@@ -199,9 +207,9 @@ const config = {
         indexPages: true,
 
         // language of your documentation, see next section
-        language: "en",
+        language: 'en',
 
-        // setting this to "none" will prevent the default CSS to be included. The default CSS
+        // setting this to 'none' will prevent the default CSS to be included. The default CSS
         // comes from autocomplete-theme-classic, which you can read more about here:
         // https://www.algolia.com/doc/ui-libraries/autocomplete/api-reference/autocomplete-theme-classic/
         // When you want to overwrite CSS variables defined by the default theme, make sure to suffix your
@@ -215,12 +223,12 @@ const config = {
 
         // lunr.js-specific settings
         lunr: {
-          // When indexing your documents, their content is split into "tokens".
+          // When indexing your documents, their content is split into 'tokens'.
           // Text entered into the search box is also tokenized.
           // This setting configures the separator used to determine where to split the text into tokens.
           // By default, it splits the text at whitespace and dashes.
           //
-          // Note: Does not work for "ja" and "th" languages, since these use a different tokenizer.
+          // Note: Does not work for 'ja' and 'th' languages, since these use a different tokenizer.
           tokenizerSeparator: /[\s\-]+/,
           // https://lunrjs.com/guides/customising.html#similarity-tuning
           //
@@ -235,16 +243,20 @@ const config = {
           // similarity calculation. In these cases, this value can be reduced to get more balanced results.
           k1: 1.2,
           // By default, we rank pages where the search term appears in the title higher than pages where
-          // the search term appears in just the text. This is done by "boosting" title matches with a
+          // the search term appears in just the text. This is done by 'boosting' title matches with a
           // higher value than content matches. The concrete boosting behavior can be controlled by changing
           // the following settings.
           titleBoost: 5,
           contentBoost: 1,
           tagsBoost: 3,
           parentCategoriesBoost: 2, // Only used when indexDocSidebarParentCategories > 0
-        }
+        },
       },
     ],
+  ],
+  clientModules: [
+    require.resolve('./plugins/Custom1'),
+    // require.resolve('./plugins/Custom2'),
   ],
 };
 
