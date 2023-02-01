@@ -2,7 +2,6 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
 // require('dotenv').config(); //TODO: move to elsewhere, does not belong in config
-// test
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -11,8 +10,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'WOT terms',
   tagline: 'Documenting everything about the Web of Trust.',
-  url: 'https://dwarshuis.com',
-  baseUrl: '/test/wot-terms/1/',
+  url: 'http://weboftrust.github.io',
+  baseUrl: '/WOT-terms/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
