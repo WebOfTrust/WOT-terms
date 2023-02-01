@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Glossary - ADC
+title: TEST
 tags: [ACDC]
 Term: ADC
 summary: An authentic data container conveys data that allows the authenticity of its content to be proved.
