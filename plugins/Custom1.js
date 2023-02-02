@@ -10,11 +10,11 @@ const doCrossLinks = () => {
         let innerText = element.innerHTML;
 
         // Assign only once:
-        textFragment[2] === undefined
-          ? (textFragment[2] = Math.floor(Math.random() * 10000000000000000000))
+        textFragment[3] === undefined
+          ? (textFragment[3] = Math.floor(Math.random() * 10000000000000000000))
           : null;
 
-        let innerTextNew = innerText.replace(textFragment[0], textFragment[2]);
+        let innerTextNew = innerText.replace(textFragment[0], textFragment[3]);
         element.innerHTML = innerTextNew;
       });
     });
@@ -24,9 +24,17 @@ const doCrossLinks = () => {
       crossLinks.forEach((textFragment) => {
         let innerText = element.innerHTML;
         let innerTextNew = innerText.replace(
-          textFragment[2],
-          "<a href='" + textFragment[1] + "'>" + textFragment[0] + '</a>'
+          textFragment[3],
+          "<a href='" +
+            textFragment[1] +
+            "'>" +
+            textFragment[0] +
+            '</a>' +
+            ' <strong>(Level: ' +
+            textFragment[2] +
+            ')</strong>'
         );
+
         element.innerHTML = innerTextNew;
       });
     });
