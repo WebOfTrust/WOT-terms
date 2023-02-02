@@ -32,3 +32,18 @@
 .hero {
   background: #337DBE;
 }
+
+.hero__image {
+  max-width: 10% !important;
+  animation: rotation 12s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
