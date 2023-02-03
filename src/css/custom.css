@@ -34,7 +34,7 @@
 }
 
 .hero__image {
-  max-width: 10% !important;
+  max-width: 10em !important;
   animation: rotation 12s infinite linear;
 }
 
