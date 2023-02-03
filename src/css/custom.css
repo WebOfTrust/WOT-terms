@@ -51,3 +51,43 @@
 .homepage--heading {
   text-align: center;
 }
+
+
+
+
+/* TEXT ANIMATION HOME PAGE */
+/* https: //codepen.io/kilianso/pen/baEWJm */
+.pattern_wrap {
+  position: relative;
+}
+
+.pattern,
+.character {
+  pointer-events: none;
+  display: inline-block;
+  padding: 0.1rem;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.pattern {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+}
+
+.character {
+  /* text-transform: uppercase; */
+  opacity: 0;
+}
+
+.pattern_line:before {
+  content: "\2502";
+}
+
+.pattern_circle:before {
+  content: "\2022";
+}
+
+.pattern_square:before {
+  content: "\220E";
+}
