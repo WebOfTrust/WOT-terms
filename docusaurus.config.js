@@ -1,7 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-// require('dotenv').config(); //TODO: move to elsewhere, does not belong in config
+require('dotenv').config(); //TODO: move to elsewhere, does not belong in config
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -10,8 +10,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Web of Trust',
   tagline: 'Documenting everything about the Web of Trust.',
-  url: 'https://dwarshuis.com',
-  baseUrl: '/test/wot-terms/3/',
+  url: process.env.URL,
+  baseUrl: process.env.BASEURL,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -184,6 +184,18 @@ const config = {
       },
     }),
   plugins: [
+    [
+      'docusaurus-plugin-dotenv',
+      {
+        path: './.env', // The path to your environment variables.
+        safe: false, // If false ignore safe-mode, if true load './.env.example', if a string load that file as the sample
+        systemvars: false, // Set to true if you would rather load all system variables as well (useful for CI purposes)
+        silent: false, //  If true, all warnings will be suppressed
+        expand: false, // Allows your variables to be "expanded" for reusability within your .env file
+        defaults: false, //  Adds support for dotenv-defaults. If set to true, uses ./.env.defaults
+        ignoreStub: true,
+      },
+    ],
     [
       require.resolve('@cmfcmf/docusaurus-search-local'),
       {
