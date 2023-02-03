@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: '⚡ Beginner',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/child-girl-kid-svgrepo-com.svg').default,
     description: (
       <>
         A beginner is still an expert in the field of identity. Triggered by
@@ -15,12 +15,12 @@ const FeatureList = [
   },
   {
     title: '⚡ Advanced',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/graduate-svgrepo-com.svg').default,
     description: <>A skilled power user.</>,
   },
   {
     title: '⚡ Expert',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/professor-svgrepo-com.svg').default,
     description: <>Technically skilled and very knowledgeable</>,
   },
 ];
@@ -29,7 +29,7 @@ function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        {/* <Svg className={styles.featureSvg} role="img" /> */}
+        <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
