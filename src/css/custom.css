@@ -47,3 +47,7 @@
     transform: rotate(359deg);
   }
 }
+
+.homepage--heading {
+  text-align: center;
+}
