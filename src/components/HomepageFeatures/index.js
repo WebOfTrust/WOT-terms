@@ -4,35 +4,28 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'SSI made easy',
+    title: '⚡ Beginner',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        You will find everything related to Self Sovereign Identity collected here. Everything.
+        A beginner is still an expert in the field of identity. Triggered by
+        meaning and practical advantages.
       </>
     ),
   },
   {
-    title: 'WOT terms at your fingertips',
+    title: '⚡ Advanced',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Search at light speed. Find while you type.
-      </>
-    ),
+    description: <>A skilled power user.</>,
   },
   {
-    title: 'Contribute',
+    title: '⚡ Expert',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Missing something? Contribute!
-      </>
-    ),
+    description: <>Technically skilled and very knowledgeable</>,
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -50,6 +43,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        <h2 className="homepage--heading">Different knowledge levels</h2>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
