@@ -1,6 +1,6 @@
 import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 
-const doYourCustomStuff = () => {
+const animationHomepage = () => {
   // https://codepen.io/kilianso/pen/baEWJm, ADAPTED
 
   const animatedEls = document.querySelectorAll('.hero__title');
@@ -116,5 +116,5 @@ export function onRouteDidUpdate({ location, previousLocation }) {
   // Don't execute if we are still on the same page; the lifecycle may be fired
   // because the hash changes (e.g. when navigating between headings)
   if (location.pathname === previousLocation?.pathname) return;
-  doYourCustomStuff();
+  animationHomepage();
 }
