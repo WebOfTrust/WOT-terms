@@ -12,6 +12,8 @@ sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
+<a class="show-level" href="?level=1">Level 1</a> <a class="show-level" href="?level=2">Level 2</a> <a class="show-level" href="?level=3">Level 3</a>
+
 <p data-level="1">
 Winnie-the-Pooh, also called Pooh Bear and Pooh, is a fictional anthropomorphic teddy bear created by English author A. A. Milne and English illustrator E. H. Shepard.
 </p>
