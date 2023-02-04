@@ -25,9 +25,6 @@ const showLevels = () => {
 
   const paragraphs = document.querySelectorAll('p');
 
-  //   console.log('p.dataset.level;: ', p.dataset.level);
-  console.log('level: ', level);
-
   if (level !== undefined) {
     paragraphs.forEach((p) => {
       if (p.dataset.level !== undefined) {
