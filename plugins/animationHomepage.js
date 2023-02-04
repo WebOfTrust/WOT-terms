@@ -1,5 +1,3 @@
-import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
-
 const animationHomepage = () => {
   // https://codepen.io/kilianso/pen/baEWJm, ADAPTED
 

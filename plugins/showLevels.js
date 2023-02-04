@@ -1,5 +1,3 @@
-import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
-
 const showLevels = () => {
   // get url query Parameters
   // https://stackoverflow.com/a/21903119
