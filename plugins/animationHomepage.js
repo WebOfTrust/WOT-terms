@@ -2,13 +2,11 @@ const animationHomepage = () => {
   // https://codepen.io/kilianso/pen/baEWJm, ADAPTED
 
   const animatedEls = document.querySelectorAll('.hero__title');
-  console.log('animatedEls: ', animatedEls);
   let patInst = [];
 
   animatedEls.forEach((currentValue, index) => {
     let textEl = animatedEls[index];
 
-    console.log('textEl.innerText.length;: ', textEl.innerText.length);
     let trigger = animatedEls[index].querySelector('button');
 
     // Create an instance.
@@ -34,8 +32,6 @@ const animationHomepage = () => {
       let newChar = document.createElement('span');
       newChar.classList.add('character');
       newChar.innerText = patInst[index].text.charAt(b);
-
-      console.log('patInst[index].patternName: ', patInst[index].patternName);
 
       // Add pattern as span after every character.
       let newPat = document.createElement('span');
