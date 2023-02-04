@@ -267,7 +267,7 @@ const config = {
     ],
   ],
   clientModules: [
-    require.resolve('./plugins/Custom1'),
+    require.resolve('./plugins/crossLinks'),
     require.resolve('./plugins/Custom2'),
   ],
 };
