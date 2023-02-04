@@ -91,3 +91,13 @@
 .pattern_square:before {
   content: "\220E";
 }
+
+
+/* Levels */
+.show-level {
+  border: 1px solid grey;
+  border-radius: 7px;
+  padding: 0.2em 0.4em;
+  margin: 0 1em 1em 0;
+  display: inline-block;
+}
