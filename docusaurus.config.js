@@ -268,7 +268,7 @@ const config = {
   ],
   clientModules: [
     require.resolve('./plugins/crossLinks'),
-    require.resolve('./plugins/Custom2'),
+    require.resolve('./plugins/animationHomepage'),
   ],
 };
 
