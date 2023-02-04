@@ -269,6 +269,7 @@ const config = {
   clientModules: [
     require.resolve('./plugins/crossLinks'),
     require.resolve('./plugins/animationHomepage'),
+    require.resolve('./plugins/showLevels'),
   ],
 };
 
