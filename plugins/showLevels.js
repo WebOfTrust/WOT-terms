@@ -9,9 +9,9 @@ const infoMessage = {
 const showLevelButtonClass = 'show-level';
 const showLevelButtonActiveClass = 'button--active';
 
-const inDocSection = window.location.href.indexOf('/docs/') > -1 ? true : false;
-
 const showLevels = () => {
+  const inDocSection =
+    window.location.href.indexOf('/docs/') > -1 ? true : false;
   const paragraphs = document.querySelectorAll('p'); //TODO: deduplicate
   let strAllQueryParameters = window.location.search;
   let allQueryParameters = new URLSearchParams(strAllQueryParameters);
