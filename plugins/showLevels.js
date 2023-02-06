@@ -1,8 +1,15 @@
-// keep
+const infoMessage = {
+  level1:
+    'You have chosen level 1: you`re still an expert in the field of identity. Triggered by meaning and practical advantages.',
+  level2: 'You have chosen level 2: you are a skilled power user.',
+  level3:
+    'You have chosen level 3: you are technically skilled and very knowledgeable',
+};
 
-// let showLevelButtonsAdded = false;
 const showLevelButtonClass = 'show-level';
 const showLevelButtonActiveClass = 'button--active';
+
+// const inDocSection = window.location.href.indexOf('/docs/') > -1 ? true : false;
 
 const showLevels = () => {
   const paragraphs = document.querySelectorAll('p'); //TODO: deduplicate
@@ -11,6 +18,7 @@ const showLevels = () => {
   let urlLevel = allQueryParameters.get('level');
 
   let urlContainsValidLevel = false;
+  // console.log('rege');
   if (urlLevel === '1' || urlLevel === '2' || urlLevel === '3') {
     urlContainsValidLevel = true;
   }
@@ -64,7 +72,7 @@ const showLevels = () => {
     if (window.location.href.indexOf('/docs/') > -1) {
       // create level selection
       let htmlString =
-        '<div class="margin-bottom--lg"><span>Level </span><button data-level="1" class="show-level button button--secondary margin-right--sm margin-left--sm" href="?level=1">1</button> <button data-level="2" class="show-level button button--secondary margin-right--sm" href="?level=2">2</button> <button data-level="3" class="show-level button button--secondary margin-right--sm" href="?level=3">3</button></div>';
+        '<div class="show-level-buttons-info margin-bottom--lg alert alert--info" role="alert">Choose your knowledge level.</div><div class="margin-bottom--lg"><span>Level </span><button data-level="1" class="show-level button button--secondary margin-right--sm margin-left--sm" href="?level=1">1</button> <button data-level="2" class="show-level button button--secondary margin-right--sm" href="?level=2">2</button> <button data-level="3" class="show-level button button--secondary margin-right--sm" href="?level=3">3</button></div>';
 
       document
         .querySelector('main article')
