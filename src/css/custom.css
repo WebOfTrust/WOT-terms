@@ -101,3 +101,15 @@
   margin: 0 1em 1em 0;
   display: inline-block;
 } */
+
+.show-level-buttons-info img {
+    max-width: 2em;
+    float: right;
+}
+
+/* clear float */
+.show-level-buttons-info:after {
+  content: "";
+  display: table;
+  clear: both;
+}
