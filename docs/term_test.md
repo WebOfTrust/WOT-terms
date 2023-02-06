@@ -7,12 +7,10 @@ summary: An authentic data container conveys data that allows the authenticity o
 Link: https://github.com/trustoverip/acdc/wiki/ADC.md
 Videostart:
 Level: 7
-permalink: /term_ADC.html
+permalink: /term_test.html
 sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
-
-<a class="show-level button button--secondary" href="?level=1">Level 1</a> <a class="show-level button button--secondary" href="?level=2">Level 2</a> <a class="show-level button button--secondary" href="?level=3">Level 3</a>
 
 <p data-level="1">
 Winnie-the-Pooh, also called Pooh Bear and Pooh, is a fictional anthropomorphic teddy bear created by English author A. A. Milne and English illustrator E. H. Shepard.
