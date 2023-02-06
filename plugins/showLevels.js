@@ -1,9 +1,10 @@
 const infoMessage = {
   level1:
-    'You have chosen level 1: you`re still an expert in the field of identity. Triggered by meaning and practical advantages. <img src="static/img/child-girl-kid-svgrepo-com.svg" alt="">',
-  level2: 'You have chosen level 2: you are a skilled power user.',
+    '<img src="../img/child-girl-kid-svgrepo-com.svg" alt="A child"> You have chosen level 1: you`re still an expert in the field of identity. Triggered by meaning and practical advantages.',
+  level2:
+    '<img src="../img/graduate-svgrepo-com.svg" alt="A graduate">You have chosen level 2: you are a skilled power user.',
   level3:
-    'You have chosen level 3: you are technically skilled and very knowledgeable',
+    '<img src="../img/professor-svgrepo-com.svg" alt="Person that resembles Einstein">You have chosen level 3: you are technically skilled and very knowledgeable',
 };
 
 const showLevelButtonClass = 'show-level';
