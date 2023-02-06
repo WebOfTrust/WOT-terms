@@ -104,7 +104,8 @@
 
 .show-level-buttons-info img {
     max-width: 2em;
-    float: right;
+    margin-right: 0.5em;
+    float: left;
 }
 
 /* clear float */
