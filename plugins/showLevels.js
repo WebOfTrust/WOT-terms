@@ -101,6 +101,8 @@ const showLevels = () => {
     resetShowLevelButton();
     button.target.classList.add(showLevelButtonActiveClass);
     // console.log('button: ', button);
+    document.querySelector('.show-level-buttons-info').innerHTML =
+      infoMessage['level' + button.target.dataset.level];
   };
 
   createShowLevelButtons();
@@ -143,6 +145,10 @@ const showLevels = () => {
           '.show-level[data-level="' + localStorage.getItem('level') + '"]'
         )
         .classList.add(showLevelButtonActiveClass);
+    }
+    if (document.querySelector('.show-level-buttons-info')) {
+      document.querySelector('.show-level-buttons-info').innerHTML =
+        infoMessage['level' + localStorage.getItem('level')];
     }
   }
 };
