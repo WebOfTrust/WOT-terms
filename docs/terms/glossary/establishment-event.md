@@ -1,3 +1,12 @@
 ## Definition
-An event that establishes control authority. What are the authoritative key-pairs in any point in time. For a trivial system this is one authoritative key pair and it never changes. However, if we need persistance in our identifier and we want to be able to for example overcome compromise of our keys, we need to be able to do something like rotate keys.\
+A key creation or rotation event that establishes or transfers control authority for an identifier. 
+
+Establishment events indicate which key pairs are authoritative (controlling) for an identifier at a given point in time.
+
+The subset of a [key event log](key-event-log) (KEL) that are establishment events are an ordered subsequence of the full KEL.
+
+For a non-transferable identifier this is one authoritative key pair and it never changes so there will only ever be one establishment event, the inception event.
+
+For transferable identifiers there can be multiple establishment events which would include the initial rotation event and any subsequent rotation events.
+
 Source [Sam Smith](https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-keri.md#basic-terminology)
