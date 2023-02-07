@@ -7,8 +7,8 @@ CESR is fully text binary concatenation composable.
 
 ## Example in analogy
 Use Google Translate to translate a piece of text from English to Dutch. Subsequently, keep copy pasting the resulting “to:” text into the “from:” field. The message changes until it comes to a standstill where you can keep swapping the texts without them changing.\
-<img src="https://hackmd.io/_uploads/H1e8_BbmMi.png" height="100">
-<img src="https://hackmd.io/_uploads/B1pFrbXfj.png" height="100">
+<img src="https://hackmd.io/_uploads/H1e8_BbmMi.png" height="100" />
+<img src="https://hackmd.io/_uploads/B1pFrbXfj.png" height="100" />
 
 The conclusion is: Google Translate is not composable!
 
