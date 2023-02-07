@@ -43,7 +43,7 @@ Suppose you're in the root of the `acdc.wiki`
 
 Command
 
-```
+```jsx
 git remote -v
 ```
 
@@ -51,6 +51,12 @@ tells you from which remote location you'd like to pull the changes from
 
 Then pull the `.md`-files in:
 
+```jsx
+git pull origin main
 ```
-git pull origin master
+
+Then go to the destination directory in the Docusaurus file tree and copy the files over:
+
+```jsx
+cp <path to>/acdc.wiki/* .
 ```

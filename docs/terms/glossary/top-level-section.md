@@ -5,4 +5,4 @@ Paraphrased by @henkvancann based on [source](https://github.com/WebOfTrust/ietf
 
 
 ## Example
-<img src="https://hackmd.io/_uploads/rJ0JJcEes.png" alt="top level section of an ACDC" width="700">
+<img src="https://hackmd.io/_uploads/rJ0JJcEes.png" alt="top level section of an ACDC" width="700" />

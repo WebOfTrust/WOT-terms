@@ -4,5 +4,5 @@ Chains together a sequence of [Disclosees](disclosees) which may also include a 
 This is the primary mechanism of granting digital data rights through binding information exchange to confidentiality laws. Confidentiality is dynamically negotiated on a per-event, per-data exchange basis according to the data that is being shared in a given exchange.
 
 ## Contrast
-Disclosures via [Presentations Exchanges](presentation-exchanges) may be contractually protected by Chain-Link Confidentiality (i.e. a Chain-Link Confidential disclosure). The chaining in this case is different from the chaining described above between Issuances in a [DAG](directed-acyclic-graph) of chained Issuances. Chain-link confidentiality, in contrast, chains together a sequence of Disclosees.\
+Disclosures via [Presentations Exchanges](presentation-exchange) may be contractually protected by Chain-Link Confidentiality (i.e. a Chain-Link Confidential disclosure). The chaining in this case is different from the chaining described above between Issuances in a [DAG](directed-acyclic-graph) of chained Issuances. Chain-link confidentiality, in contrast, chains together a sequence of Disclosees.\
 More info at [source](https://github.com/WebOfTrust/ietf-ipex/blob/main/draft-ssmith-ipex.md#chain-link-confidentiality)

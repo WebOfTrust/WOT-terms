@@ -11,4 +11,4 @@ Autonomic Identifiers have been pretty well described in this piece as opposed t
 
 A summarizing comparison table might say more than a hundred words:
 
-<img src="https://hackmd.io/_uploads/HyOi3r81j.png" width="500" alt="summarising the trust bases of administrative, algorithmic and autonomic identifier systems">
+<img src="https://hackmd.io/_uploads/HyOi3r81j.png" width="500" alt="summarising the trust bases of administrative, algorithmic and autonomic identifier systems" />
