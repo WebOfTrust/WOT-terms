@@ -12,4 +12,4 @@ From our vocabulary that contains the term "[Public verifiable credential regist
 
 This source has conceptual explanations in diagrams like the one below and code examples. However, **be aware that ACDC solves this in a different way** with [KERI-based verifiable data structures](VDS) and [graph fragments](graph-fragment).
 
-<img src="https://hackmd.io/_uploads/H1CE6FZfo.png" width="500">
+<img src="https://hackmd.io/_uploads/H1CE6FZfo.png" width="500" />

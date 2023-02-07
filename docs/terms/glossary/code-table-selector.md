@@ -3,4 +3,4 @@ the first character in the text code of CESR stream that determines which [code 
 
 ## Selector code table
 See row 1.
-<img src="https://hackmd.io/_uploads/H1LHEQDfj.png" width="600">
+<img src="https://hackmd.io/_uploads/H1LHEQDfj.png" width="600" />
