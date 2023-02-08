@@ -120,13 +120,11 @@
 /**
  * Video
  */
-
+ /* TODO: better settings for width and height */
  .youtube-video {
   display: block;
   border: 1px solid pink;
   margin: 0 auto 1em;
   width: 300px;
   height: 200px;
-  width: 50%;
-  height: 800px;
  }
