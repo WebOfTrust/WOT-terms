@@ -18,4 +18,6 @@ export const crossLinks = [
     2,
   ],
   ['Brown', 'https://example.com/Brown', 2],
+  ['KERI', 'docs/terms/glossary/KERI', 1],
+  ['SAID', 'docs/terms/glossary/self-adressing-identifier', 1],
 ];
