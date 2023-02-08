@@ -1,4 +1,5 @@
 import { crossLinks } from '../crossLinks';
+import config from '@generated/docusaurus.config';
 
 const doCrossLinks = () => {
   const domElements = document.querySelectorAll('p');
@@ -25,9 +26,9 @@ const doCrossLinks = () => {
         let innerText = element.innerHTML;
         let innerTextNew = innerText.replace(
           textFragment[3],
-          "<a href='" +
+          `<a href=${config.baseUrl}` +
             textFragment[1] +
-            "'>" +
+            '>' +
             textFragment[0] +
             '</a>' +
             ' <strong>(Level: ' +
