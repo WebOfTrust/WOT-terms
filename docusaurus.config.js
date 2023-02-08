@@ -284,8 +284,10 @@ const config = {
     ],
   ],
   clientModules: [
-    require.resolve('./plugins/Custom1'),
-    // require.resolve('./plugins/Custom2'),
+    require.resolve('./plugins/crossLinks'),
+    require.resolve('./plugins/animationHomepage'),
+    require.resolve('./plugins/showLevels'),
+    require.resolve('./plugins/insertVideo'),
   ],
 };
 
