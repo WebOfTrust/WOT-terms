@@ -128,15 +128,15 @@ const config = {
               },
               {
                 label: "Resources",
-                to: "/docs/resources",
+                to: "/docs/resources/intro",
               },
               {
                 label: "Glossary",
-                to: "/docs/terms/glossary",
+                to: "/docs/terms/glossary/intro",
               },
               {
                 label: "Howtos",
-                to: "/docs/howto",
+                to: "/docs/howto/intro",
               },
             ],
           },
