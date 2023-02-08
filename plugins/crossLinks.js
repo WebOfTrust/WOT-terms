@@ -1,4 +1,4 @@
-import { crossLinks } from '../crossLinks';
+import { crossLinks } from '../crossLinksIndex';
 import config from '@generated/docusaurus.config';
 
 const doCrossLinks = () => {
