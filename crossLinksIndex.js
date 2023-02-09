@@ -1,23 +1,52 @@
 export const crossLinks = [
-  ['teddy bear', 'https://example.com/teddybear', 1],
-  ['bear', 'https://example.com/bear', 3],
-  ['Winnie-the-Pooh', 'https://example.com/winnie-the-pooh', 2],
-  ['Pooh', 'https://example.com/pooh', 1],
-  ['A. A. Milne', 'https://example.com/A-A-Milne', 4],
-  ['Paddington Bear', 'https://example.com/Paddington-Bear', 2],
-  ['Paddington', 'https://example.com/Paddington', 2],
-  [
-    'British fictional characters',
-    'https://example.com/British-fictional-characters',
-    2,
-  ],
-  ['characters', 'https://example.com/characters', 2],
-  [
-    'London Paddington station',
-    'https://example.com/London-Paddington-station',
-    2,
-  ],
-  ['Brown', 'https://example.com/Brown', 2],
-  ['KERI', 'docs/terms/glossary/KERI', 1],
-  ['SAID', 'docs/terms/glossary/self-adressing-identifier', 1],
+  { keyword: 'teddy bear', url: 'https://example.com/teddybear', level: 1 },
+  { keyword: 'bear', url: 'https://example.com/bear', level: 3 },
+
+  {
+    keyword: 'Winnie-the-Pooh',
+    url: 'https://example.com/winnie-the-pooh',
+    level: 2,
+  },
+  ,
+  { keyword: 'Pooh', url: 'https://example.com/pooh', level: 1 },
+
+  {
+    keyword: 'fictional',
+    url: 'https://example.com/fictional-replaced',
+    level: 1,
+  },
+  ,
+  { keyword: 'A. A. Milne', url: 'https://example.com/A-A-Milne', level: 4 },
+
+  {
+    keyword: 'Paddington Bear',
+    url: 'https://example.com/Paddington-Bear',
+    level: 2,
+  },
+  ,
+  { keyword: 'Paddington', url: 'https://example.com/Paddington', level: 2 },
+
+  {
+    keyword: 'British fictional characters',
+    url: 'https://example.com/British-fictional-characters',
+    level: 2,
+  },
+  ,
+  { keyword: 'characters', url: 'https://example.com/characters', level: 2 },
+
+  {
+    keyword: 'London Paddington station',
+    url: 'https://example.com/London-Paddington-station',
+    url: 2,
+  },
+  ,
+  { keyword: 'Brown', url: 'https://example.com/Brown', level: 2 },
+  { keyword: 'KERI', url: 'docs/terms/glossary/KERI', level: 1 },
+
+  {
+    keyword: 'SAID',
+    url: 'docs/terms/glossary/self-adressing-identifier',
+    level: 1,
+  },
+  ,
 ];
