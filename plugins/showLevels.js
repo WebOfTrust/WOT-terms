@@ -44,7 +44,7 @@ const showLevels = () => {
 
   // push url string to browser address bar
   const setURL = () => {
-    window.history.pushState(
+    window.history.replaceState(
       '',
       '',
       window.location.protocol +
