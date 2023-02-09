@@ -1,24 +1,24 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-// require('dotenv').config(); //TODO: move to elsewhere, does not belong in config
+require('dotenv').config(); //TODO: move to elsewhere, does not belong in config
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'WOT terms',
+  title: 'Web of Trust',
   tagline: 'Documenting everything about the Web of Trust.',
-  url: 'http://weboftrust.github.io',
-  baseUrl: '/WOT-terms/',
+  url: process.env.URL,
+  baseUrl: process.env.BASEURL,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Web Of Trust', // Usually your GitHub org/user name.
+  organizationName: 'WebOfTrust', // Usually your GitHub org/user name.
   projectName: 'WOT-terms', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -40,13 +40,14 @@ const config = {
           // Remove this to remove the 'edit this page' links.
           // editUrl: 'https://github.com/kordwarshuis/WOT-terms-docusaurus/tree/main/',//TODO: find correct url
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the 'edit this page' links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
+        // {
+        //  showReadingTime: true,
+        // Please change this to your repo.
+        // Remove this to remove the 'edit this page' links.
+        // editUrl:
+        //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -58,7 +59,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'WOT terms',
+        title: 'WebOfTrust Educational site',
         logo: {
           alt: 'WOT terms Logo',
           src: 'img/stamp.png',
@@ -77,23 +78,27 @@ const config = {
             position: 'left',
             items: [
               {
-                to: '/howtos/hwt_embed-github-hosted-image-in-github-wiki-page',
+                to: '/docs/howto/embed-github-hosted-image-in-github-wiki-page',
                 label: 'Embed a Github-hosted image in a Github wiki page',
               },
               {
-                to: '/howtos/hwt_get-markdown-from-ToIP-wiki',
+                to: '/docs/howto/markdown-from-ToIP-wiki',
                 label: 'Get Markdown files from ToIP wiki glossary terms',
               },
               {
-                to: '/howtos/hwt_load-toip-glossary-in-weboftrust-github-page',
+                to: '/docs/howto/load-toip-glossary-in-weboftrust-github-page',
                 label: 'Load ToIP glossary in weboftrust github page',
               },
               {
-                to: '/howtos/hwt_pull-in-markdown-documents',
+                to: '/docs/howto/pull-in-markdown-documents',
                 label: 'Pull in markdown documents',
               },
               {
-                to: '/howtos/hwt_why-terms-wot-manage-structure',
+                to: '/docs/howto/pull-changes-from-toip-to-terms',
+                label: 'Pull in changes from toip terms',
+              },
+              {
+                to: '/docs/howto/why-terms-wot-manage-structure',
                 label: 'The Terms WOT manage structure explained',
               },
             ],
@@ -105,7 +110,7 @@ const config = {
           },
           {
             href: 'https://github.com/weboftrust/WOT-terms',
-            label: 'GitHub',
+            label: 'GitHub repo',
             position: 'right',
           },
         ],
@@ -119,6 +124,18 @@ const config = {
               {
                 label: 'Documentation',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Resources',
+                to: '/docs/resources/intro',
+              },
+              {
+                label: 'Glossary',
+                to: '/docs/terms/glossary/intro',
+              },
+              {
+                label: 'Howtos',
+                to: '/docs/howto/intro',
               },
             ],
           },
@@ -141,10 +158,10 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //  label: 'Blog',
+              //  to: '/blog',
+              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/weboftrust/WOT-terms',
@@ -185,6 +202,18 @@ const config = {
     }),
   plugins: [
     [
+      'docusaurus-plugin-dotenv',
+      {
+        path: './.env', // The path to your environment variables.
+        safe: false, // If false ignore safe-mode, if true load './.env.example', if a string load that file as the sample
+        systemvars: false, // Set to true if you would rather load all system variables as well (useful for CI purposes)
+        silent: false, //  If true, all warnings will be suppressed
+        expand: false, // Allows your variables to be "expanded" for reusability within your .env file
+        defaults: false, //  Adds support for dotenv-defaults. If set to true, uses ./.env.defaults
+        ignoreStub: true,
+      },
+    ],
+    [
       require.resolve('@cmfcmf/docusaurus-search-local'),
       {
         // whether to index docs pages
@@ -200,7 +229,7 @@ const config = {
         indexDocSidebarParentCategories: 0,
 
         // whether to index blog pages
-        indexBlog: true,
+        indexBlog: false,
 
         // whether to index static pages
         // /404.html is never indexed
@@ -255,8 +284,10 @@ const config = {
     ],
   ],
   clientModules: [
-    require.resolve('./plugins/Custom1'),
-    // require.resolve('./plugins/Custom2'),
+    require.resolve('./plugins/crossLinks'),
+    require.resolve('./plugins/animationHomepage'),
+    require.resolve('./plugins/showLevels'),
+    require.resolve('./plugins/insertVideo'),
   ],
 };
 

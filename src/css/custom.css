@@ -32,3 +32,99 @@
 .hero {
   background: #337DBE;
 }
+
+.hero__image {
+  max-width: 10em !important;
+  animation: rotation 12s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.homepage--heading {
+  text-align: center;
+}
+
+
+
+
+/* TEXT ANIMATION HOME PAGE */
+/* https: //codepen.io/kilianso/pen/baEWJm */
+.pattern_wrap {
+  position: relative;
+}
+
+.pattern,
+.character {
+  pointer-events: none;
+  display: inline-block;
+  padding: 0.1rem;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.pattern {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+}
+
+.character {
+  /* text-transform: uppercase; */
+  opacity: 0;
+}
+
+.pattern_line:before {
+  content: "\2502";
+}
+
+.pattern_circle:before {
+  content: "\2022";
+}
+
+.pattern_square:before {
+  content: "\220E";
+}
+
+/**
+ * Levels
+ */
+
+/* .markdown .show-level {
+  border: 1px solid grey;
+  border-radius: 7px;
+  padding: 0.2em 0.4em;
+  margin: 0 1em 1em 0;
+  display: inline-block;
+} */
+
+.show-level-buttons-info img {
+    max-width: 2em;
+    margin-right: 0.5em;
+    float: left;
+}
+
+/* clear float */
+.show-level-buttons-info:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/**
+ * Video
+ */
+ /* TODO: better settings for width and height */
+ .youtube-video {
+  display: block;
+  border: 1px solid pink;
+  margin: 0 auto 1em;
+  width: 300px;
+  height: 200px;
+ }
