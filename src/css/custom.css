@@ -104,6 +104,11 @@
   display: inline-block;
 } */
 
+
+.show-level-buttons-info {
+  min-height: 6em;
+}
+
 .show-level-buttons-info img {
     max-width: 2em;
     margin-right: 0.5em;
