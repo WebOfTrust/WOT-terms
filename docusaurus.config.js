@@ -8,8 +8,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Web of Trust',
-  tagline: 'Documenting everything about the Web of Trust.',
+  title: 'WebofTrust Educational site',
+  tagline:
+    'Documenting everything around KERI, ACDC, CESR, OOBI, IPEX; what else have we got?',
   url: process.env.URL,
   baseUrl: process.env.BASEURL,
   onBrokenLinks: 'warn',
