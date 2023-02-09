@@ -57,8 +57,8 @@ const showLevels = () => {
   };
 
   const setParagraphs = (level) => {
-    const paragraphs = document.querySelectorAll('p');
-    paragraphs.forEach((p) => {
+    const textBlocks = document.querySelectorAll('div');
+    textBlocks.forEach((p) => {
       if (p.dataset.level !== undefined) {
         p.style.display = 'none';
         if (p.dataset.level <= level) {
