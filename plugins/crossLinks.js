@@ -2,7 +2,8 @@ import { crossLinks } from '../crossLinksIndex';
 import config from '@generated/docusaurus.config';
 
 const doCrossLinks = () => {
-  const domElements = document.querySelectorAll('p');
+  // const domElements = document.querySelectorAll('p');
+  const domElements = document.querySelectorAll('.markdown *:not(a)');
 
   // part 1: replace keywords with (almost) unique ID's
   if (domElements.length > 0) {
