@@ -14,7 +14,7 @@ folder: terms
 
 <div data-level="1">
 
-Winnie-the-Pooh, also called Pooh Bear and Pooh, is a fictional anthropomorphic teddy bear created by English author A. A. Milne and English illustrator E. H. Shepard.
+Winnie-the-Pooh, also called Pooh Bear and Pooh, is a <a href="https://example.com/fictional-original">fictional</a> anthropomorphic teddy bear created by English author A. A. Milne and English illustrator E. H. Shepard.
 
 </div>
 
