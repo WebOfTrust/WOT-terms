@@ -41,12 +41,36 @@ export const crossLinks = [
   },
   ,
   { keyword: 'Brown', url: 'https://example.com/Brown', level: 2 },
-  { keyword: 'KERI', url: 'docs/terms/glossary/KERI', level: 1 },
 
   {
     keyword: 'SAID',
     url: 'docs/terms/glossary/self-adressing-identifier',
     level: 1,
   },
-  ,
+  { keyword: 'KERI', url: 'docs/terms/glossary/KERI', level: 1 },
+  {
+    keyword: 'agent',
+    url: 'docs/terms/glossary/agent',
+    level: 1,
+  },
+  {
+    keyword: 'identifier',
+    url: 'docs/terms/glossary/identifier',
+    level: 1,
+  },
+  {
+    keyword: 'wallet',
+    url: 'docs/terms/glossary/wallet',
+    level: 1,
+  },
+  {
+    keyword: 'KEL',
+    url: 'docs/terms/glossary/KEL',
+    level: 1,
+  },
+  {
+    keyword: 'AID',
+    url: 'docs/terms/glossary/AID',
+    level: 1,
+  },
 ];
