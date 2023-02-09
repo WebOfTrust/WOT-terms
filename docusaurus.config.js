@@ -1,41 +1,41 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-require('dotenv').config(); //TODO: move to elsewhere, does not belong in config
+require("dotenv").config(); //TODO: move to elsewhere, does not belong in config
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Web of Trust',
-  tagline: 'Documenting everything about the Web of Trust.',
+  title: "Web of Trust",
+  tagline: "Documenting everything about the Web of Trust.",
   url: process.env.URL,
   baseUrl: process.env.BASEURL,
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  onBrokenLinks: "ignore",
+  onBrokenMarkdownLinks: "ignore",
+  favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'WebOfTrust', // Usually your GitHub org/user name.
-  projectName: 'WOT-terms', // Usually your repo name.
+  organizationName: "WebOfTrust", // Usually your GitHub org/user name.
+  projectName: "WOT-terms", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace 'en' with 'zh-Hans'.
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the 'edit this page' links.
           // editUrl: 'https://github.com/kordwarshuis/WOT-terms-docusaurus/tree/main/',//TODO: find correct url
@@ -49,7 +49,7 @@ const config = {
         //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         // },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -59,83 +59,83 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'WebOfTrust Educational site',
+        title: "WebOfTrust Educational site",
         logo: {
-          alt: 'WOT terms Logo',
-          src: 'img/stamp.png',
+          alt: "WOT terms Logo",
+          src: "img/stamp.png",
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Documentation',
+            type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "Documentation",
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            to: '/howtos-menu',
-            label: 'HowTos',
-            position: 'left',
+            to: "/howtos-menu",
+            label: "HowTos",
+            position: "left",
             items: [
               {
-                to: '/docs/howto/embed-github-hosted-image-in-github-wiki-page',
-                label: 'Embed a Github-hosted image in a Github wiki page',
+                to: "/docs/howto/embed-github-hosted-image-in-github-wiki-page",
+                label: "Embed a Github-hosted image in a Github wiki page",
               },
               {
-                to: '/docs/howto/markdown-from-ToIP-wiki',
-                label: 'Get Markdown files from ToIP wiki glossary terms',
+                to: "/docs/howto/markdown-from-ToIP-wiki",
+                label: "Get Markdown files from ToIP wiki glossary terms",
               },
               {
-                to: '/docs/howto/load-toip-glossary-in-weboftrust-github-page',
-                label: 'Load ToIP glossary in weboftrust github page',
+                to: "/docs/howto/load-toip-glossary-in-weboftrust-github-page",
+                label: "Load ToIP glossary in weboftrust github page",
               },
               {
-                to: '/docs/howto/pull-in-markdown-documents',
-                label: 'Pull in markdown documents',
+                to: "/docs/howto/pull-in-markdown-documents",
+                label: "Pull in markdown documents",
               },
               {
-                to: '/docs/howto/pull-changes-from-toip-to-terms',
-                label: 'Pull in changes from toip terms',
+                to: "/docs/howto/pull-changes-from-toip-to-terms",
+                label: "Pull in changes from toip terms",
               },
               {
-                to: '/docs/howto/why-terms-wot-manage-structure',
-                label: 'The Terms WOT manage structure explained',
+                to: "/docs/howto/why-terms-wot-manage-structure",
+                label: "The Terms WOT manage structure explained",
               },
             ],
           },
           {
-            href: '/feedback',
-            label: 'Feedback',
-            position: 'left',
+            href: "/feedback",
+            label: "Feedback",
+            position: "left",
           },
           {
-            href: 'https://github.com/weboftrust/WOT-terms',
-            label: 'GitHub repo',
-            position: 'right',
+            href: "https://github.com/weboftrust/WOT-terms",
+            label: "GitHub repo",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "Docs",
             items: [
               {
-                label: 'Documentation',
-                to: '/docs/intro',
+                label: "Documentation",
+                to: "/docs/intro",
               },
               {
-                label: 'Resources',
-                to: '/docs/resources/intro',
+                label: "Resources",
+                to: "/docs/resources/intro",
               },
               {
-                label: 'Glossary',
-                to: '/docs/terms/glossary/intro',
+                label: "Glossary",
+                to: "/docs/terms/glossary/intro",
               },
               {
-                label: 'Howtos',
-                to: '/docs/howto/intro',
+                label: "Howtos",
+                to: "/docs/howto/intro",
               },
             ],
           },
@@ -156,15 +156,15 @@ const config = {
           //   ],
           // },
           {
-            title: 'More',
+            title: "More",
             items: [
               // {
               //  label: 'Blog',
               //  to: '/blog',
               // },
               {
-                label: 'GitHub',
-                href: 'https://github.com/weboftrust/WOT-terms',
+                label: "GitHub",
+                href: "https://github.com/weboftrust/WOT-terms",
               },
             ],
           },
@@ -178,18 +178,18 @@ const config = {
       algolia: {
         // https://docusaurus.io/docs/search#connecting-algolia
         // The application ID provided by Algolia
-        appId: 'IW4ZBUTOR5',
+        appId: "IW4ZBUTOR5",
 
         // Public API key: it is safe to commit it
-        apiKey: 'e2255f4a064d3a246866c5b83d3f593e',
+        apiKey: "e2255f4a064d3a246866c5b83d3f593e",
 
-        indexName: 'wot-terms1',
+        indexName: "wot-terms1",
 
         // Optional: see doc section below
         contextualSearch: true,
 
         // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        externalUrlRegex: 'external\\.com|domain\\.com',
+        externalUrlRegex: "external\\.com|domain\\.com",
 
         // Optional: Algolia search parameters
         searchParameters: {},
@@ -202,9 +202,9 @@ const config = {
     }),
   plugins: [
     [
-      'docusaurus-plugin-dotenv',
+      "docusaurus-plugin-dotenv",
       {
-        path: './.env', // The path to your environment variables.
+        path: "./.env", // The path to your environment variables.
         safe: false, // If false ignore safe-mode, if true load './.env.example', if a string load that file as the sample
         systemvars: false, // Set to true if you would rather load all system variables as well (useful for CI purposes)
         silent: false, //  If true, all warnings will be suppressed
@@ -214,7 +214,7 @@ const config = {
       },
     ],
     [
-      require.resolve('@cmfcmf/docusaurus-search-local'),
+      require.resolve("@cmfcmf/docusaurus-search-local"),
       {
         // whether to index docs pages
         indexDocs: true,
@@ -236,7 +236,7 @@ const config = {
         indexPages: true,
 
         // language of your documentation, see next section
-        language: 'en',
+        language: "en",
 
         // setting this to 'none' will prevent the default CSS to be included. The default CSS
         // comes from autocomplete-theme-classic, which you can read more about here:
@@ -284,10 +284,10 @@ const config = {
     ],
   ],
   clientModules: [
-    require.resolve('./plugins/crossLinks'),
-    require.resolve('./plugins/animationHomepage'),
-    require.resolve('./plugins/showLevels'),
-    require.resolve('./plugins/insertVideo'),
+    require.resolve("./plugins/crossLinks"),
+    require.resolve("./plugins/animationHomepage"),
+    require.resolve("./plugins/showLevels"),
+    require.resolve("./plugins/insertVideo"),
   ],
 };
 
