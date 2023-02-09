@@ -16,24 +16,24 @@ Agenda:
 
 ### Zoom Meeting
 
-Topic: **KERI Concepts and Terms**
+Topic: **KERI Concepts, Terms and Education**
 
 Time: Jul 28, 2022 08:00 AM Mountain Time (US and Canada), 4PM CEST
 
 Every 2 weeks on Thu, until Oct 20, 2022, 7 occurrence(s)
-- **Done** Jul 28, 2022 08:00 AM + Aug 11, 2022 08:00 AM + Aug 25, 2022 08:00 AM + Sep 8, 2022 08:00 AM + Sep 22, 2022 08:00 AM + Oct 6, 2022 08:00 AM + Oct 20, 2022 08:00 AM
-- Nov 3, 2022 08:00 AM
-- Nov 17, 2022 08:00 AM
-- Dec  1, 2022 08:00 AM
-- Dec 15, 2022 08:00 AM
-- Dec 29, 2022 08:00 AM
-- Jan 12, 2023 08:00 AM
-- Jan 26, 2023 08:00 AM
+- **Done** Jul 28, 2022 08:00 AM + Aug 11, 2022 08:00 AM + Aug 25, 2022 08:00 AM + Sep 8, 2022 08:00 AM + Sep 22, 2022 08:00 AM + Oct 6, 2022 08:00 AM + Oct 20, 2022 08:00 AM + Nov 3, 2022 08:00 AM + Dec 15, 2022 08:00 AM + Jan 12, 2023 08:00 AM + Jan 26, 2023 08:00 AM
+- **Up next**
 - Feb  9, 2023 08:00 AM
 - Feb 23, 2023 08:00 AM
-
-Please download and import the following [iCalendar (.ics) files](./meeting-89893527631.ics) to your calendar system.
-Weekly: https://us02web.zoom.us/meeting/tZ0lfuqtrDwsGdXO34oUxPbSpcf4X1Lcdmb-/ics?icsToken=98tyKuGhpjIpH9aSthqGRpx5Gor4b-_zpmZdjadls0yxDBVLUgHFJuFEZoouPNvU
+- Mar  9, 2023 08:00 AM
+- Mar 23, 2023 08:00 AM
+- Apr  6, 2023 08:00 AM
+- Apr 20, 2023 08:00 AM
+- May  4, 2023 08:00 AM
+- May 18, 2023 08:00 AM
+- Jun  1, 2023 08:00 AM
+- Jun 15, 2023 08:00 AM
+- Jun 29, 2023 08:00 AM
 
 #### Calendar Invite
 Join Zoom Meeting
@@ -60,7 +60,7 @@ Explanatory articles from Henk van Cann about KERI, CESR, OOBI, Autonomic identi
 
 Explanation of KERI development tools and techniques (preliminary link): [KERI development environment](https://github.com/henkvancann/keri-1/blob/main/docs/keri-dev-env.md)
 
-Howto's of WebofTrust documentation effort in github project page: [Howto](https://github.com/WebOfTrust/WOT-terms/tree/gh-pages/howto)
+Howto's of WebofTrust documentation effort in github project page: [Howto](https://github.com/WebOfTrust/WOT-terms/tree/gh-pages/docs/howto)
 
 ## Meetings
 ### Structure
@@ -71,7 +71,7 @@ Howto's of WebofTrust documentation effort in github project page: [Howto](https
 
 
 ### Future Topics
-Steven Milstein: Developer-tooling CLI, Docker containers
+-  [ ] Steven: Try running the transcripts through ChatGPT to summarize 
 
 
 ### Discussion items
@@ -84,7 +84,48 @@ Reverse engineer a concepts - document. Can we still use / refer to the KIDs (co
 
 CESR: https://hackmd.io/GbQO3p6QTge-8eQMGuMaeQ#First-questions
 
+### 2023-02-09
+Philip Feairheller (host)\
+Henk van Cann (host)\
+Kor Dwarshuis\
+Kent Bull\
+Mark Scott\
+Joseph Hunsaker\
+Steven Milstein
+
+Recording: https://drive.google.com/file/d/1hbsZDdBO8cQp9oneThAPAYz-O8UpxII4/view?usp=sharing
+
+### Topic
+ - [ ] React/JSX Levels-demo Educational site
+   - [x] With React / DS introduced problems around IETF markdown -> the npm run build fails -> looking for a tool or a tip to automatically weed out (find+replace) failing complex markdown.
+   - [x] Levels integrated in test phase
+   - [x] Glossary available + local search 
+ - [x] [Dev tools](https://github.com/henkvancann/keri/blob/main/docs/keri-dev-env.md) fill out/ update
+ - [x] Kent: Developer-tooling CLI, how to bring developers up to speed
+ - [x] Joseph: SSI; what does it look like from an application standpoint in Web3 (UX)?
+ 
+
+### Notes
+
+TrustoverIP: currently DID method resolver, it doesn't scale. We have a 100+ DID methods already.
+
+We'll have a KERI DID method resolver: 3 types 
+- ephemeral
+- OOBI based
+- Integration with watchers (GLEIF)
+
+Watch Sam's Hourglass recording (Part 1). You can find the link at https://wiki.trustoverip.org/display/HOME/2023-02-01+TSWG+Meeting+Notes 
+Part 2 was recorded yesterday but the recording is not posted yet. Look for "2023-02-08 TSWG Meeting Notes" to be posted on https://wiki.trustoverip.org/display/HOME/TSWG+Meeting+Pages 
+
+For a user: exchange OOBI and go. From a user perspective it's going to be: scanning QR codes, exchange a link in an email and then the applications take over.
+You don't trust the OOBIs, after OOBIs you know where the agents are located and then trust the keystate behind the entities. AIDs have reputation. The non-repudiable nature of KERI identifiers and attached reputation makes the difference (apart from the security aspect: verifiable to the root-of-trust)
+
+Kent wants to write a blogpost: A 'hello developer'-experience, following a simple formula. "KERI: It's easier than you would expect from the 140 pages white paper."
+
+Steven: GitHub Codespace for development?
+
 ### 2023-01-26
+
 Philip Feairheller (host)\
 Henk van Cann (host)\
 Kor Dwarshuis\
