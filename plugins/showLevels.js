@@ -69,8 +69,10 @@ const showLevels = () => {
   };
 
   const createShowLevelButtons = () => {
-    // if (showLevelButtonsAdded === false) {
-    if (inDocSection) {
+    if (
+      inDocSection &&
+      document.querySelector('.show-level-buttons-info') === null
+    ) {
       // create level selection
       let htmlString =
         '<div class="show-level-buttons-info margin-bottom--lg alert alert--info" role="alert">Choose your knowledge level.</div><div class="margin-bottom--lg"><span>Level </span><button data-level="1" class="show-level button button--secondary margin-right--sm margin-left--sm" href="?level=1">1</button> <button data-level="2" class="show-level button button--secondary margin-right--sm" href="?level=2">2</button> <button data-level="3" class="show-level button button--secondary margin-right--sm" href="?level=3">3</button></div>';
