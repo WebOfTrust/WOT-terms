@@ -12,9 +12,9 @@ sidebar: all_lvl3_wot_sidebar
 folder: terms
 ---
 
-<div class="youtube-video" data-youtubeid="RE2QClKir1E" data-starttime="23"></div>
-<div class="youtube-video" data-youtubeid="FBOVYD3zUrk" data-starttime="33"></div>
-<div class="youtube-video" data-youtubeid="OHMgPNSP1RU" data-starttime="43"></div>
+<div className="youtube-video" data-youtubeid="RE2QClKir1E" data-starttime="23"></div>
+<div className="youtube-video" data-youtubeid="FBOVYD3zUrk" data-starttime="33"></div>
+<div className="youtube-video" data-youtubeid="OHMgPNSP1RU" data-starttime="43"></div>
 
 <p data-level="1">
 Winnie-the-Pooh, also called Pooh Bear and Pooh, is a fictional anthropomorphic teddy bear created by English author A. A. Milne and English illustrator E. H. Shepard.
