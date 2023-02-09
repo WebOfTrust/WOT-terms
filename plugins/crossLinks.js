@@ -11,11 +11,16 @@ const doCrossLinks = () => {
         let innerText = element.innerHTML;
 
         // Assign only once:
-        textFragment[3] === undefined
-          ? (textFragment[3] = Math.floor(Math.random() * 10000000000000000000))
+        textFragment.randomNumber === undefined
+          ? (textFragment.randomNumber = Math.floor(
+              Math.random() * 10000000000000000000
+            ))
           : null;
 
-        let innerTextNew = innerText.replace(textFragment[0], textFragment[3]);
+        let innerTextNew = innerText.replace(
+          textFragment.keyword,
+          textFragment.randomNumber
+        );
         element.innerHTML = innerTextNew;
       });
     });
@@ -25,14 +30,14 @@ const doCrossLinks = () => {
       crossLinks.forEach((textFragment) => {
         let innerText = element.innerHTML;
         let innerTextNew = innerText.replace(
-          textFragment[3],
+          textFragment.randomNumber,
           `<a href=${config.baseUrl}` +
-            textFragment[1] +
+            textFragment.url +
             '>' +
-            textFragment[0] +
+            textFragment.keyword +
             '</a>' +
             ' <strong>(Level: ' +
-            textFragment[2] +
+            textFragment.level +
             ')</strong>'
         );
 
