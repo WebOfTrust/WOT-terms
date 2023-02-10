@@ -40,7 +40,7 @@ Sphinx uses reStructuredText as its markup language, and many of its strengths c
 
 ### What is Swagger and OpenAPI?
 
-<img src="../images/swagger.png" alt="swagger-logo" width="250" >
+<img src="../images/swagger.png" alt="swagger-logo" width="250" />
 Formerly known as Swagger, OpenAPI has a long and established history. In 2010, Swagger started as an open source specification for designing and documenting RESTful APIs.
 In 2015, the Swagger project was acquired by SmartBear Software. The Swagger Specification was donated to the Linux foundation and renamed the OpenAPI.
 
