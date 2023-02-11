@@ -32,3 +32,5 @@ Split_*
 .history
 /.devcontainer
 docusaurus.config.*.js
+
+video
