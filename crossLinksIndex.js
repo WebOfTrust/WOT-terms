@@ -89,20 +89,28 @@ export const crossLinks = [
     keyword: "identifier",
     url: "docs/terms/glossary/identifier",
     level: 1,
+    youtubeID: "GqjsRuu0V5A",
+    timeStart: "149",
   },
   {
     keyword: "wallet",
     url: "docs/terms/glossary/wallet",
     level: 1,
+    youtubeID: "GqjsRuu0V5A",
+    timeStart: "154",
   },
   {
     keyword: "KEL",
     url: "docs/terms/glossary/KEL",
     level: 1,
+    youtubeID: "GqjsRuu0V5A",
+    timeStart: "301",
   },
   {
     keyword: "AID",
     url: "docs/terms/glossary/AID",
     level: 1,
+    youtubeID: "GqjsRuu0V5A",
+    timeStart: "1070",
   },
 ];
