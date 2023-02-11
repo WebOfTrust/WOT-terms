@@ -128,3 +128,16 @@
   width: 300px;
   height: 200px;
  }
+
+.video-test {
+  border: 1px solid #222;
+    margin: 1em 0 2em;
+}
+
+
+ /**
+  * Cross Links
+  */
+.cross-link {
+  color: rgb(212, 180, 109);
+}
