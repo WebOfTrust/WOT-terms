@@ -149,7 +149,7 @@ Key state notification messages differ depending on whether the signer is using 
 
 did:keri defines `keyState` DID Document Metadata (see [DID Document Metadata](https://w3c-ccg.github.io/did-resolution/#output-documentmetadata) in \[\[?DID-RESOLUTION\]\]).
 
-*   `keyState` is the verified state of the KEL for the identifier represented by this DID Doc (See [Key State]()).
+*   `keyState` is the verified state of the KEL for the identifier represented by this DID Doc (See Key State).
 
         {
             "didDocument": DID\_DOCUMENT\_OBJECT,
@@ -229,9 +229,9 @@ Steps to resolve a \`did:keri:$PREFIX\` DID:
 2.  Process the KEL into a Key State, according to the state validation rules/semantics of KERI as defined in \[\[KID0008\]\]
 3.  Create a DID Document with the DID \`did:keri:$PREF\`
 4.  For each key K in the Key State, add a Verification Method to the DID Doc containing K and the appropriate type, with the ID of K being K's prefix form (alternatively, the ID could be an integer of K's index in the current signer list)
-5.  Add the Key State as DID Document Metadata as defined in[Resolver Metadata]()
+5.  Add the Key State as DID Document Metadata as defined in Resolver Metadata
 
-Establishment of control authority can be done independently of DID document contents, as long as the Key State is provided in the DID Document Metadata. See [Resolver Metadata]().
+Establishment of control authority can be done independently of DID document contents, as long as the Key State is provided in the DID Document Metadata. See Resolver Metadata.
 
 ## Update
 
@@ -327,7 +327,7 @@ See \[\[KID0003\]\] for a description of KERI events and \[\[KID0010\]\] for the
 
 ## Man-In-The-Middle Attacks
 
-The protections mentioned in [Replay Attacks]()and [Message Attacks]()render Man-In-The-Middle attacks ineffective against the KERI protocol and this DID Method.
+The protections mentioned in Replay Attacks and Message Attacks render Man-In-The-Middle attacks ineffective against the KERI protocol and this DID Method.
 
 # Conventions and Definitions
 
