@@ -2,12 +2,8 @@ import { crossLinks } from '../crossLinksIndex';
 import config from '@generated/docusaurus.config';
 
 const doCrossLinks = () => {
-  const domElementsContainer = document.querySelector(
-    '.markdown div.no-video-insert'
-  );
-
   let insertVideos;
-  domElementsContainer === null
+  document.querySelector('.markdown div.no-video-insert') === null
     ? (insertVideos = true)
     : (insertVideos = false);
 
