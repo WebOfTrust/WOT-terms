@@ -31,8 +31,10 @@ const handleSubtitles = () => {
       let arrEndTime = strEndTime.split(':'); // split it at the colons
       arrEndTime[2] = arrEndTime[2].split('.');
 
+      // leave the miliseconds after the dot
       let secondsEndTime = convert(arrEndTime);
 
+      // and place them back after the seconds are dealt with
       secondsEndTime = secondsEndTime + '.' + arrEndTime[2][1];
 
       paragraphIndex.push({
