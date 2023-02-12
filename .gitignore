@@ -33,4 +33,5 @@ Split_*
 /.devcontainer
 docusaurus.config.*.js
 
-video
+# media
+*.mp4
