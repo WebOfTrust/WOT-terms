@@ -289,6 +289,7 @@ const config = {
     require.resolve('./plugins/animationHomepage'),
     require.resolve('./plugins/showLevels'),
     require.resolve('./plugins/insertVideo'),
+    require.resolve('./plugins/insertSubtitles'),
   ],
 };
 
