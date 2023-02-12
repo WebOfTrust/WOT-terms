@@ -434,7 +434,7 @@ Now the SAD Path of the first signed SAD content resolves to the `a` field of th
 
 
 ## Small Variable Raw Size SAD Path Code
-The small variable raw side code reserved for SAD Path encoding is `A` which results in the addition of 3 entries (`4A##`, `5A##` and `6A##`) in the Master Code Table for each lead byte configuration.  These codes and their use are discussed in detail in [CESR Encoding for SAD Path Language]().
+The small variable raw side code reserved for SAD Path encoding is `A` which results in the addition of 3 entries (`4A##`, `5A##` and `6A##`) in the Master Code Table for each lead byte configuration.  These codes and their use are discussed in detail in CESR Encoding for SAD Path Language.
 
 
 # Nested Partial Signatures

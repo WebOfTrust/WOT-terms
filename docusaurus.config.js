@@ -127,6 +127,10 @@ const config = {
                 to: '/docs/intro',
               },
               {
+                label: 'Concepts',
+                to: '/docs/concepts/intro',
+              },
+              {
                 label: 'Resources',
                 to: '/docs/resources/intro',
               },

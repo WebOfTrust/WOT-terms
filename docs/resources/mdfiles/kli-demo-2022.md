@@ -4,31 +4,6 @@
 <!-- This should be placed in a CSS file and referenced with the command above in comments -->
 
 
-<style>
-table a {
-    display: inline-block;
-    width: 50px;
-    white-space: nowrap; 
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-      
-  table th:first-of-type {
-      width: 20%;
-  }
-  table th:nth-of-type(2) {
-      width: 50%;
-  }
-  table th:nth-of-type(3) {
-      width: 10%;
-  }
-  table th:nth-of-type(4) {
-      width: 10%;
-  }
-  table th:nth-of-type(5) {
-      width: 10%;
-  }
-  </style>
 
 # kli-demo-2022
 
