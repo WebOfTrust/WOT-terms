@@ -125,19 +125,30 @@
   display: block;
   border: 1px solid pink;
   margin: 0 auto 1em;
-  width: 300px;
-  height: 200px;
+  /* width: 300px; */
+  /* width: 300px; */
+  /* height: 200px; */
  }
+
+ video {
+  width: 100%;
+ }
+ video[poster] {
+   object-fit: cover;
+ }
+
+.subtitlecontainer {
+  font-size: 1.5em;
+}
 
 .video-test {
   border: 1px solid #222;
-    margin: 1em 0 2em;
+  margin: 1em 0 2em;
 }
-
 
  /**
   * Cross Links
   */
 .cross-link {
-  color: rgb(212, 180, 109);
+  color: rgb(212, 109, 136);
 }
