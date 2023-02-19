@@ -225,7 +225,7 @@ The main design principles have a designated page "[Concepts](../../WOT-terms/Co
 
 This lead to the understanding that KERI in nothing is like something else in the SSI space. It's the [Internet identifier Platypus](#keri-the-internet-identifier-platypus).
 
-Because of this many new concepts and new terms had to be specified, and always thoroughly anchored in relevant scientific resources. A new type of language emerged, not seldom lovingly addressed as a "Sam-ism" (referring to the language used by its founder). According to KERI's objective (and ACDC's follow-up on this in the Verifiable Credentials arena) the [Universal Identity Theory](https://raw.githubusercontent.com/SmithSamuelM/Papers/master/whitepapers/IdentifierTheory_web.pdf) could be completed.
+Because of this many new concepts and new terms had to be specified, and always thoroughly anchored in relevant scientific resources. A new type of language emerged, not seldom lovingly addressed as a "Sam-ism" (referring to the language used by its founder). According to KERI's objective (and ACDC's follow-up on this in the Verifiable Credentials arena) the [Universal Identity Theory]() could be completed.
 Hence, KERI's complexity stems from three main aspects of its current nature:
 - it's a new concept
 - it's different from anything else in the field
