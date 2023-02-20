@@ -130,6 +130,10 @@ const config = {
                 to: '/docs/concepts/intro',
               },
               {
+                label: 'Education',
+                to: '/docs/education/intro',
+              },
+              {
                 label: 'Resources',
                 to: '/docs/resources/intro',
               },
