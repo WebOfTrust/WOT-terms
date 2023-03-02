@@ -52,6 +52,12 @@ const doCrossLinks = () => {
         if (textFragment.youtubeID !== undefined && insertVideos) {
           strInnerTextNew += `<iframe class="video-test" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%" src="https://www.youtube.com/embed/${textFragment.youtubeID}?start=${textFragment.timeStart}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
         }
+        if (textFragment.video !== undefined && insertVideos) {
+          // let path = `${config.baseUrl}docs/video/video-files/${textFragment.video}#t=${textFragment.timeStart}`; // does not want to play for unknown reasons
+          let path = `${process.env.ASSETS_EXTERNAL}${textFragment.video}#t=${textFragment.timeStart}`;
+
+          strInnerTextNew += `<video controls playsinline class='video-inline' src='${path}' controls>Your browser does not support the video tag.</video>`;
+        }
 
         let innerTextNew = innerText.replace(
           textFragment.randomNumber,
