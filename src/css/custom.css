@@ -136,6 +136,10 @@
  video[poster] {
    object-fit: cover;
  }
+.video-inline {
+  width: 10em;
+}
+
 
 .subtitlecontainer {
   font-size: 1.5em;
