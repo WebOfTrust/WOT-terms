@@ -56,7 +56,7 @@ const doCrossLinks = () => {
           // let path = `${config.baseUrl}docs/video/video-files/${textFragment.video}#t=${textFragment.timeStart}`; // does not want to play for unknown reasons
           let path = `${process.env.ASSETS_EXTERNAL}${textFragment.video}#t=${textFragment.timeStart}`;
 
-          strInnerTextNew += `<video controls playsinline class='video-inline' src='${path}' controls>Your browser does not support the video tag.</video>`;
+          strInnerTextNew += `<div class='video-inline'><p>More about ${textFragment.keyword}:</p><video controls playsinline src='${path}' controls>Your browser does not support the video tag.</video></div>`;
         }
 
         let innerTextNew = innerText.replace(
