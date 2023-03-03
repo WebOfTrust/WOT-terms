@@ -137,7 +137,13 @@
    object-fit: cover;
  }
 .video-inline {
+  background: #EEF9FD;
+  border: 3px solid #b2beea;
+  border-radius: 7px;
   width: 10em;
+  float: right;
+  margin: 0 1em 1em;
+  padding: 0.5em;
 }
 
 
