@@ -1,3 +1,8 @@
+---
+slug: /2022-02-07_verifiable-LEI-vLEI-Ecosystem-Information-Trust-Policies-Prep-1.0-Publication_v0.1_work
+title: verifiable LEI (vLEI)
+---
+
 ## verifiable LEI (vLEI)
 
 ## Ecosystem Governance Framework

@@ -1,3 +1,8 @@
+---
+slug: /2022-12-06_verifiable-LEI-vLEI-Ecosystem-Governance-Framework-Technical-Requirements-Part2-vLEI-Credentials_v0.3_work
+title: verifiable LEI (vLEI)
+---
+
 ## verifiable LEI (vLEI)
 
 ## Ecosystem Governance Framework

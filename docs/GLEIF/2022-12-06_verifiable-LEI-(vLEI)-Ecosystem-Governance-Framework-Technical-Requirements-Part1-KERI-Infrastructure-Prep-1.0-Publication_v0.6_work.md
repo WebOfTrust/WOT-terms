@@ -1,3 +1,8 @@
+---
+slug: /2022-12-06_verifiable-LEI-vLEI-Ecosystem-Governance-Framework-Technical-Requirements-Part1-KERI-Infrastructure-Prep-1.0-Publication_v0.6_work
+title: verifiable LEI (vLEI) Ecosystem Governance Framework Technical Requirements
+---
+
 <!-- ![](media/image1.png){width="2.511111111111111in" -->
 
 <!-- height="1.136111111111111in"}![](media/image2.png){width="8.481944444444444in" -->
