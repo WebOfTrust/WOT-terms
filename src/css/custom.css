@@ -162,3 +162,10 @@
 .cross-link {
   color: rgb(212, 109, 136);
 }
+
+/**
+ * Tippy
+ */
+.tippy-box {
+	padding: 1em;
+}
