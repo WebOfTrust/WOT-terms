@@ -294,6 +294,7 @@ const config = {
     require.resolve('./plugins/showLevels'),
     require.resolve('./plugins/insertVideo'),
     require.resolve('./plugins/insertSubtitles'),
+    require.resolve('./plugins/useTippy'),
   ],
 };
 
