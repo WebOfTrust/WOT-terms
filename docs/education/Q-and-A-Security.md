@@ -272,7 +272,16 @@ And, even a good `csprng` should be seeded well - if you can get random data fro
 
 > Think about the case for example, where a designer is tempted to use a radio receiver and noise to seed the RNG, but an attacker floods the space with a frequency that produces a deterministic result in the ADC or something.
 
-(Source: Jason Colburne)
+(Source: Jason Colburne, Feb 2023)
+
+In KERIpy we use libsodium through the python bindings.  I've never actually looked at what their documentation says about **randomness**, but here it is:
+ The library provides a set of functions to generate unpredictable data, suitable for creating secret keys.
+- On Windows systems, the `RtlGenRandom()` function is used.
+- On OpenBSD and Bitrig, the `arc4random()` function is used.
+- On recent FreeBSD and Linux kernels, the `getrandom` system call is used.
+- On other Unices, the `/dev/urandom` device is used.
+
+(Source: Philip Feairheller, Feb 2023)
 
 ## *Q: What is the main component of KERI's security?
 
