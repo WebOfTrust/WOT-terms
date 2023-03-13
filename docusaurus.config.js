@@ -294,6 +294,9 @@ const config = {
     require.resolve('./plugins/showLevels'),
     require.resolve('./plugins/insertVideo'),
     require.resolve('./plugins/insertSubtitles'),
+    require.resolve('./plugins/dynamicTables'),
+    require.resolve('./plugins/elementGoFullScreen'),
+    require.resolve('./plugins/horizontalScrollHint'),
   ],
 };
 
