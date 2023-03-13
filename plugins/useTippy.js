@@ -1,3 +1,14 @@
+/***************
+ *
+ *
+ *
+ * ONLY WORKS AFTER BUILD, WITH STATIC FILES.
+ * ONLY THEN IS HTML CREATED AND HTML CAN BE LOADED VIA FETCH.
+ *
+ *
+ *
+ */
+
 import tippy from 'tippy.js';
 import 'tippy.js/themes/light.css';
 
