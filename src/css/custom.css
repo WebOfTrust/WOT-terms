@@ -186,3 +186,10 @@ table td:nth-child(8) {
   -webkit-hyphens: auto;
   hyphens: auto;
 }*/
+
+/**
+ * Tippy
+ */
+.tippy-box {
+  padding: 1em;
+}
