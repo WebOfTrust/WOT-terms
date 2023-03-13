@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #337DBE;
+  --ifm-color-primary: #337dbe;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -30,7 +30,7 @@
 }
 
 .hero {
-  background: #337DBE;
+  background: #337dbe;
 }
 
 .hero__image {
@@ -51,9 +51,6 @@
 .homepage--heading {
   text-align: center;
 }
-
-
-
 
 /* TEXT ANIMATION HOME PAGE */
 /* https: //codepen.io/kilianso/pen/baEWJm */
@@ -81,38 +78,29 @@
 }
 
 .pattern_line:before {
-  content: "\2502";
+  content: '\2502';
 }
 
 .pattern_circle:before {
-  content: "\2022";
+  content: '\2022';
 }
 
 .pattern_square:before {
-  content: "\220E";
+  content: '\220E';
 }
 
 /**
  * Levels
  */
-
-/* .markdown .show-level {
-  border: 1px solid grey;
-  border-radius: 7px;
-  padding: 0.2em 0.4em;
-  margin: 0 1em 1em 0;
-  display: inline-block;
-} */
-
 .show-level-buttons-info img {
-    max-width: 2em;
-    margin-right: 0.5em;
-    float: left;
+  max-width: 2em;
+  margin-right: 0.5em;
+  float: left;
 }
 
 /* clear float */
 .show-level-buttons-info:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -120,24 +108,24 @@
 /**
  * Video
  */
- /* TODO: better settings for width and height */
- .youtube-video {
+/* TODO: better settings for width and height */
+.youtube-video {
   display: block;
   border: 1px solid pink;
   margin: 0 auto 1em;
   /* width: 300px; */
   /* width: 300px; */
   /* height: 200px; */
- }
+}
 
- video {
+video {
   width: 100%;
- }
- video[poster] {
-   object-fit: cover;
- }
+}
+video[poster] {
+  object-fit: cover;
+}
 .video-inline {
-  background: #EEF9FD;
+  background: #eef9fd;
   border: 3px solid #b2beea;
   border-radius: 7px;
   width: 10em;
@@ -145,7 +133,6 @@
   margin: 0 1em 1em;
   padding: 0.5em;
 }
-
 
 .subtitlecontainer {
   font-size: 1.5em;
@@ -156,22 +143,22 @@
   margin: 1em 0 2em;
 }
 
- /**
-  * Cross Links
-  */
+/**
+* Cross Links
+*/
 .cross-link {
   color: rgb(212, 109, 136);
 }
 
- /**
-  * Tables
-  */
-
+/**
+* Tables
+*/
 table th {
   writing-mode: vertical-lr;
 }
 
-table td, table th {
+table td,
+table th {
   vertical-align: top;
 }
 
