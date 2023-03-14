@@ -71,15 +71,50 @@ function createMarkDownFiles(content) {
     // });
 
     // Everything in one file, in a table:
+
+    // function levelConvertor(level) {
+    //   switch (level) {
+    //     case 1:
+    //       return 1;
+    //     case 2:
+    //       return 1;
+    //     case 3:
+    //       return 2;
+    //     case 7:
+    //       return 3;
+    //   }
+    // }
+
+    function levelConvertor(level) {
+      // alert: string, not number
+      if (level === '1') {
+        return 1;
+      } else if (level === '2') {
+        return 1;
+      } else if (level === '3') {
+        return 2;
+      } else if (level === '7') {
+        return 3;
+      }
+    }
+
     let finalStringAll = '';
+
+    // Create table container
     finalStringAll += `<div id='table-container'>`;
+
+    // Create buttons and input
     finalStringAll += `<input className="search margin-vert--md margin-horiz--none padding--sm" placeholder="Search" autoFocus />
     <button className="sort button button--secondary margin--md" data-sort="column0">Sort by Key</button>
     <button className="sort button button--secondary margin--md" data-sort="column1">Sort by Type</button>
     <button className="sort button button--secondary margin--md" data-sort="column8">Sort by Level</button>
     <button className="sort button button--secondary margin--md" data-sort="column12">Sort by Cat_CESR</button>`;
+    // End buttons and inputs
+
+    // Create table
     finalStringAll += `<table className='googlesheet'>`;
-    // begin table header
+
+    // Create table header
     finalStringAll += `<thead>`;
     finalStringAll += `<tr>`;
 
@@ -89,16 +124,23 @@ function createMarkDownFiles(content) {
 
     finalStringAll += `</tr>`;
     finalStringAll += `</thead>`;
-    // end table header
+    // End table header
 
+    // Create table body
     finalStringAll += `<tbody className='list'>`;
 
+    // Create table rows
     content.values.forEach((item, index) => {
       // Skip first one, https://stackoverflow.com/a/41283243
       if (index < 1) return;
       //   if (index < 1 || index > 12) return;
 
+      level = levelConvertor(item[8]);
       finalStringAll += `<tr>`;
+
+      // TODO: table looks wrong:
+      // finalStringAll += `<tr data-level='${level}'>`;
+
       item.forEach((item, index) => {
         if (index > 17) return;
         item = item || '–';
@@ -114,9 +156,15 @@ function createMarkDownFiles(content) {
       });
       finalStringAll += `</tr>`;
     });
+    // End table rows
+
+    // End table body
     finalStringAll += `</tbody>`;
 
+    // End table
     finalStringAll += `</table>`;
+
+    // End table container
     finalStringAll += `</div>`;
 
     fs.writeFile(
