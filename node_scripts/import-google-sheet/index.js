@@ -130,9 +130,9 @@ function createMarkDownFiles(content) {
     finalStringAll += `<tbody className='list'>`;
 
     // Create table rows
-    content.values.forEach((item, index) => {
+    content.values.forEach((item, indexTableRow) => {
       // Skip first one, https://stackoverflow.com/a/41283243
-      if (index < 1) return;
+      if (indexTableRow < 1) return;
       //   if (index < 1 || index > 12) return;
 
       level = levelConvertor(item[8]);
@@ -141,12 +141,13 @@ function createMarkDownFiles(content) {
       // TODO: table looks wrong:
       // finalStringAll += `<tr data-level='${level}'>`;
 
-      item.forEach((item, index) => {
-        if (index > 17) return;
+      // Create table cells
+      item.forEach((item, indexTableCell) => {
+        if (indexTableCell > 17) return;
         item = item || '–';
 
-        finalStringAll += `<td className='column${index}'>`;
-        if (index === 6 || index === 7) {
+        finalStringAll += `<td className='column${indexTableCell}' data-row='row${indexTableRow}'>`;
+        if (indexTableCell === 6 || indexTableCell === 7) {
           finalStringAll += `<a target='_blank' rel='noopener' href='${item}'>Link</a>`;
         } else {
           finalStringAll += `${item}`;
@@ -154,6 +155,8 @@ function createMarkDownFiles(content) {
 
         finalStringAll += `</td>`;
       });
+      // End table cells
+
       finalStringAll += `</tr>`;
     });
     // End table rows
