@@ -298,6 +298,7 @@ const config = {
     require.resolve('./plugins/elementGoFullScreen'),
     require.resolve('./plugins/horizontalScrollHint'),
     require.resolve('./plugins/useTippy'),
+    require.resolve('./plugins/writeChanges'),
   ],
 };
 
