@@ -1,4 +1,4 @@
-name: Copy files from remote repo
+name: Copy files from remote repo test 2
 
 on:
   # schedule:
