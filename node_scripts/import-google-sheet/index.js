@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // const json2md = require('json2md');
 const fs = require('fs');
 const https = require('https');
