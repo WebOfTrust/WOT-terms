@@ -17,6 +17,6 @@ jobs:
       - name: Checkout remote repo
         uses: actions/checkout@v2
         with:
-          repository: trustoverip/acdc/wiki
+          repository: trustoverip/acdc
           ref: main
           path: /docs/acdc-test
