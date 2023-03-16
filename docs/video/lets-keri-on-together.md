@@ -4,7 +4,7 @@ title: Let's KERI on together
 
 ## The video
 
-<video controls src={require('./video-files/video1663530585.mp4').default} playsInline={true} poster={require('./video-files/WOT-educational-video.png').default} />
+<video controls src='https://blockchainbird.org/media/wot-terms/video1663530585.mp4' playsInline={true} poster='https://blockchainbird.org/media/wot-terms/WOT-educational-video.png' />
 
 <div className="subtitlecontainer alert alert--info margin-bottom--lg">okay and I will show slides all right so this is the presentation I did at IIW called 'Let's</div>
 
