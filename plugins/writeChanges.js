@@ -41,6 +41,8 @@ const writeChanges = (element) => {
     function sendContent() {
       var formData = new FormData();
       formData.append('content', JSON.stringify(mutation));
+
+      // TODO: improve fetch
       fetch(writeResultsTo, { method: 'POST', body: formData });
       // .then(function (response) {
       //   return response.text();
