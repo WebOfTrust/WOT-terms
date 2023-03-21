@@ -45,8 +45,13 @@ const writeChanges = (element) => {
       var formData = new FormData();
       formData.append('content', JSON.stringify(mutation));
 
+      /**
+       * Write to a textfile on a domain
+       */
+
       // TODO: improve fetch
       fetch(writeResultsTo, { method: 'POST', body: formData });
+
       // .then(function (response) {
       //   return response.text();
       // })
@@ -73,18 +78,31 @@ const writeChanges = (element) => {
       //   },
       // });
 
+      /**
+       * Create an issue on Github
+       */
+      let auth = prompt('Enter token');
+
       // Initialize the Octokit client
       const octokit = new Octokit({
-        auth: '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',
+        auth: auth,
       });
 
       // Create the issue payload
       const payload = {
         owner: 'kordwarshuis',
         repo: 'WOT-terms-edits',
-        title: 'New issue title',
-        body: 'New issue body',
+        title: 'Definition redefined',
+        body:
+          `An edit has been made in ` +
+          mutation.row +
+          ` and column ` +
+          mutation.column +
+          `. The proposed definition is: ` +
+          mutation.proposedText,
       };
+
+      console.log('payload: ', payload.body);
 
       // Send the request to create the issue
       const response = await octokit.rest.issues.create(payload);
@@ -99,7 +117,7 @@ const writeChanges = (element) => {
         mutation.row !== mutationRecords[0].target.parentElement.dataset.row ||
         mutation.column !== mutationRecords[0].target.parentElement.className
       ) {
-        sendContent();
+        // sendContent();
       }
       mutation.row = mutationRecords[0].target.parentElement.dataset.row;
       mutation.column = mutationRecords[0].target.parentElement.className;
