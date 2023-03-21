@@ -1,4 +1,7 @@
+import { Octokit, App } from 'octokit';
+
 const writeChanges = (element) => {
+  console.log('runs');
   const el = document.querySelector(element);
   const buttonTextEdit = 'Edit';
   const buttonTextSave = 'Save';
@@ -38,7 +41,7 @@ const writeChanges = (element) => {
       isEditable = !isEditable;
     }
 
-    function sendContent() {
+    async function sendContent() {
       var formData = new FormData();
       formData.append('content', JSON.stringify(mutation));
 
@@ -50,6 +53,43 @@ const writeChanges = (element) => {
       // .then(function (body) {
       //   console.log(body);
       // });
+
+      // // Octokit.js
+      // // https://github.com/octokit/core.js#readme
+      // const octokit = new Octokit({
+      //   auth: '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',
+      // });
+
+      // octokit.request('POST /repos/kordwarshuis/WOT-terms-edits/dispatches', {
+      //   owner: 'kordwarshuis',
+      //   repo: 'WOT-terms-edits',
+      //   event_type: 'edit',
+      //   client_payload: {
+      //     unit: false,
+      //     integration: true,
+      //   },
+      //   headers: {
+      //     'X-GitHub-Api-Version': '2022-11-28',
+      //   },
+      // });
+
+      // Initialize the Octokit client
+      const octokit = new Octokit({
+        auth: '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',
+      });
+
+      // Create the issue payload
+      const payload = {
+        owner: 'kordwarshuis',
+        repo: 'WOT-terms-edits',
+        title: 'New issue title',
+        body: 'New issue body',
+      };
+
+      // Send the request to create the issue
+      const response = await octokit.rest.issues.create(payload);
+
+      console.log(response.data);
     }
 
     // https://hacks.mozilla.org/2012/05/dom-mutationobserver-reacting-to-dom-changes-without-killing-browser-performance/
