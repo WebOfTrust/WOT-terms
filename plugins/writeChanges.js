@@ -1,18 +1,17 @@
 import { Octokit, App } from 'octokit';
 
 const writeChanges = (element) => {
-  console.log('runs');
   const el = document.querySelector(element);
   const buttonTextEdit = 'Edit';
   const buttonTextSave = 'Save';
+  const doimainReceivingChanges =
+    'https://dwarshuis.com/test/wot-terms/php_scripts/saveEdits.php';
 
   if (el !== null) {
     write();
   }
 
   function write() {
-    const writeResultsTo =
-      'https://dwarshuis.com/test/wot-terms/php_scripts/saveEdits.php';
     const makeEditable = el;
     let mutation = {};
 
@@ -50,7 +49,7 @@ const writeChanges = (element) => {
        */
 
       // TODO: improve fetch
-      fetch(writeResultsTo, { method: 'POST', body: formData });
+      fetch(doimainReceivingChanges, { method: 'POST', body: formData });
 
       // .then(function (response) {
       //   return response.text();
