@@ -1,5 +1,5 @@
 !(function (t, e) {
-  // This is taken from https://www.npmjs.com/package/awesome-notifications and modified to make it work in Docusaurus by changing “self” to “this” on line 9:
+  // This is taken from https://www.npmjs.com/package/awesome-notifications and modified to make it work in Docusaurus by changing “self” to “this” on line 9. The file is taken from the dist folder of the npm package, named index.js.
   'object' == typeof exports && 'object' == typeof module
     ? (module.exports = e())
     : 'function' == typeof define && define.amd
