@@ -138,7 +138,7 @@ function createMarkDownFiles(content) {
       //   if (index < 1 || index > 12) return;
 
       level = levelConvertor(item[8]);
-      finalStringAll += `<tr>`;
+      finalStringAll += `<tr data-row='row${indexTableRow}' data-rownr='${indexTableRow}'>`;
 
       // TODO: table looks wrong:
       // finalStringAll += `<tr data-level='${level}'>`;
