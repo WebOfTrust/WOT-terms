@@ -121,7 +121,7 @@ function createMarkDownFiles(content) {
     finalStringAll += `<tr>`;
 
     content.values[0].forEach((element, index) => {
-      finalStringAll += `<th data-colnr='${index}'>${element}</th>`;
+      finalStringAll += `<th data-columnnr='${index}'>${element}</th>`;
     });
 
     finalStringAll += `</tr>`;
@@ -148,7 +148,7 @@ function createMarkDownFiles(content) {
         if (indexTableCell > 17) return;
         item = item || '–';
 
-        finalStringAll += `<td className='column${indexTableCell}' data-row='row${indexTableRow}' data-rownr='${indexTableRow}' data-col='col${indexTableCell} data-colnr='${indexTableCell}'>`;
+        finalStringAll += `<td className='column${indexTableCell}' data-row='row${indexTableRow}' data-rownr='${indexTableRow}' data-column='column${indexTableCell}' data-columnnr='${indexTableCell}'>`;
         if (indexTableCell === 6 || indexTableCell === 7) {
           finalStringAll += `<a target='_blank' rel='noopener' href='${item}'>Link</a>`;
         } else {
