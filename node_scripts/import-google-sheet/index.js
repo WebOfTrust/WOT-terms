@@ -148,7 +148,7 @@ function createMarkDownFiles(content) {
         if (indexTableCell > 17) return;
         item = item || '–';
 
-        finalStringAll += `<td className='column${indexTableCell}' data-row='row${indexTableRow}' data-rownr='${indexTableRow}' data-colnr='${indexTableCell}'>`;
+        finalStringAll += `<td className='column${indexTableCell}' data-row='row${indexTableRow}' data-rownr='${indexTableRow}' data-col='col${indexTableCell} data-colnr='${indexTableCell}'>`;
         if (indexTableCell === 6 || indexTableCell === 7) {
           finalStringAll += `<a target='_blank' rel='noopener' href='${item}'>Link</a>`;
         } else {
