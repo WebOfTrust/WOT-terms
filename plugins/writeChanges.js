@@ -1,4 +1,8 @@
 import { Octokit, App } from 'octokit';
+
+// https://f3oall.github.io/awesome-notifications/docs/why-such-awesome
+// https://www.npmjs.com/package/awesome-notifications
+// https://github.com/f3oall/awesome-notifications#readme
 import AWN from 'awesome-notifications';
 
 // Initialize instance of AWN
