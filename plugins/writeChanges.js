@@ -92,13 +92,7 @@ const writeChanges = (element) => {
         owner: 'kordwarshuis',
         repo: 'WOT-terms-edits',
         title: 'Definition redefined',
-        body:
-          `An edit has been made in ` +
-          mutation.row +
-          ` and column ` +
-          mutation.column +
-          `. The proposed definition is: ` +
-          mutation.proposedText,
+        body: `An edit has been made in column “${mutation.columnname}” on row ${mutation.rownr}.\n\nThe new text is: “${mutation.proposedText}”\n\n(Column: ${mutation.column}, Row: ${mutation.row})`,
       };
 
       console.log('payload: ', payload.body);
@@ -112,14 +106,25 @@ const writeChanges = (element) => {
     // https://hacks.mozilla.org/2012/05/dom-mutationobserver-reacting-to-dom-changes-without-killing-browser-performance/
     // TODO: implement observer.disconnect();
     const observer = new MutationObserver((mutationRecords) => {
+      // console.log(
+      //   'mutationRecords[0].target: ',
+      //   mutationRecords[0].target.parentElement.dataset.rownr
+      // );
       if (
-        mutation.row !== mutationRecords[0].target.parentElement.dataset.row ||
-        mutation.column !== mutationRecords[0].target.parentElement.className
+        mutation.rownr !==
+          mutationRecords[0].target.parentElement.dataset.rownr ||
+        mutation.colnr !== mutationRecords[0].target.parentElement.dataset.colnr
       ) {
         // sendContent();
       }
       mutation.row = mutationRecords[0].target.parentElement.dataset.row;
-      mutation.column = mutationRecords[0].target.parentElement.className;
+      mutation.rownr = mutationRecords[0].target.parentElement.dataset.rownr;
+      mutation.column = mutationRecords[0].target.parentElement.dataset.column;
+      mutation.columnnr =
+        mutationRecords[0].target.parentElement.dataset.columnnr;
+      mutation.columnname = document.querySelectorAll(
+        `.googlesheet th[data-columnnr]`
+      )[mutationRecords[0].target.parentElement.dataset.columnnr].innerText;
       mutation.proposedText = mutationRecords[0].target.parentElement.innerText;
     });
     observer.observe(el, {
