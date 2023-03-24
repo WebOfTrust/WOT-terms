@@ -91,8 +91,8 @@ const writeChanges = (element) => {
       const payload = {
         owner: 'kordwarshuis',
         repo: 'WOT-terms-edits',
-        title: `New edit in column “${mutation.columnname}” on row ${mutation.rownr}.`,
-        body: `An edit has been made in column “${mutation.columnname}” on row ${mutation.rownr}.\n\nThe new text is: “${mutation.proposedText}”\n\n(Column: ${mutation.columnnr}, Row: ${mutation.rownr})`,
+        title: `New edit in column “${mutation.columnname}” for the term: “${mutation.term}”.`,
+        body: `An edit has been made in column “${mutation.columnname}” for the term: “${mutation.term}”.\n\nThe new text is: “${mutation.proposedText}”\n\n(Column: ${mutation.columnnr}, Row: ${mutation.rownr})`,
       };
 
       console.log('payload: ', payload.body);
@@ -126,6 +126,10 @@ const writeChanges = (element) => {
         `.googlesheet th[data-columnnr]`
       )[mutationRecords[0].target.parentElement.dataset.columnnr].innerText;
       mutation.proposedText = mutationRecords[0].target.parentElement.innerText;
+      mutation.term = document.querySelectorAll(
+        `.googlesheet tr[data-rownr="${mutation.rownr}"] td[data-columnnr="4"]`
+      )[0].innerText;
+      console.log('mutation.term: ', mutation.term);
     });
     observer.observe(el, {
       characterData: true,
