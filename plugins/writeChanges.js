@@ -1,4 +1,18 @@
 import { Octokit, App } from 'octokit';
+import AWN from 'awesome-notifications';
+
+// Initialize instance of AWN
+// let notifier = new AWN(globalOptions);
+let notifier = new AWN({
+  maxNotifications: 6,
+  durations: {
+    alert: 0,
+    success: 4000,
+  },
+  icons: {
+    enabled: false,
+  },
+});
 
 const writeChanges = (element) => {
   const el = document.querySelector(element);
@@ -50,10 +64,12 @@ const writeChanges = (element) => {
 
       // TODO: improve fetch
       fetch(doimainReceivingChanges, { method: 'POST', body: formData });
-
-      // .then(function (response) {
-      //   return response.text();
-      // })
+      // .then(
+      //   function (response) {
+      //     console.log('response: ', response);
+      //     return response.text();
+      //   }
+      // );
       // .then(function (body) {
       //   console.log(body);
       // });
@@ -100,16 +116,20 @@ const writeChanges = (element) => {
       // Send the request to create the issue
       const response = await octokit.rest.issues.create(payload);
 
-      console.log(response.data);
+      console.log(response);
+      let onOk = () => {
+        // notifier.info('You pressed OK');
+      };
+      notifier.confirm(
+        `A new issue has been created on Github at: <a target="_blank" rel="noopener" href="${response.data.html_url}">${response.data.html_url}</a>`,
+        onOk,
+        false
+      );
     }
 
     // https://hacks.mozilla.org/2012/05/dom-mutationobserver-reacting-to-dom-changes-without-killing-browser-performance/
     // TODO: implement observer.disconnect();
     const observer = new MutationObserver((mutationRecords) => {
-      // console.log(
-      //   'mutationRecords[0].target: ',
-      //   mutationRecords[0].target.parentElement.dataset.rownr
-      // );
       if (
         mutation.rownr !==
           mutationRecords[0].target.parentElement.dataset.rownr ||
