@@ -5,7 +5,7 @@ const fs = require('fs');
 const https = require('https');
 
 // CONFIG
-const outputDir = '../../docs/overview/';
+const outputDir = './docs/overview/';
 const outputFileName = 'overview.mdx';
 
 // How to create JSON endpoint from Google Sheet: https://stackoverflow.com/a/68854199
