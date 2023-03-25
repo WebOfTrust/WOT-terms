@@ -7,7 +7,6 @@ import { Octokit, App } from 'octokit';
 import AWN from './libs/awesome-notifications.js';
 
 // Initialize instance of AWN
-// let notifier = new AWN(globalOptions);
 let notifier = new AWN({
   maxNotifications: 6,
   durations: {
@@ -23,6 +22,7 @@ const writeChanges = (element) => {
   const el = document.querySelector(element);
   const buttonTextEdit = 'Edit';
   const buttonTextSave = 'Save';
+
   const doimainReceivingChanges =
     'https://dwarshuis.com/test/wot-terms/php_scripts/saveEdits.php';
 
@@ -34,26 +34,53 @@ const writeChanges = (element) => {
     const makeEditable = el;
     let mutation = {};
 
-    // Create an edit/save button and insert before the element we want to edit
-    const editSaveButton = document.createElement('button');
-    editSaveButton.classList.add('button');
-    editSaveButton.classList.add('button--secondary');
-    editSaveButton.classList.add('margin--md');
-    editSaveButton.classList.add('edit-save');
-    editSaveButton.innerText = buttonTextEdit;
-    el.parentNode.insertBefore(editSaveButton, el);
-    editSaveButton.addEventListener('click', makeContentEditable);
+    // // Create an edit/save button and insert before the element we want to edit
+    // const editSaveButton = document.createElement('button');
+    // editSaveButton.classList.add('button');
+    // editSaveButton.classList.add('button--secondary');
+    // editSaveButton.classList.add('margin--md');
+    // editSaveButton.classList.add('edit-save');
+    // editSaveButton.innerText = buttonTextEdit;
+    // el.parentNode.insertBefore(editSaveButton, el);
+    // editSaveButton.addEventListener('click', makeContentEditable);
+
+    // Create an edit/save button in every table cell
+    const tableCells = document.querySelectorAll('.googlesheet td');
+    tableCells.forEach((cell) => {
+      const editSaveButton = document.createElement('button');
+      editSaveButton.classList.add('button');
+      editSaveButton.classList.add('button--secondary');
+      editSaveButton.classList.add('margin--md');
+      editSaveButton.classList.add('edit-save');
+      editSaveButton.innerText = buttonTextEdit;
+      cell.appendChild(editSaveButton);
+      editSaveButton.addEventListener('click', makeTableCellEditable);
+    });
 
     let isEditable = false;
-    function makeContentEditable() {
+    // function makeContentEditable() {
+    //   if (isEditable === false) {
+    //     el.contentEditable = 'true';
+    //     this.innerText = buttonTextSave;
+    //     el.style.backgroundColor = '#e8ffc6';
+    //   } else {
+    //     el.contentEditable = 'false';
+    //     this.innerText = buttonTextEdit;
+    //     el.style.backgroundColor = 'white';
+    //     sendContent();
+    //   }
+    //   isEditable = !isEditable;
+    // }
+
+    function makeTableCellEditable() {
       if (isEditable === false) {
-        el.contentEditable = 'true';
+        this.parentElement.contentEditable = 'true';
         this.innerText = buttonTextSave;
-        el.style.backgroundColor = '#e8ffc6';
+        this.parentElement.style.backgroundColor = '#e8ffc6';
       } else {
-        el.contentEditable = 'false';
+        this.parentElement.contentEditable = 'false';
         this.innerText = buttonTextEdit;
-        el.style.backgroundColor = 'white';
+        this.parentElement.style.backgroundColor = 'white';
         sendContent();
       }
       isEditable = !isEditable;
@@ -61,6 +88,7 @@ const writeChanges = (element) => {
 
     async function sendContent() {
       var formData = new FormData();
+
       formData.append('content', JSON.stringify(mutation));
 
       /**
@@ -135,13 +163,7 @@ const writeChanges = (element) => {
     // https://hacks.mozilla.org/2012/05/dom-mutationobserver-reacting-to-dom-changes-without-killing-browser-performance/
     // TODO: implement observer.disconnect();
     const observer = new MutationObserver((mutationRecords) => {
-      if (
-        mutation.rownr !==
-          mutationRecords[0].target.parentElement.dataset.rownr ||
-        mutation.colnr !== mutationRecords[0].target.parentElement.dataset.colnr
-      ) {
-        // sendContent();
-      }
+      // Collect the data like row, column, rownr, columnnr, columnname, proposedText, term of the edited cell
       mutation.row = mutationRecords[0].target.parentElement.dataset.row;
       mutation.rownr = mutationRecords[0].target.parentElement.dataset.rownr;
       mutation.column = mutationRecords[0].target.parentElement.dataset.column;
@@ -150,11 +172,29 @@ const writeChanges = (element) => {
       mutation.columnname = document.querySelectorAll(
         `.googlesheet th[data-columnnr]`
       )[mutationRecords[0].target.parentElement.dataset.columnnr].innerText;
+
+      // The text that is being edited
       mutation.proposedText = mutationRecords[0].target.parentElement.innerText;
+
+      // Remove the edit button text from the text that is being edited
+      mutation.proposedText = mutation.proposedText.substring(
+        0,
+        mutation.proposedText.length - buttonTextSave.length
+      );
+
+      // The term that is being edited
       mutation.term = document.querySelectorAll(
         `.googlesheet tr[data-rownr="${mutation.rownr}"] td[data-columnnr="4"]`
       )[0].innerText;
-      console.log('mutation.term: ', mutation.term);
+
+      // Remove the edit button text from the term
+      mutation.term = mutation.term.substring(
+        0,
+        mutation.term.length -
+          document.querySelectorAll(
+            `.googlesheet tr[data-rownr="${mutation.rownr}"] td[data-columnnr="4"] button`
+          )[0].innerText.length
+      );
     });
     observer.observe(el, {
       characterData: true,
