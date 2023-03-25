@@ -163,6 +163,20 @@ table th {
   vertical-align: top;
 }
 
+.googlesheet td {
+  position: relative;
+  padding-bottom: 2em;
+}
+
+.googlesheet button.edit-save {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0.5em !important;
+  padding: 0.3em;
+  font-size: 0.7em;
+}
+
 /*table th:nth-child(7),
 table td:nth-child(7),
 table th:nth-child(8),
