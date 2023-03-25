@@ -9,9 +9,18 @@ on:
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
 jobs:
+  create-preview-md:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Run Node.js script
+        run: node node_scripts/import-google-sheet/index.js
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
+    needs: ['create-preview-md']
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
