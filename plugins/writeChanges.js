@@ -160,7 +160,12 @@ const writeChanges = (element) => {
       notifier.confirm(
         `A new issue has been created on Github at: <a target="_blank" rel="noopener" href="${response.data.html_url}">${response.data.html_url}</a>`,
         onOk,
-        false
+        false,
+        {
+          labels: {
+            confirm: 'Info',
+          },
+        }
       );
     }
 
