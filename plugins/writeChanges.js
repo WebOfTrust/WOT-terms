@@ -92,6 +92,8 @@ const writeChanges = (element) => {
     function cancelTableCellEditable() {
       this.parentElement.parentElement.contentEditable = 'false';
       this.parentElement.parentElement.classList.remove('editable');
+      this.parentElement.querySelector('button.edit-save').innerText =
+        buttonTextEdit;
     }
 
     async function sendContent() {
