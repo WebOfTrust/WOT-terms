@@ -172,6 +172,7 @@ table th {
   background: #f2f5ee;
   outline: dashed rgb(66, 64, 64);
   font-style: italic;
+  caret-color: rgb(204, 6, 6);
 }
 
 .googlesheet td .buttons {
