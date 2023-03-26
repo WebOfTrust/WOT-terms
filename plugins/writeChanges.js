@@ -77,6 +77,7 @@ const writeChanges = (element) => {
       if (this.parentElement.parentElement.contentEditable !== 'true') {
         this.parentElement.parentElement.contentEditable = 'true';
         this.parentElement.parentElement.classList.add('editable');
+        this.parentElement.parentElement.focus();
         this.innerText = buttonTextSave;
       } else {
         this.parentElement.parentElement.contentEditable = 'false';
