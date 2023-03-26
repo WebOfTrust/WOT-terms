@@ -23,6 +23,7 @@ const writeChanges = (element) => {
   const buttonTextEdit = 'Edit';
   const buttonTextSave = 'Send';
   const buttonTextCancel = 'Cancel';
+  let explanationAboutGithubIssueShown = false;
 
   const domainReceivingChanges =
     'https://dwarshuis.com/test/wot-terms/php_scripts/saveEdits.php';
@@ -83,6 +84,13 @@ const writeChanges = (element) => {
         this.parentElement.parentElement.classList.add('editable');
         this.parentElement.parentElement.focus();
         this.innerText = buttonTextSave;
+
+        if (explanationAboutGithubIssueShown === false) {
+          notifier.info(
+            `After editing, click the “${buttonTextSave}” button, and a Github issue will be generated.`
+          );
+          explanationAboutGithubIssueShown = true;
+        }
       } else {
         this.parentElement.parentElement.contentEditable = 'false';
         this.innerText = buttonTextEdit;
