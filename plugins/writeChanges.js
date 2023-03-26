@@ -22,6 +22,7 @@ const writeChanges = (element) => {
   const el = document.querySelector(element);
   const buttonTextEdit = 'Edit';
   const buttonTextSave = 'Save';
+  const buttonTextCancel = 'Cancel';
 
   const domainReceivingChanges =
     'https://dwarshuis.com/test/wot-terms/php_scripts/saveEdits.php';
@@ -47,43 +48,45 @@ const writeChanges = (element) => {
     // Create an edit/save button in every table cell
     const tableCells = document.querySelectorAll('.googlesheet td');
     tableCells.forEach((cell) => {
-      const editSaveButton = document.createElement('button');
-      editSaveButton.classList.add('button');
-      editSaveButton.classList.add('button--secondary');
-      editSaveButton.classList.add('margin--md');
-      editSaveButton.classList.add('edit-save');
-      editSaveButton.innerText = buttonTextEdit;
-      cell.appendChild(editSaveButton);
-      editSaveButton.addEventListener('click', makeTableCellEditable);
+      if (cell.dataset.columnnr !== '0') {
+        const div = document.createElement('div');
+        div.classList.add('buttons');
+        cell.appendChild(div);
+
+        const editSaveButton = document.createElement('button');
+        editSaveButton.classList.add('button');
+        editSaveButton.classList.add('button--secondary');
+        editSaveButton.classList.add('margin--md');
+        editSaveButton.classList.add('edit-save');
+        editSaveButton.innerText = buttonTextEdit;
+        div.appendChild(editSaveButton);
+        editSaveButton.addEventListener('click', makeTableCellEditable);
+
+        const cancelButton = document.createElement('button');
+        cancelButton.classList.add('button');
+        cancelButton.classList.add('button--secondary');
+        cancelButton.classList.add('margin--md');
+        cancelButton.classList.add('cancel');
+        cancelButton.innerText = buttonTextCancel;
+        div.appendChild(cancelButton);
+        cancelButton.addEventListener('click', cancelTableCellEditable);
+      }
     });
 
-    let isEditable = false;
-    // function makeContentEditable() {
-    //   if (isEditable === false) {
-    //     el.contentEditable = 'true';
-    //     this.innerText = buttonTextSave;
-    //     el.style.backgroundColor = '#e8ffc6';
-    //   } else {
-    //     el.contentEditable = 'false';
-    //     this.innerText = buttonTextEdit;
-    //     el.style.backgroundColor = 'white';
-    //     sendContent();
-    //   }
-    //   isEditable = !isEditable;
-    // }
-
     function makeTableCellEditable() {
-      if (isEditable === false) {
-        this.parentElement.contentEditable = 'true';
+      if (this.parentElement.parentElement.contentEditable !== 'true') {
+        this.parentElement.parentElement.contentEditable = 'true';
+        this.parentElement.parentElement.classList.add('editable');
         this.innerText = buttonTextSave;
-        this.parentElement.style.backgroundColor = '#e8ffc6';
       } else {
-        this.parentElement.contentEditable = 'false';
+        this.parentElement.parentElement.contentEditable = 'false';
         this.innerText = buttonTextEdit;
-        this.parentElement.style.backgroundColor = 'white';
         sendContent();
       }
-      isEditable = !isEditable;
+    }
+    function cancelTableCellEditable() {
+      this.parentElement.parentElement.contentEditable = 'false';
+      this.parentElement.parentElement.classList.remove('editable');
     }
 
     async function sendContent() {
@@ -179,7 +182,10 @@ const writeChanges = (element) => {
       // Remove the edit button text from the text that is being edited
       mutation.proposedText = mutation.proposedText.substring(
         0,
-        mutation.proposedText.length - buttonTextSave.length
+        mutation.proposedText.length -
+          buttonTextSave.length -
+          buttonTextCancel.length -
+          1
       );
 
       // The term that is being edited
@@ -192,8 +198,12 @@ const writeChanges = (element) => {
         0,
         mutation.term.length -
           document.querySelectorAll(
-            `.googlesheet tr[data-rownr="${mutation.rownr}"] td[data-columnnr="4"] button`
-          )[0].innerText.length
+            `.googlesheet tr[data-rownr="${mutation.rownr}"] td[data-columnnr="4"] button.cancel`
+          )[0].innerText.length -
+          document.querySelectorAll(
+            `.googlesheet tr[data-rownr="${mutation.rownr}"] td[data-columnnr="4"] button.edit-save`
+          )[0].innerText.length -
+          1
       );
     });
     observer.observe(el, {
