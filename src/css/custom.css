@@ -165,16 +165,30 @@ table th {
 
 .googlesheet td {
   position: relative;
-  padding-bottom: 2em;
+  padding-bottom: 3em;
 }
 
-.googlesheet button.edit-save {
+.googlesheet td.editable {
+  background: #f2f5ee;
+  outline: dashed rgb(66, 64, 64);
+  font-style: italic;
+}
+
+.googlesheet td .buttons {
   position: absolute;
   bottom: 0;
   right: 0;
-  margin: 0.5em !important;
+  margin: 0;
+  padding: 0;
+}
+
+.googlesheet td button.edit-save,
+.googlesheet td button.cancel {
   padding: 0.3em;
   font-size: 0.7em;
+  color: #666;
+  margin: 0.5em !important;
+  float: right;
 }
 
 /*table th:nth-child(7),
