@@ -21,7 +21,7 @@ let notifier = new AWN({
 const writeChanges = (element) => {
   const el = document.querySelector(element);
   const buttonTextEdit = 'Edit';
-  const buttonTextSave = 'Save';
+  const buttonTextSave = 'Send';
   const buttonTextCancel = 'Cancel';
 
   const domainReceivingChanges =
