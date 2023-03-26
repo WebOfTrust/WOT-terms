@@ -182,13 +182,16 @@ table th {
   padding: 0;
 }
 
-.googlesheet td button.edit-save,
-.googlesheet td button.cancel {
+.googlesheet td .buttons button {
   padding: 0.3em;
-  font-size: 0.7em;
-  color: #666;
+  font-size: 0.6em;
   margin: 0.5em !important;
   float: right;
+  opacity: 0.3;
+}
+
+.googlesheet td .buttons button:hover {
+  opacity: 1;
 }
 
 /*table th:nth-child(7),
