@@ -166,13 +166,20 @@ table th {
 .googlesheet td {
   position: relative;
   padding-bottom: 3em;
+  outline: none;
+  transition: all 0.5s ease-in-out;
 }
 
 .googlesheet td.editable {
-  background: #f2f5ee;
-  outline: dashed rgb(66, 64, 64);
+  background: #ddeef5;
+  outline: 3px dashed rgb(66, 64, 64);
   font-style: italic;
   caret-color: rgb(204, 6, 6);
+  transition: all 0.5s ease-in-out;
+}
+.googlesheet td.editable:focus {
+  outline: 5px dashed rgb(66, 64, 64);
+  transition: all 0.5s ease-in-out;
 }
 
 .googlesheet td .buttons {
