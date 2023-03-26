@@ -23,7 +23,7 @@ const writeChanges = (element) => {
   const buttonTextEdit = 'Edit';
   const buttonTextSave = 'Save';
 
-  const doimainReceivingChanges =
+  const domainReceivingChanges =
     'https://dwarshuis.com/test/wot-terms/php_scripts/saveEdits.php';
 
   if (el !== null) {
@@ -96,7 +96,7 @@ const writeChanges = (element) => {
        */
 
       // TODO: improve fetch
-      fetch(doimainReceivingChanges, { method: 'POST', body: formData });
+      fetch(domainReceivingChanges, { method: 'POST', body: formData });
       // .then(
       //   function (response) {
       //     console.log('response: ', response);
