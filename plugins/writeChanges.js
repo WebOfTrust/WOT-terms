@@ -49,6 +49,10 @@ const writeChanges = (element) => {
     const tableCells = document.querySelectorAll('.googlesheet td');
     tableCells.forEach((cell) => {
       if (cell.dataset.columnnr !== '0') {
+        // Surround the cell content with a div
+        cell.innerHTML =
+          '<div class="cell-content">' + cell.innerHTML + '</div>';
+
         const div = document.createElement('div');
         div.classList.add('buttons');
         cell.appendChild(div);
@@ -173,17 +177,23 @@ const writeChanges = (element) => {
     // TODO: implement observer.disconnect();
     const observer = new MutationObserver((mutationRecords) => {
       // Collect the data like row, column, rownr, columnnr, columnname, proposedText, term of the edited cell
-      mutation.row = mutationRecords[0].target.parentElement.dataset.row;
-      mutation.rownr = mutationRecords[0].target.parentElement.dataset.rownr;
-      mutation.column = mutationRecords[0].target.parentElement.dataset.column;
+      mutation.row =
+        mutationRecords[0].target.parentElement.parentElement.dataset.row;
+      mutation.rownr =
+        mutationRecords[0].target.parentElement.parentElement.dataset.rownr;
+      mutation.column =
+        mutationRecords[0].target.parentElement.parentElement.dataset.column;
       mutation.columnnr =
-        mutationRecords[0].target.parentElement.dataset.columnnr;
+        mutationRecords[0].target.parentElement.parentElement.dataset.columnnr;
       mutation.columnname = document.querySelectorAll(
         `.googlesheet th[data-columnnr]`
-      )[mutationRecords[0].target.parentElement.dataset.columnnr].innerText;
+      )[
+        mutationRecords[0].target.parentElement.parentElement.dataset.columnnr
+      ].innerText;
 
       // The text that is being edited
-      mutation.proposedText = mutationRecords[0].target.parentElement.innerText;
+      mutation.proposedText =
+        mutationRecords[0].target.parentElement.parentElement.innerText;
 
       // Remove the edit button text from the text that is being edited
       mutation.proposedText = mutation.proposedText.substring(
