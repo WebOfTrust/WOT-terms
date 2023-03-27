@@ -171,7 +171,7 @@ table th {
 }
 
 .googlesheet td.editable {
-  background: #ddeef5;
+  /* background: #ddeef5; */
   outline: 3px dashed rgb(66, 64, 64);
   font-style: italic;
   caret-color: rgb(204, 6, 6);
