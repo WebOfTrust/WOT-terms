@@ -158,7 +158,7 @@ const writeChanges = (element) => {
       const payload = {
         owner: 'kordwarshuis',
         repo: 'WOT-terms-edits',
-        title: `New edit in column “${mutation.columnname}” for the term: “${mutation.term}”.`,
+        title: `New edit for “${mutation.columnname}” for the term: “${mutation.term}”.`,
         body: `An edit has been made in column “${mutation.columnname}” for the term: “${mutation.term}”.\n\nThe new text is: “${mutation.proposedText}”\n\n(Column: ${mutation.columnnr}, Row: ${mutation.rownr})`,
       };
 
