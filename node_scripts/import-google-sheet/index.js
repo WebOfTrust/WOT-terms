@@ -5,8 +5,11 @@ const fs = require('fs');
 const https = require('https');
 
 // CONFIG
-const outputDir = './docs/overview/'; // This script should be run from the root of the project
-const outputFileName = 'overview.mdx';
+const outputDirMarkDown = './docs/overview/'; // This script should be run from the root of the project
+const outputFileNameMarkDown = 'overview.mdx';
+
+const outputDirJSON = './json/';
+const outputFileNameJSON = 'overview.json';
 
 // How to create JSON endpoint from Google Sheet: https://stackoverflow.com/a/68854199
 const url =
@@ -23,6 +26,7 @@ https
 
     // The whole response has been received. Print out the result.
     resp.on('end', () => {
+      writeJSONFile(data);
       let oContent = JSON.parse(data);
       createMarkDownFiles(oContent);
     });
@@ -173,7 +177,7 @@ function createMarkDownFiles(content) {
     finalStringAll += `</div>`;
 
     fs.writeFile(
-      outputDir + outputFileName,
+      outputDirMarkDown + outputFileNameMarkDown,
       finalStringAll,
       // When it goes wrong:
       function (err) {
@@ -184,3 +188,20 @@ function createMarkDownFiles(content) {
     );
   }
 }
+
+function writeJSONFile(content) {
+  fs.writeFile(
+    // Where to write:
+    outputDirJSON + outputFileNameJSON,
+
+    // What to write:
+    content,
+
+    // When it goes wrong:
+    function (err) {
+      if (err) {
+        return console.log(err);
+      }
+    }
+  );
+} // End writeJSONFile
