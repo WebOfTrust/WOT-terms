@@ -8,6 +8,13 @@ object-assign
  * @license MIT */
 
 /*!
+ * is-plain-object <https://github.com/jonschlinkert/is-plain-object>
+ *
+ * Copyright (c) 2014-2017, Jon Schlinkert.
+ * Released under the MIT License.
+ */
+
+/*!
  * lunr.Builder
  * Copyright (C) 2020 Oliver Nightingale
  */
@@ -62,6 +69,8 @@ object-assign
  * lunr.utils
  * Copyright (C) 2020 Oliver Nightingale
  */
+
+/*! fromentries. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
 
 /*!***************************************************
 * mark.js v8.11.1
