@@ -6,9 +6,9 @@
 import config from '@generated/docusaurus.config';
 
 const infoMessage = {
-  level1: `<img src="${config.baseUrl}img/child-girl-kid-svgrepo-com.svg" alt="A child">Level 1`,
-  level2: `<img src="${config.baseUrl}img/graduate-svgrepo-com.svg" alt="A graduate">Level 2`,
-  level3: `<img src="${config.baseUrl}img/professor-svgrepo-com.svg" alt="Person that resembles Einstein">Level 3`,
+  level1: `<img src="${config.baseUrl}img/skill-level-basic-svgrepo-com.svg" alt="A child">Level 1`,
+  level2: `<img src="${config.baseUrl}img/skill-level-intermediate-svgrepo-com.svg" alt="A graduate">Level 2`,
+  level3: `<img src="${config.baseUrl}img/skill-level-advanced-svgrepo-com.svg" alt="Person that resembles Einstein">Level 3`,
 };
 
 const showLevelButtonClass = 'show-level';
