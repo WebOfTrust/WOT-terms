@@ -1,14 +1,16 @@
 #!/usr/bin/env node
 
+// This script should be run from the root of the project
+
 // const json2md = require('json2md');
 const fs = require('fs');
 const https = require('https');
 
 // CONFIG
-const outputDirMarkDown = './docs/overview/'; // This script should be run from the root of the project
+const outputDirMarkDown = './docs/overview/';
 const outputFileNameMarkDown = 'overview.mdx';
 
-const outputDirJSON = './json/';
+const outputDirJSON = './static/json/'; //TODO: find a better place for this file
 const outputFileNameJSON = 'overview.json';
 
 // How to create JSON endpoint from Google Sheet: https://stackoverflow.com/a/68854199
