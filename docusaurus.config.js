@@ -305,6 +305,7 @@ const config = {
     require.resolve('./plugins/horizontalScrollHint'),
     require.resolve('./plugins/useTippy'),
     require.resolve('./plugins/writeChanges'),
+    require.resolve('./plugins/addLevel'),
   ],
 };
 
