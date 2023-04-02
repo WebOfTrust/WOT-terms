@@ -152,7 +152,7 @@ function createMarkDownFiles(content) {
       // Create table cells
       item.forEach((item, indexTableCell) => {
         if (indexTableCell > 17) return;
-        item = item || '–';
+        item = item || '';
 
         finalStringAll += `<td className='column${indexTableCell}' data-row='row${indexTableRow}' data-rownr='${indexTableRow}' data-column='column${indexTableCell}' data-columnnr='${indexTableCell}'>`;
         if (indexTableCell === 6 || indexTableCell === 7) {
