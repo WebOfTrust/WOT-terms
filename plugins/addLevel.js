@@ -11,7 +11,10 @@ const addLevel = () => {
     if (index < 1) return;
     if (heading === row[4]) {
       // add row[8] to data-set of body
-      document.querySelector('body').dataset.level = row[8];
+      document.querySelector('article').dataset.level = row[8];
+      document.querySelector('article').classList.add('level');
+      document.querySelector('article').classList.add('level' + row[8]);
+      document.querySelector('article').classList.add(row[8]);
     }
   });
 };
