@@ -4,19 +4,21 @@ import overview from '@site/static/json/overview.json';
  */
 
 const addLevel = () => {
-  const heading = document.querySelector('header h1').innerText;
+  if (document.querySelector('header h1')) {
+    const heading = document.querySelector('header h1').innerText;
 
-  // for every row in overview.json except the first one
-  overview.values.forEach((row, index) => {
-    if (index < 1) return;
-    if (heading === row[4]) {
-      // add row[8] to data-set of body
-      document.querySelector('article').dataset.level = row[8];
-      document.querySelector('article').classList.add('level');
-      document.querySelector('article').classList.add('level' + row[8]);
-      document.querySelector('article').classList.add(row[8]);
-    }
-  });
+    // for every row in overview.json except the first one
+    overview.values.forEach((row, index) => {
+      if (index < 1) return;
+      if (heading === row[4]) {
+        // add row[8] to data-set of body
+        document.querySelector('article').dataset.level = row[8];
+        document.querySelector('article').classList.add('level');
+        document.querySelector('article').classList.add('level' + row[8]);
+        document.querySelector('article').classList.add(row[8]);
+      }
+    });
+  }
 };
 
 export function onRouteDidUpdate({ location, previousLocation }) {
