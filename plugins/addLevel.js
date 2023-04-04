@@ -16,6 +16,12 @@ const addLevel = () => {
         document.querySelector('article').classList.add('level');
         document.querySelector('article').classList.add('level' + row[8]);
         document.querySelector('article').classList.add(row[8]);
+
+        // to make it work with the Algolia DocSearch
+        let knowledgelevel = document.createElement('span');
+        knowledgelevel.classList.add('knowledgelevel');
+        knowledgelevel.classList.add('visuallyhidden');
+        knowledgelevel.innerHTML = row[8];
       }
     });
   }
