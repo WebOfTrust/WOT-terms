@@ -188,7 +188,7 @@ const config = {
         // Public API key: it is safe to commit it
         apiKey: '40e269af05b488a97958164f76c326b0',
 
-        indexName: ['wot-terms', 'wot-terms-knowledgelevel'],
+        indexName: 'wot-terms',
 
         // Optional: see doc section below
         contextualSearch: true,
