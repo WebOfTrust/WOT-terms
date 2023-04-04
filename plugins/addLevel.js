@@ -22,6 +22,7 @@ const addLevel = () => {
         knowledgelevel.classList.add('knowledgelevel');
         knowledgelevel.classList.add('visuallyhidden');
         knowledgelevel.innerHTML = row[8];
+        document.querySelector('article').prepend(knowledgelevel);
       }
     });
   }
