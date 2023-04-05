@@ -8,8 +8,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Web of Trust',
-  tagline: 'Documenting everything about the Web of Trust.',
+  title: 'WebofTrust Educational site',
+  tagline:
+    'Documenting everything around KERI, ACDC, CESR, OOBI, IPEX; what else have we got?',
   url: process.env.URL,
   baseUrl: process.env.BASEURL,
   onBrokenLinks: 'warn',
@@ -234,7 +235,7 @@ const config = {
         // 3...
         //
         // Do _not_ use Infinity, the value must be a JSON-serializable integer.
-        indexDocSidebarParentCategories: 0,
+        indexDocSidebarParentCategories: 4,
 
         // whether to index blog pages
         indexBlog: false,
@@ -296,6 +297,12 @@ const config = {
     require.resolve('./plugins/animationHomepage'),
     require.resolve('./plugins/showLevels'),
     require.resolve('./plugins/insertVideo'),
+    require.resolve('./plugins/insertSubtitles'),
+    require.resolve('./plugins/dynamicTables'),
+    require.resolve('./plugins/elementGoFullScreen'),
+    require.resolve('./plugins/horizontalScrollHint'),
+    require.resolve('./plugins/useTippy'),
+    require.resolve('./plugins/writeChanges'),
   ],
 };
 

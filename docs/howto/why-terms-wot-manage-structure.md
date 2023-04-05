@@ -3,29 +3,11 @@
 To generate our static content site on the Github project page of this [WOT-terms page](https://weboftrust.github.io/WOT-terms/) repo, we have:
 
 1. wiki resources, terms in separate `.md` files in a Docusaurus directory structure
-2. a sheet called _Terms WOT manage_ (`.xls`) a central location with strict editing rights.
-3. a "comma separated" file _Terms WOT manage_ (`.csv`) exported from Excel in any directory locally. In fact it's a semi-colon-separated text file that you might get; so check the result.
+2. a sheet called _Terms WOT manage_ (`a Google sheet`) a central location with strict editing rights: [here](https://docs.google.com/spreadsheets/d/18IUa-1NSJ_8Tz_2D-VSuSQa_yf3ES1s_hovitm3Clvc/edit?pli=1#gid=209150977).
+3. From this central sheet you can go where ever you like: e.g. a "comma separated" file _Terms WOT manage_ (`.csv`) exported from the Sheet in any directory locally. In fact it's a semi-colon-separated text file that you might get; so check the result.
 
 <img src="./images/Terms-wot-manage-screen-example.png" alt="Terms-wot-manage-screen-example" width="800" />
 <img src="./images/csv-utf-8-save-as.png" alt="csv-utf-8-save-as" width="600" />
-
-4. A comma separated text file _Terms WOT manage_ (`.txt`) in the root directory of the `gh-pages` branch of `WOT-terms` repo. Use a plain text editor.
-
-<img src="./images/rename-csv-to-txt1.png" alt="Rename-csv-to-txt step1" width="400" />
-<img src="./images/rename-csv-to-txt2.png" alt="Rename-csv-to-txt step2" width="400" />
-
-#### Why not straigth export from Excel to a semi-colon separated text file.
-
-In Excel the _"save as"_ option does not provide a text export with semi-colons.\
-The third and fourth step have proven necessary to generate a semi-colon-separated text file.
-
-> Note by Henk van Cann
-> Beware of non-ascii characters still present on the first line of the file coming from Excel.
-> I trimmed them out with the `tr` command in my bash-tools to handle the sheet.
-
-```jsx
-cat ${SOURCE} | tr -cd '\11\12\40-\176' > "${INPUT}" # want to get rid of non-printable character Excel leaves in the text export
-```
 
 ## Why a sheet and why is it called Terms WOT manage?
 
@@ -67,6 +49,12 @@ Columns are comparable to _fields_ in a database. The rows are the _records_ in 
 Field _names_ are in the first row. A few columns maintain our database-like structure:
 
 - Key: a unique incremental meaningless numeric identifier. The uniqueness is not enforced by code, but by userinterface: conditional formatting colours the cells with the same value red. The Key field becomes redundant as soon as the term itself is a well-known meaningful Key and Term at the same time, like a [country code](https://www.countrycode.org).
+- Type: for filtering purposes. The field has only one character, it always fits in the general category, but maybe the terms is inherently more specific to subsequently SSI, Autonomic identifiers and finally the KERI suite.
+  - `K`: KERI suite specific terms
+  - `A`: Autonomic Identifier specific
+  - `S`: SSI specific
+  - `G`: General
+  
 - TTTTT_FKey: this columns contains foreigns key into another table or sheet. TTTTT can be a file that has terms mentioned in a video ("PhilVid") or another Glossary ("eSSIF-lab") that are related to the matching term on a specific row in our sheet.
 - Cat_CCCCC: this columns contains Categories. We consider a term from a certain category went it's mentioned regularly in the content of certain repository (e.g. 'KERI' or 'OOBI') of the WebofTrust Github site.
 
@@ -144,6 +132,7 @@ The count of terms are in the Cat_CCCCC columns after a (re)run of the counting 
 ## Why do we need this?
 
 - Key: We might need a Key field **to be able to** have a unique long-living identifier for a term in the WebofTrust domain. However, any term goes through a life cycle, with the end state of a term being well-known, unchanged for a while and unique. The `Key` field has become superfluous by then.
+- Type: We don't need this, but it's courtesy to users / learners to be able to filter or select just specific terms to SSI, Autonomic identifier space and KERI suite specific consequetively.
 - TTTTT_Fkey / TTTTT_start: We use this Foreign Key to link to other educational resources of the this term, like Youtube footage\*, webpages and other glossaries.
 - level: We assess a [level of understanding](README.md#levels-of-understanding) to meaningful study a term. Regardless this subjective and personal judgement, the filtering options are numerous:
 

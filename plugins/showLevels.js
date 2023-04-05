@@ -1,15 +1,21 @@
+/**
+ * Takes div and tr that contain data-level and show/hide these via buttons
+ *
+ */
+
 import config from '@generated/docusaurus.config';
 
 const infoMessage = {
-  level1: `<img src="${config.baseUrl}img/child-girl-kid-svgrepo-com.svg" alt="A child">Level 1`,
-  level2: `<img src="${config.baseUrl}img/graduate-svgrepo-com.svg" alt="A graduate">Level 2`,
-  level3: `<img src="${config.baseUrl}img/professor-svgrepo-com.svg" alt="Person that resembles Einstein">Level 3`,
+  level1: `<img src="${config.baseUrl}img/skill-level-basic-svgrepo-com.svg" alt="A child">Level 1`,
+  level2: `<img src="${config.baseUrl}img/skill-level-intermediate-svgrepo-com.svg" alt="A graduate">Level 2`,
+  level3: `<img src="${config.baseUrl}img/skill-level-advanced-svgrepo-com.svg" alt="Person that resembles Einstein">Level 3`,
 };
 
 const showLevelButtonClass = 'show-level';
 const showLevelButtonActiveClass = 'button--active';
 
-const showLevels = () => {
+// Main function
+const showLevels = (targetElements) => {
   // for testing is we are in de document's section, code should only run there
   const inDocSection =
     window.location.href.indexOf('/docs/') > -1 ? true : false;
@@ -57,7 +63,7 @@ const showLevels = () => {
   };
 
   const setParagraphs = (level) => {
-    const textBlocks = document.querySelectorAll('div');
+    const textBlocks = document.querySelectorAll(targetElements);
     textBlocks.forEach((p) => {
       if (p.dataset.level !== undefined) {
         p.style.display = 'none';
@@ -160,5 +166,5 @@ export function onRouteDidUpdate({ location, previousLocation }) {
   // Don't execute if we are still on the same page; the lifecycle may be fired
   // because the hash changes (e.g. when navigating between headings)
   // if (location.pathname === previousLocation?.pathname) return;
-  showLevels();
+  showLevels('div, tr');
 }

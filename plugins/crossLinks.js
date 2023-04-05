@@ -2,8 +2,16 @@ import { crossLinks } from '../crossLinksIndex';
 import config from '@generated/docusaurus.config';
 
 const doCrossLinks = () => {
+  let insertVideos;
+  document.querySelector('.markdown div.no-video-insert') === null
+    ? (insertVideos = true)
+    : (insertVideos = false);
+
   // const domElements = document.querySelectorAll('p');
-  const domElements = document.querySelectorAll('.markdown *:not(a)');
+  // const domElements = document.querySelectorAll(".markdown *:not(a)");
+  const domElements = document.querySelectorAll(
+    '.markdown div:not(.no-crosslinks) p'
+  );
 
   // part 1: replace keywords with (almost) unique ID's
   if (domElements.length > 0) {
@@ -30,17 +38,35 @@ const doCrossLinks = () => {
     domElements.forEach((element) => {
       crossLinks.forEach((textFragment) => {
         let innerText = element.innerHTML;
+
+        let strInnerTextNew =
+          `<a class='cross-link' href=${config.baseUrl}` +
+          textFragment.url +
+          '>' +
+          textFragment.keyword +
+          '</a>' +
+          ' <strong>(Level: ' +
+          textFragment.level +
+          ')</strong>';
+
+        if (textFragment.youtubeID !== undefined && insertVideos) {
+          strInnerTextNew += `<iframe class="video-test" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%" src="https://www.youtube.com/embed/${textFragment.youtubeID}?start=${textFragment.timeStart}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+        }
+        if (textFragment.video !== undefined && insertVideos) {
+          // let path = `${config.baseUrl}docs/video/video-files/${textFragment.video}#t=${textFragment.timeStart}`; // does not want to play for unknown reasons
+          let path = `${process.env.ASSETS_EXTERNAL}${textFragment.video}#t=${textFragment.timeStart}`;
+
+          strInnerTextNew += `<div class='video-inline'><p>More about ${textFragment.keyword}:</p><video controls playsinline src='${path}' controls>Your browser does not support the video tag.</video></div>`;
+        }
+
         let innerTextNew = innerText.replace(
           textFragment.randomNumber,
-          `<a href=${config.baseUrl}` +
-            textFragment.url +
-            '>' +
-            textFragment.keyword +
-            '</a>' +
-            ' <strong>(Level: ' +
-            textFragment.level +
-            ')</strong>'
+          strInnerTextNew
         );
+
+        // textFragment.youtubeID !== undefined
+        //   ? (innerTextNew += `<iframe style="overflow:hidden;height:100%;width:100%" height="100%" width="100%" src="https://www.youtube.com/embed/${textFragment.youtubeID}?start=${textFragment.timeStart}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
+        //   : null;
 
         element.innerHTML = innerTextNew;
       });

@@ -1,3 +1,4 @@
+@import './awesome-notifications.css';
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -6,7 +7,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #337DBE;
+  --ifm-color-primary: #337dbe;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -30,7 +31,7 @@
 }
 
 .hero {
-  background: #337DBE;
+  background: #337dbe;
 }
 
 .hero__image {
@@ -51,9 +52,6 @@
 .homepage--heading {
   text-align: center;
 }
-
-
-
 
 /* TEXT ANIMATION HOME PAGE */
 /* https: //codepen.io/kilianso/pen/baEWJm */
@@ -81,38 +79,29 @@
 }
 
 .pattern_line:before {
-  content: "\2502";
+  content: '\2502';
 }
 
 .pattern_circle:before {
-  content: "\2022";
+  content: '\2022';
 }
 
 .pattern_square:before {
-  content: "\220E";
+  content: '\220E';
 }
 
 /**
  * Levels
  */
-
-/* .markdown .show-level {
-  border: 1px solid grey;
-  border-radius: 7px;
-  padding: 0.2em 0.4em;
-  margin: 0 1em 1em 0;
-  display: inline-block;
-} */
-
 .show-level-buttons-info img {
-    max-width: 2em;
-    margin-right: 0.5em;
-    float: left;
+  max-width: 2em;
+  margin-right: 0.5em;
+  float: left;
 }
 
 /* clear float */
 .show-level-buttons-info:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -120,11 +109,127 @@
 /**
  * Video
  */
- /* TODO: better settings for width and height */
- .youtube-video {
+/* TODO: better settings for width and height */
+.youtube-video {
   display: block;
   border: 1px solid pink;
   margin: 0 auto 1em;
-  width: 300px;
-  height: 200px;
- }
+  /* width: 300px; */
+  /* width: 300px; */
+  /* height: 200px; */
+}
+
+video {
+  width: 100%;
+}
+video[poster] {
+  object-fit: cover;
+}
+.video-inline {
+  background: #eef9fd;
+  border: 3px solid #b2beea;
+  border-radius: 7px;
+  width: 10em;
+  float: right;
+  margin: 0 1em 1em;
+  padding: 0.5em;
+}
+
+.subtitlecontainer {
+  font-size: 1.5em;
+}
+
+.video-test {
+  border: 1px solid #222;
+  margin: 1em 0 2em;
+}
+
+/**
+* Cross Links
+*/
+.cross-link {
+  color: rgb(212, 109, 136);
+}
+
+/**
+* Tables
+*/
+table th {
+  writing-mode: vertical-lr;
+}
+
+table td,
+table th {
+  vertical-align: top;
+}
+
+.googlesheet td {
+  position: relative;
+  padding-bottom: 3em;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.googlesheet td.editable {
+  /* background: #ddeef5; */
+  outline: 3px dashed rgb(66, 64, 64);
+  font-style: italic;
+  caret-color: rgb(204, 6, 6);
+  transition: all 0.5s ease-in-out;
+}
+.googlesheet td.editable:focus {
+  outline: 5px dashed rgb(66, 64, 64);
+  transition: all 0.5s ease-in-out;
+}
+
+.googlesheet td .buttons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.googlesheet td .buttons button {
+  padding: 0.3em;
+  font-size: 0.6em;
+  margin: 0.5em !important;
+  float: right;
+  opacity: 0.3;
+}
+
+.googlesheet td .buttons button:hover {
+  opacity: 1;
+}
+
+/*table th:nth-child(7),
+table td:nth-child(7),
+table th:nth-child(8),
+table td:nth-child(8) {
+  /~ width: 20px !important; ~/
+  min-width: 5em;
+  overflow: hidden;
+
+  /~ These are technically the same, but use both ~/
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /~ This is the dangerous one in WebKit, as it breaks things wherever ~/
+  word-break: break-all;
+  /~ Instead use this non-standard one: ~/
+  word-break: break-word;
+
+  /~ Adds a hyphen where the word breaks, if supported (No Blink) ~/
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}*/
+
+/**
+ * Tippy
+ */
+.tippy-box {
+  padding: 1em;
+}

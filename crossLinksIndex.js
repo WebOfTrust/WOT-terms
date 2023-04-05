@@ -1,6 +1,16 @@
 export const crossLinks = [
-  { keyword: 'teddy bear', url: 'https://example.com/teddybear', level: 1 },
-  { keyword: 'bear', url: 'https://example.com/bear', level: 3 },
+  {
+    keyword: 'teddy bear',
+    url: 'https://example.com/teddybear',
+    level: 1,
+    timeStart: '149',
+    video: 'video1663530585.mp4',
+  },
+  {
+    keyword: 'bear',
+    url: 'https://example.com/bear',
+    level: 3,
+  },
 
   {
     keyword: 'Winnie-the-Pooh',
@@ -8,7 +18,11 @@ export const crossLinks = [
     level: 2,
   },
   ,
-  { keyword: 'Pooh', url: 'https://example.com/pooh', level: 1 },
+  {
+    keyword: 'Pooh',
+    url: 'https://example.com/pooh',
+    level: 1,
+  },
 
   {
     keyword: 'fictional',
@@ -16,7 +30,11 @@ export const crossLinks = [
     level: 1,
   },
   ,
-  { keyword: 'A. A. Milne', url: 'https://example.com/A-A-Milne', level: 4 },
+  {
+    keyword: 'A. A. Milne',
+    url: 'https://example.com/A-A-Milne',
+    level: 4,
+  },
 
   {
     keyword: 'Paddington Bear',
@@ -24,7 +42,11 @@ export const crossLinks = [
     level: 2,
   },
   ,
-  { keyword: 'Paddington', url: 'https://example.com/Paddington', level: 2 },
+  {
+    keyword: 'Paddington',
+    url: 'https://example.com/Paddington',
+    level: 2,
+  },
 
   {
     keyword: 'British fictional characters',
@@ -32,7 +54,11 @@ export const crossLinks = [
     level: 2,
   },
   ,
-  { keyword: 'characters', url: 'https://example.com/characters', level: 2 },
+  {
+    keyword: 'characters',
+    url: 'https://example.com/characters',
+    level: 2,
+  },
 
   {
     keyword: 'London Paddington station',
@@ -40,14 +66,31 @@ export const crossLinks = [
     url: 2,
   },
   ,
-  { keyword: 'Brown', url: 'https://example.com/Brown', level: 2 },
+  {
+    keyword: 'Brown',
+    url: 'https://example.com/Brown',
+    level: 2,
+  },
 
   {
     keyword: 'SAID',
     url: 'docs/terms/glossary/self-adressing-identifier',
     level: 1,
   },
-  { keyword: 'KERI', url: 'docs/terms/glossary/KERI', level: 1 },
+  {
+    keyword: 'KERI',
+    url: 'docs/terms/glossary/KERI',
+    level: 1,
+    timeStart: '12',
+    video: 'video1663530585.mp4',
+  },
+  {
+    keyword: 'controller',
+    url: 'docs/terms/glossary/controller',
+    level: 1,
+    timeStart: '2066',
+    video: 'video1663530585.mp4',
+  },
   {
     keyword: 'agent',
     url: 'docs/terms/glossary/agent',
@@ -57,20 +100,30 @@ export const crossLinks = [
     keyword: 'identifier',
     url: 'docs/terms/glossary/identifier',
     level: 1,
+    youtubeID: 'GqjsRuu0V5A',
+    timeStart: '149',
+    video: 'video1663530585.mp4',
   },
   {
     keyword: 'wallet',
     url: 'docs/terms/glossary/wallet',
     level: 1,
+    // youtubeID: 'GqjsRuu0V5A',
+    timeStart: '154',
+    video: 'video1663530585.mp4',
   },
   {
     keyword: 'KEL',
     url: 'docs/terms/glossary/KEL',
     level: 1,
+    youtubeID: 'GqjsRuu0V5A',
+    timeStart: '301',
   },
   {
     keyword: 'AID',
     url: 'docs/terms/glossary/AID',
     level: 1,
+    youtubeID: 'GqjsRuu0V5A',
+    timeStart: '1070',
   },
 ];

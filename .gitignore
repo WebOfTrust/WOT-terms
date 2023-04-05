@@ -32,3 +32,6 @@ Split_*
 .history
 /.devcontainer
 docusaurus.config.*.js
+
+# media
+*.mp4

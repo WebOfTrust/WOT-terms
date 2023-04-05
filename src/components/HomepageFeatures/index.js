@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: '⚡ Beginner',
-    Svg: require('@site/static/img/child-girl-kid-svgrepo-com.svg').default,
+    Svg: require('@site/static/img/skill-level-basic-svgrepo-com.svg').default,
     description: (
       <>
         A beginner is still an expert in the field of identity. Triggered by
@@ -15,12 +15,14 @@ const FeatureList = [
   },
   {
     title: '⚡ Advanced',
-    Svg: require('@site/static/img/graduate-svgrepo-com.svg').default,
+    Svg: require('@site/static/img/skill-level-intermediate-svgrepo-com.svg')
+      .default,
     description: <>A skilled power user.</>,
   },
   {
     title: '⚡ Expert',
-    Svg: require('@site/static/img/professor-svgrepo-com.svg').default,
+    Svg: require('@site/static/img/skill-level-advanced-svgrepo-com.svg')
+      .default,
     description: <>Technically skilled and very knowledgeable</>,
   },
 ];
