@@ -40,7 +40,7 @@
       "",
       "",
       "",
-      "Data type defined by authentic-chained-data-container specification."
+      "Loading..."
     ],
     [
       "2",
@@ -60,11 +60,11 @@
       "",
       "",
       "",
-      "An authentic data container conveys data that proves its content's authenticity."
+      "Loading..."
     ],
     [
       "3",
-      "A",
+      "S",
       "AID",
       "",
       "AID",
@@ -80,7 +80,7 @@
       "",
       "1",
       "",
-      "A self-certifying, self-sovereign identifier."
+      "Loading..."
     ],
     [
       "4",
@@ -100,7 +100,7 @@
       "1",
       "",
       "",
-      "A self-sovereign namespace."
+      "Loading..."
     ],
     [
       "5",
@@ -120,7 +120,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "6",
@@ -140,7 +140,7 @@
       "",
       "",
       "",
-      "Data acceptance with best available mechanisms providing replay attack protection."
+      "Loading..."
     ],
     [
       "7",
@@ -160,7 +160,7 @@
       "",
       "",
       "",
-      "Byzantine Fault Tolerance"
+      "Loading..."
     ],
     [
       "8",
@@ -200,7 +200,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "10",
@@ -220,7 +220,7 @@
       "",
       "",
       "",
-      "DAG, a math construct w/out cycles."
+      "Loading..."
     ],
     [
       "11",
@@ -280,7 +280,7 @@
       "1",
       "",
       "",
-      "Decentralized key mgmt infrastructure to ensure no third-party can compromise system security."
+      "Loading..."
     ],
     [
       "14",
@@ -300,7 +300,7 @@
       "",
       "",
       "",
-      "Decentralized public key infrastructure ensures no single third-party can compromise system integrity and security."
+      "Loading..."
     ],
     [
       "15",
@@ -380,7 +380,7 @@
       "1",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "19",
@@ -400,7 +400,7 @@
       "1",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "20",
@@ -540,7 +540,7 @@
       "",
       "",
       "",
-      "Judgement isn't always binary: Yes or No. Assurance comes in various levels."
+      "Loading..."
     ],
     [
       "27",
@@ -680,7 +680,7 @@
       "",
       "",
       "",
-      "Public transaction event log to securely track state anchored to a KEL."
+      "Loading..."
     ],
     [
       "34",
@@ -740,7 +740,7 @@
       "",
       "",
       "",
-      "Secure Asset Transfer Protocol; IETF protocol (and working group) in making (as of mid-2022) for transferring assets between blockchains."
+      "Loading..."
     ],
     [
       "37",
@@ -760,7 +760,7 @@
       "1",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "38",
@@ -780,7 +780,7 @@
       "1",
       "",
       "1",
-      "Self-Sovereign ID"
+      "Loading..."
     ],
     [
       "39",
@@ -800,7 +800,7 @@
       "1",
       "",
       "",
-      "TCP, a main protocol of the Internet suite."
+      "Loading..."
     ],
     [
       "40",
@@ -820,7 +820,7 @@
       "1",
       "",
       "",
-      "Provides cryptogr. proof of registry state by referencing KEL."
+      "Loading..."
     ],
     [
       "41",
@@ -840,7 +840,7 @@
       "1",
       "1",
       "1",
-      "The space where humans and machines interact."
+      "Loading..."
     ],
     [
       "42",
@@ -860,7 +860,7 @@
       "1",
       "1",
       "1",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "43",
@@ -900,7 +900,7 @@
       "",
       "",
       "1",
-      "Virtual credential."
+      "Loading..."
     ],
     [
       "45",
@@ -920,7 +920,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "46",
@@ -940,7 +940,7 @@
       "",
       "1",
       "1",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "47",
@@ -960,7 +960,7 @@
       "",
       "",
       "",
-      "Verifiable anytime, anywhere."
+      "Loading..."
     ],
     [
       "48",
@@ -1040,7 +1040,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "52",
@@ -1084,7 +1084,7 @@
     ],
     [
       "54",
-      "A",
+      "S",
       "autonomic-identity-system",
       "",
       "autonomic-identity-system",
@@ -1120,7 +1120,7 @@
       "",
       "",
       "",
-      "Self-certifying, self-admining namespace is truly self-sovereign."
+      "Loading..."
     ],
     [
       "56",
@@ -1140,7 +1140,7 @@
       "",
       "",
       "",
-      "BADA provides protection from replay attacks."
+      "Loading..."
     ],
     [
       "57",
@@ -1160,7 +1160,7 @@
       "",
       "",
       "",
-      "Associating data or an identifier with another identifier or subject (person, org., machine)."
+      "Loading..."
     ],
     [
       "58",
@@ -1220,7 +1220,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "61",
@@ -1260,7 +1260,7 @@
       "",
       "",
       "",
-      "Legal doc. of cust. materials' sequence."
+      "Loading..."
     ],
     [
       "63",
@@ -1280,7 +1280,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "64",
@@ -1380,7 +1380,7 @@
       "",
       "",
       "",
-      "Entity that can alter identities, cryptocurrencies, and verifiable credentials."
+      "Loading..."
     ],
     [
       "69",
@@ -1400,7 +1400,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "70",
@@ -1420,7 +1420,7 @@
       "",
       "",
       "",
-      "Evidence of authority, status, rights, or privileges."
+      "Loading..."
     ],
     [
       "71",
@@ -1440,7 +1440,7 @@
       "",
       "",
       "",
-      "Deal with cryptography algorithms and have API calls for each feature."
+      "Loading..."
     ],
     [
       "72",
@@ -1460,7 +1460,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "73",
@@ -1600,7 +1600,7 @@
       "",
       "",
       "",
-      "Verifying authenticity of digital messages/documents via math."
+      "Loading..."
     ],
     [
       "80",
@@ -1620,7 +1620,7 @@
       "1",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "81",
@@ -1880,7 +1880,7 @@
       "",
       "",
       "",
-      "Uniquely identify public identities; point to something/someone."
+      "Loading..."
     ],
     [
       "94",
@@ -1900,7 +1900,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "95",
@@ -1920,7 +1920,7 @@
       "1",
       "",
       "",
-      "KERI's first event to establish an identifier."
+      "Loading..."
     ],
     [
       "96",
@@ -1940,7 +1940,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "97",
@@ -1960,7 +1960,7 @@
       "1",
       "",
       "",
-      "Parts of a reason, idea, or opinion don't agree, or don't agree with something else."
+      "Loading..."
     ],
     [
       "98",
@@ -1980,7 +1980,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "99",
@@ -2000,7 +2000,7 @@
       "1",
       "",
       "",
-      "A status of disagreement among an entity's parts of reason, idea, or opinion."
+      "Loading..."
     ],
     [
       "100",
@@ -2040,7 +2040,7 @@
       "",
       "",
       "",
-      "Provides uniform issuance and presentation of ACDCs securely."
+      "Loading..."
     ],
     [
       "102",
@@ -2060,7 +2060,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "103",
@@ -2340,7 +2340,7 @@
       "",
       "",
       "",
-      "LoA, when a judgement isn't binary (Yes/No), there are levels of assurance."
+      "Loading..."
     ],
     [
       "117",
@@ -2540,7 +2540,7 @@
       "",
       "",
       "",
-      "Non-normative theories don't provide answers, but rather describe potential outcomes or predict effects of certain actions."
+      "Loading..."
     ],
     [
       "127",
@@ -2560,7 +2560,7 @@
       "",
       "",
       "",
-      "Authors can't dispute authorship or validity of associated contracts, signatures, or commitments."
+      "Loading..."
     ],
     [
       "128",
@@ -2580,7 +2580,7 @@
       "",
       "",
       "",
-      "No ability to transfer control of a digital asset without obstruction or loss."
+      "Loading..."
     ],
     [
       "129",
@@ -2600,7 +2600,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "130",
@@ -2620,7 +2620,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "131",
@@ -2640,7 +2640,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "132",
@@ -2720,7 +2720,7 @@
       "",
       "",
       "",
-      "Proof of rights/permissions on data."
+      "Loading..."
     ],
     [
       "136",
@@ -2740,7 +2740,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "137",
@@ -2760,7 +2760,7 @@
       "",
       "",
       "",
-      "Historic docs of cryptographic keys, data consistency, and credentials."
+      "Loading..."
     ],
     [
       "138",
@@ -2800,7 +2800,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "140",
@@ -2820,7 +2820,7 @@
       "",
       "",
       "",
-      "System behavior dependent on sequence or timing of external, uncontrollable events."
+      "Loading..."
     ],
     [
       "141",
@@ -2840,7 +2840,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "142",
@@ -2860,7 +2860,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "143",
@@ -2880,7 +2880,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "144",
@@ -2900,7 +2900,7 @@
       "",
       "",
       "",
-      "Digital signatures from asymmetric key cryptography replace human trust."
+      "Loading..."
     ],
     [
       "145",
@@ -2920,7 +2920,7 @@
       "",
       "",
       "",
-      "Revoking and replacing an AID's authoritative key pairs."
+      "Loading..."
     ],
     [
       "146",
@@ -3060,7 +3060,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "153",
@@ -3140,7 +3140,7 @@
       "",
       "",
       "",
-      "Self-framing concatenated primitives expressed in text or binary can be converted between domains without loss."
+      "Loading..."
     ],
     [
       "157",
@@ -3200,7 +3200,7 @@
       "",
       "",
       "",
-      "A trust domain is an ecosystem of interactions based on trust. It binds controllers, identifiers, and key-pairs."
+      "Loading..."
     ],
     [
       "160",
@@ -3220,7 +3220,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "161",
@@ -3240,7 +3240,7 @@
       "",
       "",
       "",
-      "The quest for truth."
+      "Loading..."
     ],
     [
       "162",
@@ -3280,7 +3280,7 @@
       "",
       "",
       "",
-      "Cryptographically verify data structure for consistency and authenticity."
+      "Loading..."
     ],
     [
       "164",
@@ -3300,7 +3300,7 @@
       "",
       "",
       "",
-      "The entity cryptographically verifies data from peers, checking structure, signatures, and dates."
+      "Loading..."
     ],
     [
       "165",
@@ -3400,7 +3400,7 @@
       "",
       "",
       "",
-      "Internet Identity Workshop hosts an un-conference twice/year since 2005."
+      "Loading..."
     ],
     [
       "170",
@@ -3420,7 +3420,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "171",
@@ -3440,7 +3440,7 @@
       "",
       "",
       "",
-      "Software repo."
+      "Loading..."
     ],
     [
       "172",
@@ -3460,7 +3460,7 @@
       "",
       "",
       "",
-      "Python KERI implementation."
+      "Loading..."
     ],
     [
       "173",
@@ -3480,7 +3480,7 @@
       "",
       "",
       "",
-      "Programs that can be paused/resumed at will."
+      "Loading..."
     ],
     [
       "174",
@@ -3500,7 +3500,7 @@
       "",
       "",
       "",
-      "Input/Output"
+      "Loading..."
     ],
     [
       "175",
@@ -3520,7 +3520,7 @@
       "",
       "",
       "",
-      "Hierarchical Async Coroutines & I/O in Python"
+      "Loading..."
     ],
     [
       "176",
@@ -3540,7 +3540,7 @@
       "",
       "",
       "",
-      "Samuel M. Smith, PhD, Inventor & Lead Dev of KERI"
+      "Loading..."
     ],
     [
       "177",
@@ -3560,7 +3560,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "178",
@@ -3580,7 +3580,7 @@
       "",
       "",
       "",
-      "A replica of a system that works identically to the original."
+      "Loading..."
     ],
     [
       "179",
@@ -3600,7 +3600,7 @@
       "",
       "",
       "",
-      "A duplicate of an object, under version control, for separate modification."
+      "Loading..."
     ],
     [
       "180",
@@ -3620,7 +3620,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "181",
@@ -3640,7 +3640,7 @@
       "",
       "",
       "",
-      "Kubernetes is an open-source platform for managing containers."
+      "Loading..."
     ],
     [
       "182",
@@ -3660,7 +3660,7 @@
       "",
       "",
       "",
-      "Kubernetes CLI"
+      "Loading..."
     ],
     [
       "183",
@@ -3680,7 +3680,7 @@
       "",
       "",
       "",
-      "Digital versions of our daily life credentials (e.g., passport, driver's license) in a machine-verifiable format."
+      "Loading..."
     ],
     [
       "184",
@@ -3700,7 +3700,7 @@
       "",
       "",
       "",
-      "Docker eliminates repetitive, tedious config tasks and is used for app dev."
+      "Loading..."
     ],
     [
       "185",
@@ -3720,11 +3720,11 @@
       "",
       "",
       "",
-      "A child shell launched from a parent shell."
+      "Loading..."
     ],
     [
       "186",
-      "",
+      "S",
       "agent",
       "agent",
       "agent",
@@ -3740,7 +3740,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "187",
@@ -3760,7 +3760,7 @@
       "",
       "",
       "",
-      "Cloud agent software is installed on cloud server instances for security, monitoring and analysis."
+      "Loading..."
     ],
     [
       "188",
@@ -3780,7 +3780,7 @@
       "",
       "",
       "",
-      "Python installer packages a Python app and its dependencies into one."
+      "Loading..."
     ],
     [
       "189",
@@ -3800,7 +3800,7 @@
       "",
       "",
       "",
-      "Python interface for Apache Electron CLI."
+      "Loading..."
     ],
     [
       "190",
@@ -3820,7 +3820,7 @@
       "",
       "",
       "",
-      "UI is the interface where people and machines interact."
+      "Loading..."
     ],
     [
       "191",
@@ -3840,7 +3840,7 @@
       "",
       "",
       "",
-      "A digital signature scheme allowing a group to sign one piece of digital data."
+      "Loading..."
     ],
     [
       "192",
@@ -3860,7 +3860,7 @@
       "",
       "",
       "",
-      "Something that uniquely identifies public identities and points to someone or something else."
+      "Loading..."
     ],
     [
       "193",
@@ -3880,7 +3880,7 @@
       "",
       "",
       "",
-      "A wallet is a collection of data stores, comprising a keystore, local and remote key event log, and credential database."
+      "Loading..."
     ],
     [
       "194",
@@ -3900,7 +3900,7 @@
       "",
       "",
       "",
-      "Kli's verifiable credentials section."
+      "Loading..."
     ],
     [
       "195",
@@ -3920,7 +3920,7 @@
       "",
       "",
       "",
-      "Receives, verifies and stores key events for an ID."
+      "Loading..."
     ],
     [
       "196",
@@ -3940,7 +3940,7 @@
       "",
       "",
       "",
-      "Ensure KERI logs are immutable."
+      "Loading..."
     ],
     [
       "197",
@@ -3960,7 +3960,7 @@
       "",
       "",
       "",
-      "Managing crypto keys."
+      "Loading..."
     ],
     [
       "198",
@@ -3980,7 +3980,7 @@
       "",
       "",
       "",
-      "KLI init command."
+      "Loading..."
     ],
     [
       "199",
@@ -4000,7 +4000,7 @@
       "",
       "",
       "",
-      "A one-of-one signing keypair controls an identifier."
+      "Loading..."
     ],
     [
       "200",
@@ -4020,7 +4020,7 @@
       "",
       "",
       "",
-      "KERI's keystore holds encrypted data and private keys for AIDs."
+      "Loading..."
     ],
     [
       "201",
@@ -4040,7 +4040,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "202",
@@ -4060,7 +4060,7 @@
       "",
       "",
       "",
-      "Anchors external data to the key-state established by the last event."
+      "Loading..."
     ],
     [
       "203",
@@ -4080,7 +4080,7 @@
       "",
       "",
       "",
-      "Changes key-state, including authoritative keypair set for AID."
+      "Loading..."
     ],
     [
       "204",
@@ -4100,7 +4100,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "205",
@@ -4120,7 +4120,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "206",
@@ -4140,7 +4140,7 @@
       "",
       "",
       "",
-      "Applying an algorithm that accepts or rejects the message's authenticity."
+      "Loading..."
     ],
     [
       "207",
@@ -4160,7 +4160,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "208",
@@ -4180,7 +4180,7 @@
       "",
       "",
       "",
-      "Start an empty agent or run one against one that's already been started."
+      "Loading..."
     ],
     [
       "209",
@@ -4200,7 +4200,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "210",
@@ -4220,7 +4220,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "211",
@@ -4240,7 +4240,7 @@
       "",
       "",
       "",
-      "Delegated IDs under multi-sig control."
+      "Loading..."
     ],
     [
       "212",
@@ -4260,7 +4260,7 @@
       "",
       "",
       "",
-      "JSON (JavaScript Object Notation)"
+      "Loading..."
     ],
     [
       "213",
@@ -4280,7 +4280,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "214",
@@ -4300,7 +4300,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "215",
@@ -4320,7 +4320,7 @@
       "",
       "",
       "",
-      "File configuring parameters and initial settings for programs."
+      "Loading..."
     ],
     [
       "216",
@@ -4340,7 +4340,7 @@
       "",
       "",
       "",
-      "REST is a software architecture applied to web APIs."
+      "Loading..."
     ],
     [
       "217",
@@ -4360,7 +4360,7 @@
       "",
       "",
       "",
-      "API"
+      "Loading..."
     ],
     [
       "218",
@@ -4380,7 +4380,7 @@
       "",
       "",
       "",
-      "Curl, a command-line tool, transfers data via various network protocols."
+      "Loading..."
     ],
     [
       "219",
@@ -4400,7 +4400,7 @@
       "",
       "",
       "",
-      "HTTP requests to indicate desired actions on a resource."
+      "Loading..."
     ],
     [
       "220",
@@ -4420,7 +4420,7 @@
       "",
       "",
       "",
-      "OpenAPI (formerly Swagger) is important to KERI, CESR, and ACDC. It's open-source and has many ready-to-use extensions in JSON."
+      "Loading..."
     ],
     [
       "221",
@@ -4440,7 +4440,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "222",
@@ -4460,7 +4460,7 @@
       "",
       "",
       "",
-      "Strengthen a possibly weak key (e.g. password or passphrase) against a brute-force attack by increasing resources."
+      "Loading..."
     ],
     [
       "223",
@@ -4480,7 +4480,7 @@
       "",
       "",
       "",
-      "Many command-line programs can be set to various modes using flags, e.g., -v or --verbose for verbose mode."
+      "Loading..."
     ],
     [
       "224",
@@ -4500,7 +4500,7 @@
       "",
       "",
       "",
-      "Keys for this identifier can't be rotated, so it's non-transferable."
+      "Loading..."
     ],
     [
       "225",
@@ -4520,7 +4520,7 @@
       "",
       "",
       "",
-      "Field in KERI data structure to describe witness threshold."
+      "Loading..."
     ],
     [
       "226",
@@ -4540,7 +4540,7 @@
       "",
       "",
       "",
-      "Min. # of valid witness signatures req'd"
+      "Loading..."
     ],
     [
       "227",
@@ -4560,7 +4560,7 @@
       "",
       "",
       "",
-      "Commitment to next key set rotation or inception event."
+      "Loading..."
     ],
     [
       "228",
@@ -4580,7 +4580,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "229",
@@ -4600,7 +4600,7 @@
       "",
       "",
       "",
-      "Binary-to-text encoding schemes representing binary data."
+      "Loading..."
     ],
     [
       "230",
@@ -4620,7 +4620,7 @@
       "",
       "",
       "",
-      "A cryptographic primitive is qualified if it has a prepended derivation code."
+      "Loading..."
     ],
     [
       "231",
@@ -4640,7 +4640,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "232",
@@ -4660,7 +4660,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "233",
@@ -4680,7 +4680,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "234",
@@ -4700,7 +4700,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "235",
@@ -4720,7 +4720,7 @@
       "",
       "",
       "",
-      "Log # increments"
+      "Loading..."
     ],
     [
       "236",
@@ -4740,7 +4740,7 @@
       "",
       "",
       "",
-      "Cryptographic commitment: collision-resistant hash of content."
+      "Loading..."
     ],
     [
       "237",
@@ -4760,7 +4760,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "238",
@@ -4780,7 +4780,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "239",
@@ -4800,7 +4800,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "240",
@@ -4820,7 +4820,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "241",
@@ -4840,7 +4840,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "242",
@@ -4860,7 +4860,7 @@
       "",
       "",
       "",
-      "When signing with a multi-key autonomic ID, a verifier knows which public key was used."
+      "Loading..."
     ],
     [
       "243",
@@ -4880,7 +4880,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "244",
@@ -4900,7 +4900,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "245",
@@ -4920,7 +4920,7 @@
       "",
       "",
       "",
-      "A deterministic identifier embedded in content, making it and data tamper-evident."
+      "Loading..."
     ],
     [
       "246",
@@ -4940,7 +4940,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "247",
@@ -4960,7 +4960,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "248",
@@ -4980,7 +4980,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "249",
@@ -5000,7 +5000,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "250",
@@ -5020,7 +5020,7 @@
       "",
       "",
       "",
-      "SSI infrastructure consists of tech components deployed globally."
+      "Loading..."
     ],
     [
       "251",
@@ -5040,7 +5040,7 @@
       "",
       "",
       "",
-      "Hyperledger Indy is a private blockchain-based SSI system."
+      "Loading..."
     ],
     [
       "252",
@@ -5060,7 +5060,7 @@
       "",
       "",
       "",
-      "Transferring control of an identifier from a ledger/blockchain to KERI's verifiable KEL data structure."
+      "Loading..."
     ],
     [
       "253",
@@ -5080,7 +5080,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "254",
@@ -5100,7 +5100,7 @@
       "",
       "",
       "",
-      "Hyperledger Aries offers an interoperable toolkit for creating, transmitting, and storing verifiable digital credentials."
+      "Loading..."
     ],
     [
       "255",
@@ -5120,7 +5120,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "256",
@@ -5140,7 +5140,7 @@
       "",
       "",
       "",
-      "Reference to web resource specifying its location on computer network and retrieving mechanism."
+      "Loading..."
     ],
     [
       "257",
@@ -5160,7 +5160,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "258",
@@ -5180,7 +5180,7 @@
       "",
       "",
       "",
-      "This is a web transmission control protocol service endpoint."
+      "Loading..."
     ],
     [
       "259",
@@ -5200,7 +5200,7 @@
       "",
       "",
       "",
-      "Someone validating launches an inquiry at KERI witness."
+      "Loading..."
     ],
     [
       "260",
@@ -5220,7 +5220,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "261",
@@ -5240,7 +5240,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "262",
@@ -5260,7 +5260,7 @@
       "",
       "",
       "",
-      "XBRL, a digital business reporting standard."
+      "Loading..."
     ],
     [
       "263",
@@ -5280,7 +5280,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "264",
@@ -5300,7 +5300,7 @@
       "",
       "",
       "",
-      "Password Manager."
+      "Loading..."
     ],
     [
       "265",
@@ -5320,7 +5320,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "266",
@@ -5340,7 +5340,7 @@
       "",
       "",
       "",
-      "Creds, OOB Intro"
+      "Loading..."
     ],
     [
       "267",
@@ -5360,7 +5360,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "268",
@@ -5380,7 +5380,7 @@
       "",
       "",
       "",
-      "No one is trusted in a Zero Trust approach."
+      "Loading..."
     ],
     [
       "269",
@@ -5400,7 +5400,7 @@
       "",
       "",
       "",
-      "Functional components can register and advertise Credential Types disclosed by Governing Parties."
+      "Loading..."
     ],
     [
       "270",
@@ -5420,7 +5420,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "271",
@@ -5440,7 +5440,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "272",
@@ -5460,7 +5460,7 @@
       "",
       "",
       "",
-      "KERI protocol must track temp. storage locations due to its async. nature."
+      "Loading..."
     ],
     [
       "273",
@@ -5480,7 +5480,7 @@
       "",
       "",
       "",
-      "Get mailbox notifications from KERI system via streaming service for U/I agent."
+      "Loading..."
     ],
     [
       "274",
@@ -5500,7 +5500,7 @@
       "",
       "",
       "",
-      "Cryptographic proof in secondary & primary root-of-trust."
+      "Loading..."
     ],
     [
       "275",
@@ -5520,7 +5520,7 @@
       "",
       "",
       "",
-      "An identifier is 'authoritative' due to its accuracy, renown, honor, and respect."
+      "Loading..."
     ],
     [
       "276",
@@ -5540,7 +5540,7 @@
       "",
       "",
       "1",
-      "Qualified VLEI issuer and contracting party qualified by GLEIF."
+      "Loading..."
     ],
     [
       "277",
@@ -5560,7 +5560,7 @@
       "",
       "",
       "1",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "278",
@@ -5580,7 +5580,7 @@
       "",
       "",
       "1",
-      "A valid credential within 90-day grace period."
+      "Loading..."
     ],
     [
       "279",
@@ -5600,7 +5600,7 @@
       "",
       "",
       "1",
-      "Multiple, independently valid credentials issued by same issuer."
+      "Loading..."
     ],
     [
       "280",
@@ -5620,7 +5620,7 @@
       "",
       "",
       "1",
-      "A person representing a Legal Entity in a role context with an issued ECR vLEI Credential."
+      "Loading..."
     ],
     [
       "281",
@@ -5640,7 +5640,7 @@
       "",
       "",
       "1",
-      "A person representing a Legal Entity in a role context with an issued ECR vLEI Credential."
+      "Loading..."
     ],
     [
       "282",
@@ -5660,7 +5660,7 @@
       "",
       "",
       "1",
-      "A GLEIF rep authorized to verify, issue QVI vLEI Credential."
+      "Loading..."
     ],
     [
       "283",
@@ -5680,7 +5680,7 @@
       "",
       "",
       "1",
-      "A GLEIF rep authorized to verify, issue QVI vLEI Credential."
+      "Loading..."
     ],
     [
       "284",
@@ -5700,7 +5700,7 @@
       "",
       "",
       "1",
-      "Global LEI Foundation"
+      "Loading..."
     ],
     [
       "285",
@@ -5720,7 +5720,7 @@
       "",
       "",
       "1",
-      "Rep. of legal entity authorized to officially act on their behalf."
+      "Loading..."
     ],
     [
       "286",
@@ -5740,7 +5740,7 @@
       "",
       "",
       "1",
-      "Rep. of legal entity authorized to officially act on their behalf."
+      "Loading..."
     ],
     [
       "287",
@@ -5840,7 +5840,7 @@
       "",
       "",
       "1",
-      "Person holding a VLEI credential and representing a legal entity in an official role."
+      "Loading..."
     ],
     [
       "292",
@@ -5860,7 +5860,7 @@
       "",
       "",
       "1",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "293",
@@ -5880,7 +5880,7 @@
       "",
       "",
       "1",
-      "QAR conducts QVI ops with GLEIF and Legal Entities."
+      "Loading..."
     ],
     [
       "294",
@@ -5900,7 +5900,7 @@
       "",
       "",
       "1",
-      "QVI's authorized rep. conducts ops. with GLEIF & legal entities."
+      "Loading..."
     ],
     [
       "295",
@@ -5980,7 +5980,7 @@
       "",
       "",
       "1",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "299",
@@ -6020,7 +6020,7 @@
       "",
       "",
       "1",
-      "Verified LEI"
+      "Loading..."
     ],
     [
       "301",
@@ -6140,7 +6140,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "307",
@@ -6180,7 +6180,7 @@
       "1",
       "",
       "",
-      "Partially keep some keys unexposed, but expose others as needed for a control change."
+      "Loading..."
     ],
     [
       "309",
@@ -6200,7 +6200,7 @@
       "1",
       "",
       "",
-      "Partially keep some keys unexposed, but expose others as needed for a control change."
+      "Loading..."
     ],
     [
       "310",
@@ -6220,7 +6220,7 @@
       "1",
       "",
       "",
-      "Split control between two sets."
+      "Loading..."
     ],
     [
       "311",
@@ -6240,7 +6240,7 @@
       "1",
       "",
       "",
-      "Reserved key pairs, not exposed."
+      "Loading..."
     ],
     [
       "312",
@@ -6260,7 +6260,7 @@
       "1",
       "",
       "",
-      "A custodian with signing authority, typically hosting the agent software."
+      "Loading..."
     ],
     [
       "313",
@@ -6280,7 +6280,7 @@
       "1",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "314",
@@ -6300,7 +6300,7 @@
       "1",
       "",
       "",
-      "Exclusive right to control an identifier."
+      "Loading..."
     ],
     [
       "315",
@@ -6320,7 +6320,7 @@
       "1",
       "",
       "",
-      "Transferable value."
+      "Loading..."
     ],
     [
       "316",
@@ -6340,7 +6340,7 @@
       "1",
       "",
       "",
-      "A reliable source that provides a comprehensive view of the facts regarding a data object."
+      "Loading..."
     ],
     [
       "317",
@@ -6360,7 +6360,7 @@
       "1",
       "",
       "",
-      "Specifying access rights/privileges to resources."
+      "Loading..."
     ],
     [
       "318",
@@ -6380,7 +6380,7 @@
       "1",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "319",
@@ -6400,7 +6400,7 @@
       "1",
       "",
       "",
-      "An application programming interface is a way for two or more programs to communicate."
+      "Loading..."
     ],
     [
       "320",
@@ -6420,7 +6420,7 @@
       "1",
       "",
       "",
-      "Public key and private key pairs."
+      "Loading..."
     ],
     [
       "321",
@@ -6440,7 +6440,7 @@
       "1",
       "1",
       "1",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "322",
@@ -6460,7 +6460,7 @@
       "1",
       "1",
       "1",
-      "A relationship between two, one enjoying, disposing of, and controlling the other sovereignly."
+      "Loading..."
     ],
     [
       "323",
@@ -6480,7 +6480,7 @@
       "1",
       "",
       "1",
-      "Every party is autonomous in managing and operating its own knowledge."
+      "Loading..."
     ],
     [
       "324",
@@ -6500,7 +6500,7 @@
       "",
       "",
       "",
-      "Exchange of one or more ACDCs between a Discloser and Disclosee."
+      "Loading..."
     ],
     [
       "325",
@@ -6520,7 +6520,7 @@
       "",
       "",
       "",
-      "ACDC disclosed by Discloser."
+      "Loading..."
     ],
     [
       "326",
@@ -6540,7 +6540,7 @@
       "",
       "",
       "",
-      "ACDC disclosed to Disclosee."
+      "Loading..."
     ],
     [
       "327",
@@ -6560,7 +6560,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "328",
@@ -6580,7 +6580,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "329",
@@ -6600,7 +6600,7 @@
       "",
       "",
       "",
-      "A presentation exchange where the Discloser is the Issuer of the origin ACDC (Primary)."
+      "Loading..."
     ],
     [
       "330",
@@ -6620,7 +6620,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "331",
@@ -6640,7 +6640,7 @@
       "",
       "",
       "",
-      "Presentation exchange with cross-variant Issuer commitment verifiability performs disclosure."
+      "Loading..."
     ],
     [
       "332",
@@ -6660,7 +6660,7 @@
       "",
       "",
       "",
-      "Fields of an ACDC compact variant."
+      "Loading..."
     ],
     [
       "333",
@@ -6680,7 +6680,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "334",
@@ -6700,7 +6700,7 @@
       "",
       "",
       "",
-      "IPEX's most elaborate form of disclosure includes chain-link confidential and contingent disclosure, both contractually protected."
+      "Loading..."
     ],
     [
       "335",
@@ -6720,7 +6720,7 @@
       "",
       "",
       "",
-      "Recording a document as a legal contract, securely linked to other systems."
+      "Loading..."
     ],
     [
       "336",
@@ -6760,7 +6760,7 @@
       "1",
       "",
       "",
-      "An eclipse attack is a P2P network-based attack wherein an attacker tries to isolate a node from the rest of the network."
+      "Loading..."
     ],
     [
       "338",
@@ -6780,7 +6780,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "339",
@@ -6800,7 +6800,7 @@
       "1",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "340",
@@ -6820,7 +6820,7 @@
       "",
       "",
       "",
-      "A stat. random value derived from a known start point."
+      "Loading..."
     ],
     [
       "341",
@@ -6840,7 +6840,7 @@
       "",
       "",
       "",
-      "Acceptance of outcome."
+      "Loading..."
     ],
     [
       "342",
@@ -6860,7 +6860,7 @@
       "",
       "",
       "",
-      "Verifying data cryptographically from peers (structure, signatures, dates)."
+      "Loading..."
     ],
     [
       "343",
@@ -6880,7 +6880,7 @@
       "",
       "",
       "",
-      "Keys can be rotated to transfer control of long-lived identifiers."
+      "Loading..."
     ],
     [
       "344",
@@ -6900,7 +6900,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "345",
@@ -6920,7 +6920,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "346",
@@ -6940,7 +6940,7 @@
       "",
       "",
       "",
-      "ACDC is a verifiable data structure part of a graph with node and edge fragments."
+      "Loading..."
     ],
     [
       "347",
@@ -6960,7 +6960,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "348",
@@ -6980,7 +6980,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "349",
@@ -7000,7 +7000,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "350",
@@ -7020,7 +7020,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "351",
@@ -7040,7 +7040,7 @@
       "",
       "",
       "",
-      "A \"realm of administrative autonomy\" online identified by a string."
+      "Loading..."
     ],
     [
       "352",
@@ -7060,7 +7060,7 @@
       "",
       "",
       "",
-      "Autonomous space's identifier."
+      "Loading..."
     ],
     [
       "353",
@@ -7080,7 +7080,7 @@
       "",
       "",
       "",
-      "An official digital record book, usually refering to one instance in a multi-tenant registry."
+      "Loading..."
     ],
     [
       "354",
@@ -7100,7 +7100,7 @@
       "",
       "",
       "",
-      "Self-framing concatenated primitives expressed in text or binary can be converted between domains without loss."
+      "Loading..."
     ],
     [
       "356",
@@ -7120,7 +7120,7 @@
       "",
       "",
       "",
-      "Interoperability is a product or system's ability to work with other products or systems."
+      "Loading..."
     ],
     [
       "357",
@@ -7140,7 +7140,7 @@
       "",
       "",
       "",
-      "Interoperability is a product or system's ability to work with other products or systems."
+      "Loading..."
     ],
     [
       "358",
@@ -7160,7 +7160,7 @@
       "",
       "",
       "",
-      "Low-level cryptographic algorithm used for building computer security systems, such as one-way hash functions and encryption functions."
+      "Loading..."
     ],
     [
       "359",
@@ -7180,7 +7180,7 @@
       "",
       "",
       "",
-      "Joining character strings end-to-end, e.g. 'snow' + 'ball' = 'snowball'."
+      "Loading..."
     ],
     [
       "360",
@@ -7200,7 +7200,7 @@
       "",
       "",
       "",
-      "A method of combining multiple analog or digital signals into one signal over a shared medium is used to share a scarce resource."
+      "Loading..."
     ],
     [
       "361",
@@ -7220,7 +7220,7 @@
       "",
       "",
       "",
-      "Data processing elements connected in series with the output of one element being the input of the next."
+      "Loading..."
     ],
     [
       "362",
@@ -7240,7 +7240,7 @@
       "",
       "",
       "",
-      "Codes support groups of primitives, enabling pipelining."
+      "Loading..."
     ],
     [
       "363",
@@ -7280,7 +7280,7 @@
       "",
       "",
       "",
-      "Codes support groups of primitives, enabling pipelining."
+      "Loading..."
     ],
     [
       "365",
@@ -7300,7 +7300,7 @@
       "",
       "",
       "",
-      "Codes support groups of primitives, enabling pipelining."
+      "Loading..."
     ],
     [
       "366",
@@ -7320,7 +7320,7 @@
       "",
       "",
       "",
-      "Codes support groups of primitives, enabling pipelining."
+      "Loading..."
     ],
     [
       "367",
@@ -7340,7 +7340,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "368",
@@ -7360,7 +7360,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "369",
@@ -7380,7 +7380,7 @@
       "",
       "",
       "",
-      "Prepending a string with leading pad characters to align it to a certain length in bits or bytes."
+      "Loading..."
     ],
     [
       "370",
@@ -7400,7 +7400,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "371",
@@ -7420,7 +7420,7 @@
       "",
       "",
       "",
-      "Character used to fill empty space."
+      "Loading..."
     ],
     [
       "372",
@@ -7440,7 +7440,7 @@
       "",
       "",
       "",
-      "Pre-pad characters added to fill empty space."
+      "Loading..."
     ],
     [
       "373",
@@ -7460,7 +7460,7 @@
       "",
       "",
       "",
-      "A code table is a simple, comprehensive resource for searching codes online."
+      "Loading..."
     ],
     [
       "374",
@@ -7480,7 +7480,7 @@
       "",
       "",
       "",
-      "The first char in the CESR stream code determines which code table to use."
+      "Loading..."
     ],
     [
       "375",
@@ -7500,7 +7500,7 @@
       "",
       "",
       "",
-      "A VLEI Agent that receives credential presentations and revocation notices."
+      "Loading..."
     ],
     [
       "376",
@@ -7520,7 +7520,7 @@
       "",
       "",
       "",
-      "A web client event signing & key pair creation app that reduces KERI usage."
+      "Loading..."
     ],
     [
       "377",
@@ -7540,7 +7540,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "378",
@@ -7560,7 +7560,7 @@
       "",
       "",
       "",
-      "Sally vLEI Audit Reporting Agent is a reporting server that receives credentials presentations and revocation notices."
+      "Loading..."
     ],
     [
       "379",
@@ -7580,7 +7580,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "380",
@@ -7600,7 +7600,7 @@
       "",
       "",
       "",
-      "Chain-Link Confidential, a disclosure mechanism for credentials."
+      "Loading..."
     ],
     [
       "381",
@@ -7620,7 +7620,7 @@
       "",
       "",
       "",
-      "After rebooting, a stream processor searches for framing info to parse stream elements."
+      "Loading..."
     ],
     [
       "382",
@@ -7640,7 +7640,7 @@
       "",
       "",
       "",
-      "ACDC credential, signed and its proofs anchored in key event logs, intermediate variant."
+      "Loading..."
     ],
     [
       "383",
@@ -7660,7 +7660,7 @@
       "",
       "",
       "",
-      "The briefest, most discreet ACDC credential."
+      "Loading..."
     ],
     [
       "384",
@@ -7680,7 +7680,7 @@
       "",
       "",
       "",
-      "The most extensive, revealing, and user-friendly ACDC-based credential."
+      "Loading..."
     ],
     [
       "385",
@@ -7700,7 +7700,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "386",
@@ -7720,7 +7720,7 @@
       "",
       "",
       "",
-      "CRUD: the traditional client-server database update policy."
+      "Loading..."
     ],
     [
       "387",
@@ -7740,7 +7740,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "388",
@@ -7760,7 +7760,7 @@
       "",
       "",
       "",
-      "A decentralized control peer doesn't create records like a server."
+      "Loading..."
     ],
     [
       "389",
@@ -7780,7 +7780,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "390",
@@ -7800,7 +7800,7 @@
       "",
       "",
       "",
-      "Proof of unambiguous assessment of the information's wholeness, soundness and unimpairedness."
+      "Loading..."
     ],
     [
       "391",
@@ -7820,7 +7820,7 @@
       "",
       "",
       "",
-      "#ERROR!"
+      "Loading..."
     ],
     [
       "392",
@@ -7900,7 +7900,7 @@
       "",
       "",
       "",
-      "Python KERI implementation."
+      "Loading..."
     ],
     [
       "396",
@@ -7920,7 +7920,7 @@
       "",
       "",
       "",
-      "RUST-based KERI."
+      "Loading..."
     ],
     [
       "397",
@@ -7940,7 +7940,7 @@
       "",
       "",
       "",
-      "PII"
+      "Loading..."
     ],
     [
       "398",
@@ -8020,7 +8020,7 @@
       "",
       "",
       "",
-      "KERI for Web Auth"
+      "Loading..."
     ],
     [
       "402",
@@ -8040,7 +8040,7 @@
       "",
       "",
       "",
-      "A KERI implementation sacrificing performance or other non-security features for usability."
+      "Loading..."
     ],
     [
       "403",
@@ -8060,7 +8060,7 @@
       "",
       "",
       "",
-      "KERI: Request auth. method for replay protection."
+      "Loading..."
     ],
     [
       "404",
@@ -8080,7 +8080,7 @@
       "",
       "",
       "",
-      "KERI: Request auth. method for replay protection."
+      "Loading..."
     ],
     [
       "405",
@@ -8222,8 +8222,8 @@
       "",
       "partial-disclosure",
       "",
-      "",
       "partial-disclosure",
+      "",
       "https://github.com/trustoverip/acdc/wiki/partial-disclosure"
     ],
     [
@@ -8231,24 +8231,36 @@
       "",
       "selective-disclosure",
       "",
-      "",
       "selective-disclosure",
+      "",
       "https://github.com/trustoverip/acdc/wiki/selective-disclosure"
     ],
     [
       "422",
+      "G",
+      "full-disclosure",
       "",
       "full-disclosure",
       "",
-      "",
-      "full-disclosure",
       "https://github.com/trustoverip/acdc/wiki/full-disclosure"
     ],
     [
-      "423"
+      "423",
+      "K",
+      "threshold-of-accountable-duplicity",
+      "",
+      "threshold-of-accountable-duplicity",
+      "Controller provides itself with any degree of protection by giving a minimum number of confirming witnesses sufficient given a certain accountability.",
+      "https://github.com/trustoverip/acdc/wiki/threshold-of-accountable-duplicity"
     ],
     [
-      "424"
+      "424",
+      "K",
+      "TOAD",
+      "",
+      "TOAD",
+      "threshold of accountable duplicity; provided by controller concerning witnesses",
+      "https://github.com/trustoverip/acdc/wiki/TOAD"
     ],
     [
       "425"
