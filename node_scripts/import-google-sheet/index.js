@@ -2,6 +2,8 @@
 
 // This script should be run from the root of the project
 
+//TODO: create directories if they do not exist yet
+
 // const json2md = require('json2md');
 const fs = require('fs');
 const https = require('https');
@@ -96,8 +98,6 @@ function createMarkDownFiles(content) {
     function levelConvertor(level) {
       // alert: string, not number
       if (level === '1') {
-        return 1;
-      } else if (level === '2') {
         return 1;
       } else if (level === '3') {
         return 2;
