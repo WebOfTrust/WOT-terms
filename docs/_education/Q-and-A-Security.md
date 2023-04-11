@@ -1088,3 +1088,11 @@ Byzantine fault tolerant total ordering is the hard problem of distributed conse
 
 Both are simpler consensus mechanisms compared to DLT algorithms. Distributed consensus describes a family of algorithms of which BFT Total Ordering distributed consensus is a subset. Pretty much all cloud databases that have redundant copies use some form of distributed consensus for synchronizing the copies of the database. They all use some form of authentication for securing that consensus but they are not in any real sense of the term  using Byzantine Fault tolerant total ordering distributed consensus. Setting up  witness pools and watcher pools in KERI is of comparable complexity to spinning up a redundant Postgres or CouchDB cluster. So KERI's guarantees come from nothing much more complicated than that. Nobody thinks that a CouchDB cluster is too complex to understand but few actually know the algorithmic details of its low level of distributed consensus.\
 (*SamMSmith*)
+
+### ***Q: How can I bind external key material to AIDs in KERI?
+*How can I bind external key material to AIDs, such that the AID retains its own key, but picks up an association to an additional key that has meaning elsewhere?*
+
+In ascending degree of security:
+1. BADA policy, you don't anchor to a KEL. It's a date-time stamp together with the keystate
+2. Put a seal in your KEL. You can do this by creating an interaction event with the KLI.
+3. Add a TEL for the key material and thus add additional security 
