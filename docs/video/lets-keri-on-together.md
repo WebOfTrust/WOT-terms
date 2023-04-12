@@ -4,6 +4,7 @@ title: Let's KERI on together
 
 ## The video
 
+<!-- TODO: use path from /env Can't get this working -->
 <video controls src='https://dwarshuis.com/video/WOT-terms/video1663530585.mp4' playsInline={true} poster='https://dwarshuis.com/video/WOT-terms/WOT-educational-video.png' />
 
 <div className="subtitlecontainer alert alert--info margin-bottom--lg">okay and I will show slides all right so this is the presentation I did at IIW called 'Let's</div>
