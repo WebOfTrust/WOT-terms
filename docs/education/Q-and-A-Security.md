@@ -1,6 +1,6 @@
 # Q&A about KERI's Security model and Guarantees
 
-<img src="../images/Keri_logo_color_on_white.png" alt="KERI logo" border="0" width="400">
+<img src="../images/Keri_logo_color_on_white.png" alt="KERI logo" border="0" width="400" />
 
 This document is part two of [Q-and-A](./Q-and-A.md). Both files shares a common [Glossary](./Glossary.md), KERI specific and more generic decentralized Identity ones, that has:
 
@@ -145,7 +145,7 @@ We've done our best to protect the privacy of the Github by investigating the im
 * [Q&A section KERI security considerations](#qa-section-keri-security-considerations)
 * [KERI operational security](#qa-section-keri-operational-security)
 * [Identifiers](#qa-section-identifiers)
-* [Event logs](#qa-section-event-logs
+* [Event logs](#qa-section-event-logs)
 * [Inconsistency and duplicity](#qa-inconsistency-and-duplicity)
 * [Key rotation](#qa-key-rotation)
 * [KEL and KERL](#qa-section-kel-and-kerl)
@@ -249,6 +249,39 @@ More on Sam Smith's career on [LinkedIN](https://www.linkedin.com/in/samuel-m-sm
 ## Q&A section KERI operational security
 
 ---
+## *Q: What is the primary root-of-trust?
+
+In KERI a root-of-trust is cryptographically verifiable all the way to its current controlling key pair in a PKI.
+
+The characteristic *primary* is one-on-one related to the **entropy** used for the creation of (the seed of) the *private keys*.
+(@henkvancann)
+
+## **Q: How can we know if random generators in crypto libraries are good or not. 
+_Is there a list of libraries that we should consider using in out projects, or a list of the ones that we should never use?_
+
+In brief: 
+In every cryptographic system **entropy** rules, and if you don't use a good `rng` (a `csprng`) you're boned from the start. This is really important for everyone in the space to understand. 
+
+Generally you want to use the one supplied by the operating system. In linux this used to be `/dev/urandom`.
+In Rust you typically use `OsRng` from the random crate in fashion. In **cesride** we rely on two variants due to the expectations of ed25519-dalek and k256, and we simply pass them to the libraries to generate keys. 
+You'd need to investigate how to get random bits in whatever language you are using, and just make sure what you are reading is about a `csprng` and not just an `rng` or `prng`.
+
+This looks like it has a lot of good info: https://crypto.stackexchange.com/questions/11345/definition-of-a-csprng 
+
+And, even a good `csprng` should be seeded well - if you can get random data from measuring user input or environmental conditions that can't be easily controlled you will generally be more resistant to attack. 
+
+> Think about the case for example, where a designer is tempted to use a radio receiver and noise to seed the RNG, but an attacker floods the space with a frequency that produces a deterministic result in the ADC or something.
+
+(Source: Jason Colburne, Feb 2023)
+
+In KERIpy we use libsodium through the python bindings.  I've never actually looked at what their documentation says about **randomness**, but here it is:
+ The library provides a set of functions to generate unpredictable data, suitable for creating secret keys.
+- On Windows systems, the `RtlGenRandom()` function is used.
+- On OpenBSD and Bitrig, the `arc4random()` function is used.
+- On recent FreeBSD and Linux kernels, the `getrandom` system call is used.
+- On other Unices, the `/dev/urandom` device is used.
+
+(Source: Philip Feairheller, Feb 2023)
 
 ## *Q: What is the main component of KERI's security?
 
@@ -414,7 +447,7 @@ It's not tracking balance, it's tracking key state.
 ## **Q: According to the SSI Book KERI will never be able to substitute the internet conventional PKI infra. Right?
 
 [SSI Book](https://livebook.manning.com/book/self-sovereign-identity/chapter-8/v-9/144): "As powerful as this (read KERI-like) solution appears, completely self-certifying identifiers have *one major Achilles heel*: the controller’s identifier needs to change every time the public key is rotated. As we will explain further in [chapter 10](#https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/10-ssi-key-management.pdf) on decentralized key management, key rotation—switching from one public/private key pair to a different one—is a fundamental security best practice in all types of PKI. Thus the inability for self-certifying identifiers alone to support key rotation has effectively prevented their adoption as an alternative to conventional PKI.\
-{TBW prio 1}
+| TBW prio 1 |
 
 ## **Q: How are KERI witnesses and watchers incentivized to spread KELs and KERLs and make them available?
 
@@ -526,7 +559,7 @@ Within the assumption of both exceptions KERI complies with the GDPR rules:
 1. block-list of “deleted” KELs: a receipt of a request for erasure must naturally hold some PII, a two-party interaction might allow this to be recorded.
 2. a need to maintain system integrity/archival purposes can be a reason for maintaining some info right of erasure versus right to be forgotten. This active and passive approach reflects two slightly different interpretations of the same article (which one people use is a hint of their school of thought).
 
-<img src="../images/keri-gdpr-compliance-muggles.png" alt="KERI GDPR compliance" border="0" width="500">
+<img src="../images/keri-gdpr-compliance-muggles.png" alt="KERI GDPR compliance" border="0" width="500" />
 
 Beware that most of GDPR rules are there to protect you from being exploited. So you're not being prosecuted or being labelled as a criminal activity. It might only be illegal and somebody could hold you liable for that.
 *(@henkvancann)*
@@ -629,7 +662,7 @@ In an ephemeral context rotating the keys is the equivalent to rotating the iden
 
 In KERI the closest to 1. is DID:Key. Instead of having multiple DID methods, KERI unifies them all into one protocol.
 
-Look for more info in the KERI slide deck ["KERI for the DIDified"]({to do}).
+Look for more info in the KERI slide deck ["KERI for the DIDified"](| TBW | ).
 
 ## ***Q: Identifiers aren’t self-managing or self-certifying. That’s just not a thing?
 
@@ -657,21 +690,34 @@ Side note: user-permission-ing of watchers is where most of this verification ha
 It's the basis of the source of truth for KERI identifiers. KERI enables cryptographic proof-of-control-authority (provenance) for each identifier. A proof is in the form of an identifier’s key event receipt log (KERL), after a validator verified the registered events, in the chain of events: the key event log (KEL).\
 *(@henkvancann)*
 
-## Why is a Key Event Log crucially important?
+##  *Q: Why is a Key Event Log crucially important?
 
 Without KELs, we wouldn't have a chain of registered and signed key events for an identifier. The availability and consistency of the KEL is crucial for next steps: verification of events and duplicity checks. Without verified KELs there will be no KERL for identifiers at hand.\
 *(@henkvancann)*
 
-## How do I create a KEL?
+##  **Q: How do I create a KEL?
 
 By a key [`inception event`](./Glossary.md#inception-event). A controller creates a key pair and binds this to his/her KERI identifier.
 There will be wallet software and an API available in the course of code development and also a DID scheme (DID:UN) that invokes calls to those APIs during resolution of the DID.\
 *(@henkvancann)*
 
-## How can I trust a KEL?
+##  *Q: How can I trust a KEL?
 
-It is secured by a `Distributed Hash Table`, so internal inconsistencies are cryptographically provable. If they they are internal consistent the first level of trust is established. Furthermore a KERL is end-verifiable to the root-of-trust. You don't need the whole KERL at all times [Read more why](https://github.com/henkvancann/keri/blob/master/docs/Q-and-A.md#do-i-need-to-show-the-full-log-kel-to-anybody-i-transact-with-even-though-id-only-like-to-show-a-part-of-it-for-example-a-virtual-credential). Together with the external consistency (duplicity check)
+It is secured by a `Distributed Hash Table`, so internal inconsistencies are cryptographically provable. If they they are internal consistent the first level of trust is established. Furthermore a KERL is end-verifiable to the root-of-trust. You don't need the whole KERL at all times [Read more why](https://github.com/henkvancann/keri/blob/master/docs/Q-and-A.md#do-i-need-to-show-the-full-log-kel-to-anybody-i-transact-with-even-though-id-only-like-to-show-a-part-of-it-for-example-a-virtual-credential).\
+KEL is considered a secondary root of trust (Whitepaper, Page 60/141, Section 7.35).
 *(@henkvancann)*
+
+## **Q: Does the AID together with its KEL acts collectively as the primary root-of-trust?
+In brief: the security of an identifier does not start with a KEL, the security starts with entropy.
+
+#### The exhaustive explanation by Philip Feairheller
+It is important to remember that KERI's security is based on the layering of thresholds. The whole is greater than the sum of it's parts.
+So while it seems that with a transferable identifier (one that can be rotated), the security of the identifier starts with its KEL, it does not.
+
+As with all identifier types (transferable and non-transferable), the security starts with entropy. The randomness used to create the private key is the absolute root of trust.  Once you create the private key you retain the ability to prove control over your identifier by your ability to use the private key.
+
+With non-transferable identifiers, it ends there. With transferable identifiers, the next root-of-trust (and thus a secondary root-of-trust) is the KEL which provides the ability to rotate the keys of the identifier.
+Additional roots-of-trust layered on top of entropy and KELs include multi-sig support, delegation and witnesses.
 
 ---
 
@@ -743,9 +789,9 @@ I first wrote about in 2018, it's been public knowledge ever since. I guess peop
 
 ## *Q: What do I need to do step by step to rotate my keys?
 
-<img src="../images/key-rotation-muggles-steps1-2.png" alt="key rotation steps 1 and 2" border="0" width="500"><img src="../images/key-rotation-muggles-steps3-4.png" alt="key rotation steps 3 and 4" border="0" width="500" align="right">
-<img src="../images/key-rotation-muggles-steps5-6.png" alt="key rotation steps 5 and 6" border="0" width="500"><img src="../images/key-rotation-muggles-steps7-8.png" alt="key rotation steps 7 and 8" border="0" width="500" align="right">
-<img src="../images/key-rotation-muggles-steps9-10.png" alt="key rotation steps 9 and 10" border="0" width="500">
+<img src="../images/key-rotation-muggles-steps1-2.png" alt="key rotation steps 1 and 2" border="0" width="500"/><img src="../images/key-rotation-muggles-steps3-4.png" alt="key rotation steps 3 and 4" border="0" width="500" align="right" />
+<img src="../images/key-rotation-muggles-steps5-6.png" alt="key rotation steps 5 and 6" border="0" width="500"/><img src="../images/key-rotation-muggles-steps7-8.png" alt="key rotation steps 7 and 8" border="0" width="500" align="right" />
+<img src="../images/key-rotation-muggles-steps9-10.png" alt="key rotation steps 9 and 10" border="0" width="500" />
 
 ---
 
@@ -756,7 +802,7 @@ I first wrote about in 2018, it's been public knowledge ever since. I guess peop
 ## **Q What is the difference between KEL and KERL?
 
 The word 'Receipt' explains it all: the sender signs off the verification of the KEL done by the recipient. That *Receipt* is hosted in the KERL and is the root-of-trust for KERI.\
-<img src="../images/Direct-mode-kel-kerl.png" alt="Direct mode: kel and kerl difference charted" border="0" width="600" style="float:left">
+<img src="../images/Direct-mode-kel-kerl.png" alt="Direct mode: kel and kerl difference charted" border="0" width="600" style="float:left" />
 The analogy is the difference between a *two-way* - and a *three-way handshake*: Did I, the recipient, only verify that the sender's message was valid (two-way using KEL, arrow left to right) or did the sender *sign off the receipt* of that verification by the recipient (three-way in KERL, arrow right to left)
 *(@henkvancann)*
 
@@ -801,7 +847,7 @@ No. The service can be the same. KERI includes a cryptographic commitment to the
 
 The [KERI slide deck](https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERI2_Overview.web.pdf) has a section called the Duplicity Game.  I suggest reading through that first. Or see the [part of the SSI Meetup](https://ssimeetup.org/key-event-receipt-infrastructure-keri-secure-identifier-overlay-internet-sam-smith-webinar-58/) webinar that tackles this.\
 (*SamMSmith*)
-{TBW prio 2}
+| TBW prio 2 |
 
 ## ***Q: What is the difference between Key Event Receipt Infrastructure (KERI), and distributed hash tables (DHTs)?
 
@@ -836,7 +882,7 @@ It means that the *threshold* of the number of witnesses has been met, It doesn'
 
 ## ***Q: So what if a controller rotates 100% of the witnesses out?
 
-{TBW, just soundbites from the meeting KERI WG April 6 2021 listed below}
+| TBW, just soundbites from the meeting KERI WG April 6 2021 listed below |
 This is an extreme corner case. There is an additional requirement to add to the key state.
 
 In this situation a validator can't find the witnesses. Then they have to bootstrap from a new set of witnesses.
@@ -990,7 +1036,7 @@ Or for example TOR hidden services, these are not designed to be discoverable. I
 It depends on what you mean by resolve. The [white paper](https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf) explains the points brought up in this question.
 (*@_stevetodd*)
 
-{TBW prio 1}
+| TBW prio 1 |
 
 ## **Q : Nowhere in any paper on this planet is this a solved problem, because it's basically NP hard
 
@@ -1031,7 +1077,7 @@ A: The firmware is audited by Kudelski and can be verified with a published hash
 TBD: How can it be verified, when and by whom? If the firmware is not open source, then somebody has to draw a hash from it in an authorized situation. However, Tangem cards are EAL6+ and FIDO2 certified.
 
 On the issue of Rotation:
-{TBW prio 2}
+| TBW prio 2 |
 
 ## **Q: DHTs are not an immutable linear chronology oracle, which is the heart of the actual security problem. You claim KERI solves the security problem with DHTs?
 
@@ -1055,7 +1101,7 @@ From a Validator perspective their security is due to duplicity detection. Succe
 
 ### ***Q: Differences between blockchain-based security and KERI security
 
-* Where KERI doesn't need total ordering in its logs, blockchain do need that. What KERI needs is watchers that construct string of event in the relative order of reception of the KEL  {TBW please explain or improve this: what is this, why is it important?}
+* Where KERI doesn't need total ordering in its logs, blockchain do need that. What KERI needs is watchers that construct string of event in the relative order of reception of the KEL  | TBW please explain or improve this: what is this, why is it important? |
 * Another characteristic is that KERI identifiers are transferable and blockchain-based identifiers are not, they are bound to their ledger.
 
 ### ***Q: How does FIFO prevent effective DOS attacks in Out-of-order KAACE?
