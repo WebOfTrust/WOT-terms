@@ -1,3 +1,8 @@
+/**
+ * This plugin creates links in the content based on keywords. Keywords and urls are in a local json file.
+ *
+ */
+
 import { crossLinks } from '../crossLinksIndex';
 import config from '@generated/docusaurus.config';
 
