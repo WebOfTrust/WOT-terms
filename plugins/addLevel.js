@@ -10,7 +10,11 @@ const addLevel = () => {
     // for every row in overview.json except the first one
     overview.values.forEach((row, index) => {
       if (index < 1) return;
-      if (heading === row[4]) {
+      if (
+        heading === row[4] &&
+        // if the level is not empty
+        row[8] !== ''
+      ) {
         // add row[8] to data-set of body
         document.querySelector('article').dataset.level = row[8];
         document.querySelector('article').classList.add('level');
