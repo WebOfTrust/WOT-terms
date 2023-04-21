@@ -10,7 +10,7 @@
 import tippy from 'tippy.js';
 import 'tippy.js/themes/light.css';
 
-const useTippy = () => {
+const showDefinitionsOnHover = () => {
   let links = document.querySelectorAll('article .markdown a');
 
   links.forEach((item) => {
@@ -50,6 +50,6 @@ const useTippy = () => {
 export function onRouteDidUpdate({ location, previousLocation }) {
   // Don't execute if we are still on the same page; the lifecycle may be fired
   // because the hash changes (e.g. when navigating between headings)
-  useTippy();
+  showDefinitionsOnHover();
   if (location.pathname === previousLocation?.pathname) return;
 }
