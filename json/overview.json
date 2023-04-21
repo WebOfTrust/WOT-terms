@@ -41,7 +41,7 @@
       "",
       "",
       "",
-      "Data type defined by authentication-chained data container spec."
+      "#NAME?"
     ],
     [
       "2",
@@ -61,7 +61,7 @@
       "",
       "",
       "",
-      "An authentic data container conveys data that proves its authenticity."
+      "#NAME?"
     ],
     [
       "3",
@@ -81,7 +81,7 @@
       "",
       "1",
       "",
-      "Self-certifying, self-sovereign identifier."
+      "#NAME?"
     ],
     [
       "4",
@@ -101,7 +101,7 @@
       "1",
       "",
       "",
-      "Self-sovereign namespace."
+      "#NAME?"
     ],
     [
       "5",
@@ -121,7 +121,7 @@
       "",
       "",
       "",
-      "Authentic provenance chain; evidence of data verifiable back to origin."
+      "#NAME?"
     ],
     [
       "6",
@@ -141,7 +141,7 @@
       "",
       "",
       "",
-      "Best data acceptance, mechanism that provides replay attack protection."
+      "#NAME?"
     ],
     [
       "7",
@@ -161,7 +161,7 @@
       "",
       "",
       "",
-      "Byzantine Fault Tolerance"
+      "#NAME?"
     ],
     [
       "8",
@@ -201,7 +201,7 @@
       "",
       "",
       "",
-      "Certificate Transparency: Internet security standard for digital certificates."
+      "#NAME?"
     ],
     [
       "10",
@@ -221,7 +221,7 @@
       "",
       "",
       "",
-      "Directed acyclic graph; a mathematical construct with no cycles."
+      "#NAME?"
     ],
     [
       "11",
@@ -281,7 +281,7 @@
       "1",
       "",
       "",
-      "Decentralized key mgmt. infrastructure; ensuring no single 3rd-party compromises system integrity/security."
+      "#NAME?"
     ],
     [
       "14",
@@ -301,7 +301,7 @@
       "",
       "",
       "",
-      "Decentralized public key infrastructure ensures no single third-party can compromise system integrity and security."
+      "#NAME?"
     ],
     [
       "15",
@@ -381,7 +381,7 @@
       "1",
       "",
       "",
-      "Issuance and presentation exchange protocol; mechanism for issuing and presenting ACDCs."
+      "#NAME?"
     ],
     [
       "19",
@@ -401,7 +401,7 @@
       "1",
       "",
       "",
-      "JS Object Signing & Encryption: Method to Securely Transfer Claims."
+      "#NAME?"
     ],
     [
       "20",
@@ -541,7 +541,7 @@
       "",
       "",
       "",
-      "Judgement isn't binary; there are varying levels of assurance."
+      "#NAME?"
     ],
     [
       "27",
@@ -681,7 +681,7 @@
       "",
       "",
       "",
-      "A public transaction event log that securely tracks state anchored to KEL."
+      "#NAME?"
     ],
     [
       "34",
@@ -741,7 +741,7 @@
       "",
       "",
       "",
-      "Secure Asset Transfer Protocol (IETF); Protocol (working group) to be made by mid 2022 for transferring assets between blockchains."
+      "#NAME?"
     ],
     [
       "37",
@@ -761,7 +761,7 @@
       "1",
       "",
       "",
-      "A self-certifying ID binds an identifier to a public and private key pair cryptographically."
+      "#NAME?"
     ],
     [
       "38",
@@ -781,7 +781,7 @@
       "1",
       "",
       "1",
-      "Self-sovereign ID"
+      "#NAME?"
     ],
     [
       "39",
@@ -801,7 +801,7 @@
       "1",
       "",
       "",
-      "TCP, a main protocol of the Internet protocol suite."
+      "#NAME?"
     ],
     [
       "40",
@@ -821,7 +821,7 @@
       "1",
       "",
       "",
-      "Provides cryptographically-verified registry state by referencing the controlling KEL."
+      "#NAME?"
     ],
     [
       "41",
@@ -841,7 +841,7 @@
       "1",
       "1",
       "1",
-      "The space where humans and machines interact."
+      "#NAME?"
     ],
     [
       "42",
@@ -861,7 +861,7 @@
       "1",
       "1",
       "1",
-      "A Uniform Resource Locator (or \"web address\") is a reference to a web resource that specifies its location on a network."
+      "#NAME?"
     ],
     [
       "43",
@@ -901,7 +901,7 @@
       "",
       "",
       "1",
-      "Virtual credential."
+      "#NAME?"
     ],
     [
       "45",
@@ -921,7 +921,7 @@
       "",
       "",
       "",
-      "Verifiable data structure."
+      "#NAME?"
     ],
     [
       "46",
@@ -941,7 +941,7 @@
       "",
       "1",
       "1",
-      "A representative's service for an identity."
+      "#NAME?"
     ],
     [
       "47",
@@ -961,7 +961,7 @@
       "",
       "",
       "",
-      "Verifiable anytime, anywhere."
+      "#NAME?"
     ],
     [
       "48",
@@ -1041,7 +1041,7 @@
       "",
       "",
       "",
-      "Verifiable data tracking to origin."
+      "#NAME?"
     ],
     [
       "52",
@@ -1121,7 +1121,7 @@
       "",
       "",
       "",
-      "Self-certifying and self-admining, this namespace is self-sovereign."
+      "#NAME?"
     ],
     [
       "56",
@@ -1141,7 +1141,7 @@
       "",
       "",
       "",
-      "BADA provides replay attack protection."
+      "#NAME?"
     ],
     [
       "57",
@@ -1161,7 +1161,7 @@
       "",
       "",
       "",
-      "Associating data or an identifier with another identifier or a subject (person, organization or machine)."
+      "#NAME?"
     ],
     [
       "58",
@@ -1221,7 +1221,7 @@
       "",
       "",
       "",
-      "Internet security standards and frameworks for digital certificates."
+      "#NAME?"
     ],
     [
       "61",
@@ -1261,7 +1261,7 @@
       "",
       "",
       "",
-      "A legal record of the material's custody sequence."
+      "#NAME?"
     ],
     [
       "63",
@@ -1281,7 +1281,7 @@
       "",
       "",
       "",
-      "Assertion of truth, typically disputed or uncertain."
+      "#NAME?"
     ],
     [
       "64",
@@ -1381,7 +1381,7 @@
       "",
       "",
       "",
-      "Entity can alter an identity, crypto, or verifiable credential."
+      "#NAME?"
     ],
     [
       "69",
@@ -1401,7 +1401,7 @@
       "",
       "",
       "",
-      "An ID to show external parties have seen wallet connections."
+      "#NAME?"
     ],
     [
       "70",
@@ -1421,7 +1421,7 @@
       "",
       "",
       "",
-      "Evidence of authority, status, rights, and entitlement to privileges."
+      "#NAME?"
     ],
     [
       "71",
@@ -1441,7 +1441,7 @@
       "",
       "",
       "",
-      "Deal with cryptography algorithms, API functions for each feature."
+      "#NAME?"
     ],
     [
       "72",
@@ -1461,7 +1461,7 @@
       "",
       "",
       "",
-      "A digital asset designed to work as a medium of exchange, where individual coin ownership records are stored digitally."
+      "#NAME?"
     ],
     [
       "73",
@@ -1601,7 +1601,7 @@
       "",
       "",
       "",
-      "Scheme for verifying digital message authenticity."
+      "#NAME?"
     ],
     [
       "80",
@@ -1621,7 +1621,7 @@
       "1",
       "",
       "",
-      "DAG, a mathematical construct in graph theory, has the acyclic property due to its lack of cycles."
+      "#NAME?"
     ],
     [
       "81",
@@ -1881,7 +1881,7 @@
       "",
       "",
       "",
-      "Identifying public identities uniquely; pointing to someone else."
+      "#NAME?"
     ],
     [
       "94",
@@ -1901,7 +1901,7 @@
       "",
       "",
       "",
-      "An entity, usually identified by a unique ID."
+      "#NAME?"
     ],
     [
       "95",
@@ -1921,7 +1921,7 @@
       "1",
       "",
       "",
-      "KERI's first event established an identifier."
+      "#NAME?"
     ],
     [
       "96",
@@ -1941,7 +1941,7 @@
       "",
       "",
       "",
-      "Creating an AID by binding it to keypairs and associated info."
+      "#NAME?"
     ],
     [
       "97",
@@ -1961,7 +1961,7 @@
       "1",
       "",
       "",
-      "Parts of a reason, idea, or opinion disagree or don't agree with something else."
+      "#NAME?"
     ],
     [
       "98",
@@ -1981,7 +1981,7 @@
       "",
       "",
       "",
-      "An index showing which public key is used when signing with a multi-key autonomous ID."
+      "#NAME?"
     ],
     [
       "99",
@@ -2001,7 +2001,7 @@
       "1",
       "",
       "",
-      "A state of disagreement among different parts of a reason, idea, or opinion within an entity."
+      "#NAME?"
     ],
     [
       "100",
@@ -2041,7 +2041,7 @@
       "",
       "",
       "",
-      "Provides uniform issuance and presentation of ACDCs in a secure, attributed manner."
+      "#NAME?"
     ],
     [
       "102",
@@ -2061,7 +2061,7 @@
       "",
       "",
       "",
-      "JS Object Signing & Encryption: Method to Securely Transfer Claims."
+      "#NAME?"
     ],
     [
       "103",
@@ -2341,7 +2341,7 @@
       "",
       "",
       "",
-      "LoA: For judgements not binary (Yes/No), there are levels of assurance."
+      "#NAME?"
     ],
     [
       "117",
@@ -2541,7 +2541,7 @@
       "",
       "",
       "",
-      "Non-normative theories aim to describe possibilities or predict results of actions, not to provide answers."
+      "#NAME?"
     ],
     [
       "127",
@@ -2561,7 +2561,7 @@
       "",
       "",
       "",
-      "Author can't dispute authorship or contract's validity."
+      "#NAME?"
     ],
     [
       "128",
@@ -2581,7 +2581,7 @@
       "",
       "",
       "",
-      "No ability to transfer control of a digital asset without obstruction or loss."
+      "#NAME?"
     ],
     [
       "129",
@@ -2601,7 +2601,7 @@
       "",
       "",
       "",
-      "A theory dictating action."
+      "#NAME?"
     ],
     [
       "130",
@@ -2621,7 +2621,7 @@
       "",
       "",
       "",
-      "A one-way function is easy to compute on every input but hard to invert given a random input's image."
+      "#NAME?"
     ],
     [
       "131",
@@ -2641,7 +2641,7 @@
       "",
       "",
       "",
-      "KERI's item payload is a cryptographic building block."
+      "#NAME?"
     ],
     [
       "132",
@@ -2721,7 +2721,7 @@
       "",
       "",
       "",
-      "Proof of rights/permissions on data."
+      "#NAME?"
     ],
     [
       "136",
@@ -2741,7 +2741,7 @@
       "",
       "",
       "",
-      "Proof of origin for content."
+      "#NAME?"
     ],
     [
       "137",
@@ -2761,7 +2761,7 @@
       "",
       "",
       "",
-      "Historic doc of cryptographic verifiable key states, data consistency, and credentials."
+      "#NAME?"
     ],
     [
       "138",
@@ -2801,7 +2801,7 @@
       "",
       "",
       "",
-      "Verifiable Data Registry tracks issuance/revocation of credentials."
+      "#NAME?"
     ],
     [
       "140",
@@ -2821,7 +2821,7 @@
       "",
       "",
       "",
-      "System behavior dependent on sequence or timing of external, uncontrollable events."
+      "#NAME?"
     ],
     [
       "141",
@@ -2841,7 +2841,7 @@
       "",
       "",
       "",
-      "Record of key events & receipts for witnesses."
+      "#NAME?"
     ],
     [
       "142",
@@ -2861,7 +2861,7 @@
       "",
       "",
       "",
-      "Event msg. or ref. w/ 1+ witness sigs."
+      "#NAME?"
     ],
     [
       "143",
@@ -2881,7 +2881,7 @@
       "",
       "",
       "",
-      "Identifiers back each transaction event log under provenance."
+      "#NAME?"
     ],
     [
       "144",
@@ -2901,7 +2901,7 @@
       "",
       "",
       "",
-      "Trust in end-verifiable digital signatures from asymmetric key cryptography replaces human-based trust."
+      "#NAME?"
     ],
     [
       "145",
@@ -2921,7 +2921,7 @@
       "",
       "",
       "",
-      "Revoking and replacing the key pairs for an AID."
+      "#NAME?"
     ],
     [
       "146",
@@ -3061,7 +3061,7 @@
       "",
       "",
       "",
-      "Self-framing text encoding that includes type, size, and value is parseable without extra delimiters."
+      "#NAME?"
     ],
     [
       "153",
@@ -3141,7 +3141,7 @@
       "",
       "",
       "",
-      "Primitives expressed in text or binary can be converted to either domain and back without loss."
+      "#NAME?"
     ],
     [
       "157",
@@ -3201,7 +3201,7 @@
       "",
       "",
       "",
-      "A trust domain is an ecosystem relying on trust. It binds controllers, identifiers, and key-pairs."
+      "#NAME?"
     ],
     [
       "160",
@@ -3221,7 +3221,7 @@
       "",
       "",
       "",
-      "Ability to verify data validity for a purpose."
+      "#NAME?"
     ],
     [
       "161",
@@ -3241,7 +3241,7 @@
       "",
       "",
       "",
-      "Search for truth."
+      "#NAME?"
     ],
     [
       "162",
@@ -3281,7 +3281,7 @@
       "",
       "",
       "",
-      "Cryptographically verify data structure for consistency and authenticity."
+      "#NAME?"
     ],
     [
       "164",
@@ -3301,7 +3301,7 @@
       "",
       "",
       "",
-      "The entity cryptographically verifies data from peers, checking structure, signatures, and dates."
+      "#NAME?"
     ],
     [
       "165",
@@ -3401,7 +3401,7 @@
       "",
       "",
       "",
-      "Internet Identity Workshop holds bi-annual un-conferences since 2005."
+      "#NAME?"
     ],
     [
       "170",
@@ -3421,7 +3421,7 @@
       "",
       "",
       "",
-      "Key Event Receipts Infrastructure."
+      "#NAME?"
     ],
     [
       "171",
@@ -3441,7 +3441,7 @@
       "",
       "",
       "",
-      "Software repo."
+      "#NAME?"
     ],
     [
       "172",
@@ -3461,7 +3461,7 @@
       "",
       "",
       "",
-      "Python's KERI implementation."
+      "#NAME?"
     ],
     [
       "173",
@@ -3481,7 +3481,7 @@
       "",
       "",
       "",
-      "Computers that can suspend/resume programs."
+      "#NAME?"
     ],
     [
       "174",
@@ -3501,7 +3501,7 @@
       "",
       "",
       "",
-      "Input/output"
+      "#NAME?"
     ],
     [
       "175",
@@ -3521,7 +3521,7 @@
       "",
       "",
       "",
-      "Python I/O & async coroutines."
+      "#NAME?"
     ],
     [
       "176",
@@ -3541,7 +3541,7 @@
       "",
       "",
       "",
-      "Samuel M. Smith, PhD, Inventor & Lead Developer of KERI"
+      "#NAME?"
     ],
     [
       "177",
@@ -3561,7 +3561,7 @@
       "",
       "",
       "",
-      "Programming language."
+      "#NAME?"
     ],
     [
       "178",
@@ -3581,7 +3581,7 @@
       "",
       "",
       "",
-      "A replica of a system that works exactly like the original."
+      "#NAME?"
     ],
     [
       "179",
@@ -3601,7 +3601,7 @@
       "",
       "",
       "",
-      "A duplicate of an object under version control, to be modified separately."
+      "#NAME?"
     ],
     [
       "180",
@@ -3621,7 +3621,7 @@
       "",
       "",
       "",
-      "KERI CLI"
+      "#NAME?"
     ],
     [
       "181",
@@ -3641,7 +3641,7 @@
       "",
       "",
       "",
-      "Kubernetes is an open-source platform for managing containers."
+      "#NAME?"
     ],
     [
       "182",
@@ -3661,7 +3661,7 @@
       "",
       "",
       "",
-      "Kubernetes CLI."
+      "#NAME?"
     ],
     [
       "183",
@@ -3681,7 +3681,7 @@
       "",
       "",
       "",
-      "Digital versions of our daily life credentials (e.g. passport, driver's license), verifiable by machine."
+      "#NAME?"
     ],
     [
       "184",
@@ -3701,7 +3701,7 @@
       "",
       "",
       "",
-      "Docker simplifies config, streamlining app dev."
+      "#NAME?"
     ],
     [
       "185",
@@ -3721,7 +3721,7 @@
       "",
       "",
       "",
-      "A child shell started from a parent shell."
+      "#NAME?"
     ],
     [
       "186",
@@ -3741,7 +3741,7 @@
       "",
       "",
       "",
-      "Representative of an identity."
+      "#NAME?"
     ],
     [
       "187",
@@ -3761,7 +3761,7 @@
       "",
       "",
       "",
-      "Cloud agent software installed on cloud server instances for security, monitoring, and analysis."
+      "#NAME?"
     ],
     [
       "188",
@@ -3781,7 +3781,7 @@
       "",
       "",
       "",
-      "Python installer bundles app and its dependencies into one package."
+      "#NAME?"
     ],
     [
       "189",
@@ -3801,7 +3801,7 @@
       "",
       "",
       "",
-      "Python interface for Apache Electron CLI."
+      "#NAME?"
     ],
     [
       "190",
@@ -3821,7 +3821,7 @@
       "",
       "",
       "",
-      "UI is the space where humans and machines interact."
+      "#NAME?"
     ],
     [
       "191",
@@ -3841,7 +3841,7 @@
       "",
       "",
       "",
-      "Digital signature scheme allows multiple users to sign digital data."
+      "#NAME?"
     ],
     [
       "192",
@@ -3861,7 +3861,7 @@
       "",
       "",
       "",
-      "A unique identifier for public identities, pointing to someone or something."
+      "#NAME?"
     ],
     [
       "193",
@@ -3881,7 +3881,7 @@
       "",
       "",
       "",
-      "A wallet is a collection of data stores including a keystore, a local and remote key event log, and a credential database."
+      "#NAME?"
     ],
     [
       "194",
@@ -3901,7 +3901,7 @@
       "",
       "",
       "",
-      "The KLI section for listing verifiable credentials."
+      "#NAME?"
     ],
     [
       "195",
@@ -3921,7 +3921,7 @@
       "",
       "",
       "",
-      "Entity receives, verifies and stores key events for id."
+      "#NAME?"
     ],
     [
       "196",
@@ -3941,7 +3941,7 @@
       "",
       "",
       "",
-      "Ensure KERI logs are immutable."
+      "#NAME?"
     ],
     [
       "197",
@@ -3961,7 +3961,7 @@
       "",
       "",
       "",
-      "Managing keys in a crypto-system."
+      "#NAME?"
     ],
     [
       "198",
@@ -3981,7 +3981,7 @@
       "",
       "",
       "",
-      "Init, a Kli command."
+      "#NAME?"
     ],
     [
       "199",
@@ -4001,7 +4001,7 @@
       "",
       "",
       "",
-      "A one-of-one signing keypair-controlled identifier."
+      "#NAME?"
     ],
     [
       "200",
@@ -4021,7 +4021,7 @@
       "",
       "",
       "",
-      "KERI's keystore holds encrypted data and private keys for AIDs."
+      "#NAME?"
     ],
     [
       "201",
@@ -4041,7 +4041,7 @@
       "",
       "",
       "",
-      "Events controlling an identifier's keys are recorded in a Key Event Log (KEL)."
+      "#NAME?"
     ],
     [
       "202",
@@ -4061,7 +4061,7 @@
       "",
       "",
       "",
-      "Anchors external data to the key-state established by the last event."
+      "#NAME?"
     ],
     [
       "203",
@@ -4081,7 +4081,7 @@
       "",
       "",
       "",
-      "Change key-state, including authoritative keypairs for AID."
+      "#NAME?"
     ],
     [
       "204",
@@ -4101,7 +4101,7 @@
       "",
       "",
       "",
-      "Min. valid signatures for success validation:"
+      "#NAME?"
     ],
     [
       "205",
@@ -4121,7 +4121,7 @@
       "",
       "",
       "",
-      "Key Event Log is KERI's native verifiable data structure."
+      "#NAME?"
     ],
     [
       "206",
@@ -4141,7 +4141,7 @@
       "",
       "",
       "",
-      "Applying an algorithm to accept or reject a message's authenticity."
+      "#NAME?"
     ],
     [
       "207",
@@ -4161,7 +4161,7 @@
       "",
       "",
       "",
-      "Peers are equals with equal privileges in a network."
+      "#NAME?"
     ],
     [
       "208",
@@ -4181,7 +4181,7 @@
       "",
       "",
       "",
-      "Start an empty agent or run one against an existing one."
+      "#NAME?"
     ],
     [
       "209",
@@ -4201,7 +4201,7 @@
       "",
       "",
       "",
-      "Random data used as extra input for cryptographic one-way function."
+      "#NAME?"
     ],
     [
       "210",
@@ -4221,7 +4221,7 @@
       "",
       "",
       "",
-      "Delegation: empowering to act for another."
+      "#NAME?"
     ],
     [
       "211",
@@ -4241,7 +4241,7 @@
       "",
       "",
       "",
-      "Delegated ID's, multi-sig control."
+      "#NAME?"
     ],
     [
       "212",
@@ -4261,7 +4261,7 @@
       "",
       "",
       "",
-      "JSON"
+      "#NAME?"
     ],
     [
       "213",
@@ -4281,7 +4281,7 @@
       "",
       "",
       "",
-      "Key rotation controls identifier transfer."
+      "#NAME?"
     ],
     [
       "214",
@@ -4301,7 +4301,7 @@
       "",
       "",
       "",
-      "A number to uniquely identify a connection endpoint and direct data to a specific service."
+      "#NAME?"
     ],
     [
       "215",
@@ -4321,7 +4321,7 @@
       "",
       "",
       "",
-      "File configuring parameters and initial settings for computer programs."
+      "#NAME?"
     ],
     [
       "216",
@@ -4341,7 +4341,7 @@
       "",
       "",
       "",
-      "REST is a software architectural style used in web APIs."
+      "#NAME?"
     ],
     [
       "217",
@@ -4361,7 +4361,7 @@
       "",
       "",
       "",
-      "API"
+      "#NAME?"
     ],
     [
       "218",
@@ -4381,7 +4381,7 @@
       "",
       "",
       "",
-      "curl is a command-line tool for transferring data via different network protocols."
+      "#NAME?"
     ],
     [
       "219",
@@ -4401,7 +4401,7 @@
       "",
       "",
       "",
-      "HTTP requests to indicate desired action on resource."
+      "#NAME?"
     ],
     [
       "220",
@@ -4421,7 +4421,7 @@
       "",
       "",
       "",
-      "OpenAPI (formerly Swagger) is important to KERI, CESR and ACDC. It's open-source and has many ready-to-use JSON extensions."
+      "#NAME?"
     ],
     [
       "221",
@@ -4441,7 +4441,7 @@
       "",
       "",
       "",
-      "Secret data, usually a string of characters, used to authenticate users."
+      "#NAME?"
     ],
     [
       "222",
@@ -4461,7 +4461,7 @@
       "",
       "",
       "",
-      "Strengthen a key, like a password or passphrase, against brute-force attacks by increasing resources."
+      "#NAME?"
     ],
     [
       "223",
@@ -4481,7 +4481,7 @@
       "",
       "",
       "",
-      "Many command-line programs can be set to various modes using a flag, e.g., -v or --verbose for verbose mode."
+      "#NAME?"
     ],
     [
       "224",
@@ -4501,7 +4501,7 @@
       "",
       "",
       "",
-      "Keys controlled by this ID cannot be rotated, making it non-transferable."
+      "#NAME?"
     ],
     [
       "225",
@@ -4521,7 +4521,7 @@
       "",
       "",
       "",
-      "Field in KERI data struct. describing witness threshold."
+      "#NAME?"
     ],
     [
       "226",
@@ -4541,7 +4541,7 @@
       "",
       "",
       "",
-      "Min. # valid witness sigs req'd"
+      "#NAME?"
     ],
     [
       "227",
@@ -4561,7 +4561,7 @@
       "",
       "",
       "",
-      "Commitment to previous rotation or inception event's next key set."
+      "#NAME?"
     ],
     [
       "228",
@@ -4581,7 +4581,7 @@
       "",
       "",
       "",
-      "A prefix composed of a URL safe Base-64 derivation code and a Base-64 encoded public digital signing key."
+      "#NAME?"
     ],
     [
       "229",
@@ -4601,7 +4601,7 @@
       "",
       "",
       "",
-      "Binary-to-text encoding schemes represent binary data."
+      "#NAME?"
     ],
     [
       "230",
@@ -4621,7 +4621,7 @@
       "",
       "",
       "",
-      "When qualified, a cryptographic primitive has a prepended derivation code."
+      "#NAME?"
     ],
     [
       "231",
@@ -4641,7 +4641,7 @@
       "",
       "",
       "",
-      "A special character encoding the derivation process is pre-pended to the identifier."
+      "#NAME?"
     ],
     [
       "232",
@@ -4661,7 +4661,7 @@
       "",
       "",
       "",
-      "BLAKE3 is a 2020 cryptographic hash function based on Bao and BLAKE2."
+      "#NAME?"
     ],
     [
       "233",
@@ -4681,7 +4681,7 @@
       "",
       "",
       "",
-      "Data anchors are digests of digital data that uniquely identify it."
+      "#NAME?"
     ],
     [
       "234",
@@ -4701,7 +4701,7 @@
       "",
       "",
       "",
-      "A self-certifying, self-sovereign identifier"
+      "#NAME?"
     ],
     [
       "235",
@@ -4721,7 +4721,7 @@
       "",
       "",
       "",
-      "Incremental log numbers."
+      "#NAME?"
     ],
     [
       "236",
@@ -4741,7 +4741,7 @@
       "",
       "",
       "",
-      "Verifiable crypt. commit.: collision-resistant hash of content."
+      "#NAME?"
     ],
     [
       "237",
@@ -4761,7 +4761,7 @@
       "",
       "",
       "",
-      "Verifiable credential inception."
+      "#NAME?"
     ],
     [
       "238",
@@ -4781,7 +4781,7 @@
       "",
       "",
       "",
-      "A hash-linked data structure of transactions can be used to track state."
+      "#NAME?"
     ],
     [
       "239",
@@ -4801,7 +4801,7 @@
       "",
       "",
       "",
-      "Verifying a signature successfully."
+      "#NAME?"
     ],
     [
       "240",
@@ -4821,7 +4821,7 @@
       "",
       "",
       "",
-      "Establishing control authority."
+      "#NAME?"
     ],
     [
       "241",
@@ -4841,7 +4841,7 @@
       "",
       "",
       "",
-      "Lightning Memory-Mapped DB"
+      "#NAME?"
     ],
     [
       "242",
@@ -4861,7 +4861,7 @@
       "",
       "",
       "",
-      "Multi-key autonomic identification requires a verifier to know which public key was used when signing."
+      "#NAME?"
     ],
     [
       "243",
@@ -4881,7 +4881,7 @@
       "",
       "",
       "",
-      "Hex notation"
+      "#NAME?"
     ],
     [
       "244",
@@ -4901,7 +4901,7 @@
       "",
       "",
       "",
-      "Option in many OSs & programming languages providing extra info on computer activity."
+      "#NAME?"
     ],
     [
       "245",
@@ -4921,7 +4921,7 @@
       "",
       "",
       "",
-      "A deterministically-generated identifier embedded in content, making it and data tamper-evident."
+      "#NAME?"
     ],
     [
       "246",
@@ -4941,7 +4941,7 @@
       "",
       "",
       "",
-      "Backers include both KERI witnesses and ledger-registered backers."
+      "#NAME?"
     ],
     [
       "247",
@@ -4961,7 +4961,7 @@
       "",
       "",
       "",
-      "A witness registered in KERI's ledger."
+      "#NAME?"
     ],
     [
       "248",
@@ -4981,7 +4981,7 @@
       "",
       "",
       "",
-      "A native KERI witness with control authority in KEL."
+      "#NAME?"
     ],
     [
       "249",
@@ -5001,7 +5001,7 @@
       "",
       "",
       "",
-      "Digital, verifiably authentic credentials issued by GLEIF delegates."
+      "#NAME?"
     ],
     [
       "250",
@@ -5021,7 +5021,7 @@
       "",
       "",
       "",
-      "SSI infrastructure consists of tech components deployed globally."
+      "#NAME?"
     ],
     [
       "251",
@@ -5041,7 +5041,7 @@
       "",
       "",
       "",
-      "Hyperledger Indy is an SSI system on a private blockchain."
+      "#NAME?"
     ],
     [
       "252",
@@ -5061,7 +5061,7 @@
       "",
       "",
       "",
-      "Transferring control authority of an identifier from a ledger to KERI's KEL data structure."
+      "#NAME?"
     ],
     [
       "253",
@@ -5081,7 +5081,7 @@
       "",
       "",
       "",
-      "Ethereum powers cryptocurrency ether (ETH) and thousands of decentralized apps."
+      "#NAME?"
     ],
     [
       "254",
@@ -5101,7 +5101,7 @@
       "",
       "",
       "",
-      "Hyperledger Aries provides an interoperable toolkit for creating, transmitting, and storing verifiable digital credentials."
+      "#NAME?"
     ],
     [
       "255",
@@ -5121,7 +5121,7 @@
       "",
       "",
       "",
-      "A URL that clients use to access a web service."
+      "#NAME?"
     ],
     [
       "256",
@@ -5141,7 +5141,7 @@
       "",
       "",
       "",
-      "A web resource referencing its network location and retrieval mechanism."
+      "#NAME?"
     ],
     [
       "257",
@@ -5161,7 +5161,7 @@
       "",
       "",
       "",
-      "A numerical label ('192.0.2.1') linked to a network using Internet Protocol for communication."
+      "#NAME?"
     ],
     [
       "258",
@@ -5181,7 +5181,7 @@
       "",
       "",
       "",
-      "This is a web transmission control protocol service endpoint."
+      "#NAME?"
     ],
     [
       "259",
@@ -5201,7 +5201,7 @@
       "",
       "",
       "",
-      "Someone validating launches inquiry at KERI witness."
+      "#NAME?"
     ],
     [
       "260",
@@ -5221,7 +5221,7 @@
       "",
       "",
       "",
-      "Intercept, delay, or resend a message to misdirect the receiver and fraudulently attain what the attacker wants."
+      "#NAME?"
     ],
     [
       "261",
@@ -5241,7 +5241,7 @@
       "",
       "",
       "",
-      "XBRL, the standard for digital business reporting."
+      "#NAME?"
     ],
     [
       "262",
@@ -5261,7 +5261,7 @@
       "",
       "",
       "",
-      "XBRL, a standard for digital business reporting."
+      "#NAME?"
     ],
     [
       "263",
@@ -5281,7 +5281,7 @@
       "",
       "",
       "",
-      "Default state of encrypted KERI data store with passcode."
+      "#NAME?"
     ],
     [
       "264",
@@ -5301,7 +5301,7 @@
       "",
       "",
       "",
-      "Password manager."
+      "#NAME?"
     ],
     [
       "265",
@@ -5321,7 +5321,7 @@
       "",
       "",
       "",
-      "Out-of-band data intros."
+      "#NAME?"
     ],
     [
       "266",
@@ -5341,7 +5341,7 @@
       "",
       "",
       "",
-      "Credentialing, out-of-band introductions."
+      "#NAME?"
     ],
     [
       "267",
@@ -5361,7 +5361,7 @@
       "",
       "",
       "",
-      "KERI's and ACDC's Crypto Wallet is a task-oriented app for managing AIDs in ecosystems like vLEI."
+      "#NAME?"
     ],
     [
       "268",
@@ -5381,7 +5381,7 @@
       "",
       "",
       "",
-      "Zero Trust: trust no one."
+      "#NAME?"
     ],
     [
       "269",
@@ -5401,7 +5401,7 @@
       "",
       "",
       "",
-      "A Functional Component that registers and advertises Credential Types, as decided by their Governing Parties."
+      "#NAME?"
     ],
     [
       "270",
@@ -5421,7 +5421,7 @@
       "",
       "",
       "",
-      "Revoking control over an identifier's authority."
+      "#NAME?"
     ],
     [
       "271",
@@ -5441,7 +5441,7 @@
       "",
       "",
       "",
-      "Electronic authentication requiring two or more pieces of evidence for access to websites/applications."
+      "#NAME?"
     ],
     [
       "272",
@@ -5461,7 +5461,7 @@
       "",
       "",
       "",
-      "KERI protocol tracks its fully asynchronous nature in temp storage: what's waiting for what info."
+      "#NAME?"
     ],
     [
       "273",
@@ -5481,7 +5481,7 @@
       "",
       "",
       "",
-      "Mailbox notifications streaming service for agent U/I to get KERI system notifications."
+      "#NAME?"
     ],
     [
       "274",
@@ -5501,7 +5501,7 @@
       "",
       "",
       "",
-      "Crypto proof in a secondary root of trust anchored in a primary root of trust."
+      "#NAME?"
     ],
     [
       "275",
@@ -5521,7 +5521,7 @@
       "",
       "",
       "",
-      "An identifier's \"authoritativeness\" is due to its accuracy, fame, honor, and/or respect."
+      "#NAME?"
     ],
     [
       "276",
@@ -5541,7 +5541,7 @@
       "",
       "",
       "1",
-      "Qualified GLEIF issuer, contracting party."
+      "#NAME?"
     ],
     [
       "277",
@@ -5561,7 +5561,7 @@
       "",
       "",
       "1",
-      "QVI, contracting party qualified by GLEIF."
+      "#NAME?"
     ],
     [
       "278",
@@ -5581,7 +5581,7 @@
       "",
       "",
       "1",
-      "Valid credentials within 90-day grace period."
+      "#NAME?"
     ],
     [
       "279",
@@ -5601,7 +5601,7 @@
       "",
       "",
       "1",
-      "Multiple, independently-valid credentials issued by same issuer."
+      "#NAME?"
     ],
     [
       "280",
@@ -5621,7 +5621,7 @@
       "",
       "",
       "1",
-      "A person with an ECR vLEI Credential who represents a Legal Entity in a context role."
+      "#NAME?"
     ],
     [
       "281",
@@ -5641,7 +5641,7 @@
       "",
       "",
       "1",
-      "A person with an ECR vLEI Credential who represents a Legal Entity in a context role."
+      "#NAME?"
     ],
     [
       "282",
@@ -5661,7 +5661,7 @@
       "",
       "",
       "1",
-      "A GLEIF rep authorized to issue QVI vLEI Credential must verify."
+      "#NAME?"
     ],
     [
       "283",
@@ -5681,7 +5681,7 @@
       "",
       "",
       "1",
-      "A GLEIF rep authorized to issue QVI vLEI Credential must verify."
+      "#NAME?"
     ],
     [
       "284",
@@ -5701,7 +5701,7 @@
       "",
       "",
       "1",
-      "Global LEI Foundation"
+      "#NAME?"
     ],
     [
       "285",
@@ -5721,7 +5721,7 @@
       "",
       "",
       "1",
-      "Rep. of Legal Entity authorized to act officially on behalf of it."
+      "#NAME?"
     ],
     [
       "286",
@@ -5741,7 +5741,7 @@
       "",
       "",
       "1",
-      "Rep. of Legal Entity authorized to act officially on behalf of it."
+      "#NAME?"
     ],
     [
       "287",
@@ -5841,7 +5841,7 @@
       "",
       "",
       "1",
-      "A person holding a vLEI credential and representing a Legal Entity has an official role."
+      "#NAME?"
     ],
     [
       "292",
@@ -5861,7 +5861,7 @@
       "",
       "",
       "1",
-      "A person with a VLEI credential representing the legal entity."
+      "#NAME?"
     ],
     [
       "293",
@@ -5881,7 +5881,7 @@
       "",
       "",
       "1",
-      "QAR conducts QVI and GLEIF operations with legal entities."
+      "#NAME?"
     ],
     [
       "294",
@@ -5901,7 +5901,7 @@
       "",
       "",
       "1",
-      "QVI rep conducts ops with GLEIF and Legal Entities."
+      "#NAME?"
     ],
     [
       "295",
@@ -5981,7 +5981,7 @@
       "",
       "",
       "1",
-      "Rules for applying technology."
+      "#NAME?"
     ],
     [
       "299",
@@ -6021,7 +6021,7 @@
       "",
       "",
       "1",
-      "Verifiable LEI."
+      "#NAME?"
     ],
     [
       "301",
@@ -6141,7 +6141,7 @@
       "",
       "",
       "",
-      "Decentralized ID"
+      "#NAME?"
     ],
     [
       "307",
@@ -6181,7 +6181,7 @@
       "1",
       "",
       "",
-      "Change of control. Keep some keys unexposed, expose others as needed."
+      "#NAME?"
     ],
     [
       "309",
@@ -6201,7 +6201,7 @@
       "1",
       "",
       "",
-      "Change of control. Keep some keys unexposed, expose others as needed."
+      "#NAME?"
     ],
     [
       "310",
@@ -6221,7 +6221,7 @@
       "1",
       "",
       "",
-      "Split control between two sets."
+      "#NAME?"
     ],
     [
       "311",
@@ -6241,7 +6241,7 @@
       "1",
       "",
       "",
-      "Reserve key pairs, unexposed."
+      "#NAME?"
     ],
     [
       "312",
@@ -6261,7 +6261,7 @@
       "1",
       "",
       "",
-      "A custodian with signing authority, typically also hosting the running agent software."
+      "#NAME?"
     ],
     [
       "313",
@@ -6281,7 +6281,7 @@
       "1",
       "",
       "",
-      "Authority to sign on behalf of controller of an ID."
+      "#NAME?"
     ],
     [
       "314",
@@ -6301,7 +6301,7 @@
       "1",
       "",
       "",
-      "The exclusive right to control an identifier."
+      "#NAME?"
     ],
     [
       "315",
@@ -6321,7 +6321,7 @@
       "1",
       "",
       "",
-      "Transferable value."
+      "#NAME?"
     ],
     [
       "316",
@@ -6341,7 +6341,7 @@
       "1",
       "",
       "",
-      "A trusted data source providing a complete view of the truth about a data object."
+      "#NAME?"
     ],
     [
       "317",
@@ -6361,7 +6361,7 @@
       "1",
       "",
       "",
-      "Specifying access rights/privileges to resources."
+      "#NAME?"
     ],
     [
       "318",
@@ -6381,7 +6381,7 @@
       "1",
       "",
       "",
-      "A way for two or more programs to communicate."
+      "#NAME?"
     ],
     [
       "319",
@@ -6401,7 +6401,7 @@
       "1",
       "",
       "",
-      "An API, a way for two or more programs to communicate."
+      "#NAME?"
     ],
     [
       "320",
@@ -6421,7 +6421,7 @@
       "1",
       "",
       "",
-      "A public and private key pair."
+      "#NAME?"
     ],
     [
       "321",
@@ -6441,7 +6441,7 @@
       "1",
       "1",
       "1",
-      "A role that exercises its legal or rightful authority."
+      "#NAME?"
     ],
     [
       "322",
@@ -6461,7 +6461,7 @@
       "1",
       "1",
       "1",
-      "A relationship between two, one enjoys, disposes, and controls the other sovereignly."
+      "#NAME?"
     ],
     [
       "323",
@@ -6481,7 +6481,7 @@
       "1",
       "",
       "1",
-      "Every party is autonomous in managing and operating its own knowledge."
+      "#NAME?"
     ],
     [
       "324",
@@ -6501,7 +6501,7 @@
       "",
       "",
       "",
-      "Exchange of one or more ACDCs between Discloser and Disclosee."
+      "#NAME?"
     ],
     [
       "325",
@@ -6521,7 +6521,7 @@
       "",
       "",
       "",
-      "ACDC disclosed by Discloser."
+      "#NAME?"
     ],
     [
       "326",
@@ -6541,7 +6541,7 @@
       "",
       "",
       "",
-      "ACDC disclosed to Disclosee."
+      "#NAME?"
     ],
     [
       "327",
@@ -6561,7 +6561,7 @@
       "",
       "",
       "",
-      "An ACDC is issued by the issuer. The AID appears at the top of the ACDC."
+      "#NAME?"
     ],
     [
       "328",
@@ -6581,7 +6581,7 @@
       "",
       "",
       "",
-      "An ACDC can be issued to the Issuee."
+      "#NAME?"
     ],
     [
       "329",
@@ -6601,7 +6601,7 @@
       "",
       "",
       "",
-      "A special case of presentation exchange where the Discloser is the Issuer of the Primary ACDC."
+      "#NAME?"
     ],
     [
       "330",
@@ -6621,7 +6621,7 @@
       "",
       "",
       "",
-      "Chains a sequence of Disclosees, each the Discloser to the next."
+      "#NAME?"
     ],
     [
       "331",
@@ -6641,7 +6641,7 @@
       "",
       "",
       "",
-      "Presentation exchange disclosure with cross-variant issuer commitment verifiability essential."
+      "#NAME?"
     ],
     [
       "332",
@@ -6661,7 +6661,7 @@
       "",
       "",
       "",
-      "Fields of an ACDC compact variant."
+      "#NAME?"
     ],
     [
       "333",
@@ -6681,7 +6681,7 @@
       "",
       "",
       "",
-      "Issuer commits via signature to ACDC variant."
+      "#NAME?"
     ],
     [
       "334",
@@ -6701,7 +6701,7 @@
       "",
       "",
       "",
-      "IPEXs have the most elaborate form of disclosure, including both chain-link confidential and contingent disclosure."
+      "#NAME?"
     ],
     [
       "335",
@@ -6721,7 +6721,7 @@
       "",
       "",
       "",
-      "Recording a document as a contract legally, securely linking to other systems."
+      "#NAME?"
     ],
     [
       "336",
@@ -6761,7 +6761,7 @@
       "1",
       "",
       "",
-      "An Eclipse Attack is a P2P network attack in which an attacker attempts to isolate a node from the rest of the network."
+      "#NAME?"
     ],
     [
       "338",
@@ -6781,7 +6781,7 @@
       "",
       "",
       "",
-      "A watcher's indiscriminate mode."
+      "#NAME?"
     ],
     [
       "339",
@@ -6801,7 +6801,7 @@
       "1",
       "",
       "",
-      "A code of correct conduct, including communication, cryptographic, and decentralized network protocols."
+      "#NAME?"
     ],
     [
       "340",
@@ -6821,7 +6821,7 @@
       "",
       "",
       "",
-      "Statistically random value derived from a known starting point."
+      "#NAME?"
     ],
     [
       "341",
@@ -6841,7 +6841,7 @@
       "",
       "",
       "",
-      "Accepting the outcome."
+      "#NAME?"
     ],
     [
       "342",
@@ -6861,7 +6861,7 @@
       "",
       "",
       "",
-      "Cryptographically verifying peer data, such as structure, signatures, and dates."
+      "#NAME?"
     ],
     [
       "343",
@@ -6881,7 +6881,7 @@
       "",
       "",
       "",
-      "Control of this long-lasting identifier can be transferred by rotating keys."
+      "#NAME?"
     ],
     [
       "344",
@@ -6901,7 +6901,7 @@
       "",
       "",
       "",
-      "Serialized types interleaved in a unified format."
+      "#NAME?"
     ],
     [
       "345",
@@ -6921,7 +6921,7 @@
       "",
       "",
       "",
-      "Multi-signature scheme for one public key."
+      "#NAME?"
     ],
     [
       "346",
@@ -6941,7 +6941,7 @@
       "",
       "",
       "",
-      "ACDC is a verifiable data structure and part of a graph composed of node and edge fragments."
+      "#NAME?"
     ],
     [
       "347",
@@ -6961,7 +6961,7 @@
       "",
       "",
       "",
-      "An append-only, verifiable data structure, making them immutable and thus distributable and concurrency-friendly. What we sign can't be changed."
+      "#NAME?"
     ],
     [
       "348",
@@ -6981,7 +6981,7 @@
       "",
       "",
       "",
-      "Ambiguous resolution of two or more identifiers in a given namespace or scope."
+      "#NAME?"
     ],
     [
       "349",
@@ -7001,7 +7001,7 @@
       "",
       "",
       "",
-      "A centrally managed schema registry for reserving schemas within a namespace, enabling interoperable schemas labeled with a corporate or individual namespace."
+      "#NAME?"
     ],
     [
       "350",
@@ -7021,7 +7021,7 @@
       "",
       "",
       "",
-      "Registry of credential schemas based on namespaces."
+      "#NAME?"
     ],
     [
       "351",
@@ -7041,7 +7041,7 @@
       "",
       "",
       "",
-      "A realm of administrative autonomy on the internet identified by a string."
+      "#NAME?"
     ],
     [
       "352",
@@ -7061,7 +7061,7 @@
       "",
       "",
       "",
-      "Autonomous space ID."
+      "#NAME?"
     ],
     [
       "353",
@@ -7081,7 +7081,7 @@
       "",
       "",
       "",
-      "An official digital record book, usually referring to one instance in a multi-tenant registry."
+      "#NAME?"
     ],
     [
       "354",
@@ -7101,7 +7101,7 @@
       "",
       "",
       "",
-      "Primitives expressed in text or binary can be converted to either domain and back without loss."
+      "#NAME?"
     ],
     [
       "356",
@@ -7121,7 +7121,7 @@
       "",
       "",
       "",
-      "Interoperability is a product or system's ability to work with other products or systems."
+      "#NAME?"
     ],
     [
       "357",
@@ -7141,7 +7141,7 @@
       "",
       "",
       "",
-      "Interoperability is a product or system's ability to work with other products or systems."
+      "#NAME?"
     ],
     [
       "358",
@@ -7161,7 +7161,7 @@
       "",
       "",
       "",
-      "A well-established, low-level cryptography algorithm often used to build security protocols, like one-way hash functions and encryption."
+      "#NAME?"
     ],
     [
       "359",
@@ -7181,7 +7181,7 @@
       "",
       "",
       "",
-      "Joining character strings end-to-end, e.g. 'snow' + 'ball' = 'snowball'."
+      "#NAME?"
     ],
     [
       "360",
@@ -7201,7 +7201,7 @@
       "",
       "",
       "",
-      "Combining multiple analog or digital signals into one signal over a shared medium is a method to share a scarce resource."
+      "#NAME?"
     ],
     [
       "361",
@@ -7221,7 +7221,7 @@
       "",
       "",
       "",
-      "A series of data processing elements connected sequentially, with each element outputting to the next's input."
+      "#NAME?"
     ],
     [
       "362",
@@ -7241,7 +7241,7 @@
       "",
       "",
       "",
-      "Codes to specify groups of primitives, enabling pipelining."
+      "#NAME?"
     ],
     [
       "363",
@@ -7281,7 +7281,7 @@
       "",
       "",
       "",
-      "Codes to specify groups of primitives, enabling pipelining."
+      "#NAME?"
     ],
     [
       "365",
@@ -7301,7 +7301,7 @@
       "",
       "",
       "",
-      "Codes to specify groups of primitives, enabling pipelining."
+      "#NAME?"
     ],
     [
       "366",
@@ -7321,7 +7321,7 @@
       "",
       "",
       "",
-      "Codes to specify groups of primitives, enabling pipelining."
+      "#NAME?"
     ],
     [
       "367",
@@ -7341,7 +7341,7 @@
       "",
       "",
       "",
-      "Capable of lossless control transfer over IDs, keys, etc."
+      "#NAME?"
     ],
     [
       "368",
@@ -7361,7 +7361,7 @@
       "",
       "",
       "",
-      "Extending a string with trailing pad characters to align to a certain length in bits or bytes."
+      "#NAME?"
     ],
     [
       "369",
@@ -7381,7 +7381,7 @@
       "",
       "",
       "",
-      "Prepending a string with pad characters to align to a set bit/byte length."
+      "#NAME?"
     ],
     [
       "370",
@@ -7401,7 +7401,7 @@
       "",
       "",
       "",
-      "Text-to-binary or binary-to-text conversion without anticipating on composability or concatenation capability of the result."
+      "#NAME?"
     ],
     [
       "371",
@@ -7421,7 +7421,7 @@
       "",
       "",
       "",
-      "It's a character used to fill space."
+      "#NAME?"
     ],
     [
       "372",
@@ -7441,7 +7441,7 @@
       "",
       "",
       "",
-      "Added chars pre-conversion to pad empty space."
+      "#NAME?"
     ],
     [
       "373",
@@ -7461,7 +7461,7 @@
       "",
       "",
       "",
-      "A code table is a comprehensive, yet simple, internet resource for browsing and searching codes."
+      "#NAME?"
     ],
     [
       "374",
@@ -7481,7 +7481,7 @@
       "",
       "",
       "",
-      "The first character of the CESR stream's text code determines which code table to use."
+      "#NAME?"
     ],
     [
       "375",
@@ -7501,7 +7501,7 @@
       "",
       "",
       "",
-      "A VLEI agent that audits reports, receives credentials and notices of revocation."
+      "#NAME?"
     ],
     [
       "376",
@@ -7521,7 +7521,7 @@
       "",
       "",
       "",
-      "It minimizes KERI use on clients and is an event signing, keypair creation app."
+      "#NAME?"
     ],
     [
       "377",
@@ -7541,7 +7541,7 @@
       "",
       "",
       "",
-      "A third party holds money or property temporarily until a condition is met. The verb refers to handling out-of-order events in KERI."
+      "#NAME?"
     ],
     [
       "378",
@@ -7561,7 +7561,7 @@
       "",
       "",
       "",
-      "Sally vLEI Audit Reporting Agent receives credentials presentations and revocation notices."
+      "#NAME?"
     ],
     [
       "379",
@@ -7581,7 +7581,7 @@
       "",
       "",
       "",
-      "A web client event signing and key pair creation app that minimizes KERI usage on the client."
+      "#NAME?"
     ],
     [
       "380",
@@ -7601,7 +7601,7 @@
       "",
       "",
       "",
-      "Chain-link Confidential, a disclosure mechanism of credentials."
+      "#NAME?"
     ],
     [
       "381",
@@ -7621,7 +7621,7 @@
       "",
       "",
       "",
-      "After rebooting, a stream processor seeks framing info to parse stream elements."
+      "#NAME?"
     ],
     [
       "382",
@@ -7641,7 +7641,7 @@
       "",
       "",
       "",
-      "Intermediate ACDC credential signed, proofs anchored in key event logs."
+      "#NAME?"
     ],
     [
       "383",
@@ -7661,7 +7661,7 @@
       "",
       "",
       "",
-      "The briefest, most discreet ACDC credential."
+      "#NAME?"
     ],
     [
       "384",
@@ -7681,7 +7681,7 @@
       "",
       "",
       "",
-      "The most extensive, revealing and user-friendly ACDC-based credential."
+      "#NAME?"
     ],
     [
       "385",
@@ -7701,7 +7701,7 @@
       "",
       "",
       "",
-      "Read, update, nullify: new P2P end-verifiable monotonic update policy."
+      "#NAME?"
     ],
     [
       "386",
@@ -7721,7 +7721,7 @@
       "",
       "",
       "",
-      "Create, read, update, delete: the traditional policy for updating client-server databases."
+      "#NAME?"
     ],
     [
       "387",
@@ -7741,7 +7741,7 @@
       "",
       "",
       "",
-      "The internet as a giant verifiable data structure - a mental model."
+      "#NAME?"
     ],
     [
       "388",
@@ -7761,7 +7761,7 @@
       "",
       "",
       "",
-      "A decentralized, controlling peer doesn't create records like a traditional server."
+      "#NAME?"
     ],
     [
       "389",
@@ -7781,7 +7781,7 @@
       "",
       "",
       "",
-      "Info is intact and undamaged, though not necessarily correct."
+      "#NAME?"
     ],
     [
       "390",
@@ -7801,7 +7801,7 @@
       "",
       "",
       "",
-      "Proof of clear assessment of info's completeness, soundness, and integrity."
+      "#NAME?"
     ],
     [
       "391",
@@ -7821,7 +7821,7 @@
       "",
       "",
       "",
-      "A mechanism verifying integrity without needing access to a past version for comparison."
+      "#NAME?"
     ],
     [
       "392",
@@ -7901,7 +7901,7 @@
       "",
       "",
       "",
-      "Python's KERI implementation."
+      "#NAME?"
     ],
     [
       "396",
@@ -7921,7 +7921,7 @@
       "",
       "",
       "",
-      "RUST impl. of KERI"
+      "#NAME?"
     ],
     [
       "397",
@@ -7941,7 +7941,7 @@
       "",
       "",
       "",
-      "PII"
+      "#NAME?"
     ],
     [
       "398",
@@ -8021,7 +8021,7 @@
       "",
       "",
       "",
-      "KERI for Web Auth"
+      "#NAME?"
     ],
     [
       "402",
@@ -8041,7 +8041,7 @@
       "",
       "",
       "",
-      "A KERI implementation that sacrifices performance or features for usability."
+      "#NAME?"
     ],
     [
       "403",
@@ -8061,7 +8061,7 @@
       "",
       "",
       "",
-      "KERI req. auth. method for replay protection"
+      "#NAME?"
     ],
     [
       "404",
@@ -8081,7 +8081,7 @@
       "",
       "",
       "",
-      "KERI req. auth. method for replay protection"
+      "#NAME?"
     ],
     [
       "405",
