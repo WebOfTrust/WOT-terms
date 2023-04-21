@@ -307,7 +307,7 @@ const config = {
     require.resolve('./plugins/dynamicTables'),
     require.resolve('./plugins/elementGoFullScreen'),
     require.resolve('./plugins/horizontalScrollHint'),
-    require.resolve('./plugins/useTippy'),
+    require.resolve('./plugins/showDefinitionsOnHover'),
     require.resolve('./plugins/writeChanges'),
     require.resolve('./plugins/addLevel'),
   ],
