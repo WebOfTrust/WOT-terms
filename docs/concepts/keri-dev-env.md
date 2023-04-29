@@ -24,6 +24,7 @@ We won't mention these fundamental feature for creating Autonomic Identifier sys
 ### What is Sphinx?
 
 ![Sphinx-logo](/img/Sphinx.png)
+
 <!-- <img src="/img/Sphinx.png" alt="Sphinx-logo" width="250"  /> -->
 
 Sphinx is a documentation generator or a tool that translates a set of plain text source files into various output formats, automatically producing cross-references, indices, etc. That is, if you have a directory containing a bunch of reStructuredText or Markdown documents, Sphinx can generate a series of HTML files, a PDF file (via LaTeX), man pages and much more.\
@@ -55,6 +56,7 @@ KERI is trustless and is a multi layered identity-system generator. A full-funct
 #### Why Swagger / OpenAPI and not something else?
 
 ![openapi-logo](/img/openapi.png)
+
 <!-- <img src="/img/openapi.png" alt="openapi-logo"  width="250" /> -->
 
 OpenAPI (former Swagger, before version 2.0) is more important than the company Swagger to KERI, CESR and ACDC. It's open sourced and has many ready-usable extensions in JSON available.

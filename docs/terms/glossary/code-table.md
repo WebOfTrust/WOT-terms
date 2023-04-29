@@ -4,8 +4,9 @@ a code table is the Internet's most comprehensive yet simple resource for browsi
 [Source](https://www.codetable.net)
 
 ### Example text code table from CESR
+
 <img src="https://hackmd.io/_uploads/H1LHEQDfj.png" width="600" />
 
-
 ## CESR related
-Multiple text and binary code tables exist to pre-pend characters before the respective stream parts to characterize ([self-framing](self-framing)) them or group them.
+
+Multiple text and binary code tables exist to pre-pend characters before the respective stream parts to characterize ([self-framing](self-framing.md)) them or group them.

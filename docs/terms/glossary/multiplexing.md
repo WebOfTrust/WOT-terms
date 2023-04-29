@@ -4,4 +4,5 @@ In [telecommunications](https://en.wikipedia.org/wiki/Telecommunications) and [c
 More on source [Wikipedia-page](https://en.wikipedia.org/wiki/Multiplexing)
 
 ## CESR related
-Because of [count codes](count-code) and the [composability](composability) - and [concatenation](concatenation) property in CESR, [pipelining](pipelining) is possible, which then uses _multiplexing_ (combining [self-framing](self-framing) primitives) and _de-multiplexing_ (unravelling self-framing [primitives](primitives)). The addition of group framing codes as independently composable primitives enables [hierarchical compositions](hierarchical-composition).
+
+Because of [count codes](count-code.md) and the [composability](composability.md) - and [concatenation](concatenation.md) property in CESR, [pipelining](pipelining.md) is possible, which then uses _multiplexing_ (combining [self-framing](self-framing.md) primitives) and _de-multiplexing_ (unravelling self-framing [primitives](primitives.md)). The addition of group framing codes as independently composable primitives enables [hierarchical compositions](hierarchical-composition.md).

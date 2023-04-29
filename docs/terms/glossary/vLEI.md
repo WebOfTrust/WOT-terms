@@ -1,2 +1,3 @@
 ## See
-[Verifiable legal entity identifier](verifiable-legal-entity-identifier)
+
+[Verifiable legal entity identifier](verifiable-legal-entity-identifier.md)

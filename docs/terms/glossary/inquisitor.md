@@ -1,5 +1,6 @@
 ## Definition
-In the ACDC context it's a general term for someone (in a validating role) that launches an inquiry at some KERI [witness](witness).
+
+In the ACDC context it's a general term for someone (in a validating role) that launches an inquiry at some KERI [witness](witness.md).
 
 ## More broadly accepted notion
 

@@ -51,7 +51,7 @@ Example `CESR`:
 
 ```
 ## See
-[composable event streaming representation](composable-event-streaming-representation)
+[composable event streaming representation](composable-event-streaming-representation.md)
 ```
 
 The resulting markdown file will be saved and accessible as CESR.md

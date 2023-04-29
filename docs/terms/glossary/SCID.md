@@ -1,2 +1,3 @@
 ## See
-[Self-certifying identifier](self-certifying-identifier)
+
+[Self-certifying identifier](self-certifying-identifier.md)

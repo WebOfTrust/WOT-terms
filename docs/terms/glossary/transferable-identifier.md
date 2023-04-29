@@ -1,5 +1,6 @@
 ## Definition
-Control over the identifier [can be transferred](transferable) by rotating keys.\
+
+Control over the identifier [can be transferred](transferable.md) by rotating keys.\
 A synonym is 'persistent identifier'.
 
 {TBW prio 1}
@@ -9,5 +10,5 @@ A synonym is 'persistent identifier'.
 The KERI design approach is to build composable primitives instead of custom functionality that is so typical of other DKMI approaches:
 
 - transferable identifiers
-- [non-transferable identifiers](non-transferable-identifier)
-- [delegated identifiers](delegated-identifier)
+- [non-transferable identifiers](non-transferable-identifier.md)
+- [delegated identifiers](delegated-identifier.md)

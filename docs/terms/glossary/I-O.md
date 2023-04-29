@@ -1,2 +1,3 @@
 ## See
-[Input output](input-output)
+
+[Input output](input-output.md)

@@ -1,2 +1,3 @@
 ## See
-[Loci of control](loci-of-control)
+
+[Loci of control](loci-of-control.md)

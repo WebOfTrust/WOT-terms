@@ -1,2 +1,3 @@
 ## See
-[Uniform resource locator](uniform-resource-locator)
+
+[Uniform resource locator](uniform-resource-locator.md)
