@@ -221,7 +221,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "DAG, a mathematical construct with no cycles."
     ],
     [
       "11",
@@ -821,7 +821,7 @@
       "1",
       "",
       "",
-      "Loading..."
+      "Provides proof of registry state via corresponding KEL."
     ],
     [
       "41",
@@ -841,7 +841,7 @@
       "1",
       "1",
       "1",
-      "Loading..."
+      "Space where humans and machines interact."
     ],
     [
       "42",
@@ -1141,7 +1141,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "BADA provides protection against replay attacks."
     ],
     [
       "57",
@@ -1961,7 +1961,7 @@
       "1",
       "",
       "",
-      "Loading..."
+      "Parts of a reason, idea, or opinion that don't agree, or disagree with something else."
     ],
     [
       "98",
@@ -3501,7 +3501,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "Input/Output"
     ],
     [
       "175",
@@ -3581,7 +3581,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "A copy identical to the original system."
     ],
     [
       "179",
@@ -3721,7 +3721,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "A child shell started from a parent shell."
     ],
     [
       "186",
@@ -3861,7 +3861,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "A unique identifier for public identities pointing to something else."
     ],
     [
       "193",
@@ -4061,7 +4061,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "Anchors external data to the key state, established by the latest event."
     ],
     [
       "203",
@@ -4141,7 +4141,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "Applying an algorithm to accept/reject message authenticity."
     ],
     [
       "207",
@@ -4241,7 +4241,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "Delegated IDs under multi-sig control."
     ],
     [
       "212",
@@ -4401,7 +4401,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "HTTP requests to indicate desired action on identified resource."
     ],
     [
       "220",
@@ -4561,7 +4561,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "Commit to next key set rotation or inception event."
     ],
     [
       "228",
@@ -4741,7 +4741,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "Verifiable cryptographic commitment - a collision-resistant hash of content."
     ],
     [
       "237",
@@ -5261,7 +5261,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "XBRL, the standard for digital business reporting."
     ],
     [
       "263",
@@ -5581,7 +5581,7 @@
       "",
       "",
       "1",
-      "Loading..."
+      "Valid credential within 90-day grace period."
     ],
     [
       "279",
@@ -5621,7 +5621,7 @@
       "",
       "",
       "1",
-      "Loading..."
+      "A representative of the Legal Entity with an ECR vLEI Credential."
     ],
     [
       "281",
@@ -5661,7 +5661,7 @@
       "",
       "",
       "1",
-      "Loading..."
+      "A GLEIF rep authorized to verify, needed to issue the QVI vLEI Credential."
     ],
     [
       "283",
@@ -5841,7 +5841,7 @@
       "",
       "",
       "1",
-      "Loading..."
+      "Holding a VLEI credential, one may serve an official organizational role, representing the legal entity."
     ],
     [
       "292",
@@ -6221,7 +6221,7 @@
       "1",
       "",
       "",
-      "Loading..."
+      "Split control between two sets."
     ],
     [
       "311",
@@ -6641,7 +6641,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "A presentation exchange performs disclosure, requiring Issuer commitment verifiability as a property."
     ],
     [
       "332",
@@ -6721,7 +6721,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "Recording a doc. as a contract & securely linking to other systems."
     ],
     [
       "336",
@@ -7061,7 +7061,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "Autonomous space identifier."
     ],
     [
       "353",
@@ -7221,7 +7221,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "A set of data processing elements linked in sequence, with the output of one element serving as the input of the next."
     ],
     [
       "362",
@@ -7321,7 +7321,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "Codes to support groups of primitives, enabling pipelining."
     ],
     [
       "367",
@@ -7381,7 +7381,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "Prepend of strings with leading pad characters to achieve a certain length in bits/bytes."
     ],
     [
       "370",
@@ -7421,7 +7421,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "A character used to fill empty space."
     ],
     [
       "372",
@@ -7441,7 +7441,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "Pre-convert added chars pre-padded to fill empty space."
     ],
     [
       "373",
@@ -7481,7 +7481,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "The first char. in a CESR stream's text code determines the code table."
     ],
     [
       "375",
@@ -7681,7 +7681,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "The most extensive, revealing, and user-friendly ACDC-based credential."
     ],
     [
       "385",
@@ -7761,7 +7761,7 @@
       "",
       "",
       "",
-      "Loading..."
+      "A decentralized controller peer doesn't create records like a traditional server."
     ],
     [
       "389",
