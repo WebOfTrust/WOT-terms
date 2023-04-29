@@ -35,3 +35,5 @@ docusaurus.config.*.js
 
 # media
 *.mp4
+
+copy-to-testsite.sh
