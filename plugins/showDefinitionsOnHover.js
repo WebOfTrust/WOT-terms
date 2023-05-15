@@ -36,7 +36,7 @@ const showDefinitionsOnHover = () => {
 
           // If there is text, add a popup to the button
           if (domEl !== null) {
-            let nextSibling = domEl.nextElementSibling;
+            let content = domEl.nextElementSibling;
             // add an inline button after the link
             let button = document.createElement('button');
             button.innerHTML = '+';
@@ -44,11 +44,11 @@ const showDefinitionsOnHover = () => {
             item.after(button);
 
             tippy(item, {
-              triggerTarget: item.nextElementSibling,
+              triggerTarget: item.nextElementSibling, // button
               trigger: 'click',
               theme: 'light',
               allowHTML: true,
-              content: nextSibling.innerText + ' Visit link to see more.',
+              content: content.innerText + ' Visit link to see more.',
             });
           }
         })
