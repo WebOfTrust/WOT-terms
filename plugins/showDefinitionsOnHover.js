@@ -8,7 +8,9 @@
  */
 
 import tippy from 'tippy.js';
-import 'tippy.js/themes/light.css';
+// import 'tippy.js/themes/light.css';
+import 'tippy.js/themes/light-border.css';
+// import 'tippy.js/themes/material.css';
 
 const showDefinitionsOnHover = () => {
   // The links that we want to add a popup to
@@ -46,7 +48,9 @@ const showDefinitionsOnHover = () => {
             tippy(item, {
               triggerTarget: item.nextElementSibling, // button
               trigger: 'click',
-              theme: 'light',
+              arrow: true,
+              arrowType: 'round',
+              theme: 'light-border',
               allowHTML: true,
               content: content.innerText + ' Visit link to see more.',
             });
