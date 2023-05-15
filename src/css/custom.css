@@ -246,6 +246,21 @@ table td:nth-child(8) {
 }
 
 .definition-button {
+  aspect-ratio: 1 / 1;
+  width: 50%;
+  background: rgb(118, 188, 241);
   border-radius: 50%;
-  margin-left: 0.5em;
+  font-size: 1.5em;
+  width: 1em;
+  padding: 0em; /* Keep this zero */
+  margin-left: 0.1em;
+  /* line-height: 0.8; */
+  line-height: 1;
+  /* border: 1px solid #222; */
+  border: none !important;
+  vertical-align: middle;
+  cursor: pointer;
+}
+[aria-describedby='tippy-1'].definition-button {
+  transform: rotate(45deg); /* CSS styles */
 }
