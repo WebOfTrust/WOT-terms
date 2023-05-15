@@ -244,3 +244,8 @@ table td:nth-child(8) {
 .tippy-box {
   padding: 1em;
 }
+
+.definition-button {
+  border-radius: 50%;
+  margin-left: 0.5em;
+}
