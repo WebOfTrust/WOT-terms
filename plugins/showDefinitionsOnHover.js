@@ -11,19 +11,17 @@ import tippy from 'tippy.js';
 import 'tippy.js/themes/light.css';
 
 const showDefinitionsOnHover = () => {
-  let links = document.querySelectorAll('article .markdown a');
+  // The links that we want to add a popup to
+  let links = document.querySelectorAll(
+    'article .markdown a[href]:not([href^="#"])'
+  );
 
   links.forEach((item) => {
-    let nextUrl = new URL(item.href, location).host;
+    let linkHref = new URL(item.href, location).host;
 
-    // if on same domain
-    if (nextUrl === window.location.host) {
-      // add an inline button after the link
-      let button = document.createElement('button');
-      button.innerHTML = '+';
-      button.classList.add('definition-button');
-      item.after(button);
-
+    // Fetch the text from the target url if it's on same domain
+    if (linkHref === window.location.host) {
+      // Get the text from the target url
       fetch(item.href)
         .then(function (response) {
           return response.text();
@@ -36,16 +34,21 @@ const showDefinitionsOnHover = () => {
           // Find the paragraph after heading with id="definition"
           let domEl = doc.querySelector('#definition');
 
+          // If there is text, add a popup to the button
           if (domEl !== null) {
             let nextSibling = domEl.nextElementSibling;
+            // add an inline button after the link
+            let button = document.createElement('button');
+            button.innerHTML = '+';
+            button.classList.add('definition-button');
+            item.after(button);
+
             tippy(item, {
-              triggerTarget:
-                item.nextElementSibling.querySelector('.definition-button'),
+              triggerTarget: item.nextElementSibling,
               trigger: 'click',
               theme: 'light',
               allowHTML: true,
-              // content: nextSibling.innerText + ' Visit link to see more.',
-              content: ' Visit link to see more.',
+              content: nextSibling.innerText + ' Visit link to see more.',
             });
           }
         })
