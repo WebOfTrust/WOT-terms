@@ -18,6 +18,12 @@ const showDefinitionsOnHover = () => {
 
     // if on same domain
     if (nextUrl === window.location.host) {
+      // add an inline button after the link
+      let button = document.createElement('button');
+      button.innerHTML = '+';
+      button.classList.add('definition-button');
+      item.after(button);
+
       fetch(item.href)
         .then(function (response) {
           return response.text();
@@ -33,9 +39,13 @@ const showDefinitionsOnHover = () => {
           if (domEl !== null) {
             let nextSibling = domEl.nextElementSibling;
             tippy(item, {
+              triggerTarget:
+                item.nextElementSibling.querySelector('.definition-button'),
+              trigger: 'click',
               theme: 'light',
               allowHTML: true,
-              content: nextSibling.innerText + ' Visit link to see more.',
+              // content: nextSibling.innerText + ' Visit link to see more.',
+              content: ' Visit link to see more.',
             });
           }
         })
