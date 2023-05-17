@@ -43,48 +43,49 @@ const showGPTsummary = () => {
       clear = setInterval(typeText, interval);
     }, pauseBeforeStart);
   }
-
-  // Find the column number of the column with the name 'Shortened version static copy'
-  const columnNameSummary = 'Shortened version static copy';
-  // loop through the first entry of the overview.json and find the column number of the column with the name 'Shortened version static copy'
-  let columnNumberSummary;
-  for (let i = 0; i < overview.values[0].length; i++) {
-    if (overview.values[0][i].trim() === columnNameSummary) {
-      columnNumberSummary = i;
-    }
-  }
-
-  // Find the column number of the column with the name 'Term'
-  const columnNameText = 'Term';
-  // loop through the first entry of the overview.json and find the column number of the column with the name 'Term'
-  let columnNumberText;
-  for (let i = 0; i < overview.values[0].length; i++) {
-    if (overview.values[0][i].trim() === columnNameText) {
-      columnNumberText = i;
-    }
-  }
-
-  overview.values.forEach((row, index) => {
-    const heading = document.querySelector('header h1');
-    if (index < 1) return;
-
-    // Add a paragraph with the summary directly below the heading
-    if (heading && row[columnNumberSummary] !== 'NO INPUT') {
-      if (heading.innerText === row[columnNumberText]) {
-        const summary = document.createElement('p');
-        summary.classList.add('summary');
-        summary.innerHTML = row[columnNumberSummary];
-        heading.after(summary);
-
-        const summaryHeading = document.createElement('h2');
-        summaryHeading.classList.add('summary-heading');
-        summaryHeading.innerHTML = 'AI–generated Summary';
-        heading.after(summaryHeading);
+  const heading = document.querySelector('.markdown header h1');
+  if (heading !== null) {
+    // Find the column number of the column with the name 'Shortened version static copy'
+    const columnNameSummary = 'Shortened version static copy';
+    // loop through the first entry of the overview.json and find the column number of the column with the name 'Shortened version static copy'
+    let columnNumberSummary;
+    for (let i = 0; i < overview.values[0].length; i++) {
+      if (overview.values[0][i].trim() === columnNameSummary) {
+        columnNumberSummary = i;
       }
     }
-  });
 
-  typeWriter('.summary', document.querySelector('.summary').innerText, 30);
+    // Find the column number of the column with the name 'Term'
+    const columnNameText = 'Term';
+    // loop through the first entry of the overview.json and find the column number of the column with the name 'Term'
+    let columnNumberText;
+    for (let i = 0; i < overview.values[0].length; i++) {
+      if (overview.values[0][i].trim() === columnNameText) {
+        columnNumberText = i;
+      }
+    }
+
+    overview.values.forEach((row, index) => {
+      if (index < 1) return;
+
+      // Add a paragraph with the summary directly below the heading
+      if (row[columnNumberSummary] !== 'NO INPUT') {
+        if (heading.innerText === row[columnNumberText]) {
+          const summary = document.createElement('p');
+          summary.classList.add('summary');
+          summary.innerHTML = row[columnNumberSummary];
+          heading.after(summary);
+
+          const summaryHeading = document.createElement('h2');
+          summaryHeading.classList.add('summary-heading');
+          summaryHeading.innerHTML = 'AI–generated Summary';
+          heading.after(summaryHeading);
+        }
+      }
+    });
+
+    typeWriter('.summary', document.querySelector('.summary').innerText, 30);
+  }
 };
 
 export function onRouteDidUpdate({ location, previousLocation }) {
