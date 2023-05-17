@@ -1,6 +1,6 @@
 import overview from '@site/static/json/overview.json';
 /**
- *  This plugin adds the level of the current page to the body tag. The info comes
+ *  Add level to body, info from overview.json, which is generated from Google Sheet
  */
 
 const addLevel = () => {
