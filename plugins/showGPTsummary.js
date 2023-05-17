@@ -4,6 +4,46 @@ import overview from '@site/static/json/overview.json';
  */
 
 const showGPTsummary = () => {
+  function typeWriter(selector, strText, interval) {
+    let audioPlaying = false;
+    let text = document.querySelector(selector),
+      i = 0,
+      clear,
+      pauseBeforeStart = 600,
+      finalString = '';
+    text.innerHTML = '';
+    clearInterval(clear);
+
+    function createTextString() {
+      for (let i = 0; i < strText.length; i++) {
+        finalString +=
+          "<span id='n" +
+          i +
+          "' style='visibility: hidden'>" +
+          strText[i] +
+          '</span>';
+      }
+    }
+
+    function typeText() {
+      let counterId = '#n' + i;
+
+      document.querySelector(counterId).style.visibility = 'visible';
+      i++;
+
+      if (i === strText.length) {
+        clearInterval(clear);
+      }
+    }
+    createTextString();
+
+    document.querySelector(selector).innerHTML = finalString;
+
+    setTimeout(function () {
+      clear = setInterval(typeText, interval);
+    }, pauseBeforeStart);
+  }
+
   // Find the column number of the column with the name 'Shortened version static copy'
   const columnNameSummary = 'Shortened version static copy';
   // loop through the first entry of the overview.json and find the column number of the column with the name 'Shortened version static copy'
@@ -43,6 +83,8 @@ const showGPTsummary = () => {
       }
     }
   });
+
+  typeWriter('.summary', document.querySelector('.summary').innerText, 30);
 };
 
 export function onRouteDidUpdate({ location, previousLocation }) {
