@@ -43,51 +43,52 @@ const showGPTsummary = () => {
       clear = setInterval(typeText, interval);
     }, pauseBeforeStart);
   }
+
   const heading = document.querySelector('.markdown header h1');
-  if (heading !== null) {
+
+  if (heading) {
     // Find the column number of the column with the name 'Shortened version static copy'
-    const columnNameSummary = 'Shortened version static copy';
+    const summaryColumnName = 'Shortened version static copy';
     // loop through the first entry of the overview.json and find the column number of the column with the name 'Shortened version static copy'
-    let columnNumberSummary;
+    let summaryColumnNumber;
     for (let i = 0; i < overview.values[0].length; i++) {
-      if (overview.values[0][i].trim() === columnNameSummary) {
-        columnNumberSummary = i;
+      if (overview.values[0][i].trim() === summaryColumnName) {
+        summaryColumnNumber = i;
       }
     }
 
     // Find the column number of the column with the name 'Term'
-    const columnNameText = 'Term';
+    const textColumnName = 'Term';
     // loop through the first entry of the overview.json and find the column number of the column with the name 'Term'
-    let columnNumberText = -1;
+    let textColumnNumber = -1;
     for (let i = 0; i < overview.values[0].length; i++) {
-      if (overview.values[0][i].trim() === columnNameText) {
-        columnNumberText = i;
+      if (overview.values[0][i].trim() === textColumnName) {
+        textColumnNumber = i;
       }
     }
 
     overview.values.forEach((row, index) => {
       if (index < 1) return;
 
-      console.log('row[columnNumberText]: ', row[columnNumberText]);
       // Add a paragraph with the summary directly below the heading
-      if (row[columnNumberText] !== -1) {
-        if (row[columnNumberSummary] !== 'NO INPUT') {
-          if (heading.innerText === row[columnNumberText]) {
-            const summary = document.createElement('p');
-            summary.classList.add('summary');
-            summary.innerHTML = row[columnNumberSummary];
-            heading.after(summary);
+      if (
+        row[summaryColumnNumber] !== 'NO INPUT' &&
+        typeof row[summaryColumnNumber] !== undefined
+      ) {
+        if (heading.innerText === row[textColumnNumber]) {
+          const summary = document.createElement('p');
+          summary.classList.add('summary');
+          summary.innerHTML = row[summaryColumnNumber];
+          heading.after(summary);
 
-            const summaryHeading = document.createElement('h2');
-            summaryHeading.classList.add('summary-heading');
-            summaryHeading.innerHTML = 'AI–generated Summary';
-            heading.after(summaryHeading);
-          }
+          const summaryHeading = document.createElement('h2');
+          summaryHeading.classList.add('summary-heading');
+          summaryHeading.innerHTML = 'AI–generated Summary';
+          heading.after(summaryHeading);
+          typeWriter('.summary', row[summaryColumnNumber], 30);
         }
       }
     });
-
-    typeWriter('.summary', document.querySelector('.summary').innerText, 30);
   }
 };
 
@@ -95,5 +96,5 @@ export function onRouteDidUpdate({ location, previousLocation }) {
   // Don't execute if we are still on the same page; the lifecycle may be fired
   // because the hash changes (e.g. when navigating between headings)
   // if (location.pathname === previousLocation?.pathname) return;
-  // showGPTsummary();
+  showGPTsummary();
 }
