@@ -53,7 +53,10 @@ const showDefinitionsOnHover = () => {
               // arrowType: 'round',
               theme: 'light-border',
               allowHTML: true,
-              content: content.innerText + ' Visit link to see more.',
+              content:
+                '<p>' +
+                content.innerText +
+                '</p><p> Visit link to see more.</p>',
             });
           }
         })
