@@ -310,6 +310,7 @@ const config = {
     require.resolve('./plugins/showDefinitionsOnHover'),
     require.resolve('./plugins/writeChanges'),
     require.resolve('./plugins/addLevel'),
+    require.resolve('./plugins/showGPTsummary'),
   ],
 };
 
