@@ -283,3 +283,25 @@ table td:nth-child(8) {
 [aria-describedby='tippy-1'].definition-button {
   transform: rotate(45deg); /* CSS styles */
 }
+
+/**
+ * AI Summary
+ */
+
+.summary-container {
+  position: relative;
+}
+
+.summary-container::after {
+  /* https://bootcamp.uxdesign.cc/the-unstoppable-rise-of-spark-as-ais-iconic-symbol-ca663162cccc */
+  content: '✨';
+  font-size: 5em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  line-height: 1;
+  /* display: inline-block; */
+  /* vertical-align: middle; */
+  /* height: 100%; */
+}
