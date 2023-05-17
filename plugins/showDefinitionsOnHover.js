@@ -56,7 +56,7 @@ const showDefinitionsOnHover = () => {
               content:
                 '<p>' +
                 content.innerText +
-                '</p><p> Visit link to see more.</p>',
+                '</p><p>Visit link to see more.</p>',
             });
           }
         })
