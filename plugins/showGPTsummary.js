@@ -58,7 +58,7 @@ const showGPTsummary = () => {
     // Find the column number of the column with the name 'Term'
     const columnNameText = 'Term';
     // loop through the first entry of the overview.json and find the column number of the column with the name 'Term'
-    let columnNumberText;
+    let columnNumberText = -1;
     for (let i = 0; i < overview.values[0].length; i++) {
       if (overview.values[0][i].trim() === columnNameText) {
         columnNumberText = i;
@@ -68,18 +68,21 @@ const showGPTsummary = () => {
     overview.values.forEach((row, index) => {
       if (index < 1) return;
 
+      console.log('row[columnNumberText]: ', row[columnNumberText]);
       // Add a paragraph with the summary directly below the heading
-      if (row[columnNumberSummary] !== 'NO INPUT') {
-        if (heading.innerText === row[columnNumberText]) {
-          const summary = document.createElement('p');
-          summary.classList.add('summary');
-          summary.innerHTML = row[columnNumberSummary];
-          heading.after(summary);
+      if (row[columnNumberText] !== -1) {
+        if (row[columnNumberSummary] !== 'NO INPUT') {
+          if (heading.innerText === row[columnNumberText]) {
+            const summary = document.createElement('p');
+            summary.classList.add('summary');
+            summary.innerHTML = row[columnNumberSummary];
+            heading.after(summary);
 
-          const summaryHeading = document.createElement('h2');
-          summaryHeading.classList.add('summary-heading');
-          summaryHeading.innerHTML = 'AI–generated Summary';
-          heading.after(summaryHeading);
+            const summaryHeading = document.createElement('h2');
+            summaryHeading.classList.add('summary-heading');
+            summaryHeading.innerHTML = 'AI–generated Summary';
+            heading.after(summaryHeading);
+          }
         }
       }
     });
@@ -92,5 +95,5 @@ export function onRouteDidUpdate({ location, previousLocation }) {
   // Don't execute if we are still on the same page; the lifecycle may be fired
   // because the hash changes (e.g. when navigating between headings)
   // if (location.pathname === previousLocation?.pathname) return;
-  showGPTsummary();
+  // showGPTsummary();
 }
