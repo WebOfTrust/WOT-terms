@@ -5,11 +5,10 @@ import overview from '@site/static/json/overview.json';
 
 const showGPTsummary = () => {
   function typeWriter(selector, strText, interval) {
-    let audioPlaying = false;
     let text = document.querySelector(selector),
       i = 0,
       clear,
-      pauseBeforeStart = 600,
+      pauseBeforeStart = 60,
       finalString = '';
     text.innerHTML = '';
     clearInterval(clear);
@@ -76,15 +75,29 @@ const showGPTsummary = () => {
         typeof row[summaryColumnNumber] !== undefined
       ) {
         if (heading.innerText === row[textColumnNumber]) {
-          const summary = document.createElement('p');
-          summary.classList.add('summary');
-          summary.innerHTML = row[summaryColumnNumber];
-          heading.after(summary);
+          const summaryContainer = document.createElement('div');
+          summaryContainer.classList.add(
+            'summary-container',
+            'alert',
+            'alert--info',
+            'margin-bottom--lg'
+          );
+          summaryContainer.setAttribute('role', 'alert');
+          heading.after(summaryContainer);
+
+          const domSummaryContainer =
+            document.querySelector('.summary-container');
 
           const summaryHeading = document.createElement('h2');
           summaryHeading.classList.add('summary-heading');
           summaryHeading.innerHTML = 'AI–generated Summary';
-          heading.after(summaryHeading);
+          domSummaryContainer.appendChild(summaryHeading);
+
+          const summary = document.createElement('p');
+          summary.classList.add('summary');
+          summary.innerHTML = row[summaryColumnNumber];
+          domSummaryContainer.appendChild(summary);
+
           typeWriter('.summary', row[summaryColumnNumber], 30);
         }
       }
