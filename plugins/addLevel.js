@@ -3,7 +3,7 @@ import overview from '@site/static/json/overview.json';
  *  Add level to body, info from overview.json, which is generated from Google Sheet
  */
 
-const addLevel = () => {
+const addDataTypes = () => {
   //TODO: make generic function for column number finder
 
   // Find the column number of the column with the name 'Shortened version static copy'
@@ -85,5 +85,5 @@ export function onRouteDidUpdate({ location, previousLocation }) {
   // Don't execute if we are still on the same page; the lifecycle may be fired
   // because the hash changes (e.g. when navigating between headings)
   // if (location.pathname === previousLocation?.pathname) return;
-  addLevel();
+  addDataTypes();
 }
