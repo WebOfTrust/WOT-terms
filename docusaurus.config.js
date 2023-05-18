@@ -309,7 +309,7 @@ const config = {
     require.resolve('./plugins/horizontalScrollHint'),
     require.resolve('./plugins/showDefinitionsOnHover'),
     require.resolve('./plugins/writeChanges'),
-    require.resolve('./plugins/addLevel'),
+    require.resolve('./plugins/addDataTypes'),
     require.resolve('./plugins/showGPTsummary'),
   ],
 };
