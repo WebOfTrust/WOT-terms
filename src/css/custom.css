@@ -405,6 +405,7 @@ table td:nth-child(8) {
   list-style: none;
 }
 
+/* Searchbox */
 #searchbox .ais-SearchBox .ais-SearchBox-form {
   display: block;
   /* border: 1px solid blue; */
@@ -423,7 +424,7 @@ table td:nth-child(8) {
 
 .docs-doc-page #searchbox .ais-SearchBox .ais-SearchBox-input {
   margin: 0 auto;
-  font-size: 2em;
+  font-size: 1em;
   padding: 0.5em;
   border: none;
   max-width: 100%;
