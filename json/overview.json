@@ -4222,7 +4222,7 @@
       "",
       "",
       "",
-      "A digital signature scheme allowing multiple users to sign a single piece of data.",
+      "Digital signature scheme for groups signing digital data.",
       "",
       "A digital signature scheme allowing multiple users to sign a single digital data."
     ],
@@ -9081,7 +9081,7 @@
     ],
     [
       "426",
-      "",
+      "K",
       "KERIA",
       "",
       "KERIA",
@@ -9090,7 +9090,7 @@
     ],
     [
       "427",
-      "",
+      "K",
       "Signifide",
       "",
       "Signifide",
@@ -9099,11 +9099,11 @@
     ],
     [
       "428",
-      "",
+      "K",
       "kiwi",
       "",
       "kiwi",
-      "",
+      "UI tooling for working with KERI",
       "https://github.com/trustoverip/acdc/wiki/kiwi"
     ],
     [
