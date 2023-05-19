@@ -458,6 +458,10 @@ table td:nth-child(8) {
   border-radius: 7px;
 }
 
+.ais-RefinementList-count {
+  color: #000;
+}
+
 .contextual-info {
   font-size: 0.9em;
 }
