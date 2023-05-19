@@ -9031,7 +9031,7 @@
       "partial-disclosure",
       "",
       "partial-disclosure",
-      "",
+      "an ACDC attribute section that can disclosed (a nested branch in a tree), you can either decide to disclose or not",
       "https://github.com/trustoverip/acdc/wiki/partial-disclosure"
     ],
     [
@@ -9040,16 +9040,16 @@
       "selective-disclosure",
       "",
       "selective-disclosure",
-      "",
+      "selective disclosure is a list of field maps, that you can choose to blind and publish, however all are disclosured",
       "https://github.com/trustoverip/acdc/wiki/selective-disclosure"
     ],
     [
       "422",
-      "G",
+      "K",
       "full-disclosure",
       "",
       "full-disclosure",
-      "",
+      "a disclosure of data in all its details",
       "https://github.com/trustoverip/acdc/wiki/full-disclosure"
     ],
     [
@@ -9153,32 +9153,39 @@
     ],
     [
       "434",
-      "",
-      "WWWWWW",
+      "K",
+      "prefixing",
       "",
       "prefixing",
       "prefixing",
-      "https://github.com/trustoverip/acdc/wiki/WWWWWW"
+      "https://github.com/trustoverip/acdc/wiki/prefixing"
     ],
     [
       "435",
-      "",
-      "",
+      "K",
+      "pathing",
       "",
       "pathing",
-      "pathing"
+      "pathing",
+      "https://github.com/trustoverip/acdc/wiki/pathing"
     ],
     [
       "436",
-      "",
-      "WWWWWW",
+      "K",
+      "parsing",
       "",
       "parsing",
       "parsing",
-      "https://github.com/trustoverip/acdc/wiki/WWWWWW"
+      "https://github.com/trustoverip/acdc/wiki/parsing"
     ],
     [
-      "437"
+      "437",
+      "K",
+      "field-map",
+      "",
+      "field-map",
+      "a traditional key:value pair renamed to avoid confusing with the cryptographic use of the term 'key'",
+      "https://github.com/trustoverip/acdc/wiki/field-map"
     ],
     [
       "438",
