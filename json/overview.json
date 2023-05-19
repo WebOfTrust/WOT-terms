@@ -448,7 +448,7 @@
       "KA2CE",
       "",
       "KA2CE",
-      "",
+      "KERI agreement algorithm for control establishment",
       "https://github.com/trustoverip/acdc/wiki/KA2CE.md",
       "",
       "7",
@@ -460,7 +460,7 @@
       "1",
       "",
       "",
-      "NO INPUT",
+      "KERI algorithm for control establishment agreement.",
       "",
       "NO INPUT"
     ],
@@ -470,7 +470,7 @@
       "KAACE",
       "",
       "KAACE",
-      "",
+      "KERI agreement algorithm for control establishment",
       "https://github.com/trustoverip/acdc/wiki/KAACE.md",
       "",
       "7",
@@ -482,7 +482,7 @@
       "1",
       "",
       "",
-      "NO INPUT",
+      "KERI algorithm for control establishment agreement.",
       "",
       "NO INPUT"
     ],
@@ -8232,7 +8232,7 @@
     ],
     [
       "375",
-      "",
+      "K",
       "sally",
       "",
       "sally",
@@ -8254,7 +8254,7 @@
     ],
     [
       "376",
-      "",
+      "K",
       "signify",
       "",
       "signify",
@@ -8276,7 +8276,7 @@
     ],
     [
       "377",
-      "",
+      "G",
       "escrow ",
       "",
       "escrow ",
@@ -8298,7 +8298,7 @@
     ],
     [
       "378",
-      "",
+      "K",
       " sally ",
       "",
       " sally ",
@@ -8320,29 +8320,16 @@
     ],
     [
       "379",
+      "K",
+      "field-map",
       "",
-      "signify",
-      "",
-      "signify",
-      "a web client (key) event signing - and key pair creation app that minimizes the use of KERI on the client.",
-      "https://github.com/trustoverip/acdc/wiki/signify ",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "A web client app for key event signing and key pair creation that minimizes KERI usage on the client.",
-      "",
-      "A web client app for key event signing and key pair creation, minimizing KERI use on the client."
+      "field-map",
+      "a traditional key:value pair renamed to avoid confusing with the cryptographic use of the term 'key'",
+      "https://github.com/trustoverip/acdc/wiki/field-map"
     ],
     [
       "380",
-      "",
+      "K",
       "CLC",
       "",
       "CLC",
@@ -8364,7 +8351,7 @@
     ],
     [
       "381",
-      "",
+      "K",
       "cold-start-stream-parsing",
       "",
       "cold-start-stream-parsing",
@@ -8386,7 +8373,7 @@
     ],
     [
       "382",
-      "",
+      "K",
       "fully-compact",
       "",
       "fully-compact",
@@ -8408,7 +8395,7 @@
     ],
     [
       "383",
-      "",
+      "K",
       "most-compact",
       "",
       "most-compact",
@@ -8430,7 +8417,7 @@
     ],
     [
       "384",
-      "",
+      "K",
       "fully-expanded",
       "",
       "fully-expanded",
@@ -8452,7 +8439,7 @@
     ],
     [
       "385",
-      "",
+      "G",
       "RUN",
       "",
       "RUN",
@@ -8474,7 +8461,7 @@
     ],
     [
       "386",
-      "",
+      "G",
       "CRUD",
       "",
       "CRUD",
@@ -8518,7 +8505,7 @@
     ],
     [
       "388",
-      "",
+      "K",
       "run-off-the-crud",
       "",
       "run-off-the-crud",
@@ -8910,7 +8897,7 @@
     ],
     [
       "407",
-      "",
+      "K",
       "opcode",
       "",
       "opcode",
@@ -8919,7 +8906,7 @@
     ],
     [
       "408",
-      "",
+      "K",
       "version-code",
       "",
       "version-code",
@@ -8928,11 +8915,11 @@
     ],
     [
       "409",
-      "",
+      "K",
       "strip-parameter",
       "",
       "strip-parameter",
-      "",
+      "tells us what part of the CESR stream will be parsed by which code",
       "https://github.com/trustoverip/acdc/wiki/strip-parameter"
     ],
     [
@@ -9085,8 +9072,8 @@
       "KERIA",
       "",
       "KERIA",
-      "api",
-      "https://github.com/trustoverip/acdc/wiki/KERIA"
+      "KERI agent in the cloud",
+      "https://github.com/trustoverip/acdc/wiki/keria"
     ],
     [
       "427",
@@ -9179,13 +9166,7 @@
       "https://github.com/trustoverip/acdc/wiki/parsing"
     ],
     [
-      "437",
-      "K",
-      "field-map",
-      "",
-      "field-map",
-      "a traditional key:value pair renamed to avoid confusing with the cryptographic use of the term 'key'",
-      "https://github.com/trustoverip/acdc/wiki/field-map"
+      "437"
     ],
     [
       "438",
