@@ -397,6 +397,10 @@ table td:nth-child(8) {
     0px 0px 11px rgba(0, 0, 0, 0.07);
 }
 
+#results-section a {
+  display: block;
+}
+
 #results-section nav ul {
   padding: 0;
 }
