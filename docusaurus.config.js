@@ -184,42 +184,42 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      /**
-       * BEGIN ALGOLIA DOCSEARCH
-       */
-      algolia: {
-        // https://docusaurus.io/docs/search#connecting-algolia
-        // The application ID provided by Algolia
-        appId: 'QPO5DGMOTG',
+      // /**
+      //  * BEGIN ALGOLIA DOCSEARCH
+      //  */
+      // algolia: {
+      //   // https://docusaurus.io/docs/search#connecting-algolia
+      //   // The application ID provided by Algolia
+      //   appId: 'QPO5DGMOTG',
 
-        // Public API key: it is safe to commit it
-        apiKey: '40e269af05b488a97958164f76c326b0',
+      //   // Public API key: it is safe to commit it
+      //   apiKey: '40e269af05b488a97958164f76c326b0',
 
-        indexName: 'wot-terms',
+      //   indexName: 'wot-terms',
 
-        // Optional: see doc section below
-        contextualSearch: true,
+      //   // Optional: see doc section below
+      //   contextualSearch: true,
 
-        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        externalUrlRegex: 'external\\.com|domain\\.com',
+      //   // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+      //   externalUrlRegex: 'external\\.com|domain\\.com',
 
-        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
-        // replaceSearchResultPathname: {
-        //   from: '/docs/', // or as RegExp: /\/docs\//
-        //   to: '/',
-        // },
+      //   // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+      //   // replaceSearchResultPathname: {
+      //   //   from: '/docs/', // or as RegExp: /\/docs\//
+      //   //   to: '/',
+      //   // },
 
-        // Optional: Algolia search parameters
-        searchParameters: {},
+      //   // Optional: Algolia search parameters
+      //   searchParameters: {},
 
-        // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: 'search',
+      //   // Optional: path for search page that enabled by default (`false` to disable it)
+      //   searchPagePath: 'search',
 
-        //... other Algolia params
-      },
-      /**
-       * END ALGOLIA DOCSEARCH
-       */
+      //   //... other Algolia params
+      // },
+      // /**
+      //  * END ALGOLIA DOCSEARCH
+      //  */
     }),
   plugins: [
     [
@@ -323,6 +323,16 @@ const config = {
     require.resolve('./plugins/writeChanges'),
     require.resolve('./plugins/addDataTypes'),
     require.resolve('./plugins/showGPTsummary'),
+    /**
+     * BEGIN TYPESENSE INSTANT SEARCH PLUGIN
+     */
+    require.resolve(
+      './plugins/typesense-instant-search-create-dom-elements.js'
+    ),
+    require.resolve('./plugins/typesense-instant-search.js'),
+    /**
+     * END TYPESENSE INSTANT SEARCH PLUGIN
+     */
   ],
 };
 
