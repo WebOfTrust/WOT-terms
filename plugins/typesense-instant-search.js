@@ -29,10 +29,10 @@ const TSIS = () => {
 
   const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
     server: {
-      apiKey: 'TH8ADqP36MbtWMQUoPkEhsXS5B53fx5a', // Be sure to use an API key that only allows searches, in production
+      apiKey: 'qy6mC9ZakKZ3C8GUD5T3iDrelDgpp5Zc', // Be sure to use an API key that only allows searches, in production
       nodes: [
         {
-          host: 'k1jyg24wusaxcmefp-1.a1.typesense.net',
+          host: '9ktso7i1b8034azqp-1.a1.typesense.net',
           port: '443',
           protocol: 'https',
         },
@@ -53,7 +53,7 @@ const TSIS = () => {
 
   const search = instantsearch({
     searchClient,
-    indexName: 'docukorrus',
+    indexName: 'Wot-terms',
     routing: true,
     searchFunction(helper) {
       if (helper.state.query === '') {
