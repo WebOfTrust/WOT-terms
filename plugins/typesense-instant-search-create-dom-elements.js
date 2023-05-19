@@ -64,6 +64,8 @@ const typesenseInstantSearchCreateDomElements = () => {
     document
       .querySelector('body')
       .insertAdjacentHTML('afterbegin', domStringSearchBox);
+    // .querySelector('.navbar__inner')
+    // .insertAdjacentHTML('beforeend', domStringSearchBox);
   }
 };
 
