@@ -96,26 +96,24 @@ const TSIS = () => {
         item(item) {
           console.log('item: ', item);
           return `
-        <a class="hit" href="${item.url}" target="_blank">
           <div class="container">
             <div class="row">
-              <div class="category col col--12 text--center">
-                <h4 class="contextual-info" style="font-size: 1.5em">${item['hierarchy.lvl1']}</h4>
+              <div class="category col col--12">
+                <h4 class="contextual-info" style="font-size: 1.5em"><a class="hit" href="${item.url}" target="_blank" rel="noopener">${item['hierarchy.lvl1']}</a></h4>
               </div>
             </div>
             <div class="row hit-name">
               <div class="col col--3">
-                <h5 style="display: block;" class="d-block contextual-info badge badge--secondary">On:<br>${item['siteName']}</h5>
-                <h5 style="display: block;" class="d-block contextual-info badge badge--secondary">Knowledgelevel:<br>${item.knowledgeLevel}</h5>
-                <h5 style="display: block;" class="d-block contextual-info badge badge--secondary">Type:<br>${item.type}</h5>
+                <h5 style="display: block;" class="contextual-info badge badge--secondary">On:<br>${item['siteName']}</h5>
+                <h5 style="display: block;" class="contextual-info badge badge--secondary">Knowledgelevel:<br>${item.knowledgeLevel}</h5>
+                <h5 style="display: block;" class="contextual-info badge badge--secondary">Type:<br>${item.type}</h5>
               </div>
 
             <div class="col col--9">
-                <p>${item._highlightResult.content.value}</p>
+                <p><a class="hit" href="${item.url}" target="_blank" rel="noopener">${item._highlightResult.content.value}</a></p>
               </div
             </div>
           </div>
-        </a>
       `;
         },
       },
