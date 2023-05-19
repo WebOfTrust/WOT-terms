@@ -184,6 +184,9 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      /**
+       * BEGIN ALGOLIA DOCSEARCH
+       */
       algolia: {
         // https://docusaurus.io/docs/search#connecting-algolia
         // The application ID provided by Algolia
@@ -214,6 +217,9 @@ const config = {
 
         //... other Algolia params
       },
+      /**
+       * END ALGOLIA DOCSEARCH
+       */
     }),
   plugins: [
     [
@@ -228,6 +234,9 @@ const config = {
         ignoreStub: true,
       },
     ],
+    // /**
+    //  * BEGIN LOCAL SEARCH
+    //  */
     // [
     //   require.resolve('@cmfcmf/docusaurus-search-local'),
     //   {
@@ -297,6 +306,9 @@ const config = {
     //     },
     //   },
     // ],
+    // /**
+    //  * END LOCAL SEARCH
+    //  */
   ],
   clientModules: [
     require.resolve('./plugins/crossLinks'),
