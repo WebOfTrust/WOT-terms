@@ -357,3 +357,111 @@ table td:nth-child(8) {
 /**
   * END HTML5 Boilerplate
   */
+
+/*
+    TYPESENSE INSTANTSEARCH
+*/
+
+:root {
+  --docusaurus-instantsearch-modal-bg: #eee;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --docusaurus-instantsearch-modal-bg: #222;
+}
+
+.results-section-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(2px); /* Optional: Adds a blur effect to the backdrop */
+  overflow: scroll;
+}
+
+#results-section {
+  background-color: var(--docusaurus-instantsearch-modal-bg);
+  position: absolute;
+  top: 10em;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1041;
+  /* margin: 0 auto; */
+
+  box-shadow: 0px 0px 0.3px rgba(0, 0, 0, 0.02),
+    0px 0px 0.7px rgba(0, 0, 0, 0.028), 0px 0px 1.4px rgba(0, 0, 0, 0.035),
+    0px 0px 2.5px rgba(0, 0, 0, 0.042), 0px 0px 4.6px rgba(0, 0, 0, 0.05),
+    0px 0px 11px rgba(0, 0, 0, 0.07);
+}
+
+#results-section nav ul {
+  padding: 0;
+}
+
+#results-section nav li {
+  list-style: none;
+}
+
+#searchbox .ais-SearchBox .ais-SearchBox-form {
+  display: block;
+  /* border: 1px solid blue; */
+  text-align: center;
+  padding: 1em;
+  z-index: 1041;
+  position: relative;
+}
+
+#searchbox {
+  display: none;
+}
+.docs-doc-page #searchbox {
+  display: block;
+}
+
+.docs-doc-page #searchbox .ais-SearchBox .ais-SearchBox-input {
+  margin: 0 auto;
+  font-size: 2em;
+  padding: 0.5em;
+  border: none;
+  max-width: 100%;
+  box-shadow: 0px 0px 0.3px rgba(0, 0, 0, 0.02),
+    0px 0px 0.7px rgba(0, 0, 0, 0.028), 0px 0px 1.4px rgba(0, 0, 0, 0.035),
+    0px 0px 2.5px rgba(0, 0, 0, 0.042), 0px 0px 4.6px rgba(0, 0, 0, 0.05),
+    0px 0px 11px rgba(0, 0, 0, 0.07);
+  border-radius: 7px;
+}
+
+.ais-Hits-list {
+  list-style-type: none;
+}
+
+.ais-Hits-item {
+  margin: 2em 0;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+}
+
+.ais-Pagination-list li {
+  display: inline-block;
+  margin: 0.5em;
+
+  font-size: 1.5em;
+}
+.ais-Pagination-list li a {
+  text-decoration: none;
+  padding: 0.5em;
+  border: 1px solid #999;
+  border-radius: 7px;
+}
+
+.contextual-info {
+  font-size: 0.9em;
+}
+
+/**
+  * END TYPESENSE INSTANTSEARCH
+  */
