@@ -96,7 +96,7 @@ const TSIS = () => {
 
   search.addWidgets([
     searchBox({
-      container: '#searchbox',
+      container: '#search-box',
       showSubmit: false,
       showReset: false,
       placeholder: 'Enter Search…',
@@ -218,7 +218,7 @@ const TSIS = () => {
   ]);
 
   // function handleSearchTermClick(event) {
-  //   const searchBox = document.querySelector('#searchbox input[type=search]');
+  //   const searchBox = document.querySelector('#search-box input[type=search]');
   //   console.log('searchBox: ', searchBox);
   //   search.helper.clearRefinements();
   //   searchBox.val(event.currentTarget.textContent);
