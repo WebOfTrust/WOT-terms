@@ -387,6 +387,7 @@ table td:nth-child(8) {
 
 #search {
   background-color: var(--docusaurus-instantsearch-bg);
+  border-radius: 10px;
   position: absolute;
   top: 2em;
   left: 50%;
