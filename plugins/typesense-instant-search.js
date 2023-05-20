@@ -21,12 +21,12 @@ import TypesenseInstantSearchAdapter from 'typesense-instantsearch-adapter';
 
 const TSIS = () => {
   // Hide the search results modal when clicking outside of it
-  document
-    .querySelector('.search-modal-backdrop')
-    .addEventListener('click', (e) => {
-      e.target.classList.add('hidden');
-      document.querySelector('#search').classList.add('hidden');
-    });
+  // document
+  //   .querySelector('.search-modal-backdrop')
+  //   .addEventListener('click', (e) => {
+  //     e.target.classList.add('hidden');
+  //     document.querySelector('#search').classList.add('hidden');
+  //   });
 
   document.querySelector('#search-close').addEventListener('click', (e) => {
     document.querySelector('.search-modal-backdrop').classList.add('hidden');
