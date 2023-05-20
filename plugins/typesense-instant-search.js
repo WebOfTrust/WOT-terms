@@ -36,6 +36,7 @@ const TSIS = () => {
   document.querySelector('#search-start').addEventListener('click', (e) => {
     document.querySelector('.search-modal-backdrop').classList.toggle('hidden');
     document.querySelector('#search').classList.toggle('hidden');
+    document.querySelector('.ais-SearchBox-input').focus();
   });
 
   document.addEventListener('keyup', (event) => {
