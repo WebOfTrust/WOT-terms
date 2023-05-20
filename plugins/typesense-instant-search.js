@@ -133,9 +133,10 @@ const TSIS = () => {
             </div>
             <div class="row hit-name">
               <div class="col col--3">
-                <h5 style="display: block;" class="contextual-info badge badge--secondary">On:<br>${item['siteName']}</h5>
+                <h5 style="display: block;" class="contextual-info badge badge--secondary">Website:<br>${item['siteName']}</h5>
                 <h5 style="display: block;" class="contextual-info badge badge--secondary">Knowledgelevel:<br>${item.knowledgeLevel}</h5>
                 <h5 style="display: block;" class="contextual-info badge badge--secondary">Type:<br>${item.type}</h5>
+                <h5 style="display: block;" class="contextual-info badge badge--secondary">Subject:<br>${item['hierarchy.lvl1']}</h5>
               </div>
 
             <div class="col col--9">
