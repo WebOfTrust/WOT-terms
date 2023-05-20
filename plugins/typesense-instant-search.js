@@ -22,10 +22,33 @@ import TypesenseInstantSearchAdapter from 'typesense-instantsearch-adapter';
 const TSIS = () => {
   // Hide the search results modal when clicking outside of it
   document
-    .querySelector('.results-section-modal-backdrop')
+    .querySelector('.search-modal-backdrop')
     .addEventListener('click', (e) => {
       e.target.classList.add('hidden');
+      document.querySelector('#search').classList.add('hidden');
     });
+
+  document.querySelector('#search-close').addEventListener('click', (e) => {
+    document.querySelector('.search-modal-backdrop').classList.add('hidden');
+    document.querySelector('#search').classList.add('hidden');
+  });
+
+  document.querySelector('#search-start').addEventListener('click', (e) => {
+    document.querySelector('.search-modal-backdrop').classList.toggle('hidden');
+    document.querySelector('#search').classList.toggle('hidden');
+  });
+
+  document.addEventListener('keyup', (event) => {
+    switch (event.key) {
+      // escape
+      case 'Escape':
+        document
+          .querySelector('.search-modal-backdrop')
+          .classList.add('hidden');
+        document.querySelector('#search').classList.add('hidden');
+        break;
+    }
+  });
 
   const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
     server: {
@@ -58,12 +81,14 @@ const TSIS = () => {
     searchFunction(helper) {
       if (helper.state.query === '') {
         document
-          .querySelector('.results-section-modal-backdrop')
+          .querySelector('.search-modal-backdrop')
           .classList.add('hidden');
+        document.querySelector('#search').classList.add('hidden');
       } else {
         document
-          .querySelector('.results-section-modal-backdrop')
+          .querySelector('.search-modal-backdrop')
           .classList.remove('hidden');
+        document.querySelector('#search').classList.remove('hidden');
         helper.search();
       }
     },
