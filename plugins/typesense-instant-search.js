@@ -119,12 +119,16 @@ const TSIS = () => {
       container: '#hits',
       templates: {
         item(item) {
-          console.log('item: ', item);
+          let openInNewTab = '';
+          if (item.url.indexOf('weboftrust.github.io/WOT-terms') === -1) {
+            openInNewTab = 'target="_blank" rel="noopener"';
+          }
+
           return `
           <div class="container">
             <div class="row">
               <div class="category col col--12">
-                <h4 class="contextual-info" style="font-size: 1.5em"><a class="hit" href="${item.url}" target="_blank" rel="noopener">${item['hierarchy.lvl1']}</a></h4>
+                <h4 class="contextual-info" style="font-size: 1.5em"><a class="hit" href="${item.url}" ${openInNewTab}>${item['hierarchy.lvl1']}</a></h4>
               </div>
             </div>
             <div class="row hit-name">
@@ -135,7 +139,7 @@ const TSIS = () => {
               </div>
 
             <div class="col col--9">
-                <p><a class="hit" href="${item.url}" target="_blank" rel="noopener">${item._highlightResult.content.value}</a></p>
+                <p><a class="hit" href="${item.url}" ${openInNewTab}>${item._highlightResult.content.value}</a></p>
               </div
             </div>
           </div>
