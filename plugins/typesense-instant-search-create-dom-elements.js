@@ -1,8 +1,10 @@
 const typesenseInstantSearchCreateDomElements = () => {
-  const domStringSearchBox = `<div id="searchbox"></div>`;
+  const domStringSearchStart = `<div id="search-start">🔍</div>`;
   const domStringSearchResult = `
-<div class="results-section-modal-backdrop">
-<div id="results-section" class="container padding--lg">
+<div class="search-modal-backdrop"></div>
+<div id="search" class="container padding--lg">
+   <div id="search-box"></div>
+   <div id="search-close">✖</div>
    <h1 class="sr-only">Search Results</h1>
    <div class="row">
       <div class="col col--2">
@@ -48,25 +50,17 @@ const typesenseInstantSearchCreateDomElements = () => {
       </div>
    </div>
 </div>
-</div>
   `;
 
-  // Add searchbar to dom
-  // const searchbar = document.createElement('div');
-  // searchbar.id = 'searchbar';
-  // searchbar.innerHTML = domStringSearchBox;
-  if (document.querySelector('#results-section') === null) {
+  // Add search to dom
+  if (document.querySelector('#search') === null) {
     document
       .querySelector('body')
       .insertAdjacentHTML('afterbegin', domStringSearchResult);
   }
-  if (document.querySelector('#searchbox') === null) {
-    document
-      .querySelector('body')
-      .insertAdjacentHTML('afterbegin', domStringSearchBox);
-    // .querySelector('.navbar__inner')
-    // .insertAdjacentHTML('beforeend', domStringSearchBox);
-  }
+  document
+    .querySelector('.navbar__inner')
+    .insertAdjacentHTML('beforeend', domStringSearchStart);
 };
 
 export function onRouteDidUpdate({ location, previousLocation }) {
