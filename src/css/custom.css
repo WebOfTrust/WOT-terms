@@ -364,7 +364,7 @@ table td:nth-child(8) {
 
 :root {
   --docusaurus-instantsearch-modal-bg: #222222bd;
-  --docusaurus-instantsearch-bg: #eee;
+  --docusaurus-instantsearch-bg: #feffff;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -388,7 +388,7 @@ table td:nth-child(8) {
 #search {
   background-color: var(--docusaurus-instantsearch-bg);
   position: absolute;
-  top: 5em;
+  top: 2em;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1041;
@@ -487,7 +487,7 @@ table td:nth-child(8) {
 }
 
 .ais-RefinementList-count {
-  color: #000;
+  color: var(--ifm-color-primary);
 }
 
 .contextual-info {
