@@ -498,6 +498,14 @@ table td:nth-child(8) {
   font-size: 0.9em;
 }
 
+#filters-section .row {
+  min-height: 15em;
+  border: 1px solid #cccccc56;
+  border-radius: 7px;
+  overflow: scroll;
+}
+
+
 /**
   * END TYPESENSE INSTANTSEARCH
   */
