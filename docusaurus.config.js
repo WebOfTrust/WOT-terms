@@ -60,9 +60,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'WebOfTrust Educational site',
+        title: 'KERISSE',
         logo: {
-          alt: 'WOT terms Logo',
+          alt: 'KERISSE Logo',
           src: 'img/stamp.png',
         },
         items: [
