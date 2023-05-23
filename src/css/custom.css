@@ -423,10 +423,11 @@ table td:nth-child(8) {
   position: relative;
 }
 
-#search-box {
+/* #search-box {
   display: none;
-}
-.docs-doc-page #search-box {
+} */
+/* .docs-doc-page #search-box { */
+#search-box {
   display: block;
 }
 
@@ -451,7 +452,8 @@ table td:nth-child(8) {
   z-index: 1042;
 }
 
-.docs-doc-page #search-box .ais-SearchBox .ais-SearchBox-input {
+/* .docs-doc-page #search-box .ais-SearchBox .ais-SearchBox-input { */
+#search-box .ais-SearchBox .ais-SearchBox-input {
   margin: 0 auto;
   font-size: 1em;
   padding: 0.5em;
