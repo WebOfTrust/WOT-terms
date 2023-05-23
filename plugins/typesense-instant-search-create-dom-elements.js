@@ -1,6 +1,6 @@
 const typesenseInstantSearchCreateDomElements = () => {
-  const domStringSearchStart = `<div id="search-start">🔍</div>`;
-  const domStringSearchResult = `
+   const domStringSearchStart = `<button id="search-start">🔍</button>`;
+   const domStringSearchResult = `
 <div class="search-modal-backdrop"></div>
 <div id="search" class="container padding--lg">
    <div id="search-box"></div>
@@ -52,20 +52,27 @@ const typesenseInstantSearchCreateDomElements = () => {
 </div>
   `;
 
-  // Add search to dom
-  if (document.querySelector('#search') === null) {
-    document
-      .querySelector('body')
-      .insertAdjacentHTML('afterbegin', domStringSearchResult);
-  }
-  document
-    .querySelector('.navbar__inner')
-    .insertAdjacentHTML('beforeend', domStringSearchStart);
+   // Add search to dom
+   if (document.querySelector('#search') === null) {
+      document
+         .querySelector('body')
+         .insertAdjacentHTML('afterbegin', domStringSearchResult);
+   }
+
+   // TODO: find out why check for null does not work
+   // if (document.querySelector('#search-start') === null) {
+   if (document.querySelector('#search-start')) {
+      document.querySelector('#search-start').remove();
+   }
+   document
+      .querySelector('.navbar__items--right')
+      .insertAdjacentHTML('beforeend', domStringSearchStart);
+   // }
 };
 
 export function onRouteDidUpdate({ location, previousLocation }) {
-  // Don't execute if we are still on the same page; the lifecycle may be fired
-  // because the hash changes (e.g. when navigating between headings)
-  if (location.pathname === previousLocation?.pathname) return;
-  typesenseInstantSearchCreateDomElements();
+   // Don't execute if we are still on the same page; the lifecycle may be fired
+   // because the hash changes (e.g. when navigating between headings)
+   if (location.pathname === previousLocation?.pathname) return;
+   typesenseInstantSearchCreateDomElements();
 }
