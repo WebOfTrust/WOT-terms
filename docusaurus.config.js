@@ -8,9 +8,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'KERI suite search engine (KERISSE)',
+  title: 'KERISSE',
   tagline:
-    'Personal learning environment and consensus building with others.',
+    'KERI suite search engine.',
   url: process.env.URL,
   baseUrl: process.env.BASEURL,
   onBrokenLinks: 'warn',
@@ -312,7 +312,7 @@ const config = {
   ],
   clientModules: [
     require.resolve('./plugins/crossLinks'),
-    require.resolve('./plugins/animationHomepage'),
+    // require.resolve('./plugins/animationHomepage'),
     require.resolve('./plugins/showLevels'),
     require.resolve('./plugins/insertVideo'),
     require.resolve('./plugins/insertSubtitles'),
