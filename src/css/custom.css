@@ -491,7 +491,7 @@ table td:nth-child(8) {
 }
 
 .ais-RefinementList-count {
-  color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary) !important;
 }
 
 .contextual-info {
