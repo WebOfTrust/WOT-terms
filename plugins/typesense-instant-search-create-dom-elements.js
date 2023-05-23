@@ -7,7 +7,7 @@ const typesenseInstantSearchCreateDomElements = () => {
    <div id="search-close">✖</div>
    <h1 class="sr-only">Search Results</h1>
    <div class="row">
-      <div class="col col--2">
+      <div class="col col--3">
           <h2 class="text--center">Refine</h2>
           <nav class="">
             <div class="" id="filters-section">
@@ -38,7 +38,7 @@ const typesenseInstantSearchCreateDomElements = () => {
             </div>
          </nav>
       </div>
-      <div class="col col--10">
+      <div class="col col--9">
         <h2 class="text--center">Results</h2>
          <div id="hits"></div>
          <div id="pagination"></div>
