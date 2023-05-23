@@ -37,7 +37,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Documenting everything around KERI, ACDC, CESR, OOBI, IPEX; what else have we got?"
+      description={`${siteConfig.tagline}`}
     >
       <HomepageHeader />
       <main>
