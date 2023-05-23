@@ -11,31 +11,26 @@ const typesenseInstantSearchCreateDomElements = () => {
           <h2 class="text--center">Refine</h2>
           <nav class="">
             <div class="" id="filters-section">
-               <div class="row">
+               <div class="row margin-top--lg">
                   <div class="">
-                     <div class="" id="current-refinements"></div>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="margin-top--lg">
                      <h3 class="">Website</h3>
                      <div id="site-name-refinement-list"></div>
                   </div>
                </div>
-               <div class="row">
-                  <div class="margin-top--lg">
+               <div class="row margin-top--lg">
+                  <div class="">
                      <h3 class="">Knowledge Level</h3>
                      <div id="knowledgelevel-refinement-list"></div>
                   </div>
                </div>
-               <div class="row">
-                  <div class="margin-top--lg">
+               <div class="row margin-top--lg">
+                  <div class="">
                      <h3 class="">Type</h3>
                      <div id="type-refinement-list"></div>
                   </div>
                </div>
-               <div class="row">
-                  <div class="margin-top--lg">
+               <div class="row margin-top--lg">
+                  <div class="">
                      <h3 class="">Subject</h3>
                      <div id="subject-refinement-list"></div>
                   </div>
