@@ -80,18 +80,18 @@ const TSIS = () => {
     indexName: 'Wot-terms',
     routing: true,
     searchFunction(helper) {
-      if (helper.state.query === '') {
-        document
-          .querySelector('.search-modal-backdrop')
-          .classList.add('hidden');
-        document.querySelector('#search').classList.add('hidden');
-      } else {
-        document
-          .querySelector('.search-modal-backdrop')
-          .classList.remove('hidden');
-        document.querySelector('#search').classList.remove('hidden');
-        helper.search();
-      }
+      // if (helper.state.query === '') {
+      //   document
+      //     .querySelector('.search-modal-backdrop')
+      //     .classList.add('hidden');
+      //   document.querySelector('#search').classList.add('hidden');
+      // } else {
+      //   document
+      //     .querySelector('.search-modal-backdrop')
+      //     .classList.remove('hidden');
+      //   document.querySelector('#search').classList.remove('hidden');
+      // }
+      helper.search();
     },
   });
 
