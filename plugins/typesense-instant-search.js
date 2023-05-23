@@ -170,6 +170,7 @@ const TSIS = () => {
         label: 'd-flex align-items-center',
         checkbox: 'mr-2',
       },
+      sortBy: ['name:asc', 'count:desc'],
     }),
     refinementList({
       container: '#type-refinement-list',
