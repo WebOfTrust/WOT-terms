@@ -100,6 +100,7 @@ const TSIS = () => {
       container: '#search-box',
       showSubmit: false,
       showReset: false,
+      showLoadingIndicator: true,
       placeholder: 'Enter Search…',
       autofocus: true,
       cssClasses: {
@@ -158,7 +159,7 @@ const TSIS = () => {
       attribute: 'knowledgeLevel',
       searchable: false,
       searchablePlaceholder: 'Search knowledge level',
-      showMore: true,
+      showMore: false,
       cssClasses: {
         searchableInput: 'form-control form-control-sm mb-2 border-light-2',
         searchableSubmit: 'hidden',
@@ -175,7 +176,7 @@ const TSIS = () => {
       attribute: 'type',
       searchable: false,
       searchablePlaceholder: 'Search type',
-      showMore: true,
+      showMore: false,
       cssClasses: {
         searchableInput: 'form-control form-control-sm mb-2 border-light-2',
         searchableSubmit: 'hidden',
@@ -192,7 +193,7 @@ const TSIS = () => {
       attribute: 'hierarchy.lvl1',
       searchable: false,
       searchablePlaceholder: 'Subject',
-      showMore: true,
+      showMore: false,
       cssClasses: {
         searchableInput: 'form-control form-control-sm mb-2 border-light-2',
         searchableSubmit: 'hidden',
@@ -209,7 +210,7 @@ const TSIS = () => {
       attribute: 'siteName',
       searchable: false,
       searchablePlaceholder: 'Site name',
-      showMore: true,
+      showMore: false,
       cssClasses: {
         searchableInput: 'form-control form-control-sm mb-2 border-light-2',
         searchableSubmit: 'hidden',
