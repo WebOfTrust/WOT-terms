@@ -188,6 +188,7 @@ const TSIS = () => {
         label: 'd-flex align-items-center',
         checkbox: 'mr-2',
       },
+      sortBy: ['name:asc', 'count:desc'],
     }),
     refinementList({
       container: '#subject-refinement-list',
@@ -205,6 +206,7 @@ const TSIS = () => {
         label: 'd-flex align-items-center',
         checkbox: 'mr-2',
       },
+      sortBy: ['name:asc', 'count:desc'],
     }),
     refinementList({
       container: '#site-name-refinement-list',
@@ -222,6 +224,7 @@ const TSIS = () => {
         label: 'd-flex align-items-center',
         checkbox: 'mr-2',
       },
+      sortBy: ['name:asc', 'count:desc'],
     }),
   ]);
 
