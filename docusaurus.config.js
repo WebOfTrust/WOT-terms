@@ -8,9 +8,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'WebofTrust Educational site',
+  title: 'KERI suite search engine (KERISSE)',
   tagline:
-    'Documenting everything around KERI, ACDC, CESR, OOBI, IPEX; what else have we got?',
+    'Personal learning environment and consensus building with others.',
   url: process.env.URL,
   baseUrl: process.env.BASEURL,
   onBrokenLinks: 'warn',
