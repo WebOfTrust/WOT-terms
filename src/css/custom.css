@@ -431,13 +431,14 @@ table td:nth-child(8) {
 }
 
 #search-start {
-  /* border: 1px solid #ccc; */
   cursor: pointer;
   padding: 0.5em;
   line-height: normal;
   width: 3em;
   text-align: right;
   font-size: 1.5em;
+  border: none;
+  background: none;
 }
 
 #search-close {
