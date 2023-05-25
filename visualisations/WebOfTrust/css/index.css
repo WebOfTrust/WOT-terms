@@ -113,12 +113,19 @@ h1 {
   font-size: 3.5em;
 }
 
+a {
+  color: #eee;
+}
+
 #audio-container {
   z-index: 6;
   position: fixed;
   bottom: 3em;
   right: 1em;
-  
+  color: #111;
+}
+#audio-container a {
+  color: #111;
 }
 
 #audio-play {
