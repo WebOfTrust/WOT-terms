@@ -24,8 +24,17 @@ let nodeRadiusInactive = 8;
 function visualize(data) {
   let nodes = data.nodes;
   let links = data.links;
-
   let results = [];
+
+  // https://stackoverflow.com/a/8837505
+  // Simple function to sort an array of objects, based on a key in the objects
+  function sortByKey(array, key) {
+    return array.sort(function (a, b) {
+      var x = a[key]; var y = b[key];
+      return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+    });
+  }
+
 
   // make search results clickable. Only needs to run once since it is via event delegation
   document.querySelector('.search-results-list').addEventListener("click", function (e) {
@@ -66,7 +75,10 @@ function visualize(data) {
     }
   }, false);
 
-  nodes.forEach(function (d, index) {
+  let sortedNodes = sortByKey(nodes, 'id');
+
+  sortedNodes.forEach(function (d, index) {
+    // console.log('d: ', d);
     results.push(`<li data-indexnumber="${index}">` + d.id + `</li>`);
   });
   document.querySelector('.search-results-list').innerHTML = results.join('');
