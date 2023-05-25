@@ -110,7 +110,7 @@ const config = {
             position: 'left',
             items: [
               {
-                to: '/visualisations/WebOfTrust/index.htm',
+                to: 'https://weboftrust.github.io/WOT-terms/visualisations/WebOfTrust/index.htm',
                 label: 'Connections in repo`s of WebOfTrust',
               }
             ],
