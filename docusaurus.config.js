@@ -105,6 +105,17 @@ const config = {
             ],
           },
           {
+            to: '/visualisations',
+            label: 'Visualisations',
+            position: 'left',
+            items: [
+              {
+                to: '/visualisations/WebOfTrust/index.htm',
+                label: 'Connections in repo`s of WebOfTrust',
+              }
+            ],
+          },
+          {
             href: '/feedback',
             label: 'Feedback',
             position: 'left',
