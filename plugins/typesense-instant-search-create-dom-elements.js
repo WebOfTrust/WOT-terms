@@ -1,8 +1,8 @@
 const typesenseInstantSearchCreateDomElements = () => {
    const domStringSearchStart = `<button id="search-start">🔍</button>`;
    const domStringSearchResult = `
-<div class="search-modal-backdrop"></div>
-<div id="search" class="container padding--lg">
+<div class="search-modal-backdrop hidden"></div>
+<div id="search" class="container padding--lg hidden">
    <div id="search-box"></div>
    <div id="search-close">✖</div>
    <h1 class="sr-only">Search Results</h1>
