@@ -112,6 +112,7 @@ const config = {
               {
                 to: 'https://weboftrust.github.io/WOT-terms/visualisations/WebOfTrust/index.htm',
                 label: 'Connections in repo`s of WebOfTrust',
+                target: '_self',
               }
             ],
           },
