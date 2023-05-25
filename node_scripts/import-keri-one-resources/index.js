@@ -33,7 +33,7 @@ const writeToFile = (content) => {
   console.log('File written successfully.');
 };
 
-
+// // Mail function not yet implemented
 // // Function to send an email
 // const sendEmail = async (error) => {
 //   try {
@@ -63,9 +63,11 @@ const scrapeSite = async () => {
     // Array to store the scraped data
     const scrapedData = [];
 
-    // Find all <ul> elements
+    // Find all <ul> elements in the #main-content element
     $('#main-content ul').each((index, element) => {
       const links = [];
+
+      // Find the sibling <h2> element. Every <ul> element has a sibling <h2> element just above it
       const siblingH2 = $(element).prev('h2').text();
 
       // Find <a> tags within the current <ul> element
