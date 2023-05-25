@@ -62,7 +62,7 @@ img {
 }
 
 /* Natural flow and rhythm in articles by default */
-article > * + * {
+article>*+* {
   margin-top: 1em;
 }
 
@@ -84,11 +84,14 @@ select {
             }
         } */
 /* END RESET */
+
+
 circle {
   transition: opacity 0.7s ease-in-out;
 }
 
 /* https://flatuicolors.com/palette/fr */
+
 :root {
   --color1: "#1e3799";
   /* --color2: #fad390; */
@@ -137,13 +140,20 @@ a {
   font-size: 0.8em;
 }
 
+
 .UI {
   background: var(--color2);
   /* border-width: 1px;
   border-style: solid;
   border-color: var(--color3); */
   border-radius: 7px;
-  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02), 6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028), 12.5px 12.5px 10px rgba(0, 0, 0, 0.035), 22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042), 41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05), 100px 100px 80px rgba(0, 0, 0, 0.07);
+  box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
   position: fixed;
   top: 0;
   left: 0;
@@ -159,6 +169,8 @@ a {
   height: 100%;
   /* min-width: 20%; */
 }
+
+#menu {}
 
 #titelblock {
   position: fixed;
@@ -178,6 +190,7 @@ a {
   z-index: 2;
 }
 
+
 .search-results {
   /* background: #999; */
   /* position: fixed;
@@ -191,6 +204,7 @@ a {
   padding-bottom: 2em;
   background: url(../img/tintin-rocketship.png) right 130em no-repeat;
   background-size: 2em;
+
 }
 
 .search-results li {
@@ -202,6 +216,7 @@ a {
   width: 100%;
   position: fixed;
   bottom: 0;
+
   background: url(../img/grass.png) repeat-x left 10px;
   z-index: 7;
 }
@@ -212,8 +227,10 @@ a {
   bottom: 0;
   right: 0;
   z-index: 4;
-  width: 2em;
+  width: 2em
+    /* border: 3px solid red; */
 }
+
 
 /* https://codepen.io/elisabeth_hamel/pen/WLeGwQ */
 canvas {
@@ -225,4 +242,5 @@ canvas {
   width: 100%;
   height: 100%;
   z-index: 1;
+
 }
