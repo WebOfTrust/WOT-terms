@@ -142,6 +142,7 @@ const TSIS = () => {
               </div>
 
             <div class="col col--9">
+                <h4>${item.pageTitle}</h4>
                 <p><a class="hit" href="${item.url}" ${openInNewTab}>${item._highlightResult.content.value}</a></p>
               </div
             </div>
