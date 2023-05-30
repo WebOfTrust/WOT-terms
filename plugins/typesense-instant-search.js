@@ -137,7 +137,7 @@ const TSIS = () => {
           let itemTypeTemplateString = item.type !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.type}</h5>` : '';
 
           //The same for hierarchy.lvl1
-          let itemHierarchyLvl1TemplateString = item['hierarchy.lvl1'] !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item['hierarchy.lvl1']}</h5>` : '–';
+          let itemHierarchyLvl1TemplateString = item['hierarchy.lvl1'] !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item['hierarchy.lvl1']}</h5>` : '';
 
           // The same for title
           let itemTitleTemplateString = item.pageTitle !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.pageTitle}</h5>` : '';
