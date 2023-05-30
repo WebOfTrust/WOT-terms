@@ -162,8 +162,8 @@ const TSIS = () => {
                 </div>
 
             <div class="col col--9">
-                <h4>${itemTitleTemplateString}</h4>
-                <h5>${itemFirstHeadingBeforeElementTemplateString}</h5>
+                ${itemTitleTemplateString}
+                ${itemFirstHeadingBeforeElementTemplateString}
                 <p><a class="hit" href="${item.url}" ${openInNewTab}>${item._highlightResult.content.value}</a></p>
               </div
             </div>
