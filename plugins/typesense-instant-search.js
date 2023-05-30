@@ -139,6 +139,13 @@ const TSIS = () => {
           //The same for hierarchy.lvl1
           let itemHierarchyLvl1TemplateString = item['hierarchy.lvl1'] !== '' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item['hierarchy.lvl1']}</h5>` : '';
 
+          // The same for title
+          let itemTitleTemplateString = item.pageTitle !== '' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.pageTitle}</h5>` : '';
+
+          // The same for firstHeadingBeforeElement
+          let itemFirstHeadingBeforeElementTemplateString = item.firstHeadingBeforeElement !== '' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.firstHeadingBeforeElement}</h5>` : '';
+
+
           return `
           <div class="container">
             <div class="row">
@@ -155,7 +162,8 @@ const TSIS = () => {
                 </div>
 
             <div class="col col--9">
-                <h4>${item.pageTitle}</h4>
+                <h4>${itemTitleTemplateString}</h4>
+                <h5>${itemFirstHeadingBeforeElementTemplateString}</h5>
                 <p><a class="hit" href="${item.url}" ${openInNewTab}>${item._highlightResult.content.value}</a></p>
               </div
             </div>
