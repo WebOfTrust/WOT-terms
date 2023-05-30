@@ -127,6 +127,18 @@ const TSIS = () => {
             openInNewTab = 'target="_blank" rel="noopener"';
           }
 
+          // Only if siteName is not empty, show it
+          let itemSiteNameTemplateString = item.siteName !== '' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.siteName}</h5>` : '';
+
+          // The same for knowledgeLevel
+          let itemKnowledgeLevelTemplateString = item.knowledgeLevel !== '' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.knowledgeLevel}</h5>` : '';
+
+          //The same for type
+          let itemTypeTemplateString = item.type !== '' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.type}</h5>` : '';
+
+          //The same for hierarchy.lvl1
+          let itemHierarchyLvl1TemplateString = item['hierarchy.lvl1'] !== '' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item['hierarchy.lvl1']}</h5>` : '';
+
           return `
           <div class="container">
             <div class="row">
@@ -136,11 +148,11 @@ const TSIS = () => {
             </div>
             <div class="row hit-name">
               <div class="col col--3">
-                <h5 style="display: block;" class="contextual-info badge badge--secondary">${item['siteName']}</h5>
-                <h5 style="display: block;" class="contextual-info badge badge--secondary">${item.knowledgeLevel}</h5>
-                <h5 style="display: block;" class="contextual-info badge badge--secondary">${item.type}</h5>
-                <h5 style="display: block;" class="contextual-info badge badge--secondary">${item['hierarchy.lvl1']}</h5>
-              </div>
+                ${itemSiteNameTemplateString}
+                ${itemKnowledgeLevelTemplateString}
+                ${itemTypeTemplateString}
+                ${itemHierarchyLvl1TemplateString}
+                </div>
 
             <div class="col col--9">
                 <h4>${item.pageTitle}</h4>
