@@ -36,7 +36,7 @@ const addDataTypes = () => {
     }
   }
 
-  if (document.querySelector('header h1')) {
+  if (document.querySelector('article header h1')) {
     const heading = document.querySelector('header h1').innerText;
 
     // for every row in overview.json except the first one
@@ -47,7 +47,9 @@ const addDataTypes = () => {
         // if the level is not empty
         row[levelColumnNumber] !== ''
       ) {
+
         // add row[levelColumnNumber] to data-set of body
+        console.log('document.querySelector(article): ', document.querySelector('article'));
         document.querySelector('article').dataset.level =
           row[levelColumnNumber];
         document.querySelector('article').classList.add('level');
