@@ -143,7 +143,7 @@ const TSIS = () => {
           let itemTitleTemplateString = item.pageTitle !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.pageTitle}</h5>` : '';
 
           // The same for firstHeadingBeforeElement
-          let itemFirstHeadingBeforeElementTemplateString = item.firstHeadingBeforeElement !== '' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.firstHeadingBeforeElement}</h5>` : '–';
+          let itemFirstHeadingBeforeElementTemplateString = item.firstHeadingBeforeElement !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.firstHeadingBeforeElement}</h5>` : '';
 
 
           return `
