@@ -128,22 +128,22 @@ const TSIS = () => {
           }
 
           // Only if siteName is not empty, show it
-          let itemSiteNameTemplateString = item.siteName !== '' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.siteName}</h5>` : '';
+          let itemSiteNameTemplateString = item.siteName !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.siteName}</h5>` : '';
 
           // The same for knowledgeLevel
-          let itemKnowledgeLevelTemplateString = item.knowledgeLevel !== '' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.knowledgeLevel}</h5>` : '';
+          let itemKnowledgeLevelTemplateString = item.knowledgeLevel !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.knowledgeLevel}</h5>` : '';
 
           //The same for type
-          let itemTypeTemplateString = item.type !== '' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.type}</h5>` : '';
+          let itemTypeTemplateString = item.type !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.type}</h5>` : '';
 
           //The same for hierarchy.lvl1
-          let itemHierarchyLvl1TemplateString = item['hierarchy.lvl1'] !== '' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item['hierarchy.lvl1']}</h5>` : '';
+          let itemHierarchyLvl1TemplateString = item['hierarchy.lvl1'] !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item['hierarchy.lvl1']}</h5>` : '–';
 
           // The same for title
-          let itemTitleTemplateString = item.pageTitle !== '' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.pageTitle}</h5>` : '';
+          let itemTitleTemplateString = item.pageTitle !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.pageTitle}</h5>` : '';
 
           // The same for firstHeadingBeforeElement
-          let itemFirstHeadingBeforeElementTemplateString = item.firstHeadingBeforeElement !== '' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.firstHeadingBeforeElement}</h5>` : '';
+          let itemFirstHeadingBeforeElementTemplateString = item.firstHeadingBeforeElement !== '' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.firstHeadingBeforeElement}</h5>` : '–';
 
 
           return `
