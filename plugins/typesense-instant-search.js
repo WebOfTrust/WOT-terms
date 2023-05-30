@@ -121,6 +121,7 @@ const TSIS = () => {
       container: '#hits',
       templates: {
         item(item) {
+          // External links should open in a new tab
           let openInNewTab = '';
           if (item.url.indexOf('weboftrust.github.io/WOT-terms') === -1) {
             openInNewTab = 'target="_blank" rel="noopener"';
