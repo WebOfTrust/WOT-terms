@@ -365,12 +365,14 @@ table td:nth-child(8) {
 :root {
   --docusaurus-instantsearch-modal-bg: #222222bd;
   --docusaurus-instantsearch-bg: #feffff;
+  --docusaurus-instantsearch-bg-hover: #f7f7f8;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --docusaurus-instantsearch-modal-bg: #22222259;
   --docusaurus-instantsearch-bg: #222;
+  --docusaurus-instantsearch-bg-hover: #393838;
 }
 
 .search-modal-backdrop {
@@ -475,6 +477,12 @@ table td:nth-child(8) {
   padding: 1em;
   border: 1px solid #ccc;
   border-radius: 7px;
+  transition: background 0.3s ease-in-out;
+}
+
+.ais-Hits-item:hover {
+  transition: background 0.3s ease-in-out;
+  background: var(--docusaurus-instantsearch-bg-hover);
 }
 
 .ais-Pagination-list li {
