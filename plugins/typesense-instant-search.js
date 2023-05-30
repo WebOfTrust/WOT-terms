@@ -165,6 +165,7 @@ const TSIS = () => {
                 ${itemTitleTemplateString}
                 ${itemFirstHeadingBeforeElementTemplateString}
                 <p><a class="hit" href="${item.url}" ${openInNewTab}>${item._highlightResult.content.value}</a></p>
+                <a style="display: inline;" class="hit-url button button--active button--primary" href="${item.url}" ${openInNewTab}>Go</a>
               </div
             </div>
           </div>
