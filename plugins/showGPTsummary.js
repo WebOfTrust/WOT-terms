@@ -41,7 +41,7 @@ const showGPTsummary = () => {
     setTimeout(function () {
       clear = setInterval(typeText, interval);
     }, pauseBeforeStart);
-  }
+  } // end typeWriter
 
   const heading = document.querySelector('.markdown header h1');
 
