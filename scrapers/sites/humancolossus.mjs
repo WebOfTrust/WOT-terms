@@ -7,7 +7,7 @@ const config = {
         sourceType: 'localXMLsitemap',
         sourcePath: 'sitemaps/sitemap-humancolossus.xml',
     }),
-    siteName: 'Human colossus blogpost',
+    siteName: 'Blogposts',
     destinationFile: 'output/humancolossus.json',
     domQueryForContent: '.blog-item-content p'
 }

@@ -7,7 +7,7 @@ const config = {
         sourceType: 'localXMLsitemap',
         sourcePath: 'sitemaps/sitemap-medium.com-spherity.xml',
     }),
-    siteName: 'Carsten Stöcker on Medium',
+    siteName: 'Blogposts',
     destinationFile: 'output/medium.com-spherity.json',
     domQueryForContent: '.ch p'
 }

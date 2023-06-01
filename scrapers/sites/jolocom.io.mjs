@@ -7,7 +7,7 @@ const config = {
         sourceType: 'localXMLsitemap',
         sourcePath: 'sitemaps/sitemap-jolocom.xml',
     }),
-    siteName: 'Jolocom blogpost',
+    siteName: 'Blogposts',
     destinationFile: 'output/jolocom.json',
     domQueryForContent: '.blog-post-single p'
 }
