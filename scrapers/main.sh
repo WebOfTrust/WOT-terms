@@ -7,8 +7,8 @@ echo "Extracted data"
 echo "------------"
 
 
-# source ./import.sh
+source ./import.sh
 
-# echo "------------"
-# echo "Imported data"
-# echo "------------"
+echo "------------"
+echo "Imported data"
+echo "------------"
