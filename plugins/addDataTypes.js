@@ -49,7 +49,6 @@ const addDataTypes = () => {
       ) {
 
         // add row[levelColumnNumber] to data-set of body
-        console.log('document.querySelector(article): ', document.querySelector('article'));
         document.querySelector('article').dataset.level =
           row[levelColumnNumber];
         document.querySelector('article').classList.add('level');

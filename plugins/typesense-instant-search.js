@@ -253,7 +253,6 @@ const TSIS = () => {
 
   // function handleSearchTermClick(event) {
   //   const searchBox = document.querySelector('#search-box input[type=search]');
-  //   console.log('searchBox: ', searchBox);
   //   search.helper.clearRefinements();
   //   searchBox.val(event.currentTarget.textContent);
   //   search.helper.setQuery(searchBox.val()).search();

@@ -117,12 +117,10 @@ const writeChanges = (element) => {
       fetch(domainReceivingChanges, { method: 'POST', body: formData });
       // .then(
       //   function (response) {
-      //     console.log('response: ', response);
       //     return response.text();
       //   }
       // );
       // .then(function (body) {
-      //   console.log(body);
       // });
 
       // // Octokit.js
@@ -162,12 +160,9 @@ const writeChanges = (element) => {
         body: `An edit has been made in column “${mutation.columnname}” for the term: “${mutation.term}”.\n\nThe new text is: “${mutation.proposedText}”\n\n(Column: ${mutation.columnnr}, Row: ${mutation.rownr})`,
       };
 
-      console.log('payload: ', payload.body);
-
       // Send the request to create the issue
       const response = await octokit.rest.issues.create(payload);
 
-      console.log(response);
       let onOk = () => {
         // notifier.info('You pressed OK');
       };
@@ -209,9 +204,9 @@ const writeChanges = (element) => {
       mutation.proposedText = mutation.proposedText.substring(
         0,
         mutation.proposedText.length -
-          buttonTextSave.length -
-          buttonTextCancel.length -
-          1
+        buttonTextSave.length -
+        buttonTextCancel.length -
+        1
       );
 
       // The term that is being edited
@@ -223,13 +218,13 @@ const writeChanges = (element) => {
       mutation.term = mutation.term.substring(
         0,
         mutation.term.length -
-          document.querySelectorAll(
-            `.googlesheet tr[data-rownr="${mutation.rownr}"] td[data-columnnr="4"] button.cancel`
-          )[0].innerText.length -
-          document.querySelectorAll(
-            `.googlesheet tr[data-rownr="${mutation.rownr}"] td[data-columnnr="4"] button.edit-save`
-          )[0].innerText.length -
-          1
+        document.querySelectorAll(
+          `.googlesheet tr[data-rownr="${mutation.rownr}"] td[data-columnnr="4"] button.cancel`
+        )[0].innerText.length -
+        document.querySelectorAll(
+          `.googlesheet tr[data-rownr="${mutation.rownr}"] td[data-columnnr="4"] button.edit-save`
+        )[0].innerText.length -
+        1
       );
     });
     observer.observe(el, {

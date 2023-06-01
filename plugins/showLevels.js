@@ -25,7 +25,6 @@ const showLevels = (targetElements) => {
   let urlLevel = allQueryParameters.get('level');
 
   let urlContainsValidLevel = false;
-  // console.log('rege');
   if (urlLevel === '1' || urlLevel === '2' || urlLevel === '3') {
     urlContainsValidLevel = true;
   }
@@ -54,11 +53,11 @@ const showLevels = (targetElements) => {
       '',
       '',
       window.location.protocol +
-        '//' +
-        window.location.host +
-        window.location.pathname +
-        '?' +
-        allQueryParameters.toString()
+      '//' +
+      window.location.host +
+      window.location.pathname +
+      '?' +
+      allQueryParameters.toString()
     );
   };
 
@@ -110,7 +109,6 @@ const showLevels = (targetElements) => {
     // set button = active
     resetShowLevelButton();
     button.target.classList.add(showLevelButtonActiveClass);
-    // console.log('button: ', button);
     document.querySelector('.show-level-buttons-info').innerHTML =
       infoMessage['level' + button.target.dataset.level];
   };
