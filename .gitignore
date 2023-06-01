@@ -38,3 +38,4 @@ docusaurus.config.*.js
 *.mp4
 
 copy-to-testsite.sh
+docusaurus.paths.*.js
