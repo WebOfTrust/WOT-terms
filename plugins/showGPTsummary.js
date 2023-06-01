@@ -5,7 +5,7 @@ import overview from '@site/static/json/overview.json';
 
 const showGPTsummary = () => {
   function typeWriter(selector, strText, interval) {
-    let text = document.querySelector(selector) || '',
+    let text = document.querySelector(selector),
       i = 0,
       clear,
       pauseBeforeStart = 60,
