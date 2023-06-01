@@ -2,6 +2,7 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
 require('dotenv').config(); //TODO: move to elsewhere, does not belong in config
+const paths = require('./docusaurus.paths.js');
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -11,8 +12,8 @@ const config = {
   title: 'KERISSE',
   tagline:
     'KERI suite search engine.',
-  url: process.env.URL,
-  baseUrl: process.env.BASEURL,
+  url: paths.url,
+  baseUrl: paths.baseUrl,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
