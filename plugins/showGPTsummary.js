@@ -5,7 +5,7 @@ import overview from '@site/static/json/overview.json';
 
 const showGPTsummary = () => {
   function typeWriter(selector, strText, interval) {
-    let text = document.querySelector(selector),
+    let text = document.querySelector(selector) || '',
       i = 0,
       clear,
       pauseBeforeStart = 60,
@@ -98,7 +98,7 @@ const showGPTsummary = () => {
           summary.innerHTML = row[summaryColumnNumber];
           domSummaryContainer.appendChild(summary);
 
-          typeWriter('.summary', row[summaryColumnNumber], 30);
+          // typeWriter('.summary', row[summaryColumnNumber], 30);
         }
       }
     });
