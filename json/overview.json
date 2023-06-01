@@ -460,7 +460,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "KERI agreement algorithm for control setup.",
       "",
       "NO INPUT"
     ],
@@ -4024,7 +4024,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Kubernetes CLI.",
       "",
       "K8s CLI"
     ],
@@ -6224,7 +6224,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "A GLEIF representative authorized to verify, needed to issue the QVI vLEI Credential.",
       "",
       "A GLEIF rep authorized to verify & issue QVI vLEI Credential."
     ],
@@ -8523,7 +8523,7 @@
       "",
       "",
       "",
-      "A decentralized controlling peer doesn't create records like a server.",
+      "Loading...",
       "",
       "A decentralized controller peer doesn't create records in the traditional sense of a server."
     ],
