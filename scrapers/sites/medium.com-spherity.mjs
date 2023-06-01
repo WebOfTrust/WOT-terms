@@ -1,15 +1,15 @@
-import createInput from '../modules/createInput.js';
-import importedScrape from '../modules/scrape.js';
+import createInput from '../modules/createInput.mjs';
+import importedScrape from '../modules/scrape.mjs';
 
 
 const config = {
     sitemap: await createInput({
         sourceType: 'localXMLsitemap',
-        sourcePath: 'sitemaps/sitemap-jolocom.xml',
+        sourcePath: 'sitemaps/sitemap-medium.com-spherity.xml',
     }),
-    siteName: 'Jolocom blogpost',
-    destinationFile: 'output/jolocom.json',
-    domQueryForContent: '.blog-post-single p'
+    siteName: 'Carsten Stöcker on Medium',
+    destinationFile: 'output/medium.com-spherity.json',
+    domQueryForContent: '.ch p'
 }
 
 
@@ -54,9 +54,10 @@ async function process(page, domQueryForContent) {
         domQueryForContent
     );
 
-    let pageTitle = await page.$eval('.blog-post-single h1', (element) => {
+    let pageTitle = await page.$eval('.ch h1', (element) => {
         return element.textContent.trim()
     });
+
 
 
     let all = {};

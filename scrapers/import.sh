@@ -4,7 +4,7 @@
 ############## CONFIGURATION
 ##############
 
-source ./.env
+source ../.env
 
 # Name of the collection where the documents are to be imported
 collection_name="${TYPESENSE_COLLECTION_NAME}"

@@ -3,6 +3,7 @@ import xml2js from 'xml2js';
 import fetch from 'node-fetch';
 import fs from 'fs';
 
+
 export default async function createInput(input) {
   if (input.sourceType === 'remoteXMLsitemap') {
     // Fetch and parse the sitemap.xml file

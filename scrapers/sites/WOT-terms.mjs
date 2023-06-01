@@ -1,5 +1,5 @@
-import createInput from '../modules/createInput.js';
-import importedScrape from '../modules/scrape.js';
+import createInput from '../modules/createInput.mjs';
+import importedScrape from '../modules/scrape.mjs';
 
 const config = {
     sitemap: await createInput({

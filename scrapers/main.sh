@@ -1,14 +1,14 @@
 #!/bin/bash
 
-node extractData.js
+node extractData.mjs
 
 echo "------------"
 echo "Extracted data"
 echo "------------"
 
 
-source ./import.sh
+# source ./import.sh
 
-echo "------------"
-echo "Imported data"
-echo "------------"
+# echo "------------"
+# echo "Imported data"
+# echo "------------"

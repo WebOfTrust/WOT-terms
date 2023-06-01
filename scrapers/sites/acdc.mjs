@@ -1,14 +1,15 @@
-import createInput from '../modules/createInput.js';
-import importedScrape from '../modules/scrape.js';
+import createInput from '../modules/createInput.mjs';
+import importedScrape from '../modules/scrape.mjs';
 
 const config = {
     sitemap: await createInput({
-        sourceType: 'localXMLsitemap',
-        sourcePath: 'sitemaps/gleif-sitemap.xml',
+        sourceType: 'querySelector',
+        sourcePath: 'https://github.com/trustoverip/acdc/wiki',
+        queryString: '#wiki-pages-box a',
     }),
-    siteName: 'Gleif website',
-    destinationFile: 'output/gleif.json',
-    domQueryForContent: '.content p'
+    siteName: 'Trust over IP glossary',
+    destinationFile: 'output/acdc.json',
+    domQueryForContent: '.markdown-body p, .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body li'
 }
 
 async function process(page, domQueryForContent) {
@@ -50,7 +51,7 @@ async function process(page, domQueryForContent) {
     );
 
     let pageTitle;
-    pageTitle = await page.$eval('.content h1', (element) => {
+    pageTitle = await page.$eval('.repository-content h1', (element) => {
         return element.textContent.trim()
     });
 

@@ -1,15 +1,15 @@
-import createInput from '../modules/createInput.js';
-import importedScrape from '../modules/scrape.js';
+import createInput from '../modules/createInput.mjs';
+import importedScrape from '../modules/scrape.mjs';
 
 
 const config = {
     sitemap: await createInput({
         sourceType: 'localXMLsitemap',
-        sourcePath: 'sitemaps/sitemap-humancolossus.xml',
+        sourcePath: 'sitemaps/sitemap-jolocom.xml',
     }),
-    siteName: 'Human colossus blogpost',
-    destinationFile: 'output/humancolossus.json',
-    domQueryForContent: '.blog-item-content p'
+    siteName: 'Jolocom blogpost',
+    destinationFile: 'output/jolocom.json',
+    domQueryForContent: '.blog-post-single p'
 }
 
 
@@ -54,9 +54,10 @@ async function process(page, domQueryForContent) {
         domQueryForContent
     );
 
-    let pageTitle = await page.$eval('.blog-item-title h1', (element) => {
+    let pageTitle = await page.$eval('.blog-post-single h1', (element) => {
         return element.textContent.trim()
     });
+
 
     let all = {};
     all.elements = elements;
