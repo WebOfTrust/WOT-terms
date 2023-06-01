@@ -10,8 +10,8 @@ export default async function scrape(o, processFunction) {
 
     // Iterate over each URL in the sitemap and create an array of entries for each URL
     // console.log('Indexing pages...');
-    // for (const url of o.sitemap.urlset.url) {// for production
-    for (const url of o.sitemap.urlset.url.slice(50, 63)) {// for testing
+    for (const url of o.sitemap.urlset.url) {// for production
+        // for (const url of o.sitemap.urlset.url.slice(50, 63)) {// for testing
         const pageUrl = url.loc[0];
         // console.log(`Indexing ${pageUrl}`);
 
