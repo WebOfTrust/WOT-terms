@@ -4,6 +4,8 @@ import overview from '@site/static/json/overview.json';
  */
 
 const showGPTsummary = () => {
+  // TODO: fix bug where the summary is added multiple times when navigating between pages
+  // TODO: endless loop when navigating between pages too fast
   function typeWriter(selector, strText, interval) {
     let text = document.querySelector(selector),
       i = 0,
