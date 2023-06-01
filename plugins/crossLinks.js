@@ -27,8 +27,8 @@ const doCrossLinks = () => {
         // Assign only once:
         textFragment.randomNumber === undefined
           ? (textFragment.randomNumber = Math.floor(
-              Math.random() * 10000000000000000000
-            ))
+            Math.random() * 10000000000000000000
+          ))
           : null;
 
         let innerTextNew = innerText.replace(
@@ -59,7 +59,7 @@ const doCrossLinks = () => {
         }
         if (textFragment.video !== undefined && insertVideos) {
           // let path = `${config.baseUrl}docs/video/video-files/${textFragment.video}#t=${textFragment.timeStart}`; // does not want to play for unknown reasons
-          let path = `${process.env.ASSETS_EXTERNAL}${textFragment.video}#t=${textFragment.timeStart}`;
+          let path = `https://dwarshuis.com/video/WOT-terms/${textFragment.video}#t=${textFragment.timeStart}`;
 
           strInnerTextNew += `<div class='video-inline'><p>More about ${textFragment.keyword}:</p><video controls playsinline src='${path}' controls>Your browser does not support the video tag.</video></div>`;
         }
