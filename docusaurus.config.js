@@ -338,7 +338,7 @@ const config = {
     require.resolve('./plugins/dynamicTables'),
     require.resolve('./plugins/elementGoFullScreen'),
     require.resolve('./plugins/horizontalScrollHint'),
-    require.resolve('./plugins/showDefinitionsOnHover'),
+    require.resolve('./plugins/showDefinitionsPopUpOnClick'),
     require.resolve('./plugins/writeChanges'),
     require.resolve('./plugins/addDataTypes'),
     require.resolve('./plugins/showGPTsummary'),

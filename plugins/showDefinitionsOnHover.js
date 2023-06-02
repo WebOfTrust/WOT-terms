@@ -13,7 +13,7 @@ import 'tippy.js/themes/light-border.css';
 // import 'tippy.js/themes/material.css';
 // import 'tippy.js/themes/translucent.css';
 
-const showDefinitionsOnHover = () => {
+const showDefinitionsPopUpOnClick = () => {
   // The links that we want to add a popup to
   let links = document.querySelectorAll(
     'article .markdown a[href]:not([href^="#"])'
@@ -71,6 +71,6 @@ const showDefinitionsOnHover = () => {
 export function onRouteDidUpdate({ location, previousLocation }) {
   // Don't execute if we are still on the same page; the lifecycle may be fired
   // because the hash changes (e.g. when navigating between headings)
-  showDefinitionsOnHover();
+  showDefinitionsPopUpOnClick();
   if (location.pathname === previousLocation?.pathname) return;
 }
