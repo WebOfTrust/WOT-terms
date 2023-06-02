@@ -5,6 +5,7 @@ import fs from 'fs';
 
 
 export default async function createInput(input) {
+  // If there is a remote sitemap.xml file, fetch it and parse it
   if (input.sourceType === 'remoteXMLsitemap') {
     // Fetch and parse the sitemap.xml file
     console.log('Fetching sitemap...');
@@ -15,6 +16,8 @@ export default async function createInput(input) {
     console.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
     return sitemap;
   }
+
+  // If there is a local sitemap.xml file, parse it
   if (input.sourceType === 'localXMLsitemap') {
     // read the file contents synchronously
     let fileContents = fs.readFileSync(input.sourcePath, 'utf-8');
@@ -29,6 +32,8 @@ export default async function createInput(input) {
       return;
     }
   }
+
+  // If there is a list of URLs on a page, parse it
   if (input.sourceType === 'querySelector') {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
