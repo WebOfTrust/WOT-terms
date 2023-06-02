@@ -19,6 +19,8 @@ const showDefinitionsPopUpOnClick = () => {
     'article .markdown a[href]:not([href^="#"])'
   );
 
+  const definitionButtonClassName = 'definition-button';
+
   links.forEach((item) => {
     let linkHref = new URL(item.href, location).host;
 
@@ -37,13 +39,13 @@ const showDefinitionsPopUpOnClick = () => {
           // Find the paragraph after heading with id="definition"
           let domEl = doc.querySelector('#definition');
 
-          // If there is text, add a popup to the button
-          if (domEl !== null) {
+          // If there is text && the button that shows popup on click does not exist, add a popup to the button (the check if the button exists is needed)
+          if (domEl !== null && item.nextElementSibling.classList.contains(definitionButtonClassName) === false) {
             let content = domEl.nextElementSibling;
             // add an inline button after the link
             let button = document.createElement('button');
             button.innerHTML = '+';
-            button.classList.add('definition-button');
+            button.classList.add(definitionButtonClassName);
             item.after(button);
 
             tippy(item, {
@@ -71,6 +73,6 @@ const showDefinitionsPopUpOnClick = () => {
 export function onRouteDidUpdate({ location, previousLocation }) {
   // Don't execute if we are still on the same page; the lifecycle may be fired
   // because the hash changes (e.g. when navigating between headings)
-  showDefinitionsPopUpOnClick();
   if (location.pathname === previousLocation?.pathname) return;
+  showDefinitionsPopUpOnClick();
 }
