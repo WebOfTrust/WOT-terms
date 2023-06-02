@@ -21,7 +21,24 @@ graph TD
 
     sdf --> fgkwiw["Scrape using manually created sitemap.xml"]
 
-    assignKeys["Assign scrape results to keys in array"]
+    assignKeys["Assign scrape results to keys in array object
+    [{
+        &nbsp;&nbsp;&nbsp;&nbsp;siteName: 'xxx'
+        &nbsp;&nbsp;&nbsp;&nbsp;url: 'xxx'
+        &nbsp;&nbsp;&nbsp;&nbsp;content: 'xxx'
+        &nbsp;&nbsp;&nbsp;&nbsp;tag: 'xxx'
+        &nbsp;&nbsp;&nbsp;&nbsp;firstHeadingBeforeElement: 'xxx'
+        &nbsp;&nbsp;&nbsp;&nbsp;timestamp: 'xxx'
+        &nbsp;&nbsp;&nbsp;&nbsp;'hierarchy.lvl0': 'xxx'
+        &nbsp;&nbsp;&nbsp;&nbsp;'hierarchy.lvl1': 'xxx'
+        &nbsp;&nbsp;&nbsp;&nbsp;'hierarchy.lvl2': 'xxx'
+        &nbsp;&nbsp;&nbsp;&nbsp;'hierarchy.lvl3': 'xxx'
+        &nbsp;&nbsp;&nbsp;&nbsp;knowledgeLevel: 'xxx'
+        &nbsp;&nbsp;&nbsp;&nbsp;type: 'xxx'
+        &nbsp;&nbsp;&nbsp;&nbsp;pageTitle: 'xxx'
+    }]
+"]
+style assignKeys text-align: left
     
     B --> assignKeys
     fgkwiw --> assignKeys
