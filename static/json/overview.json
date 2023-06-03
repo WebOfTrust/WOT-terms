@@ -130,7 +130,7 @@
       "",
       "",
       "",
-      "Authentic provenance chain; verifiable traceability of data back to origin.",
+      "Authentic provenance chain; trackable evidence of data back to origin.",
       "",
       "Authentic provenance chain; verifiable evidence of data traced back to origin."
     ],
@@ -1340,7 +1340,7 @@
       "",
       "",
       "",
-      "#ERROR!",
+      "Internet security standards and frameworks for digital certificates.",
       "",
       "Internet security standards and frameworks for digital certificates."
     ],
@@ -1758,7 +1758,7 @@
       "",
       "",
       "",
-      "A scheme for verifying the authenticity of digital messages or documents mathematically.",
+      "A scheme for verifying digital messages/documents authenticity.",
       "",
       "A scheme for verifying digital messages' authenticity."
     ],
@@ -1780,7 +1780,7 @@
       "1",
       "",
       "",
-      "DAG is a mathematical construct from graph theory; it has the acyclic property, which means no cycles.",
+      "DAG, a mathematical construct, has an acyclic property from graph theory with no cycles.",
       "",
       "DAGs, a math concept from graph theory, have an acyclic property from cycles-free directed graphs."
     ],
@@ -2132,7 +2132,7 @@
       "",
       "",
       "",
-      "Create AID by binding initial keypairs and info.",
+      "Creating an AID, binding it to initial keypairs and any other associated info.",
       "",
       "Create an AID by binding it to initial keypairs and info."
     ],
@@ -3452,7 +3452,7 @@
       "",
       "",
       "",
-      "Self-framed primitives expressed in either text or binary can be converted to the other domain without loss.",
+      "Self-framed primitives in either text or binary can be converted without loss.",
       "",
       "Self-framing primitives in either the text or binary domain can be converted as a group to the other without loss."
     ],
@@ -3562,7 +3562,7 @@
       "",
       "",
       "",
-      "The search for truth.",
+      "Seeking the truth.",
       "",
       "The search for truth."
     ],
@@ -4222,7 +4222,7 @@
       "",
       "",
       "",
-      "Digital signature scheme allows group users to sign one digital data.",
+      "A digital signature scheme enabling a group to sign one piece of digital data.",
       "",
       "A digital signature scheme allowing multiple users to sign a single digital data."
     ],
@@ -4442,7 +4442,7 @@
       "",
       "",
       "",
-      "Events controlling an identifier's keys logged in a KEL.",
+      "Events controlling an identifier's keys recorded in a Key Event Log (KEL).",
       "",
       "Events affecting control keys of an identifier logged in a KEL."
     ],
@@ -4882,7 +4882,7 @@
       "",
       "",
       "",
-      "Secret data, usually a string of characters, used to confirm identity.",
+      "Secret data used to verify user identity, usually a string of characters.",
       "",
       "Secret data, typically a string of characters, used to authenticate a user."
     ],
@@ -4992,7 +4992,7 @@
       "",
       "",
       "",
-      "Min. req'd witness signatures:",
+      "Min. valid witness sig. req'd.",
       "",
       "Min. valid witness signatures req'd."
     ],
@@ -5146,7 +5146,7 @@
       "",
       "",
       "",
-      "Data anchors are digests that uniquely identify digital data.",
+      "Data anchors are digests uniquely identifying digital data.",
       "",
       "Data anchors are digests that uniquely identify digital data."
     ],
@@ -5388,7 +5388,7 @@
       "",
       "",
       "",
-      "An option in many OS and programming languages that provides extra details of what the computer is doing.",
+      "Many computer systems and languages offer an option to provide more info on what the computer is doing.",
       "",
       "Many computer operating systems and programming languages offer an option to show extra details about what the computer is doing."
     ],
@@ -5718,7 +5718,7 @@
       "",
       "",
       "",
-      "Someone validates an inquiry at KERI witness.",
+      "Someone who validates launching an inquiry at a KERI witness.",
       "",
       "Someone in a validating role launching an inquiry at KERI witness."
     ],
@@ -5740,7 +5740,7 @@
       "",
       "",
       "",
-      "Intercept and fraudulently delay or resend a message to misdirect the receiver.",
+      "Intercept and delay or resend a message fraudulently to misdirect the receiver into doing the attacker's wishes.",
       "",
       "Intercept and delay a message fraudulently to misdirect the receiver into doing what the attacker wants."
     ],
@@ -5762,7 +5762,7 @@
       "",
       "",
       "",
-      "#ERROR!",
+      "Extensible Business Reporting Language (XBRL), a standard for digital business reporting.",
       "",
       "XBRL, a standard for digital business reporting."
     ],
@@ -5850,7 +5850,7 @@
       "",
       "",
       "",
-      "Data OOB intro.",
+      "Data OOB Intros",
       "",
       "Data OOB introductions"
     ],
@@ -5938,7 +5938,7 @@
       "",
       "",
       "",
-      "A functional component that registers and advertises info about Credential Types disclosed by their Governing Parties.",
+      "A functional component that registers and advertises Credential Types disclosed by Governing Parties.",
       "",
       "Functional component that registers and advertises Credential Types per their Governing Party's disclosure."
     ],
@@ -6048,7 +6048,7 @@
       "",
       "",
       "",
-      "Crypto proof in secondary root-of-trust anchored in primary.",
+      "#ERROR!",
       "",
       "Crypto proof in sec. root-of-trust anchored in primary root-of-trust."
     ],
@@ -6532,7 +6532,7 @@
       "",
       "",
       "1",
-      "Issuing legal entity vLEI/OOR/ECR Credentials upon receipt by QAR.",
+      "Issuing legal entity vLEI/OOR/ECR credentials upon receipt by QAR.",
       "",
       "NO INPUT"
     ],
@@ -7082,7 +7082,7 @@
       "1",
       "1",
       "1",
-      "A role that exercises its legal or rightful control.",
+      "A role controlling something with legal, rightful, or natural title.",
       "",
       "A role exercising its legal right to control something."
     ],
@@ -7126,7 +7126,7 @@
       "1",
       "",
       "1",
-      "Every party is autonomous in managing and operating its own knowledge.",
+      "#ERROR!",
       "",
       "Every party has autonomy in managing and operating its own knowledge."
     ],
@@ -7192,7 +7192,7 @@
       "",
       "",
       "",
-      "ACDC disclosed to the Disclosee.",
+      "#ERROR!",
       "",
       "ACDC is disclosed to Disclosee."
     ],
@@ -7368,7 +7368,7 @@
       "",
       "",
       "",
-      "The most elaborate form of IPEX disclosure is contractually protected, including chain-link confidential and contingent.",
+      "The most elaborate form of IPEX disclosure is contractually protected, including both chain-link confidential and contingent disclosure.",
       "",
       "The most elaborate IPEX disclosure is contractually protected, including both chain-link confidential and contingent disclosure."
     ],
@@ -7632,7 +7632,7 @@
       "",
       "",
       "",
-      "ACDC is a verifiable data structure and part of a graph with node and edge fragments.",
+      "ACDC is a verifiable data structure part of a graph consisting of node and edge fragments.",
       "",
       "ACDC is a verifiable data structure and part of a graph with a node and edge fragments."
     ],
@@ -8831,7 +8831,7 @@
       "",
       "",
       "",
-      "A KERI impl. that sacrifices performance or other non-security features for usability.",
+      "KERI that sacrifices performance or non-security features for usability.",
       "",
       "A KERI impl. that sacrifices performance or non-security features for usab."
     ],
