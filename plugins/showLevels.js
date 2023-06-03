@@ -19,7 +19,7 @@ const showLevels = (targetElements) => {
   // for testing is we are in de document's section, code should only run there
   const inDocSection =
     window.location.href.indexOf('/docs/') > -1 ? true : false;
-  const paragraphs = document.querySelectorAll('p'); //TODO: deduplicate
+  const paragraphs = document.querySelectorAll('p'); //TODO: remove this line?
   let strAllQueryParameters = window.location.search;
   let allQueryParameters = new URLSearchParams(strAllQueryParameters);
   let urlLevel = allQueryParameters.get('level');
