@@ -5,10 +5,10 @@ import importedScrape from '../modules/scrape.mjs';
 const config = {
     sitemap: await createInput({
         sourceType: 'localXMLsitemap',
-        sourcePath: 'sitemaps/sitemap-medium.com-spherity.xml',
+        sourcePath: 'sitemaps/sitemap-medium.com.xml',
     }),
     siteName: 'Blogposts',
-    destinationFile: 'output/medium.com-spherity.json',
+    destinationFile: 'output/medium.com.json',
     domQueryForContent: '.ch p'
 }
 

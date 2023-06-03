@@ -5,7 +5,7 @@ import scrapeESSIFLab from './sites/eSSIF-Lab.mjs';
 import scrapeJolocom from './sites/jolocom.io.mjs';
 import scrapeHumancolossus from './sites/humancolossus.mjs';
 import scrapeKsoeteman from './sites/ksoeteman.mjs';
-import scrapemediumComSpherity from './sites/medium.com-spherity.mjs';
+import scrapemediumCom from './sites/medium.com.mjs';
 
 scrapeWOTterms();
 scrapeGleif();
@@ -14,4 +14,4 @@ scrapeESSIFLab();
 scrapeJolocom();
 scrapeHumancolossus();
 scrapeKsoeteman();
-scrapemediumComSpherity();
+scrapemediumCom();
