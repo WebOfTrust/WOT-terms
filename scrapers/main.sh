@@ -1,6 +1,6 @@
 #!/bin/bash
 
-node extractData.mjs
+node ./extractData.mjs
 
 echo "------------"
 echo "Extracted data"
