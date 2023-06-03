@@ -7,19 +7,19 @@ graph TD
 
     Scraper["Scraper\n(Node.js)"]
     
-    Scraper -->|Multiple domains synchronously|N{"Site 1: \n remote sitemap.xml exists?"}
+    Scraper -->|Multiple domains synchronously|N{"Site 1: \n remote sitemap.xml\nexists?"}
     
-    Scraper --> |Multiple domains synchronously|M{"Site 2: \n remote sitemap.xml exists?"} --> ...
+    Scraper --> |Multiple domains synchronously|M{"Site 2: \n remote sitemap.xml\nexists?"} --> ...
     
-    N --> |Yes| B[Scrape using remote sitemap]
+    N --> |Yes| B[Scrape using\nremote sitemap]
     
-    N --> |No| O{"List of urls on a page exists?"} 
+    N --> |No| O{"List of urls on\na page exists?"} 
     
-    O --> |Yes| P[Scrape using list of urls on a page]
+    O --> |Yes| P[Scrape using list\nof urls on a page]
 
-    O --> |No| sdf["Create sitemap.xml manually or via WGET"]
+    O --> |No| sdf["Create sitemap.xml\nmanually or via WGET"]
 
-    sdf --> fgkwiw["Scrape using manually created sitemap.xml"]
+    sdf --> fgkwiw["Scrape using manually\ncreated sitemap.xml"]
 
     assignKeys["Assign scrape results to keys in array object
     [{
@@ -46,7 +46,7 @@ style assignKeys text-align: left
     
     assignKeys --> storeJson["Store in JSON file"]
     storeJson --> storeJsonl["Convert to JSONL file"]
-    storeJsonl --> Import["Import in TypeSense index (via Curl)"]
+    storeJsonl --> Import["Import in TypeSense\nindex (via Curl)"]
     
 
 
