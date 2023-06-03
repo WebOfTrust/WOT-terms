@@ -6,6 +6,7 @@ import scrapeJolocom from './sites/jolocom.io.mjs';
 import scrapeHumancolossus from './sites/humancolossus.mjs';
 import scrapeKsoeteman from './sites/ksoeteman.mjs';
 import scrapemediumCom from './sites/medium.com.mjs';
+import scrapeKentbull from './sites/kentbull.com.mjs';
 
 scrapeWOTterms();
 scrapeGleif();
@@ -15,3 +16,4 @@ scrapeJolocom();
 scrapeHumancolossus();
 scrapeKsoeteman();
 scrapemediumCom();
+scrapeKentbull();
