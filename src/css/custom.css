@@ -405,6 +405,7 @@ table td:nth-child(8) {
 
 #search a {
   display: block;
+  text-decoration: none;
 }
 
 #search nav ul {
