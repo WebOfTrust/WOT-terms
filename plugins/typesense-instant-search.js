@@ -148,35 +148,34 @@ const TSIS = () => {
 
           return `
           <div class="container">
-              <div class="row">
-                  <div class="category col col--12">
-                      <h4 class="contextual-info" style="font-size: 1.5em"><a class="hit" href="${item.url}"
-                              ${openInNewTab}>${item['hierarchy.lvl1']}</a></h4>
-                  </div>
-              </div>
-              <div class="row hit-name">
-                  <div class="col col--3">
-                      ${itemSiteNameTemplateString}
-                      ${itemKnowledgeLevelTemplateString}
-                      ${itemTypeTemplateString}
-                      ${itemHierarchyLvl1TemplateString}
-                  </div>
-
-                  <div class="col col--9">
-                      ${itemTitleTemplateString}
-                      ${itemFirstHeadingBeforeElementTemplateString}
-                      <p><a class="hit" href="${item.url}" ${openInNewTab}>${item._highlightResult.content.value}</a></p>
-                      <a style="display: inline;" class="hit-url button button--active button--primary" href="${item.url}"
-                          ${openInNewTab}>Go</a>
-                  </div>
-              </div>
-          </div>
-          <div class="row">
+            <div class="row margin-bottom--md">
               <div class="category col col--12">
-                  <h4 class="contextual-info margin-top--lg" style="text-align: center; font-size: 0.8em">
+                  <h4 class="contextual-info" style="text-align: center; font-size: 0.8em">
                       <a class="" href="${item.url}" ${openInNewTab}>${item._highlightResult.url.value}</a>
                   </h4>
               </div>
+            </div>
+            <div class="row">
+                <div class="category col col--12">
+                    <h4 class="contextual-info" style="font-size: 1.5em"><a class="hit" href="${item.url}"
+                            ${openInNewTab}>${item['hierarchy.lvl1']}</a></h4>
+                </div>
+              </div>
+              <div class="row hit-name">
+                <div class="col col--3">
+                    ${itemSiteNameTemplateString}
+                    ${itemKnowledgeLevelTemplateString}
+                    ${itemTypeTemplateString}
+                    ${itemHierarchyLvl1TemplateString}
+                </div>
+                <div class="col col--9">
+                    ${itemTitleTemplateString}
+                    ${itemFirstHeadingBeforeElementTemplateString}
+                    <p><a class="hit" href="${item.url}" ${openInNewTab}>${item._highlightResult.content.value}</a></p>
+                    <a style="display: inline;" class="hit-url button button--active button--primary" href="${item.url}"
+                        ${openInNewTab}>Go</a>
+                </div>
+            </div>
           </div>
       `;
         },
