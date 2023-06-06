@@ -15,13 +15,7 @@ const config = {
 async function process(page, domQueryForContent) {
     const mainContent = await extractMainContent(page, domQueryForContent);
 
-    // Get the value of the data-type attribute from the article element
-    let type;
-    let hierarchyLevels
-    let knowledgeLevel;
-    let pageTitle;
-
-    type = await page.$eval('article', (element) => {
+    let type = await page.$eval('article', (element) => {
         switch (element.getAttribute('data-type')) {
             case 'G':
                 return 'General';
@@ -33,16 +27,16 @@ async function process(page, domQueryForContent) {
     });
 
     // Find the breadcrumbs element and all its child <li> elements
-    hierarchyLevels = await page.$$eval('.breadcrumbs__link', (nodes) =>
+    let hierarchyLevels = await page.$$eval('.breadcrumbs__link', (nodes) =>
         nodes.map((node) => node.textContent.trim())
     );
 
     // Get the value of the data-level attribute from the article element
-    knowledgeLevel = await page.$eval('article', (element) => {
+    let knowledgeLevel = await page.$eval('article', (element) => {
         return element.getAttribute('data-level');
     });
 
-    pageTitle = await page.$eval('article header h1', (element) => {
+    let pageTitle = await page.$eval('article header h1', (element) => {
         return element.textContent.trim()
     });
 
