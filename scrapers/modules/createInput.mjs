@@ -2,6 +2,7 @@ import puppeteer from 'puppeteer';
 import xml2js from 'xml2js';
 import fetch from 'node-fetch';
 import fs from 'fs';
+import path from 'path';
 
 
 export default async function createInput(input) {
@@ -20,7 +21,7 @@ export default async function createInput(input) {
   // If there is a local sitemap.xml file, parse it
   if (input.sourceType === 'localXMLsitemap') {
     // read the file contents synchronously
-    let fileContents = fs.readFileSync(input.sourcePath, 'utf-8');
+    let fileContents = fs.readFileSync(path.resolve(input.sourcePath), 'utf-8');
 
     let sitemap;
     try {
