@@ -15,7 +15,6 @@ const config = {
 async function process(page, domQueryForContent) {
     const mainContent = await extractMainContent(page, domQueryForContent);
 
-    const articleExists = await page.$('article');
     let pageTitle;
 
     pageTitle = await page.$eval('article header h1', (element) => {
