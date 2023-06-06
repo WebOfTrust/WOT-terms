@@ -16,8 +16,7 @@ const config = {
 async function process(page, domQueryForContent) {
     const mainContent = await extractMainContent(page, domQueryForContent);
 
-    let pageTitle;
-    pageTitle = await page.$eval('.repository-content h1', (element) => {
+    let pageTitle = await page.$eval('.repository-content h1', (element) => {
         return element.textContent.trim()
     });
 
