@@ -15,7 +15,6 @@ const config = {
 async function process(page, domQueryForContent) {
     const mainContent = await extractMainContent(page, domQueryForContent);
 
-    const articleExists = await page.$('article');
     // Get the value of the data-type attribute from the article element
     let type;
     let hierarchyLevels
