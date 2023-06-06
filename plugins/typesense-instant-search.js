@@ -158,12 +158,12 @@ const TSIS = () => {
             <div class="row">
                 <div class="category col col--12">
                     <h4 class="contextual-info" style="font-size: 1.5em"><a class="hit" href="${item.url}"
-                            ${openInNewTab}>${item['hierarchy.lvl1']}</a></h4>
+                            ${openInNewTab}>${item['siteName']}</a></h4>
                 </div>
               </div>
               <div class="row hit-name">
                 <div class="col col--3">
-                    ${itemSiteNameTemplateString}
+                    <!--${itemSiteNameTemplateString}-->
                     ${itemKnowledgeLevelTemplateString}
                     ${itemTypeTemplateString}
                     ${itemHierarchyLvl1TemplateString}
