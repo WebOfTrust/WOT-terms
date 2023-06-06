@@ -17,14 +17,10 @@ async function process(page, domQueryForContent) {
 
     const articleExists = await page.$('article');
     let pageTitle;
-    if (articleExists) {
-        pageTitle = await page.$eval('article header h1', (element) => {
-            element.textContent.trim()
-        });
-    } else {
-        console.log('No article element found.');
-    }
 
+    pageTitle = await page.$eval('article header h1', (element) => {
+        element.textContent.trim()
+    });
 
     // const hierarchyLevels = await page.$$eval('.breadcrumbs__link', (nodes) =>
     //   nodes.map((node) => node.textContent.trim())
