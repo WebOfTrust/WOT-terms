@@ -4,7 +4,7 @@ import importedScrape from '../modules/scrape.mjs';
 const config = {
     sitemap: await createInput({
         sourceType: 'localXMLsitemap',
-        sourcePath: 'sitemaps/gleif-sitemap.xml',
+        sourcePath: 'sitemaps/sitemap-www.gleif.org.xml',
     }),
     siteName: 'Gleif website',
     destinationFile: 'output/gleif.json',
