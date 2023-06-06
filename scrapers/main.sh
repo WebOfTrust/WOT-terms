@@ -1,15 +1,18 @@
 #!/bin/bash
 
+# Get the directory where the main.sh script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 # node ./sitemaps-create/createSitemap.js https://www.gleif.org --depth 3
 
-node ./extractData.mjs
+node "$SCRIPT_DIR/extractData.mjs"
 
 echo "------------"
 echo "Extracted data"
 echo "------------"
 
 
-source ./import.sh
+source "$SCRIPT_DIR/import.sh"
 
 echo "------------"
 echo "Imported data"
