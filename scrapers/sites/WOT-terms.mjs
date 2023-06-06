@@ -1,6 +1,6 @@
 import createInput from '../modules/createInput.mjs';
 import importedScrape from '../modules/scrape.mjs';
-import extractParagraphs from '../modules/extractParagraphs.mjs';
+import extractMainContent from '../modules/extractMainContent.mjs';
 
 const config = {
     sitemap: await createInput({
@@ -13,8 +13,7 @@ const config = {
 }
 
 async function process(page, domQueryForContent) {
-    const paragraphs = await extractParagraphs(page, domQueryForContent);
-
+    const mainContent = await extractMainContent(page, domQueryForContent);
 
     const articleExists = await page.$('article');
     // Get the value of the data-type attribute from the article element
@@ -62,7 +61,7 @@ async function process(page, domQueryForContent) {
 
 
     let all = {};
-    all.elements = paragraphs;
+    all.elements = mainContent;
     all.type = type;
     all.hierarchyLevel0 = hierarchyLevels[0];
     all.hierarchyLevel1 = hierarchyLevels[1];
