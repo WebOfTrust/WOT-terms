@@ -23,8 +23,6 @@ async function process(page, domQueryForContent) {
         return element.textContent.trim()
     });
 
-
-
     let all = {};
     all.elements = mainContent;
     all.pageTitle = pageTitle;
