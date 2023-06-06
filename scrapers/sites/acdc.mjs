@@ -9,7 +9,7 @@ const config = {
         queryString: '#wiki-pages-box a',
     }),
     siteName: 'Trust over IP glossary',
-    destinationFile: 'output/acdc.json',
+    destinationFile: 'scrapers/output/acdc.json',
     domQueryForContent: '.markdown-body p, .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body li'
 }
 

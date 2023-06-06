@@ -5,10 +5,10 @@ import extractMainContent from '../modules/extractMainContent.mjs';
 const config = {
     sitemap: await createInput({
         sourceType: 'localXMLsitemap',
-        sourcePath: 'sitemaps/sitemap-jolocom.xml',
+        sourcePath: 'scrapers/sitemaps/sitemap-jolocom.xml',
     }),
     siteName: 'Blogposts',
-    destinationFile: 'output/jolocom.json',
+    destinationFile: 'scrapers/output/jolocom.json',
     domQueryForContent: '.blog-post-single p'
 }
 

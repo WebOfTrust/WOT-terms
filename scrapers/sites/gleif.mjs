@@ -5,10 +5,10 @@ import extractMainContent from '../modules/extractMainContent.mjs';
 const config = {
     sitemap: await createInput({
         sourceType: 'localXMLsitemap',
-        sourcePath: 'sitemaps/sitemap-www.gleif.org.xml',
+        sourcePath: 'scrapers/sitemaps/sitemap-www.gleif.org.xml',
     }),
     siteName: 'Gleif website',
-    destinationFile: 'output/gleif.json',
+    destinationFile: 'scrapers/output/gleif.json',
     domQueryForContent: '.content p'
 }
 

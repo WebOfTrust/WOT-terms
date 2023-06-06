@@ -5,10 +5,10 @@ import extractMainContent from '../modules/extractMainContent.mjs';
 const config = {
     sitemap: await createInput({
         sourceType: 'localXMLsitemap',
-        sourcePath: 'sitemaps/sitemap-humancolossus.xml',
+        sourcePath: 'scrapers/sitemaps/sitemap-humancolossus.xml',
     }),
     siteName: 'Blogposts',
-    destinationFile: 'output/humancolossus.json',
+    destinationFile: 'scrapers/output/humancolossus.json',
     domQueryForContent: '.blog-item-content p'
 }
 

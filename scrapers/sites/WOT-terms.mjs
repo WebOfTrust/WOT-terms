@@ -8,7 +8,7 @@ const config = {
         sourcePath: 'https://weboftrust.github.io/WOT-terms/sitemap.xml',
     }),
     siteName: 'KERISSE (this site)',
-    destinationFile: 'output/WOT-terms.json',
+    destinationFile: 'scrapers/output/WOT-terms.json',
     domQueryForContent: 'article .markdown p, article .markdown h1, article .markdown h2, article .markdown h3, article .markdown h4, article .markdown h5, article .markdown li'
 }
 
