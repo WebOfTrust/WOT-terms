@@ -1,3 +1,8 @@
+/**
+ * This plugin creates the DOM elements for the Typesense search box and search results.
+ * The DOM elements for the search hits are in the main Typesense InstantSearch plugin code.
+ */
+
 const typesenseInstantSearchCreateDomElements = () => {
    const domStringSearchStart = `<button id="search-start">🔍</button>`;
    const domStringSearchResult = `
