@@ -19,6 +19,8 @@ async function process(page, domQueryForContent) {
     // Get the value of the data-type attribute from the article element
     let type;
     let hierarchyLevels
+    let knowledgeLevel;
+    let pageTitle;
     if (articleExists) {
         type = await page.$eval('article', (element) => {
             switch (element.getAttribute('data-type')) {
@@ -35,30 +37,20 @@ async function process(page, domQueryForContent) {
         hierarchyLevels = await page.$$eval('.breadcrumbs__link', (nodes) =>
             nodes.map((node) => node.textContent.trim())
         );
-    } else {
-        console.log('No article element found.');
-    }
 
-    let knowledgeLevel;
-    // Get the value of the data-level attribute from the article element
-    if (articleExists) {
+        // Get the value of the data-level attribute from the article element
         knowledgeLevel = await page.$eval('article', (element) => {
             return element.getAttribute('data-level');
         });
         console.log(knowledgeLevel);
-    } else {
-        console.log('No article element found.');
-    }
 
-    let pageTitle;
-    if (articleExists) {
         pageTitle = await page.$eval('article header h1', (element) => {
             return element.textContent.trim()
         });
+
     } else {
         console.log('No article element found.');
     }
-
 
     let all = {};
     all.elements = mainContent;
