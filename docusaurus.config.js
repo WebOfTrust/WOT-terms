@@ -203,6 +203,12 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      mermaid: {
+        theme: { light: 'neutral', dark: 'forest' },
+        options: {
+          //…
+        }
+      },
       // /**
       //  * BEGIN ALGOLIA DOCSEARCH
       //  */
