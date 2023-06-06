@@ -41,7 +41,6 @@ async function process(page, domQueryForContent) {
     knowledgeLevel = await page.$eval('article', (element) => {
         return element.getAttribute('data-level');
     });
-    console.log(knowledgeLevel);
 
     pageTitle = await page.$eval('article header h1', (element) => {
         return element.textContent.trim()
