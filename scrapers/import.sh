@@ -4,7 +4,7 @@
 ############## CONFIGURATION
 ##############
 
-source ../.env
+source "$(pwd)/.env" //TODO: find a way to define root path
 
 # Name of the collection where the documents are to be imported
 collection_name="${TYPESENSE_COLLECTION_NAME}"
@@ -22,8 +22,9 @@ urlImport="https://${TYPESENSE_HOST}.a1.typesense.net/collections/${collection_n
 ############## JSON TO JSONL
 ##############
 
-input_dir="output"
-output_dir="output"
+input_dir="$(pwd)/scrapers/output"
+output_dir="$(pwd)/scrapers/output"
+
 
 # Create the output directory if it doesn't exist
 # mkdir -p "$output_dir"
