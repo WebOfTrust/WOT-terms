@@ -1,6 +1,8 @@
 import fs from 'fs';
+import path from 'path';
 
-export default function writeToFile(entries, output) {
+export default function writeToFile(entries, strOutput) {
+  const output = path.resolve(strOutput);
   // Check if the file already exists
   if (fs.existsSync(output)) {
     // Remove existing backup file (if exists)
