@@ -1,5 +1,6 @@
 import createInput from '../modules/createInput.mjs';
 import importedScrape from '../modules/scrape.mjs';
+import extractParagraphs from '../modules/extractParagraphs.mjs';
 
 const config = {
     sitemap: await createInput({
@@ -12,42 +13,7 @@ const config = {
 }
 
 async function process(page, domQueryForContent) {
-    const elements = await page.evaluate(
-        (domQueryForContent) => {
-            // Helper function to find the first heading element preceding the given element
-            function findPreviousHeadingElement(element) {
-                let previousElement = element.previousElementSibling;
-                while (previousElement) {
-                    if (isHeadingElement(previousElement)) {
-                        return previousElement;
-                    }
-                    previousElement = previousElement.previousElementSibling;
-                }
-                return null;
-            }
-
-            // Helper function to check if an element is a heading element (h1, h2, h3, etc.)
-            function isHeadingElement(element) {
-                const tagName = element.tagName.toLowerCase();
-                return (
-                    tagName.startsWith("h") && tagName.length === 2 && !isNaN(tagName.charAt(1))
-                );
-            }
-
-            const elements = Array.from(document.querySelectorAll(domQueryForContent));
-            return elements.map((el) => {
-                const headingElement = findPreviousHeadingElement(el);
-                return {
-                    text: el.textContent.trim(),
-                    tag: el.tagName.toLowerCase(),
-                    firstHeadingBeforeElement: headingElement
-                        ? headingElement.textContent.trim()
-                        : null,
-                };
-            });
-        },
-        domQueryForContent
-    );
+    const paragraphs = await extractParagraphs(page, domQueryForContent);
 
 
     const articleExists = await page.$('article');
@@ -96,7 +62,7 @@ async function process(page, domQueryForContent) {
 
 
     let all = {};
-    all.elements = elements;
+    all.elements = paragraphs;
     all.type = type;
     all.hierarchyLevel0 = hierarchyLevels[0];
     all.hierarchyLevel1 = hierarchyLevels[1];
