@@ -21,36 +21,32 @@ async function process(page, domQueryForContent) {
     let hierarchyLevels
     let knowledgeLevel;
     let pageTitle;
-    if (articleExists) {
-        type = await page.$eval('article', (element) => {
-            switch (element.getAttribute('data-type')) {
-                case 'G':
-                    return 'General';
-                case 'S':
-                    return 'SSI';
-                case 'K':
-                    return 'KERI/ACDC specific';
-            }
-        });
 
-        // Find the breadcrumbs element and all its child <li> elements
-        hierarchyLevels = await page.$$eval('.breadcrumbs__link', (nodes) =>
-            nodes.map((node) => node.textContent.trim())
-        );
+    type = await page.$eval('article', (element) => {
+        switch (element.getAttribute('data-type')) {
+            case 'G':
+                return 'General';
+            case 'S':
+                return 'SSI';
+            case 'K':
+                return 'KERI/ACDC specific';
+        }
+    });
 
-        // Get the value of the data-level attribute from the article element
-        knowledgeLevel = await page.$eval('article', (element) => {
-            return element.getAttribute('data-level');
-        });
-        console.log(knowledgeLevel);
+    // Find the breadcrumbs element and all its child <li> elements
+    hierarchyLevels = await page.$$eval('.breadcrumbs__link', (nodes) =>
+        nodes.map((node) => node.textContent.trim())
+    );
 
-        pageTitle = await page.$eval('article header h1', (element) => {
-            return element.textContent.trim()
-        });
+    // Get the value of the data-level attribute from the article element
+    knowledgeLevel = await page.$eval('article', (element) => {
+        return element.getAttribute('data-level');
+    });
+    console.log(knowledgeLevel);
 
-    } else {
-        console.log('No article element found.');
-    }
+    pageTitle = await page.$eval('article header h1', (element) => {
+        return element.textContent.trim()
+    });
 
     let all = {};
     all.elements = mainContent;
