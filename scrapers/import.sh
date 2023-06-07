@@ -3,9 +3,9 @@
 
 if [[ -n "$GITHUB_ACTIONS" ]]; then
   # Running in GitHub Actions
-  local_TYPESENSE_ADMIN_API_KEY="${{ secrets.TYPESENSE_ADMIN_API_KEY }}"
-  local_TYPESENSE_HOST="${{ secrets.TYPESENSE_HOST }}"
-  local_TYPESENSE_COLLECTION_NAME="${{ secrets.TYPESENSE_COLLECTION_NAME }}"
+  local_TYPESENSE_ADMIN_API_KEY="{{ secrets.TYPESENSE_ADMIN_API_KEY }}"
+  local_TYPESENSE_HOST="{{ secrets.TYPESENSE_HOST }}"
+  local_TYPESENSE_COLLECTION_NAME="{{ secrets.TYPESENSE_COLLECTION_NAME }}"
 else
   # Running locally with .env file
   source "$(pwd)/.env"
@@ -13,6 +13,8 @@ else
   local_TYPESENSE_HOST="${TYPESENSE_HOST}"
   local_TYPESENSE_COLLECTION_NAME="${TYPESENSE_COLLECTION_NAME}"
 fi
+
+# Use the `local_TYPESENSE_ADMIN_API_KEY`, `local_TYPESENSE_HOST`, and `local_TYPESENSE_COLLECTION_NAME` variables anywhere in the script as needed
 
 echo "local_TYPESENSE_COLLECTION_NAME:"
 echo $local_TYPESENSE_COLLECTION_NAME
@@ -63,11 +65,8 @@ curl -H "X-TYPESENSE-API-KEY: ${local_TYPESENSE_ADMIN_API_KEY}" -X DELETE $urlDe
 ############## IMPORTING JSONL FILES
 ##############
 
-# Set the directory containing the JSON files
-json_directory="./output"
-
 # Iterate over each JSONL file in the directory
-for file in "$json_directory"/*.jsonl; do
+for file in "$output_dir"/*.jsonl; do
     # Check if the file exists and is a regular file
     if [[ -f "$file" ]]; then
         echo "Importing file: $file"
