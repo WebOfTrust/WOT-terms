@@ -812,7 +812,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Secure Asset Transfer Protocol; IETF Protocol (w/ working group) being developed (as of mid-2022) to move assets between blockchains.",
       "",
       "Secure Asset Transfer Protocol; IETF Protocol (and Working Group) being created (as of mid-2022) for transferring assets between blockchains."
     ],
@@ -878,7 +878,7 @@
       "1",
       "",
       "",
-      "#ERROR!",
+      "Transmission Control Protocol (TCP), a main protocol of the Internet suite.",
       "",
       "TCP, a main Internet protocol."
     ],
@@ -2242,7 +2242,7 @@
       "",
       "",
       "",
-      "#ERROR!",
+      "Provides a uniform way to issue and present ACDCs securely.",
       "",
       "Offers a uniform way to create and present ACDCs securely."
     ],
@@ -2572,7 +2572,7 @@
       "",
       "",
       "",
-      "#ERROR!",
+      "LoA: Judgments aren't binary Yes/No, they come in levels of assurance.",
       "",
       "LoA: For judgments not binary (Yes/No), assurance levels exist."
     ],
@@ -3452,7 +3452,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Self-framed primitives expressed in either the text or binary domain can be converted between the two without loss.",
       "",
       "Self-framing primitives in either the text or binary domain can be converted as a group to the other without loss."
     ],
@@ -4024,7 +4024,7 @@
       "",
       "",
       "",
-      "#ERROR!",
+      "Kubernetes CLI.",
       "",
       "K8s CLI"
     ],
@@ -4288,7 +4288,7 @@
       "",
       "",
       "",
-      "#ERROR!",
+      "Kli section for verifiable credentials.",
       "",
       "Kli's verifiable credentials section."
     ],
@@ -4310,7 +4310,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Entity that receives, verifies, and stores key events for an ID.",
       "",
       "Receives, verifies, and stores key events for an identifier."
     ],
@@ -5080,7 +5080,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "When qualified, a crypto primitive includes a derivation code prepended.",
       "",
       "A cryptographic primitive is qualified if it includes a prepended derivation code."
     ],
@@ -5938,7 +5938,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Functionally registers and advertises Credential Types disclosed by Governing Parties.",
       "",
       "Functional component that registers and advertises Credential Types per their Governing Party's disclosure."
     ],
@@ -6840,7 +6840,7 @@
       "1",
       "",
       "",
-      "#ERROR!",
+      "Split control between two sets.",
       "",
       "Split control between two sets."
     ],
@@ -6862,7 +6862,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "Reserved key pairs, not exposed.",
       "",
       "Reserve key pairs, unexposed."
     ],
@@ -7258,7 +7258,7 @@
       "",
       "",
       "",
-      "#ERROR!",
+      "A special case of presentation exchange where the Discloser is the Primary ACDC Issuer.",
       "",
       "A special case of presentation exchange where the Discloser is the Issuer of the origin (Primary) ACDC."
     ],
@@ -7918,7 +7918,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A method of combining multiple analog or digital signals into one signal over a shared medium to share scarce resources.",
       "",
       "A method combining multiple analog or digital signals into one over a shared medium to share a scarce resource."
     ],
@@ -8226,7 +8226,7 @@
       "",
       "",
       "",
-      "#ERROR!",
+      "First char. of CESR code determines table used.",
       "",
       "The first char in the CESR text code determines which code table to use."
     ],
@@ -8413,7 +8413,7 @@
       "",
       "",
       "",
-      "#ERROR!",
+      "Briefest, least revealing ACDC credential.",
       "",
       "Briefest, least revealing ACDC credential."
     ],
