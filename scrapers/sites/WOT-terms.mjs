@@ -1,5 +1,5 @@
 import createInput from '../modules/createInput.mjs';
-import importedScrape from '../modules/scrape.mjs';
+import scrape from '../modules/scrape.mjs';
 import extractMainContent from '../modules/extractMainContent.mjs';
 
 const config = {
@@ -12,7 +12,7 @@ const config = {
     domQueryForContent: 'article .markdown p, article .markdown h1, article .markdown h2, article .markdown h3, article .markdown h4, article .markdown h5, article .markdown h6, article .markdown li'
 }
 
-async function process(page, domQueryForContent) {
+async function customScrape(page, domQueryForContent) {
     const mainContent = await extractMainContent(page, domQueryForContent);
 
     let type = await page.$eval('article', (element) => {
@@ -51,6 +51,6 @@ async function process(page, domQueryForContent) {
     all.pageTitle = pageTitle;
     return all;
 }
-export default async function scrapeData() {
-    importedScrape(config, process);
+export default async function () {
+    scrape(config, customScrape);
 };

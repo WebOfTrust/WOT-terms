@@ -1,5 +1,5 @@
 import createInput from '../modules/createInput.mjs';
-import importedScrape from '../modules/scrape.mjs';
+import scrape from '../modules/scrape.mjs';
 import extractMainContent from '../modules/extractMainContent.mjs';
 
 const config = {
@@ -12,11 +12,7 @@ const config = {
     domQueryForContent: 'article p, article h1, article h2, article h3, article h4, article h5, article h6, article li'
 }
 
-
-console.log("config.sitemap");
-console.log(config.sitemap);
-
-async function process(page, domQueryForContent) {
+async function customScrape(page, domQueryForContent) {
     const mainContent = await extractMainContent(page, domQueryForContent);
 
     let pageTitle = await page.$eval('.posttitle', (element) => {
@@ -28,6 +24,6 @@ async function process(page, domQueryForContent) {
     all.pageTitle = pageTitle;
     return all;
 }
-export default async function scrapeData() {
-    importedScrape(config, process);
+export default async function () {
+    scrape(config, customScrape);
 };
