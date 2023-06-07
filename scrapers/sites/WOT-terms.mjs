@@ -41,7 +41,7 @@ async function customScrape(page, domQueryForContent) {
     });
 
     let all = {};
-    all.elements = mainContent;
+    all.mainContent = mainContent;
     all.type = type;
     all.hierarchyLevel0 = hierarchyLevels[0];
     all.hierarchyLevel1 = hierarchyLevels[1];
