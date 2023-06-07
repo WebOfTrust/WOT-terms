@@ -7,7 +7,6 @@ export default function createOutput(input) {
       url: input.pageUrl || 'No url specified',
       content: element.text || '–',
       tag: element.tag || '–',
-      firstHeadingBeforeElement: element.firstHeadingBeforeElement || '–',
       timestamp: new Date().toISOString() || '–',
       'hierarchy.lvl0': input.hierarchyLvl0 || '–',
       'hierarchy.lvl1': input.hierarchyLvl1 || '–',
@@ -16,6 +15,7 @@ export default function createOutput(input) {
       knowledgeLevel: input.knowledgeLevel || '–',
       type: input.type || '–',
       pageTitle: input.pageTitle || '–',
+      firstHeadingBeforeElement: element.firstHeadingBeforeElement || '–',
     };
     entries.push(entry);
   }
