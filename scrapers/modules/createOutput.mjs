@@ -1,6 +1,7 @@
 export default function createOutput(input) {
   let entries = [];
   for (const element of input.elements) {
+    // if an entry is not passed, create a default entry
     const entry = {
       siteName: input.siteName || 'No site name specified',
       url: input.pageUrl || 'No url specified',
