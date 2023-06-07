@@ -1,5 +1,4 @@
-// extractElements.mjs
-export default async function extractElements(page, domQueryForContent) {
+export default async function (page, domQueryForContent) {
     const elements = await page.evaluate(
         (domQueryForContent) => {
             // Helper function to find the first heading element preceding the given element
