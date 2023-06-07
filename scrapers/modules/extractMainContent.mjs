@@ -6,7 +6,7 @@ export default async function extractElements(page, domQueryForContent) {
             function findPreviousHeadingElement(element) {
                 let previousElement = element.previousElementSibling;
                 while (previousElement) {
-                    if (isHeadingElement(previousElement) && !isHeadingElement(element)) {
+                    if (isHeadingElement(previousElement) && !isHeadingElement(element)) {// if the previous element is a heading element and the current element is not a heading element
                         return previousElement;
                     }
                     previousElement = previousElement.previousElementSibling;
