@@ -16,5 +16,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Set environment variables
+        run: |
+          echo "TYPESENSE_ADMIN_API_KEY=${{ secrets.TYPESENSE_ADMIN_API_KEY }}" >> $GITHUB_ENV
+          echo "TYPESENSE_HOST=${{ secrets.TYPESENSE_HOST }}" >> $GITHUB_ENV
+          echo "TYPESENSE_COLLECTION_NAME=${{ secrets.TYPESENSE_COLLECTION_NAME }}" >> $GITHUB_ENV
+        
       - name: Run Shell Script
         run: bash scrapers/main.sh
