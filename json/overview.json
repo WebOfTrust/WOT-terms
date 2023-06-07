@@ -64,7 +64,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Authentic data containers convey data that prove their content's authenticity.",
       "",
       "An authentic data container conveys data to prove its authenticity."
     ],
@@ -152,7 +152,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Data acceptance, mechanism providing replay attack protection.",
       "",
       "Best data acceptance, mechanisms for replay attack protection."
     ],
@@ -174,7 +174,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Byzantine Fault Tolerance",
       "",
       "Byzantine Fault Tolerance"
     ],
@@ -240,7 +240,7 @@
       "",
       "",
       "",
-      "#ERROR!",
+      "Directed Acyclic Graph: a mathematical construct with no cycles.",
       "",
       "A directed acyclic graph is a mathematical construct with no cycles."
     ],
@@ -328,7 +328,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Decentralized public key infrastructure ensures no single third-party can compromsie system integrity and security.",
       "",
       "Decentralized public key infrastructure ensures no single third-party can compromise system integrity and security."
     ],
@@ -350,7 +350,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "GnuPG, a free-software replacement for Symantec's PGP software.",
       "",
       "NO INPUT"
     ],
@@ -680,7 +680,7 @@
       "",
       "",
       "",
-      "#ERROR!",
+      "P2P",
       "",
       "NO INPUT"
     ],
@@ -790,7 +790,7 @@
       "",
       "1",
       "",
-      "Loading...",
+      "Self-Addressing ID",
       "",
       "NO INPUT"
     ],
@@ -878,7 +878,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "#ERROR!",
       "",
       "TCP, a main Internet protocol."
     ],
@@ -900,7 +900,7 @@
       "1",
       "",
       "",
-      "#ERROR!",
+      "Provides proof of registry state via KEL.",
       "",
       "Provides crypto proof of registry state via control KEL."
     ],
@@ -1164,7 +1164,7 @@
       "",
       "",
       "",
-      "#ERROR!",
+      "Verifiable origin.",
       "",
       "NO INPUT"
     ],
@@ -1252,7 +1252,7 @@
       "",
       "",
       "",
-      "#ERROR!",
+      "BADA provides replay attack protection.",
       "",
       "BADA provides replay attack protection."
     ],
@@ -1274,7 +1274,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Associating data or an identifier with another identifier or a subject (person, org., or machine).",
       "",
       "Assigning data or ID to a subject (person, org., or machine)."
     ],
@@ -1758,7 +1758,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A scheme to verify digital messages or documents' authenticity.",
       "",
       "A scheme for verifying digital messages' authenticity."
     ],
@@ -2242,7 +2242,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "#ERROR!",
       "",
       "Offers a uniform way to create and present ACDCs securely."
     ],
@@ -2572,7 +2572,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "#ERROR!",
       "",
       "LoA: For judgments not binary (Yes/No), assurance levels exist."
     ],
@@ -2792,7 +2792,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Non-normative theories don't give answers, but rather describe possibilities or predict outcomes of actions.",
       "",
       "Non-normative theories don't give answers, but rather describe possibilities or predict outcomes from certain actions."
     ],
@@ -2836,7 +2836,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "No ability to transfer control of a digital asset without obstruction or loss.",
       "",
       "No ability to transfer control of a digital asset without obstruction or loss."
     ],
@@ -2990,7 +2990,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Proof of rights/permissions on data.",
       "",
       "Proof of rights/permissions on data."
     ],
@@ -3034,7 +3034,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "#ERROR!",
       "",
       "Historic documentation of cryptographic verifiable key states, data consistency and credentials."
     ],
@@ -3056,7 +3056,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Roles, policies, hardware, software, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates.",
       "",
       "NO INPUT"
     ],
@@ -3254,7 +3254,7 @@
       "",
       "",
       "",
-      "#ERROR!",
+      "IETF protocol for moving assets between blockchains.",
       "",
       "NO INPUT"
     ],
@@ -3518,7 +3518,7 @@
       "",
       "",
       "",
-      "#ERROR!",
+      "A trust domain is an ecosystem of interactions based on trust. It binds controllers, identifiers and key-pairs.",
       "",
       "A trust domain is an ecosystem of interactions relying on trust. It binds controllers, identifiers and key-pairs."
     ],
@@ -3584,7 +3584,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A data structure verifiable through cryptography to ensure its integrity and authenticity.",
       "",
       "NO INPUT"
     ],
@@ -3606,7 +3606,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Able to verify data structure's consistency and authenticity cryptographically.",
       "",
       "Cryptographically verify data structure's consistency and authenticity."
     ],
@@ -3738,7 +3738,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Internet Identity Workshop holds an unconference twice a year since 2005.",
       "",
       "Internet Identity Workshop holds an un-conference twice yearly since 2005."
     ],
@@ -3782,7 +3782,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Software repo.",
       "",
       "Software repo."
     ],
@@ -3892,7 +3892,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Samuel M. Smith, PhD, Inventor & Lead Developer of KERI",
       "",
       "Samuel M. Smith PhD, Inventor and KERI Lead Developer"
     ],
@@ -4156,7 +4156,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "#ERROR!",
       "",
       "Python installer packages an app, plus all its dependencies, into one bundle."
     ],
@@ -4222,7 +4222,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A digital signature scheme enabling multiple users to sign one digital data.",
       "",
       "A digital signature scheme allowing multiple users to sign a single digital data."
     ],
@@ -4288,7 +4288,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "#ERROR!",
       "",
       "Kli's verifiable credentials section."
     ],
@@ -4354,7 +4354,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Managing cryptographic keys in a crypto-system.",
       "",
       "Managing crypto keys in a crypto-system."
     ],
@@ -4376,7 +4376,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Initializing command in KLI.",
       "",
       "Init command in KLI."
     ],
@@ -4398,7 +4398,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "An identifier controlled by a single signing keypair.",
       "",
       "A one-of-one signing keypair controlled identifier."
     ],
@@ -4420,7 +4420,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A KERI keystore is an encrypted data store that holds private keys for an AID collection.",
       "",
       "KERI's keystore holds encrypted private keys for multiple AIDs."
     ],
@@ -4486,7 +4486,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Changes the key state, including a change in the set of authoritative keypairs for an AID.",
       "",
       "Changes key-state, including authoritative keypairs for AID."
     ],
@@ -4596,7 +4596,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Start an empty agent or run a single agent against one that's already been started.",
       "",
       "Start an empty agent or run one against a started one."
     ],
@@ -4750,7 +4750,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "File configuring parameters and initial settings for computer programs.",
       "",
       "File configuring parameters and initial settings for programs."
     ],
@@ -4772,7 +4772,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "REST is a software architecture for web APIs.",
       "",
       "REST is an architectural style for web APIs."
     ],
@@ -4794,7 +4794,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "API (Application Programming Interface)",
       "",
       "API (Application Programming Interface)"
     ],
@@ -4860,7 +4860,7 @@
       "",
       "",
       "",
-      "#ERROR!",
+      "OpenAPI (formerly Swagger) is important to KERI, CESR, and ACDC. It is open source and has many ready-to-use JSON extensions.",
       "",
       "OpenAPI (formerly Swagger) is important to KERI, CESR, and ACDC. It's open-source with many ready-to-use JSON extensions."
     ],
@@ -4948,7 +4948,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "This identifier is non-transferable; keys can't be rotated.",
       "",
       "This ID can't be rotated, so it's non-transferable."
     ],
@@ -4970,7 +4970,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Field in KERI data structure for describing witness threshold.",
       "",
       "Field in KERI data structure describing witness threshold."
     ],
@@ -5190,7 +5190,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Log incremental numbers",
       "",
       "Log inc. no."
     ],
@@ -5344,7 +5344,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Multi-key autonomic identifiers require a verifier to know which public key was used when signing.",
       "",
       "When signing with a multi-key autonomic ID, a verifier knows which public key was used."
     ],
@@ -6158,7 +6158,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "Credentials issued by same issuer, independently valid.",
       "",
       "Multiple, independently valid credentials issued by same issuer."
     ],
@@ -6224,7 +6224,7 @@
       "",
       "",
       "1",
-      "#ERROR!",
+      "A GLEIF rep authorized to verify and issue QVI vLEI Credential.",
       "",
       "A GLEIF rep authorized to verify & issue QVI vLEI Credential."
     ],
@@ -6620,7 +6620,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "Verifiable LEI.",
       "",
       "Verifiable LEI."
     ],
@@ -6818,7 +6818,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "Change of control, partially keeping some keys unexposed, while exposing others as needed.",
       "",
       "Keep some keys unexposed and expose others as needed, but change control."
     ],
@@ -6928,7 +6928,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "Right to control an identifier exclusively.",
       "",
       "Exclusive right to control an identifier."
     ],
@@ -7038,7 +7038,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "API: a way for programs to communicate with each other.",
       "",
       "API: a way for two or more programs to communicate."
     ],
@@ -7104,7 +7104,7 @@
       "1",
       "1",
       "1",
-      "Loading...",
+      "A relationship between two, one enjoying, disposing, and controlling the other sovereignly.",
       "",
       "A relationship between two entitles one of them (the owner) to enjoy, dispose, and control the other with sovereignty."
     ],
@@ -7126,7 +7126,7 @@
       "1",
       "",
       "1",
-      "#ERROR!",
+      "Every party is autonomous in managing and operating its own knowledge.",
       "",
       "Every party has autonomy in managing and operating its own knowledge."
     ],
@@ -7258,7 +7258,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "#ERROR!",
       "",
       "A special case of presentation exchange where the Discloser is the Issuer of the origin (Primary) ACDC."
     ],
@@ -7368,7 +7368,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "IPEX offers elaborate disclosures, including chain-link confidential and contingent.",
       "",
       "The most elaborate IPEX disclosure is contractually protected, including both chain-link confidential and contingent disclosure."
     ],
@@ -7544,7 +7544,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Verifying data from peers with cryptography: checking structure, signatures, and dates.",
       "",
       "Cryptographically verifying data from peers: checking structure, signatures and dates."
     ],
@@ -7786,7 +7786,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "An official digital record book, usually referring to one instance within a multi-tenant registry.",
       "",
       "An official digital record book, usually referring to one instance in a multi-tenant registry."
     ],
@@ -7874,7 +7874,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A well-established, low-level cryptographic algorithm used to build security protocols, such as one-way hash functions and encryptions.",
       "",
       "Established, low-level cryptographic algorithm often used to create security protocols; e.g. one-way hash functions and encryption functions."
     ],
@@ -7984,7 +7984,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Encoding protocol that's composable in a hierarchy, enabling pipelining of complex streams in both text and compact binary.",
       "",
       "NO INPUT"
     ],
@@ -8006,7 +8006,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Codes to support primitives in groups enable pipelining.",
       "",
       "Codes for groups of primitives enable pipelining."
     ],
@@ -8391,7 +8391,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "#ERROR!",
       "",
       "Intermediate ACDC credential signed, proofs anchored in key event logs."
     ],
@@ -8413,7 +8413,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "#ERROR!",
       "",
       "Briefest, least revealing ACDC credential."
     ],
@@ -8523,7 +8523,7 @@
       "",
       "",
       "",
-      "#ERROR!",
+      "A decentralized control peer doesn't create records like a traditional server.",
       "",
       "A decentralized controller peer doesn't create records in the traditional sense of a server."
     ],
@@ -8567,7 +8567,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Proof of clear assessment if info is intact.",
       "",
       "Proof of clear evaluation to verify if info is whole, sound, and intact."
     ],
