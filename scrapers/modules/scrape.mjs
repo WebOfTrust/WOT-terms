@@ -25,7 +25,7 @@ export default async function scrape(config, customScrape) {
             let output = createOutput({
                 siteName: config.siteName,
                 pageUrl: pageUrl,
-                elements: scraped.elements,
+                mainContent: scraped.mainContent,
                 hierarchyLvl0: scraped.hierarchyLevel0,
                 hierarchyLvl1: scraped.hierarchyLevel1,
                 hierarchyLvl2: scraped.hierarchyLevel2,
