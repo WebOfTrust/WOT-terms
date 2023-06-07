@@ -5,6 +5,8 @@ import writeToFile from './writeToFile.mjs';
 export default async function scrape(o, processFunction) {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
+    // Set a custom user agent header
+    await page.setUserAgent('KERISSE-Web-of-Trust-Scraper');
     // Iterate over each URL in the sitemap and create an array of entries for each URL
     const entries = [];
 
