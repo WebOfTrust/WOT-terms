@@ -10,7 +10,7 @@ const config = {
     }),
     siteName: 'Trust over IP glossary',
     destinationFile: 'scrapers/output/acdc.json',
-    domQueryForContent: '.markdown-body p, .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body li'
+    domQueryForContent: '.markdown-body p, .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6, .markdown-body li'
 }
 
 async function process(page, domQueryForContent) {

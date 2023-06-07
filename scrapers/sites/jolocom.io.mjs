@@ -9,7 +9,7 @@ const config = {
     }),
     siteName: 'Blogposts',
     destinationFile: 'scrapers/output/jolocom.json',
-    domQueryForContent: '.blog-post-single p'
+    domQueryForContent: '.blog-post-single p, .blog-post-single h1, .blog-post-single h2, .blog-post-single h3, .blog-post-single h4, .blog-post-single h5, .blog-post-single h6, .blog-post-single li, '
 }
 
 

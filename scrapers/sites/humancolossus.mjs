@@ -9,7 +9,7 @@ const config = {
     }),
     siteName: 'Blogposts',
     destinationFile: 'scrapers/output/humancolossus.json',
-    domQueryForContent: '.blog-item-content p'
+    domQueryForContent: '.blog-item-content p, .blog-item-content h1, .blog-item-content h2, .blog-item-content h3, .blog-item-content h4, .blog-item-content h5, .blog-item-content h6, .blog-item-content li'
 }
 
 

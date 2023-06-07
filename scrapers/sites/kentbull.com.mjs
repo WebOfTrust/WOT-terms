@@ -9,7 +9,7 @@ const config = {
     }),
     siteName: 'Blogposts',
     destinationFile: 'scrapers/output/kentbull.com.json',
-    domQueryForContent: 'article p'
+    domQueryForContent: 'article p, article h1, article h2, article h3, article h4, article h5, article h6, article li'
 }
 
 
