@@ -27,7 +27,7 @@ async function customScrape(page, domQueryForContent, pageUrl) {
 
 
     let all = {};
-    all.elements = mainContent;
+    all.mainContent = mainContent;
     all.pageTitle = pageTitle;
     return all;
 }

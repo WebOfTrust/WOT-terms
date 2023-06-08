@@ -14,9 +14,6 @@ const config = {
 
 async function customScrape(page, domQueryForContent, pageUrl) {
     console.log('pageUrl: ', pageUrl);
-    // console.log("XXXXXXXXX");
-    // console.log(JSON.stringify(page, null, 2));
-
     const mainContent = await extractMainContent(page, domQueryForContent);
 
     let pageTitle = await page.$eval('.ch h1', (element) => {
@@ -30,7 +27,7 @@ async function customScrape(page, domQueryForContent, pageUrl) {
         all.type = 'DID, DIF';
     }
 
-    all.elements = mainContent;
+    all.mainContent = mainContent;
     all.pageTitle = pageTitle;
 
     return all;
