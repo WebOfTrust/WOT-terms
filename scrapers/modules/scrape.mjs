@@ -20,7 +20,7 @@ export default async function scrape(config, customScrape) {
         try {
             // Navigate to the page URL and process the page content using the specified function
             await page.goto(pageUrl);
-            const scraped = await customScrape(page, config.domQueryForContent);
+            const scraped = await customScrape(page, config.domQueryForContent, pageUrl);
 
             let output = createOutput({
                 siteName: config.siteName,
