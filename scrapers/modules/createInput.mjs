@@ -4,7 +4,6 @@ import fetch from 'node-fetch';
 import fs from 'fs';
 import path from 'path';
 
-
 export default async function createInput(input) {
   // If there is a remote sitemap.xml file, fetch it and parse it
   if (input.sourceType === 'remoteXMLsitemap') {
@@ -13,25 +12,17 @@ export default async function createInput(input) {
     const sitemapUrl = input.sourcePath;
     const sitemapResponse = await fetch(sitemapUrl);
     const sitemapXml = await sitemapResponse.text();
-    const sitemap = await xml2js.parseStringPromise(sitemapXml);
+    const sitemap = await xml2js.parseStringPromise(sitemapXml, { explicitArray: true });
     console.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
     return sitemap;
   }
 
   // If there is a local sitemap.xml file, parse it
   if (input.sourceType === 'localXMLsitemap') {
-    // read the file contents synchronously
-    let fileContents = fs.readFileSync(path.resolve(input.sourcePath), 'utf-8');
-
-    let sitemap;
-    try {
-      sitemap = await xml2js.parseStringPromise(fileContents);
-      console.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
-      return sitemap;
-    } catch (err) {
-      console.error(`Error parsing sitemap XML: ${err}`);
-      return;
-    }
+    const sitemapXml = fs.readFileSync(path.resolve(input.sourcePath), 'utf-8');
+    const sitemap = await xml2js.parseStringPromise(sitemapXml, { explicitArray: true });
+    console.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
+    return sitemap;
   }
 
   // If there is a list of URLs on a page, parse it
