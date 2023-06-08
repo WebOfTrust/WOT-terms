@@ -27,7 +27,8 @@ yarn-error.log*
 .idea
 .vscode/
 *.bak
-output/
+scrapers/output/
+scrapers/logs/
 Split_*
 *-workfile.txt
 .history
