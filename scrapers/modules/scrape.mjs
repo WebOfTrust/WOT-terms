@@ -43,7 +43,7 @@ export default async function scrape(o, processFunction) {
 
         } catch (err) {
             console.error(`Error processing page ${pageUrl}: ${err}`);
-            fs.appendFileSync('scrapers/logs/error.log', `Error processing page ${pageUrl}: $
+            fs.appendFileSync('scrapers/logs/error.log', `Error processing page ${pageUrl}: ${err}\n`);
         }
     }
     writeToFile(entries, o.destinationFile);
