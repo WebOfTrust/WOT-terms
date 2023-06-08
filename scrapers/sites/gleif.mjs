@@ -12,7 +12,7 @@ const config = {
     domQueryForContent: '.content p, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .content li'
 }
 
-async function customScrape(page, domQueryForContent) {
+async function customScrape(page, domQueryForContent, pageUrl) {
     const mainContent = await extractMainContent(page, domQueryForContent);
 
     let pageTitle;

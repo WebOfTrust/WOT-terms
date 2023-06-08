@@ -13,7 +13,7 @@ const config = {
     domQueryForContent: '.markdown-body p, .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6, .markdown-body li'
 }
 
-async function customScrape(page, domQueryForContent) {
+async function customScrape(page, domQueryForContent, pageUrl) {
     const mainContent = await extractMainContent(page, domQueryForContent);
 
     let pageTitle = await page.$eval('.repository-content h1', (element) => {

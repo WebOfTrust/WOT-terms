@@ -12,7 +12,7 @@ const config = {
     domQueryForContent: 'article .markdown p, article .markdown h1, article .markdown h2, article .markdown h3, article .markdown h4, article .markdown h5, article .markdown h6, article .markdown li'
 }
 
-async function customScrape(page, domQueryForContent) {
+async function customScrape(page, domQueryForContent, pageUrl) {
     const mainContent = await extractMainContent(page, domQueryForContent);
 
     let type = await page.$eval('article', (element) => {

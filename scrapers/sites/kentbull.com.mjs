@@ -12,7 +12,7 @@ const config = {
     domQueryForContent: 'article p, article h1, article h2, article h3, article h4, article h5, article h6, article li'
 }
 
-async function customScrape(page, domQueryForContent) {
+async function customScrape(page, domQueryForContent, pageUrl) {
     const mainContent = await extractMainContent(page, domQueryForContent);
 
     let pageTitle = await page.$eval('.posttitle', (element) => {
