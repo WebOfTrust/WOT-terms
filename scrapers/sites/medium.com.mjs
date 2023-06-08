@@ -24,8 +24,15 @@ async function customScrape(page, domQueryForContent, pageUrl) {
     });
 
     let all = {};
+
+    // Blogpost specific
+    if (pageUrl === 'https://medium.com/decentralized-identity/peer-dids-moving-to-difs-id-working-group-7f1664bcbf30') {
+        all.type = 'DID, DIF';
+    }
+
     all.elements = mainContent;
     all.pageTitle = pageTitle;
+
     return all;
 }
 export default async function () {
