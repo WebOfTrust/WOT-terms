@@ -1,12 +1,11 @@
-// extractElements.mjs
-export default async function extractElements(page, domQueryForContent) {
+export default async function (page, domQueryForContent) {
     const elements = await page.evaluate(
         (domQueryForContent) => {
             // Helper function to find the first heading element preceding the given element
             function findPreviousHeadingElement(element) {
                 let previousElement = element.previousElementSibling;
                 while (previousElement) {
-                    if (isHeadingElement(previousElement)) {
+                    if (isHeadingElement(previousElement) && !isHeadingElement(element)) {// if the previous element is a heading element and the current element is not a heading element
                         return previousElement;
                     }
                     previousElement = previousElement.previousElementSibling;

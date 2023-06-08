@@ -1,5 +1,5 @@
 import createInput from '../modules/createInput.mjs';
-import importedScrape from '../modules/scrape.mjs';
+import scrape from '../modules/scrape.mjs';
 import extractMainContent from '../modules/extractMainContent.mjs';
 
 const config = {
@@ -9,10 +9,10 @@ const config = {
     }),
     siteName: 'Gleif website',
     destinationFile: 'scrapers/output/gleif.json',
-    domQueryForContent: '.content p'
+    domQueryForContent: '.content p, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .content li'
 }
 
-async function process(page, domQueryForContent) {
+async function customScrape(page, domQueryForContent, pageUrl) {
     const mainContent = await extractMainContent(page, domQueryForContent);
 
     let pageTitle;
@@ -21,10 +21,10 @@ async function process(page, domQueryForContent) {
     });
 
     let all = {};
-    all.elements = mainContent;
+    all.mainContent = mainContent;
     all.pageTitle = pageTitle;
     return all;
 }
-export default async function scrapeData() {
-    importedScrape(config, process);
+export default async function () {
+    scrape(config, customScrape);
 };

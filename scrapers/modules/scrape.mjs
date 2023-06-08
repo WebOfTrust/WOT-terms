@@ -2,29 +2,32 @@ import puppeteer from 'puppeteer';
 import createOutput from './createOutput.mjs';
 import writeToFile from './writeToFile.mjs';
 import fs from 'fs';
+import fs from 'fs';
 
-export default async function scrape(o, processFunction) {
+export default async function scrape(config, customScrape) {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
+    // Set a custom user agent header
+    await page.setUserAgent('KERISSE-Web-of-Trust-Scraper');
     // Iterate over each URL in the sitemap and create an array of entries for each URL
     const entries = [];
 
     // Iterate over each URL in the sitemap and create an array of entries for each URL
     // console.log('Indexing pages...');
-    for (const url of o.sitemap.urlset.url) {// for production
-        // for (const url of o.sitemap.urlset.url.slice(50, 63)) {// for testing
+    for (const url of config.sitemap.urlset.url) {// for production
+        // for (const url of config.sitemap.urlset.url.slice(50, 63)) {// for testing
         const pageUrl = url.loc[0];
         // console.log(`Indexing ${pageUrl}`);
 
         try {
             // Navigate to the page URL and process the page content using the specified function
             await page.goto(pageUrl);
-            const scraped = await processFunction(page, o.domQueryForContent, o.destinationFile);
+            const scraped = await customScrape(page, config.domQueryForContent, pageUrl);
 
             let output = createOutput({
-                siteName: o.siteName,
+                siteName: config.siteName,
                 pageUrl: pageUrl,
-                elements: scraped.elements,
+                mainContent: scraped.mainContent,
                 hierarchyLvl0: scraped.hierarchyLevel0,
                 hierarchyLvl1: scraped.hierarchyLevel1,
                 hierarchyLvl2: scraped.hierarchyLevel2,
@@ -40,12 +43,13 @@ export default async function scrape(o, processFunction) {
             });
             console.log('output: ', output);
             fs.appendFileSync('scrapers/logs/scraped.log', `Scraped: ${pageUrl}\n`);
+            fs.appendFileSync('scrapers/logs/scraped.log', `Scraped: ${pageUrl}\n`);
 
         } catch (err) {
             console.error(`Error processing page ${pageUrl}: ${err}`);
             fs.appendFileSync('scrapers/logs/error.log', `Error processing page ${pageUrl}: ${err}\n`);
         }
     }
-    writeToFile(entries, o.destinationFile);
+    writeToFile(entries, config.destinationFile);
     await browser.close();
 }

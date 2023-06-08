@@ -1,5 +1,5 @@
 import createInput from '../modules/createInput.mjs';
-import importedScrape from '../modules/scrape.mjs';
+import scrape from '../modules/scrape.mjs';
 import extractMainContent from '../modules/extractMainContent.mjs';
 
 const config = {
@@ -9,14 +9,11 @@ const config = {
     }),
     siteName: 'Blogposts',
     destinationFile: 'scrapers/output/medium.com.json',
-    domQueryForContent: '.ch p'
+    domQueryForContent: '.ch p, .ch h1, .ch h2, .ch h3, .ch h4, .ch h5, .ch h6, .ch li'
 }
 
-
-console.log("config.sitemap");
-console.log(config.sitemap);
-
-async function process(page, domQueryForContent) {
+async function customScrape(page, domQueryForContent, pageUrl) {
+    console.log('pageUrl: ', pageUrl);
     const mainContent = await extractMainContent(page, domQueryForContent);
 
     let pageTitle = await page.$eval('.ch h1', (element) => {
@@ -24,10 +21,17 @@ async function process(page, domQueryForContent) {
     });
 
     let all = {};
-    all.elements = mainContent;
+
+    // Blogpost specific
+    if (pageUrl === 'https://medium.com/decentralized-identity/peer-dids-moving-to-difs-id-working-group-7f1664bcbf30') {
+        all.type = 'DID, DIF';
+    }
+
+    all.mainContent = mainContent;
     all.pageTitle = pageTitle;
+
     return all;
 }
-export default async function scrapeData() {
-    importedScrape(config, process);
+export default async function () {
+    scrape(config, customScrape);
 };
