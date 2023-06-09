@@ -68,7 +68,7 @@ const TSIS = () => {
     //  filterBy is managed and overridden by InstantSearch.js. To set it, you want to use one of the filter widgets like refinementList or use the `configure` widget.
     additionalSearchParameters: {
       // query_by: 'title,authors',
-      query_by: 'content',
+      query_by: 'content, pageTitle, siteName, source',
       filter_by: 'tag:=[p]',
       // filter_by: 'tag:[a]',
     },
@@ -128,7 +128,7 @@ const TSIS = () => {
           }
 
           // Only if siteName is not empty, show it
-          let itemSiteNameTemplateString = item.siteName !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.siteName}</h5>` : '';
+          let itemSiteNameTemplateString = item.siteName !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item._highlightResult.siteName.value}</h5>` : '';
 
           // The same for knowledgeLevel
           let itemKnowledgeLevelTemplateString = item.knowledgeLevel !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.knowledgeLevel}</h5>` : '';
@@ -140,7 +140,7 @@ const TSIS = () => {
           let itemHierarchyLvl1TemplateString = item['hierarchy.lvl1'] !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item['hierarchy.lvl1']}</h5>` : '';
 
           // The same for title
-          let itemTitleTemplateString = item.pageTitle !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.pageTitle}</h5>` : '';
+          let itemTitleTemplateString = item.pageTitle !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item._highlightResult.pageTitle.value}</h5>` : '';
 
           // The same for firstHeadingBeforeElement
           let itemFirstHeadingBeforeElementTemplateString = item.firstHeadingBeforeElement !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.firstHeadingBeforeElement}</h5>` : '';
@@ -158,12 +158,11 @@ const TSIS = () => {
             <div class="row">
                 <div class="category col col--12">
                     <h4 class="contextual-info" style="font-size: 1.5em"><a class="hit" href="${item.url}"
-                            ${openInNewTab}>${item['siteName']}</a></h4>
+                            ${openInNewTab}>${itemSiteNameTemplateString}</a></h4>
                 </div>
               </div>
               <div class="row hit-name">
                 <div class="col col--3">
-                    <!--${itemSiteNameTemplateString}-->
                     ${itemKnowledgeLevelTemplateString}
                     ${itemTypeTemplateString}
                     ${itemHierarchyLvl1TemplateString}
