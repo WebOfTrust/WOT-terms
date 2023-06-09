@@ -5,7 +5,7 @@ export default function createOutput(input) {
     const entry = {
       siteName: input.siteName || 'No site name specified',
       source: input.source || 'No source specified',
-      author: input.author || 'No author specified',
+      author: input.author || '–',
       url: input.pageUrl || 'No url specified',
       content: element.text || '–',
       tag: element.tag || '–',
