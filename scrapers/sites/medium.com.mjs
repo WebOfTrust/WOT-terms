@@ -8,8 +8,13 @@ const config = {
         sourcePath: 'scrapers/sitemaps/sitemap-medium.com.xml',
     }),
     siteName: 'Blogposts',
+    source: 'Blogposts',
     destinationFile: 'scrapers/output/medium.com.json',
-    domQueryForContent: '.ch p, .ch h1, .ch h2, .ch h3, .ch h4, .ch h5, .ch h6, .ch li'
+    // domQueryForContent: '.ch p, .ch h1, .ch h2, .ch h3, .ch h4, .ch h5, .ch h6, .ch li'
+
+    domQueryForContent: '.ch > p, .ch > h1, .ch > h2, .ch > h3, .ch > h4, .ch > h5, .ch > h6, .ch > li'
+    // domQueryForContent: '.ch *'
+    // domQueryForContent: '.ch.bg.et.eu.ev.ew *'
 }
 
 async function customScrape(page, domQueryForContent, pageUrl) {
