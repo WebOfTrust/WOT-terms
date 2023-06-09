@@ -7,7 +7,7 @@ const config = {
         sourceType: 'localXMLsitemap',
         sourcePath: 'scrapers/sitemaps/sitemap-ksoeteman.xml',
     }),
-    siteName: 'Blogposts',
+    siteName: 'Krijn Soeteman‘s blog',
     source: 'Blogposts',
     destinationFile: 'scrapers/output/ksoeteman.json',
     domQueryForContent: '.entry-content p, .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, .entry-content li'

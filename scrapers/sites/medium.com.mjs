@@ -30,6 +30,7 @@ async function customScrape(page, domQueryForContent, pageUrl) {
     // Blogpost specific
     if (pageUrl === 'https://medium.com/decentralized-identity/peer-dids-moving-to-difs-id-working-group-7f1664bcbf30') {
         all.type = 'DID, DIF';
+        all.siteName = 'Daniel Hardman‘s blog';
     }
 
     all.mainContent = mainContent;
