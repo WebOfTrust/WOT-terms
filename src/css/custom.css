@@ -514,6 +514,15 @@ table td:nth-child(8) {
   overflow: scroll;
 }
 
+.container.gleif {
+  background: transparent url("/img/logo-gleif.svg") no-repeat left bottom;
+  background-size: 5%;
+}
+.container.essif-lab {
+  background: transparent url("/img/logo-essif-lab.png") no-repeat left bottom;
+  background-size: 15%;
+}
+
 
 /**
   * END TYPESENSE INSTANTSEARCH
