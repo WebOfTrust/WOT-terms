@@ -19,7 +19,7 @@ const typesenseInstantSearchCreateDomElements = () => {
                <div class="row margin-top--lg">
                   <div class="">
                      <h3 class="">Website</h3>
-                     <div id="site-name-refinement-list"></div>
+                     <div id="source-refinement-list"></div>
                   </div>
                </div>
                <div class="row margin-top--lg">
