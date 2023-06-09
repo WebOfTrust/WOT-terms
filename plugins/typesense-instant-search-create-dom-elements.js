@@ -21,6 +21,11 @@ const typesenseInstantSearchCreateDomElements = () => {
                      <h3 class="">Source</h3>
                      <div id="source-refinement-list"></div>
                   </div>
+               <div class="row margin-top--lg">
+                  <div class="">
+                     <h3 class="">Author</h3>
+                     <div id="author-refinement-list"></div>
+                  </div>
                </div>
                <div class="row margin-top--lg">
                   <div class="">
