@@ -7,7 +7,7 @@ const config = {
         sourceType: 'localXMLsitemap',
         sourcePath: 'scrapers/sitemaps/sitemap-ksoeteman.xml',
     }),
-    siteName: 'Krijn Soeteman‘s blog',
+    siteName: 'ksoeteman.nl blog',
     source: 'Blogposts',
     author: 'Krijn Soeteman',
     destinationFile: 'scrapers/output/ksoeteman.json',

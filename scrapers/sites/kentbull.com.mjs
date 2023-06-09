@@ -7,7 +7,7 @@ const config = {
         sourceType: 'localXMLsitemap',
         sourcePath: 'scrapers/sitemaps/sitemap-kentbull.com.xml',
     }),
-    siteName: 'Kent Bull‘s blog',
+    siteName: 'kentbull.com blog',
     source: 'Blogposts',
     author: 'Kent Bull',
     destinationFile: 'scrapers/output/kentbull.com.json',

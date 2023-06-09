@@ -7,7 +7,7 @@ const config = {
         sourceType: 'localXMLsitemap',
         sourcePath: 'scrapers/sitemaps/sitemap-humancolossus.xml',
     }),
-    siteName: 'Robert Mitwicki‘s blog',
+    siteName: 'Human Colossus Foundation blog',
     source: 'Blogposts',
     author: 'Robert Mitwicki',
     destinationFile: 'scrapers/output/humancolossus.json',
