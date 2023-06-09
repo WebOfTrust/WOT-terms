@@ -130,6 +130,8 @@ const TSIS = () => {
           // Only if siteName is not empty, show it
           let itemSiteNameTemplateString = item.siteName !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item._highlightResult.siteName.value}</h5>` : '';
 
+          let itemAuthorTemplateString = item.author !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item._highlightResult.author.value}</h5>` : '';
+
           // The same for knowledgeLevel
           let itemKnowledgeLevelTemplateString = item.knowledgeLevel !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.knowledgeLevel}</h5>` : '';
 
@@ -163,6 +165,7 @@ const TSIS = () => {
               </div>
               <div class="row hit-name">
                 <div class="col col--3">
+                    ${itemAuthorTemplateString}
                     ${itemKnowledgeLevelTemplateString}
                     ${itemTypeTemplateString}
                     ${itemHierarchyLvl1TemplateString}
