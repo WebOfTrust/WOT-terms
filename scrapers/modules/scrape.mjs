@@ -35,6 +35,7 @@ export default async function scrape(config, customScrape) {
                 hierarchyLvl3: scraped.hierarchyLevel3,
                 knowledgeLevel: scraped.knowledgeLevel,
                 type: scraped.type,
+                creationDate: scraped.creationDate,
                 pageTitle: scraped.pageTitle,
                 firstHeadingBeforeElements: scraped.firstHeadingBeforeElements
             });
