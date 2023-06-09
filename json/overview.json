@@ -42,7 +42,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Data type defined by authentic-chained-data-container spec.",
       "",
       "Type of data, as defined in the \"Authentic-Chained-Data-Container\" spec."
     ],
@@ -64,7 +64,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "An authentic data container conveys data that proves its authenticity.",
       "",
       "An authentic data container conveys data to prove its authenticity."
     ],
@@ -86,7 +86,7 @@
       "",
       "1",
       "",
-      "Loading...",
+      "A self-certifying, self-sovereign identifier.",
       "",
       "A self-certifying, self-sovereign identifier."
     ],
@@ -108,7 +108,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "A truly self-sovereign namespace.",
       "",
       "A self-sovereign namespace."
     ],
@@ -130,7 +130,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Authentic provenance chain; verifiable tracking of data back to its origin.",
       "",
       "Authentic provenance chain; verifiable evidence of data traced back to origin."
     ],
@@ -152,7 +152,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Best data acceptance, mechanism providing replay attack protection.",
       "",
       "Best data acceptance, mechanisms for replay attack protection."
     ],
@@ -174,7 +174,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Byzantine Fault Tolerance",
       "",
       "Byzantine Fault Tolerance"
     ],
@@ -196,7 +196,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "Event streaming representation, composable.",
       "",
       "NO INPUT"
     ],
@@ -218,7 +218,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Certificate Transparency: An Internet Security Standard for Digital Certificates.",
       "",
       "Certificate Transparency: Internet Security Standard for Digital Certificates."
     ],
@@ -262,7 +262,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "Duplicitous log.",
       "",
       "NO INPUT"
     ],
@@ -306,7 +306,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "Decentralized key mgmt infrastructure; ensuring no single third-party can compromise system integrity and security.",
       "",
       "Decentralized key management infrastructure ensures no single third-party can compromise system integrity and security."
     ],
@@ -328,7 +328,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Decentralized public key infrastructure ensures no single third-party can compromise system integrity and security.",
       "",
       "Decentralized public key infrastructure ensures no single third-party can compromise system integrity and security."
     ],
@@ -350,7 +350,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "GnuPG, a free PGP replacement.",
       "",
       "NO INPUT"
     ],
@@ -372,7 +372,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Input and output shortened up and grammar mistakes fixed.",
       "",
       "NO INPUT"
     ],
@@ -394,7 +394,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Internet Assigned Numbers Authority oversees allocation of IPs to ISPs.",
       "",
       "NO INPUT"
     ],
@@ -416,7 +416,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "Issuance and presentation exchange protocol; mechanism for issuing and presenting ACDCs.",
       "",
       "Issuance and presentation exchange protocol; a mechanism for issuing and presenting ACDCs."
     ],
@@ -438,7 +438,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "Javascript Object Signing & Encryption: Method to Securely Transfer Claims.",
       "",
       "Javascript Object Signing & Encryption: a method to securely transfer claims between parties."
     ],
@@ -482,7 +482,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "KERI Algorithm for Control Establishment",
       "",
       "NO INPUT"
     ],
@@ -504,7 +504,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "Key Events Log",
       "",
       "NO INPUT"
     ],
@@ -548,7 +548,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "Key Event Receipt Log.",
       "",
       "NO INPUT"
     ],
@@ -570,7 +570,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "KERI Improvement Doc",
       "",
       "NO INPUT"
     ],
@@ -592,7 +592,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Judgments aren't binary Yes/No; they have levels of assurance.",
       "",
       "Judgments not being binary (Yes/No)? Assurance comes in varying levels."
     ],
@@ -614,7 +614,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Locus of Control: an individual's belief in their own ability to control their destiny.",
       "",
       "NO INPUT"
     ],
@@ -636,7 +636,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "NFTs",
       "",
       "NO INPUT"
     ],
@@ -702,7 +702,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "PGP.",
       "",
       "NO INPUT"
     ],
@@ -724,7 +724,7 @@
       "1",
       "1",
       "",
-      "Loading...",
+      "PKI (Public Key Infrastructure)",
       "",
       "NO INPUT"
     ],
@@ -746,7 +746,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Public transaction event log that can securely track state anchored to KEL.",
       "",
       "A public transaction event log used to securely track state anchored to a KEL."
     ],
@@ -768,7 +768,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Self-Addressing Data",
       "",
       "NO INPUT"
     ],
@@ -790,7 +790,7 @@
       "",
       "1",
       "",
-      "Loading...",
+      "Self-Addressing ID",
       "",
       "NO INPUT"
     ],
@@ -812,7 +812,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Secure Asset Transfer Protocol; IETF protocol (and working group) in the works (as of mid-2022) for transferring assets between blockchains.",
       "",
       "Secure Asset Transfer Protocol; IETF Protocol (and Working Group) being created (as of mid-2022) for transferring assets between blockchains."
     ],
@@ -834,7 +834,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "Self-certifying identifiers cryptographically bind an identifier to a public/private key pair.",
       "",
       "A self-certifying identifier cryptographically binds an identifier to a public and private key pair."
     ],
@@ -856,7 +856,7 @@
       "1",
       "",
       "1",
-      "Loading...",
+      "Self-Sovereign ID",
       "",
       "Self-Sovereign ID"
     ],
@@ -944,7 +944,7 @@
       "1",
       "1",
       "1",
-      "Loading...",
+      "A Uniform Resource Locator (URL), or web address, is a reference to a web resource that specifies its location on a network.",
       "",
       "A Uniform Resource Locator (URL or \"web address\") is a reference to a web resource that specifies its location on a computer network."
     ],
@@ -966,7 +966,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Virtual credential transaction log.",
       "",
       "NO INPUT"
     ],
@@ -988,7 +988,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "Virtual credential.",
       "",
       "Virtual credentials."
     ],
@@ -1010,7 +1010,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Verifiable data structure.",
       "",
       "Verifiable data structure."
     ],
@@ -1032,7 +1032,7 @@
       "",
       "1",
       "1",
-      "Loading...",
+      "An agent's service representing an identity.",
       "",
       "An agent's service for an identity."
     ],
@@ -1054,7 +1054,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Verifiable anytime, anywhere.",
       "",
       "Verifiable anywhere, anytime."
     ],
@@ -1076,7 +1076,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Appendability is a property of computer data storage such that new data can be added, but existing data is immutable.",
       "",
       "NO INPUT"
     ],
@@ -1098,7 +1098,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Data structure ensuring digital data accuracy and authenticity.",
       "",
       "NO INPUT"
     ],
@@ -1120,7 +1120,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Data structure ensuring digital data accuracy and authenticity.",
       "",
       "NO INPUT"
     ],
@@ -1142,7 +1142,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Data tracked verifiably to its origin.",
       "",
       "Evidence tracking back to its origin in a verifiable way."
     ],
@@ -1186,7 +1186,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Self-managed computing systems with algorithmic governance.",
       "",
       "NO INPUT"
     ],
@@ -1208,7 +1208,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Verify identity systems to authenticate all the way back to the root-of-trust.",
       "",
       "NO INPUT"
     ],
@@ -1230,7 +1230,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Namespace self-certifying and self-administrating is truly self-sovereign.",
       "",
       "Namespace self-certifying and self-admining is truly self-sovereign."
     ],
@@ -1296,7 +1296,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Byzantine fault tolerance in distributed computing systems allows for consensus despite arbitrary behavior from some nodes.",
       "",
       "NO INPUT"
     ],
@@ -1318,7 +1318,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A distributed system condition where components may fail and imperfect info on whether a component has failed exists.",
       "",
       "NO INPUT"
     ],
@@ -1340,7 +1340,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Internet security standards & framework for digital certificates.",
       "",
       "Internet security standards and frameworks for digital certificates."
     ],
@@ -1384,7 +1384,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Legal documentation of timeline of material custody.",
       "",
       "Legal record of material custody sequence."
     ],
@@ -1406,7 +1406,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Assertion of truth, usually disputed or uncertain.",
       "",
       "Assertion of truth, often disputed."
     ],
@@ -1516,7 +1516,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "An entity with the power to alter an identity, cryptocurrency, or verifiable credential.",
       "",
       "Entity able to change identity, crypto, or verifiable credential."
     ],
@@ -1538,7 +1538,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Identifier indicating external parties' observation of wallet content relationships.",
       "",
       "An identifier to indicate external parties have seen wallet contents' relation."
     ],
@@ -1560,7 +1560,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Evidence of authority, status, rights, or privileges.",
       "",
       "Evidence of authority, status, rights, and privileges."
     ],
@@ -1582,7 +1582,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Deal with cryptog. algos. & have API func. calls for each supported feature.",
       "",
       "Deal with crypto algorithms and have API calls for each feature."
     ],
@@ -1604,7 +1604,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A digital asset designed as a medium of exchange, with individual coin ownership records stored in a digital ledger.",
       "",
       "Digital asset designed as a medium of exchange with individual coin records stored in a digital ledger."
     ],
@@ -1758,7 +1758,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A scheme for verifying digital message/document authenticity.",
       "",
       "A scheme for verifying digital messages' authenticity."
     ],
@@ -1780,7 +1780,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "DAG, a mathematical construct in graph theory, has an acyclic property with no cycles.",
       "",
       "DAGs, a math concept from graph theory, have an acyclic property from cycles-free directed graphs."
     ],
@@ -2000,7 +2000,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "GPG is a free, replacement software for Symantec's PGP suite.",
       "",
       "NO INPUT"
     ],
@@ -2066,7 +2066,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Identifying (public) identities uniquely; pointing to someone/something else.",
       "",
       "Uniquely identify (public) identities; point to someone else."
     ],
@@ -2088,7 +2088,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "An entity unique to itself, usually identified by a unique ID.",
       "",
       "Unique entity, typically identified by a unique identifier."
     ],
@@ -2110,7 +2110,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "KERI's first event establishes an identifier.",
       "",
       "KERI's first event established an identifier."
     ],
@@ -2132,7 +2132,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Creating an AID with initial keypairs and assoc. info.",
       "",
       "Create an AID by binding it to initial keypairs and info."
     ],
@@ -2176,7 +2176,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "An index indicating which public key to use when signing something with a multi-key autonomic ID.",
       "",
       "An index indicating which public key is used when signing something with a multi-key autonomic ID."
     ],
@@ -2198,7 +2198,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "A status of disagreement among parts of a reason, idea, or opinion.",
       "",
       "A state of discord within an entity due to conflicting views."
     ],
@@ -2220,7 +2220,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "IANA, overseeing IP address allocation to ISPs.",
       "",
       "NO INPUT"
     ],
@@ -2242,7 +2242,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Provides uniform issuance and presentation of ACDCs securely and attributably.",
       "",
       "Offers a uniform way to create and present ACDCs securely."
     ],
@@ -2264,7 +2264,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Javascript Object Signing & Encryption: Method to Securely Transfer Claims.",
       "",
       "Javascript Object Signing & Encryption: a method to securely transfer claims between parties."
     ],
@@ -2572,7 +2572,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "LoA: When judgement isn't binary (Yes/No), there are assurance levels.",
       "",
       "LoA: For judgments not binary (Yes/No), assurance levels exist."
     ],
@@ -2792,7 +2792,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Non-normative theories don't give answers, but describe possibilities or predict outcomes of actions.",
       "",
       "Non-normative theories don't give answers, but rather describe possibilities or predict outcomes from certain actions."
     ],
@@ -2814,7 +2814,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Author of a statement can't dispute its authorship or validity of contract, signature, or commitment.",
       "",
       "Author can't dispute authorship or validity of contract, signature, or commitment."
     ],
@@ -2858,7 +2858,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A theory that tells you what action to take.",
       "",
       "A theory that tells you what action to take."
     ],
@@ -2880,7 +2880,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A one-way function is easy to compute on any input, but hard to invert given a random input.",
       "",
       "A one-way function is easy to compute for any input but hard to invert given a random input's image."
     ],
@@ -2902,7 +2902,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "KERI's payload is a cryptographic block.",
       "",
       "KERI's payload is a cryptographic building block."
     ],
@@ -3012,7 +3012,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Proof of origin of content.",
       "",
       "Proof of original creation of content."
     ],
@@ -3078,7 +3078,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Verifiable Data Registry tracking credential issuance/revocation.",
       "",
       "Verifiable Data Registry tracks issuance/revocation of credentials."
     ],
@@ -3100,7 +3100,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A system's behavior is dependent on external, uncontrollable events, a condition known as sequence or timing.",
       "",
       "System's behavior dependent on sequence or timing of external events, uncontrollable."
     ],
@@ -3122,7 +3122,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Record of key event receipts for witnesses.",
       "",
       "Record of key events & receipts for witnesses."
     ],
@@ -3144,7 +3144,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Event, message, or reference w/ 1+ witness signatures.",
       "",
       "Event msg. or ref., w/ one+ witness signatures."
     ],
@@ -3166,7 +3166,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Backers for each transaction log are identified in its provenance.",
       "",
       "Identifiers back each transaction event log under its provenance."
     ],
@@ -3188,7 +3188,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Trust in digital signatures from asymmetric key cryptography replaces human trust.",
       "",
       "Trust in digital signatures from asymmetric cryptography replaces human trust."
     ],
@@ -3210,7 +3210,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Revoking and replacing the AID's authoritative key pairs.",
       "",
       "Revoking and replacing a set of authoritative key pairs for an AID."
     ],
@@ -3232,7 +3232,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A root-of-trust that depends on another primary root-of-trust for secure attribution.",
       "",
       "NO INPUT"
     ],
@@ -3276,7 +3276,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Who dunnit in cyberspace?",
       "",
       "NO INPUT"
     ],
@@ -3298,7 +3298,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A pseudorandom number, often expressed as a series of words.",
       "",
       "NO INPUT"
     ],
@@ -3320,7 +3320,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Encryption program providing cryptographic privacy and authentication for data communication.",
       "",
       "NO INPUT"
     ],
@@ -3364,7 +3364,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Self-framing encoding with type, size, and value is parseable without extra delimiters.",
       "",
       "Self-framing encoding with type, size and value is parseable without delimiters."
     ],
@@ -3452,7 +3452,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Self-framing primitives in text or binary domains can be converted as a group without loss.",
       "",
       "Self-framing primitives in either the text or binary domain can be converted as a group to the other without loss."
     ],
@@ -3474,7 +3474,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A log of transactions that determine registry state, known as Transaction Event Log (TEL), is cryptographically linked to its corresponding KEL.",
       "",
       "NO INPUT"
     ],
@@ -3496,7 +3496,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "TCP is a main Internet protocol.",
       "",
       "NO INPUT"
     ],
@@ -3540,7 +3540,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Capability to verify data validity for specific purposes.",
       "",
       "Ability to verify data validity for a purpose."
     ],
@@ -3562,7 +3562,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Seeking the truth.",
       "",
       "The search for truth."
     ],
@@ -3606,7 +3606,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Cryptographically verify data structure's consistency and authenticity.",
       "",
       "Cryptographically verify data structure's consistency and authenticity."
     ],
@@ -3628,7 +3628,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Entity cryptographically verifies data from peers, checking structure, signatures, and dates.",
       "",
       "Verifies data cryptographically from peers, checking structure, signatures, and dates."
     ],
@@ -3650,7 +3650,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Responsible for managing changes to computer programs, documents, large web sites, or other collections of information, this is a class of systems.",
       "",
       "NO INPUT"
     ],
@@ -3760,7 +3760,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Key Event Receipt Infra.",
       "",
       "Key Event Reception Infrastructure"
     ],
@@ -3782,7 +3782,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Software repo.",
       "",
       "Software repo."
     ],
@@ -3804,7 +3804,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Python KERI implementation.",
       "",
       "Python KERI implementation."
     ],
@@ -3870,7 +3870,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Hierarchical Async Coroutines & I/O in Python",
       "",
       "Hierarchical Async Coroutines & I/O in Python"
     ],
@@ -3914,7 +3914,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Programming Lang.",
       "",
       "Programming languages."
     ],
@@ -3958,7 +3958,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A duplicate of an object under version control for separate modification.",
       "",
       "A duplicate of an object under version control for further separate modification."
     ],
@@ -3980,7 +3980,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "KERI CLI",
       "",
       "KERI CLI"
     ],
@@ -4002,7 +4002,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Kubernetes is an open-source platform for managing containers.",
       "",
       "Kubernetes is an open source platform for container management."
     ],
@@ -4046,7 +4046,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Digital credentials, such as passports and driver's licenses, for our daily lives, verifiable by machine.",
       "",
       "Our daily lives' credentials (e.g. passport, driver's license) in digital, machine-verifiable form."
     ],
@@ -4068,7 +4068,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Docker streamlines repetitive configuration and is used for app dev.",
       "",
       "Docker eliminates tedious configuration and is used for app dev."
     ],
@@ -4112,7 +4112,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A representative of an identity.",
       "",
       "Rep for identity."
     ],
@@ -4134,7 +4134,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Software is installed on cloud server instances for security, monitoring, and analysis.",
       "",
       "Cloud agent software is installed on cloud server instances for security, monitoring, and analysis."
     ],
@@ -4156,7 +4156,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Python installer bundles app, its dependencies into single package.",
       "",
       "Python installer packages an app, plus all its dependencies, into one bundle."
     ],
@@ -4178,7 +4178,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A Python interface for Apache Electron's CLI.",
       "",
       "Python interface for Apache Electron CLI."
     ],
@@ -4200,7 +4200,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "UI is the space for human-machine interaction.",
       "",
       "UI is the area where humans and machines interact."
     ],
@@ -4266,7 +4266,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A wallet is a collection of data stores, including a keystore, local and remote key event log, and credential database.",
       "",
       "A wallet is a collection of data stores consisting of a keystore, local and remote key event log, and credential database."
     ],
@@ -4288,7 +4288,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Kli's verifiable credentials section.",
       "",
       "Kli's verifiable credentials section."
     ],
@@ -4310,7 +4310,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Verifies and stores key events for an identifier.",
       "",
       "Receives, verifies, and stores key events for an identifier."
     ],
@@ -4332,7 +4332,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Ensure KERI logs are immutable.",
       "",
       "Ensure KERI logs are immutable."
     ],
@@ -4420,7 +4420,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A KERI keystore holds encrypted private keys for AIDs.",
       "",
       "KERI's keystore holds encrypted private keys for multiple AIDs."
     ],
@@ -4442,7 +4442,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Events involving control keys of an ID logged in a KEL.",
       "",
       "Events affecting control keys of an identifier logged in a KEL."
     ],
@@ -4486,7 +4486,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Changes key state, including updating authoritative keypairs for an AID.",
       "",
       "Changes key-state, including authoritative keypairs for AID."
     ],
@@ -4508,7 +4508,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Min. valid signatures needed for successful validation.",
       "",
       "Min. # of valid signatures req'd for successful validation."
     ],
@@ -4530,7 +4530,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Key Event Log is KERI's native, verifiable data structure.",
       "",
       "Key Event Log is KERI's native verifiable data structure."
     ],
@@ -4552,7 +4552,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Applying an algorithm that accepts or rejects the message's authenticity, you can verify its signature.",
       "",
       "Algorithm applies to accept/reject message's authenticity."
     ],
@@ -4574,7 +4574,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Peers are equal, powerful participants in a network.",
       "",
       "Peers are equal, powerful participants in a network."
     ],
@@ -4596,7 +4596,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Start an empty agent or run a single one against an existing one.",
       "",
       "Start an empty agent or run one against a started one."
     ],
@@ -4618,7 +4618,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Random data used to enhance a cryptographic one-way function",
       "",
       "Random data used as extra input for a cryptographic one-way function."
     ],
@@ -4640,7 +4640,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Delegation: empowering to act on another's behalf.",
       "",
       "Delegation: empowering someone to act for another."
     ],
@@ -4684,7 +4684,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "JSON",
       "",
       "JSON (JavaScript Object Notation)"
     ],
@@ -4706,7 +4706,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Control of identifiers can be transferred by rotating keys.",
       "",
       "Keys can transfer control of identifiers."
     ],
@@ -4728,7 +4728,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A number used to uniquely identify a connection and route data to a service.",
       "",
       "A number assigned uniquely to identify a connection endpoint and direct data to a service."
     ],
@@ -4794,7 +4794,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "API (Application Programming Interface)",
       "",
       "API (Application Programming Interface)"
     ],
@@ -4816,7 +4816,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "cURL is a command-line tool for transferring data over various network protocols.",
       "",
       "cURL: a command-line tool for transferring data over various network protocols."
     ],
@@ -4882,7 +4882,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Secret data, typically a string of characters, used to verify identity.",
       "",
       "Secret data, typically a string of characters, used to authenticate a user."
     ],
@@ -4904,7 +4904,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Strengthen a key (e.g. password/passphrase) against a brute-force attack by increasing resources.",
       "",
       "Strengthen a possibly weak key (e.g., a password or passphrase) against brute-force attack by increasing resources."
     ],
@@ -4926,7 +4926,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Programs can be set to various modes with flags, e.g. -v or --verbose for verbose mode.",
       "",
       "Many command-line programs can be set to various modes using flags, e.g. -v or --verbose for verbose mode."
     ],
@@ -4948,7 +4948,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "This identifier cannot be rotated, making it non-transferable to other controls.",
       "",
       "This ID can't be rotated, so it's non-transferable."
     ],
@@ -4970,7 +4970,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Field in KERI data structure for describing witness threshold.",
       "",
       "Field in KERI data structure describing witness threshold."
     ],
@@ -4992,7 +4992,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Min. valid witness signatures req'd.",
       "",
       "Min. valid witness signatures req'd."
     ],
@@ -5036,7 +5036,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A Base-64 (URL safe) prefix prepended to a Base-64 encoded public digital signing key.",
       "",
       "A prefix of a Base-64 (URL safe) derivation code prepended to a Base-64 encoded public digital signing key."
     ],
@@ -5058,7 +5058,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Binary-to-text encodings representing binary data.",
       "",
       "Binary-to-text encodings representing binary data."
     ],
@@ -5080,7 +5080,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A cryptographic primitive, when qualified, has a prepended derivation code.",
       "",
       "A cryptographic primitive is qualified if it includes a prepended derivation code."
     ],
@@ -5102,7 +5102,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A special character encoding the derivation process is pre-pended to the identifier.",
       "",
       "A special character that encodes the derivation process is pre-pended to the identifier."
     ],
@@ -5124,7 +5124,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "BLAKE3 is a 2020 cryptographic hash function based on Bao and BLAKE2.",
       "",
       "BLAKE3 is a 2020 cryptographic hash function based on Bao and BLAKE2."
     ],
@@ -5146,7 +5146,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Data anchors are digests that uniquely identify digital data.",
       "",
       "Data anchors are digests that uniquely identify digital data."
     ],
@@ -5168,7 +5168,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Self-certifying, self-sovereign identifier.",
       "",
       "Self-certifying, self-sovereign identifier."
     ],
@@ -5234,7 +5234,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Verifiable credential inception.",
       "",
       "Verifiable credential's inception event."
     ],
@@ -5256,7 +5256,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A hash-linked data structure of transactions used to track state.",
       "",
       "A hash is a data structure of transactions used to track state."
     ],
@@ -5300,7 +5300,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Establishing control authority event.",
       "",
       "Establishing control authority event."
     ],
@@ -5322,7 +5322,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Lightning Memory-Mapped DB",
       "",
       "Lightning Memory-Mapped DB"
     ],
@@ -5366,7 +5366,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Hex Notation",
       "",
       "Hex notation."
     ],
@@ -5388,7 +5388,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Many computer OSs and programming languages offer an option to show extra info on what the computer is doing.",
       "",
       "Many computer operating systems and programming languages offer an option to show extra details about what the computer is doing."
     ],
@@ -5410,7 +5410,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "An identifier generated deterministically from and embedded in the content it identifies, making it and data tamper-evident.",
       "",
       "A deterministically-generated identifier embedded in content, making it and data tamper-evident."
     ],
@@ -5432,7 +5432,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Backers include both KERI witnesses & ledger-registered ones.",
       "",
       "Backers are both KERI witnesses and ledger-registered."
     ],
@@ -5454,7 +5454,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A witness in KERI who is ledger-registered.",
       "",
       "A KERI witness, registered on a ledger."
     ],
@@ -5476,7 +5476,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A KERI native with KEL-established control authority.",
       "",
       "A native Keri witness with established control authority."
     ],
@@ -5498,7 +5498,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "GLEIF delegates issue digital verifiable credentials to prove info about legal entities is authentic.",
       "",
       "GLEIF-issued digital verifiable credentials proving authenticity of legal entity info."
     ],
@@ -5520,7 +5520,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "SSI infrastructure consists of tech components deployed globally.",
       "",
       "SSI infrastructure consists of tech components deployed globally."
     ],
@@ -5542,7 +5542,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Hyperledger Indy is an SSI system on a private blockchain.",
       "",
       "Hyperledger Indy is a private blockchain-based SSI system."
     ],
@@ -5564,7 +5564,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Transferring control authority of an identifier from a ledger/blockchain to KERI's native verifiable data structure, KEL.",
       "",
       "Transferring control authority over an identifier from a ledger/blockchain to KERI's native verifiable data structure KEL."
     ],
@@ -5586,7 +5586,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Ethereum powers the cryptocurrency Ether (ETH) and thousands of decentralized apps.",
       "",
       "Ethereum powers the cryptocurrency ether (ETH) and thousands of decentralized apps."
     ],
@@ -5608,7 +5608,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Hyperledger Aries offers an interoperable toolkit for creating, transmitting, and storing verifiable digital credentials.",
       "",
       "Hyperledger Aries provides an interoperable toolkit for creating, transmitting, and storing verifiable digital credentials."
     ],
@@ -5630,7 +5630,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A web service endpoint is a URL for clients to access the service.",
       "",
       "A web service endpoint is a URL which allows clients to access the service."
     ],
@@ -5652,7 +5652,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Ref. to a web resource specifying its network location and mechanism for retrieving it.",
       "",
       "Reference to a web resource specifying its location on a network and mechanism to retrieve it."
     ],
@@ -5674,7 +5674,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A numerical label, such as '192.0.2.1', connected to a network using the Internet Protocol for communication.",
       "",
       "A numerical label, e.g. '192.0.2.1', connected to a network using Internet Protocol for communication."
     ],
@@ -5696,7 +5696,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "This is a web transmission control protocol service endpoint.",
       "",
       "This is a web transmission control protocol service endpoint."
     ],
@@ -5718,7 +5718,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Someone validating launches inquiry at KERI witness.",
       "",
       "Someone in a validating role launching an inquiry at KERI witness."
     ],
@@ -5740,7 +5740,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Intercept and delay or resend a message to misdirect the receiver, fraudulently.",
       "",
       "Intercept and delay a message fraudulently to misdirect the receiver into doing what the attacker wants."
     ],
@@ -5762,7 +5762,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Extensible Business Reporting Language (XBRL) is a standard for digital business reporting.",
       "",
       "XBRL, a standard for digital business reporting."
     ],
@@ -5806,7 +5806,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Default state of encrypted KERI data store w/ passcode.",
       "",
       "Default state of encrypted KERI data store with passcode."
     ],
@@ -5828,7 +5828,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Password manager.",
       "",
       "Password manager."
     ],
@@ -5850,7 +5850,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Data OOB intros.",
       "",
       "Data OOB introductions"
     ],
@@ -5872,7 +5872,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Credentials, schema, OOB intros.",
       "",
       "Credentials, schema, out-of-band introductions."
     ],
@@ -5894,7 +5894,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "KERI & ACDC's depreciated crypto wallet is a task-oriented app for managing AIDs in ecosystems, e.g. vLEI.",
       "",
       "KERI's and ACDC's crypto wallet is a task-oriented app for managing AIDs in ecosystems, e.g., vLEI."
     ],
@@ -5916,7 +5916,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Zero Trust: trust no one.",
       "",
       "No one is trusted in a Zero Trust approach."
     ],
@@ -5938,7 +5938,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Functional components can register and advertise Credential Types disclosed by Governing Parties.",
       "",
       "Functional component that registers and advertises Credential Types per their Governing Party's disclosure."
     ],
@@ -5960,7 +5960,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Revoking control over an ID.",
       "",
       "Revoking control over an identifier event."
     ],
@@ -5982,7 +5982,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Access to a website or app is granted with electronic authentication: successfully presenting two or more pieces of evidence.",
       "",
       "Electronic authentication granting access to a website or app after presenting two or more pieces of evidence."
     ],
@@ -6004,7 +6004,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "KERI protocol tracks all temporary storage locations, due to its asynchronous nature.",
       "",
       "KERI protocol tracks temp. storage locations: events waiting for other info, due to its async nature."
     ],
@@ -6026,7 +6026,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Mailbox notifications: a streaming service for the agent U/I to get notifications from KERI.",
       "",
       "Agent U/I streaming notifications from KERI system."
     ],
@@ -6048,7 +6048,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Cryptographic proof in secondary root-of-trust anchored in primary.",
       "",
       "Crypto proof in sec. root-of-trust anchored in primary root-of-trust."
     ],
@@ -6070,7 +6070,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "An identifier's authority is renowned, respected and accurate.",
       "",
       "An identifier is 'authoritative' due to its accuracy, renown, honor, and respect."
     ],
@@ -6092,7 +6092,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "Qualified GLEIF issuer and contracting party.",
       "",
       "Qualified GLEIF issuer and contracting party."
     ],
@@ -6114,7 +6114,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "QVI, GLEIF-qualified contracting party.",
       "",
       "QVI, qualified by GLEIF."
     ],
@@ -6202,7 +6202,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "A person who represents the Legal Entity in a role and is issued an ECR vLEI Credential.",
       "",
       "A person representing the Legal Entity with an ECR vLEI Credential."
     ],
@@ -6246,7 +6246,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "A GLEIF rep authorized to verify and issue the QVI vLEI Credential.",
       "",
       "A GLEIF rep authorized to verify & issue QVI vLEI Credential."
     ],
@@ -6268,7 +6268,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "Global LEI Foundation",
       "",
       "Global LEI Foundation"
     ],
@@ -6290,7 +6290,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "A rep authorized by a legal entity to act on its behalf.",
       "",
       "A rep of a Legal Entity authorized to act on its behalf."
     ],
@@ -6312,7 +6312,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "A rep authorized by a legal entity to act on its behalf.",
       "",
       "A rep of a Legal Entity authorized to act on its behalf."
     ],
@@ -6334,7 +6334,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "Auth. Vlei Rep.",
       "",
       "NO INPUT"
     ],
@@ -6356,7 +6356,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "A rep of a legal entity authorized to request issuing and revoking of credentials.",
       "",
       "NO INPUT"
     ],
@@ -6378,7 +6378,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "Legal Entity Inst.",
       "",
       "NO INPUT"
     ],
@@ -6400,7 +6400,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "Parties legally or financially responsible for transactions or with the right to enter legal contracts.",
       "",
       "NO INPUT"
     ],
@@ -6444,7 +6444,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "A person with a VLEI credential representing a legal entity.",
       "",
       "A vLEI-credentialed person representing the Legal Entity."
     ],
@@ -6466,7 +6466,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "QAR conducts QVI ops with GLEIF and Legal Entities.",
       "",
       "QAR conducts QVI ops with GLEIF and Legal Entities."
     ],
@@ -6488,7 +6488,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "QVI's rep conducts QVI ops with GLEIF & Legal Entities.",
       "",
       "QVI reps conduct QVI ops with GLEIF and legal entities."
     ],
@@ -6510,7 +6510,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "A document defining information security, privacy, availability, confidentiality and processing integrity policies.",
       "",
       "NO INPUT"
     ],
@@ -6532,7 +6532,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "Issuance of legal entity vLEI/OOR/ECR credentials on receipt by QAR.",
       "",
       "NO INPUT"
     ],
@@ -6554,7 +6554,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "Issuance of Legal Entity VLEI Credential on notice from QAR to AVR(s).",
       "",
       "NO INPUT"
     ],
@@ -6576,7 +6576,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "Rules for using technology.",
       "",
       "Rules for applying technology."
     ],
@@ -6598,7 +6598,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "Global LEI System",
       "",
       "NO INPUT"
     ],
@@ -6620,7 +6620,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "Verifiable LEI.",
       "",
       "Verifiable LEI."
     ],
@@ -6752,7 +6752,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Decentralized ID",
       "",
       "Decentralized IDs"
     ],
@@ -6796,7 +6796,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "Partially keep some keys unexposed, while exposing others as needed, during a change of control.",
       "",
       "Keep some keys unexposed and expose others as needed, but change control."
     ],
@@ -6818,7 +6818,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "Partially keep some keys unexposed, while exposing others as needed, during a change of control.",
       "",
       "Keep some keys unexposed and expose others as needed, but change control."
     ],
@@ -6862,7 +6862,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "Reserved key pairs, not exposed.",
       "",
       "Reserve key pairs, unexposed."
     ],
@@ -6884,7 +6884,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "A custodian with signing authority who hosts the agent software.",
       "",
       "A custodian with signing authority and hosting agent software."
     ],
@@ -6906,7 +6906,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "Authority to sign on behalf of a controller of an identifier.",
       "",
       "Authority to sign for controller of an ID."
     ],
@@ -6950,7 +6950,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "Transferable value.",
       "",
       "Transferable value between contexts."
     ],
@@ -6972,7 +6972,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "A trusted data source providing a comprehensive view of the truth about a data object.",
       "",
       "A trusted source that provides a complete view of a data object's truth."
     ],
@@ -6994,7 +6994,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "Specify access rights or privileges to resources.",
       "",
       "Specify access rights/privileges to resources."
     ],
@@ -7016,7 +7016,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "A way for two or more programs to communicate.",
       "",
       "Two or more computer programs can communicate with each other."
     ],
@@ -7038,7 +7038,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "An API, a way for programs to communicate with each other.",
       "",
       "API: a way for two or more programs to communicate."
     ],
@@ -7060,7 +7060,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "Public & private key pairs.",
       "",
       "Public and private keys."
     ],
@@ -7082,7 +7082,7 @@
       "1",
       "1",
       "1",
-      "Loading...",
+      "A role that exercises its legal, rightful, or natural right to control something.",
       "",
       "A role exercising its legal right to control something."
     ],
@@ -7104,7 +7104,7 @@
       "1",
       "1",
       "1",
-      "Loading...",
+      "A relationship between two in which one (the owner) is entitled to enjoy, dispose of, and control the other sovereignly.",
       "",
       "A relationship between two entitles one of them (the owner) to enjoy, dispose, and control the other with sovereignty."
     ],
@@ -7148,7 +7148,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Exchange providing disclosure of one or more ACDCs between Discloser and Disclosee.",
       "",
       "An exchange providing disclosure of one or more ACDCs between a Discloser and Disclosee."
     ],
@@ -7170,7 +7170,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "ACDC is disclosed by Discloser.",
       "",
       "ACDC is disclosed by the Discloser."
     ],
@@ -7192,7 +7192,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "ACDC is disclosed to Disclosee.",
       "",
       "ACDC is disclosed to Disclosee."
     ],
@@ -7214,7 +7214,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "An ACDC is issued by the Issuer, identified by its AID in the top-level.",
       "",
       "An ACDC is issued by the Issuer, whose AID appears at the top."
     ],
@@ -7236,7 +7236,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "An ACDC may be issued.",
       "",
       "An ACDC can be issued to the issuee."
     ],
@@ -7258,7 +7258,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A special case of a presentation exchange where the Discloser is the Issuer of the origin ACDC (Primary).",
       "",
       "A special case of presentation exchange where the Discloser is the Issuer of the origin (Primary) ACDC."
     ],
@@ -7280,7 +7280,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Chains a sequence of Disclosees, each being Discloser to the next.",
       "",
       "Chains a sequence of Disclosees. Each Disclosee is the Discloser to the next."
     ],
@@ -7324,7 +7324,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Fields of an ACDC compact variant.",
       "",
       "Fields of an ACDC compact variant."
     ],
@@ -7346,7 +7346,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Issuer commits via signature to ACDC variant.",
       "",
       "Issuer commits via signature to ACDC variant."
     ],
@@ -7368,7 +7368,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "IPEX disclosure can be elaborate. It includes both chain-link confidential and contingent disclosure, which are both contractually protected.",
       "",
       "The most elaborate IPEX disclosure is contractually protected, including both chain-link confidential and contingent disclosure."
     ],
@@ -7434,7 +7434,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "An eclipse attack is a P2P network-based attack where an attacker tries to isolate a node from the rest of the network.",
       "",
       "An eclipse attack is an attack on a P2P network, where an attacker tries to isolate a node from the rest."
     ],
@@ -7456,7 +7456,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "The watcher's network runs indiscriminately.",
       "",
       "Indiscriminate watching mode."
     ],
@@ -7478,7 +7478,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "A code of correct conduct, i.e. communication, cryptographic, and decentralized network protocols.",
       "",
       "Correct conduct code, specifically communication, cryptographic and decentralized network protocols."
     ],
@@ -7500,7 +7500,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A statistically random value derived from a known starting point.",
       "",
       "Statistically random value derived from known starting point."
     ],
@@ -7522,7 +7522,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Accepting an outcome.",
       "",
       "Accepting an outcome."
     ],
@@ -7544,7 +7544,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Cryptographically verifying data from peers, such as structure, signatures, and dates.",
       "",
       "Cryptographically verifying data from peers: checking structure, signatures and dates."
     ],
@@ -7566,7 +7566,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Key rotation can transfer control of this long-term ID.",
       "",
       "Control of these long-term IDs can be transferred by rotating keys."
     ],
@@ -7588,7 +7588,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Serializing various types interleaved in an overarching format.",
       "",
       "Serialization of various types interspersed in an overarching format."
     ],
@@ -7610,7 +7610,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Multi-signature scheme for one public key.",
       "",
       "Multi-sig scheme for single pubic key."
     ],
@@ -7632,7 +7632,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "ACDC is a verifiable data structure and part of a graph with node and edge fragments.",
       "",
       "ACDC is a verifiable data structure and part of a graph with a node and edge fragments."
     ],
@@ -7654,7 +7654,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Append-only verifiable data structures are immutable, making them distributable and concurrency-friendly. What we sign can't be changed.",
       "",
       "An append-only, verifiable data structure. Immutability makes them distributable and concurrency-friendly. We cannot alter what we sign."
     ],
@@ -7676,7 +7676,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Ambiguous resolution of two or more identifiers in a given namespace/scope.",
       "",
       "An ambiguity in a namespace or scope where two or more identifiers can't be resolved."
     ],
@@ -7698,7 +7698,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A central schema registry for reserving schemas in a namespace for interoperable, corporation or individual-labeled schemas.",
       "",
       "A centralized schema registry allows corporations or individuals to reserve schemas within namespaces, enabling interoperable schemas labeled with their own namespace."
     ],
@@ -7720,7 +7720,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Registry for credential schemas based on namespaces.",
       "",
       "Credential schema registry based on namespaces."
     ],
@@ -7742,7 +7742,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Identifies an internet realm of administrative autonomy.",
       "",
       "\"Identifies a realm of admin. autonomy on the Internet.\""
     ],
@@ -7786,7 +7786,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "An official digital record book, usually referring to one instance in a multi-tenant registry.",
       "",
       "An official digital record book, usually referring to one instance in a multi-tenant registry."
     ],
@@ -7808,7 +7808,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Self-framing primitives in text or binary domains can be converted as a group without loss.",
       "",
       "Self-framing primitives in either the text or binary domain can be converted as a group to the other without loss."
     ],
@@ -7830,7 +7830,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Interoperability is a product or system's ability to work with other products or systems.",
       "",
       "Interoperability is a system's ability to work with other products or systems."
     ],
@@ -7852,7 +7852,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Interoperability is a product or system's ability to work with other products or systems.",
       "",
       "Interoperability is a system's ability to work with other products or systems."
     ],
@@ -7874,7 +7874,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Established low-level crypto algorithm, commonly used to build crypto protocols for computer security systems, e.g. hash and encryption functions.",
       "",
       "Established, low-level cryptographic algorithm often used to create security protocols; e.g. one-way hash functions and encryption functions."
     ],
@@ -7896,7 +7896,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Joining character strings end-to-end, e.g. 'snow' + 'ball' = 'snowball'.",
       "",
       "Joining character strings end-to-end e.g. 'snow' + 'ball' = 'snowball'."
     ],
@@ -7918,7 +7918,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A method of combining multiple analog or digital signals into one over a shared medium. Aim: sharing a scarce resource.",
       "",
       "A method combining multiple analog or digital signals into one over a shared medium to share a scarce resource."
     ],
@@ -7962,7 +7962,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Codes that group primitives enable pipelining.",
       "",
       "Codes for groups of primitives enable pipelining."
     ],
@@ -7984,7 +7984,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Encode protocol composable in hierarchy, enabling pipelining of complex text or compact binary streams.",
       "",
       "NO INPUT"
     ],
@@ -8028,7 +8028,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Codes that group primitives enable pipelining.",
       "",
       "Codes for groups of primitives enable pipelining."
     ],
@@ -8072,7 +8072,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Capable of lossless transfer of control over IDs, private keys, etc.",
       "",
       "Can transfer control of IDs, keys, etc. without loss."
     ],
@@ -8094,7 +8094,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Extending a string with trailing pad characters to align to a certain length in bits or bytes.",
       "",
       "Extending a string with trailing pad characters to align to a certain length in bits or bytes."
     ],
@@ -8138,7 +8138,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Text-to-binary conversion or vice versa that doesn't anticipate composability or concatenation of the result.",
       "",
       "Text-to-binary conversion or vice versa that doesn't consider composition or concatenation of results."
     ],
@@ -8204,7 +8204,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Code tables are a comprehensive yet simple resource for browsing and searching codes on the internet.",
       "",
       "A code table is the Internet's most comprehensive yet simple resource for browsing and searching codes."
     ],
@@ -8248,7 +8248,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A VLEI Audit Reporting Agent that receives credential presentations and revocation notices.",
       "",
       "A VLEI Audit Reporting Agent receives credential presentations and revocation notices."
     ],
@@ -8270,7 +8270,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A web client event signing and key pair creation app that reduces KERI usage on the client.",
       "",
       "A web client key-event signing and key-pair creation app reduces KERI usage on the client."
     ],
@@ -8292,7 +8292,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A third-party holds money/property until a condition is met. The verb deals with handling out-of-order events in KERI.",
       "",
       "A third party holds money/property until a certain condition is met. Refers to handling out-of-order events in KERI."
     ],
@@ -8314,7 +8314,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Docusaurus self-education site of Web-of-Trust GitHub repo with Typesense search.",
       "",
       "Sally vLEI Audit Reporting Agent receives credential presentations and revocation notices."
     ],
@@ -8347,7 +8347,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Chain-Link Confidential: A disclosure mechanism for credentials.",
       "",
       "Chain-link confidential: a disclosure mechanism for credentials."
     ],
@@ -8391,7 +8391,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "ACDC credential intermediate variant signed, proofs anchored in key event logs.",
       "",
       "Intermediate ACDC credential signed, proofs anchored in key event logs."
     ],
@@ -8413,7 +8413,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Briefest, least revealing ACDC credential.",
       "",
       "Briefest, least revealing ACDC credential."
     ],
@@ -8457,7 +8457,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Read, update, nullify: new P2P, end-verifiable, monotonic update policy.",
       "",
       "Read, update, nullify: new P2P, end-verifiable, monotonic update policy."
     ],
@@ -8479,7 +8479,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "CRUD: the traditional client-server database policy.",
       "",
       "CRUD: traditional client-server database policy."
     ],
@@ -8501,7 +8501,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A mental model in which the entire Internet is seen as one giant verifiable data structure.",
       "",
       "A mental model of the internet as a giant verifiable data structure."
     ],
@@ -8545,7 +8545,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Info is whole, complete, sound, in good order, and intact.",
       "",
       "The info is intact, sound, correct, and undamaged."
     ],
@@ -8589,7 +8589,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A mechanism that verifies integrity without needing access to a prior instance or reference.",
       "",
       "A mechanism that verifies integrity without access to a prior version of the information."
     ],
@@ -8655,7 +8655,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A coding scheme for thresholded multi-signature schemes in CESR.",
       "",
       "NO INPUT"
     ],
@@ -8677,7 +8677,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Python KERI implementation.",
       "",
       "Python KERI implementation."
     ],
@@ -8699,7 +8699,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Rust implementation of KERI.",
       "",
       "RUST impl. of KERI."
     ],
@@ -8721,7 +8721,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Personally identifiable info.",
       "",
       "PII"
     ],
@@ -8743,7 +8743,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Data capture points provide enough context to use statistical correlation to link existing data sets to disclosed attributes.",
       "",
       "NO INPUT"
     ],
@@ -8787,7 +8787,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A method of cracking passwords using a rainbow table to crack password hashes in a database.",
       "",
       "NO INPUT"
     ],
@@ -8809,7 +8809,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Simple KERI for Web Auth.",
       "",
       "KERI for Web Auth"
     ],
@@ -8831,7 +8831,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A KERI implementation sacrificing performance or other features for usability.",
       "",
       "A KERI impl. that sacrifices performance or non-security features for usab."
     ],
@@ -8853,7 +8853,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "KERI Auth Method for Replay Protection",
       "",
       "KERI req. auth. method for replay protection."
     ],
@@ -8875,7 +8875,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "KERI Auth Method for Replay Protection",
       "",
       "KERI req. auth. method for replay protection."
     ],
