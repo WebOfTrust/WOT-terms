@@ -151,9 +151,17 @@ const TSIS = () => {
           // The same for firstHeadingBeforeElement
           let itemFirstHeadingBeforeElementTemplateString = item.firstHeadingBeforeElement !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.firstHeadingBeforeElement}</h5>` : '';
 
+          let siteBrandingClass = '';
+          if (item.siteName === "Gleif website") {
+            siteBrandingClass = "gleif";
+          }
+          if (item.siteName === "eSSIF-Lab") {
+            siteBrandingClass = "essif-lab";
+          }
+
 
           return `
-          <div class="container">
+          <div class="container ${siteBrandingClass}">
             <div class="row margin-bottom--md">
               <div class="category col col--12">
                   <h4 class="contextual-info" style="text-align: center; font-size: 0.8em">
