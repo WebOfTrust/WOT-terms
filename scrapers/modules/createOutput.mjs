@@ -6,6 +6,7 @@ export default function createOutput(input) {
       siteName: input.siteName || 'No site name specified',
       source: input.source || 'No source specified',
       author: input.author || '–',
+      creationDate: input.creationDate || '–',
       url: input.pageUrl || 'No url specified',
       content: element.text || '–',
       tag: element.tag || '–',
