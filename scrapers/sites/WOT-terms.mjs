@@ -9,6 +9,7 @@ const config = {
     }),
     siteName: 'KERISSE (this site)',
     source: 'KERISSE (this site)',
+    author: 'Henk van Cann',
     destinationFile: 'scrapers/output/WOT-terms.json',
     domQueryForContent: 'article .markdown p, article .markdown h1, article .markdown h2, article .markdown h3, article .markdown h4, article .markdown h5, article .markdown h6, article .markdown li'
 }
