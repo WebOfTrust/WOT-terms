@@ -11,7 +11,7 @@ const config = {
     source: 'Blogposts',
     author: 'Charles',
     destinationFile: 'scrapers/output/jolocom.json',
-    domQueryForContent: '.blog-post-single p, .blog-post-single h1, .blog-post-single h2, .blog-post-single h3, .blog-post-single h4, .blog-post-single h5, .blog-post-single h6, .blog-post-single li, '
+    domQueryForContent: '.blog-post-single p, .blog-post-single h1, .blog-post-single h2, .blog-post-single h3, .blog-post-single h4, .blog-post-single h5, .blog-post-single h6, .blog-post-single li'
 }
 
 async function customScrape(page, domQueryForContent, pageUrl) {
