@@ -29,28 +29,47 @@ async function customScrape(page, domQueryForContent, pageUrl) {
 
     // Blogpost specific
 
-    if (pageUrl === 'https://medium.com/spherity/introducing-keri-8f50ed1d8ed7') {
-        config.siteName = 'Carsten Stöcker‘s blog';
+    /*
+    Explanation of the switch statement below:
+        switch (pageUrl) {
+        case 'URL1':
+            // Code block for URL1
+            break;
+        case 'URL2':
+        case 'URL3':
+            // Code block for URL2 and URL3 (fall-through behavior)
+            break;
+        case 'URL4':
+            // Code block for URL4
+            break;
+        }
+    */
+
+    switch (pageUrl) {
+        case 'https://medium.com/spherity/introducing-keri-8f50ed1d8ed7':
+            config.siteName = "Carsten Stöcker's blog";
+            config.author = 'Carsten Stöcker';
+            break;
+        case 'https://medium.com/finema/minimal-disclosure-of-identity-with-zero-knowledge-proof-and-cl-signature-517ed2a61307':
+        case 'https://medium.com/finema/verifiable-credential-and-verifiable-presentation-for-decentralized-digital-identity-132d107c2d9f':
+        case 'https://medium.com/finema/remote-identity-proofing-for-digital-identity-c9a285c1b774':
+        case 'https://medium.com/finema/anonymous-credential-part-1-brief-overview-and-history-c6679034c914':
+        case 'https://medium.com/finema/keri-jargon-in-a-nutshell-part-1-fb554d58f9d0':
+            config.siteName = "Nuttawut Kongsuwan's blog";
+            config.author = 'Nuttawut Kongsuwan';
+            break;
+        case 'https://medium.com/decentralized-identity/peer-dids-moving-to-difs-id-working-group-7f1664bcbf30':
+            all.type = 'DID, DIF';
+            config.siteName = "Daniel Hardman's blog";
+            config.author = 'Daniel Hardman';
+            break;
+        case 'https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79':
+            all.type = 'DID, DIF';
+            config.siteName = "Daniel Hardman's blog";
+            config.author = 'Daniel Hardman';
+            break;
     }
-    if (pageUrl === 'https://medium.com/finema/minimal-disclosure-of-identity-with-zero-knowledge-proof-and-cl-signature-517ed2a61307') {
-        config.siteName = 'Nuttawut Kongsuwan‘s blog';
-    }
-    if (pageUrl === 'https://medium.com/finema/verifiable-credential-and-verifiable-presentation-for-decentralized-digital-identity-132d107c2d9f') {
-        config.siteName = 'Nuttawut Kongsuwan‘s blog';
-    }
-    if (pageUrl === 'https://medium.com/finema/remote-identity-proofing-for-digital-identity-c9a285c1b774') {
-        config.siteName = 'Nuttawut Kongsuwan‘s blog';
-    }
-    if (pageUrl === 'https://medium.com/finema/anonymous-credential-part-1-brief-overview-and-history-c6679034c914') {
-        config.siteName = 'Nuttawut Kongsuwan‘s blog';
-    }
-    if (pageUrl === 'https://medium.com/finema/keri-jargon-in-a-nutshell-part-1-fb554d58f9d0') {
-        config.siteName = 'Nuttawut Kongsuwan‘s blog';
-    }
-    if (pageUrl === 'https://medium.com/decentralized-identity/peer-dids-moving-to-difs-id-working-group-7f1664bcbf30') {
-        all.type = 'DID, DIF';
-        config.siteName = 'Daniel Hardman‘s blog';
-    }
+
 
     all.mainContent = mainContent;
     all.pageTitle = pageTitle;
