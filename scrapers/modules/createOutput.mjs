@@ -4,6 +4,7 @@ export default function createOutput(input) {
     // if an entry is not passed, create a default entry
     const entry = {
       siteName: input.siteName || 'No site name specified',
+      source: input.source || 'No source specified',
       url: input.pageUrl || 'No url specified',
       content: element.text || '–',
       tag: element.tag || '–',
