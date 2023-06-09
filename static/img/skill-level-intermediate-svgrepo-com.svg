@@ -1,4 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 32 32">
-    <path d="M30 30h-8V4h8Zm-6-2h4V6h-4ZM20 30h-8V12h8ZM10 30H2V18h8Z" style="fill:#337DBE;"/>
-    <path d="M0 0h32v32H0z" data-name="&lt;Transparent Rectangle&gt;" style="fill:none"/>
-</svg>
+<svg height="800" viewBox="0 0 32 32" width="800" xmlns="http://www.w3.org/2000/svg"><path d="m30 30h-8v-26h8zm-6-2h4v-22h-4zm-4 2h-8v-18h8zm-10 0h-8v-12h8z" fill="#337dbe"/><path d="m0 0h32v32h-32z" fill="none"/></svg>
