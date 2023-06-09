@@ -25,6 +25,10 @@ async function customScrape(page, domQueryForContent, pageUrl) {
         return element.textContent.trim()
     });
 
+    let creationDate = await page.$eval('.ab.ae > span', (element) => {
+        return element.textContent.trim()
+    });
+
     let all = {};
 
     // Blogpost specific
@@ -73,6 +77,7 @@ async function customScrape(page, domQueryForContent, pageUrl) {
 
     all.mainContent = mainContent;
     all.pageTitle = pageTitle;
+    all.creationDate = creationDate;
 
     return all;
 }
