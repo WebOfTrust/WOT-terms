@@ -158,6 +158,9 @@ const TSIS = () => {
           if (item.siteName === "eSSIF-Lab") {
             siteBrandingClass = "essif-lab";
           }
+          if (item.siteName === "KERISSE (this site)") {
+            siteBrandingClass = "kerisse";
+          }
 
 
           return `

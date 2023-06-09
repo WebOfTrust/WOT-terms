@@ -530,6 +530,10 @@ table td:nth-child(8) {
   background: transparent url("/img/logo-essif-lab.png") no-repeat left bottom;
   background-size: 15%;
 }
+.container.kerisse {
+  background: transparent url("/img/stamp.png") no-repeat left bottom;
+  background-size: 3%;
+}
 
 
 /**
