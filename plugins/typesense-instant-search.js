@@ -259,6 +259,24 @@ const TSIS = () => {
       },
       sortBy: ['name:asc', 'count:desc'],
     }),
+    refinementList({
+      container: '#author-refinement-list',
+      attribute: 'author',
+      searchable: false,
+      searchablePlaceholder: 'Author',
+      showMore: false,
+      cssClasses: {
+        searchableInput: 'form-control form-control-sm mb-2 border-light-2',
+        searchableSubmit: 'hidden',
+        searchableReset: 'hidden',
+        showMore: 'btn btn-secondary btn-sm align-content-center',
+        list: 'list-unstyled',
+        count: 'badge badge-light bg-light-2 ml-2',
+        label: 'd-flex align-items-center',
+        checkbox: 'mr-2',
+      },
+      sortBy: ['name:asc', 'count:desc'],
+    }),
   ]);
 
   // function handleSearchTermClick(event) {
