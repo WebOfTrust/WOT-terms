@@ -2,7 +2,6 @@ import puppeteer from 'puppeteer';
 import createOutput from './createOutput.mjs';
 import writeToFile from './writeToFile.mjs';
 import fs from 'fs';
-import fs from 'fs';
 
 export default async function scrape(config, customScrape) {
     const browser = await puppeteer.launch();
@@ -42,7 +41,6 @@ export default async function scrape(config, customScrape) {
                 entries.push(entry);
             });
             console.log('output: ', output);
-            fs.appendFileSync('scrapers/logs/scraped.log', `Scraped: ${pageUrl}\n`);
             fs.appendFileSync('scrapers/logs/scraped.log', `Scraped: ${pageUrl}\n`);
 
         } catch (err) {
