@@ -240,10 +240,10 @@ const TSIS = () => {
       sortBy: ['name:asc', 'count:desc'],
     }),
     refinementList({
-      container: '#site-name-refinement-list',
-      attribute: 'siteName',
+      container: '#source-refinement-list',
+      attribute: 'source',
       searchable: false,
-      searchablePlaceholder: 'Site name',
+      searchablePlaceholder: 'Source',
       showMore: false,
       cssClasses: {
         searchableInput: 'form-control form-control-sm mb-2 border-light-2',
