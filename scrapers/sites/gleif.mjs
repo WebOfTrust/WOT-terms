@@ -17,6 +17,15 @@ const config = {
 async function customScrape(page, domQueryForContent, pageUrl) {
     const mainContent = await extractMainContent(page, domQueryForContent);
 
+    // let creationDate = await page.$eval('.meta li', (element) => {
+
+    //     console.log(element !== null ? element.textContent.trim() : '');
+    //     return element !== null ? element.textContent.trim() : '';
+
+    //     // return element.textContent.trim()
+    // });
+
+
     let pageTitle;
     pageTitle = await page.$eval('.content h1', (element) => {
         return element.textContent.trim()
@@ -25,6 +34,7 @@ async function customScrape(page, domQueryForContent, pageUrl) {
     let all = {};
     all.mainContent = mainContent;
     all.pageTitle = pageTitle;
+    // all.creationDate = creationDate;
     return all;
 }
 export default async function () {
