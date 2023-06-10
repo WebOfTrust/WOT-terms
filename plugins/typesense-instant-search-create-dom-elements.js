@@ -8,7 +8,9 @@ const typesenseInstantSearchCreateDomElements = () => {
    const domStringSearchResult = `
 <div class="search-modal-backdrop hidden"></div>
 <div id="search" class="container padding--lg hidden">
-   <div class="alert alert--info" role="alert">This search engine searches all relevant websites related to the KERI suite. It includes this website, Gleif.org, essif-lab.github.io, relevant blog posts and more.</div>
+   <div class="alert alert--info" role="alert">
+   <h2>KERI suite search engine (KERISSE)</h2>
+   <p>This search engine searches all relevant websites related to the KERI suite. It includes this website, Gleif.org, essif-lab.github.io, relevant blog posts and more.</p></div>
    <div id="search-box"></div>
    <div id="search-close">✖</div>
    <h1 class="sr-only">Search Results</h1>
