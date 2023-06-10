@@ -523,16 +523,16 @@ table td:nth-child(8) {
 }
 
 .container.gleif {
-  background: transparent url("/img/logo-gleif.svg") no-repeat left bottom;
-  background-size: 5%;
+  background: transparent url("/img/logo-gleif.svg") no-repeat right bottom;
+  background-size: 40px;
 }
 .container.essif-lab {
-  background: transparent url("/img/logo-essif-lab.png") no-repeat left bottom;
-  background-size: 15%;
+  background: transparent url("/img/logo-essif-lab.png") no-repeat right bottom;
+  background-size: 80px;
 }
 .container.kerisse {
-  background: transparent url("/img/stamp.png") no-repeat left bottom;
-  background-size: 3%;
+  background: transparent url("/img/stamp.png") no-repeat right bottom;
+  background-size: 40px;
 }
 
 
