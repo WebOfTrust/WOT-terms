@@ -1,4 +1,5 @@
 @import './awesome-notifications.css';
+@import '~bootstrap/dist/css/bootstrap.min.css';
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -403,12 +404,6 @@ table td:nth-child(8) {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1041;
-  /* margin: 0 auto; */
-
-  box-shadow: 0px 0px 0.3px rgba(0, 0, 0, 0.02),
-    0px 0px 0.7px rgba(0, 0, 0, 0.028), 0px 0px 1.4px rgba(0, 0, 0, 0.035),
-    0px 0px 2.5px rgba(0, 0, 0, 0.042), 0px 0px 4.6px rgba(0, 0, 0, 0.05),
-    0px 0px 11px rgba(0, 0, 0, 0.07);
 }
 
 #search a {
@@ -416,32 +411,16 @@ table td:nth-child(8) {
   text-decoration: none;
 }
 
-#search nav ul {
-  padding: 0;
-}
-
-#search nav li {
-  list-style: none;
-}
-
 /* Searchbox */
 #search-box .ais-SearchBox .ais-SearchBox-form {
   display: block;
-  /* border: 1px solid blue; */
   text-align: center;
   padding: 1em;
   z-index: 1041;
   position: relative;
 }
 
-/* #search-box {
-  display: none;
-} */
-/* .docs-doc-page #search-box { */
-#search-box {
-  display: block;
-}
-
+/* The icon at the top right, which starts the search modal */
 #search-start {
   cursor: pointer;
   padding: 0.5em;
@@ -466,45 +445,35 @@ table td:nth-child(8) {
 /* .docs-doc-page #search-box .ais-SearchBox .ais-SearchBox-input { */
 #search-box .ais-SearchBox .ais-SearchBox-input {
   margin: 0 auto;
-  font-size: 1em;
   padding: 0.5em;
-  border: none;
+
+  /* Style copied from the card properties, via web inspector */
+  border-color: rgba(var(--bs-secondary-rgb),var(--bs-border-opacity))!important;
   max-width: 100%;
-  box-shadow: 0px 0px 0.3px rgba(0, 0, 0, 0.02),
-    0px 0px 0.7px rgba(0, 0, 0, 0.028), 0px 0px 1.4px rgba(0, 0, 0, 0.035),
-    0px 0px 2.5px rgba(0, 0, 0, 0.042), 0px 0px 4.6px rgba(0, 0, 0, 0.05),
-    0px 0px 11px rgba(0, 0, 0, 0.07);
-  border-radius: 7px;
 }
 
 .ais-Hits-list {
   list-style-type: none;
 }
 
-.ais-Hits-item {
-  margin: 2em 0;
-  padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 7px;
-  transition: background 0.3s ease-in-out;
-}
-
-.ais-Hits-item:hover {
-  transition: background 0.3s ease-in-out;
-  background: var(--docusaurus-instantsearch-bg-hover);
-}
-
 .ais-Pagination-list li {
   display: inline-block;
   margin: 0.5em;
 
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 .ais-Pagination-list li a {
   text-decoration: none;
   padding: 0.5em;
-  border: 1px solid #999;
-  border-radius: 7px;
+} 
+
+.card {
+  transition: background 0.3s ease-in-out;
+}
+
+.card:hover {
+  transition: background 0.3s ease-in-out;
+  background: var(--docusaurus-instantsearch-bg-hover);
 }
 
 .ais-RefinementList-count {
@@ -515,26 +484,32 @@ table td:nth-child(8) {
   font-size: 0.9em;
 }
 
-#filters-section .row {
+/* #filters-section .row {
   min-height: 15em;
   border: 1px solid #cccccc56;
   border-radius: 7px;
   overflow: scroll;
-}
+} */
 
-.container.gleif {
-  background: transparent url("/img/logo-gleif.svg") no-repeat right bottom;
-  background-size: 40px;
+.card-header.gleif {
+  background-image: url("/img/logo-gleif.svg");
 }
-.container.essif-lab {
-  background: transparent url("/img/logo-essif-lab.png") no-repeat right bottom;
-  background-size: 80px;
+.card-header.essif-lab {
+  background-image: url("/img/logo-essif-lab.png");
 }
-.container.kerisse {
-  background: transparent url("/img/stamp.png") no-repeat right bottom;
-  background-size: 40px;
+.card-header.kerisse {
+  background-image: url("/img/stamp.png");
 }
-
+.card-header.gleif,
+.card-header.essif-lab,
+.card-header.kerisse
+{
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  background-origin: content-box;
+}
 
 /**
   * END TYPESENSE INSTANTSEARCH
