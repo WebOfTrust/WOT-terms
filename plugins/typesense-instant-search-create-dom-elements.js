@@ -8,52 +8,32 @@ const typesenseInstantSearchCreateDomElements = () => {
    const domStringSearchResult = `
 <div class="search-modal-backdrop hidden"></div>
 <div id="search" class="container padding--lg hidden">
-   <div class="alert alert--info" role="alert">
-   <h2>KERI suite search engine (KERISSE)</h2>
-   <p>This search engine searches all relevant websites related to the KERI suite. It includes this website, Gleif.org, essif-lab.github.io, relevant blog posts and more.</p></div>
-   <div id="search-box"></div>
+<h1 class="text-center">KERI suite search engine (KERISSE)</h1>
+   <div id="search-box" class="mt-3 mb-3"></div>
    <div id="search-close">✖</div>
-   <h1 class="sr-only">Search Results</h1>
    <div class="row">
-      <div class="col col--3">
-          <h2 class="text--center">Refine</h2>
-          <nav class="">
-            <div class="" id="filters-section">
-               <div class="row margin-top--lg">
-                  <div class="">
-                     <h3 class="">Source</h3>
-                     <div id="source-refinement-list"></div>
-                  </div>
-               </div>
-               <div class="row margin-top--lg">
-                  <div class="">
-                     <h3 class="">Author</h3>
-                     <div id="author-refinement-list"></div>
-                  </div>
-               </div>
-               <div class="row margin-top--lg">
-                  <div class="">
-                     <h3 class="">Knowledge Level</h3>
-                     <div id="knowledgelevel-refinement-list"></div>
-                  </div>
-               </div>
-               <div class="row margin-top--lg">
-                  <div class="">
-                     <h3 class="">Type</h3>
-                     <div id="type-refinement-list"></div>
-                  </div>
-               </div>
-               <div class="row margin-top--lg">
-                  <div class="">
-                     <h3 class="">Subject</h3>
-                     <div id="subject-refinement-list"></div>
-                  </div>
-               </div>
-            </div>
-         </nav>
+      <div class="col-md-3">
+         <h2 class="">Refine</h2>
+          
+         <div class="" id="filters-section">
+            <h3 class="mt-5">Source</h3>
+            <div id="source-refinement-list"></div>
+            
+            <h3 class="mt-5">Author</h3>
+            <div id="author-refinement-list"></div>
+
+            <h3 class="mt-5">Knowledge Level</h3>
+            <div id="knowledgelevel-refinement-list"></div>
+            
+            <h3 class="mt-5">Type</h3>
+            <div id="type-refinement-list"></div>
+            
+            <h3 class="mt-5">Subject</h3>
+            <div id="subject-refinement-list"></div>
+         </div>           
       </div>
-      <div class="col col--9">
-        <h2 class="text--center">Results</h2>
+      <div class="col-md-9">
+        <h2 class="text-center">Results</h2>
          <div id="hits"></div>
          <div id="pagination"></div>
       </div>

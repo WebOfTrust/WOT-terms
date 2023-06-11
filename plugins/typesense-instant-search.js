@@ -128,28 +128,28 @@ const TSIS = () => {
           }
 
           // Only if siteName is not empty, show it
-          let itemSiteNameTemplateString = item.siteName !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item._highlightResult.siteName.value}</h5>` : '';
-
-          // The same for author
-          let itemAuthorTemplateString = item.author !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item._highlightResult.author.value}</h5>` : '';
-
-          // The same for creationDate
-          let itemCreationDateTemplateString = item.creationDate !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.creationDate}</h5>` : '';
-
-          // The same for knowledgeLevel
-          let itemKnowledgeLevelTemplateString = item.knowledgeLevel !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.knowledgeLevel}</h5>` : '';
-
-          //The same for type
-          let itemTypeTemplateString = item.type !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.type}</h5>` : '';
-
-          //The same for hierarchy.lvl1
-          let itemHierarchyLvl1TemplateString = item['hierarchy.lvl1'] !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item['hierarchy.lvl1']}</h5>` : '';
+          let itemSiteNameTemplateString = item.siteName !== '–' ? `${item._highlightResult.siteName.value}` : '';
 
           // The same for title
-          let itemTitleTemplateString = item.pageTitle !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item._highlightResult.pageTitle.value}</h5>` : '';
+          let itemTitleTemplateString = item.pageTitle !== '–' ? `<h3 class="page-title mb-5 ms-4">${item._highlightResult.pageTitle.value}</h3>` : '';
+
+          // The same for author
+          let itemAuthorTemplateString = item.author !== '–' ? `• ${item._highlightResult.author.value}` : '';
+
+          // The same for creationDate
+          let itemCreationDateTemplateString = item.creationDate !== '–' ? `• ${item.creationDate}` : '';
+
+          // The same for knowledgeLevel
+          let itemKnowledgeLevelTemplateString = item.knowledgeLevel !== '–' ? `• Level: ${item.knowledgeLevel}` : '';
+
+          //The same for type
+          let itemTypeTemplateString = item.type !== '–' ? `• ${item.type}` : '';
+
+          //The same for hierarchy.lvl1
+          let itemHierarchyLvl1TemplateString = item['hierarchy.lvl1'] !== '–' ? `• ${item['hierarchy.lvl1']}` : '';
 
           // The same for firstHeadingBeforeElement
-          let itemFirstHeadingBeforeElementTemplateString = item.firstHeadingBeforeElement !== '–' ? `<h5 style="display: block;" class="contextual-info badge badge--secondary">${item.firstHeadingBeforeElement}</h5>` : '';
+          let itemFirstHeadingBeforeElementTemplateString = item.firstHeadingBeforeElement !== '–' ? `<h4 class="first-heading-before-element ms-4">${item.firstHeadingBeforeElement}</h4>` : '';
 
           let siteBrandingClass = '';
           if (item.siteName === "Gleif website") {
@@ -161,40 +161,28 @@ const TSIS = () => {
           if (item.siteName === "KERISSE (this site)") {
             siteBrandingClass = "kerisse";
           }
-
-
           return `
-          <div class="container ${siteBrandingClass}">
-            <div class="row margin-bottom--md">
-              <div class="category col col--12">
-                  <h4 class="contextual-info" style="text-align: center; font-size: 0.8em">
-                      <a class="" href="${item.url}" ${openInNewTab}>${item._highlightResult.url.value}</a>
-                  </h4>
-              </div>
-            </div>
-            <div class="row">
-                <div class="category col col--12">
-                    <h4 class="contextual-info" style="font-size: 1.5em"><a class="hit" href="${item.url}"
-                            ${openInNewTab}>${itemSiteNameTemplateString}</a></h4>
-                </div>
-              </div>
-              <div class="row hit-name">
-                <div class="col col--3">
-                    ${itemAuthorTemplateString}
-                    ${itemCreationDateTemplateString}
-                    ${itemKnowledgeLevelTemplateString}
-                    ${itemTypeTemplateString}
-                    ${itemHierarchyLvl1TemplateString}
-                </div>
-                <div class="col col--9">
-                    ${itemTitleTemplateString}
-                    ${itemFirstHeadingBeforeElementTemplateString}
-                    <p><a class="hit" href="${item.url}" ${openInNewTab}>${item._highlightResult.content.value}</a></p>
-                    <a style="display: inline;" class="hit-url button button--active button--primary" href="${item.url}"
-                        ${openInNewTab}>Go</a>
-                </div>
-            </div>
-          </div>
+<div class="card border-secondary mt-5">
+    <div class="card-header ${siteBrandingClass}">Found on: ${itemSiteNameTemplateString}</div>
+    <div class="card-body text-secondary">
+        <div style="font-size: 0.9rem;">
+            <a class="" href="${item.url}" ${openInNewTab}>${item._highlightResult.url.value}</a>
+            ${itemAuthorTemplateString}
+            ${itemCreationDateTemplateString}
+            ${itemKnowledgeLevelTemplateString}
+            ${itemTypeTemplateString}
+            ${itemHierarchyLvl1TemplateString}
+        </div>
+        <hr>
+        <!--<p>…</p>-->
+        ${itemTitleTemplateString}
+        ${itemFirstHeadingBeforeElementTemplateString}
+
+        <p class="ms-5"><a class="stretched-link text-secondary" href="${item.url}" ${openInNewTab}>${item._highlightResult.content.value}</a></p>
+        <!--<p class="mb-4">…</p>-->
+        <a class="btn btn-outline-secondary mt-4 d-inline-block" href="${item.url}" ${openInNewTab}>Go</a>
+    </div>
+</div>
       `;
         },
       },
@@ -210,14 +198,14 @@ const TSIS = () => {
       searchablePlaceholder: 'Search knowledge level',
       showMore: false,
       cssClasses: {
-        searchableInput: 'form-control form-control-sm mb-2 border-light-2',
+        searchableInput: '',
         searchableSubmit: 'hidden',
         searchableReset: 'hidden',
         showMore: 'btn btn-secondary btn-sm align-content-center',
         list: 'list-unstyled',
         count: 'badge badge-light bg-light-2 ml-2',
         label: 'd-flex align-items-center',
-        checkbox: 'mr-2',
+        checkbox: 'me-2',
       },
       sortBy: ['name:asc', 'count:desc'],
     }),
@@ -235,7 +223,7 @@ const TSIS = () => {
         list: 'list-unstyled',
         count: 'badge badge-light bg-light-2 ml-2',
         label: 'd-flex align-items-center',
-        checkbox: 'mr-2',
+        checkbox: 'me-2',
       },
       sortBy: ['name:asc', 'count:desc'],
     }),
@@ -253,7 +241,7 @@ const TSIS = () => {
         list: 'list-unstyled',
         count: 'badge badge-light bg-light-2 ml-2',
         label: 'd-flex align-items-center',
-        checkbox: 'mr-2',
+        checkbox: 'me-2',
       },
       sortBy: ['name:asc', 'count:desc'],
     }),
@@ -270,8 +258,8 @@ const TSIS = () => {
         showMore: 'btn btn-secondary btn-sm align-content-center',
         list: 'list-unstyled',
         count: 'badge badge-light bg-light-2 ml-2',
-        label: 'd-flex align-items-center',
-        checkbox: 'mr-2',
+        label: '',
+        checkbox: 'me-2',
       },
       sortBy: ['name:asc', 'count:desc'],
     }),
@@ -289,7 +277,7 @@ const TSIS = () => {
         list: 'list-unstyled',
         count: 'badge badge-light bg-light-2 ml-2',
         label: 'd-flex align-items-center',
-        checkbox: 'mr-2',
+        checkbox: 'me-2',
       },
       sortBy: ['name:asc', 'count:desc'],
     }),
