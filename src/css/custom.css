@@ -449,7 +449,8 @@ table td:nth-child(8) {
 /* .docs-doc-page #search-box .ais-SearchBox .ais-SearchBox-input { */
 #search-box .ais-SearchBox .ais-SearchBox-input {
   margin: 0 auto;
-  padding: 0.5em;
+  padding: 0.1em 0.5em;
+  font-size: 1.5em;
 
   /* Style copied from the card properties, via web inspector */
   border-color: rgba(var(--bs-secondary-rgb),var(--bs-border-opacity))!important;
