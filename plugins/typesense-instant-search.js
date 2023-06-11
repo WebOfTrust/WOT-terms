@@ -131,7 +131,7 @@ const TSIS = () => {
           let itemSiteNameTemplateString = item.siteName !== '–' ? `${item._highlightResult.siteName.value}` : '';
 
           // The same for title
-          let itemTitleTemplateString = item.pageTitle !== '–' ? `<h3 class="page-title mb-5 ms-4">${item._highlightResult.pageTitle.value}</h3>` : '';
+          let itemTitleTemplateString = item.pageTitle !== '–' ? `<h3 class="page-title mb-4 ms-4">${item._highlightResult.pageTitle.value}</h3>` : '';
 
           // The same for author
           let itemAuthorTemplateString = item.author !== '–' ? `• ${item._highlightResult.author.value}` : '';
