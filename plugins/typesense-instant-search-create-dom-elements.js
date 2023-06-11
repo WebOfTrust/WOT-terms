@@ -7,7 +7,7 @@ const typesenseInstantSearchCreateDomElements = () => {
    const domStringSearchStart = `<button id="search-start">🔍</button>`;
    const domStringSearchResult = `
 <div class="search-modal-backdrop hidden"></div>
-<div id="search" class="container p-5 hidden" style="max-width: 60em;">
+<div id="search" class="container p-5 hidden" style="max-width: 70em;">
 <h1 class="search-heading text-center">KERI Suite Search Engine (KERISSE)</h1>
    <div id="search-box" class="mt-5 mb-5"></div>
    <div id="search-close">✖</div>
