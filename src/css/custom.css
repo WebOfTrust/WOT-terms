@@ -400,6 +400,15 @@ table td:nth-child(8) {
   overflow: scroll;
 }
 
+.search-heading {
+  background-image: url("/img/stamp.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  background-origin: content-box;
+}
+
 #search {
   background-color: var(--docusaurus-instantsearch-bg);
   border-radius: 10px;
