@@ -51,6 +51,18 @@ const TSIS = () => {
     }
   });
 
+  // "Try searching for:"
+  function handleSearchTermClick(event) {
+    const searchBox = document.querySelector('.ais-SearchBox-input');
+    search.helper.clearRefinements();
+    searchBox.value = event.currentTarget.textContent;
+    search.helper.setQuery(searchBox.value).search();
+  }
+
+  document.querySelectorAll('.clickable-search-term').forEach((el) => {
+    el.addEventListener('click', handleSearchTermClick);
+  });
+
   const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
     server: {
       apiKey: 'qy6mC9ZakKZ3C8GUD5T3iDrelDgpp5Zc', // Be sure to use an API key that only allows searches, in production
