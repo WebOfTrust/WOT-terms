@@ -131,7 +131,8 @@ const TSIS = () => {
           let itemSiteNameTemplateString = item.siteName !== '–' ? `${item._highlightResult.siteName.value}` : '';
 
           // The same for title
-          let itemTitleTemplateString = item.pageTitle !== '–' ? `<h3 class="page-title mb-4 ms-4">${item._highlightResult.pageTitle.value}</h3>` : '';
+          // mb-4
+          let itemTitleTemplateString = item.pageTitle !== '–' ? `<h3 class="page-title mb-2 ms-4">${item._highlightResult.pageTitle.value}</h3>` : '';
 
           // The same for author
           let itemAuthorTemplateString = item.author !== '–' ? `• ${item._highlightResult.author.value}` : '';
@@ -180,7 +181,7 @@ const TSIS = () => {
 
         <p class="ms-5"><a class="stretched-link text-secondary" href="${item.url}" ${openInNewTab}>${item._highlightResult.content.value}</a></p>
         <!--<p class="mb-4">…</p>-->
-        <a class="btn btn-outline-secondary mt-4 d-inline-block" href="${item.url}" ${openInNewTab}>Go</a>
+        <!--<a class="btn btn-outline-secondary mt-1 d-inline-block" href="${item.url}" ${openInNewTab}>Go</a>-->
     </div>
 </div>
       `;

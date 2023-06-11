@@ -9,14 +9,17 @@ const typesenseInstantSearchCreateDomElements = () => {
 <div class="search-modal-backdrop hidden"></div>
 <div id="search" class="container p-5 hidden" style="max-width: 70em;">
 <h1 class="search-heading text-center">KERI Suite Search Engine (KERISSE)</h1>
-   <div id="search-box" class="mt-5 mb-5"></div>
+   <!--<div id="search-box" class="mt-5 mb-5"></div>-->
+   <div id="search-box" class="mt-3 mb-2"></div>
    <div id="search-close">✖</div>
-   <div class="row">
+   <!--<div class="row">-->
+   <div class="row mt-3">
       <div class="col-md-3">
          <h2 class="">Refine</h2>
           
          <div class="" id="filters-section">
-            <h3 class="mt-5">Source</h3>
+            <!--<h3 class="mt-5">Source</h3>-->
+            <h3 class="mt-1">Source</h3>
             <div id="source-refinement-list"></div>
             
             <h3 class="mt-5">Author</h3>
