@@ -149,7 +149,7 @@ const TSIS = () => {
           let itemHierarchyLvl1TemplateString = item['hierarchy.lvl1'] !== '–' ? `• ${item['hierarchy.lvl1']}` : '';
 
           // The same for firstHeadingBeforeElement
-          let itemFirstHeadingBeforeElementTemplateString = item.firstHeadingBeforeElement !== '–' ? `<h4 class="first-heading-before-element ms-4">${item.firstHeadingBeforeElement}</h4>` : '';
+          let itemFirstHeadingBeforeElementTemplateString = item.firstHeadingBeforeElement !== '–' ? `<h4 class="first-heading-before-element ms-5">${item.firstHeadingBeforeElement}</h4>` : '';
 
           let siteBrandingClass = '';
           if (item.siteName === "Gleif website") {
