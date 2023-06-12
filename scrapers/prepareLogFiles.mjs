@@ -17,7 +17,7 @@ fs.writeFile('scrapers/logs/error.log', "", { flag: 'w' }, (err) => {
     }
 });
 
-fs.writeFile('docs/overview/indexed-pages.md', "## All pages that are indexed in KERISSE", { flag: 'w' }, (err) => {
+fs.writeFile('docs/overview/Indexed in KERISSE.md', "## All pages that are indexed in KERISSE\n\n", { flag: 'w' }, (err) => {
     if (err) {
         console.error('Error writing file:', err);
         return;
