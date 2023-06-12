@@ -5,6 +5,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # node ./sitemaps-create/createSitemap.js https://www.gleif.org --depth 3
 
+node "$SCRIPT_DIR/prepareLogFiles.mjs"
 node "$SCRIPT_DIR/extractData.mjs"
 
 echo "------------"
