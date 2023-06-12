@@ -28,7 +28,7 @@ async function customScrape(page, domQueryForContent, pageUrl) {
     // let creationDate = await page.$eval('.ab.ae > span', (element) => {
     //     return element.textContent.trim()
     // });
-    const creationDate = await getTextContent(page, '.ab.ae > span');
+    const creationDate = await getTextContent(page, '.ab.ae > span:last-child');
 
     let all = {};
 
