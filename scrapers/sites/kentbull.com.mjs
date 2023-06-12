@@ -24,6 +24,7 @@ async function customScrape(page, domQueryForContent, pageUrl) {
     let all = {};
     all.mainContent = mainContent;
     all.pageTitle = pageTitle;
+    all.creationDate = 'March 9, 2023';// manually added
     return all;
 }
 export default async function () {
