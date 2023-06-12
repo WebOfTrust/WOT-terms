@@ -1,6 +1,7 @@
 import createInput from '../modules/createInput.mjs';
 import scrape from '../modules/scrape.mjs';
 import extractMainContent from '../modules/extractMainContent.mjs';
+import getTextContent from '../modules/getTextContent.mjs';
 
 const config = {
     sitemap: await createInput({
@@ -15,26 +16,23 @@ const config = {
 }
 
 async function customScrape(page, domQueryForContent, pageUrl) {
+    console.log('pageUrl: ', pageUrl);
     const mainContent = await extractMainContent(page, domQueryForContent);
 
-    // let creationDate = await page.$eval('.meta li', (element) => {
+    const creationDate = await getTextContent(page, '.meta li');
 
-    //     console.log(element !== null ? element.textContent.trim() : '');
-    //     return element !== null ? element.textContent.trim() : '';
-
-    //     // return element.textContent.trim()
+    // let pageTitle;
+    // pageTitle = await page.$eval('.content h1', (element) => {
+    //     return element.textContent.trim()
     // });
 
+    const pageTitle = await getTextContent(page, '.content h1');
 
-    let pageTitle;
-    pageTitle = await page.$eval('.content h1', (element) => {
-        return element.textContent.trim()
-    });
 
     let all = {};
     all.mainContent = mainContent;
     all.pageTitle = pageTitle;
-    // all.creationDate = creationDate;
+    all.creationDate = creationDate;
     return all;
 }
 export default async function () {
