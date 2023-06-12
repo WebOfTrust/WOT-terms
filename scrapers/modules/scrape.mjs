@@ -14,7 +14,7 @@ export default async function scrape(config, customScrape) {
     // Iterate over each URL in the sitemap and create an array of entries for each URL
     // console.log('Indexing pages...');
     for (const url of config.sitemap.urlset.url) {// for production
-        // for (const url of config.sitemap.urlset.url.slice(50, 63)) {// for testing
+        // for (const url of config.sitemap.urlset.url.slice(150, 163)) {// for testing
         const pageUrl = url.loc[0];
         // console.log(`Indexing ${pageUrl}`);
 
@@ -44,7 +44,10 @@ export default async function scrape(config, customScrape) {
                 entries.push(entry);
             });
             console.log('output: ', output);
+
+            // Log the page URL to a log file and to a markdown file
             fs.appendFileSync('scrapers/logs/scraped.log', `Scraped: ${pageUrl}\n`);
+            fs.appendFileSync('docs/overview/Indexed in KERISSE.md', `${pageUrl}\n\n`);
 
         } catch (err) {
             console.error(`Error processing page ${pageUrl}: ${err}`);
