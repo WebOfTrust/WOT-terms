@@ -1,6 +1,7 @@
 import createInput from '../modules/createInput.mjs';
 import scrape from '../modules/scrape.mjs';
 import extractMainContent from '../modules/extractMainContent.mjs';
+import getTextContent from '../modules/getTextContent.mjs';
 
 const config = {
     sitemap: await createInput({
@@ -13,23 +14,24 @@ const config = {
     // domQueryForContent: '.ch p, .ch h1, .ch h2, .ch h3, .ch h4, .ch h5, .ch h6, .ch li'
 
     domQueryForContent: '.ch > p, .ch > h1, .ch > h2, .ch > h3, .ch > h4, .ch > h5, .ch > h6, .ch > li'
-    // domQueryForContent: '.ch *'
-    // domQueryForContent: '.ch.bg.et.eu.ev.ew *'
 }
 
 async function customScrape(page, domQueryForContent, pageUrl) {
     console.log('pageUrl: ', pageUrl);
     const mainContent = await extractMainContent(page, domQueryForContent);
 
-    let pageTitle = await page.$eval('.ch h1', (element) => {
-        return element.textContent.trim()
-    });
+    // let pageTitle = await page.$eval('.ch h1', (element) => {
+    //     return element.textContent.trim()
+    // });
+    const pageTitle = await getTextContent(page, '.ch h1');
 
-    let creationDate = await page.$eval('.ab.ae > span', (element) => {
-        return element.textContent.trim()
-    });
+    // let creationDate = await page.$eval('.ab.ae > span', (element) => {
+    //     return element.textContent.trim()
+    // });
+    const creationDate = await getTextContent(page, '.ab.ae > span');
 
     let all = {};
+
 
     // Blogpost specific
 

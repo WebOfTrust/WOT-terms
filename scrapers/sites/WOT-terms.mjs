@@ -1,6 +1,7 @@
 import createInput from '../modules/createInput.mjs';
 import scrape from '../modules/scrape.mjs';
 import extractMainContent from '../modules/extractMainContent.mjs';
+import getTextContent from '../modules/getTextContent.mjs';
 
 const config = {
     sitemap: await createInput({
@@ -38,9 +39,11 @@ async function customScrape(page, domQueryForContent, pageUrl) {
         return element.getAttribute('data-level');
     });
 
-    let pageTitle = await page.$eval('article header h1', (element) => {
-        return element.textContent.trim()
-    });
+    // let pageTitle = await page.$eval('article header h1', (element) => {
+    //     return element.textContent.trim()
+    // });
+    const pageTitle = await getTextContent(page, 'article header h1');
+
 
     let all = {};
     all.mainContent = mainContent;
