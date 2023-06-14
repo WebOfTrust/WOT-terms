@@ -29,13 +29,13 @@ const { create } = require('xmlbuilder2');
 const path = require('path');
 
 // Configuration
-const outputDirectory = path.resolve(__dirname, '../sitemaps');
+const outputDirectory = path.resolve(__dirname, './sitemaps');
 
 async function createSitemap(startUrl, maxDepth) {
     const visited = new Set();
     const sitemap = {};
 
-    const excludedExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.mp4', '.mov', '.avi', 'zip']; // Add more extensions if needed
+    const excludedExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.mp4', '.mov', '.avi', '.zip', '.pdf']; // Add more extensions if needed
 
     async function crawl(urlString, depth) {
         console.log('working ', Math.floor(Date.now() / 1000));
