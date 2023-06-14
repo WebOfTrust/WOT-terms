@@ -21,15 +21,31 @@ export default async function (page, domQueryForContent) {
                 );
             }
 
+            function imgOrNot(el) {
+                if (el.tagName.toLowerCase() === 'img') {
+                    return {
+                        imgUrl: el.src,
+                        imgMeta: el.alt + " " + el.title,
+                    };
+                } else {
+                    return {
+                        textContent: el.textContent.trim(),
+                        tag: el.tagName.toLowerCase()
+                    }
+                }
+            }
+
             const elements = Array.from(document.querySelectorAll(domQueryForContent));
             return elements.map((el) => {
                 const headingElement = findPreviousHeadingElement(el);
                 return {
-                    text: el.textContent.trim(),
-                    tag: el.tagName.toLowerCase(),
+                    text: imgOrNot(el).textContent,
+                    tag: imgOrNot(el).tag,
                     firstHeadingBeforeElement: headingElement
                         ? headingElement.textContent.trim()
                         : null,
+                    imgUrl: imgOrNot(el).imgUrl,
+                    imgMeta: imgOrNot(el).imgMeta
                 };
             });
         },
