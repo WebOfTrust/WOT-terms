@@ -80,7 +80,7 @@ const TSIS = () => {
     //  filterBy is managed and overridden by InstantSearch.js. To set it, you want to use one of the filter widgets like refinementList or use the `configure` widget.
     additionalSearchParameters: {
       // query_by: 'title,authors',
-      query_by: 'content, pageTitle, siteName, source',
+      query_by: 'imgMeta, content, firstHeadingBeforeElement, pageTitle, siteName, source, url',
       filter_by: 'tag:=[p]',
       // filter_by: 'tag:[a]',
     },
@@ -89,7 +89,7 @@ const TSIS = () => {
 
   const search = instantsearch({
     searchClient,
-    indexName: 'Wot-terms',
+    indexName: 'Wot-terms-test',
     routing: true,
     // searchFunction(helper) {
     // if (helper.state.query === '') {
@@ -149,6 +149,9 @@ const TSIS = () => {
           // The same for author
           let itemAuthorTemplateString = item.author !== '–' ? `• ${item._highlightResult.author.value}` : '';
 
+          // The same for img
+          let itemImgTemplateString = item.imgUrl !== "–" ? `<img src='${item.imgUrl}'>` : '';
+
           // The same for creationDate
           let itemCreationDateTemplateString = item.creationDate !== '–' ? `• ${item.creationDate}` : '';
 
@@ -192,6 +195,7 @@ const TSIS = () => {
         ${itemFirstHeadingBeforeElementTemplateString}
 
         <p class="ms-5"><a class="stretched-link text-secondary" href="${item.url}" ${openInNewTab}>${item._highlightResult.content.value}</a></p>
+        ${itemImgTemplateString}
         <!--<p class="mb-4">…</p>-->
         <!--<a class="btn btn-outline-secondary mt-1 d-inline-block" href="${item.url}" ${openInNewTab}>Go</a>-->
     </div>
