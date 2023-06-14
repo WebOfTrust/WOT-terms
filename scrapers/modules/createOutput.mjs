@@ -10,6 +10,8 @@ export default function createOutput(input) {
       url: input.pageUrl || 'No url specified',
       content: element.text || '–',
       tag: element.tag || '–',
+      imgUrl: element.imgUrl || '–',
+      imgMeta: element.imgMeta || '–',
       timestamp: new Date().toISOString() || '–',
       'hierarchy.lvl0': input.hierarchyLvl0 || '–',// same for all element from input.mainContent
       'hierarchy.lvl1': input.hierarchyLvl1 || '–',// same for all element from input.mainContent
