@@ -4,7 +4,8 @@ import writeToFile from './writeToFile.mjs';
 import fs from 'fs';
 
 export default async function scrape(config, customScrape) {
-    const browser = await puppeteer.launch();
+    // const browser = await puppeteer.launch();// for production
+    const browser = await puppeteer.launch({ headless: false });// for testing
     const page = await browser.newPage();
     // Set a custom user agent header
     await page.setUserAgent('KERISSE-Web-of-Trust-Scraper');
@@ -43,7 +44,7 @@ export default async function scrape(config, customScrape) {
             output.forEach((entry) => {
                 entries.push(entry);
             });
-            console.log('output: ', output);
+            // console.log('output: ', output);
 
             // Log the page URL to a log file and to a markdown file
             fs.appendFileSync('scrapers/logs/scraped.log', `Scraped: ${pageUrl}\n`);
@@ -55,5 +56,6 @@ export default async function scrape(config, customScrape) {
         }
     }
     writeToFile(entries, config.destinationFile);
+    await new Promise(resolve => setTimeout(resolve, 1000000000)); // For testing: Delay the script termination
     await browser.close();
 }
