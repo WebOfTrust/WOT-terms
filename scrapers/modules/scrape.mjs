@@ -56,6 +56,8 @@ export default async function scrape(config, customScrape) {
         }
     }
     writeToFile(entries, config.destinationFile);
+
     await new Promise(resolve => setTimeout(resolve, 1000000000)); // For testing: Delay the script termination
+
     await browser.close();
 }
