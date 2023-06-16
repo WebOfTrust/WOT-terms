@@ -17,9 +17,9 @@ graph TD
     
     O --> |Yes| P[Scrape using list\nof urls on a page]
 
-    O --> |No| sdf["Create sitemap.xml\nmanually or via WGET"]
+    O --> |No| sdf["Create sitemap.xml\nmanually or via createSitemap.js"]
 
-    sdf --> fgkwiw["Scrape using manually\ncreated sitemap.xml"]
+    sdf --> fgkwiw["Scrape using sitemap.xml manually\ncreated or via createSitem.js"]
 
     assignKeys["Assign scrape results to keys in array object
     [{
@@ -36,6 +36,8 @@ graph TD
         &nbsp;&nbsp;&nbsp;&nbsp;knowledgeLevel: 'xxx'
         &nbsp;&nbsp;&nbsp;&nbsp;type: 'xxx'
         &nbsp;&nbsp;&nbsp;&nbsp;pageTitle: 'xxx'
+        &nbsp;&nbsp;&nbsp;&nbsp;imgUrl: 'xxx'
+        &nbsp;&nbsp;&nbsp;&nbsp;imgMeta: 'xxx'
     }]
 "]
 style assignKeys text-align: left
