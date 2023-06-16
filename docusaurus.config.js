@@ -65,11 +65,13 @@ const config = {
   // puts scripts in the head of the page
   scripts: [
     {
+      //TODO: find out how to set path properly
       src: 'https://weboftrust.github.io/WOT-terms/js/chatbaseConfig.js'
     },
     {
       src: 'https://www.chatbase.co/embed.min.js',
       id: "gEyyxwGeZbnMxnrWTzhkV",
+      defer: true
     },
   ],
   themeConfig:
