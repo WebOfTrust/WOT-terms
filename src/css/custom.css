@@ -516,6 +516,12 @@ table td:nth-child(8) {
   background-origin: content-box;
 }
 
+.search-results-img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
 /**
   * END TYPESENSE INSTANTSEARCH
   */
