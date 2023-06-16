@@ -62,7 +62,16 @@ const config = {
       }),
     ],
   ],
-
+  // puts scripts in the head of the page
+  scripts: [
+    {
+      src: 'js/chatbaseConfig.js'
+    },
+    {
+      src: 'https://www.chatbase.co/embed.min.js',
+      id: "gEyyxwGeZbnMxnrWTzhkV",
+    },
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -347,6 +356,7 @@ const config = {
      * END TYPESENSE INSTANT SEARCH PLUGIN
      */
 
+    // require.resolve('./plugins/chatbase'),
     require.resolve('./plugins/crossLinks'),
     // require.resolve('./plugins/animationHomepage'),
     // require.resolve('./plugins/showLevels'),
