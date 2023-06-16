@@ -149,8 +149,11 @@ const TSIS = () => {
           // The same for author
           let itemAuthorTemplateString = item.author !== '–' ? `• ${item._highlightResult.author.value}` : '';
 
-          // The same for img
-          let itemImgTemplateString = item.imgUrl !== "–" ? `<img src='${item.imgUrl}'>` : '';
+          // The same for img url
+          let itemImgUrlTemplateString = item.imgUrl !== "–" ? `<img class="search-results-img" src='${item.imgUrl}'>` : '';
+
+          // The same for img meta
+          let itemImgMetaTemplateString = item.imgMeta !== "–" ? `<p class="ms-5 mt-5">${item._highlightResult.imgMeta.value}</p>` : '';
 
           // The same for creationDate
           let itemCreationDateTemplateString = item.creationDate !== '–' ? `• ${item.creationDate}` : '';
@@ -195,7 +198,8 @@ const TSIS = () => {
         ${itemFirstHeadingBeforeElementTemplateString}
 
         <p class="ms-5"><a class="stretched-link text-secondary" href="${item.url}" ${openInNewTab}>${item._highlightResult.content.value}</a></p>
-        ${itemImgTemplateString}
+        ${itemImgUrlTemplateString}
+        ${itemImgMetaTemplateString}
         <!--<p class="mb-4">…</p>-->
         <!--<a class="btn btn-outline-secondary mt-1 d-inline-block" href="${item.url}" ${openInNewTab}>Go</a>-->
     </div>
