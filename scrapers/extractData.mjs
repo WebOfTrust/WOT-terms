@@ -1,3 +1,12 @@
+/*
+  File: extractData.mjs
+  Author: Kor Dwarshuis
+  Created: 2023-03-16
+  Updated: -
+  Description: 
+*/
+
+
 import scrapeWOTterms from './sites/WOT-terms.mjs';
 import scrapeGleif from './sites/gleif.mjs';
 import scrapeAcdc from './sites/acdc.mjs';
