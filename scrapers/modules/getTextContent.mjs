@@ -1,3 +1,12 @@
+/*
+  File: getTextContent.mjs
+  Author: 
+  Created: 2023-03-16
+  Updated: -
+  Description: Get the text content of an element.
+*/
+
+
 export default async function getTextContent(page, selector) {
     const elements = await page.$$(selector);
 

@@ -1,3 +1,12 @@
+/*
+  File: writeToFile.mjs
+  Author: Kor Dwarshuis
+  Created: 2023-03-16
+  Updated: -
+  Description: Write the json output to a file.
+*/
+
+
 import fs from 'fs';
 import path from 'path';
 

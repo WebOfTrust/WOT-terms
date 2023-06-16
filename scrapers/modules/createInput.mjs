@@ -1,3 +1,11 @@
+/*
+  File: createInput.mjs
+  Author: Kor Dwarshuis
+  Created: 2023-03-16
+  Updated: -
+  Description: Create input for the scraper, from xml sitemaps or a list of URLs on a page to JavaScript objects.
+*/
+
 import puppeteer from 'puppeteer';
 import xml2js from 'xml2js';
 import fetch from 'node-fetch';

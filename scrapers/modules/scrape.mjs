@@ -1,3 +1,12 @@
+/*
+  File: scrape.mjs
+  Author: Kor Dwarshuis
+  Created: 2023-03-16
+  Updated: -
+  Description: Scrape websites using puppeteer.
+*/
+
+
 import puppeteer from 'puppeteer';
 import createOutput from './createOutput.mjs';
 import writeToFile from './writeToFile.mjs';

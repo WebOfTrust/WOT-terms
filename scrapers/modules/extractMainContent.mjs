@@ -1,3 +1,17 @@
+/*
+  File: extractMainContent.mjs
+  Author: Kor Dwarshuis
+  Created: 2023-03-16
+  Updated: -
+  Description: Extract the main content from a page, the paragraphs, list items, images and text around them. It loops through all elements that match the given selector and extracts the text content of the element and the first heading element preceding the element. It also extracts the text content of the image preceding the element and the text content of the elements preceding and following the image. It returns an array of objects with the following properties: 
+  text
+  firstHeadingBeforeElement
+  imgUrl
+  imgMeta (text content of the elements preceding and following the image)
+  tag (the tag name of the element) 
+*/
+
+
 export default async function (page, domQueryForContent) {
     const elements = await page.evaluate(
         (domQueryForContent) => {
