@@ -336,6 +336,17 @@ const config = {
     //  */
   ],
   clientModules: [
+    /**
+ * BEGIN TYPESENSE INSTANT SEARCH PLUGIN
+ */
+    require.resolve(
+      './plugins/typesense-instant-search-create-dom-elements.js'
+    ),
+    require.resolve('./plugins/typesense-instant-search.js'),
+    /**
+     * END TYPESENSE INSTANT SEARCH PLUGIN
+     */
+
     require.resolve('./plugins/crossLinks'),
     // require.resolve('./plugins/animationHomepage'),
     // require.resolve('./plugins/showLevels'),
@@ -348,16 +359,6 @@ const config = {
     require.resolve('./plugins/writeChanges'),
     require.resolve('./plugins/addDataTypes'),
     require.resolve('./plugins/showGPTsummary'),
-    /**
-     * BEGIN TYPESENSE INSTANT SEARCH PLUGIN
-     */
-    require.resolve(
-      './plugins/typesense-instant-search-create-dom-elements.js'
-    ),
-    require.resolve('./plugins/typesense-instant-search.js'),
-    /**
-     * END TYPESENSE INSTANT SEARCH PLUGIN
-     */
   ],
 };
 
