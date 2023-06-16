@@ -65,7 +65,7 @@ const config = {
   // puts scripts in the head of the page
   scripts: [
     {
-      src: 'js/chatbaseConfig.js'
+      src: '/js/chatbaseConfig.js'
     },
     {
       src: 'https://www.chatbase.co/embed.min.js',
