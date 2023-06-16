@@ -4,6 +4,9 @@
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Create sitemaps. This can take a lot of time.
+# Format: 
+# $ node "$SCRIPT_DIR/createSitemap.js" https://www.example.com --depth x
+# depth recomended: 3
 # node "$SCRIPT_DIR/createSitemap.js" https://www.gleif.org --depth 3
 
 # Prepare logfile. This means start a new one.
