@@ -1,6 +1,7 @@
 #!/bin/bash
 
-
+# Find out if the script is running in GitHub Actions or locally
+# Via Github actions is not working yet. 
 if [[ -n "$GITHUB_ACTIONS" ]]; then
   # Running in GitHub Actions
   local_TYPESENSE_ADMIN_API_KEY="{{ secrets.TYPESENSE_ADMIN_API_KEY }}"
@@ -20,10 +21,7 @@ echo "local_TYPESENSE_COLLECTION_NAME:"
 echo $local_TYPESENSE_COLLECTION_NAME
 
 
-##############
-############## CONFIGURATION
-##############
-
+############## CONFIGURATION ##############
 # URL of the endpoint to empty the collection
 # explanation: the filter_by parameter is used to delete all documents that have a content field that is not empty
 urlDelete="https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/documents?filter_by=content:!=''"
@@ -32,11 +30,7 @@ urlDelete="https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_
 urlImport="https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/documents/import?action=create"
 
 
-
-##############
-############## JSON TO JSONL
-##############
-
+############## CONVERT JSON TO JSONL ##############
 input_dir="$(pwd)/scrapers/output"
 output_dir="$(pwd)/scrapers/output"
 
@@ -53,18 +47,11 @@ for file in "$input_dir"/*.json; do
 done
 
 
-
-##############
-############## EMPTY COLLECTION
-##############
-
+############## MAKE COLLECTION EMPTY ##############
 curl -H "X-TYPESENSE-API-KEY: ${local_TYPESENSE_ADMIN_API_KEY}" -X DELETE $urlDelete
 
 
-##############
-############## IMPORTING JSONL FILES
-##############
-
+############## IMPORT JSONL FILES ##############
 # Iterate over each JSONL file in the directory
 for file in "$output_dir"/*.jsonl; do
     # Check if the file exists and is a regular file
