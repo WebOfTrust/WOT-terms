@@ -4,36 +4,35 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '⚡ Beginner',
-    Svg: require('@site/static/img/skill-level-basic-svgrepo-com.svg').default,
+    title: '⚡ Collection',
+    Svg: require('@site/static/img/10119973341678815049.svg').default,
     description: (
       <>
-        A beginner is still an expert in the field of identity. Triggered by
-        meaning and practical advantages.
+        KERISSE is a technical documentation site. You'll find information on decentralized identity, verifiable credentials, and related technologies: KERI, ACDC and more.
       </>
     ),
   },
   {
-    title: '⚡ Advanced',
-    Svg: require('@site/static/img/skill-level-intermediate-svgrepo-com.svg')
+    title: '⚡ Search Engine',
+    Svg: require('@site/static/img/1626701221679047824.svg')
       .default,
-    description: <>A skilled power user.</>,
+    description: <>KERISSE is a sophisticated search engine. It searches this documentation site, AND other relevant sites, like Gleif.org, important blogposts in the field and more.</>,
   },
   {
-    title: '⚡ Expert',
-    Svg: require('@site/static/img/skill-level-advanced-svgrepo-com.svg')
+    title: '⚡ Chatbot',
+    Svg: require('@site/static/img/5553419701679821143.svg')
       .default,
-    description: <>Technically skilled and very knowledgeable</>,
+    description: <>You can also have a conversation with KERISSE via our chatbot.</>,
   },
 ];
 
 function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
+      <div className="margin-top--lg text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
-      <div className="text--center padding-horiz--md">
+      <div className="margin-top--lg text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
