@@ -74,7 +74,7 @@ export default async function (page, domQueryForContent) {
                         if (nextSib) {
                             const nextSibText = nextSib.innerText.trim();
                             const nextCharsToAdd = Math.min(remainingCharacters, nextSibText.length);
-                            text = nextSibText.slice(-nextCharsToAdd) + ' ' + text; // Add the text to the beginning of the extracted text
+                            text += ' ' + nextSibText.slice(-nextCharsToAdd); // Add the text to the end of the extracted text
                             remainingCharacters -= nextCharsToAdd;
                             nextSib = nextSib.nextElementSibling;
                         }
