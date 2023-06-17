@@ -4,11 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '⚡ Collection',
+    title: '⚡ Documentation',
     Svg: require('@site/static/img/10119973341678815049.svg').default,
     description: (
       <>
-        KERISSE is a technical documentation site. You'll find information on decentralized identity, verifiable credentials, and related technologies: KERI, ACDC and more.
+        <strong>KERISSE</strong> is a technical documentation site. You'll find information on decentralized identity, verifiable credentials, and related technologies: KERI, ACDC and more.
       </>
     ),
   },
@@ -16,13 +16,13 @@ const FeatureList = [
     title: '⚡ Search Engine',
     Svg: require('@site/static/img/1626701221679047824.svg')
       .default,
-    description: <>KERISSE is a sophisticated search engine. It searches this documentation site, AND other relevant sites, like Gleif.org, important blogposts in the field and more.</>,
+    description: <><strong>KERISSE</strong> is a sophisticated search engine. It searches this documentation site, AND other relevant sites, like Gleif.org, important blogposts in the field and more.</>,
   },
   {
     title: '⚡ Chatbot',
     Svg: require('@site/static/img/5553419701679821143.svg')
       .default,
-    description: <>You can also have a conversation with KERISSE via our chatbot.</>,
+    description: <>You can also have a conversation with <strong>KERISSE</strong> via our chatbot. Well informed, polite and patient.</>,
   },
 ];
 
@@ -44,7 +44,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <h2 className="homepage--heading">Personal learning environment and consensus building with others.</h2>
+        <h2 className="homepage--heading">Personal learning environment and consensus building tool.</h2>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
