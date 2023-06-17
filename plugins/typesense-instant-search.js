@@ -82,7 +82,7 @@ const TSIS = () => {
       // query_by: 'title,authors',
       query_by: 'imgMeta, content, firstHeadingBeforeElement, pageTitle, siteName, source, url',
       // weights: '10000,1,1,1,1,1,1',
-      filter_by: 'tag:=[p]',
+      // filter_by: 'tag:=[p]',
       // filter_by: 'tag:[a]',
     },
   });
