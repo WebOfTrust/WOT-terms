@@ -174,7 +174,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Byzantine Fault Tolerance",
       "",
       "Byzantine Fault Tolerance"
     ],
@@ -240,7 +240,7 @@
       "",
       "",
       "",
-      "Directed acyclic graph: a mathematical construct with no cycles.",
+      "Directed acyclic graph - a mathematical construct with no cycles.",
       "",
       "A directed acyclic graph is a mathematical construct with no cycles."
     ],
@@ -284,7 +284,7 @@
       "1",
       "",
       "",
-      "Distributed Hash Table (DHT).",
+      "Distributed Hash Table",
       "",
       "NO INPUT"
     ],
@@ -350,7 +350,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "GnuPG, a free-software replacement for Symantec's PGP software.",
       "",
       "NO INPUT"
     ],
@@ -460,7 +460,7 @@
       "1",
       "",
       "",
-      "KERI Alg. for Control Estab.",
+      "KERI agreement algorithm for control set-up.",
       "",
       "NO INPUT"
     ],
@@ -526,7 +526,7 @@
       "1",
       "",
       "",
-      "Key Event Receipt Infrastructure (KERI)",
+      "Key Event Receipt System",
       "",
       "NO INPUT"
     ],
@@ -658,7 +658,7 @@
       "",
       "",
       "",
-      "Out-of-band intro.",
+      "OoB intro",
       "",
       "NO INPUT"
     ],
@@ -680,7 +680,7 @@
       "",
       "",
       "",
-      "P2P.",
+      "P2P",
       "",
       "NO INPUT"
     ],
@@ -878,7 +878,7 @@
       "1",
       "",
       "",
-      "TCP, one of the Internet protocol suite's main protocols.",
+      "TCP, a main protocol of the Internet suite.",
       "",
       "TCP, a main Internet protocol."
     ],
@@ -900,7 +900,7 @@
       "1",
       "",
       "",
-      "Provides cryptographic proof of registry state via KEL.",
+      "Provides proof of registry state via the controlling KEL.",
       "",
       "Provides crypto proof of registry state via control KEL."
     ],
@@ -922,7 +922,7 @@
       "1",
       "1",
       "1",
-      "Interactions between humans and machines occur in the space.",
+      "The space where humans and machines interact.",
       "",
       "The space of human-machine interactions."
     ],
@@ -1164,7 +1164,7 @@
       "",
       "",
       "",
-      "Verifiable origin.",
+      "Objective verifiability.",
       "",
       "NO INPUT"
     ],
@@ -1274,7 +1274,7 @@
       "",
       "",
       "",
-      "Associating data or an identifier with another identifier or subject (person, org., machine).",
+      "Association of data or identifiers with subjects (persons, orgs., machines).",
       "",
       "Assigning data or ID to a subject (person, org., or machine)."
     ],
@@ -1758,7 +1758,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Verifying digital messages/documents' authenticity via math.",
       "",
       "A scheme for verifying digital messages' authenticity."
     ],
@@ -2154,7 +2154,7 @@
       "1",
       "",
       "",
-      "Parts of a reason, idea, or opinion don't agree or don't match something else.",
+      "Parts of a reason, idea, or opinion disagree or don't agree with something else.",
       "",
       "Parts of a reason, idea, or opinion don't agree, or don't match something else."
     ],
@@ -2242,7 +2242,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Provides uniform issuance and presentation of ACDCs securely and attributably.",
       "",
       "Offers a uniform way to create and present ACDCs securely."
     ],
@@ -2792,7 +2792,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Non-normative theories aren’t for giving answers; they describe possibilities or predict results from certain actions.",
       "",
       "Non-normative theories don't give answers, but rather describe possibilities or predict outcomes from certain actions."
     ],
@@ -2836,7 +2836,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "No ability to transfer a digital asset without obstruction or loss.",
       "",
       "No ability to transfer control of a digital asset without obstruction or loss."
     ],
@@ -3034,7 +3034,7 @@
       "",
       "",
       "",
-      "Historic docs of cryptographically-verifiable key states, data consistency, and credentials.",
+      "Historic documentation of cryptographic key states, data consistency, and credentials.",
       "",
       "Historic documentation of cryptographic verifiable key states, data consistency and credentials."
     ],
@@ -3056,7 +3056,7 @@
       "",
       "",
       "",
-      "Roles, policies, hardware, software, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates.",
+      "Set of roles, policies, hardware, software and procedures for creating, managing, distributing, using, storing and revoking digital certificates.",
       "",
       "NO INPUT"
     ],
@@ -3254,7 +3254,7 @@
       "",
       "",
       "",
-      "IETF protocol for asset transfer between blockchains.",
+      "IETF protocol for transferring assets between blockchains.",
       "",
       "NO INPUT"
     ],
@@ -3518,7 +3518,7 @@
       "",
       "",
       "",
-      "A trust domain is an ecosystem based on trust, linking controllers, identifiers, and key-pairs.",
+      "A trust domain is an ecosystem of interactions based on trust. It binds controllers, identifiers, and key-pairs.",
       "",
       "A trust domain is an ecosystem of interactions relying on trust. It binds controllers, identifiers and key-pairs."
     ],
@@ -3606,7 +3606,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Verify data structure cryptographically for consistency and authenticity.",
       "",
       "Cryptographically verify data structure's consistency and authenticity."
     ],
@@ -3738,7 +3738,7 @@
       "",
       "",
       "",
-      "Internet Identity Workshop holds un-conferences twice a year since 2005.",
+      "Internet Identity Workshop holds an unconference twice a year since 2005.",
       "",
       "Internet Identity Workshop holds an un-conference twice yearly since 2005."
     ],
@@ -3826,7 +3826,7 @@
       "",
       "",
       "",
-      "Computer programs that can be suspended and resumed.",
+      "Computer programs that can be suspended and resumed on demand.",
       "",
       "Computer programs that can be suspended and resumed."
     ],
@@ -3892,7 +3892,7 @@
       "",
       "",
       "",
-      "S.M. Smith, PhD, Inventor & Lead Dev. of KERI",
+      "Samuel M. Smith, PhD, Inventor & Lead Dev. of KERI",
       "",
       "Samuel M. Smith PhD, Inventor and KERI Lead Developer"
     ],
@@ -3936,7 +3936,7 @@
       "",
       "",
       "",
-      "A duplicate system working exactly like the original.",
+      "A copy of a system that works identical to the original.",
       "",
       "A copy of a system that works exactly like the original."
     ],
@@ -4156,7 +4156,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Python installer bundles Python app and its dependencies into one package.",
       "",
       "Python installer packages an app, plus all its dependencies, into one bundle."
     ],
@@ -4222,7 +4222,7 @@
       "",
       "",
       "",
-      "A digital signature scheme allowing multiple users to sign a single piece of digital data.",
+      "A digital signature scheme allowing multiple users to sign one digital data.",
       "",
       "A digital signature scheme allowing multiple users to sign a single digital data."
     ],
@@ -4244,7 +4244,7 @@
       "",
       "",
       "",
-      "Public identity identifier. Points to someone/something.",
+      "A unique identifier for public identities, referring to something or someone else.",
       "",
       "Identify public identities uniquely, pointing to something/someone else."
     ],
@@ -4354,7 +4354,7 @@
       "",
       "",
       "",
-      "Managing crypto keys.",
+      "Crypto-system key management.",
       "",
       "Managing crypto keys in a crypto-system."
     ],
@@ -4398,7 +4398,7 @@
       "",
       "",
       "",
-      "A one-of-one signing keypair controls an identifier.",
+      "Identifier controlled by single signing keypair.",
       "",
       "A one-of-one signing keypair controlled identifier."
     ],
@@ -4420,7 +4420,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "A KERI keystore is an encrypted data store holding private keys for AIDs.",
       "",
       "KERI's keystore holds encrypted private keys for multiple AIDs."
     ],
@@ -4464,7 +4464,7 @@
       "",
       "",
       "",
-      "Anchors external data to key state established by most recent event.",
+      "Anchors external data to the key state, as established by the latest event.",
       "",
       "Anchor external data to the key state established by the latest event."
     ],
@@ -4486,7 +4486,7 @@
       "",
       "",
       "",
-      "Change key-state, including AID's authoritative keypairs.",
+      "Change key-state, including the set of authoritative keypairs for an AID.",
       "",
       "Changes key-state, including authoritative keypairs for AID."
     ],
@@ -4750,7 +4750,7 @@
       "",
       "",
       "",
-      "File configures parameters and initial settings for computer programs.",
+      "File used to configure parameters and initial settings for computer programs.",
       "",
       "File configuring parameters and initial settings for programs."
     ],
@@ -4772,7 +4772,7 @@
       "",
       "",
       "",
-      "REST is a software architectural style used for web APIs.",
+      "REST is a software architectural style applied to web APIs.",
       "",
       "REST is an architectural style for web APIs."
     ],
@@ -4794,7 +4794,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "API",
       "",
       "API (Application Programming Interface)"
     ],
@@ -4838,7 +4838,7 @@
       "",
       "",
       "",
-      "HTTP req. methods indicate desired action on identified resource.",
+      "HTTP request methods indicate desired action on identified resource.",
       "",
       "HTTP requests to indicate desired action on identified resource."
     ],
@@ -4860,7 +4860,7 @@
       "",
       "",
       "",
-      "OpenAPI (formerly Swagger) is important to KERI, CESR and ACDC. It is open-source and has many ready-to-use JSON extensions.",
+      "OpenAPI (formerly Swagger) is important to KERI, CESR, and ACDC. It's open-source and has many ready-to-use JSON extensions.",
       "",
       "OpenAPI (formerly Swagger) is important to KERI, CESR, and ACDC. It's open-source with many ready-to-use JSON extensions."
     ],
@@ -4970,7 +4970,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Field in KERI data structure for describing witness threshold.",
       "",
       "Field in KERI data structure describing witness threshold."
     ],
@@ -5014,7 +5014,7 @@
       "",
       "",
       "",
-      "Commit to next key rotation from previous rotation or beginning.",
+      "Commit to next key set rotation or inception event.",
       "",
       "Commitment to next rotation or inception event's key set."
     ],
@@ -5190,7 +5190,7 @@
       "",
       "",
       "",
-      "Log numbers increment.",
+      "Log's incremental number",
       "",
       "Log inc. no."
     ],
@@ -5212,7 +5212,7 @@
       "",
       "",
       "",
-      "Verifiable cryptog. commitment: a collision-resistant hash of content.",
+      "Verifiable cryptographic commitment: a collision-resistant hash of content.",
       "",
       "Verifiable cryptographic commitment: a collision-resistant hash of content."
     ],
@@ -5344,7 +5344,7 @@
       "",
       "",
       "",
-      "Signing anything with a multi-key identifier, a verifier knows which key was used.",
+      "When signing with a multi-key autonomic identifier, a verifier knows which public key was used.",
       "",
       "When signing with a multi-key autonomic ID, a verifier knows which public key was used."
     ],
@@ -5784,7 +5784,7 @@
       "",
       "",
       "",
-      "XBRL, a standard for digital business reporting.",
+      "XBRL stands for digital business reporting.",
       "",
       "XBRL stands for digital business reporting."
     ],
@@ -6136,7 +6136,7 @@
       "",
       "",
       "1",
-      "Valid credential within 90-day grace period.",
+      "A valid credential within 90-day grace period.",
       "",
       "Valid credential within 90-day grace period."
     ],
@@ -6158,7 +6158,7 @@
       "",
       "",
       "1",
-      "Multiple, independent credentials issued by same issuer.",
+      "Multiple, independently valid credentials from same issuer.",
       "",
       "Multiple, independently valid credentials issued by same issuer."
     ],
@@ -6180,7 +6180,7 @@
       "",
       "",
       "1",
-      "A person who represents a Legal Entity in a role and is issued an ECR vLEI Credential.",
+      "A person who is issued an ECR vLEI Credential and represents a Legal Entity in a role.",
       "",
       "A person representing the Legal Entity with an ECR vLEI Credential."
     ],
@@ -6224,7 +6224,7 @@
       "",
       "",
       "1",
-      "A GLEIF rep can verify & issue the QVI vLEI Credential.",
+      "GLEIF authorized rep issues QVI vLEI Credential, after verification.",
       "",
       "A GLEIF rep authorized to verify & issue QVI vLEI Credential."
     ],
@@ -6620,7 +6620,7 @@
       "",
       "",
       "1",
-      "Loading...",
+      "Verified LEI.",
       "",
       "Verifiable LEI."
     ],
@@ -6818,7 +6818,7 @@
       "1",
       "",
       "",
-      "Loading...",
+      "Control partially kept, some keys unexposed, others exposed as needed.",
       "",
       "Keep some keys unexposed and expose others as needed, but change control."
     ],
@@ -6840,7 +6840,7 @@
       "1",
       "",
       "",
-      "Control split between two sets.",
+      "Split control between two key sets.",
       "",
       "Split control between two sets."
     ],
@@ -6928,7 +6928,7 @@
       "1",
       "",
       "",
-      "Right to change control of an identifier (exclusive).",
+      "Exclusive right to control an identifier.",
       "",
       "Exclusive right to control an identifier."
     ],
@@ -7104,7 +7104,7 @@
       "1",
       "1",
       "1",
-      "Loading...",
+      "A relationship between two where one (the owner) has the right to dispose, enjoy, and control the other wholly.",
       "",
       "A relationship between two entitles one of them (the owner) to enjoy, dispose, and control the other with sovereignty."
     ],
@@ -7302,7 +7302,7 @@
       "",
       "",
       "",
-      "Disclosure of cross-variant Issuer commitment by an exchange, verified as essential.",
+      "Presentation exchange that has cross-variant issuer commitment verifiability as essential property performs disclosure.",
       "",
       "Exchanged presentation with cross-variant Issuer commitment verifiability as an essential property for disclosure."
     ],
@@ -7390,7 +7390,7 @@
       "",
       "",
       "",
-      "Recording a document as a legal contract and securely linking it to other systems.",
+      "Recording a document as a contract and securely linking it to other systems.",
       "",
       "Recording a doc. as a contract & securely linking to other systems."
     ],
@@ -7874,7 +7874,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Established low-level crypto algorithm often used to build crypto protocols for computer security systems, e.g. one-way hash and encryption functions.",
       "",
       "Established, low-level cryptographic algorithm often used to create security protocols; e.g. one-way hash functions and encryption functions."
     ],
@@ -7940,7 +7940,7 @@
       "",
       "",
       "",
-      "Data processing elements connected in series, where output of one is input of the next.",
+      "Data processing elements connected in series, where output of one is input of next.",
       "",
       "Data processing elements connected in series, where output of one element is input of next."
     ],
@@ -7984,7 +7984,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Encoding protocol that's composable in a hierarchy, enabling pipelining of complex streams in either text or compact binary.",
       "",
       "NO INPUT"
     ],
@@ -8006,7 +8006,7 @@
       "",
       "",
       "",
-      "Codes that group primitives enable pipelining.",
+      "Codes for supporting groups of primitives to enable pipelining.",
       "",
       "Codes for groups of primitives enable pipelining."
     ],
@@ -8050,7 +8050,7 @@
       "",
       "",
       "",
-      "Codes that group primitives enable pipelining.",
+      "Codes for supporting groups of primitives to enable pipelining.",
       "",
       "Codes for groups of primitives enable pipelining."
     ],
@@ -8116,7 +8116,7 @@
       "",
       "",
       "",
-      "Prepending a string with leading pad characters to align it to a certain length in bits or bytes.",
+      "Prepending a string with leading pad characters to align to a certain length in bits or bytes.",
       "",
       "Prepend a string with leading pad characters to align to a certain length in bits or bytes."
     ],
@@ -8160,7 +8160,7 @@
       "",
       "",
       "",
-      "A character used to fill empty space.",
+      "Filler character used to fill empty space.",
       "",
       "A character used to fill empty space."
     ],
@@ -8182,7 +8182,7 @@
       "",
       "",
       "",
-      "Pre-converting added chars with pre-padding to fill empty spaces.",
+      "Pre-conversion added characters to pre-pad, to fill empty space.",
       "",
       "Pre-conversion added characters to pad empty space."
     ],
@@ -8226,7 +8226,7 @@
       "",
       "",
       "",
-      "The first character of CESR's text code determines the code table used.",
+      "First char in CESR stream code determines code table.",
       "",
       "The first char in the CESR text code determines which code table to use."
     ],
@@ -8369,7 +8369,7 @@
       "",
       "",
       "",
-      "After reboot, a stream processor looks for framing info to parse stream groups.",
+      "After rebooting, a stream processor looks for framing info to parse groups of elements.",
       "",
       "On reboot, a stream processor looks for framing info to parse groups of elements."
     ],
@@ -8413,7 +8413,7 @@
       "",
       "",
       "",
-      "Loading...",
+      "Briefest, least revealing ACDC credential.",
       "",
       "Briefest, least revealing ACDC credential."
     ],
@@ -8435,7 +8435,7 @@
       "",
       "",
       "",
-      "The most extensive, disclosing, and user-friendly ACDC credential.",
+      "The most extensive, revealing, and user-friendly ACDC credential.",
       "",
       "The most extensive, revealing, and user-friendly ACDC credential."
     ],
@@ -8523,7 +8523,7 @@
       "",
       "",
       "",
-      "A decentralized controller peer doesn't create records like a server does.",
+      "A decentralized, controlling peer doesn't create records as a traditional server does.",
       "",
       "A decentralized controller peer doesn't create records in the traditional sense of a server."
     ],
@@ -8567,7 +8567,7 @@
       "",
       "",
       "",
-      "Proof if info is intact.",
+      "Proof of whole, sound, and unimpaired info.",
       "",
       "Proof of clear evaluation to verify if info is whole, sound, and intact."
     ],
@@ -8765,7 +8765,7 @@
       "",
       "",
       "",
-      "Transaction event log is hidden or blinded; only verifier can observe state at presentation time when AID controller discloses it.",
+      "Transaction event log hidden or blinded; verifier can only observe state when AID controller discloses it.",
       "",
       "NO INPUT"
     ],
