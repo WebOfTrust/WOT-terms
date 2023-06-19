@@ -14,7 +14,7 @@ const config = {
     sitemap: await createInput({
         sourceType: 'querySelector',
         sourcePath: 'https://www.gleif.org/en/meta/sitemap',
-        queryString: '.content ul',
+        queryString: '.content ul li a',// must be an a element
     }),
     siteName: 'Gleif website',
     source: 'Gleif website',
