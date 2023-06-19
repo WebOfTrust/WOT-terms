@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/10119973341678815049.svg').default,
     description: (
       <>
-        <strong>KERISSE</strong> is a technical documentation site. You'll find information on decentralized identity, verifiable credentials, and related technologies: KERI, ACDC and more.
+        <strong>KERISSE</strong> is a technical documentation site. You'll find information on decentralized identity technologies: KERI, ACDC and more.
       </>
     ),
   },
@@ -16,7 +16,7 @@ const FeatureList = [
     title: '⚡ Search Engine',
     Svg: require('@site/static/img/1626701221679047824.svg')
       .default,
-    description: <><strong>KERISSE</strong> is a sophisticated search engine. It searches this documentation site, AND other relevant sites, like Gleif.org, important blogposts in the field and more.</>,
+    description: <><strong>KERISSE</strong> is a sophisticated search engine. It searches this documentation site, AND other relevant sites.</>,
   },
   {
     title: '⚡ Chatbot',
