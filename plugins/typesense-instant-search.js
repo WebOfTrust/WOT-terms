@@ -84,6 +84,7 @@ const TSIS = () => {
       // weights: '10000,1,1,1,1,1,1',
       // filter_by: 'tag:=[p]',
       // filter_by: 'tag:[a]',
+      filter_by: 'contentLength:>40',
     },
   });
   const searchClient = typesenseInstantsearchAdapter.searchClient;
