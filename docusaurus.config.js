@@ -11,7 +11,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'KERISSE',
   tagline:
-    'KERI suite search engine.',
+    'KERI Suite Search Engine',
   url: paths.url,
   baseUrl: paths.baseUrl,
   onBrokenLinks: 'warn',
