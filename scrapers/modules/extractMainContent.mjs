@@ -100,12 +100,13 @@ export default async function (page, domQueryForContent) {
             function imgOrNot(element) {
                 if (element.tagName.toLowerCase() === 'img') {
                     return {
-                        imgUrl: element.src,
-                        imgMeta: element.alt + " " + element.title,
+                        imgUrl: element.src,//TODO: remove or use it
+                        imgMeta: element.alt + " " + element.title,//TODO: remove or use it
                     };
                 } else {
                     return {
                         textContent: element.textContent.trim(),
+                        textContentLength: element.textContent.trim().length,
                         tag: element.tagName.toLowerCase()
                     }
                 }
@@ -117,15 +118,20 @@ export default async function (page, domQueryForContent) {
                 const headingElement = findPreviousHeadingElement(el);
 
                 const textAroundImage = getTextAroundImage(el, 800);
+                const textAroundImageLength = getTextAroundImage(el, 800).length;
+
+                // console.log('imgOrNot(el).textContent.length: ', imgOrNot(el).textContent.length);
 
                 return {
-                    text: imgOrNot(el).textContent,
+                    content: imgOrNot(el).textContent,
+                    contentLength: imgOrNot(el).textContentLength,
                     tag: imgOrNot(el).tag,
                     firstHeadingBeforeElement: headingElement
                         ? headingElement.textContent.trim()
                         : null,
                     imgUrl: imgOrNot(el).imgUrl,
-                    imgMeta: textAroundImage
+                    imgMeta: textAroundImage,
+                    imgMetaLength: textAroundImageLength,
 
                 };
             });
