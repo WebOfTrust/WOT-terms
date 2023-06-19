@@ -182,7 +182,7 @@ const TSIS = () => {
             siteBrandingClass = "kerisse";
           }
           return `
-<div class="card border-secondary mt-5" overflow-shadow>
+<div class="card border-secondary mt-5 scroll-shadows">
     <div class="card-header ${siteBrandingClass}">Found on: ${itemSiteNameTemplateString}</div>
     <div class="card-body text-secondary">
         <div style="font-size: 0.9rem;">
