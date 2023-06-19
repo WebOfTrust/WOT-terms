@@ -17,10 +17,12 @@ export default function createOutput(input) {
       author: input.author || '–',
       creationDate: input.creationDate || '–',
       url: input.pageUrl || 'No url specified',
-      content: element.text || '–',
+      content: element.content || '–',
+      contentLength: element.contentLength || 0,
       tag: element.tag || '–',
       imgUrl: element.imgUrl || '–',
       imgMeta: element.imgMeta || '–',
+      imgMetaLength: element.imgMetaLength || 0,
       timestamp: new Date().toISOString() || '–',
       'hierarchy.lvl0': input.hierarchyLvl0 || '–',// same for all element from input.mainContent
       'hierarchy.lvl1': input.hierarchyLvl1 || '–',// same for all element from input.mainContent
