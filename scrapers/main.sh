@@ -17,5 +17,6 @@ echo "Preparing logfiles finished"
 node "$SCRIPT_DIR/extractData.mjs"
 echo "Extracting data finished"
 
+# Import the data into Typesense.
 source "$SCRIPT_DIR/import.sh"
 echo "Importing data finished"
