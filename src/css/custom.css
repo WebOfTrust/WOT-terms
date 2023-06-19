@@ -402,11 +402,13 @@ table td:nth-child(8) {
 
 .search-heading {
   background-image: url("/img/stamp.png");
-  background-position: left bottom;
+  background-position: left top;
   background-repeat: no-repeat;
   background-color: transparent;
   background-size: contain;
-  background-origin: content-box;
+  /* background-size: clamp(30px, 4%, 160px) auto; */
+  /* background-origin: content-box; */
+  padding: 0 1em;
 }
 
 #search {
@@ -472,6 +474,11 @@ table td:nth-child(8) {
   text-decoration: none;
   padding: 0.5em;
 } 
+
+.ais-Pagination-item--selected .ais-Pagination-link {
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 7px;
+}
 
 .card {
   transition: background 0.3s ease-in-out;
