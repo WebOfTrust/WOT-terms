@@ -11,12 +11,12 @@ const typesenseInstantSearchCreateDomElements = () => {
 <h1 class="search-heading text-center">KERI Suite Search Engine (KERISSE)</h1>
    <div id="search-box" class="mt-3 mb-2"></div>
    <div id="search-close">✖</div>
-   <!--<div id="example-search-terms" class="mt-4 text-center">Try searching for:
+   <div id="example-search-terms" class="mt-4 text-center">Try searching for:
       <a role="button" class="clickable-search-term btn btn-outline-secondary btn-sm d-inline">Keri</a> 
       <a role="button" class="clickable-search-term btn btn-outline-secondary btn-sm d-inline">ACDC</a> 
       <a role="button" class="clickable-search-term btn btn-outline-secondary btn-sm d-inline">Trust over IP</a>
       <a role="button" class="clickable-search-term btn btn-outline-secondary btn-sm d-inline">LEI</a>
-   </div>-->
+   </div>
    <div class="container">
    <div class="row mt-3">
       <div class="col-md-3 p-0">
