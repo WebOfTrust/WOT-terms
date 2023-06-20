@@ -351,7 +351,7 @@ const config = {
  * BEGIN TYPESENSE INSTANT SEARCH PLUGIN
  */
     require.resolve(
-      './plugins/typesense-instant-search-create-dom-elements.js'
+      './plugins/typesense-instant-search-init.js'
     ),
     require.resolve('./plugins/typesense-instant-search.js'),
     /**
