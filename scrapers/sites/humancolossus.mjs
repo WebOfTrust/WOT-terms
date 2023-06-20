@@ -12,7 +12,7 @@ const config = {
     source: 'Blogposts',
     author: 'Robert Mitwicki',
     destinationFile: 'scrapers/output/humancolossus.json',
-    domQueryForContent: '.blog-item-content p, .blog-item-content h1, .blog-item-content h2, .blog-item-content h3, .blog-item-content h4, .blog-item-content h5, .blog-item-content h6, .blog-item-content li, .blog-item-content img'
+    domQueryForContent: '.blog-item-content p, .blog-item-content h1, .blog-item-content h2, .blog-item-content h3, .blog-item-content h4, .blog-item-content h5, .blog-item-content h6, .blog-item-content li, .blog-item-content img, .blog-item-content pre, .blog-item-content code'
 }
 
 async function customScrape(page, domQueryForContent, pageUrl) {
