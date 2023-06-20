@@ -208,7 +208,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Web Of Trust.`,
+        // copyright: `Copyright © ${new Date().getFullYear()} Web Of Trust.`,
       },
       prism: {
         theme: lightCodeTheme,
