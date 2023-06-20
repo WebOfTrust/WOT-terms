@@ -195,15 +195,12 @@ const TSIS = () => {
             ${itemHierarchyLvl1TemplateString}
         </div>
         <hr>
-        <!--<p>…</p>-->
         ${itemTitleTemplateString}
         ${itemFirstHeadingBeforeElementTemplateString}
 
         <p class="ms-5"><a class="stretched-link text-secondary" href="${item.url}" ${openInNewTab}>${item._highlightResult.content.value}</a></p>
         ${itemImgUrlTemplateString}
         ${itemImgMetaTemplateString}
-        <!--<p class="mb-4">…</p>-->
-        <!--<a class="btn btn-outline-secondary mt-1 d-inline-block" href="${item.url}" ${openInNewTab}>Go</a>-->
     </div>
 </div>
       `;
