@@ -23,7 +23,6 @@ const typesenseInstantSearchCreateDomElements = () => {
          <h2 class="">Refine</h2>
           
          <div class="" id="filters-section">
-            <!--<h3 class="mt-5">Source</h3>-->
             <h3 class="mt-1">Source</h3>
             <div id="source-refinement-list"></div>
             
