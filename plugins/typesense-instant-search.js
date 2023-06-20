@@ -19,7 +19,7 @@ import {
 import TypesenseInstantSearchAdapter from 'typesense-instantsearch-adapter';
 // import { SearchClient as TypesenseSearchClient } from 'typesense'; // To get the total number of docs
 
-const TSIS = () => {
+const typeSenseInstantSearch = () => {
   // Hide the search results modal when clicking outside of it
   // document
   //   .querySelector('.search-modal-backdrop')
@@ -338,5 +338,5 @@ export function onRouteDidUpdate({ location, previousLocation }) {
   // Don't execute if we are still on the same page; the lifecycle may be fired
   // because the hash changes (e.g. when navigating between headings)
   if (location.pathname === previousLocation?.pathname) return;
-  TSIS();
+  typeSenseInstantSearch();
 }
