@@ -141,6 +141,19 @@ const TSIS = () => {
             openInNewTab = 'target="_blank" rel="noopener"';
           }
 
+          // <pre>
+          let preOpeningTag = '';
+          if (item.tag === 'pre') {
+            preOpeningTag = '<pre>';
+          } else { preOpeningTag = '<p class="ms-5">' }
+          // </pre>
+          let preClosingTag = '';
+          if (item.tag === 'pre') {
+            preClosingTag = '</pre>';
+          } else { preClosingTag = '</p>' }
+
+
+
           // Only if siteName is not empty, show it
           let itemSiteNameTemplateString = item.siteName !== '–' ? `${item._highlightResult.siteName.value}` : '';
 
@@ -198,7 +211,7 @@ const TSIS = () => {
         ${itemTitleTemplateString}
         ${itemFirstHeadingBeforeElementTemplateString}
 
-        <p class="ms-5"><a class="stretched-link text-secondary" href="${item.url}" ${openInNewTab}>${item._highlightResult.content.value}</a></p>
+        ${preOpeningTag}<a class="stretched-link text-secondary" href="${item.url}" ${openInNewTab}>${item._highlightResult.content.value}</a>${preClosingTag}
         ${itemImgUrlTemplateString}
         ${itemImgMetaTemplateString}
     </div>

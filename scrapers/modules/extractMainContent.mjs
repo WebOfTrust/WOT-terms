@@ -97,11 +97,17 @@ export default async function (page, domQueryForContent) {
                 );
             }
 
-            function imgOrNot(element) {
+            function elementRouting(element) {
                 if (element.tagName.toLowerCase() === 'img') {
                     return {
                         imgUrl: element.src,//TODO: remove or use it
                         imgMeta: element.alt + " " + element.title,//TODO: remove or use it
+                    };
+                } else if (element.tagName.toLowerCase() === 'pre' || element.tagName.toLowerCase() === 'code') {
+                    return {
+                        textContent: element.innerText.trim(),// use innerText here
+                        textContentLength: element.textContent.trim().length,// use textContentLength here
+                        tag: element.tagName.toLowerCase()
                     };
                 } else {
                     return {
@@ -123,13 +129,13 @@ export default async function (page, domQueryForContent) {
                 // console.log('imgOrNot(el).textContent.length: ', imgOrNot(el).textContent.length);
 
                 return {
-                    content: imgOrNot(el).textContent,
-                    contentLength: imgOrNot(el).textContentLength,
-                    tag: imgOrNot(el).tag,
+                    content: elementRouting(el).textContent,
+                    contentLength: elementRouting(el).textContentLength,
+                    tag: elementRouting(el).tag,
                     firstHeadingBeforeElement: headingElement
                         ? headingElement.textContent.trim()
                         : null,
-                    imgUrl: imgOrNot(el).imgUrl,
+                    imgUrl: elementRouting(el).imgUrl,
                     imgMeta: textAroundImage,
                     imgMetaLength: textAroundImageLength,
 
