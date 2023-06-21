@@ -86,11 +86,39 @@ const handleSearchModal = () => {
   }, false);
 
 
-  document.querySelector('.ais-SearchBox-input').addEventListener('input', function (e) { /* ... */
+  function setSearchModalStatus() {
+    console.log('setSearchModalStatus runs');
     setTimeout(() => {
       myRouter.setParam('searchModalStatus', searchModalStatus);
     }, 1000);//TODO: typesense removes all query params so we need to wait for that to happen and the re-add the searchModalStatus param. Find out how typesense can be configured to not remove all query params
+  }
+
+  /*
+  The input event is triggered whenever the value of an input element changes, typically by user input. This event is fired immediately after the value of the input element is altered. It occurs when the user types into a text field, pastes content, uses arrow keys to make changes, or when the input value is modified programmatically using JavaScript.
+
+  On the other hand, the change event is triggered when the value of an input element is committed by the user. It typically occurs when the user modifies the value and then moves the input focus away from the element, such as by clicking outside the input field or pressing the Tab key. The change event is only fired when the value has actually changed and the element loses focus.
+  */
+  document.querySelector('.ais-SearchBox-input').addEventListener('input', function (e) {
+    console.log("input");
+    setSearchModalStatus();
   }, false);
+
+  // event delegation
+  const on = (selector, eventType, childSelector, eventHandler) => {
+    const elements = document.querySelectorAll(selector);
+    for (let element of elements) {
+      element.addEventListener(eventType, eventOnElement => {
+        if (eventOnElement.target.matches(childSelector)) {
+          eventHandler(eventOnElement);
+        }
+      }, true);
+    }
+  };
+
+  // When a filter is clicked
+  on('#filters-section', 'click', '.ais-RefinementList-checkbox', event => {
+    setSearchModalStatus();
+  });
 };
 
 export function onRouteDidUpdate({ location, previousLocation }) {
