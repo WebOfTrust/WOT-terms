@@ -28,15 +28,18 @@ const typeSenseInstantSearch = () => {
   //     document.querySelector('#search').classList.add('hidden');
   //   });
 
+  // create event for opening and closing the search modal
+  var eventSearchModalOpens = new Event('eventSearchModalOpens');
+  var eventSearchModalCloses = new Event('eventSearchModalCloses');
+
+  // Dispatch the event.
   document.querySelector('#search-close').addEventListener('click', (e) => {
-    document.querySelector('.search-modal-backdrop').classList.add('hidden');
-    document.querySelector('#search').classList.add('hidden');
+    document.dispatchEvent(eventSearchModalCloses);
   });
 
+  // Dispatch the event.
   document.querySelector('#search-start').addEventListener('click', (e) => {
-    document.querySelector('.search-modal-backdrop').classList.toggle('hidden');
-    document.querySelector('#search').classList.toggle('hidden');
-    document.querySelector('.ais-SearchBox-input').focus();
+    document.dispatchEvent(eventSearchModalOpens);
   });
 
   document.addEventListener('keyup', (event) => {
@@ -91,7 +94,8 @@ const typeSenseInstantSearch = () => {
 
   const search = instantsearch({
     searchClient,
-    indexName: 'Wot-terms-test',
+    indexName: 'Wot-terms',// production
+    // indexName: 'Wot-terms-test',// testing
     routing: true,
     // searchFunction(helper) {
     // if (helper.state.query === '') {
