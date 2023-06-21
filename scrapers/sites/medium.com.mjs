@@ -17,7 +17,6 @@ const config = {
 }
 
 async function customScrape(page, domQueryForContent, pageUrl) {
-    console.log('pageUrl: ', pageUrl);
     const mainContent = await extractMainContent(page, domQueryForContent);
 
     // let pageTitle = await page.$eval('.ch h1', (element) => {
