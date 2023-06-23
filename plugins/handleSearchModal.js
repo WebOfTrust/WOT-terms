@@ -6,7 +6,10 @@
   Description: This plugin makes the state of the search modal (open or closed) persistent in the url.
 */
 
+// The search Modal is a modal that opens when the user clicks on the search icon in the top right corner of the screen.
 let searchModalStatus = '';
+
+// Some things need to be done only once, when the app is initialized
 let appInitialized = false;
 
 
@@ -19,7 +22,6 @@ let appInitialized = false;
   myRouter.setParam('paramName', 'paramValue');
  */
 function router() {
-  // Function to get the value of a search parameter
   function getParam(key) {
     const searchParams = new URLSearchParams(window.location.search);
     return searchParams.get(key);
@@ -41,31 +43,25 @@ function router() {
   };
 }
 
+// Create an instance of the router
+const myRouter = router();
+
 function hideModal() {
-  console.log("hideModal()");
-  // Hide the modal
   document.querySelector('.search-modal-backdrop').classList.add('hidden');
   document.querySelector('#search').classList.add('hidden');
   searchModalStatus = 'closed';
 }
 
 function showModal() {
-  console.log("showModal()");
-  // Show the modal
   document.querySelector('.search-modal-backdrop').classList.remove('hidden');
   document.querySelector('#search').classList.remove('hidden');
   document.querySelector('.ais-SearchBox-input').focus();
 }
 
-// Create an instance of the router
-const myRouter = router();
-
-
-
+// Runs on onRouteDidUpdate
 const handleSearchModal = () => {
-
+  // Only first time when app loads
   if (appInitialized === false) {
-    // Add event listeners, events are fired in plugins/typesense-instant-search.js
     document.addEventListener('eventSearchModalCloses', function () {
       console.log("addEventListener eventSearchModalCloses");
       hideModal();
@@ -87,7 +83,6 @@ const handleSearchModal = () => {
     }, false);
 
   }
-
 
   // on new page load, check if the search modal should be open or closed
   if (myRouter.getParam('searchModalStatus') === 'open') {
@@ -179,6 +174,6 @@ export function onRouteDidUpdate({ location, previousLocation }) {
 // export function onRouteUpdate({ location, previousLocation }) {
 //   // Only first time when app loads
 //   if (previousLocation === null) {
-//     console.log("foo");
+//     console.log("Only first time when app loads");
 //   }
 // }
