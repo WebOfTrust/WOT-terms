@@ -14,8 +14,8 @@ const config = {
     'KERI Suite Search Engine',
   url: paths.url,
   baseUrl: paths.baseUrl,
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',//'ignore' | 'log' | 'warn' | 'throw'
+  onBrokenMarkdownLinks: 'ignore',//'ignore' | 'log' | 'warn' | 'throw'
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
