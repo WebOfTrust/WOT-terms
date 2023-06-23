@@ -2,63 +2,94 @@
   File: handleSearchModal.js
   Author: Kor Dwarshuis
   Created: 2023-06-21
-  Updated: 2023-06-21
+  Updated: 2023-06-23
   Description: This plugin makes the state of the search modal (open or closed) persistent in the url.
 */
 
+let searchModalStatus = '';
+let appInitialized = false;
+
+
+/**
+  Get the value of a search parameter:
+  const paramValue = myRouter.getParam('paramName');
+  console.log(paramValue);
+ 
+  Set the value of a search parameter:
+  myRouter.setParam('paramName', 'paramValue');
+ */
+function router() {
+  // Function to get the value of a search parameter
+  function getParam(key) {
+    const searchParams = new URLSearchParams(window.location.search);
+    return searchParams.get(key);
+  }
+
+  // Function to set the value of a search parameter
+  function setParam(key, value) {
+    const searchParams = new URLSearchParams(window.location.search);
+    searchParams.set(key, value);
+
+    // Update the URL with the modified search parameters
+    const newUrl = window.location.pathname + '?' + searchParams.toString();
+    window.history.replaceState(null, '', newUrl);
+  }
+
+  return {
+    getParam,
+    setParam
+  };
+}
+
+function hideModal() {
+  console.log("hideModal()");
+  // Hide the modal
+  document.querySelector('.search-modal-backdrop').classList.add('hidden');
+  document.querySelector('#search').classList.add('hidden');
+  searchModalStatus = 'closed';
+}
+
+function showModal() {
+  console.log("showModal()");
+  // Show the modal
+  document.querySelector('.search-modal-backdrop').classList.remove('hidden');
+  document.querySelector('#search').classList.remove('hidden');
+  document.querySelector('.ais-SearchBox-input').focus();
+}
+
+// Create an instance of the router
+const myRouter = router();
+
+
+
 const handleSearchModal = () => {
-  let searchModalStatus = '';
+
+  if (appInitialized === false) {
+    // Add event listeners, events are fired in plugins/typesense-instant-search.js
+    document.addEventListener('eventSearchModalCloses', function () {
+      console.log("addEventListener eventSearchModalCloses");
+      hideModal();
+
+      // Add to url that the modal is closed
+      myRouter.setParam('searchModalStatus', 'closed');
+    }, false);
 
 
-  /**
-    Get the value of a search parameter:
-    const paramValue = myRouter.getParam('paramName');
-    console.log(paramValue);
-  
-    Set the value of a search parameter:
-    myRouter.setParam('paramName', 'paramValue');
-   */
-  function router() {
-    // Function to get the value of a search parameter
-    function getParam(key) {
-      const searchParams = new URLSearchParams(window.location.search);
-      return searchParams.get(key);
-    }
+    document.addEventListener('eventSearchModalOpens', function () {
+      console.log("addEventListener eventSearchModalOpens");
+      showModal();
 
-    // Function to set the value of a search parameter
-    function setParam(key, value) {
-      const searchParams = new URLSearchParams(window.location.search);
-      searchParams.set(key, value);
+      searchModalStatus = 'open';
 
-      // Update the URL with the modified search parameters
-      const newUrl = window.location.pathname + '?' + searchParams.toString();
-      window.history.replaceState(null, '', newUrl);
-    }
+      // Add to url that the modal is open
+      myRouter.setParam('searchModalStatus', 'open');
 
-    return {
-      getParam,
-      setParam
-    };
+    }, false);
+
   }
 
 
-  function hideModal() {
-    // Hide the modal
-    document.querySelector('.search-modal-backdrop').classList.add('hidden');
-    document.querySelector('#search').classList.add('hidden');
-    searchModalStatus = 'closed';
-  }
-
-  function showModal() {
-    // Show the modal
-    document.querySelector('.search-modal-backdrop').classList.toggle('hidden');
-    document.querySelector('#search').classList.toggle('hidden');
-    document.querySelector('.ais-SearchBox-input').focus();
-  }
-
-  // Create an instance of the router
-  const myRouter = router();
-
+  // on new page load, check if the search modal should be open or closed
   if (myRouter.getParam('searchModalStatus') === 'open') {
     showModal();
     searchModalStatus = 'open';
@@ -67,25 +98,6 @@ const handleSearchModal = () => {
     searchModalStatus = 'closed';
   }
 
-  // Add event listeners, events are fired in plugins/typesense-instant-search.js
-  document.addEventListener('eventSearchModalCloses', function (e) {
-    hideModal();
-
-    // Add to url that the modal is closed
-    myRouter.setParam('searchModalStatus', 'closed');
-  }, false);
-
-  document.addEventListener('eventSearchModalOpens', function (e) {
-    showModal();
-
-    searchModalStatus = 'open';
-
-    // Add to url that the modal is open
-    myRouter.setParam('searchModalStatus', 'open');
-
-  }, false);
-
-
   function setSearchModalStatus() {
     console.log('setSearchModalStatus runs');
     setTimeout(() => {
@@ -93,17 +105,12 @@ const handleSearchModal = () => {
     }, 1000);//TODO: typesense removes all query params so we need to wait for that to happen and the re-add the searchModalStatus param. Find out how typesense can be configured to not remove all query params
   }
 
-  /*
-  The input event is triggered whenever the value of an input element changes, typically by user input. This event is fired immediately after the value of the input element is altered. It occurs when the user types into a text field, pastes content, uses arrow keys to make changes, or when the input value is modified programmatically using JavaScript.
-
-  On the other hand, the change event is triggered when the value of an input element is committed by the user. It typically occurs when the user modifies the value and then moves the input focus away from the element, such as by clicking outside the input field or pressing the Tab key. The change event is only fired when the value has actually changed and the element loses focus.
-  */
-  document.querySelector('.ais-SearchBox-input').addEventListener('input', function (e) {
+  document.querySelector('.ais-SearchBox-input').addEventListener('input', function (e) {// Should be “input”, not “change”
     console.log("input");
     setSearchModalStatus();
   }, false);
 
-  // event delegation
+  // event delegation, for the filters
   const on = (selector, eventType, childSelector, eventHandler) => {
     const elements = document.querySelectorAll(selector);
     for (let element of elements) {
@@ -119,6 +126,46 @@ const handleSearchModal = () => {
   on('#filters-section', 'click', '.ais-RefinementList-checkbox', event => {
     setSearchModalStatus();
   });
+
+
+  // create event for opening and closing the search modal
+  var eventSearchModalOpens = new Event('eventSearchModalOpens');
+  var eventSearchModalCloses = new Event('eventSearchModalCloses');
+
+  function handleSearchModalCloseClick(e) {
+    console.log("Dispatch eventSearchModalCloses");
+    document.dispatchEvent(eventSearchModalCloses);
+
+  }
+  function handleSearchModalOpenClick(e) {
+    console.log("Dispatch eventSearchModalOpens");
+    document.dispatchEvent(eventSearchModalOpens);
+
+  }
+
+  // Dispatch the event.
+  // Only first time when app loads, since the Modal DOM structure is apparently preserved between pages
+  if (appInitialized === false) {
+    document.querySelector('#search-close').addEventListener('click', handleSearchModalCloseClick);
+  }
+
+  // Dispatch the event.
+  // This DOM element is not preserved between pages, so we need to add the event listener every time the page loads
+  document.querySelector('#search-start').addEventListener('click', handleSearchModalOpenClick);
+
+  document.addEventListener('keyup', (event) => {
+    switch (event.key) {
+      // escape
+      case 'Escape':
+        document
+          .querySelector('.search-modal-backdrop')
+          .classList.add('hidden');
+        document.querySelector('#search').classList.add('hidden');
+        break;
+    }
+  });
+
+  appInitialized = true;
 };
 
 export function onRouteDidUpdate({ location, previousLocation }) {
@@ -128,3 +175,10 @@ export function onRouteDidUpdate({ location, previousLocation }) {
 
   handleSearchModal();
 }
+
+// export function onRouteUpdate({ location, previousLocation }) {
+//   // Only first time when app loads
+//   if (previousLocation === null) {
+//     console.log("foo");
+//   }
+// }
