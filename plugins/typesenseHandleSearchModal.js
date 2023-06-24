@@ -1,5 +1,5 @@
 /*
-  File: handleSearchModal.js
+  File: typesenseHandleSearchModal.js
   Author: Kor Dwarshuis
   Created: 2023-06-21
   Updated: 2023-06-23
