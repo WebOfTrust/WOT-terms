@@ -1,4 +1,10 @@
-// import config from '@generated/docusaurus.config';
+/*
+  File: typesenseInstantSearch.js
+  Author: Kor Dwarshuis
+  Created: 2023
+  Updated: 2023
+  Description: This plugin instantiates the Typesense InstantSearch.js adapter and the InstantSearch.js search client.
+*/
 
 import instantsearch from 'instantsearch.js/es';
 
