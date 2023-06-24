@@ -1,5 +1,16 @@
 #!/bin/bash
 
+# File: import.sh
+# Author: Kor Dwarshuis
+# Created: 2023
+# Updated: -
+# Description: This script imports JSONL files into a Typesense collection.
+# Instructions: In order to run this script, you need to have a .env file in the root of the project with the following variables:
+#   TYPESENSE_ADMIN_API_KEY
+#   TYPESENSE_HOST
+#   TYPESENSE_COLLECTION_NAME
+
+
 # Find out if the script is running in GitHub Actions or locally
 # Via Github actions is not working yet. 
 if [[ -n "$GITHUB_ACTIONS" ]]; then
