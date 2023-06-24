@@ -152,10 +152,7 @@ const typesenseHandleSearchModal = () => {
     switch (event.key) {
       // escape
       case 'Escape':
-        document
-          .querySelector('.search-modal-backdrop')
-          .classList.add('hidden');
-        document.querySelector('#search').classList.add('hidden');
+        document.dispatchEvent(eventSearchModalCloses);
         break;
     }
   });
