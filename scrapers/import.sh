@@ -4,7 +4,7 @@
 # Author: Kor Dwarshuis
 # Created: 2023
 # Updated: -
-# Description: This script imports JSONL files into a Typesense collection.
+# Description: This script imports JSONL files into a Typesense collection (typesense.org).
 # Instructions: In order to run this script, you need to have a .env file in the root of the project with the following variables:
 #   TYPESENSE_ADMIN_API_KEY
 #   TYPESENSE_HOST
