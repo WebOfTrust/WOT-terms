@@ -351,9 +351,9 @@ const config = {
  * BEGIN TYPESENSE INSTANT SEARCH PLUGIN
  */
     require.resolve(
-      './plugins/typesense-instant-search-init.js'
+      './plugins/typesenseInstantSearchInit.js'
     ),
-    require.resolve('./plugins/typesense-instant-search.js'),
+    require.resolve('./plugins/typesenseInstantSearch.js'),
     /**
      * END TYPESENSE INSTANT SEARCH PLUGIN
      */
