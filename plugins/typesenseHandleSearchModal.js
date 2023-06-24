@@ -59,7 +59,7 @@ function showModal() {
 }
 
 // Runs on onRouteDidUpdate
-const handleSearchModal = () => {
+const typesenseHandleSearchModal = () => {
   // Only first time when app loads
   if (appInitialized === false) {
     document.addEventListener('eventSearchModalCloses', function () {
@@ -168,7 +168,7 @@ export function onRouteDidUpdate({ location, previousLocation }) {
   // because the hash changes (e.g. when navigating between headings)
   if (location.pathname === previousLocation?.pathname) return;
 
-  handleSearchModal();
+  typesenseHandleSearchModal();
 }
 
 // export function onRouteUpdate({ location, previousLocation }) {
