@@ -4,13 +4,13 @@ import extractMainContent from '../modules/extractMainContent.mjs';
 import getTextContent from '../modules/getTextContent.mjs';
 
 const config = {
-    // Use a local created sitemap
+    // 1: Use a local created sitemap
     // sitemap: await createInput({
     //     sourceType: 'localXMLsitemap',
     //     sourcePath: 'scrapers/sitemaps/sitemap-www.gleif.org.xml',
     // }),
 
-    // Use html sitemap on website
+    // 2: Use html sitemap on website
     sitemap: await createInput({
         sourceType: 'querySelector',
         sourcePath: 'https://www.gleif.org/en/meta/sitemap',
