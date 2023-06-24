@@ -6,7 +6,7 @@ import getTextContent from '../modules/getTextContent.mjs';
 const config = {
     sitemap: await createInput({
         sourceType: 'localXMLsitemap',
-        sourcePath: 'scrapers/sitemaps/sitemap-medium.com.xml',
+        sourcePath: 'scrapers/sitemaps/sitemap-medium.com.xml'
     }),
     siteName: 'Blogposts',
     source: 'Blogposts',
