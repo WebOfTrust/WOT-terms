@@ -4,7 +4,12 @@
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Create sitemaps. This can take a lot of time.
-# Format: 
+# There are three options where the scraper gets the URLs from:
+# 1. A remote sitemap.xml file
+# 2. A local sitemap.xml file (manually created or via createSitemap.js)
+# 3. A sitemap on a webpage on the website to be scraped
+
+# Option 2: via createSitemap.js
 # $ node "$SCRIPT_DIR/createSitemap.js" https://www.example.com --depth x
 # depth recomended: 3
 # node "$SCRIPT_DIR/createSitemap.js" https://www.gleif.org --depth 3
