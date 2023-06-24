@@ -371,7 +371,7 @@ const config = {
     require.resolve('./plugins/writeChanges'),
     require.resolve('./plugins/addDataTypes'),
     require.resolve('./plugins/showGPTsummary'),
-    require.resolve('./plugins/handleSearchModal'),
+    require.resolve('./plugins/typesenseHandleSearchModal'),
   ],
 };
 
