@@ -62,13 +62,7 @@ const typeSenseInstantSearch = () => {
       // weights: '10000,1,1,1,1,1,1',
       // filter_by: 'tag:=[p]',
       // filter_by: 'tag:[a]',
-      filter_by: 'contentLength:>50',
-      // filter_by: ['contentLength:>40', 'url:=[`https://weboftrust.github.io/WOT-terms/docs/Overview/overview-and-context`,`https://weboftrust.github.io/WOT-terms/docs/Overview/Indexed%20in%20KERISSE`,`https://weboftrust.github.io/WOT-terms/docs/Overview/`]'],
-      // filter_by: 'contentLength:>40' &&
-      // 'url:!https://weboftrust.github.io/WOT-terms/docs/Overview/' &&
-      // 'url:!https://weboftrust.github.io/WOT-terms/docs/Overview/overview-and-context'
-
-
+      // filter_by: 'contentLength:>50',
     },
   });
   const searchClient = typesenseInstantsearchAdapter.searchClient;
