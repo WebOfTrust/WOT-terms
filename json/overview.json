@@ -240,7 +240,7 @@
       "",
       "",
       "",
-      "Directed acyclic graph - a mathematical construct with no cycles.",
+      "Loading...",
       "",
       "A directed acyclic graph is a mathematical construct with no cycles."
     ],
@@ -460,7 +460,7 @@
       "1",
       "",
       "",
-      "KERI Agreement Algo for Control Estab.",
+      "Loading...",
       "",
       "NO INPUT"
     ],
@@ -526,7 +526,7 @@
       "1",
       "",
       "",
-      "Key Event Infra.",
+      "Loading...",
       "",
       "NO INPUT"
     ],
@@ -658,7 +658,7 @@
       "",
       "",
       "",
-      "OoB intro",
+      "Loading...",
       "",
       "NO INPUT"
     ],
@@ -680,7 +680,7 @@
       "",
       "",
       "",
-      "P2P.",
+      "Loading...",
       "",
       "NO INPUT"
     ],
@@ -900,7 +900,7 @@
       "1",
       "",
       "",
-      "Provides cryptographic proof of registry state by referring to the controlling KEL.",
+      "Loading...",
       "",
       "Provides crypto proof of registry state via control KEL."
     ],
@@ -922,7 +922,7 @@
       "1",
       "1",
       "1",
-      "The space where humans and machines interact.",
+      "Loading...",
       "",
       "The space of human-machine interactions."
     ],
@@ -1252,7 +1252,7 @@
       "",
       "",
       "",
-      "BADA provides replay attack protection.",
+      "Loading...",
       "",
       "BADA provides replay attack protection."
     ],
@@ -2154,7 +2154,7 @@
       "1",
       "",
       "",
-      "Parts of a reason, idea, or opinion disagree or conflict with something else.",
+      "Loading...",
       "",
       "Parts of a reason, idea, or opinion don't agree, or don't match something else."
     ],
@@ -3254,7 +3254,7 @@
       "",
       "",
       "",
-      "IETF protocol for transferring assets across blockchains.",
+      "Loading...",
       "",
       "NO INPUT"
     ],
@@ -3342,7 +3342,7 @@
       "",
       "",
       "",
-      "Cryptographically binds ident. to public/private key pair.",
+      "Loading...",
       "",
       "NO INPUT"
     ],
@@ -3936,7 +3936,7 @@
       "",
       "",
       "",
-      "A copy of a system that is identical and works identically to the original.",
+      "Loading...",
       "",
       "A copy of a system that works exactly like the original."
     ],
@@ -4024,7 +4024,7 @@
       "",
       "",
       "",
-      "Kubernetes CLI.",
+      "Loading...",
       "",
       "K8s CLI"
     ],
@@ -4090,7 +4090,7 @@
       "",
       "",
       "",
-      "A child shell started from a parent shell.",
+      "Loading...",
       "",
       "A child shell started from a parent shell."
     ],
@@ -4464,7 +4464,7 @@
       "",
       "",
       "",
-      "Link external data to latest key-state.",
+      "Loading...",
       "",
       "Anchor external data to the key state established by the latest event."
     ],
@@ -4838,7 +4838,7 @@
       "",
       "",
       "",
-      "HTTP request methods to indicate desired action on resource.",
+      "Loading...",
       "",
       "HTTP requests to indicate desired action on identified resource."
     ],
@@ -5014,7 +5014,7 @@
       "",
       "",
       "",
-      "Commitment to next key set in rotation or inception.",
+      "Loading...",
       "",
       "Commitment to next rotation or inception event's key set."
     ],
@@ -5212,7 +5212,7 @@
       "",
       "",
       "",
-      "Cryptographic commitment verified. It's a hash of content resistant to collisions.",
+      "Loading...",
       "",
       "Verifiable cryptographic commitment: a collision-resistant hash of content."
     ],
@@ -5784,7 +5784,7 @@
       "",
       "",
       "",
-      "XBRL, standard for digital business reporting.",
+      "Loading...",
       "",
       "XBRL stands for digital business reporting."
     ],
@@ -6136,7 +6136,7 @@
       "",
       "",
       "1",
-      "Valid credential within 90-day grace period.",
+      "Loading...",
       "",
       "Valid credential within 90-day grace period."
     ],
@@ -6224,7 +6224,7 @@
       "",
       "",
       "1",
-      "GLEIF authorized rep needed to issue QVI vLEI Credential for verification.",
+      "Loading...",
       "",
       "A GLEIF rep authorized to verify & issue QVI vLEI Credential."
     ],
@@ -6840,7 +6840,7 @@
       "1",
       "",
       "",
-      "Control split between two sets.",
+      "Loading...",
       "",
       "Split control between two sets."
     ],
@@ -7302,7 +7302,7 @@
       "",
       "",
       "",
-      "Disclosure in a presentation exchange with essential cross-variant issuer commitment verifiability.",
+      "Loading...",
       "",
       "Exchanged presentation with cross-variant Issuer commitment verifiability as an essential property for disclosure."
     ],
@@ -7390,7 +7390,7 @@
       "",
       "",
       "",
-      "Recording a document as a contract legally and securely linking it to other systems.",
+      "Loading...",
       "",
       "Recording a doc. as a contract & securely linking to other systems."
     ],
@@ -7764,7 +7764,7 @@
       "",
       "",
       "",
-      "ID for autonomous space.",
+      "Loading...",
       "",
       "Autonomous space identifier."
     ],
@@ -8050,7 +8050,7 @@
       "",
       "",
       "",
-      "Codes for primitives can be grouped to enable pipelining.",
+      "Loading...",
       "",
       "Codes for groups of primitives enable pipelining."
     ],
@@ -8116,7 +8116,7 @@
       "",
       "",
       "",
-      "Prepending a string with pad characters to align it to a certain byte or bit length.",
+      "Loading...",
       "",
       "Prepend a string with leading pad characters to align to a certain length in bits or bytes."
     ],
@@ -8160,7 +8160,7 @@
       "",
       "",
       "",
-      "It's a character used to fill empty space.",
+      "Loading...",
       "",
       "A character used to fill empty space."
     ],
@@ -8182,7 +8182,7 @@
       "",
       "",
       "",
-      "Pre-conversion adds characters pre-padded to fill empty space.",
+      "Loading...",
       "",
       "Pre-conversion added characters to pad empty space."
     ],
@@ -8226,7 +8226,7 @@
       "",
       "",
       "",
-      "First char of CESR code determines code table.",
+      "Loading...",
       "",
       "The first char in the CESR text code determines which code table to use."
     ],
@@ -8523,7 +8523,7 @@
       "",
       "",
       "",
-      "A decentralized controlling peer doesn't create records like a server would.",
+      "Loading...",
       "",
       "A decentralized controller peer doesn't create records in the traditional sense of a server."
     ],
