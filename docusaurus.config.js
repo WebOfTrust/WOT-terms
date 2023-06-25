@@ -91,37 +91,37 @@ const config = {
             label: 'Documentation',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            to: '/howtos-menu',
-            label: 'HowTos',
-            position: 'left',
-            items: [
-              {
-                to: '/docs/howto/embed-github-hosted-image-in-github-wiki-page',
-                label: 'Embed a Github-hosted image in a Github wiki page',
-              },
-              {
-                to: '/docs/howto/markdown-from-ToIP-wiki',
-                label: 'Get Markdown files from ToIP wiki glossary terms',
-              },
-              {
-                to: '/docs/howto/load-toip-glossary-in-weboftrust-github-page',
-                label: 'Load ToIP glossary in weboftrust github page',
-              },
-              {
-                to: '/docs/howto/pull-in-markdown-documents',
-                label: 'Pull in markdown documents',
-              },
-              {
-                to: '/docs/howto/pull-changes-from-toip-to-terms',
-                label: 'Pull in changes from toip terms',
-              },
-              {
-                to: '/docs/howto/why-terms-wot-manage-structure',
-                label: 'The Terms WOT manage structure explained',
-              },
-            ],
-          },
+          // {
+          //   to: '/howtos-menu',
+          //   label: 'HowTos',
+          //   position: 'left',
+          //   items: [
+          //     {
+          //       to: '/docs/howto/embed-github-hosted-image-in-github-wiki-page',
+          //       label: 'Embed a Github-hosted image in a Github wiki page',
+          //     },
+          //     {
+          //       to: '/docs/howto/markdown-from-ToIP-wiki',
+          //       label: 'Get Markdown files from ToIP wiki glossary terms',
+          //     },
+          //     {
+          //       to: '/docs/howto/load-toip-glossary-in-weboftrust-github-page',
+          //       label: 'Load ToIP glossary in weboftrust github page',
+          //     },
+          //     {
+          //       to: '/docs/howto/pull-in-markdown-documents',
+          //       label: 'Pull in markdown documents',
+          //     },
+          //     {
+          //       to: '/docs/howto/pull-changes-from-toip-to-terms',
+          //       label: 'Pull in changes from toip terms',
+          //     },
+          //     {
+          //       to: '/docs/howto/why-terms-wot-manage-structure',
+          //       label: 'The Terms WOT manage structure explained',
+          //     },
+          //   ],
+          // },
           {
             to: '/visualisations',
             label: 'Visualisations',
