@@ -1,483 +1,355 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="808.851" height="1006.954" filter="invert(93%) hue-rotate(180deg)" version="1.1" id="svg943"
-   sodipodi:docname="Backed-Issuance-and-Revocation.svg" inkscape:version="1.2 (dc2aeda, 2022-05-15)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-   <sodipodi:namedview id="namedview945" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25"
-      inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1"
-      showgrid="false" inkscape:zoom="0.62162861" inkscape:cx="155.23739" inkscape:cy="542.92868"
-      inkscape:window-width="1920" inkscape:window-height="1027" inkscape:window-x="0" inkscape:window-y="25"
-      inkscape:window-maximized="1" inkscape:current-layer="svg943" />
-   <defs id="defs560">
-      <style id="style558">
-         @font-face {
-            font-family: &quot;
-            Virgil&quot;
-            ;
-            src: url(https://excalidraw.com/Virgil.woff2)
-         }
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+   filter="invert(93%) hue-rotate(180deg)" viewBox="0 0 808.851 1006.954">
+   <path fill="#fff" d="M0 0h808.851v1006.954H0z" />
+   <path fill="none" stroke="#c92a2a" stroke-linecap="round" stroke-width="2"
+      d="M195.164 206.139c27.37-1.12 49.98 1.5 100.66-.69m-99.01-2.44c38.74 2.2 78.89 3.14 99.03 1.38m-1.99 1.1c4.39 11.26-.46 24.17-1.18 59.15m3.13-60.44c.92 22.17 1.18 43.55.12 62.79m1.81 3.9c-30.62-2.79-55.65-.01-104.6-2.25m102.42.29c-36.48.1-70.51-.1-98.06-1.8m1.76 2.75c-1.32-17.36-7.76-38.16-2.43-63.31m-1.07 61.77c.07-14.38.3-28.85-1.01-65.29" />
 
-         @font-face {
-            font-family: &quot;
-            Cascadia&quot;
-            ;
-            src: url(https://excalidraw.com/Cascadia.woff2)
-         }
-      </style>
-   </defs>
-   <path fill="#fff" d="M0 0h808.851v1006.954H0z" id="path562" />
+   <a xlink:href="/WOT-terms/docs/Terms/glossary/icp">
+      <text x="17.578" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
+         font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(227.986 224.039)">icp</text>
+   </a>
+
+   <a xlink:href="/WOT-terms/docs/Terms/glossary/KEL">
+      <text x="24.609" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
+         font-size="28" style="white-space:pre" text-anchor="middle" transform="translate(208.21 165.355)">KEL</text>
+   </a>
+
    <path fill="none" stroke="#c92a2a" stroke-linecap="round" stroke-width="2"
-      d="M195.164 206.139c27.37-1.12 49.98 1.5 100.66-.69m-99.01-2.44c38.74 2.2 78.89 3.14 99.03 1.38m-1.99 1.1c4.39 11.26-.46 24.17-1.18 59.15m3.13-60.44c.92 22.17 1.18 43.55.12 62.79m1.81 3.9c-30.62-2.79-55.65-.01-104.6-2.25m102.42.29c-36.48.1-70.51-.1-98.06-1.8m1.76 2.75c-1.32-17.36-7.76-38.16-2.43-63.31m-1.07 61.77c.07-14.38.3-28.85-1.01-65.29"
-      id="path564" />
-   <text x="17.578" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(227.986 224.039)"
-      id="text566">icp</text>
-   <text x="24.609" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="28" style="white-space:pre" text-anchor="middle" transform="translate(208.21 165.355)"
-      id="text568">KEL</text>
-   <path fill="none" stroke="#c92a2a" stroke-linecap="round" stroke-width="2"
-      d="M194.476 380.75c36.55-7.1 65.01-.8 97.69-1.04m-97.67-.02c32.8-1.71 69.01-3.06 100.45.83m-3.62-4.58c4.14 20.51 1.38 36.81 3.21 69.31m.04-66.96c-.48 19.54.66 39.58 1.06 63.59m-3.85 2.06c-25.16 3.66-55.47.68-95.79-3.89m100.15 2.38c-34.3 2.04-66.19 2.96-101.01 2.39m.34 1.05c-3.55-26.79 2.89-48.97-.66-66.55m-1.42 63.03c1.78-15.78 1.41-35.57 1.03-63.94"
-      id="path570" />
-   <text x="17.578" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(226.638 399.34)"
-      id="text572">ixn</text>
-   <g stroke-linecap="round" mask="url(#mask-IMspdoaTDFl2iLUlGaEWg)" id="g580">
-      <path fill="none" stroke="#c92a2a" stroke-width="2"
-         d="M251.16 379.576c-4.46-36.94-1.47-71 1.56-105.66m-.91 102.31c1.29-30.9-1.13-66.26-4.41-104.32"
-         id="path574" />
-      <path fill="none" stroke="#c92a2a" stroke-width="2"
-         d="M259.34 301.706c-6.25-11.51-6.54-19.96-8.23-29.23m8.88 25.88c-2.96-6.58-8.49-17.67-14.19-27.89"
-         id="path576" />
-      <path fill="none" stroke="#c92a2a" stroke-width="2"
-         d="M238.88 303.316c.58-11.66 7.15-20.65 12.23-30.84m-11.58 27.49c3.57-7.19 4.53-18.79 6.27-29.5"
-         id="path578" />
+      d="M194.476 380.75c36.55-7.1 65.01-.8 97.69-1.04m-97.67-.02c32.8-1.71 69.01-3.06 100.45.83m-3.62-4.58c4.14 20.51 1.38 36.81 3.21 69.31m.04-66.96c-.48 19.54.66 39.58 1.06 63.59m-3.85 2.06c-25.16 3.66-55.47.68-95.79-3.89m100.15 2.38c-34.3 2.04-66.19 2.96-101.01 2.39m.34 1.05c-3.55-26.79 2.89-48.97-.66-66.55m-1.42 63.03c1.78-15.78 1.41-35.57 1.03-63.94" />
+   <a xlink:href="/WOT-terms/docs/Terms/glossary/ixn">
+      <text x="17.578" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
+         font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(226.638 399.34)">ixn</text>
+   </a>
+
+   <g fill="none" stroke="#c92a2a" stroke-linecap="round" stroke-width="2" mask="url(#a)">
+      <path d="M251.16 379.576c-4.46-36.94-1.47-71 1.56-105.66m-.91 102.31c1.29-30.9-1.13-66.26-4.41-104.32" />
+      <path d="M259.34 301.706c-6.25-11.51-6.54-19.96-8.23-29.23m8.88 25.88c-2.96-6.58-8.49-17.67-14.19-27.89" />
+      <path d="M238.88 303.316c.58-11.66 7.15-20.65 12.23-30.84m-11.58 27.49c3.57-7.19 4.53-18.79 6.27-29.5" />
    </g>
-   <mask id="mask-IMspdoaTDFl2iLUlGaEWg">
-      <path fill="#fff" d="M0 0h354.326v580.796H0z" id="path582" />
-      <path d="M244.481 313.216H256.2v24h-11.719z" id="path584" />
+   <mask id="a">
+      <path fill="#fff" d="M0 0h354.326v580.796H0z" />
+      <path d="M244.481 313.216H256.2v24h-11.719z" />
    </mask>
    <text x="5.859" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(244.481 313.216)"
-      id="text587">p</text>
-   <text x="16.406" fill="#2b8a3e" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="28" style="white-space:pre" text-anchor="middle" transform="translate(663.337 185.946)"
-      id="text589">VC</text>
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(244.481 313.216)">p</text>
+   <a xlink:href="/WOT-terms/docs/Terms/glossary/VC">
+      <text x="16.406" fill="#2b8a3e" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
+         font-size="28" style="white-space:pre" text-anchor="middle" transform="translate(663.337 185.946)">VC</text>
+   </a>
    <path fill="none" stroke="#2b8a3e" stroke-linecap="round" stroke-width="2"
-      d="M634.464 226.518c27.92-4.09 59.14-.81 94.58.89m-99.9-2.9c35.81 3.72 73.73 2.34 101.85 1.61m-2.73.57c.29 19.74 1.93 44.27 4.66 66.12m-.87-68.07c-1.06 16.72.12 30.87-1.31 66.11m.41 2.97c-23.99-5.34-42.09-5.02-96.71-2.02m96.3-1.21c-36.14-4.07-75.24-.85-99.8-.33m-2.25-1.93c.29-15.35 5.08-35.26 1.64-61.94m1 63.36c-.5-15.34-2.91-32.43-1.11-64.61"
-      id="path591" />
-   <text x="17.578" fill="#2b8a3e" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(663.176 245.958)"
-      id="text593">bis</text>
-   <g stroke-linecap="round" mask="url(#mask-gGVsNIArTvlWj0wLw04o4)" id="g601">
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M638.096 294.713c-52.37 55.75-99.64 109.9-164.16 177.86m163.61-178.39c-39.34 42.96-75.47 83.86-160.54 180.03"
-         id="path595" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M488.996 446.583c-6.06 9.77-5.44 15.38-14.48 24.41m13.81-25.05c-3.06 6.99-4.85 13.03-10.11 27.03"
-         id="path597" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M504.366 460.183c-10.94 5.27-15.15 6.61-29.85 10.81m29.17-11.45c-6.32 4.05-11.61 7-25.47 13.43"
-         id="path599" />
+      d="M634.464 226.518c27.92-4.09 59.14-.81 94.58.89m-99.9-2.9c35.81 3.72 73.73 2.34 101.85 1.61m-2.73.57c.29 19.74 1.93 44.27 4.66 66.12m-.87-68.07c-1.06 16.72.12 30.87-1.31 66.11m.41 2.97c-23.99-5.34-42.09-5.02-96.71-2.02m96.3-1.21c-36.14-4.07-75.24-.85-99.8-.33m-2.25-1.93c.29-15.35 5.08-35.26 1.64-61.94m1 63.36c-.5-15.34-2.91-32.43-1.11-64.61" />
+
+   <a xlink:href="/WOT-terms/docs/Terms/glossary/bis">
+      <text x="17.578" fill="#2b8a3e" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
+         font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(663.176 245.958)">bis</text>
+   </a>
+   <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2" mask="url(#b)">
+      <path
+         d="M638.096 294.713c-52.37 55.75-99.64 109.9-164.16 177.86m163.61-178.39c-39.34 42.96-75.47 83.86-160.54 180.03" />
+      <path d="M488.996 446.583c-6.06 9.77-5.44 15.38-14.48 24.41m13.81-25.05c-3.06 6.99-4.85 13.03-10.11 27.03" />
+      <path d="M504.366 460.183c-10.94 5.27-15.15 6.61-29.85 10.81m29.17-11.45c-6.32 4.05-11.61 7-25.47 13.43" />
    </g>
-   <mask id="mask-gGVsNIArTvlWj0wLw04o4">
-      <path fill="#fff" d="M0 0h898.556v575.246H0z" id="path603" />
-      <path d="M533.199 372.865h46.875v24h-46.875z" id="path605" />
+   <mask id="b">
+      <path fill="#fff" d="M0 0h898.556v575.246H0z" />
+      <path d="M533.199 372.865h46.875v24h-46.875z" />
    </mask>
    <text x="23.438" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(533.2 372.865)"
-      id="text608">ra.d</text>
-
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(533.2 372.865)">ra.d</text>
    <path fill="none" stroke="#1864ab" stroke-linecap="round" stroke-width="2"
-      d="M394.305 8.29c29.55-2.32 63.53-2.5 111.69 2.35m-113.1-.79c31.87-1.28 62.62-1.08 110.16-.08m-2.03.04c1.24 23.7 1.22 42.62 4.86 70.15m-3.58-69.55c.81 21.85 3.56 42.81 1.31 67.52m3.29 1.7c-39.08-1.62-66.99.93-118.36-3.48m115.39.53c-41.88-.37-85.01-.33-110.9 1.73m-2.96 2.19c-.66-24.97 1.59-46.18 3.2-72.96m-.14 69.01c-2.26-19.04-1.26-38.09-2.95-65.38"
-      id="path610" />
-   <a id="a948" xlink:href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ACDC" title="test">
+      d="M394.305 8.29c29.55-2.32 63.53-2.5 111.69 2.35m-113.1-.79c31.87-1.28 62.62-1.08 110.16-.08m-2.03.04c1.24 23.7 1.22 42.62 4.86 70.15m-3.58-69.55c.81 21.85 3.56 42.81 1.31 67.52m3.29 1.7c-39.08-1.62-66.99.93-118.36-3.48m115.39.53c-41.88-.37-85.01-.33-110.9 1.73m-2.96 2.19c-.66-24.97 1.59-46.18 3.2-72.96m-.14 69.01c-2.26-19.04-1.26-38.09-2.95-65.38" />
+
+   <a xlink:href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ACDC">
       <text x="23.438" fill="#1864ab" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-         font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(424.508 31.5)"
-         id="text612">ACDC</text>
+         font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(424.508 31.5)">ACDC</text>
    </a>
-   <g stroke-linecap="round" mask="url(#mask-GkB0RGzcYsqODLj3UMREj)" id="g620">
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M452.767 77.85c5.62 41.09 5.33 77.83 12.8 148.7m-9.55-146.35c3.29 42.88 7.23 86.14 10.65 142.98"
-         id="path614" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M451.667 192.34c7.72 11.29 8.07 18.2 15.33 32.75m-12.07-30.4c2.62 9 7.29 18.34 13.17 27.04" id="path616" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M472.147 190.98c2.43 11.31-2.49 18.56-5.15 34.11m8.4-31.77c-3.35 9.15-4.66 18.89-7.3 28.41" id="path618" />
+
+   <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2" mask="url(#c)">
+      <path d="M452.767 77.85c5.62 41.09 5.33 77.83 12.8 148.7m-9.55-146.35c3.29 42.88 7.23 86.14 10.65 142.98" />
+      <path d="M451.667 192.34c7.72 11.29 8.07 18.2 15.33 32.75m-12.07-30.4c2.62 9 7.29 18.34 13.17 27.04" />
+      <path d="M472.147 190.98c2.43 11.31-2.49 18.56-5.15 34.11m8.4-31.77c-3.35 9.15-4.66 18.89-7.3 28.41" />
    </g>
-   <mask id="mask-GkB0RGzcYsqODLj3UMREj">
-      <path fill="#fff" d="M0 0h565.247v324.642H0z" id="path622" />
-      <path d="M448.734 140.946h23.438v24h-23.438z" id="path624" />
+   <mask id="c">
+      <path fill="#fff" d="M0 0h565.247v324.642H0z" />
+      <path d="M448.734 140.946h23.438v24h-23.438z" />
    </mask>
    <text x="11.719" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(448.734 140.946)"
-      id="text627">ri</text>
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(448.734 140.946)">ri</text>
    <path fill="none" stroke="#862e9c" stroke-linecap="round" stroke-width="2"
-      d="M416.077 226.765c22.54 1.11 43.43 1.63 98.22.25m-97.27.36c25.92-2.32 49.14-2.06 101.06-2.31m-.13 1.21c1.23 16.88.27 38.69-.77 67.87m-.57-66.01c.88 15.92 1.27 29 .16 62.78m3.05-.25c-38.77-.83-76.34-.38-105.1-2.01m102.78 1.42c-25.56.68-49.04.28-100.14 0m-1.01-.85c-1.63-19.72-.7-48.11.43-63.79m-.52 64.04c1.43-17.96 1.67-37.82-1.32-63.57"
-      id="path629" />
-   <text x="17.578" fill="#862e9c" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(449.209 246.285)"
-      id="text631">vcp</text>
-   <g stroke-linecap="round" mask="url(#mask-YxPMEbh7O0KX_oLeJq--X)" id="g639">
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M404.355 86.888c-46.47 36.01-90.55 69.84-142.7 114.57m142.91-118.21c-47.46 39.21-98.97 82.68-140.97 118.32"
-         id="path633" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M278.185 177.948c-6.79 6.57-11.05 12.18-15.05 24.1m15.26-27.74c-3.52 9.01-9.79 20.42-13.32 27.84"
-         id="path635" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M291.445 193.608c-10.95 1.81-19.35 2.53-28.31 8.44m28.52-12.07c-8.44 3.26-19.41 9.12-26.58 12.17"
-         id="path637" />
+      d="M416.077 226.765c22.54 1.11 43.43 1.63 98.22.25m-97.27.36c25.92-2.32 49.14-2.06 101.06-2.31m-.13 1.21c1.23 16.88.27 38.69-.77 67.87m-.57-66.01c.88 15.92 1.27 29 .16 62.78m3.05-.25c-38.77-.83-76.34-.38-105.1-2.01m102.78 1.42c-25.56.68-49.04.28-100.14 0m-1.01-.85c-1.63-19.72-.7-48.11.43-63.79m-.52 64.04c1.43-17.96 1.67-37.82-1.32-63.57" />
+   <a xlink:href="/WOT-terms/docs/Terms/glossary/vcp">
+      <text x="17.578" fill="#862e9c" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
+         font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(449.209 246.285)">vcp</text>
+   </a>
+   <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2" mask="url(#d)">
+      <path
+         d="M404.355 86.888c-46.47 36.01-90.55 69.84-142.7 114.57m142.91-118.21c-47.46 39.21-98.97 82.68-140.97 118.32" />
+      <path d="M278.185 177.948c-6.79 6.57-11.05 12.18-15.05 24.1m15.26-27.74c-3.52 9.01-9.79 20.42-13.32 27.84" />
+      <path d="M291.445 193.608c-10.95 1.81-19.35 2.53-28.31 8.44m28.52-12.07c-8.44 3.26-19.41 9.12-26.58 12.17" />
    </g>
-   <mask id="mask-YxPMEbh7O0KX_oLeJq--X">
-      <path fill="#fff" d="M0 0h647.192v300.977H0z" id="path641" />
-      <path d="M327.527 130.717h11.719v24h-11.719z" id="path643" />
+   <mask id="d">
+      <path fill="#fff" d="M0 0h647.192v300.977H0z" />
+      <path d="M327.527 130.717h11.719v24h-11.719z" />
    </mask>
    <text x="5.859" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(327.527 130.717)"
-      id="text646">i</text>
-   <text x="32.813" fill="#862e9c" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="28" style="white-space:pre" text-anchor="middle" transform="translate(483.986 183.088)"
-      id="text648">MGMT</text>
-   <g stroke-linecap="round" mask="url(#mask-p_-ULBg1Ox9Co5_vWz8CR)" id="g656">
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M663.475 221.717c-45.15-48.37-98.44-100.25-155.24-152.89m156.93 152.98c-38.43-35.45-76.59-72.88-155.55-155.06"
-         id="path650" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M536.145 80.317c-5.81-2.04-19.5-9.24-28.94-10.97m30.88 11.08c-7.98-2.57-16.07-6.18-29.29-13.48"
-         id="path652" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M521.425 94.617c-.98-6.46-9.98-18.21-14.22-25.27m16.16 25.37c-4.51-6.13-9.08-13.16-14.57-27.77"
-         id="path654" />
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(327.527 130.717)">i</text>
+
+   <a xlink:href="/WOT-terms/docs/Terms/glossary/MGMT">
+      <text x="32.813" fill="#862e9c" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
+         font-size="28" style="white-space:pre" text-anchor="middle" transform="translate(483.986 183.088)">MGMT</text>
+   </a>
+
+   <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2" mask="url(#e)">
+      <path
+         d="M663.475 221.717c-45.15-48.37-98.44-100.25-155.24-152.89m156.93 152.98c-38.43-35.45-76.59-72.88-155.55-155.06" />
+      <path d="M536.145 80.317c-5.81-2.04-19.5-9.24-28.94-10.97m30.88 11.08c-7.98-2.57-16.07-6.18-29.29-13.48" />
+      <path d="M521.425 94.617c-.98-6.46-9.98-18.21-14.22-25.27m16.16 25.37c-4.51-6.13-9.08-13.16-14.57-27.77" />
    </g>
-   <mask id="mask-p_-ULBg1Ox9Co5_vWz8CR">
-      <path fill="#fff" d="M0 0h917.42v476.018H0z" id="path658" />
-      <path d="M581.244 131.936h11.719v24h-11.719z" id="path660" />
+   <mask id="e">
+      <path fill="#fff" d="M0 0h917.42v476.018H0z" />
+      <path d="M581.244 131.936h11.719v24h-11.719z" />
    </mask>
    <text x="5.859" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(581.244 131.936)"
-      id="text663">i</text>
-   <g stroke-linecap="round" mask="url(#mask-z5tzhbcugi2Sx2JfKa6y6)" id="g671">
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M410.283 248.953c-34.71.2-69.8-5.98-107.51-10.27m108.79 10.87c-36.18-3.63-70.43-9.16-111.06-12.9"
-         id="path665" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M326.713 229.263c-8.51 5.44-17.62 5.7-24.27 10.35m25.54-9.75c-8.77 2.42-15.61 3.68-27.81 7.72"
-         id="path667" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M324.533 249.673c-8.05-.96-16.48-7.07-22.09-10.06m23.36 10.65c-8.05-4.31-14.17-9.77-25.63-12.68"
-         id="path669" />
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(581.244 131.936)">i</text>
+   <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2" mask="url(#f)">
+      <path d="M410.283 248.953c-34.71.2-69.8-5.98-107.51-10.27m108.79 10.87c-36.18-3.63-70.43-9.16-111.06-12.9" />
+      <path d="M326.713 229.263c-8.51 5.44-17.62 5.7-24.27 10.35m25.54-9.75c-8.77 2.42-15.61 3.68-27.81 7.72" />
+      <path d="M324.533 249.673c-8.05-.96-16.48-7.07-22.09-10.06m23.36 10.65c-8.05-4.31-14.17-9.77-25.63-12.68" />
    </g>
-   <mask id="mask-z5tzhbcugi2Sx2JfKa6y6">
-      <path fill="#fff" d="M0 0h625.573v362.561H0z" id="path673" />
-      <path d="M345.299 230.433h23.438v24h-23.438z" id="path675" />
+   <mask id="f">
+      <path fill="#fff" d="M0 0h625.573v362.561H0z" />
+      <path d="M345.299 230.433h23.438v24h-23.438z" />
    </mask>
    <text x="11.719" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(345.299 230.433)"
-      id="text678">ii</text>
-   <g stroke-linecap="round" mask="url(#mask-6cPr2gfm4dvNdCipTucZQ)" id="g686">
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M295.442 402.803c43.01-31.49 79.58-66.67 130.6-112.95m-126.24 111.44c39.14-33.36 79.8-67.39 125.39-106.67"
-         id="path680" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M408.012 321.353c9.04-5.55 12.63-16.24 18.95-30.02m-14.59 28.51c2.68-6.56 7.56-14.02 13.74-23.74"
-         id="path682" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M394.672 305.763c12.79-1.12 20.32-7.2 32.29-14.43m-27.94 12.92c6.84-1.59 15.99-4.06 27.09-8.15"
-         id="path684" />
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(345.299 230.433)">ii</text>
+   <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2" mask="url(#g)">
+      <path
+         d="M295.442 402.803c43.01-31.49 79.58-66.67 130.6-112.95m-126.24 111.44c39.14-33.36 79.8-67.39 125.39-106.67" />
+      <path d="M408.012 321.353c9.04-5.55 12.63-16.24 18.95-30.02m-14.59 28.51c2.68-6.56 7.56-14.02 13.74-23.74" />
+      <path d="M394.672 305.763c12.79-1.12 20.32-7.2 32.29-14.43m-27.94 12.92c6.84-1.59 15.99-4.06 27.09-8.15" />
    </g>
-   <mask id="mask-6cPr2gfm4dvNdCipTucZQ">
-      <path fill="#fff" d="M0 0h524.269v611.265H0z" id="path688" />
-      <path d="M343.492 335.672h35.156v24h-35.156z" id="path690" />
+   <mask id="g">
+      <path fill="#fff" d="M0 0h524.269v611.265H0z" />
+      <path d="M343.492 335.672h35.156v24h-35.156z" />
    </mask>
    <text x="17.578" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(343.492 335.672)"
-      id="text693">a.d</text>
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(343.492 335.672)">a.d</text>
    <path fill="none" stroke="#c92a2a" stroke-linecap="round" stroke-width="2"
-      d="M198.413 735.08c32.11-4.76 62.66-3.11 99.23 3.87m-100.57-2.01c26.55-1.3 52.4-4.52 100.16-1.22m3.05-.25c-3.53 22.85-4.77 46.54-5.1 61.99m2.78-62.58c.19 15.31 1.78 30.95-.14 64m-1.01-.85c-37.39 2.26-72.64-2.97-99.57.21m99.48.04c-31.37 3.59-62.81 3.99-101.32.43m-.39-.17c2.58-22.47 1.02-48.03 2.47-63.42m-.63 65.92c.1-20.72-.62-41.25 1.42-67.07"
-      id="path695" />
-   <text x="17.578" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(229.665 755.09)"
-      id="text697">ixn</text>
-   <g stroke-linecap="round" mask="url(#mask-QJ6eyWnhNVQMB1vomQxIY)" id="g705">
-      <path fill="none" stroke="#c92a2a" stroke-width="2"
-         d="M250.421 729.92c-1.45-24.11-3.83-58.21.53-97.45m-.04 97.35c-2.43-36.36-1.36-77.43-2.26-95.49"
-         id="path699" />
-      <path fill="none" stroke="#c92a2a" stroke-width="2"
-         d="M260.281 660.67c-3.9-3.06-9.36-15.96-9.76-26.68m10.26 26.59c-5.83-8.46-8.79-21.76-12.55-24.73"
-         id="path701" />
-      <path fill="none" stroke="#c92a2a" stroke-width="2"
-         d="M239.761 661.07c2.24-2.85 2.94-15.87 10.76-27.08m-10.26 26.99c2.22-8.92 7.31-22.38 7.97-25.13"
-         id="path703" />
+      d="M198.413 735.08c32.11-4.76 62.66-3.11 99.23 3.87m-100.57-2.01c26.55-1.3 52.4-4.52 100.16-1.22m3.05-.25c-3.53 22.85-4.77 46.54-5.1 61.99m2.78-62.58c.19 15.31 1.78 30.95-.14 64m-1.01-.85c-37.39 2.26-72.64-2.97-99.57.21m99.48.04c-31.37 3.59-62.81 3.99-101.32.43m-.39-.17c2.58-22.47 1.02-48.03 2.47-63.42m-.63 65.92c.1-20.72-.62-41.25 1.42-67.07" />
+   <a xlink:href="/WOT-terms/docs/Terms/glossary/ixn">
+      <text x="17.578" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
+         font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(229.665 755.09)">ixn</text>
+   </a>
+
+   <g fill="none" stroke="#c92a2a" stroke-linecap="round" stroke-width="2" mask="url(#h)">
+      <path d="M250.421 729.92c-1.45-24.11-3.83-58.21.53-97.45m-.04 97.35c-2.43-36.36-1.36-77.43-2.26-95.49" />
+      <path d="M260.281 660.67c-3.9-3.06-9.36-15.96-9.76-26.68m10.26 26.59c-5.83-8.46-8.79-21.76-12.55-24.73" />
+      <path d="M239.761 661.07c2.24-2.85 2.94-15.87 10.76-27.08m-10.26 26.99c2.22-8.92 7.31-22.38 7.97-25.13" />
    </g>
-   <mask id="mask-QJ6eyWnhNVQMB1vomQxIY">
-      <path fill="#fff" d="M0 0h350.119v930.309H0z" id="path707" />
-      <path d="M243.483 670.185h11.719v24h-11.719z" id="path709" />
+   <mask id="h">
+      <path fill="#fff" d="M0 0h350.119v930.309H0z" />
+      <path d="M243.483 670.185h11.719v24h-11.719z" />
    </mask>
    <text x="5.859" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(243.483 670.185)"
-      id="text712">p</text>
-   <g stroke-linecap="round" mask="url(#mask-CgGidg4FbV8uojPH0y9bb)" id="g720">
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M624.894 257.451c-23.78 1.56-49.41 2.94-101.27.2m104.36-1.24c-24.29 3.23-46.27 1.35-107.33-1.71"
-         id="path714" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M547.514 245.241c-3.73 3.14-9.32 7.6-23.9 12.09m26.98-13.14c-7.8 5.28-13.3 5.93-29.95 10.19" id="path716" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M546.464 265.731c-3.5-2.18-8.82-3.02-22.85-8.4m25.93 7.36c-7.58.9-12.85-2.81-28.9-10.31" id="path718" />
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(243.483 670.185)">p</text>
+   <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2" mask="url(#i)">
+      <path d="M624.894 257.451c-23.78 1.56-49.41 2.94-101.27.2m104.36-1.24c-24.29 3.23-46.27 1.35-107.33-1.71" />
+      <path d="M547.514 245.241c-3.73 3.14-9.32 7.6-23.9 12.09m26.98-13.14c-7.8 5.28-13.3 5.93-29.95 10.19" />
+      <path d="M546.464 265.731c-3.5-2.18-8.82-3.02-22.85-8.4m25.93 7.36c-7.58.9-12.85-2.81-28.9-10.31" />
    </g>
-   <mask id="mask-CgGidg4FbV8uojPH0y9bb">
-      <path fill="#fff" d="M0 0h832.767v361.202H0z" id="path722" />
-      <path d="M550.25 244.566h46.875v24H550.25z" id="path724" />
+   <mask id="i">
+      <path fill="#fff" d="M0 0h832.767v361.202H0z" />
+      <path d="M550.25 244.566h46.875v24H550.25z" />
    </mask>
    <text x="23.438" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(550.25 244.566)"
-      id="text727">ra.i</text>
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(550.25 244.566)">ra.i</text>
    <path fill="none" stroke="#862e9c" stroke-linecap="round" stroke-width="2"
-      d="M376.374 449.692c27.63.96 49.55-1.69 97.57.69m-101.07-2.23c21.3-2.14 43.02-2.85 98.99-1.29m.4 1.42c-.55 25.87-1.35 46.13 0 66.04m-.11-67.29c.97 21.79-1.65 43.47.11 65.16m-1.21-.77c-16.56-.04-36.95-3.78-99.13 4.4m100.48-4.24c-21.5-1.9-44.56-.73-99.7.11m3.89-.15c-3.43-21.31-7.12-37.37-6.15-65.2m.54 66.79c2.54-24.14 3.01-48.43.85-64.09"
-      id="path729" />
-   <text x="17.578" fill="#862e9c" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(405.106 467.852)"
-      id="text731">vrt</text>
-   <g stroke-linecap="round" mask="url(#mask-zFO_rQI53D-XVkIw0l4pe)" id="g739">
-      <path fill="none" stroke="#862e9c" stroke-width="2"
-         d="M426.613 441.845c14.57-49 21.93-103.49 41.26-147.29m-37.57 146.28c9.93-46.36 22.78-90.48 35.26-146.87"
-         id="path733" />
-      <path fill="none" stroke="#862e9c" stroke-width="2"
-         d="M465.623 323.735c3.07-7.71-2.81-21.4 2.97-29.39m.72 28.38c-2.14-9.35-1.35-16.34-3.03-28.97" id="path735" />
-      <path fill="none" stroke="#862e9c" stroke-width="2"
-         d="M445.643 319.035c10.05-6.34 11.08-18.41 22.95-24.69m-19.26 23.69c4.15-7.81 11.24-13.32 16.95-24.28"
-         id="path737" />
+      d="M376.374 449.692c27.63.96 49.55-1.69 97.57.69m-101.07-2.23c21.3-2.14 43.02-2.85 98.99-1.29m.4 1.42c-.55 25.87-1.35 46.13 0 66.04m-.11-67.29c.97 21.79-1.65 43.47.11 65.16m-1.21-.77c-16.56-.04-36.95-3.78-99.13 4.4m100.48-4.24c-21.5-1.9-44.56-.73-99.7.11m3.89-.15c-3.43-21.31-7.12-37.37-6.15-65.2m.54 66.79c2.54-24.14 3.01-48.43.85-64.09" />
+
+   <a xlink:href="/WOT-terms/docs/Terms/glossary/vrt">
+      <text x="17.578" fill="#862e9c" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
+         font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(405.106 467.852)">vrt</text>
+   </a>
+
+   <g fill="none" stroke="#862e9c" stroke-linecap="round" stroke-width="2" mask="url(#j)">
+      <path d="M426.613 441.845c14.57-49 21.93-103.49 41.26-147.29m-37.57 146.28c9.93-46.36 22.78-90.48 35.26-146.87" />
+      <path d="M465.623 323.735c3.07-7.71-2.81-21.4 2.97-29.39m.72 28.38c-2.14-9.35-1.35-16.34-3.03-28.97" />
+      <path d="M445.643 319.035c10.05-6.34 11.08-18.41 22.95-24.69m-19.26 23.69c4.15-7.81 11.24-13.32 16.95-24.28" />
    </g>
-   <mask id="mask-zFO_rQI53D-XVkIw0l4pe">
-      <path fill="#fff" d="M0 0h564.835v689.555H0z" id="path741" />
-      <path d="M441.605 356.019h11.719v24h-11.719z" id="path743" />
+   <mask id="j">
+      <path fill="#fff" d="M0 0h564.835v689.555H0z" />
+      <path d="M441.605 356.019h11.719v24h-11.719z" />
    </mask>
    <text x="5.859" fill="#862e9c" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(441.605 356.02)"
-      id="text746">p</text>
-   <g stroke-linecap="round" mask="url(#mask-wiLjgyw146QncnFW-zORT)" id="g754">
-      <path fill="none" stroke="#c92a2a" stroke-width="2"
-         d="M247.778 550.521c-2.7-27.8-4.04-58.11-2.29-99.17m1.9 98.26c.96-37.95-.15-74.37 1.31-99.78" id="path748" />
-      <path fill="none" stroke="#c92a2a" stroke-width="2"
-         d="M258.728 478.291c-4.3-7.48-8.34-17.47-12-26.28m11.62 25.36c-2.11-10.97-6.83-20.39-8.41-26.88"
-         id="path750" />
-      <path fill="none" stroke="#c92a2a" stroke-width="2"
-         d="M238.218 477.691c1.43-7.35 3.1-17.17 8.51-25.68m-8.89 24.76c5.49-10.7 8.37-19.9 12.1-26.28" id="path752" />
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(441.605 356.02)">p</text>
+   <g fill="none" stroke="#c92a2a" stroke-linecap="round" stroke-width="2" mask="url(#k)">
+      <path d="M247.778 550.521c-2.7-27.8-4.04-58.11-2.29-99.17m1.9 98.26c.96-37.95-.15-74.37 1.31-99.78" />
+      <path d="M258.728 478.291c-4.3-7.48-8.34-17.47-12-26.28m11.62 25.36c-2.11-10.97-6.83-20.39-8.41-26.88" />
+      <path d="M238.218 477.691c1.43-7.35 3.1-17.17 8.51-25.68m-8.89 24.76c5.49-10.7 8.37-19.9 12.1-26.28" />
    </g>
-   <mask id="mask-wiLjgyw146QncnFW-zORT">
-      <path fill="#fff" d="M0 0h347.463v751.919H0z" id="path756" />
-      <path d="M241.461 487.852h11.719v24h-11.719z" id="path758" />
+   <mask id="k">
+      <path fill="#fff" d="M0 0h347.463v751.919H0z" />
+      <path d="M241.461 487.852h11.719v24h-11.719z" />
    </mask>
    <text x="5.859" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(241.461 487.852)"
-      id="text761">p</text>
-   <g stroke-linecap="round" mask="url(#mask-nEkZZjHtdWdbdhcqORVPQ)" id="g769">
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M303.341 770.527c106.58-141.47 214.43-284.46 354.33-475.59m-353.28 476.16c86.43-118.46 175.07-239.51 353.24-476.66"
-         id="path763" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M646.901 321.527c2.77-4.8 10.16-14.14 10.31-26.66m-7.67 28.08c2.33-6.29 2.11-14.44 7.56-29.33"
-         id="path765" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M630.471 309.237c7.65-1.16 19.96-6.82 26.74-14.37m-24.1 15.79c6.72-2.96 10.66-7.99 23.99-17.04"
-         id="path767" />
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(241.461 487.852)">p</text>
+   <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2" mask="url(#l)">
+      <path
+         d="M303.341 770.527c106.58-141.47 214.43-284.46 354.33-475.59m-353.28 476.16c86.43-118.46 175.07-239.51 353.24-476.66" />
+      <path d="M646.901 321.527c2.77-4.8 10.16-14.14 10.31-26.66m-7.67 28.08c2.33-6.29 2.11-14.44 7.56-29.33" />
+      <path d="M630.471 309.237c7.65-1.16 19.96-6.82 26.74-14.37m-24.1 15.79c6.72-2.96 10.66-7.99 23.99-17.04" />
    </g>
-   <mask id="mask-nEkZZjHtdWdbdhcqORVPQ">
-      <path fill="#fff" d="M0 0h757.843v1347.589H0z" id="path771" />
-      <path d="M463.424 520.971h35.156v24h-35.156z" id="path773" />
+   <mask id="l">
+      <path fill="#fff" d="M0 0h757.843v1347.589H0z" />
+      <path d="M463.424 520.971h35.156v24h-35.156z" />
    </mask>
    <text x="17.578" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(463.424 520.971)"
-      id="text776">a.d</text>
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(463.424 520.971)">a.d</text>
    <path fill="none" stroke="#c92a2a" stroke-linecap="round" stroke-width="2"
-      d="M201.857 560.019c22.69-2.12 47.17 1.06 94.52-.29m-98.51-1.37c29.6-1.27 60.26-.81 99.76.21m3.96-1.05c-3.95 18.46.69 36.79 1.29 61.36m-1.91-61.42c-.93 18.83.61 36.04-.66 65.23m-3.29-.89c-24.14.67-58.29-.77-101.83 2.84m102.15-1.86c-24.38 2.4-47.32 1.74-98.07-.41m-1.87-.03c-.31-15.11-3.01-34.8 3.81-65.76m-1.82 64.78c.57-16.19.94-33.88.31-63.86"
-      id="path778" />
-   <text x="17.578" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(231.468 578.569)"
-      id="text780">ixn</text>
-   <g stroke-linecap="round" mask="url(#mask-qutSCFul5Kt622HsLQzqF)" id="g786">
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M301.67 599.268c32.79-37.79 60.97-69 75.51-83.44m-75.51 81.31c21.52-22.61 44.42-48.23 76.93-82.18M366.27 544.968c6.76-15.65 9.66-25.08 10.7-27.63m-10.7 25.49c2.42-6.84 7.02-16.7 12.12-26.36"
-         id="path782" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M351.36 530.868c12.39-10.23 21.1-14.17 25.61-13.53m-25.61 11.39c6.43-2.86 15.24-8.74 27.03-12.26"
-         id="path784" />
+      d="M201.857 560.019c22.69-2.12 47.17 1.06 94.52-.29m-98.51-1.37c29.6-1.27 60.26-.81 99.76.21m3.96-1.05c-3.95 18.46.69 36.79 1.29 61.36m-1.91-61.42c-.93 18.83.61 36.04-.66 65.23m-3.29-.89c-24.14.67-58.29-.77-101.83 2.84m102.15-1.86c-24.38 2.4-47.32 1.74-98.07-.41m-1.87-.03c-.31-15.11-3.01-34.8 3.81-65.76m-1.82 64.78c.57-16.19.94-33.88.31-63.86" />
+   <a xlink:href="/WOT-terms/docs/Terms/glossary/ixn">
+      <text x="17.578" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
+         font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(231.468 578.569)">ixn</text>
+   </a>
+   <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2" mask="url(#m)">
+      <path
+         d="M301.67 599.268c32.79-37.79 60.97-69 75.51-83.44m-75.51 81.31c21.52-22.61 44.42-48.23 76.93-82.18m-12.33 30.01c6.76-15.65 9.66-25.08 10.7-27.63m-10.7 25.49c2.42-6.84 7.02-16.7 12.12-26.36" />
+      <path d="M351.36 530.868c12.39-10.23 21.1-14.17 25.61-13.53m-25.61 11.39c6.43-2.86 15.24-8.74 27.03-12.26" />
    </g>
-   <mask id="mask-qutSCFul5Kt622HsLQzqF">
-      <path fill="#fff" d="M0 0h478.816v780.146H0z" id="path788" />
-      <path d="M322.875 543.123h35.156v24h-35.156z" id="path790" />
+   <mask id="m">
+      <path fill="#fff" d="M0 0h478.816v780.146H0z" />
+      <path d="M322.875 543.123h35.156v24h-35.156z" />
    </mask>
    <text x="17.578" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(322.875 543.123)"
-      id="text793">a.d</text>
-   <g stroke-linecap="round" mask="url(#mask-ZDfNMYmgelMjJUqay5Ckt)" id="g801">
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M283.852 369.799c43.81-34.53 90.48-79.23 126.83-108.85m-126.92 109.1c42.27-33.83 82.55-67.97 125.07-108.63"
-         id="path795" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M394.702 287.049c3.57-6.06 9.46-20.94 14.14-26.48m-14.24 26.72c5.12-6.3 9.71-14.35 12.39-26.25"
-         id="path797" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M380.752 271.989c8.73-.44 19.66-9.88 28.09-11.42m-28.18 11.67c9.27-1.72 18.27-4.99 26.33-11.2"
-         id="path799" />
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(322.875 543.123)">a.d</text>
+   <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2" mask="url(#n)">
+      <path
+         d="M283.852 369.799c43.81-34.53 90.48-79.23 126.83-108.85m-126.92 109.1c42.27-33.83 82.55-67.97 125.07-108.63" />
+      <path d="M394.702 287.049c3.57-6.06 9.46-20.94 14.14-26.48m-14.24 26.72c5.12-6.3 9.71-14.35 12.39-26.25" />
+      <path d="M380.752 271.989c8.73-.44 19.66-9.88 28.09-11.42m-28.18 11.67c9.27-1.72 18.27-4.99 26.33-11.2" />
    </g>
-   <mask id="mask-ZDfNMYmgelMjJUqay5Ckt">
-      <path fill="#fff" d="M0 0h510.678v579.921H0z" id="path803" />
-      <path d="M329.902 304.328h35.156v24h-35.156z" id="path805" />
+   <mask id="n">
+      <path fill="#fff" d="M0 0h510.678v579.921H0z" />
+      <path d="M329.902 304.328h35.156v24h-35.156z" />
    </mask>
    <text x="17.578" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(329.902 304.328)"
-      id="text808">a.i</text>
-   <g stroke-linecap="round" mask="url(#mask-C14kgi2twAhXlhpwtoNL3)" id="g814">
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M297.398 550.49c41.93-71.43 82.26-145.01 147.99-260.46m-147.45 263.96c36.8-71.19 77.38-139.83 147-264.01M439.308 316.73c2.3-6.16 4.31-16.92 8.16-27.79m-7.42 32.55c-.54-10.04 4.57-18.73 6.81-32.62"
-         id="path810" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M421.438 306.64c7.11-3.61 14.01-11.61 26.03-17.7m-25.3 22.47c4.09-7.7 13.82-13.77 24.69-22.54"
-         id="path812" />
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(329.902 304.328)">a.i</text>
+   <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2" mask="url(#o)">
+      <path
+         d="M297.398 550.49c41.93-71.43 82.26-145.01 147.99-260.46m-147.45 263.96c36.8-71.19 77.38-139.83 147-264.01m-5.63 26.75c2.3-6.16 4.31-16.92 8.16-27.79m-7.42 32.55c-.54-10.04 4.57-18.73 6.81-32.62" />
+      <path d="M421.438 306.64c7.11-3.61 14.01-11.61 26.03-17.7m-25.3 22.47c4.09-7.7 13.82-13.77 24.69-22.54" />
    </g>
-   <mask id="mask-C14kgi2twAhXlhpwtoNL3">
-      <path fill="#fff" d="M0 0h543.53v914.359H0z" id="path816" />
-      <path d="M353.146 409.689h35.156v24h-35.156z" id="path818" />
+   <mask id="o">
+      <path fill="#fff" d="M0 0h543.53v914.359H0z" />
+      <path d="M353.146 409.689h35.156v24h-35.156z" />
    </mask>
    <text x="17.578" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(353.146 409.69)"
-      id="text821">a.i</text>
-   <g stroke-linecap="round" mask="url(#mask-K3VnPcaB62j-tggJf5a1R)" id="g827">
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M192.271 730.839c-21.35-118.73-45.11-238.05-95.62-521.16m96.14 522.01c-34.39-206.87-73.48-413.37-96.84-522.45m-.73.71c104.36-60.14 214.03-119.13 291.32-164.92m-291.61 165.53c57.44-31.79 116.68-64.32 291.55-163.93M367.691 65.949c6.32-2.67 6.61-7.27 21.8-19.26m-20.49 21.39c8.06-8.69 13.57-16.88 18.74-22.5"
-         id="path823" />
-      <path fill="none" stroke="#343a40" stroke-width="2"
-         d="M357.561 48.099c8.64 1.46 11.24.94 31.93-1.41m-30.61 3.54c11.73-1.59 21.25-2.72 28.86-4.65" id="path825" />
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(353.146 409.69)">a.i</text>
+   <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2" mask="url(#p)">
+      <path
+         d="M192.271 730.839c-21.35-118.73-45.11-238.05-95.62-521.16m96.14 522.01c-34.39-206.87-73.48-413.37-96.84-522.45m-.73.71c104.36-60.14 214.03-119.13 291.32-164.92m-291.61 165.53c57.44-31.79 116.68-64.32 291.55-163.93m-18.79 19.32c6.32-2.67 6.61-7.27 21.8-19.26m-20.49 21.39c8.06-8.69 13.57-16.88 18.74-22.5" />
+      <path d="M357.561 48.099c8.64 1.46 11.24.94 31.93-1.41m-30.61 3.54c11.73-1.59 21.25-2.72 28.86-4.65" />
    </g>
-   <mask id="mask-K3VnPcaB62j-tggJf5a1R">
-      <path fill="#fff" d="M0 0h583.21v1518.284H0z" id="path829" />
-      <path d="M77.863 197.659h35.156v24H77.863z" id="path831" />
+   <mask id="p">
+      <path fill="#fff" d="M0 0h583.21v1518.284H0z" />
+      <path d="M77.863 197.659h35.156v24H77.863z" />
    </mask>
    <text x="17.578" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(77.863 197.66)"
-      id="text834">a.i</text>
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(77.863 197.66)">a.i</text>
    <path fill="none" stroke="#c92a2a" stroke-dasharray="8 10" stroke-linecap="round" stroke-width="2.5"
-      d="M197.796 933.014c28.2-3.53 50.99 4.12 94.2 3.78m5.31-5.94c-.19 17.97-2.68 33.04-2.11 64.07m-.59.28c-31.76 3.66-58.2.09-97.16-1.67m-3.18 4.65c2.03-21.49-.1-38.57-2.34-66.88"
-      id="path836" />
-   <text x="17.578" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(227.198 952.954)"
-      id="text838">ixn</text>
-   <g stroke-linecap="round" mask="url(#mask-UoL6-dLvciSkbH30X1CLG)" id="g844">
-      <path fill="none" stroke="#c92a2a" stroke-dasharray="8 10" stroke-width="2.5"
-         d="M246.972 926.368c-3.63-34.84-2.47-73.98 2.22-116.73" id="path840" />
-      <path fill="none" stroke="#c92a2a" stroke-width="2.5"
-         d="M256.232 842.568c-4.93-9-6.72-22.12-7.58-30.4M235.792 840.808c1.26-8.1 5.63-20.68 12.86-28.64"
-         id="path842" />
+      d="M197.796 933.014c28.2-3.53 50.99 4.12 94.2 3.78m5.31-5.94c-.19 17.97-2.68 33.04-2.11 64.07m-.59.28c-31.76 3.66-58.2.09-97.16-1.67m-3.18 4.65c2.03-21.49-.1-38.57-2.34-66.88" />
+
+   <a xlink:href="/WOT-terms/docs/Terms/glossary/vcp">
+      <text x="17.578" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
+         font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(227.198 952.954)">vcp</text>
+   </a>
+   <g fill="none" stroke="#c92a2a" stroke-linecap="round" stroke-width="2.5" mask="url(#q)">
+      <path stroke-dasharray="8 10" d="M246.972 926.368c-3.63-34.84-2.47-73.98 2.22-116.73" />
+      <path d="M256.232 842.568c-4.93-9-6.72-22.12-7.58-30.4m-12.86 28.64c1.26-8.1 5.63-20.68 12.86-28.64" />
    </g>
-   <mask id="mask-UoL6-dLvciSkbH30X1CLG">
-      <path fill="#fff" d="M0 0h349.733v1137.688H0z" id="path846" />
-      <path d="M242.873 852.753h11.719v24h-11.719z" id="path848" />
+   <mask id="q">
+      <path fill="#fff" d="M0 0h349.733v1137.688H0z" />
+      <path d="M242.873 852.753h11.719v24h-11.719z" />
    </mask>
    <text x="5.859" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(242.873 852.753)"
-      id="text851">p</text>
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(242.873 852.753)">p</text>
    <path fill="none" stroke="#2b8a3e" stroke-dasharray="8 10" stroke-linecap="round" stroke-width="2.5"
-      d="M696.62 389.677c41.61 1.16 79.96 1.14 102.47.58m-1.01 3.88c.59 14.6-.84 29.59 2.84 57.85m-1.66-1.17c-24.09 1.19-51.65 2.13-100.81 1.7m.17.51c2.27-25.71-.94-42.68-1.76-63.89"
-      id="path853" />
-   <text x="17.578" fill="#2b8a3e" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(731.273 410.227)"
-      id="text855">brv</text>
-   <g stroke-linecap="round" mask="url(#mask-FWH0kfne9GoBLGhUXsRi-)" id="g861">
-      <path fill="none" stroke="#2b8a3e" stroke-dasharray="8 10" stroke-width="2.5"
-         d="M746.622 388.04c-8.72-27.59-20.58-52.81-39.41-92.77" id="path857" />
-      <path fill="none" stroke="#2b8a3e" stroke-width="2.5"
-         d="M726.342 318.97c-3.68-8.28-10.31-13.95-21.16-24.48M707.752 327.66c1.67-11 .35-19.16-2.57-33.17"
-         id="path859" />
+      d="M696.62 389.677c41.61 1.16 79.96 1.14 102.47.58m-1.01 3.88c.59 14.6-.84 29.59 2.84 57.85m-1.66-1.17c-24.09 1.19-51.65 2.13-100.81 1.7m.17.51c2.27-25.71-.94-42.68-1.76-63.89" />
+
+
+   <a xlink:href="/WOT-terms/docs/Terms/glossary/brv">
+      <text x="17.578" fill="#2b8a3e" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
+         font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(731.273 410.227)">brv</text>
+   </a>
+
+   <g fill="none" stroke="#2b8a3e" stroke-linecap="round" stroke-width="2.5" mask="url(#r)">
+      <path stroke-dasharray="8 10" d="M746.622 388.04c-8.72-27.59-20.58-52.81-39.41-92.77" />
+      <path d="M726.342 318.97c-3.68-8.28-10.31-13.95-21.16-24.48m2.57 33.17c1.67-11 .35-19.16-2.57-33.17" />
    </g>
-   <mask id="mask-FWH0kfne9GoBLGhUXsRi-">
-      <path fill="#fff" d="M0 0h888.196v575.02H0z" id="path863" />
-      <path d="M723.125 328.786h11.719v24h-11.719z" id="path865" />
+   <mask id="r">
+      <path fill="#fff" d="M0 0h888.196v575.02H0z" />
+      <path d="M723.125 328.786h11.719v24h-11.719z" />
    </mask>
+
    <text x="5.859" fill="#2b8a3e" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(723.125 328.786)"
-      id="text868">p</text>
-   <g stroke-linecap="round" mask="url(#mask-vHRcSpFxuSHVmHmv6Wqwp)" id="g874">
-      <path fill="none" stroke="#343a40" stroke-dasharray="8 10" stroke-width="2.5"
-         d="M696.655 392.597c-63.67-44.13-120.44-86.82-170.84-120.72" id="path870" />
-      <path fill="none" stroke="#343a40" stroke-width="2.5"
-         d="M554.505 279.947c-12.24-3.97-16.83-6.28-28.86-9.81M542.805 296.807c-8.02-10.09-8.36-18.51-17.16-26.67"
-         id="path872" />
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(723.125 328.786)">p</text>
+   <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2.5" mask="url(#s)">
+      <path stroke-dasharray="8 10" d="M696.655 392.597c-63.67-44.13-120.44-86.82-170.84-120.72" />
+      <path d="M554.505 279.947c-12.24-3.97-16.83-6.28-28.86-9.81m17.16 26.67c-8.02-10.09-8.36-18.51-17.16-26.67" />
    </g>
-   <mask id="mask-vHRcSpFxuSHVmHmv6Wqwp">
-      <path fill="#fff" d="M0 0h967.925v611.023H0z" id="path876" />
-      <path d="M588.018 320.829h46.875v24h-46.875z" id="path878" />
+   <mask id="s">
+      <path fill="#fff" d="M0 0h967.925v611.023H0z" />
+      <path d="M588.018 320.829h46.875v24h-46.875z" />
    </mask>
    <text x="23.438" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(588.018 320.83)"
-      id="text881">ra.i</text>
-   <g stroke-linecap="round" mask="url(#mask-DODmZmEl52qrAVspuK2Ki)" id="g887">
-      <path fill="none" stroke="#343a40" stroke-dasharray="8 10" stroke-width="2.5"
-         d="M697.319 434.77c-70.46 15.36-140.11 35.99-219.31 54.76" id="path883" />
-      <path fill="none" stroke="#343a40" stroke-width="2.5"
-         d="M506.789 472.44c-11.97 3.67-23.39 12.7-31.02 15.58M511.749 492.35c-13.3-2.53-26.26.32-35.98-4.33"
-         id="path885" />
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(588.018 320.83)">ra.i</text>
+   <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2.5" mask="url(#t)">
+      <path stroke-dasharray="8 10" d="M697.319 434.77c-70.46 15.36-140.11 35.99-219.31 54.76" />
+      <path d="M506.789 472.44c-11.97 3.67-23.39 12.7-31.02 15.58m35.98 4.33c-13.3-2.53-26.26.32-35.98-4.33" />
    </g>
-   <mask id="mask-DODmZmEl52qrAVspuK2Ki">
-      <path fill="#fff" d="M0 0h1007.926v590.828H0z" id="path889" />
-      <path d="M563.508 450.934h46.875v24h-46.875z" id="path891" />
+   <mask id="t">
+      <path fill="#fff" d="M0 0h1007.926v590.828H0z" />
+      <path d="M563.508 450.934h46.875v24h-46.875z" />
    </mask>
    <text x="23.438" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(563.508 450.934)"
-      id="text894">ra.d</text>
-   <g stroke-linecap="round" mask="url(#mask-Flrq7Bg1zycHZY-9SJoHi)" id="g900">
-      <path fill="none" stroke="#343a40" stroke-dasharray="8 10" stroke-width="2.5"
-         d="M793.076 383.218c-13.82-72.56-25.07-143.35-48.9-241.44m0 2.5c-85.67-33.85-170.74-74.4-231.73-103.06"
-         id="path896" />
-      <path fill="none" stroke="#343a40" stroke-width="2.5"
-         d="M538.456 45.978c-7.11-4.62-10.92-7.32-25.6-8.16M529.746 64.548c-4.55-9.97-5.82-18.09-16.89-26.73"
-         id="path898" />
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(563.508 450.934)">ra.d</text>
+   <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2.5" mask="url(#u)">
+      <path stroke-dasharray="8 10"
+         d="M793.076 383.218c-13.82-72.56-25.07-143.35-48.9-241.44m0 2.5c-85.67-33.85-170.74-74.4-231.73-103.06" />
+      <path d="M538.456 45.978c-7.11-4.62-10.92-7.32-25.6-8.16m16.89 26.73c-4.55-9.97-5.82-18.09-16.89-26.73" />
    </g>
-   <mask id="mask-Flrq7Bg1zycHZY-9SJoHi">
-      <path fill="#fff" d="M0 0h1179.922v820.8H0z" id="path902" />
-      <path d="M737.971 132.606h11.719v24h-11.719z" id="path904" />
+   <mask id="u">
+      <path fill="#fff" d="M0 0h1179.922v820.8H0z" />
+      <path d="M737.971 132.606h11.719v24h-11.719z" />
    </mask>
    <text x="5.859" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(737.97 132.606)"
-      id="text907">i</text>
-   <g stroke-linecap="round" mask="url(#mask-EU3glEgZhsd_Hf7DeqHmk)" id="g915">
-      <path fill="none" stroke="#343a40" stroke-dasharray="8 10" stroke-width="2.5"
-         d="M300.692 944.008c159.82-170.44 319.22-341.08 450.13-486.89" id="path909" />
-      <path fill="none" stroke="#343a40" stroke-width="2.5" d="M742.122 481.468c2.06-9.67 8.2-16.55 9.93-23.92"
-         id="path911" />
-      <path fill="none" stroke="#343a40" stroke-width="2.5" d="M726.942 467.658c7.24-4.7 18.72-6.71 25.11-10.11"
-         id="path913" />
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(737.97 132.606)">i</text>
+   <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2.5" mask="url(#v)">
+      <path stroke-dasharray="8 10" d="M300.692 944.008c159.82-170.44 319.22-341.08 450.13-486.89" />
+      <path d="M742.122 481.468c2.06-9.67 8.2-16.55 9.93-23.92" />
+      <path d="M726.942 467.658c7.24-4.7 18.72-6.71 25.11-10.11" />
    </g>
-   <mask id="mask-EU3glEgZhsd_Hf7DeqHmk">
-      <path fill="#fff" d="M0 0h850.331v1533.811H0z" id="path917" />
-      <path d="M507.399 689.162h35.156v24h-35.156z" id="path919" />
+   <mask id="v">
+      <path fill="#fff" d="M0 0h850.331v1533.811H0z" />
+      <path d="M507.399 689.162h35.156v24h-35.156z" />
    </mask>
    <text x="17.578" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(507.399 689.162)"
-      id="text922">a.d</text>
-   <g stroke-linecap="round" mask="url(#mask-xWgGWEAGr8lrVuyHjmbMF)" id="g928">
-      <path fill="none" stroke="#343a40" stroke-dasharray="8 10" stroke-width="2.5"
-         d="M191.295 944.011c-36.07-164.68-71.63-329.49-162.76-765.03m-.3-1.12c91.62-35.37 185.04-77.37 359.1-152.33"
-         id="path924" />
-      <path fill="none" stroke="#343a40" stroke-width="2.5"
-         d="M368.095 45.631c3.31-3.11 6.36-9.67 21.63-22.95M359.945 26.791c5.1 1.08 9.89-1.44 29.78-4.11"
-         id="path926" />
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(507.399 689.162)">a.d</text>
+   <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2.5" mask="url(#w)">
+      <path stroke-dasharray="8 10"
+         d="M191.295 944.011c-36.07-164.68-71.63-329.49-162.76-765.03m-.3-1.12c91.62-35.37 185.04-77.37 359.1-152.33" />
+      <path d="M368.095 45.631c3.31-3.11 6.36-9.67 21.63-22.95m-29.78 4.11c5.1 1.08 9.89-1.44 29.78-4.11" />
    </g>
-   <mask id="mask-xWgGWEAGr8lrVuyHjmbMF">
-      <path fill="#fff" d="M0 0h651.189v1963.419H0z" id="path930" />
-      <path d="M10 168.121h35.156v24H10z" id="path932" />
+   <mask id="w">
+      <path fill="#fff" d="M0 0h651.189v1963.419H0z" />
+      <path d="M10 168.121h35.156v24H10z" />
    </mask>
    <text x="17.578" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(10 168.12)"
-      id="text935">a.i</text>
+      font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(10 168.12)">a.i</text>
    <text x="105.469" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="36" style="white-space:pre" text-anchor="middle" transform="translate(539.86 821.901)"
-      id="text937">backed</text>
+      font-size="36" style="white-space:pre" text-anchor="middle" transform="translate(539.86 821.901)">backed</text>
    <text x="105.469" y="43.2" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="36" style="white-space:pre" text-anchor="middle" transform="translate(539.86 821.901)"
-      id="text939">issuance/</text>
+      font-size="36" style="white-space:pre" text-anchor="middle" transform="translate(539.86 821.901)">issuance/</text>
    <text x="105.469" y="86.4" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji"
-      font-size="36" style="white-space:pre" text-anchor="middle" transform="translate(539.86 821.901)"
-      id="text941">revocation</text>
+      font-size="36" style="white-space:pre" text-anchor="middle"
+      transform="translate(539.86 821.901)">revocation</text>
 </svg>
