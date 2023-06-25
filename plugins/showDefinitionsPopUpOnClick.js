@@ -16,7 +16,7 @@ import 'tippy.js/themes/light-border.css';
 const showDefinitionsPopUpOnClick = () => {
   // The links that we want to add a popup to
   let links = document.querySelectorAll(
-    'article .markdown a[href]:not([href^="#"]), article .markdown a[xlink:href]:not([href^="#"])'
+    'article .markdown a[href]:not([href^="#"])'
   );
 
   const definitionButtonClassName = 'definition-button';
