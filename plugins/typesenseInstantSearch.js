@@ -63,6 +63,7 @@ const typeSenseInstantSearch = () => {
       // filter_by: 'tag:=[p]',
       // filter_by: 'tag:[a]',
       // filter_by: 'contentLength:>50',
+      // sort_by: 'contentLength:desc',
     },
   });
   const searchClient = typesenseInstantsearchAdapter.searchClient;
