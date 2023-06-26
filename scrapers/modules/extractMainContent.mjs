@@ -15,6 +15,8 @@
 export default async function (page, domQueryForContent) {
     const elements = await page.evaluate(
         (domQueryForContent) => {
+            console.log("xcxc");
+
             // Helper function to find the first heading element preceding the given element
             function findPreviousHeadingElement(element) {
                 let previousElement = element.previousElementSibling;
@@ -101,7 +103,7 @@ export default async function (page, domQueryForContent) {
                 if (element.tagName.toLowerCase() === 'img') {
                     return {
                         imgUrl: element.src,//TODO: remove or use it
-                        imgMeta: element.alt + " " + element.title,//TODO: remove or use it
+                        // imgMeta: element.alt + " " + element.title,//TODO: remove or use it
                     };
                 } else if (element.tagName.toLowerCase() === 'pre' || element.tagName.toLowerCase() === 'code') {
                     return {
