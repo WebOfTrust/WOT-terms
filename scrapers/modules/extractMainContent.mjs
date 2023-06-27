@@ -15,8 +15,6 @@
 export default async function (page, domQueryForContent) {
     const elements = await page.evaluate(
         (domQueryForContent) => {
-            console.log("xcxc");
-
             // Helper function to find the first heading element preceding the given element
             function findPreviousHeadingElement(element) {
                 let previousElement = element.previousElementSibling;
@@ -109,6 +107,12 @@ export default async function (page, domQueryForContent) {
                     return {
                         textContent: element.innerText.trim(),// use innerText here
                         textContentLength: element.textContent.trim().length,// use textContentLength here
+                        tag: element.tagName.toLowerCase()
+                    };
+                } else if (element.tagName.toLowerCase() === 'turbo-frame') {// Special case for github repo pages
+                    return {
+                        textContent: element.innerText.trim(),
+                        textContentLength: element.value.trim().length,// use textContentLength here
                         tag: element.tagName.toLowerCase()
                     };
                 } else {
