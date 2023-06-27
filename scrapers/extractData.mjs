@@ -16,6 +16,7 @@ import scrapeHumancolossus from './sites/humancolossus.mjs';
 import scrapeKsoeteman from './sites/ksoeteman.mjs';
 import scrapemediumCom from './sites/medium.com.mjs';
 import scrapeKentbull from './sites/kentbull.com.mjs';
+import scrapeGithubWebOfTrustKeripy from './sites/github-WebOfTrust-keripy.mjs';
 
 scrapeWOTterms();
 scrapeGleif();
@@ -26,3 +27,4 @@ scrapeHumancolossus();
 scrapeKsoeteman();
 scrapemediumCom();
 scrapeKentbull();
+scrapeGithubWebOfTrustKeripy();
