@@ -123,12 +123,12 @@ const typeSenseInstantSearch = () => {
 
           // <pre>
           let preOpeningTag = '';
-          if (item.tag === 'pre') {
+          if (item.tag === 'pre' || item.tag === 'turbo-frame') {
             preOpeningTag = '<pre>';
           } else { preOpeningTag = '<p class="ms-5">' }
           // </pre>
           let preClosingTag = '';
-          if (item.tag === 'pre') {
+          if (item.tag === 'pre' || item.tag === 'turbo-frame') {
             preClosingTag = '</pre>';
           } else { preClosingTag = '</p>' }
 
