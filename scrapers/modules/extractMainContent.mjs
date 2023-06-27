@@ -112,7 +112,7 @@ export default async function (page, domQueryForContent) {
                 } else if (element.tagName.toLowerCase() === 'turbo-frame') {// Special case for github repo pages
                     return {
                         textContent: element.innerText.trim(),
-                        textContentLength: element.value.trim().length,// use textContentLength here
+                        textContentLength: element.textContent.trim().length,// use textContentLength here
                         tag: element.tagName.toLowerCase()
                     };
                 } else {
