@@ -6,10 +6,11 @@ Term: ADC
 summary: An authentic data container conveys data that allows the authenticity of its content to be proved.
 Link: https://github.com/trustoverip/acdc/wiki/ADC.md
 Videostart:
-Level: 7
+Level: 3
 permalink: /term_test.html
 sidebar: all_lvl3_wot_sidebar
 folder: terms
+
 ---
 
 <div data-level="1">
@@ -24,7 +25,7 @@ The first collection of stories about the character was the book Winnie-the-Pooh
 
 </div>
 
-<div data-level="3">
+<div data-level="2">
 
 <div className="youtube-video" data-youtubeid="RE2QClKir1E" data-starttime="23"></div>
 <div className="youtube-video" data-youtubeid="FBOVYD3zUrk" data-starttime="33"></div>
@@ -38,14 +39,12 @@ The Pooh stories have been translated into many languages, including Alexander L
 
 </div>
 
-<div data-level="3">
+<div data-level="1">
 
 In 1961, Walt Disney Productions licensed certain film and other rights of Milne's Winnie-the-Pooh stories from the estate of A. A. Milne and the licensing agent Stephen Slesinger, Inc., and adapted the Pooh stories, using the unhyphenated name "Winnie the Pooh", into a series of features that would eventually become one of its most successful franchises.
 
 </div>
 
-<div data-level="3">
 
 In popular film adaptations, Pooh has been voiced by actors Sterling Holloway, Hal Smith, and Jim Cummings in English, and Yevgeny Leonov in Russian.
 
-</div>
