@@ -28,7 +28,7 @@ const configKeri = {
 const configCesride = {
     sitemap: await createInput({
         sourceType: 'localXMLsitemap',
-        sourcePath: 'scrapers/sitemaps/sitemap-github.com-WebOfTrust-keri.xml',
+        sourcePath: 'scrapers/sitemaps/sitemap-github.com-WebOfTrust-cesride.xml',
     }),
     siteName: 'WebOfTrust-cesride',
     source: 'WebOfTrust-cesride',
