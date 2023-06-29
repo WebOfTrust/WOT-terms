@@ -12,7 +12,7 @@ const configKeripy = {
     source: 'WebOfTrust-keripy',
     author: '–',
     destinationFile: 'scrapers/output/WebOfTrust-keripy.json',
-    domQueryForContent: 'turbo-frame, article'
+    domQueryForContent: 'turbo-frame'
 }
 const configKeri = {
     sitemap: await createInput({
@@ -36,17 +36,6 @@ const configCesride = {
     destinationFile: 'scrapers/output/WebOfTrust-cesride.json',
     domQueryForContent: 'turbo-frame, article'
 }
-// const configvLEI = {
-//     sitemap: await createInput({
-//         sourceType: 'localXMLsitemap',
-//         sourcePath: 'scrapers/sitemaps/sitemap-github.com-WebOfTrust-vLEI.xml',
-//     }),
-//     siteName: 'WebOfTrust-vLEI',
-//     source: 'WebOfTrust-vLEI',
-//     author: '–',
-//     destinationFile: 'scrapers/output/WebOfTrust-vLEI.json',
-//     domQueryForContent: 'turbo-frame, article'
-// }
 const configSignifyts = {
     sitemap: await createInput({
         sourceType: 'localXMLsitemap',
@@ -88,7 +77,6 @@ export default async function () {
     scrape(configKeripy, customScrape);
     scrape(configKeri, customScrape);
     scrape(configCesride, customScrape);
-    // scrape(configvLEI, customScrape);
     scrape(configSignifyts, customScrape);
     scrape(configKeria, customScrape);
 };
