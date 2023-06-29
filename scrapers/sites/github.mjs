@@ -23,7 +23,7 @@ const configKeri = {
     source: 'WebOfTrust-keri',
     author: '–',
     destinationFile: 'scrapers/output/WebOfTrust-keri.json',
-    domQueryForContent: 'turbo-frame, article'
+    domQueryForContent: 'turbo-frame'
 }
 const configCesride = {
     sitemap: await createInput({
@@ -34,7 +34,7 @@ const configCesride = {
     source: 'WebOfTrust-cesride',
     author: '–',
     destinationFile: 'scrapers/output/WebOfTrust-cesride.json',
-    domQueryForContent: 'turbo-frame, article'
+    domQueryForContent: 'turbo-frame'
 }
 const configSignifyts = {
     sitemap: await createInput({
@@ -45,7 +45,7 @@ const configSignifyts = {
     source: 'WebOfTrust-signify-ts',
     author: '–',
     destinationFile: 'scrapers/output/WebOfTrust-signify-ts.json',
-    domQueryForContent: 'turbo-frame, article'
+    domQueryForContent: 'turbo-frame'
 }
 const configKeria = {
     sitemap: await createInput({
@@ -56,7 +56,7 @@ const configKeria = {
     source: 'WebOfTrust-keria',
     author: '–',
     destinationFile: 'scrapers/output/WebOfTrust-keria.json',
-    domQueryForContent: 'turbo-frame, article'
+    domQueryForContent: 'turbo-frame'
 }
 
 
