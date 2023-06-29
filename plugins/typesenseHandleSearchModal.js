@@ -63,7 +63,6 @@ const typesenseHandleSearchModal = () => {
   // Only first time when app loads
   if (appInitialized === false) {
     document.addEventListener('eventSearchModalCloses', function () {
-      console.log("addEventListener eventSearchModalCloses");
       hideModal();
 
       // Add to url that the modal is closed
@@ -72,7 +71,6 @@ const typesenseHandleSearchModal = () => {
 
 
     document.addEventListener('eventSearchModalOpens', function () {
-      console.log("addEventListener eventSearchModalOpens");
       showModal();
 
       searchModalStatus = 'open';
@@ -104,14 +102,12 @@ const typesenseHandleSearchModal = () => {
   }
 
   function setSearchModalStatus() {
-    console.log('setSearchModalStatus runs');
     setTimeout(() => {
       myRouter.setParam('searchModalStatus', searchModalStatus);
     }, 1000);//TODO: typesense removes all query params so we need to wait for that to happen and the re-add the searchModalStatus param. Find out how typesense can be configured to not remove all query params
   }
 
   document.querySelector('.ais-SearchBox-input').addEventListener('input', function (e) {// Should be “input”, not “change”
-    console.log("input");
     setSearchModalStatus();
   }, false);
 
@@ -138,12 +134,10 @@ const typesenseHandleSearchModal = () => {
   var eventSearchModalCloses = new Event('eventSearchModalCloses');
 
   function handleSearchModalCloseClick(e) {
-    console.log("Dispatch eventSearchModalCloses");
     document.dispatchEvent(eventSearchModalCloses);
 
   }
   function handleSearchModalOpenClick(e) {
-    console.log("Dispatch eventSearchModalOpens");
     document.dispatchEvent(eventSearchModalOpens);
 
   }
