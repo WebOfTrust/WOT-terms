@@ -115,6 +115,39 @@ const typeSenseInstantSearch = () => {
       container: '#hits',
       templates: {
         item(item) {
+          /*
+          Sometimes code blocks are very long and they take up a lot of space in the search results.
+          
+          This function takes a string as input and returns a modified version of the string.
+          It finds the first occurrence of the <marker> tag and the </marker> tag in the input string.
+          Then, it extracts a substring that includes 100 characters before the first <marker> and 100 characters after the first </marker>.
+          The extracted substring is wrapped in an HTML <span> element with the class "highlighted".
+          If either the <marker> tag or the </marker> tag is not found, the function returns the original string unchanged.
+          */
+          function makeCodeStringShorter(string) {
+            // Find the index of the first occurrence of <marker> and </marker> in the string
+            let firstMarkerTagIndex = string.indexOf('<mark>');
+            let lastMarkerTagIndex = string.indexOf('</mark>');
+
+            // Check if either < marker > or </ > is not found in the string
+            if (firstMarkerTagIndex === -1 || lastMarkerTagIndex === -1) {
+              return string; // Return the original string if the tags are not found
+            }
+
+            // Calculate the start and end indices for the substring
+            let start = Math.max(0, firstMarkerTagIndex - 300); // Start xxx characters before the first <marker> or at the beginning of the string
+            let end = Math.min(string.length, lastMarkerTagIndex + 300); // End xxx characters after the first </marker> or at the end of the string
+
+            // Extract the substring containing 100 characters before the first <marker> and 100 characters after the first </marker>
+            let firstMarkerTagWith100CharactersBeforeAndAfterIt = string.substring(start, end);
+
+            // Add a span with the "highlighted" class around the extracted substring
+            firstMarkerTagWith100CharactersBeforeAndAfterIt = `<span class="shorter-code">${firstMarkerTagWith100CharactersBeforeAndAfterIt}</span>`;
+
+            return firstMarkerTagWith100CharactersBeforeAndAfterIt; // Return the modified string
+          }
+
+
           // External links should open in a new tab
           let openInNewTab = '';
           if (item.url.indexOf('weboftrust.github.io/WOT-terms') === -1) {
@@ -122,9 +155,11 @@ const typeSenseInstantSearch = () => {
           }
 
           // <pre>
+          let shorterCode = '';
           let preOpeningTag = '';
           if (item.tag === 'pre' || item.tag === 'turbo-frame') {
             preOpeningTag = '<pre>';
+            shorterCode = makeCodeStringShorter(item._highlightResult.content.value);
           } else { preOpeningTag = '<p class="ms-5">' }
           // </pre>
           let preClosingTag = '';
@@ -191,7 +226,10 @@ const typeSenseInstantSearch = () => {
         ${itemTitleTemplateString}
         ${itemFirstHeadingBeforeElementTemplateString}
 
-        ${preOpeningTag}<a class="stretched-link text-secondary" href="${item.url}" ${openInNewTab}>${item._highlightResult.content.value}</a>${preClosingTag}
+        ${preOpeningTag}
+          <!--<a class="stretched-link text-secondary" href="${item.url}" ${openInNewTab}>${item._highlightResult.content.value}</a>-->
+          <a class="stretched-link text-secondary" href="${item.url}" ${openInNewTab}>${shorterCode}</a>
+        ${preClosingTag}
         ${itemImgUrlTemplateString}
         ${itemImgMetaTemplateString}
     </div>
