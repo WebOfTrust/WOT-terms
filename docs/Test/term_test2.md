@@ -6,7 +6,7 @@ Term: ADC
 summary: An authentic data container conveys data that allows the authenticity of its content to be proved.
 Link: https://github.com/trustoverip/acdc/wiki/ADC.md
 Videostart:
-Level: 7
+Level: 2
 permalink: /term_test2.html
 sidebar: all_lvl3_wot_sidebar
 folder: terms
@@ -24,11 +24,10 @@ The friendly spectacled bear from “darkest Peru” – with his old hat, batte
 
 </div>
 
-<div data-level="2">
-
+<!-- this default level 3 -->
 One of the most beloved British fictional characters, a Paddington Bear soft toy was chosen by British tunnellers as the first item to pass through to their French counterparts when the two sides of the Channel Tunnel were linked in 1994.[4] Paddington books have been translated into 30 languages across 70 titles and have sold more than 30 million copies worldwide. As of June 2016, the Paddington Bear franchise was owned by Vivendi's StudioCanal. Bond, however, continued to own the publishing rights to his series, which was licensed to HarperCollins in April 2017.[5]
 
-</div>
+
 
 <div data-level="3">
 

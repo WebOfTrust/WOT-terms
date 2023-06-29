@@ -1,5 +1,6 @@
 ---
 title: TEST3
+Level: 1
 ---
 
 ## Definition
@@ -14,8 +15,6 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 
 </div>
 
-<div data-level="2">
-
 ## KERI suite criteria
 
 In KERI's "security first" approach Authenticity includes _technical integrity_ of data involved. This includes:
@@ -23,7 +22,6 @@ In KERI's "security first" approach Authenticity includes _technical integrity_ 
 1. [internal consistency](internal-inconsistency.md)
 2. external consistency or [duplicity](duplicity.md) evident
 
-</div>
 
 <div data-level="1">
 
@@ -47,7 +45,10 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
 
 Etiam quis urna malesuada, suscipit ex vel, pretium ante. Fusce pulvinar arcu a arcu elementum, nec feugiat est dapibus. Maecenas dignissim ultrices eros, eget sodales justo. Etiam eu hendrerit lorem. Mauris vel tellus nisi. Maecenas vehicula pellentesque nisl, pulvinar vulputate nulla mattis semper. Nam vel dapibus justo, nec gravida elit. Cras turpis turpis, gravida non porttitor eu, tincidunt vitae velit.
 
+</div>
+
 ## ToIP related
+
 
 On today's Technology Architecture TF call,..., we defined authenticity to include integrity.\
 [Source ToIP issue 10](https://github.com/trustoverip/TechArch/issues/10)
@@ -63,4 +64,4 @@ The further separation of Authenticity and Integrity in the ToIP glossary can be
 
 \*Validation in relation to integrity, in KERI's view would be an assessment of what's been verified before; in a certain context from a certain angle. And this mechanism is too close to _veracity judgement_, to be an objective verdict over integrity of data.
 
-</div>
+

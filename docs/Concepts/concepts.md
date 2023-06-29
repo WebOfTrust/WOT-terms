@@ -48,7 +48,7 @@ We reuse and reorganise as much as possible, using open source tools.
 
 Contributions welcome!
 
-<img src="https://hackmd.io/_uploads/r1BYbPfA5.png" width="1000" alt="CDCI design for WOT-terms">
+<img src="https://hackmd.io/_uploads/r1BYbPfA5.png" class="img-fluid" alt="CDCI design for WOT-terms" />
 
 ## Explanation of concepts
 
@@ -89,7 +89,7 @@ KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevit
 #### Freedom
 
 KERI came to be in occasional happenings, online and in-person, in which individuals voluntarily participated. It has no members, and no dues. This is how the KERI community strives to further work.
-
+  
 Manifestation: KERI has found the IETF as a home. This is because its value statement and organizational principles strongly resonate with KERI.
 
 #### Open source licensing
@@ -307,7 +307,7 @@ Non-repudiation
 | Obligatory           | No, it is the personal choice of an individual                               | Yes, when the information is professional and legal.                                                                                       |
 | Disallowed           | Everyone is disallowed from involving the personal affairs of an individual. | Only unauthorized persons are disallowed from using the information.                                                                       |
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/privacy-vs-confidentiality.png" alt="privacy-vs-confidentiality table" width="100"> [Source: ](https://keydifferences.com/difference-between-privacy-and-confidentiality.html) Keydifferences.com
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/privacy-vs-confidentiality.png" alt="privacy-vs-confidentiality table" class="img-fluid" /> [Source: ](https://keydifferences.com/difference-between-privacy-and-confidentiality.html) Keydifferences.com
 
 #### Strong bindings
 
@@ -498,7 +498,7 @@ Best and compactly described by Daniel Hardman in [Security, Silos, and Sovereig
 #### No needless control, no needless surveillance
 
 Principle: In a society there needs some control and surveillance of individuals (or individual entities) for the sake of the security of society as a whole. However, those situation should be limited to absolute minimum needed and be strictly independently monitored.
-We consider all other control and surveillance to be 'needless'.
+We consider all other control and surveillance to be "needless".
 
 Manifestion: A robust witness network along with consistent witness rotation provides protection from monitoring and association of an individual's activity inside a KERI network.\
 Source [Phil Feairheller](https://github.com/WebOfTrust/ietf-did-keri/blob/main/draft-pfeairheller-did-keri.md#privacy-considerations)
