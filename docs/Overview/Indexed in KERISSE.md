@@ -4286,3 +4286,29 @@ https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cryptonym
 
 https://www.gleif.org/en/lei-solutions/mckinsey-company-and-gleif-creating-business-value-with-the-lei/lei-in-trade-finance
 
+https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/CT
+
+https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/custodial-agent
+
+https://www.gleif.org/en/lei-solutions/mckinsey-company-and-gleif-creating-business-value-with-the-lei/lei-in-commercial-credit
+
+https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/custodial-rotation
+
+https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DAG
+
+https://www.gleif.org/en/lei-solutions/lei-in-kyc-a-new-future-for-legal-entity-identification
+
+https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DAR
+
+https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/data-anchor
+
+https://www.gleif.org/en/lei-solutions/lei-in-kyc-a-new-future-for-legal-entity-identification/gleif-research-the-pitfalls-of-onboarding
+
+https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/decentralized-identifier
+
+https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/decentralized-identity
+
+https://www.gleif.org/en/lei-solutions/gleifs-digital-strategy-for-the-lei
+
+https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/decentralized-key-management-infrastructure
+
