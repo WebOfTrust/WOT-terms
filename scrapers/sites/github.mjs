@@ -10,7 +10,7 @@ const configKeripy = {
     }),
     siteName: 'repo: WoT / keripy',
     source: 'repo: WoT / keripy',
-    author: '–',
+    author: '',
     destinationFile: 'scrapers/output/WebOfTrust-keripy.json',
     domQueryForContent: 'turbo-frame'
 }
@@ -21,7 +21,7 @@ const configKeri = {
     }),
     siteName: 'repo: WoT / keri',
     source: 'repo: WoT / keri',
-    author: '–',
+    author: '',
     destinationFile: 'scrapers/output/WebOfTrust-keri.json',
     domQueryForContent: 'turbo-frame'
 }
@@ -32,7 +32,7 @@ const configCesride = {
     }),
     siteName: 'repo: WoT / cesride',
     source: 'repo: WoT / cesride',
-    author: '–',
+    author: '',
     destinationFile: 'scrapers/output/WebOfTrust-cesride.json',
     domQueryForContent: 'turbo-frame'
 }
@@ -43,7 +43,7 @@ const configSignifyts = {
     }),
     siteName: 'repo: WoT / signify-ts',
     source: 'repo: WoT / signify-ts',
-    author: '–',
+    author: '',
     destinationFile: 'scrapers/output/WebOfTrust-signify-ts.json',
     domQueryForContent: 'turbo-frame'
 }
@@ -54,7 +54,7 @@ const configKeria = {
     }),
     siteName: 'repo: WoT / keria',
     source: 'repo: WoT / keria',
-    author: '–',
+    author: '',
     destinationFile: 'scrapers/output/WebOfTrust-keria.json',
     domQueryForContent: 'turbo-frame'
 }
