@@ -58,20 +58,22 @@ const typeSenseInstantSearch = () => {
     //  filterBy is managed and overridden by InstantSearch.js. To set it, you want to use one of the filter widgets like refinementList or use the `configure` widget.
     additionalSearchParameters: {
       // query_by: 'title,authors',
-      query_by: 'imgMeta, content, url, firstHeadingBeforeElement, pageTitle, siteName, source',
+      query_by: 'content, firstHeadingBeforeElement, imgMeta, pageTitle, siteName, source, url',
       // weights: '10000,1,1,1,1,1,1',
       // filter_by: 'tag:=[p]',
       // filter_by: 'tag:[a]',
       // filter_by: 'contentLength:>50',
-      // sort_by: 'contentLength:desc',
+      sort_by: 'contentLength:desc',//asc or 
+      group_by: 'url',
+      group_limit: 2
     },
   });
   const searchClient = typesenseInstantsearchAdapter.searchClient;
 
   const search = instantsearch({
     searchClient,
-    indexName: 'Wot-terms',// production
-    // indexName: 'Wot-terms-test',// testing
+    // indexName: 'Wot-terms',// production
+    indexName: 'Wot-terms-test',// testing
     routing: true,
     // searchFunction(helper) {
     // if (helper.state.query === '') {
@@ -181,10 +183,11 @@ const typeSenseInstantSearch = () => {
 
           // The same for img url
           // if img url is not empty and img width is larger than 400, show it
-          let itemImgUrlTemplateString = item.imgUrl !== "–" && item.imgDimensions[0] > 400 ? `<img class="search-results-img" src='${item.imgUrl}'>` : '';
+
+          let itemImgUrlTemplateString = item.imgUrl !== '–' && item.imgWidth > 400 ? `<img class="search-results-img" src='${item.imgUrl}'>` : '';
 
           // The same for img meta
-          let itemImgMetaTemplateString = item.imgMeta !== "–" ? `<p class="ms-5 mt-5">${item._highlightResult.imgMeta.value}</p>` : '';
+          let itemImgMetaTemplateString = item.imgMeta !== '–' ? `<p class="ms-5 mt-5">${item._highlightResult.imgMeta.value}</p>` : '';
 
           // The same for creationDate
           let itemCreationDateTemplateString = item.creationDate !== '–' ? `• ${item.creationDate}` : '';
