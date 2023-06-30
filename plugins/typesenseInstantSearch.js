@@ -176,18 +176,13 @@ const typeSenseInstantSearch = () => {
 
           // The same for title
           // mb-4
-          console.log('item.pageTitle.value: ', item.pageTitle.value);
-          // console.log('item.pageTitle.value === undefined: ', item.pageTitle.value === undefined);
-
           let itemTitleTemplateString = item.pageTitle !== '' ? `<h3 class="page-title mb-2 ms-4">${item._highlightResult.pageTitle.value}</h3>` : '';
 
           // The same for author
-          console.log('item.author: ', item.author);
           let itemAuthorTemplateString = item.author !== '' ? `• ${item._highlightResult.author.value}` : '';
 
           // The same for img url
           // if img url is not empty and img width is larger than 400, show it
-
           let itemImgUrlTemplateString = item.imgUrl !== '' && item.imgWidth > 400 ? `<img class="search-results-img" src='${item.imgUrl}'>` : '';
 
           // The same for img meta
@@ -197,7 +192,6 @@ const typeSenseInstantSearch = () => {
           let itemCreationDateTemplateString = item.creationDate !== '' ? `• ${item.creationDate}` : '';
 
           // The same for knowledgeLevel
-          console.log('item.knowledgeLevel: ', item.knowledgeLevel);
           let itemKnowledgeLevelTemplateString = item.knowledgeLevel !== '' ? `• Level: ${item.knowledgeLevel}` : '';
 
           //The same for type
