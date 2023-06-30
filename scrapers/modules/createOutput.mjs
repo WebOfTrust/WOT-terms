@@ -23,7 +23,8 @@ export default function createOutput(input) {
       imgUrl: element.imgUrl || '–',
       imgMeta: element.imgMeta || '–',
       imgMetaLength: element.imgMetaLength || 0,
-      imgDimensions: element.imgDimensions || [0, 0],
+      imgWidth: element.imgWidth || 0,
+      imgHeight: element.imgHeight || 0,
       timestamp: new Date().toISOString() || '–',
       'hierarchy.lvl0': input.hierarchyLvl0 || '–',// same for all element from input.mainContent
       'hierarchy.lvl1': input.hierarchyLvl1 || '–',// same for all element from input.mainContent
