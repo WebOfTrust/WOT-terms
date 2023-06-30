@@ -172,37 +172,42 @@ const typeSenseInstantSearch = () => {
 
 
           // Only if siteName is not empty, show it
-          let itemSiteNameTemplateString = item.siteName !== '–' ? `${item._highlightResult.siteName.value}` : '';
+          let itemSiteNameTemplateString = item.siteName !== '' ? `${item._highlightResult.siteName.value}` : '';
 
           // The same for title
           // mb-4
-          let itemTitleTemplateString = item.pageTitle !== '–' ? `<h3 class="page-title mb-2 ms-4">${item._highlightResult.pageTitle.value}</h3>` : '';
+          console.log('item.pageTitle.value: ', item.pageTitle.value);
+          // console.log('item.pageTitle.value === undefined: ', item.pageTitle.value === undefined);
+
+          let itemTitleTemplateString = item.pageTitle !== '' ? `<h3 class="page-title mb-2 ms-4">${item._highlightResult.pageTitle.value}</h3>` : '';
 
           // The same for author
-          let itemAuthorTemplateString = item.author !== '–' ? `• ${item._highlightResult.author.value}` : '';
+          console.log('item.author: ', item.author);
+          let itemAuthorTemplateString = item.author !== '' ? `• ${item._highlightResult.author.value}` : '';
 
           // The same for img url
           // if img url is not empty and img width is larger than 400, show it
 
-          let itemImgUrlTemplateString = item.imgUrl !== '–' && item.imgWidth > 400 ? `<img class="search-results-img" src='${item.imgUrl}'>` : '';
+          let itemImgUrlTemplateString = item.imgUrl !== '' && item.imgWidth > 400 ? `<img class="search-results-img" src='${item.imgUrl}'>` : '';
 
           // The same for img meta
-          let itemImgMetaTemplateString = item.imgMeta !== '–' ? `<p class="ms-5 mt-5">${item._highlightResult.imgMeta.value}</p>` : '';
+          let itemImgMetaTemplateString = item.imgMeta !== '' ? `<p class="ms-5 mt-5">${item._highlightResult.imgMeta.value}</p>` : '';
 
           // The same for creationDate
-          let itemCreationDateTemplateString = item.creationDate !== '–' ? `• ${item.creationDate}` : '';
+          let itemCreationDateTemplateString = item.creationDate !== '' ? `• ${item.creationDate}` : '';
 
           // The same for knowledgeLevel
-          let itemKnowledgeLevelTemplateString = item.knowledgeLevel !== '–' ? `• Level: ${item.knowledgeLevel}` : '';
+          console.log('item.knowledgeLevel: ', item.knowledgeLevel);
+          let itemKnowledgeLevelTemplateString = item.knowledgeLevel !== '' ? `• Level: ${item.knowledgeLevel}` : '';
 
           //The same for type
-          let itemTypeTemplateString = item.type !== '–' ? `• ${item.type}` : '';
+          let itemTypeTemplateString = item.type !== '' ? `• ${item.type}` : '';
 
           //The same for hierarchy.lvl1
-          let itemHierarchyLvl1TemplateString = item['hierarchy.lvl1'] !== '–' ? `• ${item['hierarchy.lvl1']}` : '';
+          let itemHierarchyLvl1TemplateString = item['hierarchy.lvl1'] !== '' ? `• ${item['hierarchy.lvl1']}` : '';
 
           // The same for firstHeadingBeforeElement
-          let itemFirstHeadingBeforeElementTemplateString = item.firstHeadingBeforeElement !== '–' ? `<h4 class="first-heading-before-element ms-5">${item.firstHeadingBeforeElement}</h4>` : '';
+          let itemFirstHeadingBeforeElementTemplateString = item.firstHeadingBeforeElement !== '' ? `<h4 class="first-heading-before-element ms-5">${item.firstHeadingBeforeElement}</h4>` : '';
 
           let siteBrandingClass = '';
           if (item.siteName === "Gleif website") {
