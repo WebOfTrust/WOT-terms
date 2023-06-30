@@ -102,7 +102,8 @@ export default async function (page, domQueryForContent) {
                     return {
                         imgUrl: element.src,//TODO: remove or use it
                         // imgMeta: element.alt + " " + element.title,//TODO: remove or use it
-                        imgDimensions: [element.clientWidth, element.clientHeight],
+                        imgWidth: element.clientWidth,
+                        imgHeight: element.clientHeight,
                     };
                 } else if (element.tagName.toLowerCase() === 'pre' || element.tagName.toLowerCase() === 'code') {
                     return {
@@ -144,7 +145,8 @@ export default async function (page, domQueryForContent) {
                     imgUrl: elementRouting(el).imgUrl,
                     imgMeta: textAroundImage,
                     imgMetaLength: textAroundImageLength,
-                    imgDimensions: elementRouting(el).imgDimensions,
+                    imgWidth: elementRouting(el).imgWidth,
+                    imgHeight: elementRouting(el).imgHeight,
 
                 };
             });
