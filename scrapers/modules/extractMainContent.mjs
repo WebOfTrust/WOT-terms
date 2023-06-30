@@ -102,6 +102,7 @@ export default async function (page, domQueryForContent) {
                     return {
                         imgUrl: element.src,//TODO: remove or use it
                         // imgMeta: element.alt + " " + element.title,//TODO: remove or use it
+                        imgDimensions: [element.clientWidth, element.clientHeight],
                     };
                 } else if (element.tagName.toLowerCase() === 'pre' || element.tagName.toLowerCase() === 'code') {
                     return {
@@ -133,8 +134,6 @@ export default async function (page, domQueryForContent) {
                 const textAroundImage = getTextAroundImage(el, 800);
                 const textAroundImageLength = getTextAroundImage(el, 800).length;
 
-                // console.log('imgOrNot(el).textContent.length: ', imgOrNot(el).textContent.length);
-
                 return {
                     content: elementRouting(el).textContent,
                     contentLength: elementRouting(el).textContentLength,
@@ -145,6 +144,7 @@ export default async function (page, domQueryForContent) {
                     imgUrl: elementRouting(el).imgUrl,
                     imgMeta: textAroundImage,
                     imgMetaLength: textAroundImageLength,
+                    imgDimensions: elementRouting(el).imgDimensions,
 
                 };
             });
