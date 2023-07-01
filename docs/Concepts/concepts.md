@@ -244,7 +244,7 @@ The purpose of this paper is to capture and convey to a broader audience my incr
 
 #### Its and Bits - Cryptography and one-way functions is the only thing than can safe our digital twin
 
-Use [trans-contextual value](term_trans-contextual-value.md) creation and capture to fuel cooperative network effects.
+Use [trans-contextual value](trans-contextual-value.md) creation and capture to fuel cooperative network effects.
 
 #### Network dynamics - centralized system will lose
 
