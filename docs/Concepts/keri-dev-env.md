@@ -23,9 +23,7 @@ We won't mention these fundamental feature for creating Autonomic Identifier sys
 
 ### What is Sphinx?
 
-<img src="https://github.com/WebOfTrust/keri/blob/main/images/Sphinx.png?raw=true" class="img-thumbnail" alt="Sphinx-logo" width="250"  />
-
-Sphinx is a documentation generator or a tool that translates a set of plain text source files into various output formats, automatically producing cross-references, indices, etc. That is, if you have a directory containing a bunch of reStructuredText or Markdown documents, Sphinx can generate a series of HTML files, a PDF file (via LaTeX), man pages and much more.\
+<img src="https://github.com/WebOfTrust/keri/blob/main/images/Sphinx.png?raw=true" class="img-thumbnail" alt="Sphinx-logo" width="250"  /> Sphinx is a documentation generator or a tool that translates a set of plain text source files into various output formats, automatically producing cross-references, indices, etc. That is, if you have a directory containing a bunch of reStructuredText or Markdown documents, Sphinx can generate a series of HTML files, a PDF file (via LaTeX), man pages and much more.\
 Sphinx experience is a great asset for a GNU Linux technical writer.
 
 [Source](https://www.sphinx-doc.org/en/master/)
@@ -61,9 +59,7 @@ OpenAPI (former Swagger, before version 2.0) is more important than the company 
 
 ### What exactly is a REST API?
 
-<img src="https://github.com/WebOfTrust/keri/blob/main/images/restapi.png?raw=true" class="img-thumbnail" alt="restapi-logo"  width="250" />
-
-There are numerous types of APIs, making it difficult for new developers to differentiate between each kind. In particular, REpresentational State Transfer (REST) is a software architectural style that developers apply to web APIs. REST APIs provide simple, uniform interfaces because they can be used to make data, content, algorithms, media, and other digital resources available through web URLs. Essentially, REST APIs are the most common APIs used across the web today
+<img src="https://github.com/WebOfTrust/keri/blob/main/images/restapi.png?raw=true" class="img-thumbnail" alt="restapi-logo"/> There are numerous types of APIs, making it difficult for new developers to differentiate between each kind. In particular, REpresentational State Transfer (REST) is a software architectural style that developers apply to web APIs. REST APIs provide simple, uniform interfaces because they can be used to make data, content, algorithms, media, and other digital resources available through web URLs. Essentially, REST APIs are the most common APIs used across the web today
 
 To make the API service RESTful, six guiding constraints must be satisfied:
 
