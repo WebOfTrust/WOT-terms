@@ -1,3 +1,2 @@
 ## See
-
-[Duplicitous event log](duplicitous-event-log.md)
+[Duplicitous event log](duplicitous-event-log)

@@ -11,8 +11,7 @@ The primary purpose of tracing the provenance of an object or entity is normally
 
 ## Provenance and ACDC
 
-[Authentic chained data containers (ACDC)](<authentic-chained-data-container-(ACDC.md)>) establish provenance in two coherent ways:
-
+[Authentic chained data containers (ACDC)](authentic-chained-data-container-(ACDC)) establish provenance in two coherent ways:
 - historic documentation of cryptographic verifiable key states and data consistency (result: secure attribution)
-- historic documentation of [credentials](credentials.md) (result: attested [veracity](veracity.md))\
-  (_@henkvancann_)
+- historic documentation of [credentials](credentials) (result: attested [veracity](veracity))\
+(_@henkvancann_)

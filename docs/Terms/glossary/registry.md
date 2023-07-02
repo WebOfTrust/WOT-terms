@@ -4,12 +4,12 @@ In our digital mental model it's an _official_ digital _record book_. When peopl
 
 ## Unique Registries
 
-A unique registry can be referenced in one of two ways, by [namespace](namespace.md), or by [domain](domain.md).
+A unique registry can be referenced in one of two ways, by [namespace](namespace), or by [domain](domain).
 
 <img src="https://hackmd.io/_uploads/HyXBDKbGi.png" width="400" />
 
 [Source](https://stevelasker.blog/2020/02/17/registry-namespace-repo-names/)
 
 ## ACDC related
+ACDCs and SAIDS eliminated the need for a centrally controlled namespace registry for credential schemas. [schema registry](schema-registry).
 
-ACDCs and SAIDS eliminated the need for a centrally controlled namespace registry for credential schemas. [schema registry](schema-registry.md).

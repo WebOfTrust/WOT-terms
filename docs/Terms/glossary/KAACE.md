@@ -1,3 +1,2 @@
 ## See
-
-[KERI agreement algorithm for control establishment](keri-agreement-algorithm-for-control-establishment.md)
+[KERI agreement algorithm for control establishment](keri-agreement-algorithm-for-control-establishment)

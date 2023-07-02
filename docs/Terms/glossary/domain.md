@@ -1,3 +1,2 @@
 ## See
-
-[Trust domain](trust-domain.md) and / or [Domain name](domain-name.md)
+[Trust domain](trust-domain) and / or [Domain name](domain-name)
