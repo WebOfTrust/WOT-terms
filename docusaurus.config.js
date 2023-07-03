@@ -97,27 +97,27 @@ const config = {
           //   position: 'left',
           //   items: [
           //     {
-          //       to: '/docs/howto/embed-github-hosted-image-in-github-wiki-page',
+          //       to: '/docs/how\ we\did/embed-github-hosted-image-in-github-wiki-page',
           //       label: 'Embed a Github-hosted image in a Github wiki page',
           //     },
           //     {
-          //       to: '/docs/howto/markdown-from-ToIP-wiki',
+          //       to: '/docs/how\ we\did/markdown-from-ToIP-wiki',
           //       label: 'Get Markdown files from ToIP wiki glossary terms',
           //     },
           //     {
-          //       to: '/docs/howto/load-toip-glossary-in-weboftrust-github-page',
+          //       to: '/docs/how\ we\did/load-toip-glossary-in-weboftrust-github-page',
           //       label: 'Load ToIP glossary in weboftrust github page',
           //     },
           //     {
-          //       to: '/docs/howto/pull-in-markdown-documents',
+          //       to: '/docs/how\ we\did/pull-in-markdown-documents',
           //       label: 'Pull in markdown documents',
           //     },
           //     {
-          //       to: '/docs/howto/pull-changes-from-toip-to-terms',
+          //       to: '/docs/how\ we\did/pull-changes-from-toip-to-terms',
           //       label: 'Pull in changes from toip terms',
           //     },
           //     {
-          //       to: '/docs/howto/why-terms-wot-manage-structure',
+          //       to: '/docs/how\ we\did/why-terms-wot-manage-structure',
           //       label: 'The Terms WOT manage structure explained',
           //     },
           //   ],
@@ -174,7 +174,7 @@ const config = {
               },
               {
                 label: 'Howtos',
-                to: '/docs/howto/intro',
+                to: '/docs/how\ we\did/intro',
               },
             ],
           },
