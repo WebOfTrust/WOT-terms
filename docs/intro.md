@@ -11,6 +11,7 @@ We aim to document everything related to **KERI, ACDC and CESR** and alike. To l
 ### Associated Specifications
 
 The table below lists the key deliverables of the KERI Community:
+
 | Acronym | Full Name of Deliverable | Link to Deliverable | Lead Authors | Status / Notes |
 |---|---|---|---|---|
 | KERI | Attributable (Autonomic) Identifiers (KERI) | [IETF KERI Draft](https://github.com/WebOfTrust/ietf-keri) | Samuel Smith | |
