@@ -1,10 +1,11 @@
 # Check and accept PR production Edusite locally
 
+```jsx
 git stash 
 git status
-
 git fetch upstream main
 git log
+```
 
 - `fix-mdfiles` is the name of the PR.
 - `testSC1` is the acronym of the developer that I use in this example.

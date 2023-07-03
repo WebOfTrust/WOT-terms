@@ -54,8 +54,8 @@ There are lots of tips and tools on the web you can find to edit your Youtube su
 Since KERI and ACDC education start off at the level of SSI-expert, a _beginner_ is not a layman, but somebody with a good common understanding of IT and digital identity.
 
 - 1=beginner digital identity expert
-- 3=advanced self-sovereign identity expert
-- 7=SSI experts
+- 2=advanced self-sovereign identity expert
+- 3=SSI experts
 
 #### Change the subtitles and fill the glossary and Excel sheet
 
