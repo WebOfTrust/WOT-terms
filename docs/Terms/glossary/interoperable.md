@@ -1,3 +1,2 @@
 ## See
-
-[Interoperability](interoperability.md)
+[Interoperability](interoperability)

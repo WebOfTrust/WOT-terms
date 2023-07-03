@@ -1,3 +1,2 @@
 ## See
-
-[Official Organizational Role](official-organizational-role.md)
+[Official Organizational Role](official-organizational-role)

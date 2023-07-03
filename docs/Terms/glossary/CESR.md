@@ -1,3 +1,2 @@
 ## See
-
-[composable event streaming representation](composable-event-streaming-representation.md)
+[composable event streaming representation](composable-event-streaming-representation)

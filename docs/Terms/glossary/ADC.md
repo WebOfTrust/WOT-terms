@@ -1,3 +1,2 @@
 ## See
-
-[Authentic data container](authentic-data-container.md)
+[Authentic data container](authentic-data-container)

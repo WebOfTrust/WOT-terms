@@ -1,3 +1,2 @@
 ## See
-
-[User interface](user-interface.md)
+[User interface](user-interface)
