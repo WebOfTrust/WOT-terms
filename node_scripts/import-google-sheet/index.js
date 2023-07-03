@@ -95,16 +95,17 @@ function createMarkDownFiles(content) {
     //   }
     // }
 
-    function levelConvertor(level) {
-      // alert: string, not number
-      if (level === '1') {
-        return 1;
-      } else if (level === '3') {
-        return 2;
-      } else if (level === '7') {
-        return 3;
-      }
-    }
+    //TODO: remove
+    // function levelConvertor(level) {
+    //   // alert: string, not number
+    //   if (level === '1') {
+    //     return 1;
+    //   } else if (level === '3') {
+    //     return 2;
+    //   } else if (level === '7') {
+    //     return 3;
+    //   }
+    // }
 
     let finalStringAll = '';
 
