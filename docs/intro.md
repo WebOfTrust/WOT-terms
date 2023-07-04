@@ -7,6 +7,8 @@ sidebar_position: 1
 We aim to document everything related to **KERI, ACDC and CESR** and alike. To let autonomic identifiers florish.
 
 ## WebofTrust Concepts, Terminology and Education
+[WebofTrust WOT-terms](https://github.com/WebOfTrust/WOT-terms/)\
+The README of the main WebofTrust WOT-terms repo is [here](https://github.com/WebOfTrust/WOT-terms/blob/main/README.md).
 
 ### Associated Specifications
 

@@ -35,13 +35,13 @@ See the documents in this repo titled [LICENSE.md](https://github.com/WebOfTrust
 
 # Meetings
 
-We meet every other Thursday at 10 am EDT (or EST). (First meeting 2022 July 28)
+We have technical meetings twice a week on Monday and Thursdays. 
 
-The meeting agenda may be found [here](https://github.com/WebOfTrust/WOT-terms/blob/main/agenda.md). The zoom link is also at the top of the agenda page.
+The Edu Meetings held every other Thursday (First meeting was on 2022 July 28), stopped April 2023.
+
+The meeting agenda of the Technical Meeting may be found [here](https://hackmd.io/2C8ch1meS6ad3F3g2aEewg?both). The zoom link is also at the top of the page.
 
 # Related Meetings
-
-Our Terms and Education meeting is at the intersection Technical and Conceptual meetings. For KERI, CESR, OOBI and ACDC it's especially important to explain our concepts to the outside world because it's new and complex matter.
 
 # Technical
 
