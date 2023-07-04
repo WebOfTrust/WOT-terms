@@ -1,5 +1,5 @@
 const paths = {
-    url: "https://weboftrust.github.io",
+    url: "https://kerisse.org",
     baseUrl: "/",
 }
 
