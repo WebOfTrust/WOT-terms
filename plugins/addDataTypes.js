@@ -57,12 +57,6 @@ const addDataTypes = () => {
           .classList.add('level' + row[levelColumnNumber]);
         document.querySelector('article').classList.add(row[levelColumnNumber]);
 
-        // // also add a span (originally for Algolia Docsearch scraper)
-        // let knowledgelevel = document.createElement('span');
-        // knowledgelevel.classList.add('knowledgelevel');
-        // knowledgelevel.classList.add('sr-only');
-        // knowledgelevel.innerHTML = row[levelColumnNumber];
-        // document.querySelector('article').prepend(knowledgelevel);
       }
 
       if (

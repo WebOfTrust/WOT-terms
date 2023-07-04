@@ -1,3 +1,34 @@
+# What 
+## WOT-terms 
+It's documentation and functionality to explore this documentation. We aim to document everything related to **KERI, ACDC and CESR** and alike (umbrella term is *KERI Suite*). 
+
+### What is this?
+In [How we did]() we document 'the making of' this site that consists of 
+- data; which we call WOT-terminology or **WOT-terms**
+- functionality; which we call **KERISSE**
+
+## WOT-terms
+Is the **data** part of this site and consists of:
+- whitepapers
+- code of the KERI Suite
+- Glossary
+- Q-and-A's
+- Concepts behind the KERI Suite
+- blogs
+- etc
+
+## KERISSE
+Is the **functionality** part of this site and consists of:
+- Typesense [Search Engine](https://weboftrust.github.io/WOT-terms/?searchModalStatus=open)
+- Artificial Intelligence chatBot (in lower right corner)
+- [Docusaurus static site](https://weboftrust.github.io/WOT-terms/) functionality
+
+# Why
+To let autonomic identifiers florish.
+
+# For who
+WOT-terms is pimarilly aimed at KERI Suite developers (to be)
+
 # Policy
 
 See the documents in this repo titled [LICENSE.md](https://github.com/WebOfTrust/Keri/blob/main/LICENSE.md) and [CONTRIBUTING.md](https://github.com/WebOfTrust/Keri/blob/main/CONTRIBUTING.md) for licensing and contributing policy. Besides the IETF licensing terms, these include the comprehensive Apache2 license for all associated intellectual property (IP) including patents. The advantage of one comprehensive license for all contributions is that there will always be alignment between all contributors and for any type of contribution. This alignment includes an **inbound=outbound** [policy](https://opensource.guide/legal/) for all related IP. We only want contributions to KERI made here in the WebOfTrust project that are licensed as free, and [nonreciprocal](https://opensource.org/node/875) open source be it software or specification.
