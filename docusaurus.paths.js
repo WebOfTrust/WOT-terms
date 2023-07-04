@@ -1,6 +1,6 @@
 const paths = {
-    url: "https://kerisse.org",
-    baseUrl: "/",
+    url: "https://weboftrust.github.io",
+    baseUrl: "/WOT-terms/",
 }
 
 module.exports = paths;
