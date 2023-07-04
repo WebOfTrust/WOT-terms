@@ -75,8 +75,8 @@ const typeSenseInstantSearch = () => {
 
   const search = instantsearch({
     searchClient,
-    // indexName: 'Wot-terms',// production
-    indexName: 'Wot-terms-test',// testing
+    indexName: 'Wot-terms',// production
+    // indexName: 'Wot-terms-test',// testing
     routing: true,
     // searchFunction(helper) {
     // if (helper.state.query === '') {
