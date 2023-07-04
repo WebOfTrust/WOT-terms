@@ -1,3 +1,2 @@
 ## See
-
-[Distributed hash table](distributed-hash-table.md)
+[Distributed hash table](distributed-hash-table)

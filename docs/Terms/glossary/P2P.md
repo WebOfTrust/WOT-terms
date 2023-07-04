@@ -1,3 +1,2 @@
 ## See
-
-[Peer to peer](peer-to-peer.md)
+[Peer to peer](peer-to-peer)

@@ -1,3 +1,2 @@
 ## See
-
-[Transaction event log](transaction-event-log.md)
+[Transaction event log](transaction-event-log)

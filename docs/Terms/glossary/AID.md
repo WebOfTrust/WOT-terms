@@ -1,3 +1,2 @@
 ## See
-
-[Autonomic identifier](autonomic-identifier.md)
+[Autonomic identifier](autonomic-identifier)

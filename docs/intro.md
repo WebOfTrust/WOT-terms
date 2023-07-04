@@ -7,16 +7,21 @@ sidebar_position: 1
 We aim to document everything related to **KERI, ACDC and CESR** and alike. To let autonomic identifiers florish.
 
 ## WebofTrust Concepts, Terminology and Education
+[WebofTrust WOT-terms](https://github.com/WebOfTrust/WOT-terms/)\
+The README of the main WebofTrust WOT-terms repo is [here](https://github.com/WebOfTrust/WOT-terms/blob/main/README.md).
 
 ### Associated Specifications
 
 The table below lists the key deliverables of the KERI Community:
+
+
 | Acronym | Full Name of Deliverable | Link to Deliverable | Lead Authors | Status / Notes |
 |---|---|---|---|---|
 | KERI | Attributable (Autonomic) Identifiers (KERI) | [IETF KERI Draft](https://github.com/WebOfTrust/ietf-keri) | Samuel Smith | |
 | CESR | Composable Event Streaming Representation | [IETF CESR Draft](https://github.com/WebOfTrust/ietf-cesr)| Samuel Smith |[Active Draft](https://datatracker.ietf.org/doc/draft-ssmith-cesr/)|
 | ACDC | Authentic Chained Data Containers | [IETF ACDC Draft](https://github.com/trustoverip/tswg-acdc-specification) | Samuel Smith | [Active Draft](https://datatracker.ietf.org/doc/draft-ssmith-acdc/) |
 | OOBI | Out-Of-Band-Introduction | [IETF OOBI Draft](https://github.com/WebOfTrust/ietf-oobi) | Sam Smith |[Active Draft](https://datatracker.ietf.org/doc/draft-ssmith-oobi/)|
+
 
 ### Why Concepts, Terminology and Education
 
@@ -56,7 +61,7 @@ That said, we consider there's given a wish to mutually understand each-other (t
 
 Then what might magically happen is that somewhere in this process the recipients concludes that the tool has **meaning** for them! He/she believes it has unique characteristics, value, practical application etc. There might even be someone that _sees_ it's the next big thing on the web, like the KERI / ACDC tends to believe.
 
-So this is why we explain our concepts in various levels of understanding and link it to terminology spun in a interrelated glossary. Here you can find the KERI, OOBI, CESR and ACDC concepts, starting points and principles: [Concepts.md](./term_concepts.md)
+So this is why we explain our concepts in various levels of understanding and link it to terminology spun in a interrelated glossary. Here you can find the KERI, OOBI, CESR and ACDC concepts, starting points and principles: [Concepts.md](concepts.md)
 
 {EXplain IETF, ToIP, eSSIF-Lab}
 

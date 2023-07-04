@@ -1,3 +1,2 @@
 ## See
-
-[GLEIF authorized representative](gleif-authorized-representative.md)
+[GLEIF authorized representative](gleif-authorized-representative)

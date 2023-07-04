@@ -1,3 +1,2 @@
 ## See
-
-[Qualified vLEI issuer](qualified-vlei-issuer.md)
+[Qualified vLEI issuer](qualified-vlei-issuer)

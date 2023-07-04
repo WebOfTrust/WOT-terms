@@ -122,9 +122,9 @@ As you edit, also have a an Excel sheet open with a few columns:
 
 Since KERI and ACDC education start off at the level of SSI-expert, a _beginner_ is not a layman, but somebody with a good common understanding of IT and digital identity.
 
-- 1=beginner digital identity expert
-- 3=advanced self-sovereign identity expert
-- 7=SSI experts
+- 1=general digital identity expert
+- 2=advanced self-sovereign identity expert
+- 3=autonomic identifier & KERI experts
 
 The command `source gen-fm.bat` performs the tasks mentioned above.
 

@@ -1,3 +1,2 @@
 ## See
-
-[Verifiable data structure](verifiable-data-structure.md)
+[Verifiable data structure](verifiable-data-structure)

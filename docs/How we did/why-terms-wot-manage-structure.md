@@ -157,7 +157,7 @@ Three major applications:
 Being the home of our terms maintenance, we [load ToIP glossary](./load-toip-glossary-in-weboftrust-github-page.md) and generate our Docusaurus [static content site](https://weboftrust.github.io/WOT-terms/) on Github. This whole process is steered with the content in the _Terms WOT manage sheet_.
 
 Any resource that mentions WebofTrust terms can be much easier enriched with the use of _Terms WOT manage sheet_.
-For example, we can create a [terms link table for any footage](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/howto/create-terms-link-table.md) from the sheet Terms WOT manage sheet.
+For example, we can create a [terms link table for any footage](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/how\ we\did/create-terms-link-table.md) from the sheet Terms WOT manage sheet.
 
 Integration and synchronisation with other glossaries and destination information sources is possible by maintenance of Key and Foreign Keys in _Terms WOT manage sheet_.
 

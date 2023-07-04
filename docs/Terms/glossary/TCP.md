@@ -1,3 +1,2 @@
 ## See
-
-[Transmission control protocol](transmission-control-protocol.md)
+[Transmission control protocol](transmission-control-protocol)
