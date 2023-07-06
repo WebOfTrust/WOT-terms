@@ -31,23 +31,12 @@ In the tab `LabelContent` in WOT-terms [Google sheet](https://docs.google.com/sp
 ### Google Sheet Apps Script Link-check function
 
 #### function CHECKANCHOR(url)
-Deployment-ID
-
-`AKfycbzmcGVlaLfy0ZIQH9_afGrGYU-TgQp1YoxfGlfP3C9BQU2FeosxgCmHjUU-MMuA6d48eQ`
-
-Webapp
-
+##### Webapp
 `https://script.google.com/macros/s/AKfycbzmcGVlaLfy0ZIQH9_afGrGYU-TgQp1YoxfGlfP3C9BQU2FeosxgCmHjUU-MMuA6d48eQ/exec`
 
 #### function CHECKURL(url)
-Deployment-ID
-
-`AKfycbzLGQzbDHvr3wtjxDrArCQ8wNdhR3aWQADnaqN2eSOoDShoNyECdK0nifxjrV85Xca37Q`
-
-Webapp
-
+##### Webapp
 `https://script.google.com/macros/s/AKfycbzLGQzbDHvr3wtjxDrArCQ8wNdhR3aWQADnaqN2eSOoDShoNyECdK0nifxjrV85Xca37Q/exec`
-
 
 ## Functionality
 
