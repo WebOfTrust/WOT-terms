@@ -7,7 +7,6 @@
   - **Type:** White Paper
   - **Category:** KERI, SAID
 
-
 - **Title:** [Keri White Paper Slide Deck](https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERI_Overview.web.pdf)
   - **Description:** Slide deck providing a visual and concise overview of KERI.
   - **Target Group:** General Audience, Developers
