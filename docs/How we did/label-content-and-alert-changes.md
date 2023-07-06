@@ -8,6 +8,9 @@ We have:
 In the tab `LabelContent` in WOT-terms [Google sheet](https://docs.google.com/spreadsheets/d/18IUa-1NSJ_8Tz_2D-VSuSQa_yf3ES1s_hovitm3Clvc/edit#gid=378513351) we find instructions and tests on:
 1. how to scrape sources
 2. how to modify the sources
+   - column `ourid` delivers the bidirectional link between the content and its labelling recipe in one row of the `WOT-terms` `LabelContent` tab
+   - We create a Data attribute for this: `<div data-ourid=23612 ..`
+
 3. where to put the resulting sources
 4. how to present the sources in Docusaurus
 
@@ -59,7 +62,7 @@ Webapp
  - Labeled Content (based on management sheet)
  - Presenting (where some names could also come from the sheet again)
 
-What is the [advantage of this](#Advantage), who's going to benefit and what's the result?
+What is the [advantage of this](#advantage), who's going to benefit and what's the result?
 
 ## Management of the sheet and the data it references
 1. Is a source and references (anchors) to its blocks of content already in the sheet? There is no check for duplicity, so the first entry that matches will be executed and the next entries for the same filename will fail.
