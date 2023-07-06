@@ -1098,7 +1098,7 @@
       "",
       "",
       "",
-      "Data structure that ensures digital data accuracy and authenticity.",
+      "Data structure ensuring digital data accuracy and authenticity.",
       "",
       "NO INPUT"
     ],
@@ -5080,7 +5080,7 @@
       "",
       "",
       "",
-      "#ERROR!",
+      "Qualified cryptographic primitives include a prepended derivation code.",
       "",
       "A cryptographic primitive is qualified if it includes a prepended derivation code."
     ],
@@ -7588,7 +7588,7 @@
       "",
       "",
       "",
-      "#ERROR!",
+      "Interleaved serializations of various types in an overarching format.",
       "",
       "Serialization of various types interspersed in an overarching format."
     ],
