@@ -1,0 +1,8 @@
+{
+  "frame": "https://raw.githubusercontent.com/trustoverip/acdc/main/.glossary-template.html",
+  "sources": [
+    {
+      "wiki": "git@github.com:trustoverip/acdc.git"
+    }
+  ]
+}
