@@ -1,5 +1,5 @@
 {
-  "frame": "https://raw.githubusercontent.com/weboftrust/main/.glossary-template.html",
+  "frame": "https://raw.githubusercontent.com/weboftrust/WOT-terms/main/.glossary-template.html",
   "sources": [
     {
       "wiki": "git@github.com:weboftrust/WOT-terms.git"
