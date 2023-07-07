@@ -1,0 +1,56 @@
+name: Update glossary
+
+# Controls when the workflow will run
+on:
+  gollum:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+    inputs:
+      glossaryDefFile:
+        required: true
+        default: glossary.json
+        description: glossaryDefFile
+      deployBranch:
+        required: false
+        default: gh_pages
+        description: This is where the output of script will be pushed to.
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2.2.2
+
+      - name: Install deps
+        run: |
+          git clone https://github.com/trustoverip/tt.git
+          python -m pip install marko
+          python -m pip install requests
+
+      - name: Set variables
+        env:
+          DEFAULT_GLOSSARY_DEF_FILE: glossary.json
+          DEFAULT_DEPLOY_BRANCH: gh_pages
+        run: |
+          echo "GLOSSARY_DEF_FILE=${{ github.event.inputs.glossaryDefFile || env.DEFAULT_GLOSSARY_DEF_FILE }}" >> $GITHUB_ENV
+          echo "DEPLOY_BRANCH=${{ github.event.inputs.deployBranch || env.DEFAULT_DEPLOY_BRANCH }}" >> $GITHUB_ENV
+
+      - name: Run script
+        run: ./tt/bin/tt glossary ${{ env.GLOSSARY_DEF_FILE }} >glossary.html.new
+
+      - name: Setup git config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+
+      - name: Publishing
+        run: |
+          git fetch origin
+          git checkout ${{ env.DEPLOY_BRANCH }}
+          mv glossary.html.new glossary.html
+          git add glossary.html
+          git commit -m "auto-update glossary"
+          git push
+          echo DONE
