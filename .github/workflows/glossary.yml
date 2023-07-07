@@ -12,7 +12,7 @@ on:
         description: glossaryDefFile
       deployBranch:
         required: false
-        default: gh_pages
+        default: gh-pages
         description: This is where the output of script will be pushed to.
 # explicitly configure permissions, in case your GITHUB_TOKEN workflow permissions are set to read-only in repository settings
 permissions:
@@ -38,7 +38,7 @@ jobs:
       - name: Set variables
         env:
           DEFAULT_GLOSSARY_DEF_FILE: glossary.json
-          DEFAULT_DEPLOY_BRANCH: gh_pages
+          DEFAULT_DEPLOY_BRANCH: gh-pages
         run: |
           echo "GLOSSARY_DEF_FILE=${{ github.event.inputs.glossaryDefFile || env.DEFAULT_GLOSSARY_DEF_FILE }}" >> $GITHUB_ENV
           echo "DEPLOY_BRANCH=${{ github.event.inputs.deployBranch || env.DEFAULT_DEPLOY_BRANCH }}" >> $GITHUB_ENV
