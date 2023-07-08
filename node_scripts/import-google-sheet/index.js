@@ -82,30 +82,6 @@ function createMarkDownFiles(content) {
 
     // Everything in one file, in a table:
 
-    // function levelConvertor(level) {
-    //   switch (level) {
-    //     case 1:
-    //       return 1;
-    //     case 2:
-    //       return 1;
-    //     case 3:
-    //       return 2;
-    //     case 7:
-    //       return 3;
-    //   }
-    // }
-
-    //TODO: remove
-    // function levelConvertor(level) {
-    //   // alert: string, not number
-    //   if (level === '1') {
-    //     return 1;
-    //   } else if (level === '3') {
-    //     return 2;
-    //   } else if (level === '7') {
-    //     return 3;
-    //   }
-    // }
 
     let finalStringAll = '';
 
@@ -144,7 +120,6 @@ function createMarkDownFiles(content) {
       if (indexTableRow < 1) return;
       //   if (index < 1 || index > 12) return;
 
-      level = levelConvertor(item[8]);
       finalStringAll += `<tr data-row='row${indexTableRow}' data-rownr='${indexTableRow}'>`;
 
       // TODO: table looks wrong:
