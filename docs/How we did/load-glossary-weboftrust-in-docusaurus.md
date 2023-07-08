@@ -12,7 +12,7 @@
 We use local repo's or PR to sync Weboftrust `WOT-terms.wiki` and TrustoverIP `acdc.wiki`. Note that the wiki pages of a github repo are manifest in a seperate repo. 
 ### Why would we sync with ToIP glossary
 The main reason is interoperability. We want to join in the effort to create cross-referencing concepts, terms and glossary resources at WebofTrust.
-### Why sync with ToIP glossary nd not something else.
+### Why sync with ToIP glossary and not something else.
 From our WebofTrust view ToIP is our umbrella organisation that has similar objectives and principles. ToIP has good working relations with the European umbrella organisation eSSIF-lab too, who in 2023 can be considered as the global front runners of getting the terminology sorted out for Self-Sovereign Identity.
 
 ** How our own repo [WebofTrust](https://github.com/WebOfTrust) came to be **
@@ -20,9 +20,11 @@ In 2022 we reasoned:
 - we would to have to build similar Github Actions tooling like [ToIP](https://wiki.trustoverip.org/display/HOME/Terms+Wikis) already has.
 - we can't join the synchronization effort already taking place with [eSSIF-lab](https://essif-lab.github.io/framework)
 - we would have to maintain these auxiliary which keeps us off other important work
+
 In 2023 we experienced:
 -  lagtime by ToIP and Linux Foundation internal github governance rules
 - the knowledge and skills needed to "roll our own" had been acquired
+
 Mid 2023 we decided:
 - to start [Weboftrust wiki](https://github.com/WebOfTrust/WOT-terms/wiki)
 - to sync at will with [ToIP wiki](https://github.com/trustoverip/acdc/wiki)
