@@ -82,7 +82,7 @@ jobs:
           git fetch origin
           git checkout ${{ env.DEPLOY_BRANCH }}
           git status
-          git mv --verbose glossary.html.new glossary.html
+          mv glossary.html.new glossary.html
           git add glossary.html
           gis status
           git commit -m "auto-update glossary"
