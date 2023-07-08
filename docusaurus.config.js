@@ -315,27 +315,27 @@ const config = {
  * BEGIN TYPESENSE INSTANT SEARCH PLUGIN
  */
     require.resolve(
-      './plugins/typesenseInstantSearchInit.js'
+      './clientModules/typesenseInstantSearchInit.js'
     ),
-    require.resolve('./plugins/typesenseInstantSearch.js'),
+    require.resolve('./clientModules/typesenseInstantSearch.js'),
     /**
      * END TYPESENSE INSTANT SEARCH PLUGIN
      */
 
-    // require.resolve('./plugins/chatbase'),
-    require.resolve('./plugins/crossLinks'),
-    // require.resolve('./plugins/animationHomepage'),
-    require.resolve('./plugins/showLevels'),
-    require.resolve('./plugins/insertVideo'),
-    require.resolve('./plugins/insertSubtitles'),
-    require.resolve('./plugins/dynamicTables'),
-    require.resolve('./plugins/elementGoFullScreen'),
-    require.resolve('./plugins/horizontalScrollHint'),
-    require.resolve('./plugins/showDefinitionsPopUpOnClick'),
-    require.resolve('./plugins/writeChanges'),
-    require.resolve('./plugins/addDataTypes'),
-    require.resolve('./plugins/showGPTsummary'),
-    require.resolve('./plugins/typesenseHandleSearchModal'),
+    // require.resolve('./clientModules/chatbase'),
+    require.resolve('./clientModules/crossLinks'),
+    // require.resolve('./clientModules/animationHomepage'),
+    require.resolve('./clientModules/showLevels'),
+    require.resolve('./clientModules/insertVideo'),
+    require.resolve('./clientModules/insertSubtitles'),
+    require.resolve('./clientModules/dynamicTables'),
+    require.resolve('./clientModules/elementGoFullScreen'),
+    require.resolve('./clientModules/horizontalScrollHint'),
+    require.resolve('./clientModules/showDefinitionsPopUpOnClick'),
+    require.resolve('./clientModules/writeChanges'),
+    require.resolve('./clientModules/addDataTypes'),
+    require.resolve('./clientModules/showGPTsummary'),
+    require.resolve('./clientModules/typesenseHandleSearchModal'),
   ],
 };
 
