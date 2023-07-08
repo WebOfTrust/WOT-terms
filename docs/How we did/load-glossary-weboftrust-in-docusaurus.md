@@ -65,7 +65,7 @@ To able to generate a tailor made explanation site we use two inputs (see full l
 2. Terms WOT manage (xls or csv) table, currently maintained in Google Sheets (mid 2023)
 
 
-Step into the Docusaurus dir structure to `WOT-terms/docs/terms` 
+Step into the Docusaurus dir structure to `WOT-terms/docs/glossary` 
 and execute the command `cp ../../../WOT-terms.wiki/*  .` to finish what we'd like to achieve: Copy the glossary resources into the Docusaurus file structure.
 
 ### Script YYYYYYY to put WOT-terms sheet into JSON structure
