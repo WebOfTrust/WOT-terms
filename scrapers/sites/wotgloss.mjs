@@ -6,13 +6,13 @@ import getTextContent from '../modules/getTextContent.mjs';
 const config = {
     sitemap: await createInput({
         sourceType: 'querySelector',
-        sourcePath: 'https://github.com/trustoverip/acdc/wiki',
+        sourcePath: 'https://github.com/weboftrust/WOT-terms/wiki',
         queryString: '#wiki-pages-box a',
     }),
-    siteName: 'Trust over IP glossary',
-    source: 'Trust over IP glossary',
+    siteName: 'WebofTrust glossary',
+    source: 'WebofTrust glossary',
     author: 'Henk van Cann',
-    destinationFile: 'scrapers/output/acdc.json',
+    destinationFile: 'scrapers/output/wotgloss.json',
     domQueryForContent: '.markdown-body p, .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6, .markdown-body li, .markdown-body img, .markdown-body pre, .markdown-body code'
 }
 
