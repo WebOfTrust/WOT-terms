@@ -106,6 +106,7 @@ const config = {
             href: '/glossary.html',
             label: 'Glossary',
             position: 'left',
+            target: '_self',
           },
           {
             href: '/feedback',
