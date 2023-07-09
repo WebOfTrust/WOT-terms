@@ -4,6 +4,7 @@
 
 // const json2md = require('json2md');
 const fs = require('fs');
+const path = require('path');
 const https = require('https');
 
 // CONFIG
