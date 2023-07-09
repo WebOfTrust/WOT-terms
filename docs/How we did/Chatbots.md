@@ -2,6 +2,14 @@
 
 ## Chatbase and other chatbots
 
+Chatbase only used the sources uploaded to it. However, it is built on chatGPT's gpt model and it has been known to sometimes break out of character and act as ChatGPT.
+
+Therefore, it has to be explicitly instructed in the base prompt to only respond with answers from the data it was trained on, and to never break character.
+
+Source: support@chatbase.co
+
+---
+
 The overall problem with these chatbots is the way how the bot is trained. Take a look on official documentation of OpenAPI (since chatbase claims to use GPT3.5 and 4): https://platform.openai.com/docs/guides/fine-tuning
 
 This is limited to specific models: davinci, curie, babbage, and ada. You can't actually train/ fine tune  GPT3.5 and 4 as you need it, you need to pick models which can be fine tuned. More info here: https://openai.com/blog/how-should-ai-systems-behave
@@ -28,6 +36,6 @@ I hope this helps!”
 
 Keep in mind that Bart and PaLM2 are not available in EU zone/ Canada.
 
-Information from Robert Mitwicki
+Source: Robert Mitwicki
 
 
