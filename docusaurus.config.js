@@ -103,7 +103,7 @@ const config = {
             ],
           },
           {
-            href: '/glossary.html',
+            href: 'https://weboftrust.github.io/WOT-terms/glossary.html',
             label: 'Glossary',
             position: 'left',
             target: '_self',
