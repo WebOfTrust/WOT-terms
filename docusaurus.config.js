@@ -90,38 +90,6 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          // {
-          //   to: '/howtos-menu',
-          //   label: 'HowTos',
-          //   position: 'left',
-          //   items: [
-          //     {
-          //       to: '/docs/how\ we\did/embed-github-hosted-image-in-github-wiki-page',
-          //       label: 'Embed a Github-hosted image in a Github wiki page',
-          //     },
-          //     {
-          //       to: '/docs/how\ we\did/markdown-from-ToIP-wiki',
-          //       label: 'Get Markdown files from ToIP wiki glossary terms',
-          //     },
-          //     {
-          //       to: '/docs/how\ we\did/load-toip-glossary-in-weboftrust-github-page',
-          //       label: 'Load ToIP glossary in weboftrust github page',
-          //     },
-          //     {
-          //       to: '/docs/how\ we\did/pull-in-markdown-documents',
-          //       label: 'Pull in markdown documents',
-          //     },
-          //     {
-          //       to: '/docs/how\ we\did/pull-changes-from-toip-to-terms',
-          //       label: 'Pull in changes from toip terms',
-          //     },
-          //     {
-          //       to: '/docs/how\ we\did/why-terms-wot-manage-structure',
-          //       label: 'The Terms WOT manage structure explained',
-          //     },
-          //   ],
-          // },
           {
             to: '/visualisations',
             label: 'Visualisations',
@@ -178,22 +146,6 @@ const config = {
               },
             ],
           },
-          // {
-          //   title: 'Community',
-          //   items: [{
-          //       label: 'Stack Overflow',
-          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          //     },
-          //     {
-          //       label: 'Discord',
-          //       href: 'https://discordapp.com/invite/docusaurus',
-          //     },
-          //     {
-          //       label: 'Twitter',
-          //       href: 'https://twitter.com/docusaurus',
-          //     },
-          //   ],
-          // },
           {
             title: 'More',
             items: [
@@ -340,3 +292,16 @@ const config = {
 };
 
 module.exports = config;
+
+
+
+
+
+
+
+
+
+
+
+
+

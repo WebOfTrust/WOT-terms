@@ -1,25 +1,34 @@
-# KERI Development Environment and Techniques
+# Insights into the KERI Development Toolbox
 
-**This document explains what development tools have been used and why.**
+**Discover the whys and hows of the development tools that power the KERI system.**
 
-We're **not** addressing:
+Please note, this document **will not** delve into:
 
-- Cypher Libraries used by the different KERI implementations.
-  > Look for information here: [CypherSuites KeriPy](https://github.com/WebOfTrust/keripy/blob/development/ref/CypherSuites.md)
-- Coding Style Guides in different KERI implementations.
-  > Look for information here: [Style Guide for KeriPy](https://github.com/WebOfTrust/keripy/blob/development/ref/PythonStyleGuide.md)
+- Cypher Libraries used across different KERI implementations. 
+  > For more insights, visit: [CypherSuites KeriPy](https://github.com/WebOfTrust/keripy/blob/development/ref/CypherSuites.md)
+- Coding Style Guides for various KERI implementations.
+  > For further details, visit: [Style Guide for KeriPy](https://github.com/WebOfTrust/keripy/blob/development/ref/PythonStyleGuide.md)
 
-## KERI in general
+## The KERI Approach
 
-There are a few commons reasons to choose development tools. Mostly because they have the following features:
+The selection of development tools often aligns with a few common motivations. Typically, they possess the following characteristics:
 
-- open source
-- not patented
-- best of breed
-- universally applicable
-- tested for a few years
+- Open-source nature
+- Lack of patent restrictions
+- Best-in-class functionality
+- Universal applicability
+- Proven performance over time
 
-We won't mention these fundamental feature for creating Autonomic Identifier systems in the rest of this document. Instead we'll focus on the specific reasons for choices compared to alternatives in the field.
+These essential attributes underpin the creation of Autonomic Identifier systems, and will not be reiterated throughout this document. Instead, our spotlight will be on the unique considerations that influenced our choices, setting them apart from other alternatives in the domain.
+
+In the following sections, we'll delve into the key tools employed in the KERI Suite. Each tool's section will answer three critical questions:
+
+1. **What is {tool X}?** - An overview of the tool.
+2. **Why is it relevant for the KERI Suite?** - An explanation of how the tool fits into the KERI ecosystem and enhances our operations.
+3. **Why {tool X} and not something else?** - A rationale of why this specific tool was chosen over other alternatives in the field.
+
+Through this structured approach, we aim to provide clear insights into our development choices and their impact on the KERI Suite.
+
 
 ### What is Sphinx?
 
