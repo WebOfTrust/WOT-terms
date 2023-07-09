@@ -18,10 +18,6 @@ if (!fs.existsSync(outputFileLocation)) {
     fs.mkdirSync(outputFileLocation, { recursive: true });
 }
 
-
-// const inputDirPath = path.join(__dirname, '..', inputFileLocation);
-// const inputFilePath = path.join(inputDirPath, inputFileName);
-
 function readFileAsync(filePath) {
     return new Promise((resolve, reject) => {
         fs.readFile(filePath, 'utf8', (err, data) => {
