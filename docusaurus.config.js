@@ -291,7 +291,7 @@ const config = {
   ],
 };
 
-// module.exports = config;
+ßmodule.exports = config;
 
 
 
