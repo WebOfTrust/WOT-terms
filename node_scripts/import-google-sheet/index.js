@@ -2,8 +2,6 @@
 
 // This script should be run from the root of the project
 
-//TODO: create directories if they do not exist yet
-
 // const json2md = require('json2md');
 const fs = require('fs');
 const https = require('https');
@@ -168,18 +166,22 @@ function createMarkDownFiles(content) {
 }
 
 function writeJSONFile(content) {
+  // Create the output directory if it doesn't exist
+  if (!fs.existsSync(outputDirJSON)) {
+    fs.mkdirSync(outputDirJSON, { recursive: true });
+  }
+
+  // Path to the output file
+  const filePath = path.join(outputDirJSON, outputFileNameJSON);
+
   fs.writeFile(
-    // Where to write:
-    outputDirJSON + outputFileNameJSON,
-
-    // What to write:
+    filePath,
     content,
-
-    // When it goes wrong:
     function (err) {
       if (err) {
         return console.log(err);
       }
+      console.log('JSON file has been written successfully.');
     }
   );
 } // End writeJSONFile
