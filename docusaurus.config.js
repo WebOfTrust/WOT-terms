@@ -103,6 +103,11 @@ const config = {
             ],
           },
           {
+            href: '/glossary.html',
+            label: 'Glossary',
+            position: 'left',
+          },
+          {
             href: '/feedback',
             label: 'Feedback',
             position: 'left',
