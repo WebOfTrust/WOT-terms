@@ -44,7 +44,7 @@ jobs:
           echo "DEPLOY_BRANCH=${{ github.event.inputs.deployBranch || env.DEFAULT_DEPLOY_BRANCH }}" >> $GITHUB_ENV
 
       - name: Run script
-        run: ./tt/bin/tt glossary ${{ env.GLOSSARY_DEF_FILE }} > glossary.html.new
+        run: ./tt/bin/tt glossary ${{ env.GLOSSARY_DEF_FILE }} >glossary.html.new
 
       - name: Setup git config
         run: |
