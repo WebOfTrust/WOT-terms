@@ -1,17 +1,23 @@
 # Load ToIP glossary in weboftrust github page
 
+With regard to the glossary our weboftrust github page of the WOT-terms repo serves two clearly distinctive purposes:
+1.  show the world we conform to the ToIP and eSSIF-lab standards of generating glossaries 
+2. create our own version of the glossary where we add meta data, levels, catogeries and change the layout and UI to fit the Docusaurus KERISSE image.
+
 ## Input
 
-1. The ToIP ACDC glossary locally (all the .md files pulled from [repo wiki](https://github.com/trustoverip/acdc/wiki))
-2. Terms WOT manage (xls or csv) table
-3. Excel or open source alternative
-5. Version control (git, Github or Gitlab)
+1. The WebofTrust glossary (all the .md files pulled from [repo wiki](https://github.com/weboftrust/WOT-terms/wiki))
+2. Terms WOT manage [Google Sheet](https://docs.google.com/spreadsheets/d/18IUa-1NSJ_8Tz_2D-VSuSQa_yf3ES1s_hovitm3Clvc/edit#gid=209150977)
+5. Version control (git & Github)
 
-## Sync with origin ToIP glossary
+## In Sync with original ToIP ACDC glossary?
+Yes, the WebofTrust wiki glossary is the new home of our glossary. But we regularly will pull changes from ToIP [acdc wiki](https://github.com/trustoverip/acdc/wiki) and offer PRs to the ToIP version too.
 
 We use local repo's or PR to sync Weboftrust `WOT-terms.wiki` and TrustoverIP `acdc.wiki`. Note that the wiki pages of a github repo are manifest in a seperate repo. 
+
 ### Why would we sync with ToIP glossary
 The main reason is interoperability. We want to join in the effort to create cross-referencing concepts, terms and glossary resources at WebofTrust.
+
 ### Why sync with ToIP glossary and not something else.
 From our WebofTrust view ToIP is our umbrella organisation that has similar objectives and principles. ToIP has good working relations with the European umbrella organisation eSSIF-lab too, who in 2023 can be considered as the global front runners of getting the terminology sorted out for Self-Sovereign Identity.
 
@@ -92,7 +98,7 @@ Columns
 - (Cat-CCCC) multiple categories
 
 **key** needs to be unique and once established it should not change.
-**Term**s are words used in the resource, you can provide a **link** to more explanation, mainly to the [ACDC glossary](https://github.com/trustoverip/acdc/wiki/). Then the **level** of understanding at which this term might need explanation, and finally a _brief explanation_ in field **text** of the term in the first column.
+**Term**s are words used in the resource, you can provide a **link** to more explanation, mainly to the [ACDC glossary](https://github.com/weboftrust/WOT-terms/wiki/). Then the **level** of understanding at which this term might need explanation, and finally a _brief explanation_ in field **text** of the term in the first column.
 
 #### Level
 
@@ -120,6 +126,6 @@ The push will activate Github Actions and the resources will be input to a stati
 
 ## Result
 
-This is the Github pages result from the step by step above
+This is the Github pages result from the step by step above:
 
 https://weboftrust.github.io/WOT-terms/glossary.html

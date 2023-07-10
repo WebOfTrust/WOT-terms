@@ -9,7 +9,7 @@
 
 import scrapeWOTterms from './sites/WOT-terms.mjs';
 import scrapeGleif from './sites/gleif.mjs';
-import scrapeAcdc from './sites/acdc.mjs';
+import scrapeWotgloss from './sites/wotgloss.mjs';
 import scrapeESSIFLab from './sites/eSSIF-Lab.mjs';
 import scrapeJolocom from './sites/jolocom.io.mjs';
 import scrapeHumancolossus from './sites/humancolossus.mjs';
@@ -20,7 +20,7 @@ import scrapeGithub from './sites/github.mjs';
 
 scrapeWOTterms();
 scrapeGleif();
-scrapeAcdc();
+scrapeWotgloss();
 scrapeESSIFLab();
 scrapeJolocom();
 scrapeHumancolossus();
