@@ -30,6 +30,8 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+      - name: Import Google Sheet “WOT-terms”, tab “Terms-WOT-manage” data into markdown file
+        run: node node_scripts/import-google-sheet/index.js
       - name: Import Google Sheet data into markdown file
         run: node node_scripts/import-google-sheet/index.js
       - name: Build website
