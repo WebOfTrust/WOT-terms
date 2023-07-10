@@ -77,6 +77,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      sidebar: {
+        autoCollapseCategories: true,
+      },
       navbar: {
         title: 'KERISSE',
         logo: {
