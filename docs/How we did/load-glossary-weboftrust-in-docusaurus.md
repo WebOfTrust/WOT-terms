@@ -97,12 +97,16 @@ Columns
 - link
 - (Cat-CCCC) multiple categories
 
-**key** needs to be unique and once established it should not change.
-**Term**s are words used in the resource, you can provide a **link** to more explanation, mainly to the [ACDC glossary](https://github.com/weboftrust/WOT-terms/wiki/). Then the **level** of understanding at which this term might need explanation, and finally a _brief explanation_ in field **text** of the term in the first column.
+Explanation
+- **key** needs to be unique and once established it should not change.
+- **Term**s are words used in the resource, 
+- you can provide a **link** to more explanation, mainly to the [WOT glossary](https://github.com/weboftrust/WOT-terms/wiki/). 
+- Then the **level** of understanding at which this term might need explanation, and finally 
+- a _brief explanation_ in field **text** of the term in the first column.
 
 #### Level
 
-Since KERI and ACDC education start off at the level of SSI-expert, a _beginner_ is not a layman, but somebody with a good common understanding of IT and digital identity.
+Since KERI Suite education starts off at the level of SSI-expert, a _beginner_ is not a layman, but somebody with a good common understanding of IT and digital identity.
 
 - 1=general digital identity expert
 - 2=advanced self-sovereign identity expert
