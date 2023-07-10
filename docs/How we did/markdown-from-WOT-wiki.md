@@ -1,17 +1,20 @@
-# Get Markdown files from ToIP wiki glossary terms
+---
+sidebar: HowWeDidSidebar
+---
+# Get Markdown files from WebofTrust wiki glossary terms
 
 In a Trust over IP glossary you can easily change its underlying Markdown.
 
 > Example\
-> Go to the [wiki glossary](https://github.com/trustoverip/acdc/wiki) of ACDC\
-> Pick any term, e.g. [Agency](https://github.com/trustoverip/acdc/wiki/agency)\
+> Go to the [wiki glossary](https://github.com/weboftrust/WOT-terms/wiki) of WOT-terms\
+> Pick any term, e.g. [Agency](https://github.com/weboftrust/WOT-terms/wiki/agency)\
 > Use the `Edit` button in the upper-right corner\
 > Change / amend something\
 > `Save`
 
 ## Be careful
 
-Changes are immediate. A change like the one the example above, will be promoted to the production [glossary](https://trustoverip.github.io/acdc/glossary) because of installed Github Actions and triggers that go off there.
+Changes are immediate. A change like the one the example above, will be promoted to the production [glossary](https://weboftrust.github.io/WOT-terms/glossary) because of installed Github Actions and triggers that go off there.
 
 ## But I want the actual .MD-file in my hands!
 
@@ -30,7 +33,7 @@ Go to a folder on your local computer and type
 `Clone <paste the URL here>`
 
 > Example:\
-> Clone https://github.com/trustoverip/acdc.wiki.git
+> Clone https://github.com/weboftrust/WOT-terms.wiki.git
 
 Go to your newly created local repository and all the .MD files will be there
 
@@ -39,7 +42,7 @@ Go to your newly created local repository and all the .MD files will be there
 
 ## How to retrieve updates of the actual .MD-file to my local machine?
 
-Suppose you're in the root of the `acdc.wiki`
+Suppose you're in the root of the `WOT-terms.wiki`
 
 Command
 
@@ -58,5 +61,5 @@ git pull origin main
 Then go to the destination directory in the Docusaurus file tree and copy the files over:
 
 ```jsx
-cp <path to>/acdc.wiki/* .
+cp <path to>/WOT-terms.wiki/* .
 ```

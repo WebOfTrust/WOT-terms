@@ -1,10 +1,15 @@
-# Fill out terms in one of the ToIP wikis
+---
+sidebar: HowWeDidSidebar
+---
+# Fill out terms in the WebofTrust wiki
 
-This page tells a little bit about how to use the ToIP terms wiki:
+This page tells a little bit about how to use the WebofTrust terms wiki:
 
 - how to use
 - how to fill
 - how to manage
+
+But first a big **Thank You** to ToIP and Daniel Hardman, where we got the source code from and we sync our glossary with.
 
 ## Video Daniel Hardman
 
@@ -12,11 +17,10 @@ For new learners, the video | TBW prio1 | of Daniel Hardman is very educational.
 
 You could also have a look at the elaborate and complete description of the ToIP terms wikis [here](https://github.com/trustoverip/toip)
 
-| TBW |
 
 ## How to use a terms wiki
 
-Go to any of them, for example to the [acdc](https://github.com/trustoverip/acdc/wiki) wiki of the KERI team. It's not only acdc by the way, the KERI suite has been defined in terms there.
+Go to any of them, for example to the [acdc](https://github.com/weboftrust/WOT-terms/wiki) wiki of the KERI team. It's the KERI Suite terms there, so all about KERI, ACDC, CESR, OOBI, KERIA, IPEX, etc.
 
 1. **Find a page**: To find a term just type part of it and the available list will be filtered instantly
 

@@ -1,7 +1,6 @@
 ---
-sidebar_position: 1
+sidebar: HowWeDidSidebar
 ---
-
 # WOT-terms home page texts sources
 
 ~/WOT-terms/docusaurus.config.js

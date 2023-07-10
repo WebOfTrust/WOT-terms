@@ -1,3 +1,6 @@
+---
+sidebar: HowWeDidSidebar
+---
 # Pull changes from toip to terms
 
 ## Preposition

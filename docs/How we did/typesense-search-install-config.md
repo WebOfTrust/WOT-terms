@@ -1,3 +1,6 @@
+---
+sidebar: HowWeDidSidebar
+---
 # Typesense search install and configuration
 
 @henkvancann: These are the instructions I followed and implemented in the site. Oct 2022.
