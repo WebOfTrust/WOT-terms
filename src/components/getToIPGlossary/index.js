@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import config from '@generated/docusaurus.config';
 
 const GlossaryContent = () => {
     const [htmlContent, setHtmlContent] = useState('');
@@ -6,7 +7,7 @@ const GlossaryContent = () => {
     useEffect(() => {
         const fetchHtmlContent = async () => {
             try {
-                const response = await fetch('/glossary.html'); // Assumes glossary.html is in the root of your project
+                const response = await fetch(`${config.baseUrl}/glossary.html`);
                 const html = await response.text();
                 const bodyStartIndex = html.indexOf('<body>');
                 const bodyEndIndex = html.indexOf('</body>');
