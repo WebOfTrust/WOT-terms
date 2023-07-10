@@ -81,6 +81,8 @@ jobs:
         run: |
           git fetch origin
           git checkout ${{ env.DEPLOY_BRANCH }}
+          pwd
+          ls ./static
           mv glossary.html.new static/glossary.html
           git add static/glossary.html
           git commit -m "auto-update glossary"
