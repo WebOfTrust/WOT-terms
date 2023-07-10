@@ -577,3 +577,94 @@ https://css-tricks.com/books/greatest-css-tricks/scroll-shadows/
   background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
   background-attachment: local, local, scroll, scroll;
 }
+
+
+/* ToIP Glossary */
+#glossary_content dt {
+    margin-top: 1.4em;
+    color: #a3c74e;
+    font-size: 125%;
+    font-family: Verdana, sans-serif;
+}
+
+#glossary_content dt.letter {
+    text-align: center;
+    font-weight: bold;
+    color: #999;
+    border-bottom: solid 1px #ddd;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2.2em;
+    color: #666;
+}
+
+#glossary_content dd {
+    margin-left: 2em;
+}
+
+#glossary_content dt > span.tag {
+  float: right;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 2px 4px;
+  margin-right: 4px;
+  font-size: 60%;
+  font-family: Verdana;
+  color: #666;
+}
+
+#glossary_content dd>p:first-child {
+  margin-top: 0.2em;
+}
+
+#glossary_content a {
+    color: #3061a8;
+    text-decoration: none;
+}
+
+#glossary_content a:hover {
+    border-bottom: solid 1px #3061a8;
+}
+
+#glossary_content a:active {
+    background-color: #eee;
+}
+
+#glossary_content a:visited {
+    color: #6161a8;
+}
+
+#glossary_content p.meta {
+    font-size: 80%;
+    color: #bbb;
+    text-align: right;
+    margin-top: -0.9em;
+}
+
+#glossary_content ._slf {
+    float: left;
+    padding-right: 4px;
+    padding-top: 4px;
+    margin-left: -20px;
+    cursor: pointer;
+    width:16px;
+    height:16px;
+    display: none;
+}
+
+#glossary_content dt:not(.letter):hover > ._slf {
+    display: inline;
+}
+
+#glossary_content ._xl {
+    padding-right: 4px;
+    display: none;
+    cursor: pointer;
+    width:16px;
+    height:16px;
+}
+
+#glossary_content dt:not(.letter):hover > ._xl {
+  display: inline;
+}
+/* END ToIP Glossary */
