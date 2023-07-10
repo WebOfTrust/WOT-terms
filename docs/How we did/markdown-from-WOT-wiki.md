@@ -1,3 +1,6 @@
+---
+sidebar: HowWeDidSidebar
+---
 # Get Markdown files from WebofTrust wiki glossary terms
 
 In a Trust over IP glossary you can easily change its underlying Markdown.

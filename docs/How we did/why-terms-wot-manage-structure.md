@@ -1,3 +1,6 @@
+---
+sidebar: HowWeDidSidebar
+---
 # The Terms WOT manage structure explained
 
 To generate our static content site on the Github project page of this [WOT-terms page](https://weboftrust.github.io/WOT-terms/) repo, we have:

@@ -1,3 +1,6 @@
+---
+sidebar: HowWeDidSidebar
+---
 # Label Content and Alert Changes
 We have:
 - **data**: WOT-terms, tab LabelContent [link](https://docs.google.com/spreadsheets/d/18IUa-1NSJ_8Tz_2D-VSuSQa_yf3ES1s_hovitm3Clvc/edit#gid=378513351)

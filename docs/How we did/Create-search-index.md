@@ -1,3 +1,6 @@
+---
+sidebar: HowWeDidSidebar
+---
 # Create search index
 
 ## Fetch the content from various websites.

@@ -1,3 +1,6 @@
+---
+sidebar: HowWeDidSidebar
+---
 # Fill out terms in the WebofTrust wiki
 
 This page tells a little bit about how to use the WebofTrust terms wiki:

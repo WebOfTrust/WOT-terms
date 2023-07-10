@@ -1,3 +1,6 @@
+---
+sidebar: HowWeDidSidebar
+---
 # Docusaurus process
 
 ```mermaid

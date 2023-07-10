@@ -1,3 +1,6 @@
+---
+sidebar: HowWeDidSidebar
+---
 # Pull in markdown documents
 
 `IETF drafts` are standardized write-ups for experts. Although these drafts contains loads of valuable information and learning resources, the layout and accessibility is cumbersome for training and education purposes.

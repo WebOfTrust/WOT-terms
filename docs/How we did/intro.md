@@ -1,7 +1,6 @@
 ---
-sidebar_position: 1
+sidebar: HowWeDidSidebar
 ---
-
 # WOT How we did's
 
 This is a source directory that explains how this site came to be and how it can be maintained.

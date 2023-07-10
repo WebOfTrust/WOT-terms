@@ -1,3 +1,6 @@
+---
+sidebar: HowWeDidSidebar
+---
 # Chatbots
 
 ## Chatbase and other chatbots
