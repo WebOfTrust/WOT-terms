@@ -30,37 +30,37 @@ const sidebars = {
    */
   HowWeDidSidebar: {
     Root: [
-      'intro',
-      'why-terms-wot-manage-structure',
+      'How we did/intro',
+      'How we did/why-terms-wot-manage-structure',
     ],
     Chat: [
-      'Chatbots',
+      'How we did/Chatbots',
     ],
     Docusaurus: [
-      'Docusaurus-process',
+      'How we did/Docusaurus-process',
     ],
     Data: [
-      'fill-out-terms-toip-wiki',
-      'create-terms-link-table',
-      'pull-changes-from-toip-to-terms',
-      'embed-github-hosted-image-in-github-wiki-page',
-      'sync-agenda-to-production-via-local',
+      'How we did/fill-out-terms-toip-wiki',
+      'How we did/create-terms-link-table',
+      'How we did/pull-changes-from-toip-to-terms',
+      'How we did/embed-github-hosted-image-in-github-wiki-page',
+      'How we did/sync-agenda-to-production-via-local',
     ],
     Glossary: [
-      'load-glossary-weboftrust-in-docusaurus',
-      'markdown-from-WOT-wiki',
+      'How we did/load-glossary-weboftrust-in-docusaurus',
+      'How we did/markdown-from-WOT-wiki',
     ],
     Search: [
-      'typesense-search-install-config',
-      'Create-search-index',
+      'How we did/typesense-search-install-config',
+      'How we did/Create-search-index',
     ],
     Label: [
-      'label-content-and-alert-changes',
-      'homepage-text-altering',
+      'How we did/label-content-and-alert-changes',
+      'How we did/homepage-text-altering',
     ],
     Old: [
-      'check-and-accept-PR-production-Edusite-locally',  // Old document
-      'pull-in-markdown-documents',  // Old document
+      'How we did/check-and-accept-PR-production-Edusite-locally',  // Old document
+      'How we did/pull-in-markdown-documents',  // Old document
     ],
   },
 };
