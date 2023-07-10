@@ -28,6 +28,41 @@ const sidebars = {
     },
   ],
    */
+  HowWeDidSidebar: {
+    Root: [
+      'intro',
+      'why-terms-wot-manage-structure',
+    ],
+    Chat: [
+      'Chatbots',
+    ],
+    Docusaurus: [
+      'Docusaurus-process',
+    ],
+    Data: [
+      'fill-out-terms-toip-wiki',
+      'create-terms-link-table',
+      'pull-changes-from-toip-to-terms',
+      'embed-github-hosted-image-in-github-wiki-page',
+      'sync-agenda-to-production-via-local',
+    ],
+    Glossary: [
+      'load-glossary-weboftrust-in-docusaurus',
+      'markdown-from-WOT-wiki',
+    ],
+    Search: [
+      'typesense-search-install-config',
+      'Create-search-index',
+    ],
+    Label: [
+      'label-content-and-alert-changes',
+      'homepage-text-altering',
+    ],
+    Old: [
+      'check-and-accept-PR-production-Edusite-locally',  // Old document
+      'pull-in-markdown-documents',  // Old document
+    ],
+  },
 };
 
 module.exports = sidebars;
