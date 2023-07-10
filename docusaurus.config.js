@@ -102,12 +102,12 @@ const config = {
               }
             ],
           },
-          {
-            href: 'https://weboftrust.github.io/WOT-terms/glossary.html',
-            label: 'Glossary',
-            position: 'left',
-            target: '_self',
-          },
+          // {
+          //   href: 'https://weboftrust.github.io/WOT-terms/glossary.html',
+          //   label: 'Glossary',
+          //   position: 'left',
+          //   target: '_self',
+          // },
           {
             href: '/feedback',
             label: 'Feedback',
