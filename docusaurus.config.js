@@ -282,9 +282,7 @@ const config = {
     /**
      * END TYPESENSE INSTANT SEARCH PLUGIN
      */
-
-    // require.resolve('./clientModules/chatbase'),
-    require.resolve('./clientModules/crossLinks'),
+    // require.resolve('./clientModules/crossLinks'),
     // require.resolve('./clientModules/animationHomepage'),
     require.resolve('./clientModules/showLevels'),
     require.resolve('./clientModules/insertVideo'),
@@ -297,6 +295,7 @@ const config = {
     require.resolve('./clientModules/addDataTypes'),
     require.resolve('./clientModules/showGPTsummary'),
     require.resolve('./clientModules/typesenseHandleSearchModal'),
+    require.resolve('./clientModules/addLevelsToExternalContentCarbonCopies'),
   ],
 };
 
