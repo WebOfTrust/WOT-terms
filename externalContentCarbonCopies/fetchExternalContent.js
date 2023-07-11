@@ -44,8 +44,8 @@ function process(json) {
         } else if (inputString.startsWith("http://")) {
             inputString = inputString.substring(7);
         }
-
-        const transformedString = inputString.replace(/\//g, "-");
+        let transformedString = inputString.replace('raw.githubusercontent.com/', '');
+        transformedString = transformedString.replace(/\//g, "-");
         return transformedString;
     }
 
