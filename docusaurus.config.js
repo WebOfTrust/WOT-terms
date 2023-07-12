@@ -284,6 +284,8 @@ const config = {
      */
     // require.resolve('./clientModules/crossLinks'),
     // require.resolve('./clientModules/animationHomepage'),
+    // require.resolve('./clientModules/addLevelsToExternalContentCarbonCopies'),
+
     require.resolve('./clientModules/showLevels'),
     require.resolve('./clientModules/insertVideo'),
     require.resolve('./clientModules/insertSubtitles'),
@@ -295,7 +297,6 @@ const config = {
     require.resolve('./clientModules/addDataTypes'),
     require.resolve('./clientModules/showGPTsummary'),
     require.resolve('./clientModules/typesenseHandleSearchModal'),
-    require.resolve('./clientModules/addLevelsToExternalContentCarbonCopies'),
     require.resolve('./clientModules/addBootstrapJS'),
   ],
 };
