@@ -296,6 +296,7 @@ const config = {
     require.resolve('./clientModules/showGPTsummary'),
     require.resolve('./clientModules/typesenseHandleSearchModal'),
     require.resolve('./clientModules/addLevelsToExternalContentCarbonCopies'),
+    require.resolve('./clientModules/addBootstrapJS'),
   ],
 };
 
