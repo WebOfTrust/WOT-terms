@@ -65,9 +65,9 @@ const showLevels = (targetElements) => {
     const textBlocks = document.querySelectorAll(targetElements);
     textBlocks.forEach((p) => {
       if (p.dataset.level !== undefined) {
-        p.style.display = 'none';
+        p.querySelector('.accordion-collapse').classList.remove('show');
         if (p.dataset.level <= level) {
-          p.style.display = 'block';
+          p.querySelector('.accordion-collapse').classList.add('show');
         }
       }
     });
@@ -80,7 +80,24 @@ const showLevels = (targetElements) => {
     ) {
       // create level selection
       let htmlString =
-        '<div class="show-level-buttons-info margin-bottom--lg alert alert--info" role="alert">Choose your knowledge level.</div><div class="margin-bottom--lg"><span>Level </span><button data-level="1" class="show-level button button--secondary margin-right--sm margin-left--sm" href="?level=1">1</button> <button data-level="2" class="show-level button button--secondary margin-right--sm" href="?level=2">2</button> <button data-level="3" class="show-level button button--secondary margin-right--sm" href="?level=3">3</button></div>';
+        `
+        <div class="container text-center sticky-top pt-3 pb-3 mb-4" style="background: white">
+          <div class="row">
+            <div class="col">
+              <div class="show-level-buttons-info d-inline">
+                Choose your knowledge level.
+              </div>
+            </div>
+            <div class="col">
+            <span>Level </span>
+            
+            <button data-level="1" class="show-level button button--secondary margin-right--sm margin-left--sm" href="?level=1">1</button>
+            <button data-level="2" class="show-level button button--secondary margin-right--sm" href="?level=2">2</button>
+            <button data-level="3" class="show-level button button--secondary margin-right--sm" href="?level=3">3</button>
+            </div>
+          </div>
+        </div>
+        `;
 
       let mainArticle = document.querySelector('main article');
       if (mainArticle) {
