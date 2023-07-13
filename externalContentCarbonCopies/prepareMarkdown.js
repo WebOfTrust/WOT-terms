@@ -41,14 +41,22 @@ fs.readdir(directoryPath, (err, files) => {
             updatedData = updatedData.split(/\n(?=## )/g).map(section => {
                 let match = section.match(/## (.*)$/m);
                 let heading = match ? match[1] : null;
-                let anchor = heading ? heading.toLowerCase().replace(/\s/g, '-') : Math.floor(Math.random() * 10000000000000);
+                let anchor = heading ? heading.toLowerCase().replace(/\s/g, '-') : Math.floor(Math.random() * 10000000000000).toString();
+                anchor = anchor
+                    .replace(/&/g, '-')
+                    .replace(/\//g, '-')
+                    .replace(/\\/g, '-')
+                    .replace(/</g, '-')
+                    .replace(/>/g, '-')
+                    .replace(/'/g, '-')
+                    .replace(/"/g, '-');
                 console.log('dataAttributeMap[anchor]: ', dataAttributeMap[anchor]);
                 let dataAttribute = dataAttributeMap[anchor] || '1';
 
                 // Creating Bootstrap Accordion
                 // the “\n\n” must be added or the code will fail
                 return `               
-                \n\n<div className="accordion-item" data-level="${dataAttribute}">
+                \n\n<div className="accordion-item accordion-item-${anchor}" data-level="${dataAttribute}">
                     \n\n<h2 className="accordion-header" id="header${anchor}">
                         \n\n<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-${anchor}" aria-expanded="true" aria-controls="accordeon-${anchor}">
                             ${anchor}, level ${dataAttribute}
