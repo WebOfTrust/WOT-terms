@@ -73,6 +73,10 @@ const config = {
       id: "gEyyxwGeZbnMxnrWTzhkV",
       defer: true
     },
+    {
+      src: 'https://cdn.commento.io/js/commento.js',
+      defer: true
+    },
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -298,6 +302,7 @@ const config = {
     require.resolve('./clientModules/showGPTsummary'),
     require.resolve('./clientModules/typesenseHandleSearchModal'),
     require.resolve('./clientModules/addBootstrapJS'),
+    require.resolve('./clientModules/commento'),
   ],
 };
 
