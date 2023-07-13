@@ -1,14 +1,14 @@
 <div className="accordion">               
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-3557548909775" data-level="1">
                     
 
-<h2 className="accordion-header" id="header4226313838619">
+<h2 className="accordion-header" id="header3557548909775">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-4226313838619" aria-expanded="true" aria-controls="accordeon-4226313838619">
-                            4226313838619, level 1
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-3557548909775" aria-expanded="true" aria-controls="accordeon-3557548909775">
+                            3557548909775, level 1
                         
 
 </button>
@@ -18,7 +18,7 @@
 
                     
 
-<div id="accordeon-4226313838619" className="accordion-collapse collapse" aria-labelledby="header4226313838619" >
+<div id="accordeon-3557548909775" className="accordion-collapse collapse" aria-labelledby="header3557548909775" >
                         
 
 <div className="accordion-body">
@@ -242,7 +242,7 @@ This IPEX {{IPEX-ID}} protocol leverages important features of ACDCs and ancilla
                
                 
 
-<div className="accordion-item" data-level="2">
+<div className="accordion-item accordion-item-introduction" data-level="2">
                     
 
 <h2 className="accordion-header" id="headerintroduction">
@@ -282,7 +282,7 @@ TODO Introduction
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-terminology" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerterminology">
@@ -354,7 +354,7 @@ In an *issuance exchange*, when the *origin* ACDC has an *Issuee*, the *Disclose
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-chain-link-confidentiality" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerchain-link-confidentiality">
@@ -396,7 +396,7 @@ Disclosures via Presentations Exchanges may be contractually protected by Chain-
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-exchange-protocol" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerexchange-protocol">
@@ -447,7 +447,7 @@ Disclosures via Presentations Exchanges may be contractually protected by Chain-
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-discussion" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerdiscussion">
@@ -495,7 +495,7 @@ Consequently, the IPEX protocol must specify how a validator does validation of 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-ipex-validation" data-level="1">
                     
 
 <h2 className="accordion-header" id="headeripex-validation">
@@ -537,7 +537,7 @@ For example, in the bulk issuance of an ACDC, the Issuer only signs the blinded 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-issuer-signing-rules" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerissuer-signing-rules">
@@ -594,7 +594,7 @@ Thus for any disclosed variant of an ACDC, the Disclosee need only verify only o
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-example-most-compact-variant" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerexample-most-compact-variant">
@@ -903,7 +903,7 @@ The Issuer signs the SAID, `d` field value of the field map above.
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-conventions-and-definitions" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerconventions-and-definitions">
@@ -944,7 +944,7 @@ The Issuer signs the SAID, `d` field value of the field map above.
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-security-considerations" data-level="1">
                     
 
 <h2 className="accordion-header" id="headersecurity-considerations">
@@ -985,7 +985,7 @@ TODO Security
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-iana-considerations" data-level="1">
                     
 
 <h2 className="accordion-header" id="headeriana-considerations">
@@ -1028,7 +1028,7 @@ This document has no IANA actions.
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-acknowledgments" data-level="1">
                     
 
 <h2 className="accordion-header" id="headeracknowledgments">

@@ -1,14 +1,14 @@
 <div className="accordion">               
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-9290140519635" data-level="1">
                     
 
-<h2 className="accordion-header" id="header8495735461642">
+<h2 className="accordion-header" id="header9290140519635">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-8495735461642" aria-expanded="true" aria-controls="accordeon-8495735461642">
-                            8495735461642, level 1
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-9290140519635" aria-expanded="true" aria-controls="accordeon-9290140519635">
+                            9290140519635, level 1
                         
 
 </button>
@@ -18,7 +18,7 @@
 
                     
 
-<div id="accordeon-8495735461642" className="accordion-collapse collapse" aria-labelledby="header8495735461642" >
+<div id="accordeon-9290140519635" className="accordion-collapse collapse" aria-labelledby="header9290140519635" >
                         
 
 <div className="accordion-body">
@@ -457,7 +457,7 @@ An authentic chained data container (ACDC)  {{ACDC_ID}}{{ACDC_WP}}{{VCEnh}} is a
                
                 
 
-<div className="accordion-item" data-level="2">
+<div className="accordion-item accordion-item-introduction" data-level="2">
                     
 
 <h2 className="accordion-header" id="headerintroduction">
@@ -507,7 +507,7 @@ An important property of high-strength cryptographic digests is that a verifiabl
                
                 
 
-<div className="accordion-item" data-level="2">
+<div className="accordion-item accordion-item-acdc-fields" data-level="2">
                     
 
 <h2 className="accordion-header" id="headeracdc-fields">
@@ -547,7 +547,7 @@ An ACDC may be abstractly modeled as a nested `key: value` mapping. To avoid con
                
                 
 
-<div className="accordion-item" data-level="3">
+<div className="accordion-item accordion-item-field-label-tables" data-level="3">
                     
 
 <h2 className="accordion-header" id="headerfield-label-tables">
@@ -585,7 +585,7 @@ An ACDC may be abstractly modeled as a nested `key: value` mapping. To avoid con
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-top-level-fields" data-level="1">
                     
 
 <h2 className="accordion-header" id="headertop-level-fields">
@@ -642,7 +642,7 @@ These are reserved field labels at the top level of an ACDC.
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-other-fields" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerother-fields">
@@ -693,7 +693,7 @@ These may appear at other levels besides the top-level of an ACDC but are noneth
                
                 
 
-<div className="accordion-item" data-level="2">
+<div className="accordion-item accordion-item-compact-labels" data-level="2">
                     
 
 <h2 className="accordion-header" id="headercompact-labels">
@@ -734,7 +734,7 @@ The primary field labels are compact in that they use only one or two characters
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-version-string-field" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerversion-string-field">
@@ -777,7 +777,7 @@ The format of the version string is `ACDCvvSSSShhhhhh_`. The first four characte
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-said-(self-addressing-identifier)-fields" data-level="1">
                     
 
 <h2 className="accordion-header" id="headersaid-(self-addressing-identifier)-fields">
@@ -822,7 +822,7 @@ Recall that a cryptographic commitment (such as a digital signature or cryptogra
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-uuid-(universally-unique-identifier)-fields" data-level="1">
                     
 
 <h2 className="accordion-header" id="headeruuid-(universally-unique-identifier)-fields">
@@ -864,7 +864,7 @@ A UUID, `u` field may optionally appear in any block (field map) at any level of
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-aid-(autonomic-identifier)-and-derived-identifier-fields" data-level="1">
                     
 
 <h2 className="accordion-header" id="headeraid-(autonomic-identifier)-and-derived-identifier-fields">
@@ -904,7 +904,7 @@ Some fields, such as the `i`, Issuer identifier field  MUST each have an AID (Au
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-namespaced-aids" data-level="1">
                     
 
 <h2 className="accordion-header" id="headernamespaced-aids">
@@ -943,7 +943,7 @@ Because KERI is agnostic about the namespace for any particular AID, different n
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-selectively-disclosable-attribute-aggregate-field" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerselectively-disclosable-attribute-aggregate-field">
@@ -983,7 +983,7 @@ The top-level selectively-disclosable attribute aggregate section, `A`, field va
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-graduated-disclosure-and-contractually-protected-disclosure" data-level="1">
                     
 
 <h2 className="accordion-header" id="headergraduated-disclosure-and-contractually-protected-disclosure">
@@ -1035,7 +1035,7 @@ Another special case of *contractually protected disclosure* is a ***contingent-
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-types-of-graduated-disclosure" data-level="1">
                     
 
 <h2 className="accordion-header" id="headertypes-of-graduated-disclosure">
@@ -1085,7 +1085,7 @@ The SAID of a field map provides a *compact* cryptographically equivalent commit
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-schema-section" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerschema-section">
@@ -1123,7 +1123,7 @@ The SAID of a field map provides a *compact* cryptographically equivalent commit
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-type-is-schema" data-level="1">
                     
 
 <h2 className="accordion-header" id="headertype-is-schema">
@@ -1163,7 +1163,7 @@ Notable is the fact that there are no top-level type fields in an ACDC. This is 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-schema-id-field-label" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerschema-id-field-label">
@@ -1206,7 +1206,7 @@ When an id, '$id', field appears in a sub-schema it indicates a bundled sub-sche
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-static-(immutable)-schema" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerstatic-(immutable)-schema">
@@ -1275,7 +1275,7 @@ ACDCs MUST use static JSON Schema (i.e. *SAIDifiable* schema). These may include
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-schema-dialect" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerschema-dialect">
@@ -1315,7 +1315,7 @@ The schema dialect for ACDC 1.0 is JSON Schema 2020-12 and is indicated by the i
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-schema-availablity" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerschema-availablity">
@@ -1356,7 +1356,7 @@ The composed detailed (uncompacted) (bundled) static schema for an ACDC may be c
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-composable-json-schema" data-level="1">
                     
 
 <h2 className="accordion-header" id="headercomposable-json-schema">
@@ -1408,7 +1408,7 @@ As is the case for compact (uncompacted) ACDC disclosure, Composable JSON Schema
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-acdc-variants" data-level="1">
                     
 
 <h2 className="accordion-header" id="headeracdc-variants">
@@ -1449,7 +1449,7 @@ At the top level, the presence (absence), of the UUID, `u`, field produces two v
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-public-acdc" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerpublic-acdc">
@@ -1489,7 +1489,7 @@ Given that there is no top-level UUID, `u`, field in an ACDC, then knowledge of 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-private-acdc" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerprivate-acdc">
@@ -1529,7 +1529,7 @@ Given a top-level UUID, `u`, field, whose value has sufficient cryptographic ent
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-metadata-acdc" data-level="1">
                     
 
 <h2 className="accordion-header" id="headermetadata-acdc">
@@ -1573,7 +1573,7 @@ When a *metadata* ACDC is disclosed (presented) only the *Discloser's* signature
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-unpermissioned-exploitation-of-data" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerunpermissioned-exploitation-of-data">
@@ -1613,7 +1613,7 @@ An important design goal of ACDCs is they support the sharing of provably authen
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-graduated-disclosure-and-the-principle-of-least-disclosure" data-level="1">
                     
 
 <h2 className="accordion-header" id="headergraduated-disclosure-and-the-principle-of-least-disclosure">
@@ -1657,7 +1657,7 @@ For example, compact disclosure, partial disclosure, and selective disclosure ar
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-exploitation-protection-mechanisms" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerexploitation-protection-mechanisms">
@@ -1706,7 +1706,7 @@ For example, the *partial disclosure* of portions of an ACDC to enable chain-lin
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-three-party-exploitation-model" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerthree-party-exploitation-model">
@@ -1749,7 +1749,7 @@ Unpermission exploitation is characterized using a three-party model. The three 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-second-party-(disclosee)-exploitation" data-level="1">
                     
 
 <h2 className="accordion-header" id="headersecond-party-(disclosee)-exploitation">
@@ -1793,7 +1793,7 @@ Unpermission exploitation is characterized using a three-party model. The three 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-third-party-(observer)-exploitation" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerthird-party-(observer)-exploitation">
@@ -1835,7 +1835,7 @@ Unpermission exploitation is characterized using a three-party model. The three 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-chain-link-confidentiality-exchange" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerchain-link-confidentiality-exchange">
@@ -1883,7 +1883,7 @@ Chain-link confidentiality imposes contractual restrictions and liability on any
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-field-ordering" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerfield-ordering">
@@ -1923,7 +1923,7 @@ The ordering of the top-level fields when present in an ACDC MUST be as follows,
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-compact-acdc" data-level="1">
                     
 
 <h2 className="accordion-header" id="headercompact-acdc">
@@ -1963,7 +1963,7 @@ are `s`, `a`, `e`, and `r`.
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-compact-public-acdc" data-level="1">
                     
 
 <h2 className="accordion-header" id="headercompact-public-acdc">
@@ -2017,7 +2017,7 @@ A fully compact public ACDC is shown below.
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-compact-private-acdc" data-level="1">
                     
 
 <h2 className="accordion-header" id="headercompact-private-acdc">
@@ -2074,7 +2074,7 @@ A fully compact private ACDC is shown below.
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-compact-private-acdc-schema" data-level="1">
                     
 
 <h2 className="accordion-header" id="headercompact-private-acdc-schema">
@@ -2182,7 +2182,7 @@ The schema for the compact private ACDC example above is provided below.
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-attribute-section" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerattribute-section">
@@ -2237,7 +2237,7 @@ Two other variants of an ACDC, namely, ***targeted (untargeted)*** are defined r
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-public-attribute-acdc" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerpublic-attribute-acdc">
@@ -2294,7 +2294,7 @@ Given the absence of a `u` field at the top level of the attributes block, then 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-public-uncompacted-attribute-section-schema" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerpublic-uncompacted-attribute-section-schema">
@@ -2375,7 +2375,7 @@ The subschema for the public uncompacted attribute section is shown below,
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-composed-schema-for-both-public-compact-and-uncompacted-attribute-section-variants" data-level="1">
                     
 
 <h2 className="accordion-header" id="headercomposed-schema-for-both-public-compact-and-uncompacted-attribute-section-variants">
@@ -2468,7 +2468,7 @@ Through the use of the JSON Schema `oneOf` composition operator the following co
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-private-attribute-acdc" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerprivate-attribute-acdc">
@@ -2528,7 +2528,7 @@ Because the *Issuee* AID is nested in the attribute block as that block's top-le
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-composed-schema-for-both-compact-and-uncompacted-private-attribute-acdc" data-level="1">
                     
 
 <h2 className="accordion-header" id="headercomposed-schema-for-both-compact-and-uncompacted-private-attribute-acdc">
@@ -2630,7 +2630,7 @@ As described above in the Schema section of this specification, the `oneOf` sub-
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-untargeted-acdc" data-level="1">
                     
 
 <h2 className="accordion-header" id="headeruntargeted-acdc">
@@ -2689,7 +2689,7 @@ A hybrid chain of one or more targeted ACDCs ending in a chain of one or more un
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-targeted-acdc" data-level="1">
                     
 
 <h2 className="accordion-header" id="headertargeted-acdc">
@@ -2739,7 +2739,7 @@ Likewise, the presence of an issuee, `i`, field, enables the *Issuer* to use the
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-edge-section" data-level="1">
                     
 
 <h2 className="accordion-header" id="headeredge-section">
@@ -2794,7 +2794,7 @@ The edge section's top-level SAID, `d`, field is the SAID of the edge block and 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-edge-sub-block-reserved-fields" data-level="1">
                     
 
 <h2 className="accordion-header" id="headeredge-sub-block-reserved-fields">
@@ -2848,7 +2848,7 @@ The node, `n`, field is required. The SAID, `d`, UUID, `u`, schema, `s`, operato
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-said-field" data-level="1">
                     
 
 <h2 className="accordion-header" id="headersaid-field">
@@ -2888,7 +2888,7 @@ When present, the SAID, `d`, field MUST appear as the first field in the edge su
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-uuid-field" data-level="1">
                     
 
 <h2 className="accordion-header" id="headeruuid-field">
@@ -2928,7 +2928,7 @@ A UUID, `u`, field MUST not appear unless there is also a SAID, `d` field. When 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-node-field" data-level="1">
                     
 
 <h2 className="accordion-header" id="headernode-field">
@@ -2970,7 +2970,7 @@ The value of the required node, `n`, field is the SAID of the ACDC to which the 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-schema-field" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerschema-field">
@@ -3028,7 +3028,7 @@ The following example adds both SAID, `d`, and schema, `s`, fields (edge propert
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-operator-field" data-level="1">
                     
 
 <h2 className="accordion-header" id="headeroperator-field">
@@ -3068,7 +3068,7 @@ When present, the operator, `o` field must appear immediately following all of t
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-weight-field" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerweight-field">
@@ -3108,7 +3108,7 @@ When present, the weight, `w` field must appear immediately following all of the
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-globally-distributed-secure-graph-fragments" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerglobally-distributed-secure-graph-fragments">
@@ -3164,7 +3164,7 @@ Abstractly, an ACDC with one or more edges may be a fragment of a distributed pr
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-compact-edge" data-level="1">
                     
 
 <h2 className="accordion-header" id="headercompact-edge">
@@ -3214,7 +3214,7 @@ Given that an individual edge's property block includes a SAID, `d`, field then 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-private-edge" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerprivate-edge">
@@ -3274,7 +3274,7 @@ Private ACDCs (nodes) and private edges may be used in combination to prevent an
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-simple-compact-edge" data-level="1">
                     
 
 <h2 className="accordion-header" id="headersimple-compact-edge">
@@ -3324,7 +3324,7 @@ When an edge sub-block has only one field that is its node, `n`, field then the 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-operations-on-edges-and-edge-groups" data-level="1">
                     
 
 <h2 className="accordion-header" id="headeroperations-on-edges-and-edge-groups">
@@ -3364,7 +3364,7 @@ When the top-level edge section, `e`, field includes more than one edge there is
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-label-types" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerlabel-types">
@@ -3417,7 +3417,7 @@ There are three types of labels in edge sub-blocks:
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-block-types" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerblock-types">
@@ -3465,7 +3465,7 @@ With respect to the granularity of a property graph consisting of ACDCs as nodes
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-operator,-`o`,--field" data-level="1">
                     
 
 <h2 className="accordion-header" id="headeroperator,-`o`,--field">
@@ -3509,7 +3509,7 @@ The meaning of the operator, `o`, metadata field label depends on which type of 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-weight,-`w`,-field." data-level="1">
                     
 
 <h2 className="accordion-header" id="headerweight,-`w`,-field.">
@@ -3565,7 +3565,7 @@ The following example adds a weight property to the edge sub-block as indicated 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-m-ary-operators" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerm-ary-operators">
@@ -3611,7 +3611,7 @@ There are two basic m-ary operators defined for ACDCs. These are,
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-special-unary-operators" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerspecial-unary-operators">
@@ -3667,7 +3667,7 @@ If more than one of the `I2I`, `NI2I`, or `DI2I` operators appear in an operator
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-defaults-for-missing-operators" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerdefaults-for-missing-operators">
@@ -3714,7 +3714,7 @@ If the node pointed to by the edge block is a non-targeted ACDC i.e., does not h
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-examples" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerexamples">
@@ -3752,7 +3752,7 @@ If the node pointed to by the edge block is a non-targeted ACDC i.e., does not h
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-defaults" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerdefaults">
@@ -3808,7 +3808,7 @@ If the node pointed to by the edge block is a non-targeted ACDC i.e., does not h
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-explicit-and" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerexplicit-and">
@@ -3866,7 +3866,7 @@ If the node pointed to by the edge block is a non-targeted ACDC i.e., does not h
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-unary-i2i" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerunary-i2i">
@@ -3925,7 +3925,7 @@ If the node pointed to by the edge block is a non-targeted ACDC i.e., does not h
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-unary-ni2i" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerunary-ni2i">
@@ -3985,7 +3985,7 @@ If the node pointed to by the edge block is a non-targeted ACDC i.e., does not h
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-nested-edge-group" data-level="1">
                     
 
 <h2 className="accordion-header" id="headernested-edge-group">
@@ -4060,7 +4060,7 @@ If the node pointed to by the edge block is a non-targeted ACDC i.e., does not h
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-vlei-ecr-issued-by-qvi-example" data-level="1">
                     
 
 <h2 className="accordion-header" id="headervlei-ecr-issued-by-qvi-example">
@@ -4122,7 +4122,7 @@ In the following example: The top-level edge-block uses the default of `AND` and
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-commentary" data-level="1">
                     
 
 <h2 className="accordion-header" id="headercommentary">
@@ -4168,7 +4168,7 @@ The intelligent defaults for the operator, `o`, field, including the default app
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-node-discovery" data-level="1">
                     
 
 <h2 className="accordion-header" id="headernode-discovery">
@@ -4208,7 +4208,7 @@ In general, the discovery of the details of an ACDC referenced as a node, `n` fi
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-rule-section" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerrule-section">
@@ -4296,7 +4296,7 @@ An example rule section with clause SAIDs is provided below.
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-compact-clauses" data-level="1">
                     
 
 <h2 className="accordion-header" id="headercompact-clauses">
@@ -4347,7 +4347,7 @@ The use of clause SAIDS enables a compact form of a set of clauses where each cl
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-private-clause" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerprivate-clause">
@@ -4408,7 +4408,7 @@ The disclosure of some clauses may be pre-conditioned on acceptance of chain-lin
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-simple-compact-clause" data-level="1">
                     
 
 <h2 className="accordion-header" id="headersimple-compact-clause">
@@ -4459,7 +4459,7 @@ An alternate simplified compact form uses the value of the legal, `l`, field as 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-clause-discovery" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerclause-discovery">
@@ -4499,7 +4499,7 @@ In compact form, the discovery of either the rule section as a whole or a given 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-disclosure-specific-(bespoke)-issued-acdcs" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerdisclosure-specific-(bespoke)-issued-acdcs">
@@ -4543,7 +4543,7 @@ Similarly, this approach effectively enables a type of *rich presentation* or co
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-example-bespoke-issued-acdc" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerexample-bespoke-issued-acdc">
@@ -4624,7 +4624,7 @@ Consider the following disclosure-specific ACDC. The Issuer is the Discloser, th
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-informative-examples" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerinformative-examples">
@@ -4662,7 +4662,7 @@ Consider the following disclosure-specific ACDC. The Issuer is the Discloser, th
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-public-acdc-with-compact-and-uncompated-variants" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerpublic-acdc-with-compact-and-uncompated-variants">
@@ -4699,7 +4699,7 @@ Consider the following disclosure-specific ACDC. The Issuer is the Discloser, th
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-public-compact-variant" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerpublic-compact-variant">
@@ -4750,7 +4750,7 @@ Consider the following disclosure-specific ACDC. The Issuer is the Discloser, th
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-public-uncompacted-variant" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerpublic-uncompacted-variant">
@@ -4830,7 +4830,7 @@ Consider the following disclosure-specific ACDC. The Issuer is the Discloser, th
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-composed-schema-that-supports-both-public-compact-and-uncompacted-variants" data-level="1">
                     
 
 <h2 className="accordion-header" id="headercomposed-schema-that-supports-both-public-compact-and-uncompacted-variants">
@@ -5120,7 +5120,7 @@ Consider the following disclosure-specific ACDC. The Issuer is the Discloser, th
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-selective-disclosure" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerselective-disclosure">
@@ -5164,7 +5164,7 @@ ACDCs, as a standard, benefit from a minimally sufficient approach to selective 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-tiered-selective-disclosure-mechanisms" data-level="1">
                     
 
 <h2 className="accordion-header" id="headertiered-selective-disclosure-mechanisms">
@@ -5212,7 +5212,7 @@ In any case, the set of selective disclosure mechanisms we call tiered selective
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-basic-selective-disclosure-mechanism" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerbasic-selective-disclosure-mechanism">
@@ -5256,7 +5256,7 @@ Selective disclosure in combination with partial disclosure for chain-link confi
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-selectively-disclosable-attribute-acdc" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerselectively-disclosable-attribute-acdc">
@@ -5343,7 +5343,7 @@ The *Issuee* attribute block is present in an uncompacted untargeted selectively
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-blinded-attribute-array" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerblinded-attribute-array">
@@ -5391,7 +5391,7 @@ The ordered set of *a<sub>i</sub>*  may be also expressed as a list, that is,
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-composed-schema-for-selectively-disclosable-attribute-section" data-level="1">
                     
 
 <h2 className="accordion-header" id="headercomposed-schema-for-selectively-disclosable-attribute-section">
@@ -5547,7 +5547,7 @@ Because the selectively-disclosable attributes are provided by an array (list), 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-inclusion-proof-via-aggregated-list-digest" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerinclusion-proof-via-aggregated-list-digest">
@@ -5640,7 +5640,7 @@ A private selectively disclosable ACDC provides significant correlation minimiza
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-inclusion-proof-via-merkle-tree-root-digest" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerinclusion-proof-via-merkle-tree-root-digest">
@@ -5682,7 +5682,7 @@ The Merkle tree needs to have appropriate second-pre-image attack protection of 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-hierarchical-derivation-at-issuance-of-selectively-disclosable-attribute-acdcs" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerhierarchical-derivation-at-issuance-of-selectively-disclosable-attribute-acdcs">
@@ -5734,7 +5734,7 @@ In addition to the shared salt and ACDC template, the Issuer also provides its s
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-bulk-issued-private-acdcs" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerbulk-issued-private-acdcs">
@@ -5785,7 +5785,7 @@ It is important to note that any group of colluding malicious verifiers may alwa
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-basic-bulk-issuance" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerbasic-bulk-issuance">
@@ -5899,7 +5899,7 @@ The requirement of an anchored issuance proof seal of the aggregate *B* means th
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-inclusion-proof-via-merkle-tree" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerinclusion-proof-via-merkle-tree">
@@ -5942,7 +5942,7 @@ The Merkle tree needs to have appropriate second-pre-image attack protection of 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-bulk-issuance-of-private-acdcs-with-unique-issuee-aids" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerbulk-issuance-of-private-acdcs-with-unique-issuee-aids">
@@ -5984,7 +5984,7 @@ One solution to this problem is for the *Issuee* to use a unique AID for the cop
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-blindable-state-tel" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerblindable-state-tel">
@@ -6032,7 +6032,7 @@ When the `u` field is missing or empty, then the event is not blindable. When th
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-blindable-state-tel-top-level-fields" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerblindable-state-tel-top-level-fields">
@@ -6082,7 +6082,7 @@ When the `u` field is missing or empty, then the event is not blindable. When th
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-blindable-state-tel-attribute-(state)-fields" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerblindable-state-tel-attribute-(state)-fields">
@@ -6129,7 +6129,7 @@ When the `u` field is missing or empty, then the event is not blindable. When th
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-independent-tel-bulk-issued-acdcs" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerindependent-tel-bulk-issued-acdcs">
@@ -6181,7 +6181,7 @@ To summarize the main benefit of this approach, in spite of its storage and comp
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-extensibility" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerextensibility">
@@ -6244,7 +6244,7 @@ Versioning is simplified because edges still verify if new schema are backwards 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-appendix:-performance-and-scalability" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerappendix:-performance-and-scalability">
@@ -6287,7 +6287,7 @@ Hierarchical decomposition of data into a distributed verifiable property graph,
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-appendix:-cryptographic-strength-and-security" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerappendix:-cryptographic-strength-and-security">
@@ -6325,7 +6325,7 @@ Hierarchical decomposition of data into a distributed verifiable property graph,
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-cryptographic-strength" data-level="1">
                     
 
 <h2 className="accordion-header" id="headercryptographic-strength">
@@ -6370,7 +6370,7 @@ There are about 3600 * 24 * 365 = 313,536,000 = 2<sup>log<sub>2</sub>313536000</
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-information-theoretic-security-and-perfect-security" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerinformation-theoretic-security-and-perfect-security">
@@ -6413,7 +6413,7 @@ The highest level of cryptographic security with respect to a cryptographic secr
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-conventions-and-definitions" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerconventions-and-definitions">
@@ -6456,7 +6456,7 @@ The highest level of cryptographic security with respect to a cryptographic secr
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-security-considerations" data-level="1">
                     
 
 <h2 className="accordion-header" id="headersecurity-considerations">
@@ -6497,7 +6497,7 @@ Refer to the body of the specification. Security considerations are included in 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-iana-considerations" data-level="1">
                     
 
 <h2 className="accordion-header" id="headeriana-considerations">
@@ -6540,7 +6540,7 @@ This document has no IANA actions.
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-acknowledgments" data-level="1">
                     
 
 <h2 className="accordion-header" id="headeracknowledgments">

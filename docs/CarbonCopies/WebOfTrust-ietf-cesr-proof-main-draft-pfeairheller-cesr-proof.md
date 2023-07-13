@@ -1,14 +1,14 @@
 <div className="accordion">               
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-140940203946" data-level="1">
                     
 
-<h2 className="accordion-header" id="header7788870118235">
+<h2 className="accordion-header" id="header140940203946">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-7788870118235" aria-expanded="true" aria-controls="accordeon-7788870118235">
-                            7788870118235, level 1
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-140940203946" aria-expanded="true" aria-controls="accordeon-140940203946">
+                            140940203946, level 1
                         
 
 </button>
@@ -18,7 +18,7 @@
 
                     
 
-<div id="accordeon-7788870118235" className="accordion-collapse collapse" aria-labelledby="header7788870118235" >
+<div id="accordeon-140940203946" className="accordion-collapse collapse" aria-labelledby="header140940203946" >
                         
 
 <div className="accordion-body">
@@ -152,7 +152,7 @@ CESR Proof Signatures are an extension to the Composable Event Streaming Represe
                
                 
 
-<div className="accordion-item" data-level="2">
+<div className="accordion-item accordion-item-introduction" data-level="2">
                     
 
 <h2 className="accordion-header" id="headerintroduction">
@@ -192,7 +192,7 @@ Composable Event Streaming Representation (CESR) is a dual text-binary encoding 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-streamable-sads" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerstreamable-sads">
@@ -231,7 +231,7 @@ A primary goal of CESR Proof Signatures is to allow any signed self-addressing d
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-nested-partial-signatures" data-level="1">
                     
 
 <h2 className="accordion-header" id="headernested-partial-signatures">
@@ -270,7 +270,7 @@ CESR Proof Signatures can be used to sign as many portions of a SAD as needed, i
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-transposable-signature-attachments" data-level="1">
                     
 
 <h2 className="accordion-header" id="headertransposable-signature-attachments">
@@ -311,7 +311,7 @@ There are several events in KERI that can contain context specific embedded self
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-cesr-sad-path-language" data-level="1">
                     
 
 <h2 className="accordion-header" id="headercesr-sad-path-language">
@@ -351,7 +351,7 @@ CESR Proof Signatures defines a SAD Path Language to be used in signature attach
                
                 
 
-<div className="accordion-item" data-level="2">
+<div className="accordion-item accordion-item-description-and-usage" data-level="2">
                     
 
 <h2 className="accordion-header" id="headerdescription-and-usage">
@@ -417,7 +417,7 @@ The root context (after the initial `-`) is always a map. Therefore, the first p
                
                 
 
-<div className="accordion-item" data-level="3">
+<div className="accordion-item accordion-item-cesr-encoding-for-sad-path-language" data-level="3">
                     
 
 <h2 className="accordion-header" id="headercesr-encoding-for-sad-path-language">
@@ -457,7 +457,7 @@ SAD Paths are variable raw size primitives that require CESR variable size codes
                
                 
 
-<div className="accordion-item" data-level="3">
+<div className="accordion-item accordion-item-sad-path-examples" data-level="3">
                     
 
 <h2 className="accordion-header" id="headersad-path-examples">
@@ -549,14 +549,14 @@ The examples in Table 1 represent all the features of the SAD Path language when
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-alternative-pathing---query-languages" data-level="1">
                     
 
-<h2 className="accordion-header" id="headeralternative-pathing-/-query-languages">
+<h2 className="accordion-header" id="headeralternative-pathing---query-languages">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-alternative-pathing-/-query-languages" aria-expanded="true" aria-controls="accordeon-alternative-pathing-/-query-languages">
-                            alternative-pathing-/-query-languages, level 1
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-alternative-pathing---query-languages" aria-expanded="true" aria-controls="accordeon-alternative-pathing---query-languages">
+                            alternative-pathing---query-languages, level 1
                         
 
 </button>
@@ -566,7 +566,7 @@ The examples in Table 1 represent all the features of the SAD Path language when
 
                     
 
-<div id="accordeon-alternative-pathing-/-query-languages" className="accordion-collapse collapse" aria-labelledby="headeralternative-pathing-/-query-languages" >
+<div id="accordeon-alternative-pathing---query-languages" className="accordion-collapse collapse" aria-labelledby="headeralternative-pathing---query-languages" >
                         
 
 <div className="accordion-body">
@@ -588,7 +588,7 @@ The SAD Path language was chosen over alternatives such as JSONPtr and JSONPath 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-cesr-attachments" data-level="1">
                     
 
 <h2 className="accordion-header" id="headercesr-attachments">
@@ -628,7 +628,7 @@ This specification adds 2 *Counter Four Character Codes* to the Master Code Tabl
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-counter-four-character-codes" data-level="1">
                     
 
 <h2 className="accordion-header" id="headercounter-four-character-codes">
@@ -667,7 +667,7 @@ The SAD Path Signature counter code is represented by the four character code `-
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-variable-size-codes" data-level="1">
                     
 
 <h2 className="accordion-header" id="headervariable-size-codes">
@@ -724,7 +724,7 @@ The additions to the Master Code Table of CESR is shown below:
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-cesr-signature-attachments" data-level="1">
                     
 
 <h2 className="accordion-header" id="headercesr-signature-attachments">
@@ -763,7 +763,7 @@ CESR defines several counter codes for attaching signatures to serialized CESR e
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-signing-sad-content" data-level="1">
                     
 
 <h2 className="accordion-header" id="headersigning-sad-content">
@@ -816,7 +816,7 @@ Each attached signature is accompanied by a SAD Path that indicates the content 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-signatures-with-non-transferable-identifiers" data-level="1">
                     
 
 <h2 className="accordion-header" id="headersignatures-with-non-transferable-identifiers">
@@ -855,7 +855,7 @@ Non-transferable identifiers only ever have one public key.  In addition, the id
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-signatures-with-transferable-identifiers" data-level="1">
                     
 
 <h2 className="accordion-header" id="headersignatures-with-transferable-identifiers">
@@ -895,7 +895,7 @@ Transferable identifiers require full KEL resolution and verfication to determin
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-additional-count-codes" data-level="1">
                     
 
 <h2 className="accordion-header" id="headeradditional-count-codes">
@@ -934,7 +934,7 @@ This specification adds two Counter Four Character Codes to the CESR Master Code
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-sad-path-signature-group" data-level="1">
                     
 
 <h2 className="accordion-header" id="headersad-path-signature-group">
@@ -1051,7 +1051,7 @@ BmMfUwIOywRkyc5GyQXfgDA4UOAMvjvnXcaK9G939ArM
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-sad-path-groups" data-level="1">
                     
 
 <h2 className="accordion-header" id="headersad-path-groups">
@@ -1117,7 +1117,7 @@ The root path is the single `-` character meaning that all subsequent SAD Paths 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-transposable-signature-attachments" data-level="1">
                     
 
 <h2 className="accordion-header" id="headertransposable-signature-attachments">
@@ -1192,7 +1192,7 @@ Now the SAD Path of the first signed SAD content resolves to the `a` field of th
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-small-variable-raw-size-sad-path-code" data-level="1">
                     
 
 <h2 className="accordion-header" id="headersmall-variable-raw-size-sad-path-code">
@@ -1232,7 +1232,7 @@ The small variable raw side code reserved for SAD Path encoding is `A` which res
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-nested-partial-signatures" data-level="1">
                     
 
 <h2 className="accordion-header" id="headernested-partial-signatures">
@@ -1272,7 +1272,7 @@ Additional signatures on nested content can be included in a SAD Path Group and 
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-signing-nested-sads" data-level="1">
                     
 
 <h2 className="accordion-header" id="headersigning-nested-sads">
@@ -1365,7 +1365,7 @@ To sign the SAD located at the path `-a`, JSON serialization would be used becau
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-signing-saids" data-level="1">
                     
 
 <h2 className="accordion-header" id="headersigning-saids">
@@ -1472,7 +1472,7 @@ With this approach, credential presentation request and exchange protocols can b
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-conventions-and-definitions" data-level="1">
                     
 
 <h2 className="accordion-header" id="headerconventions-and-definitions">
@@ -1512,7 +1512,7 @@ With this approach, credential presentation request and exchange protocols can b
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-security-considerations" data-level="1">
                     
 
 <h2 className="accordion-header" id="headersecurity-considerations">
@@ -1552,7 +1552,7 @@ TODO Security
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-iana-considerations" data-level="1">
                     
 
 <h2 className="accordion-header" id="headeriana-considerations">
@@ -1596,7 +1596,7 @@ This document has no IANA actions.
                
                 
 
-<div className="accordion-item" data-level="1">
+<div className="accordion-item accordion-item-acknowledgments" data-level="1">
                     
 
 <h2 className="accordion-header" id="headeracknowledgments">
