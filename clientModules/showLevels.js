@@ -65,9 +65,12 @@ const showLevels = (targetElements) => {
     const textBlocks = document.querySelectorAll(targetElements);
     textBlocks.forEach((p) => {
       if (p.dataset.level !== undefined) {
+        // hide all items
         p.querySelector('.accordion-collapse').classList.remove('show');
         if (p.dataset.level <= level) {
-          p.querySelector('.accordion-collapse').classList.add('show');
+          // show items with level equal or lower than level
+          //TODO: it works, but there must be a better way to do this
+          p.querySelector('button').click();
         }
       }
     });
@@ -179,6 +182,12 @@ const showLevels = (targetElements) => {
 };
 
 export function onRouteDidUpdate({ location, previousLocation }) {
+  // Don't execute if we are still on the same page; the lifecycle may be fired
+  // because the hash changes (e.g. when navigating between headings)
+  // if (location.pathname === previousLocation?.pathname) return;
+  showLevels('div, tr');
+}
+export function onRouteUpdate({ location, previousLocation }) {
   // Don't execute if we are still on the same page; the lifecycle may be fired
   // because the hash changes (e.g. when navigating between headings)
   // if (location.pathname === previousLocation?.pathname) return;
