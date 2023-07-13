@@ -1,15 +1,14 @@
-<div className="accordion" id="accordionExample">               
-                 
+<div className="accordion">               
                 
 
 <div className="accordion-item" data-level="1">
                     
 
-<h2 className="accordion-header" id="header9515455011277">
+<h2 className="accordion-header" id="header7788870118235">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-9515455011277" aria-expanded="true" aria-controls="accordeon-9515455011277">
-                            9515455011277, level 1
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-7788870118235" aria-expanded="true" aria-controls="accordeon-7788870118235">
+                            7788870118235, level 1
                         
 
 </button>
@@ -19,7 +18,7 @@
 
                     
 
-<div id="accordeon-9515455011277" className="accordion-collapse collapse" aria-labelledby="header9515455011277" >
+<div id="accordeon-7788870118235" className="accordion-collapse collapse" aria-labelledby="header7788870118235" >
                         
 
 <div className="accordion-body">
@@ -147,13 +146,10 @@ CESR Proof Signatures are an extension to the Composable Event Streaming Represe
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="2">
@@ -190,13 +186,10 @@ Composable Event Streaming Representation (CESR) is a dual text-binary encoding 
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -232,13 +225,10 @@ A primary goal of CESR Proof Signatures is to allow any signed self-addressing d
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -274,13 +264,10 @@ CESR Proof Signatures can be used to sign as many portions of a SAD as needed, i
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -318,13 +305,10 @@ There are several events in KERI that can contain context specific embedded self
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -361,13 +345,10 @@ CESR Proof Signatures defines a SAD Path Language to be used in signature attach
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="2">
@@ -430,13 +411,10 @@ The root context (after the initial `-`) is always a map. Therefore, the first p
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="3">
@@ -473,13 +451,10 @@ SAD Paths are variable raw size primitives that require CESR variable size codes
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="3">
@@ -568,13 +543,10 @@ The examples in Table 1 represent all the features of the SAD Path language when
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -610,13 +582,10 @@ The SAD Path language was chosen over alternatives such as JSONPtr and JSONPath 
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -653,13 +622,10 @@ This specification adds 2 *Counter Four Character Codes* to the Master Code Tabl
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -695,13 +661,10 @@ The SAD Path Signature counter code is represented by the four character code `-
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -755,13 +718,10 @@ The additions to the Master Code Table of CESR is shown below:
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -797,13 +757,10 @@ CESR defines several counter codes for attaching signatures to serialized CESR e
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -853,13 +810,10 @@ Each attached signature is accompanied by a SAD Path that indicates the content 
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -895,13 +849,10 @@ Non-transferable identifiers only ever have one public key.  In addition, the id
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -938,13 +889,10 @@ Transferable identifiers require full KEL resolution and verfication to determin
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -980,13 +928,10 @@ This specification adds two Counter Four Character Codes to the CESR Master Code
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -1100,13 +1045,10 @@ BmMfUwIOywRkyc5GyQXfgDA4UOAMvjvnXcaK9G939ArM
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -1169,13 +1111,10 @@ The root path is the single `-` character meaning that all subsequent SAD Paths 
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -1247,13 +1186,10 @@ Now the SAD Path of the first signed SAD content resolves to the `a` field of th
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -1290,13 +1226,10 @@ The small variable raw side code reserved for SAD Path encoding is `A` which res
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -1333,13 +1266,10 @@ Additional signatures on nested content can be included in a SAD Path Group and 
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -1429,13 +1359,10 @@ To sign the SAD located at the path `-a`, JSON serialization would be used becau
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -1539,13 +1466,10 @@ With this approach, credential presentation request and exchange protocols can b
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -1582,13 +1506,10 @@ With this approach, credential presentation request and exchange protocols can b
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -1625,13 +1546,10 @@ TODO Security
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -1672,13 +1590,10 @@ This document has no IANA actions.
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -1715,8 +1630,6 @@ Dr Sam Smith, Kevin Griffin and the Global Legal Entity Identifier Foundation (G
                     
 
 </div>
-                
-                
                 
 
 </div>

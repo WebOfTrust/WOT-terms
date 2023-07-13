@@ -1,15 +1,14 @@
-<div className="accordion" id="accordionExample">               
-                 
+<div className="accordion">               
                 
 
 <div className="accordion-item" data-level="1">
                     
 
-<h2 className="accordion-header" id="header4268781685574">
+<h2 className="accordion-header" id="header4226313838619">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-4268781685574" aria-expanded="true" aria-controls="accordeon-4268781685574">
-                            4268781685574, level 1
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-4226313838619" aria-expanded="true" aria-controls="accordeon-4226313838619">
+                            4226313838619, level 1
                         
 
 </button>
@@ -19,7 +18,7 @@
 
                     
 
-<div id="accordeon-4268781685574" className="accordion-collapse collapse" aria-labelledby="header4268781685574" >
+<div id="accordeon-4226313838619" className="accordion-collapse collapse" aria-labelledby="header4226313838619" >
                         
 
 <div className="accordion-body">
@@ -237,13 +236,10 @@ This IPEX {{IPEX-ID}} protocol leverages important features of ACDCs and ancilla
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="2">
@@ -280,13 +276,10 @@ TODO Introduction
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -355,13 +348,10 @@ In an *issuance exchange*, when the *origin* ACDC has an *Issuee*, the *Disclose
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -400,13 +390,10 @@ Disclosures via Presentations Exchanges may be contractually protected by Chain-
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -454,13 +441,10 @@ Disclosures via Presentations Exchanges may be contractually protected by Chain-
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -505,13 +489,10 @@ Consequently, the IPEX protocol must specify how a validator does validation of 
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -550,13 +531,10 @@ For example, in the bulk issuance of an ACDC, the Issuer only signs the blinded 
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -610,13 +588,10 @@ Thus for any disclosed variant of an ACDC, the Disclosee need only verify only o
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -922,13 +897,10 @@ The Issuer signs the SAID, `d` field value of the field map above.
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -966,13 +938,10 @@ The Issuer signs the SAID, `d` field value of the field map above.
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -1010,13 +979,10 @@ TODO Security
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -1056,13 +1022,10 @@ This document has no IANA actions.
 
 </div>
                 
-                
-                
 
 </div>
                 
                
-                 
                 
 
 <div className="accordion-item" data-level="1">
@@ -1099,8 +1062,6 @@ TODO acknowledge.
                     
 
 </div>
-                
-                
                 
 
 </div>
