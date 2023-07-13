@@ -41,15 +41,29 @@ fs.readdir(directoryPath, (err, files) => {
             updatedData = updatedData.split(/\n(?=## )/g).map(section => {
                 let match = section.match(/## (.*)$/m);
                 let heading = match ? match[1] : null;
-                let anchor = heading ? heading.toLowerCase().replace(/\s/g, '-') : Math.floor(Math.random() * 10000000000000).toString();
+                let anchor = heading ? heading.toLowerCase() : Math.floor(Math.random() * 10000000000000).toString();
                 anchor = anchor
+                    .replace(/\s/g, '-')
                     .replace(/&/g, '-')
                     .replace(/\//g, '-')
                     .replace(/\\/g, '-')
                     .replace(/</g, '-')
                     .replace(/>/g, '-')
+                    .replace(/\(/g, '-')
+                    .replace(/\)/g, '-')
                     .replace(/'/g, '-')
-                    .replace(/"/g, '-');
+                    .replace(/`/g, '-')
+                    .replace(/,/g, '-')
+                    .replace(/\./g, '-')
+                    .replace(/;/g, '-')
+                    .replace(/:/g, '-')
+                    .replace(/\?/g, '-')
+                    .replace(/\?/g, '-')
+                    .replace(/!/g, '-')
+                    .replace(/"/g, '-')
+
+
+                    ;
                 console.log('dataAttributeMap[anchor]: ', dataAttributeMap[anchor]);
                 let dataAttribute = dataAttributeMap[anchor] || '1';
 
