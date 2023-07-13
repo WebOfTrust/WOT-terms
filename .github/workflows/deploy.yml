@@ -33,13 +33,11 @@ jobs:
       - name: Import Google Sheet “WOT-terms”, tab “Terms-WOT-manage” data into markdown file
         run: node externalContentCarbonCopies/fetchTermsMetaData.js
 
-      - name: Fetch information for import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files
-        id: labelcontent
-        run: node externalContentCarbonCopies/fetchExternalContentMetaData.js
+      # - name: Fetch information for import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files
+      #   run: node externalContentCarbonCopies/fetchExternalContentMetaData.js
 
-      - name: Import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files
-        run: node externalContentCarbonCopies/fetchExternalContent.js
-        needs: labelcontent
+      # - name: Import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files
+      #   run: node externalContentCarbonCopies/fetchExternalContent.js
 
       - name: Build website
         run: npm run build
