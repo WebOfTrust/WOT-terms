@@ -1,4126 +1,2065 @@
-## All pages that are indexed in KERISSE
-
-https://github.com/WebOfTrust/keria/blob/main/.github/workflows/publish-keria.yml
-
-https://github.com/WebOfTrust/keri/blob/main/.gitignore
-
-https://github.com/WebOfTrust/keripy/blob/main/.coveragerc
-
-https://github.com/trustoverip/acdc/wiki
-
-https://github.com/WebOfTrust/cesride/blob/main/.github/CODEOWNERS
-
-https://github.com/WebOfTrust/signify-ts/blob/main/.github/workflows/main.yml
-
-https://github.com/WebOfTrust/keria/blob/main/.github/workflows/python-app-ci.yml
-
-https://github.com/WebOfTrust/keri/blob/main/CONTRIBUTING.md
-
-https://github.com/WebOfTrust/keripy/blob/main/.github/FUNDING.yml
-
-https://kentbull.com/2023/03/09/keri-tutorial-series-treasure-hunting-in-abydos-issuing-and-verifying-a-credential-acdc/
-
-https://github.com/WebOfTrust/signify-ts/blob/main/.gitignore
-
-https://github.com/WebOfTrust/cesride/blob/main/.github/workflows/publish.yml
-
-https://humancolossus.foundation/blog/thinking-of-did-keri-on
-
-https://github.com/WebOfTrust/keria/blob/main/.gitignore
-
-https://github.com/WebOfTrust/keripy/blob/main/.github/workflows/interop/Dockerfile
-
-https://www.gleif.org/en/about
-
-https://github.com/WebOfTrust/keri/blob/main/LICENSE
-
-https://github.com/trustoverip/acdc/wiki/ACDC
-
-https://github.com/WebOfTrust/signify-ts/blob/main/LICENSE
-
-https://github.com/WebOfTrust/cesride/blob/main/.github/workflows/test.yml
-
-https://github.com/WebOfTrust/keria/blob/main/LICENSE
-
-https://github.com/WebOfTrust/keripy/blob/main/.github/workflows/publish-keripy.yml
-
-https://github.com/WebOfTrust/keri/blob/main/LICENSE.md
-
-https://kentbull.com/2023/01/27/keri-tutorial-series-kli-sign-and-verify-with-heartnet/
-
-https://github.com/WebOfTrust/cesride/blob/main/.gitignore
-
-https://weboftrust.github.io/WOT-terms/docs/tags
-
-https://github.com/WebOfTrust/keria/blob/main/Makefile
-
-https://www.gleif.org/en/about/this-is-gleif
-
-https://github.com/WebOfTrust/signify-ts/blob/main/README.md
-
-https://github.com/WebOfTrust/keripy/blob/main/.github/workflows/python-app-ci.yml
-
-https://github.com/WebOfTrust/keri/blob/main/README.md
-
-https://github.com/trustoverip/acdc/wiki/ADC
-
-https://ksoeteman.nl/2022/08/self-sovereign-identity-can-do-just-fine-blockchain-less/
-
-https://github.com/WebOfTrust/cesride/blob/main/.rustfmt.toml
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/.eslintrc.cjs
-
-https://github.com/WebOfTrust/keripy/blob/main/.gitignore
-
-https://github.com/WebOfTrust/keria/blob/main/README.md
-
-https://medium.com/spherity/introducing-keri-8f50ed1d8ed7
-
-https://github.com/trustoverip/acdc/wiki/agency
-
-https://kentbull.com/2022/06/05/keri-start/
-
-https://github.com/WebOfTrust/cesride/blob/main/Cargo.toml
-
-https://github.com/WebOfTrust/keripy/blob/main/.readthedocs.yaml
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/.gitignore
-
-https://github.com/WebOfTrust/keri/blob/main/agenda.md
-
-https://weboftrust.github.io/WOT-terms/docs/tags/acdc
-
-https://github.com/WebOfTrust/keria/blob/main/docs/protocol.md
-
-https://github.com/WebOfTrust/cesride/blob/main/LICENSE
-
-https://github.com/WebOfTrust/keripy/blob/main/LICENSE
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/.puppeteerrc.cjs
-
-https://github.com/trustoverip/acdc/wiki/agent
-
-https://github.com/WebOfTrust/keria/blob/main/images/keria.dockerfile
-
-https://github.com/WebOfTrust/keri/blob/main/agenda2022.md
-
-https://github.com/WebOfTrust/keripy/blob/main/Makefile
-
-https://github.com/WebOfTrust/cesride/blob/main/Makefile
-
-https://github.com/WebOfTrust/keria/blob/main/requirements.txt
-
-https://weboftrust.github.io/WOT-terms/docs/tags/keri
-
-https://www.gleif.org/en/about/our-vision
-
-https://github.com/WebOfTrust/keri/blob/main/docs/.DS_Store
-
-https://github.com/trustoverip/acdc/wiki/AID
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/client.png
-
-https://github.com/WebOfTrust/cesride/blob/main/README.md
-
-https://github.com/WebOfTrust/keripy/blob/main/README.md
-
-https://github.com/WebOfTrust/keria/blob/main/scripts/keri/cf/demo-witness-oobis.json
-
-https://github.com/WebOfTrust/keripy/blob/main/docs/Makefile
-
-https://github.com/trustoverip/acdc/wiki/ambient-verifiability
-
-https://github.com/WebOfTrust/cesride/blob/main/codecov.yml
-
-https://github.com/WebOfTrust/keria/blob/main/scripts/keri/cf/keria.json
-
-https://weboftrust.github.io/WOT-terms/feedback
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/connecting.png
-
-https://github.com/WebOfTrust/keria/blob/main/scripts/keri/cf/main/keria.json
-
-https://github.com/WebOfTrust/keri/blob/main/docs/Glossary.md
-
-https://github.com/WebOfTrust/keripy/blob/main/docs/conf.py
-
-https://medium.com/finema/minimal-disclosure-of-identity-with-zero-knowledge-proof-and-cl-signature-517ed2a61307
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/bexter.rs
-
-https://github.com/trustoverip/acdc/wiki/AN
-
-https://www.gleif.org/en/about/our-values
-
-https://github.com/WebOfTrust/keria/blob/main/setup.py
-
-https://github.com/WebOfTrust/keri/blob/main/docs/KERI-Mooc.md
-
-https://github.com/WebOfTrust/keripy/blob/main/docs/index.rst
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/identifier.png
-
-https://www.gleif.org/en/about/gleif-services
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/cigar.rs
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/__init__.py
-
-https://github.com/WebOfTrust/keripy/blob/main/docs/keri_app.rst
-
-https://github.com/trustoverip/acdc/wiki/APC
-
-https://weboftrust.github.io/WOT-terms/howtos-menu
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/index.html
-
-https://github.com/WebOfTrust/keripy/blob/main/docs/keri_core.rst
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/__main__.py
-
-https://github.com/WebOfTrust/keri/blob/main/docs/KERI_Msg_Seal.md
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/common.rs
-
-https://www.gleif.org/en/about/gleif-services/gleif-service-catalog
-
-https://github.com/trustoverip/acdc/wiki/API
-
-https://github.com/WebOfTrust/keripy/blob/main/docs/keri_db.rst
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/app/__init__.py
-
-https://github.com/WebOfTrust/keripy/blob/main/docs/keri_end.rst
-
-https://weboftrust.github.io/WOT-terms/howtos/hwt_embed-github-hosted-image-in-github-wiki-page
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/counter/mod.rs
-
-https://github.com/WebOfTrust/keri/blob/main/docs/PartialRotation.md
-
-https://github.com/trustoverip/acdc/wiki/append-only-event-logs
-
-https://medium.com/finema/verifiable-credential-and-verifiable-presentation-for-decentralized-digital-identity-132d107c2d9f
-
-https://github.com/WebOfTrust/keripy/blob/main/docs/keri_help.rst
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/app/agenting.py
-
-https://www.gleif.org/en/about/gleif-services/service-reports
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/counter/tables.rs
-
-https://github.com/WebOfTrust/keripy/blob/main/docs/keri_peer.rst
-
-https://github.com/trustoverip/acdc/wiki/application-programming-interface
-
-https://weboftrust.github.io/WOT-terms/howtos/hwt_get-markdown-from-ToIP-wiki
-
-https://github.com/WebOfTrust/keripy/blob/main/docs/keri_vc.rst
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/creder.rs
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/package-lock.json
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/app/aiding.py
-
-https://github.com/WebOfTrust/keripy/blob/main/docs/keri_vdr.rst
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/package.json
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/dater.rs
-
-https://github.com/trustoverip/acdc/wiki/authentic-chained-data-container
-
-https://github.com/WebOfTrust/keri/blob/main/docs/Q-and-A-Security.md
-
-https://github.com/WebOfTrust/keripy/blob/main/docs/make.bat
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/__init__.py
-
-https://github.com/WebOfTrust/keripy/blob/main/docs/readme.rst
-
-https://www.gleif.org/en/about/gleif-services/service-reports/service-reports-archive
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/diger.rs
-
-https://weboftrust.github.io/WOT-terms/howtos/hwt_load-toip-glossary-in-weboftrust-github-page
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/commands/__init__.py
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/public/vite.svg
-
-https://github.com/trustoverip/acdc/wiki/authentic-data-container
-
-https://medium.com/finema/remote-identity-proofing-for-digital-identity-c9a285c1b774
-
-https://github.com/WebOfTrust/keripy/blob/main/docs/requirements.txt
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/commands/start.py
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/scripts/keri/cf/demo-witness-oobis.json
-
-https://github.com/WebOfTrust/keripy/blob/main/images/keripy.dockerfile
-
-https://github.com/WebOfTrust/keri/blob/main/docs/Q-and-A.md
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/indexer/mod.rs
-
-https://github.com/trustoverip/acdc/wiki/authentic-provenance-chain
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/keria.py
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/App.css
-
-https://github.com/WebOfTrust/keripy/blob/main/images/witness.demo.dockerfile
-
-https://github.com/WebOfTrust/keri/blob/main/docs/README.md
-
-https://www.gleif.org/en/about/gleif-services/daily-service-availability
-
-https://weboftrust.github.io/WOT-terms/howtos/hwt_pull-in-markdown-documents
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/App.tsx
-
-https://github.com/trustoverip/acdc/wiki/authentic-web
-
-https://github.com/WebOfTrust/keripy/blob/main/interop/README.md
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/indexer/tables.rs
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/app/credentialing.py
-
-https://github.com/WebOfTrust/keripy/blob/main/publish.sh
-
-https://www.gleif.org/en/about/gleif-services/iso-20000-certification
-
-https://github.com/WebOfTrust/keri/blob/main/docs/keri-dev-env.md
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/MainComponent.tsx
-
-https://github.com/trustoverip/acdc/wiki/authenticity
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/app/indirecting.py
-
-https://github.com/WebOfTrust/keri/blob/main/docs/oobi.md
-
-https://weboftrust.github.io/WOT-terms/howtos/hwt_why-terms-wot-manage-structure
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/matter/mod.rs
-
-https://medium.com/finema/anonymous-credential-part-1-brief-overview-and-history-c6679034c914
-
-https://github.com/WebOfTrust/keripy/blob/main/ref/CypherSuites.md
-
-https://github.com/WebOfTrust/keri/blob/main/images/.DS_Store
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/app/notifying.py
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/Signify.tsx
-
-https://github.com/trustoverip/acdc/wiki/authoritative
-
-https://github.com/WebOfTrust/keripy/blob/main/ref/MultisigIssuance.md
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/SignifyDemo.tsx
-
-https://github.com/WebOfTrust/keri/blob/main/images/Arelle.png
-
-https://weboftrust.github.io/WOT-terms/markdown-page
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/app/presenting.py
-
-https://www.gleif.org/en/about/open-data
-
-https://github.com/trustoverip/acdc/wiki/authority
-
-https://essif-lab.github.io/framework/docs/essifLab
-
-https://github.com/WebOfTrust/keripy/blob/main/ref/Peer2PeerCredentials.md
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/TestsComponent.tsx
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/app/specing.py
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/matter/tables.rs
-
-https://github.com/WebOfTrust/keri/blob/main/images/Direct-mode-kel-kerl.png
-
-https://essif-lab.github.io/framework/docs/essifLab-collaborative-understanding
-
-https://github.com/trustoverip/acdc/wiki/authorization
-
-https://github.com/WebOfTrust/keripy/blob/main/ref/PythonStyleGuide.md
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/assets/react.svg
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/core/__init__.py
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/mod.rs
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/index.css
-
-https://essif-lab.github.io/framework/docs/essifLab-fw
-
-https://github.com/WebOfTrust/keri/blob/main/images/Docker.png
-
-https://weboftrust.github.io/WOT-terms/visualisations
-
-https://github.com/WebOfTrust/keripy/blob/main/ref/getting_started.md
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/core/authing.py
-
-https://github.com/trustoverip/acdc/wiki/authorized-vlei-representative
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/core/httping.py
-
-https://github.com/trustoverip/acdc/wiki/autonomic-computing-systems
-
-https://github.com/WebOfTrust/keripy/blob/main/ref/tel.md
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/core/keeping.py
-
-https://github.com/WebOfTrust/keripy/blob/main/requirements.txt
-
-https://github.com/trustoverip/acdc/wiki/autonomic-identifier
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/README.md
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/core/longrunning.py
-
-https://essif-lab.github.io/framework/docs/essifLab-fw-backlog
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/main.tsx
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/alice-bob-agent.sh
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/db/__init__.py
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/challenge.sh
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/db/basing.py
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Challenges.tsx
-
-https://github.com/trustoverip/acdc/wiki/autonomic-identity-system
-
-https://github.com/WebOfTrust/keri/blob/main/images/Java_logo.png
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/clear.sh
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Credentials.tsx
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/end/__init__.py
-
-https://github.com/WebOfTrust/keri/blob/main/images/KERI_image_by_CChunningham.png
-
-https://github.com/trustoverip/acdc/wiki/autonomic-namespace
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/delegate-agent.sh
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Delegation.tsx
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/end/ending.py
-
-https://github.com/WebOfTrust/keri/blob/main/images/Keri_logo_color_on_white.png
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/delegate.sh
-
-https://www.gleif.org/en/about/open-source
-
-https://github.com/trustoverip/acdc/wiki/AVR
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Multisig.tsx
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/keriaing.py
-
-https://github.com/WebOfTrust/keri/blob/main/images/Key-Event.png
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/number.rs
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Randy.tsx
-
-https://medium.com/finema/keri-jargon-in-a-nutshell-part-1-fb554d58f9d0
-
-https://github.com/trustoverip/acdc/wiki/backer
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/demo-script.sh
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/testing/__init__.py
-
-https://github.com/WebOfTrust/keri/blob/main/images/Sphinx.png
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/pather.rs
-
-https://github.com/trustoverip/acdc/wiki/BADA
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/demo-witness-script.sh
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Salty.tsx
-
-https://github.com/WebOfTrust/keri/blob/main/images/TEL-and-KEL.png
-
-https://github.com/WebOfTrust/keria/blob/main/src/keria/testing/testing_helper.py
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/prefixer.rs
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-agent.sh
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Witnesses.tsx
-
-https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/README.md
-
-https://github.com/trustoverip/acdc/wiki/base-media-type
-
-https://github.com/WebOfTrust/keri/blob/main/images/XBRL.png
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/sadder.rs
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-delegate-agent.sh
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/vite-env.d.ts
-
-https://github.com/trustoverip/acdc/wiki/base64
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/saider.rs
-
-https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/favicon-16x16.png
-
-https://github.com/WebOfTrust/keri/blob/main/images/ais.png
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-delegate-delegator-agent.sh
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/tests/integrations.js
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/salter.rs
-
-https://github.com/trustoverip/acdc/wiki/bespoke-credential
-
-https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/favicon-32x32.png
-
-https://github.com/WebOfTrust/keri/blob/main/images/autonomic-architecture.png
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-delegate-delegator.sh
-
-https://essif-lab.github.io/framework/docs/essifLab-fw-conceptual-architecture-framework
-
-https://github.com/trustoverip/acdc/wiki/best-available-data-acceptance-mechanism
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/tsconfig.json
-
-https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/index.css
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/seqner.rs
-
-https://github.com/WebOfTrust/keri/blob/main/images/backer-witness.png
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-delegate.sh
-
-https://github.com/trustoverip/acdc/wiki/BFT
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/serder.rs
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/tsconfig.node.json
-
-https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/index.html
-
-https://github.com/WebOfTrust/keri/blob/main/images/basic-scid.png
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-partial-rotation.sh
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/vite.config.ts
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/siger.rs
-
-https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/oauth2-redirect.html
-
-https://github.com/trustoverip/acdc/wiki/binding
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-triple.sh
-
-https://github.com/WebOfTrust/keri/blob/main/images/bazel-logo.png
-
-https://github.com/trustoverip/acdc/wiki/blake3
-
-https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/vite.config.ts.timestamp-1685395612909-bba831f8e6577.mjs
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/signer.rs
-
-https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-initializer.js
-
-https://github.com/WebOfTrust/keri/blob/main/images/caxe.png
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig.sh
-
-https://github.com/WebOfTrust/signify-ts/blob/main/package-lock.json
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/tholder.rs
-
-https://github.com/trustoverip/acdc/wiki/blind-oobi
-
-https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-bundle.js
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/single-witness-create-agent.sh
-
-https://github.com/WebOfTrust/keri/blob/main/images/dart.png
-
-https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-bundle.js.map
-
-https://github.com/WebOfTrust/signify-ts/blob/main/package.json
-
-https://github.com/trustoverip/acdc/wiki/blinded-revocation-registry
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/util.rs
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/start-agent.sh
-
-https://github.com/WebOfTrust/keri/blob/main/images/delegation-keri-muggles.png
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/index.ts
-
-https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-es-bundle-core.js
-
-https://github.com/trustoverip/acdc/wiki/branch
-
-https://github.com/WebOfTrust/cesride/blob/main/src/core/verfer.rs
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/start-witness.sh
-
-https://github.com/WebOfTrust/keri/blob/main/images/delegation_flow.plantuml
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/apping.ts
-
-https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-es-bundle-core.js.map
-
-https://github.com/trustoverip/acdc/wiki/byzantine-agreement
-
-https://github.com/WebOfTrust/cesride/blob/main/src/crypto/csprng.rs
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/credentials/multisig-holder-agent.sh
-
-https://github.com/WebOfTrust/keri/blob/main/images/delegation_flow.png
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/client.ts
-
-https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-es-bundle.js
-
-https://github.com/trustoverip/acdc/wiki/byzantine-fault-tolerance
-
-https://github.com/WebOfTrust/cesride/blob/main/src/crypto/hash.rs
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/credentials/multisig-issuer-agent.sh
-
-https://github.com/WebOfTrust/keri/blob/main/images/derivation-code.png
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/controller.ts
-
-https://github.com/trustoverip/acdc/wiki/certificate-transparency
-
-https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-es-bundle.js.map
-
-https://github.com/WebOfTrust/cesride/blob/main/src/crypto/mod.rs
-
-https://weboftrust.github.io/WOT-terms/docs/category/gleif
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/credentials/multisig-issuer.sh
-
-https://github.com/WebOfTrust/cesride/blob/main/src/crypto/salt.rs
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/habery.ts
-
-https://github.com/WebOfTrust/keri/blob/main/images/didcomm.png
-
-https://github.com/trustoverip/acdc/wiki/CESR
-
-https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-standalone-preset.js
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/credentials/single-issuer-agent.sh
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/signify.ts
-
-https://github.com/WebOfTrust/cesride/blob/main/src/crypto/sign.rs
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/credentials/single-issuer.sh
-
-https://github.com/WebOfTrust/keri/blob/main/images/gh-actions.png
-
-https://github.com/trustoverip/acdc/wiki/cesr-proof-signatures
-
-https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-standalone-preset.js.map
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/tsconfig.json
-
-https://github.com/WebOfTrust/cesride/blob/main/src/data.rs
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/README.md
-
-https://github.com/WebOfTrust/keri/blob/main/images/gitflow.png
-
-https://github.com/trustoverip/acdc/wiki/cesride
-
-https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui.css
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/authing.ts
-
-https://github.com/WebOfTrust/cesride/blob/main/src/error.rs
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/anchor.json
-
-https://github.com/WebOfTrust/keri/blob/main/images/hash-function.jpg
-
-https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui.css.map
-
-https://github.com/trustoverip/acdc/wiki/chain-link-confidentiality
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/cigar.ts
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/challenge-sample-pool2.json
-
-https://github.com/WebOfTrust/cesride/blob/main/src/lib.rs
-
-https://github.com/WebOfTrust/keri/blob/main/images/identity_system_security_overlay.png
-
-https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui.js
-
-https://github.com/trustoverip/acdc/wiki/chain-of-custody
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/cipher.ts
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/challenge-sample.json
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/.gitignore
-
-https://github.com/WebOfTrust/keri/blob/main/images/inception-rotation.png
-
-https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui.js.map
-
-https://github.com/trustoverip/acdc/wiki/cigar
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/core.ts
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/credential-data.json
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/Cargo.toml
-
-https://github.com/WebOfTrust/keri/blob/main/images/inception-statement.png
-
-https://github.com/WebOfTrust/keria/blob/main/tests/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/claim
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/counter.ts
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/delegate-1.json
-
-https://github.com/trustoverip/acdc/wiki/CLC
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/README.md
-
-https://github.com/WebOfTrust/keri/blob/main/images/internet_broken.png
-
-https://github.com/WebOfTrust/keria/blob/main/tests/app/__init__.py
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/delegate-2.json
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/decrypter.ts
-
-https://github.com/WebOfTrust/keria/blob/main/tests/app/test_agenting.py
-
-https://github.com/WebOfTrust/keri/blob/main/images/keri-gdpr-compliance-muggles.png
-
-https://github.com/trustoverip/acdc/wiki/clone
-
-https://essif-lab.github.io/framework/docs/essifLab-glossary
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/.gitignore
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/diger.ts
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/delegatee.json
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/package.json
-
-https://github.com/WebOfTrust/keria/blob/main/tests/app/test_aiding.py
-
-https://github.com/trustoverip/acdc/wiki/cloud-agent
-
-https://github.com/WebOfTrust/keri/blob/main/images/key-event-log-muggles.png
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/encrypter.ts
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/src/main.ts
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/delegator-1.json
-
-https://github.com/trustoverip/acdc/wiki/code-table
-
-https://github.com/WebOfTrust/keri/blob/main/images/key-infra-valence.png
-
-https://github.com/WebOfTrust/keria/blob/main/tests/app/test_credentialing.py
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/eventing.ts
-
-https://github.com/trustoverip/acdc/wiki/code-table-selector
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/tslint.json
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/delegator-2.json
-
-https://github.com/WebOfTrust/keria/blob/main/tests/app/test_indirecting.py
-
-https://github.com/WebOfTrust/keri/blob/main/images/key-rotation-muggles-steps1-2.png
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/httping.ts
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/indexer.ts
-
-https://github.com/trustoverip/acdc/wiki/cold-start-stream-parsing
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/delegator.json
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/yarn.lock
-
-https://github.com/WebOfTrust/keri/blob/main/images/key-rotation-muggles-steps3-4.png
-
-https://github.com/WebOfTrust/keria/blob/main/tests/app/test_notifying.py
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/keeping.ts
-
-https://github.com/WebOfTrust/keria/blob/main/tests/app/test_presenting.py
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/bootstrap.js
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/ecr-auth-data.json
-
-https://github.com/WebOfTrust/keri/blob/main/images/key-rotation-muggles-steps5-6.png
-
-https://github.com/trustoverip/acdc/wiki/collective-signature
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/kering.ts
-
-https://github.com/WebOfTrust/keria/blob/main/tests/app/test_specing.py
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/ecr-auth-edges-filter.jq
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/index.html
-
-https://github.com/trustoverip/acdc/wiki/collision
-
-https://github.com/WebOfTrust/keri/blob/main/images/key-rotation-muggles-steps7-8.png
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/manager.ts
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/ecr-auth-rules.json
-
-https://github.com/trustoverip/acdc/wiki/compact-variant
-
-https://github.com/WebOfTrust/keria/blob/main/tests/conftest.py
-
-https://github.com/WebOfTrust/keri/blob/main/images/key-rotation-muggles-steps9-10.png
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/index.js
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/matter.ts
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/ecr-data.json
-
-https://github.com/trustoverip/acdc/wiki/complementary-integrity-verification
-
-https://github.com/WebOfTrust/keria/blob/main/tests/core/__init__.py
-
-https://github.com/WebOfTrust/keri/blob/main/images/loci-of-control.png
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/package-lock.json
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/number.ts
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/ecr-edges-filter.jq
-
-https://github.com/trustoverip/acdc/wiki/composability
-
-https://github.com/WebOfTrust/keri/blob/main/images/me-and-mother-in-law.jpg
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/prefixer.ts
-
-https://github.com/WebOfTrust/keria/blob/main/tests/core/test_authing.py
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/package.json
-
-https://github.com/trustoverip/acdc/wiki/composable
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/ecr-rules.json
-
-https://github.com/WebOfTrust/keri/blob/main/images/mother-in-law-scolding.gif
-
-https://github.com/WebOfTrust/keria/blob/main/tests/core/test_httping.py
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/webpack.config.js
-
-https://essif-lab.github.io/framework/docs/essifLab-objectives
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/saider.ts
-
-https://github.com/WebOfTrust/keria/blob/main/tests/scripts/keri/cf/keria.json
-
-https://github.com/trustoverip/acdc/wiki/composable-event-streaming-representation
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/salter.ts
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/estonly-sample.json
-
-https://github.com/WebOfTrust/keri/blob/main/images/nodejs.png
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/yarn.lock
-
-https://github.com/trustoverip/acdc/wiki/concatenation
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/seqner.ts
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/src/error.rs
-
-https://github.com/WebOfTrust/keria/blob/main/tests/scripts/keri/cf/main/keria.json
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/external-gar-incept.json
-
-https://github.com/WebOfTrust/keri/blob/main/images/npm.png
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/src/lib.rs
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/serder.ts
-
-https://github.com/trustoverip/acdc/wiki/configuration-files
-
-https://github.com/WebOfTrust/keria/blob/main/tests/testing/test_testing_helper.py
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/external-gar-nodel-incept.json
-
-https://github.com/WebOfTrust/keri/blob/main/images/ntru.png
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/siger.ts
-
-https://github.com/trustoverip/acdc/wiki/consensus-mechanism
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/bexter.rs
-
-https://github.com/WebOfTrust/keri/blob/main/images/openapi.png
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/extgar-delegate-icp-anchor.json
-
-https://github.com/trustoverip/acdc/wiki/content-addressable-hash
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/cigar.rs
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/signer.ts
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/gleif-sample.json
-
-https://github.com/WebOfTrust/keri/blob/main/images/paw.png
-
-https://github.com/trustoverip/acdc/wiki/contextual-linkability
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/tholder.ts
-
-https://weboftrust.github.io/WOT-terms/docs/Concepts/
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/codex.rs
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/holder-sample.json
-
-https://github.com/WebOfTrust/keri/blob/main/images/platform_locked_trust.png
-
-https://github.com/trustoverip/acdc/wiki/contingent-disclosure
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/common.rs
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/tsconfig.json
-
-https://github.com/WebOfTrust/keri/blob/main/images/platypus.jpg
-
-https://github.com/trustoverip/acdc/wiki/contractually-protected-disclosure
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/utils.ts
-
-https://github.com/WebOfTrust/keri/blob/main/images/postman.png
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/dater.rs
-
-https://essif-lab.github.io/framework/docs/essifLab-pattern-list
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/inquisitor-sample.json
-
-https://github.com/trustoverip/acdc/wiki/control-authority
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/verfer.ts
-
-https://github.com/WebOfTrust/keri/blob/main/images/prefix.png
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/diger.rs
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/internal-gar-incept.json
-
-https://github.com/trustoverip/acdc/wiki/controller
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/end/ending.ts
-
-https://github.com/WebOfTrust/keri/blob/main/images/pubprivkey-caveat.png
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/mod.rs
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/internal-gar-nodel-incept.json
-
-https://github.com/trustoverip/acdc/wiki/coroutines
-
-https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/end/tsconfig.json
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/legal-entity-data.json
-
-https://github.com/WebOfTrust/keri/blob/main/images/restapi.png
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/number.rs
-
-https://github.com/trustoverip/acdc/wiki/correlation
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/app/controller.test.ts
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/prefixer.rs
-
-https://github.com/WebOfTrust/keri/blob/main/images/sai_sci.png
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/legal-entity-edges-filter.jq
-
-https://github.com/trustoverip/acdc/wiki/count-code
-
-https://www.gleif.org/en/about/gleif-engagement
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/app/habery.test.ts
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/mbx.json
-
-https://github.com/trustoverip/acdc/wiki/credential
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/saider.rs
-
-https://github.com/WebOfTrust/keri/blob/main/images/sci-muggles.png
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/core/authing.test.ts
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-1-sample.json
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/core/coring.test.ts
-
-https://github.com/WebOfTrust/keri/blob/main/images/sci_issue_bind.png
-
-https://github.com/trustoverip/acdc/wiki/CRUD
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/salter.rs
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-2-sample.json
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/core/counter.test.ts
-
-https://github.com/trustoverip/acdc/wiki/crypto-libraries
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/seqner.rs
-
-https://github.com/WebOfTrust/keri/blob/main/images/sci_ssi_book.png
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-3-sample.json
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/core/decrypter.test.ts
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/serder.rs
-
-https://github.com/WebOfTrust/keri/blob/main/images/spanning_layer.png
-
-https://github.com/trustoverip/acdc/wiki/cryptocurrency
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-delegate-icp-anchor.json
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/core/diger.test.ts
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/siger.rs
-
-https://github.com/trustoverip/acdc/wiki/cryptographic-commitment-scheme
-
-https://github.com/WebOfTrust/keri/blob/main/images/swagger.png
-
-https://essif-lab.github.io/framework/docs/essifLab-principles
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-delegate-sample.json
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/core/encrypter.test.ts
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/signer.rs
-
-https://github.com/WebOfTrust/keri/blob/main/images/trade-space-limitations.png
-
-https://github.com/trustoverip/acdc/wiki/cryptographic-primitive
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-delegate.json
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/core/eventing.test.ts
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/tholder.rs
-
-https://github.com/WebOfTrust/keri/blob/main/images/trust-over-ip-stack.png
-
-https://github.com/trustoverip/acdc/wiki/cryptographic-strength
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/core/httping.test.ts
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-delegator.json
-
-https://github.com/trustoverip/acdc/wiki/cryptonym
-
-https://github.com/WebOfTrust/keri/blob/main/images/waist_neck.png
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/verfer.rs
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-sample.json
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/core/indexer.test.ts
-
-https://github.com/WebOfTrust/cesride/blob/main/wasm/src/util.rs
-
-https://github.com/trustoverip/acdc/wiki/CSPRNG
-
-https://github.com/WebOfTrust/keri/blob/main/images/web-of-trust.png
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/core/manager.test.ts
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-triple-sample.json
-
-https://github.com/trustoverip/acdc/wiki/CT
-
-https://github.com/WebOfTrust/keri/blob/main/images/webauth.png
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/core/matter.test.ts
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/non-transferable-sample.json
-
-https://github.com/trustoverip/acdc/wiki/custodial-agent
-
-https://github.com/WebOfTrust/keri/blob/main/images/workiva.png
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/core/prefixer.test.ts
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/oor-auth-data.json
-
-https://github.com/trustoverip/acdc/wiki/custodial-rotation
-
-https://github.com/WebOfTrust/keri/blob/main/interop/credential.json
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/core/saider.test.ts
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/oor-auth-edges-filter.jq
-
-https://github.com/trustoverip/acdc/wiki/DAG
-
-https://github.com/WebOfTrust/keri/blob/main/interop/holder.json
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/core/salter.test.ts
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/oor-data.json
-
-https://essif-lab.github.io/framework/docs/essifLab-project
-
-https://github.com/WebOfTrust/keri/blob/main/interop/issuer.json
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/core/seqner.test.ts
-
-https://github.com/trustoverip/acdc/wiki/DAR
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/oor-edges-filter.jq
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/core/serder.test.ts
-
-https://github.com/WebOfTrust/keri/blob/main/interop/schema.json
-
-https://github.com/trustoverip/acdc/wiki/data-anchor
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/qvi-data.json
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/core/signer.test.ts
-
-https://github.com/trustoverip/acdc/wiki/dead-drop
-
-https://github.com/WebOfTrust/keri/blob/main/interop/tel.json
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/remote-witness-sample.json
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/core/verfer.test.ts
-
-https://github.com/trustoverip/acdc/wiki/decentralized-identifier
-
-https://github.com/WebOfTrust/keri/blob/main/interop/witness.json
-
-https://github.com/WebOfTrust/signify-ts/blob/main/test/end/ending.test.ts
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/rootgar-sample.json
-
-https://github.com/trustoverip/acdc/wiki/decentralized-identity
-
-https://github.com/WebOfTrust/keri/blob/main/interop/witnesses.json
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/rotate-sample.json
-
-https://github.com/WebOfTrust/signify-ts/blob/main/tsconfig.json
-
-https://github.com/trustoverip/acdc/wiki/decentralized-key-management-infrastructure
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/rules.json
-
-https://github.com/trustoverip/acdc/wiki/DEL
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/trans-wits-sample.json
-
-https://weboftrust.github.io/WOT-terms/docs/Concepts/intro
-
-https://github.com/trustoverip/acdc/wiki/delegated-identifier
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/transferable-sample.json
-
-https://github.com/trustoverip/acdc/wiki/delegation
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/wil-witness-sample.json
-
-https://essif-lab.github.io/framework/docs/essifLab-vision
-
-https://github.com/trustoverip/acdc/wiki/derivation-code
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/xbrl-data.jq
-
-https://github.com/trustoverip/acdc/wiki/designated-authorized-representative
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/xbrl-edges-filter.jq
-
-https://github.com/trustoverip/acdc/wiki/DHT
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/demo-scripts.sh
-
-https://github.com/trustoverip/acdc/wiki/DID
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/test_scripts.sh
-
-https://medium.com/decentralized-identity/peer-dids-moving-to-difs-id-working-group-7f1664bcbf30
-
-https://github.com/trustoverip/acdc/wiki/diger
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/README.md
-
-https://github.com/trustoverip/acdc/wiki/digest
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/external-gar-init.sh
-
-https://github.com/trustoverip/acdc/wiki/digital-signature
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/internal-gar-init.sh
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/internal-gar.sh
-
-https://github.com/trustoverip/acdc/wiki/directed-acyclic-graph
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/intgar-challenge.sh
-
-https://github.com/trustoverip/acdc/wiki/disclosee
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/issue-xbrl-attestation-agent.sh
-
-https://github.com/trustoverip/acdc/wiki/discloser
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/issue-xbrl-attestation.sh
-
-https://github.com/trustoverip/acdc/wiki/distributed-hash-table
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/legal-entity.sh
-
-https://github.com/trustoverip/acdc/wiki/DKMI
-
-https://essif-lab.github.io/framework/docs/functional-components/essifLab-fcomp-%3Cfcompid%3E
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/qar.sh
-
-https://github.com/trustoverip/acdc/wiki/domain
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/root-gar-init.sh
-
-https://github.com/trustoverip/acdc/wiki/domain-name
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/root-gar.sh
-
-https://github.com/trustoverip/acdc/wiki/DPKI
-
-https://github.com/trustoverip/acdc/wiki/dual-indexed-codes
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/ci-witness-oobis.json
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/demo-witness-oobis-schema.json
-
-https://github.com/trustoverip/acdc/wiki/dual-text-binary-encoding-format
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/demo-witness-oobis.json
-
-https://github.com/trustoverip/acdc/wiki/duplicitous-event-log
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/main/wan.json
-
-https://github.com/trustoverip/acdc/wiki/duplicity
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/main/wes.json
-
-https://github.com/trustoverip/acdc/wiki/eclipse-attack
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/main/wil.json
-
-https://github.com/trustoverip/acdc/wiki/ECR
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/main/wit.json
-
-https://github.com/trustoverip/acdc/wiki/electronic-signature
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/main/wub.json
-
-https://www.gleif.org/en/about/gleif-engagement/organization-and-committee-engagement
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/main/wyz.json
-
-https://github.com/trustoverip/acdc/wiki/end-verifiable
-
-https://essif-lab.github.io/framework/docs/generic-governance-process
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/pool2-witness-oobis.json
-
-https://github.com/trustoverip/acdc/wiki/engagement-context-role
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/remote-witness-oobis-schema.json
-
-https://github.com/trustoverip/acdc/wiki/entity
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/remote-witness-oobis.json
-
-https://github.com/trustoverip/acdc/wiki/entropy
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/vlei-gar-oobis-schema.json
-
-https://github.com/trustoverip/acdc/wiki/ephemeral
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/vlei-lar-oobis-schema.json
-
-https://github.com/trustoverip/acdc/wiki/escrow
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/vlei-qar-oobis-schema.json
-
-https://github.com/trustoverip/acdc/wiki/escrow-state
-
-https://weboftrust.github.io/WOT-terms/docs/Concepts/keri-dev-env
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/vlei-root-oobis-schema.json
-
-https://github.com/trustoverip/acdc/wiki/establishment-event
-
-https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/witness.json
-
-https://github.com/trustoverip/acdc/wiki/extensible-business-reporting-language
-
-https://github.com/WebOfTrust/keripy/blob/main/setup.py
-
-https://github.com/trustoverip/acdc/wiki/FFI
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/__init__.py
-
-https://essif-lab.github.io/framework/docs/miscellaneous
-
-https://github.com/trustoverip/acdc/wiki/field-map
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/first-seen
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/agenting.py
-
-https://github.com/trustoverip/acdc/wiki/foreign-function-interface
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/apping.py
-
-https://www.gleif.org/en/about/gleif-engagement/consultation-responses
-
-https://github.com/trustoverip/acdc/wiki/frame-code
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/booting.py
-
-https://github.com/trustoverip/acdc/wiki/full-disclosure
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/challenging.py
-
-https://github.com/trustoverip/acdc/wiki/fully-compact
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/fully-expanded
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/GAR
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/agent/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/ghost-credential
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/agent/demo.py
-
-https://github.com/trustoverip/acdc/wiki/GLEIF
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/agent/start.py
-
-https://github.com/trustoverip/acdc/wiki/gleif-authorized-representative
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/agent/vlei.py
-
-https://github.com/trustoverip/acdc/wiki/GLEIS
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/challenge/__init__.py
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/challenge/generate.py
-
-https://github.com/trustoverip/acdc/wiki/gnu-privacy-guard
-
-https://essif-lab.github.io/framework/docs/notations-and-conventions
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/challenge/respond.py
-
-https://github.com/trustoverip/acdc/wiki/governance-framework
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/challenge/verify.py
-
-https://github.com/trustoverip/acdc/wiki/GPG
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/contacts/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/graduated-disclosure
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/contacts/list.py
-
-https://github.com/trustoverip/acdc/wiki/graph-fragment
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/delegate/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/group-code
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/delegate/confirm.py
-
-https://github.com/trustoverip/acdc/wiki/group-framing-code
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/delegate/request.py
-
-https://github.com/trustoverip/acdc/wiki/habery
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/did/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/hardware-security-module
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/did/generate.py
-
-https://essif-lab.github.io/framework/docs/ssi-standards
-
-https://github.com/trustoverip/acdc/wiki/hierarchical-asynchronous-coroutines-and-input-output
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/ends/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/hierarchical-composition
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/ends/export.py
-
-https://github.com/trustoverip/acdc/wiki/hierchical-deterministic-keys
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/escrow.py
-
-https://github.com/trustoverip/acdc/wiki/hio
-
-https://weboftrust.github.io/WOT-terms/docs/Education/intro
-
-https://github.com/trustoverip/acdc/wiki/HSM
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/export.py
-
-https://github.com/trustoverip/acdc/wiki/I-O
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/incept.py
-
-https://github.com/trustoverip/acdc/wiki/IANA
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/init.py
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/interact.py
-
-https://github.com/trustoverip/acdc/wiki/identifier
-
-https://www.gleif.org/en/about/gleif-engagement/gleif-stakeholder-groups
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/kevers.py
-
-https://github.com/trustoverip/acdc/wiki/identifier-system
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/list.py
-
-https://github.com/trustoverip/acdc/wiki/identity
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/local/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/inception
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/local/watch.py
-
-https://essif-lab.github.io/framework/docs/TBD
-
-https://github.com/trustoverip/acdc/wiki/inception-event
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/mailbox/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/inconsistency
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/mailbox/debug.py
-
-https://github.com/trustoverip/acdc/wiki/indexed-signature
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/mailbox/update.py
-
-https://github.com/trustoverip/acdc/wiki/input-output
-
-https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/inquisitor
-
-https://github.com/trustoverip/acdc/wiki/integrity
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/continue.py
-
-https://github.com/trustoverip/acdc/wiki/interaction-event
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/demo.py
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/incept.py
-
-https://github.com/trustoverip/acdc/wiki/interleaved-serialisation
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/interact.py
-
-https://github.com/trustoverip/acdc/wiki/internal-inconsistency
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/join.py
-
-https://github.com/trustoverip/acdc/wiki/internet-assigned-numbers-authority
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/rotate.py
-
-https://github.com/trustoverip/acdc/wiki/interoperability
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/shell.py
-
-https://github.com/trustoverip/acdc/wiki/interoperable
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/update.py
-
-https://github.com/trustoverip/acdc/wiki/ip-address
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/nonce.py
-
-https://github.com/trustoverip/acdc/wiki/IPEX
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/oobi/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/issuance-and-presentation-exchange-protocol
-
-https://essif-lab.github.io/framework/docs/terminology-contributions
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/oobi/clean.py
-
-https://github.com/trustoverip/acdc/wiki/issuance-event
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/oobi/generate.py
-
-https://github.com/trustoverip/acdc/wiki/issuance-exchange
-
-https://github.com/trustoverip/acdc/wiki/issuee
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/oobi/resolve.py
-
-https://github.com/trustoverip/acdc/wiki/issuer
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/passcode/__init__.py
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/passcode/generate.py
-
-https://github.com/trustoverip/acdc/wiki/ixn
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/passcode/remove.py
-
-https://github.com/trustoverip/acdc/wiki/javascript-object-signing-and-encryption
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/passcode/set.py
-
-https://github.com/trustoverip/acdc/wiki/JOSE
-
-https://github.com/trustoverip/acdc/wiki/JSON
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/rename.py
-
-https://weboftrust.github.io/WOT-terms/docs/Education/KERI-Mooc
-
-https://github.com/trustoverip/acdc/wiki/judge
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/rollback.py
-
-https://github.com/trustoverip/acdc/wiki/juror
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/rotate.py
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/saidify.py
-
-https://github.com/trustoverip/acdc/wiki/jury
-
-https://github.com/trustoverip/acdc/wiki/KA2CE
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/salt.py
-
-https://github.com/trustoverip/acdc/wiki/KAACE
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/sign.py
-
-https://essif-lab.github.io/framework/docs/terminology-design/backgrounds/expressing-oneself
-
-https://github.com/trustoverip/acdc/wiki/keep
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/status.py
-
-https://github.com/trustoverip/acdc/wiki/KEL
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/KERI
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/export.py
-
-https://github.com/trustoverip/acdc/wiki/keri-agreement-algorithm-for-control-establishment
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/issue.py
-
-https://github.com/trustoverip/acdc/wiki/keri-command-line-interface
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/list.py
-
-https://github.com/trustoverip/acdc/wiki/keri-improvement-doc
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/present.py
-
-https://github.com/trustoverip/acdc/wiki/keri-ox
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/registry/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/keri-request-authentication-method
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/registry/incept.py
-
-https://github.com/trustoverip/acdc/wiki/keri-suite
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/registry/list.py
-
-https://github.com/trustoverip/acdc/wiki/keri-suite-search-engine
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/registry/status.py
-
-https://github.com/trustoverip/acdc/wiki/keria
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/revoke.py
-
-https://github.com/trustoverip/acdc/wiki/keride
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/verify.py
-
-https://github.com/trustoverip/acdc/wiki/keridemlia
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/version.py
-
-https://github.com/trustoverip/acdc/wiki/keripy
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/wallet/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/KERISSE
-
-https://essif-lab.github.io/framework/docs/terminology-design/backlog
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/wallet/start.py
-
-https://github.com/trustoverip/acdc/wiki/KERL
-
-https://github.com/trustoverip/acdc/wiki/key
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/watcher/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/key-compromise
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/watcher/list.py
-
-https://github.com/trustoverip/acdc/wiki/key-event
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/watcher/rotate.py
-
-https://github.com/trustoverip/acdc/wiki/key-event-log
-
-https://github.com/trustoverip/acdc/wiki/key-event-message
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/watcher/start.py
-
-https://weboftrust.github.io/WOT-terms/docs/Education/Q-and-A
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/watcher/update.py
-
-https://github.com/trustoverip/acdc/wiki/key-event-receipt
-
-https://github.com/trustoverip/acdc/wiki/key-event-receipt-infrastructure
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/witness/__init__.py
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/witness/demo.py
-
-https://github.com/trustoverip/acdc/wiki/key-event-receipt-log
-
-https://github.com/trustoverip/acdc/wiki/key-management
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/witness/start.py
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/witness/submit.py
-
-https://github.com/trustoverip/acdc/wiki/key-pair
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/key-state
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/config.py
-
-https://github.com/trustoverip/acdc/wiki/key-stretching
-
-https://essif-lab.github.io/framework/docs/terminology-design/manuals/authoring
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/displaying.py
-
-https://github.com/trustoverip/acdc/wiki/key-transparency
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/existing.py
-
-https://github.com/trustoverip/acdc/wiki/keystore
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/incepting.py
-
-https://github.com/trustoverip/acdc/wiki/KID
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/rotating.py
-
-https://github.com/trustoverip/acdc/wiki/kli
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/terming.py
-
-https://github.com/trustoverip/acdc/wiki/KRAM
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/kli.py
-
-https://github.com/trustoverip/acdc/wiki/large-language-model
-
-https://github.com/trustoverip/acdc/wiki/lead-bytes
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/readme.md
-
-https://github.com/trustoverip/acdc/wiki/ledger-backer
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/configing.py
-
-https://github.com/trustoverip/acdc/wiki/legal-entity
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/connecting.py
-
-https://weboftrust.github.io/WOT-terms/docs/Education/Q-and-A-Security
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/delegating.py
-
-https://github.com/trustoverip/acdc/wiki/legal-entity-engagement-context-role-vlei-credential-governance-framework
-
-https://essif-lab.github.io/framework/docs/terminology-design/manuals/contributing
-
-https://github.com/trustoverip/acdc/wiki/legal-entity-official-organizational-role-vlei-credential-governance-framework
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/directing.py
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/forwarding.py
-
-https://github.com/trustoverip/acdc/wiki/legal-entity-vlei-credential-governance-framework
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/grouping.py
-
-https://github.com/trustoverip/acdc/wiki/LEI
-
-https://www.gleif.org/en/about/gleif-engagement/gleif-stakeholder-groups/gleif-vendor-relationship-group
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/habbing.py
-
-https://github.com/trustoverip/acdc/wiki/levels-of-assurance
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/httping.py
-
-https://github.com/trustoverip/acdc/wiki/liveness
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/indirecting.py
-
-https://github.com/trustoverip/acdc/wiki/LLM
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/keeping.py
-
-https://github.com/trustoverip/acdc/wiki/LoA
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/kiwiing.py
-
-https://github.com/trustoverip/acdc/wiki/LoC
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/notifying.py
-
-https://github.com/trustoverip/acdc/wiki/loci-of-control
-
-https://essif-lab.github.io/framework/docs/terminology-design/manuals/curating
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/oobiing.py
-
-https://github.com/trustoverip/acdc/wiki/locked-state
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/signaling.py
-
-https://github.com/trustoverip/acdc/wiki/management-TEL
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/signing.py
-
-https://github.com/trustoverip/acdc/wiki/management-transaction-event-log
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/specing.py
-
-https://github.com/trustoverip/acdc/wiki/message
-
-https://www.gleif.org/en/about/gleif-engagement/gleif-stakeholder-groups/gleif-gifi-relationship-group
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/storing.py
-
-https://github.com/trustoverip/acdc/wiki/most-compact
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/watching.py
-
-https://github.com/trustoverip/acdc/wiki/multicodec
-
-https://github.com/trustoverip/acdc/wiki/multiplexing
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/__init__.py
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/coring.py
-
-https://github.com/trustoverip/acdc/wiki/multisig
-
-https://github.com/trustoverip/acdc/wiki/naive-conversion
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/eventing.py
-
-https://github.com/trustoverip/acdc/wiki/namespace
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/parsing.py
-
-https://essif-lab.github.io/framework/docs/terminology-design/methods
-
-https://github.com/trustoverip/acdc/wiki/ndigs
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/routing.py
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/scheming.py
-
-https://github.com/trustoverip/acdc/wiki/nested-cooperative-delegated-identifiers
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/NFT
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/basing.py
-
-https://github.com/trustoverip/acdc/wiki/non-establishment-event
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/dbing.py
-
-https://github.com/trustoverip/acdc/wiki/non-fungible-token
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/escrowing.py
-
-https://github.com/trustoverip/acdc/wiki/non-normative
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/koming.py
-
-https://github.com/trustoverip/acdc/wiki/non-repudiable
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/subing.py
-
-https://github.com/trustoverip/acdc/wiki/non-transferable
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/.gitignore
-
-https://github.com/trustoverip/acdc/wiki/non-transferable-identifier
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/__init__.py
-
-https://essif-lab.github.io/framework/docs/terminology-design/methods/1-1-discussions
-
-https://github.com/trustoverip/acdc/wiki/normative
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/demo.md
-
-https://github.com/trustoverip/acdc/wiki/official-organizational-role
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/demo_bob.py
-
-https://github.com/trustoverip/acdc/wiki/one-way-functions
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/demo_eve.py
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/demo_kev.py
-
-https://github.com/trustoverip/acdc/wiki/OOBI
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/demo_sam.py
-
-https://github.com/trustoverip/acdc/wiki/OOR
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/demoing.py
-
-https://github.com/trustoverip/acdc/wiki/opcode
-
-https://www.gleif.org/en/about/gleif-engagement/gleif-stakeholder-groups/gleif-ca-stakeholder-group
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/bob.2021-03-08_21-37-25_238349.txt
-
-https://github.com/trustoverip/acdc/wiki/out-of-band-introduction
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/bob.2021-03-08_23-41-35_745844.txt
-
-https://github.com/trustoverip/acdc/wiki/owner
-
-https://github.com/trustoverip/acdc/wiki/ownership
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/eve.2021-03-08_21-37-25_262367.txt
-
-https://essif-lab.github.io/framework/docs/terminology-design/methods/criteria-elicitation
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/eve.2021-03-08_21-38-11_244687.txt
-
-https://github.com/trustoverip/acdc/wiki/P2P
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/eve.2021-03-08_23-41-40_603809.txt
-
-https://github.com/trustoverip/acdc/wiki/pad
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/eve.2021-03-08_23-52-55_318751.txt
-
-https://github.com/trustoverip/acdc/wiki/parside
-
-https://github.com/trustoverip/acdc/wiki/partial-disclosure
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/sam.2021-03-08_21-38-11_220617.txt
-
-https://github.com/trustoverip/acdc/wiki/partial-pre-rotation
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/sam.2021-03-08_23-52-46_400816.txt
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/partial-rotation
-
-https://github.com/trustoverip/acdc/wiki/passcode
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/ending.py
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/priming.py
-
-https://github.com/trustoverip/acdc/wiki/payload
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/static/favicon.ico
-
-https://github.com/trustoverip/acdc/wiki/peer-to-peer
-
-https://github.com/trustoverip/acdc/wiki/percolated-information-discovery
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/static/index.html
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/static/index.js
-
-https://github.com/trustoverip/acdc/wiki/persistent-data-structure
-
-https://essif-lab.github.io/framework/docs/terminology-design/methods/real-life-example
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/static/robots.txt
-
-https://github.com/trustoverip/acdc/wiki/persistent-identifier
-
-https://github.com/trustoverip/acdc/wiki/PGP
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/help/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/PID
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/help/helping.py
-
-https://github.com/trustoverip/acdc/wiki/pii
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/kering.py
-
-https://github.com/trustoverip/acdc/wiki/pipelining
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/peer/__init__.py
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/peer/exchanging.py
-
-https://github.com/trustoverip/acdc/wiki/PKI
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/vc/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/post-pad
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/vc/protocoling.py
-
-https://github.com/trustoverip/acdc/wiki/pre-pad
-
-https://github.com/trustoverip/acdc/wiki/pre-rotation
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/vc/proving.py
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/vc/walleting.py
-
-https://github.com/trustoverip/acdc/wiki/prefix
-
-https://essif-lab.github.io/framework/docs/terminology-design/methods/terminology-process
-
-https://github.com/trustoverip/acdc/wiki/presentation-exchange
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/vdr/__init__.py
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/vdr/credentialing.py
-
-https://github.com/trustoverip/acdc/wiki/pretty-good-privacy
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/vdr/eventing.py
-
-https://github.com/trustoverip/acdc/wiki/primary-root-of-trust
-
-https://github.com/trustoverip/acdc/wiki/primitive
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/vdr/verifying.py
-
-https://github.com/WebOfTrust/keripy/blob/main/src/keri/vdr/viring.py
-
-https://github.com/trustoverip/acdc/wiki/PRNG
-
-https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/favicon-16x16.png
-
-https://github.com/trustoverip/acdc/wiki/promiscuous-mode
-
-https://github.com/trustoverip/acdc/wiki/proof-of-authority
-
-https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/favicon-32x32.png
-
-https://github.com/trustoverip/acdc/wiki/proof-of-authorship
-
-https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/index.html
-
-https://github.com/trustoverip/acdc/wiki/protocol
-
-https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/oauth2-redirect.html
-
-https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui-bundle.js
-
-https://github.com/trustoverip/acdc/wiki/provenance
-
-https://essif-lab.github.io/framework/docs/terminology-design/overview
-
-https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui-bundle.js.map
-
-https://github.com/trustoverip/acdc/wiki/pseudo-random-number
-
-https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui-standalone-preset.js
-
-https://github.com/trustoverip/acdc/wiki/PTEL
-
-https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-02-07_vlei-q-a_v1.1-final
-
-https://github.com/trustoverip/acdc/wiki/public-key-infrastructure
-
-https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui-standalone-preset.js.map
-
-https://github.com/trustoverip/acdc/wiki/public-transaction-event-log
-
-https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui.css
-
-https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui.css.map
-
-https://github.com/trustoverip/acdc/wiki/public-verifiable-credential-registry
-
-https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui.js
-
-https://github.com/trustoverip/acdc/wiki/QAR
-
-https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui.js.map
-
-https://github.com/trustoverip/acdc/wiki/qualified
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/qualified-vlei-issuer
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/qualified-vlei-issuer-vlei-credential-governance-framework
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/QVI
-
-https://essif-lab.github.io/framework/docs/terminology-design/overview/common-understanding
-
-https://github.com/trustoverip/acdc/wiki/qvi-authorized-representative
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/anchor.json
-
-https://github.com/trustoverip/acdc/wiki/race-condition
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands.py
-
-https://github.com/trustoverip/acdc/wiki/rainbow-table-attack
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/__init__.py
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/challenge/alice.json
-
-https://github.com/trustoverip/acdc/wiki/receipt
-
-https://github.com/trustoverip/acdc/wiki/receipt-log
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/challenge/bob.json
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/challenge/keri/cf/demo-witness-oobis.json
-
-https://github.com/trustoverip/acdc/wiki/redundant-credential
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/challenge/keri/cf/main/wan.json
-
-https://github.com/trustoverip/acdc/wiki/registrar
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/challenge/keri/cf/main/wes.json
-
-https://github.com/trustoverip/acdc/wiki/registry
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/challenge/keri/cf/main/wil.json
-
-https://github.com/trustoverip/acdc/wiki/replay-attack
-
-https://github.com/trustoverip/acdc/wiki/repo
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/delegate-1.json
-
-https://github.com/trustoverip/acdc/wiki/reserve-rotation
-
-https://essif-lab.github.io/framework/docs/terminology-design/overview/design-principles
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/delegate-2.json
-
-https://www.gleif.org/en/about/management
-
-https://github.com/trustoverip/acdc/wiki/revocation-event
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/delegatee.json
-
-https://github.com/trustoverip/acdc/wiki/ricardian-contract
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/delegator-1.json
-
-https://github.com/trustoverip/acdc/wiki/root-of-trust
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/delegator-2.json
-
-https://github.com/trustoverip/acdc/wiki/rot
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/delegator.json
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/multisig-delegate.json
-
-https://github.com/trustoverip/acdc/wiki/rotation
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/multisig-delegator.json
-
-https://github.com/trustoverip/acdc/wiki/rotation-authority
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/rotate-sample.json
-
-https://github.com/trustoverip/acdc/wiki/rotation-event
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/RUN
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/mtest-sample.json
-
-https://github.com/trustoverip/acdc/wiki/run-off-the-crud
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/mtest/keri/cf/demo-witness-oobis.json
-
-https://github.com/trustoverip/acdc/wiki/SAD
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/mtest/keri/cf/main/wan.json
-
-https://github.com/trustoverip/acdc/wiki/SAID
-
-https://essif-lab.github.io/framework/docs/terminology-design/overview/purpose
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/mtest/keri/cf/main/wes.json
-
-https://github.com/trustoverip/acdc/wiki/sally
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/mtest/keri/cf/main/wil.json
-
-https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-10-28_Qualified-vLEI-Issuer-vLEI-Identifer-Credential-GF-Prep-1.0-Publication_v0.9_work
-
-https://github.com/trustoverip/acdc/wiki/salt
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/multisig-1-sample.json
-
-https://github.com/trustoverip/acdc/wiki/salter
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/multisig-2-sample.json
-
-https://github.com/trustoverip/acdc/wiki/SATP
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/multisig-3-sample.json
-
-https://github.com/trustoverip/acdc/wiki/schema-namespace-registry
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/multisig-delegate-sample.json
-
-https://github.com/trustoverip/acdc/wiki/schema-registry
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/multisig-sample.json
-
-https://github.com/trustoverip/acdc/wiki/SCID
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/oobi/keri/cf/test.json
-
-https://github.com/trustoverip/acdc/wiki/seal
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/oobi/non-transferable-sample.json
-
-https://www.gleif.org/en/about/governance
-
-https://github.com/trustoverip/acdc/wiki/secondary-root-of-trust
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/watcher/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/secure-asset-transfer-protocol
-
-https://essif-lab.github.io/framework/docs/terminology-design/terms/@
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/watcher/watcher-sample.json
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/ctrl-sample.json
-
-https://github.com/trustoverip/acdc/wiki/secure-attribution
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/estonly-sample.json
-
-https://github.com/trustoverip/acdc/wiki/secure-private-authentic-confidentiality
-
-https://github.com/trustoverip/acdc/wiki/seed
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/non-transferable-sample.json
-
-https://github.com/trustoverip/acdc/wiki/selective-disclosure
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/rotate-sample.json
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/test_kli_commands.py
-
-https://github.com/trustoverip/acdc/wiki/self-addressing-data
-
-https://github.com/trustoverip/acdc/wiki/self-addressing-identifier
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/transferable-sample.json
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/wan-witness-sample.json
-
-https://github.com/trustoverip/acdc/wiki/self-certifying-identifier
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/wes-witness-sample.json
-
-https://github.com/trustoverip/acdc/wiki/self-framing
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/wil-witness-sample.json
-
-https://github.com/trustoverip/acdc/wiki/self-sovereign-identity
-
-https://github.com/trustoverip/acdc/wiki/self-sovereignty
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/witness-sample.json
-
-https://github.com/trustoverip/acdc/wiki/server-sent-event
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/schema.json
-
-https://github.com/trustoverip/acdc/wiki/service-endpoint
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_agenting.py
-
-https://essif-lab.github.io/framework/docs/terminology-design/terms/author
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_apping.py
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_configing.py
-
-https://github.com/trustoverip/acdc/wiki/siger
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_connecting.py
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_credentials.py
-
-https://github.com/trustoverip/acdc/wiki/signed-digest
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_delegating.py
-
-https://github.com/trustoverip/acdc/wiki/signer
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_directing.py
-
-https://github.com/trustoverip/acdc/wiki/signify
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_forwarding.py
-
-https://github.com/trustoverip/acdc/wiki/signify-keria-request-authentication-protocol
-
-https://www.gleif.org/en/about/governance/financial-stability-board-fsb
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_grouping.py
-
-https://github.com/trustoverip/acdc/wiki/signing-authority
-
-https://github.com/trustoverip/acdc/wiki/signing-threshold
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_habbing.py
-
-https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-11-01_GLEIF-Identifier-GF-Prep-1.0-Publication_v0.6_work
-
-https://essif-lab.github.io/framework/docs/terminology-design/terms/common-understanding
-
-https://github.com/trustoverip/acdc/wiki/simple-keri-for-web-auth
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_httping.py
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_indirecting.py
-
-https://github.com/trustoverip/acdc/wiki/single-signature-identifier
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_keeping.py
-
-https://github.com/trustoverip/acdc/wiki/SKRAP
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_kiwiing.py
-
-https://github.com/trustoverip/acdc/wiki/SKWA
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_multisig.py
-
-https://github.com/trustoverip/acdc/wiki/sniffer
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_notifying.py
-
-https://github.com/trustoverip/acdc/wiki/solicited-issuance
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_oobiing.py
-
-https://github.com/trustoverip/acdc/wiki/source-of-truth
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_signaling.py
-
-https://github.com/trustoverip/acdc/wiki/SPAC
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_signing.py
-
-https://github.com/trustoverip/acdc/wiki/spanning-layer
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_specing.py
-
-https://github.com/trustoverip/acdc/wiki/SSI
-
-https://essif-lab.github.io/framework/docs/terminology-design/terms/domain-expert
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_storing.py
-
-https://github.com/trustoverip/acdc/wiki/ssi-system
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_watching.py
-
-https://github.com/trustoverip/acdc/wiki/strip-parameter
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/comply/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/sub-shell
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/comply/test_direct_mode.py
-
-https://github.com/trustoverip/acdc/wiki/TCP
-
-https://github.com/trustoverip/acdc/wiki/tcp-endpoint
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/conftest.py
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/core/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/TEL
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_bare.py
-
-https://github.com/trustoverip/acdc/wiki/text-binary-concatenation-composability
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_coring.py
-
-https://github.com/trustoverip/acdc/wiki/threshold-of-accountable-duplicity
-
-https://github.com/trustoverip/acdc/wiki/threshold-signature-scheme
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_crypto.py
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_delegating.py
-
-https://github.com/trustoverip/acdc/wiki/TOAD
-
-https://github.com/trustoverip/acdc/wiki/top-level-section
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_escrow.py
-
-https://essif-lab.github.io/framework/docs/terminology-design/terms/linguistic-unity
-
-https://github.com/trustoverip/acdc/wiki/trans-contextual-value
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_eventing.py
-
-https://github.com/trustoverip/acdc/wiki/transaction-event-log
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_kevery.py
-
-https://github.com/trustoverip/acdc/wiki/transfer-off-ledger
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_keystate.py
-
-https://github.com/trustoverip/acdc/wiki/transferable
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_parsing.py
-
-https://github.com/trustoverip/acdc/wiki/transferable-identifier
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_parsing_pathed.py
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_partial_rotation.py
-
-https://github.com/trustoverip/acdc/wiki/transmission-control-protocol
-
-https://github.com/trustoverip/acdc/wiki/trust-domain
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_replay.py
-
-https://github.com/trustoverip/acdc/wiki/UI
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_reply.py
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_scheming.py
-
-https://github.com/trustoverip/acdc/wiki/uniform-resource-locator
-
-https://github.com/trustoverip/acdc/wiki/unsolicited-issuance
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_weighted_threshold.py
-
-https://essif-lab.github.io/framework/docs/terminology-design/terms/patterns/pattern-terminology
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_witness.py
-
-https://github.com/trustoverip/acdc/wiki/URL
-
-https://github.com/trustoverip/acdc/wiki/user-interface
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/db/__init__.py
-
-https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-11-22_Legal-Entity-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/db/test_basing.py
-
-https://github.com/trustoverip/acdc/wiki/validate
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/db/test_dbing.py
-
-https://github.com/trustoverip/acdc/wiki/validator
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/db/test_escrowing.py
-
-https://github.com/trustoverip/acdc/wiki/VC
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/db/test_koming.py
-
-https://github.com/trustoverip/acdc/wiki/VC-TEL
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/db/test_subing.py
-
-https://github.com/trustoverip/acdc/wiki/VDS
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/demo/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/veracity
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/demo/test_demo.py
-
-https://github.com/trustoverip/acdc/wiki/verfer
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/end/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/verifiable
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/end/test_ending.py
-
-https://github.com/trustoverip/acdc/wiki/verifiable-credential
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/help/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/verifiable-data-structure
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/help/test_helping.py
-
-https://essif-lab.github.io/framework/docs/terms/action
-
-https://github.com/trustoverip/acdc/wiki/verifiable-legal-entity-identifier
-
-https://github.com/trustoverip/acdc/wiki/verified-integrity
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/help/test_ogling.py
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/peer/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/verifier
-
-https://github.com/trustoverip/acdc/wiki/verify
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/peer/test_exchanging.py
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/vc/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/verify-signature
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/vc/test_protocoling.py
-
-https://github.com/trustoverip/acdc/wiki/version
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/vc/test_proving.py
-
-https://github.com/trustoverip/acdc/wiki/version-code
-
-https://github.com/trustoverip/acdc/wiki/version-string
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/vc/test_walleting.py
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/__init__.py
-
-https://github.com/trustoverip/acdc/wiki/virtual-credential-transaction-event-log
-
-https://github.com/trustoverip/acdc/wiki/vLEI
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/test_eventing.py
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/test_issuing.py
-
-https://github.com/trustoverip/acdc/wiki/vlei-credential
-
-https://essif-lab.github.io/framework/docs/terms/actor
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/test_txn_state.py
-
-https://github.com/trustoverip/acdc/wiki/vlei-ecosystem-governance-framework
-
-https://www.gleif.org/en/about/governance/regulatory-oversight-committee-roc
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/test_verifying.py
-
-https://github.com/trustoverip/acdc/wiki/vlei-role-credential
-
-https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/test_viring.py
-
-https://github.com/trustoverip/acdc/wiki/wallet
-
-https://github.com/trustoverip/acdc/wiki/watcher
-
-https://github.com/trustoverip/acdc/wiki/web-of-trust
-
-https://github.com/trustoverip/acdc/wiki/well-known%C2%A0witnesses
-
-https://github.com/trustoverip/acdc/wiki/witness
-
-https://github.com/trustoverip/acdc/wiki/XBRL
-
-https://github.com/trustoverip/acdc/wiki/zero-trust
-
-https://essif-lab.github.io/framework/docs/terms/advertisement
-
-https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-11-23_Legal-Entity-Engagement-Context-Role-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work
-
-https://www.gleif.org/en/about/governance/mou-between-gleif-and-roc
-
-https://essif-lab.github.io/framework/docs/terms/agent
-
-https://essif-lab.github.io/framework/docs/terms/assertion
-
-https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-11-23_Legal-Entity-Official-Organizational-Role-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work
-
-https://essif-lab.github.io/framework/docs/terms/assessment-framework
-
-https://essif-lab.github.io/framework/docs/terms/attribute
-
-https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-11-30_Legal-Entity-QVI-AUTH-vLEI-Credential-GF-Prep-1.0-Publication_v0.6_work
-
-https://essif-lab.github.io/framework/docs/terms/authority
-
-https://www.gleif.org/en/about/governance/board-of-directors
-
-https://essif-lab.github.io/framework/docs/terms/capability
-
-https://www.gleif.org/en/about/governance/roc-observers
-
-https://essif-lab.github.io/framework/docs/terms/capability-of-an-actor
-
-https://essif-lab.github.io/framework/docs/terms/colleague
-
-https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-06_appendix-1-non-disclosure-agreement_v1.0_final
-
-https://essif-lab.github.io/framework/docs/terms/commitment-decision
-
-https://essif-lab.github.io/framework/docs/terms/communication-channel
-
-https://www.gleif.org/en/about/governance/board-committees
-
-https://essif-lab.github.io/framework/docs/terms/communication-session
-
-https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-06_appendix-2-vlei-issuer-qualification-program-manual_v1.0_final
-
-https://essif-lab.github.io/framework/docs/terms/community
-
-https://essif-lab.github.io/framework/docs/terms/compliance
-
-https://essif-lab.github.io/framework/docs/terms/compliance-level
-
-https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-06_appendix-3-vlei-issuer-qualification-program-checklist_v1.0_final
-
-https://essif-lab.github.io/framework/docs/terms/compliance-management
-
-https://www.gleif.org/en/about/governance/board-minutes
-
-https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-06_appendix-4-vlei-issuer-contact-details_v1.0_final
-
-https://essif-lab.github.io/framework/docs/terms/compliance-objective
-
-https://essif-lab.github.io/framework/docs/terms/concept
-
-https://essif-lab.github.io/framework/docs/terms/concept-file
-
-https://essif-lab.github.io/framework/docs/terms/control
-
-https://www.gleif.org/en/about/governance/statutes
-
-https://essif-lab.github.io/framework/docs/terms/control-level
-
-https://www.gleif.org/en/about/governance/by-laws
-
-https://essif-lab.github.io/framework/docs/terms/control-objective
-
-https://www.gleif.org/en/about/governance/policies
-
-https://essif-lab.github.io/framework/docs/terms/control-process
-
-https://essif-lab.github.io/framework/docs/terms/controller
-
-https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-16_Legal-Entity-QVI-AUTH-vLEI-Credential-Governance-Framework_v1.0_final
-
-https://essif-lab.github.io/framework/docs/terms/controllership
-
-https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/change-source-filename-if-unusable
-
-https://essif-lab.github.io/framework/docs/terms/corpus
-
-https://www.gleif.org/en/about/governance/annual-report
-
-https://essif-lab.github.io/framework/docs/terms/credential
-
-https://essif-lab.github.io/framework/docs/terms/credential-catalogue
-
-https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/Chatbots
-
-https://essif-lab.github.io/framework/docs/terms/credential-type
-
-https://essif-lab.github.io/framework/docs/terms/data
-
-https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/check-and-accept-PR-production-Edusite-locally
-
-https://www.gleif.org/en/about/governance/call-for-applications-for-the-board-of-directors
-
-https://essif-lab.github.io/framework/docs/terms/decision
-
-https://essif-lab.github.io/framework/docs/terms/definition
-
-https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/Create-search-index
-
-https://essif-lab.github.io/framework/docs/terms/delegate
-
-https://essif-lab.github.io/framework/docs/terms/dependent
-
-https://essif-lab.github.io/framework/docs/terms/dictionary
-
-https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/create-terms-link-table
-
-https://www.gleif.org/en/about/history
-
-https://essif-lab.github.io/framework/docs/terms/dictionary-file
-
-https://www.gleif.org/en/about-lei
-
-https://essif-lab.github.io/framework/docs/terms/documentation-interop
-
-https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/Docusaurus-process
-
-https://www.gleif.org/en/about-lei/introducing-the-legal-entity-identifier-lei
-
-https://essif-lab.github.io/framework/docs/terms/ecosystem
-
-https://essif-lab.github.io/framework/docs/terms/employee
-
-https://www.gleif.org/en/about-lei/gleif-management-of-the-global-lei-system
-
-https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/embed-github-hosted-image-in-github-wiki-page
-
-https://essif-lab.github.io/framework/docs/terms/employer
-
-https://essif-lab.github.io/framework/docs/terms/employment-contract
-
-https://www.gleif.org/en/about-lei/gleif-management-of-the-global-lei-system/global-lei-system-a-network-of-federated-services
-
-https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/fill-out-terms-toip-wiki
-
-https://essif-lab.github.io/framework/docs/terms/entity
-
-https://essif-lab.github.io/framework/docs/terms/eSSIFLab-scope
-
-https://www.gleif.org/en/about-lei/get-an-lei-find-lei-issuing-organizations
-
-https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/fuzzy-count-terms
-
-https://essif-lab.github.io/framework/docs/terms/expectation
-
-https://www.gleif.org/en/about-lei/get-an-lei-find-lei-issuing-organizations/registration-agents
-
-https://essif-lab.github.io/framework/docs/terms/framework
-
-https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/intro
-
-https://essif-lab.github.io/framework/docs/terms/glossary
-
-https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer
-
-https://essif-lab.github.io/framework/docs/terms/glossary-file
-
-https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/gleif-accreditation-of-lei-issuers
-
-https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/load-toip-glossary-in-weboftrust-github-page
-
-https://essif-lab.github.io/framework/docs/terms/governance
-
-https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/gleif-accreditation-of-lei-issuers/accreditation-process
-
-https://essif-lab.github.io/framework/docs/terms/governor
-
-https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/markdown-from-ToIP-wiki
-
-https://essif-lab.github.io/framework/docs/terms/guardian
-
-https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/gleif-accreditation-of-lei-issuers/current-candidates
-
-https://essif-lab.github.io/framework/docs/terms/guardianship-arrangement
-
-https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/gleif-accreditation-of-lei-issuers/questions-and-answers
-
-https://essif-lab.github.io/framework/docs/terms/guardianship-type
-
-https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/pull-changes-from-toip-to-terms
-
-https://essif-lab.github.io/framework/docs/terms/holder
-
-https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/gleif-accreditation-of-lei-issuers/accreditation-resources
-
-https://essif-lab.github.io/framework/docs/terms/holder-policy
-
-https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/pull-in-markdown-documents
-
-https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/gleif-accreditation-of-lei-issuers/required-documents
-
-https://essif-lab.github.io/framework/docs/terms/human-being
-
-https://essif-lab.github.io/framework/docs/terms/identifier
-
-https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/lei-issuer-offboarding-process
-
-https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/sync-agenda-to-production-via-local
-
-https://essif-lab.github.io/framework/docs/terms/identify
-
-https://www.gleif.org/en/about-lei/iso-17442-the-lei-code-structure
-
-https://essif-lab.github.io/framework/docs/terms/identity
-
-https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/why-terms-wot-manage-structure
-
-https://essif-lab.github.io/framework/docs/terms/information-process
-
-https://www.gleif.org/en/about-lei/iso-17442-the-lei-code-structure/the-lei-in-digital-certificates
-
-https://essif-lab.github.io/framework/docs/terms/issuer
-
-https://essif-lab.github.io/framework/docs/terms/issuer-policy
-
-https://weboftrust.github.io/WOT-terms/docs/intro
-
-https://essif-lab.github.io/framework/docs/terms/jurisdiction
-
-https://essif-lab.github.io/framework/docs/terms/knowledge
-
-https://www.gleif.org/en/about-lei/lei-namespace
-
-https://essif-lab.github.io/framework/docs/terms/legal-entity
-
-https://www.gleif.org/en/about-lei/common-data-file-format
-
-https://essif-lab.github.io/framework/docs/terms/legal-jurisdiction
-
-https://essif-lab.github.io/framework/docs/terms/legal-system
-
-https://www.gleif.org/en/about-lei/common-data-file-format/current-versions
-
-https://essif-lab.github.io/framework/docs/terms/management
-
-https://www.gleif.org/en/about-lei/common-data-file-format/current-versions/level-1-data-lei-cdf-3-1-format
-
-https://essif-lab.github.io/framework/docs/terms/mandate
-
-https://essif-lab.github.io/framework/docs/terms/mental-model
-
-https://www.gleif.org/en/about-lei/common-data-file-format/current-versions/level-2-data-relationship-record-rr-cdf-2-1-format
-
-https://essif-lab.github.io/framework/docs/terms/mission
-
-https://essif-lab.github.io/framework/docs/terms/normative-framework
-
-https://www.gleif.org/en/about-lei/common-data-file-format/current-versions/level-2-data-reporting-exceptions-2-1-format
-
-https://essif-lab.github.io/framework/docs/terms/objective
-
-https://essif-lab.github.io/framework/docs/terms/obligation
-
-https://essif-lab.github.io/framework/docs/terms/onboarding
-
-https://essif-lab.github.io/framework/docs/terms/organization
-
-https://www.gleif.org/en/about-lei/common-data-file-format/current-versions/supporting-documents
-
-https://essif-lab.github.io/framework/docs/terms/outsourcing
-
-https://www.gleif.org/en/about-lei/common-data-file-format/previous-versions
-
-https://essif-lab.github.io/framework/docs/terms/owned
-
-https://essif-lab.github.io/framework/docs/terms/owner
-
-https://www.gleif.org/en/about-lei/code-lists
-
-https://essif-lab.github.io/framework/docs/terms/ownership
-
-https://www.gleif.org/en/about-lei/code-lists/gleif-registration-authorities-list
-
-https://essif-lab.github.io/framework/docs/terms/partial-identity
-
-https://essif-lab.github.io/framework/docs/terms/participant
-
-https://www.gleif.org/en/about-lei/code-lists/iso-20275-entity-legal-forms-code-list
-
-https://essif-lab.github.io/framework/docs/terms/party
-
-https://essif-lab.github.io/framework/docs/terms/pattern
-
-https://weboftrust.github.io/WOT-terms/docs/Overview/
-
-https://essif-lab.github.io/framework/docs/terms/pattern-decentralized-grc
-
-https://essif-lab.github.io/framework/docs/terms/pattern-decentralized-risk-management
-
-https://www.gleif.org/en/about-lei/code-lists/iso-5009-official-organizational-roles-code-list
-
-https://essif-lab.github.io/framework/docs/terms/pattern-decision-making
-
-https://www.gleif.org/en/about-lei/code-lists/gleif-accepted-legal-jurisdictions-code-list
-
-https://essif-lab.github.io/framework/docs/terms/pattern-duties-and-rights
-
-https://essif-lab.github.io/framework/docs/terms/pattern-file
-
-https://www.gleif.org/en/about-lei/semantic-representation-of-the-lei
-
-https://essif-lab.github.io/framework/docs/terms/pattern-governance-and-management
-
-https://www.gleif.org/en/about-lei/semantic-representation-of-the-lei/lei-model-in-xbrl-extensible-business-reporting-language
-
-https://essif-lab.github.io/framework/docs/terms/pattern-guardianship
-
-https://weboftrust.github.io/WOT-terms/docs/Overview/Indexed%20in%20KERISSE
-
-https://essif-lab.github.io/framework/docs/terms/pattern-identification
-
-https://www.gleif.org/en/about-lei/semantic-representation-of-the-lei/lei-model-in-rdf-resource-description-framework
-
-https://essif-lab.github.io/framework/docs/terms/pattern-identifier
-
-https://www.gleif.org/en/about-lei/questions-and-answers
-
-https://essif-lab.github.io/framework/docs/terms/pattern-identity
-
-https://essif-lab.github.io/framework/docs/terms/pattern-jurisdiction
-
-https://www.gleif.org/en/vlei
-
-https://essif-lab.github.io/framework/docs/terms/pattern-mandates-delegation-hiring
-
-https://www.gleif.org/en/vlei/introducing-the-verifiable-lei-vlei
-
-https://essif-lab.github.io/framework/docs/terms/pattern-mental-model
-
-https://essif-lab.github.io/framework/docs/terms/pattern-party-actor-action
-
-https://www.gleif.org/en/vlei/introducing-the-verifiable-lei-vlei/gleif-ebook-the-vlei-introducing-digital-i-d-for-legal-entities-everywhere
-
-https://essif-lab.github.io/framework/docs/terms/pattern-party-representation
-
-https://www.gleif.org/en/vlei/introducing-the-vlei-ecosystem-governance-framework
-
-https://essif-lab.github.io/framework/docs/terms/pattern-semantics
-
-https://essif-lab.github.io/framework/docs/terms/pattern-terminology
-
-https://www.gleif.org/en/vlei/get-a-vlei-list-of-qualified-vlei-issuing-organizations
-
-https://essif-lab.github.io/framework/docs/terms/pattern-trust
-
-https://www.gleif.org/en/vlei/the-lifecycle-of-a-vlei-issuer
-
-https://essif-lab.github.io/framework/docs/terms/pattern-world-model
-
-https://essif-lab.github.io/framework/docs/terms/peer-actor
-
-https://www.gleif.org/en/vlei/the-lifecycle-of-a-vlei-issuer/gleif-qualification-of-vlei-issuers
-
-https://essif-lab.github.io/framework/docs/terms/peer-agent
-
-https://www.gleif.org/en/vlei/the-lifecycle-of-a-vlei-issuer/gleif-qualification-of-vlei-issuers/qualification-process
-
-https://essif-lab.github.io/framework/docs/terms/peer-party
-
-https://essif-lab.github.io/framework/docs/terms/policy
-
-https://www.gleif.org/en/vlei/the-lifecycle-of-a-vlei-issuer/gleif-qualification-of-vlei-issuers/required-documents
-
-https://essif-lab.github.io/framework/docs/terms/presentation
-
-https://essif-lab.github.io/framework/docs/terms/presentation-request
-
-https://essif-lab.github.io/framework/docs/terms/principal
-
-https://essif-lab.github.io/framework/docs/terms/qualified-data
-
-https://essif-lab.github.io/framework/docs/terms/revocation-component
-
-https://www.gleif.org/en/lei-solutions
-
-https://essif-lab.github.io/framework/docs/terms/revocation-policy
-
-https://weboftrust.github.io/WOT-terms/docs/Overview/overview-and-context
-
-https://essif-lab.github.io/framework/docs/terms/revoke
-
-https://www.gleif.org/en/lei-solutions/better-knowledge-better-business
-
-https://essif-lab.github.io/framework/docs/terms/risk
-
-https://weboftrust.github.io/WOT-terms/docs/Resources/intro
-
-https://essif-lab.github.io/framework/docs/terms/risk-level
-
-https://www.gleif.org/en/lei-solutions/validation-agents
-
-https://weboftrust.github.io/WOT-terms/docs/Resources/Keri.one%20resources
-
-https://essif-lab.github.io/framework/docs/terms/risk-management
-
-https://essif-lab.github.io/framework/docs/terms/risk-objective
-
-https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-pfeairheller-cesr-proof
-
-https://essif-lab.github.io/framework/docs/terms/risk-owner
-
-https://essif-lab.github.io/framework/docs/terms/role
-
-https://www.gleif.org/en/lei-solutions/validation-agents/gleif-ebook-introducing-the-lei-validation-agent
-
-https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-pfeairheller-did-keri
-
-https://essif-lab.github.io/framework/docs/terms/role-name
-
-https://www.gleif.org/en/lei-solutions/validation-agents/gleif-ebook-a-closer-look-at-the-validation-agent-trial-process
-
-https://essif-lab.github.io/framework/docs/terms/scope
-
-https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-pfeairheller-ptel
-
-https://essif-lab.github.io/framework/docs/terms/scope-file
-
-https://www.gleif.org/en/lei-solutions/the-lei-the-key-to-unlocking-financial-inclusion-in-developing-economies
-
-https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-ssmith-acdc
-
-https://essif-lab.github.io/framework/docs/terms/scope-of-control
-
-https://www.gleif.org/en/lei-solutions/mckinsey-company-and-gleif-leis-and-client-lifecycle-management-in-banking-a-u-s-4-billion-beginning
-
-https://essif-lab.github.io/framework/docs/terms/scoped-term
-
-https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-ssmith-cesr
-
-https://essif-lab.github.io/framework/docs/terms/self-sovereign-identity
-
-https://www.gleif.org/en/lei-solutions/mckinsey-company-and-gleif-leis-and-client-lifecycle-management-in-banking-a-u-s-4-billion-beginning/gleif-infographic-leis-transforming-banks-client-lifecycle-management
-
-https://essif-lab.github.io/framework/docs/terms/self-sovereignty
-
-https://www.gleif.org/en/lei-solutions/mckinsey-company-and-gleif-creating-business-value-with-the-lei
-
-https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-ssmith-ipex
-
-https://essif-lab.github.io/framework/docs/terms/semantics
-
-https://essif-lab.github.io/framework/docs/terms/ssi
-
-https://www.gleif.org/en/lei-solutions/mckinsey-company-and-gleif-creating-business-value-with-the-lei/lei-in-capital-markets
-
-https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-ssmith-keri
-
-https://essif-lab.github.io/framework/docs/terms/ssi-agent
-
-https://essif-lab.github.io/framework/docs/terms/ssi-assurance-community
-
-https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-ssmith-oobi
-
-https://essif-lab.github.io/framework/docs/terms/ssi-infrastructure
-
-https://essif-lab.github.io/framework/docs/terms/subject
-
-https://www.gleif.org/en/lei-solutions/mckinsey-company-and-gleif-creating-business-value-with-the-lei/lei-in-trade-finance
-
-https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-ssmith-said
-
-https://essif-lab.github.io/framework/docs/terms/tag
-
-https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/IdentifierTheory-ssmith-uidt
-
-https://essif-lab.github.io/framework/docs/terms/term
-
-https://essif-lab.github.io/framework/docs/terms/term-file
-
-https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/kli-demo-2022
-
-https://essif-lab.github.io/framework/docs/terms/terminology
-
-https://www.gleif.org/en/lei-solutions/mckinsey-company-and-gleif-creating-business-value-with-the-lei/lei-in-commercial-credit
-
-https://essif-lab.github.io/framework/docs/terms/terminology-process
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ACDC
-
-https://www.gleif.org/en/lei-solutions/lei-in-kyc-a-new-future-for-legal-entity-identification
-
-https://essif-lab.github.io/framework/docs/terms/terms-community
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ADC
-
-https://essif-lab.github.io/framework/docs/terms/transaction
-
-https://essif-lab.github.io/framework/docs/terms/transaction-agreement
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/agency
-
-https://essif-lab.github.io/framework/docs/terms/transaction-form
-
-https://essif-lab.github.io/framework/docs/terms/transaction-id
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/agent
-
-https://www.gleif.org/en/lei-solutions/lei-in-kyc-a-new-future-for-legal-entity-identification/gleif-research-the-pitfalls-of-onboarding
-
-https://essif-lab.github.io/framework/docs/terms/transaction-proposal
-
-https://www.gleif.org/en/lei-solutions/gleifs-digital-strategy-for-the-lei
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/AID
-
-https://essif-lab.github.io/framework/docs/terms/transaction-request
-
-https://essif-lab.github.io/framework/docs/terms/trust
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ambient-verifiability
-
-https://essif-lab.github.io/framework/docs/terms/trust-level
-
-https://essif-lab.github.io/framework/docs/terms/validate
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/AN
-
-https://www.gleif.org/en/lei-solutions/gleifs-digital-strategy-for-the-lei/gleif-idc-research-creating-agile-resilient-global-trade-with-the-lei-and-vlei
-
-https://essif-lab.github.io/framework/docs/terms/validator
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/APC
-
-https://essif-lab.github.io/framework/docs/terms/validator-policy
-
-https://www.gleif.org/en/lei-solutions/regulatory-use-of-the-lei
-
-https://essif-lab.github.io/framework/docs/terms/verifier
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/API
-
-https://essif-lab.github.io/framework/docs/terms/verifier-policy
-
-https://www.gleif.org/en/lei-solutions/regulatory-use-of-the-lei/gleif-and-data-foundation-comprehensive-entity-id-for-u-s-federal-government
-
-https://essif-lab.github.io/framework/docs/terms/verify
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/append-only-event-logs
-
-https://www.gleif.org/en/lei-data
-
-https://essif-lab.github.io/framework/docs/terms/vocabulary
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/application-programming-interface
-
-https://essif-lab.github.io/framework/docs/terms/wallet
-
-https://www.gleif.org/en/lei-data/access-and-use-lei-data
-
-https://essif-lab.github.io/framework/docs/terms/wallet-policy
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authentic-chained-data-container
-
-https://essif-lab.github.io/framework/docs/tev1/conceptID
-
-https://www.gleif.org/en/lei-data/access-and-use-lei-data/level-1-data-who-is-who
-
-https://essif-lab.github.io/framework/docs/tev1/dictionaryID
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authentic-data-container
-
-https://essif-lab.github.io/framework/docs/tev1/glossaryID
-
-https://www.gleif.org/en/lei-data/access-and-use-lei-data/level-1-data-who-is-who/roc-policy-on-level-1-data
-
-https://essif-lab.github.io/framework/docs/tev1/patternID
-
-https://www.gleif.org/en/lei-data/access-and-use-lei-data/level-2-data-who-owns-whom
-
-https://essif-lab.github.io/framework/docs/tev1/scopeID
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authentic-provenance-chain
-
-https://essif-lab.github.io/framework/docs/tev1/termID
-
-https://www.gleif.org/en/lei-data/access-and-use-lei-data/level-2-data-who-owns-whom/roc-policy-on-level-2-data
-
-https://essif-lab.github.io/framework/docs/tev1/terminology-engine-v1
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authentic-web
-
-https://essif-lab.github.io/framework/docs/tev1/typeID
-
-https://essif-lab.github.io/framework/docs/tev2/
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authenticity
-
-https://essif-lab.github.io/framework/docs/tev2/manuals/author
-
-https://essif-lab.github.io/framework/docs/tev2/manuals/contributor
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authoritative
-
-https://www.gleif.org/en/lei-data/global-lei-index
-
-https://essif-lab.github.io/framework/docs/tev2/manuals/contributors-LaTeX
-
-https://essif-lab.github.io/framework/docs/tev2/manuals/contributors-repo
-
-https://www.gleif.org/en/lei-data/global-lei-index/lei-statistics
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authority
-
-https://essif-lab.github.io/framework/docs/tev2/manuals/contributors-wiki
-
-https://essif-lab.github.io/framework/docs/tev2/manuals/curator
-
-https://essif-lab.github.io/framework/docs/tev2/manuals/tev2-installation
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authorization
-
-https://essif-lab.github.io/framework/docs/tev2/miscellaneous/toip-terminology-toolbox
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authorized-vlei-representative
-
-https://essif-lab.github.io/framework/docs/tev2/miscellaneous/tool-development
-
-https://essif-lab.github.io/framework/docs/tev2/notations-and-conventions
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/autonomic-computing-systems
-
-https://www.gleif.org/en/lei-data/global-lei-index/download-global-lei-system-business-reports
-
-https://essif-lab.github.io/framework/docs/tev2/overview/tev2-architecture
-
-https://www.gleif.org/en/lei-data/global-lei-index/global-lei-system-business-reports-archive
-
-https://essif-lab.github.io/framework/docs/tev2/overview/tev2-common-understanding
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/autonomic-identifier
-
-https://essif-lab.github.io/framework/docs/tev2/overview/tev2-design-principles
-
-https://essif-lab.github.io/framework/docs/tev2/overview/tev2-purpose
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/autonomic-identity-system
-
-https://essif-lab.github.io/framework/docs/tev2/overview/tev2-terminology-curation
-
-https://www.gleif.org/en/lei-data/lei-search
-
-https://essif-lab.github.io/framework/docs/tev2/spec-files/ctext
-
-https://www.gleif.org/en/lei-data/lei-search/about-lei-search
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/autonomic-namespace
-
-https://essif-lab.github.io/framework/docs/tev2/spec-files/hrd
-
-https://essif-lab.github.io/framework/docs/tev2/spec-files/hrg
-
-https://www.gleif.org/en/lei-data/lei-search/about-lei-search/how-to-use-lei-search
-
-https://essif-lab.github.io/framework/docs/tev2/spec-files/mrd
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/AVR
-
-https://essif-lab.github.io/framework/docs/tev2/spec-files/mrg
-
-https://www.gleif.org/en/lei-data/gleif-concatenated-file
-
-https://essif-lab.github.io/framework/docs/tev2/spec-files/profile-templates
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/backer
-
-https://www.gleif.org/en/lei-data/gleif-concatenated-file/about-the-concatenated-file
-
-https://essif-lab.github.io/framework/docs/tev2/spec-files/saf
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/BADA
-
-https://essif-lab.github.io/framework/docs/tev2/spec-syntax/form-phrase-syntax
-
-https://essif-lab.github.io/framework/docs/tev2/spec-syntax/hrg-termselcrit
-
-https://www.gleif.org/en/lei-data/gleif-concatenated-file/download-the-concatenated-file
-
-https://essif-lab.github.io/framework/docs/tev2/spec-syntax/term-ref-syntax
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/base64
-
-https://www.gleif.org/en/lei-data/gleif-concatenated-file/lei-issuers-original-sources
-
-https://essif-lab.github.io/framework/docs/tev2/spec-tools/hrdt
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/best-available-data-acceptance-mechanism
-
-https://essif-lab.github.io/framework/docs/tev2/spec-tools/hrgt
-
-https://www.gleif.org/en/lei-data/gleif-concatenated-file/lei-issuers-historical-files
-
-https://essif-lab.github.io/framework/docs/tev2/spec-tools/hrgt-old
-
-https://essif-lab.github.io/framework/docs/tev2/spec-tools/ict
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/BFT
-
-https://www.gleif.org/en/lei-data/gleif-golden-copy
-
-https://essif-lab.github.io/framework/docs/tev2/spec-tools/mrdt
-
-https://essif-lab.github.io/framework/docs/tev2/spec-tools/mrgt
-
-https://www.gleif.org/en/lei-data/gleif-golden-copy/download-the-golden-copy
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/binding
-
-https://essif-lab.github.io/framework/docs/tev2/spec-tools/terminology-construction
-
-https://essif-lab.github.io/framework/docs/tev2/spec-tools/trrt
-
-https://www.gleif.org/en/lei-data/gleif-api
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/blake3
-
-https://essif-lab.github.io/framework/docs/tev2/terms/@
-
-https://essif-lab.github.io/framework/docs/tev2/terms/concept
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/blind-oobi
-
-https://essif-lab.github.io/framework/docs/tev2/terms/corpus
-
-https://essif-lab.github.io/framework/docs/tev2/terms/curated-text
-
-https://essif-lab.github.io/framework/docs/tev2/terms/curatedir
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/blinded-revocation-registry
-
-https://www.gleif.org/en/lei-data/lei-mapping
-
-https://essif-lab.github.io/framework/docs/tev2/terms/definition
-
-https://www.gleif.org/en/lei-data/lei-mapping/download-bic-to-lei-relationship-files
-
-https://essif-lab.github.io/framework/docs/tev2/terms/dictionary
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/branch
-
-https://essif-lab.github.io/framework/docs/tev2/terms/glossary
-
-https://www.gleif.org/en/lei-data/lei-mapping/download-isin-to-lei-relationship-files
-
-https://essif-lab.github.io/framework/docs/tev2/terms/glossarydir
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/byzantine-agreement
-
-https://essif-lab.github.io/framework/docs/tev2/terms/grouptag
-
-https://www.gleif.org/en/lei-data/lei-mapping/download-mic-to-lei-relationship-files
-
-https://essif-lab.github.io/framework/docs/tev2/terms/hrg-entry
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/byzantine-fault-tolerance
-
-https://www.gleif.org/en/lei-data/lei-mapping/s-p-global-company-id-to-lei-relationship
-
-https://essif-lab.github.io/framework/docs/tev2/terms/identifier
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/certificate-transparency
-
-https://essif-lab.github.io/framework/docs/tev2/terms/identify
-
-https://essif-lab.github.io/framework/docs/tev2/terms/ingestion-profile
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/CESR
-
-https://essif-lab.github.io/framework/docs/tev2/terms/knowledge-artifact
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cesr-proof-signatures
-
-https://essif-lab.github.io/framework/docs/tev2/terms/mental-model
-
-https://essif-lab.github.io/framework/docs/tev2/terms/mrg-entry
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cesride
-
-https://essif-lab.github.io/framework/docs/tev2/terms/patterns/pattern-terminology
-
-https://www.gleif.org/en/lei-data/lei-mapping/download-oc-to-lei-relationship-files
-
-https://essif-lab.github.io/framework/docs/tev2/terms/renderable-ref
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/chain-link-confidentiality
-
-https://www.gleif.org/en/lei-data/lei-mapping/gleif-certification-process
-
-https://essif-lab.github.io/framework/docs/tev2/terms/scope
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/chain-of-custody
-
-https://essif-lab.github.io/framework/docs/tev2/terms/scope-directory
-
-https://www.gleif.org/en/lei-data/gleif-data-quality-management
-
-https://essif-lab.github.io/framework/docs/tev2/terms/scoped-term
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/claim
-
-https://essif-lab.github.io/framework/docs/tev2/terms/scopetag
-
-https://www.gleif.org/en/lei-data/gleif-data-quality-management/data-quality-checks/details
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/CLC
-
-https://essif-lab.github.io/framework/docs/tev2/terms/semantics
-
-https://www.gleif.org/en/lei-data/gleif-data-quality-management/quality-reports/previous-data-quality-reports
-
-https://essif-lab.github.io/framework/docs/tev2/terms/synonym
-
-https://www.gleif.org/en/lei-data/gleif-data-quality-management/downloads
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/clone
-
-https://essif-lab.github.io/framework/docs/tev2/terms/tag
-
-https://essif-lab.github.io/framework/docs/tev2/terms/term
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cloud-agent
-
-https://www.gleif.org/en/lei-data/gleif-data-quality-management/about-the-data-quality-reports/download-data-quality-reports
-
-https://essif-lab.github.io/framework/docs/tev2/terms/term-identifier
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/code-table
-
-https://essif-lab.github.io/framework/docs/tev2/terms/term-ref
-
-https://essif-lab.github.io/framework/docs/tev2/terms/term-syntax
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/code-table-selector
-
-https://essif-lab.github.io/framework/docs/tev2/terms/term-type
-
-https://essif-lab.github.io/framework/docs/tev2/terms/terminology
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cold-start-stream-parsing
-
-https://essif-lab.github.io/framework/docs/tev2/terms/terminology-under-construction
-
-https://www.gleif.org/en/lei-data/gleif-data-quality-management/about-the-data-quality-reports/archive
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/collective-signature
-
-https://essif-lab.github.io/framework/docs/tev2/terms/terms-community
-
-https://www.gleif.org/en/lei-data/gleif-data-quality-management/about-the-data-quality-reports/download-lei-issuer-data-quality-reports
-
-https://essif-lab.github.io/framework/docs/tev2/terms/tev2
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/collision
-
-https://www.gleif.org/en/lei-data/gleif-data-quality-management/about-the-data-quality-reports/lou-data-quality-reports-archive
-
-https://essif-lab.github.io/framework/docs/tev2/terms/versiontag
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/compact-variant
-
-https://essif-lab.github.io/framework/docs/tev2/terms/vocabulary
-
-https://www.gleif.org/en/lei-data/gleif-data-quality-management/about-the-data-quality-reports/questions-and-answers
-
-https://essif-lab.github.io/framework/docs/tev2/tev2-glossary
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/complementary-integrity-verification
-
-https://www.gleif.org/en/lei-data/gleif-data-quality-management/about-the-data-quality-reports/supporting-documents
-
-https://essif-lab.github.io/framework/docs/tev2/tev2-overview
-
-https://essif-lab.github.io/framework/docs/tev2/tev2-roles
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/composability
-
-https://essif-lab.github.io/framework/docs/tev2/tev2-spec-files
-
-https://essif-lab.github.io/framework/docs/tev2/tev2-student-assignment
-
-https://essif-lab.github.io/framework/docs/tev2/tev2-syntax
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/composable
-
-https://essif-lab.github.io/framework/docs/tev2/tev2-toolbox
-
-https://essif-lab.github.io/framework/docs/vision-and-purpose
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/composable-event-streaming-representation
-
-https://essif-lab.github.io/framework/
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/concatenation
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/configuration-files
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/consensus-mechanism
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/content-addressable-hash
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/contextual-linkability
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/contingent-disclosure
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/contractually-protected-disclosure
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/control-authority
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/controller
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/coroutines
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/correlation
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/count-code
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/credential
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/CRUD
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/crypto-libraries
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cryptocurrency
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cryptographic-commitment-scheme
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cryptographic-primitive
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cryptographic-strength
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cryptonym
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/CT
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/custodial-agent
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/custodial-rotation
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DAG
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DAR
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/data-anchor
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/decentralized-identifier
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/decentralized-identity
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/decentralized-key-management-infrastructure
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DEL
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/delegated-identifier
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/delegation
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/derivation-code
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/designated-authorized-representative
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DHT
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DID
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/digest
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/digital-signature
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/directed-acyclic-graph
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/disclosee
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/discloser
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/distributed-hash-table
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DKMI
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/domain
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/domain-name
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DPKI
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/dual-text-binary-encoding-format
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/duplicitous-event-log
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/duplicity
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/eclipse-attack
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ECR
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/electronic-signature
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/end-verifiable
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/engagement-context-role
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/entity
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/entropy
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ephemeral
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/escrow
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/escrow-state
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/establishment-event
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/extensible-business-reporting-language
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/first-seen
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/frame-code
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/fully-compact
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/fully-expanded
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/GAR
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ghost-credential
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/GLEIF
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/gleif-authorized-representative
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/GLEIS
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/gnu-privacy-guard
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/governance-framework
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/GPG
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/graduated-disclosure
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/graph-fragment
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/group-code
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/group-framing-code
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/habery
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/hierarchical-asynchronous-coroutines-and-input-output
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/hierarchical-composition
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/hio
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/Home
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/I-O
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/IANA
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/identifier
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/identifier-system
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/identity
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/inception
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/inception-event
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/inconsistency
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/indexed-signature
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/input-output
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/inquisitor
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/integrity
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/interaction-event
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/interleaved-serialisation
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/internal-inconsistency
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/internet-assigned-numbers-authority
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/interoperability
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/interoperable
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/intro
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ip-address
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/IPEX
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/issuance-and-presentation-exchange-protocol
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/issuance-event
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/issuance-exchange
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/issuee
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/issuer
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/javascript-object-signing-and-encryption
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/JOSE
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/judge
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/juror
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/jury
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KA2CE
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KAACE
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keep
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KEL
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KERI
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keri-agreement-algorithm-for-control-establishment
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keri-command-line-interface
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keri-improvement-doc
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keri-ox
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keri-request-authentication-method
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keridemlia
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keripy
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KERL
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-compromise
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-event
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-event-log
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-event-message
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-event-receipt
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-event-receipt-infrastructure
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-event-receipt-log
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-management
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-pair
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-state
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-stretching
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-transparency
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keystore
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KID
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/kli
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KRAM
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/lead-bytes
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ledger-backer
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/legal-entity
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/legal-entity-engagement-context-role-vlei-credential-governance-framework
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/legal-entity-official-organizational-role-vlei-credential-governance-framework
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/legal-entity-vlei-credential-governance-framework
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/LEI
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/levels-of-assurance
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/liveness
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/LoA
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/LoC
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/loci-of-control
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/locked-state
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/management-TEL
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/management-transaction-event-log
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/message
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/most-compact
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/multicodec
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/multiplexing
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/multisig
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/naive-conversion
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/namespace
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/nested-cooperative-delegated-identifiers
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/NFT
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/non-establishment-event
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/non-fungible-token
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/non-normative
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/non-repudiable
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/non-transferable
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/non-transferable-identifier
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/normative
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/official-organizational-role
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/one-way-functions
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/OOBI
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/OOR
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/opcode
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/out-of-band-introduction
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/owner
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ownership
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/P2P
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pad
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/parside
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/partial-pre-rotation
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/partial-rotation
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/passcode
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/payload
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/peer-to-peer
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/persistent-data-structure
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/persistent-identifier
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/PGP
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pii
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pipelining
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/PKI
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/post-pad
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pre-pad
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pre-rotation
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/prefix
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/presentation-exchange
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pretty-good-privacy
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/primary-root-of-trust
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/primitive
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/promiscuous-mode
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/proof-of-authority
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/proof-of-authorship
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/protocol
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/provenance
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pseudo-random-number
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/PTEL
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/public-key-infrastructure
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/public-transaction-event-log
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/public-verifiable-credential-registry
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/QAR
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/qualified
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/qualified-vlei-issuer
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/qualified-vlei-issuer-vlei-credential-governance-framework
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/QVI
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/qvi-authorized-representative
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/race-condition
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/rainbow-table-attack
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/receipt
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/receipt-log
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/redundant-credential
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/registrar
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/registry
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/replay-attack
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/repo
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/reserve-rotation
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/revocation-event
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ricardian-contract
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/root-of-trust
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/rotation
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/rotation-authority
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/rotation-event
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/RUN
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/run-off-the-crud
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/SAD
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/SAID
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/sally
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/salt
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/SATP
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/schema-namespace-registry
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/schema-registry
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/SCID
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/seal
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/secondary-root-of-trust
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/secure-asset-transfer-protocol
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/secure-attribution
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/seed
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/self-addressing-data
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/self-addressing-identifier
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/self-certifying-identifier
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/self-framing
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/self-sovereign-identity
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/self-sovereignty
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/server-sent-event
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/service-endpoint
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/signed-digest
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/signify
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/signing-authority
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/signing-threshold
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/simple-keri-for-web-auth
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/single-signature-identifier
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/SKWA
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/sniffer
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/solicited-issuance
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/source-of-truth
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/spanning-layer
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/SSI
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ssi-system
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/strip-parameter
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/sub-shell
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/TCP
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/tcp-endpoint
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/TEL
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/text-binary-concatenation-composability
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/threshold-signature-scheme
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/top-level-section
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/trans-contextual-value
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/transaction-event-log
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/transfer-off-ledger
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/transferable
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/transferable-identifier
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/transmission-control-protocol
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/trust-domain
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/UI
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/uniform-resource-locator
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/unsolicited-issuance
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/URL
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/user-interface
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/validate
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/validator
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/VC
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/VC-TEL
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/VDS
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/veracity
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verifiable
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verifiable-credential
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verifiable-data-structure
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verifiable-legal-entity-identifier
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verified-integrity
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verifier
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verify
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verify-signature
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/version
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/version-code
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/version-string
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/virtual-credential-transaction-event-log
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/vLEI
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/vlei-credential
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/vlei-ecosystem-governance-framework
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/vlei-role-credential
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/wallet
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/watcher
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/web-of-trust
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/well-known%C2%A0witnesses
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/witness
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/XBRL
-
-https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/zero-trust
-
-https://weboftrust.github.io/WOT-terms/docs/Test/term_test
-
-https://weboftrust.github.io/WOT-terms/docs/Test/term_test2
-
-https://weboftrust.github.io/WOT-terms/docs/Test/term_test3
-
-https://weboftrust.github.io/WOT-terms/docs/Video/lets-keri-on-together
-
-https://weboftrust.github.io/WOT-terms/docs/Visualisations/Backed-and-Backerless-Issuance-and-Revocation
-
-https://weboftrust.github.io/WOT-terms/docs/Visualisations/KERI-&-ACDC-Architecture
-
+<ul>
+<li>## All pages that are indexed in KERISSE</li>
+<li><a href="https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79" target="_blank">https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79</a></li>
+<li><a href="https://essif-lab.github.io/framework/" target="_blank">https://essif-lab.github.io/framework/</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/TBD" target="_blank">https://essif-lab.github.io/framework/docs/TBD</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/essifLab" target="_blank">https://essif-lab.github.io/framework/docs/essifLab</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/essifLab-collaborative-understanding" target="_blank">https://essif-lab.github.io/framework/docs/essifLab-collaborative-understanding</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/essifLab-fw" target="_blank">https://essif-lab.github.io/framework/docs/essifLab-fw</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/essifLab-fw-backlog" target="_blank">https://essif-lab.github.io/framework/docs/essifLab-fw-backlog</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/essifLab-fw-conceptual-architecture-framework" target="_blank">https://essif-lab.github.io/framework/docs/essifLab-fw-conceptual-architecture-framework</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/essifLab-glossary" target="_blank">https://essif-lab.github.io/framework/docs/essifLab-glossary</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/essifLab-objectives" target="_blank">https://essif-lab.github.io/framework/docs/essifLab-objectives</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/essifLab-pattern-list" target="_blank">https://essif-lab.github.io/framework/docs/essifLab-pattern-list</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/essifLab-principles" target="_blank">https://essif-lab.github.io/framework/docs/essifLab-principles</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/essifLab-project" target="_blank">https://essif-lab.github.io/framework/docs/essifLab-project</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/essifLab-vision" target="_blank">https://essif-lab.github.io/framework/docs/essifLab-vision</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/functional-components/essifLab-fcomp-%3Cfcompid%3E" target="_blank">https://essif-lab.github.io/framework/docs/functional-components/essifLab-fcomp-%3Cfcompid%3E</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/generic-governance-process" target="_blank">https://essif-lab.github.io/framework/docs/generic-governance-process</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/miscellaneous" target="_blank">https://essif-lab.github.io/framework/docs/miscellaneous</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/notations-and-conventions" target="_blank">https://essif-lab.github.io/framework/docs/notations-and-conventions</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/ssi-standards" target="_blank">https://essif-lab.github.io/framework/docs/ssi-standards</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-contributions" target="_blank">https://essif-lab.github.io/framework/docs/terminology-contributions</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-design/backgrounds/expressing-oneself" target="_blank">https://essif-lab.github.io/framework/docs/terminology-design/backgrounds/expressing-oneself</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-design/backlog" target="_blank">https://essif-lab.github.io/framework/docs/terminology-design/backlog</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-design/manuals/authoring" target="_blank">https://essif-lab.github.io/framework/docs/terminology-design/manuals/authoring</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-design/manuals/contributing" target="_blank">https://essif-lab.github.io/framework/docs/terminology-design/manuals/contributing</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-design/manuals/curating" target="_blank">https://essif-lab.github.io/framework/docs/terminology-design/manuals/curating</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-design/methods" target="_blank">https://essif-lab.github.io/framework/docs/terminology-design/methods</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-design/methods/1-1-discussions" target="_blank">https://essif-lab.github.io/framework/docs/terminology-design/methods/1-1-discussions</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-design/methods/criteria-elicitation" target="_blank">https://essif-lab.github.io/framework/docs/terminology-design/methods/criteria-elicitation</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-design/methods/real-life-example" target="_blank">https://essif-lab.github.io/framework/docs/terminology-design/methods/real-life-example</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-design/methods/terminology-process" target="_blank">https://essif-lab.github.io/framework/docs/terminology-design/methods/terminology-process</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-design/overview" target="_blank">https://essif-lab.github.io/framework/docs/terminology-design/overview</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-design/overview/common-understanding" target="_blank">https://essif-lab.github.io/framework/docs/terminology-design/overview/common-understanding</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-design/overview/design-principles" target="_blank">https://essif-lab.github.io/framework/docs/terminology-design/overview/design-principles</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-design/overview/purpose" target="_blank">https://essif-lab.github.io/framework/docs/terminology-design/overview/purpose</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-design/terms/@" target="_blank">https://essif-lab.github.io/framework/docs/terminology-design/terms/@</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-design/terms/author" target="_blank">https://essif-lab.github.io/framework/docs/terminology-design/terms/author</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-design/terms/common-understanding" target="_blank">https://essif-lab.github.io/framework/docs/terminology-design/terms/common-understanding</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-design/terms/domain-expert" target="_blank">https://essif-lab.github.io/framework/docs/terminology-design/terms/domain-expert</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-design/terms/linguistic-unity" target="_blank">https://essif-lab.github.io/framework/docs/terminology-design/terms/linguistic-unity</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terminology-design/terms/patterns/pattern-terminology" target="_blank">https://essif-lab.github.io/framework/docs/terminology-design/terms/patterns/pattern-terminology</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/action" target="_blank">https://essif-lab.github.io/framework/docs/terms/action</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/actor" target="_blank">https://essif-lab.github.io/framework/docs/terms/actor</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/advertisement" target="_blank">https://essif-lab.github.io/framework/docs/terms/advertisement</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/agent" target="_blank">https://essif-lab.github.io/framework/docs/terms/agent</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/assertion" target="_blank">https://essif-lab.github.io/framework/docs/terms/assertion</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/assessment-framework" target="_blank">https://essif-lab.github.io/framework/docs/terms/assessment-framework</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/attribute" target="_blank">https://essif-lab.github.io/framework/docs/terms/attribute</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/authority" target="_blank">https://essif-lab.github.io/framework/docs/terms/authority</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/capability" target="_blank">https://essif-lab.github.io/framework/docs/terms/capability</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/capability-of-an-actor" target="_blank">https://essif-lab.github.io/framework/docs/terms/capability-of-an-actor</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/colleague" target="_blank">https://essif-lab.github.io/framework/docs/terms/colleague</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/commitment-decision" target="_blank">https://essif-lab.github.io/framework/docs/terms/commitment-decision</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/communication-channel" target="_blank">https://essif-lab.github.io/framework/docs/terms/communication-channel</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/communication-session" target="_blank">https://essif-lab.github.io/framework/docs/terms/communication-session</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/community" target="_blank">https://essif-lab.github.io/framework/docs/terms/community</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/compliance" target="_blank">https://essif-lab.github.io/framework/docs/terms/compliance</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/compliance-level" target="_blank">https://essif-lab.github.io/framework/docs/terms/compliance-level</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/compliance-management" target="_blank">https://essif-lab.github.io/framework/docs/terms/compliance-management</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/compliance-objective" target="_blank">https://essif-lab.github.io/framework/docs/terms/compliance-objective</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/concept" target="_blank">https://essif-lab.github.io/framework/docs/terms/concept</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/concept-file" target="_blank">https://essif-lab.github.io/framework/docs/terms/concept-file</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/control" target="_blank">https://essif-lab.github.io/framework/docs/terms/control</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/control-level" target="_blank">https://essif-lab.github.io/framework/docs/terms/control-level</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/control-objective" target="_blank">https://essif-lab.github.io/framework/docs/terms/control-objective</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/control-process" target="_blank">https://essif-lab.github.io/framework/docs/terms/control-process</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/controller" target="_blank">https://essif-lab.github.io/framework/docs/terms/controller</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/controllership" target="_blank">https://essif-lab.github.io/framework/docs/terms/controllership</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/corpus" target="_blank">https://essif-lab.github.io/framework/docs/terms/corpus</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/credential" target="_blank">https://essif-lab.github.io/framework/docs/terms/credential</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/credential-catalogue" target="_blank">https://essif-lab.github.io/framework/docs/terms/credential-catalogue</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/credential-type" target="_blank">https://essif-lab.github.io/framework/docs/terms/credential-type</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/data" target="_blank">https://essif-lab.github.io/framework/docs/terms/data</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/decision" target="_blank">https://essif-lab.github.io/framework/docs/terms/decision</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/definition" target="_blank">https://essif-lab.github.io/framework/docs/terms/definition</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/delegate" target="_blank">https://essif-lab.github.io/framework/docs/terms/delegate</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/dependent" target="_blank">https://essif-lab.github.io/framework/docs/terms/dependent</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/dictionary" target="_blank">https://essif-lab.github.io/framework/docs/terms/dictionary</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/dictionary-file" target="_blank">https://essif-lab.github.io/framework/docs/terms/dictionary-file</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/documentation-interop" target="_blank">https://essif-lab.github.io/framework/docs/terms/documentation-interop</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/eSSIFLab-scope" target="_blank">https://essif-lab.github.io/framework/docs/terms/eSSIFLab-scope</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/ecosystem" target="_blank">https://essif-lab.github.io/framework/docs/terms/ecosystem</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/employee" target="_blank">https://essif-lab.github.io/framework/docs/terms/employee</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/employer" target="_blank">https://essif-lab.github.io/framework/docs/terms/employer</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/employment-contract" target="_blank">https://essif-lab.github.io/framework/docs/terms/employment-contract</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/entity" target="_blank">https://essif-lab.github.io/framework/docs/terms/entity</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/expectation" target="_blank">https://essif-lab.github.io/framework/docs/terms/expectation</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/framework" target="_blank">https://essif-lab.github.io/framework/docs/terms/framework</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/glossary" target="_blank">https://essif-lab.github.io/framework/docs/terms/glossary</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/glossary-file" target="_blank">https://essif-lab.github.io/framework/docs/terms/glossary-file</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/governance" target="_blank">https://essif-lab.github.io/framework/docs/terms/governance</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/governor" target="_blank">https://essif-lab.github.io/framework/docs/terms/governor</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/guardian" target="_blank">https://essif-lab.github.io/framework/docs/terms/guardian</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/guardianship-arrangement" target="_blank">https://essif-lab.github.io/framework/docs/terms/guardianship-arrangement</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/guardianship-type" target="_blank">https://essif-lab.github.io/framework/docs/terms/guardianship-type</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/holder" target="_blank">https://essif-lab.github.io/framework/docs/terms/holder</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/holder-policy" target="_blank">https://essif-lab.github.io/framework/docs/terms/holder-policy</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/human-being" target="_blank">https://essif-lab.github.io/framework/docs/terms/human-being</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/identifier" target="_blank">https://essif-lab.github.io/framework/docs/terms/identifier</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/identify" target="_blank">https://essif-lab.github.io/framework/docs/terms/identify</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/identity" target="_blank">https://essif-lab.github.io/framework/docs/terms/identity</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/information-process" target="_blank">https://essif-lab.github.io/framework/docs/terms/information-process</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/issuer" target="_blank">https://essif-lab.github.io/framework/docs/terms/issuer</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/issuer-policy" target="_blank">https://essif-lab.github.io/framework/docs/terms/issuer-policy</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/jurisdiction" target="_blank">https://essif-lab.github.io/framework/docs/terms/jurisdiction</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/knowledge" target="_blank">https://essif-lab.github.io/framework/docs/terms/knowledge</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/legal-entity" target="_blank">https://essif-lab.github.io/framework/docs/terms/legal-entity</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/legal-jurisdiction" target="_blank">https://essif-lab.github.io/framework/docs/terms/legal-jurisdiction</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/legal-system" target="_blank">https://essif-lab.github.io/framework/docs/terms/legal-system</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/management" target="_blank">https://essif-lab.github.io/framework/docs/terms/management</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/mandate" target="_blank">https://essif-lab.github.io/framework/docs/terms/mandate</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/mental-model" target="_blank">https://essif-lab.github.io/framework/docs/terms/mental-model</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/mission" target="_blank">https://essif-lab.github.io/framework/docs/terms/mission</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/normative-framework" target="_blank">https://essif-lab.github.io/framework/docs/terms/normative-framework</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/objective" target="_blank">https://essif-lab.github.io/framework/docs/terms/objective</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/obligation" target="_blank">https://essif-lab.github.io/framework/docs/terms/obligation</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/onboarding" target="_blank">https://essif-lab.github.io/framework/docs/terms/onboarding</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/organization" target="_blank">https://essif-lab.github.io/framework/docs/terms/organization</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/outsourcing" target="_blank">https://essif-lab.github.io/framework/docs/terms/outsourcing</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/owned" target="_blank">https://essif-lab.github.io/framework/docs/terms/owned</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/owner" target="_blank">https://essif-lab.github.io/framework/docs/terms/owner</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/ownership" target="_blank">https://essif-lab.github.io/framework/docs/terms/ownership</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/partial-identity" target="_blank">https://essif-lab.github.io/framework/docs/terms/partial-identity</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/participant" target="_blank">https://essif-lab.github.io/framework/docs/terms/participant</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/party" target="_blank">https://essif-lab.github.io/framework/docs/terms/party</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/pattern" target="_blank">https://essif-lab.github.io/framework/docs/terms/pattern</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/pattern-decentralized-grc" target="_blank">https://essif-lab.github.io/framework/docs/terms/pattern-decentralized-grc</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/pattern-decentralized-risk-management" target="_blank">https://essif-lab.github.io/framework/docs/terms/pattern-decentralized-risk-management</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/pattern-decision-making" target="_blank">https://essif-lab.github.io/framework/docs/terms/pattern-decision-making</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/pattern-duties-and-rights" target="_blank">https://essif-lab.github.io/framework/docs/terms/pattern-duties-and-rights</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/pattern-file" target="_blank">https://essif-lab.github.io/framework/docs/terms/pattern-file</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/pattern-governance-and-management" target="_blank">https://essif-lab.github.io/framework/docs/terms/pattern-governance-and-management</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/pattern-guardianship" target="_blank">https://essif-lab.github.io/framework/docs/terms/pattern-guardianship</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/pattern-identification" target="_blank">https://essif-lab.github.io/framework/docs/terms/pattern-identification</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/pattern-identifier" target="_blank">https://essif-lab.github.io/framework/docs/terms/pattern-identifier</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/pattern-identity" target="_blank">https://essif-lab.github.io/framework/docs/terms/pattern-identity</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/pattern-jurisdiction" target="_blank">https://essif-lab.github.io/framework/docs/terms/pattern-jurisdiction</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/pattern-mandates-delegation-hiring" target="_blank">https://essif-lab.github.io/framework/docs/terms/pattern-mandates-delegation-hiring</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/pattern-mental-model" target="_blank">https://essif-lab.github.io/framework/docs/terms/pattern-mental-model</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/pattern-party-actor-action" target="_blank">https://essif-lab.github.io/framework/docs/terms/pattern-party-actor-action</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/pattern-party-representation" target="_blank">https://essif-lab.github.io/framework/docs/terms/pattern-party-representation</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/pattern-semantics" target="_blank">https://essif-lab.github.io/framework/docs/terms/pattern-semantics</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/pattern-terminology" target="_blank">https://essif-lab.github.io/framework/docs/terms/pattern-terminology</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/pattern-trust" target="_blank">https://essif-lab.github.io/framework/docs/terms/pattern-trust</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/pattern-world-model" target="_blank">https://essif-lab.github.io/framework/docs/terms/pattern-world-model</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/peer-actor" target="_blank">https://essif-lab.github.io/framework/docs/terms/peer-actor</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/peer-agent" target="_blank">https://essif-lab.github.io/framework/docs/terms/peer-agent</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/peer-party" target="_blank">https://essif-lab.github.io/framework/docs/terms/peer-party</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/policy" target="_blank">https://essif-lab.github.io/framework/docs/terms/policy</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/presentation" target="_blank">https://essif-lab.github.io/framework/docs/terms/presentation</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/presentation-request" target="_blank">https://essif-lab.github.io/framework/docs/terms/presentation-request</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/principal" target="_blank">https://essif-lab.github.io/framework/docs/terms/principal</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/qualified-data" target="_blank">https://essif-lab.github.io/framework/docs/terms/qualified-data</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/revocation-component" target="_blank">https://essif-lab.github.io/framework/docs/terms/revocation-component</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/revocation-policy" target="_blank">https://essif-lab.github.io/framework/docs/terms/revocation-policy</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/revoke" target="_blank">https://essif-lab.github.io/framework/docs/terms/revoke</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/risk" target="_blank">https://essif-lab.github.io/framework/docs/terms/risk</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/risk-level" target="_blank">https://essif-lab.github.io/framework/docs/terms/risk-level</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/risk-management" target="_blank">https://essif-lab.github.io/framework/docs/terms/risk-management</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/risk-objective" target="_blank">https://essif-lab.github.io/framework/docs/terms/risk-objective</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/risk-owner" target="_blank">https://essif-lab.github.io/framework/docs/terms/risk-owner</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/role" target="_blank">https://essif-lab.github.io/framework/docs/terms/role</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/role-name" target="_blank">https://essif-lab.github.io/framework/docs/terms/role-name</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/scope" target="_blank">https://essif-lab.github.io/framework/docs/terms/scope</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/scope-file" target="_blank">https://essif-lab.github.io/framework/docs/terms/scope-file</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/scope-of-control" target="_blank">https://essif-lab.github.io/framework/docs/terms/scope-of-control</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/scoped-term" target="_blank">https://essif-lab.github.io/framework/docs/terms/scoped-term</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/self-sovereign-identity" target="_blank">https://essif-lab.github.io/framework/docs/terms/self-sovereign-identity</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/self-sovereignty" target="_blank">https://essif-lab.github.io/framework/docs/terms/self-sovereignty</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/semantics" target="_blank">https://essif-lab.github.io/framework/docs/terms/semantics</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/ssi" target="_blank">https://essif-lab.github.io/framework/docs/terms/ssi</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/ssi-agent" target="_blank">https://essif-lab.github.io/framework/docs/terms/ssi-agent</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/ssi-assurance-community" target="_blank">https://essif-lab.github.io/framework/docs/terms/ssi-assurance-community</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/ssi-infrastructure" target="_blank">https://essif-lab.github.io/framework/docs/terms/ssi-infrastructure</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/subject" target="_blank">https://essif-lab.github.io/framework/docs/terms/subject</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/tag" target="_blank">https://essif-lab.github.io/framework/docs/terms/tag</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/term" target="_blank">https://essif-lab.github.io/framework/docs/terms/term</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/term-file" target="_blank">https://essif-lab.github.io/framework/docs/terms/term-file</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/terminology" target="_blank">https://essif-lab.github.io/framework/docs/terms/terminology</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/terminology-process" target="_blank">https://essif-lab.github.io/framework/docs/terms/terminology-process</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/terms-community" target="_blank">https://essif-lab.github.io/framework/docs/terms/terms-community</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/transaction" target="_blank">https://essif-lab.github.io/framework/docs/terms/transaction</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/transaction-agreement" target="_blank">https://essif-lab.github.io/framework/docs/terms/transaction-agreement</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/transaction-form" target="_blank">https://essif-lab.github.io/framework/docs/terms/transaction-form</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/transaction-id" target="_blank">https://essif-lab.github.io/framework/docs/terms/transaction-id</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/transaction-proposal" target="_blank">https://essif-lab.github.io/framework/docs/terms/transaction-proposal</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/transaction-request" target="_blank">https://essif-lab.github.io/framework/docs/terms/transaction-request</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/trust" target="_blank">https://essif-lab.github.io/framework/docs/terms/trust</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/trust-level" target="_blank">https://essif-lab.github.io/framework/docs/terms/trust-level</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/validate" target="_blank">https://essif-lab.github.io/framework/docs/terms/validate</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/validator" target="_blank">https://essif-lab.github.io/framework/docs/terms/validator</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/validator-policy" target="_blank">https://essif-lab.github.io/framework/docs/terms/validator-policy</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/verifier" target="_blank">https://essif-lab.github.io/framework/docs/terms/verifier</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/verifier-policy" target="_blank">https://essif-lab.github.io/framework/docs/terms/verifier-policy</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/verify" target="_blank">https://essif-lab.github.io/framework/docs/terms/verify</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/vocabulary" target="_blank">https://essif-lab.github.io/framework/docs/terms/vocabulary</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/wallet" target="_blank">https://essif-lab.github.io/framework/docs/terms/wallet</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/terms/wallet-policy" target="_blank">https://essif-lab.github.io/framework/docs/terms/wallet-policy</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev1/conceptID" target="_blank">https://essif-lab.github.io/framework/docs/tev1/conceptID</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev1/dictionaryID" target="_blank">https://essif-lab.github.io/framework/docs/tev1/dictionaryID</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev1/glossaryID" target="_blank">https://essif-lab.github.io/framework/docs/tev1/glossaryID</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev1/patternID" target="_blank">https://essif-lab.github.io/framework/docs/tev1/patternID</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev1/scopeID" target="_blank">https://essif-lab.github.io/framework/docs/tev1/scopeID</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev1/termID" target="_blank">https://essif-lab.github.io/framework/docs/tev1/termID</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev1/terminology-engine-v1" target="_blank">https://essif-lab.github.io/framework/docs/tev1/terminology-engine-v1</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev1/typeID" target="_blank">https://essif-lab.github.io/framework/docs/tev1/typeID</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/" target="_blank">https://essif-lab.github.io/framework/docs/tev2/</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/manuals/author" target="_blank">https://essif-lab.github.io/framework/docs/tev2/manuals/author</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/manuals/contributor" target="_blank">https://essif-lab.github.io/framework/docs/tev2/manuals/contributor</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/manuals/contributors-LaTeX" target="_blank">https://essif-lab.github.io/framework/docs/tev2/manuals/contributors-LaTeX</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/manuals/contributors-repo" target="_blank">https://essif-lab.github.io/framework/docs/tev2/manuals/contributors-repo</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/manuals/contributors-wiki" target="_blank">https://essif-lab.github.io/framework/docs/tev2/manuals/contributors-wiki</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/manuals/curator" target="_blank">https://essif-lab.github.io/framework/docs/tev2/manuals/curator</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/manuals/tev2-installation" target="_blank">https://essif-lab.github.io/framework/docs/tev2/manuals/tev2-installation</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/miscellaneous/toip-terminology-toolbox" target="_blank">https://essif-lab.github.io/framework/docs/tev2/miscellaneous/toip-terminology-toolbox</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/miscellaneous/tool-development" target="_blank">https://essif-lab.github.io/framework/docs/tev2/miscellaneous/tool-development</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/notations-and-conventions" target="_blank">https://essif-lab.github.io/framework/docs/tev2/notations-and-conventions</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/overview/tev2-architecture" target="_blank">https://essif-lab.github.io/framework/docs/tev2/overview/tev2-architecture</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/overview/tev2-common-understanding" target="_blank">https://essif-lab.github.io/framework/docs/tev2/overview/tev2-common-understanding</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/overview/tev2-design-principles" target="_blank">https://essif-lab.github.io/framework/docs/tev2/overview/tev2-design-principles</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/overview/tev2-purpose" target="_blank">https://essif-lab.github.io/framework/docs/tev2/overview/tev2-purpose</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/overview/tev2-terminology-curation" target="_blank">https://essif-lab.github.io/framework/docs/tev2/overview/tev2-terminology-curation</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/spec-files/ctext" target="_blank">https://essif-lab.github.io/framework/docs/tev2/spec-files/ctext</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/spec-files/hrd" target="_blank">https://essif-lab.github.io/framework/docs/tev2/spec-files/hrd</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/spec-files/hrg" target="_blank">https://essif-lab.github.io/framework/docs/tev2/spec-files/hrg</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/spec-files/mrd" target="_blank">https://essif-lab.github.io/framework/docs/tev2/spec-files/mrd</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/spec-files/mrg" target="_blank">https://essif-lab.github.io/framework/docs/tev2/spec-files/mrg</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/spec-files/profile-templates" target="_blank">https://essif-lab.github.io/framework/docs/tev2/spec-files/profile-templates</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/spec-files/saf" target="_blank">https://essif-lab.github.io/framework/docs/tev2/spec-files/saf</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/spec-syntax/form-phrase-syntax" target="_blank">https://essif-lab.github.io/framework/docs/tev2/spec-syntax/form-phrase-syntax</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/spec-syntax/hrg-termselcrit" target="_blank">https://essif-lab.github.io/framework/docs/tev2/spec-syntax/hrg-termselcrit</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/spec-syntax/term-ref-syntax" target="_blank">https://essif-lab.github.io/framework/docs/tev2/spec-syntax/term-ref-syntax</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/spec-tools/hrdt" target="_blank">https://essif-lab.github.io/framework/docs/tev2/spec-tools/hrdt</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/spec-tools/hrgt" target="_blank">https://essif-lab.github.io/framework/docs/tev2/spec-tools/hrgt</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/spec-tools/hrgt-old" target="_blank">https://essif-lab.github.io/framework/docs/tev2/spec-tools/hrgt-old</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/spec-tools/ict" target="_blank">https://essif-lab.github.io/framework/docs/tev2/spec-tools/ict</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/spec-tools/mrdt" target="_blank">https://essif-lab.github.io/framework/docs/tev2/spec-tools/mrdt</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/spec-tools/mrgt" target="_blank">https://essif-lab.github.io/framework/docs/tev2/spec-tools/mrgt</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/spec-tools/terminology-construction" target="_blank">https://essif-lab.github.io/framework/docs/tev2/spec-tools/terminology-construction</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/spec-tools/trrt" target="_blank">https://essif-lab.github.io/framework/docs/tev2/spec-tools/trrt</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/@" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/@</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/concept" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/concept</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/corpus" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/corpus</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/curated-text" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/curated-text</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/curatedir" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/curatedir</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/definition" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/definition</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/dictionary" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/dictionary</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/glossary" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/glossary</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/glossarydir" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/glossarydir</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/grouptag" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/grouptag</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/hrg-entry" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/hrg-entry</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/identifier" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/identifier</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/identify" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/identify</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/ingestion-profile" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/ingestion-profile</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/knowledge-artifact" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/knowledge-artifact</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/mental-model" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/mental-model</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/mrg-entry" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/mrg-entry</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/patterns/pattern-terminology" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/patterns/pattern-terminology</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/renderable-ref" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/renderable-ref</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/scope" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/scope</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/scope-directory" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/scope-directory</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/scoped-term" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/scoped-term</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/scopetag" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/scopetag</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/semantics" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/semantics</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/synonym" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/synonym</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/tag" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/tag</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/term" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/term</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/term-identifier" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/term-identifier</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/term-ref" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/term-ref</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/term-syntax" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/term-syntax</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/term-type" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/term-type</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/terminology" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/terminology</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/terminology-under-construction" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/terminology-under-construction</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/terms-community" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/terms-community</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/tev2" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/tev2</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/versiontag" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/versiontag</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/terms/vocabulary" target="_blank">https://essif-lab.github.io/framework/docs/tev2/terms/vocabulary</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/tev2-glossary" target="_blank">https://essif-lab.github.io/framework/docs/tev2/tev2-glossary</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/tev2-overview" target="_blank">https://essif-lab.github.io/framework/docs/tev2/tev2-overview</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/tev2-roles" target="_blank">https://essif-lab.github.io/framework/docs/tev2/tev2-roles</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/tev2-spec-files" target="_blank">https://essif-lab.github.io/framework/docs/tev2/tev2-spec-files</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/tev2-student-assignment" target="_blank">https://essif-lab.github.io/framework/docs/tev2/tev2-student-assignment</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/tev2-syntax" target="_blank">https://essif-lab.github.io/framework/docs/tev2/tev2-syntax</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/tev2/tev2-toolbox" target="_blank">https://essif-lab.github.io/framework/docs/tev2/tev2-toolbox</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/vision-and-purpose" target="_blank">https://essif-lab.github.io/framework/docs/vision-and-purpose</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/.github/CODEOWNERS" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/.github/CODEOWNERS</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/.github/workflows/publish.yml" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/.github/workflows/publish.yml</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/.github/workflows/test.yml" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/.github/workflows/test.yml</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/.gitignore" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/.gitignore</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/.rustfmt.toml" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/.rustfmt.toml</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/Cargo.toml" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/Cargo.toml</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/LICENSE" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/LICENSE</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/Makefile" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/Makefile</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/README.md" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/README.md</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/codecov.yml" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/codecov.yml</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/bexter.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/bexter.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/cigar.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/cigar.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/common.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/common.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/counter/mod.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/counter/mod.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/counter/tables.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/counter/tables.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/creder.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/creder.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/dater.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/dater.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/diger.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/diger.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/indexer/mod.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/indexer/mod.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/indexer/tables.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/indexer/tables.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/matter/mod.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/matter/mod.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/matter/tables.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/matter/tables.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/mod.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/mod.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/number.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/number.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/pather.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/pather.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/prefixer.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/prefixer.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/sadder.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/sadder.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/saider.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/saider.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/salter.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/salter.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/seqner.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/seqner.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/serder.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/serder.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/siger.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/siger.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/signer.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/signer.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/tholder.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/tholder.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/util.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/util.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/core/verfer.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/core/verfer.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/crypto/csprng.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/crypto/csprng.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/crypto/hash.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/crypto/hash.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/crypto/mod.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/crypto/mod.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/crypto/salt.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/crypto/salt.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/crypto/sign.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/crypto/sign.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/data.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/data.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/error.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/error.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/lib.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/lib.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/.gitignore" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/.gitignore</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/Cargo.toml" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/Cargo.toml</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/README.md" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/README.md</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/.gitignore" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/.gitignore</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/package.json" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/package.json</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/src/main.ts" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/src/main.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/tslint.json" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/tslint.json</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/yarn.lock" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/yarn.lock</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/bootstrap.js" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/bootstrap.js</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/index.html" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/index.html</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/index.js" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/index.js</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/package-lock.json" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/package-lock.json</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/package.json" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/package.json</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/webpack.config.js" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/webpack.config.js</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/yarn.lock" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/yarn.lock</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/error.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/error.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/lib.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/lib.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/bexter.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/bexter.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/cigar.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/cigar.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/codex.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/codex.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/common.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/common.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/dater.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/dater.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/diger.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/diger.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/mod.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/mod.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/number.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/number.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/prefixer.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/prefixer.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/saider.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/saider.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/salter.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/salter.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/seqner.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/seqner.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/serder.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/serder.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/siger.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/siger.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/signer.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/signer.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/tholder.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/tholder.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/verfer.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/primitives/verfer.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/util.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/util.rs</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/.gitignore" target="_blank">https://github.com/WebOfTrust/keri/blob/main/.gitignore</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/CONTRIBUTING.md" target="_blank">https://github.com/WebOfTrust/keri/blob/main/CONTRIBUTING.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/LICENSE" target="_blank">https://github.com/WebOfTrust/keri/blob/main/LICENSE</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/LICENSE.md" target="_blank">https://github.com/WebOfTrust/keri/blob/main/LICENSE.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/README.md" target="_blank">https://github.com/WebOfTrust/keri/blob/main/README.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/agenda.md" target="_blank">https://github.com/WebOfTrust/keri/blob/main/agenda.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/agenda2022.md" target="_blank">https://github.com/WebOfTrust/keri/blob/main/agenda2022.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/docs/.DS_Store" target="_blank">https://github.com/WebOfTrust/keri/blob/main/docs/.DS_Store</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/docs/Glossary.md" target="_blank">https://github.com/WebOfTrust/keri/blob/main/docs/Glossary.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/docs/KERI-Mooc.md" target="_blank">https://github.com/WebOfTrust/keri/blob/main/docs/KERI-Mooc.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/docs/KERI_Msg_Seal.md" target="_blank">https://github.com/WebOfTrust/keri/blob/main/docs/KERI_Msg_Seal.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/docs/PartialRotation.md" target="_blank">https://github.com/WebOfTrust/keri/blob/main/docs/PartialRotation.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/docs/Q-and-A-Security.md" target="_blank">https://github.com/WebOfTrust/keri/blob/main/docs/Q-and-A-Security.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/docs/Q-and-A.md" target="_blank">https://github.com/WebOfTrust/keri/blob/main/docs/Q-and-A.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/docs/README.md" target="_blank">https://github.com/WebOfTrust/keri/blob/main/docs/README.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/docs/keri-dev-env.md" target="_blank">https://github.com/WebOfTrust/keri/blob/main/docs/keri-dev-env.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/docs/oobi.md" target="_blank">https://github.com/WebOfTrust/keri/blob/main/docs/oobi.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/.DS_Store" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/.DS_Store</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/Arelle.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/Arelle.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/Direct-mode-kel-kerl.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/Direct-mode-kel-kerl.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/Docker.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/Docker.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/Java_logo.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/Java_logo.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/KERI_image_by_CChunningham.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/KERI_image_by_CChunningham.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/Keri_logo_color_on_white.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/Keri_logo_color_on_white.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/Key-Event.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/Key-Event.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/Sphinx.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/Sphinx.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/TEL-and-KEL.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/TEL-and-KEL.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/XBRL.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/XBRL.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/ais.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/ais.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/autonomic-architecture.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/autonomic-architecture.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/backer-witness.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/backer-witness.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/basic-scid.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/basic-scid.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/bazel-logo.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/bazel-logo.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/caxe.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/caxe.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/dart.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/dart.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/delegation-keri-muggles.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/delegation-keri-muggles.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/delegation_flow.plantuml" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/delegation_flow.plantuml</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/delegation_flow.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/delegation_flow.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/derivation-code.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/derivation-code.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/didcomm.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/didcomm.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/gh-actions.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/gh-actions.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/gitflow.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/gitflow.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/hash-function.jpg" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/hash-function.jpg</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/identity_system_security_overlay.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/identity_system_security_overlay.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/inception-rotation.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/inception-rotation.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/inception-statement.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/inception-statement.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/internet_broken.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/internet_broken.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/keri-gdpr-compliance-muggles.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/keri-gdpr-compliance-muggles.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/key-event-log-muggles.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/key-event-log-muggles.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/key-infra-valence.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/key-infra-valence.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/key-rotation-muggles-steps1-2.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/key-rotation-muggles-steps1-2.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/key-rotation-muggles-steps3-4.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/key-rotation-muggles-steps3-4.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/key-rotation-muggles-steps5-6.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/key-rotation-muggles-steps5-6.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/key-rotation-muggles-steps7-8.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/key-rotation-muggles-steps7-8.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/key-rotation-muggles-steps9-10.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/key-rotation-muggles-steps9-10.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/loci-of-control.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/loci-of-control.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/me-and-mother-in-law.jpg" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/me-and-mother-in-law.jpg</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/mother-in-law-scolding.gif" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/mother-in-law-scolding.gif</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/nodejs.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/nodejs.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/npm.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/npm.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/ntru.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/ntru.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/openapi.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/openapi.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/paw.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/paw.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/platform_locked_trust.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/platform_locked_trust.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/platypus.jpg" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/platypus.jpg</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/postman.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/postman.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/prefix.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/prefix.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/pubprivkey-caveat.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/pubprivkey-caveat.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/restapi.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/restapi.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/sai_sci.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/sai_sci.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/sci-muggles.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/sci-muggles.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/sci_issue_bind.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/sci_issue_bind.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/sci_ssi_book.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/sci_ssi_book.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/spanning_layer.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/spanning_layer.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/swagger.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/swagger.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/trade-space-limitations.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/trade-space-limitations.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/trust-over-ip-stack.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/trust-over-ip-stack.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/waist_neck.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/waist_neck.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/web-of-trust.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/web-of-trust.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/webauth.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/webauth.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/images/workiva.png" target="_blank">https://github.com/WebOfTrust/keri/blob/main/images/workiva.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/interop/credential.json" target="_blank">https://github.com/WebOfTrust/keri/blob/main/interop/credential.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/interop/holder.json" target="_blank">https://github.com/WebOfTrust/keri/blob/main/interop/holder.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/interop/issuer.json" target="_blank">https://github.com/WebOfTrust/keri/blob/main/interop/issuer.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/interop/schema.json" target="_blank">https://github.com/WebOfTrust/keri/blob/main/interop/schema.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/interop/tel.json" target="_blank">https://github.com/WebOfTrust/keri/blob/main/interop/tel.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/interop/witness.json" target="_blank">https://github.com/WebOfTrust/keri/blob/main/interop/witness.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keri/blob/main/interop/witnesses.json" target="_blank">https://github.com/WebOfTrust/keri/blob/main/interop/witnesses.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/.github/workflows/publish-keria.yml" target="_blank">https://github.com/WebOfTrust/keria/blob/main/.github/workflows/publish-keria.yml</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/.github/workflows/python-app-ci.yml" target="_blank">https://github.com/WebOfTrust/keria/blob/main/.github/workflows/python-app-ci.yml</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/.gitignore" target="_blank">https://github.com/WebOfTrust/keria/blob/main/.gitignore</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/LICENSE" target="_blank">https://github.com/WebOfTrust/keria/blob/main/LICENSE</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/Makefile" target="_blank">https://github.com/WebOfTrust/keria/blob/main/Makefile</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/README.md" target="_blank">https://github.com/WebOfTrust/keria/blob/main/README.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/docs/protocol.md" target="_blank">https://github.com/WebOfTrust/keria/blob/main/docs/protocol.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/images/keria.dockerfile" target="_blank">https://github.com/WebOfTrust/keria/blob/main/images/keria.dockerfile</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/requirements.txt" target="_blank">https://github.com/WebOfTrust/keria/blob/main/requirements.txt</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/scripts/keri/cf/demo-witness-oobis.json" target="_blank">https://github.com/WebOfTrust/keria/blob/main/scripts/keri/cf/demo-witness-oobis.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/scripts/keri/cf/keria.json" target="_blank">https://github.com/WebOfTrust/keria/blob/main/scripts/keri/cf/keria.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/scripts/keri/cf/main/keria.json" target="_blank">https://github.com/WebOfTrust/keria/blob/main/scripts/keri/cf/main/keria.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/setup.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/setup.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/__init__.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/__main__.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/__main__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/app/__init__.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/app/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/app/agenting.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/app/agenting.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/app/aiding.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/app/aiding.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/__init__.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/commands/__init__.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/commands/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/commands/start.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/commands/start.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/keria.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/keria.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/app/credentialing.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/app/credentialing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/app/indirecting.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/app/indirecting.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/app/notifying.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/app/notifying.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/app/presenting.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/app/presenting.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/app/specing.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/app/specing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/core/__init__.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/core/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/core/authing.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/core/authing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/core/httping.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/core/httping.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/core/keeping.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/core/keeping.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/core/longrunning.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/core/longrunning.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/db/__init__.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/db/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/db/basing.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/db/basing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/end/__init__.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/end/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/end/ending.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/end/ending.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/keriaing.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/keriaing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/testing/__init__.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/testing/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/testing/testing_helper.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/testing/testing_helper.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/README.md" target="_blank">https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/README.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/favicon-16x16.png" target="_blank">https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/favicon-16x16.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/favicon-32x32.png" target="_blank">https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/favicon-32x32.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/index.css" target="_blank">https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/index.css</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/index.html" target="_blank">https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/index.html</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/oauth2-redirect.html" target="_blank">https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/oauth2-redirect.html</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-initializer.js" target="_blank">https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-initializer.js</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-bundle.js" target="_blank">https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-bundle.js</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-bundle.js.map" target="_blank">https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-bundle.js.map</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-es-bundle-core.js" target="_blank">https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-es-bundle-core.js</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-es-bundle-core.js.map" target="_blank">https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-es-bundle-core.js.map</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-es-bundle.js" target="_blank">https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-es-bundle.js</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-es-bundle.js.map" target="_blank">https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-es-bundle.js.map</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-standalone-preset.js" target="_blank">https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-standalone-preset.js</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-standalone-preset.js.map" target="_blank">https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui-standalone-preset.js.map</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui.css" target="_blank">https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui.css</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui.css.map" target="_blank">https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui.css.map</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui.js" target="_blank">https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui.js</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui.js.map" target="_blank">https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui.js.map</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/tests/__init__.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/tests/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/tests/app/__init__.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/tests/app/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/tests/app/test_agenting.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/tests/app/test_agenting.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/tests/app/test_aiding.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/tests/app/test_aiding.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/tests/app/test_credentialing.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/tests/app/test_credentialing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/tests/app/test_indirecting.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/tests/app/test_indirecting.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/tests/app/test_notifying.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/tests/app/test_notifying.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/tests/app/test_presenting.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/tests/app/test_presenting.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/tests/app/test_specing.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/tests/app/test_specing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/tests/conftest.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/tests/conftest.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/tests/core/__init__.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/tests/core/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/tests/core/test_authing.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/tests/core/test_authing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/tests/core/test_httping.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/tests/core/test_httping.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/tests/scripts/keri/cf/keria.json" target="_blank">https://github.com/WebOfTrust/keria/blob/main/tests/scripts/keri/cf/keria.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/tests/scripts/keri/cf/main/keria.json" target="_blank">https://github.com/WebOfTrust/keria/blob/main/tests/scripts/keri/cf/main/keria.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keria/blob/main/tests/testing/test_testing_helper.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/tests/testing/test_testing_helper.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/.coveragerc" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/.coveragerc</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/.github/FUNDING.yml" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/.github/FUNDING.yml</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/.github/workflows/interop/Dockerfile" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/.github/workflows/interop/Dockerfile</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/.github/workflows/publish-keripy.yml" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/.github/workflows/publish-keripy.yml</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/.github/workflows/python-app-ci.yml" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/.github/workflows/python-app-ci.yml</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/.gitignore" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/.gitignore</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/.readthedocs.yaml" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/.readthedocs.yaml</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/LICENSE" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/LICENSE</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/Makefile" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/Makefile</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/README.md" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/README.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/docs/Makefile" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/docs/Makefile</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/docs/conf.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/docs/conf.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/docs/index.rst" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/docs/index.rst</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/docs/keri_app.rst" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/docs/keri_app.rst</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/docs/keri_core.rst" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/docs/keri_core.rst</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/docs/keri_db.rst" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/docs/keri_db.rst</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/docs/keri_end.rst" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/docs/keri_end.rst</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/docs/keri_help.rst" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/docs/keri_help.rst</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/docs/keri_peer.rst" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/docs/keri_peer.rst</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/docs/keri_vc.rst" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/docs/keri_vc.rst</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/docs/keri_vdr.rst" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/docs/keri_vdr.rst</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/docs/make.bat" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/docs/make.bat</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/docs/readme.rst" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/docs/readme.rst</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/docs/requirements.txt" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/docs/requirements.txt</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/images/keripy.dockerfile" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/images/keripy.dockerfile</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/images/witness.demo.dockerfile" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/images/witness.demo.dockerfile</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/interop/README.md" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/interop/README.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/publish.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/publish.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/ref/CypherSuites.md" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/ref/CypherSuites.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/ref/MultisigIssuance.md" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/ref/MultisigIssuance.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/ref/Peer2PeerCredentials.md" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/ref/Peer2PeerCredentials.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/ref/PythonStyleGuide.md" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/ref/PythonStyleGuide.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/ref/getting_started.md" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/ref/getting_started.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/ref/tel.md" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/ref/tel.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/requirements.txt" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/requirements.txt</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/README.md" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/README.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/alice-bob-agent.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/alice-bob-agent.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/challenge.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/challenge.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/clear.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/clear.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/delegate-agent.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/delegate-agent.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/delegate.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/delegate.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/demo-script.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/demo-script.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/demo-witness-script.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/demo-witness-script.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-agent.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-agent.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-delegate-agent.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-delegate-agent.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-delegate-delegator-agent.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-delegate-delegator-agent.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-delegate-delegator.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-delegate-delegator.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-delegate.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-delegate.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-partial-rotation.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-partial-rotation.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-triple.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig-triple.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/multisig.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/single-witness-create-agent.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/single-witness-create-agent.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/start-agent.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/start-agent.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/start-witness.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/start-witness.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/credentials/multisig-holder-agent.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/credentials/multisig-holder-agent.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/credentials/multisig-issuer-agent.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/credentials/multisig-issuer-agent.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/credentials/multisig-issuer.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/credentials/multisig-issuer.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/credentials/single-issuer-agent.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/credentials/single-issuer-agent.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/credentials/single-issuer.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/credentials/single-issuer.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/README.md" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/README.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/anchor.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/anchor.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/challenge-sample-pool2.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/challenge-sample-pool2.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/challenge-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/challenge-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/credential-data.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/credential-data.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/delegate-1.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/delegate-1.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/delegate-2.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/delegate-2.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/delegatee.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/delegatee.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/delegator-1.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/delegator-1.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/delegator-2.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/delegator-2.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/delegator.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/delegator.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/ecr-auth-data.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/ecr-auth-data.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/ecr-auth-edges-filter.jq" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/ecr-auth-edges-filter.jq</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/ecr-auth-rules.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/ecr-auth-rules.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/ecr-data.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/ecr-data.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/ecr-edges-filter.jq" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/ecr-edges-filter.jq</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/ecr-rules.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/ecr-rules.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/estonly-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/estonly-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/external-gar-incept.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/external-gar-incept.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/external-gar-nodel-incept.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/external-gar-nodel-incept.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/extgar-delegate-icp-anchor.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/extgar-delegate-icp-anchor.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/gleif-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/gleif-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/holder-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/holder-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/inquisitor-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/inquisitor-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/internal-gar-incept.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/internal-gar-incept.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/internal-gar-nodel-incept.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/internal-gar-nodel-incept.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/legal-entity-data.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/legal-entity-data.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/legal-entity-edges-filter.jq" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/legal-entity-edges-filter.jq</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/mbx.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/mbx.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-1-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-1-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-2-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-2-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-3-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-3-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-delegate-icp-anchor.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-delegate-icp-anchor.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-delegate-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-delegate-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-delegate.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-delegate.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-delegator.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-delegator.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-triple-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/multisig-triple-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/non-transferable-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/non-transferable-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/oor-auth-data.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/oor-auth-data.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/oor-auth-edges-filter.jq" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/oor-auth-edges-filter.jq</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/oor-data.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/oor-data.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/oor-edges-filter.jq" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/oor-edges-filter.jq</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/qvi-data.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/qvi-data.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/remote-witness-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/remote-witness-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/rootgar-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/rootgar-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/rotate-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/rotate-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/rules.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/rules.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/trans-wits-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/trans-wits-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/transferable-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/transferable-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/wil-witness-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/wil-witness-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/xbrl-data.jq" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/xbrl-data.jq</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/xbrl-edges-filter.jq" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/xbrl-edges-filter.jq</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/demo-scripts.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/demo-scripts.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/test_scripts.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/test_scripts.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/README.md" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/README.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/external-gar-init.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/external-gar-init.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/internal-gar-init.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/internal-gar-init.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/internal-gar.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/internal-gar.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/intgar-challenge.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/intgar-challenge.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/issue-xbrl-attestation-agent.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/issue-xbrl-attestation-agent.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/issue-xbrl-attestation.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/issue-xbrl-attestation.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/legal-entity.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/legal-entity.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/qar.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/qar.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/root-gar-init.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/root-gar-init.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/root-gar.sh" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/root-gar.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/ci-witness-oobis.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/ci-witness-oobis.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/demo-witness-oobis-schema.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/demo-witness-oobis-schema.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/demo-witness-oobis.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/demo-witness-oobis.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/main/wan.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/main/wan.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/main/wes.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/main/wes.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/main/wil.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/main/wil.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/main/wit.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/main/wit.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/main/wub.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/main/wub.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/main/wyz.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/main/wyz.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/pool2-witness-oobis.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/pool2-witness-oobis.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/remote-witness-oobis-schema.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/remote-witness-oobis-schema.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/remote-witness-oobis.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/remote-witness-oobis.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/vlei-gar-oobis-schema.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/vlei-gar-oobis-schema.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/vlei-lar-oobis-schema.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/vlei-lar-oobis-schema.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/vlei-qar-oobis-schema.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/vlei-qar-oobis-schema.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/vlei-root-oobis-schema.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/vlei-root-oobis-schema.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/witness.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/scripts/keri/cf/witness.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/setup.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/setup.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/agenting.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/agenting.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/apping.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/apping.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/booting.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/booting.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/challenging.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/challenging.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/agent/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/agent/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/agent/demo.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/agent/demo.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/agent/start.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/agent/start.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/agent/vlei.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/agent/vlei.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/challenge/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/challenge/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/challenge/generate.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/challenge/generate.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/challenge/respond.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/challenge/respond.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/challenge/verify.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/challenge/verify.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/contacts/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/contacts/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/contacts/list.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/contacts/list.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/delegate/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/delegate/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/delegate/confirm.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/delegate/confirm.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/delegate/request.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/delegate/request.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/did/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/did/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/did/generate.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/did/generate.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/ends/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/ends/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/ends/export.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/ends/export.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/escrow.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/escrow.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/export.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/export.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/incept.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/incept.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/init.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/init.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/interact.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/interact.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/kevers.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/kevers.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/list.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/list.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/local/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/local/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/local/watch.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/local/watch.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/mailbox/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/mailbox/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/mailbox/debug.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/mailbox/debug.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/mailbox/update.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/mailbox/update.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/continue.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/continue.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/demo.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/demo.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/incept.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/incept.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/interact.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/interact.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/join.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/join.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/rotate.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/rotate.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/shell.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/shell.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/update.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/update.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/nonce.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/nonce.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/oobi/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/oobi/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/oobi/clean.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/oobi/clean.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/oobi/generate.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/oobi/generate.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/oobi/resolve.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/oobi/resolve.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/passcode/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/passcode/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/passcode/generate.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/passcode/generate.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/passcode/remove.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/passcode/remove.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/passcode/set.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/passcode/set.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/rename.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/rename.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/rollback.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/rollback.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/rotate.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/rotate.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/saidify.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/saidify.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/salt.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/salt.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/sign.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/sign.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/status.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/status.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/export.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/export.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/issue.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/issue.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/list.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/list.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/present.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/present.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/registry/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/registry/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/registry/incept.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/registry/incept.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/registry/list.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/registry/list.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/registry/status.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/registry/status.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/revoke.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/revoke.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/verify.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/verify.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/version.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/version.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/wallet/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/wallet/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/wallet/start.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/wallet/start.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/watcher/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/watcher/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/watcher/list.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/watcher/list.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/watcher/rotate.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/watcher/rotate.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/watcher/start.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/watcher/start.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/watcher/update.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/watcher/update.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/witness/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/witness/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/witness/demo.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/witness/demo.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/witness/start.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/witness/start.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/witness/submit.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/witness/submit.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/config.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/config.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/displaying.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/displaying.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/existing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/existing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/incepting.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/incepting.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/rotating.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/rotating.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/terming.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/terming.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/kli.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/kli.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/readme.md" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/readme.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/configing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/configing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/connecting.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/connecting.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/delegating.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/delegating.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/directing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/directing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/forwarding.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/forwarding.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/grouping.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/grouping.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/habbing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/habbing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/httping.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/httping.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/indirecting.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/indirecting.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/keeping.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/keeping.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/kiwiing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/kiwiing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/notifying.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/notifying.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/oobiing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/oobiing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/signaling.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/signaling.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/signing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/signing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/specing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/specing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/storing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/storing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/watching.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/watching.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/coring.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/coring.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/eventing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/eventing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/parsing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/parsing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/routing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/routing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/scheming.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/scheming.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/basing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/basing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/dbing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/dbing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/escrowing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/escrowing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/koming.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/koming.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/subing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/subing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/.gitignore" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/.gitignore</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/demo.md" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/demo.md</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/demo_bob.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/demo_bob.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/demo_eve.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/demo_eve.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/demo_kev.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/demo_kev.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/demo_sam.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/demo_sam.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/demoing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/demoing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/bob.2021-03-08_21-37-25_238349.txt" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/bob.2021-03-08_21-37-25_238349.txt</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/bob.2021-03-08_23-41-35_745844.txt" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/bob.2021-03-08_23-41-35_745844.txt</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/eve.2021-03-08_21-37-25_262367.txt" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/eve.2021-03-08_21-37-25_262367.txt</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/eve.2021-03-08_21-38-11_244687.txt" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/eve.2021-03-08_21-38-11_244687.txt</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/eve.2021-03-08_23-41-40_603809.txt" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/eve.2021-03-08_23-41-40_603809.txt</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/eve.2021-03-08_23-52-55_318751.txt" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/eve.2021-03-08_23-52-55_318751.txt</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/sam.2021-03-08_21-38-11_220617.txt" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/sam.2021-03-08_21-38-11_220617.txt</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/sam.2021-03-08_23-52-46_400816.txt" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/sam.2021-03-08_23-52-46_400816.txt</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/ending.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/ending.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/priming.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/priming.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/static/favicon.ico" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/static/favicon.ico</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/static/index.html" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/static/index.html</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/static/index.js" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/static/index.js</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/static/robots.txt" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/static/robots.txt</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/help/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/help/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/help/helping.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/help/helping.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/kering.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/kering.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/peer/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/peer/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/peer/exchanging.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/peer/exchanging.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/vc/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/vc/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/vc/protocoling.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/vc/protocoling.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/vc/proving.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/vc/proving.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/vc/walleting.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/vc/walleting.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/vdr/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/vdr/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/vdr/credentialing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/vdr/credentialing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/vdr/eventing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/vdr/eventing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/vdr/verifying.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/vdr/verifying.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/src/keri/vdr/viring.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/src/keri/vdr/viring.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/favicon-16x16.png" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/favicon-16x16.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/favicon-32x32.png" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/favicon-32x32.png</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/index.html" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/index.html</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/oauth2-redirect.html" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/oauth2-redirect.html</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui-bundle.js" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui-bundle.js</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui-bundle.js.map" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui-bundle.js.map</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui-standalone-preset.js" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui-standalone-preset.js</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui-standalone-preset.js.map" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui-standalone-preset.js.map</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui.css" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui.css</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui.css.map" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui.css.map</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui.js" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui.js</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui.js.map" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui.js.map</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/anchor.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/anchor.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/challenge/alice.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/challenge/alice.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/challenge/bob.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/challenge/bob.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/challenge/keri/cf/demo-witness-oobis.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/challenge/keri/cf/demo-witness-oobis.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/challenge/keri/cf/main/wan.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/challenge/keri/cf/main/wan.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/challenge/keri/cf/main/wes.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/challenge/keri/cf/main/wes.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/challenge/keri/cf/main/wil.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/challenge/keri/cf/main/wil.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/delegate-1.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/delegate-1.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/delegate-2.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/delegate-2.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/delegatee.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/delegatee.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/delegator-1.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/delegator-1.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/delegator-2.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/delegator-2.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/delegator.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/delegator.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/multisig-delegate.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/multisig-delegate.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/multisig-delegator.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/multisig-delegator.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/rotate-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/rotate-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/mtest-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/mtest-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/mtest/keri/cf/demo-witness-oobis.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/mtest/keri/cf/demo-witness-oobis.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/mtest/keri/cf/main/wan.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/mtest/keri/cf/main/wan.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/mtest/keri/cf/main/wes.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/mtest/keri/cf/main/wes.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/mtest/keri/cf/main/wil.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/mtest/keri/cf/main/wil.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/multisig-1-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/multisig-1-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/multisig-2-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/multisig-2-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/multisig-3-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/multisig-3-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/multisig-delegate-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/multisig-delegate-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/multisig-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/multisig-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/oobi/keri/cf/test.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/oobi/keri/cf/test.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/oobi/non-transferable-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/oobi/non-transferable-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/watcher/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/watcher/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/watcher/watcher-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/watcher/watcher-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/ctrl-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/ctrl-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/estonly-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/estonly-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/non-transferable-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/non-transferable-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/rotate-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/rotate-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/test_kli_commands.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/test_kli_commands.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/transferable-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/transferable-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/wan-witness-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/wan-witness-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/wes-witness-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/wes-witness-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/wil-witness-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/wil-witness-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/witness-sample.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/witness-sample.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/schema.json" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/schema.json</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_agenting.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_agenting.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_apping.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_apping.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_configing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_configing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_connecting.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_connecting.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_credentials.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_credentials.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_delegating.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_delegating.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_directing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_directing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_forwarding.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_forwarding.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_grouping.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_grouping.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_habbing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_habbing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_httping.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_httping.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_indirecting.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_indirecting.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_keeping.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_keeping.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_kiwiing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_kiwiing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_multisig.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_multisig.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_notifying.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_notifying.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_oobiing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_oobiing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_signaling.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_signaling.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_signing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_signing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_specing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_specing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_storing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_storing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_watching.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_watching.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/comply/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/comply/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/comply/test_direct_mode.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/comply/test_direct_mode.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/conftest.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/conftest.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/core/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/core/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_bare.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_bare.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_coring.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_coring.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_crypto.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_crypto.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_delegating.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_delegating.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_escrow.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_escrow.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_eventing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_eventing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_kevery.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_kevery.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_keystate.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_keystate.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_parsing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_parsing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_parsing_pathed.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_parsing_pathed.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_partial_rotation.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_partial_rotation.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_replay.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_replay.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_reply.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_reply.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_scheming.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_scheming.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_weighted_threshold.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_weighted_threshold.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_witness.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_witness.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/db/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/db/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/db/test_basing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/db/test_basing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/db/test_dbing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/db/test_dbing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/db/test_escrowing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/db/test_escrowing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/db/test_koming.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/db/test_koming.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/db/test_subing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/db/test_subing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/demo/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/demo/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/demo/test_demo.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/demo/test_demo.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/end/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/end/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/end/test_ending.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/end/test_ending.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/help/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/help/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/help/test_helping.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/help/test_helping.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/help/test_ogling.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/help/test_ogling.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/peer/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/peer/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/peer/test_exchanging.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/peer/test_exchanging.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/vc/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/vc/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/vc/test_protocoling.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/vc/test_protocoling.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/vc/test_proving.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/vc/test_proving.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/vc/test_walleting.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/vc/test_walleting.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/__init__.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/__init__.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/test_eventing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/test_eventing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/test_issuing.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/test_issuing.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/test_txn_state.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/test_txn_state.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/test_verifying.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/test_verifying.py</a></li>
+<li><a href="https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/test_viring.py" target="_blank">https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/test_viring.py</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/.github/workflows/main.yml" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/.github/workflows/main.yml</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/.gitignore" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/.gitignore</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/LICENSE" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/LICENSE</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/README.md" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/README.md</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/.eslintrc.cjs" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/.eslintrc.cjs</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/.gitignore" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/.gitignore</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/.puppeteerrc.cjs" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/.puppeteerrc.cjs</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/client.png" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/client.png</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/connecting.png" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/connecting.png</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/identifier.png" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/identifier.png</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/index.html" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/index.html</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/package-lock.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/package-lock.json</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/package.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/package.json</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/public/vite.svg" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/public/vite.svg</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/scripts/keri/cf/demo-witness-oobis.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/scripts/keri/cf/demo-witness-oobis.json</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/App.css" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/App.css</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/App.tsx" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/App.tsx</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/MainComponent.tsx" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/MainComponent.tsx</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/Signify.tsx" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/Signify.tsx</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/SignifyDemo.tsx" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/SignifyDemo.tsx</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/TestsComponent.tsx" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/TestsComponent.tsx</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/assets/react.svg" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/assets/react.svg</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/index.css" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/index.css</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/main.tsx" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/main.tsx</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Challenges.tsx" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Challenges.tsx</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Credentials.tsx" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Credentials.tsx</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Delegation.tsx" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Delegation.tsx</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Multisig.tsx" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Multisig.tsx</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Randy.tsx" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Randy.tsx</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Salty.tsx" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Salty.tsx</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Witnesses.tsx" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Witnesses.tsx</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/vite-env.d.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/vite-env.d.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/tests/integrations.js" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/tests/integrations.js</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/tsconfig.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/tsconfig.json</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/tsconfig.node.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/tsconfig.node.json</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/vite.config.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/vite.config.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/vite.config.ts.timestamp-1685395612909-bba831f8e6577.mjs" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/vite.config.ts.timestamp-1685395612909-bba831f8e6577.mjs</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/package-lock.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/package-lock.json</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/package.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/package.json</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/index.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/index.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/apping.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/apping.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/client.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/client.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/controller.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/controller.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/habery.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/habery.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/signify.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/signify.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/tsconfig.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/tsconfig.json</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/authing.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/authing.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/cigar.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/cigar.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/cipher.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/cipher.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/core.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/core.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/counter.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/counter.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/decrypter.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/decrypter.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/diger.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/diger.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/encrypter.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/encrypter.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/eventing.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/eventing.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/httping.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/httping.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/indexer.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/indexer.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/keeping.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/keeping.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/kering.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/kering.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/manager.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/manager.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/matter.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/matter.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/number.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/number.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/prefixer.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/prefixer.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/saider.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/saider.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/salter.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/salter.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/seqner.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/seqner.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/serder.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/serder.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/siger.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/siger.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/signer.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/signer.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/tholder.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/tholder.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/tsconfig.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/tsconfig.json</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/utils.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/utils.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/verfer.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/core/verfer.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/end/ending.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/end/ending.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/end/tsconfig.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/end/tsconfig.json</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/app/controller.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/app/controller.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/app/habery.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/app/habery.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/core/authing.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/core/authing.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/core/coring.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/core/coring.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/core/counter.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/core/counter.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/core/decrypter.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/core/decrypter.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/core/diger.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/core/diger.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/core/encrypter.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/core/encrypter.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/core/eventing.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/core/eventing.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/core/httping.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/core/httping.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/core/indexer.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/core/indexer.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/core/manager.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/core/manager.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/core/matter.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/core/matter.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/core/prefixer.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/core/prefixer.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/core/saider.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/core/saider.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/core/salter.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/core/salter.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/core/seqner.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/core/seqner.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/core/serder.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/core/serder.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/core/signer.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/core/signer.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/core/verfer.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/core/verfer.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/test/end/ending.test.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/test/end/ending.test.ts</a></li>
+<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/tsconfig.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/tsconfig.json</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki" target="_blank">https://github.com/trustoverip/acdc/wiki</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/ACDC" target="_blank">https://github.com/trustoverip/acdc/wiki/ACDC</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/ADC" target="_blank">https://github.com/trustoverip/acdc/wiki/ADC</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/AID" target="_blank">https://github.com/trustoverip/acdc/wiki/AID</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/AN" target="_blank">https://github.com/trustoverip/acdc/wiki/AN</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/APC" target="_blank">https://github.com/trustoverip/acdc/wiki/APC</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/API" target="_blank">https://github.com/trustoverip/acdc/wiki/API</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/AVR" target="_blank">https://github.com/trustoverip/acdc/wiki/AVR</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/BADA" target="_blank">https://github.com/trustoverip/acdc/wiki/BADA</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/BFT" target="_blank">https://github.com/trustoverip/acdc/wiki/BFT</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/CESR" target="_blank">https://github.com/trustoverip/acdc/wiki/CESR</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/CLC" target="_blank">https://github.com/trustoverip/acdc/wiki/CLC</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/CRUD" target="_blank">https://github.com/trustoverip/acdc/wiki/CRUD</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/CSPRNG" target="_blank">https://github.com/trustoverip/acdc/wiki/CSPRNG</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/CT" target="_blank">https://github.com/trustoverip/acdc/wiki/CT</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/DAG" target="_blank">https://github.com/trustoverip/acdc/wiki/DAG</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/DAR" target="_blank">https://github.com/trustoverip/acdc/wiki/DAR</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/DEL" target="_blank">https://github.com/trustoverip/acdc/wiki/DEL</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/DHT" target="_blank">https://github.com/trustoverip/acdc/wiki/DHT</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/DID" target="_blank">https://github.com/trustoverip/acdc/wiki/DID</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/DKMI" target="_blank">https://github.com/trustoverip/acdc/wiki/DKMI</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/DPKI" target="_blank">https://github.com/trustoverip/acdc/wiki/DPKI</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/ECR" target="_blank">https://github.com/trustoverip/acdc/wiki/ECR</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/FFI" target="_blank">https://github.com/trustoverip/acdc/wiki/FFI</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/GAR" target="_blank">https://github.com/trustoverip/acdc/wiki/GAR</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/GLEIF" target="_blank">https://github.com/trustoverip/acdc/wiki/GLEIF</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/GLEIS" target="_blank">https://github.com/trustoverip/acdc/wiki/GLEIS</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/GPG" target="_blank">https://github.com/trustoverip/acdc/wiki/GPG</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/HSM" target="_blank">https://github.com/trustoverip/acdc/wiki/HSM</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/I-O" target="_blank">https://github.com/trustoverip/acdc/wiki/I-O</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/IANA" target="_blank">https://github.com/trustoverip/acdc/wiki/IANA</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/IPEX" target="_blank">https://github.com/trustoverip/acdc/wiki/IPEX</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/JOSE" target="_blank">https://github.com/trustoverip/acdc/wiki/JOSE</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/JSON" target="_blank">https://github.com/trustoverip/acdc/wiki/JSON</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/KA2CE" target="_blank">https://github.com/trustoverip/acdc/wiki/KA2CE</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/KAACE" target="_blank">https://github.com/trustoverip/acdc/wiki/KAACE</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/KEL" target="_blank">https://github.com/trustoverip/acdc/wiki/KEL</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/KERI" target="_blank">https://github.com/trustoverip/acdc/wiki/KERI</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/KERISSE" target="_blank">https://github.com/trustoverip/acdc/wiki/KERISSE</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/KERL" target="_blank">https://github.com/trustoverip/acdc/wiki/KERL</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/KID" target="_blank">https://github.com/trustoverip/acdc/wiki/KID</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/KRAM" target="_blank">https://github.com/trustoverip/acdc/wiki/KRAM</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/LEI" target="_blank">https://github.com/trustoverip/acdc/wiki/LEI</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/LLM" target="_blank">https://github.com/trustoverip/acdc/wiki/LLM</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/LoA" target="_blank">https://github.com/trustoverip/acdc/wiki/LoA</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/LoC" target="_blank">https://github.com/trustoverip/acdc/wiki/LoC</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/NFT" target="_blank">https://github.com/trustoverip/acdc/wiki/NFT</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/OOBI" target="_blank">https://github.com/trustoverip/acdc/wiki/OOBI</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/OOR" target="_blank">https://github.com/trustoverip/acdc/wiki/OOR</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/P2P" target="_blank">https://github.com/trustoverip/acdc/wiki/P2P</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/PGP" target="_blank">https://github.com/trustoverip/acdc/wiki/PGP</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/PID" target="_blank">https://github.com/trustoverip/acdc/wiki/PID</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/PKI" target="_blank">https://github.com/trustoverip/acdc/wiki/PKI</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/PRNG" target="_blank">https://github.com/trustoverip/acdc/wiki/PRNG</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/PTEL" target="_blank">https://github.com/trustoverip/acdc/wiki/PTEL</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/QAR" target="_blank">https://github.com/trustoverip/acdc/wiki/QAR</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/QVI" target="_blank">https://github.com/trustoverip/acdc/wiki/QVI</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/RUN" target="_blank">https://github.com/trustoverip/acdc/wiki/RUN</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/SAD" target="_blank">https://github.com/trustoverip/acdc/wiki/SAD</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/SAID" target="_blank">https://github.com/trustoverip/acdc/wiki/SAID</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/SATP" target="_blank">https://github.com/trustoverip/acdc/wiki/SATP</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/SCID" target="_blank">https://github.com/trustoverip/acdc/wiki/SCID</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/SKRAP" target="_blank">https://github.com/trustoverip/acdc/wiki/SKRAP</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/SKWA" target="_blank">https://github.com/trustoverip/acdc/wiki/SKWA</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/SPAC" target="_blank">https://github.com/trustoverip/acdc/wiki/SPAC</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/SSI" target="_blank">https://github.com/trustoverip/acdc/wiki/SSI</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/TCP" target="_blank">https://github.com/trustoverip/acdc/wiki/TCP</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/TEL" target="_blank">https://github.com/trustoverip/acdc/wiki/TEL</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/TOAD" target="_blank">https://github.com/trustoverip/acdc/wiki/TOAD</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/UI" target="_blank">https://github.com/trustoverip/acdc/wiki/UI</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/URL" target="_blank">https://github.com/trustoverip/acdc/wiki/URL</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/VC" target="_blank">https://github.com/trustoverip/acdc/wiki/VC</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/VC-TEL" target="_blank">https://github.com/trustoverip/acdc/wiki/VC-TEL</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/VDS" target="_blank">https://github.com/trustoverip/acdc/wiki/VDS</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/XBRL" target="_blank">https://github.com/trustoverip/acdc/wiki/XBRL</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/agency" target="_blank">https://github.com/trustoverip/acdc/wiki/agency</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/agent" target="_blank">https://github.com/trustoverip/acdc/wiki/agent</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/ambient-verifiability" target="_blank">https://github.com/trustoverip/acdc/wiki/ambient-verifiability</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/append-only-event-logs" target="_blank">https://github.com/trustoverip/acdc/wiki/append-only-event-logs</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/application-programming-interface" target="_blank">https://github.com/trustoverip/acdc/wiki/application-programming-interface</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/authentic-chained-data-container" target="_blank">https://github.com/trustoverip/acdc/wiki/authentic-chained-data-container</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/authentic-data-container" target="_blank">https://github.com/trustoverip/acdc/wiki/authentic-data-container</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/authentic-provenance-chain" target="_blank">https://github.com/trustoverip/acdc/wiki/authentic-provenance-chain</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/authentic-web" target="_blank">https://github.com/trustoverip/acdc/wiki/authentic-web</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/authenticity" target="_blank">https://github.com/trustoverip/acdc/wiki/authenticity</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/authoritative" target="_blank">https://github.com/trustoverip/acdc/wiki/authoritative</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/authority" target="_blank">https://github.com/trustoverip/acdc/wiki/authority</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/authorization" target="_blank">https://github.com/trustoverip/acdc/wiki/authorization</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/authorized-vlei-representative" target="_blank">https://github.com/trustoverip/acdc/wiki/authorized-vlei-representative</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/autonomic-computing-systems" target="_blank">https://github.com/trustoverip/acdc/wiki/autonomic-computing-systems</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/autonomic-identifier" target="_blank">https://github.com/trustoverip/acdc/wiki/autonomic-identifier</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/autonomic-identity-system" target="_blank">https://github.com/trustoverip/acdc/wiki/autonomic-identity-system</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/autonomic-namespace" target="_blank">https://github.com/trustoverip/acdc/wiki/autonomic-namespace</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/backer" target="_blank">https://github.com/trustoverip/acdc/wiki/backer</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/base-media-type" target="_blank">https://github.com/trustoverip/acdc/wiki/base-media-type</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/base64" target="_blank">https://github.com/trustoverip/acdc/wiki/base64</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/bespoke-credential" target="_blank">https://github.com/trustoverip/acdc/wiki/bespoke-credential</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/best-available-data-acceptance-mechanism" target="_blank">https://github.com/trustoverip/acdc/wiki/best-available-data-acceptance-mechanism</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/binding" target="_blank">https://github.com/trustoverip/acdc/wiki/binding</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/blake3" target="_blank">https://github.com/trustoverip/acdc/wiki/blake3</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/blind-oobi" target="_blank">https://github.com/trustoverip/acdc/wiki/blind-oobi</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/blinded-revocation-registry" target="_blank">https://github.com/trustoverip/acdc/wiki/blinded-revocation-registry</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/branch" target="_blank">https://github.com/trustoverip/acdc/wiki/branch</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/byzantine-agreement" target="_blank">https://github.com/trustoverip/acdc/wiki/byzantine-agreement</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/byzantine-fault-tolerance" target="_blank">https://github.com/trustoverip/acdc/wiki/byzantine-fault-tolerance</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/certificate-transparency" target="_blank">https://github.com/trustoverip/acdc/wiki/certificate-transparency</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/cesr-proof-signatures" target="_blank">https://github.com/trustoverip/acdc/wiki/cesr-proof-signatures</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/cesride" target="_blank">https://github.com/trustoverip/acdc/wiki/cesride</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/chain-link-confidentiality" target="_blank">https://github.com/trustoverip/acdc/wiki/chain-link-confidentiality</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/chain-of-custody" target="_blank">https://github.com/trustoverip/acdc/wiki/chain-of-custody</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/cigar" target="_blank">https://github.com/trustoverip/acdc/wiki/cigar</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/claim" target="_blank">https://github.com/trustoverip/acdc/wiki/claim</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/clone" target="_blank">https://github.com/trustoverip/acdc/wiki/clone</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/cloud-agent" target="_blank">https://github.com/trustoverip/acdc/wiki/cloud-agent</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/code-table" target="_blank">https://github.com/trustoverip/acdc/wiki/code-table</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/code-table-selector" target="_blank">https://github.com/trustoverip/acdc/wiki/code-table-selector</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/cold-start-stream-parsing" target="_blank">https://github.com/trustoverip/acdc/wiki/cold-start-stream-parsing</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/collective-signature" target="_blank">https://github.com/trustoverip/acdc/wiki/collective-signature</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/collision" target="_blank">https://github.com/trustoverip/acdc/wiki/collision</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/compact-variant" target="_blank">https://github.com/trustoverip/acdc/wiki/compact-variant</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/complementary-integrity-verification" target="_blank">https://github.com/trustoverip/acdc/wiki/complementary-integrity-verification</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/composability" target="_blank">https://github.com/trustoverip/acdc/wiki/composability</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/composable" target="_blank">https://github.com/trustoverip/acdc/wiki/composable</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/composable-event-streaming-representation" target="_blank">https://github.com/trustoverip/acdc/wiki/composable-event-streaming-representation</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/concatenation" target="_blank">https://github.com/trustoverip/acdc/wiki/concatenation</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/configuration-files" target="_blank">https://github.com/trustoverip/acdc/wiki/configuration-files</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/consensus-mechanism" target="_blank">https://github.com/trustoverip/acdc/wiki/consensus-mechanism</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/content-addressable-hash" target="_blank">https://github.com/trustoverip/acdc/wiki/content-addressable-hash</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/contextual-linkability" target="_blank">https://github.com/trustoverip/acdc/wiki/contextual-linkability</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/contingent-disclosure" target="_blank">https://github.com/trustoverip/acdc/wiki/contingent-disclosure</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/contractually-protected-disclosure" target="_blank">https://github.com/trustoverip/acdc/wiki/contractually-protected-disclosure</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/control-authority" target="_blank">https://github.com/trustoverip/acdc/wiki/control-authority</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/controller" target="_blank">https://github.com/trustoverip/acdc/wiki/controller</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/coroutines" target="_blank">https://github.com/trustoverip/acdc/wiki/coroutines</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/correlation" target="_blank">https://github.com/trustoverip/acdc/wiki/correlation</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/count-code" target="_blank">https://github.com/trustoverip/acdc/wiki/count-code</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/credential" target="_blank">https://github.com/trustoverip/acdc/wiki/credential</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/crypto-libraries" target="_blank">https://github.com/trustoverip/acdc/wiki/crypto-libraries</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/cryptocurrency" target="_blank">https://github.com/trustoverip/acdc/wiki/cryptocurrency</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/cryptographic-commitment-scheme" target="_blank">https://github.com/trustoverip/acdc/wiki/cryptographic-commitment-scheme</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/cryptographic-primitive" target="_blank">https://github.com/trustoverip/acdc/wiki/cryptographic-primitive</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/cryptographic-strength" target="_blank">https://github.com/trustoverip/acdc/wiki/cryptographic-strength</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/cryptonym" target="_blank">https://github.com/trustoverip/acdc/wiki/cryptonym</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/custodial-agent" target="_blank">https://github.com/trustoverip/acdc/wiki/custodial-agent</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/custodial-rotation" target="_blank">https://github.com/trustoverip/acdc/wiki/custodial-rotation</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/data-anchor" target="_blank">https://github.com/trustoverip/acdc/wiki/data-anchor</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/dead-drop" target="_blank">https://github.com/trustoverip/acdc/wiki/dead-drop</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/decentralized-identifier" target="_blank">https://github.com/trustoverip/acdc/wiki/decentralized-identifier</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/decentralized-identity" target="_blank">https://github.com/trustoverip/acdc/wiki/decentralized-identity</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/decentralized-key-management-infrastructure" target="_blank">https://github.com/trustoverip/acdc/wiki/decentralized-key-management-infrastructure</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/delegated-identifier" target="_blank">https://github.com/trustoverip/acdc/wiki/delegated-identifier</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/delegation" target="_blank">https://github.com/trustoverip/acdc/wiki/delegation</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/derivation-code" target="_blank">https://github.com/trustoverip/acdc/wiki/derivation-code</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/designated-authorized-representative" target="_blank">https://github.com/trustoverip/acdc/wiki/designated-authorized-representative</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/diger" target="_blank">https://github.com/trustoverip/acdc/wiki/diger</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/digest" target="_blank">https://github.com/trustoverip/acdc/wiki/digest</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/digital-signature" target="_blank">https://github.com/trustoverip/acdc/wiki/digital-signature</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/directed-acyclic-graph" target="_blank">https://github.com/trustoverip/acdc/wiki/directed-acyclic-graph</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/disclosee" target="_blank">https://github.com/trustoverip/acdc/wiki/disclosee</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/discloser" target="_blank">https://github.com/trustoverip/acdc/wiki/discloser</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/distributed-hash-table" target="_blank">https://github.com/trustoverip/acdc/wiki/distributed-hash-table</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/domain" target="_blank">https://github.com/trustoverip/acdc/wiki/domain</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/domain-name" target="_blank">https://github.com/trustoverip/acdc/wiki/domain-name</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/dual-indexed-codes" target="_blank">https://github.com/trustoverip/acdc/wiki/dual-indexed-codes</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/dual-text-binary-encoding-format" target="_blank">https://github.com/trustoverip/acdc/wiki/dual-text-binary-encoding-format</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/duplicitous-event-log" target="_blank">https://github.com/trustoverip/acdc/wiki/duplicitous-event-log</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/duplicity" target="_blank">https://github.com/trustoverip/acdc/wiki/duplicity</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/eclipse-attack" target="_blank">https://github.com/trustoverip/acdc/wiki/eclipse-attack</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/electronic-signature" target="_blank">https://github.com/trustoverip/acdc/wiki/electronic-signature</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/end-verifiable" target="_blank">https://github.com/trustoverip/acdc/wiki/end-verifiable</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/engagement-context-role" target="_blank">https://github.com/trustoverip/acdc/wiki/engagement-context-role</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/entity" target="_blank">https://github.com/trustoverip/acdc/wiki/entity</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/entropy" target="_blank">https://github.com/trustoverip/acdc/wiki/entropy</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/ephemeral" target="_blank">https://github.com/trustoverip/acdc/wiki/ephemeral</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/escrow" target="_blank">https://github.com/trustoverip/acdc/wiki/escrow</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/escrow-state" target="_blank">https://github.com/trustoverip/acdc/wiki/escrow-state</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/establishment-event" target="_blank">https://github.com/trustoverip/acdc/wiki/establishment-event</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/extensible-business-reporting-language" target="_blank">https://github.com/trustoverip/acdc/wiki/extensible-business-reporting-language</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/field-map" target="_blank">https://github.com/trustoverip/acdc/wiki/field-map</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/first-seen" target="_blank">https://github.com/trustoverip/acdc/wiki/first-seen</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/foreign-function-interface" target="_blank">https://github.com/trustoverip/acdc/wiki/foreign-function-interface</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/frame-code" target="_blank">https://github.com/trustoverip/acdc/wiki/frame-code</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/full-disclosure" target="_blank">https://github.com/trustoverip/acdc/wiki/full-disclosure</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/fully-compact" target="_blank">https://github.com/trustoverip/acdc/wiki/fully-compact</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/fully-expanded" target="_blank">https://github.com/trustoverip/acdc/wiki/fully-expanded</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/ghost-credential" target="_blank">https://github.com/trustoverip/acdc/wiki/ghost-credential</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/gleif-authorized-representative" target="_blank">https://github.com/trustoverip/acdc/wiki/gleif-authorized-representative</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/gnu-privacy-guard" target="_blank">https://github.com/trustoverip/acdc/wiki/gnu-privacy-guard</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/governance-framework" target="_blank">https://github.com/trustoverip/acdc/wiki/governance-framework</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/graduated-disclosure" target="_blank">https://github.com/trustoverip/acdc/wiki/graduated-disclosure</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/graph-fragment" target="_blank">https://github.com/trustoverip/acdc/wiki/graph-fragment</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/group-code" target="_blank">https://github.com/trustoverip/acdc/wiki/group-code</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/group-framing-code" target="_blank">https://github.com/trustoverip/acdc/wiki/group-framing-code</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/habery" target="_blank">https://github.com/trustoverip/acdc/wiki/habery</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/hardware-security-module" target="_blank">https://github.com/trustoverip/acdc/wiki/hardware-security-module</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/hierarchical-asynchronous-coroutines-and-input-output" target="_blank">https://github.com/trustoverip/acdc/wiki/hierarchical-asynchronous-coroutines-and-input-output</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/hierarchical-composition" target="_blank">https://github.com/trustoverip/acdc/wiki/hierarchical-composition</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/hierchical-deterministic-keys" target="_blank">https://github.com/trustoverip/acdc/wiki/hierchical-deterministic-keys</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/hio" target="_blank">https://github.com/trustoverip/acdc/wiki/hio</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/identifier" target="_blank">https://github.com/trustoverip/acdc/wiki/identifier</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/identifier-system" target="_blank">https://github.com/trustoverip/acdc/wiki/identifier-system</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/identity" target="_blank">https://github.com/trustoverip/acdc/wiki/identity</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/inception" target="_blank">https://github.com/trustoverip/acdc/wiki/inception</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/inception-event" target="_blank">https://github.com/trustoverip/acdc/wiki/inception-event</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/inconsistency" target="_blank">https://github.com/trustoverip/acdc/wiki/inconsistency</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/indexed-signature" target="_blank">https://github.com/trustoverip/acdc/wiki/indexed-signature</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/input-output" target="_blank">https://github.com/trustoverip/acdc/wiki/input-output</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/inquisitor" target="_blank">https://github.com/trustoverip/acdc/wiki/inquisitor</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/integrity" target="_blank">https://github.com/trustoverip/acdc/wiki/integrity</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/interaction-event" target="_blank">https://github.com/trustoverip/acdc/wiki/interaction-event</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/interleaved-serialisation" target="_blank">https://github.com/trustoverip/acdc/wiki/interleaved-serialisation</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/internal-inconsistency" target="_blank">https://github.com/trustoverip/acdc/wiki/internal-inconsistency</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/internet-assigned-numbers-authority" target="_blank">https://github.com/trustoverip/acdc/wiki/internet-assigned-numbers-authority</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/interoperability" target="_blank">https://github.com/trustoverip/acdc/wiki/interoperability</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/interoperable" target="_blank">https://github.com/trustoverip/acdc/wiki/interoperable</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/ip-address" target="_blank">https://github.com/trustoverip/acdc/wiki/ip-address</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/issuance-and-presentation-exchange-protocol" target="_blank">https://github.com/trustoverip/acdc/wiki/issuance-and-presentation-exchange-protocol</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/issuance-event" target="_blank">https://github.com/trustoverip/acdc/wiki/issuance-event</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/issuance-exchange" target="_blank">https://github.com/trustoverip/acdc/wiki/issuance-exchange</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/issuee" target="_blank">https://github.com/trustoverip/acdc/wiki/issuee</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/issuer" target="_blank">https://github.com/trustoverip/acdc/wiki/issuer</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/ixn" target="_blank">https://github.com/trustoverip/acdc/wiki/ixn</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/javascript-object-signing-and-encryption" target="_blank">https://github.com/trustoverip/acdc/wiki/javascript-object-signing-and-encryption</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/judge" target="_blank">https://github.com/trustoverip/acdc/wiki/judge</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/juror" target="_blank">https://github.com/trustoverip/acdc/wiki/juror</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/jury" target="_blank">https://github.com/trustoverip/acdc/wiki/jury</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/keep" target="_blank">https://github.com/trustoverip/acdc/wiki/keep</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/keri-agreement-algorithm-for-control-establishment" target="_blank">https://github.com/trustoverip/acdc/wiki/keri-agreement-algorithm-for-control-establishment</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/keri-command-line-interface" target="_blank">https://github.com/trustoverip/acdc/wiki/keri-command-line-interface</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/keri-improvement-doc" target="_blank">https://github.com/trustoverip/acdc/wiki/keri-improvement-doc</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/keri-ox" target="_blank">https://github.com/trustoverip/acdc/wiki/keri-ox</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/keri-request-authentication-method" target="_blank">https://github.com/trustoverip/acdc/wiki/keri-request-authentication-method</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/keri-suite" target="_blank">https://github.com/trustoverip/acdc/wiki/keri-suite</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/keri-suite-search-engine" target="_blank">https://github.com/trustoverip/acdc/wiki/keri-suite-search-engine</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/keria" target="_blank">https://github.com/trustoverip/acdc/wiki/keria</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/keride" target="_blank">https://github.com/trustoverip/acdc/wiki/keride</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/keridemlia" target="_blank">https://github.com/trustoverip/acdc/wiki/keridemlia</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/keripy" target="_blank">https://github.com/trustoverip/acdc/wiki/keripy</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/key" target="_blank">https://github.com/trustoverip/acdc/wiki/key</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/key-compromise" target="_blank">https://github.com/trustoverip/acdc/wiki/key-compromise</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/key-event" target="_blank">https://github.com/trustoverip/acdc/wiki/key-event</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/key-event-log" target="_blank">https://github.com/trustoverip/acdc/wiki/key-event-log</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/key-event-message" target="_blank">https://github.com/trustoverip/acdc/wiki/key-event-message</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/key-event-receipt" target="_blank">https://github.com/trustoverip/acdc/wiki/key-event-receipt</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/key-event-receipt-infrastructure" target="_blank">https://github.com/trustoverip/acdc/wiki/key-event-receipt-infrastructure</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/key-event-receipt-log" target="_blank">https://github.com/trustoverip/acdc/wiki/key-event-receipt-log</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/key-management" target="_blank">https://github.com/trustoverip/acdc/wiki/key-management</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/key-pair" target="_blank">https://github.com/trustoverip/acdc/wiki/key-pair</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/key-state" target="_blank">https://github.com/trustoverip/acdc/wiki/key-state</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/key-stretching" target="_blank">https://github.com/trustoverip/acdc/wiki/key-stretching</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/key-transparency" target="_blank">https://github.com/trustoverip/acdc/wiki/key-transparency</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/keystore" target="_blank">https://github.com/trustoverip/acdc/wiki/keystore</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/kli" target="_blank">https://github.com/trustoverip/acdc/wiki/kli</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/large-language-model" target="_blank">https://github.com/trustoverip/acdc/wiki/large-language-model</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/lead-bytes" target="_blank">https://github.com/trustoverip/acdc/wiki/lead-bytes</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/ledger-backer" target="_blank">https://github.com/trustoverip/acdc/wiki/ledger-backer</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/legal-entity" target="_blank">https://github.com/trustoverip/acdc/wiki/legal-entity</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/legal-entity-engagement-context-role-vlei-credential-governance-framework" target="_blank">https://github.com/trustoverip/acdc/wiki/legal-entity-engagement-context-role-vlei-credential-governance-framework</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/legal-entity-official-organizational-role-vlei-credential-governance-framework" target="_blank">https://github.com/trustoverip/acdc/wiki/legal-entity-official-organizational-role-vlei-credential-governance-framework</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/legal-entity-vlei-credential-governance-framework" target="_blank">https://github.com/trustoverip/acdc/wiki/legal-entity-vlei-credential-governance-framework</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/levels-of-assurance" target="_blank">https://github.com/trustoverip/acdc/wiki/levels-of-assurance</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/liveness" target="_blank">https://github.com/trustoverip/acdc/wiki/liveness</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/loci-of-control" target="_blank">https://github.com/trustoverip/acdc/wiki/loci-of-control</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/locked-state" target="_blank">https://github.com/trustoverip/acdc/wiki/locked-state</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/management-TEL" target="_blank">https://github.com/trustoverip/acdc/wiki/management-TEL</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/management-transaction-event-log" target="_blank">https://github.com/trustoverip/acdc/wiki/management-transaction-event-log</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/message" target="_blank">https://github.com/trustoverip/acdc/wiki/message</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/most-compact" target="_blank">https://github.com/trustoverip/acdc/wiki/most-compact</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/multicodec" target="_blank">https://github.com/trustoverip/acdc/wiki/multicodec</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/multiplexing" target="_blank">https://github.com/trustoverip/acdc/wiki/multiplexing</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/multisig" target="_blank">https://github.com/trustoverip/acdc/wiki/multisig</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/naive-conversion" target="_blank">https://github.com/trustoverip/acdc/wiki/naive-conversion</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/namespace" target="_blank">https://github.com/trustoverip/acdc/wiki/namespace</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/ndigs" target="_blank">https://github.com/trustoverip/acdc/wiki/ndigs</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/nested-cooperative-delegated-identifiers" target="_blank">https://github.com/trustoverip/acdc/wiki/nested-cooperative-delegated-identifiers</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/non-establishment-event" target="_blank">https://github.com/trustoverip/acdc/wiki/non-establishment-event</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/non-fungible-token" target="_blank">https://github.com/trustoverip/acdc/wiki/non-fungible-token</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/non-normative" target="_blank">https://github.com/trustoverip/acdc/wiki/non-normative</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/non-repudiable" target="_blank">https://github.com/trustoverip/acdc/wiki/non-repudiable</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/non-transferable" target="_blank">https://github.com/trustoverip/acdc/wiki/non-transferable</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/non-transferable-identifier" target="_blank">https://github.com/trustoverip/acdc/wiki/non-transferable-identifier</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/normative" target="_blank">https://github.com/trustoverip/acdc/wiki/normative</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/official-organizational-role" target="_blank">https://github.com/trustoverip/acdc/wiki/official-organizational-role</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/one-way-functions" target="_blank">https://github.com/trustoverip/acdc/wiki/one-way-functions</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/opcode" target="_blank">https://github.com/trustoverip/acdc/wiki/opcode</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/out-of-band-introduction" target="_blank">https://github.com/trustoverip/acdc/wiki/out-of-band-introduction</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/owner" target="_blank">https://github.com/trustoverip/acdc/wiki/owner</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/ownership" target="_blank">https://github.com/trustoverip/acdc/wiki/ownership</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/pad" target="_blank">https://github.com/trustoverip/acdc/wiki/pad</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/parside" target="_blank">https://github.com/trustoverip/acdc/wiki/parside</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/partial-disclosure" target="_blank">https://github.com/trustoverip/acdc/wiki/partial-disclosure</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/partial-pre-rotation" target="_blank">https://github.com/trustoverip/acdc/wiki/partial-pre-rotation</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/partial-rotation" target="_blank">https://github.com/trustoverip/acdc/wiki/partial-rotation</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/passcode" target="_blank">https://github.com/trustoverip/acdc/wiki/passcode</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/payload" target="_blank">https://github.com/trustoverip/acdc/wiki/payload</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/peer-to-peer" target="_blank">https://github.com/trustoverip/acdc/wiki/peer-to-peer</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/percolated-information-discovery" target="_blank">https://github.com/trustoverip/acdc/wiki/percolated-information-discovery</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/persistent-data-structure" target="_blank">https://github.com/trustoverip/acdc/wiki/persistent-data-structure</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/persistent-identifier" target="_blank">https://github.com/trustoverip/acdc/wiki/persistent-identifier</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/pii" target="_blank">https://github.com/trustoverip/acdc/wiki/pii</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/pipelining" target="_blank">https://github.com/trustoverip/acdc/wiki/pipelining</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/post-pad" target="_blank">https://github.com/trustoverip/acdc/wiki/post-pad</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/pre-pad" target="_blank">https://github.com/trustoverip/acdc/wiki/pre-pad</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/pre-rotation" target="_blank">https://github.com/trustoverip/acdc/wiki/pre-rotation</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/prefix" target="_blank">https://github.com/trustoverip/acdc/wiki/prefix</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/presentation-exchange" target="_blank">https://github.com/trustoverip/acdc/wiki/presentation-exchange</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/pretty-good-privacy" target="_blank">https://github.com/trustoverip/acdc/wiki/pretty-good-privacy</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/primary-root-of-trust" target="_blank">https://github.com/trustoverip/acdc/wiki/primary-root-of-trust</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/primitive" target="_blank">https://github.com/trustoverip/acdc/wiki/primitive</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/promiscuous-mode" target="_blank">https://github.com/trustoverip/acdc/wiki/promiscuous-mode</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/proof-of-authority" target="_blank">https://github.com/trustoverip/acdc/wiki/proof-of-authority</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/proof-of-authorship" target="_blank">https://github.com/trustoverip/acdc/wiki/proof-of-authorship</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/protocol" target="_blank">https://github.com/trustoverip/acdc/wiki/protocol</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/provenance" target="_blank">https://github.com/trustoverip/acdc/wiki/provenance</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/pseudo-random-number" target="_blank">https://github.com/trustoverip/acdc/wiki/pseudo-random-number</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/public-key-infrastructure" target="_blank">https://github.com/trustoverip/acdc/wiki/public-key-infrastructure</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/public-transaction-event-log" target="_blank">https://github.com/trustoverip/acdc/wiki/public-transaction-event-log</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/public-verifiable-credential-registry" target="_blank">https://github.com/trustoverip/acdc/wiki/public-verifiable-credential-registry</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/qualified" target="_blank">https://github.com/trustoverip/acdc/wiki/qualified</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/qualified-vlei-issuer" target="_blank">https://github.com/trustoverip/acdc/wiki/qualified-vlei-issuer</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/qualified-vlei-issuer-vlei-credential-governance-framework" target="_blank">https://github.com/trustoverip/acdc/wiki/qualified-vlei-issuer-vlei-credential-governance-framework</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/qvi-authorized-representative" target="_blank">https://github.com/trustoverip/acdc/wiki/qvi-authorized-representative</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/race-condition" target="_blank">https://github.com/trustoverip/acdc/wiki/race-condition</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/rainbow-table-attack" target="_blank">https://github.com/trustoverip/acdc/wiki/rainbow-table-attack</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/receipt" target="_blank">https://github.com/trustoverip/acdc/wiki/receipt</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/receipt-log" target="_blank">https://github.com/trustoverip/acdc/wiki/receipt-log</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/redundant-credential" target="_blank">https://github.com/trustoverip/acdc/wiki/redundant-credential</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/registrar" target="_blank">https://github.com/trustoverip/acdc/wiki/registrar</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/registry" target="_blank">https://github.com/trustoverip/acdc/wiki/registry</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/replay-attack" target="_blank">https://github.com/trustoverip/acdc/wiki/replay-attack</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/repo" target="_blank">https://github.com/trustoverip/acdc/wiki/repo</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/reserve-rotation" target="_blank">https://github.com/trustoverip/acdc/wiki/reserve-rotation</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/revocation-event" target="_blank">https://github.com/trustoverip/acdc/wiki/revocation-event</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/ricardian-contract" target="_blank">https://github.com/trustoverip/acdc/wiki/ricardian-contract</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/root-of-trust" target="_blank">https://github.com/trustoverip/acdc/wiki/root-of-trust</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/rot" target="_blank">https://github.com/trustoverip/acdc/wiki/rot</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/rotation" target="_blank">https://github.com/trustoverip/acdc/wiki/rotation</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/rotation-authority" target="_blank">https://github.com/trustoverip/acdc/wiki/rotation-authority</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/rotation-event" target="_blank">https://github.com/trustoverip/acdc/wiki/rotation-event</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/run-off-the-crud" target="_blank">https://github.com/trustoverip/acdc/wiki/run-off-the-crud</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/sally" target="_blank">https://github.com/trustoverip/acdc/wiki/sally</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/salt" target="_blank">https://github.com/trustoverip/acdc/wiki/salt</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/salter" target="_blank">https://github.com/trustoverip/acdc/wiki/salter</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/schema-namespace-registry" target="_blank">https://github.com/trustoverip/acdc/wiki/schema-namespace-registry</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/schema-registry" target="_blank">https://github.com/trustoverip/acdc/wiki/schema-registry</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/seal" target="_blank">https://github.com/trustoverip/acdc/wiki/seal</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/secondary-root-of-trust" target="_blank">https://github.com/trustoverip/acdc/wiki/secondary-root-of-trust</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/secure-asset-transfer-protocol" target="_blank">https://github.com/trustoverip/acdc/wiki/secure-asset-transfer-protocol</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/secure-attribution" target="_blank">https://github.com/trustoverip/acdc/wiki/secure-attribution</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/secure-private-authentic-confidentiality" target="_blank">https://github.com/trustoverip/acdc/wiki/secure-private-authentic-confidentiality</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/seed" target="_blank">https://github.com/trustoverip/acdc/wiki/seed</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/selective-disclosure" target="_blank">https://github.com/trustoverip/acdc/wiki/selective-disclosure</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/self-addressing-data" target="_blank">https://github.com/trustoverip/acdc/wiki/self-addressing-data</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/self-addressing-identifier" target="_blank">https://github.com/trustoverip/acdc/wiki/self-addressing-identifier</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/self-certifying-identifier" target="_blank">https://github.com/trustoverip/acdc/wiki/self-certifying-identifier</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/self-framing" target="_blank">https://github.com/trustoverip/acdc/wiki/self-framing</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/self-sovereign-identity" target="_blank">https://github.com/trustoverip/acdc/wiki/self-sovereign-identity</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/self-sovereignty" target="_blank">https://github.com/trustoverip/acdc/wiki/self-sovereignty</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/server-sent-event" target="_blank">https://github.com/trustoverip/acdc/wiki/server-sent-event</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/service-endpoint" target="_blank">https://github.com/trustoverip/acdc/wiki/service-endpoint</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/siger" target="_blank">https://github.com/trustoverip/acdc/wiki/siger</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/signed-digest" target="_blank">https://github.com/trustoverip/acdc/wiki/signed-digest</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/signer" target="_blank">https://github.com/trustoverip/acdc/wiki/signer</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/signify" target="_blank">https://github.com/trustoverip/acdc/wiki/signify</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/signify-keria-request-authentication-protocol" target="_blank">https://github.com/trustoverip/acdc/wiki/signify-keria-request-authentication-protocol</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/signing-authority" target="_blank">https://github.com/trustoverip/acdc/wiki/signing-authority</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/signing-threshold" target="_blank">https://github.com/trustoverip/acdc/wiki/signing-threshold</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/simple-keri-for-web-auth" target="_blank">https://github.com/trustoverip/acdc/wiki/simple-keri-for-web-auth</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/single-signature-identifier" target="_blank">https://github.com/trustoverip/acdc/wiki/single-signature-identifier</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/sniffer" target="_blank">https://github.com/trustoverip/acdc/wiki/sniffer</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/solicited-issuance" target="_blank">https://github.com/trustoverip/acdc/wiki/solicited-issuance</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/source-of-truth" target="_blank">https://github.com/trustoverip/acdc/wiki/source-of-truth</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/spanning-layer" target="_blank">https://github.com/trustoverip/acdc/wiki/spanning-layer</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/ssi-system" target="_blank">https://github.com/trustoverip/acdc/wiki/ssi-system</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/strip-parameter" target="_blank">https://github.com/trustoverip/acdc/wiki/strip-parameter</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/sub-shell" target="_blank">https://github.com/trustoverip/acdc/wiki/sub-shell</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/tcp-endpoint" target="_blank">https://github.com/trustoverip/acdc/wiki/tcp-endpoint</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/text-binary-concatenation-composability" target="_blank">https://github.com/trustoverip/acdc/wiki/text-binary-concatenation-composability</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/threshold-of-accountable-duplicity" target="_blank">https://github.com/trustoverip/acdc/wiki/threshold-of-accountable-duplicity</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/threshold-signature-scheme" target="_blank">https://github.com/trustoverip/acdc/wiki/threshold-signature-scheme</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/top-level-section" target="_blank">https://github.com/trustoverip/acdc/wiki/top-level-section</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/trans-contextual-value" target="_blank">https://github.com/trustoverip/acdc/wiki/trans-contextual-value</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/transaction-event-log" target="_blank">https://github.com/trustoverip/acdc/wiki/transaction-event-log</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/transfer-off-ledger" target="_blank">https://github.com/trustoverip/acdc/wiki/transfer-off-ledger</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/transferable" target="_blank">https://github.com/trustoverip/acdc/wiki/transferable</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/transferable-identifier" target="_blank">https://github.com/trustoverip/acdc/wiki/transferable-identifier</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/transmission-control-protocol" target="_blank">https://github.com/trustoverip/acdc/wiki/transmission-control-protocol</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/trust-domain" target="_blank">https://github.com/trustoverip/acdc/wiki/trust-domain</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/uniform-resource-locator" target="_blank">https://github.com/trustoverip/acdc/wiki/uniform-resource-locator</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/unsolicited-issuance" target="_blank">https://github.com/trustoverip/acdc/wiki/unsolicited-issuance</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/user-interface" target="_blank">https://github.com/trustoverip/acdc/wiki/user-interface</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/vLEI" target="_blank">https://github.com/trustoverip/acdc/wiki/vLEI</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/validate" target="_blank">https://github.com/trustoverip/acdc/wiki/validate</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/validator" target="_blank">https://github.com/trustoverip/acdc/wiki/validator</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/veracity" target="_blank">https://github.com/trustoverip/acdc/wiki/veracity</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/verfer" target="_blank">https://github.com/trustoverip/acdc/wiki/verfer</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/verifiable" target="_blank">https://github.com/trustoverip/acdc/wiki/verifiable</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/verifiable-credential" target="_blank">https://github.com/trustoverip/acdc/wiki/verifiable-credential</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/verifiable-data-structure" target="_blank">https://github.com/trustoverip/acdc/wiki/verifiable-data-structure</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/verifiable-legal-entity-identifier" target="_blank">https://github.com/trustoverip/acdc/wiki/verifiable-legal-entity-identifier</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/verified-integrity" target="_blank">https://github.com/trustoverip/acdc/wiki/verified-integrity</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/verifier" target="_blank">https://github.com/trustoverip/acdc/wiki/verifier</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/verify" target="_blank">https://github.com/trustoverip/acdc/wiki/verify</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/verify-signature" target="_blank">https://github.com/trustoverip/acdc/wiki/verify-signature</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/version" target="_blank">https://github.com/trustoverip/acdc/wiki/version</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/version-code" target="_blank">https://github.com/trustoverip/acdc/wiki/version-code</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/version-string" target="_blank">https://github.com/trustoverip/acdc/wiki/version-string</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/virtual-credential-transaction-event-log" target="_blank">https://github.com/trustoverip/acdc/wiki/virtual-credential-transaction-event-log</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/vlei-credential" target="_blank">https://github.com/trustoverip/acdc/wiki/vlei-credential</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/vlei-ecosystem-governance-framework" target="_blank">https://github.com/trustoverip/acdc/wiki/vlei-ecosystem-governance-framework</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/vlei-role-credential" target="_blank">https://github.com/trustoverip/acdc/wiki/vlei-role-credential</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/wallet" target="_blank">https://github.com/trustoverip/acdc/wiki/wallet</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/watcher" target="_blank">https://github.com/trustoverip/acdc/wiki/watcher</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/web-of-trust" target="_blank">https://github.com/trustoverip/acdc/wiki/web-of-trust</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/well-known%C2%A0witnesses" target="_blank">https://github.com/trustoverip/acdc/wiki/well-known%C2%A0witnesses</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/witness" target="_blank">https://github.com/trustoverip/acdc/wiki/witness</a></li>
+<li><a href="https://github.com/trustoverip/acdc/wiki/zero-trust" target="_blank">https://github.com/trustoverip/acdc/wiki/zero-trust</a></li>
+<li><a href="https://humancolossus.foundation/blog/thinking-of-did-keri-on" target="_blank">https://humancolossus.foundation/blog/thinking-of-did-keri-on</a></li>
+<li><a href="https://kentbull.com/2022/06/05/keri-start/" target="_blank">https://kentbull.com/2022/06/05/keri-start/</a></li>
+<li><a href="https://kentbull.com/2023/01/27/keri-tutorial-series-kli-sign-and-verify-with-heartnet/" target="_blank">https://kentbull.com/2023/01/27/keri-tutorial-series-kli-sign-and-verify-with-heartnet/</a></li>
+<li><a href="https://kentbull.com/2023/03/09/keri-tutorial-series-treasure-hunting-in-abydos-issuing-and-verifying-a-credential-acdc/" target="_blank">https://kentbull.com/2023/03/09/keri-tutorial-series-treasure-hunting-in-abydos-issuing-and-verifying-a-credential-acdc/</a></li>
+<li><a href="https://ksoeteman.nl/2022/08/self-sovereign-identity-can-do-just-fine-blockchain-less/" target="_blank">https://ksoeteman.nl/2022/08/self-sovereign-identity-can-do-just-fine-blockchain-less/</a></li>
+<li><a href="https://medium.com/decentralized-identity/peer-dids-moving-to-difs-id-working-group-7f1664bcbf30" target="_blank">https://medium.com/decentralized-identity/peer-dids-moving-to-difs-id-working-group-7f1664bcbf30</a></li>
+<li><a href="https://medium.com/finema/anonymous-credential-part-1-brief-overview-and-history-c6679034c914" target="_blank">https://medium.com/finema/anonymous-credential-part-1-brief-overview-and-history-c6679034c914</a></li>
+<li><a href="https://medium.com/finema/keri-jargon-in-a-nutshell-part-1-fb554d58f9d0" target="_blank">https://medium.com/finema/keri-jargon-in-a-nutshell-part-1-fb554d58f9d0</a></li>
+<li><a href="https://medium.com/finema/minimal-disclosure-of-identity-with-zero-knowledge-proof-and-cl-signature-517ed2a61307" target="_blank">https://medium.com/finema/minimal-disclosure-of-identity-with-zero-knowledge-proof-and-cl-signature-517ed2a61307</a></li>
+<li><a href="https://medium.com/finema/remote-identity-proofing-for-digital-identity-c9a285c1b774" target="_blank">https://medium.com/finema/remote-identity-proofing-for-digital-identity-c9a285c1b774</a></li>
+<li><a href="https://medium.com/finema/verifiable-credential-and-verifiable-presentation-for-decentralized-digital-identity-132d107c2d9f" target="_blank">https://medium.com/finema/verifiable-credential-and-verifiable-presentation-for-decentralized-digital-identity-132d107c2d9f</a></li>
+<li><a href="https://medium.com/spherity/introducing-keri-8f50ed1d8ed7" target="_blank">https://medium.com/spherity/introducing-keri-8f50ed1d8ed7</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Concepts/" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Concepts/</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Concepts/intro" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Concepts/intro</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Concepts/keri-dev-env" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Concepts/keri-dev-env</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Education/KERI-Mooc" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Education/KERI-Mooc</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Education/Q-and-A" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Education/Q-and-A</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Education/Q-and-A-Security" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Education/Q-and-A-Security</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Education/intro" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Education/intro</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-02-07_vlei-q-a_v1.1-final" target="_blank">https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-02-07_vlei-q-a_v1.1-final</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-10-28_Qualified-vLEI-Issuer-vLEI-Identifer-Credential-GF-Prep-1.0-Publication_v0.9_work" target="_blank">https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-10-28_Qualified-vLEI-Issuer-vLEI-Identifer-Credential-GF-Prep-1.0-Publication_v0.9_work</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-11-01_GLEIF-Identifier-GF-Prep-1.0-Publication_v0.6_work" target="_blank">https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-11-01_GLEIF-Identifier-GF-Prep-1.0-Publication_v0.6_work</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-11-22_Legal-Entity-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work" target="_blank">https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-11-22_Legal-Entity-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-11-23_Legal-Entity-Engagement-Context-Role-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work" target="_blank">https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-11-23_Legal-Entity-Engagement-Context-Role-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-11-23_Legal-Entity-Official-Organizational-Role-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work" target="_blank">https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-11-23_Legal-Entity-Official-Organizational-Role-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-11-30_Legal-Entity-QVI-AUTH-vLEI-Credential-GF-Prep-1.0-Publication_v0.6_work" target="_blank">https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-11-30_Legal-Entity-QVI-AUTH-vLEI-Credential-GF-Prep-1.0-Publication_v0.6_work</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-06_appendix-1-non-disclosure-agreement_v1.0_final" target="_blank">https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-06_appendix-1-non-disclosure-agreement_v1.0_final</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-06_appendix-2-vlei-issuer-qualification-program-manual_v1.0_final" target="_blank">https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-06_appendix-2-vlei-issuer-qualification-program-manual_v1.0_final</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-06_appendix-3-vlei-issuer-qualification-program-checklist_v1.0_final" target="_blank">https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-06_appendix-3-vlei-issuer-qualification-program-checklist_v1.0_final</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-06_appendix-4-vlei-issuer-contact-details_v1.0_final" target="_blank">https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-06_appendix-4-vlei-issuer-contact-details_v1.0_final</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-16_Legal-Entity-QVI-AUTH-vLEI-Credential-Governance-Framework_v1.0_final" target="_blank">https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-16_Legal-Entity-QVI-AUTH-vLEI-Credential-Governance-Framework_v1.0_final</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/Chatbots" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/Chatbots</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/Create-search-index" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/Create-search-index</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/Docusaurus-process" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/Docusaurus-process</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/change-source-filename-if-unusable" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/change-source-filename-if-unusable</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/check-and-accept-PR-production-Edusite-locally" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/check-and-accept-PR-production-Edusite-locally</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/create-terms-link-table" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/create-terms-link-table</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/embed-github-hosted-image-in-github-wiki-page" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/embed-github-hosted-image-in-github-wiki-page</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/fill-out-terms-toip-wiki" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/fill-out-terms-toip-wiki</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/fuzzy-count-terms" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/fuzzy-count-terms</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/intro" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/intro</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/load-toip-glossary-in-weboftrust-github-page" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/load-toip-glossary-in-weboftrust-github-page</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/markdown-from-ToIP-wiki" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/markdown-from-ToIP-wiki</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/pull-changes-from-toip-to-terms" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/pull-changes-from-toip-to-terms</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/pull-in-markdown-documents" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/pull-in-markdown-documents</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/sync-agenda-to-production-via-local" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/sync-agenda-to-production-via-local</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/why-terms-wot-manage-structure" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/why-terms-wot-manage-structure</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Overview/" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Overview/</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Overview/Indexed%20in%20KERISSE" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Overview/Indexed%20in%20KERISSE</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Overview/overview-and-context" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Overview/overview-and-context</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Resources/Keri.one%20resources" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Resources/Keri.one%20resources</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Resources/intro" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Resources/intro</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/IdentifierTheory-ssmith-uidt" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/IdentifierTheory-ssmith-uidt</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-pfeairheller-cesr-proof" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-pfeairheller-cesr-proof</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-pfeairheller-did-keri" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-pfeairheller-did-keri</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-pfeairheller-ptel" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-pfeairheller-ptel</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-ssmith-acdc" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-ssmith-acdc</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-ssmith-cesr" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-ssmith-cesr</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-ssmith-ipex" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-ssmith-ipex</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-ssmith-keri" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-ssmith-keri</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-ssmith-oobi" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-ssmith-oobi</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-ssmith-said" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/draft-ssmith-said</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/kli-demo-2022" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Resources/mdfiles/kli-demo-2022</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ACDC" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ACDC</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ADC" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ADC</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/AID" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/AID</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/AN" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/AN</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/APC" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/APC</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/API" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/API</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/AVR" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/AVR</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/BADA" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/BADA</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/BFT" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/BFT</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/CESR" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/CESR</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/CLC" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/CLC</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/CRUD" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/CRUD</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/CT" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/CT</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DAG" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DAG</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DAR" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DAR</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DEL" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DEL</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DHT" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DHT</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DID" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DID</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DKMI" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DKMI</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DPKI" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/DPKI</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ECR" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ECR</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/GAR" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/GAR</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/GLEIF" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/GLEIF</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/GLEIS" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/GLEIS</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/GPG" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/GPG</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/Home" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/Home</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/I-O" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/I-O</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/IANA" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/IANA</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/IPEX" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/IPEX</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/JOSE" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/JOSE</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KA2CE" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KA2CE</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KAACE" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KAACE</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KEL" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KEL</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KERI" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KERI</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KERL" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KERL</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KID" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KID</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KRAM" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KRAM</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/LEI" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/LEI</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/LoA" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/LoA</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/LoC" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/LoC</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/NFT" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/NFT</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/OOBI" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/OOBI</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/OOR" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/OOR</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/P2P" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/P2P</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/PGP" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/PGP</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/PKI" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/PKI</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/PTEL" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/PTEL</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/QAR" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/QAR</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/QVI" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/QVI</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/RUN" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/RUN</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/SAD" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/SAD</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/SAID" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/SAID</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/SATP" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/SATP</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/SCID" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/SCID</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/SKWA" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/SKWA</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/SSI" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/SSI</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/TCP" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/TCP</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/TEL" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/TEL</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/UI" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/UI</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/URL" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/URL</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/VC" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/VC</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/VC-TEL" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/VC-TEL</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/VDS" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/VDS</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/XBRL" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/XBRL</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/agency" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/agency</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/agent" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/agent</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ambient-verifiability" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ambient-verifiability</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/append-only-event-logs" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/append-only-event-logs</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/application-programming-interface" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/application-programming-interface</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authentic-chained-data-container" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authentic-chained-data-container</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authentic-data-container" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authentic-data-container</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authentic-provenance-chain" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authentic-provenance-chain</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authentic-web" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authentic-web</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authenticity" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authenticity</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authoritative" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authoritative</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authority" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authority</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authorization" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authorization</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authorized-vlei-representative" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/authorized-vlei-representative</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/autonomic-computing-systems" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/autonomic-computing-systems</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/autonomic-identifier" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/autonomic-identifier</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/autonomic-identity-system" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/autonomic-identity-system</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/autonomic-namespace" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/autonomic-namespace</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/backer" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/backer</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/base64" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/base64</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/best-available-data-acceptance-mechanism" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/best-available-data-acceptance-mechanism</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/binding" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/binding</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/blake3" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/blake3</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/blind-oobi" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/blind-oobi</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/blinded-revocation-registry" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/blinded-revocation-registry</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/branch" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/branch</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/byzantine-agreement" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/byzantine-agreement</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/byzantine-fault-tolerance" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/byzantine-fault-tolerance</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/certificate-transparency" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/certificate-transparency</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cesr-proof-signatures" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cesr-proof-signatures</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cesride" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cesride</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/chain-link-confidentiality" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/chain-link-confidentiality</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/chain-of-custody" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/chain-of-custody</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/claim" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/claim</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/clone" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/clone</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cloud-agent" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cloud-agent</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/code-table" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/code-table</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/code-table-selector" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/code-table-selector</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cold-start-stream-parsing" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cold-start-stream-parsing</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/collective-signature" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/collective-signature</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/collision" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/collision</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/compact-variant" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/compact-variant</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/complementary-integrity-verification" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/complementary-integrity-verification</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/composability" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/composability</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/composable" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/composable</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/composable-event-streaming-representation" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/composable-event-streaming-representation</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/concatenation" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/concatenation</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/configuration-files" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/configuration-files</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/consensus-mechanism" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/consensus-mechanism</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/content-addressable-hash" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/content-addressable-hash</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/contextual-linkability" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/contextual-linkability</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/contingent-disclosure" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/contingent-disclosure</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/contractually-protected-disclosure" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/contractually-protected-disclosure</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/control-authority" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/control-authority</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/controller" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/controller</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/coroutines" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/coroutines</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/correlation" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/correlation</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/count-code" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/count-code</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/credential" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/credential</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/crypto-libraries" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/crypto-libraries</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cryptocurrency" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cryptocurrency</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cryptographic-commitment-scheme" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cryptographic-commitment-scheme</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cryptographic-primitive" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cryptographic-primitive</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cryptographic-strength" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cryptographic-strength</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cryptonym" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/cryptonym</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/custodial-agent" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/custodial-agent</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/custodial-rotation" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/custodial-rotation</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/data-anchor" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/data-anchor</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/decentralized-identifier" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/decentralized-identifier</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/decentralized-identity" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/decentralized-identity</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/decentralized-key-management-infrastructure" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/decentralized-key-management-infrastructure</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/delegated-identifier" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/delegated-identifier</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/delegation" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/delegation</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/derivation-code" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/derivation-code</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/designated-authorized-representative" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/designated-authorized-representative</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/digest" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/digest</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/digital-signature" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/digital-signature</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/directed-acyclic-graph" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/directed-acyclic-graph</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/disclosee" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/disclosee</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/discloser" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/discloser</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/distributed-hash-table" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/distributed-hash-table</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/domain" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/domain</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/domain-name" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/domain-name</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/dual-text-binary-encoding-format" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/dual-text-binary-encoding-format</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/duplicitous-event-log" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/duplicitous-event-log</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/duplicity" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/duplicity</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/eclipse-attack" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/eclipse-attack</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/electronic-signature" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/electronic-signature</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/end-verifiable" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/end-verifiable</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/engagement-context-role" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/engagement-context-role</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/entity" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/entity</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/entropy" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/entropy</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ephemeral" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ephemeral</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/escrow" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/escrow</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/escrow-state" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/escrow-state</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/establishment-event" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/establishment-event</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/extensible-business-reporting-language" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/extensible-business-reporting-language</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/first-seen" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/first-seen</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/frame-code" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/frame-code</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/fully-compact" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/fully-compact</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/fully-expanded" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/fully-expanded</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ghost-credential" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ghost-credential</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/gleif-authorized-representative" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/gleif-authorized-representative</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/gnu-privacy-guard" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/gnu-privacy-guard</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/governance-framework" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/governance-framework</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/graduated-disclosure" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/graduated-disclosure</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/graph-fragment" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/graph-fragment</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/group-code" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/group-code</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/group-framing-code" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/group-framing-code</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/habery" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/habery</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/hierarchical-asynchronous-coroutines-and-input-output" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/hierarchical-asynchronous-coroutines-and-input-output</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/hierarchical-composition" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/hierarchical-composition</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/hio" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/hio</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/identifier" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/identifier</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/identifier-system" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/identifier-system</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/identity" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/identity</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/inception" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/inception</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/inception-event" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/inception-event</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/inconsistency" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/inconsistency</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/indexed-signature" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/indexed-signature</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/input-output" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/input-output</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/inquisitor" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/inquisitor</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/integrity" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/integrity</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/interaction-event" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/interaction-event</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/interleaved-serialisation" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/interleaved-serialisation</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/internal-inconsistency" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/internal-inconsistency</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/internet-assigned-numbers-authority" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/internet-assigned-numbers-authority</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/interoperability" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/interoperability</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/interoperable" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/interoperable</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/intro" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/intro</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ip-address" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ip-address</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/issuance-and-presentation-exchange-protocol" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/issuance-and-presentation-exchange-protocol</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/issuance-event" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/issuance-event</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/issuance-exchange" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/issuance-exchange</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/issuee" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/issuee</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/issuer" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/issuer</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/javascript-object-signing-and-encryption" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/javascript-object-signing-and-encryption</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/judge" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/judge</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/juror" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/juror</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/jury" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/jury</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keep" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keep</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keri-agreement-algorithm-for-control-establishment" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keri-agreement-algorithm-for-control-establishment</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keri-command-line-interface" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keri-command-line-interface</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keri-improvement-doc" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keri-improvement-doc</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keri-ox" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keri-ox</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keri-request-authentication-method" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keri-request-authentication-method</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keridemlia" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keridemlia</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keripy" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keripy</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-compromise" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-compromise</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-event" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-event</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-event-log" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-event-log</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-event-message" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-event-message</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-event-receipt" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-event-receipt</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-event-receipt-infrastructure" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-event-receipt-infrastructure</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-event-receipt-log" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-event-receipt-log</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-management" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-management</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-pair" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-pair</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-state" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-state</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-stretching" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-stretching</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-transparency" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/key-transparency</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keystore" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/keystore</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/kli" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/kli</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/lead-bytes" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/lead-bytes</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ledger-backer" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ledger-backer</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/legal-entity" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/legal-entity</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/legal-entity-engagement-context-role-vlei-credential-governance-framework" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/legal-entity-engagement-context-role-vlei-credential-governance-framework</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/legal-entity-official-organizational-role-vlei-credential-governance-framework" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/legal-entity-official-organizational-role-vlei-credential-governance-framework</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/legal-entity-vlei-credential-governance-framework" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/legal-entity-vlei-credential-governance-framework</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/levels-of-assurance" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/levels-of-assurance</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/liveness" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/liveness</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/loci-of-control" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/loci-of-control</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/locked-state" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/locked-state</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/management-TEL" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/management-TEL</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/management-transaction-event-log" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/management-transaction-event-log</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/message" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/message</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/most-compact" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/most-compact</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/multicodec" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/multicodec</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/multiplexing" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/multiplexing</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/multisig" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/multisig</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/naive-conversion" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/naive-conversion</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/namespace" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/namespace</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/nested-cooperative-delegated-identifiers" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/nested-cooperative-delegated-identifiers</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/non-establishment-event" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/non-establishment-event</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/non-fungible-token" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/non-fungible-token</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/non-normative" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/non-normative</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/non-repudiable" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/non-repudiable</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/non-transferable" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/non-transferable</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/non-transferable-identifier" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/non-transferable-identifier</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/normative" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/normative</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/official-organizational-role" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/official-organizational-role</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/one-way-functions" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/one-way-functions</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/opcode" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/opcode</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/out-of-band-introduction" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/out-of-band-introduction</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/owner" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/owner</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ownership" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ownership</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pad" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pad</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/parside" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/parside</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/partial-pre-rotation" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/partial-pre-rotation</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/partial-rotation" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/partial-rotation</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/passcode" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/passcode</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/payload" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/payload</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/peer-to-peer" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/peer-to-peer</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/persistent-data-structure" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/persistent-data-structure</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/persistent-identifier" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/persistent-identifier</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pii" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pii</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pipelining" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pipelining</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/post-pad" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/post-pad</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pre-pad" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pre-pad</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pre-rotation" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pre-rotation</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/prefix" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/prefix</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/presentation-exchange" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/presentation-exchange</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pretty-good-privacy" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pretty-good-privacy</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/primary-root-of-trust" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/primary-root-of-trust</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/primitive" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/primitive</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/promiscuous-mode" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/promiscuous-mode</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/proof-of-authority" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/proof-of-authority</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/proof-of-authorship" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/proof-of-authorship</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/protocol" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/protocol</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/provenance" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/provenance</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pseudo-random-number" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/pseudo-random-number</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/public-key-infrastructure" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/public-key-infrastructure</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/public-transaction-event-log" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/public-transaction-event-log</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/public-verifiable-credential-registry" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/public-verifiable-credential-registry</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/qualified" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/qualified</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/qualified-vlei-issuer" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/qualified-vlei-issuer</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/qualified-vlei-issuer-vlei-credential-governance-framework" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/qualified-vlei-issuer-vlei-credential-governance-framework</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/qvi-authorized-representative" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/qvi-authorized-representative</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/race-condition" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/race-condition</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/rainbow-table-attack" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/rainbow-table-attack</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/receipt" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/receipt</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/receipt-log" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/receipt-log</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/redundant-credential" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/redundant-credential</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/registrar" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/registrar</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/registry" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/registry</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/replay-attack" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/replay-attack</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/repo" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/repo</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/reserve-rotation" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/reserve-rotation</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/revocation-event" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/revocation-event</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ricardian-contract" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ricardian-contract</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/root-of-trust" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/root-of-trust</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/rotation" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/rotation</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/rotation-authority" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/rotation-authority</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/rotation-event" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/rotation-event</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/run-off-the-crud" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/run-off-the-crud</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/sally" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/sally</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/salt" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/salt</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/schema-namespace-registry" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/schema-namespace-registry</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/schema-registry" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/schema-registry</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/seal" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/seal</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/secondary-root-of-trust" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/secondary-root-of-trust</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/secure-asset-transfer-protocol" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/secure-asset-transfer-protocol</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/secure-attribution" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/secure-attribution</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/seed" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/seed</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/self-addressing-data" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/self-addressing-data</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/self-addressing-identifier" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/self-addressing-identifier</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/self-certifying-identifier" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/self-certifying-identifier</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/self-framing" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/self-framing</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/self-sovereign-identity" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/self-sovereign-identity</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/self-sovereignty" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/self-sovereignty</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/server-sent-event" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/server-sent-event</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/service-endpoint" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/service-endpoint</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/signed-digest" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/signed-digest</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/signify" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/signify</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/signing-authority" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/signing-authority</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/signing-threshold" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/signing-threshold</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/simple-keri-for-web-auth" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/simple-keri-for-web-auth</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/single-signature-identifier" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/single-signature-identifier</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/sniffer" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/sniffer</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/solicited-issuance" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/solicited-issuance</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/source-of-truth" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/source-of-truth</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/spanning-layer" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/spanning-layer</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ssi-system" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ssi-system</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/strip-parameter" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/strip-parameter</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/sub-shell" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/sub-shell</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/tcp-endpoint" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/tcp-endpoint</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/text-binary-concatenation-composability" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/text-binary-concatenation-composability</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/threshold-signature-scheme" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/threshold-signature-scheme</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/top-level-section" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/top-level-section</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/trans-contextual-value" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/trans-contextual-value</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/transaction-event-log" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/transaction-event-log</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/transfer-off-ledger" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/transfer-off-ledger</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/transferable" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/transferable</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/transferable-identifier" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/transferable-identifier</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/transmission-control-protocol" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/transmission-control-protocol</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/trust-domain" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/trust-domain</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/uniform-resource-locator" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/uniform-resource-locator</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/unsolicited-issuance" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/unsolicited-issuance</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/user-interface" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/user-interface</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/vLEI" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/vLEI</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/validate" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/validate</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/validator" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/validator</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/veracity" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/veracity</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verifiable" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verifiable</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verifiable-credential" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verifiable-credential</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verifiable-data-structure" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verifiable-data-structure</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verifiable-legal-entity-identifier" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verifiable-legal-entity-identifier</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verified-integrity" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verified-integrity</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verifier" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verifier</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verify" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verify</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verify-signature" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/verify-signature</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/version" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/version</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/version-code" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/version-code</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/version-string" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/version-string</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/virtual-credential-transaction-event-log" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/virtual-credential-transaction-event-log</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/vlei-credential" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/vlei-credential</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/vlei-ecosystem-governance-framework" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/vlei-ecosystem-governance-framework</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/vlei-role-credential" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/vlei-role-credential</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/wallet" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/wallet</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/watcher" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/watcher</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/web-of-trust" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/web-of-trust</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/well-known%C2%A0witnesses" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/well-known%C2%A0witnesses</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/witness" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/witness</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/zero-trust" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/zero-trust</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Test/term_test" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Test/term_test</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Test/term_test2" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Test/term_test2</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Test/term_test3" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Test/term_test3</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Video/lets-keri-on-together" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Video/lets-keri-on-together</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Visualisations/Backed-and-Backerless-Issuance-and-Revocation" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Visualisations/Backed-and-Backerless-Issuance-and-Revocation</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Visualisations/KERI-&-ACDC-Architecture" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Visualisations/KERI-&-ACDC-Architecture</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/category/gleif" target="_blank">https://weboftrust.github.io/WOT-terms/docs/category/gleif</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/intro" target="_blank">https://weboftrust.github.io/WOT-terms/docs/intro</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/tags" target="_blank">https://weboftrust.github.io/WOT-terms/docs/tags</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/tags/acdc" target="_blank">https://weboftrust.github.io/WOT-terms/docs/tags/acdc</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/tags/keri" target="_blank">https://weboftrust.github.io/WOT-terms/docs/tags/keri</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/feedback" target="_blank">https://weboftrust.github.io/WOT-terms/feedback</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/howtos-menu" target="_blank">https://weboftrust.github.io/WOT-terms/howtos-menu</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/howtos/hwt_embed-github-hosted-image-in-github-wiki-page" target="_blank">https://weboftrust.github.io/WOT-terms/howtos/hwt_embed-github-hosted-image-in-github-wiki-page</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/howtos/hwt_get-markdown-from-ToIP-wiki" target="_blank">https://weboftrust.github.io/WOT-terms/howtos/hwt_get-markdown-from-ToIP-wiki</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/howtos/hwt_load-toip-glossary-in-weboftrust-github-page" target="_blank">https://weboftrust.github.io/WOT-terms/howtos/hwt_load-toip-glossary-in-weboftrust-github-page</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/howtos/hwt_pull-in-markdown-documents" target="_blank">https://weboftrust.github.io/WOT-terms/howtos/hwt_pull-in-markdown-documents</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/howtos/hwt_why-terms-wot-manage-structure" target="_blank">https://weboftrust.github.io/WOT-terms/howtos/hwt_why-terms-wot-manage-structure</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/markdown-page" target="_blank">https://weboftrust.github.io/WOT-terms/markdown-page</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/visualisations" target="_blank">https://weboftrust.github.io/WOT-terms/visualisations</a></li>
+<li><a href="https://www.gleif.org/en/about" target="_blank">https://www.gleif.org/en/about</a></li>
+<li><a href="https://www.gleif.org/en/about-lei" target="_blank">https://www.gleif.org/en/about-lei</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/code-lists" target="_blank">https://www.gleif.org/en/about-lei/code-lists</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/code-lists/gleif-accepted-legal-jurisdictions-code-list" target="_blank">https://www.gleif.org/en/about-lei/code-lists/gleif-accepted-legal-jurisdictions-code-list</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/code-lists/gleif-registration-authorities-list" target="_blank">https://www.gleif.org/en/about-lei/code-lists/gleif-registration-authorities-list</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/code-lists/iso-20275-entity-legal-forms-code-list" target="_blank">https://www.gleif.org/en/about-lei/code-lists/iso-20275-entity-legal-forms-code-list</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/code-lists/iso-5009-official-organizational-roles-code-list" target="_blank">https://www.gleif.org/en/about-lei/code-lists/iso-5009-official-organizational-roles-code-list</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/common-data-file-format" target="_blank">https://www.gleif.org/en/about-lei/common-data-file-format</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/common-data-file-format/current-versions" target="_blank">https://www.gleif.org/en/about-lei/common-data-file-format/current-versions</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/common-data-file-format/current-versions/level-1-data-lei-cdf-3-1-format" target="_blank">https://www.gleif.org/en/about-lei/common-data-file-format/current-versions/level-1-data-lei-cdf-3-1-format</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/common-data-file-format/current-versions/level-2-data-relationship-record-rr-cdf-2-1-format" target="_blank">https://www.gleif.org/en/about-lei/common-data-file-format/current-versions/level-2-data-relationship-record-rr-cdf-2-1-format</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/common-data-file-format/current-versions/level-2-data-reporting-exceptions-2-1-format" target="_blank">https://www.gleif.org/en/about-lei/common-data-file-format/current-versions/level-2-data-reporting-exceptions-2-1-format</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/common-data-file-format/current-versions/supporting-documents" target="_blank">https://www.gleif.org/en/about-lei/common-data-file-format/current-versions/supporting-documents</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/common-data-file-format/previous-versions" target="_blank">https://www.gleif.org/en/about-lei/common-data-file-format/previous-versions</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/get-an-lei-find-lei-issuing-organizations" target="_blank">https://www.gleif.org/en/about-lei/get-an-lei-find-lei-issuing-organizations</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/get-an-lei-find-lei-issuing-organizations/registration-agents" target="_blank">https://www.gleif.org/en/about-lei/get-an-lei-find-lei-issuing-organizations/registration-agents</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/gleif-management-of-the-global-lei-system" target="_blank">https://www.gleif.org/en/about-lei/gleif-management-of-the-global-lei-system</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/gleif-management-of-the-global-lei-system/global-lei-system-a-network-of-federated-services" target="_blank">https://www.gleif.org/en/about-lei/gleif-management-of-the-global-lei-system/global-lei-system-a-network-of-federated-services</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/introducing-the-legal-entity-identifier-lei" target="_blank">https://www.gleif.org/en/about-lei/introducing-the-legal-entity-identifier-lei</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/iso-17442-the-lei-code-structure" target="_blank">https://www.gleif.org/en/about-lei/iso-17442-the-lei-code-structure</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/iso-17442-the-lei-code-structure/the-lei-in-digital-certificates" target="_blank">https://www.gleif.org/en/about-lei/iso-17442-the-lei-code-structure/the-lei-in-digital-certificates</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/lei-namespace" target="_blank">https://www.gleif.org/en/about-lei/lei-namespace</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/questions-and-answers" target="_blank">https://www.gleif.org/en/about-lei/questions-and-answers</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/semantic-representation-of-the-lei" target="_blank">https://www.gleif.org/en/about-lei/semantic-representation-of-the-lei</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/semantic-representation-of-the-lei/lei-model-in-rdf-resource-description-framework" target="_blank">https://www.gleif.org/en/about-lei/semantic-representation-of-the-lei/lei-model-in-rdf-resource-description-framework</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/semantic-representation-of-the-lei/lei-model-in-xbrl-extensible-business-reporting-language" target="_blank">https://www.gleif.org/en/about-lei/semantic-representation-of-the-lei/lei-model-in-xbrl-extensible-business-reporting-language</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer" target="_blank">https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/gleif-accreditation-of-lei-issuers" target="_blank">https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/gleif-accreditation-of-lei-issuers</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/gleif-accreditation-of-lei-issuers/accreditation-process" target="_blank">https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/gleif-accreditation-of-lei-issuers/accreditation-process</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/gleif-accreditation-of-lei-issuers/accreditation-resources" target="_blank">https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/gleif-accreditation-of-lei-issuers/accreditation-resources</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/gleif-accreditation-of-lei-issuers/current-candidates" target="_blank">https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/gleif-accreditation-of-lei-issuers/current-candidates</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/gleif-accreditation-of-lei-issuers/questions-and-answers" target="_blank">https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/gleif-accreditation-of-lei-issuers/questions-and-answers</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/gleif-accreditation-of-lei-issuers/required-documents" target="_blank">https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/gleif-accreditation-of-lei-issuers/required-documents</a></li>
+<li><a href="https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/lei-issuer-offboarding-process" target="_blank">https://www.gleif.org/en/about-lei/the-lifecycle-of-a-lei-issuer/lei-issuer-offboarding-process</a></li>
+<li><a href="https://www.gleif.org/en/about/gleif-engagement" target="_blank">https://www.gleif.org/en/about/gleif-engagement</a></li>
+<li><a href="https://www.gleif.org/en/about/gleif-engagement/consultation-responses" target="_blank">https://www.gleif.org/en/about/gleif-engagement/consultation-responses</a></li>
+<li><a href="https://www.gleif.org/en/about/gleif-engagement/gleif-stakeholder-groups" target="_blank">https://www.gleif.org/en/about/gleif-engagement/gleif-stakeholder-groups</a></li>
+<li><a href="https://www.gleif.org/en/about/gleif-engagement/gleif-stakeholder-groups/gleif-ca-stakeholder-group" target="_blank">https://www.gleif.org/en/about/gleif-engagement/gleif-stakeholder-groups/gleif-ca-stakeholder-group</a></li>
+<li><a href="https://www.gleif.org/en/about/gleif-engagement/gleif-stakeholder-groups/gleif-gifi-relationship-group" target="_blank">https://www.gleif.org/en/about/gleif-engagement/gleif-stakeholder-groups/gleif-gifi-relationship-group</a></li>
+<li><a href="https://www.gleif.org/en/about/gleif-engagement/gleif-stakeholder-groups/gleif-vendor-relationship-group" target="_blank">https://www.gleif.org/en/about/gleif-engagement/gleif-stakeholder-groups/gleif-vendor-relationship-group</a></li>
+<li><a href="https://www.gleif.org/en/about/gleif-engagement/organization-and-committee-engagement" target="_blank">https://www.gleif.org/en/about/gleif-engagement/organization-and-committee-engagement</a></li>
+<li><a href="https://www.gleif.org/en/about/gleif-services" target="_blank">https://www.gleif.org/en/about/gleif-services</a></li>
+<li><a href="https://www.gleif.org/en/about/gleif-services/daily-service-availability" target="_blank">https://www.gleif.org/en/about/gleif-services/daily-service-availability</a></li>
+<li><a href="https://www.gleif.org/en/about/gleif-services/gleif-service-catalog" target="_blank">https://www.gleif.org/en/about/gleif-services/gleif-service-catalog</a></li>
+<li><a href="https://www.gleif.org/en/about/gleif-services/iso-20000-certification" target="_blank">https://www.gleif.org/en/about/gleif-services/iso-20000-certification</a></li>
+<li><a href="https://www.gleif.org/en/about/gleif-services/service-reports" target="_blank">https://www.gleif.org/en/about/gleif-services/service-reports</a></li>
+<li><a href="https://www.gleif.org/en/about/gleif-services/service-reports/service-reports-archive" target="_blank">https://www.gleif.org/en/about/gleif-services/service-reports/service-reports-archive</a></li>
+<li><a href="https://www.gleif.org/en/about/governance" target="_blank">https://www.gleif.org/en/about/governance</a></li>
+<li><a href="https://www.gleif.org/en/about/governance/annual-report" target="_blank">https://www.gleif.org/en/about/governance/annual-report</a></li>
+<li><a href="https://www.gleif.org/en/about/governance/board-committees" target="_blank">https://www.gleif.org/en/about/governance/board-committees</a></li>
+<li><a href="https://www.gleif.org/en/about/governance/board-minutes" target="_blank">https://www.gleif.org/en/about/governance/board-minutes</a></li>
+<li><a href="https://www.gleif.org/en/about/governance/board-of-directors" target="_blank">https://www.gleif.org/en/about/governance/board-of-directors</a></li>
+<li><a href="https://www.gleif.org/en/about/governance/by-laws" target="_blank">https://www.gleif.org/en/about/governance/by-laws</a></li>
+<li><a href="https://www.gleif.org/en/about/governance/call-for-applications-for-the-board-of-directors" target="_blank">https://www.gleif.org/en/about/governance/call-for-applications-for-the-board-of-directors</a></li>
+<li><a href="https://www.gleif.org/en/about/governance/financial-stability-board-fsb" target="_blank">https://www.gleif.org/en/about/governance/financial-stability-board-fsb</a></li>
+<li><a href="https://www.gleif.org/en/about/governance/mou-between-gleif-and-roc" target="_blank">https://www.gleif.org/en/about/governance/mou-between-gleif-and-roc</a></li>
+<li><a href="https://www.gleif.org/en/about/governance/policies" target="_blank">https://www.gleif.org/en/about/governance/policies</a></li>
+<li><a href="https://www.gleif.org/en/about/governance/regulatory-oversight-committee-roc" target="_blank">https://www.gleif.org/en/about/governance/regulatory-oversight-committee-roc</a></li>
+<li><a href="https://www.gleif.org/en/about/governance/roc-observers" target="_blank">https://www.gleif.org/en/about/governance/roc-observers</a></li>
+<li><a href="https://www.gleif.org/en/about/governance/statutes" target="_blank">https://www.gleif.org/en/about/governance/statutes</a></li>
+<li><a href="https://www.gleif.org/en/about/history" target="_blank">https://www.gleif.org/en/about/history</a></li>
+<li><a href="https://www.gleif.org/en/about/management" target="_blank">https://www.gleif.org/en/about/management</a></li>
+<li><a href="https://www.gleif.org/en/about/open-data" target="_blank">https://www.gleif.org/en/about/open-data</a></li>
+<li><a href="https://www.gleif.org/en/about/open-source" target="_blank">https://www.gleif.org/en/about/open-source</a></li>
+<li><a href="https://www.gleif.org/en/about/our-values" target="_blank">https://www.gleif.org/en/about/our-values</a></li>
+<li><a href="https://www.gleif.org/en/about/our-vision" target="_blank">https://www.gleif.org/en/about/our-vision</a></li>
+<li><a href="https://www.gleif.org/en/about/this-is-gleif" target="_blank">https://www.gleif.org/en/about/this-is-gleif</a></li>
+<li><a href="https://www.gleif.org/en/lei-data" target="_blank">https://www.gleif.org/en/lei-data</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/access-and-use-lei-data" target="_blank">https://www.gleif.org/en/lei-data/access-and-use-lei-data</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/access-and-use-lei-data/level-1-data-who-is-who" target="_blank">https://www.gleif.org/en/lei-data/access-and-use-lei-data/level-1-data-who-is-who</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/access-and-use-lei-data/level-1-data-who-is-who/roc-policy-on-level-1-data" target="_blank">https://www.gleif.org/en/lei-data/access-and-use-lei-data/level-1-data-who-is-who/roc-policy-on-level-1-data</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/access-and-use-lei-data/level-2-data-who-owns-whom" target="_blank">https://www.gleif.org/en/lei-data/access-and-use-lei-data/level-2-data-who-owns-whom</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/access-and-use-lei-data/level-2-data-who-owns-whom/roc-policy-on-level-2-data" target="_blank">https://www.gleif.org/en/lei-data/access-and-use-lei-data/level-2-data-who-owns-whom/roc-policy-on-level-2-data</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/gleif-api" target="_blank">https://www.gleif.org/en/lei-data/gleif-api</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/gleif-concatenated-file" target="_blank">https://www.gleif.org/en/lei-data/gleif-concatenated-file</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/gleif-concatenated-file/about-the-concatenated-file" target="_blank">https://www.gleif.org/en/lei-data/gleif-concatenated-file/about-the-concatenated-file</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/gleif-concatenated-file/download-the-concatenated-file" target="_blank">https://www.gleif.org/en/lei-data/gleif-concatenated-file/download-the-concatenated-file</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/gleif-concatenated-file/lei-issuers-historical-files" target="_blank">https://www.gleif.org/en/lei-data/gleif-concatenated-file/lei-issuers-historical-files</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/gleif-concatenated-file/lei-issuers-original-sources" target="_blank">https://www.gleif.org/en/lei-data/gleif-concatenated-file/lei-issuers-original-sources</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/gleif-data-quality-management" target="_blank">https://www.gleif.org/en/lei-data/gleif-data-quality-management</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/gleif-data-quality-management/about-the-data-quality-reports/archive" target="_blank">https://www.gleif.org/en/lei-data/gleif-data-quality-management/about-the-data-quality-reports/archive</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/gleif-data-quality-management/about-the-data-quality-reports/download-data-quality-reports" target="_blank">https://www.gleif.org/en/lei-data/gleif-data-quality-management/about-the-data-quality-reports/download-data-quality-reports</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/gleif-data-quality-management/about-the-data-quality-reports/download-lei-issuer-data-quality-reports" target="_blank">https://www.gleif.org/en/lei-data/gleif-data-quality-management/about-the-data-quality-reports/download-lei-issuer-data-quality-reports</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/gleif-data-quality-management/about-the-data-quality-reports/lou-data-quality-reports-archive" target="_blank">https://www.gleif.org/en/lei-data/gleif-data-quality-management/about-the-data-quality-reports/lou-data-quality-reports-archive</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/gleif-data-quality-management/about-the-data-quality-reports/questions-and-answers" target="_blank">https://www.gleif.org/en/lei-data/gleif-data-quality-management/about-the-data-quality-reports/questions-and-answers</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/gleif-data-quality-management/about-the-data-quality-reports/supporting-documents" target="_blank">https://www.gleif.org/en/lei-data/gleif-data-quality-management/about-the-data-quality-reports/supporting-documents</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/gleif-data-quality-management/data-quality-checks/details" target="_blank">https://www.gleif.org/en/lei-data/gleif-data-quality-management/data-quality-checks/details</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/gleif-data-quality-management/downloads" target="_blank">https://www.gleif.org/en/lei-data/gleif-data-quality-management/downloads</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/gleif-data-quality-management/quality-reports/previous-data-quality-reports" target="_blank">https://www.gleif.org/en/lei-data/gleif-data-quality-management/quality-reports/previous-data-quality-reports</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/gleif-golden-copy" target="_blank">https://www.gleif.org/en/lei-data/gleif-golden-copy</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/gleif-golden-copy/download-the-golden-copy" target="_blank">https://www.gleif.org/en/lei-data/gleif-golden-copy/download-the-golden-copy</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/global-lei-index" target="_blank">https://www.gleif.org/en/lei-data/global-lei-index</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/global-lei-index/download-global-lei-system-business-reports" target="_blank">https://www.gleif.org/en/lei-data/global-lei-index/download-global-lei-system-business-reports</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/global-lei-index/global-lei-system-business-reports-archive" target="_blank">https://www.gleif.org/en/lei-data/global-lei-index/global-lei-system-business-reports-archive</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/global-lei-index/lei-statistics" target="_blank">https://www.gleif.org/en/lei-data/global-lei-index/lei-statistics</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/lei-mapping" target="_blank">https://www.gleif.org/en/lei-data/lei-mapping</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/lei-mapping/download-bic-to-lei-relationship-files" target="_blank">https://www.gleif.org/en/lei-data/lei-mapping/download-bic-to-lei-relationship-files</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/lei-mapping/download-isin-to-lei-relationship-files" target="_blank">https://www.gleif.org/en/lei-data/lei-mapping/download-isin-to-lei-relationship-files</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/lei-mapping/download-mic-to-lei-relationship-files" target="_blank">https://www.gleif.org/en/lei-data/lei-mapping/download-mic-to-lei-relationship-files</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/lei-mapping/download-oc-to-lei-relationship-files" target="_blank">https://www.gleif.org/en/lei-data/lei-mapping/download-oc-to-lei-relationship-files</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/lei-mapping/gleif-certification-process" target="_blank">https://www.gleif.org/en/lei-data/lei-mapping/gleif-certification-process</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/lei-mapping/s-p-global-company-id-to-lei-relationship" target="_blank">https://www.gleif.org/en/lei-data/lei-mapping/s-p-global-company-id-to-lei-relationship</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/lei-search" target="_blank">https://www.gleif.org/en/lei-data/lei-search</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/lei-search/about-lei-search" target="_blank">https://www.gleif.org/en/lei-data/lei-search/about-lei-search</a></li>
+<li><a href="https://www.gleif.org/en/lei-data/lei-search/about-lei-search/how-to-use-lei-search" target="_blank">https://www.gleif.org/en/lei-data/lei-search/about-lei-search/how-to-use-lei-search</a></li>
+<li><a href="https://www.gleif.org/en/lei-solutions" target="_blank">https://www.gleif.org/en/lei-solutions</a></li>
+<li><a href="https://www.gleif.org/en/lei-solutions/better-knowledge-better-business" target="_blank">https://www.gleif.org/en/lei-solutions/better-knowledge-better-business</a></li>
+<li><a href="https://www.gleif.org/en/lei-solutions/gleifs-digital-strategy-for-the-lei" target="_blank">https://www.gleif.org/en/lei-solutions/gleifs-digital-strategy-for-the-lei</a></li>
+<li><a href="https://www.gleif.org/en/lei-solutions/gleifs-digital-strategy-for-the-lei/gleif-idc-research-creating-agile-resilient-global-trade-with-the-lei-and-vlei" target="_blank">https://www.gleif.org/en/lei-solutions/gleifs-digital-strategy-for-the-lei/gleif-idc-research-creating-agile-resilient-global-trade-with-the-lei-and-vlei</a></li>
+<li><a href="https://www.gleif.org/en/lei-solutions/lei-in-kyc-a-new-future-for-legal-entity-identification" target="_blank">https://www.gleif.org/en/lei-solutions/lei-in-kyc-a-new-future-for-legal-entity-identification</a></li>
+<li><a href="https://www.gleif.org/en/lei-solutions/lei-in-kyc-a-new-future-for-legal-entity-identification/gleif-research-the-pitfalls-of-onboarding" target="_blank">https://www.gleif.org/en/lei-solutions/lei-in-kyc-a-new-future-for-legal-entity-identification/gleif-research-the-pitfalls-of-onboarding</a></li>
+<li><a href="https://www.gleif.org/en/lei-solutions/mckinsey-company-and-gleif-creating-business-value-with-the-lei" target="_blank">https://www.gleif.org/en/lei-solutions/mckinsey-company-and-gleif-creating-business-value-with-the-lei</a></li>
+<li><a href="https://www.gleif.org/en/lei-solutions/mckinsey-company-and-gleif-creating-business-value-with-the-lei/lei-in-capital-markets" target="_blank">https://www.gleif.org/en/lei-solutions/mckinsey-company-and-gleif-creating-business-value-with-the-lei/lei-in-capital-markets</a></li>
+<li><a href="https://www.gleif.org/en/lei-solutions/mckinsey-company-and-gleif-creating-business-value-with-the-lei/lei-in-commercial-credit" target="_blank">https://www.gleif.org/en/lei-solutions/mckinsey-company-and-gleif-creating-business-value-with-the-lei/lei-in-commercial-credit</a></li>
+<li><a href="https://www.gleif.org/en/lei-solutions/mckinsey-company-and-gleif-creating-business-value-with-the-lei/lei-in-trade-finance" target="_blank">https://www.gleif.org/en/lei-solutions/mckinsey-company-and-gleif-creating-business-value-with-the-lei/lei-in-trade-finance</a></li>
+<li><a href="https://www.gleif.org/en/lei-solutions/mckinsey-company-and-gleif-leis-and-client-lifecycle-management-in-banking-a-u-s-4-billion-beginning" target="_blank">https://www.gleif.org/en/lei-solutions/mckinsey-company-and-gleif-leis-and-client-lifecycle-management-in-banking-a-u-s-4-billion-beginning</a></li>
+<li><a href="https://www.gleif.org/en/lei-solutions/mckinsey-company-and-gleif-leis-and-client-lifecycle-management-in-banking-a-u-s-4-billion-beginning/gleif-infographic-leis-transforming-banks-client-lifecycle-management" target="_blank">https://www.gleif.org/en/lei-solutions/mckinsey-company-and-gleif-leis-and-client-lifecycle-management-in-banking-a-u-s-4-billion-beginning/gleif-infographic-leis-transforming-banks-client-lifecycle-management</a></li>
+<li><a href="https://www.gleif.org/en/lei-solutions/regulatory-use-of-the-lei" target="_blank">https://www.gleif.org/en/lei-solutions/regulatory-use-of-the-lei</a></li>
+<li><a href="https://www.gleif.org/en/lei-solutions/regulatory-use-of-the-lei/gleif-and-data-foundation-comprehensive-entity-id-for-u-s-federal-government" target="_blank">https://www.gleif.org/en/lei-solutions/regulatory-use-of-the-lei/gleif-and-data-foundation-comprehensive-entity-id-for-u-s-federal-government</a></li>
+<li><a href="https://www.gleif.org/en/lei-solutions/the-lei-the-key-to-unlocking-financial-inclusion-in-developing-economies" target="_blank">https://www.gleif.org/en/lei-solutions/the-lei-the-key-to-unlocking-financial-inclusion-in-developing-economies</a></li>
+<li><a href="https://www.gleif.org/en/lei-solutions/validation-agents" target="_blank">https://www.gleif.org/en/lei-solutions/validation-agents</a></li>
+<li><a href="https://www.gleif.org/en/lei-solutions/validation-agents/gleif-ebook-a-closer-look-at-the-validation-agent-trial-process" target="_blank">https://www.gleif.org/en/lei-solutions/validation-agents/gleif-ebook-a-closer-look-at-the-validation-agent-trial-process</a></li>
+<li><a href="https://www.gleif.org/en/lei-solutions/validation-agents/gleif-ebook-introducing-the-lei-validation-agent" target="_blank">https://www.gleif.org/en/lei-solutions/validation-agents/gleif-ebook-introducing-the-lei-validation-agent</a></li>
+<li><a href="https://www.gleif.org/en/vlei" target="_blank">https://www.gleif.org/en/vlei</a></li>
+<li><a href="https://www.gleif.org/en/vlei/get-a-vlei-list-of-qualified-vlei-issuing-organizations" target="_blank">https://www.gleif.org/en/vlei/get-a-vlei-list-of-qualified-vlei-issuing-organizations</a></li>
+<li><a href="https://www.gleif.org/en/vlei/introducing-the-verifiable-lei-vlei" target="_blank">https://www.gleif.org/en/vlei/introducing-the-verifiable-lei-vlei</a></li>
+<li><a href="https://www.gleif.org/en/vlei/introducing-the-verifiable-lei-vlei/gleif-ebook-the-vlei-introducing-digital-i-d-for-legal-entities-everywhere" target="_blank">https://www.gleif.org/en/vlei/introducing-the-verifiable-lei-vlei/gleif-ebook-the-vlei-introducing-digital-i-d-for-legal-entities-everywhere</a></li>
+<li><a href="https://www.gleif.org/en/vlei/introducing-the-vlei-ecosystem-governance-framework" target="_blank">https://www.gleif.org/en/vlei/introducing-the-vlei-ecosystem-governance-framework</a></li>
+<li><a href="https://www.gleif.org/en/vlei/the-lifecycle-of-a-vlei-issuer" target="_blank">https://www.gleif.org/en/vlei/the-lifecycle-of-a-vlei-issuer</a></li>
+<li><a href="https://www.gleif.org/en/vlei/the-lifecycle-of-a-vlei-issuer/gleif-qualification-of-vlei-issuers" target="_blank">https://www.gleif.org/en/vlei/the-lifecycle-of-a-vlei-issuer/gleif-qualification-of-vlei-issuers</a></li>
+<li><a href="https://www.gleif.org/en/vlei/the-lifecycle-of-a-vlei-issuer/gleif-qualification-of-vlei-issuers/qualification-process" target="_blank">https://www.gleif.org/en/vlei/the-lifecycle-of-a-vlei-issuer/gleif-qualification-of-vlei-issuers/qualification-process</a></li>
+<li><a href="https://www.gleif.org/en/vlei/the-lifecycle-of-a-vlei-issuer/gleif-qualification-of-vlei-issuers/required-documents" target="_blank">https://www.gleif.org/en/vlei/the-lifecycle-of-a-vlei-issuer/gleif-qualification-of-vlei-issuers/required-documents</a></li>
+</ul>
