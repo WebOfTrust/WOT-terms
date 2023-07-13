@@ -73,10 +73,6 @@ const config = {
       id: "gEyyxwGeZbnMxnrWTzhkV",
       defer: true
     },
-    {
-      src: 'https://cdn.commento.io/js/commento.js',
-      defer: true
-    },
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
