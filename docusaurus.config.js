@@ -272,20 +272,8 @@ const config = {
     //  */
   ],
   clientModules: [
-    /**
- * BEGIN TYPESENSE INSTANT SEARCH PLUGIN
- */
-    require.resolve(
-      './clientModules/typesenseInstantSearchInit.js'
-    ),
-    require.resolve('./clientModules/typesenseInstantSearch.js'),
-    /**
-     * END TYPESENSE INSTANT SEARCH PLUGIN
-     */
-    // require.resolve('./clientModules/crossLinks'),
-    // require.resolve('./clientModules/animationHomepage'),
-    // require.resolve('./clientModules/addLevelsToExternalContentCarbonCopies'),
-
+    require.resolve('./clientModules/typesenseInstantSearchInit.js'),// Typesense InstantSearch Plugin
+    require.resolve('./clientModules/typesenseInstantSearch.js'),// Typesense InstantSearch Plugin
     require.resolve('./clientModules/showLevels'),
     require.resolve('./clientModules/insertVideo'),
     require.resolve('./clientModules/insertSubtitles'),
