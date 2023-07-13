@@ -1,14 +1,14 @@
 <div className="accordion">               
                 
 
-<div className="accordion-item accordion-item-9290140519635" data-level="1">
+<div className="accordion-item accordion-item-2520110146782" data-level="1">
                     
 
-<h2 className="accordion-header" id="header9290140519635">
+<h2 className="accordion-header" id="header2520110146782">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-9290140519635" aria-expanded="true" aria-controls="accordeon-9290140519635">
-                            9290140519635, level 1
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-2520110146782" aria-expanded="true" aria-controls="accordeon-2520110146782">
+                            2520110146782, level 1
                         
 
 </button>
@@ -18,7 +18,7 @@
 
                     
 
-<div id="accordeon-9290140519635" className="accordion-collapse collapse" aria-labelledby="header9290140519635" >
+<div id="accordeon-2520110146782" className="accordion-collapse collapse" aria-labelledby="header2520110146782" >
                         
 
 <div className="accordion-body">
@@ -777,14 +777,14 @@ The format of the version string is `ACDCvvSSSShhhhhh_`. The first four characte
                
                 
 
-<div className="accordion-item accordion-item-said-(self-addressing-identifier)-fields" data-level="1">
+<div className="accordion-item accordion-item-said--self-addressing-identifier--fields" data-level="1">
                     
 
-<h2 className="accordion-header" id="headersaid-(self-addressing-identifier)-fields">
+<h2 className="accordion-header" id="headersaid--self-addressing-identifier--fields">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-said-(self-addressing-identifier)-fields" aria-expanded="true" aria-controls="accordeon-said-(self-addressing-identifier)-fields">
-                            said-(self-addressing-identifier)-fields, level 1
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-said--self-addressing-identifier--fields" aria-expanded="true" aria-controls="accordeon-said--self-addressing-identifier--fields">
+                            said--self-addressing-identifier--fields, level 1
                         
 
 </button>
@@ -794,7 +794,7 @@ The format of the version string is `ACDCvvSSSShhhhhh_`. The first four characte
 
                     
 
-<div id="accordeon-said-(self-addressing-identifier)-fields" className="accordion-collapse collapse" aria-labelledby="headersaid-(self-addressing-identifier)-fields" >
+<div id="accordeon-said--self-addressing-identifier--fields" className="accordion-collapse collapse" aria-labelledby="headersaid--self-addressing-identifier--fields" >
                         
 
 <div className="accordion-body">
@@ -822,14 +822,14 @@ Recall that a cryptographic commitment (such as a digital signature or cryptogra
                
                 
 
-<div className="accordion-item accordion-item-uuid-(universally-unique-identifier)-fields" data-level="1">
+<div className="accordion-item accordion-item-uuid--universally-unique-identifier--fields" data-level="1">
                     
 
-<h2 className="accordion-header" id="headeruuid-(universally-unique-identifier)-fields">
+<h2 className="accordion-header" id="headeruuid--universally-unique-identifier--fields">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-uuid-(universally-unique-identifier)-fields" aria-expanded="true" aria-controls="accordeon-uuid-(universally-unique-identifier)-fields">
-                            uuid-(universally-unique-identifier)-fields, level 1
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-uuid--universally-unique-identifier--fields" aria-expanded="true" aria-controls="accordeon-uuid--universally-unique-identifier--fields">
+                            uuid--universally-unique-identifier--fields, level 1
                         
 
 </button>
@@ -839,7 +839,7 @@ Recall that a cryptographic commitment (such as a digital signature or cryptogra
 
                     
 
-<div id="accordeon-uuid-(universally-unique-identifier)-fields" className="accordion-collapse collapse" aria-labelledby="headeruuid-(universally-unique-identifier)-fields" >
+<div id="accordeon-uuid--universally-unique-identifier--fields" className="accordion-collapse collapse" aria-labelledby="headeruuid--universally-unique-identifier--fields" >
                         
 
 <div className="accordion-body">
@@ -864,14 +864,14 @@ A UUID, `u` field may optionally appear in any block (field map) at any level of
                
                 
 
-<div className="accordion-item accordion-item-aid-(autonomic-identifier)-and-derived-identifier-fields" data-level="1">
+<div className="accordion-item accordion-item-aid--autonomic-identifier--and-derived-identifier-fields" data-level="1">
                     
 
-<h2 className="accordion-header" id="headeraid-(autonomic-identifier)-and-derived-identifier-fields">
+<h2 className="accordion-header" id="headeraid--autonomic-identifier--and-derived-identifier-fields">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-aid-(autonomic-identifier)-and-derived-identifier-fields" aria-expanded="true" aria-controls="accordeon-aid-(autonomic-identifier)-and-derived-identifier-fields">
-                            aid-(autonomic-identifier)-and-derived-identifier-fields, level 1
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-aid--autonomic-identifier--and-derived-identifier-fields" aria-expanded="true" aria-controls="accordeon-aid--autonomic-identifier--and-derived-identifier-fields">
+                            aid--autonomic-identifier--and-derived-identifier-fields, level 1
                         
 
 </button>
@@ -881,7 +881,7 @@ A UUID, `u` field may optionally appear in any block (field map) at any level of
 
                     
 
-<div id="accordeon-aid-(autonomic-identifier)-and-derived-identifier-fields" className="accordion-collapse collapse" aria-labelledby="headeraid-(autonomic-identifier)-and-derived-identifier-fields" >
+<div id="accordeon-aid--autonomic-identifier--and-derived-identifier-fields" className="accordion-collapse collapse" aria-labelledby="headeraid--autonomic-identifier--and-derived-identifier-fields" >
                         
 
 <div className="accordion-body">
@@ -1206,14 +1206,14 @@ When an id, '$id', field appears in a sub-schema it indicates a bundled sub-sche
                
                 
 
-<div className="accordion-item accordion-item-static-(immutable)-schema" data-level="1">
+<div className="accordion-item accordion-item-static--immutable--schema" data-level="1">
                     
 
-<h2 className="accordion-header" id="headerstatic-(immutable)-schema">
+<h2 className="accordion-header" id="headerstatic--immutable--schema">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-static-(immutable)-schema" aria-expanded="true" aria-controls="accordeon-static-(immutable)-schema">
-                            static-(immutable)-schema, level 1
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-static--immutable--schema" aria-expanded="true" aria-controls="accordeon-static--immutable--schema">
+                            static--immutable--schema, level 1
                         
 
 </button>
@@ -1223,7 +1223,7 @@ When an id, '$id', field appears in a sub-schema it indicates a bundled sub-sche
 
                     
 
-<div id="accordeon-static-(immutable)-schema" className="accordion-collapse collapse" aria-labelledby="headerstatic-(immutable)-schema" >
+<div id="accordeon-static--immutable--schema" className="accordion-collapse collapse" aria-labelledby="headerstatic--immutable--schema" >
                         
 
 <div className="accordion-body">
@@ -1749,14 +1749,14 @@ Unpermission exploitation is characterized using a three-party model. The three 
                
                 
 
-<div className="accordion-item accordion-item-second-party-(disclosee)-exploitation" data-level="1">
+<div className="accordion-item accordion-item-second-party--disclosee--exploitation" data-level="1">
                     
 
-<h2 className="accordion-header" id="headersecond-party-(disclosee)-exploitation">
+<h2 className="accordion-header" id="headersecond-party--disclosee--exploitation">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-second-party-(disclosee)-exploitation" aria-expanded="true" aria-controls="accordeon-second-party-(disclosee)-exploitation">
-                            second-party-(disclosee)-exploitation, level 1
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-second-party--disclosee--exploitation" aria-expanded="true" aria-controls="accordeon-second-party--disclosee--exploitation">
+                            second-party--disclosee--exploitation, level 1
                         
 
 </button>
@@ -1766,7 +1766,7 @@ Unpermission exploitation is characterized using a three-party model. The three 
 
                     
 
-<div id="accordeon-second-party-(disclosee)-exploitation" className="accordion-collapse collapse" aria-labelledby="headersecond-party-(disclosee)-exploitation" >
+<div id="accordeon-second-party--disclosee--exploitation" className="accordion-collapse collapse" aria-labelledby="headersecond-party--disclosee--exploitation" >
                         
 
 <div className="accordion-body">
@@ -1793,14 +1793,14 @@ Unpermission exploitation is characterized using a three-party model. The three 
                
                 
 
-<div className="accordion-item accordion-item-third-party-(observer)-exploitation" data-level="1">
+<div className="accordion-item accordion-item-third-party--observer--exploitation" data-level="1">
                     
 
-<h2 className="accordion-header" id="headerthird-party-(observer)-exploitation">
+<h2 className="accordion-header" id="headerthird-party--observer--exploitation">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-third-party-(observer)-exploitation" aria-expanded="true" aria-controls="accordeon-third-party-(observer)-exploitation">
-                            third-party-(observer)-exploitation, level 1
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-third-party--observer--exploitation" aria-expanded="true" aria-controls="accordeon-third-party--observer--exploitation">
+                            third-party--observer--exploitation, level 1
                         
 
 </button>
@@ -1810,7 +1810,7 @@ Unpermission exploitation is characterized using a three-party model. The three 
 
                     
 
-<div id="accordeon-third-party-(observer)-exploitation" className="accordion-collapse collapse" aria-labelledby="headerthird-party-(observer)-exploitation" >
+<div id="accordeon-third-party--observer--exploitation" className="accordion-collapse collapse" aria-labelledby="headerthird-party--observer--exploitation" >
                         
 
 <div className="accordion-body">
@@ -3465,14 +3465,14 @@ With respect to the granularity of a property graph consisting of ACDCs as nodes
                
                 
 
-<div className="accordion-item accordion-item-operator,-`o`,--field" data-level="1">
+<div className="accordion-item accordion-item-operator---o----field" data-level="1">
                     
 
-<h2 className="accordion-header" id="headeroperator,-`o`,--field">
+<h2 className="accordion-header" id="headeroperator---o----field">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-operator,-`o`,--field" aria-expanded="true" aria-controls="accordeon-operator,-`o`,--field">
-                            operator,-`o`,--field, level 1
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-operator---o----field" aria-expanded="true" aria-controls="accordeon-operator---o----field">
+                            operator---o----field, level 1
                         
 
 </button>
@@ -3482,7 +3482,7 @@ With respect to the granularity of a property graph consisting of ACDCs as nodes
 
                     
 
-<div id="accordeon-operator,-`o`,--field" className="accordion-collapse collapse" aria-labelledby="headeroperator,-`o`,--field" >
+<div id="accordeon-operator---o----field" className="accordion-collapse collapse" aria-labelledby="headeroperator---o----field" >
                         
 
 <div className="accordion-body">
@@ -3509,14 +3509,14 @@ The meaning of the operator, `o`, metadata field label depends on which type of 
                
                 
 
-<div className="accordion-item accordion-item-weight,-`w`,-field." data-level="1">
+<div className="accordion-item accordion-item-weight---w---field-" data-level="1">
                     
 
-<h2 className="accordion-header" id="headerweight,-`w`,-field.">
+<h2 className="accordion-header" id="headerweight---w---field-">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-weight,-`w`,-field." aria-expanded="true" aria-controls="accordeon-weight,-`w`,-field.">
-                            weight,-`w`,-field., level 1
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-weight---w---field-" aria-expanded="true" aria-controls="accordeon-weight---w---field-">
+                            weight---w---field-, level 1
                         
 
 </button>
@@ -3526,7 +3526,7 @@ The meaning of the operator, `o`, metadata field label depends on which type of 
 
                     
 
-<div id="accordeon-weight,-`w`,-field." className="accordion-collapse collapse" aria-labelledby="headerweight,-`w`,-field." >
+<div id="accordeon-weight---w---field-" className="accordion-collapse collapse" aria-labelledby="headerweight---w---field-" >
                         
 
 <div className="accordion-body">
@@ -4499,14 +4499,14 @@ In compact form, the discovery of either the rule section as a whole or a given 
                
                 
 
-<div className="accordion-item accordion-item-disclosure-specific-(bespoke)-issued-acdcs" data-level="1">
+<div className="accordion-item accordion-item-disclosure-specific--bespoke--issued-acdcs" data-level="1">
                     
 
-<h2 className="accordion-header" id="headerdisclosure-specific-(bespoke)-issued-acdcs">
+<h2 className="accordion-header" id="headerdisclosure-specific--bespoke--issued-acdcs">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-disclosure-specific-(bespoke)-issued-acdcs" aria-expanded="true" aria-controls="accordeon-disclosure-specific-(bespoke)-issued-acdcs">
-                            disclosure-specific-(bespoke)-issued-acdcs, level 1
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-disclosure-specific--bespoke--issued-acdcs" aria-expanded="true" aria-controls="accordeon-disclosure-specific--bespoke--issued-acdcs">
+                            disclosure-specific--bespoke--issued-acdcs, level 1
                         
 
 </button>
@@ -4516,7 +4516,7 @@ In compact form, the discovery of either the rule section as a whole or a given 
 
                     
 
-<div id="accordeon-disclosure-specific-(bespoke)-issued-acdcs" className="accordion-collapse collapse" aria-labelledby="headerdisclosure-specific-(bespoke)-issued-acdcs" >
+<div id="accordeon-disclosure-specific--bespoke--issued-acdcs" className="accordion-collapse collapse" aria-labelledby="headerdisclosure-specific--bespoke--issued-acdcs" >
                         
 
 <div className="accordion-body">
@@ -6082,14 +6082,14 @@ When the `u` field is missing or empty, then the event is not blindable. When th
                
                 
 
-<div className="accordion-item accordion-item-blindable-state-tel-attribute-(state)-fields" data-level="1">
+<div className="accordion-item accordion-item-blindable-state-tel-attribute--state--fields" data-level="1">
                     
 
-<h2 className="accordion-header" id="headerblindable-state-tel-attribute-(state)-fields">
+<h2 className="accordion-header" id="headerblindable-state-tel-attribute--state--fields">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-blindable-state-tel-attribute-(state)-fields" aria-expanded="true" aria-controls="accordeon-blindable-state-tel-attribute-(state)-fields">
-                            blindable-state-tel-attribute-(state)-fields, level 1
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-blindable-state-tel-attribute--state--fields" aria-expanded="true" aria-controls="accordeon-blindable-state-tel-attribute--state--fields">
+                            blindable-state-tel-attribute--state--fields, level 1
                         
 
 </button>
@@ -6099,7 +6099,7 @@ When the `u` field is missing or empty, then the event is not blindable. When th
 
                     
 
-<div id="accordeon-blindable-state-tel-attribute-(state)-fields" className="accordion-collapse collapse" aria-labelledby="headerblindable-state-tel-attribute-(state)-fields" >
+<div id="accordeon-blindable-state-tel-attribute--state--fields" className="accordion-collapse collapse" aria-labelledby="headerblindable-state-tel-attribute--state--fields" >
                         
 
 <div className="accordion-body">
@@ -6244,14 +6244,14 @@ Versioning is simplified because edges still verify if new schema are backwards 
                
                 
 
-<div className="accordion-item accordion-item-appendix:-performance-and-scalability" data-level="1">
+<div className="accordion-item accordion-item-appendix--performance-and-scalability" data-level="1">
                     
 
-<h2 className="accordion-header" id="headerappendix:-performance-and-scalability">
+<h2 className="accordion-header" id="headerappendix--performance-and-scalability">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-appendix:-performance-and-scalability" aria-expanded="true" aria-controls="accordeon-appendix:-performance-and-scalability">
-                            appendix:-performance-and-scalability, level 1
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-appendix--performance-and-scalability" aria-expanded="true" aria-controls="accordeon-appendix--performance-and-scalability">
+                            appendix--performance-and-scalability, level 1
                         
 
 </button>
@@ -6261,7 +6261,7 @@ Versioning is simplified because edges still verify if new schema are backwards 
 
                     
 
-<div id="accordeon-appendix:-performance-and-scalability" className="accordion-collapse collapse" aria-labelledby="headerappendix:-performance-and-scalability" >
+<div id="accordeon-appendix--performance-and-scalability" className="accordion-collapse collapse" aria-labelledby="headerappendix--performance-and-scalability" >
                         
 
 <div className="accordion-body">
@@ -6287,14 +6287,14 @@ Hierarchical decomposition of data into a distributed verifiable property graph,
                
                 
 
-<div className="accordion-item accordion-item-appendix:-cryptographic-strength-and-security" data-level="1">
+<div className="accordion-item accordion-item-appendix--cryptographic-strength-and-security" data-level="1">
                     
 
-<h2 className="accordion-header" id="headerappendix:-cryptographic-strength-and-security">
+<h2 className="accordion-header" id="headerappendix--cryptographic-strength-and-security">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-appendix:-cryptographic-strength-and-security" aria-expanded="true" aria-controls="accordeon-appendix:-cryptographic-strength-and-security">
-                            appendix:-cryptographic-strength-and-security, level 1
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-appendix--cryptographic-strength-and-security" aria-expanded="true" aria-controls="accordeon-appendix--cryptographic-strength-and-security">
+                            appendix--cryptographic-strength-and-security, level 1
                         
 
 </button>
@@ -6304,7 +6304,7 @@ Hierarchical decomposition of data into a distributed verifiable property graph,
 
                     
 
-<div id="accordeon-appendix:-cryptographic-strength-and-security" className="accordion-collapse collapse" aria-labelledby="headerappendix:-cryptographic-strength-and-security" >
+<div id="accordeon-appendix--cryptographic-strength-and-security" className="accordion-collapse collapse" aria-labelledby="headerappendix--cryptographic-strength-and-security" >
                         
 
 <div className="accordion-body">
