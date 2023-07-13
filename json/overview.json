@@ -1406,7 +1406,7 @@
       "",
       "",
       "",
-      "",
+      "#NAME?",
       "",
       "Assertion of truth, disputed or uncertain."
     ],
@@ -2002,7 +2002,7 @@
       "",
       "",
       "",
-      "GPG is a free software alternative to Symantec's PGP suite."
+      "GPG is a free alternative to Symantec's PGP cryptographic software."
     ],
     [
       "91",
