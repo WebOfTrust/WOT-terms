@@ -84,7 +84,7 @@ const showLevels = (targetElements) => {
       // create level selection
       let htmlString =
         `
-        <div class="container text-center sticky-top pt-3 pb-3 mb-4" style="background: white; position: sticky !important; z-index: 1020 !important;">
+        <div class="container text-center sticky-top pt-3 pb-3 mb-4" style="background: white; position: sticky !important; z-index: 102000000 !important;">
           <div class="row">
             <div class="col">
               <div class="show-level-buttons-info d-inline">
