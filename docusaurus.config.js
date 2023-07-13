@@ -302,7 +302,6 @@ const config = {
     require.resolve('./clientModules/showGPTsummary'),
     require.resolve('./clientModules/typesenseHandleSearchModal'),
     require.resolve('./clientModules/addBootstrapJS'),
-    // require.resolve('./clientModules/commento'),
   ],
 };
 
