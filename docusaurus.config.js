@@ -73,6 +73,9 @@ const config = {
       id: "gEyyxwGeZbnMxnrWTzhkV",
       defer: true
     },
+    {
+      src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js',
+    }
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -285,7 +288,6 @@ const config = {
     require.resolve('./clientModules/addDataTypes'),
     require.resolve('./clientModules/showGPTsummary'),
     require.resolve('./clientModules/typesenseHandleSearchModal'),
-    require.resolve('./clientModules/addBootstrapJS'),
   ],
 };
 
