@@ -11,17 +11,17 @@ function commento() {
 
 }
 
-// export function onRouteDidUpdate({ location, previousLocation }) {
-//   // Don't execute if we are still on the same page; the lifecycle may be fired
-//   // because the hash changes (e.g. when navigating between headings)
-//   // if (location.pathname === previousLocation?.pathname) return;
-//   commento();
-// }
-export function onRouteUpdate({ location, previousLocation }) {
+export function onRouteDidUpdate({ location, previousLocation }) {
   // Don't execute if we are still on the same page; the lifecycle may be fired
   // because the hash changes (e.g. when navigating between headings)
   // if (location.pathname === previousLocation?.pathname) return;
-  setTimeout(() => {
-    commento();
-  }, 500);
+  commento();
 }
+// export function onRouteUpdate({ location, previousLocation }) {
+//   // Don't execute if we are still on the same page; the lifecycle may be fired
+//   // because the hash changes (e.g. when navigating between headings)
+//   // if (location.pathname === previousLocation?.pathname) return;
+//   setTimeout(() => {
+//     commento();
+//   }, 500);
+// }
