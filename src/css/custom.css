@@ -425,6 +425,18 @@ table td:nth-child(8) {
   display: block;
   text-decoration: none;
 }
+#search img {
+  /* border: 10px solid #ccc; */
+  box-shadow:
+  0px 0px 3.9px rgba(0, 0, 0, 0.039),
+  0px 0px 9.4px rgba(0, 0, 0, 0.057),
+  0px 0px 17.8px rgba(0, 0, 0, 0.07),
+  0px 0px 31.7px rgba(0, 0, 0, 0.083),
+  0px 0px 59.3px rgba(0, 0, 0, 0.101),
+  0px 0px 142px rgba(0, 0, 0, 0.14)
+;
+}
+
 
 /* The icon at the top right, which starts the search modal */
 #search-start {
