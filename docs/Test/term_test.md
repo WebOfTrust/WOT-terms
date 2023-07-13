@@ -47,5 +47,3 @@ In 1961, Walt Disney Productions licensed certain film and other rights of Milne
 
 
 In popular film adaptations, Pooh has been voiced by actors Sterling Holloway, Hal Smith, and Jim Cummings in English, and Yevgeny Leonov in Russian.
-
-<div id="commento"></div>
