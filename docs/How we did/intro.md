@@ -1,6 +1,9 @@
 ---
 sidebar: HowWeDidSidebar
 ---
+
+import Kerisse from '/img/kerisse.svg';
+
 # WOT How we did's
 
 This is a source directory that explains how this site came to be and how it can be maintained.
@@ -25,7 +28,7 @@ Is the data part of this site and consists of:
 - Artificial Intelligence chatBot 
 - Docusaurus static site functionality
 
-# How we did
+## How we did
 ...answers questions like:
 - why did we make these things listed above
 - how to create the result step by step
@@ -34,3 +37,7 @@ Is the data part of this site and consists of:
 - why do we have this component (and not something else)
 - who does benefit from the component or process
 - what's the precedence, the workflow, the triggers, what comes after this
+
+## Schematic view
+
+<Kerisse />
