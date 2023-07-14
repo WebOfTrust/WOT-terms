@@ -704,3 +704,20 @@ img.floatleft {
   margin-bottom: 1em !important;
   width: 200px !important;
 } */
+
+
+
+/*
+  SVG
+*/
+svg a {
+  /* fill: blue; */
+  stroke: blue;
+  stroke-width: 0.4;
+  stroke-linecap: round;
+  text-decoration: underline !important;
+
+}
+/*
+  END SVG
+*/
