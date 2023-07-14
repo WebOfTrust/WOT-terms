@@ -680,3 +680,27 @@ https://css-tricks.com/books/greatest-css-tricks/scroll-shadows/
   display: inline;
 }
 /* END ToIP Glossary */
+
+
+/* img.floatleft {
+  float: left !important;
+  margin-right: 1em !important;
+  margin-bottom: 1em !important;
+  width: 200px !important;
+} */
+
+img.floatleft {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  width: 200px;
+}
+
+
+
+/* #docusaurus_skipToContent_fallback > div > main > div > div > div > div > article > div.theme-doc-markdown.markdown > img {
+  float: left !important;
+  margin-right: 1em !important;
+  margin-bottom: 1em !important;
+  width: 200px !important;
+} */
