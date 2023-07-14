@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="252 67 970 2237">
+<svg version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="252 67 970 2237">
   <defs>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter"
       stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
@@ -21,13 +22,15 @@
         </text>
       </g>
       <g id="Graphic_8">
-        <rect x="487" y="190" width="182" height="58" fill="#ffea4d" />
-        <rect x="487" y="190" width="182" height="58" stroke="gray" stroke-linecap="round" stroke-linejoin="round"
-          stroke-width="1" />
-        <text transform="translate(492 200.552)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="57.856" y="15">Scraper</tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="54.448" y="33.448">(Node.js)</tspan>
-        </text>
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/scrapers">
+          <rect x="487" y="190" width="182" height="58" fill="#ffea4d" />
+          <rect x="487" y="190" width="182" height="58" stroke="gray" stroke-linecap="round" stroke-linejoin="round"
+            stroke-width="1" />
+          <text transform="translate(492 200.552)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="57.856" y="15">Scraper</tspan>
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="54.448" y="33.448">(Node.js)</tspan>
+          </text>
+        </a>
       </g>
       <g id="Graphic_11">
         <path d="M 849.0682 407 L 964.1364 531.5 L 849.0682 656 L 734 531.5 Z" fill="#ffea4d" />
@@ -103,15 +106,18 @@
         </text>
       </g>
       <g id="Graphic_26">
-        <rect x="1027" y="1237" width="178" height="106" fill="#ffea4d" />
-        <rect x="1027" y="1237" width="178" height="106" stroke="gray" stroke-linecap="round" stroke-linejoin="round"
-          stroke-width="1" />
-        <text transform="translate(1032 1262.328)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="14.648" y="15">Create sitemap.xml</tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="30.36" y="33.448">manually or via </tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="24.136" y="51.895996">createSitemap.js
-          </tspan>
-        </text>
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/createSitemap.js">
+          <rect x="1027" y="1237" width="178" height="106" fill="#ffea4d" />
+          <rect x="1027" y="1237" width="178" height="106" stroke="gray" stroke-linecap="round" stroke-linejoin="round"
+            stroke-width="1" />
+          <text transform="translate(1032 1262.328)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="14.648" y="15">Create sitemap.xml</tspan>
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="30.36" y="33.448">manually or via
+            </tspan>
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="24.136" y="51.895996">createSitemap.js
+            </tspan>
+          </text>
+        </a>
       </g>
       <g id="Line_32">
         <path
@@ -173,17 +179,20 @@
         </a>
       </g>
       <g id="Graphic_37">
-        <rect x="734" y="1294" width="178" height="106" fill="#ffea4d" />
-        <rect x="734" y="1294" width="178" height="106" stroke="gray" stroke-linecap="round" stroke-linejoin="round"
-          stroke-width="1" />
-        <text transform="translate(739 1310.104)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="37.032" y="15">Scrape using </tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="6.488" y="33.448">sitemap.xml manually
-          </tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="35.256" y="51.895996">created or via
-          </tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="33.176" y="70.34399">createSitem.js</tspan>
-        </text>
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/createSitemap.js">
+          <rect x="734" y="1294" width="178" height="106" fill="#ffea4d" />
+          <rect x="734" y="1294" width="178" height="106" stroke="gray" stroke-linecap="round" stroke-linejoin="round"
+            stroke-width="1" />
+          <text transform="translate(739 1310.104)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="37.032" y="15">Scrape using </tspan>
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="6.488" y="33.448">sitemap.xml manually
+            </tspan>
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="35.256" y="51.895996">created or via
+            </tspan>
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="24.136" y="70.34399">createSitemap.js
+            </tspan>
+          </text>
+        </a>
       </g>
       <g id="Line_39">
         <path
