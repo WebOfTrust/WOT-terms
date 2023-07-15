@@ -138,10 +138,11 @@
         </text>
       </g>
       <g id="Graphic_24">
+
+        <rect x="313" y="612" width="174" height="47" fill="white" />
+        <rect x="313" y="612" width="174" height="47" stroke="gray" stroke-linecap="round" stroke-linejoin="round"
+          stroke-width="1" />
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/externalContentCarbonCopies">
-          <rect x="313" y="612" width="174" height="47" fill="white" />
-          <rect x="313" y="612" width="174" height="47" stroke="gray" stroke-linecap="round" stroke-linejoin="round"
-            stroke-width="1" />
           <text transform="translate(318 620.136)" fill="black">
             <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="2.544" y="12">“Carbon copies” of content
             </tspan>
