@@ -76,6 +76,9 @@ const showLevels = (targetElements) => {
     });
   };
 
+  /**
+   * Create buttons to show/hide levels in document. 
+   */
   const createShowLevelButtons = () => {
     if (
       inDocSection &&
