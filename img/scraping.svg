@@ -14,12 +14,12 @@
       <title id="title11">Layer 1</title>
       <g id="Graphic_3">
         <title id="title13">Rectangle</title>
-        <rect x="487" y="68" width="182" height="58" fill="#ffea4d" id="rect15"/>
-        <rect x="487" y="68" width="182" height="58" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" id="rect17"/>
+        <rect x="487" y="68" fill="#ffea4d" id="rect15"/>
+        <rect x="487" y="68" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" id="rect17"/>
         <text transform="translate(492 87.776)" fill="black" id="text21"><tspan font-family="Helvetica Neue" font-size="16" fill="black" x="61.848" y="15" id="tspan19">START</tspan></text>
       </g>
       <g id="Graphic_8">
-        <rect x="487" y="190" width="182" height="58" fill="#ffea4d" id="rect24"/>
+        <rect x="487" y="190" fill="#ffea4d" id="rect24"/>
         <rect x="487" y="190" width="182" height="58" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" id="rect26"/>
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/scrapers" id="a34">
           <text transform="translate(492 200.552)" fill="black" id="text32"><tspan font-family="Helvetica Neue" font-size="16" fill="black" x="57.856" y="15" id="tspan28">Scraper</tspan><tspan font-family="Helvetica Neue" font-size="16" fill="black" x="54.448" y="33.448" id="tspan30">(Node.js)</tspan></text>
