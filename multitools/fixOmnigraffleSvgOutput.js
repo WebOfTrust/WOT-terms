@@ -55,7 +55,14 @@ fs.readdir(directoryPath, (err, files) => {
 
                 // Apply each of the replacement rules to the file content
                 for (const rule of replacements) {
-                    result = result.replace(rule.regex, rule.replaceWith);
+                    // If the rule is for 'width' and 'height' attributes, only apply it if 'viewBox=' is found in the document
+                    if (rule.regex.toString() === '/width="\\d+(\\.\\d+)?" height="\\d+(\\.\\d+)?"/' && data.includes('viewBox=')) {
+                        result = result.replace(rule.regex, rule.replaceWith);
+                    }
+                    // For all other rules, apply them unconditionally
+                    else if (rule.regex.toString() !== '/width="\\d+(\\.\\d+)?" height="\\d+(\\.\\d+)?"/') {
+                        result = result.replace(rule.regex, rule.replaceWith);
+                    }
                 }
 
                 // Load the file content into Cheerio (a library for parsing and manipulating HTML/XML)
