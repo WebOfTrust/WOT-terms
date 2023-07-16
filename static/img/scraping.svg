@@ -15,37 +15,37 @@
         <title>Rectangle</title>
         <rect x="487" y="68" width="182" height="58" fill="#ffea4d"/>
         <rect x="487" y="68" width="182" height="58" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-        <text transform="translate(492 87.776)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="61.848" y="15">START</tspan>
+        <text transform="translate(492 87.5)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="59.640625" y="16">START</tspan>
         </text>
       </g>
       <g id="Graphic_8">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/scrapers">
           
           
-          <text transform="translate(492 200.552)" fill="black">
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="57.856" y="15">Scraper</tspan>
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="54.448" y="33.448">(Node.js)</tspan>
+          <text transform="translate(492 200)" fill="black">
+            <tspan font-family="Verdana" font-size="16" fill="black" x="54.98047" y="16">Scraper</tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="48.3125" y="35">(Node.js)</tspan>
           </text>
         </a>
       </g>
       <g id="Graphic_11">
         <path d="M 849.0682 407 L 964.1364 531.5 L 849.0682 656 L 734 531.5 Z" fill="#ffea4d"/>
         <path d="M 849.0682 407 L 964.1364 531.5 L 849.0682 656 L 734 531.5 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-        <text transform="translate(770.0684 493.656)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="58.62914" y="15">Site 1:</tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="10.60514" y="33.448">remote sitemap.xml</tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="56.11714" y="51.895996">exists?</tspan>
-          <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="12.21264" y="67.343994">(Usually in website root)</tspan>
+        <text transform="translate(770.0684 492.51)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="54.18786" y="16">Site 1:</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x=".28160858" y="35">remote sitemap.xml</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="53.754265" y="54">exists?</tspan>
+          <tspan font-family="Verdana" font-size="13" fill="black" x="1.0001144" y="70">(Usually in website root)</tspan>
         </text>
       </g>
       <g id="Graphic_12">
         <path d="M 368.0682 407 L 483.13636 531.5 L 368.0682 656 L 253 531.5 Z" fill="#ffea4d"/>
         <path d="M 368.0682 407 L 483.13636 531.5 L 368.0682 656 L 253 531.5 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-        <text transform="translate(289.0684 501.338)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="58.62914" y="15">Site 2:</tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="10.60514" y="33.448">remote sitemap.xml</tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="56.11714" y="51.895996">exists?</tspan>
+        <text transform="translate(289.0684 500.51)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="54.18786" y="16">Site 2:</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x=".28160858" y="35">remote sitemap.xml</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="53.754265" y="54">exists?</tspan>
         </text>
       </g>
       <g id="Line_13">
@@ -60,8 +60,8 @@
       <g id="Graphic_17">
         <rect x="345.10227" y="819" width="45.93182" height="50" fill="#ffea4d"/>
         <rect x="345.10227" y="819" width="45.93182" height="50" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-        <text transform="translate(350.10227 834.776)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="9.96591" y="15">&#x2026;</tspan>
+        <text transform="translate(350.10227 834.5)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="11.419035" y="16">&#x2026;</tspan>
         </text>
       </g>
       <g id="Line_18">
@@ -70,28 +70,28 @@
       <g id="Graphic_19">
         <path d="M 1106.0682 739 L 1221.1364 863.5 L 1106.0682 988 L 991 863.5 Z" fill="#ffea4d"/>
         <path d="M 1106.0682 739 L 1221.1364 863.5 L 1106.0682 988 L 991 863.5 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-        <text transform="translate(1027.0684 842.562)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="6.32514" y="15">List of urls on a page </tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="56.11714" y="33.448">exists?</tspan>
+        <text transform="translate(1027.0684 842.01)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="18.85192" y="16">List of urls on a </tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="31.402702" y="35">page exists?</tspan>
         </text>
       </g>
       <g id="Line_20">
         <path d="M 898.6996 602.3004 C 948.1267 670.4156 1019.676 766.9271 1041.8255 793.9636" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_24">
-        <rect x="976.898" y="715.08005" width="30.736" height="28.447998" fill="#ffea4d"/>
-        <text transform="translate(981.898 720.08005)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="39257486e-20" y="15">No</tspan>
+        <rect x="976.4262" y="714.80405" width="31.679688" height="29" fill="#ffea4d"/>
+        <text transform="translate(981.4262 719.80405)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">No</tspan>
         </text>
       </g>
       <g id="Graphic_26">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/createSitemap.js">
           
           
-          <text transform="translate(1032 1262.328)" fill="black">
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="14.648" y="15">Create sitemap.xml</tspan>
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="30.36" y="33.448">manually or via </tspan>
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="24.136" y="51.895996">createSitemap.js</tspan>
+          <text transform="translate(1032 1261.5)" fill="black">
+            <tspan font-family="Verdana" font-size="16" fill="black" x="5.2265625" y="16">Create sitemap.xml</tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="21.73047" y="35">manually or via </tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="15.945312" y="54">createSitemap.js</tspan>
           </text>
         </a>
       </g>
@@ -99,43 +99,43 @@
         <path d="M 1163.6023 925.75 C 1158.6023 923.75 1178.6667 1006.6667 1158.6667 1090.6667 C 1143.4186 1154.7085 1123.8994 1206.4878 1117.5594 1227.2251" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_31">
-        <rect x="1144.3778" y="1060.689" width="35.184" height="28.447998" fill="#ffea4d"/>
-        <text transform="translate(1149.3778 1065.689)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="552447e-18" y="15">Yes</tspan>
+        <rect x="1143.1143" y="1060.413" width="37.710938" height="29" fill="#ffea4d"/>
+        <text transform="translate(1148.1143 1065.413)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">Yes</tspan>
         </text>
       </g>
       <g id="Graphic_33">
         <rect x="570" y="1552" width="342" height="199" fill="#ffea4d"/>
         <rect x="570" y="1552" width="342" height="199" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-        <text transform="translate(600 1568.484)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">Assign scrape results to keys in array </tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="33.448">object</tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="51.895996">[{</tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="70.34399">&#xa0;&#xa0;&#xa0;&#xa0;siteName: &apos;xxx&apos;</tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="88.79199">&#xa0;&#xa0;&#xa0;&#xa0;url: &apos;xxx&apos;</tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="107.23999">&#xa0;&#xa0;&#xa0;&#xa0;content: &apos;xxx&apos;</tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="125.68799">&#xa0;&#xa0;&#xa0;&#xa0;tag: &apos;xxx&apos;</tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="144.13599">etc.</tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="162.58398">}]</tspan>
+        <text transform="translate(600 1566)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">Assign scrape results to keys in </tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="35">array object</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="54">[{</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="73">&#xa0;&#xa0;&#xa0;&#xa0;siteName: &apos;xxx&apos;</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="92">&#xa0;&#xa0;&#xa0;&#xa0;url: &apos;xxx&apos;</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="111">&#xa0;&#xa0;&#xa0;&#xa0;content: &apos;xxx&apos;</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="130">&#xa0;&#xa0;&#xa0;&#xa0;tag: &apos;xxx&apos;</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="149">etc.</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="168">}]</tspan>
         </text>
       </g>
       <g id="Line_35">
         <path d="M 1116 1343 C 1111 1341 1094.4063 1428.7708 1061.3333 1456 C 1033.1826 1479.1767 900.0754 1532.8632 863.9655 1547.9783" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_34">
-        <rect x="1008.6568" y="1462.5126" width="35.184" height="28.447998" fill="#ffea4d"/>
-        <text transform="translate(1013.6568 1467.5126)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="552447e-18" y="15">Yes</tspan>
+        <rect x="1007.3934" y="1462.2366" width="37.710938" height="29" fill="#ffea4d"/>
+        <text transform="translate(1012.3934 1467.2366)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">Yes</tspan>
         </text>
       </g>
       <g id="Graphic_36">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/createSitemap.js">
           
           
-          <text transform="translate(739 1153.414)" fill="black">
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="14.648" y="15">Create sitemap.xml</tspan>
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="30.36" y="33.448">manually or via </tspan>
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="24.136" y="51.895996">createSitemap.js</tspan>
+          <text transform="translate(739 1152.586)" fill="black">
+            <tspan font-family="Verdana" font-size="16" fill="black" x="5.2265625" y="16">Create sitemap.xml</tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="21.73047" y="35">manually or via </tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="15.945312" y="54">createSitemap.js</tspan>
           </text>
         </a>
       </g>
@@ -143,11 +143,12 @@
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/createSitemap.js">
           
           
-          <text transform="translate(739 1310.104)" fill="black">
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="37.032" y="15">Scrape using </tspan>
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="6.488" y="33.448">sitemap.xml manually</tspan>
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="35.256" y="51.895996">created or via </tspan>
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="24.136" y="70.34399">createSitemap.js</tspan>
+          <text transform="translate(739 1299.5)" fill="black">
+            <tspan font-family="Verdana" font-size="16" fill="black" x="32.109375" y="16">Scrape using </tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="34.527344" y="35">sitemap.xml </tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="47.359375" y="54">manually</tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="28.316406" y="73">created or via </tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="15.945312" y="92">createSitemap.js</tspan>
           </text>
         </a>
       </g>
@@ -155,9 +156,9 @@
         <path d="M 1048.5341 925.75 C 1043.5341 923.75 917 1019 875 1059 C 858.3543 1074.853 845.9997 1097.4062 837.4408 1118.8231" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_38">
-        <rect x="921.2369" y="992.7547" width="30.736" height="28.447998" fill="#ffea4d"/>
-        <text transform="translate(926.2369 997.7547)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="39257486e-20" y="15">No</tspan>
+        <rect x="920.7651" y="992.4787" width="31.679688" height="29" fill="#ffea4d"/>
+        <text transform="translate(925.7651 997.4787)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">No</tspan>
         </text>
       </g>
       <g id="Line_41">
@@ -170,18 +171,18 @@
         <title>Rectangle</title>
         <rect x="458" y="976" width="178" height="79" fill="#ffea4d"/>
         <rect x="458" y="976" width="178" height="79" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-        <text transform="translate(463 997.052)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="37.032" y="15">Scrape using</tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="28.272" y="33.448">remote sitemap</tspan>
+        <text transform="translate(463 996.5)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="32.109375" y="16">Scrape using</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="20.601562" y="35">remote sitemap</tspan>
         </text>
       </g>
       <g id="Line_45">
         <path d="M 764.2837 564.26594 C 720.0271 590.6511 665.743 636.6941 620 715.08005 C 560.1926 817.5671 545.0435 911.4843 543.14175 966.1018" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_44">
-        <rect x="585.25574" y="732.3341" width="35.184" height="28.447998" fill="#ffea4d"/>
-        <text transform="translate(590.25574 737.3341)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="552447e-18" y="15">Yes</tspan>
+        <rect x="583.9923" y="732.0581" width="37.710938" height="29" fill="#ffea4d"/>
+        <text transform="translate(588.9923 737.0581)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">Yes</tspan>
         </text>
       </g>
       <g id="Line_46">
@@ -191,8 +192,8 @@
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/scrapers/modules">
           
           
-          <text transform="translate(663 1868.776)" fill="black">
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="20.584" y="15">Store in JSON file</tspan>
+          <text transform="translate(663 1868.5)" fill="black">
+            <tspan font-family="Verdana" font-size="16" fill="black" x="13.292969" y="16">Store in JSON file</tspan>
           </text>
         </a>
       </g>
@@ -200,8 +201,9 @@
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/import.sh">
           
           
-          <text transform="translate(663 2062.776)" fill="black">
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="6.064" y="15">Convert to JSONL file</tspan>
+          <text transform="translate(663 2053)" fill="black">
+            <tspan font-family="Verdana" font-size="16" fill="black" x="12.957031" y="16">Convert to JSONL </tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="72.03125" y="35">file</tspan>
           </text>
         </a>
       </g>
@@ -215,9 +217,10 @@
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/import.sh">
           
           
-          <text transform="translate(663 2231.552)" fill="black">
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="10.944" y="15">Import in TypeSense</tspan>
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="31.264" y="33.448">index (via Curl)</tspan>
+          <text transform="translate(663 2221.5)" fill="black">
+            <tspan font-family="Verdana" font-size="16" fill="black" x="46.375" y="16">Import in </tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="40.35547" y="35">TypeSense</tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="21.375" y="54">index (via Curl)</tspan>
           </text>
         </a>
       </g>
