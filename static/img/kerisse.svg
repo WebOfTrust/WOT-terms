@@ -24,8 +24,8 @@
         </text>
       </g>
       <g id="Graphic_8">
-        <rect x="343" y="235" width="165" height="66.45679" fill="#fffb39"/>
-        <rect x="343" y="235" width="165" height="66.45679" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <rect x="343" y="235" fill="#fffb39"/>
+        <rect x="343" y="235" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(348 236.7804)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="15.404" y="15">A Documentation </tspan>
           <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="63.724" y="33.448">Site</tspan>
@@ -33,7 +33,7 @@
         </text>
       </g>
       <g id="Graphic_9">
-        <rect x="473" y="377" width="165" height="66.45679" fill="#fffb39"/>
+        <rect x="473" y="377" fill="#fffb39"/>
         <rect x="473" y="377" width="165" height="66.45679" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(478 388.0044)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="18.38" y="15">A Search Engine</tspan>

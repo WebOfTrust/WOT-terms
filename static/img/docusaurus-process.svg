@@ -19,7 +19,7 @@
       <g id="Graphic_23">
         <title>Rectangle</title>
         <rect x="333.93783" y="1579" fill="white"/>
-        <rect x="333.93783" y="1579" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <rect x="333.93783" y="1579" width="149" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(338.93783 1607)" fill="black">
           <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="1.1679688" y="15">Page ready to view</tspan>
         </text>
@@ -37,7 +37,7 @@
     <g id="Canvas_1_Client_side">
       <title>Client side</title>
       <g id="Graphic_37">
-        <rect x="-147.56217" y="751" fill="#ffe8d7" fill-opacity=".30593644"/>
+        <rect x="-147.56217" y="751" width="1112" height="741" fill="#ffe8d7" fill-opacity=".30593644"/>
         <rect x="-147.56217" y="751" width="1112" height="741" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
       </g>
       <g id="Graphic_10">
