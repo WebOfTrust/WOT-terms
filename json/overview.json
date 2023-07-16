@@ -1406,7 +1406,7 @@
       "",
       "",
       "",
-      "assertion of something's truth, often disputed or in doubt.",
+      "#NAME?",
       "",
       "Assertion of truth, disputed or uncertain."
     ],
@@ -9095,7 +9095,7 @@
       "",
       "TOAD",
       "threshold of accountable duplicity; provided by controller concerning witnesses",
-      "https://github.com/trustoverip/acdc/wiki/TOAD",
+      "https://github.com/weboftrust/WOT-terms/wiki/KERIA",
       "",
       "3"
     ],
@@ -9117,7 +9117,7 @@
       "",
       "KERIA",
       "KERI agent in the cloud",
-      "https://github.com/weboftrust/WOT-terms/wiki/keria",
+      "",
       "",
       "3"
     ],
@@ -9467,21 +9467,21 @@
     ],
     [
       "463",
-      "-",
-      "WWWWWW",
+      "K",
+      "ample",
       "",
-      "",
-      "",
-      "https://github.com/weboftrust/WOT-terms/wiki/WWWWWW"
+      "ample",
+      "minimum required number of participants in an event to have a supermajority in the consensus agreement algorithm (KAACE) in KERI",
+      "https://github.com/weboftrust/WOT-terms/wiki/ample"
     ],
     [
       "464",
       "-",
-      "WWWWWW",
+      "supemajority",
       "",
+      "supemajority",
       "",
-      "",
-      "https://github.com/weboftrust/WOT-terms/wiki/WWWWWW"
+      "https://github.com/weboftrust/WOT-terms/wiki/supemajority"
     ],
     [
       "465",
