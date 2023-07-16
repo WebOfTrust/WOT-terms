@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="232 1 457 770">
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="232 1 523 770">
   <defs>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
       <g>
@@ -16,45 +17,45 @@
     <g id="Canvas_1_Layer_1">
       <title>Layer 1</title>
       <g id="Graphic_3">
-        <rect x="401" y="2" fill="#fffb39"/>
-        <rect x="401" y="2" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-        <text transform="translate(406 10.052002)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="25.828" y="15">What is</tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="15.02" y="33.448">KERISSE?</tspan>
+        <rect x="401" y="2" width="115" height="53" fill="#fffb39"/>
+        <rect x="401" y="2" width="115" height="53" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(406 9.5)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="22.39453" y="16">What is</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="12.609375" y="35">KERISSE?</tspan>
         </text>
       </g>
       <g id="Graphic_8">
-        <rect x="343" y="235" fill="#fffb39"/>
-        <rect x="343" y="235" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-        <text transform="translate(348 236.7804)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="15.404" y="15">A Documentation </tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="63.724" y="33.448">Site</tspan>
-          <tspan font-family="Apple Color Emoji" font-size="16" fill="black" x="67" y="56.895996">&#x1f4c4;</tspan>
+        <rect x="343" y="235" width="165" height="66.45679" fill="#fffb39"/>
+        <rect x="343" y="235" width="165" height="66.45679" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(348 236.2284)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="8.136719" y="16">A Documentation </tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="61.91797" y="35">Site</tspan>
+          <tspan font-family="Apple Color Emoji" font-size="16" fill="black" x="67" y="58">&#x1f4c4;</tspan>
         </text>
       </g>
       <g id="Graphic_9">
-        <rect x="473" y="377" fill="#fffb39"/>
+        <rect x="473" y="377" width="165" height="66.45679" fill="#fffb39"/>
         <rect x="473" y="377" width="165" height="66.45679" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-        <text transform="translate(478 388.0044)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="18.38" y="15">A Search Engine</tspan>
-          <tspan font-family="Apple Color Emoji" font-size="16" fill="black" x="67" y="38.448">&#x1f50d;</tspan>
+        <text transform="translate(478 387.7284)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="11.59375" y="16">A Search Engine</tspan>
+          <tspan font-family="Apple Color Emoji" font-size="16" fill="black" x="67" y="39">&#x1f50d;</tspan>
         </text>
       </g>
       <g id="Graphic_10">
-        <rect x="573" y="235" width="115" height="72" fill="#fffb39" fill-opacity=".32017963"/>
-        <rect x="573" y="235" width="115" height="72" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-        <text transform="translate(578 243.594)" fill="#a3a3a3">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="#a3a3a3" x="16.196" y="15">A Chatbot</tspan>
-          <tspan font-family="Helvetica Neue" font-size="13" fill="#a3a3a3" x=".864" y="30.447998">(work in progress)
-          </tspan>
-          <tspan font-family="Apple Color Emoji" font-size="13" fill="#a3a3a3" x="44" y="49.811996">&#x1f4ac;</tspan>
+        <rect x="639" y="235" width="115" height="72" fill="#fffb39" fill-opacity=".32017963"/>
+        <rect x="639" y="235" width="115" height="72" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(644 235)" fill="#a3a3a3">
+          <tspan font-family="Verdana" font-size="16" fill="#a3a3a3" x="12.621094" y="16">A Chatbot</tspan>
+          <tspan font-family="Verdana" font-size="13" fill="#a3a3a3" x="25.4812" y="32">(work in </tspan>
+          <tspan font-family="Verdana" font-size="13" fill="#a3a3a3" x="21.31079" y="48">progress)</tspan>
+          <tspan font-family="Apple Color Emoji" font-size="13" fill="#a3a3a3" x="44" y="67">&#x1f4ac;</tspan>
         </text>
       </g>
       <g id="Line_11">
         <path d="M 458.5 82.36326 L 458.5 158.68163 L 425.5 158.68163 L 425.5 225.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Line_12">
-        <path d="M 458.5 55 L 458.5 145 L 630.5 145 L 630.5 225.1" marker-end="url(#FilledArrow_Marker_2)" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path d="M 458.5 55 L 458.5 145 L 696.5 145 L 696.5 225.1" marker-end="url(#FilledArrow_Marker_2)" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Line_13">
         <path d="M 458.5 55 L 458.5 145 L 555.5 145 L 555.5 367.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
@@ -62,26 +63,26 @@
       <g id="Graphic_14">
         <rect x="483" y="686.276" width="129.728" height="28.447998" fill="white"/>
         <rect x="483" y="686.276" width="129.728" height="28.447998" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-        <text transform="translate(488 692.818)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="9.300498" y="12">Exernal domain 1</tspan>
+        <text transform="translate(488 692.5)" fill="black">
+          <tspan font-family="Verdana" font-size="13" fill="black" x="2.6398773" y="13">Exernal domain 1</tspan>
         </text>
       </g>
       <g id="Graphic_15">
         <rect x="558.272" y="742" width="129.728" height="28.447998" fill="white"/>
         <rect x="558.272" y="742" width="129.728" height="28.447998" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-        <text transform="translate(563.272 748.542)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="9.300498" y="12">Exernal domain 2</tspan>
+        <text transform="translate(563.272 748.224)" fill="black">
+          <tspan font-family="Verdana" font-size="13" fill="black" x="2.6398773" y="13">Exernal domain 2</tspan>
         </text>
       </g>
       <g id="Line_17">
         <path d="M 450.9088 301.4568 C 466.57593 321.8397 487.36254 348.0817 507.10054 369.74654" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
       </g>
       <g id="Graphic_18">
-        <rect x="426.53886" y="318.0606" width="107.279" height="41.333333" fill="white"/><a xlink:href="/WOT-terms/docs/How%20we%20did/Create-search-index">
-
-          <text transform="translate(431.53886 323.0606)" fill="black">
-            <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="0" y="12">Content scraped</tspan>
-            <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="23.0035" y="27.364">(Node.js)</tspan>
+        <a xlink:href="/WOT-terms/docs/How%20we%20did/Create-search-index">
+          
+          <text transform="translate(434.9833 325.4246)" fill="black">
+            <tspan font-family="Verdana" font-size="11" fill="black" x="0" y="11">Content scraped</tspan>
+            <tspan font-family="Verdana" font-size="11" fill="black" x="19.284912" y="24">(Node.js)</tspan>
           </text>
         </a>
       </g>
@@ -89,11 +90,11 @@
         <path d="M 547.65284 686.276 C 545.2621 644.3149 535.25 519.9578 540.08626 453.32187" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
       </g>
       <g id="Graphic_19">
-        <rect x="487.31526" y="554.4631" width="107.279" height="40.727997" fill="white"/><a xlink:href="/WOT-terms/docs/How%20we%20did/Create-search-index">
-
-          <text transform="translate(492.31526 559.4631)" fill="black">
-            <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="0" y="12">Content scraped</tspan>
-            <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="23.0035" y="27.364">(Node.js)</tspan>
+        <a xlink:href="/WOT-terms/docs/How%20we%20did/Create-search-index">
+          
+          <text transform="translate(495.7597 561.8271)" fill="black">
+            <tspan font-family="Verdana" font-size="11" fill="black" x="0" y="11">Content scraped</tspan>
+            <tspan font-family="Verdana" font-size="11" fill="black" x="19.284912" y="24">(Node.js)</tspan>
           </text>
         </a>
       </g>
@@ -101,31 +102,29 @@
         <path d="M 621.4163 742 C 621.2685 693.0792 632.6077 530.6391 603.5663 452.6084" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
       </g>
       <g id="Graphic_21">
-        <rect x="569.63116" y="584.3147" width="107.279" height="40.727997" fill="white"/><a xlink:href="/WOT-terms/docs/How%20we%20did/Create-search-index">
-
-          <text transform="translate(574.63116 589.3147)" fill="black">
-            <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="0" y="12">Content scraped</tspan>
-            <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="23.0035" y="27.364">(Node.js)</tspan>
+        <a xlink:href="/WOT-terms/docs/How%20we%20did/Create-search-index">
+          
+          <text transform="translate(578.0756 591.6787)" fill="black">
+            <tspan font-family="Verdana" font-size="11" fill="black" x="0" y="11">Content scraped</tspan>
+            <tspan font-family="Verdana" font-size="11" fill="black" x="19.284912" y="24">(Node.js)</tspan>
           </text>
         </a>
       </g>
       <g id="Graphic_23">
         <rect x="233" y="440.03337" width="151" height="25.363998" fill="white"/>
         <rect x="233" y="440.03337" width="151" height="25.363998" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-        <text transform="translate(238 445.03337)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="33.177" y="12">Own content</tspan>
+        <text transform="translate(238 444.71536)" fill="black">
+          <tspan font-family="Verdana" font-size="13" fill="black" x="29.11328" y="13">Own content</tspan>
         </text>
       </g>
       <g id="Graphic_24">
-        <rect x="313" y="612" width="174" height="47" fill="white"/>
-        <rect x="313" y="612" width="174" height="47" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/externalContentCarbonCopies">
-
-
-          <text transform="translate(318 620.136)" fill="black">
-            <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="2.544" y="12">&#x201c;Carbon
-              copies&#x201d; of content </tspan>
-            <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="22.889" y="27.364">on external domains
-            </tspan>
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/externalContentCarbonCopies">
+          
+          
+          <text transform="translate(318 611.5)" fill="black">
+            <tspan font-family="Verdana" font-size="13" fill="black" x="21.48462" y="13">&#x201c;Carbon copies&#x201d; of </tspan>
+            <tspan font-family="Verdana" font-size="13" fill="black" x="18.091797" y="29">content on external </tspan>
+            <tspan font-family="Verdana" font-size="13" fill="black" x="54.495605" y="45">domains</tspan>
           </text>
         </a>
       </g>
@@ -133,47 +132,44 @@
         <path d="M 315.68378 440.03337 C 328.48476 413.59865 356.09957 351.69073 382.21227 309.7882" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
       </g>
       <g id="Graphic_27">
-        <rect x="283.988" y="336.9224" width="143.419" height="40.727997" fill="white"/>
-        <text transform="translate(288.98802 341.9224)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="15.6715" y="12">Markdown files in</tspan>
-          <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="8526513e-19" y="27.364">the documentation
-            site</tspan>
+        <rect x="286.90504" y="339.2864" width="137.58496" height="36" fill="white"/>
+        <text transform="translate(291.90504 344.2864)" fill="black">
+          <tspan font-family="Verdana" font-size="11" fill="black" x="15.554688" y="11">Markdown files in</tspan>
+          <tspan font-family="Verdana" font-size="11" fill="black" x="0" y="24">the documentation site</tspan>
         </text>
       </g>
       <g id="Line_30">
         <path d="M 400.7006 612 C 400.7089 551.41955 398.29413 389.3216 408.6924 311.25106" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
       </g>
       <g id="Graphic_29">
-        <rect x="350.56015" y="518.3347" width="99.817" height="40.727997" fill="white"/><a xlink:href="/WOT-terms/docs/How%20we%20did/Create-search-index">
-
-          <text transform="translate(355.56015 523.3347)" fill="black">
-            <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="0" y="12">Content copied</tspan>
-            <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="19.2725" y="27.364">(Node.js)</tspan>
+        <a xlink:href="/WOT-terms/docs/How%20we%20did/Create-search-index">
+          
+          <text transform="translate(358.94203 525.6987)" fill="black">
+            <tspan font-family="Verdana" font-size="11" fill="black" x="0" y="11">Content copied</tspan>
+            <tspan font-family="Verdana" font-size="11" fill="black" x="15.616455" y="24">(Node.js)</tspan>
           </text>
         </a>
       </g>
       <g id="Graphic_33">
         <rect x="247" y="65" width="129.728" height="47" fill="white"/>
         <rect x="247" y="65" width="129.728" height="47" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-        <text transform="translate(252 73.136)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="11.939498" y="12">Meta data about </tspan>
-          <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="37.829" y="27.364">content</tspan>
+        <text transform="translate(252 72.5)" fill="black">
+          <tspan font-family="Verdana" font-size="13" fill="black" x="6.486557" y="13">Meta data about </tspan>
+          <tspan font-family="Verdana" font-size="13" fill="black" x="35.311264" y="29">content</tspan>
         </text>
       </g>
       <g id="Line_32">
         <path d="M 323.97873 112 C 338.47167 141.08727 363.6038 191.09826 387.01427 226.7896" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
       </g>
       <g id="Graphic_31">
-        <rect x="284.94534" y="140.08326" width="137.127" height="58.728" fill="white"/><a xlink:href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSknYEP0pP5XbPYk3fc5d-xh-hi8SjS5Y8xFPHQsfpi7BgWYhsmyx-FhbZvR-InWN1qjI03qO04QYuz/pubhtml">
-
-          <text transform="translate(289.94534 145.08326)" fill="black">
-            <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="2.171" y="12">External spreadsheet
-            </tspan>
-            <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="2060574e-19" y="27.364">(imported via
-              Node.js)</tspan>
-            <tspan font-family="Helvetica Neue" font-size="13" fill="black" x="43.212" y="44.727997">Link </tspan>
-            <tspan font-family="PingFang SC" font-size="13" fill="black" y="44.727997">&#x2197;</tspan>
-            <tspan font-family="Helvetica Neue" font-size="13" fill="black" y="44.727997"> </tspan>
+        <a xlink:href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSknYEP0pP5XbPYk3fc5d-xh-hi8SjS5Y8xFPHQsfpi7BgWYhsmyx-FhbZvR-InWN1qjI03qO04QYuz/pubhtml">
+          
+          <text transform="translate(290.8228 148.44725)" fill="black">
+            <tspan font-family="Verdana" font-size="11" fill="black" x="4.224365" y="11">External spreadsheet</tspan>
+            <tspan font-family="Verdana" font-size="11" fill="black" x="0" y="24">(imported via Node.js)</tspan>
+            <tspan font-family="Verdana" font-size="11" fill="black" x="43.94629" y="38">Link </tspan>
+            <tspan font-family="PingFang SC" font-size="11" fill="black" y="38">&#x2197;</tspan>
+            <tspan font-family="Verdana" font-size="11" fill="black" y="38"> </tspan>
           </text>
         </a>
       </g>

@@ -18,10 +18,11 @@
       <title>Page ready</title>
       <g id="Graphic_23">
         <title>Rectangle</title>
-        <rect x="333.93783" y="1579" fill="white"/>
+        <rect x="333.93783" y="1579" width="149" height="75" fill="white"/>
         <rect x="333.93783" y="1579" width="149" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-        <text transform="translate(338.93783 1607)" fill="black">
-          <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="1.1679688" y="15">Page ready to view</tspan>
+        <text transform="translate(338.93783 1597.5)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="13.785156" y="16">Page ready to </tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="51.25781" y="35">view</tspan>
         </text>
       </g>
       <g id="Line_64">
@@ -31,7 +32,7 @@
     <g id="Canvas_1_Connection">
       <title>Connection</title>
       <g id="Line_63">
-        <path d="M 408.48715 613.4542 L 408.48715 623.9181 L 408.4625 681.4591 L 408.43783 730.1155 L 408.43783 733.6" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path d="M 408.4872 613.4542 L 408.4872 623.9542 L 408.4625 681.4771 L 408.43783 730.1335 L 408.43783 733.6" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
       </g>
     </g>
     <g id="Canvas_1_Client_side">
@@ -44,8 +45,8 @@
         <rect x="37.81915" y="1006" width="159" height="75" fill="white"/><rect x="37.81915" y="1006" width="159" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/crossLinks.js">
           
           
-          <text transform="translate(42.81915 1034.276)" fill="black">
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="35.236" y="15">Cross links</tspan>
+          <text transform="translate(42.81915 1034)" fill="black">
+            <tspan font-family="Verdana" font-size="16" fill="black" x="31.140625" y="16">Cross links</tspan>
           </text>
         </a>
       </g>
@@ -53,8 +54,8 @@
         <rect x="326.81915" y="1006" width="102" height="75" fill="white"/><rect x="326.81915" y="1006" width="102" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/insertVideo.js">
           
           
-          <text transform="translate(331.81915 1025.052)" fill="black">
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="6.144" y="15">insertVideo</tspan>
+          <text transform="translate(331.81915 1034)" fill="black">
+            <tspan font-family="Verdana" font-size="16" fill="black" x=".9726562" y="16">insertVideo</tspan>
           </text>
         </a>
       </g>
@@ -63,7 +64,8 @@
           
           
           <text transform="translate(607.81915 1024.5)" fill="black">
-            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="3.8476562" y="15">Insert Subtitles</tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="34.070312" y="16">Insert </tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="22.85547" y="35">Subtitles</tspan>
           </text>
         </a>
       </g>
@@ -71,8 +73,9 @@
         <rect x="777.81915" y="1006" width="134" height="75" fill="white"/><rect x="777.81915" y="1006" width="134" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/dynamicTables.js">
           
           
-          <text transform="translate(782.81915 1034)" fill="black">
-            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="6.015625" y="15">Dynamic Tables</tspan>
+          <text transform="translate(782.81915 1024.5)" fill="black">
+            <tspan font-family="Verdana" font-size="16" fill="black" x="27.089844" y="16">Dynamic </tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="36.152344" y="35">Tables</tspan>
           </text>
         </a>
       </g>
@@ -81,8 +84,8 @@
           
           
           <text transform="translate(-108.18085 1126.5)" fill="black">
-            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="18.007812" y="15">make overview table go full </tspan>
-            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="94.59375" y="34">screen</tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="6.644531" y="16">make overview table go full </tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="91.65625" y="35">screen</tspan>
           </text>
         </a>
       </g>
@@ -91,7 +94,7 @@
           
           
           <text transform="translate(89.81915 1246)" fill="black">
-            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="22.60547" y="15">write changes to Overview</tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="11.011719" y="16">write changes to Overview</tspan>
           </text>
         </a>
       </g>
@@ -100,7 +103,7 @@
           
           
           <text transform="translate(488.81915 1262.5)" fill="black">
-            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="15.078125" y="15">Horizontal Scroll Hint</tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="6.90625" y="16">Horizontal Scroll Hint</tspan>
           </text>
         </a>
       </g>
@@ -108,8 +111,9 @@
         <rect x="634.81915" y="1135" width="246" height="75" fill="white"/><rect x="634.81915" y="1135" width="246" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/showDefinitionsPopUpOnClick.js">
           
           
-          <text transform="translate(639.81915 1163)" fill="black">
-            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="4.6171875" y="15">Show inline definitions On Click</tspan>
+          <text transform="translate(639.81915 1153.5)" fill="black">
+            <tspan font-family="Verdana" font-size="16" fill="black" x="13.34375" y="16">Show inline definitions On </tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="99.12109" y="35">Click</tspan>
           </text>
         </a>
       </g>
@@ -118,9 +122,9 @@
           
           
           <text transform="translate(334.6383 1351.5)" fill="black">
-            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="28.53125" y="34">Add knowledge level and</tspan>
-            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="16.980469" y="53">type category as html attrib</tspan>
-            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="76.28516" y="72">to &lt;article&gt;</tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="17.722656" y="35">Add knowledge level and</tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="5.3671875" y="54">type category as html attrib</tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="69.390625" y="73">to &lt;article&gt;</tspan>
           </text>
         </a>
       </g>
@@ -128,16 +132,17 @@
         <rect x="231.81915" y="1119" width="169" height="75" fill="white"/><rect x="231.81915" y="1119" width="169" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/showGPTsummary.js">
           
           
-          <text transform="translate(236.81915 1147)" fill="black">
-            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="9.550781" y="15">Show GPT summary</tspan>
+          <text transform="translate(236.81915 1137.5)" fill="black">
+            <tspan font-family="Verdana" font-size="16" fill="black" x="38.796875" y="16">Show GPT </tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="41.753906" y="35">summary</tspan>
           </text>
         </a>
       </g>
       <g id="Graphic_40">
         <rect x="329.6383" y="786" width="246" height="75" fill="white"/>
         <rect x="329.6383" y="786" width="246" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-        <text transform="translate(334.6383 814.276)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="28.376" y="15">Browser (Client Modules)</tspan>
+        <text transform="translate(334.6383 814)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="16.730469" y="16">Browser (Client Modules)</tspan>
         </text>
       </g>
       <g id="Line_41">
@@ -153,7 +158,7 @@
         <path d="M 452.6383 861 L 452.6383 933.5 L 844.8191 933.5 L 844.8191 996.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Line_45">
-        <path d="M 452.6383 861 L 452.6383 933.5 L 9.819148 933.5 L 9.819148 1098.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path d="M 452.6383 861 L 452.6383 891.75 L 458.1383 891.75 L 458.1383 902.75 L 452.6383 902.75 L 452.6383 933.5 L 9.819148 933.5 L 9.819148 1098.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Line_46">
         <path d="M 452.6383 861 L 452.6383 933.5 L 207.81915 933.5 L 207.81915 1208.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
@@ -171,14 +176,14 @@
         <line x1="452.6383" y1="861" x2="452.6383" y2="1324.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_54">
-        <text transform="translate(308.81915 897)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="47606363e-20" y="15">Run in parallel</tspan>
+        <text transform="translate(301.56146 897)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">Run in parallel</tspan>
         </text>
       </g>
       <g id="Graphic_59">
         <title>CLIENT</title>
-        <text transform="translate(462 42.131936)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">SERVER-SIDE</tspan>
+        <text transform="translate(457.6809 42.131936)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">SERVER-SIDE</tspan>
         </text>
       </g>
     </g>
@@ -192,8 +197,8 @@
         <rect x="283.94415" y="222.25" width="246" height="75" fill="white"/>
         <rect x="283.94415" y="222.25" width="246" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(288.94415 240.75)" fill="black">
-          <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="25.984375" y="15">Import Google Sheet data</tspan>
-          <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="37.453125" y="34">into .md file (Node.js)</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="13.1875" y="16">Import Google Sheet data</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="28.964844" y="35">into .md file (Node.js)</tspan>
         </text>
       </g>
       <g id="Graphic_3">
@@ -201,7 +206,7 @@
         <rect x="283.69415" y="110.849" width="246" height="75" fill="white"/>
         <rect x="283.69415" y="110.849" width="246" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(288.69415 138.849)" fill="black">
-          <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="95.28906" y="15">Server</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="91.4375" y="16">Server</tspan>
         </text>
       </g>
       <g id="Line_62">
@@ -214,7 +219,7 @@
         <rect x="283.69415" y="347" width="246" height="75" fill="white"/>
         <rect x="283.69415" y="347" width="246" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(288.69415 375)" fill="black">
-          <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="46.09375" y="15">Run Docsaurus Build</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="34.898438" y="16">Run Docsaurus Build</tspan>
         </text>
       </g>
       <g id="Line_5">
@@ -223,14 +228,14 @@
       <g id="Graphic_8">
         <rect x="283.69415" y="491" width="246" height="75" fill="white"/>
         <rect x="283.69415" y="491" width="246" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-        <text transform="translate(288.69415 510.052)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="15.624" y="15">Deploy as website to GitHub </tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="95.632" y="33.448">Pages</tspan>
+        <text transform="translate(288.69415 509.5)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="3.8828125" y="16">Deploy as website to GitHub </tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="94.45312" y="35">Pages</tspan>
         </text>
       </g>
       <g id="Graphic_58">
-        <text transform="translate(475.8223 721)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">CLIENT-SIDE</tspan>
+        <text transform="translate(470.16 721)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">CLIENT-SIDE</tspan>
         </text>
       </g>
     </g>
