@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      <url><loc>https://github.com/weboftrust/shkr/blob/main/.gitignore</loc></url>
+<url><loc>https://github.com/weboftrust/shkr/blob/main/.python-version</loc></url>
+<url><loc>https://github.com/weboftrust/shkr/blob/main/LICENSE</loc></url>
+<url><loc>https://github.com/weboftrust/shkr/blob/main/Makefile</loc></url>
+<url><loc>https://github.com/weboftrust/shkr/blob/main/README.md</loc></url>
+<url><loc>https://github.com/weboftrust/shkr/blob/main/entitlements.plist</loc></url>
+<url><loc>https://github.com/weboftrust/shkr/blob/main/libsodium.23.arm.dylib</loc></url>
+<url><loc>https://github.com/weboftrust/shkr/blob/main/libsodium.23.i386.dylib</loc></url>
+<url><loc>https://github.com/weboftrust/shkr/blob/main/main.spec</loc></url>
+<url><loc>https://github.com/weboftrust/shkr/blob/main/requirements.txt</loc></url>
+<url><loc>https://github.com/weboftrust/shkr/blob/main/salt.icns</loc></url>
+<url><loc>https://github.com/weboftrust/shkr/blob/main/salt.png</loc></url>
+<url><loc>https://github.com/weboftrust/shkr/blob/main/setup.py</loc></url>
+<url><loc>https://github.com/weboftrust/shkr/blob/main/shkr/__init__.py</loc></url>
+<url><loc>https://github.com/weboftrust/shkr/blob/main/shkr/main.py</loc></url>
+    </urlset>
+  
