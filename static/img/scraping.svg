@@ -13,14 +13,14 @@
       <title>Layer 1</title>
       <g id="Graphic_3">
         <title>Rectangle</title>
-        <rect x="487" y="68" width="182" height="58" fill="#ffea4d"/>
-        <rect x="487" y="68" width="182" height="58" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <rect x="487" y="68" fill="#ffea4d"/>
+        <rect x="487" y="68" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(492 87.776)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="61.848" y="15">START</tspan>
         </text>
       </g>
       <g id="Graphic_8">
-        <rect x="487" y="190" width="182" height="58" fill="#ffea4d"/><rect x="487" y="190" width="182" height="58" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/scrapers">
+        <rect x="487" y="190" fill="#ffea4d"/><rect x="487" y="190" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/scrapers">
           
           
           <text transform="translate(492 200.552)" fill="black">
@@ -58,7 +58,7 @@
         <path d="M 601.4762 248 C 642.04225 296.24105 726.4235 394.27983 785.3579 461.42476" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_17">
-        <rect x="345.10227" y="819" width="45.93182" height="50" fill="#ffea4d"/>
+        <rect x="345.10227" y="819" fill="#ffea4d"/>
         <rect x="345.10227" y="819" width="45.93182" height="50" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(350.10227 834.776)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="9.96591" y="15">&#x2026;</tspan>
