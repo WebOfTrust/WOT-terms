@@ -6,7 +6,12 @@ Our platform houses a variety of resources related to the [KERI suite](#KERIsuit
 
 ### Main objective
 
-To provide to-be KERI experts with "How to's", (a quick route to) explanation of concepts and choices and glossary and background information on their Intermediate KERI suite level of understanding. And assist them to reach the expert level as swiftly as possible.
+To provide to-be KERI experts with "How to's", (a quick route to) explanation of concepts and choices, glossary and background information on their Intermediate KERI suite level of understanding. And assist them to reach the expert level as swiftly as possible.
+
+#### Levels
+- At a starting SSI-expert Level (1): What are the pieces of KERI suite
+- At an intermediate Level (2): Answer to Why is it done this way?
+- At the KERI suite expert Level (3): The ‘How’ for the devs and only for them. 
 
 ### Results
 Users can rely on our resources, search through all of them, use our glossary service, and explore the choices behind the KERI suite. Our Github page features a [KERI suite search engine (KERISSE)](#KERISSE), and offers a personal learning environment at three distinctive levels of understanding. We welcome guest users starting at 'E-Identity expert' level, with a handy [chatbox feature](#chatbox) for guidance on SSI and KERI suite terminology.
