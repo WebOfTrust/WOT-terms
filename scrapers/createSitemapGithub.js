@@ -23,11 +23,12 @@ const path = require('path');
 const args = process.argv.slice(2);
 const repositoryOwner = args[0];
 const repositoryName = args[1];
-const sitemapDirectory = args[2];
+const branchName = args[2];
+const sitemapDirectory = args[3];
 
 async function getRepositoryTree() {
     try {
-        const response = await axios.get(`https://api.github.com/repos/${repositoryOwner}/${repositoryName}/git/trees/main?recursive=1`);
+        const response = await axios.get(`https://api.github.com/repos/${repositoryOwner}/${repositoryName}/git/trees/${branchName}?recursive=1`);
         return response.data.tree;
     } catch (error) {
         console.error('Failed to fetch repository tree');
@@ -41,7 +42,7 @@ async function generateSitemap() {
 
     const fileUrls = repositoryTree
         .filter((item) => item.type === 'blob')
-        .map((item) => `https://github.com/${repositoryOwner}/${repositoryName}/blob/main/${item.path}`);
+        .map((item) => `https://github.com/${repositoryOwner}/${repositoryName}/blob/${branchName}/${item.path}`);
 
     const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -49,7 +50,7 @@ async function generateSitemap() {
     </urlset>
   `;
 
-    const sitemapFilePath = path.join(sitemapDirectory, `sitemap-github.com-${repositoryOwner}-${repositoryName}.xml`);
+    const sitemapFilePath = path.join(sitemapDirectory, `sitemap-github.com-${repositoryOwner}-${repositoryName}-${branchName}.xml`);
     fs.writeFileSync(sitemapFilePath, sitemapXml);
     console.log(`Sitemap generated successfully at ${sitemapFilePath}`);
 }
