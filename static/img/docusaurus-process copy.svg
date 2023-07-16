@@ -84,7 +84,8 @@
           
           
           <text transform="translate(-108.18085 1126.5)" fill="black">
-            <tspan font-family="Verdana" font-size="16" fill="black" x="6.644531" y="16">make overview table go full </tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="6.644531" y="16">make overview table go full
+            </tspan>
             <tspan font-family="Verdana" font-size="16" fill="black" x="91.65625" y="35">screen</tspan>
           </text>
         </a>
@@ -94,7 +95,8 @@
           
           
           <text transform="translate(89.81915 1246)" fill="black">
-            <tspan font-family="Verdana" font-size="16" fill="black" x="11.011719" y="16">write changes to Overview</tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="11.011719" y="16">write changes to Overview
+            </tspan>
           </text>
         </a>
       </g>
@@ -112,7 +114,8 @@
           
           
           <text transform="translate(639.81915 1153.5)" fill="black">
-            <tspan font-family="Verdana" font-size="16" fill="black" x="13.34375" y="16">Show inline definitions On </tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="13.34375" y="16">Show inline definitions On
+            </tspan>
             <tspan font-family="Verdana" font-size="16" fill="black" x="99.12109" y="35">Click</tspan>
           </text>
         </a>
@@ -122,8 +125,10 @@
           
           
           <text transform="translate(334.6383 1351.5)" fill="black">
-            <tspan font-family="Verdana" font-size="16" fill="black" x="17.722656" y="35">Add knowledge level and</tspan>
-            <tspan font-family="Verdana" font-size="16" fill="black" x="5.3671875" y="54">type category as html attrib</tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="17.722656" y="35">Add knowledge level and
+            </tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="5.3671875" y="54">type category as html attrib
+            </tspan>
             <tspan font-family="Verdana" font-size="16" fill="black" x="69.390625" y="73">to &lt;article&gt;</tspan>
           </text>
         </a>
@@ -229,7 +234,8 @@
         <rect x="283.69415" y="491" width="246" height="75" fill="white"/>
         <rect x="283.69415" y="491" width="246" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(288.69415 509.5)" fill="black">
-          <tspan font-family="Verdana" font-size="16" fill="black" x="3.8828125" y="16">Deploy as website to GitHub </tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="3.8828125" y="16">Deploy as website to GitHub
+          </tspan>
           <tspan font-family="Verdana" font-size="16" fill="black" x="94.45312" y="35">Pages</tspan>
         </text>
       </g>
