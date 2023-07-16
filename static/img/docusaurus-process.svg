@@ -1,0 +1,238 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-150 37 1116 1618">
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="black">
+      <g>
+        <path d="M 3.7333333 0 L 0 -1.4 L 0 1.4 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <g id="Canvas_1" stroke="none" stroke-opacity="1" fill="none" stroke-dasharray="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <g id="Canvas_1_Page_ready">
+      <title>Page ready</title>
+      <g id="Graphic_23">
+        <title>Rectangle</title>
+        <rect x="333.93783" y="1579" fill="white"/>
+        <rect x="333.93783" y="1579" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(338.93783 1607)" fill="black">
+          <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="1.1679688" y="15">Page ready to view</tspan>
+        </text>
+      </g>
+      <g id="Line_64">
+        <line x1="408.43783" y1="1493.5" x2="408.43783" y2="1569.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Canvas_1_Connection">
+      <title>Connection</title>
+      <g id="Line_63">
+        <path d="M 408.48715 613.4542 L 408.48715 623.9181 L 408.4625 681.4591 L 408.43783 730.1155 L 408.43783 733.6" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+    </g>
+    <g id="Canvas_1_Client_side">
+      <title>Client side</title>
+      <g id="Graphic_37">
+        <rect x="-147.56217" y="751" fill="#ffe8d7" fill-opacity=".30593644"/>
+        <rect x="-147.56217" y="751" width="1112" height="741" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Graphic_10">
+        <rect x="37.81915" y="1006" width="159" height="75" fill="white"/><rect x="37.81915" y="1006" width="159" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/crossLinks.js">
+          
+          
+          <text transform="translate(42.81915 1034.276)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="35.236" y="15">Cross links</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Graphic_12">
+        <rect x="326.81915" y="1006" width="102" height="75" fill="white"/><rect x="326.81915" y="1006" width="102" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/insertVideo.js">
+          
+          
+          <text transform="translate(331.81915 1025.052)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="6.144" y="15">insertVideo</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Graphic_14">
+        <rect x="602.81915" y="1006" width="126" height="75" fill="white"/><rect x="602.81915" y="1006" width="126" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/insertSubtitles.js">
+          
+          
+          <text transform="translate(607.81915 1024.5)" fill="black">
+            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="3.8476562" y="15">Insert Subtitles</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Graphic_16">
+        <rect x="777.81915" y="1006" width="134" height="75" fill="white"/><rect x="777.81915" y="1006" width="134" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/dynamicTables.js">
+          
+          
+          <text transform="translate(782.81915 1034)" fill="black">
+            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="6.015625" y="15">Dynamic Tables</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Graphic_34">
+        <rect x="-113.18085" y="1108" width="246" height="75" fill="white"/><rect x="-113.18085" y="1108" width="246" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/elementGoFullScreen.js">
+          
+          
+          <text transform="translate(-108.18085 1126.5)" fill="black">
+            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="18.007812" y="15">make overview table go full </tspan>
+            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="94.59375" y="34">screen</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Graphic_33">
+        <rect x="84.81915" y="1218" width="246" height="75" fill="white"/><rect x="84.81915" y="1218" width="246" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/writeChanges.js">
+          
+          
+          <text transform="translate(89.81915 1246)" fill="black">
+            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="22.60547" y="15">write changes to Overview</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Graphic_31">
+        <rect x="483.81915" y="1234.5" width="194" height="75" fill="white"/><rect x="483.81915" y="1234.5" width="194" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/horizontalScrollHint.js">
+          
+          
+          <text transform="translate(488.81915 1262.5)" fill="black">
+            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="15.078125" y="15">Horizontal Scroll Hint</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Graphic_29">
+        <rect x="634.81915" y="1135" width="246" height="75" fill="white"/><rect x="634.81915" y="1135" width="246" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/showDefinitionsPopUpOnClick.js">
+          
+          
+          <text transform="translate(639.81915 1163)" fill="black">
+            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="4.6171875" y="15">Show inline definitions On Click</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Graphic_27">
+        <rect x="329.6383" y="1334" width="246" height="111" fill="white"/><rect x="329.6383" y="1334" width="246" height="111" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/showLevels.js">
+          
+          
+          <text transform="translate(334.6383 1351.5)" fill="black">
+            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="28.53125" y="34">Add knowledge level and</tspan>
+            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="16.980469" y="53">type category as html attrib</tspan>
+            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="76.28516" y="72">to &lt;article&gt;</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Graphic_25">
+        <rect x="231.81915" y="1119" width="169" height="75" fill="white"/><rect x="231.81915" y="1119" width="169" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/showGPTsummary.js">
+          
+          
+          <text transform="translate(236.81915 1147)" fill="black">
+            <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="9.550781" y="15">Show GPT summary</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Graphic_40">
+        <rect x="329.6383" y="786" width="246" height="75" fill="white"/>
+        <rect x="329.6383" y="786" width="246" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(334.6383 814.276)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="28.376" y="15">Browser (Client Modules)</tspan>
+        </text>
+      </g>
+      <g id="Line_41">
+        <path d="M 452.6383 861 L 452.6383 933.5 L 117.31915 933.5 L 117.31915 996.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_42">
+        <path d="M 452.6383 861 L 452.6383 933.5 L 377.81915 933.5 L 377.81915 1006" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_43">
+        <path d="M 452.6383 861 L 452.6383 933.5 L 665.81915 933.5 L 665.81915 996.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_44">
+        <path d="M 452.6383 861 L 452.6383 933.5 L 844.8191 933.5 L 844.8191 996.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_45">
+        <path d="M 452.6383 861 L 452.6383 933.5 L 9.819148 933.5 L 9.819148 1098.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_46">
+        <path d="M 452.6383 861 L 452.6383 933.5 L 207.81915 933.5 L 207.81915 1208.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_47">
+        <path d="M 452.6383 861 L 452.6383 933.5 L 580.81915 933.5 L 580.81915 1224.6" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_48">
+        <path d="M 452.6383 861 L 452.6383 933.5 L 757.81915 933.5 L 757.81915 1125.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_50">
+        <path d="M 452.6383 861 L 452.6383 933.5 L 316.31915 933.5 L 316.31915 1109.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_52">
+        <line x1="452.6383" y1="861" x2="452.6383" y2="1324.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_54">
+        <text transform="translate(308.81915 897)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="47606363e-20" y="15">Run in parallel</tspan>
+        </text>
+      </g>
+      <g id="Graphic_59">
+        <title>CLIENT</title>
+        <text transform="translate(462 42.131936)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">SERVER-SIDE</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="Canvas_1_Server_side">
+      <title>Server side</title>
+      <g id="Graphic_38">
+        <rect x="224.48718" y="65.579934" width="368" height="546.3743" fill="#ffe8d7" fill-opacity=".30593644"/>
+        <rect x="224.48718" y="65.579934" width="368" height="546.3743" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Graphic_61">
+        <rect x="283.94415" y="222.25" width="246" height="75" fill="white"/>
+        <rect x="283.94415" y="222.25" width="246" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(288.94415 240.75)" fill="black">
+          <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="25.984375" y="15">Import Google Sheet data</tspan>
+          <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="37.453125" y="34">into .md file (Node.js)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_3">
+        <title>Rectangle</title>
+        <rect x="283.69415" y="110.849" width="246" height="75" fill="white"/>
+        <rect x="283.69415" y="110.849" width="246" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(288.69415 138.849)" fill="black">
+          <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="95.28906" y="15">Server</tspan>
+        </text>
+      </g>
+      <g id="Line_62">
+        <path d="M 406.69415 185.849 L 406.69415 195.849 L 406.81915 204.0495 L 406.94415 207.35 L 406.94415 212.35" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_60">
+        <path d="M 408.13224 297.25 C 408.5498 324.10367 408.7042 358.33196 408.0083 374.90843" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_6">
+        <rect x="283.69415" y="347" width="246" height="75" fill="white"/>
+        <rect x="283.69415" y="347" width="246" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(288.69415 375)" fill="black">
+          <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="46.09375" y="15">Run Docsaurus Build</tspan>
+        </text>
+      </g>
+      <g id="Line_5">
+        <path d="M 406.69415 422 C 406.69415 447.18196 406.69415 466.41375 406.69415 481.1004" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_8">
+        <rect x="283.69415" y="491" width="246" height="75" fill="white"/>
+        <rect x="283.69415" y="491" width="246" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(288.69415 510.052)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="15.624" y="15">Deploy as website to GitHub </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="95.632" y="33.448">Pages</tspan>
+        </text>
+      </g>
+      <g id="Graphic_58">
+        <text transform="translate(475.8223 721)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">CLIENT-SIDE</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
