@@ -58,9 +58,9 @@ fs.readdir(directoryPath, (err, files) => {
                     const rects = a.find('rect');
                     if (rects.length > 0) {
                         rects.each(function () {
-                            a.before(this);
+                            a.before($(this).clone()); // clone the rect before moving it
                         });
-                        rects.remove(); // Remove the original <rect> elements from inside <a>
+                        rects.remove(); // remove the original rect elements
                     }
                 });
 
