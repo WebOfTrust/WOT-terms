@@ -18,7 +18,7 @@
       <title>Layer 1</title>
       <g id="Graphic_3">
         <rect x="401" y="2" fill="#fffb39"/>
-        <rect x="401" y="2" width="115" height="53" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <rect x="401" y="2" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(406 10.052002)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="25.828" y="15">What is</tspan>
           <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="15.02" y="33.448">KERISSE?</tspan>
