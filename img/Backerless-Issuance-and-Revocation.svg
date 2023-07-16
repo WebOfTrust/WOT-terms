@@ -1,6 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" filter="invert(93%) hue-rotate(180deg)">
+<svg xmlns="http://www.w3.org/2000/svg" width="774.89" height="824.066" filter="invert(93%) hue-rotate(180deg)">
     <defs>
-        <style>@font-face{font-family:&quot;Virgil&quot;;src:url(https://excalidraw.com/Virgil.woff2)}@font-face{font-family:&quot;Cascadia&quot;;src:url(https://excalidraw.com/Cascadia.woff2)}</style>
+        <style>
+            @font-face {
+                font-family: &quot;
+                Virgil&quot;
+                ;
+                src: url(https://excalidraw.com/Virgil.woff2)
+            }
+
+            @font-face {
+                font-family: &quot;
+                Cascadia&quot;
+                ;
+                src: url(https://excalidraw.com/Cascadia.woff2)
+            }
+        </style>
     </defs>
     <path fill="#fff" d="M0 0h774.89v824.066H0z"/>
     <path fill="none" stroke="#c92a2a" stroke-linecap="round" stroke-width="2" d="M195.744 206.67c33.71-5.46 62.41-6.36 101.73-3m-103.85 2.21c38.06-1.99 73.73-3.3 100.62-3.79m4.99 5.18c-3.09 6.8-1.56 26.38-3.16 59.34m-.76-64.43c2.45 26.34 1.48 51.77.22 66.74m-.86-2.87c-37.18-2.19-69.25-1.96-99.87-1.83m100.22 4.33c-22.28-2.64-41.48-.62-99.62-1.11m.16 1.14c4.55-19.98.39-31.36-3.14-68.32m4.49 66.94c.12-25.86-2.26-47.34-3.12-64.34"/>

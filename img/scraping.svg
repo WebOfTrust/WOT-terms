@@ -59,7 +59,7 @@
       </g>
       <g id="Graphic_17">
         <rect x="345.10227" y="819" fill="#ffea4d"/>
-        <rect x="345.10227" y="819" width="45.93182" height="50" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <rect x="345.10227" y="819" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(350.10227 834.776)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="9.96591" y="15">&#x2026;</tspan>
         </text>
@@ -79,13 +79,13 @@
         <path d="M 898.6996 602.3004 C 948.1267 670.4156 1019.676 766.9271 1041.8255 793.9636" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_24">
-        <rect x="976.898" y="715.08005" width="30.736" height="28.447998" fill="#ffea4d"/>
+        <rect x="976.898" y="715.08005" fill="#ffea4d"/>
         <text transform="translate(981.898 720.08005)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="39257486e-20" y="15">No</tspan>
         </text>
       </g>
       <g id="Graphic_26">
-        <rect x="1027" y="1237" width="178" height="106" fill="#ffea4d"/><rect x="1027" y="1237" width="178" height="106" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/createSitemap.js">
+        <rect x="1027" y="1237" fill="#ffea4d"/><rect x="1027" y="1237" width="178" height="106" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/createSitemap.js">
           
           
           <text transform="translate(1032 1262.328)" fill="black">
