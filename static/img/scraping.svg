@@ -21,8 +21,8 @@
       </g>
       <g id="Graphic_8">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/scrapers">
-          <rect x="487" y="190" width="182" height="58" fill="#ffea4d"/>
-          <rect x="487" y="190" width="182" height="58" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          
+          
           <text transform="translate(492 200.552)" fill="black">
             <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="57.856" y="15">Scraper</tspan>
             <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="54.448" y="33.448">(Node.js)</tspan>
@@ -86,8 +86,8 @@
       </g>
       <g id="Graphic_26">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/createSitemap.js">
-          <rect x="1027" y="1237" width="178" height="106" fill="#ffea4d"/>
-          <rect x="1027" y="1237" width="178" height="106" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          
+          
           <text transform="translate(1032 1262.328)" fill="black">
             <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="14.648" y="15">Create sitemap.xml</tspan>
             <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="30.36" y="33.448">manually or via </tspan>
@@ -130,8 +130,8 @@
       </g>
       <g id="Graphic_36">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/createSitemap.js">
-          <rect x="734" y="1128.086" width="178" height="106" fill="#ffea4d"/>
-          <rect x="734" y="1128.086" width="178" height="106" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          
+          
           <text transform="translate(739 1153.414)" fill="black">
             <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="14.648" y="15">Create sitemap.xml</tspan>
             <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="30.36" y="33.448">manually or via </tspan>
@@ -141,8 +141,8 @@
       </g>
       <g id="Graphic_37">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/createSitemap.js">
-          <rect x="734" y="1294" width="178" height="106" fill="#ffea4d"/>
-          <rect x="734" y="1294" width="178" height="106" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          
+          
           <text transform="translate(739 1310.104)" fill="black">
             <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="37.032" y="15">Scrape using </tspan>
             <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="6.488" y="33.448">sitemap.xml manually</tspan>
@@ -189,8 +189,8 @@
       </g>
       <g id="Graphic_50">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/scrapers/modules">
-          <rect x="658" y="1825" width="178" height="106" fill="#ffea4d"/>
-          <rect x="658" y="1825" width="178" height="106" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          
+          
           <text transform="translate(663 1868.776)" fill="black">
             <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="20.584" y="15">Store in JSON file</tspan>
           </text>
@@ -198,8 +198,8 @@
       </g>
       <g id="Graphic_49">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/import.sh">
-          <rect x="658" y="2019" width="178" height="106" fill="#ffea4d"/>
-          <rect x="658" y="2019" width="178" height="106" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          
+          
           <text transform="translate(663 2062.776)" fill="black">
             <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="6.064" y="15">Convert to JSONL file</tspan>
           </text>
@@ -213,8 +213,8 @@
       </g>
       <g id="Graphic_51">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/import.sh">
-          <rect x="658" y="2197" width="178" height="106" fill="#ffea4d"/>
-          <rect x="658" y="2197" width="178" height="106" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          
+          
           <text transform="translate(663 2231.552)" fill="black">
             <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="10.944" y="15">Import in TypeSense</tspan>
             <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="31.264" y="33.448">index (via Curl)</tspan>

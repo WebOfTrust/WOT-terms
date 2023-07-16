@@ -42,8 +42,8 @@
       </g>
       <g id="Graphic_10">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/crossLinks.js">
-          <rect x="37.81915" y="1006" width="159" height="75" fill="white"/>
-          <rect x="37.81915" y="1006" width="159" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          
+          
           <text transform="translate(42.81915 1034.276)" fill="black">
             <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="35.236" y="15">Cross links</tspan>
           </text>
@@ -51,8 +51,8 @@
       </g>
       <g id="Graphic_12">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/insertVideo.js">
-          <rect x="326.81915" y="1006" width="102" height="75" fill="white"/>
-          <rect x="326.81915" y="1006" width="102" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          
+          
           <text transform="translate(331.81915 1034.276)" fill="black">
             <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="6.144" y="15">insertVideo</tspan>
           </text>
@@ -60,8 +60,8 @@
       </g>
       <g id="Graphic_14">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/insertSubtitles.js">
-          <rect x="602.81915" y="1006" width="126" height="75" fill="white"/>
-          <rect x="602.81915" y="1006" width="126" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          
+          
           <text transform="translate(607.81915 1034)" fill="black">
             <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="3.8476562" y="15">Insert Subtitles</tspan>
           </text>
@@ -69,8 +69,8 @@
       </g>
       <g id="Graphic_16">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/dynamicTables.js">
-          <rect x="777.81915" y="1006" width="134" height="75" fill="white"/>
-          <rect x="777.81915" y="1006" width="134" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          
+          
           <text transform="translate(782.81915 1034)" fill="black">
             <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="6.015625" y="15">Dynamic Tables</tspan>
           </text>
@@ -78,8 +78,8 @@
       </g>
       <g id="Graphic_34">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/elementGoFullScreen.js">
-          <rect x="-113.18085" y="1108" width="246" height="75" fill="white"/>
-          <rect x="-113.18085" y="1108" width="246" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          
+          
           <text transform="translate(-108.18085 1126.5)" fill="black">
             <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="18.007812" y="15">make overview table go full </tspan>
             <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="94.59375" y="34">screen</tspan>
@@ -88,8 +88,8 @@
       </g>
       <g id="Graphic_33">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/writeChanges.js">
-          <rect x="84.81915" y="1218" width="246" height="75" fill="white"/>
-          <rect x="84.81915" y="1218" width="246" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          
+          
           <text transform="translate(89.81915 1246)" fill="black">
             <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="22.60547" y="15">write changes to Overview</tspan>
           </text>
@@ -97,8 +97,8 @@
       </g>
       <g id="Graphic_31">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/horizontalScrollHint.js">
-          <rect x="483.81915" y="1234.5" width="194" height="75" fill="white"/>
-          <rect x="483.81915" y="1234.5" width="194" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          
+          
           <text transform="translate(488.81915 1262.5)" fill="black">
             <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="15.078125" y="15">Horizontal Scroll Hint</tspan>
           </text>
@@ -106,8 +106,8 @@
       </g>
       <g id="Graphic_29">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/showDefinitionsPopUpOnClick.js">
-          <rect x="634.81915" y="1135" width="246" height="75" fill="white"/>
-          <rect x="634.81915" y="1135" width="246" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          
+          
           <text transform="translate(639.81915 1163)" fill="black">
             <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="4.6171875" y="15">Show inline definitions On Click</tspan>
           </text>
@@ -115,8 +115,8 @@
       </g>
       <g id="Graphic_27">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/showLevels.js">
-          <rect x="329.6383" y="1334" width="246" height="111" fill="white"/>
-          <rect x="329.6383" y="1334" width="246" height="111" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          
+          
           <text transform="translate(334.6383 1351.5)" fill="black">
             <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="28.53125" y="34">Add knowledge level and</tspan>
             <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="16.980469" y="53">type category as html attrib</tspan>
@@ -126,8 +126,8 @@
       </g>
       <g id="Graphic_25">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/clientModules/showGPTsummary.js">
-          <rect x="231.81915" y="1119" width="169" height="75" fill="white"/>
-          <rect x="231.81915" y="1119" width="169" height="75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          
+          
           <text transform="translate(236.81915 1147)" fill="black">
             <tspan font-family="Trebuchet MS" font-size="16" fill="black" x="9.550781" y="15">Show GPT summary</tspan>
           </text>
