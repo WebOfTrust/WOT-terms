@@ -305,9 +305,9 @@ const typeSenseInstantSearch = () => {
     refinementList({
       container: '#source-refinement-list',
       attribute: 'source',
-      searchable: false,
+      searchable: true,
       searchablePlaceholder: 'Source',
-      showMore: false,
+      showMore: true,
       cssClasses: {
         searchableInput: 'form-control form-control-sm mb-2 border-light-2',
         searchableSubmit: 'hidden',
