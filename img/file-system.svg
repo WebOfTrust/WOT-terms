@@ -1,0 +1,129 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="-57 -9 946 761">
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <g id="Canvas_1" stroke-dasharray="none" stroke="none" fill="none" fill-opacity="1" stroke-opacity="1">
+    <title>File system</title>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_2">
+        <title>Stack</title>
+        <rect x="114" y="164" width="278" height="56" fill="#ffd01a"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/clientModules">
+          
+          <path d="M 113.66003 164.0002 L 392.53884 163.82934 M 392.20695 163.46938 L 392.09104 220.2772 M 392.40677 220.0559 L 113.7697 220.18417 M 114.01643 220.6456 L 113.99988 163.5794 M 113.7225 163.88761 L 392.2687 163.75343 M 392.33117 163.407 L 392.20355 219.99365 M 392.4693 220.02655 L 114.07882 220.17514 M 114.06656 220.5831 L 114.04301 163.9375" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(119 182.5)" fill="black">
+            <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">&gt; clientModules</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Graphic_9">
+        <rect x="114" y="317" width="278" height="56" fill="#ffd01a"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/externalContentCarbonCopies">
+          
+          <path d="M 113.59661 317.0003 L 392.05564 316.7954 M 391.7535 316.3844 L 391.8258 373.5791 M 392.10163 373.2321 L 113.60333 372.9976 M 113.91593 373.3232 L 114.00072 316.51803 M 113.6591 316.93404 L 391.8165 316.6875 M 391.837 316.32187 L 391.9085 373.16936 M 392.1641 373.1801 L 113.9789 372.9568 M 113.94092 373.26063 L 114.06135 316.9375" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(119 335.5)" fill="black">
+            <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">&gt; externalContentCarbonCopies</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Graphic_16">
+        <text transform="translate(507.8047 174)" fill="black">
+          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">These scripts run in the browser</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="28.804688" y="31">(a.k.a.&#x201c;DOM manipulation&#x201d;)</tspan>
+        </text>
+      </g>
+      <g id="Line_17">
+        <line x1="502.8047" y1="192" x2="401.9" y2="192" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_19">
+        <text transform="translate(603.8203 314)" fill="black">
+          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">These scripts together</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="9.601562" y="31">fetch remote content</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="4.800781" y="49">and make a local copy</tspan>
+        </text>
+      </g>
+      <g id="Line_18">
+        <line x1="598.8203" y1="341.9694" x2="401.8996" y2="343.6951" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_22">
+        <rect x="114" y="456" width="278" height="56" fill="#ffd01a"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/scrapers">
+          
+          <path d="M 113.74668 456.0001 L 392.15826 455.87534 M 391.9138 455.69084 L 392.04606 512.0326 M 392.40993 511.77214 L 113.84794 512.2238 M 114.01676 512.6173 L 113.99995 455.83264 M 113.80918 455.9306 L 391.97672 455.7794 M 392.002 455.6283 L 392.11953 511.7102 M 392.47243 511.71375 L 114.07921 512.2031 M 114.05755 512.5548 L 114.04183 455.9375" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(119 474.5)" fill="black">
+            <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">&gt; scrapers</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Graphic_21">
+        <text transform="translate(575.793 461)" fill="black">
+          <tspan font-family="Courier New" font-size="16" fill="black" x="38.40625" y="13">These scripts together</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="48.00781" y="31">scrape various sites</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="49">(including kerisse.org itself)</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="57.609375" y="67">and upload it into </tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="33.60547" y="85">the search engine index</tspan>
+        </text>
+      </g>
+      <g id="Line_20">
+        <path d="M 570.793 512.24686 C 517.6614 513.51885 458.14213 513.82295 406.1992 511.375 C 404.7495 511.3067 403.31313 511.23656 401.89003 511.1647" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_25">
+        <title>Stack</title>
+        <rect x="114" y="-6.776001" width="278" height="56" fill="#ffd01a"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/.github/workflows">
+          
+          <path d="M 113.66593 -6.77592 L 392.45117 -6.843725 M 392.22367 -7.264431 L 391.78736 49.5824 M 392.02915 49.42947 L 113.86592 49.153167 M 114.11773 49.64952 L 113.99926 -7.130375 M 113.72843 -6.8702 L 392.28294 -6.917731 M 392.30333 -7.326799 L 391.9038 49.367135 M 392.09164 49.37922 L 114.17916 49.12815 M 114.14774 49.58709 L 114.0229 -6.838418" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(119 11.723999)" fill="black">
+            <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">&gt; .github / workflows</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Graphic_24">
+        <text transform="translate(503.0039 5.723999)" fill="black">
+          <tspan font-family="Courier New" font-size="16" fill="black" x="52.808594" y="13">These scripts run when</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="33.60547" y="31">-the repo itself is pushed</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="67.21094" y="49">-the wiki is edited</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="67">-the script is manually triggered</tspan>
+        </text>
+      </g>
+      <g id="Line_23">
+        <line x1="498.0039" y1="33.521293" x2="401.88755" y2="28.697" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_26">
+        <path d="M 255.83444 49.224 C 263.8439 117.11665 271.38747 109.64057 231.33333 118 C 186.45052 127.36719 42.059896 138.16927 44.666667 209.33333 C 46.88359 269.85464 189.98197 254.7324 237.8596 309.08908" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_27">
+        <path d="M 252.35332 49.224 C 239.98075 139.83516 116.30052 11.260986 49 97 C -24 190 7.166667 339.16667 97.33333 374 C 178.14487 405.21924 232.4489 354.83397 248.8468 446.21694" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_28">
+        <rect x="-56.65902" y="251.99983" width="144.42188" height="42" fill="white"/>
+        <text transform="translate(-51.65902 256.99983)" fill="black">
+          <tspan font-family="Courier New" font-size="14" fill="black" x="29.404785" y="12">Runs some</tspan>
+          <tspan font-family="Courier New" font-size="14" fill="black" x="0" y="28">of these scripts</tspan>
+        </text>
+      </g>
+      <g id="Graphic_34">
+        <rect x="114" y="586" width="278" height="56" fill="#ffd01a"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/multitools">
+          
+          <path d="M 113.79868 585.9999 L 392.3299 586.10306 M 392.13988 585.7237 L 392.01737 642.2108 M 392.2618 642.0027 L 113.41988 642.04725 M 113.91621 642.4753 L 114.00025 585.8346 M 113.8612 585.8938 L 392.20156 586.03245 M 392.25645 585.6613 L 392.1316 641.94035 M 392.32432 641.9769 L 113.97935 642.00735 M 113.9764 642.4128 L 114.02862 585.93745" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(119 604.5)" fill="black">
+            <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">&gt; multitools</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Graphic_33">
+        <text transform="translate(575.793 657)" fill="black">
+          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">These scripts do various things:</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="49">-fixOmnigraffleSvgOutput.js</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="67">     fixes the svg produced by</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="85">     the Omnigraffle application</tspan>
+        </text>
+      </g>
+      <g id="Line_32">
+        <path d="M 570.793 689.6249 C 543.45646 686.1479 513.84244 681.697 483 676 C 431.18825 666.4298 385.26243 655.07085 348.3385 644.70676" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
