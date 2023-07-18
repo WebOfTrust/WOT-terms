@@ -3,61 +3,57 @@ import scrape from '../modules/scrape.mjs';
 import extractMainContent from '../modules/extractMainContent.mjs';
 import getTextContent from '../modules/getTextContent.mjs';
 
-const configKeripy = {
-    sitemap: await createInput({
-        sourceType: 'localXMLsitemap',
-        sourcePath: 'scrapers/sitemaps/sitemap-github.com-WebOfTrust-keripy.xml',
-    }),
-    siteName: 'repo: WoT / keripy',
-    source: 'repo: WoT / keripy',
-    author: '',
-    destinationFile: 'scrapers/output/WebOfTrust-keripy.json',
-    domQueryForContent: 'turbo-frame'
+// List of sitemap files
+const sitemapFiles = [
+    'sitemap.githubcom.WebOfTrust.cesride.xml',
+    'sitemap.githubcom.WebOfTrust.keri.xml',
+    'sitemap.githubcom.WebOfTrust.keria.xml',
+    'sitemap.githubcom.WebOfTrust.keripy.xml',
+    'sitemap.githubcom.WebOfTrust.signify-ts.xml',
+    'sitemap.githubcom.webOfTrust.cardano-backer-main.xml',
+    'sitemap.githubcom.webOfTrust.cesrpy-main.xml',
+    'sitemap.githubcom.webOfTrust.gcp-ksm-shim-main.xml',
+    'sitemap.githubcom.webOfTrust.ietf-did-keri-main.xml',
+    'sitemap.githubcom.webOfTrust.kara-main.xml',
+    'sitemap.githubcom.webOfTrust.kassh-main.xml',
+    'sitemap.githubcom.webOfTrust.keep-main.xml',
+    'sitemap.githubcom.webOfTrust.keri-swift-main.xml',
+    'sitemap.githubcom.webOfTrust.keride-main.xml',
+    'sitemap.githubcom.webOfTrust.keriox-main.xml',
+    'sitemap.githubcom.webOfTrust.parside-main.xml',
+    'sitemap.githubcom.webOfTrust.saidide-main.xml',
+    'sitemap.githubcom.webOfTrust.schema-main.xml',
+    'sitemap.githubcom.webOfTrust.scir-main.xml',
+    'sitemap.githubcom.webOfTrust.shkr-main.xml',
+    'sitemap.githubcom.webOfTrust.signifi-main.xml',
+    'sitemap.githubcom.webOfTrust.signifide-main.xml',
+    'sitemap.githubcom.webOfTrust.signifypy-main.xml',
+    'sitemap.githubcom.webOfTrust.vlei-dev.xml',
+    'sitemap.githubcom.webOfTrust.ward-main.xml'
+];
+
+
+// Function to create configuration
+const createConfig = async (filename) => {
+    const parts = filename.split('.');
+    const repositoryOwner = parts[2];
+    const repositoryName = parts[3];
+    const branchName = parts[4];
+
+    return {
+        sitemap: await createInput({
+            sourceType: 'localXMLsitemap',
+            sourcePath: `scrapers/sitemaps/${filename}`,
+        }),
+        siteName: `repo: ${repositoryOwner} / ${repositoryName}`,
+        source: `repo: ${repositoryOwner} / ${repositoryName}`,
+        author: '',
+        destinationFile: `scrapers/output/${repositoryOwner}-${repositoryName}.json`,
+        domQueryForContent: 'turbo-frame',
+        branch: branchName
+    };
 }
-const configKeri = {
-    sitemap: await createInput({
-        sourceType: 'localXMLsitemap',
-        sourcePath: 'scrapers/sitemaps/sitemap-github.com-WebOfTrust-keri.xml',
-    }),
-    siteName: 'repo: WoT / keri',
-    source: 'repo: WoT / keri',
-    author: '',
-    destinationFile: 'scrapers/output/WebOfTrust-keri.json',
-    domQueryForContent: 'turbo-frame'
-}
-const configCesride = {
-    sitemap: await createInput({
-        sourceType: 'localXMLsitemap',
-        sourcePath: 'scrapers/sitemaps/sitemap-github.com-WebOfTrust-cesride.xml',
-    }),
-    siteName: 'repo: WoT / cesride',
-    source: 'repo: WoT / cesride',
-    author: '',
-    destinationFile: 'scrapers/output/WebOfTrust-cesride.json',
-    domQueryForContent: 'turbo-frame'
-}
-const configSignifyts = {
-    sitemap: await createInput({
-        sourceType: 'localXMLsitemap',
-        sourcePath: 'scrapers/sitemaps/sitemap-github.com-WebOfTrust-signify-ts.xml',
-    }),
-    siteName: 'repo: WoT / signify-ts',
-    source: 'repo: WoT / signify-ts',
-    author: '',
-    destinationFile: 'scrapers/output/WebOfTrust-signify-ts.json',
-    domQueryForContent: 'turbo-frame'
-}
-const configKeria = {
-    sitemap: await createInput({
-        sourceType: 'localXMLsitemap',
-        sourcePath: 'scrapers/sitemaps/sitemap-github.com-WebOfTrust-keria.xml',
-    }),
-    siteName: 'repo: WoT / keria',
-    source: 'repo: WoT / keria',
-    author: '',
-    destinationFile: 'scrapers/output/WebOfTrust-keria.json',
-    domQueryForContent: 'turbo-frame'
-}
+
 
 
 async function customScrape(page, domQueryForContent, pageUrl) {
@@ -73,10 +69,11 @@ async function customScrape(page, domQueryForContent, pageUrl) {
     all.pageTitle = pageTitle;
     return all;
 }
+
+
 export default async function () {
-    scrape(configKeripy, customScrape);
-    scrape(configKeri, customScrape);
-    scrape(configCesride, customScrape);
-    scrape(configSignifyts, customScrape);
-    scrape(configKeria, customScrape);
+    for (const filename of sitemapFiles) {
+        const config = await createConfig(filename);
+        await scrape(config, customScrape);
+    }
 };
