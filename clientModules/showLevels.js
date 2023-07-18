@@ -3,32 +3,40 @@
  *
  */
 
+// import the config file
 import config from '@generated/docusaurus.config';
 
+// define the message to be shown for each level
 const infoMessage = {
   level1: `<img src="${config.baseUrl}img/skill-level-basic-svgrepo-com.svg" alt="Level 1, a bar diagram with one bar active">Level 1`,
   level2: `<img src="${config.baseUrl}img/skill-level-intermediate-svgrepo-com.svg" alt="Level 2, a bar diagram with two bars active">Level 2`,
   level3: `<img src="${config.baseUrl}img/skill-level-advanced-svgrepo-com.svg" alt="Level 3, a bar diagram with three bars active">Level 3`,
 };
 
+// define the css class names for the show level button and the active button
 const showLevelButtonClass = 'show-level';
 const showLevelButtonActiveClass = 'button--active';
 
-// Main function
+// main function to show different levels
 const showLevels = (targetElements) => {
   // for testing is we are in de document's section, code should only run there
   const inDocSection =
     window.location.href.indexOf('/docs/') > -1 ? true : false;
-  const paragraphs = document.querySelectorAll('p'); //TODO: remove this line?
+
+  // get the query parameters from the current URL
   let strAllQueryParameters = window.location.search;
   let allQueryParameters = new URLSearchParams(strAllQueryParameters);
+
+  // get the 'level' parameter from the URL
   let urlLevel = allQueryParameters.get('level');
 
+  // check if the 'level' parameter from the URL is valid (1, 2, or 3)
   let urlContainsValidLevel = false;
   if (urlLevel === '1' || urlLevel === '2' || urlLevel === '3') {
     urlContainsValidLevel = true;
   }
 
+  // check if the 'level' parameter from the localStorage is valid (1, 2, or 3)
   let localStorageContainsValidLevel = false;
   if (
     localStorage.getItem('level') === '1' ||
@@ -38,6 +46,7 @@ const showLevels = (targetElements) => {
     localStorageContainsValidLevel = true;
   }
 
+  // function to remove the active class from all show level buttons
   const resetShowLevelButton = () => {
     const showLevelButtons = document.querySelectorAll(
       '.' + showLevelButtonClass
@@ -47,7 +56,7 @@ const showLevels = (targetElements) => {
     });
   };
 
-  // push url string to browser address bar
+  // function to update the URL with the current parameters
   const setURL = () => {
     window.history.replaceState(
       '',
@@ -61,6 +70,7 @@ const showLevels = (targetElements) => {
     );
   };
 
+  // function to show or hide paragraphs depending on the given level
   const setParagraphs = (level) => {
     const textBlocks = document.querySelectorAll(targetElements);
     textBlocks.forEach((p) => {
@@ -76,15 +86,13 @@ const showLevels = (targetElements) => {
     });
   };
 
-  /**
-   * Create buttons to show/hide levels in document. 
-   */
+  // function to create buttons for showing different levels
   const createShowLevelButtons = () => {
     if (
       inDocSection &&
       document.querySelector('.show-level-buttons-info') === null
     ) {
-      // create level selection
+      // insert level selection buttons into the HTML
       let htmlString =
         `
         <div class="container text-center sticky-top pt-3 pb-3 mb-4" style="background: white;">
@@ -110,6 +118,7 @@ const showLevels = (targetElements) => {
         mainArticle.insertAdjacentHTML('afterbegin', htmlString);
       }
 
+      // add event listener to each button
       document.querySelectorAll('.show-level').forEach((button) => {
         button.addEventListener('click', handleShowLevelButton.bind(button));
       });
@@ -118,36 +127,39 @@ const showLevels = (targetElements) => {
     }
   };
 
+  // function to handle the click event on a show level button
   const handleShowLevelButton = (button) => {
-    // set paragraphs
+    // show or hide paragraphs based on the clicked button
     setParagraphs(button.target.dataset.level);
 
-    // set URL
+    // update the URL with the new level
     allQueryParameters.set('level', button.target.dataset.level);
     setURL();
 
-    // set localStorage
+    // save the new level to the localStorage
     localStorage.setItem('level', button.target.dataset.level);
 
-    // set button = active
+    // make the clicked button active
     resetShowLevelButton();
     button.target.classList.add(showLevelButtonActiveClass);
     document.querySelector('.show-level-buttons-info').innerHTML =
       infoMessage['level' + button.target.dataset.level];
   };
 
+  // create the buttons when the page loads
   createShowLevelButtons();
 
-  // if url contains no valid level and localStorage contains valid level
+  // handle the case when the URL doesn't contain a valid level but the localStorage does
   if (
     urlContainsValidLevel === false &&
     localStorageContainsValidLevel === true
   ) {
+    // update the URL with the level from the localStorage
     allQueryParameters.set('level', localStorage.getItem('level'));
     setURL();
     setParagraphs(localStorage.getItem('level'));
 
-    // set showLevel Button active
+    // make the corresponding button active
     if (
       document.querySelector(
         '.show-level[data-level="' + localStorage.getItem('level') + '"]'
@@ -161,11 +173,15 @@ const showLevels = (targetElements) => {
     }
   }
 
+  // handle the case when the URL contains a valid level
   if (urlContainsValidLevel) {
+    // show or hide paragraphs based on the level from the URL
     setParagraphs(urlLevel);
+
+    // save the level from the URL to the localStorage
     localStorage.setItem('level', urlLevel);
 
-    // set showLevel Button active
+    // make the corresponding button active
     if (
       document.querySelector(
         '.show-level[data-level="' + localStorage.getItem('level') + '"]'
@@ -177,6 +193,8 @@ const showLevels = (targetElements) => {
         )
         .classList.add(showLevelButtonActiveClass);
     }
+
+    // update the information message based on the level from the URL
     if (document.querySelector('.show-level-buttons-info')) {
       document.querySelector('.show-level-buttons-info').innerHTML =
         infoMessage['level' + localStorage.getItem('level')];
@@ -184,6 +202,7 @@ const showLevels = (targetElements) => {
   }
 };
 
+// function to call when the route changes
 export function onRouteDidUpdate({ location, previousLocation }) {
   // Don't execute if we are still on the same page; the lifecycle may be fired
   // because the hash changes (e.g. when navigating between headings)
