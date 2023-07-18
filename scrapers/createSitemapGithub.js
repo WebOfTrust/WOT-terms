@@ -8,11 +8,15 @@
   It then filters the tree to include only the blob-type items (files) and constructs the corresponding URLs. The resulting URLs are used to generate the sitemap.xml file.
 
   Run it using the following command:
+  node createSitemapGithub.js <repository-owner> <repository-name> <branch-name> <sitemap-directory>
+  
+  Example:
+  node createSitemapGithub.js WebOfTrustInfo keripy main scrapers/sitemaps
 
-  $ node createSitemapGithub.js your-username your-repo-name sitemap-directory
+  
+  
 
-  Make sure to replace 'your-username', 'your-repo-name', and 'sitemap-directory' with the desired values. The sitemap directory can be either an absolute path or a relative path to the current directory.
-	
+  
   The script will generate the sitemap.xml file in the specified sitemap directory.
 */
 
@@ -27,32 +31,32 @@ const branchName = args[2];
 const sitemapDirectory = args[3];
 
 async function getRepositoryTree() {
-    try {
-        const response = await axios.get(`https://api.github.com/repos/${repositoryOwner}/${repositoryName}/git/trees/${branchName}?recursive=1`);
-        return response.data.tree;
-    } catch (error) {
-        console.error('Failed to fetch repository tree');
-        console.error(error);
-        return [];
-    }
+  try {
+    const response = await axios.get(`https://api.github.com/repos/${repositoryOwner}/${repositoryName}/git/trees/${branchName}?recursive=1`);
+    return response.data.tree;
+  } catch (error) {
+    console.error('Failed to fetch repository tree');
+    console.error(error);
+    return [];
+  }
 }
 
 async function generateSitemap() {
-    const repositoryTree = await getRepositoryTree();
+  const repositoryTree = await getRepositoryTree();
 
-    const fileUrls = repositoryTree
-        .filter((item) => item.type === 'blob')
-        .map((item) => `https://github.com/${repositoryOwner}/${repositoryName}/blob/${branchName}/${item.path}`);
+  const fileUrls = repositoryTree
+    .filter((item) => item.type === 'blob')
+    .map((item) => `https://github.com/${repositoryOwner}/${repositoryName}/blob/${branchName}/${item.path}`);
 
-    const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
+  const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       ${fileUrls.map((url) => `<url><loc>${url}</loc></url>`).join('\n')}
     </urlset>
   `;
 
-    const sitemapFilePath = path.join(sitemapDirectory, `sitemap-github.com-${repositoryOwner}-${repositoryName}-${branchName}.xml`);
-    fs.writeFileSync(sitemapFilePath, sitemapXml);
-    console.log(`Sitemap generated successfully at ${sitemapFilePath}`);
+  const sitemapFilePath = path.join(sitemapDirectory, `sitemap.githubcom.${repositoryOwner}.${repositoryName}.${branchName}.xml`);
+  fs.writeFileSync(sitemapFilePath, sitemapXml);
+  console.log(`Sitemap generated successfully at ${sitemapFilePath}`);
 }
 
 generateSitemap();
