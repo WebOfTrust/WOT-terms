@@ -6,6 +6,8 @@
 // import the config file
 import config from '@generated/docusaurus.config';
 
+const levelButtonsAndInfoClassNames = 'show-level-buttons-info-container';
+
 // define the message to be shown for each level
 const infoMessage = {
   level1: `<img src="${config.baseUrl}img/skill-level-basic-svgrepo-com.svg" alt="Level 1, a bar diagram with one bar active">Level 1`,
@@ -19,7 +21,7 @@ const showLevelButtonActiveClass = 'button--active';
 
 // main function to show different levels
 const showLevels = (targetElements) => {
-  // for testing is we are in de document's section, code should only run there
+  // Code should only run in the documentation section
   const inDocSection =
     window.location.href.indexOf('/docs/') > -1 ? true : false;
 
@@ -95,7 +97,7 @@ const showLevels = (targetElements) => {
       // insert level selection buttons into the HTML
       let htmlString =
         `
-        <div class="container text-center sticky-top pt-3 pb-3 mb-4" style="background: white;">
+        <div class="${levelButtonsAndInfoClassNames} container text-center sticky-top pt-3 pb-3 mb-4" style="background: white;">
           <div class="row">
             <div class="col">
               <div class="show-level-buttons-info d-inline">
@@ -125,6 +127,40 @@ const showLevels = (targetElements) => {
 
       // showLevelButtonsAdded = true;
     }
+
+    // Buttons should only be visible if there are elements with data-level
+    function checkDataLevelAttribute(targetElements, levelButtonsAndInfoClassNames) {
+      // Query all elements matching the target selector
+      const elements = document.querySelector('main article').querySelectorAll(targetElements);
+
+      // Flag to track if any element has the "data-level" attribute
+      let hasDataLevelAttribute = false;
+
+      // Loop through each element
+      elements.forEach((element) => {
+        // Check if the element has the "data-level" attribute
+        if (element.hasAttribute('data-level')) {
+          // Set the flag to true if an element has the attribute
+          hasDataLevelAttribute = true;
+          return; // Exit the loop early if attribute is found
+        }
+      });
+
+      // If no element has the "data-level" attribute
+      if (!hasDataLevelAttribute) {
+        // Get all elements with the specified class name(s)
+        const elementsWithClass = document.querySelectorAll("." + levelButtonsAndInfoClassNames);
+
+        // Loop through the elements with the class
+        for (let i = 0; i < elementsWithClass.length; i++) {
+          // Add the "hidden" class to each element
+          elementsWithClass[i].classList.add('hidden');
+        }
+      }
+    }
+
+    checkDataLevelAttribute(targetElements, levelButtonsAndInfoClassNames);
+
   };
 
   // function to handle the click event on a show level button
