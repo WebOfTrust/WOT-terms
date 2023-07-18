@@ -1,5 +1,5 @@
 
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="247 64 1113 2638">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="247 64 1113 2638">
   <defs>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#199ce8">
       <g>
@@ -27,7 +27,7 @@
       </g>
     </marker>
   </defs>
-  <g id="Canvas_1" stroke-dasharray="none" stroke="none" stroke-opacity="1" fill="none" fill-opacity="1">
+  <g id="Canvas_1" stroke-dasharray="none" stroke="none" fill="none" fill-opacity="1" stroke-opacity="1">
     <title>Canvas 1</title>
     <g id="Canvas_1_Layer_1">
       <title>Layer 1</title>
@@ -149,7 +149,7 @@
         <path d="M 619.8717 1574.996 L 799.4913 1575.642 M 798.7878 1574.6778 L 798.0303 1682.6465 M 800.0241 1680.7491 L 620.2515 1680.009 M 621.068 1680.634 L 620.9991 1573.5903 M 620.1218 1574.7223 L 799.0317 1575.1953 M 799.2199 1574.429 L 798.4135 1680.4918 M 800.2734 1680.6784 L 621.3173 1679.8337 M 621.2657 1680.3841 L 621.0388 1574.7501" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
         <text transform="translate(626 1609)" fill="black">
           <tspan font-family="Verdana" font-size="16" fill="black" x="32.109375" y="16">Scrape using</tspan>
-          <tspan font-family="Verdana" font-size="16" fill="black" x="31.117188" y="35">local sitemap</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="13.496094" y="35">local sitemap.xml</tspan>
         </text>
       </g>
       <g id="Line_39">
@@ -239,9 +239,9 @@
         <path d="M 965.3245 371 C 968.9073 385.8653 969.4547 407.0663 957 432 C 953.0806 439.84647 948.167 447.4753 942.6749 454.75696" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_60">
-        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/createSitemap.js">
-          <text transform="translate(463 1131)" fill="black">
-            <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">createSitemap.js</tspan>
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/createSitemapGithub.js">
+          <text transform="translate(434.1953 1131)" fill="black">
+            <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">createSitemapGithub.js</tspan>
           </text>
         </a>
       </g>
@@ -369,6 +369,21 @@
       </g>
       <g id="Line_90">
         <path d="M 889.9691 1470 C 884.0586 1494.0878 870.6781 1535.2994 840 1564 C 832.6731 1570.9731 824.3451 1577.8921 816.7241 1584.184 M 889.9691 1470 C 885.0586 1493.0878 871.6781 1534.2994 841 1563 C 833.6731 1569.9731 825.3451 1576.8921 817.7241 1583.184" marker-end="url(#FilledArrow_Marker_4)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Graphic_92">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/createSitemap.js">
+          <text transform="translate(456 1078)" fill="black">
+            <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">createSitemap.js</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Line_91">
+        <path d="M 614.625 1085.5983 C 625.34515 1086.7059 636.32504 1087.8883 647.1579 1089.087" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_93">
+        <text transform="translate(499 1104.9944)" fill="black">
+          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">OR</tspan>
+        </text>
       </g>
     </g>
   </g>
