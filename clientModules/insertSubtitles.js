@@ -48,8 +48,8 @@ const handleSubtitles = () => {
       counter.innerText = event.target.currentTime;
       paragraphIndex.forEach((p) => {
         event.target.currentTime > p.start &&
-        event.target.currentTime < p.end &&
-        subtitlecontainer.innerHTML !== p.text
+          event.target.currentTime < p.end &&
+          subtitlecontainer.innerHTML !== p.text
           ? (subtitlecontainer.innerHTML = p.text)
           : null;
       });
