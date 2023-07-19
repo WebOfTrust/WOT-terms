@@ -1,9 +1,14 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="-153 22 1124 1639">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="-153 -15 1124 1676">
   <defs>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#199ce8">
       <g>
         <path d="M 3.7333333 0 L 0 -1.4 L 0 1.4 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="Arrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="none" stroke="currentColor" stroke-width="1"/>
       </g>
     </marker>
   </defs>
@@ -21,13 +26,13 @@
         </text>
       </g>
       <g id="Line_64">
-        <path d="M 408.41013 1492.4472 L 409.6907 1564.2284 M 409.034 1492.0678 L 410.2472 1561.252" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path d="M 408.41013 1492.9472 L 409.6907 1564.7284 M 409.034 1492.5678 L 410.2472 1561.752" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
       </g>
     </g>
     <g id="Canvas_1_Connection">
       <title>Connection</title>
       <g id="Line_63">
-        <path d="M 408.111 612.6608 L 405.92 625.77875 M 406.30333 622.2182 L 409.3955 683.5462 M 409.2887 679.95856 L 409.75724 733.2607 M 411.32017 729.15896 L 407.0963 735.4755 M 408.55935 612.298 L 406.87225 622.8395 M 407.00767 621.8266 L 409.75034 681.35944 M 409.85618 679.5819 L 410.47173 731.141 M 411.84154 728.8818 L 408.93055 733.5222" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path d="M 408.111 612.6608 L 405.92 625.77875 M 406.30333 622.2182 L 409.3955 683.5462 M 409.2887 679.95856 L 409.75724 733.2607 M 411.60106 729.3732 L 406.88626 734.81525 M 408.55935 612.298 L 406.87225 622.8395 M 407.00767 621.8266 L 409.75034 681.35944 M 409.85618 679.5819 L 410.47173 731.141 M 412.10914 729.1135 L 408.9052 733.0554" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
       </g>
     </g>
     <g id="Canvas_1_Client_side">
@@ -141,34 +146,34 @@
         </text>
       </g>
       <g id="Line_41">
-        <path d="M 452.613 861.9118 L 453.77473 934.8733 M 456.34145 933.9093 L 113.82446 934.5753 M 115.82013 933.3417 L 116.22945 987.8965 M 453.34677 861.531 L 454.3746 933.5355 M 456.7166 933.6143 L 116.20462 934.3307 M 116.27927 932.966 L 116.91417 986.3884" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path d="M 452.6132 861.4118 L 453.7746 934.8733 M 456.34145 933.9093 L 113.82446 934.5753 M 115.82022 933.3417 L 116.22937 988.3965 M 453.34695 861.0311 L 454.3746 933.5355 M 456.7166 933.6143 L 116.20462 934.3307 M 116.27936 932.966 L 116.91417 986.8885" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
       </g>
       <g id="Line_42">
-        <path d="M 452.62775 862.5001 L 453.3817 933.9606 M 455.67617 933.0157 L 376.02405 933.4461 M 377.81173 930.9544 L 377.92536 1004.8725 M 453.1611 862.1234 L 454.068 932.6497 M 456.05286 932.9536 L 378.1917 933.278 M 378.41216 930.579 L 378.4796 1001.7024" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path d="M 452.6278 862.0001 L 453.38164 933.9606 M 455.67617 933.0157 L 376.02405 933.4461 M 377.81176 930.9544 L 377.92533 1005.3725 M 453.1612 861.6235 L 454.068 932.6497 M 456.05286 932.9536 L 378.1917 933.278 M 378.4122 930.579 L 378.4796 1002.2024" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
       </g>
       <g id="Line_43">
-        <path d="M 452.6249 860.8386 L 452.98884 933.0478 M 450.9576 932.1404 L 668.8799 932.3026 M 667.3065 930.8171 L 667.1141 990.7985 M 453.3328 860.4619 L 453.38643 931.7667 M 451.33274 931.5945 L 667.67695 931.6275 M 668.0482 930.4433 L 667.545 988.2147" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path d="M 452.625 860.3386 L 452.9888 933.0478 M 450.9576 932.1404 L 668.8799 932.3026 M 667.30645 930.8171 L 667.11415 991.2985 M 453.3329 859.9619 L 453.38643 931.7667 M 451.33274 931.5945 L 667.67695 931.6275 M 668.0482 930.4433 L 667.545 988.7147" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
       </g>
       <g id="Line_44">
-        <path d="M 452.6395 861.4271 L 452.59617 935.135 M 450.8477 934.256 L 846.1527 934.1661 M 844.8116 931.43 L 844.3072 989.6244 M 453.14703 861.0521 L 453.0798 933.8807 M 451.2227 933.8522 L 845.1629 933.7851 M 845.3196 931.0561 L 844.9854 987.6288" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path d="M 452.6395 860.9271 L 452.59617 935.135 M 450.8477 934.256 L 846.1527 934.1661 M 844.8114 931.43 L 844.3073 990.1244 M 453.147 860.5521 L 453.0798 933.8807 M 451.2227 933.8522 L 845.1629 933.7851 M 845.3194 931.0561 L 844.9854 988.1288" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
       </g>
       <g id="Line_45">
-        <path d="M 452.6409 863.0052 L 452.49375 891.2407 M 452.00483 890.9633 L 461.00704 890.8385 M 460.6329 890.2643 L 460.3666 906.2834 M 461.32416 905.9081 L 452.46793 906.184 M 452.9422 905.2299 L 453.094 933.7842 M 453.7712 933.1158 L 9.401696 933.1065 M 9.93577 932.447 L 9.444973 1090.0353 M 452.86824 862.8807 L 452.68327 890.8318 M 452.1286 890.751 L 460.74787 890.6893 M 460.84933 890.1408 L 460.54884 905.8136 M 461.4517 905.8646 L 453.07454 906.1201 M 453.13517 905.1045 L 453.21713 932.9908 M 453.8962 933.1067 L 10.058715 933.031 M 10.097359 932.3222 L 9.692992 1088.9816" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path d="M 452.64085 862.5052 L 452.49376 890.9907 M 452.00483 890.7133 L 461.00704 890.5885 M 460.6329 890.0143 L 460.3666 906.0334 M 461.32416 905.6581 L 452.46793 905.934 M 452.94223 904.9799 L 453.09395 933.7842 M 453.7712 933.1158 L 9.401696 933.1065 M 9.935763 932.447 L 9.444982 1090.5353 M 452.8682 862.3807 L 452.68327 890.5818 M 452.1286 890.501 L 460.74787 890.4393 M 460.84933 889.8908 L 460.54884 905.5636 M 461.4517 905.6146 L 453.07454 905.8701 M 453.1352 904.8545 L 453.21713 932.9908 M 453.8962 933.1067 L 10.058715 933.031 M 10.097352 932.3222 L 9.692992 1089.4816" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
       </g>
       <g id="Line_46">
-        <path d="M 452.6489 862.6041 L 451.8117 933.3093 M 453.0151 932.4714 L 206.82234 934.9057 M 207.77206 931.9054 L 206.71085 1201.5264 M 453.13055 862.2304 L 452.4666 932.1114 M 453.3913 932.2161 L 208.13698 934.6925 M 208.18764 931.5305 L 207.1162 1198.4501" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path d="M 452.64883 862.1041 L 451.8118 933.3093 M 453.0151 932.4714 L 206.82234 934.9057 M 207.77204 931.9054 L 206.71087 1202.0264 M 453.1305 861.7304 L 452.4666 932.1114 M 453.3913 932.2161 L 208.13698 934.6925 M 208.18762 931.5305 L 207.1162 1198.9501" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
       </g>
       <g id="Line_47">
-        <path d="M 452.6816 860.9429 L 451.42036 935.3964 M 450.5179 934.6028 L 585.221 933.7425 M 582.2559 931.7681 L 580.9116 1216.8523 M 453.3378 860.5727 L 452.15996 934.2279 M 450.89067 933.8751 L 582.61986 933.1331 M 582.81274 931.394 L 581.5566 1214.363" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path d="M 452.6813 860.4429 L 451.42046 935.3964 M 450.5179 934.6028 L 585.221 933.7425 M 582.25586 931.7681 L 580.9116 1217.3523 M 453.3375 860.0726 L 452.15996 934.2279 M 450.89067 933.8751 L 582.61986 933.1331 M 582.8127 931.394 L 581.5566 1214.863" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
       </g>
       <g id="Line_48">
-        <path d="M 452.5988 861.5314 L 454.0618 934.4836 M 451.158 933.721 L 760.4939 932.6166 M 757.7252 931.6309 L 759.1332 1119.1783 M 453.0546 861.1548 L 454.4784 933.3346 M 451.53224 933.1354 L 758.1065 931.9157 M 758.4233 931.2534 L 759.622 1117.2727" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path d="M 452.5991 861.0314 L 454.0617 934.4836 M 451.158 933.721 L 760.4939 932.6166 M 757.7252 931.6309 L 759.1331 1119.6783 M 453.0549 860.6548 L 454.4784 933.3346 M 451.53224 933.1354 L 758.1065 931.9157 M 758.4234 931.2534 L 759.622 1117.7727" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
       </g>
       <g id="Line_50">
-        <path d="M 452.6313 862.7081 L 453.29743 937.908 M 455.604 934.9652 L 313.87073 933.3295 M 316.19892 932.1063 L 317.03464 1103.0802 M 453.0612 862.3326 L 453.8652 934.5613 M 455.9755 934.8917 L 316.5786 933.1069 M 316.80466 931.7302 L 317.6278 1100.0962" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path d="M 452.63133 862.2081 L 453.29725 937.908 M 455.604 934.9652 L 313.87073 933.3295 M 316.19894 932.1063 L 317.0346 1103.5802 M 453.06127 861.8326 L 453.8652 934.5613 M 455.9755 934.8917 L 316.5786 933.1069 M 316.80468 931.7302 L 317.6278 1100.5962" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
       </g>
       <g id="Line_52">
-        <path d="M 452.6389 861.635 L 452.495 1318.1825 M 453.04296 861.26 L 452.877 1314.8908" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path d="M 452.6389 861.135 L 452.495 1318.6825 M 453.04296 860.76 L 452.877 1315.3908" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
       </g>
       <g id="Graphic_54">
         <path d="M 296.0718 891.9994 L 422.74516 892.1495 M 422.26704 891.9452 L 422.39367 921.4662 M 422.6858 921.2197 L 296.05958 921.0862 M 296.47763 921.4469 L 296.56228 891.7128 M 296.1343 891.9364 L 422.33044 892.0584 M 422.3476 891.8826 L 422.4684 921.1569 M 422.7483 921.1649 L 296.54114 921.0353 M 296.5285 921.3844 L 296.5889 891.9374" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
@@ -207,10 +212,10 @@
         </text>
       </g>
       <g id="Line_62">
-        <path d="M 406.9912 185.63521 L 405.38744 200.28766 M 405.5322 196.4098 L 406.76766 207.09752 M 407.63933 185.2901 L 406.1164 197.2847 M 406.0034 196.02367 L 407.2716 204.67027" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path d="M 406.9762 185.13362 L 405.402 200.2892 M 405.53526 196.40944 L 406.76673 207.29706 M 405.96826 208.00395 L 407.5267 200.58605 M 407.71217 200.48975 L 406.21763 205.83316 M 407.6245 184.787 L 406.11643 197.28434 M 406.00646 196.02356 L 407.2757 204.87013 M 406.29315 207.61842 L 407.31107 202.4653 M 408.2203 200.15199 L 407.14226 204.48518" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
       </g>
       <g id="Line_60">
-        <path d="M 407.81422 299.75 C 407.57355 320.15526 407.4972 350.209 407.24447 365.8896 M 407.81422 299.75 C 408.32355 319.40526 408.2472 349.459 407.99447 365.1396" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path d="M 407.8114 299.25 C 407.5736 319.74897 407.49905 350.0988 407.2443 365.8951 M 407.8114 299.25 C 408.3236 318.99897 408.24905 349.3488 407.9943 365.1451" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
       </g>
       <g id="Graphic_6">
         <rect x="283.69415" y="347" width="246" height="75" fill="#dde9f5"/>
@@ -220,7 +225,7 @@
         </text>
       </g>
       <g id="Line_5">
-        <path d="M 406.69415 424.5 C 406.7907 443.0535 407.4361 458.96687 406.69415 472.5972 M 406.69415 424.5 C 407.5407 442.3035 408.1861 458.21687 407.44415 471.8472" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path d="M 406.69415 424 C 406.7931 443.016 407.4476 459.2588 406.69415 473.10066 M 406.69415 424 C 407.5431 442.266 408.1976 458.5088 407.44415 472.35066" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
       </g>
       <g id="Graphic_8">
         <rect x="283.69415" y="491" width="246" height="75" fill="#dde9f5"/>
@@ -235,6 +240,28 @@
         <text transform="translate(470.16 721)" fill="black">
           <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">CLIENT-SIDE</tspan>
         </text>
+      </g>
+      <g id="Graphic_66">
+        <text transform="translate(658 56)" fill="black">
+          <tspan font-family="Courier New" font-size="16" fill="black" x="19.203125" y="13">Every time </tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="4.800781" y="31">a new version</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="49">of the website</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="9.601562" y="67">is pushed to</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="9.601562" y="85">Github pages</tspan>
+        </text>
+      </g>
+      <g id="Line_65">
+        <path d="M 746.683 51 C 753.3473 25.540066 752.4892 -1.8619281 723 -10.619958 C 684.22675 -22.135284 607.8142 2.10224 559.1182 20.459786" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_68">
+        <text transform="translate(692.1953 448)" fill="black">
+          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">Every time a webpage</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="28.804688" y="31">is loaded into</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="43.20703" y="49">the browser</tspan>
+        </text>
+      </g>
+      <g id="Line_67">
+        <path d="M 862.1559 507 C 886.4518 524.9126 899.4779 550.36015 865.2328 583.38004 C 812.2718 634.4461 663.8197 686.6824 580.9705 713.0217" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
     </g>
   </g>
