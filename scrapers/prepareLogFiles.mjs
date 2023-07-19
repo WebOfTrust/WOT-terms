@@ -1,7 +1,8 @@
 import fs from 'fs';
 
 /**
- * Prepare log files for scraping process.
+ * Prepare log files for the next scraping process. 
+ * Existing log files are deleted and new ones are created. Some files are also prepared with a header.
  */
 
 fs.writeFile('scrapers/logs/scraped.log', "", { flag: 'w' }, (err) => {
@@ -17,6 +18,7 @@ fs.writeFile('scrapers/logs/error.log', "", { flag: 'w' }, (err) => {
     }
 });
 
+// Prepare the file that will contain all the pages that are indexed in KERISSE
 fs.writeFile('docs/Overview/indexed-in-KERISSE.md', "## All pages that are indexed in KERISSE\n\n", { flag: 'w' }, (err) => {
     if (err) {
         console.error('Error writing file:', err);
