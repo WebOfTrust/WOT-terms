@@ -3,13 +3,41 @@ sidebar: HowWeDidSidebar
 ---
 import Scraping from '/img/scraping.svg';
 
-# Create search index
+# Create a search index
 
-## Fetch the content from various websites.
+## Software used
+
+We use tools such as Puppeteer and Cheerio to achieve our goal. The added value of Puppeteer is that it can also index dynamically generated content. 
+
+
+## Generating a search index: three steps
+
+The creation of a search index for a website involves three steps:
+
+1. Obtaining a sitemap.xml
+2. Scraping all the URLs in the sitemap
+3. Importing the content into the search index
+
+<Scraping />
+
+### 1: Obtaining a sitemap.xml
+
+A sitemap is a list of url's. The most common format is XML.
+
+You cannot be sent out to fetch something if they don't tell you where to go.
+
+### 2: Scraping all the URLs in the sitemap
+
+The scraper goes through all the URLs and indexes all paragraphs, lists, tables, code fragments, and saves it in JSON format.
+
+### 3: Importing the content into the search index
+
+When all the URLs of a website (or multiple websites) have been scraped and captured in JSON, this JSON is imported into the search engine. The search engine is called Typesense, and the data is imported into their cloud solution.
+
+
 
 First we have to fetch the content from various websites.
 
-We use the Puppeteer library. Puppeteer can also process JavaScript, so dynamically added content, like knowledgelevel will also be collected.
 
 The flowchart below describes the whole scraping process.
 
@@ -24,7 +52,7 @@ Note that creating a local sitemap is a time consuming process, for the script a
 
 Usually when updating the search index (by starting the scraping process), a new scrape is done based on existing local sitemaps, assuming not that much new pages are added to the target site.
 
-<Scraping />
+
 
 ## Import into Typesense
 
