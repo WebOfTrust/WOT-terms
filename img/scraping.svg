@@ -1,9 +1,9 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="247 64 1074 2638">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="197 183 1219 2692">
   <defs>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#199ce8">
       <g>
-        <path d="M 3.7333333 0 L 0 -1.4 L 0 1.4 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+        <path d="M 3.2 0 L 0 -1.2 L 0 1.2 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
       </g>
     </marker>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#199ce8">
@@ -12,11 +12,6 @@
       </g>
     </marker>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_3" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#199ce8">
-      <g>
-        <path d="M 3.2 0 L 0 -1.2 L 0 1.2 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
-      </g>
-    </marker>
-    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_4" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#199ce8">
       <g>
         <path d="M 3.2 0 L 0 -1.2 L 0 1.2 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
       </g>
@@ -31,21 +26,26 @@
     <title>Canvas 1</title>
     <g id="Canvas_1_Layer_1">
       <title>Layer 1</title>
+      <g id="Graphic_121">
+        <path d="M 526.76346 2534.7877 L 527.5 2556 C 529.1585 2603.7644 537.5017 2651.0608 552.2863 2696.5096 L 557 2711 C 574.1467 2763.71 613.3533 2806.367 664.4337 2827.8883 L 742.8893 2860.9432 C 767.6018 2871.355 795.0624 2873.3086 821 2866.5 L 823.3276 2865.889 C 848.0862 2859.39 870.9409 2847.0874 890 2830 L 890 2830 C 909.3145 2812.6836 927.5293 2794.1784 944.5381 2774.5925 L 952 2766 C 973.9481 2740.7264 993.39 2713.381 1010.0518 2684.349 L 1024.9149 2658.4513 C 1042.2365 2628.2697 1055.7034 2596.0342 1065 2562.5 L 1068.2931 2550.6214 C 1075.3814 2525.053 1078.1551 2498.4812 1076.5 2472 L 1076.5 2472 C 1074.8566 2445.7063 1067.0184 2420.174 1053.6251 2397.4875 L 1046.4862 2385.395 C 1032.4722 2361.657 1011.7847 2342.5663 987 2330.5 L 987 2330.5 C 961.7554 2318.21 935.1446 2308.9518 907.723 2302.919 L 899 2301 C 865.6956 2293.673 831.9885 2288.3142 798.0538 2284.9513 L 793.5 2284.5 C 756.7012 2280.8533 719.5658 2282.6536 683.2923 2289.843 L 682.5 2290 C 646.40455 2297.154 613.4475 2315.4103 588.23765 2342.2157 L 582.8153 2347.9812 C 560.01185 2372.228 544.0323 2402.0783 536.5 2434.5 L 536.5 2434.5 C 528.86657 2467.357 525.5929 2501.076 526.76346 2534.7877 Z" fill="#f5f5f5"/>
+        <path d="M 526.74156 2534.202 L 527.5514 2555.866 C 530.46253 2604.639 541.7234 2654.9578 552.2863 2696.5096 M 552.17054 2696.1767 L 557.7346 2712.1864 C 572.37255 2759.458 615.8152 2801.2313 664.4337 2827.8883 M 663.9481 2827.685 L 743.6203 2861.0444 C 768.6449 2870.1526 794.9519 2873.7097 821 2866.5 M 820.2586 2866.7778 L 823.6588 2865.504 C 845.8037 2858.647 868.7246 2848.0156 890 2830 M 890.5244 2830.1402 L 889.1858 2829.7824 C 911.225 2814.6736 925.32 2794.8257 944.5381 2774.5925 M 944.2942 2774.8504 L 952.6832 2765.9785 C 971.5543 2743.9147 993.2002 2712.924 1010.0518 2684.349 M 1009.7944 2684.79 L 1025.3958 2658.07 C 1039.0102 2631.4213 1058.97 2595.06 1065 2562.5 M 1064.7742 2563.341 L 1068.313 2550.162 C 1075.5823 2525.7567 1076.7729 2497.6152 1076.5 2472 M 1076.5742 2472.34 L 1076.3499 2471.3122 C 1076.6077 2445.551 1065.6439 2421.5997 1053.6251 2397.4875 M 1054.06 2398.231 L 1046.3241 2385.005 C 1031.9447 2361.725 1009.1587 2340.5487 987 2330.5 M 987.6884 2331.1087 L 986.5604 2330.1113 C 964.3429 2317.9405 932.7106 2307.344 907.723 2302.919 M 908.6061 2303.1203 L 898.5603 2300.8314 C 865.6577 2291.1118 832.4933 2287.245 798.0538 2284.9513 M 799.0406 2284.969 L 792.7841 2284.8565 C 755.8931 2282.6245 718.782 2282.0708 683.2923 2289.843 M 683.8924 2289.8 L 681.8406 2289.947 C 643.0402 2294.3127 611.31005 2312.2444 588.23765 2342.2157 M 588.8639 2341.5522 L 582.9639 2347.8024 C 562.02975 2375.5376 544.6615 2402.8297 536.5 2434.5 M 536.4817 2435.1902 L 536.5206 2433.7227 C 526.2944 2467.0955 522.2681 2498.9198 526.76346 2534.7877 M 526.89136 2534.076 L 527.77756 2555.376 C 530.71253 2604.389 541.9734 2654.7078 552.5363 2696.2596 M 552.359 2696.0296 L 557.639 2711.2874 C 572.62255 2759.208 616.0652 2800.9813 664.6837 2827.6383 M 664.0966 2827.504 L 743.0888 2860.632 C 768.8949 2869.9026 795.2019 2873.4597 821.25 2866.25 M 820.3773 2866.636 L 823.1512 2865.6027 C 846.0537 2858.397 868.9746 2847.7656 890.25 2829.75 M 890.6436 2830.0372 L 889.7019 2829.839 C 911.475 2814.4236 925.57 2794.5757 944.7881 2774.3425 M 944.3544 2774.6642 L 952.3679 2766.1642 C 971.8043 2743.6647 993.4502 2712.674 1010.3018 2684.099 M 1009.8799 2684.642 L 1025.2786 2658.331 C 1039.2602 2631.1713 1059.22 2594.81 1065.25 2562.25 M 1064.8148 2563.1934 L 1068.1631 2550.82 C 1075.8323 2525.5067 1077.0229 2497.3652 1076.75 2471.75 M 1076.6427 2472.2272 L 1076.4956 2471.4418 C 1076.8577 2445.301 1065.8939 2421.3497 1053.8751 2397.2375 M 1054.0862 2398.1636 L 1046.8572 2385.79 C 1032.1947 2361.475 1009.4087 2340.2987 987.25 2330.25 M 987.751 2331.0543 L 986.8669 2330.2882 C 964.5929 2317.6905 932.9606 2307.094 907.973 2302.669 M 908.7052 2303.1086 L 899.3391 2300.89 C 865.9077 2290.8618 832.7433 2286.995 798.3038 2284.7013 M 799.1633 2284.9682 L 793.2736 2284.7804 C 756.1431 2282.3745 719.032 2281.8208 683.5423 2289.593 M 684.0225 2289.7454 L 682.7027 2289.8155 C 643.2902 2294.0627 611.56005 2311.9944 588.48765 2341.9657 M 589.02796 2341.464 L 583.33296 2347.44 C 562.27975 2375.2876 544.9115 2402.5797 536.75 2434.25 M 536.5567 2435.064 L 536.5483 2433.9173 C 526.5444 2466.8455 522.5181 2498.6698 527.01346 2534.5377" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+      </g>
+      <g id="Graphic_116">
+        <path d="M 667 1503 C 556 1534 450 1668 440 1694 C 430 1720 393 1928 392 1950 C 391 1972 388 2132 416 2158 C 444 2184 447 2218 558 2228 C 669 2238 632 2230 770 2234 C 908 2238 922 2212 944 2194 C 966 2176 1004 2128 1026 2098 C 1048 2068 1130 1958 1118 1845 C 1106 1732 977 1642 977 1642 L 896 1583 C 896 1583 778 1472 667 1503 Z" fill="#f5f5f5"/>
+        <path d="M 667 1503 C 548.71395 1533.5942 451.4266 1670.0663 440 1694 C 428.36685 1721.8834 391.4939 1927.9217 392 1950 C 391.25854 1973.3293 387.5795 2134.5164 416 2158 C 441.2224 2184.136 457.14746 2217.6016 558 2228 C 672.12696 2247.1072 625.5737 2236.8857 770 2234 C 914.5971 2246.8268 919.5089 2212.419 944 2194 C 967.7153 2174.2105 1004.5778 2125.1907 1026 2098 C 1050.9201 2067.107 1126.5552 1955.4275 1118 1845 C 1114.12 1737.0519 977 1642 976.5781 1641.6271 M 977.4285 1642.3111 L 895.5446 1582.858 C 895.9928 1583.0148 773.7995 1472.0176 667 1503 M 667 1503 C 548.96395 1533.3442 451.6766 1669.8163 440.25 1693.75 C 428.61685 1721.6334 391.7439 1927.6717 392.25 1949.75 C 391.50854 1973.0793 387.8295 2134.2664 416.25 2157.75 C 441.4724 2183.886 457.39746 2217.3516 558.25 2227.75 C 672.37696 2246.8572 625.8237 2236.6357 770.25 2233.75 C 914.8471 2246.5768 919.7589 2212.169 944.25 2193.75 C 967.9653 2173.9605 1004.8278 2124.9407 1026.25 2097.75 C 1051.1701 2066.857 1126.8052 1955.1775 1118.25 1844.75 C 1114.37 1736.8019 977.25 1641.75 976.8281 1641.3771 M 977.5173 1642.236 L 895.9616 1583.0393 C 896.2428 1582.7648 774.0495 1471.7676 667.25 1502.75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+      </g>
+      <g id="Graphic_101">
+        <path d="M 602.8457 377.5 L 550.2959 439.11805 C 514.0393 481.63123 481.4096 527.1083 452.7493 575.0718 L 254.40768 907 C 157.50719 1069.1647 210.41426 1279.1785 372.57895 1376.079 C 403.35815 1394.471 436.83774 1407.909 471.7913 1415.901 L 907.8981 1515.6153 C 1115.9811 1563.1928 1323.2348 1433.0774 1370.8123 1224.9944 C 1384.9178 1163.3028 1383.659 1099.0913 1367.1462 1038 L 1218.9995 489.9092 C 1206.0006 441.8179 1183.2428 396.9167 1152.1425 358 L 1152.1425 358 C 1121.9296 320.1937 1078.0525 295.79542 1029.9957 290.07895 L 873.663 271.48283 C 771.3418 259.3115 669.7099 299.09748 602.8457 377.5 Z" fill="#f5f5f5"/>
+        <path d="M 603.3387 376.9222 L 549.5685 439.9409 C 516.552 477.83907 480.40166 526.93094 452.7493 575.0718 M 452.9296 574.7695 L 254.41404 907.6407 C 159.24935 1061.4726 225.6334 1293.8132 372.57895 1376.079 C 401.53254 1393.076 434.26736 1410.3078 471.7913 1415.901 M 471.38144 1415.8073 L 908.0787 1515.6594 C 1128.1544 1563.0479 1313.0876 1431.1875 1370.8123 1224.9944 C 1391.0704 1159.8797 1380.303 1098.1052 1367.1462 1038 M 1367.241 1038.3509 L 1219.0674 489.4951 C 1204.0335 446.317 1183.4086 392.2907 1152.1425 358 M 1151.6142 358.2793 L 1153.0405 357.52526 C 1125.5357 318.29705 1076.747 297.6489 1029.9957 290.07895 M 1030.405 290.1265 L 872.5962 271.7948 C 763.0275 254.74444 678.1436 307.6028 602.8457 377.5 M 603.79656 377.5 L 602.45406 377.5 M 603.5482 376.86926 L 550.0997 439.45515 C 516.802 477.58907 480.65166 526.68094 452.9993 574.8218 M 453.10384 574.67385 L 254.98938 906.9632 C 159.49935 1061.2226 225.8834 1293.5632 372.82895 1375.829 C 401.78254 1392.826 434.51736 1410.0578 472.0413 1415.651 M 471.5249 1415.6016 L 907.8859 1515.3597 C 1128.4044 1562.7979 1313.3376 1430.9375 1371.0623 1224.7444 C 1391.3204 1159.6297 1380.553 1097.8552 1367.3962 1037.75 M 1367.2561 1038.2555 L 1219.3091 490.15 C 1204.2835 446.067 1183.6586 392.0407 1152.3925 357.75 M 1151.7347 358.1458 L 1152.5273 357.68437 C 1125.7857 318.04705 1076.997 297.3989 1030.2457 289.82895 M 1030.527 290.0265 L 873.4987 271.8092 C 763.2775 254.49444 678.3936 307.3528 603.0957 377.25 M 603.92156 377.48898 L 602.9707 377.42864" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+      </g>
       <g id="Graphic_3">
         <title>Rectangle</title>
-        <path d="M 514.3 68 L 641.7 68 C 656.7696 68 669 80.992 669 97 C 669 113.008 656.7696 126 641.7 126 L 514.3 126 C 499.2304 126 487 113.008 487 97 C 487 80.992 499.2304 68 514.3 68 Z" fill="#dde9f5"/>
-        <path d="M 513.33245 67.9945 L 643.57924 68.73481 C 655.8355 67.226795 669.0118 81.33979 669 97 C 667.9164 111.44747 658.0735 126.51856 641.7 126 M 642.2958 125.99622 L 511.44535 126.82679 C 500.52315 125.75194 488.3744 114.41197 487 97 C 487.5149 79.72047 500.5499 67.86509 514.3 68 M 513.58283 67.677745 L 642.5171 68.36892 C 656.3355 66.726795 669.5118 80.83979 669.5 96.5 C 668.4164 110.94747 658.5735 126.01856 642.2 125.5 M 642.5466 125.87076 L 513.67835 126.62805 C 501.02315 125.25194 488.8744 113.91197 487.5 96.5 C 488.0149 79.22047 501.0499 67.36509 514.8 67.5" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-        <text transform="translate(492 78)" fill="black">
+        <path d="M 548.3 203 L 675.7 203 C 690.7696 203 703 220.92 703 243 C 703 265.08 690.7696 283 675.7 283 L 548.3 283 C 533.2304 283 521 265.08 521 243 C 521 220.92 533.2304 203 548.3 203 Z" fill="#dde9f5"/>
+        <path d="M 547.33245 202.9945 L 677.57924 203.7348 C 689.8355 202.2268 703.0163 221.39971 703 243 C 701.5053 262.92755 692.0735 283.51856 675.7 283 M 676.2958 282.99622 L 545.44535 283.8268 C 534.52315 282.75194 522.8957 267.01652 521 243 C 521.7102 219.16617 534.5499 202.8651 548.3 203 M 547.5828 202.67774 L 676.5171 203.36892 C 690.3355 201.7268 703.5163 220.89971 703.5 242.5 C 702.0053 262.42755 692.5735 283.01856 676.2 282.5 M 676.5466 282.87076 L 547.67835 283.62805 C 535.02315 282.25194 523.3957 266.51652 521.5 242.5 C 522.2102 218.66617 535.0499 202.3651 548.8 202.5" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <text transform="translate(526 214.5)" fill="black">
           <tspan font-family="Verdana" font-size="16" fill="black" x="59.640625" y="16">START</tspan>
-          <tspan font-family="Verdana" font-size="16" fill="black" x="43.535156" y="35">SCRAPING</tspan>
-        </text>
-      </g>
-      <g id="Graphic_8">
-        <rect x="487" y="211" width="182" height="58" fill="#dde9f5"/>
-        <path d="M 486.4941 211.00063 L 669.4987 210.77172 M 668.24175 208.94357 L 669.3381 270.215 M 671.0809 268.6774 L 486.2227 269.3899 M 487.88286 270.5483 L 486.9751 209.32164 M 486.7439 210.60198 L 668.5243 210.39487 M 668.67036 208.69038 L 669.5884 268.43372 M 671.3316 268.62513 L 488.11627 269.3091 M 487.9972 270.3003 L 487.02065 210.7534" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-        <text transform="translate(492 221)" fill="black">
-          <tspan font-family="Verdana" font-size="16" fill="black" x="54.98047" y="16">Scraper</tspan>
-          <tspan font-family="Verdana" font-size="16" fill="black" x="48.3125" y="35">(Node.js)</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="32.179688" y="35">GENERATING</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="23.976562" y="54">SEARCH INDEX</tspan>
         </text>
       </g>
       <g id="Graphic_11">
@@ -58,30 +58,28 @@
         </text>
       </g>
       <g id="Graphic_12">
-        <path d="M 322.01705 407 L 391.0341 449.5 L 322.01705 492 L 253 449.5 Z" fill="#dde9f5"/>
-        <path d="M 320.3602 405.9974 L 392.2617 449.50706 M 392.1951 448.32647 L 321.4785 493.17277 M 322.8109 492.9756 L 251.7175 449.49036 M 251.61733 451.2251 L 323.0128 406.37446 M 320.6693 405.6497 L 391.57385 448.57925 M 392.4718 448.11853 L 322.67336 492.6164 M 323.022 492.78916 L 253.28125 450.1217 M 251.76458 450.8115 L 322.2243 406.682" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-        <text transform="translate(276.6346 439.15)" fill="black">
-          <tspan font-family="Verdana" font-size="16" fill="black" x="23.282314" y="16">Site 2</tspan>
+        <path d="M 342 383 L 375 414.262 L 342 445.52404 L 309 414.262 Z" fill="#dde9f5"/>
+        <path d="M 341.64744 382.6682 L 375.2702 414.3121 M 375.257 413.9262 L 341.8947 445.8547 M 342.17924 445.79307 L 308.7292 414.19444 M 308.70703 414.761 L 342.2127 382.79707 M 341.7295 382.5849 L 375.1389 414.03484 M 375.32812 413.8727 L 342.1737 445.6706 M 342.22895 445.7441 L 309.06758 414.41535 M 308.7362 414.66356 L 342.04864 382.92297" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(322.91 406.1368)" fill="black">
+          <tspan font-family="Verdana" font-size="12" fill="black" x="2.1396484" y="12">Site 2</tspan>
         </text>
       </g>
-      <g id="Line_13">
-        <path d="M 578.21416 128 C 578.33666 158.42259 579.0685 178.58588 578.4444 193.10118 M 578.21416 128 C 579.08666 157.67259 579.8185 177.83588 579.1944 192.35118" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-      </g>
       <g id="Line_15">
-        <path d="M 536.4545 271 C 486.5172 306.02716 410.0519 374.9675 366.3065 410.8436 M 536.4545 271 C 487.5172 305.02716 411.0519 373.9675 367.3065 409.8436" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 542.60116 284.21574 C 486.142 315.22762 415.24275 366.6844 376.7595 390.5776 M 542.60116 284.21574 C 487.142 314.22762 416.24275 365.6844 377.7595 389.5776" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Line_16">
-        <path d="M 608.23825 271 C 645.8937 307.50433 735.9973 387.0656 788.9291 447.6647 M 608.23825 271 C 646.8937 306.50433 736.9973 386.0656 789.9291 446.6647" marker-end="url(#FilledArrow_Marker_3)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 648.5666 285 C 681.71245 321.52045 751.5481 389.6818 793.4595 443.6979 M 648.5666 285 C 682.71245 320.52045 752.5481 388.6818 794.4595 442.6979" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_17">
-        <rect x="288" y="565" width="45.93182" height="50" fill="#dde9f5"/>
-        <path d="M 286.52515 564.98566 L 335.9454 565.4662 M 334.93752 563.7929 L 333.09992 617.62395 M 334.94337 615.875 L 286.9385 615.8541 M 288.06738 616.7474 L 287.9988 564.0773 M 286.77706 564.5396 L 335.13186 565.0916 M 335.26376 563.5455 L 333.43144 615.625 M 335.19335 615.6705 L 288.31616 615.7219 M 288.3024 616.49744 L 288.0435 564.7503" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-        <text transform="translate(293 580.5)" fill="black">
-          <tspan font-family="Verdana" font-size="16" fill="black" x="2.9698162" y="16">etc.</tspan>
+        <rect x="325.735" y="499.22115" width="21.961966" height="36.778846" fill="#dde9f5"/>
+        <path d="M 325.36627 499.21926 L 348.20037 499.3365 M 347.93905 498.91916 L 347.4988 536.6562 M 347.94985 536.21866 L 325.46962 536.2136 M 325.75165 536.43686 L 325.7349 498.9905 M 325.42902 499.10774 L 347.99684 499.24405 M 348.0206 498.8569 L 347.57187 536.1561 M 348.01235 536.1675 L 325.81404 536.1805 M 325.8104 536.37436 L 325.74587 499.1587" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(330.735 502.6106)" fill="black">
+          <tspan font-family="Verdana" font-size="12" fill="black" x=".04250622" y="12">et</tspan>
+          <tspan font-family="Verdana" font-size="12" fill="black" x=".672389" y="27">c.</tspan>
         </text>
       </g>
       <g id="Line_18">
-        <path d="M 318.57628 492.23 C 318.3963 508.43106 315.3814 526.6222 314.43493 544.1656 M 318.57628 492.23 C 319.3963 507.43106 316.3814 525.6222 315.43493 543.1656" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 340.4135 444.0211 C 340.59654 455.1965 338.85887 467.805 338.50753 480.34297 M 340.4135 444.0211 C 341.59654 454.1965 339.85887 466.805 339.50753 479.34297" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_19">
         <path d="M 894.9426 733.5 L 1017 825.75 L 894.9426 918 L 772.8853 825.75 Z" fill="#dde9f5"/>
@@ -93,7 +91,7 @@
         </text>
       </g>
       <g id="Line_20">
-        <path d="M 878.5747 631.02715 C 883.0996 664.72 888.3361 692.4168 890.1981 713.2083 M 878.5747 631.02715 C 884.0996 663.72 889.3361 691.4168 891.1981 712.2083" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 878.5747 631.02715 C 883.0996 664.72 888.3361 692.4168 890.1981 713.2083 M 878.5747 631.02715 C 884.0996 663.72 889.3361 691.4168 891.1981 712.2083" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_24">
         <rect x="868.8987" y="662.847" width="31.679688" height="29" fill="white"/>
@@ -110,7 +108,7 @@
         </text>
       </g>
       <g id="Line_32">
-        <path d="M 955.0644 871.2359 C 955.9713 871.875 1022.3719 911.225 1057.3333 984 C 1082.878 1034.7402 1076.6114 1095.2886 1071.106 1123.4537 M 955.0644 871.2359 C 956.9713 870.875 1023.3719 910.225 1058.3333 983 C 1083.878 1033.7402 1077.6114 1094.2886 1072.106 1122.4537" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 955.0644 871.2359 C 955.9713 871.875 1022.3719 911.225 1057.3333 984 C 1082.878 1034.7402 1076.6114 1095.2886 1071.106 1123.4537 M 955.0644 871.2359 C 956.9713 870.875 1023.3719 910.225 1058.3333 983 C 1083.878 1033.7402 1077.6114 1094.2886 1072.106 1122.4537" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_31">
         <rect x="1038.663" y="969.95" width="37.710938" height="29" fill="white"/>
@@ -134,7 +132,7 @@
         </text>
       </g>
       <g id="Line_35">
-        <path d="M 1067.3923 1250 C 1066.8104 1268.2375 1066.7362 1403.1703 959.9426 1513 C 912.2209 1557.2221 859.7697 1583.311 818.8883 1603.5175 M 1067.3923 1250 C 1067.8104 1267.2375 1067.7362 1402.1703 960.9426 1512 C 913.2209 1556.2221 860.7697 1582.311 819.8883 1602.5175" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 1067.3923 1250 C 1066.8104 1268.2375 1066.7362 1403.1703 959.9426 1513 C 912.2209 1557.2221 859.7697 1583.311 818.8883 1603.5175 M 1067.3923 1250 C 1067.8104 1267.2375 1067.7362 1402.1703 960.9426 1512 C 913.2209 1556.2221 860.7697 1582.311 819.8883 1602.5175" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_36">
         <rect x="659" y="1048" width="178" height="106" fill="#dde9f5"/>
@@ -153,7 +151,7 @@
         </text>
       </g>
       <g id="Line_39">
-        <path d="M 832.5409 873.3443 C 820.1729 884.4585 750.4629 962.0744 717.2725 1028.4124 M 832.5409 873.3443 C 821.1729 883.4585 751.4629 961.0744 718.2725 1027.4124" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 832.5409 873.3443 C 820.1729 884.4585 750.4629 962.0744 717.2725 1028.4124 M 832.5409 873.3443 C 821.1729 883.4585 751.4629 961.0744 718.2725 1027.4124" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_38">
         <rect x="759.9773" y="925.1139" width="31.679688" height="29" fill="white"/>
@@ -162,10 +160,10 @@
         </text>
       </g>
       <g id="Line_41">
-        <path d="M 750.701 1153.8896 L 754.85685 1203.2173 M 751.6777 1153.3494 L 755.5686 1201.4162" marker-end="url(#FilledArrow_Marker_4)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 750.701 1153.8896 L 754.85685 1203.2173 M 751.6777 1153.3494 L 755.5686 1201.4162" marker-end="url(#FilledArrow_Marker_3)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Line_42">
-        <path d="M 721.4203 1681.699 L 744.8875 1786.5556 M 722.1264 1681.1528 L 745.5339 1784.7488" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 721.4203 1681.699 L 744.8875 1786.5556 M 722.1264 1681.1528 L 745.5339 1784.7488" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_43">
         <title>Rectangle</title>
@@ -177,7 +175,7 @@
         </text>
       </g>
       <g id="Line_45">
-        <path d="M 773.1551 558.10696 C 717.3573 583.3029 645.87414 631.5541 582.6667 690.6667 C 486.5413 774.2633 449.6463 869.1633 414.6589 931.7946 M 773.1551 558.10696 C 718.3573 582.3029 646.87414 630.5541 583.6667 689.6667 C 487.5413 773.2633 450.6463 868.1633 415.6589 930.7946" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 773.1551 558.10696 C 717.3573 583.3029 645.87414 631.5541 582.6667 690.6667 C 486.5413 774.2633 449.6463 869.1633 414.6589 931.7946 M 773.1551 558.10696 C 718.3573 582.3029 646.87414 630.5541 583.6667 689.6667 C 487.5413 773.2633 450.6463 868.1633 415.6589 930.7946" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_44">
         <rect x="512.62624" y="727.0056" width="45.93182" height="29" fill="white"/>
@@ -193,41 +191,41 @@
         </text>
       </g>
       <g id="Graphic_49">
-        <rect x="665" y="2273.457" width="178" height="106" fill="#dde9f5"/>
-        <path d="M 664.0797 2273.4594 L 845.6779 2273.0017 M 843.6762 2271.2663 L 843.9371 2381.8166 M 845.4317 2380.121 L 664.0392 2379.7628 M 664.6661 2380.523 L 665.0044 2272.055 M 664.3293 2273.039 L 843.9301 2272.6646 M 843.9719 2271.0162 L 844.2119 2379.868 M 845.6816 2379.9306 L 664.91795 2379.7578 M 664.6913 2380.2724 L 665.2359 2273.207" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-        <text transform="translate(670 2307.457)" fill="black">
+        <rect x="675" y="2362.7592" width="178" height="106" fill="#dde9f5"/>
+        <path d="M 674.0797 2362.7615 L 855.6779 2362.3038 M 853.6762 2360.5684 L 853.9371 2471.1187 M 855.4317 2469.423 L 674.0392 2469.065 M 674.6661 2469.8253 L 675.0044 2361.3573 M 674.3293 2362.3413 L 853.93 2361.9668 M 853.9719 2360.3183 L 854.2119 2469.17 M 855.6816 2469.2328 L 674.91795 2469.06 M 674.6913 2469.5746 L 675.2359 2362.5092" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <text transform="translate(680 2396.7592)" fill="black">
           <tspan font-family="Verdana" font-size="16" fill="black" x="12.957031" y="16">Convert to JSONL </tspan>
           <tspan font-family="Verdana" font-size="16" fill="black" x="72.03125" y="35">file</tspan>
         </text>
       </g>
       <g id="Line_48">
-        <path d="M 753.92465 2184.8328 L 755.9069 2253.8683 M 754.5323 2184.3297 L 756.45345 2252.3358" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 755.8172 2184.8347 L 763.318 2343.1815 M 756.4248 2184.3296 L 763.8453 2341.6483" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Line_47">
-        <path d="M 754.1082 2378.0488 L 752.3603 2433.0852 M 754.983 2377.5607 L 753.36205 2431.5345" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 760.93185 2467.3693 L 756.8951 2504.4185 M 761.8046 2466.91 L 757.976 2502.9093" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_51">
-        <rect x="665" y="2451.457" width="178" height="106" fill="#dde9f5"/>
-        <path d="M 663.3644 2451.4537 L 845.1257 2451.829 M 843.1537 2450.455 L 843.9249 2558.0187 M 845.583 2556.6012 L 662.9205 2556.9826 M 664.2614 2558.0118 L 665.0132 2449.5565 M 663.6147 2451.0506 L 843.4139 2451.375 M 843.51 2450.204 L 844.3033 2556.3537 M 845.8335 2556.5992 L 664.5187 2556.794 M 664.5079 2557.7618 L 665.18545 2451.2066" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-        <text transform="translate(670 2475.957)" fill="black">
+        <rect x="665" y="2522.7592" width="178" height="106" fill="#dde9f5"/>
+        <path d="M 663.3644 2522.7558 L 845.1257 2523.1313 M 843.1537 2521.757 L 843.9249 2629.321 M 845.583 2627.9034 L 662.9205 2628.2848 M 664.2614 2629.314 L 665.0132 2520.8586 M 663.6147 2522.3528 L 843.4139 2522.6772 M 843.51 2521.5063 L 844.3033 2627.656 M 845.8335 2627.9014 L 664.5187 2628.096 M 664.5079 2629.064 L 665.18545 2522.5088" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <text transform="translate(670 2547.2592)" fill="black">
           <tspan font-family="Verdana" font-size="16" fill="black" x="46.375" y="16">Import in </tspan>
           <tspan font-family="Verdana" font-size="16" fill="black" x="40.35547" y="35">TypeSense</tspan>
           <tspan font-family="Verdana" font-size="16" fill="black" x="21.375" y="54">index (via Curl)</tspan>
         </text>
       </g>
       <g id="Line_52">
-        <path d="M 747.9854 2004.9728 L 750.4905 2062.0177 M 748.5241 2004.471 L 750.8279 2057.6322" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 747.9854 2004.9728 L 750.4905 2062.0177 M 748.5241 2004.471 L 750.8279 2057.6322" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_55">
         <title>Rectangle</title>
-        <path d="M 692.3 2641.457 L 819.7 2641.457 C 834.7696 2641.457 847 2654.449 847 2670.457 C 847 2686.465 834.7696 2699.457 819.7 2699.457 L 692.3 2699.457 C 677.2304 2699.457 665 2686.465 665 2670.457 C 665 2654.449 677.2304 2641.457 692.3 2641.457 Z" fill="#dde9f5"/>
-        <path d="M 690.7337 2641.457 L 820.7212 2641.462 C 836.1689 2641.65 845.6762 2655.7614 847 2670.457 C 846.1356 2686.2494 835.4761 2699.3882 819.7 2699.457 M 820.9857 2699.457 L 689.7324 2699.4553 C 677.5083 2699.913 666.343 2686.255 665 2670.457 C 665.2975 2655.8205 676.1834 2642.5142 692.3 2641.457 M 690.9837 2641.0884 L 819.0799 2641.0458 C 836.6689 2641.15 846.1762 2655.2614 847.5 2669.957 C 846.6356 2685.7494 835.9761 2698.8882 820.2 2698.957 M 821.2357 2699.412 L 691.5602 2699.2663 C 678.0083 2699.413 666.843 2685.755 665.5 2669.957 C 665.7975 2655.3205 676.6834 2642.0142 692.8 2640.957" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-        <text transform="translate(670 2660.957)" fill="black">
+        <path d="M 702.3 2730.7592 L 829.7 2730.7592 C 844.7696 2730.7592 857 2743.7512 857 2759.7592 C 857 2775.7672 844.7696 2788.7592 829.7 2788.7592 L 702.3 2788.7592 C 687.2304 2788.7592 675 2775.7672 675 2759.7592 C 675 2743.7512 687.2304 2730.7592 702.3 2730.7592 Z" fill="#dde9f5"/>
+        <path d="M 700.7337 2730.759 L 830.7212 2730.764 C 846.1689 2730.952 855.6762 2745.0636 857 2759.7592 C 856.1356 2775.5516 845.4761 2788.6904 829.7 2788.7592 M 830.9857 2788.7592 L 699.7324 2788.7575 C 687.5083 2789.2153 676.343 2775.557 675 2759.7592 C 675.2975 2745.1227 686.1834 2731.8164 702.3 2730.7592 M 700.9837 2730.3906 L 829.0799 2730.348 C 846.6689 2730.452 856.1762 2744.5636 857.5 2759.2592 C 856.6356 2775.0516 845.9761 2788.1904 830.2 2788.2592 M 831.2357 2788.7142 L 701.5602 2788.5684 C 688.0083 2788.7153 676.843 2775.057 675.5 2759.2592 C 675.7975 2744.6227 686.6834 2731.3164 702.8 2730.2592" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <text transform="translate(680 2750.2592)" fill="black">
           <tspan font-family="Verdana" font-size="16" fill="black" x="68.79297" y="16">END</tspan>
         </text>
       </g>
       <g id="Line_56">
-        <path d="M 754.5656 2557.111 L 757.2967 2623.1302 M 755.535 2556.5917 L 758.0815 2618.868" marker-end="url(#FilledArrow_Marker_4)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 757.37985 2628.4204 L 764.8218 2712.4597 M 758.3478 2627.879 L 765.4296 2708.1883" marker-end="url(#FilledArrow_Marker_3)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_57">
         <text transform="translate(782.5977 330)" fill="black">
@@ -268,19 +266,16 @@
       </g>
       <g id="Graphic_64">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/import.sh">
-          <text transform="translate(953.601 2305.457)" fill="black">
+          <text transform="translate(929 2472.2493)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">import.sh</tspan>
           </text>
         </a>
       </g>
-      <g id="Line_65">
-        <path d="M 1001.9996 2300.457 C 1009.363 2275.781 1016.8271 2223.5552 966 2185.457 C 936.7802 2163.555 894.132 2150.6968 854.7358 2143.1512" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-      </g>
       <g id="Line_66">
-        <path d="M 985.8723 2328.457 C 973.0748 2341.527 947.9652 2359.3336 905 2361.457 C 888.5757 2362.2688 871.3862 2360.6976 854.7332 2357.835" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path d="M 958.4828 2467.2493 C 950.1121 2462.2398 936.6485 2456.1276 915 2449.3183 C 899.7075 2444.508 882.1951 2439.9364 864.6417 2435.803" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Line_67">
-        <path d="M 1004.717 2328.457 C 1017.5177 2354.4473 1036.4834 2411.1707 985 2451.457 C 953.1647 2476.3685 901.32 2489.5737 854.8051 2496.5722" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path d="M 1000.0065 2495.2493 C 1017.5217 2506.8297 1030.7597 2523.83 995 2539.3183 C 964.7792 2552.4075 906.511 2561.408 854.8401 2567.189" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Line_68">
         <path d="M 991.7308 2032.457 C 991.7737 2019.4808 989.4151 2000.2985 977 1987.457 C 963.9308 1973.939 943.6713 1971.5372 930.8828 1971.5434" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
@@ -308,13 +303,14 @@
       </g>
       <g id="Graphic_75">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/scrapers">
-          <text transform="translate(624.5 171.5)" fill="black">
-            <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">A collection of scripts</tspan>
+          <text transform="translate(739 217)" fill="black">
+            <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">Using a collection</tspan>
+            <tspan font-family="Courier New" font-size="16" fill="black" x="38.40625" y="31">of scripts</tspan>
           </text>
         </a>
       </g>
       <g id="Line_74">
-        <path d="M 757.1931 194.5 C 765.7885 202.67128 768.8908 213.00988 746.5 221.5 C 731.245 227.28437 706.6183 231.27733 680.848 234.02722" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path d="M 816.608 212 C 807.8757 197.90508 790.8225 182.76962 758 184 C 738.3253 184.73752 715.995 191.24268 694.8209 199.68368" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_81">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/sites/medium.com.mjs#L53">
@@ -330,7 +326,7 @@
         <path d="M 911.9661 1354 C 908.5948 1368.0123 905.4229 1382.9496 902.7517 1396.2832" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Line_83">
-        <path d="M 391.8787 1031.9801 C 396.8021 1151.2016 416.6611 1539.5694 478.3425 1730.457 C 505.34927 1818.7876 532.88357 1850.3473 556.1364 1855.5716 M 391.8787 1031.9801 C 397.8021 1150.2016 417.6611 1538.5694 479.3425 1729.457 C 506.34927 1817.7876 533.88357 1849.3473 557.1364 1854.5716" marker-end="url(#FilledArrow_Marker_4)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 391.8787 1031.9801 C 396.8021 1151.2016 416.6611 1539.5694 478.3425 1730.457 C 505.34927 1818.7876 532.88357 1850.3473 556.1364 1855.5716 M 391.8787 1031.9801 C 397.8021 1150.2016 417.6611 1538.5694 479.3425 1729.457 C 506.34927 1817.7876 533.88357 1849.3473 557.1364 1854.5716" marker-end="url(#FilledArrow_Marker_3)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_84">
         <path d="M 757.5 1220 L 826 1282.5 L 757.5 1345 L 689 1282.5 Z" fill="#dde9f5"/>
@@ -342,7 +338,7 @@
       </g>
       <g id="Line_85">
         <title>Line</title>
-        <path d="M 750.0427 1336.8829 L 718.50705 1557.5284 M 750.76035 1336.414 L 719.4626 1554.3466" marker-end="url(#FilledArrow_Marker_4)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 750.0427 1336.8829 L 718.50705 1557.5284 M 750.76035 1336.414 L 719.4626 1554.3466" marker-end="url(#FilledArrow_Marker_3)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_86">
         <rect x="829.9426" y="1408" width="130" height="60" fill="#dde9f5"/>
@@ -353,7 +349,7 @@
         </text>
       </g>
       <g id="Line_87">
-        <path d="M 788.0269 1317.1154 L 857.6683 1391.975 M 788.6627 1316.4891 L 856.5749 1389.34" marker-end="url(#FilledArrow_Marker_4)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 788.0269 1317.1154 L 857.6683 1391.975 M 788.6627 1316.4891 L 856.5749 1389.34" marker-end="url(#FilledArrow_Marker_3)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_88">
         <rect x="717.8662" y="1428.6011" width="35.184" height="28.447998" fill="white"/>
@@ -368,7 +364,7 @@
         </text>
       </g>
       <g id="Line_90">
-        <path d="M 889.9691 1470 C 884.0586 1494.0878 870.6781 1535.2994 840 1564 C 832.6731 1570.9731 824.3451 1577.8921 816.7241 1584.184 M 889.9691 1470 C 885.0586 1493.0878 871.6781 1534.2994 841 1563 C 833.6731 1569.9731 825.3451 1576.8921 817.7241 1583.184" marker-end="url(#FilledArrow_Marker_4)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 889.9691 1470 C 884.0586 1494.0878 870.6781 1535.2994 840 1564 C 832.6731 1570.9731 824.3451 1577.8921 816.7241 1584.184 M 889.9691 1470 C 885.0586 1493.0878 871.6781 1534.2994 841 1563 C 833.6731 1569.9731 825.3451 1576.8921 817.7241 1583.184" marker-end="url(#FilledArrow_Marker_3)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_92">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/createSitemap.js">
@@ -404,6 +400,27 @@
       </g>
       <g id="Line_96">
         <path d="M 1129.6597 1340.7399 C 1125.2131 1328.1668 1120.4481 1313.3317 1117 1299 C 1112.6884 1281.0792 1111.4639 1268.219 1111.3042 1259.8952" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_122">
+        <text transform="translate(1050 580.0056)" fill="black">
+          <tspan font-family="Courier New" font-weight="bold" font-size="50" fill="black" x="0" y="42">1. </tspan>
+          <tspan font-family="Courier New" font-weight="bold" font-size="50" fill="#212529" y="42">Obtaining</tspan>
+          <tspan font-family="Courier New" font-weight="bold" font-size="50" fill="#212529" x="15.002441" y="99">sitemap.xml</tspan>
+        </text>
+      </g>
+      <g id="Graphic_123">
+        <text transform="translate(979.0049 1760.2285)" fill="black">
+          <tspan font-family="Courier New" font-weight="bold" font-size="50" fill="black" x="0" y="42">2. Scraping</tspan>
+          <tspan font-family="Courier New" font-weight="bold" font-size="50" fill="black" x="45.007324" y="99">all URLs</tspan>
+          <tspan font-family="Courier New" font-weight="bold" font-size="50" fill="black" x="15.002441" y="156">in sitemap</tspan>
+        </text>
+      </g>
+      <g id="Graphic_125">
+        <text transform="translate(949 2602)" fill="black">
+          <tspan font-family="Courier New" font-weight="bold" font-size="50" fill="black" x="0" y="42">3. Importing</tspan>
+          <tspan font-family="Courier New" font-weight="bold" font-size="50" fill="black" x="0" y="99">content into</tspan>
+          <tspan font-family="Courier New" font-weight="bold" font-size="50" fill="black" x="0" y="156">search index</tspan>
+        </text>
       </g>
     </g>
   </g>
