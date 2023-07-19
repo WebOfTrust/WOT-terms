@@ -11,6 +11,19 @@ First we have to fetch the content from various websites.
 
 We use the Puppeteer library. Puppeteer can also process JavaScript, so dynamically added content, like knowledgelevel will also be collected.
 
+The flowchart below describes the whole scraping process.
+
+As you will see in the flowchart, a sitemap.xml is the starting point for the scraping process. This is a list of url's that should be scraped.
+
+1. The sitemap.xml can be **remote**, that means, it is located at the domain that you will scrape, usually in the root, named “sitemap.xml”. It is also a source for search engines like Google and Bing.
+2. The sitemap can be an **HTML sitemap**. This means it is a page on a website with an index.
+3. The sitemap can be a local sitemap. Meaning: this sitemap is **created by you**, using a script or manually.
+
+
+Note that creating a local sitemap is a time consuming process, for the script and also for the person who decides what site to scrape and who prepares this proces.
+
+Usually when updating the search index (by starting the scraping process), a new scrape is done based on existing local sitemaps, assuming not that much new pages are added to the target site.
+
 <Scraping />
 
 ## Import into Typesense
