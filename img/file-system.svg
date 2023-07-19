@@ -1,5 +1,5 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="-57 -9 946 761">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="-57 -14 946 766">
   <defs>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
       <g>
@@ -13,18 +13,18 @@
       <title>Layer 1</title>
       <g id="Graphic_2">
         <title>Stack</title>
-        <rect x="114" y="164" width="278" height="56" fill="#ffd01a"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/clientModules">
+        <rect x="114" y="164" width="278" height="56" fill="#dde9f5"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/clientModules">
           
-          <path d="M 113.66003 164.0002 L 392.53884 163.82934 M 392.20695 163.46938 L 392.09104 220.2772 M 392.40677 220.0559 L 113.7697 220.18417 M 114.01643 220.6456 L 113.99988 163.5794 M 113.7225 163.88761 L 392.2687 163.75343 M 392.33117 163.407 L 392.20355 219.99365 M 392.4693 220.02655 L 114.07882 220.17514 M 114.06656 220.5831 L 114.04301 163.9375" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <path d="M 112.64011 164.00333 L 394.15537 163.31491 M 392.8365 161.87758 L 392.35884 221.10873 M 393.6271 220.22188 L 113.07878 220.73804 M 114.0673 222.58242 L 113.99807 162.31756 M 112.88962 163.55295 L 393.07473 163.01373 M 393.33334 161.62957 L 392.8142 219.9758 M 393.87733 220.10447 L 114.31557 220.70057 M 114.26781 222.33247 L 114.17204 163.75009" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
           <text transform="translate(119 182.5)" fill="black">
             <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">&gt; clientModules</tspan>
           </text>
         </a>
       </g>
       <g id="Graphic_9">
-        <rect x="114" y="317" width="278" height="56" fill="#ffd01a"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/externalContentCarbonCopies">
+        <rect x="114" y="317" width="278" height="56" fill="#dde9f5"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/externalContentCarbonCopies">
           
-          <path d="M 113.59661 317.0003 L 392.05564 316.7954 M 391.7535 316.3844 L 391.8258 373.5791 M 392.10163 373.2321 L 113.60333 372.9976 M 113.91593 373.3232 L 114.00072 316.51803 M 113.6591 316.93404 L 391.8165 316.6875 M 391.837 316.32187 L 391.9085 373.16936 M 392.1641 373.1801 L 113.9789 372.9568 M 113.94092 373.26063 L 114.06135 316.9375" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <path d="M 112.38643 317.00476 L 392.22256 316.17887 M 391.00797 314.5376 L 391.30837 375.3163 M 392.4065 373.9313 L 112.41332 372.9872 M 113.65789 374.29273 L 114.01151 315.07214 M 112.63639 316.73972 L 391.26556 315.75006 M 391.3419 314.28718 L 391.63407 373.67715 M 392.65636 373.7232 L 113.91537 372.8272 M 113.75784 374.04184 L 114.24538 316.74997" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
           <text transform="translate(119 335.5)" fill="black">
             <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">&gt; externalContentCarbonCopies</tspan>
           </text>
@@ -37,7 +37,7 @@
         </text>
       </g>
       <g id="Line_17">
-        <line x1="502.8047" y1="192" x2="401.9" y2="192" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <line x1="502.8047" y1="192" x2="403.9" y2="192" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_19">
         <text transform="translate(603.8203 314)" fill="black">
@@ -47,12 +47,12 @@
         </text>
       </g>
       <g id="Line_18">
-        <line x1="598.8203" y1="341.9694" x2="401.8996" y2="343.6951" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <line x1="598.8203" y1="341.9694" x2="403.8996" y2="343.6776" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_22">
-        <rect x="114" y="456" width="278" height="56" fill="#ffd01a"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/scrapers">
+        <rect x="114" y="456" width="278" height="56" fill="#dde9f5"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/scrapers">
           
-          <path d="M 113.74668 456.0001 L 392.15826 455.87534 M 391.9138 455.69084 L 392.04606 512.0326 M 392.40993 511.77214 L 113.84794 512.2238 M 114.01676 512.6173 L 113.99995 455.83264 M 113.80918 455.9306 L 391.97672 455.7794 M 392.002 455.6283 L 392.11953 511.7102 M 392.47243 511.71375 L 114.07921 512.2031 M 114.05755 512.5548 L 114.04183 455.9375" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <path d="M 112.98674 456.0018 L 392.63305 455.50003 M 391.65 454.7634 L 392.1916 512.1303 M 393.63967 511.08146 L 113.39175 512.8984 M 114.0684 514.4691 L 113.99922 455.33055 M 113.23669 455.72384 L 391.9067 455.1175 M 392.00274 454.5124 L 392.4781 510.8405 M 393.8898 510.8479 L 114.31765 512.81234 M 114.23158 514.2192 L 114.16731 455.7501" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
           <text transform="translate(119 474.5)" fill="black">
             <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">&gt; scrapers</tspan>
           </text>
@@ -68,13 +68,13 @@
         </text>
       </g>
       <g id="Line_20">
-        <path d="M 570.793 512.24686 C 517.6614 513.51885 458.14213 513.82295 406.1992 511.375 C 404.7495 511.3067 403.31313 511.23656 401.89003 511.1647" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path d="M 570.793 512.24686 C 517.6614 513.51885 458.14213 513.82295 406.1992 511.375 C 405.4259 511.33856 404.65643 511.3016 403.89073 511.26415" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_25">
         <title>Stack</title>
-        <rect x="114" y="-6.776001" width="278" height="56" fill="#ffd01a"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/.github/workflows">
+        <rect x="114" y="-6.776001" width="278" height="56" fill="#dde9f5"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/.github/workflows">
           
-          <path d="M 113.66593 -6.77592 L 392.45117 -6.843725 M 392.22367 -7.264431 L 391.78736 49.5824 M 392.02915 49.42947 L 113.86592 49.153167 M 114.11773 49.64952 L 113.99926 -7.130375 M 113.72843 -6.8702 L 392.28294 -6.917731 M 392.30333 -7.326799 L 391.9038 49.367135 M 392.09164 49.37922 L 114.17916 49.12815 M 114.14774 49.58709 L 114.0229 -6.838418" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <path d="M 112.66373 -6.774704 L 393.8047 -7.0475696 M 392.9327 -8.728999 L 391.13562 50.65733 M 392.1166 50.04876 L 113.46369 48.93767 M 114.48339 50.92602 L 113.98813 -8.19345 M 112.91361 -7.151825 L 393.13173 -7.342921 M 393.2513 -8.976923 L 391.6151 49.801305 M 392.3664 49.84777 L 114.71618 48.84061 M 114.60347 50.67711 L 114.0916 -7.024674" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
           <text transform="translate(119 11.723999)" fill="black">
             <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">&gt; .github / workflows</tspan>
           </text>
@@ -89,13 +89,13 @@
         </text>
       </g>
       <g id="Line_23">
-        <line x1="498.0039" y1="33.521293" x2="401.88755" y2="28.697" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <line x1="498.0039" y1="33.521293" x2="403.88755" y2="28.797383" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Line_26">
-        <path d="M 255.83444 49.224 C 263.8439 117.11665 271.38747 109.64057 231.33333 118 C 186.45052 127.36719 42.059896 138.16927 44.666667 209.33333 C 46.88359 269.85464 189.98197 254.7324 237.8596 309.08908" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+        <path d="M 256.07282 51.224 C 263.989 116.96976 270.9898 109.72357 231.33333 118 C 186.45052 127.36719 42.059896 138.16927 44.666667 209.33333 C 46.85921 269.18907 186.85163 255.05584 236.2458 307.32077" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
       </g>
       <g id="Line_27">
-        <path d="M 252.35332 49.224 C 239.98075 139.83516 116.30052 11.260986 49 97 C -24 190 7.166667 339.16667 97.33333 374 C 178.14487 405.21924 232.4489 354.83397 248.8468 446.21694" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+        <path d="M 252.05654 51.224 C 238.13055 137.92049 115.79626 11.903392 49 97 C -24 190 7.166667 339.16667 97.33333 374 C 177.55213 404.99026 231.65087 355.5687 248.47985 444.2289" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
       </g>
       <g id="Graphic_28">
         <rect x="-56.65902" y="251.99983" width="144.42188" height="42" fill="white"/>
@@ -105,9 +105,9 @@
         </text>
       </g>
       <g id="Graphic_34">
-        <rect x="114" y="586" width="278" height="56" fill="#ffd01a"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/multitools">
+        <rect x="114" y="586" width="278" height="56" fill="#dde9f5"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/multitools">
           
-          <path d="M 113.79868 585.9999 L 392.3299 586.10306 M 392.13988 585.7237 L 392.01737 642.2108 M 392.2618 642.0027 L 113.41988 642.04725 M 113.91621 642.4753 L 114.00025 585.8346 M 113.8612 585.8938 L 392.20156 586.03245 M 392.25645 585.6613 L 392.1316 641.94035 M 392.32432 641.9769 L 113.97935 642.00735 M 113.9764 642.4128 L 114.02862 585.93745" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <path d="M 113.19472 585.9988 L 393.31965 586.4131 M 392.56944 584.8949 L 392.064 642.8433 M 393.04727 642.0103 L 111.67951 642.1899 M 113.65726 643.9011 L 114.00392 585.33836 M 113.44498 585.5743 L 392.80626 586.1298 M 393.03573 584.6468 L 392.52644 641.7627 M 393.29737 641.9071 L 113.91745 642.0294 M 113.89802 643.651 L 114.11447 585.7492" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
           <text transform="translate(119 604.5)" fill="black">
             <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">&gt; multitools</tspan>
           </text>
@@ -122,7 +122,7 @@
         </text>
       </g>
       <g id="Line_32">
-        <path d="M 570.793 689.6249 C 543.45646 686.1479 513.84244 681.697 483 676 C 431.18825 666.4298 385.26243 655.07085 348.3385 644.70676" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path d="M 570.793 689.6249 C 543.45646 686.1479 513.84244 681.697 483 676 C 434.42735 667.02806 391.0277 656.4841 355.36835 646.6615" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
     </g>
   </g>
