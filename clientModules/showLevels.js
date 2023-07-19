@@ -130,6 +130,9 @@ const showLevels = (targetElements) => {
 
     // Buttons should only be visible if there are elements with data-level
     function checkDataLevelAttribute(targetElements, levelButtonsAndInfoClassNames) {
+
+      if (document.querySelector('main article') === null) return;
+
       // Query all elements matching the target selector
       const elements = document.querySelector('main article').querySelectorAll(targetElements);
 
