@@ -1,5 +1,5 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="229 -4 532 779">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="229 -4 532 779">
   <defs>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#199ce8">
       <g>
@@ -12,12 +12,12 @@
       </g>
     </marker>
   </defs>
-  <g id="Canvas_1" stroke="none" stroke-opacity="1" fill="none" stroke-dasharray="none" fill-opacity="1">
+  <g id="Canvas_1" stroke-dasharray="none" stroke="none" fill="none" fill-opacity="1" stroke-opacity="1">
     <title>Canvas 1</title>
     <g id="Canvas_1_Layer_1">
       <title>Layer 1</title>
       <g id="Graphic_3">
-        <rect x="401" y="2" width="115" height="53" fill="#ffd01a"/>
+        <rect x="401" y="2" width="115" height="53" fill="#dde9f5"/>
         <path d="M 400.03246 1.9939105 L 517.87924 2.735609 M 516.5958 1.4721649 L 515.3394 55.20964 M 515.9527 54.462937 L 401.26945 55.34871 M 401.8974 57.32649 L 400.96867 .06846505 M 400.2829 1.677155 L 516.81715 2.3689233 M 516.99793 1.2257214 L 515.6099 54.21761 M 516.20445 54.439705 L 402.1162 55.218654 M 402.08356 57.07753 L 401.1468 1.7516736" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
         <text transform="translate(406 9.5)" fill="black">
           <tspan font-family="Verdana" font-size="16" fill="black" x="22.39453" y="16">What is</tspan>
@@ -25,7 +25,7 @@
         </text>
       </g>
       <g id="Graphic_8">
-        <rect x="343" y="235" width="165" height="88" fill="#ffd01a"/>
+        <rect x="343" y="235" width="165" height="88" fill="#dde9f5"/>
         <path d="M 342.4941 235.0007 L 508.4987 234.77156 M 507.2529 232.9434 L 508.32876 324.21514 M 510.08086 322.6767 L 342.2227 323.39054 M 343.877 324.54837 L 342.98356 233.32154 M 342.7439 234.60204 L 507.5243 234.39487 M 507.68154 232.6913 L 508.5884 322.4339 M 510.3317 322.62443 L 344.11634 323.3091 M 343.9913 324.2997 L 343.02063 234.75225" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
         <text transform="translate(348 247)" fill="black">
           <tspan font-family="Verdana" font-size="16" fill="black" x="8.136719" y="16">A Documentation </tspan>
@@ -34,7 +34,7 @@
         </text>
       </g>
       <g id="Graphic_9">
-        <rect x="473" y="377" width="165" height="66.45679" fill="#ffd01a"/>
+        <rect x="473" y="377" width="165" height="66.45679" fill="#dde9f5"/>
         <path d="M 471.38645 377.00804 L 638.22255 376.1764 M 637.0092 374.5376 L 637.3073 445.7731 M 638.4065 444.39063 L 471.41334 443.4411 M 472.6591 444.74953 L 473.0097 375.07213 M 471.6364 376.743 L 637.2652 375.75006 M 637.34314 374.28723 L 637.6341 444.134 M 638.65625 444.18256 L 472.9152 443.284 M 472.75906 444.4988 L 473.2454 376.74998" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
         <text transform="translate(478 387.7284)" fill="black">
           <tspan font-family="Verdana" font-size="16" fill="black" x="11.59375" y="16">A Search Engine</tspan>
@@ -42,7 +42,7 @@
         </text>
       </g>
       <g id="Graphic_10">
-        <rect x="639" y="235" width="115" height="88" fill="#ffd01a"/>
+        <rect x="639" y="235" width="115" height="88" fill="#dde9f5"/>
         <path d="M 637.7788 234.99376 L 755.9464 235.5977 M 754.7655 234.13188 L 754.2857 324.4174 M 756.2321 323.18054 L 638.604 322.59504 M 639.4734 324.03707 L 638.9964 234.32277 M 638.02945 234.61234 L 755.0089 235.10525 M 755.2547 233.88315 L 754.6798 322.92162 M 756.4814 323.06667 L 639.7145 322.59528 M 639.55895 323.78794 L 639.22015 234.75016" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
         <text transform="translate(644 243)" fill="#a3a3a3">
           <tspan font-family="Verdana" font-size="16" fill="#a3a3a3" x="12.621094" y="16">A Chatbot</tspan>
@@ -55,20 +55,20 @@
         <path d="M 458.47806 82.44437 L 459.5296 161.89445 M 462.0465 159.63697 L 421.85886 158.30639 M 424.0678 155.8301 L 424.0291 216.45682 M 459.4736 81.93781 L 460.07933 159.05154 M 462.53694 159.42584 L 424.55344 158.26401 M 425.02843 155.3304 L 424.8439 212.01464" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Line_12">
-        <path d="M 454.6269 145.01916 L 699.2884 143.80854 M 696.9798 141.64089 L 697.0495 217.33913 M 455.12576 144.29081 L 697.4809 143.13125 M 697.5794 141.1408 L 698.0423 214.91466" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 458.4785 53.126904 L 458.9946 146.12652 M 456.8029 143.79711 L 698.9717 146.33528 M 697.0551 145.0961 L 696.6128 218.89138 M 459.20686 52.62564 L 459.6705 143.3189 M 457.3039 143.1975 L 697.5529 145.32058 M 697.7041 144.597 L 697.2644 215.23102" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Line_13">
         <path d="M 458.50067 53.91151 L 458.46454 219.90947 M 456.6565 217.67307 L 555.66853 215.7703 M 553.9638 212.91381 L 557.2859 359.32545 M 459.4618 53.41161 L 459.2617 217.13838 M 457.14864 216.76293 L 554.5273 215.19744 M 554.8011 212.40616 L 558.18485 356.43572" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_14">
-        <rect x="483" y="686.276" width="129.728" height="28.447998" fill="#ffd01a"/>
+        <rect x="483" y="686.276" width="129.728" height="28.447998" fill="#dde9f5"/>
         <path d="M 481.8481 686.274 L 613.57 686.5063 M 612.43816 685.7852 L 612.9966 714.5456 M 613.76264 713.8629 L 481.8666 714.7603 M 482.64275 716.7383 L 483.01964 684.6015 M 482.09826 685.927 L 612.7025 686.052 M 612.7985 685.533 L 613.3405 713.61615 M 614.0127 713.6258 L 482.91694 714.6416 M 482.67087 716.4857 L 483.1192 686.0245" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
         <text transform="translate(488 692.5)" fill="black">
           <tspan font-family="Verdana" font-size="13" fill="black" x="2.6398773" y="13">Exernal domain 1</tspan>
         </text>
       </g>
       <g id="Graphic_15">
-        <rect x="558.272" y="742" width="129.728" height="28.447998" fill="#ffd01a"/>
+        <rect x="558.272" y="742" width="129.728" height="28.447998" fill="#dde9f5"/>
         <path d="M 557.5124 742.0021 L 688.56586 741.6344 M 687.4697 741.1033 L 687.2422 771.3708 M 688.8603 770.845 L 556.82924 770.07565 M 558.74836 770.7067 L 558.2401 740.0763 M 557.7618 741.5388 L 687.7157 741.3812 M 687.7354 740.85345 L 687.6582 770.5868 M 689.1096 770.70205 L 558.9878 769.8837 M 558.76214 770.4606 L 558.366 741.7526" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
         <text transform="translate(563.272 748.224)" fill="black">
           <tspan font-family="Verdana" font-size="13" fill="black" x="2.6398773" y="13">Exernal domain 2</tspan>
@@ -108,14 +108,14 @@
         </a>
       </g>
       <g id="Graphic_23">
-        <rect x="233" y="440.03337" width="151" height="25.363998" fill="#ffd01a"/>
+        <rect x="233" y="440.03337" width="151" height="25.363998" fill="#dde9f5"/>
         <path d="M 232.37908 440.0296 L 384.3569 440.95014 M 383.4036 440.39104 L 383.1644 466.6288 M 383.96533 465.7307 L 232.0824 465.90126 M 233.92394 467.60983 L 232.96923 439.1151 M 232.62996 439.63525 L 383.6497 440.50607 M 383.66166 440.1411 L 383.5238 465.48254 M 384.21546 465.59135 L 234.11672 465.7278 M 234.0728 467.3632 L 233.14213 439.787" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
         <text transform="translate(238 444.71536)" fill="black">
           <tspan font-family="Verdana" font-size="13" fill="black" x="29.11328" y="13">Own content</tspan>
         </text>
       </g>
       <g id="Graphic_24">
-        <rect x="313" y="585.939" width="174" height="62" fill="#ffd01a"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/externalContentCarbonCopies">
+        <rect x="313" y="585.939" width="174" height="62" fill="#dde9f5"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/externalContentCarbonCopies">
           
           <path d="M 311.2714 585.9358 L 487.0808 586.2609 M 486.10897 584.3912 L 487.176 648.27146 M 488.79096 647.51165 L 311.27304 648.05306 M 312.6568 649.8968 L 313.00627 584.7709 M 311.52143 585.6751 L 486.3906 585.7669 M 486.5223 584.1385 L 487.5695 647.264 M 489.0416 647.4665 L 312.91743 648.03755 M 312.79122 649.64614 L 313.11684 585.6883" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
           <text transform="translate(318 592.939)" fill="black">
@@ -146,7 +146,7 @@
         </a>
       </g>
       <g id="Graphic_33">
-        <rect x="247" y="65" width="129.728" height="47" fill="#ffd01a"/>
+        <rect x="247" y="65" width="129.728" height="47" fill="#dde9f5"/>
         <path d="M 245.80242 65.00915 L 378.32374 63.99681 M 377.6031 62.30164 L 375.77384 113.74164 M 377.44964 112.77 L 246.98887 112.5795 M 247.89605 114.1565 L 246.96515 63.088015 M 246.05198 64.70099 L 377.79087 63.5246 M 377.91406 62.053805 L 376.20866 112.52295 M 377.69956 112.57256 L 248.11706 112.51133 M 247.90122 113.91096 L 247.13973 64.75201" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
         <text transform="translate(252 72.5)" fill="black">
           <tspan font-family="Verdana" font-size="13" fill="black" x="6.486557" y="13">Meta data about </tspan>
