@@ -44,6 +44,7 @@ urlImport="https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_
 ############## CONVERT JSON TO JSONL ##############
 input_dir="$(pwd)/scrapers/output"
 output_dir="$(pwd)/scrapers/output"
+log_dir="$(pwd)/scrapers/logs"
 
 
 # Create the output directory if it doesn't exist
@@ -64,10 +65,13 @@ curl -H "X-TYPESENSE-API-KEY: ${local_TYPESENSE_ADMIN_API_KEY}" -X DELETE $urlDe
 
 ############## IMPORT JSONL FILES ##############
 # Iterate over each JSONL file in the directory
+
+echo "Start importing files: $file" > $log_dir/import-into-search-index.log
+
 for file in "$output_dir"/*.jsonl; do
     # Check if the file exists and is a regular file
     if [[ -f "$file" ]]; then
-        echo "Importing file: $file"
+        echo "\n\nImporting file: $file" >> $log_dir/import-into-search-index.log
         
         # Extract the filename without extension
         filename=$(basename "$file" .jsonl)
@@ -77,9 +81,9 @@ for file in "$output_dir"/*.jsonl; do
               -X POST \
               -T "$file" \
               --http1.1 \
-              "$urlImport"
+              "$urlImport" >> $log_dir/import-into-search-index.log
         
-        echo "Import completed for file: $file"
+        echo "\n\nImport completed for file: $file" >> $log_dir/import-into-search-index.log
         echo "-------------------------"
     fi
 done
