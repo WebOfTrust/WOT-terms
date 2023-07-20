@@ -30,7 +30,6 @@ const sitemapFiles = [
     'sitemap.githubcom.WebOfTrust.signifypy-main.xml',
     'sitemap.githubcom.WebOfTrust.vlei-dev.xml',
     'sitemap.githubcom.WebOfTrust.ward-main.xml'
-
 ];
 
 // Function to create configuration
@@ -45,16 +44,14 @@ const createConfig = async (filename) => {
             sourceType: 'localXMLsitemap',
             sourcePath: `scrapers/sitemaps/${filename}`,
         }),
-        siteName: `repo: ${repositoryOwner} / ${repositoryName}`,
-        source: `repo: ${repositoryOwner} / ${repositoryName}`,
+        siteName: `${repositoryOwner} / ${repositoryName}`,
+        source: `${repositoryOwner} / ${repositoryName}`,
         author: '',
         destinationFile: `scrapers/output/${repositoryOwner}-${repositoryName}.json`,
         domQueryForContent: 'turbo-frame',
         branch: branchName
     };
 }
-
-
 
 async function customScrape(page, domQueryForContent, pageUrl) {
     const mainContent = await extractMainContent(page, domQueryForContent);
