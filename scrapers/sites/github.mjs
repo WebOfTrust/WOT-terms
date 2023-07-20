@@ -5,33 +5,33 @@ import getTextContent from '../modules/getTextContent.mjs';
 
 // List of sitemap files
 const sitemapFiles = [
-    'sitemap.githubcom.WebOfTrust.cesride.xml',
-    'sitemap.githubcom.WebOfTrust.keri.xml',
-    'sitemap.githubcom.WebOfTrust.keria.xml',
-    'sitemap.githubcom.WebOfTrust.keripy.xml',
-    'sitemap.githubcom.WebOfTrust.signify-ts.xml',
-    'sitemap.githubcom.webOfTrust.cardano-backer-main.xml',
-    'sitemap.githubcom.webOfTrust.cesrpy-main.xml',
-    'sitemap.githubcom.webOfTrust.gcp-ksm-shim-main.xml',
-    'sitemap.githubcom.webOfTrust.ietf-did-keri-main.xml',
-    'sitemap.githubcom.webOfTrust.kara-main.xml',
-    'sitemap.githubcom.webOfTrust.kassh-main.xml',
-    'sitemap.githubcom.webOfTrust.keep-main.xml',
-    'sitemap.githubcom.webOfTrust.keri-swift-main.xml',
-    'sitemap.githubcom.webOfTrust.keride-main.xml',
-    'sitemap.githubcom.webOfTrust.keriox-main.xml',
-    'sitemap.githubcom.webOfTrust.parside-main.xml',
-    'sitemap.githubcom.webOfTrust.saidide-main.xml',
-    'sitemap.githubcom.webOfTrust.schema-main.xml',
-    'sitemap.githubcom.webOfTrust.scir-main.xml',
-    'sitemap.githubcom.webOfTrust.shkr-main.xml',
-    'sitemap.githubcom.webOfTrust.signifi-main.xml',
-    'sitemap.githubcom.webOfTrust.signifide-main.xml',
-    'sitemap.githubcom.webOfTrust.signifypy-main.xml',
-    'sitemap.githubcom.webOfTrust.vlei-dev.xml',
-    'sitemap.githubcom.webOfTrust.ward-main.xml'
-];
+    'sitemap.githubcom.WebOfTrust.cardano-backer-main.xml',
+    'sitemap.githubcom.WebOfTrust.cesride-main.xml',
+    'sitemap.githubcom.WebOfTrust.cesrpy-main.xml',
+    'sitemap.githubcom.WebOfTrust.gcp-ksm-shim-main.xml',
+    'sitemap.githubcom.WebOfTrust.ietf-did-keri-main.xml',
+    'sitemap.githubcom.WebOfTrust.kara-main.xml',
+    'sitemap.githubcom.WebOfTrust.kassh-main.xml',
+    'sitemap.githubcom.WebOfTrust.keep-main.xml',
+    'sitemap.githubcom.WebOfTrust.keri-main.xml',
+    'sitemap.githubcom.WebOfTrust.keri-swift-main.xml',
+    'sitemap.githubcom.WebOfTrust.keria-main.xml',
+    'sitemap.githubcom.WebOfTrust.keride-main.xml',
+    'sitemap.githubcom.WebOfTrust.keriox-main.xml',
+    'sitemap.githubcom.WebOfTrust.keripy-development.xml',
+    'sitemap.githubcom.WebOfTrust.parside-main.xml',
+    'sitemap.githubcom.WebOfTrust.saidide-main.xml',
+    'sitemap.githubcom.WebOfTrust.schema-main.xml',
+    'sitemap.githubcom.WebOfTrust.scir-main.xml',
+    'sitemap.githubcom.WebOfTrust.shkr-main.xml',
+    'sitemap.githubcom.WebOfTrust.signifi-main.xml',
+    'sitemap.githubcom.WebOfTrust.signifide-main.xml',
+    'sitemap.githubcom.WebOfTrust.signify-ts-main.xml',
+    'sitemap.githubcom.WebOfTrust.signifypy-main.xml',
+    'sitemap.githubcom.WebOfTrust.vlei-dev.xml',
+    'sitemap.githubcom.WebOfTrust.ward-main.xml'
 
+];
 
 // Function to create configuration
 const createConfig = async (filename) => {
