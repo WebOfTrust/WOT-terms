@@ -716,7 +716,9 @@ svg a {
 */
 
 /* Default settings for images */
-article .markdown img {
+article .markdown img,
+/* images in search results also need a shadow */
+#hits img {
   width: 100%;
 
   /* Since images often contain text, it is important to show where the image ends */
@@ -732,11 +734,17 @@ article .markdown img {
 
 /* Default settings, no media queries */
 article .markdown .inline-thumb-start,
+#hits img .inline-thumb-start,
 article .markdown .inline-thumb-end,
+#hits img  .inline-thumb-end,
 article .markdown .inline-small-start,
+#hits img  .inline-small-start,
 article .markdown .inline-small-end,
+#hits img  .inline-small-end,
 article .markdown .inline-medium-start,
-article .markdown .inline-medium-end {
+#hits img  .inline-medium-start,
+article .markdown .inline-medium-end,
+#hits img  .inline-medium-end {
   width: 100%;
 }
 
