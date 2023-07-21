@@ -11,18 +11,17 @@
   node createSitemapGithub.js <repository-owner> <repository-name> <branch-name> <sitemap-directory>
   
   Example:
-  node createSitemapGithub.js WebOfTrustInfo keripy main scrapers/sitemaps
+  $ node createSitemapGithub.js WebOfTrust keripy main scrapers/sitemaps
 
-  
-  
-
-  
+  Example writing to root of project file system:
+  $ node createSitemapGithub.js WebOfTrust keripy main .
+ 
   The script will generate the sitemap.xml file in the specified sitemap directory.
 */
 
-const axios = require('axios');
-const fs = require('fs');
-const path = require('path');
+import axios from 'axios';
+import fs from 'fs';
+import path from 'path';
 
 const args = process.argv.slice(2);
 const repositoryOwner = args[0];
