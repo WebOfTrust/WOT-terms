@@ -1,4 +1,6 @@
-const fs = require('fs');
+import fs from 'fs';
+
+
 const urlRegex = /(https?:\/\/[^\s]+)/g;
 
 function sortLinesInFile(fileName) {
