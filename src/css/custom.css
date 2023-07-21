@@ -492,9 +492,48 @@ table td:nth-child(8) {
   background: var(--docusaurus-instantsearch-bg-hover);
 } */
 
+
+
+/* html structure refinement list 
+  <li class="ais-RefinementList-item">
+    <div>
+      <label class="ais-RefinementList-label">
+        <input type="checkbox" class="ais-RefinementList-checkbox me-2" value="repo">
+          <span class="ais-RefinementList-labelText">
+            xxx
+          </span>			
+          <span class="ais-RefinementList-count badge badge-light bg-light-2 ml-2">
+            79
+          </span>
+      </label>
+    </div>
+  </li>
+*/
 .ais-RefinementList-count {
-  color: var(--ifm-color-primary) !important;
+  /* color: var(--ifm-color-primary) !important; */
+  color: #111;
+  background-color: #80b5ff76;
+  border-radius: 10px;
+  padding: 2px 5px;
+  position: relative;
+  top: -0.6em;
+  left: 0.5em;
+  font-size: 0.5em;
 }
+
+/* If an item wraps to a new line, the new line should not go under the checkbox. Solution: use text-indent */
+.ais-RefinementList-item {
+  margin-left: 2.8em;
+}
+.ais-RefinementList-item div {
+  text-indent: -1.3em;
+}
+
+/* .ais-RefinementList-item input {
+  margin-bottom: 2em;
+  display: inline-block;
+} */
+
 
 .contextual-info {
   font-size: 0.9em;
