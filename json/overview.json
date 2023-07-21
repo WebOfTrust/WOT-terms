@@ -9486,11 +9486,11 @@
     [
       "465",
       "-",
-      "WWWWWW",
+      "CBOR",
       "",
-      "",
-      "",
-      "https://github.com/weboftrust/WOT-terms/wiki/WWWWWW"
+      "CBOR",
+      "concise binary object representation",
+      "https://github.com/weboftrust/WOT-terms/wiki/CBOR"
     ]
   ]
 }
