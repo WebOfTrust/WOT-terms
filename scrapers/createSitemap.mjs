@@ -20,13 +20,13 @@
  * Date: 2023-06-05
  */
 
-const fs = require('fs');
-const axios = require('axios');
-const cheerio = require('cheerio');
-const url = require('url');
-const commandLineArgs = require('command-line-args');
-const { create } = require('xmlbuilder2');
-const path = require('path');
+import fs from 'fs';
+import axios from 'axios';
+import cheerio from 'cheerio';
+import url from 'url';
+import commandLineArgs from 'command-line-args';
+import { create } from 'xmlbuilder2';
+import path from 'path';
 
 // Configuration
 const outputDirectory = path.resolve(__dirname, './sitemaps');
