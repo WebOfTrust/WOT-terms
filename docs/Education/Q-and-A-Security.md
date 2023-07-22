@@ -1,6 +1,6 @@
 # Q&A about KERI's Security model and Guarantees
 
-<img src="../images/Keri_logo_color_on_white.png" alt="KERI logo" border="0" width="400" />
+<img className="inline-small-start" src="../../img/Keri_logo_color_on_white.png" alt="KERI logo" border="0" width="400" />
 
 This document is part two of [Q-and-A](./Q-and-A.md). Both files shares a common [Glossary](./Glossary.md), KERI specific and more generic decentralized Identity ones, that has:
 
