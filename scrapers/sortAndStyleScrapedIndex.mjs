@@ -32,7 +32,7 @@ function sortLinesInFile(fileName) {
     const nonEmptyLines = lines.slice(1).filter(line => line.trim() !== '');
 
     // Count the entries
-    const entryCount = nonEmptyLines.length;
+    const pagesCount = nonEmptyLines.length;
 
     // Sort the non-empty lines alphabetically
     const sortedLines = nonEmptyLines.sort();
@@ -52,10 +52,10 @@ function sortLinesInFile(fileName) {
     const wrappedContent = wrappedLines.join('\n');
 
     // Wrap the content in <ul> and </ul>
-    const finalContent = `<ul>\n${wrappedContent}\n</ul>`;
+    const finalContent = `<ol>\n${wrappedContent}\n</ol>`;
 
     // Preserve the first line (header), add entry count and append the final content
-    const contentWithHeader = `${lines[0]}\nEntry Count: ${entryCount}\n${finalContent}`;
+    const contentWithHeader = `${lines[0]}\n<p>Pages Count: ${pagesCount}</p>\n${finalContent}`;
 
     // Write the final content back to the file
     fs.writeFile(fileName, contentWithHeader, 'utf8', (err) => {
