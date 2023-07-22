@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-      <url><loc>https://github.com/weboftrust/kara/blob/main/LICENSE</loc></url>
-    </urlset>
-  
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://github.com/weboftrust/kara/blob/main/LICENSE</loc>
+  </url>
+</urlset>

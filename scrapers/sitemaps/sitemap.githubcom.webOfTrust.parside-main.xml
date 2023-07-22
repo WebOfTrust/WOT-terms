@@ -1,40 +1,108 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-      <url><loc>https://github.com/weboftrust/parside/blob/main/.github/CODEOWNERS</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/.github/workflows/publish.yml</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/.github/workflows/test.yml</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/.gitignore</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/.rustfmt.toml</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/Cargo.toml</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/LICENSE</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/Makefile</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/README.md</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/cargo/python/.cargo/config.toml</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/cargo/python/Cargo.toml.tail</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/codecov.yml</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/error/mod.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/lib.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/message/cold_code.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/message/custom_payload.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/attached_material_quadlets.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/controller_idx_sigs.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/first_seen_replay_couples.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/group.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/mod.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/non_trans_receipt_couples.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/pathed_material_quadlets.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/sad_path_sig.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/sad_path_sig_group.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/seal_source_couples.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/trans_idx_sig_groups.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/trans_last_idx_sig_groups.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/trans_receipt_quadruples.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/witness_idx_sigs.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/message/message.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/message/message_list.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/message/mod.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/message/parsers.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/utils/mod.rs</loc></url>
-<url><loc>https://github.com/weboftrust/parside/blob/main/src/utils/nom.rs</loc></url>
-    </urlset>
-  
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/.github/CODEOWNERS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/.github/workflows/publish.yml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/.github/workflows/test.yml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/.rustfmt.toml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/Cargo.toml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/LICENSE</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/Makefile</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/README.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/cargo/python/.cargo/config.toml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/cargo/python/Cargo.toml.tail</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/codecov.yml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/error/mod.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/lib.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/message/cold_code.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/message/custom_payload.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/attached_material_quadlets.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/controller_idx_sigs.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/first_seen_replay_couples.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/group.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/mod.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/non_trans_receipt_couples.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/pathed_material_quadlets.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/sad_path_sig.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/sad_path_sig_group.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/seal_source_couples.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/trans_idx_sig_groups.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/trans_last_idx_sig_groups.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/trans_receipt_quadruples.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/message/groups/witness_idx_sigs.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/message/message.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/message/message_list.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/message/mod.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/message/parsers.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/utils/mod.rs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/parside/blob/main/src/utils/nom.rs</loc>
+  </url>
+</urlset>

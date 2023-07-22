@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/WebOfTrust/cesride/blob/main/.github/CODEOWNERS</loc>
@@ -8,9 +8,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/cesride/blob/main/.github/workflows/test.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/cesride/blob/main/.gitignore</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/cesride/blob/main/.rustfmt.toml</loc>
@@ -133,16 +130,10 @@
     <loc>https://github.com/WebOfTrust/cesride/blob/main/src/lib.rs</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/cesride/blob/main/wasm/.gitignore</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/cesride/blob/main/wasm/Cargo.toml</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/cesride/blob/main/wasm/README.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/.gitignore</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/package.json</loc>
@@ -238,4 +229,3 @@
     <loc>https://github.com/WebOfTrust/cesride/blob/main/wasm/src/util.rs</loc>
   </url>
 </urlset>
-  

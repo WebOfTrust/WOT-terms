@@ -1,18 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-      <url><loc>https://github.com/weboftrust/ward/blob/main/.gitignore</loc></url>
-<url><loc>https://github.com/weboftrust/ward/blob/main/LICENSE</loc></url>
-<url><loc>https://github.com/weboftrust/ward/blob/main/Makefile</loc></url>
-<url><loc>https://github.com/weboftrust/ward/blob/main/README.md</loc></url>
-<url><loc>https://github.com/weboftrust/ward/blob/main/config.json</loc></url>
-<url><loc>https://github.com/weboftrust/ward/blob/main/config/demo-witness-oobis.json</loc></url>
-<url><loc>https://github.com/weboftrust/ward/blob/main/entitlements.plist</loc></url>
-<url><loc>https://github.com/weboftrust/ward/blob/main/icon.icns</loc></url>
-<url><loc>https://github.com/weboftrust/ward/blob/main/icon.png</loc></url>
-<url><loc>https://github.com/weboftrust/ward/blob/main/main.spec</loc></url>
-<url><loc>https://github.com/weboftrust/ward/blob/main/requirements.txt</loc></url>
-<url><loc>https://github.com/weboftrust/ward/blob/main/setup.py</loc></url>
-<url><loc>https://github.com/weboftrust/ward/blob/main/ward/__init__.py</loc></url>
-<url><loc>https://github.com/weboftrust/ward/blob/main/ward/main.py</loc></url>
-    </urlset>
-  
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://github.com/weboftrust/ward/blob/main/LICENSE</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/ward/blob/main/Makefile</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/ward/blob/main/README.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/ward/blob/main/config.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/ward/blob/main/config/demo-witness-oobis.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/ward/blob/main/entitlements.plist</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/ward/blob/main/icon.icns</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/ward/blob/main/main.spec</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/ward/blob/main/requirements.txt</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/ward/blob/main/setup.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/ward/blob/main/ward/__init__.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/weboftrust/ward/blob/main/ward/main.py</loc>
+  </url>
+</urlset>
