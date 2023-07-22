@@ -1,5 +1,4 @@
 /*
-  File: extractMainContent.mjs
   Author: Kor Dwarshuis
   Created: 2023-03-16
   Updated: -
