@@ -1,5 +1,16 @@
-import fs from 'fs';
+/*
+  Author: Kor Dwarshuis
+  Created: 2023
+  Updated: -
+  Description:
+  Usage: 
+    $ node sortFile.js <fileName>
+    Example:
+    $ node scrapers / sortFile.mjs docs / Overview / indexed -in -KERISSE.md
+*/
 
+
+import fs from 'fs';
 
 const urlRegex = /(https?:\/\/[^\s]+)/g;
 
