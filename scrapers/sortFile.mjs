@@ -1,15 +1,3 @@
-/*
-  Author: Kor Dwarshuis
-  Created: 2023
-  Updated: -
-  Description:
-  Usage: 
-    $ node sortFile.js <fileName>
-    Example:
-    $ node scrapers / sortFile.mjs docs / Overview / indexed -in -KERISSE.md
-*/
-
-
 import fs from 'fs';
 
 const urlRegex = /(https?:\/\/[^\s]+)/g;
@@ -22,8 +10,17 @@ function sortLinesInFile(fileName) {
       return;
     }
 
-    // Remove empty lines
-    const nonEmptyLines = data.split('\n').filter(line => line.trim() !== '');
+    // Check if the content already contains <ul> or <li>
+    if (data.includes('<ul>') || data.includes('<li>')) {
+      console.log('The content already contains HTML list elements, skipping processing.');
+      return;
+    }
+
+    // Split the data into lines
+    const lines = data.split('\n');
+
+    // Remove empty lines and skip the first line
+    const nonEmptyLines = lines.slice(1).filter(line => line.trim() !== '');
 
     // Sort the non-empty lines alphabetically
     const sortedLines = nonEmptyLines.sort();
@@ -45,8 +42,11 @@ function sortLinesInFile(fileName) {
     // Wrap the content in <ul> and </ul>
     const finalContent = `<ul>\n${wrappedContent}\n</ul>`;
 
+    // Preserve the first line (header) and append the final content
+    const contentWithHeader = `${lines[0]}\n${finalContent}`;
+
     // Write the final content back to the file
-    fs.writeFile(fileName, finalContent, 'utf8', (err) => {
+    fs.writeFile(fileName, contentWithHeader, 'utf8', (err) => {
       if (err) {
         console.error('Error writing to the file:', err);
         return;
