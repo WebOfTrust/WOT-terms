@@ -1,5 +1,4 @@
 /*
-  File: createSitemapGithub.js
   Author: Kor Dwarshuis
   Created: 2023-06-26
   Updated: -
