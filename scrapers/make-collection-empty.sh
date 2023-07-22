@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# File: make-collection-empty.sh
 # Author: Kor Dwarshuis
 # Created: 2023
 # Updated: -
