@@ -53,7 +53,16 @@ const createConfig = async (filename) => {
     };
 }
 
+function sleep(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 async function customScrape(page, domQueryForContent, pageUrl) {
+    // // Pause the script (in miliseconds), could be useful so you don't get blocked
+    // console.log('Pausing...');
+    // await sleep(3000);
+    // console.log('Resuming...'); 
+
     const mainContent = await extractMainContent(page, domQueryForContent);
     console.log('mainContent: ', mainContent);
     // let pageTitle = await page.$eval('.repository-content h1', (element) => {
