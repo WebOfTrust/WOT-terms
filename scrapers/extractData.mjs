@@ -1,5 +1,4 @@
 /*
-  File: extractData.mjs
   Author: Kor Dwarshuis
   Created: 2023-03-16
   Updated: -
