@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# File: import.sh
 # Author: Kor Dwarshuis
 # Created: 2023
 # Updated: -
