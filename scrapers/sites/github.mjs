@@ -57,7 +57,7 @@ function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function customScrape(page, domQueryForContent, pageUrl) {
+async function customScrape(page, domQueryForContent) {
     // // Pause the script (in miliseconds), could be useful so you don't get blocked
     // console.log('Pausing...');
     // await sleep(3000);
