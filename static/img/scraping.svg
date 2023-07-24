@@ -427,46 +427,46 @@
         </text>
       </g>
       <g id="Graphic_127">
-        <rect x="814" y="1759" width="178" height="70" fill="#dde9f5"/>
-        <path d="M 812.1816 1759.0054 L 993.1408 1758.464 M 992.529 1757.664 L 992.2099 1829.7438 M 992.8309 1828.6409 L 812.4098 1828.723 M 814.0748 1829.6241 L 813.9986 1757.6488 M 812.4308 1758.5075 L 992.7753 1758.1624 M 992.9377 1757.4147 L 992.5261 1828.3914 M 993.081 1828.5475 L 814.3239 1828.7117 M 814.2294 1829.3742 L 814.0175 1758.7502" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-        <text transform="translate(819 1775)" fill="black">
-          <tspan font-family="Verdana" font-size="16" fill="black" x="3.4453125" y="16">Store in </tspan>
-          <tspan font-family="Verdana" font-style="italic" font-size="16" fill="black" y="16">indexed-in-</tspan>
-          <tspan font-family="Verdana" font-style="italic" font-size="16" fill="black" x="32.79297" y="35">KERISSE.md</tspan>
+        <rect x="814" y="1759" width="226" height="88" fill="#dde9f5"/>
+        <path d="M 812.1816 1759.0043 L 1041.1408 1758.4643 M 1040.5283 1757.664 L 1040.2109 1847.7438 M 1040.8309 1846.641 L 812.4098 1846.723 M 814.0746 1847.6241 L 813.9989 1757.6488 M 812.431 1758.5064 L 1040.7753 1758.1624 M 1040.937 1757.4145 L 1040.5261 1846.3914 M 1041.081 1846.5476 L 814.3239 1846.7117 M 814.2292 1847.3742 L 814.0175 1758.7502" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <text transform="translate(819 1774.5)" fill="black">
+          <tspan font-family="Verdana" font-size="16" fill="black" x="76.27344" y="16">Store in</tspan>
+          <tspan font-family="Verdana" font-style="italic" font-size="16" fill="black" x="10.777344" y="54">indexed-in-KERISSE.md</tspan>
         </text>
       </g>
       <g id="Line_126">
-        <path d="M 661.64055 1868.857 L 796.727 1827.568 M 662.06366 1868.1055 L 795.8703 1826.961" marker-end="url(#FilledArrow_Marker_3)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 661.61915 1868.9028 L 796.4548 1835.9285 M 662.0567 1868.1473 L 795.6064 1835.2447" marker-end="url(#FilledArrow_Marker_3)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_128">
-        <rect x="709.6973" y="1832.9836" width="41.742188" height="29" fill="white"/>
-        <text transform="translate(714.6973 1837.9836)" fill="black">
+        <rect x="709.6973" y="1837.2843" width="41.742188" height="29" fill="white"/>
+        <text transform="translate(714.6973 1842.2843)" fill="black">
           <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">URL</tspan>
         </text>
       </g>
       <g id="Graphic_129">
-        <rect x="814" y="1971" width="178" height="70" fill="#dde9f5"/><a xlink:href="https://weboftrust.github.io/WOT-terms/docs/Overview/indexed-in-KERISSE">
+        <rect x="933" y="1978.5" width="235" height="120.5" fill="#dde9f5"/><a xlink:href="https://weboftrust.github.io/WOT-terms/docs/Overview/indexed-in-KERISSE">
           
-          <path d="M 812.9662 1970.9983 L 992.5886 1971.285 M 992.0035 1969.3525 L 992.1986 2041.946 M 992.9822 2041.1243 L 812.7911 2041.9421 M 813.6686 2043.1128 L 814.0085 1969.15 M 813.2166 1970.5177 L 992.2589 1970.8727 M 992.4727 1969.102 L 992.6175 2040.8774 M 993.2326 2040.9693 L 813.9242 2041.7479 M 813.79445 2042.8622 L 814.217 1970.7498" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-          <text transform="translate(819 1977.5)" fill="black">
-            <tspan font-family="Verdana" font-size="16" fill="black" x="9.25" y="16">Sort alphabetically</tspan>
-            <tspan font-family="Verdana" font-size="16" fill="black" x="35.44922" y="35">and put in a</tspan>
-            <tspan font-family="Verdana" font-size="16" fill="black" x="28.335938" y="54">nice HTML list</tspan>
+          <path d="M 931.9662 1978.4988 L 1168.5886 1978.7848 M 1168.0056 1976.8525 L 1168.1977 2099.946 M 1168.9822 2099.125 L 931.7911 2099.9412 M 932.6708 2101.1128 L 933.005 1976.65 M 932.2165 1978.018 L 1168.2588 1978.3727 M 1168.4749 1976.6022 L 1168.6175 2098.8776 M 1169.2325 2098.9702 L 932.9242 2099.7479 M 932.7967 2100.8625 L 933.217 1978.25" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+          <text transform="translate(938 1991.25)" fill="black">
+            <tspan font-family="Verdana" font-size="16" fill="black" x="37.75" y="16">Sort alphabetically</tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="63.94922" y="35">and put in a</tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="56.83594" y="54">nice HTML list</tspan>
+            <tspan font-family="Verdana" font-style="italic" font-size="16" fill="black" x="15.277344" y="92">indexed-in-KERISSE.md</tspan>
           </text>
         </a>
       </g>
       <g id="Line_130">
-        <path d="M 903.0054 1829.7171 L 902.4958 1950.611 M 903.6995 1829.218 L 903.4313 1948.9885" marker-end="url(#FilledArrow_Marker_3)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path d="M 950.5037 1847.8628 L 1009.1403 1960.1415 M 951.1757 1847.273 L 1009.5017 1958.4454" marker-end="url(#FilledArrow_Marker_3)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_132">
         <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/sortAndStyleScrapedIndex.mjs">
-          <text transform="translate(949 1915)" fill="black">
+          <text transform="translate(943 1893.2285)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">sortAndStyleScrapedIndex.mjs</tspan>
           </text>
         </a>
       </g>
       <g id="Line_131">
-        <path d="M 1075.0185 1910 C 1066.674 1899.2937 1050.9144 1884.6374 1022.6667 1874.1549 C 984.7278 1860.076 937.8724 1858.5764 917.7857 1858.6568" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path d="M 1079.9369 1916.2285 C 1081.9668 1928.539 1084.6613 1947.438 1085.7726 1966.6075" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_133">
         <rect x="730.8404" y="1344.2675" width="130" height="60" fill="#dde9f5"/>
