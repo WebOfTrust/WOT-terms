@@ -68,7 +68,9 @@ async function customScrape(page, domQueryForContent, pageUrl) {
     // let pageTitle = await page.$eval('.repository-content h1', (element) => {
     //     return element.textContent.trim()
     // });
-    const pageTitle = await getTextContent(page, '#breadcrumb');
+    // const pageTitle = await getTextContent(page, '#breadcrumb');
+    const pageTitle = await getTextContent(page, '[itemprop="name"]');
+
 
     let all = {};
     all.mainContent = mainContent;
