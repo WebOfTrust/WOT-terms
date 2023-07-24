@@ -1,7 +1,5 @@
 # All pages that are indexed in KERISSE
-
-<p>Pages count: 3147</p>
-
+<p>Pages Count: 3148</p>
 <ol>
 <li><a href="https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79" target="_blank">https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79</a></li>
 <li><a href="https://essif-lab.github.io/framework/" target="_blank">https://essif-lab.github.io/framework/</a></li>
@@ -178,7 +176,6 @@
 <li><a href="https://essif-lab.github.io/framework/docs/terms/ssi-infrastructure" target="_blank">https://essif-lab.github.io/framework/docs/terms/ssi-infrastructure</a></li>
 <li><a href="https://essif-lab.github.io/framework/docs/terms/subject" target="_blank">https://essif-lab.github.io/framework/docs/terms/subject</a></li>
 <li><a href="https://essif-lab.github.io/framework/docs/terms/tag" target="_blank">https://essif-lab.github.io/framework/docs/terms/tag</a></li>
-<li><a href="https://essif-lab.github.io/framework/docs/terms/term" target="_blank">https://essif-lab.github.io/framework/docs/terms/term</a></li>
 <li><a href="https://essif-lab.github.io/framework/docs/terms/term-file" target="_blank">https://essif-lab.github.io/framework/docs/terms/term-file</a></li>
 <li><a href="https://essif-lab.github.io/framework/docs/terms/terminology" target="_blank">https://essif-lab.github.io/framework/docs/terms/terminology</a></li>
 <li><a href="https://essif-lab.github.io/framework/docs/terms/terminology-process" target="_blank">https://essif-lab.github.io/framework/docs/terms/terminology-process</a></li>
@@ -827,7 +824,6 @@
 <li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/__main__.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/__main__.py</a></li>
 <li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/app/__init__.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/app/__init__.py</a></li>
 <li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/app/agenting.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/app/agenting.py</a></li>
-<li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/app/aiding.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/app/aiding.py</a></li>
 <li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/__init__.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/__init__.py</a></li>
 <li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/commands/__init__.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/commands/__init__.py</a></li>
 <li><a href="https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/commands/start.py" target="_blank">https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/commands/start.py</a></li>
@@ -1760,6 +1756,7 @@
 <li><a href="https://github.com/weboftrust/keep/blob/main/ward/build-ui-root-gar/green-check-mark.6c4f0465.svg" target="_blank">https://github.com/weboftrust/keep/blob/main/ward/build-ui-root-gar/green-check-mark.6c4f0465.svg</a></li>
 <li><a href="https://github.com/weboftrust/keep/blob/main/ward/build-ui-root-gar/index.3dbe6fe3.css" target="_blank">https://github.com/weboftrust/keep/blob/main/ward/build-ui-root-gar/index.3dbe6fe3.css</a></li>
 <li><a href="https://github.com/weboftrust/keep/blob/main/ward/build-ui-root-gar/index.3dbe6fe3.css.map" target="_blank">https://github.com/weboftrust/keep/blob/main/ward/build-ui-root-gar/index.3dbe6fe3.css.map</a></li>
+<li><a href="https://github.com/weboftrust/keep/blob/main/ward/build-ui-root-gar/index.82cf4cde.js" target="_blank">https://github.com/weboftrust/keep/blob/main/ward/build-ui-root-gar/index.82cf4cde.js</a></li>
 <li><a href="https://github.com/weboftrust/keep/blob/main/ward/build-ui-root-gar/index.82cf4cde.js.map" target="_blank">https://github.com/weboftrust/keep/blob/main/ward/build-ui-root-gar/index.82cf4cde.js.map</a></li>
 <li><a href="https://github.com/weboftrust/keep/blob/main/ward/build-ui-root-gar/index.html" target="_blank">https://github.com/weboftrust/keep/blob/main/ward/build-ui-root-gar/index.html</a></li>
 <li><a href="https://github.com/weboftrust/keep/blob/main/ward/build-ui-root-gar/keep-logo.7055dca8.svg" target="_blank">https://github.com/weboftrust/keep/blob/main/ward/build-ui-root-gar/keep-logo.7055dca8.svg</a></li>
@@ -1953,6 +1950,7 @@
 <li><a href="https://github.com/weboftrust/keri-swift/blob/main/docs/docsets/.docset/Contents/Resources/Documents/Structs/RegistryRotation.html" target="_blank">https://github.com/weboftrust/keri-swift/blob/main/docs/docsets/.docset/Contents/Resources/Documents/Structs/RegistryRotation.html</a></li>
 <li><a href="https://github.com/weboftrust/keri-swift/blob/main/docs/docsets/.docset/Contents/Resources/Documents/Structs/Reply.html" target="_blank">https://github.com/weboftrust/keri-swift/blob/main/docs/docsets/.docset/Contents/Resources/Documents/Structs/Reply.html</a></li>
 <li><a href="https://github.com/weboftrust/keri-swift/blob/main/docs/docsets/.docset/Contents/Resources/Documents/Structs/ReplyMessage.html" target="_blank">https://github.com/weboftrust/keri-swift/blob/main/docs/docsets/.docset/Contents/Resources/Documents/Structs/ReplyMessage.html</a></li>
+<li><a href="https://github.com/weboftrust/keri-swift/blob/main/docs/docsets/.docset/Contents/Resources/Documents/Structs/TransactionStateNotice.html" target="_blank">https://github.com/weboftrust/keri-swift/blob/main/docs/docsets/.docset/Contents/Resources/Documents/Structs/TransactionStateNotice.html</a></li>
 <li><a href="https://github.com/weboftrust/keri-swift/blob/main/docs/docsets/.docset/Contents/Resources/Documents/Structs/VRC.html" target="_blank">https://github.com/weboftrust/keri-swift/blob/main/docs/docsets/.docset/Contents/Resources/Documents/Structs/VRC.html</a></li>
 <li><a href="https://github.com/weboftrust/keri-swift/blob/main/docs/docsets/.docset/Contents/Resources/Documents/Typealiases.html" target="_blank">https://github.com/weboftrust/keri-swift/blob/main/docs/docsets/.docset/Contents/Resources/Documents/Typealiases.html</a></li>
 <li><a href="https://github.com/weboftrust/keri-swift/blob/main/docs/docsets/.docset/Contents/Resources/Documents/badge.svg" target="_blank">https://github.com/weboftrust/keri-swift/blob/main/docs/docsets/.docset/Contents/Resources/Documents/badge.svg</a></li>
@@ -2554,6 +2552,7 @@
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/embed-github-hosted-image-in-github-wiki-page" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/embed-github-hosted-image-in-github-wiki-page</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/file-system" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/file-system</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/fill-out-terms-toip-wiki" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/fill-out-terms-toip-wiki</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/glossary-ToIP" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/glossary-ToIP</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/homepage-text-altering" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/homepage-text-altering</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/intro" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/intro</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/label-content-and-alert-changes" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How%20we%20did/label-content-and-alert-changes</a></li>
