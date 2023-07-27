@@ -1,22 +1,15 @@
 [
     {
-        "name": "keri",
-        "query": "keri",
-        "id": "44400",
-        "position": 1,
-        "match": "exact"
-    },
-    {
-        "name": "test1",
-        "query": "revoke digital certificates and manage public-key encryption",
-        "id": "30642",
-        "position": 1,
-        "match": "exact"
-    },
-    {
         "name": "keriForMuggels",
         "query": "Keri for Muggles",
-        "id": "62427",
+        "id": "1",
+        "position": 1,
+        "match": "exact"
+    },
+    {
+        "name": "acdcForMuggles",
+        "query": "ACDC for Muggles",
+        "id": "2",
         "position": 1,
         "match": "exact"
     }
