@@ -15,7 +15,7 @@ node "$SCRIPT_DIR/extractData.mjs"
 echo "Extracting data finished"
 
 # Make collection in Typesense empty.
-source make-collection-empty.sh
+source "$SCRIPT_DIR/make-collection-empty.sh"
 echo "Making collection empty finished"
 
 # Import the data into Typesense.
