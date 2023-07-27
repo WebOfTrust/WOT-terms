@@ -41,15 +41,30 @@ urlImport="https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_
 
 
 ############## CONVERT JSON TO JSONL ##############
+# Handmade entries
+input_pdf_ed_dir="$(pwd)/scrapers/output-pdf-ed"
+output_pdf_ed_dir="$(pwd)/scrapers/output-pdf-ed"
+
+# Automated entries
 input_dir="$(pwd)/scrapers/output"
 output_dir="$(pwd)/scrapers/output"
+
 log_dir="$(pwd)/scrapers/logs"
 
 
 # Create the output directory if it doesn't exist
 # mkdir -p "$output_dir"
 
-# Loop through all .json files in the input directory
+# Loop through all .json files in the handmade input directory
+for file in "$input_pdf_ed_dir"/*.json; do
+    # Get the file name without extension
+    filename=$(basename "$file" .json)
+    # Convert the file to .jsonl format using jq
+    jq -c '.[]' "$file" > "$output_pdf_ed_dir/$filename.jsonl"
+done
+
+
+# Loop through all .json files in the automated input directory
 for file in "$input_dir"/*.json; do
     # Get the file name without extension
     filename=$(basename "$file" .json)
@@ -66,6 +81,29 @@ curl -H "X-TYPESENSE-API-KEY: ${local_TYPESENSE_ADMIN_API_KEY}" -X DELETE $urlDe
 # Iterate over each JSONL file in the directory
 
 echo "Start importing files: $file" > $log_dir/import-into-search-index.log
+
+# TODO: Deduplicate this code
+# Handmade entries should be imported first so we know that the id's are always the same (they are used in overrides.json)
+for file in "$output_pdf_ed_dir"/*.jsonl; do
+    # Check if the file exists and is a regular file
+    if [[ -f "$file" ]]; then
+        echo "\n\nImporting file: $file" >> $log_dir/import-into-search-index.log
+        
+        # Extract the filename without extension
+        filename=$(basename "$file" .jsonl)
+        
+        # Execute the cURL command to import the document
+        curl -H "X-TYPESENSE-API-KEY: ${local_TYPESENSE_ADMIN_API_KEY}" \
+              -X POST \
+              -T "$file" \
+              --http1.1 \
+              "$urlImport" >> $log_dir/import-into-search-index.log
+        
+        echo "\n\nImport completed for file: $file" >> $log_dir/import-into-search-index.log
+        echo "-------------------------"
+    fi
+done
+
 
 for file in "$output_dir"/*.jsonl; do
     # Check if the file exists and is a regular file
