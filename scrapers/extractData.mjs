@@ -16,6 +16,7 @@ import scrapeKsoeteman from './sites/ksoeteman.mjs';
 import scrapemediumCom from './sites/medium.com.mjs';
 import scrapeKentbull from './sites/kentbull.com.mjs';
 import scrapeGithub from './sites/github.mjs';
+import scrapeReadthedocs from './sites/readthedocs.io.mjs';
 
 scrapeWOTterms();
 scrapeGleif();
@@ -27,3 +28,4 @@ scrapeKsoeteman();
 scrapemediumCom();
 scrapeKentbull();
 scrapeGithub();
+scrapeReadthedocs();
