@@ -1754,9 +1754,15 @@ More on source <a href="https://en.wikipedia.org/wiki/Password">Wikipedia</a></p
 </dd>
 
 <dt id="pathing"><svg class="_slf" onclick="copyUrl('#pathing')"><use href="#_slf"/></svg>pathing <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//pathing')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
-<dd><p>Enables sending portions of a credential<br />
-Source: Philip Feairheller, July 20 2023, KERI-dev meeting</p>
-<p class="meta">version 1, commit efadc91, created 2023-07-27, contributors Henk van Cann</p>
+<dd><p>It was designed send to sign portions of a credential. Designed for complex cases like </p>
+<ul>
+<li>a credential embedded in another credential</li>
+<li>multiple signers, only signing portions of a credential (partial signing)</li>
+</ul>
+<p>In these cases we provide a path (using SAD path language) to what is signed.
+<em>We have never used it for credentials</em>, however we do need it for
+**forwarding in KERI embedded messages ** - see <a href="">video discussion</a>.</p>
+<p class="meta">version 2, commit 22e2038, created 2023-07-27, last modified 2023-07-27, contributors Henk van Cann</p>
 </dd>
 
 <dt id="payload"><svg class="_slf" onclick="copyUrl('#payload')"><use href="#_slf"/></svg>payload <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//payload')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
