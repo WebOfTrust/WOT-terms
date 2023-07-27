@@ -27,9 +27,16 @@ import url from 'url';
 import commandLineArgs from 'command-line-args';
 import { create } from 'xmlbuilder2';
 import path from 'path';
+import { fileURLToPath } from 'url';
 
 // Configuration
+// const outputDirectory = path.resolve(__dirname, './sitemaps');
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 const outputDirectory = path.resolve(__dirname, './sitemaps');
+
 
 async function createSitemap(startUrl, maxDepth) {
     const visited = new Set();
