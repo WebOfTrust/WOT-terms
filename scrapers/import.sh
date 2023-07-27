@@ -73,10 +73,6 @@ for file in "$input_dir"/*.json; do
 done
 
 
-############## MAKE COLLECTION EMPTY ##############
-curl -H "X-TYPESENSE-API-KEY: ${local_TYPESENSE_ADMIN_API_KEY}" -X DELETE $urlDelete
-
-
 ############## IMPORT JSONL FILES ##############
 # Iterate over each JSONL file in the directory
 
