@@ -12,5 +12,12 @@
         "id": "30642",
         "position": 1,
         "match": "exact"
+    },
+    {
+        "name": "keriForMuggels",
+        "query": "Keri for Muggles",
+        "id": "62427",
+        "position": 1,
+        "match": "exact"
     }
 ]
