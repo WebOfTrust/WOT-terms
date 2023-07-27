@@ -53,7 +53,7 @@ log_dir="$(pwd)/scrapers/logs"
 
 
 # Create the output directory if it doesn't exist
-# mkdir -p "$output_dir"
+mkdir -p "$output_dir"
 
 # Loop through all .json files in the handmade input directory
 for file in "$input_pdf_ed_dir"/*.json; do
