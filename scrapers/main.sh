@@ -10,9 +10,13 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 node "$SCRIPT_DIR/prepareLogFiles.mjs"
 echo "Preparing logfiles finished"
 
-# Scrape the websites. This can take a lot of time.
+# Scrape the websites.
 node "$SCRIPT_DIR/extractData.mjs"
 echo "Extracting data finished"
+
+# Make collection in Typesense empty.
+source make-collection-empty.sh
+echo "Making collection empty finished"
 
 # Import the data into Typesense.
 source "$SCRIPT_DIR/import.sh"
