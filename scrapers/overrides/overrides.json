@@ -2,13 +2,20 @@
     {
         "name": "keriForMuggels",
         "query": "Keri for Muggles",
-        "id": "1",
+        "id": "0",
         "position": 1,
         "match": "exact"
     },
     {
         "name": "acdcForMuggles",
         "query": "ACDC for Muggles",
+        "id": "1",
+        "position": 1,
+        "match": "exact"
+    },
+    {
+        "name": "suplyChain",
+        "query": "supply chain",
         "id": "2",
         "position": 1,
         "match": "exact"
