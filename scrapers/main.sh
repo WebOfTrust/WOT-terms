@@ -17,3 +17,7 @@ echo "Extracting data finished"
 # Import the data into Typesense.
 source "$SCRIPT_DIR/import.sh"
 echo "Importing data finished"
+
+# Import overrides into Typesense.
+source "$SCRIPT_DIR/overrides.sh"
+echo "Importing overrides finished"
