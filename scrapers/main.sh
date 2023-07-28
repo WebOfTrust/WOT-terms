@@ -14,6 +14,10 @@ echo "Preparing logfiles finished"
 node "$SCRIPT_DIR/extractData.mjs"
 echo "Extracting data finished"
 
+# Sort and style the index file.
+node "$SCRIPT_DIR/sortAndStyleScrapedIndex.mjs"
+echo "Sorting and styling index file finished"
+
 # Make collection in Typesense empty.
 source "$SCRIPT_DIR/make-collection-empty.sh"
 echo "Making collection empty finished"
