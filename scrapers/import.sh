@@ -43,30 +43,33 @@ urlImport="https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_
 ############## CONVERT JSON TO JSONL ##############
 # Handmade entries
 input_pdf_ed_dir="$(pwd)/scrapers/output-handmade"
+output_pdf_ed_dir="$(pwd)/scrapers/output-handmade"
 
 # Automated entries
 input_dir="$(pwd)/scrapers/output"
 output_dir="$(pwd)/scrapers/output"
 
+# log files
 log_dir="$(pwd)/scrapers/logs"
 
+convert_json_to_jsonl() {
+  convert_input_dir="$1"
+  convert_output_dir="$2"
 
-# Create the output directory if it doesn't exist
-mkdir -p "$output_dir"
+  # Create the output directory if it doesn't exist
+  mkdir -p "$convert_output_dir"
 
-# Copy all .json files from the output-handmade directory to the output directory, so they will be converted to jsonl as well together with the automated entries
-for file in "$input_pdf_ed_dir"/*.json; do
-    cp "$file" "$output_dir"
-done
-
-
-# Loop through all .json files that should be converted to .jsonl
-for file in "$input_dir"/*.json; do
+  # Loop through all .json files that should be converted to .jsonl
+  for file in "$convert_input_dir"/*.json; do
     # Get the file name without extension
     filename=$(basename "$file" .json)
     # Convert the file to .jsonl format using jq
-    jq -c '.[]' "$file" > "$output_dir/$filename.jsonl"
-done
+    jq -c '.[]' "$file" > "$convert_output_dir/$filename.jsonl"
+  done
+}
+
+convert_json_to_jsonl $input_pdf_ed_dir $output_pdf_ed_dir
+convert_json_to_jsonl $input_dir $output_dir
 
 
 ############## IMPORT JSONL FILES ##############
@@ -74,22 +77,34 @@ done
 
 echo "Start importing files: $file" > $log_dir/import-into-search-index.log
 
-for file in "$output_dir"/*.jsonl; do
+import_jsonl_files_to_search_index() {
+  import_output_dir="$1"
+  import_log_dir="$2"
+
+  # Loop through all .jsonl files in the output directory
+  for file in "$import_output_dir"/*.jsonl; do
     # Check if the file exists and is a regular file
     if [[ -f "$file" ]]; then
-        echo "\n\nImporting file: $file" >> $log_dir/import-into-search-index.log
-        
-        # Extract the filename without extension
-        filename=$(basename "$file" .jsonl)
-        
-        # Execute the cURL command to import the document
-        curl -H "X-TYPESENSE-API-KEY: ${local_TYPESENSE_ADMIN_API_KEY}" \
-              -X POST \
-              -T "$file" \
-              --http1.1 \
-              "$urlImport" >> $log_dir/import-into-search-index.log
-        
-        echo "\n\nImport completed for file: $file" >> $log_dir/import-into-search-index.log
-        echo "-------------------------"
+      echo -e "\n\nImporting file: $file" >> "$import_log_dir/import-into-search-index.log"
+
+      # Extract the filename without extension
+      filename=$(basename "$file" .jsonl)
+
+      # Execute the cURL command to import the document
+      curl -H "X-TYPESENSE-API-KEY: ${local_TYPESENSE_ADMIN_API_KEY}" \
+           -X POST \
+           -T "$file" \
+           --http1.1 \
+           "$urlImport" >> "$import_log_dir/import-into-search-index.log"
+
+      echo -e "\n\nImport completed for file: $file" >> "$import_log_dir/import-into-search-index.log"
+      echo "-------------------------"
     fi
-done
+  done
+}
+
+# First do the handmade entries since they should have a predifined id
+import_jsonl_files_to_search_index $output_pdf_ed_dir $log_dir
+
+# Then do the automated entries, they get a generated id
+import_jsonl_files_to_search_index $output_dir $log_dir
