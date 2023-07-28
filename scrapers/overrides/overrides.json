@@ -19,5 +19,26 @@
         "id": "2",
         "position": 1,
         "match": "exact"
+    },
+    {
+        "name": "DIDCommMythconceptions",
+        "query": "errors",
+        "id": "4",
+        "position": 1,
+        "match": "exact"
+    },
+    {
+        "name": "EcosystemGovernanceFrameworkTechnicalRequirementsPart1KERIInfrastructurePrep",
+        "query": "governance",
+        "id": "4",
+        "position": 1,
+        "match": "exact"
+    },
+    {
+        "name": "CESRforFirstYearWizards",
+        "query": "wizzard",
+        "id": "6",
+        "position": 1,
+        "match": "exact"
     }
 ]
