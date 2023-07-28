@@ -42,8 +42,8 @@ urlImport="https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_
 
 ############## CONVERT JSON TO JSONL ##############
 # Handmade entries
-input_pdf_ed_dir="$(pwd)/scrapers/output-handmade"
-output_pdf_ed_dir="$(pwd)/scrapers/output-handmade"
+input_handmade_dir="$(pwd)/scrapers/output-handmade"
+output_handmade_dir="$(pwd)/scrapers/output-handmade"
 
 # Automated entries
 input_dir="$(pwd)/scrapers/output"
@@ -68,7 +68,7 @@ convert_json_to_jsonl() {
   done
 }
 
-convert_json_to_jsonl $input_pdf_ed_dir $output_pdf_ed_dir
+convert_json_to_jsonl $input_handmade_dir $output_handmade_dir
 convert_json_to_jsonl $input_dir $output_dir
 
 
@@ -104,7 +104,7 @@ import_jsonl_files_to_search_index() {
 }
 
 # First do the handmade entries since they should have a predifined id
-import_jsonl_files_to_search_index $output_pdf_ed_dir $log_dir
+import_jsonl_files_to_search_index $output_handmade_dir $log_dir
 
 # Then do the automated entries, they get a generated id
 import_jsonl_files_to_search_index $output_dir $log_dir
