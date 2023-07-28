@@ -73,6 +73,11 @@ async function customScrape(page, domQueryForContent, pageUrl) {
             config.siteName = "Daniel Hardman's blog";
             config.author = 'Daniel Hardman';
             break;
+        case 'https://medium.com/happy-blockchains/you-control-therefore-you-are-and-you-get-to-decide-2e2e615714a9':
+            all.type = 'AID';
+            config.siteName = "Happy Blockchains";
+            config.author = 'Henk van Cann';
+            break;
     }
 
 
