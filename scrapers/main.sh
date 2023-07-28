@@ -10,6 +10,11 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 node "$SCRIPT_DIR/prepareLogFiles.mjs"
 echo "Preparing logfiles finished"
 
+# New sitemaps generated or not: remove unwanted urls from the sitemaps.
+node "$SCRIPT_DIR/removeURLsFromSitemap.mjs"
+echo "Extracting data finished"
+
+
 # Scrape the websites.
 node "$SCRIPT_DIR/extractData.mjs"
 echo "Extracting data finished"
