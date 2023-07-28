@@ -15,7 +15,7 @@ node "$SCRIPT_DIR/extractData.mjs"
 echo "Extracting data finished"
 
 # Sort and style the index file.
-node "$SCRIPT_DIR/sortAndStyleScrapedIndex.mjs"
+node "$SCRIPT_DIR/sortAndStyleScrapedIndex.mjs" docs/Overview/indexed-in-KERISSE.md
 echo "Sorting and styling index file finished"
 
 # Make collection in Typesense empty.
