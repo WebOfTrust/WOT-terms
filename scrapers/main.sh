@@ -14,7 +14,6 @@ echo "Preparing logfiles finished"
 node "$SCRIPT_DIR/removeURLsFromSitemap.mjs"
 echo "Extracting data finished"
 
-
 # Scrape the websites.
 node "$SCRIPT_DIR/extractData.mjs"
 echo "Extracting data finished"
