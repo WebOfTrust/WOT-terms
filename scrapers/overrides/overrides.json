@@ -36,7 +36,7 @@
     },
     {
         "name": "CESRforFirstYearWizards",
-        "query": "wizzard",
+        "query": "wizard",
         "id": "6",
         "position": 1,
         "match": "exact"
