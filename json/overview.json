@@ -1406,7 +1406,7 @@
       "",
       "",
       "",
-      "assertion of truth, often disputed or in doubt",
+      "#NAME?",
       "",
       "Assertion of truth, disputed or uncertain."
     ],
@@ -9207,7 +9207,7 @@
       "pathing",
       "",
       "pathing",
-      "pathing",
+      "enables sending portions of a credential",
       "https://github.com/weboftrust/WOT-terms/wiki/pathing",
       "",
       "3"
@@ -9485,12 +9485,125 @@
     ],
     [
       "465",
-      "-",
+      "G",
       "CBOR",
       "",
       "CBOR",
       "concise binary object representation",
       "https://github.com/weboftrust/WOT-terms/wiki/CBOR"
+    ],
+    [
+      "466",
+      "K",
+      "tholder",
+      "",
+      "tholder",
+      "t-holder object  that supports fractionally-weighted thresholds",
+      "https://github.com/weboftrust/WOT-terms/wiki/tholder"
+    ],
+    [
+      "467",
+      "K",
+      "bexter",
+      "",
+      "bexter",
+      "",
+      "https://github.com/weboftrust/WOT-terms/wiki/bexter"
+    ],
+    [
+      "468",
+      "K",
+      "moobi",
+      "",
+      "moobi",
+      "to share a bunch of different end-points (oobis) all at onc",
+      "https://github.com/weboftrust/WOT-terms/wiki/moobi"
+    ],
+    [
+      "469",
+      "G",
+      "ts-node",
+      "",
+      "ts-node",
+      "npm package that lets you run typescript from a shell",
+      "https://github.com/weboftrust/WOT-terms/wiki/ts-node"
+    ],
+    [
+      "470",
+      "-",
+      "c ",
+      "",
+      "c "
+    ],
+    [
+      "471",
+      "-",
+      "c ",
+      "",
+      "c "
+    ],
+    [
+      "472",
+      "-",
+      "c ",
+      "",
+      "c "
+    ],
+    [
+      "473",
+      "-",
+      "c ",
+      "",
+      "c "
+    ],
+    [
+      "474",
+      "-",
+      "c ",
+      "",
+      "c "
+    ],
+    [
+      "475",
+      "-",
+      "c ",
+      "",
+      "c "
+    ],
+    [
+      "476",
+      "-",
+      "c ",
+      "",
+      "c "
+    ],
+    [
+      "477",
+      "-",
+      "c ",
+      "",
+      "c "
+    ],
+    [
+      "478",
+      "-",
+      "c ",
+      "",
+      "c "
+    ],
+    [
+      "479",
+      "-",
+      "c ",
+      "",
+      "c "
+    ],
+    [
+      "480",
+      "-",
+      "c ",
+      "",
+      "c "
     ]
   ]
 }
