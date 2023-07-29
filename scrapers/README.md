@@ -4,6 +4,8 @@ For Shell scripts:
 - jq (https://stedolan.github.io/jq/)
 - curl (https://curl.se/)
 
+If not installed on your system, you can install them using your package manager (e.g., apt, yum, brew, etc.).
+
 For Node.js: run `npm install`.
 
 
