@@ -18,7 +18,7 @@ const sitemapFiles = [
     'sitemap.githubcom.WebOfTrust.keria-main.xml',
     'sitemap.githubcom.WebOfTrust.keride-main.xml',
     'sitemap.githubcom.WebOfTrust.keriox-main.xml',
-    'sitemap.githubcom.WebOfTrust.keripy-development.xml',
+    'sitemap.githubcom.WebOfTrust.keripy-main.xml',
     'sitemap.githubcom.WebOfTrust.parside-main.xml',
     'sitemap.githubcom.WebOfTrust.saidide-main.xml',
     'sitemap.githubcom.WebOfTrust.schema-main.xml',
