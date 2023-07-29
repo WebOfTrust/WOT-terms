@@ -8,6 +8,7 @@
 #   TYPESENSE_ADMIN_API_KEY
 #   TYPESENSE_HOST
 #   TYPESENSE_COLLECTION_NAME
+# External libraries: jq (https://stedolan.github.io/jq/) and curl (https://curl.se/) are required to run this script.
 
 
 # Find out if the script is running in GitHub Actions or locally
