@@ -5,8 +5,8 @@
   Description: This script renames all files in a directory to lowercase. It requires the directory path as an argument. The script uses the Node.js fs module to read the directory and rename the files.
 */
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 function renameFilesToLowerCase(directoryPath) {
   fs.readdir(directoryPath, (err, files) => {
