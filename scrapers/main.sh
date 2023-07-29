@@ -14,6 +14,10 @@ echo "Preparing logfiles finished"
 node "$SCRIPT_DIR/removeURLsFromSitemap.mjs"
 echo "Extracting data finished"
 
+# New sitemaps generated or not: remove unwanted urls from the sitemaps.
+node "$SCRIPT_DIR/renameFilesToLowerCase.mjs" scrapers/sitemaps
+echo "Renaming files to lowercase finished"
+
 # Scrape the websites.
 node "$SCRIPT_DIR/extractData.mjs"
 echo "Extracting data finished"
