@@ -2,6 +2,7 @@
 
 # Start the scraping process.
 # IMPORTANT: This assumes that sitemaps are already generated. If not, create additional sitemaps first.
+# Run this script from project root: bash scrapers/main.sh  
 
 # Get the directory where the main.sh script is located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
