@@ -11,7 +11,7 @@ const config = {
     siteName: 'kentbull.com blog',
     source: 'Blogposts',
     author: 'Kent Bull',
-    destinationFile: 'search-index-typesense/output/kentbull.com.json',
+    destinationFile: 'search-index-typesense/search-index-entries/kentbull.com.json',
     domQueryForContent: 'article p, article h1, article h2, article h3, article h4, article h5, article h6, article li, article img, article pre, article code'
 }
 

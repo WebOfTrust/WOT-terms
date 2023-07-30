@@ -11,7 +11,7 @@ const config = {
     siteName: 'Python Implementation of the KERI Core Libraries¶',
     source: 'Python Implementation of the KERI Core Libraries¶',
     author: 'Dr. Samuel Smith and contributors',
-    destinationFile: 'search-index-typesense/output/readthedocs.io.json',
+    destinationFile: 'search-index-typesense/search-index-entries/readthedocs.io.json',
     domQueryForContent: '.document'
 }
 

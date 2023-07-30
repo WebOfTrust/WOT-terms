@@ -47,7 +47,7 @@ const createConfig = async (filename) => {
         siteName: `${repositoryOwner} / ${repositoryName}`,
         source: `${repositoryOwner} / ${repositoryName}`,
         author: '',
-        destinationFile: `search-index-typesense/output/${repositoryOwner}-${repositoryName}.json`,
+        destinationFile: `search-index-typesense/search-index-entries/${repositoryOwner}-${repositoryName}.json`,
         domQueryForContent: 'turbo-frame',
         branch: branchName
     };
