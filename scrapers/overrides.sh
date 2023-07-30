@@ -46,36 +46,36 @@ done
 
 ### 2: import new overrides
 
-# Read the JSON file into a variable
-JSON_DATA=$(<"scrapers/overrides/overrides.json")
-# JSON_DATA=$(cat "overrides/overrides.json")
+process_json_data() {
+  local JSON_DATA=$1
+  local LENGTH=$(echo "$JSON_DATA" | jq '. | length')
 
-# Get length of array in JSON
-LENGTH=$(echo $JSON_DATA | jq '. | length')
+  for ((i=0; i<$LENGTH; i++)); do
+    # Extract the name, query, id, position, and match from each object
+    local NAME=$(echo "$JSON_DATA" | jq -r --argjson index $i '.[$index] | .name')
+    local QUERY=$(echo "$JSON_DATA" | jq -r --argjson index $i '.[$index] | .query')
+    local ID=$(echo "$JSON_DATA" | jq -r --argjson index $i '.[$index] | .id')
+    local POSITION=$(echo "$JSON_DATA" | jq -r --argjson index $i '.[$index] | .position')
+    local MATCH=$(echo "$JSON_DATA" | jq -r --argjson index $i '.[$index] | .match')
 
-# Loop over each item in the array
-for ((i=0; i<$LENGTH; i++))
-do
-  # Extract the name, query, id, position, and match from each object
-  NAME=$(echo $JSON_DATA | jq -r --argjson index $i '.[$index] | .name')
-  QUERY=$(echo $JSON_DATA | jq -r --argjson index $i '.[$index] | .query')
-  ID=$(echo $JSON_DATA | jq -r --argjson index $i '.[$index] | .id')
-  POSITION=$(echo $JSON_DATA | jq -r --argjson index $i '.[$index] | .position')
-  MATCH=$(echo $JSON_DATA | jq -r --argjson index $i '.[$index] | .match')
+    # Insert variables into the curl command
+    curl "https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/overrides/$NAME" -X PUT \
+    -H "Content-Type: application/json" \
+    -H "X-TYPESENSE-API-KEY: ${local_TYPESENSE_ADMIN_API_KEY}" -d '{
+      "rule": {
+        "query": "'"$QUERY"'",
+        "match": "'"$MATCH"'"
+      },
+      "includes": [
+        {
+          "id": "'"$ID"'",
+          "position": '"$POSITION"'
+        }
+      ]
+    }'
+  done
+}
 
-  # Insert variables into the curl command
-  curl "https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/overrides/$NAME" -X PUT \
-  -H "Content-Type: application/json" \
-  -H "X-TYPESENSE-API-KEY: ${local_TYPESENSE_ADMIN_API_KEY}" -d '{
-    "rule": {
-      "query": "'"$QUERY"'",
-      "match": "'"$MATCH"'"
-    },
-    "includes": [
-      {
-        "id": "'"$ID"'",
-        "position": '"$POSITION"'
-      }
-    ]
-  }'
-done
+JSON_DATA1=$(<"scrapers/overrides/overridesID.json")
+
+process_json_data "$JSON_DATA1"
