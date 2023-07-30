@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/weboftrust/gcp-ksm-shim/blob/main/LICENSE</loc>
+    <loc>https://github.com/WebOfTrust/gcp-ksm-shim/blob/main/LICENSE</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/gcp-ksm-shim/blob/main/README.md</loc>
+    <loc>https://github.com/WebOfTrust/gcp-ksm-shim/blob/main/README.md</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/gcp-ksm-shim/blob/main/requirements.txt</loc>
+    <loc>https://github.com/WebOfTrust/gcp-ksm-shim/blob/main/requirements.txt</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/gcp-ksm-shim/blob/main/setup.py</loc>
+    <loc>https://github.com/WebOfTrust/gcp-ksm-shim/blob/main/setup.py</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/gcp-ksm-shim/blob/main/src/gcp_ksm_shim/__init__.py</loc>
+    <loc>https://github.com/WebOfTrust/gcp-ksm-shim/blob/main/src/gcp_ksm_shim/__init__.py</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/gcp-ksm-shim/blob/main/src/gcp_ksm_shim/core/__init__.py</loc>
+    <loc>https://github.com/WebOfTrust/gcp-ksm-shim/blob/main/src/gcp_ksm_shim/core/__init__.py</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/gcp-ksm-shim/blob/main/src/gcp_ksm_shim/core/keeping.py</loc>
+    <loc>https://github.com/WebOfTrust/gcp-ksm-shim/blob/main/src/gcp_ksm_shim/core/keeping.py</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/gcp-ksm-shim/blob/main/tests/core/__init__.py</loc>
+    <loc>https://github.com/WebOfTrust/gcp-ksm-shim/blob/main/tests/core/__init__.py</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/gcp-ksm-shim/blob/main/tests/core/test_keeping.py</loc>
+    <loc>https://github.com/WebOfTrust/gcp-ksm-shim/blob/main/tests/core/test_keeping.py</loc>
   </url>
 </urlset>

@@ -1,105 +1,105 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/.github/workflows/test.yaml</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/.github/workflows/test.yaml</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/Dockerfile</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/Dockerfile</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/LICENSE</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/LICENSE</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/Makefile</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/Makefile</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/README.md</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/README.md</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/requirements.txt</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/requirements.txt</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/run.sh</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/run.sh</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/schema/auth-credential.json</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/schema/auth-credential.json</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/scripts/auth-data.json</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/scripts/auth-data.json</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/scripts/auth-issue.sh</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/scripts/auth-issue.sh</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/scripts/auth-scripts.sh</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/scripts/auth-scripts.sh</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/scripts/incept.json</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/scripts/incept.json</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/scripts/kassh.sh</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/scripts/kassh.sh</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/scripts/keri/cf/demo-witness-oobis.json</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/scripts/keri/cf/demo-witness-oobis.json</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/scripts/keri/cf/main/wan.json</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/scripts/keri/cf/main/wan.json</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/scripts/keri/cf/main/wes.json</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/scripts/keri/cf/main/wes.json</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/scripts/keri/cf/main/wil.json</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/scripts/keri/cf/main/wil.json</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/scripts/keri/cf/main/wit.json</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/scripts/keri/cf/main/wit.json</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/scripts/keri/cf/main/wub.json</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/scripts/keri/cf/main/wub.json</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/scripts/keri/cf/main/wyz.json</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/scripts/keri/cf/main/wyz.json</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/setup.py</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/setup.py</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/src/kassh/__init__.py</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/__init__.py</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/src/kassh/app/__init__.py</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/app/__init__.py</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/src/kassh/app/cli/__init__.py</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/app/cli/__init__.py</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/src/kassh/app/cli/commands/__init__.py</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/app/cli/commands/__init__.py</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/src/kassh/app/cli/commands/server/__init__.py</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/app/cli/commands/server/__init__.py</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/src/kassh/app/cli/commands/server/start.py</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/app/cli/commands/server/start.py</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/src/kassh/app/cli/kli.py</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/app/cli/kli.py</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/src/kassh/core/__init__.py</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/core/__init__.py</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/src/kassh/core/basing.py</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/core/basing.py</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/src/kassh/core/handling.py</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/core/handling.py</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/src/kassh/core/serving.py</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/core/serving.py</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/tests/__init__.py</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/tests/__init__.py</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/kassh/blob/main/tests/core/test_basing.py</loc>
+    <loc>https://github.com/WebOfTrust/kassh/blob/main/tests/core/test_basing.py</loc>
   </url>
 </urlset>

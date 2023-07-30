@@ -10,10 +10,103 @@
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/README.md</loc>
   </url>
   <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/README.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/challenge.ts</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/credentials.ts</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/delegation.ts</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/multisig.ts</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/package-lock.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/package.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/randy.ts</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/run_all.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/salty.ts</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/tsconfig.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/tsconfig.node.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/witness.ts</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/client.ts</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/create_agent.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/create_multisig_aid.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/create_person_aid.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/data/delegator.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/data/gleif-sample.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/data/multisig-triple.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/delegator.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/env.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/keri/cf/demo-witness-oobis-schema.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/multisig-kli.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/multisig-sigpy.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/package-lock.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/package.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/src/index.ts</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/tsconfig.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/tsconfig.node.json</loc>
+  </url>
+  <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/.eslintrc.cjs</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/.puppeteerrc.cjs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/README.md</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/index.html</loc>
@@ -250,6 +343,9 @@
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/test/core/matter.test.ts</loc>
   </url>
   <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/test/core/number.test.ts</loc>
+  </url>
+  <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/test/core/prefixer.test.ts</loc>
   </url>
   <url>
@@ -266,6 +362,9 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/test/core/signer.test.ts</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/test/core/tholder.test.ts</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/test/core/verfer.test.ts</loc>

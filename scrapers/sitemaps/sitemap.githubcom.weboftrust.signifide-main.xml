@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/weboftrust/signifide/blob/main/.github/workflows/publish.yml</loc>
+    <loc>https://github.com/WebOfTrust/signifide/blob/main/.github/workflows/publish.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/signifide/blob/main/.github/workflows/test.yml</loc>
+    <loc>https://github.com/WebOfTrust/signifide/blob/main/.github/workflows/test.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/signifide/blob/main/Cargo.toml</loc>
+    <loc>https://github.com/WebOfTrust/signifide/blob/main/Cargo.toml</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/signifide/blob/main/LICENSE</loc>
+    <loc>https://github.com/WebOfTrust/signifide/blob/main/LICENSE</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/signifide/blob/main/README.md</loc>
+    <loc>https://github.com/WebOfTrust/signifide/blob/main/README.md</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/signifide/blob/main/src/core/mod.rs</loc>
+    <loc>https://github.com/WebOfTrust/signifide/blob/main/src/core/mod.rs</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/signifide/blob/main/src/core/prefixer.rs</loc>
+    <loc>https://github.com/WebOfTrust/signifide/blob/main/src/core/prefixer.rs</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/signifide/blob/main/src/core/salter.rs</loc>
+    <loc>https://github.com/WebOfTrust/signifide/blob/main/src/core/salter.rs</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/signifide/blob/main/src/core/serder.rs</loc>
+    <loc>https://github.com/WebOfTrust/signifide/blob/main/src/core/serder.rs</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/signifide/blob/main/src/core/signer.rs</loc>
+    <loc>https://github.com/WebOfTrust/signifide/blob/main/src/core/signer.rs</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/signifide/blob/main/src/crypto/mod.rs</loc>
+    <loc>https://github.com/WebOfTrust/signifide/blob/main/src/crypto/mod.rs</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/signifide/blob/main/src/crypto/sign.rs</loc>
+    <loc>https://github.com/WebOfTrust/signifide/blob/main/src/crypto/sign.rs</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/signifide/blob/main/src/error.rs</loc>
+    <loc>https://github.com/WebOfTrust/signifide/blob/main/src/error.rs</loc>
   </url>
   <url>
-    <loc>https://github.com/weboftrust/signifide/blob/main/src/lib.rs</loc>
+    <loc>https://github.com/WebOfTrust/signifide/blob/main/src/lib.rs</loc>
   </url>
 </urlset>
