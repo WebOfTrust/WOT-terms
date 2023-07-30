@@ -35,6 +35,10 @@ echo "Making collection empty finished"
 source "$SCRIPT_DIR/import.sh"
 echo "Importing data finished"
 
+# Finding ids to urls.
+source "$SCRIPT_DIR/urlToID.sh"
+echo "Finding ids to urls finished"
+
 # Import overrides into Typesense.
 source "$SCRIPT_DIR/overrides.sh"
 echo "Importing overrides finished"
