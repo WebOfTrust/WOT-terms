@@ -41,12 +41,12 @@ urlDelete="https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_
 urlImport="https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/documents/import?action=create"
 
 # Handmade entries
-input_handmade_dir="$(pwd)/search-index-typesense/output-handmade"
-output_handmade_dir="$(pwd)/search-index-typesense/output-handmade"
+input_handmade_dir="$(pwd)/search-index-typesense/search-index-entries-manual"
+output_handmade_dir="$(pwd)/search-index-typesense/search-index-entries-manual"
 
 # Automated entries
-input_dir="$(pwd)/search-index-typesense/output"
-output_dir="$(pwd)/search-index-typesense/output"
+input_dir="$(pwd)/search-index-typesense/search-index-entries"
+output_dir="$(pwd)/search-index-typesense/search-index-entries"
 
 # log files
 log_dir="$(pwd)/search-index-typesense/logs"
