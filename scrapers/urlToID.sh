@@ -34,7 +34,7 @@ local_TYPESENSE_HOST="${TYPESENSE_HOST}"
 local_TYPESENSE_COLLECTION_NAME="${TYPESENSE_COLLECTION_NAME}"
 
 # Set the input and output file paths
-input_file_path="scrapers/overrides/overridesURL.json"
+input_file_path="scrapers/overrides/overrides.json"
 output_file_path="scrapers/overrides/overridesID.json"
 
 # Create a temporary file
