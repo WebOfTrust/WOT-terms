@@ -40,8 +40,6 @@ urlDelete="https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_
 # URL of the endpoint to import documents
 urlImport="https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/documents/import?action=create"
 
-
-############## CONVERT JSON TO JSONL ##############
 # Handmade entries
 input_handmade_dir="$(pwd)/scrapers/output-handmade"
 output_handmade_dir="$(pwd)/scrapers/output-handmade"
@@ -52,6 +50,20 @@ output_dir="$(pwd)/scrapers/output"
 
 # log files
 log_dir="$(pwd)/scrapers/logs"
+
+
+
+
+############## COPY FROM HANDMADE DIR TO (MAIN) OUTPUT DIR ##############
+# Copy all .json files from the output-handmade directory to the output directory, so they will be converted to jsonl as well together with the automated entries
+for file in "$output_handmade_dir"/*.json; do
+    cp "$file" "$output_dir"
+done
+
+
+
+
+############## CONVERT JSON TO JSONL ##############
 
 convert_json_to_jsonl() {
   convert_input_dir="$1"
@@ -69,7 +81,6 @@ convert_json_to_jsonl() {
   done
 }
 
-convert_json_to_jsonl $input_handmade_dir $output_handmade_dir
 convert_json_to_jsonl $input_dir $output_dir
 
 
@@ -104,8 +115,9 @@ import_jsonl_files_to_search_index() {
   done
 }
 
-# First do the handmade entries since they should have a predifined id
-import_jsonl_files_to_search_index $output_handmade_dir $log_dir
-
-# Then do the automated entries, they get a generated id
+# Start importing the files
 import_jsonl_files_to_search_index $output_dir $log_dir
+
+
+
+rm "$import_output_dir"/*.jsonl
