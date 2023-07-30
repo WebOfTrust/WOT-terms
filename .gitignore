@@ -27,7 +27,7 @@ yarn-error.log*
 .idea
 .vscode/
 *.bak
-search-index-typesense/output/*
+search-index-typesense/search-index-entries/*
 search-index-typesense/logs/*
 Split_*
 *-workfile.txt
