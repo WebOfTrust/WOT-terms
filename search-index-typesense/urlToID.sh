@@ -34,8 +34,8 @@ local_TYPESENSE_HOST="${TYPESENSE_HOST}"
 local_TYPESENSE_COLLECTION_NAME="${TYPESENSE_COLLECTION_NAME}"
 
 # Set the input and output file paths
-input_file_path="scrapers/overrides/overrides.json"
-output_file_path="scrapers/overrides/overridesID.json"
+input_file_path="search-index-typesense/overrides/overrides.json"
+output_file_path="search-index-typesense/overrides/overridesID.json"
 
 # Create a temporary file
 temp_file=$(mktemp)

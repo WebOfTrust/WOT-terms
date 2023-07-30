@@ -41,15 +41,15 @@ urlDelete="https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_
 urlImport="https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/documents/import?action=create"
 
 # Handmade entries
-input_handmade_dir="$(pwd)/scrapers/output-handmade"
-output_handmade_dir="$(pwd)/scrapers/output-handmade"
+input_handmade_dir="$(pwd)/search-index-typesense/output-handmade"
+output_handmade_dir="$(pwd)/search-index-typesense/output-handmade"
 
 # Automated entries
-input_dir="$(pwd)/scrapers/output"
-output_dir="$(pwd)/scrapers/output"
+input_dir="$(pwd)/search-index-typesense/output"
+output_dir="$(pwd)/search-index-typesense/output"
 
 # log files
-log_dir="$(pwd)/scrapers/logs"
+log_dir="$(pwd)/search-index-typesense/logs"
 
 
 

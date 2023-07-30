@@ -2,7 +2,7 @@
 
 # Start the scraping process.
 # IMPORTANT: This assumes that sitemaps are already generated. If not, create additional sitemaps first.
-# Run this script from project root: bash scrapers/main.sh  
+# Run this script from project root: bash search-index-typesense/main.sh  
 
 # Get the directory where the main.sh script is located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -16,7 +16,7 @@ node "$SCRIPT_DIR/removeURLsFromSitemap.mjs"
 echo "Extracting data finished"
 
 # Filenames to lowercase.
-node "$SCRIPT_DIR/renameFilesToLowerCase.mjs" scrapers/sitemaps
+node "$SCRIPT_DIR/renameFilesToLowerCase.mjs" search-index-typesense/sitemaps
 echo "Renaming files to lowercase finished"
 
 # Scrape the websites.

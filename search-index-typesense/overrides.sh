@@ -76,9 +76,9 @@ process_json_data() {
   done
 }
 
-JSON_DATA1=$(<"scrapers/overrides/overridesID.json")
+JSON_DATA1=$(<"search-index-typesense/overrides/overridesID.json")
 
 process_json_data "$JSON_DATA1"
 
 # Remove it after use
-rm scrapers/overrides/overridesID.json
+rm search-index-typesense/overrides/overridesID.json

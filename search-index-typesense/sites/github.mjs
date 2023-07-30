@@ -42,12 +42,12 @@ const createConfig = async (filename) => {
     return {
         sitemap: await createInput({
             sourceType: 'localXMLsitemap',
-            sourcePath: `scrapers/sitemaps/${filename}`,
+            sourcePath: `search-index-typesense/sitemaps/${filename}`,
         }),
         siteName: `${repositoryOwner} / ${repositoryName}`,
         source: `${repositoryOwner} / ${repositoryName}`,
         author: '',
-        destinationFile: `scrapers/output/${repositoryOwner}-${repositoryName}.json`,
+        destinationFile: `search-index-typesense/output/${repositoryOwner}-${repositoryName}.json`,
         domQueryForContent: 'turbo-frame',
         branch: branchName
     };

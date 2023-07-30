@@ -5,13 +5,13 @@ import fs from 'fs';
  * Existing log files are deleted and new ones are created. Some files are also prepared with a header.
  */
 
-fs.writeFile('scrapers/logs/scraped.log', "", { flag: 'w' }, (err) => {
+fs.writeFile('search-index-typesense/logs/scraped.log', "", { flag: 'w' }, (err) => {
     if (err) {
         console.error('Error writing file:', err);
         return;
     }
 });
-fs.writeFile('scrapers/logs/error.log', "", { flag: 'w' }, (err) => {
+fs.writeFile('search-index-typesense/logs/error.log', "", { flag: 'w' }, (err) => {
     if (err) {
         console.error('Error writing file:', err);
         return;

@@ -7,12 +7,12 @@ const config = {
     sitemap: await createInput({
         sourceType: 'remoteXMLsitemap',
         sourcePath: 'https://weboftrust.github.io/WOT-terms/sitemap.xml',
-        excludeURLs: 'scrapers/sitemaps/WOT-terms-exclude-urls.json'
+        excludeURLs: 'search-index-typesense/sitemaps/WOT-terms-exclude-urls.json'
     }),
     siteName: 'KERISSE (this site)',
     source: 'KERISSE (this site)',
     author: 'Henk van Cann',
-    destinationFile: 'scrapers/output/WOT-terms.json',
+    destinationFile: 'search-index-typesense/output/WOT-terms.json',
     domQueryForContent: 'article .markdown p, article .markdown h1, article .markdown h2, article .markdown h3, article .markdown h4, article .markdown h5, article .markdown h6, article .markdown li, article .markdown img, article .markdown pre, article .markdown code'
 }
 

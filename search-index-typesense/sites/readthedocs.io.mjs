@@ -6,12 +6,12 @@ import getTextContent from '../modules/getTextContent.mjs';
 const config = {
     sitemap: await createInput({
         sourceType: 'localXMLsitemap',
-        sourcePath: 'scrapers/sitemaps/sitemap-keripy.readthedocs.io.xml',
+        sourcePath: 'search-index-typesense/sitemaps/sitemap-keripy.readthedocs.io.xml',
     }),
     siteName: 'Python Implementation of the KERI Core Libraries¶',
     source: 'Python Implementation of the KERI Core Libraries¶',
     author: 'Dr. Samuel Smith and contributors',
-    destinationFile: 'scrapers/output/readthedocs.io.json',
+    destinationFile: 'search-index-typesense/output/readthedocs.io.json',
     domQueryForContent: '.document'
 }
 

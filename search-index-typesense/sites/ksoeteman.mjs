@@ -6,12 +6,12 @@ import getTextContent from '../modules/getTextContent.mjs';
 const config = {
     sitemap: await createInput({
         sourceType: 'localXMLsitemap',
-        sourcePath: 'scrapers/sitemaps/sitemap-ksoeteman.xml',
+        sourcePath: 'search-index-typesense/sitemaps/sitemap-ksoeteman.xml',
     }),
     siteName: 'ksoeteman.nl blog',
     source: 'Blogposts',
     author: 'Krijn Soeteman',
-    destinationFile: 'scrapers/output/ksoeteman.json',
+    destinationFile: 'search-index-typesense/output/ksoeteman.json',
     domQueryForContent: '.entry-content p, .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, .entry-content li, .entry-content img, .entry-content pre, .entry-content code'
 }
 

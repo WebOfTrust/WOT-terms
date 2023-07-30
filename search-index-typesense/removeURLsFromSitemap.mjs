@@ -36,7 +36,7 @@ async function removeFilesFromSitemap(sitemapDir, extensions) {
 }
 
 // Usage
-const sitemapDir = 'scrapers/sitemaps';
+const sitemapDir = 'search-index-typesense/sitemaps';
 const extensionsToRemove = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.mp4', '.mov', '.avi', '.zip', '.pdf', '.gitignore', '.gitattributes', '.gitmodules', '.gitkeep', '.DS_Store', '.git', '.coveragerc', '.editorconfig', '.eslintrc', '.eslintignore', '.flowconfig', '.gitpod.yml', '.prettierrc', '.prettierignore', '.stylelintrc', '.stylelintignore', '.travis.yml', '.vscode', '.vscodeignore', ''];
 
 removeFilesFromSitemap(sitemapDir, extensionsToRemove)

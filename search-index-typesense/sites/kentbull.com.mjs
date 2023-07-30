@@ -6,12 +6,12 @@ import getTextContent from '../modules/getTextContent.mjs';
 const config = {
     sitemap: await createInput({
         sourceType: 'localXMLsitemap',
-        sourcePath: 'scrapers/sitemaps/sitemap-kentbull.com.xml',
+        sourcePath: 'search-index-typesense/sitemaps/sitemap-kentbull.com.xml',
     }),
     siteName: 'kentbull.com blog',
     source: 'Blogposts',
     author: 'Kent Bull',
-    destinationFile: 'scrapers/output/kentbull.com.json',
+    destinationFile: 'search-index-typesense/output/kentbull.com.json',
     domQueryForContent: 'article p, article h1, article h2, article h3, article h4, article h5, article h6, article li, article img, article pre, article code'
 }
 
