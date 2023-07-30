@@ -1,5 +1,5 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="-57 -14 946 766">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="-57 -14 946 766">
   <defs>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
       <g>
@@ -7,9 +7,9 @@
       </g>
     </marker>
   </defs>
-  <g id="Canvas_1" stroke-dasharray="none" stroke="none" fill="none" fill-opacity="1" stroke-opacity="1">
+  <g id="File_system" stroke="none" stroke-opacity="1" fill="none" fill-opacity="1" stroke-dasharray="none">
     <title>File system</title>
-    <g id="Canvas_1_Layer_1">
+    <g id="File_system_Layer_1">
       <title>Layer 1</title>
       <g id="Graphic_2">
         <title>Stack</title>
@@ -50,11 +50,11 @@
         <line x1="598.8203" y1="341.9694" x2="403.8996" y2="343.6776" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_22">
-        <rect x="114" y="456" width="278" height="56" fill="#dde9f5"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/scrapers">
+        <rect x="114" y="456" width="278" height="56" fill="#dde9f5"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/search-index-typesense">
           
           <path d="M 112.98674 456.0018 L 392.63305 455.50003 M 391.65 454.7634 L 392.1916 512.1303 M 393.63967 511.08146 L 113.39175 512.8984 M 114.0684 514.4691 L 113.99922 455.33055 M 113.23669 455.72384 L 391.9067 455.1175 M 392.00274 454.5124 L 392.4781 510.8405 M 393.8898 510.8479 L 114.31765 512.81234 M 114.23158 514.2192 L 114.16731 455.7501" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
           <text transform="translate(119 474.5)" fill="black">
-            <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">&gt; scrapers</tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">&gt; search-index-typesense</tspan>
           </text>
         </a>
       </g>

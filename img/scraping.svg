@@ -22,7 +22,7 @@
       </g>
     </marker>
   </defs>
-  <g id="Indexing" stroke-opacity="1" fill-opacity="1" stroke="none" stroke-dasharray="none" fill="none">
+  <g id="Indexing" stroke="none" stroke-opacity="1" fill="none" fill-opacity="1" stroke-dasharray="none">
     <title>Indexing</title>
     <g id="Indexing_0._Start">
       <title>0. Start</title>
@@ -58,7 +58,7 @@
         <path d="M 340.4135 444.0211 C 340.59654 455.1965 338.85887 467.805 338.50753 480.34297 M 340.4135 444.0211 C 341.59654 454.1965 339.85887 466.805 339.50753 479.34297" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_75">
-        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/scrapers">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/search-index-typesense">
           <text transform="translate(739 217)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">Using a collection</tspan>
             <tspan font-family="Courier New" font-size="16" fill="black" x="38.40625" y="31">of scripts</tspan>
@@ -177,14 +177,14 @@
         <path d="M 965.3245 371 C 968.9073 385.8653 969.4547 407.0663 957 432 C 953.0806 439.84647 948.167 447.4753 942.6749 454.75696" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_60">
-        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/createSitemapGithub.mjs">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/createSitemapGithub.mjs">
           <text transform="translate(429.39453 1131)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">createSitemapGithub.mjs</tspan>
           </text>
         </a>
       </g>
       <g id="Graphic_61">
-        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/modules/extractMainContent.mjs">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/modules/extractMainContent.mjs">
           <text transform="translate(476.3425 919)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">extractMainContent.mjs</tspan>
           </text>
@@ -197,7 +197,7 @@
         <path d="M 591.328 942 C 592.7994 950.2825 587.49004 960.8693 560 969.8169 C 541.651 975.7892 516.33115 980.0837 490.83326 983.1527" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_73">
-        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/modules/extractMainContent.mjs">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/modules/extractMainContent.mjs">
           <text transform="translate(1163 1080.95)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="9.601562" y="13">Collect url&#x2019;s via</tspan>
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="31">custom script using</tspan>
@@ -247,7 +247,7 @@
         <path d="M 942.8963 1270 C 925.5546 1279.9595 905.1503 1296.297 884 1309.3333 C 872.705 1316.388 861.798 1324.0498 852.994 1331.1594 M 942.8963 1270 C 926.5546 1278.9595 906.1503 1295.297 885 1308.3333 C 873.705 1315.388 862.798 1323.0498 853.994 1330.1594" marker-end="url(#FilledArrow_Marker_3)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_92">
-        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/createSitemap.mjs">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/createSitemap.mjs">
           <text transform="translate(451.1992 1078)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">createSitemap.mjs</tspan>
           </text>
@@ -297,7 +297,7 @@
         </text>
       </g>
       <g id="Graphic_137">
-        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/removeURLsFromSitemap.mjs">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/removeURLsFromSitemap.mjs">
           <text transform="translate(839 1466.0524)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">removeURLsFromSitemap.mjs</tspan>
           </text>
@@ -313,7 +313,7 @@
         </text>
       </g>
       <g id="Graphic_81">
-        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/sites/medium.com.mjs#L53">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/sites/medium.com.mjs#L53">
           <text transform="translate(890 1113.975)" fill="black">
             <tspan font-family="Courier New" font-size="12" fill="black" x="25.204102" y="10">Manually create</tspan>
             <tspan font-family="Courier New" font-size="12" fill="black" x="21.603516" y="24">a list of url&#x2019;s,</tspan>
@@ -371,14 +371,14 @@
         <path d="M 619.5992 2002.0004 L 686.38545 2066.5499 M 620.1261 2001.4725 L 684.09474 2063.3414" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_62">
-        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/modules/extractMainContent.mjs">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/modules/extractMainContent.mjs">
           <text transform="translate(764.9773 1702)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">extractMainContent.mjs</tspan>
           </text>
         </a>
       </g>
       <g id="Graphic_63">
-        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/modules/createOutput.mjs">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/modules/createOutput.mjs">
           <text transform="translate(697.1875 1886)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">createOutput.mjs</tspan>
           </text>
@@ -431,7 +431,7 @@
         <path d="M 950.5037 1847.8628 L 1009.1403 1960.1415 M 951.1757 1847.273 L 1009.5017 1958.4454" marker-end="url(#FilledArrow_Marker_3)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_132">
-        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/sortAndStyleScrapedIndex.mjs">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/sortAndStyleScrapedIndex.mjs">
           <text transform="translate(943 1893.2285)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">sortAndStyleScrapedIndex.mjs</tspan>
           </text>
@@ -543,7 +543,7 @@
         <path d="M 538.5525 2265.572 L 650.5717 2194.8072 M 538.9719 2264.9444 L 647.9518 2195.9628" marker-end="url(#FilledArrow_Marker_3)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_150">
-        <text transform="translate(297 2484.05)" fill="black">
+        <text transform="translate(296 2486)" fill="black">
           <tspan font-family="Courier New" font-size="16" fill="black" x="29.201172" y="13">so you can give them</tspan>
           <tspan font-family="Courier New" font-size="16" fill="black" x="62.80664" y="31">an known &#x201c;id&#x201d;</tspan>
           <tspan font-family="Courier New" font-size="16" fill="black" x="48.404297" y="49">that can be used</tspan>
@@ -579,7 +579,7 @@
         </text>
       </g>
       <g id="Line_149">
-        <path d="M 426.6536 2479.05 C 427.7164 2462.9346 429.03375 2446.5418 430.66667 2430.6667 C 432.52907 2412.5605 434.60866 2397.007 436.7188 2383.7614" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path d="M 426.34064 2481 C 427.50254 2464.2315 428.9253 2447.1567 430.66667 2430.6667 C 432.58054 2412.5433 434.6818 2396.9966 436.7961 2383.7684" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
     </g>
   </g>
