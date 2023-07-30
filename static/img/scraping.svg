@@ -726,7 +726,7 @@
           <tspan font-family="Verdana" font-size="16" fill="black" x="19.890625" y="16">Create a handmade entry </tspan>
           <tspan font-family="Verdana" font-size="16" fill="black" x="68.63281" y="35">and save it in</tspan>
           <tspan font-family="Verdana" font-style="italic" font-size="16" fill="black" x="6.058594" y="73">
-            /search-index-typesense/output-handmade/</tspan>
+            /search-index-typesense/search-index-entries-manual/</tspan>
         </text>
       </g>
       <g id="Line_147">
