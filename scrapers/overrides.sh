@@ -79,3 +79,6 @@ process_json_data() {
 JSON_DATA1=$(<"scrapers/overrides/overridesID.json")
 
 process_json_data "$JSON_DATA1"
+
+# Remove it after use
+rm scrapers/overrides/overridesID.json
