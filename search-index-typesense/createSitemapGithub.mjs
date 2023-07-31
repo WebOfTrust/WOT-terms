@@ -33,8 +33,8 @@ async function getRepositoryTree() {
     const response = await axios.get(`https://api.github.com/repos/${repositoryOwner}/${repositoryName}/git/trees/${branchName}?recursive=1`);
     return response.data.tree;
   } catch (error) {
-    console.error('Failed to fetch repository tree');
-    console.error(error);
+    console.error('Failed to fetch repository tree', error);
+    writeToErrorFile('Failed to fetch repository tree', error);
     return [];
   }
 }

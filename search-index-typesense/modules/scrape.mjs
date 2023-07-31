@@ -60,7 +60,7 @@ export default async function scrape(config, customScrape) {
 
         } catch (err) {
             console.error(`Error processing page ${pageUrl}: ${err}`);
-            fs.appendFileSync('search-index-typesense/logs/error.log', `Error processing page ${pageUrl}: ${err}\n`);
+            writeToErrorFile(`Error processing page ${pageUrl}: ${err}`);
         }
     }
     writeToFile(entries, config.destinationFile);

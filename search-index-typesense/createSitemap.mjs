@@ -86,6 +86,7 @@ async function createSitemap(startUrl, maxDepth) {
             }
         } catch (error) {
             console.error(`Failed to fetch URL: ${urlString}`);
+            writeToErrorFile(`Failed to fetch URL: ${urlString}`);
         }
     }
 
