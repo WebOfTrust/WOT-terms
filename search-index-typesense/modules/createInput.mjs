@@ -44,8 +44,15 @@ export default async function createInput(input) {
     const sitemap = await xml2js.parseStringPromise(sitemapXml, { explicitArray: true });
 
     removeUrlsFromSitemap(sitemap, input.excludeURLs);
-    console.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
-    writeToSuccesFile(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
+
+    if (sitemap.urlset && sitemap.urlset.url) {
+      console.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
+      writeToSuccesFile(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
+    } else {
+      console.log('No URLs found in sitemap');
+      writeToSuccesFile('No URLs found in sitemap');
+    }
+
     return sitemap;
   }
 
@@ -54,8 +61,15 @@ export default async function createInput(input) {
     const sitemapXml = fs.readFileSync(path.resolve(input.sourcePath), 'utf-8');
     const sitemap = await xml2js.parseStringPromise(sitemapXml, { explicitArray: true });
     removeUrlsFromSitemap(sitemap, input.excludeURLs);
-    console.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
-    writeToSuccesFile(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
+
+    if (sitemap.urlset && sitemap.urlset.url) {
+      console.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
+      writeToSuccesFile(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
+    } else {
+      console.log('No URLs found in sitemap');
+      writeToSuccesFile('No URLs found in sitemap');
+    }
+
     return sitemap;
   }
 
@@ -80,8 +94,16 @@ export default async function createInput(input) {
     await browser.close();
 
     removeUrlsFromSitemap(sitemap, input.excludeURLs);
-    console.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
-    writeToSuccesFile(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
+
+    if (urls.length > 0) {
+      console.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
+      writeToSuccesFile(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
+    } else {
+      console.log('No URLs found in sitemap');
+      writeToSuccesFile('No URLs found in sitemap');
+    }
+
     return sitemap;
   }
+
 }
