@@ -46,10 +46,10 @@ const filenamesToRemove = ['LICENSE', 'README', 'node_modules', 'package', 'pack
 
 removeFilesFromSitemap(sitemapDir, extensionsToRemove, filenamesToRemove)
   .then(() => {
-    console.log('Sitemap(s) updated successfully');
-    writeToSuccesFile('Sitemap(s) updated successfully');
+    console.log('Removed urls from sitemaps successfully');
+    writeToSuccesFile('Removed urls from sitemaps successfully');
   })
   .catch(err => {
-    console.error('Error while updating sitemap:', err);
-    writeToErrorFile('Error while updating sitemap:', err);
+    console.error('Error while removing urls from sitemaps:', err);
+    writeToErrorFile('Error while removing urls from sitemaps:', err);
   });
