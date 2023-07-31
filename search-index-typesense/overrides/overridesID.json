@@ -1,0 +1,37 @@
+[
+  {
+    "name": "keriForMuggels",
+    "query": "Keri for Muggles",
+    "position": 1,
+    "match": "exact",
+    "id": "0"
+  },
+  {
+    "name": "acdcForMuggles",
+    "query": "ACDC for Muggles",
+    "position": 1,
+    "match": "exact",
+    "id": "1"
+  },
+  {
+    "name": "supplyChain",
+    "query": "supply chain",
+    "position": 1,
+    "match": "exact",
+    "id": "2"
+  },
+  {
+    "name": "DIDCommMythconceptions",
+    "query": "errors",
+    "position": 1,
+    "match": "exact",
+    "id": "4"
+  },
+  {
+    "name": "CESRforFirstYearWizards",
+    "query": "wizard",
+    "position": 1,
+    "match": "exact",
+    "id": "6"
+  }
+]

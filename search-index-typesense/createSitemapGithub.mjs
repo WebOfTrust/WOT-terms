@@ -21,8 +21,8 @@
 import axios from 'axios';
 import fs from 'fs';
 import path from 'path';
-import { writeToErrorFile } from './writeToErrorFile.mjs';
-import { writeToSuccesFile } from './writeToSuccesFile.mjs';
+import { writeToErrorFile } from './modules/writeToErrorFile.mjs';
+import { writeToSuccesFile } from './modules/writeToSuccesFile.mjs';
 
 const args = process.argv.slice(2);
 const repositoryOwner = args[0];

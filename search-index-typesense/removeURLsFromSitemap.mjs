@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import xml2js from 'xml2js';
-import { writeToErrorFile } from './writeToErrorFile.mjs';
-import { writeToSuccesFile } from './writeToSuccesFile.mjs';
+import { writeToErrorFile } from './modules/writeToErrorFile.mjs';
+import { writeToSuccesFile } from './modules/writeToSuccesFile.mjs';
 
 async function removeFilesFromSitemap(sitemapDir, extensions, filenames) {
   const files = fs.readdirSync(sitemapDir).filter(file => file.endsWith('.xml'));
