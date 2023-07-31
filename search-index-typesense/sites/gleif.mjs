@@ -28,7 +28,7 @@ const config = {
 
 async function customScrape(page, domQueryForContent, pageUrl) {
     console.log('pageUrl: ', pageUrl);
-    writeToSuccesFile('pageUrl: ', pageUrl);
+    writeToSuccesFile('pageUrl: ' + pageUrl);
     const mainContent = await extractMainContent(page, domQueryForContent);
 
     const creationDate = await getTextContent(page, '.meta li');

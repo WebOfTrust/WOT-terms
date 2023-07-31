@@ -18,7 +18,7 @@ function sortLinesInFile(fileName) {
   fs.readFile(fileName, 'utf8', (err, data) => {
     if (err) {
       console.error('Error reading the file:', err);
-      writeToErrorFile('Error reading the file:', err);
+      writeToErrorFile('Error reading the file:' + err);
       return;
     }
 
@@ -65,7 +65,7 @@ function sortLinesInFile(fileName) {
     fs.writeFile(fileName, contentWithHeader, 'utf8', (err) => {
       if (err) {
         console.error('Error writing to the file:', err);
-        writeToErrorFile('Error writing to the file:', err);
+        writeToErrorFile('Error writing to the file:' + err);
         return;
       }
       console.log('File sorted and wrapped in HTML successfully!');

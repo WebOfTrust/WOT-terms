@@ -51,5 +51,5 @@ removeFilesFromSitemap(sitemapDir, extensionsToRemove, filenamesToRemove)
   })
   .catch(err => {
     console.error('Error while removing urls from sitemaps:', err);
-    writeToErrorFile('Error while removing urls from sitemaps:', err);
+    writeToErrorFile('Error while removing urls from sitemaps:' + err);
   });
