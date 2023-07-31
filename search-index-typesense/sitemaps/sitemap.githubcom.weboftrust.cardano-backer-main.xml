@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/LICENSE</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/README.md</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/images/Dockerfile</loc>
   </url>
   <url>
@@ -31,9 +25,6 @@
     <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/setup.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/src/backer/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/src/backer/__main__.py</loc>
   </url>
   <url>
@@ -43,13 +34,7 @@
     <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/src/backer/cardaning.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/src/backer/cli/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/src/backer/cli/backer.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/src/backer/cli/commands/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/src/backer/cli/commands/info.py</loc>

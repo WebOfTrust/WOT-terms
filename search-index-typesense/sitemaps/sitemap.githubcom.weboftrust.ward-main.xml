@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/WebOfTrust/ward/blob/main/LICENSE</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/ward/blob/main/Makefile</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/ward/blob/main/README.md</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/ward/blob/main/config.json</loc>
@@ -29,9 +23,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/ward/blob/main/setup.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/ward/blob/main/ward/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/ward/blob/main/ward/main.py</loc>

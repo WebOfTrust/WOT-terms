@@ -4,13 +4,7 @@
     <loc>https://github.com/WebOfTrust/shkr/blob/main/.python-version</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/shkr/blob/main/LICENSE</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/shkr/blob/main/Makefile</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/shkr/blob/main/README.md</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/shkr/blob/main/entitlements.plist</loc>
@@ -32,9 +26,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/shkr/blob/main/setup.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/shkr/blob/main/shkr/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/shkr/blob/main/shkr/main.py</loc>

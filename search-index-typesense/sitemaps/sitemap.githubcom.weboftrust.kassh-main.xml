@@ -7,13 +7,7 @@
     <loc>https://github.com/WebOfTrust/kassh/blob/main/Dockerfile</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/kassh/blob/main/LICENSE</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/kassh/blob/main/Makefile</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/kassh/blob/main/README.md</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/kassh/blob/main/requirements.txt</loc>
@@ -64,28 +58,10 @@
     <loc>https://github.com/WebOfTrust/kassh/blob/main/setup.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/__init__.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/app/__init__.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/app/cli/__init__.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/app/cli/commands/__init__.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/app/cli/commands/server/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/app/cli/commands/server/start.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/app/cli/kli.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/core/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/core/basing.py</loc>
@@ -95,9 +71,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/kassh/blob/main/src/kassh/core/serving.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/kassh/blob/main/tests/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/kassh/blob/main/tests/core/test_basing.py</loc>

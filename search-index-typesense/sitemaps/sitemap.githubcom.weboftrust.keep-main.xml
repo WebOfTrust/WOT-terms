@@ -61,13 +61,7 @@
     <loc>https://github.com/WebOfTrust/keep/blob/main/.vscode/settings.json</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keep/blob/main/LICENSE</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keep/blob/main/Makefile</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keep/blob/main/README.md</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keep/blob/main/app/assets/icon.icns</loc>
@@ -86,9 +80,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keep/blob/main/app/oops.html</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keep/blob/main/app/package.json</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keep/blob/main/app/todesktop.json</loc>
@@ -110,9 +101,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keep/blob/main/make.bat</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keep/blob/main/package.json</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keep/blob/main/pages/app/app.jsx</loc>
@@ -140,9 +128,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keep/blob/main/plopfile.mjs</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keep/blob/main/src/README.md</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keep/blob/main/src/app/app.jsx</loc>
@@ -766,9 +751,6 @@
     <loc>https://github.com/WebOfTrust/keep/blob/main/ward/.python-version</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keep/blob/main/ward/README.md</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keep/blob/main/ward/build-ui-root-gar/AvenirNextLTPro-Bold.81cceec7.otf</loc>
   </url>
   <url>
@@ -874,13 +856,7 @@
     <loc>https://github.com/WebOfTrust/keep/blob/main/ward/setup.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keep/blob/main/ward/tests/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keep/blob/main/ward/tests/test_bootstrap.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keep/blob/main/ward/ward/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keep/blob/main/ward/ward/main.py</loc>

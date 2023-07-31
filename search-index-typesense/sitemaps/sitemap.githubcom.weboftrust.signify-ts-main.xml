@@ -4,15 +4,6 @@
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/.github/workflows/main.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/LICENSE</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/README.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/README.md</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/challenge.ts</loc>
   </url>
   <url>
@@ -23,12 +14,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/multisig.ts</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/package-lock.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/package.json</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/randy.ts</loc>
@@ -85,12 +70,6 @@
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/multisig-sigpy.sh</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/package-lock.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/package.json</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/src/index.ts</loc>
   </url>
   <url>
@@ -106,16 +85,7 @@
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/.puppeteerrc.cjs</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/README.md</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/index.html</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/package-lock.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/package.json</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/public/vite.svg</loc>
@@ -188,12 +158,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/vite.config.ts.timestamp-1685395612909-bba831f8e6577.mjs</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/package-lock.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/package.json</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/src/index.ts</loc>

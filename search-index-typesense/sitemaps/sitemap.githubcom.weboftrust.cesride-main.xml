@@ -16,13 +16,7 @@
     <loc>https://github.com/WebOfTrust/cesride/blob/main/Cargo.toml</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/cesride/blob/main/LICENSE</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/cesride/blob/main/Makefile</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/cesride/blob/main/README.md</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/cesride/blob/main/codecov.yml</loc>
@@ -133,12 +127,6 @@
     <loc>https://github.com/WebOfTrust/cesride/blob/main/wasm/Cargo.toml</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/cesride/blob/main/wasm/README.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/package.json</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/src/main.ts</loc>
   </url>
   <url>
@@ -155,12 +143,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/index.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/package-lock.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/package.json</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/webpack.config.js</loc>
