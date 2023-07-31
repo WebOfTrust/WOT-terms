@@ -11,7 +11,7 @@ import createOutput from './createOutput.mjs';
 import writeToFile from './writeToFile.mjs';
 import fs from 'fs';
 import { writeToErrorFile } from './writeToErrorFile.mjs';
-import { writeToSuccesFile } from './writeToSuccesFile';
+import { writeToSuccesFile } from './writeToSuccesFile.mjs';
 
 export default async function scrape(config, customScrape) {
     const browser = await puppeteer.launch();// for production

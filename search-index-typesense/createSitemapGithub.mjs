@@ -22,7 +22,7 @@ import axios from 'axios';
 import fs from 'fs';
 import path from 'path';
 import { writeToErrorFile } from './writeToErrorFile.mjs';
-import { writeToSuccesFile } from './writeToSuccesFile';
+import { writeToSuccesFile } from './writeToSuccesFile.mjs';
 
 const args = process.argv.slice(2);
 const repositoryOwner = args[0];

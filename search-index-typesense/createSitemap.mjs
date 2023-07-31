@@ -29,7 +29,7 @@ import { create } from 'xmlbuilder2';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { writeToErrorFile } from './writeToErrorFile.mjs';
-import { writeToSuccesFile } from './writeToSuccesFile';
+import { writeToSuccesFile } from './writeToSuccesFile.mjs';
 
 // Configuration
 // const outputDirectory = path.resolve(__dirname, './sitemaps');

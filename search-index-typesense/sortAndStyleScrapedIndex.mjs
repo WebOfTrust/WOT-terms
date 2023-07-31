@@ -9,7 +9,7 @@
 
 import fs from 'fs';
 import { writeToErrorFile } from './writeToErrorFile.mjs';
-import { writeToSuccesFile } from './writeToSuccesFile';
+import { writeToSuccesFile } from './writeToSuccesFile.mjs';
 
 const urlRegex = /(https?:\/\/[^\s]+)/g;
 

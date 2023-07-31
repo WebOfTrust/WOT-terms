@@ -8,7 +8,7 @@
 import fs from 'fs';
 import path from 'path';
 import { writeToErrorFile } from './writeToErrorFile.mjs';
-import { writeToSuccesFile } from './writeToSuccesFile';
+import { writeToSuccesFile } from './writeToSuccesFile.mjs';
 
 function renameFilesToLowerCase(directoryPath) {
   fs.readdir(directoryPath, (err, files) => {
