@@ -1,4 +1,6 @@
 import fs from 'fs';
+import { writeToErrorFile } from './writeToErrorFile.mjs';
+import { writeToSuccesFile } from './writeToSuccesFile';
 
 /**
  * Prepare log files for the next scraping process. 

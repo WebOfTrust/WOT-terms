@@ -8,6 +8,8 @@
  */
 
 import fs from 'fs';
+import { writeToErrorFile } from './writeToErrorFile.mjs';
+import { writeToSuccesFile } from './writeToSuccesFile';
 
 const urlRegex = /(https?:\/\/[^\s]+)/g;
 

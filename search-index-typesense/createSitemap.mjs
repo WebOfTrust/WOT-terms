@@ -28,6 +28,8 @@ import commandLineArgs from 'command-line-args';
 import { create } from 'xmlbuilder2';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { writeToErrorFile } from './writeToErrorFile.mjs';
+import { writeToSuccesFile } from './writeToSuccesFile';
 
 // Configuration
 // const outputDirectory = path.resolve(__dirname, './sitemaps');
