@@ -45,7 +45,10 @@ const extensionsToRemove = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.mp4', '.m
 const filenamesToRemove = ['LICENSE', 'README', 'node_modules', 'package', 'package-lock', '__pycache__', '__init__'];
 
 removeFilesFromSitemap(sitemapDir, extensionsToRemove, filenamesToRemove)
-  .then(() => console.log('Sitemap(s) updated successfully'))
+  .then(() => {
+    console.log('Sitemap(s) updated successfully');
+    writeToSuccesFile('Sitemap(s) updated successfully');
+  })
   .catch(err => {
     console.error('Error while updating sitemap:', err);
     writeToErrorFile('Error while updating sitemap:', err);

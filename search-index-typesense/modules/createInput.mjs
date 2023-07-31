@@ -34,6 +34,7 @@ export default async function createInput(input) {
   if (input.sourceType === 'remoteXMLsitemap') {
     // Fetch and parse the sitemap.xml file
     console.log('Fetching sitemap...');
+    writeToSuccesFile('Fetching sitemap...');
     const sitemapUrl = input.sourcePath;
     const sitemapResponse = await fetch(sitemapUrl);
     const sitemapXml = await sitemapResponse.text();
@@ -41,6 +42,7 @@ export default async function createInput(input) {
 
     removeUrlsFromSitemap(sitemap, input.excludeURLs);
     console.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
+    writeToSuccesFile(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
     return sitemap;
   }
 
@@ -50,6 +52,7 @@ export default async function createInput(input) {
     const sitemap = await xml2js.parseStringPromise(sitemapXml, { explicitArray: true });
     removeUrlsFromSitemap(sitemap, input.excludeURLs);
     console.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
+    writeToSuccesFile(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
     return sitemap;
   }
 
@@ -64,6 +67,7 @@ export default async function createInput(input) {
       links.map((link) => link.href)
     );
     console.log('urls: ', urls);
+    writeToSuccesFile('urls: ', urls);
 
     const sitemapXml = `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">${urls
       .map((url) => `<url><loc>${url}</loc></url>`)
@@ -74,6 +78,7 @@ export default async function createInput(input) {
 
     removeUrlsFromSitemap(sitemap, input.excludeURLs);
     console.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
+    writeToSuccesFile(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
     return sitemap;
   }
 }

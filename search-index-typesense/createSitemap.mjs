@@ -124,6 +124,7 @@ async function main() {
     fs.writeFileSync(filePath, sitemapXml); // Write the sitemap XML to the specified file path
 
     console.log(`Sitemap generated and saved to ${filePath}`);
+    writeToSuccesFile(`Sitemap generated and saved to ${filePath}`);
 }
 
 main().catch(console.error);

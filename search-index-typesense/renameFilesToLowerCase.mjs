@@ -28,6 +28,7 @@ function renameFilesToLowerCase(directoryPath) {
           writeToErrorFile(`Error renaming file: ${renameErr}`);
         } else {
           console.log(`${file} has been renamed to ${file.toLowerCase()}`);
+          writeToSuccesFile(`${file} has been renamed to ${file.toLowerCase()}`);
         }
       });
     });

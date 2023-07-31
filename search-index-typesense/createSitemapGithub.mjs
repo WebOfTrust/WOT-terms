@@ -57,6 +57,7 @@ async function generateSitemap() {
   const sitemapFilePath = path.join(sitemapDirectory, `sitemap.githubcom.${repositoryOwner}.${repositoryName}-${branchName}.xml`);
   fs.writeFileSync(sitemapFilePath, sitemapXml);
   console.log(`Sitemap generated successfully at ${sitemapFilePath}`);
+  writeToSuccesFile(`Sitemap generated successfully at ${sitemapFilePath}`);
 }
 
 generateSitemap();

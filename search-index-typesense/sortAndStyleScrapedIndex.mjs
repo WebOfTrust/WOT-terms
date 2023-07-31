@@ -24,7 +24,8 @@ function sortLinesInFile(fileName) {
 
     // Check if the content already contains <ul> or <li>
     if (data.includes('<ul>') || data.includes('<li>')) {
-      console.log('The content already contains HTML list elements, skipping processing.');
+      console.error('The content already contains HTML list elements, skipping processing.');
+      writeToErrorFile('The content already contains HTML list elements, skipping processing.');
       return;
     }
 
@@ -68,6 +69,7 @@ function sortLinesInFile(fileName) {
         return;
       }
       console.log('File sorted and wrapped in HTML successfully!');
+      writeToSuccesFile('File sorted and wrapped in HTML successfully!');
     });
   });
 }
