@@ -36,7 +36,7 @@ async function getRepositoryTree() {
     return response.data.tree;
   } catch (error) {
     console.error('Failed to fetch repository tree', error);
-    writeToErrorFile('Failed to fetch repository tree', error);
+    writeToErrorFile('Failed to fetch repository tree' + error);
     return [];
   }
 }
