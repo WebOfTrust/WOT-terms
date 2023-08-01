@@ -12,8 +12,5 @@ fi
 # Create a new directory named "logs"
 mkdir "${dir_path}/logs"
 
-# Go inside the new "log" directory
-cd "${dir_path}/logs"
-
 # Create files with the specified names
-touch error.log import-into-search-index.log scraped.log success.log
+touch "${dir_path}/logs/error.log" "${dir_path}/logs/import-into-search-index.log" "${dir_path}/logs/scraped.log" "${dir_path}/logs/success.log"
