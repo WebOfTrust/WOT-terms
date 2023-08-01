@@ -15,7 +15,7 @@ fi
 mkdir "${dir_path}/logs"
 
 # Create files with the specified names
-touch "${dir_path}/logs/error.log" "${dir_path}/logs/import-into-search-index.log" "${dir_path}/logs/scraped.log" "${dir_path}/logs/success.log"
+touch "${dir_path}/logs/error.log" "${dir_path}/logs/import-into-search-index.log" "${dir_path}/logs/scraped.log" "${dir_path}/logs/succes.log"
 
 
 
