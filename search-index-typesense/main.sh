@@ -31,6 +31,10 @@ echo "Extracting data finished" | tee -a search-index-typesense/logs/succes.log
 node "$SCRIPT_DIR/sortAndStyleScrapedIndex.mjs" docs/Overview/indexed-in-KERISSE.md
 echo "Sorting and styling index file finished" | tee -a search-index-typesense/logs/succes.log
 
+# Export the data into Typesense.
+source "$SCRIPT_DIR/export.sh"
+echo "Exporting data finished" | tee -a search-index-typesense/logs/succes.log
+
 # Make collection in Typesense empty.
 source "$SCRIPT_DIR/make-collection-empty.sh"
 echo "Making collection empty finished" | tee -a search-index-typesense/logs/succes.log
