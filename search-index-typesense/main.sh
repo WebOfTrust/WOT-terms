@@ -7,8 +7,8 @@
 # Get the directory where the main.sh script is located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-# Prepare logfile. This means start a new one.
-node "$SCRIPT_DIR/prepareLogFiles.mjs"
+# Prepare logfiles.
+source "$SCRIPT_DIR/prepareLogFiles.sh"
 echo "Preparing logfiles finished" | tee -a search-index-typesense/logs/succes.log
 
 # Create sitemaps.
