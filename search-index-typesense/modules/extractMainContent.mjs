@@ -127,7 +127,6 @@ export default async function (page, domQueryForContent) {
             }
 
             const elements = Array.from(document.querySelectorAll(domQueryForContent));
-            // console.log(elements);
             return elements.map((el) => {
                 const headingElement = findPreviousHeadingElement(el);
 
