@@ -19,7 +19,7 @@ Our existing system includes a 'WOT-Terms' sheet that contains a 'Handmade' tab.
 
 The objective is to automatically extract information from this sheet, inclusive of metadata, and perform subsequent actions or provide functionalities based on it. We envisage these inputs being accessible via a URL for practicality.
 
-Moreover, it is intended that the source data becomes searchable in the Typesense search engine under the 'document' category.
+Moreover, it is intended that the source data becomes searchable through the so-called 'document' in Typesense.
 
 ## Design Decision
 After deliberating on the current situation, the following decisions were made:
