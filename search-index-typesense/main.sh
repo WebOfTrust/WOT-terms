@@ -11,15 +11,15 @@ function handle_choice() {
         echo " "
         echo " "
         printf "."
-        sleep 1  # Pause for 3 seconds
+        sleep 1
         printf  "."
-        sleep 1  # Pause for 3 seconds
+        sleep 1
         printf "."
-        sleep 1  # Pause for 3 seconds
+        sleep 1
         printf  "."
-        sleep 1  # Pause for 3 seconds
+        sleep 1
         printf  "."
-        sleep 1  # Pause for 3 seconds
+        sleep 1
 
 
         do_main
@@ -57,9 +57,8 @@ function prompt_input() {
     echo  # Empty line below the prompt
 }
 
-# Function to perform "deurdonderen"
 function do_main() {
-    # Start the scraping process.
+# Start the scraping process.
 # IMPORTANT: This assumes that sitemaps are already generated. If not, create additional sitemaps first.
 # Run this script from project root: bash search-index-typesense/main.sh  
 
