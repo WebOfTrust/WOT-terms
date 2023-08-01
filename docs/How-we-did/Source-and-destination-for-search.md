@@ -29,6 +29,12 @@ After deliberating on the current situation, the following decisions were made:
 - Third, we decided that the content population process doesn't always have to be manual. We could leverage Puppeteer to scrape the information by incorporating the source URLs from the 'Handmade' tab into a sitemap. This solution has the added advantage of nicely segmenting the data. However, a prerequisite for this is that the data must be in HTML format for Puppeteer to recognize and process it. Consequently, we need to **export the data as HTML** rather than plain text.
 - Lastly, we will report the URL located in the 'Handmade' tab of the WOT sheet. This reporting will enable the URL to be processed automatically, thereby increasing the system's overall efficiency.
 
+## Save to htm(l)
+Example export to html:
+
+![](https://hackmd.io/_uploads/r10McuLo3.png)
+
+Only use the content file `.html`
 
 #### Acknowledgement
 Thanks to [ChatGPT](https://www.openai.com/research/chatgpt) for enhancing this text.
