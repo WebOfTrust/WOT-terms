@@ -55,7 +55,7 @@ jq -c '.[]' "$input_file_path" | while read -r object; do
   # Check if the sanitized response contains any error messages
   if echo "$sanitized_response" | jq -e '.error' > /dev/null; then
     error_message=$(echo "$sanitized_response" | jq -r '.error')
-    echo "Error in response: $error_message"
+    echo "Error in response: $error_message" | tee -a search-index-typesense/logs/error.log
     exit 1
   fi
 
@@ -64,7 +64,7 @@ jq -c '.[]' "$input_file_path" | while read -r object; do
 
   # Check if the ID is null and handle this case accordingly
   if [ "$id" = "null" ]; then
-    echo "No ID found for the URL $url"
+    echo "No ID found for the URL $url" | tee -a search-index-typesense/logs/error.log
   else
     # Remove the "url" entry and add the "id" entry in the object
     new_object=$(echo "$object" | jq --arg id "$id" 'del(.url) | .id = $id')

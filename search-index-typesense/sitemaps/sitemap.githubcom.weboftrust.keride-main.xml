@@ -13,13 +13,7 @@
     <loc>https://github.com/WebOfTrust/keride/blob/main/Cargo.toml</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keride/blob/main/LICENSE</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keride/blob/main/Makefile</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keride/blob/main/README.md</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keride/blob/main/sample/keri/acdc/endorsement.rs</loc>
@@ -77,9 +71,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keride/blob/main/sample/keri/verification.rs</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keride/blob/main/src/cesr/README.md</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keride/blob/main/src/cesr/core/bexter.rs</loc>
@@ -208,9 +199,6 @@
     <loc>https://github.com/WebOfTrust/keride/blob/main/src/signify/mod.rs</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keride/blob/main/src/signing/README.md</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keride/blob/main/src/signing/mod.rs</loc>
   </url>
   <url>
@@ -218,12 +206,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keride/blob/main/wasm/Cargo.toml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keride/blob/main/wasm/README.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keride/blob/main/wasm/demo/node/package.json</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keride/blob/main/wasm/demo/node/src/main.ts</loc>
@@ -242,12 +224,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keride/blob/main/wasm/demo/web/index.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keride/blob/main/wasm/demo/web/package-lock.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keride/blob/main/wasm/demo/web/package.json</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keride/blob/main/wasm/demo/web/webpack.config.js</loc>

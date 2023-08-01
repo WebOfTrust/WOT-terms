@@ -21,6 +21,14 @@ local_DOWNLOADS_DIR="${DOWNLOADS_DIR}"
 download_path=${local_DOWNLOADS_DIR}
 timestamp=$(date +%Y-%m-%d_%H-%M-%S)
 
+############## CHECK IF DOWNLOAD DIR EXISTS ##############
+if [ ! -d "$download_path" ]; then
+  echo "Warning: The download directory does not exist. Cannot export Typesense data."
+
+#   echo "Warning: The download directory does not exist. Creating it now."
+#   mkdir -p "$download_path"
+fi
+
 ############## EXPORT JSONL FILES ##############
 curl -H "X-TYPESENSE-API-KEY: ${local_TYPESENSE_ADMIN_API_KEY}" \
      "https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/documents/export" > "${download_path}${timestamp}-KERISSE-export.jsonl"

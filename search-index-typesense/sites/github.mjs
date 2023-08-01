@@ -64,7 +64,7 @@ async function customScrape(page, domQueryForContent) {
     // console.log('Resuming...'); 
 
     const mainContent = await extractMainContent(page, domQueryForContent);
-    console.log('mainContent: ', mainContent);
+
     // let pageTitle = await page.$eval('.repository-content h1', (element) => {
     //     return element.textContent.trim()
     // });

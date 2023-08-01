@@ -16,13 +16,7 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/.readthedocs.yaml</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/LICENSE</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/Makefile</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/README.md</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/docs/Makefile</loc>
@@ -73,9 +67,6 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/images/witness.demo.dockerfile</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/interop/README.md</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/publish.sh</loc>
   </url>
   <url>
@@ -98,9 +89,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/requirements.txt</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/README.md</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/basic/alice-bob-agent.sh</loc>
@@ -173,9 +161,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/credentials/single-issuer.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/README.md</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/anchor.json</loc>
@@ -340,9 +325,6 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/test_scripts.sh</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/README.md</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/external-gar-init.sh</loc>
   </url>
   <url>
@@ -427,12 +409,6 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/setup.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/__init__.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/agenting.py</loc>
   </url>
   <url>
@@ -445,15 +421,6 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/challenging.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/__init__.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/__init__.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/agent/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/agent/demo.py</loc>
   </url>
   <url>
@@ -461,9 +428,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/agent/vlei.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/challenge/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/challenge/generate.py</loc>
@@ -475,13 +439,7 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/challenge/verify.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/contacts/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/contacts/list.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/delegate/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/delegate/confirm.py</loc>
@@ -490,13 +448,7 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/delegate/request.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/did/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/did/generate.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/ends/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/ends/export.py</loc>
@@ -523,22 +475,13 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/list.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/local/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/local/watch.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/mailbox/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/mailbox/debug.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/mailbox/update.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/continue.py</loc>
@@ -571,9 +514,6 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/nonce.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/oobi/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/oobi/clean.py</loc>
   </url>
   <url>
@@ -581,9 +521,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/oobi/resolve.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/passcode/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/passcode/generate.py</loc>
@@ -616,9 +553,6 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/status.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/export.py</loc>
   </url>
   <url>
@@ -629,9 +563,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/present.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/registry/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/registry/incept.py</loc>
@@ -652,13 +583,7 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/version.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/wallet/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/wallet/start.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/watcher/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/watcher/list.py</loc>
@@ -673,9 +598,6 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/watcher/update.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/witness/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/witness/demo.py</loc>
   </url>
   <url>
@@ -683,9 +605,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/witness/submit.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/config.py</loc>
@@ -766,9 +685,6 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/watching.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/coring.py</loc>
   </url>
   <url>
@@ -784,9 +700,6 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/scheming.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/basing.py</loc>
   </url>
   <url>
@@ -800,9 +713,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/subing.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/demo.md</loc>
@@ -847,9 +757,6 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/vectors/sam.2021-03-08_23-52-46_400816.txt</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/ending.py</loc>
   </url>
   <url>
@@ -868,22 +775,13 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/static/robots.txt</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/help/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/help/helping.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/kering.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/peer/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/peer/exchanging.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/vc/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/vc/protocoling.py</loc>
@@ -893,9 +791,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/vc/walleting.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/vdr/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/src/keri/vdr/credentialing.py</loc>
@@ -940,22 +835,10 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/swagger-ui.js.map</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/__init__.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/app/__init__.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/anchor.json</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/challenge/alice.json</loc>
@@ -1003,9 +886,6 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/delegate/rotate-sample.json</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/mtest-sample.json</loc>
   </url>
   <url>
@@ -1040,9 +920,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/oobi/non-transferable-sample.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/watcher/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/watcher/watcher-sample.json</loc>
@@ -1147,16 +1024,10 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/app/test_watching.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/comply/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/comply/test_direct_mode.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/conftest.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/core/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_bare.py</loc>
@@ -1207,9 +1078,6 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/core/test_witness.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/db/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/db/test_basing.py</loc>
   </url>
   <url>
@@ -1225,19 +1093,10 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/db/test_subing.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/demo/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/demo/test_demo.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/end/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/end/test_ending.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/help/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/help/test_helping.py</loc>
@@ -1246,13 +1105,7 @@
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/help/test_ogling.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/peer/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/peer/test_exchanging.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/vc/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/vc/test_protocoling.py</loc>
@@ -1262,9 +1115,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/vc/test_walleting.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/test_eventing.py</loc>
