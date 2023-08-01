@@ -29,7 +29,8 @@ export default async function scrape(config, customScrape) {
         for (const url of config.sitemap.urlset.url) {// for production
             // for (const url of config.sitemap.urlset.url.slice(150, 163)) {// for testing
             const pageUrl = url.loc[0];
-            // console.log(`Indexing ${pageUrl}`);
+            console.log(`Indexing ${pageUrl}`);
+            writeToSuccesFile(`Indexing ${pageUrl}`);
 
             try {
                 // Navigate to the page URL and process the page content using the specified function
@@ -54,9 +55,10 @@ export default async function scrape(config, customScrape) {
                 });
 
                 output.forEach((entry) => {
+                    console.log('Output: ' + JSON.stringify(entry));
+                    writeToSuccesFile('Output: ' + JSON.stringify(entry));
                     entries.push(entry);
                 });
-                // console.log('output: ', output);
 
                 // Log the page URL to a log file and to a markdown file
                 fs.appendFileSync('search-index-typesense/logs/scraped.log', `Scraped: ${pageUrl}\n`);
