@@ -53,7 +53,8 @@ function display_intro() {
 # Function to prompt the user for input
 function prompt_input() {
     read -n 1 -r -p "Do you want to continue (Y/N)? " choice
-    echo
+    echo  # Empty line below the prompt
+    echo  # Empty line below the prompt
 }
 
 # Function to perform "deurdonderen"
