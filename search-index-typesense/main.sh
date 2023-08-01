@@ -5,9 +5,9 @@ function handle_choice() {
     if [[ "$choice" == "Y" || "$choice" == "y" ]]; then
         echo " "
         echo " "
-        echo "************************************"
-        echo "The script will now start."
-        echo "************************************"
+        echo "  ************************************"
+        echo "  The script will now start."
+        echo "  ************************************"
         echo " "
         echo " "
         printf "."
@@ -26,9 +26,9 @@ function handle_choice() {
     else
         echo " "
         echo " "
-        echo "************************************"
-        echo "Goodbye! You chose to exit."
-        echo "************************************"
+        echo "  ************************************"
+        echo "  Goodbye! You chose to exit."
+        echo "  ************************************"
         echo " "
         echo " "
     fi
@@ -38,13 +38,19 @@ function handle_choice() {
 function display_intro() {
     echo " "
     echo " "
-    echo "************************************"
+    echo "  ************************************"
     echo " "
-    echo "This script collects content from various sites and imports it into Typesense search engine."
-    echo "The whole process takes about 30 minutes (rough estimation)."
-    echo "Press 'Y' to continue or 'N' to exit."
+    echo "  ╦╔═╔═╗╦═╗╦╔═╗╔═╗╔═╗ ┌─┐┬─┐┌─┐"
+    echo "  ╠╩╗║╣ ╠╦╝║╚═╗╚═╗║╣  │ │├┬┘│ ┬"
+    echo "  ╩ ╩╚═╝╩╚═╩╚═╝╚═╝╚═╝o└─┘┴└─└─┘ "
     echo " "
-    echo "************************************"
+    echo " "
+    echo "  This script collects content from various sites"
+    echo "  and imports it into Typesense search engine."
+    echo "  The whole process takes about 30 minutes (rough estimation)."
+    echo "  Press 'Y' to continue or 'N' to exit."
+    echo " "
+    echo "  ************************************"
     echo " "
     echo " "
 
@@ -52,7 +58,7 @@ function display_intro() {
 
 # Function to prompt the user for input
 function prompt_input() {
-    read -n 1 -r -p "Do you want to continue (Y/N)? " choice
+    read -n 1 -r -p "  Do you want to continue (Y/N)? " choice
     echo  # Empty line below the prompt
     echo  # Empty line below the prompt
 }
