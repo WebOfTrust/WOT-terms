@@ -7,13 +7,9 @@
 # Get the directory where the main.sh script is located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-# Prepare logfiles.
-source "$SCRIPT_DIR/prepareLogFiles.sh"
-echo "Preparing logfiles finished" | tee -a search-index-typesense/logs/succes.log
-
-# Prepare indexfile.
-source "$SCRIPT_DIR/prepareOverviewIndexedFile.sh"
-echo "Preparing indexfile finished" | tee -a search-index-typesense/logs/succes.log
+# Prepare file system.
+source "$SCRIPT_DIR/prepareFileSystem.sh"
+echo "Preparing file system finished" | tee -a search-index-typesense/logs/succes.log
 
 # Create sitemaps.
 source "$SCRIPT_DIR/createSitemaps.sh"
