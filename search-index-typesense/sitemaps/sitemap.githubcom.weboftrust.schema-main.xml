@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/WebOfTrust/schema/blob/main/LICENSE</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/schema/blob/main/README.md</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/schema/blob/main/bindkey/bindkey.schema.json</loc>
   </url>
   <url>
@@ -25,16 +19,10 @@
     <loc>https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/Dockerfile</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/LICENSE</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/Makefile</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/Pipfile.lock</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/README.md</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/pyproject.toml</loc>
@@ -55,16 +43,10 @@
     <loc>https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/sample_schemas/single-schema-map.json</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/src/kaslcred/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/src/kaslcred/__main__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/src/kaslcred/link.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/tests/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/tests/test_link.py</loc>

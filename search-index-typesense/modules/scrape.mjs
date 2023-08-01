@@ -10,6 +10,8 @@ import puppeteer from 'puppeteer';
 import createOutput from './createOutput.mjs';
 import writeToFile from './writeToFile.mjs';
 import fs from 'fs';
+import { writeToErrorFile } from './writeToErrorFile.mjs';
+import { writeToSuccesFile } from './writeToSuccesFile.mjs';
 
 export default async function scrape(config, customScrape) {
     const browser = await puppeteer.launch();// for production
@@ -20,49 +22,56 @@ export default async function scrape(config, customScrape) {
     // Iterate over each URL in the sitemap and create an array of entries for each URL
     const entries = [];
 
-    // Iterate over each URL in the sitemap and create an array of entries for each URL
-    // console.log('Indexing pages...');
-    for (const url of config.sitemap.urlset.url) {// for production
-        // for (const url of config.sitemap.urlset.url.slice(150, 163)) {// for testing
-        const pageUrl = url.loc[0];
-        // console.log(`Indexing ${pageUrl}`);
 
-        try {
-            // Navigate to the page URL and process the page content using the specified function
-            await page.goto(pageUrl);
-            const scraped = await customScrape(page, config.domQueryForContent, pageUrl);
+    if (config && config.sitemap && config.sitemap.urlset && Array.isArray(config.sitemap.urlset.url)) {
+        // Iterate over each URL in the sitemap and create an array of entries for each URL
+        // console.log('Indexing pages...');
+        for (const url of config.sitemap.urlset.url) {// for production
+            // for (const url of config.sitemap.urlset.url.slice(150, 163)) {// for testing
+            const pageUrl = url.loc[0];
+            // console.log(`Indexing ${pageUrl}`);
 
-            let output = createOutput({
-                siteName: config.siteName,
-                source: config.source,
-                author: config.author,
-                pageUrl: pageUrl,
-                mainContent: scraped.mainContent,
-                hierarchyLvl0: scraped.hierarchyLevel0,
-                hierarchyLvl1: scraped.hierarchyLevel1,
-                hierarchyLvl2: scraped.hierarchyLevel2,
-                hierarchyLvl3: scraped.hierarchyLevel3,
-                knowledgeLevel: scraped.knowledgeLevel,
-                type: scraped.type,
-                creationDate: scraped.creationDate,
-                pageTitle: scraped.pageTitle,
-                firstHeadingBeforeElements: scraped.firstHeadingBeforeElements
-            });
+            try {
+                // Navigate to the page URL and process the page content using the specified function
+                await page.goto(pageUrl);
+                const scraped = await customScrape(page, config.domQueryForContent, pageUrl);
 
-            output.forEach((entry) => {
-                entries.push(entry);
-            });
-            // console.log('output: ', output);
+                let output = createOutput({
+                    siteName: config.siteName,
+                    source: config.source,
+                    author: config.author,
+                    pageUrl: pageUrl,
+                    mainContent: scraped.mainContent,
+                    hierarchyLvl0: scraped.hierarchyLevel0,
+                    hierarchyLvl1: scraped.hierarchyLevel1,
+                    hierarchyLvl2: scraped.hierarchyLevel2,
+                    hierarchyLvl3: scraped.hierarchyLevel3,
+                    knowledgeLevel: scraped.knowledgeLevel,
+                    type: scraped.type,
+                    creationDate: scraped.creationDate,
+                    pageTitle: scraped.pageTitle,
+                    firstHeadingBeforeElements: scraped.firstHeadingBeforeElements
+                });
 
-            // Log the page URL to a log file and to a markdown file
-            fs.appendFileSync('search-index-typesense/logs/scraped.log', `Scraped: ${pageUrl}\n`);
-            fs.appendFileSync('docs/Overview/indexed-in-KERISSE.md', `${pageUrl}\n\n`);
+                output.forEach((entry) => {
+                    entries.push(entry);
+                });
+                // console.log('output: ', output);
 
-        } catch (err) {
-            console.error(`Error processing page ${pageUrl}: ${err}`);
-            fs.appendFileSync('search-index-typesense/logs/error.log', `Error processing page ${pageUrl}: ${err}\n`);
+                // Log the page URL to a log file and to a markdown file
+                fs.appendFileSync('search-index-typesense/logs/scraped.log', `Scraped: ${pageUrl}\n`);
+                fs.appendFileSync('docs/Overview/indexed-in-KERISSE.md', `${pageUrl}\n\n`);
+
+            } catch (err) {
+                console.error(`Error processing page ${pageUrl}: ${err}`);
+                writeToErrorFile(`Error processing page ${pageUrl}: ${err}`);
+            }
         }
+    } else {
+        console.error('config.sitemap.urlset.url is not defined or not an array');
+        writeToErrorFile('config.sitemap.urlset.url is not defined or not an array');
     }
+
     writeToFile(entries, config.destinationFile);
 
     // await new Promise(resolve => setTimeout(resolve, 1000000000)); // For testing: Delay the script termination

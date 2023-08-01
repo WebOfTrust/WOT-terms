@@ -7,13 +7,7 @@
     <loc>https://github.com/WebOfTrust/keria/blob/main/.github/workflows/python-app-ci.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keria/blob/main/LICENSE</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/Makefile</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keria/blob/main/README.md</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/docs/protocol.md</loc>
@@ -37,25 +31,13 @@
     <loc>https://github.com/WebOfTrust/keria/blob/main/setup.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/__main__.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/app/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/app/agenting.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/app/aiding.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/__init__.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/commands/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/commands/start.py</loc>
@@ -79,9 +61,6 @@
     <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/app/specing.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/core/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/core/authing.py</loc>
   </url>
   <url>
@@ -94,13 +73,7 @@
     <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/core/longrunning.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/db/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/db/basing.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/end/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/end/ending.py</loc>
@@ -109,13 +82,7 @@
     <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/keriaing.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/testing/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/testing/testing_helper.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/README.md</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/index.css</loc>
@@ -166,12 +133,6 @@
     <loc>https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/swagger-ui.js.map</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keria/blob/main/tests/__init__.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keria/blob/main/tests/app/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/tests/app/test_agenting.py</loc>
   </url>
   <url>
@@ -197,9 +158,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/tests/conftest.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keria/blob/main/tests/core/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/tests/core/test_authing.py</loc>

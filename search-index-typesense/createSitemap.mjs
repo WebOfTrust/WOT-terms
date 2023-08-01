@@ -28,6 +28,8 @@ import commandLineArgs from 'command-line-args';
 import { create } from 'xmlbuilder2';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { writeToErrorFile } from './modules/writeToErrorFile.mjs';
+import { writeToSuccesFile } from './modules/writeToSuccesFile.mjs';
 
 // Configuration
 // const outputDirectory = path.resolve(__dirname, './sitemaps');
@@ -86,6 +88,7 @@ async function createSitemap(startUrl, maxDepth) {
             }
         } catch (error) {
             console.error(`Failed to fetch URL: ${urlString}`);
+            writeToErrorFile(`Failed to fetch URL: ${urlString}`);
         }
     }
 
@@ -121,6 +124,7 @@ async function main() {
     fs.writeFileSync(filePath, sitemapXml); // Write the sitemap XML to the specified file path
 
     console.log(`Sitemap generated and saved to ${filePath}`);
+    writeToSuccesFile(`Sitemap generated and saved to ${filePath}`);
 }
 
 main().catch(console.error);

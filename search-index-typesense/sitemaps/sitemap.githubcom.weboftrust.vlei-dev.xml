@@ -7,13 +7,7 @@
     <loc>https://github.com/WebOfTrust/vlei/blob/dev/.github/workflows/test.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/vlei/blob/dev/LICENSE</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/vlei/blob/dev/Makefile</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/vlei/blob/dev/README.md</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/vlei/blob/dev/container/Dockerfile</loc>
@@ -253,15 +247,6 @@
     <loc>https://github.com/WebOfTrust/vlei/blob/dev/setup.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/vlei/blob/dev/src/__init__.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/vlei/blob/dev/src/vlei/__init__.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/vlei/blob/dev/src/vlei/app/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/vlei/blob/dev/src/vlei/app/caching.py</loc>
   </url>
   <url>
@@ -302,9 +287,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/vlei/blob/dev/test-vectors/acdc/ecr-failures/legal-entity-engagement-context-role-vLEI-credential-missing-bad.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/vlei/blob/dev/tests/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/vlei/blob/dev/tests/test_generate.py</loc>

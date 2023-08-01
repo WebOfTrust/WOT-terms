@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/WebOfTrust/signifypy/blob/main/LICENSE</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/signifypy/blob/main/README.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/signifypy/blob/main/integration/__init__.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/signifypy/blob/main/integration/app/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/signifypy/blob/main/integration/app/integration.sh</loc>
   </url>
   <url>
@@ -23,12 +11,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signifypy/blob/main/requirements.txt</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/signifypy/blob/main/scripts/README.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/signifypy/blob/main/scripts/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signifypy/blob/main/scripts/create_agent.py</loc>
@@ -85,15 +67,6 @@
     <loc>https://github.com/WebOfTrust/signifypy/blob/main/setup.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/signifypy/blob/main/src/__init__.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/signifypy/blob/main/src/signify/__init__.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/signifypy/blob/main/src/signify/app/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/signifypy/blob/main/src/signify/app/aiding.py</loc>
   </url>
   <url>
@@ -109,19 +82,10 @@
     <loc>https://github.com/WebOfTrust/signifypy/blob/main/src/signify/app/grouping.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/signifypy/blob/main/src/signify/core/__init__.py</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/signifypy/blob/main/src/signify/core/authing.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signifypy/blob/main/src/signify/core/keeping.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/signifypy/blob/main/tests/__init__.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/signifypy/blob/main/tests/app/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signifypy/blob/main/tests/app/connect.toml</loc>
@@ -140,9 +104,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signifypy/blob/main/tests/conftest.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/signifypy/blob/main/tests/core/__init__.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signifypy/blob/main/tests/core/test_authing.py</loc>
