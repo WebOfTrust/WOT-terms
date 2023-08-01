@@ -11,6 +11,10 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$SCRIPT_DIR/prepareLogFiles.sh"
 echo "Preparing logfiles finished" | tee -a search-index-typesense/logs/succes.log
 
+# Prepare indexfile.
+source "$SCRIPT_DIR/prepareOverviewIndexedFile.sh"
+echo "Preparing indexfile finished" | tee -a search-index-typesense/logs/succes.log
+
 # Create sitemaps.
 source "$SCRIPT_DIR/createSitemaps.sh"
 echo "Creating sitemaps finished" | tee -a search-index-typesense/logs/succes.log
