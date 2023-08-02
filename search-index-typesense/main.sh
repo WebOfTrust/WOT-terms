@@ -91,7 +91,7 @@ function do_main() {
     node "$SCRIPT_DIR/sortAndStyleScrapedIndex.mjs" docs/Overview/indexed-in-KERISSE.md
     echo "Sorting and styling index file finished" | tee -a search-index-typesense/logs/succes.log
 
-    # Export the data into Typesense.
+    # Export the data from Typesense.
     source "$SCRIPT_DIR/export.sh"
     echo "Exporting data finished" | tee -a search-index-typesense/logs/succes.log
 
