@@ -24,11 +24,11 @@ function renameFilesToLowerCase(directoryPath) {
 
       fs.rename(oldFilePath, newFilePath, (renameErr) => {
         if (renameErr) {
-          console.error(`Error renaming file: ${renameErr}`);
-          writeToErrorFile(`Error renaming file: ${renameErr}`);
+          console.error(`Error renaming file to lower case: ${renameErr}`);
+          writeToErrorFile(`Error renaming file to lower case: ${renameErr}`);
         } else {
-          console.log(`${file} has been renamed to ${file.toLowerCase()}`);
-          writeToSuccesFile(`${file} has been renamed to ${file.toLowerCase()}`);
+          console.log(`${file} has been renamed to lower case to ${file.toLowerCase()}`);
+          writeToSuccesFile(`${file} has been renamed to to lower case ${file.toLowerCase()}`);
         }
       });
     });
