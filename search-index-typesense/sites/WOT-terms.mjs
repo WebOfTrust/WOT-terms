@@ -7,7 +7,7 @@ const config = {
     sitemap: await createInput({
         sourceType: 'remoteXMLsitemap',
         sourcePath: 'https://weboftrust.github.io/WOT-terms/sitemap.xml',
-        excludeURLs: 'search-index-typesense/sitemaps/WOT-terms-exclude-urls.json'
+        excludeURLs: 'search-index-typesense/sitemaps-exlude-urls/WOT-terms-exclude-urls.json'
     }),
     siteName: 'KERISSE (this site)',
     source: 'KERISSE (this site)',
