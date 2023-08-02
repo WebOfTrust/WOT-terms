@@ -28,6 +28,6 @@ sitemaps_dir="$(pwd)/search-index-typesense/sitemaps"
 
 
 # Copy manually created sitemap files to the directory where the automatically created files go
-for file in "$sitemaps_manual_dir"/*.json; do
+for file in "$sitemaps_manual_dir"/*.xml; do
     cp "$file" "$sitemaps_dir"
 done
