@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://github.com/WebOfTrust/signifi/blob/main/.gitignore</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signifi/blob/main/src/signifi/__main__.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signifi/blob/main/src/signifi/cli.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signifi/blob/main/src/signifi/daemon.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signifi/blob/main/src/signifi/signifing.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signifi/blob/main/tests/conftest.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signifi/blob/main/tests/test_main.py</loc>
+  </url>
+</urlset>
