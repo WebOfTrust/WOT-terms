@@ -36,6 +36,7 @@ function handle_choice() {
 
 # Function to display the introduction text
 function display_intro() {
+    clear
     echo " "
     echo " "
     echo "  ************************************"
