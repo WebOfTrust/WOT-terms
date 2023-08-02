@@ -17,7 +17,7 @@ const config = {
         sourceType: 'querySelector',
         sourcePath: 'https://www.gleif.org/en/meta/sitemap',
         queryString: '.content ul li a',// must be an a element
-        excludeURLs: 'search-index-typesense/sitemaps/sitemap-www.gleif.org-exclude-urls.json'
+        excludeURLs: 'search-index-typesense/sitemaps-exlude-urls/sitemap-www.gleif.org-exclude-urls.json'
     }),
     siteName: 'Gleif website',
     source: 'Gleif website',
