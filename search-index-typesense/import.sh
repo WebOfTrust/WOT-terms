@@ -54,11 +54,11 @@ log_dir="$(pwd)/search-index-typesense/logs"
 
 
 
-############## COPY FROM HANDMADE DIR TO (MAIN) OUTPUT DIR ##############
-# Copy all .json files from the output-handmade directory to the output directory, so they will be converted to jsonl as well together with the automated entries
-for file in "$output_handmade_dir"/*.json; do
-    cp "$file" "$output_dir"
-done
+# ############## COPY FROM HANDMADE DIR TO (MAIN) OUTPUT DIR ##############
+# # Copy all .json files from the output-handmade directory to the output directory, so they will be converted to jsonl as well together with the automated entries
+# for file in "$output_handmade_dir"/*.json; do
+#     cp "$file" "$output_dir"
+# done
 
 
 
