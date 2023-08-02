@@ -72,6 +72,10 @@ function do_main() {
     source "$SCRIPT_DIR/prepareFileSystem.sh"
     echo "Preparing file system finished" | tee -a search-index-typesense/logs/succes.log
 
+    # Copy handmade stuff.
+    source "$SCRIPT_DIR/copyManualFiles.sh"
+    echo "Copying manual files finished" | tee -a search-index-typesense/logs/succes.log
+
     # Create sitemaps.
     source "$SCRIPT_DIR/createSitemaps.sh"
     echo "Creating sitemaps finished" | tee -a search-index-typesense/logs/succes.log
