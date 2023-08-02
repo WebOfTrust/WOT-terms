@@ -64,14 +64,14 @@ async function removeFilesFromSitemap(dir, extensions, fileNames, patterns) {
         // Filter out unwanted extensions
         if (extensions.includes(parsedPath.ext)) {
           console.log('Url removed from sitemap: ', parsedUrl.href);
-          writeToSuccesFile('Url removed from sitemap: ', parsedUrl.href);
+          writeToSuccesFile('Url removed from sitemap: ' + parsedUrl.href);
           return false;
         }
 
         // Filter out unwanted filenames
         if (fileNames.includes(parsedPath.base)) {
           console.log('Url removed from sitemap: ', parsedUrl.href);
-          writeToSuccesFile('Url removed from sitemap: ', parsedUrl.href);
+          writeToSuccesFile('Url removed from sitemap: ' + parsedUrl.href);
           return false;
         }
 
@@ -79,7 +79,7 @@ async function removeFilesFromSitemap(dir, extensions, fileNames, patterns) {
         for (let pattern of patterns) {
           if (pattern.test(parsedPath.base)) {
             console.log('Url removed from sitemap: ', parsedUrl.href);
-            writeToSuccesFile('Url removed from sitemap: ', parsedUrl.href);
+            writeToSuccesFile('Url removed from sitemap: ' + parsedUrl.href);
             return false;
           }
         }
