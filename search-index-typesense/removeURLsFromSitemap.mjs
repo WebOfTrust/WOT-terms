@@ -9,17 +9,51 @@ import { writeToSuccesFile } from './modules/writeToSuccesFile.mjs';
 const sitemapDir = 'search-index-typesense/sitemaps';
 
 // Array of extensions to filter out
-const unwantedExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.mp4', '.mov', '.avi', '.zip', '.pdf', '.gitignore', '.gitattributes', '.gitmodules', '.gitkeep', '.DS_Store', '.git', '.coveragerc', '.editorconfig', '.eslintrc', '.eslintignore', '.flowconfig', '.gitpod.yml', '.prettierrc', '.prettierignore', '.stylelintrc', '.stylelintignore', '.travis.yml', '.vscode', '.vscodeignore'];
+const unwantedExtensions = [
+  '.jpg',
+  '.jpeg',
+  '.png',
+  '.gif',
+  '.bmp',
+  '.webm',
+  '.mp4',
+  '.mov',
+  '.avi',
+  '.zip',
+  '.pdf',
+  '.gitignore',
+  '.gitattributes',
+  '.gitmodules',
+  '.gitkeep',
+  '.DS_Store',
+  '.git',
+  '.coveragerc',
+  '.editorconfig',
+  '.eslintrc',
+  '.eslintignore',
+  '.flowconfig',
+  '.gitpod.yml',
+  '.prettierrc',
+  '.prettierignore',
+  '.stylelintrc',
+  '.stylelintignore',
+  '.travis.yml',
+  '.vscode',
+  '.vscodeignore',
+  '.history',
+  '.idea',
+  '.docusaurus'
+];
 
 // Array of specific file names to filter out, examples: 'README.md', 'README'
 // README.md will remove all files named README.md but not README
-// README will remove all files named README and README.md
+//TODO: test if README will remove all files named README and README.md
 const unwantedFileNames = [
   'LICENSE',
   'README.md',
   'node_modules',
-  'package',
-  'package-lock',
+  'package.json',
+  'package-lock.json',
   '__pycache__',
   '__init__.py',
   'README.md',
