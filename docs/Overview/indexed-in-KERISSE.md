@@ -1,5 +1,5 @@
 ## Indexed in KERISSE
-<p>Pages Count: 3060</p>
+<p>Pages Count: 3049</p>
 <ol>
 <li><a href="https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79" target="_blank">https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79</a></li>
 <li><a href="https://essif-lab.github.io/framework/" target="_blank">https://essif-lab.github.io/framework/</a></li>
@@ -500,6 +500,7 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/inquisitor" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/inquisitor</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/integrity" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/integrity</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/interaction-event" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/interaction-event</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/interceptor" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/interceptor</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/interleaved-serialisation" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/interleaved-serialisation</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/internal-inconsistency" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/internal-inconsistency</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/internet-assigned-numbers-authority" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/internet-assigned-numbers-authority</a></li>
@@ -716,10 +717,15 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/witness" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/witness</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/zero-trust" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/zero-trust</a></li>
 <li><a href="https://github.com/WebOfTrust/cardano-backer/blob/main/.gitignore" target="_blank">https://github.com/WebOfTrust/cardano-backer/blob/main/.gitignore</a></li>
-<li><a href="https://github.com/WebOfTrust/cardano-backer/blob/main/images/Dockerfile" target="_blank">https://github.com/WebOfTrust/cardano-backer/blob/main/images/Dockerfile</a></li>
+<li><a href="https://github.com/WebOfTrust/cardano-backer/blob/main/DOCKER.md" target="_blank">https://github.com/WebOfTrust/cardano-backer/blob/main/DOCKER.md</a></li>
+<li><a href="https://github.com/WebOfTrust/cardano-backer/blob/main/Dockerfile" target="_blank">https://github.com/WebOfTrust/cardano-backer/blob/main/Dockerfile</a></li>
+<li><a href="https://github.com/WebOfTrust/cardano-backer/blob/main/docker-compose-macos.yaml" target="_blank">https://github.com/WebOfTrust/cardano-backer/blob/main/docker-compose-macos.yaml</a></li>
+<li><a href="https://github.com/WebOfTrust/cardano-backer/blob/main/docker-compose-traefik.yaml" target="_blank">https://github.com/WebOfTrust/cardano-backer/blob/main/docker-compose-traefik.yaml</a></li>
+<li><a href="https://github.com/WebOfTrust/cardano-backer/blob/main/docker-compose.yaml" target="_blank">https://github.com/WebOfTrust/cardano-backer/blob/main/docker-compose.yaml</a></li>
 <li><a href="https://github.com/WebOfTrust/cardano-backer/blob/main/scripts/backer_demo-agent.sh" target="_blank">https://github.com/WebOfTrust/cardano-backer/blob/main/scripts/backer_demo-agent.sh</a></li>
 <li><a href="https://github.com/WebOfTrust/cardano-backer/blob/main/scripts/backer_demo-kli.sh" target="_blank">https://github.com/WebOfTrust/cardano-backer/blob/main/scripts/backer_demo-kli.sh</a></li>
 <li><a href="https://github.com/WebOfTrust/cardano-backer/blob/main/scripts/check_cardano.py" target="_blank">https://github.com/WebOfTrust/cardano-backer/blob/main/scripts/check_cardano.py</a></li>
+<li><a href="https://github.com/WebOfTrust/cardano-backer/blob/main/scripts/generate_funding_cborhex_cardano.py" target="_blank">https://github.com/WebOfTrust/cardano-backer/blob/main/scripts/generate_funding_cborhex_cardano.py</a></li>
 <li><a href="https://github.com/WebOfTrust/cardano-backer/blob/main/scripts/start_agent.sh" target="_blank">https://github.com/WebOfTrust/cardano-backer/blob/main/scripts/start_agent.sh</a></li>
 <li><a href="https://github.com/WebOfTrust/cardano-backer/blob/main/scripts/start_backer.sh" target="_blank">https://github.com/WebOfTrust/cardano-backer/blob/main/scripts/start_backer.sh</a></li>
 <li><a href="https://github.com/WebOfTrust/cardano-backer/blob/main/src/backer/__main__.py" target="_blank">https://github.com/WebOfTrust/cardano-backer/blob/main/src/backer/__main__.py</a></li>
@@ -771,14 +777,11 @@
 <li><a href="https://github.com/WebOfTrust/cesride/blob/main/src/lib.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/src/lib.rs</a></li>
 <li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/.gitignore" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/.gitignore</a></li>
 <li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/.gitignore" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/.gitignore</a></li>
-<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/package.json" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/package.json</a></li>
 <li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/src/main.ts" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/src/main.ts</a></li>
 <li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/tslint.json" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/tslint.json</a></li>
 <li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/bootstrap.js" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/bootstrap.js</a></li>
 <li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/index.html" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/index.html</a></li>
 <li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/index.js" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/index.js</a></li>
-<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/package-lock.json" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/package-lock.json</a></li>
-<li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/package.json" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/package.json</a></li>
 <li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/webpack.config.js" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/webpack.config.js</a></li>
 <li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/error.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/error.rs</a></li>
 <li><a href="https://github.com/WebOfTrust/cesride/blob/main/wasm/src/lib.rs" target="_blank">https://github.com/WebOfTrust/cesride/blob/main/wasm/src/lib.rs</a></li>
@@ -858,13 +861,11 @@
 <li><a href="https://github.com/WebOfTrust/keep/blob/main/app/index.html" target="_blank">https://github.com/WebOfTrust/keep/blob/main/app/index.html</a></li>
 <li><a href="https://github.com/WebOfTrust/keep/blob/main/app/index.js" target="_blank">https://github.com/WebOfTrust/keep/blob/main/app/index.js</a></li>
 <li><a href="https://github.com/WebOfTrust/keep/blob/main/app/oops.html" target="_blank">https://github.com/WebOfTrust/keep/blob/main/app/oops.html</a></li>
-<li><a href="https://github.com/WebOfTrust/keep/blob/main/app/package.json" target="_blank">https://github.com/WebOfTrust/keep/blob/main/app/package.json</a></li>
 <li><a href="https://github.com/WebOfTrust/keep/blob/main/app/todesktop.json" target="_blank">https://github.com/WebOfTrust/keep/blob/main/app/todesktop.json</a></li>
 <li><a href="https://github.com/WebOfTrust/keep/blob/main/build.js" target="_blank">https://github.com/WebOfTrust/keep/blob/main/build.js</a></li>
 <li><a href="https://github.com/WebOfTrust/keep/blob/main/convert_env.py" target="_blank">https://github.com/WebOfTrust/keep/blob/main/convert_env.py</a></li>
 <li><a href="https://github.com/WebOfTrust/keep/blob/main/jest.config.js" target="_blank">https://github.com/WebOfTrust/keep/blob/main/jest.config.js</a></li>
 <li><a href="https://github.com/WebOfTrust/keep/blob/main/jest.setup.js" target="_blank">https://github.com/WebOfTrust/keep/blob/main/jest.setup.js</a></li>
-<li><a href="https://github.com/WebOfTrust/keep/blob/main/package.json" target="_blank">https://github.com/WebOfTrust/keep/blob/main/package.json</a></li>
 <li><a href="https://github.com/WebOfTrust/keep/blob/main/pages/app/app.jsx" target="_blank">https://github.com/WebOfTrust/keep/blob/main/pages/app/app.jsx</a></li>
 <li><a href="https://github.com/WebOfTrust/keep/blob/main/pages/app/download.jsx" target="_blank">https://github.com/WebOfTrust/keep/blob/main/pages/app/download.jsx</a></li>
 <li><a href="https://github.com/WebOfTrust/keep/blob/main/pages/app/splash.jsx" target="_blank">https://github.com/WebOfTrust/keep/blob/main/pages/app/splash.jsx</a></li>
@@ -1519,14 +1520,11 @@
 <li><a href="https://github.com/WebOfTrust/keride/blob/main/src/signing/signer.rs" target="_blank">https://github.com/WebOfTrust/keride/blob/main/src/signing/signer.rs</a></li>
 <li><a href="https://github.com/WebOfTrust/keride/blob/main/wasm/.gitignore" target="_blank">https://github.com/WebOfTrust/keride/blob/main/wasm/.gitignore</a></li>
 <li><a href="https://github.com/WebOfTrust/keride/blob/main/wasm/demo/node/.gitignore" target="_blank">https://github.com/WebOfTrust/keride/blob/main/wasm/demo/node/.gitignore</a></li>
-<li><a href="https://github.com/WebOfTrust/keride/blob/main/wasm/demo/node/package.json" target="_blank">https://github.com/WebOfTrust/keride/blob/main/wasm/demo/node/package.json</a></li>
 <li><a href="https://github.com/WebOfTrust/keride/blob/main/wasm/demo/node/src/main.ts" target="_blank">https://github.com/WebOfTrust/keride/blob/main/wasm/demo/node/src/main.ts</a></li>
 <li><a href="https://github.com/WebOfTrust/keride/blob/main/wasm/demo/node/tslint.json" target="_blank">https://github.com/WebOfTrust/keride/blob/main/wasm/demo/node/tslint.json</a></li>
 <li><a href="https://github.com/WebOfTrust/keride/blob/main/wasm/demo/web/bootstrap.js" target="_blank">https://github.com/WebOfTrust/keride/blob/main/wasm/demo/web/bootstrap.js</a></li>
 <li><a href="https://github.com/WebOfTrust/keride/blob/main/wasm/demo/web/index.html" target="_blank">https://github.com/WebOfTrust/keride/blob/main/wasm/demo/web/index.html</a></li>
 <li><a href="https://github.com/WebOfTrust/keride/blob/main/wasm/demo/web/index.js" target="_blank">https://github.com/WebOfTrust/keride/blob/main/wasm/demo/web/index.js</a></li>
-<li><a href="https://github.com/WebOfTrust/keride/blob/main/wasm/demo/web/package-lock.json" target="_blank">https://github.com/WebOfTrust/keride/blob/main/wasm/demo/web/package-lock.json</a></li>
-<li><a href="https://github.com/WebOfTrust/keride/blob/main/wasm/demo/web/package.json" target="_blank">https://github.com/WebOfTrust/keride/blob/main/wasm/demo/web/package.json</a></li>
 <li><a href="https://github.com/WebOfTrust/keride/blob/main/wasm/demo/web/webpack.config.js" target="_blank">https://github.com/WebOfTrust/keride/blob/main/wasm/demo/web/webpack.config.js</a></li>
 <li><a href="https://github.com/WebOfTrust/keride/blob/main/wasm/src/error.rs" target="_blank">https://github.com/WebOfTrust/keride/blob/main/wasm/src/error.rs</a></li>
 <li><a href="https://github.com/WebOfTrust/keride/blob/main/wasm/src/lib.rs" target="_blank">https://github.com/WebOfTrust/keride/blob/main/wasm/src/lib.rs</a></li>
@@ -1996,7 +1994,6 @@
 <li><a href="https://github.com/WebOfTrust/parside/blob/main/src/message/groups/group.rs" target="_blank">https://github.com/WebOfTrust/parside/blob/main/src/message/groups/group.rs</a></li>
 <li><a href="https://github.com/WebOfTrust/parside/blob/main/src/message/groups/mod.rs" target="_blank">https://github.com/WebOfTrust/parside/blob/main/src/message/groups/mod.rs</a></li>
 <li><a href="https://github.com/WebOfTrust/parside/blob/main/src/message/groups/non_trans_receipt_couples.rs" target="_blank">https://github.com/WebOfTrust/parside/blob/main/src/message/groups/non_trans_receipt_couples.rs</a></li>
-<li><a href="https://github.com/WebOfTrust/parside/blob/main/src/message/groups/pathed_material_quadlets.rs" target="_blank">https://github.com/WebOfTrust/parside/blob/main/src/message/groups/pathed_material_quadlets.rs</a></li>
 <li><a href="https://github.com/WebOfTrust/parside/blob/main/src/message/groups/sad_path_sig.rs" target="_blank">https://github.com/WebOfTrust/parside/blob/main/src/message/groups/sad_path_sig.rs</a></li>
 <li><a href="https://github.com/WebOfTrust/parside/blob/main/src/message/groups/sad_path_sig_group.rs" target="_blank">https://github.com/WebOfTrust/parside/blob/main/src/message/groups/sad_path_sig_group.rs</a></li>
 <li><a href="https://github.com/WebOfTrust/parside/blob/main/src/message/groups/seal_source_couples.rs" target="_blank">https://github.com/WebOfTrust/parside/blob/main/src/message/groups/seal_source_couples.rs</a></li>
@@ -2092,8 +2089,6 @@
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/credentials.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/credentials.ts</a></li>
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/delegation.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/delegation.ts</a></li>
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/multisig.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/multisig.ts</a></li>
-<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/package-lock.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/package-lock.json</a></li>
-<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/package.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/package.json</a></li>
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/randy.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/randy.ts</a></li>
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/request-present.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/request-present.ts</a></li>
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/run_all.sh" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/run_all.sh</a></li>
@@ -2113,8 +2108,6 @@
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/keri/cf/demo-witness-oobis-schema.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/keri/cf/demo-witness-oobis-schema.json</a></li>
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/multisig-kli.sh" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/multisig-kli.sh</a></li>
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/multisig-sigpy.sh" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/multisig-sigpy.sh</a></li>
-<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/package-lock.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/package-lock.json</a></li>
-<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/package.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/package.json</a></li>
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/src/index.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/src/index.ts</a></li>
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/tsconfig.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/tsconfig.json</a></li>
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/tsconfig.node.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/tsconfig.node.json</a></li>
@@ -2122,8 +2115,6 @@
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/.gitignore" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/.gitignore</a></li>
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/.puppeteerrc.cjs" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/.puppeteerrc.cjs</a></li>
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/index.html" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/index.html</a></li>
-<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/package-lock.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/package-lock.json</a></li>
-<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/package.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/package.json</a></li>
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/public/vite.svg" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/public/vite.svg</a></li>
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/scripts/keri/cf/demo-witness-oobis.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/scripts/keri/cf/demo-witness-oobis.json</a></li>
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/App.css" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/App.css</a></li>
@@ -2149,8 +2140,6 @@
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/tsconfig.node.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/tsconfig.node.json</a></li>
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/vite.config.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/vite.config.ts</a></li>
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/vite.config.ts.timestamp-1685395612909-bba831f8e6577.mjs" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/vite.config.ts.timestamp-1685395612909-bba831f8e6577.mjs</a></li>
-<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/package-lock.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/package-lock.json</a></li>
-<li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/package.json" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/package.json</a></li>
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/index.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/index.ts</a></li>
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/apping.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/apping.ts</a></li>
 <li><a href="https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/client.ts" target="_blank">https://github.com/WebOfTrust/signify-ts/blob/main/src/keri/app/client.ts</a></li>
@@ -2385,9 +2374,6 @@
 <li><a href="https://readthedocs.org/accounts/password/reset/" target="_blank">https://readthedocs.org/accounts/password/reset/</a></li>
 <li><a href="https://readthedocs.org/accounts/signup/" target="_blank">https://readthedocs.org/accounts/signup/</a></li>
 <li><a href="https://readthedocs.org/accounts/signup/?next=%2Fsupport%2F" target="_blank">https://readthedocs.org/accounts/signup/?next=%2Fsupport%2F</a></li>
-<li><a href="https://readthedocs.org/api/v2/build/20992823.txt" target="_blank">https://readthedocs.org/api/v2/build/20992823.txt</a></li>
-<li><a href="https://readthedocs.org/api/v2/build/20993948.txt" target="_blank">https://readthedocs.org/api/v2/build/20993948.txt</a></li>
-<li><a href="https://readthedocs.org/api/v2/build/21050605.txt" target="_blank">https://readthedocs.org/api/v2/build/21050605.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21058555.txt" target="_blank">https://readthedocs.org/api/v2/build/21058555.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21059455.txt" target="_blank">https://readthedocs.org/api/v2/build/21059455.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21071631.txt" target="_blank">https://readthedocs.org/api/v2/build/21071631.txt</a></li>
@@ -2400,6 +2386,9 @@
 <li><a href="https://readthedocs.org/api/v2/build/21326050.txt" target="_blank">https://readthedocs.org/api/v2/build/21326050.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21369889.txt" target="_blank">https://readthedocs.org/api/v2/build/21369889.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21372479.txt" target="_blank">https://readthedocs.org/api/v2/build/21372479.txt</a></li>
+<li><a href="https://readthedocs.org/api/v2/build/21496078.txt" target="_blank">https://readthedocs.org/api/v2/build/21496078.txt</a></li>
+<li><a href="https://readthedocs.org/api/v2/build/21496185.txt" target="_blank">https://readthedocs.org/api/v2/build/21496185.txt</a></li>
+<li><a href="https://readthedocs.org/api/v2/build/21496191.txt" target="_blank">https://readthedocs.org/api/v2/build/21496191.txt</a></li>
 <li><a href="https://readthedocs.org/builds/keripy/?fromdocs=keripy" target="_blank">https://readthedocs.org/builds/keripy/?fromdocs=keripy</a></li>
 <li><a href="https://readthedocs.org/dashboard/keripy/version/development/edit/" target="_blank">https://readthedocs.org/dashboard/keripy/version/development/edit/</a></li>
 <li><a href="https://readthedocs.org/dashboard/keripy/version/main/edit/" target="_blank">https://readthedocs.org/dashboard/keripy/version/main/edit/</a></li>
@@ -2409,9 +2398,6 @@
 <li><a href="https://readthedocs.org/projects/keripy/" target="_blank">https://readthedocs.org/projects/keripy/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/?fromdocs=keripy" target="_blank">https://readthedocs.org/projects/keripy/?fromdocs=keripy</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/" target="_blank">https://readthedocs.org/projects/keripy/builds/</a></li>
-<li><a href="https://readthedocs.org/projects/keripy/builds/20992823/" target="_blank">https://readthedocs.org/projects/keripy/builds/20992823/</a></li>
-<li><a href="https://readthedocs.org/projects/keripy/builds/20993948/" target="_blank">https://readthedocs.org/projects/keripy/builds/20993948/</a></li>
-<li><a href="https://readthedocs.org/projects/keripy/builds/21050605/" target="_blank">https://readthedocs.org/projects/keripy/builds/21050605/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/21058555/" target="_blank">https://readthedocs.org/projects/keripy/builds/21058555/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/21059455/" target="_blank">https://readthedocs.org/projects/keripy/builds/21059455/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/21071631/" target="_blank">https://readthedocs.org/projects/keripy/builds/21071631/</a></li>
@@ -2424,6 +2410,9 @@
 <li><a href="https://readthedocs.org/projects/keripy/builds/21326050/" target="_blank">https://readthedocs.org/projects/keripy/builds/21326050/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/21369889/" target="_blank">https://readthedocs.org/projects/keripy/builds/21369889/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/21372479/" target="_blank">https://readthedocs.org/projects/keripy/builds/21372479/</a></li>
+<li><a href="https://readthedocs.org/projects/keripy/builds/21496078/" target="_blank">https://readthedocs.org/projects/keripy/builds/21496078/</a></li>
+<li><a href="https://readthedocs.org/projects/keripy/builds/21496185/" target="_blank">https://readthedocs.org/projects/keripy/builds/21496185/</a></li>
+<li><a href="https://readthedocs.org/projects/keripy/builds/21496191/" target="_blank">https://readthedocs.org/projects/keripy/builds/21496191/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/downloads/" target="_blank">https://readthedocs.org/projects/keripy/downloads/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/versions/" target="_blank">https://readthedocs.org/projects/keripy/versions/</a></li>
 <li><a href="https://readthedocs.org/projects/loopy/" target="_blank">https://readthedocs.org/projects/loopy/</a></li>
@@ -2454,6 +2443,7 @@
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-06_appendix-3-vlei-issuer-qualification-program-checklist_v1.0_final" target="_blank">https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-06_appendix-3-vlei-issuer-qualification-program-checklist_v1.0_final</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-06_appendix-4-vlei-issuer-contact-details_v1.0_final" target="_blank">https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-06_appendix-4-vlei-issuer-contact-details_v1.0_final</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-16_Legal-Entity-QVI-AUTH-vLEI-Credential-Governance-Framework_v1.0_final" target="_blank">https://weboftrust.github.io/WOT-terms/docs/GLEIF/2022-12-16_Legal-Entity-QVI-AUTH-vLEI-Credential-Governance-Framework_v1.0_final</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/How-we-did/Create-Omnigraffle-infographic-and-convert-to-svg" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How-we-did/Create-Omnigraffle-infographic-and-convert-to-svg</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/How-we-did/Create-search-index" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How-we-did/Create-search-index</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/How-we-did/Docusaurus-process" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How-we-did/Docusaurus-process</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/How-we-did/Source-and-destination-for-search" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How-we-did/Source-and-destination-for-search</a></li>
@@ -2463,7 +2453,6 @@
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/How-we-did/embed-github-hosted-image-in-github-wiki-page" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How-we-did/embed-github-hosted-image-in-github-wiki-page</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/How-we-did/file-system" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How-we-did/file-system</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/How-we-did/fill-out-terms-toip-wiki" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How-we-did/fill-out-terms-toip-wiki</a></li>
-<li><a href="https://weboftrust.github.io/WOT-terms/docs/How-we-did/glossary-ToIP" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How-we-did/glossary-ToIP</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/How-we-did/homepage-text-altering" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How-we-did/homepage-text-altering</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/How-we-did/install" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How-we-did/install</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/How-we-did/intro" target="_blank">https://weboftrust.github.io/WOT-terms/docs/How-we-did/intro</a></li>
