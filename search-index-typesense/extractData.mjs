@@ -6,17 +6,17 @@
 */
 
 
-import scrapeWOTterms from './sites/WOT-terms.mjs';
-import scrapeGleif from './sites/gleif.mjs';
-import scrapeWotgloss from './sites/wotgloss.mjs';
-import scrapeESSIFLab from './sites/eSSIF-Lab.mjs';
-import scrapeJolocom from './sites/jolocom.io.mjs';
-import scrapeHumancolossus from './sites/humancolossus.mjs';
-import scrapeKsoeteman from './sites/ksoeteman.mjs';
-import scrapemediumCom from './sites/medium.com.mjs';
-import scrapeKentbull from './sites/kentbull.com.mjs';
-import scrapeGithub from './sites/github.mjs';
-import scrapeReadthedocs from './sites/readthedocs.io.mjs';
+import scrapeWOTterms from './custom-scrapers/WOT-terms.mjs';
+import scrapeGleif from './custom-scrapers/gleif.mjs';
+import scrapeWotgloss from './custom-scrapers/wotgloss.mjs';
+import scrapeESSIFLab from './custom-scrapers/eSSIF-Lab.mjs';
+import scrapeJolocom from './custom-scrapers/jolocom.io.mjs';
+import scrapeHumancolossus from './custom-scrapers/humancolossus.mjs';
+import scrapeKsoeteman from './custom-scrapers/ksoeteman.mjs';
+import scrapemediumCom from './custom-scrapers/medium.com.mjs';
+import scrapeKentbull from './custom-scrapers/kentbull.com.mjs';
+import scrapeGithub from './custom-scrapers/github.mjs';
+import scrapeReadthedocs from './custom-scrapers/readthedocs.io.mjs';
 
 scrapeWOTterms();
 scrapeGleif();
