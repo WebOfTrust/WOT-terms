@@ -162,13 +162,13 @@ const typeSenseInstantSearch = () => {
           // <pre>
           let shorterCode = '';
           let preOpeningTag = '';
-          if (item.tag === 'pre' || item.tag === 'turbo-frame') {
+          if (item.tag === 'pre' || item.tag === 'textarea') {
             preOpeningTag = '<pre>';
             shorterCode = makeCodeStringShorter(item._highlightResult.content.value);
           } else { preOpeningTag = '<p class="ms-5">' }
           // </pre>
           let preClosingTag = '';
-          if (item.tag === 'pre' || item.tag === 'turbo-frame') {
+          if (item.tag === 'pre' || item.tag === 'textarea') {
             preClosingTag = '</pre>';
           } else { preClosingTag = '</p>' }
 
