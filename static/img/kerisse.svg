@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="229 -4 532 779" width="532" height="779">
+
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="229 -4 532 779">
   <defs>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#199ce8">
       <g>
@@ -31,7 +30,7 @@
         <text transform="translate(348 247)" fill="black">
           <tspan font-family="Verdana" font-size="16" fill="black" x="8.136719" y="16">A Documentation </tspan>
           <tspan font-family="Verdana" font-size="16" fill="black" x="61.91797" y="35">Site</tspan>
-          <tspan font-family="Apple Color Emoji" font-size="16" fill="black" x="67" y="58">📄</tspan>
+          <tspan font-family="Apple Color Emoji" font-size="16" fill="black" x="67" y="58">&#x1f4c4;</tspan>
         </text>
       </g>
       <g id="Graphic_9">
@@ -39,7 +38,7 @@
         <path d="M 471.38645 377.00804 L 638.22255 376.1764 M 637.0092 374.5376 L 637.3073 445.7731 M 638.4065 444.39063 L 471.41334 443.4411 M 472.6591 444.74953 L 473.0097 375.07213 M 471.6364 376.743 L 637.2652 375.75006 M 637.34314 374.28723 L 637.6341 444.134 M 638.65625 444.18256 L 472.9152 443.284 M 472.75906 444.4988 L 473.2454 376.74998" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
         <text transform="translate(478 387.7284)" fill="black">
           <tspan font-family="Verdana" font-size="16" fill="black" x="11.59375" y="16">A Search Engine</tspan>
-          <tspan font-family="Apple Color Emoji" font-size="16" fill="black" x="67" y="39">🔍</tspan>
+          <tspan font-family="Apple Color Emoji" font-size="16" fill="black" x="67" y="39">&#x1f50d;</tspan>
         </text>
       </g>
       <g id="Graphic_10">
@@ -49,7 +48,7 @@
           <tspan font-family="Verdana" font-size="16" fill="#a3a3a3" x="12.621094" y="16">A Chatbot</tspan>
           <tspan font-family="Verdana" font-size="13" fill="#a3a3a3" x="25.4812" y="32">(work in </tspan>
           <tspan font-family="Verdana" font-size="13" fill="#a3a3a3" x="21.31079" y="48">progress)</tspan>
-          <tspan font-family="Apple Color Emoji" font-size="13" fill="#a3a3a3" x="44" y="67">💬</tspan>
+          <tspan font-family="Apple Color Emoji" font-size="13" fill="#a3a3a3" x="44" y="67">&#x1f4ac;</tspan>
         </text>
       </g>
       <g id="Line_11">
@@ -79,7 +78,7 @@
         <path d="M 463.8772 325 C 476.84823 339.01234 488.4786 353.64972 500.52143 365.77264 M 463.8772 325 C 477.34823 338.51234 488.9786 353.14972 501.02143 365.27264" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
       </g>
       <g id="Graphic_18">
-        <a xl:href="docs/How-we-did/Create-search-index">
+        <a xlink:href="/WOT-terms/docs/How-we-did/Create-search-index">
           <text transform="translate(440.64635 336.8751)" fill="black">
             <tspan font-family="Verdana" font-size="11" fill="black" x="0" y="11">Content scraped</tspan>
             <tspan font-family="Verdana" font-size="11" fill="black" x="19.188232" y="24">(Node.js)</tspan>
@@ -90,7 +89,7 @@
         <path d="M 547.53686 684.276 C 545.76397 644.5028 540.6735 520.66184 539.7578 458.31195 M 547.53686 684.276 C 546.26397 644.0028 541.1735 520.16184 540.2578 457.81195" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
       </g>
       <g id="Graphic_19">
-        <a xl:href="docs/How-we-did/Create-search-index">
+        <a xlink:href="/WOT-terms/docs/How-we-did/Create-search-index">
           <text transform="translate(495.82437 561.154)" fill="black">
             <tspan font-family="Verdana" font-size="11" fill="black" x="0" y="11">Content scraped</tspan>
             <tspan font-family="Verdana" font-size="11" fill="black" x="19.188232" y="24">(Node.js)</tspan>
@@ -101,7 +100,7 @@
         <path d="M 621.41634 740 C 619.8383 687.3607 629.1663 529.71804 605.2981 457.5007 M 621.41634 740 C 620.3383 686.8607 629.6663 529.21804 605.7981 457.0007" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
       </g>
       <g id="Graphic_21">
-        <a xl:href="docs/How-we-did/Create-search-index">
+        <a xlink:href="/WOT-terms/docs/How-we-did/Create-search-index">
           <text transform="translate(578.1594 590.939)" fill="black">
             <tspan font-family="Verdana" font-size="11" fill="black" x="0" y="11">Content scraped</tspan>
             <tspan font-family="Verdana" font-size="11" fill="black" x="19.188232" y="24">(Node.js)</tspan>
@@ -116,11 +115,11 @@
         </text>
       </g>
       <g id="Graphic_24">
-        <a xl:href="https://github.com/WebOfTrust/WOT-terms/tree/main/externalContentCarbonCopies">
-          <rect x="313" y="585.939" width="174" height="62" fill="#dde9f5"/>
+        <rect x="313" y="585.939" width="174" height="62" fill="#dde9f5"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/externalContentCarbonCopies">
+          
           <path d="M 311.2714 585.9358 L 487.0808 586.2609 M 486.10897 584.3912 L 487.176 648.27146 M 488.79096 647.51165 L 311.27304 648.05306 M 312.6568 649.8968 L 313.00627 584.7709 M 311.52143 585.6751 L 486.3906 585.7669 M 486.5223 584.1385 L 487.5695 647.264 M 489.0416 647.4665 L 312.91743 648.03755 M 312.79122 649.64614 L 313.11684 585.6883" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
           <text transform="translate(318 592.939)" fill="black">
-            <tspan font-family="Verdana" font-size="13" fill="black" x="21.48462" y="13">“Carbon copies” of </tspan>
+            <tspan font-family="Verdana" font-size="13" fill="black" x="21.48462" y="13">&#x201c;Carbon copies&#x201d; of </tspan>
             <tspan font-family="Verdana" font-size="13" fill="black" x="18.091797" y="29">content on external </tspan>
             <tspan font-family="Verdana" font-size="13" fill="black" x="54.495605" y="45">domains</tspan>
           </text>
@@ -139,7 +138,7 @@
         <path d="M 400.67786 583.939 C 398.1389 531.3291 395.60777 414.0361 406.34547 337.8206 M 400.67786 583.939 C 398.6389 530.8291 396.10777 413.5361 406.84547 337.3206" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
       </g>
       <g id="Graphic_29">
-        <a xl:href="docs/How-we-did/Create-search-index">
+        <a xlink:href="/WOT-terms/docs/How-we-did/Create-search-index">
           <text transform="translate(358.93685 507.7386)" fill="black">
             <tspan font-family="Verdana" font-size="11" fill="black" x="0" y="11">Content copied</tspan>
             <tspan font-family="Verdana" font-size="11" fill="black" x="15.616455" y="24">(Node.js)</tspan>
@@ -158,12 +157,12 @@
         <path d="M 324.25868 114 C 334.32685 140.21287 360.08234 188.18505 379.013 221.9075 M 324.25868 114 C 334.82685 139.71287 360.58234 187.68505 379.513 221.4075" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
       </g>
       <g id="Graphic_31">
-        <a xl:href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSknYEP0pP5XbPYk3fc5d-xh-hi8SjS5Y8xFPHQsfpi7BgWYhsmyx-FhbZvR-InWN1qjI03qO04QYuz/pubhtml">
+        <a xlink:href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSknYEP0pP5XbPYk3fc5d-xh-hi8SjS5Y8xFPHQsfpi7BgWYhsmyx-FhbZvR-InWN1qjI03qO04QYuz/pubhtml">
           <text transform="translate(287.87424 147.57475)" fill="black">
             <tspan font-family="Verdana" font-size="11" fill="black" x="4.224365" y="11">External spreadsheet</tspan>
             <tspan font-family="Verdana" font-size="11" fill="black" x="0" y="24">(imported via Node.js)</tspan>
             <tspan font-family="Verdana" font-size="11" fill="black" x="43.94629" y="38">Link </tspan>
-            <tspan font-family="PingFang SC" font-size="11" fill="black" y="38">↗</tspan>
+            <tspan font-family="PingFang SC" font-size="11" fill="black" y="38">&#x2197;</tspan>
             <tspan font-family="Verdana" font-size="11" fill="black" y="38"> </tspan>
           </text>
         </a>
