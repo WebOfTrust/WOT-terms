@@ -11,13 +11,13 @@ Commercial app available here: https://www.omnigroup.com/download. We've used ve
 Sub steps
 1. Create or adjust your drawing and links in the drawing
 2. Export to svg in the right directory: `[root]/static/img`
-![](static/img/hwd-export.png)
-![](static/img/hwd-svgexport.png)
+![](/img/hwd-export.png)
+![](/img/hwd-svgexport.png)
 
 3. Set the background to transparent, tick the box in the Omnigraffle UI
-![](static/img/hwd-inrightdir.png)
-4. Save or replace
-![](static/img/hwd-replace.png)
+![](/img/hwd-inrightdir.png)
+4. Save or replace file
+![](/img/hwd-replace.png)
 
 
 **Step 2 below expects the svg file to be in `/static/img` but must be run from the `[root]`**
@@ -53,3 +53,14 @@ Modified SVG data is then saved back to the file. Error handling is implemented 
 
 In essence, this script is a tool for preprocessing OmniGraffle-produced SVGs for better usability, compatibility, and display.
 
+## 3. Incoperate resulting svg in a Docusaurus page
+
+In a markdown file that is in the build-able reach within the Docusaurus tree, e.g. under the `docs` directory, say for example
+`import Scraping from '/img/scraping.svg'; `
+
+
+where `Scraping` is a React object that you have to call with `<scraping \>` so that DS can conjure up the image on the screen behind the scenes. and `scraping.svg` is the updated or newly produced svg in the above-described process.
+
+
+See detailed instructions here:
+https://docusaurus.io/docs/markdown-features/assets#inline-svgs
