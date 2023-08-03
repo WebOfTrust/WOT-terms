@@ -31,8 +31,8 @@ fi
 
 
 ### INDEXED-IN-KERISSE.MD ###
-# Remove and recreate the indexed-in-KERISSE.md file
-dir_path="docs/Overview"
-rm -rf "${dir_path}/indexed-in-KERISSE.md"
-touch "${dir_path}/indexed-in-KERISSE.md"
+# Remove and recreate the index file where all the indexed websites are listed
+rm -rf "$INDEX_OVERVIEW_FILE"
+touch "$INDEX_OVERVIEW_FILE"
+echo "## Indexed in KERISSE" > "$INDEX_OVERVIEW_FILE"
 
