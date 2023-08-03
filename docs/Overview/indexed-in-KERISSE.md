@@ -1,9 +1,10 @@
-https://essif-lab.github.io/framework/docs/essifLab
-<p>Pages Count: 3058</p>
+## Indexed in KERISSE
+<p>Pages Count: 3060</p>
 <ol>
 <li><a href="https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79" target="_blank">https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79</a></li>
 <li><a href="https://essif-lab.github.io/framework/" target="_blank">https://essif-lab.github.io/framework/</a></li>
 <li><a href="https://essif-lab.github.io/framework/docs/TBD" target="_blank">https://essif-lab.github.io/framework/docs/TBD</a></li>
+<li><a href="https://essif-lab.github.io/framework/docs/essifLab" target="_blank">https://essif-lab.github.io/framework/docs/essifLab</a></li>
 <li><a href="https://essif-lab.github.io/framework/docs/essifLab-collaborative-understanding" target="_blank">https://essif-lab.github.io/framework/docs/essifLab-collaborative-understanding</a></li>
 <li><a href="https://essif-lab.github.io/framework/docs/essifLab-fw" target="_blank">https://essif-lab.github.io/framework/docs/essifLab-fw</a></li>
 <li><a href="https://essif-lab.github.io/framework/docs/essifLab-fw-backlog" target="_blank">https://essif-lab.github.io/framework/docs/essifLab-fw-backlog</a></li>
@@ -2491,6 +2492,7 @@ https://essif-lab.github.io/framework/docs/essifLab
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/Test/term_test2" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Test/term_test2</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/Test/term_test3" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Test/term_test3</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/Test/term_test4" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Test/term_test4</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/Video/lets-keri-on-together" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Video/lets-keri-on-together</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/Visualisations/Backed-and-Backerless-Issuance-and-Revocation" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Visualisations/Backed-and-Backerless-Issuance-and-Revocation</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/Visualisations/KERI-&-ACDC-Architecture" target="_blank">https://weboftrust.github.io/WOT-terms/docs/Visualisations/KERI-&-ACDC-Architecture</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/category/gleif" target="_blank">https://weboftrust.github.io/WOT-terms/docs/category/gleif</a></li>
