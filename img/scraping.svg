@@ -1,5 +1,5 @@
 
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="197 183 1219 2740">
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="197 183 1219 2740">
   <defs>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#199ce8">
       <g>
@@ -22,7 +22,7 @@
       </g>
     </marker>
   </defs>
-  <g id="Indexing" stroke="none" stroke-opacity="1" fill="none" fill-opacity="1" stroke-dasharray="none">
+  <g id="Indexing" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none">
     <title>Indexing</title>
     <g id="Indexing_0._Start">
       <title>0. Start</title>
@@ -313,7 +313,7 @@
         </text>
       </g>
       <g id="Graphic_81">
-        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/sites/medium.com.mjs#L53">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/custom-scrapers/medium.com.mjs#L53">
           <text transform="translate(890 1113.975)" fill="black">
             <tspan font-family="Courier New" font-size="12" fill="black" x="25.204102" y="10">Manually create</tspan>
             <tspan font-family="Courier New" font-size="12" fill="black" x="21.603516" y="24">a list of url&#x2019;s,</tspan>
@@ -515,7 +515,7 @@
         </text>
       </g>
       <g id="Graphic_145">
-        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/overrides.sh">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/overrides.sh">
           <text transform="translate(1068.039 2508)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">overrides.sh</tspan>
           </text>
