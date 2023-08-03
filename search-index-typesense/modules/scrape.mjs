@@ -62,7 +62,7 @@ export default async function scrape(config, customScrape) {
 
                 // Log the page URL to a log file and to a markdown file
                 fs.appendFileSync('search-index-typesense/logs/scraped.log', `Scraped: ${pageUrl}\n`);
-                fs.appendFileSync('docs/Overview/indexed-in-KERISSE.md', `${pageUrl}\n\n`);
+                fs.appendFileSync(process.env.INDEX_OVERVIEW_FILE, `${pageUrl}\n\n`);
 
             } catch (err) {
                 console.error(`Error processing page ${pageUrl}: ${err}`);
