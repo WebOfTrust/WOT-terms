@@ -9531,9 +9531,13 @@
     [
       "470",
       "-",
-      "c ",
+      "interceptor",
       "",
-      "c "
+      "interceptor",
+      "a keria class that allows to push events happening inside the cloud agent to other backend processes",
+      "https://github.com/weboftrust/WOT-terms/wiki/interceptor",
+      "",
+      "3"
     ],
     [
       "471",
