@@ -1,3 +1,24 @@
+/*
+  Author: Kor Dwarshuis
+  Created: 2023-06
+  Updated: -
+  Description:
+    This script fixes Omnigraffle svg output. Without these fixes the Docusaurus page does not render.
+
+    It:
+    -defines replacements to rectify common OmniGraffle SVG output issues, including the removal of SVG DOCTYPE declaration and XML version tag, and correction of the 'xl:' namespace and 'xl:href' attributes to 'xmlns:xlink' and 'xlink:href' respectively.
+
+    -reads all files in the specified directory (../static/img), and for each '.svg' file, it performs the following:
+
+    -applies the predefined replacement rules
+
+    -checks for 'viewBox' attribute on the SVG element using the 'cheerio' library, and if found, removes the 'width' and 'height' attributes for responsive scaling
+
+    -for each anchor ('a') element, it corrects relative URLs and rearranges rectangle ('rect') elements within the anchor for optimal rendering
+
+    Modified SVG data is then saved back to the file. Error handling is implemented at several stages to address potential issues during directory scanning, file reading, and writing.
+*/
+
 const fs = require('fs');
 const path = require('path');
 const config = require('../docusaurus.config.js');
