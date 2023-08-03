@@ -43,9 +43,6 @@
     <loc>https://github.com/WebOfTrust/keep/blob/main/app/oops.html</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keep/blob/main/app/package.json</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keep/blob/main/app/todesktop.json</loc>
   </url>
   <url>
@@ -59,9 +56,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keep/blob/main/jest.setup.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keep/blob/main/package.json</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keep/blob/main/pages/app/app.jsx</loc>

@@ -4,7 +4,19 @@
     <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/.gitignore</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/images/Dockerfile</loc>
+    <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/DOCKER.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/Dockerfile</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/docker-compose-macos.yaml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/docker-compose-traefik.yaml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/docker-compose.yaml</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/scripts/backer_demo-agent.sh</loc>
@@ -14,6 +26,9 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/scripts/check_cardano.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/scripts/generate_funding_cborhex_cardano.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/cardano-backer/blob/main/scripts/start_agent.sh</loc>
