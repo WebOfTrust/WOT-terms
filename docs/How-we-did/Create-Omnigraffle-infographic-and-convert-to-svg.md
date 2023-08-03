@@ -59,7 +59,7 @@ In a markdown file that is in the build-able reach within the Docusaurus tree, e
 `import Scraping from '/img/scraping.svg'; `
 
 
-where `Scraping` is a React object that you have to call with `<scraping \>` so that DS can conjure up the image on the screen behind the scenes. and `scraping.svg` is the updated or newly produced svg in the above-described process.
+where `Scraping` is a React object that you have to call with `<scraping />` so that DS can conjure up the image on the screen behind the scenes. and `scraping.svg` is the updated or newly produced svg in the above-described process.
 
 
 See detailed instructions here:
