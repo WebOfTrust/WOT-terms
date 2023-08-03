@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export INDEX_OVERVIEW_FILE="docs/Overview/indexed-in-KERISSE.md"
+
+
 # Function to handle the user's choice
 function handle_choice() {
     if [[ "$choice" == "Y" || "$choice" == "y" ]]; then
@@ -93,7 +96,7 @@ function do_main() {
     echo "Extracting data finished" | tee -a search-index-typesense/logs/succes.log
 
     # Sort and style the index file.
-    node "$SCRIPT_DIR/sortAndStyleScrapedIndex.mjs" docs/Overview/indexed-in-KERISSE.md
+    node "$SCRIPT_DIR/sortAndStyleScrapedIndex.mjs" "$INDEX_OVERVIEW_FILE"
     echo "Sorting and styling index file finished" | tee -a search-index-typesense/logs/succes.log
 
     # Export the data from Typesense.
