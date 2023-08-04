@@ -428,6 +428,8 @@ table td:nth-child(8) {
 
 #search pre {
   overflow-x: scroll;
+  width: 100%;
+  position: relative;
 }
 
 /* The icon at the top right, which starts the search modal */
