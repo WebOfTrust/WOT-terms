@@ -426,6 +426,10 @@ table td:nth-child(8) {
   text-decoration: none;
 }
 
+#search pre {
+  overflow-x: scroll;
+}
+
 /* The icon at the top right, which starts the search modal */
 #search-start {
   cursor: pointer;
