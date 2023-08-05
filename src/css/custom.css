@@ -426,6 +426,7 @@ table td:nth-child(8) {
   text-decoration: none;
 }
 
+/* Fixes the fact that on iOS you cannot scroll horizontally in a pre tag */
 #search pre {
   overflow-x: scroll;
   width: 100%;
