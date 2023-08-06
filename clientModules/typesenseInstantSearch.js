@@ -310,6 +310,7 @@ const typeSenseInstantSearch = () => {
       searchable: true,
       searchablePlaceholder: 'Source',
       showMore: true,
+      // max_facet_values: 100, TODO: does this work?
       cssClasses: {
         searchableInput: 'form-control form-control-sm mb-2 border-light-2',
         searchableSubmit: 'hidden',
@@ -325,9 +326,10 @@ const typeSenseInstantSearch = () => {
     refinementList({
       container: '#author-refinement-list',
       attribute: 'author',
-      searchable: false,
+      searchable: true,
       searchablePlaceholder: 'Author',
-      showMore: false,
+      showMore: true,
+      // max_facet_values: 100,TODO: does this work?
       cssClasses: {
         searchableInput: 'form-control form-control-sm mb-2 border-light-2',
         searchableSubmit: 'hidden',
