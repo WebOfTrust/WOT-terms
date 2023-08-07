@@ -14,15 +14,15 @@ function handle_choice() {
         echo " "
         echo " "
         printf "."
-        sleep 1
+        sleep 0.2
         printf  "."
-        sleep 1
+        sleep 0.2
         printf "."
-        sleep 1
+        sleep 0.2
         printf  "."
-        sleep 1
+        sleep 0.2
         printf  "."
-        sleep 1
+        sleep 0.2
 
 
         do_main
