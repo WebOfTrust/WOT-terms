@@ -32,5 +32,5 @@ node search-index-typesense/createSitemapGithub.mjs WebOfTrust signify-ts main s
 node search-index-typesense/createSitemapGithub.mjs WebOfTrust signifypy main search-index-typesense/sitemaps
 node search-index-typesense/createSitemapGithub.mjs WebOfTrust vlei dev search-index-typesense/sitemaps
 node search-index-typesense/createSitemapGithub.mjs WebOfTrust ward main search-index-typesense/sitemaps
-
+node search-index-typesense/createSitemapGithub.mjs SmithSamuelM Papers master search-index-typesense/sitemaps
 
