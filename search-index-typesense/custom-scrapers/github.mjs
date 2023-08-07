@@ -5,6 +5,7 @@ import getTextContent from '../modules/getTextContent.mjs';
 
 // List of sitemap files
 const sitemapFiles = [
+    'sitemap.githubcom.smithsamuelm.papers-master.xml',
     'sitemap.githubcom.weboftrust.cardano-backer-main.xml',
     'sitemap.githubcom.weboftrust.cesride-main.xml',
     'sitemap.githubcom.weboftrust.cesrpy-main.xml',
