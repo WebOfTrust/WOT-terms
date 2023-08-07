@@ -12,6 +12,7 @@ import writeToFile from './writeToFile.mjs';
 import fs from 'fs';
 import { writeToErrorFile } from './writeToErrorFile.mjs';
 import { writeToSuccesFile } from './writeToSuccesFile.mjs';
+import { githubPDF } from './github-pdf.mjs';
 
 export default async function scrape(config, customScrape) {
     const browser = await puppeteer.launch();// for production
@@ -21,7 +22,7 @@ export default async function scrape(config, customScrape) {
     await page.setUserAgent('KERISSE-Web-of-Trust-Scraper');
     // Iterate over each URL in the sitemap and create an array of entries for each URL
     const entries = [];
-
+    let scraped = {};
 
     if (config && config.sitemap && config.sitemap.urlset && Array.isArray(config.sitemap.urlset.url)) {
         // Iterate over each URL in the sitemap and create an array of entries for each URL
@@ -29,14 +30,25 @@ export default async function scrape(config, customScrape) {
         for (const url of config.sitemap.urlset.url) {// for production
             // for (const url of config.sitemap.urlset.url.slice(150, 163)) {// for testing
             const pageUrl = url.loc[0];
+            const parsedUrl = new URL(pageUrl);
             console.log(`Indexing ${pageUrl}`);
             writeToSuccesFile(`Indexing ${pageUrl}`);
 
             try {
                 // Navigate to the page URL and process the page content using the specified function
                 await page.goto(pageUrl);
-                const scraped = await customScrape(page, config.domQueryForContent, pageUrl);
 
+                // If the page is a PDF…
+                if (pageUrl.toLowerCase().endsWith('.pdf')) {
+                    // …and it's on github.com use the githubPDF function
+                    if (parsedUrl.hostname.includes('github.com')) {
+                        scraped = await githubPDF(page, config.domQueryForContent);
+                    }
+                } else {
+                    scraped = await customScrape(page, config.domQueryForContent, pageUrl);//TODO: find out if pageUrl is needed
+                }
+
+                // if an entry is not passed, createOutput creates a default entry
                 let output = createOutput({
                     siteName: config.siteName,
                     source: config.source,
