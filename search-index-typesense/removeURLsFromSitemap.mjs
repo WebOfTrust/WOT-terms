@@ -20,7 +20,6 @@ const unwantedExtensions = [
   '.mov',
   '.avi',
   '.zip',
-  '.pdf',
   '.gitignore',
   '.gitattributes',
   '.gitmodules',
