@@ -350,6 +350,25 @@ const typeSenseInstantSearch = () => {
       },
       sortBy: ['name:asc', 'count:desc'],
     }),
+    refinementList({
+      container: '#media-type-refinement-list',
+      attribute: 'mediaType',
+      searchable: true,
+      searchablePlaceholder: 'Media type',
+      showMore: true,
+      // max_facet_values: 100,TODO: does this work?
+      cssClasses: {
+        searchableInput: 'form-control form-control-sm mb-2 border-light-2',
+        searchableSubmit: 'hidden',
+        searchableReset: 'hidden',
+        showMore: 'btn btn-secondary btn-sm align-content-center',
+        list: 'list-unstyled',
+        count: '',
+        label: '',
+        checkbox: 'me-2',
+      },
+      sortBy: ['name:asc', 'count:desc'],
+    }),
   ]);
 
   // function handleSearchTermClick(event) {
