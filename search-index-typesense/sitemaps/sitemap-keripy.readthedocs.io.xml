@@ -49,7 +49,31 @@
     <loc>https://readthedocs.org/support/</loc>
   </url>
   <url>
+    <loc>https://readthedocs.org/dashboard/</loc>
+  </url>
+  <url>
+    <loc>https://readthedocs.org/choosing-a-platform/</loc>
+  </url>
+  <url>
+    <loc>https://readthedocs.org/support</loc>
+  </url>
+  <url>
     <loc>https://readthedocs.org/accounts/signup/</loc>
+  </url>
+  <url>
+    <loc>https://readthedocs.org/features/</loc>
+  </url>
+  <url>
+    <loc>https://readthedocs.org/comparisons/github-pages/</loc>
+  </url>
+  <url>
+    <loc>https://readthedocs.org/pricing/</loc>
+  </url>
+  <url>
+    <loc>https://readthedocs.org/privacy-policy</loc>
+  </url>
+  <url>
+    <loc>https://readthedocs.org/terms-of-service/</loc>
   </url>
   <url>
     <loc>https://readthedocs.org/accounts/password/reset/</loc>
