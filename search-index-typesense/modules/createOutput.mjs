@@ -11,9 +11,9 @@ export default function createOutput(input) {
   for (const element of input.mainContent) {
     // if an entry is not passed, create a default entry
     const entry = {
-      siteName: input.siteName.trim() || 'No site name specified',
-      source: input.source.trim() || 'No source specified',
-      author: input.author.trim() || 'No author specified',
+      siteName: input.siteName || 'No site name specified',
+      source: input.source || 'No source specified',
+      author: input.author || 'No author specified',
       creationDate: input.creationDate || 'No creation date specified',
       url: input.pageUrl || 'No url specified',
       content: element.content || '',
@@ -30,8 +30,8 @@ export default function createOutput(input) {
       'hierarchy.lvl2': input.hierarchyLvl2 || '',
       'hierarchy.lvl3': input.hierarchyLvl3 || '',
       knowledgeLevel: input.knowledgeLevel || 'No level specified',
-      type: input.type.trim() || 'No type specified',
-      pageTitle: input.pageTitle.trim() || 'No title specified',
+      type: input.type || 'No type specified',
+      pageTitle: input.pageTitle || 'No title specified',
       firstHeadingBeforeElement: element.firstHeadingBeforeElement || '',
       mediaType: input.mediaType || 'No media type specified'
     };
