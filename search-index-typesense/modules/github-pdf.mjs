@@ -10,7 +10,27 @@ import puppeteer from 'puppeteer';
 import { writeToErrorFile } from '../modules/writeToErrorFile.mjs';
 import { writeToSuccesFile } from '../modules/writeToSuccesFile.mjs';
 
-export async function githubPDF(page) {
+export async function githubPDF(page, pageUrl) {
+    function extractRepoNameFromGithubURL(url) {
+        try {
+            const parsedUrl = new URL(url);
+
+            // Validate that the URL is from GitHub
+            if (parsedUrl.hostname !== 'github.com') {
+                throw new Error('URL is not from github.com');
+            }
+
+            // Split the pathname into segments and return the second one
+            const segments = parsedUrl.pathname.split('/');
+            return segments[2]; // This will be the repo name
+
+        } catch (err) {
+            console.error(err.message);
+            writeToErrorFile(err.message);
+            return null; // Invalid URL or not a GitHub URL
+        }
+    }
+
     // PDF on github are shown in an iframe. So we need to navigate to the iframe's source to scrape the PDF.  
     // There is only one iframe on the page, so we can use page.$eval to get the iframe's source
     // Extract the 'src' attribute from the iframe
@@ -81,6 +101,6 @@ export async function githubPDF(page) {
 
     let all = {};
     all.mainContent = mainContent;
-    all.pageTitle = "Indexed PDF";
+    all.pageTitle = extractRepoNameFromGithubURL(pageUrl);
     return all;
 }
