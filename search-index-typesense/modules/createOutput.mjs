@@ -25,14 +25,15 @@ export default function createOutput(input) {
       imgWidth: element.imgWidth || 0,
       imgHeight: element.imgHeight || 0,
       timestamp: new Date().toISOString() || '',
-      'hierarchy.lvl0': input.hierarchyLvl0 || '',// same for all element from input.mainContent
-      'hierarchy.lvl1': input.hierarchyLvl1 || '',// same for all element from input.mainContent
-      'hierarchy.lvl2': input.hierarchyLvl2 || '',// same for all element from input.mainContent
-      'hierarchy.lvl3': input.hierarchyLvl3 || '',// same for all element from input.mainContent
-      knowledgeLevel: input.knowledgeLevel || 'No level specified',// same for all element from input.mainContent
-      type: input.type.trim() || 'No type specified',// same for all element from input.mainContent
-      pageTitle: input.pageTitle.trim() || 'No title specified',// same for all element from input.mainContent
+      'hierarchy.lvl0': input.hierarchyLvl0 || '',
+      'hierarchy.lvl1': input.hierarchyLvl1 || '',
+      'hierarchy.lvl2': input.hierarchyLvl2 || '',
+      'hierarchy.lvl3': input.hierarchyLvl3 || '',
+      knowledgeLevel: input.knowledgeLevel || 'No level specified',
+      type: input.type.trim() || 'No type specified',
+      pageTitle: input.pageTitle.trim() || 'No title specified',
       firstHeadingBeforeElement: element.firstHeadingBeforeElement || '',
+      mediaType: input.mediaType || 'No media type specified'
     };
     entries.push(entry);
   }
