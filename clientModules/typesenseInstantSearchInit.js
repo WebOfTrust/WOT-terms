@@ -32,6 +32,9 @@ const typesenseInstantSearchCreateDomElements = () => {
             <h3 class="mt-5">Author</h3>
             <div id="author-refinement-list"></div>
 
+            <h3 class="mt-5">Media type</h3>
+            <div id="media-type-refinement-list"></div>
+
             <h3 class="mt-5">Knowledge Level</h3>
             <div id="knowledgelevel-refinement-list"></div>
             
