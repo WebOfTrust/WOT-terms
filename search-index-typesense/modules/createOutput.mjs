@@ -13,8 +13,8 @@ export default function createOutput(input) {
     const entry = {
       siteName: input.siteName || 'No site name specified',
       source: input.source || 'No source specified',
-      author: input.author || '',
-      creationDate: input.creationDate || '',
+      author: input.author || 'No author specified',
+      creationDate: input.creationDate || 'No creation date specified',
       url: input.pageUrl || 'No url specified',
       content: element.content || '',
       contentLength: element.contentLength || 0,
@@ -29,9 +29,9 @@ export default function createOutput(input) {
       'hierarchy.lvl1': input.hierarchyLvl1 || '',// same for all element from input.mainContent
       'hierarchy.lvl2': input.hierarchyLvl2 || '',// same for all element from input.mainContent
       'hierarchy.lvl3': input.hierarchyLvl3 || '',// same for all element from input.mainContent
-      knowledgeLevel: input.knowledgeLevel || '',// same for all element from input.mainContent
-      type: input.type || '',// same for all element from input.mainContent
-      pageTitle: input.pageTitle || '',// same for all element from input.mainContent
+      knowledgeLevel: input.knowledgeLevel || 'No level specified',// same for all element from input.mainContent
+      type: input.type || 'No type specified',// same for all element from input.mainContent
+      pageTitle: input.pageTitle || 'No title specified',// same for all element from input.mainContent
       firstHeadingBeforeElement: element.firstHeadingBeforeElement || '',
     };
     entries.push(entry);
