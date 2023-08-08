@@ -42,7 +42,7 @@ export default async function scrape(config, customScrape) {
                 if (pageUrl.toLowerCase().endsWith('.pdf')) {
                     // …and it's on github.com use the githubPDF function
                     if (parsedUrl.hostname.includes('github.com')) {
-                        scraped = await githubPDF(page, config.domQueryForContent);
+                        scraped = await githubPDF(page, pageUrl);
                     }
                 } else {
                     scraped = await customScrape(page, config.domQueryForContent, pageUrl);//TODO: find out if pageUrl is needed
