@@ -159,19 +159,27 @@ const typeSenseInstantSearch = () => {
             openInNewTab = 'target="_blank" rel="noopener"';
           }
 
-          // <pre>
-          let shorterCode = '';
-          let preOpeningTag = '';
-          if (item.tag === 'pre' || item.tag === 'textarea') {
-            preOpeningTag = '<pre>';
-            shorterCode = makeCodeStringShorter(item._highlightResult.content.value);
-          } else { preOpeningTag = '<p class="ms-5">' }
-          // </pre>
-          let preClosingTag = '';
-          if (item.tag === 'pre' || item.tag === 'textarea') {
-            preClosingTag = '</pre>';
-          } else { preClosingTag = '</p>' }
+          // "Postprocess" the content. Especially code samples can be very long and take up a lot of space in the search results. This function makes the code samples shorter. TODO: check if other content types need to be shortened as well.
+          let postProcessedCode = '';
 
+          // If the tag is pre or textarea, wrap the content in a <pre> tag
+          let postProcessedOpeningTag = '';
+          if (item.tag === 'pre' || item.tag === 'textarea') {
+            postProcessedOpeningTag = '<pre>';
+            postProcessedCode = makeCodeStringShorter(item._highlightResult.content.value);
+          } else { // Otherwise, wrap the content in a <p> tag
+            postProcessedOpeningTag = '<p class="ms-5">'
+            postProcessedCode = item._highlightResult.content.value;
+          }
+
+          // If the tag is pre or textarea, wrap the content in a <pre> tag
+          let postProcessedClosingTag = '';
+          if (item.tag === 'pre' || item.tag === 'textarea') {
+            postProcessedClosingTag = '</pre>';
+          } else { // Otherwise, wrap the content in a <p> tag
+            postProcessedClosingTag = '</p>'
+          }
+          // END "Postprocess" the content
 
 
           // Only if siteName is not empty, show it
@@ -232,10 +240,10 @@ const typeSenseInstantSearch = () => {
         ${itemTitleTemplateString}
         ${itemFirstHeadingBeforeElementTemplateString}
 
-        ${preOpeningTag}
-          <!--<a class="stretched-link text-secondary" href="${item.url}" ${openInNewTab}>${item._highlightResult.content.value}</a>-->
-          <a class="stretched-link text-secondary" href="${item.url}" ${openInNewTab}>${shorterCode}</a>
-        ${preClosingTag}
+        ${postProcessedOpeningTag}
+          <a class="stretched-link text-secondary" href="${item.url}" ${openInNewTab}>${postProcessedCode}</a>
+        ${postProcessedClosingTag}
+
         ${itemImgUrlTemplateString}
         ${itemImgMetaTemplateString}
     </div>
