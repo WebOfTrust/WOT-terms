@@ -6,6 +6,7 @@
 */
 
 import Tesseract from 'tesseract.js';
+import { createWorker } from 'tesseract.js';
 import puppeteer from 'puppeteer';
 import { writeToErrorFile } from '../modules/writeToErrorFile.mjs';
 import { writeToSuccesFile } from '../modules/writeToSuccesFile.mjs';
@@ -36,6 +37,12 @@ export async function githubPDF(page, pageUrl) {
     // Extract the 'src' attribute from the iframe
     const iframeSrc = await page.$eval('iframe', frame => frame.src);
     let mainContent = [];
+
+    // // Tesseract via Worker part 1 - create the worker
+    // const worker = await createWorker({
+    //     logger: m => console.log(m)
+    // });
+
 
     // Now navigate to the iframe's source
     await page.goto(iframeSrc, {
@@ -97,7 +104,23 @@ export async function githubPDF(page, pageUrl) {
             console.error('Error:', err);
             writeToErrorFile('Error:' + err);
         });
+
+        // // Tesseract via Worker part 2 - load image
+        // (async () => {
+        //     await worker.loadLanguage('eng');
+        //     await worker.initialize('eng');
+        //     const { data: { text } } = await worker.recognize(canvasImage);
+        //     // console.log(text);
+        //     mainContent.push({
+        //         content: text,
+        //         contentLength: text.length,
+        //         tag: "pdf"
+        //     });
+        // })();
     }
+
+    // // Tesseract via Worker part 3 - close the worker
+    // await worker.terminate();
 
     let all = {};
     all.mainContent = mainContent;
