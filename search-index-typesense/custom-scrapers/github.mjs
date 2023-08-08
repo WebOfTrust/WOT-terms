@@ -49,7 +49,7 @@ const createConfig = async (filename) => {
         source: `${repositoryOwner} / ${repositoryName}`,
         author: `${repositoryOwner}`,
         destinationFile: `search-index-typesense/search-index-entries/${repositoryOwner}-${repositoryName}.json`,
-        domQueryForContent: 'turbo-frame #read-only-cursor-text-area, turbo-frame .markdown-body',// First one for code, second one for markdown
+        domQueryForContent: 'turbo-frame #read-only-cursor-text-area, turbo-frame .markdown-body h1, turbo-frame .markdown-body p',// First one for code
         branch: branchName
     };
 }
