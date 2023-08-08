@@ -91,15 +91,15 @@ const typesenseHandleSearchModal = () => {
     searchModalStatus = 'closed';
   }
 
-  // on new page load, if search box is empty, hide results. There seems to be no out of the box solution for this
-  if (document.querySelector('.ais-SearchBox-input').value === '') {
-    document.querySelector('#hits').classList.add('hidden');
-    document.querySelector('#pagination').classList.add('hidden');
-    document.querySelector('.ais-SearchBox-input').addEventListener('input', function () {
-      document.querySelector('#hits').classList.remove('hidden');
-      document.querySelector('#pagination').classList.remove('hidden');
-    })
-  }
+  // // on new page load, if search box is empty, hide results. There seems to be no out of the box solution for this
+  // if (document.querySelector('.ais-SearchBox-input').value === '') {
+  //   document.querySelector('#hits').classList.add('hidden');
+  //   document.querySelector('#pagination').classList.add('hidden');
+  //   document.querySelector('.ais-SearchBox-input').addEventListener('input', function () {
+  //     document.querySelector('#hits').classList.remove('hidden');
+  //     document.querySelector('#pagination').classList.remove('hidden');
+  //   })
+  // }
 
   function setSearchModalStatus() {
     setTimeout(() => {
