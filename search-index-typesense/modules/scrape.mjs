@@ -63,7 +63,8 @@ export default async function scrape(config, customScrape) {
                     type: scraped.type,
                     creationDate: scraped.creationDate,
                     pageTitle: scraped.pageTitle,
-                    firstHeadingBeforeElements: scraped.firstHeadingBeforeElements
+                    firstHeadingBeforeElements: scraped.firstHeadingBeforeElements,
+                    mediaType: scraped.mediaType
                 });
 
                 output.forEach((entry) => {
