@@ -37,7 +37,7 @@ const showDefinitionsPopUpOnClick = () => {
           var doc = parser.parseFromString(html, 'text/html');
 
           // Find the paragraph after heading with id="definition"
-          let domEl = doc.querySelector('#definition');
+          let domEl = doc.querySelector('#definition');//TODO: check if exists
 
           // If there is text && the button that shows popup on click does not exist, add a popup to the button (the check if the button exists is needed)
           if (domEl !== null && item.nextElementSibling.classList.contains(definitionButtonClassName) === false) {
