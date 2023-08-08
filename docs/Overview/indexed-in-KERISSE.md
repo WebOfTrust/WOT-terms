@@ -1,5 +1,5 @@
 ## Indexed in KERISSE
-<p>Pages Count: 3103</p>
+<p>Pages Count: 3110</p>
 <ol>
 <li><a href="https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79" target="_blank">https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79</a></li>
 <li><a href="https://essif-lab.github.io/framework/" target="_blank">https://essif-lab.github.io/framework/</a></li>
@@ -289,8 +289,8 @@
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/.gitignore" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/.gitignore</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/LICENSE-2.0.txt" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/LICENSE-2.0.txt</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/ACDC_IIW2021B.web.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/ACDC_IIW2021B.web.pdf</a></li>
-<li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/ACDC_Overview.web.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/ACDC_Overview.web.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/ACDC_ToIPDataPresent.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/ACDC_ToIPDataPresent.pdf</a></li>
+<li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/Archive/KERI_Overview.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/Archive/KERI_Overview.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/AuthenticDataSupplyChains_DAD_Arch.web.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/AuthenticDataSupplyChains_DAD_Arch.web.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/CESR_Overview.web.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/CESR_Overview.web.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/CensorshipResistance_IIW_2019_B.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/CensorshipResistance_IIW_2019_B.pdf</a></li>
@@ -302,17 +302,15 @@
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERIVerifiableTrustBases.web.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERIVerifiableTrustBases.web.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERI_Details_IIW_2019_B.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERI_Details_IIW_2019_B.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERI_IEEE_Blockchain_20211021.web.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERI_IEEE_Blockchain_20211021.web.pdf</a></li>
-<li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERI_IETF_20211123.web.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERI_IETF_20211123.web.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERI_Percolation_OOBI.web.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERI_Percolation_OOBI.web.pdf</a></li>
-<li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERI_for_Muggles.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERI_for_Muggles.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/MetaPlatformBYUCIOLecture20190305.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/MetaPlatformBYUCIOLecture20190305.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/MetaPlatforms_IIW_20190430_5A.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/MetaPlatforms_IIW_20190430_5A.pdf</a></li>
-<li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/NonconformistKeynoteWeb20200702.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/NonconformistKeynoteWeb20200702.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/QuestForTheMnemonSeed_IIW_20180404.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/QuestForTheMnemonSeed_IIW_20180404.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/ReputationDisintermediation_IIW_20180405.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/ReputationDisintermediation_IIW_20180405.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/ReputationIIW2017.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/ReputationIIW2017.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/SPAC_Overview.web.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/SPAC_Overview.web.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/SPAC_Strawman.web.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/SPAC_Strawman.web.pdf</a></li>
+<li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/SeedQuest_Didery_IIW20181023.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/SeedQuest_Didery_IIW20181023.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/TSPSlides20230208.web.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/TSPSlides20230208.web.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/TSPSlides20230308.web.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/TSPSlides20230308.web.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/W3C_DID_Security_Concerns.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/W3C_DID_Security_Concerns.pdf</a></li>
@@ -330,14 +328,15 @@
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/IdentifierTheory_web.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/IdentifierTheory_web.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/Identity-System-Essentials.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/Identity-System-Essentials.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/IdentityAndReputation.md" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/IdentityAndReputation.md</a></li>
-<li><a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP.web.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP.web.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/ManyCubed.md" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/ManyCubed.md</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/SPAC_Message.md" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/SPAC_Message.md</a></li>
+<li><a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/SPAC_Message.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/SPAC_Message.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/SelfIdentifyingData.md" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/SelfIdentifyingData.md</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/VC_Enhancement_Strategy.md" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/VC_Enhancement_Strategy.md</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/XORA.md" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/XORA.md</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/alice-attempts-abuse-verifiable-credential.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/alice-attempts-abuse-verifiable-credential.pdf</a></li>
-<li><a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/open-reputation-low-level-whitepaper.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/open-reputation-low-level-whitepaper.pdf</a></li>
+<li><a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/keri_archive/KERI_WP_1.62_Web.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/keri_archive/KERI_WP_1.62_Web.pdf</a></li>
+<li><a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/keri_archive/KERI_WP_1.6_Web.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/keri_archive/KERI_WP_1.6_Web.pdf</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/ACDC" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/ACDC</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/ADC" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/ADC</a></li>
@@ -2444,8 +2443,14 @@
 <li><a href="https://readthedocs.org/api/v2/build/21496191.txt" target="_blank">https://readthedocs.org/api/v2/build/21496191.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21531877.txt" target="_blank">https://readthedocs.org/api/v2/build/21531877.txt</a></li>
 <li><a href="https://readthedocs.org/builds/keripy/?fromdocs=keripy" target="_blank">https://readthedocs.org/builds/keripy/?fromdocs=keripy</a></li>
+<li><a href="https://readthedocs.org/choosing-a-platform/" target="_blank">https://readthedocs.org/choosing-a-platform/</a></li>
+<li><a href="https://readthedocs.org/comparisons/github-pages/" target="_blank">https://readthedocs.org/comparisons/github-pages/</a></li>
+<li><a href="https://readthedocs.org/dashboard/" target="_blank">https://readthedocs.org/dashboard/</a></li>
 <li><a href="https://readthedocs.org/dashboard/keripy/version/development/edit/" target="_blank">https://readthedocs.org/dashboard/keripy/version/development/edit/</a></li>
 <li><a href="https://readthedocs.org/dashboard/keripy/version/main/edit/" target="_blank">https://readthedocs.org/dashboard/keripy/version/main/edit/</a></li>
+<li><a href="https://readthedocs.org/features/" target="_blank">https://readthedocs.org/features/</a></li>
+<li><a href="https://readthedocs.org/pricing/" target="_blank">https://readthedocs.org/pricing/</a></li>
+<li><a href="https://readthedocs.org/privacy-policy" target="_blank">https://readthedocs.org/privacy-policy</a></li>
 <li><a href="https://readthedocs.org/profiles/pfeairheller/" target="_blank">https://readthedocs.org/profiles/pfeairheller/</a></li>
 <li><a href="https://readthedocs.org/profiles/samuelsmith/" target="_blank">https://readthedocs.org/profiles/samuelsmith/</a></li>
 <li><a href="https://readthedocs.org/projects/hio-py/" target="_blank">https://readthedocs.org/projects/hio-py/</a></li>
@@ -2471,9 +2476,11 @@
 <li><a href="https://readthedocs.org/projects/keripy/versions/" target="_blank">https://readthedocs.org/projects/keripy/versions/</a></li>
 <li><a href="https://readthedocs.org/projects/loopy/" target="_blank">https://readthedocs.org/projects/loopy/</a></li>
 <li><a href="https://readthedocs.org/search/?q=project:keripy%20" target="_blank">https://readthedocs.org/search/?q=project:keripy%20</a></li>
+<li><a href="https://readthedocs.org/support" target="_blank">https://readthedocs.org/support</a></li>
 <li><a href="https://readthedocs.org/support/" target="_blank">https://readthedocs.org/support/</a></li>
 <li><a href="https://readthedocs.org/sustainability/" target="_blank">https://readthedocs.org/sustainability/</a></li>
 <li><a href="https://readthedocs.org/sustainability/#supporters" target="_blank">https://readthedocs.org/sustainability/#supporters</a></li>
+<li><a href="https://readthedocs.org/terms-of-service/" target="_blank">https://readthedocs.org/terms-of-service/</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/CarbonCopies/WebOfTrust-ietf-acdc-main-draft-ssmith-acdc" target="_blank">https://weboftrust.github.io/WOT-terms/docs/CarbonCopies/WebOfTrust-ietf-acdc-main-draft-ssmith-acdc</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/CarbonCopies/WebOfTrust-ietf-cesr-proof-main-draft-pfeairheller-cesr-proof" target="_blank">https://weboftrust.github.io/WOT-terms/docs/CarbonCopies/WebOfTrust-ietf-cesr-proof-main-draft-pfeairheller-cesr-proof</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/CarbonCopies/WebOfTrust-ietf-ipex-main-draft-ssmith-ipex" target="_blank">https://weboftrust.github.io/WOT-terms/docs/CarbonCopies/WebOfTrust-ietf-ipex-main-draft-ssmith-ipex</a></li>
