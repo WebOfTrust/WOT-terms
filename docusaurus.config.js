@@ -178,6 +178,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      //TODO: disable when not used anymore
       mermaid: {
         theme: { light: 'neutral', dark: 'forest' },
         options: {
