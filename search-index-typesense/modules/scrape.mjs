@@ -24,12 +24,40 @@ export default async function scrape(config, customScrape) {
     const entries = [];
     let scraped = {};
 
+    function getFileExtension(url) {
+        try {
+            const parsedUrl = new URL(url);
+
+            // Split the pathname into segments and get the last segment
+            const segments = parsedUrl.pathname.split('/');
+            const lastSegment = segments[segments.length - 1];
+
+            // Use a regular expression to extract the file extension
+            const match = /\.([a-z0-9]+)$/i.exec(lastSegment);
+            if (match) {
+                return match[1]; // Return the file extension without the dot
+            } else {
+                return null; // No file extension found
+            }
+
+        } catch (err) {
+            console.error(err.message);
+            return null; // Invalid URL
+        }
+    }
+
+    // const url = 'https://github.com/SmithSamuelM/Papers/blob/master/presentations/AI_Overview_20180208.pdf';
+    // const fileExtension = getFileExtension(url);
+    // console.log(fileExtension);  // Output: pdf
+
+
     if (config && config.sitemap && config.sitemap.urlset && Array.isArray(config.sitemap.urlset.url)) {
         // Iterate over each URL in the sitemap and create an array of entries for each URL
         // console.log('Indexing pages...');
         for (const url of config.sitemap.urlset.url) {// for production
             // for (const url of config.sitemap.urlset.url.slice(150, 163)) {// for testing
             const pageUrl = url.loc[0];
+            const pageExtension = getFileExtension(pageUrl);
             const parsedUrl = new URL(pageUrl);
             console.log(`Indexing ${pageUrl}`);
             writeToSuccesFile(`Indexing ${pageUrl}`);
@@ -64,7 +92,7 @@ export default async function scrape(config, customScrape) {
                     creationDate: scraped.creationDate,
                     pageTitle: scraped.pageTitle,
                     firstHeadingBeforeElements: scraped.firstHeadingBeforeElements,
-                    mediaType: scraped.mediaType
+                    mediaType: pageExtension
                 });
 
                 output.forEach((entry) => {
