@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://github.com/SmithSamuelM/Papers/blob/master/.github/FUNDING.yml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/SmithSamuelM/Papers/blob/master/.gitignore</loc>
+  </url>
+  <url>
+    <loc>https://github.com/SmithSamuelM/Papers/blob/master/LICENSE-2.0.txt</loc>
+  </url>
+  <url>
     <loc>https://github.com/SmithSamuelM/Papers/blob/master/presentations/ACDC.web.pdf</loc>
   </url>
   <url>
@@ -148,16 +157,34 @@
     <loc>https://github.com/SmithSamuelM/Papers/blob/master/presentations/ZeroTrustRaet.pdf</loc>
   </url>
   <url>
+    <loc>https://github.com/SmithSamuelM/Papers/blob/master/presentations/seedquestdemolink.txt</loc>
+  </url>
+  <url>
     <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/10-ssi-key-management.pdf</loc>
   </url>
   <url>
     <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/ACDC.web.pdf</loc>
   </url>
   <url>
+    <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/ACDC_Spec.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/A_DID_for_everything.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/A_DID_for_everything.odt</loc>
+  </url>
+  <url>
     <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/A_DID_for_everything.pdf</loc>
   </url>
   <url>
     <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/CooperationBeatsAggregation.pdf</loc>
+  </url>
+  <url>
+    <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/DIDRevised.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/DecentralizedAutonomicData.md</loc>
   </url>
   <url>
     <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/DecentralizedAutonomicData.pdf</loc>
@@ -175,16 +202,34 @@
     <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/Identity-System-Essentials.pdf</loc>
   </url>
   <url>
+    <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/IdentityAndReputation.md</loc>
+  </url>
+  <url>
     <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP.web.pdf</loc>
   </url>
   <url>
     <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf</loc>
   </url>
   <url>
+    <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/ManyCubed.md</loc>
+  </url>
+  <url>
     <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/ManyCubed.pdf</loc>
   </url>
   <url>
+    <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/SPAC_Message.md</loc>
+  </url>
+  <url>
     <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/SPAC_Message.pdf</loc>
+  </url>
+  <url>
+    <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/SelfIdentifyingData.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/VC_Enhancement_Strategy.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/XORA.md</loc>
   </url>
   <url>
     <loc>https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/alice-attempts-abuse-verifiable-credential.pdf</loc>

@@ -55,6 +55,9 @@
     <loc>https://readthedocs.org/accounts/password/reset/</loc>
   </url>
   <url>
+    <loc>https://readthedocs.org/projects/keripy/builds/21531877/</loc>
+  </url>
+  <url>
     <loc>https://readthedocs.org/projects/keripy/builds/21496191/</loc>
   </url>
   <url>
@@ -97,9 +100,6 @@
     <loc>https://readthedocs.org/projects/keripy/builds/21059455/</loc>
   </url>
   <url>
-    <loc>https://readthedocs.org/projects/keripy/builds/21058555/</loc>
-  </url>
-  <url>
     <loc>https://readthedocs.org/dashboard/keripy/version/main/edit/</loc>
   </url>
   <url>
@@ -122,6 +122,9 @@
   </url>
   <url>
     <loc>https://readthedocs.org/accounts/signup/?next=%2Fsupport%2F</loc>
+  </url>
+  <url>
+    <loc>https://readthedocs.org/api/v2/build/21531877.txt</loc>
   </url>
   <url>
     <loc>https://readthedocs.org/api/v2/build/21496191.txt</loc>
@@ -164,8 +167,5 @@
   </url>
   <url>
     <loc>https://readthedocs.org/api/v2/build/21059455.txt</loc>
-  </url>
-  <url>
-    <loc>https://readthedocs.org/api/v2/build/21058555.txt</loc>
   </url>
 </urlset>
