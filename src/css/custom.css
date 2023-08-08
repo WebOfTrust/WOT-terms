@@ -32,6 +32,16 @@
 }
 
 
+/* 
+  Hide the theme selector since the dark theme is not ready yet
+  The "\" escapes the "@"
+*/
+.colorModeToggle_node_modules-\@docusaurus-theme-classic-lib-theme-Navbar-Content-styles-module  {
+  display: none;
+}
+
+
+
 /* Needed since introducion of Bootstrap */
 .navbar.navbar--fixed-top {
   margin-left: 1em;
