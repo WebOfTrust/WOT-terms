@@ -43,7 +43,7 @@ async function customScrape(page, domQueryForContent, pageUrl) {
     // let pageTitle = await page.$eval('article header h1', (element) => {
     //     return element.textContent.trim()
     // });
-    const pageTitle = await getTextContent(page, 'article > h1');
+    const pageTitle = await getTextContent(page, 'article h1:first-of-type');
 
 
     let all = {};
