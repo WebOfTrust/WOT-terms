@@ -436,12 +436,33 @@ table td:nth-child(8) {
   text-decoration: none;
 }
 
-/* Fixes the fact that on iOS you cannot scroll horizontally in a pre tag */
+/* Fix: on iOS you cannot scroll horizontally in a pre tag in search results */
 #search pre {
   overflow-x: scroll;
   width: 100%;
   position: relative;
 }
+
+#search pre {
+    overflow-x: scroll;
+}
+
+/* This forces the scrollbar to always be visible in WebKit browsers */
+#search pre::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 11px;
+}
+
+#search pre::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white; /* should match the background of the container */
+    background-color: rgba(0, 0, 0, .5);
+}
+
+#search pre::-webkit-scrollbar-track {
+    background-color: #e5e5e5;
+}
+
 
 /* The icon at the top right, which starts the search modal */
 #search-start {
