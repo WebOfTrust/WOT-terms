@@ -289,6 +289,7 @@ const config = {
     require.resolve('./clientModules/addDataTypes'),
     require.resolve('./clientModules/showGPTsummary'),
     require.resolve('./clientModules/typesenseHandleSearchModal'),
+    require.resolve('./clientModules/scrollHorizontallyToKeyWordInSearchResults'),
   ],
 };
 
