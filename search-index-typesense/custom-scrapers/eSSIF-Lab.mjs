@@ -22,7 +22,7 @@ async function customScrape(page, domQueryForContent, pageUrl) {
     // pageTitle = await page.$eval('article header h1', (element) => {
     //     element.textContent.trim()
     // });
-    const pageTitle = await getTextContent(page, 'article header h1');
+    const pageTitle = await getTextContent(page, 'article h1');
 
     // const hierarchyLevels = await page.$$eval('.breadcrumbs__link', (nodes) =>
     //   nodes.map((node) => node.textContent.trim())
