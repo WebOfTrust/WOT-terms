@@ -26,7 +26,6 @@ const unwantedExtensions = [
   '.gitkeep',
   '.DS_Store',
   '.git',
-  '.coveragerc',
   '.editorconfig',
   '.eslintrc',
   '.eslintignore',
@@ -44,6 +43,18 @@ const unwantedExtensions = [
   '.docusaurus'
 ];
 
+// Add an array for unwanted hidden files
+const unwantedHiddenFiles = [
+  '.gitignore',
+  '.gitattributes',
+  '.gitmodules',
+  '.gitkeep',
+  '.DS_Store',
+  '.coveragerc'
+  // ... [Any other hidden files you want to exclude]
+];
+
+
 // Array of specific file names to filter out, examples: 'README.md', 'README'
 // README.md will remove all files named README.md but not README
 //TODO: test if README will remove all files named README and README.md
@@ -55,6 +66,7 @@ const unwantedFileNames = [
   'package-lock.json',
   '__pycache__',
   '__init__.py',
+  'init.py',
   'README.md',
   'setup.py',
   'requirements.txt',
@@ -77,7 +89,7 @@ const unwantedFileNames = [
 // const unwantedPatterns = [/^\./, /\.env\..*/]; 
 const unwantedPatterns = [/\.env\..*/];
 
-async function removeFilesFromSitemap(dir, extensions, fileNames, patterns) {
+async function removeFilesFromSitemap(dir, extensions, fileNames, hiddenFiles, patterns) {
   const files = fs.readdirSync(dir).filter(file => file.endsWith('.xml'));
 
   for (const file of files) {
@@ -98,6 +110,13 @@ async function removeFilesFromSitemap(dir, extensions, fileNames, patterns) {
         if (extensions.includes(parsedPath.ext)) {
           console.log('Url removed from sitemap: ', parsedUrl.href);
           writeToSuccesFile('Url removed from sitemap: ' + parsedUrl.href);
+          return false;
+        }
+
+        // Filter out unwanted hidden files
+        if (hiddenFiles.includes(parsedPath.base)) {
+          console.log('Hidden file URL removed from sitemap: ', parsedUrl.href);
+          writeToSuccesFile('Hidden file URL removed from sitemap: ' + parsedUrl.href);
           return false;
         }
 
@@ -130,7 +149,7 @@ async function removeFilesFromSitemap(dir, extensions, fileNames, patterns) {
   }
 }
 
-removeFilesFromSitemap(sitemapDir, unwantedExtensions, unwantedFileNames, unwantedPatterns)
+removeFilesFromSitemap(sitemapDir, unwantedExtensions, unwantedFileNames, unwantedHiddenFiles, unwantedPatterns)
   .then(() => {
     console.log('Removed urls from sitemaps successfully');
     writeToSuccesFile('Removed urls from sitemaps successfully');
