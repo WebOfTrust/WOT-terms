@@ -27,6 +27,7 @@ async function customScrape(page, domQueryForContent, pageUrl) {
     all.mainContent = mainContent;
     all.pageTitle = pageTitle;
     all.creationDate = 'Oct 15, 2020';// manually added
+    all.mediaType = "Web page";
     return all;
 }
 export default async function () {

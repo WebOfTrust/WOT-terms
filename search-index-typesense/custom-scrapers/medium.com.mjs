@@ -84,6 +84,7 @@ async function customScrape(page, domQueryForContent, pageUrl) {
     all.mainContent = mainContent;
     all.pageTitle = pageTitle;
     all.creationDate = creationDate;
+    all.mediaType = "Web page";
 
     return all;
 }
