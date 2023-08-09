@@ -513,6 +513,11 @@ table td:nth-child(8) {
   padding: 0.5em;
 } 
 
+.ais-Hits--empty {
+  background: transparent url('/img/travolta.gif') center center no-repeat;
+  min-height: 400px;
+}
+
 .ais-Pagination-item--selected .ais-Pagination-link {
   border: 1px solid var(--ifm-color-primary);
   border-radius: 7px;
@@ -609,6 +614,42 @@ table td:nth-child(8) {
   margin: 0 auto;
   display: block;
 }
+
+#search pre mark {
+  background-color: #ffff00;
+  color: #000;
+  position: relative;
+}
+#search pre mark:after {
+  position: absolute;
+  bottom: 1.5em; /* Positioning the square at the bottom */
+  right: -0.5em;  /* Positioning the square to the right */
+  width: 80px;  /* Width of the square */
+  height: 80px; /* Height of the square */  content: "";
+  /* border: #000 1px solid; */
+  background: transparent url('/img/hand-drawn-arrow-4.png') center center no-repeat;
+  background-size: contain;
+  transform: rotate(80deg);
+  transform-origin: center;
+}
+
+#search pre mark.arrow-variant1:after {
+  transform: rotate(60deg);
+  right: -0.5em;
+}
+#search pre mark.arrow-variant2:after {
+  transform: rotate(50deg);
+  right: 0.5em;
+}
+#search pre mark.arrow-variant3:after {
+  transform: rotate(120deg);
+  right: -3.5em;
+}
+#search pre mark.arrow-variant4:after {
+  transform: rotate(100deg);
+  right: -1.5em;
+}
+
 
 /**
   * END TYPESENSE INSTANTSEARCH
