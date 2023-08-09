@@ -37,7 +37,8 @@ export default async function scrape(config, customScrape) {
             if (match) {
                 return match[1]; // Return the file extension without the dot
             } else {
-                return null; // No file extension found
+                // return null; // No file extension found
+                return "Web page"; // No file extension found, so we'll assume it's a web page
             }
 
         } catch (err) {
