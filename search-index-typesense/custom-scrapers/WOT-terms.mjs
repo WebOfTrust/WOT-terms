@@ -55,7 +55,6 @@ async function customScrape(page, domQueryForContent, pageUrl) {
     all.hierarchyLevel3 = hierarchyLevels[3];
     all.knowledgeLevel = knowledgeLevel;
     all.pageTitle = pageTitle;
-    all.mediaType = "Web page";
     return all;
 }
 export default async function () {

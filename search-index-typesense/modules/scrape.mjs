@@ -77,7 +77,12 @@ export default async function scrape(config, customScrape) {
                     scraped = await customScrape(page, config.domQueryForContent, pageUrl);//TODO: find out if pageUrl is needed
                 }
 
-                // if an entry is not passed, createOutput creates a default entry
+                /* 
+                -if an entry is not passed, createOutput creates a default entry.
+                -everything that is assigned via scraped, like scraped,knowledgeLevel, can be added via customScrape. But mediaType for example cannot be assigned via the custom Scraper but get its data via a local var.
+                */
+
+
                 let output = createOutput({
                     siteName: config.siteName,
                     source: config.source,

@@ -26,7 +26,6 @@ async function customScrape(page, domQueryForContent, pageUrl) {
     let all = {};
     all.mainContent = mainContent;
     all.pageTitle = pageTitle;
-    all.mediaType = "Web page";
     return all;
 }
 export default async function () {
