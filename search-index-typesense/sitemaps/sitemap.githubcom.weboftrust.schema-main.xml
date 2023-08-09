@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/WebOfTrust/schema/blob/main/.gitignore</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/schema/blob/main/bindkey/bindkey.schema.json</loc>
   </url>
   <url>
@@ -14,9 +11,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/schema/blob/main/registry.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/.gitignore</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/.projectile</loc>

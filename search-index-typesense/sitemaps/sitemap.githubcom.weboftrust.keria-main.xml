@@ -7,7 +7,22 @@
     <loc>https://github.com/WebOfTrust/keria/blob/main/.github/workflows/python-app-ci.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keria/blob/main/.gitignore</loc>
+    <loc>https://github.com/WebOfTrust/keria/blob/main/.readthedocs.yaml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/keria/blob/main/docs/README.rst</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/keria/blob/main/docs/keria_app.rst</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/keria/blob/main/docs/keria_core.rst</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/keria/blob/main/docs/keria_db.rst</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/keria/blob/main/docs/keria_end.rst</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/docs/protocol.md</loc>
@@ -71,9 +86,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/end/ending.py</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/keriaing.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/testing/testing_helper.py</loc>

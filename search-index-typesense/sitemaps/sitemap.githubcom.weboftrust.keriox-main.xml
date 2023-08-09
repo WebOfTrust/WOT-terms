@@ -4,9 +4,6 @@
     <loc>https://github.com/WebOfTrust/keriox/blob/main/.github/workflows/rust.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keriox/blob/main/.gitignore</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keriox/blob/main/src/database/lmdb.rs</loc>
   </url>
   <url>

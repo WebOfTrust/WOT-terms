@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/WebOfTrust/keri/blob/main/.gitignore</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keri/blob/main/CONTRIBUTING.md</loc>
   </url>
   <url>
@@ -14,9 +11,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keri/blob/main/agenda2022.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keri/blob/main/docs/.DS_Store</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keri/blob/main/docs/Glossary.md</loc>
@@ -41,9 +35,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keri/blob/main/docs/oobi.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keri/blob/main/images/.DS_Store</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keri/blob/main/images/delegation_flow.plantuml</loc>

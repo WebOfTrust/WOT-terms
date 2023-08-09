@@ -4,9 +4,6 @@
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/.github/workflows/main.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/.gitignore</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/challenge.ts</loc>
   </url>
   <url>
@@ -86,9 +83,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/.eslintrc.cjs</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/.gitignore</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/.puppeteerrc.cjs</loc>

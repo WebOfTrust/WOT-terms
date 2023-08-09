@@ -16,9 +16,6 @@
     <loc>https://github.com/WebOfTrust/keep/blob/main/.github/workflows/release.yaml</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keep/blob/main/.gitignore</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keep/blob/main/.prettierrc.json</loc>
   </url>
   <url>
@@ -397,9 +394,6 @@
     <loc>https://github.com/WebOfTrust/keep/blob/main/src/app/views/settings/settings.spec.jsx</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/.gitkeep</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/avenir-next-lt-pro/AvenirNextLTPro-Bold.otf</loc>
   </url>
   <url>
@@ -449,9 +443,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/avenir-next-lt-pro/AvenirNextLTPro-UltLtCnIt.otf</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keep/blob/main/src/assets/img/.gitkeep</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keep/blob/main/src/assets/img/add-new-contacts.svg</loc>

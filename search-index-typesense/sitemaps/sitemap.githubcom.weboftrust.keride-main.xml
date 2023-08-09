@@ -7,9 +7,6 @@
     <loc>https://github.com/WebOfTrust/keride/blob/main/.github/workflows/test.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/keride/blob/main/.gitignore</loc>
-  </url>
-  <url>
     <loc>https://github.com/WebOfTrust/keride/blob/main/.rustfmt.toml</loc>
   </url>
   <url>
@@ -200,12 +197,6 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keride/blob/main/src/signing/signer.rs</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keride/blob/main/wasm/.gitignore</loc>
-  </url>
-  <url>
-    <loc>https://github.com/WebOfTrust/keride/blob/main/wasm/demo/node/.gitignore</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keride/blob/main/wasm/demo/node/src/main.ts</loc>
