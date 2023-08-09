@@ -24,12 +24,13 @@ function scrollToMarkElementInPre() {
 
       // Scroll the parent <pre> horizontally
       pre.scrollLeft = scrollOffset;
+
+      // Add a random arrow to the <mark> element. A little bit of fun. Check the css file for the arrow variants.
+      const variant = Math.floor(Math.random() * 4) + 1;
+      mark.className = '';
+      mark.classList.add('arrow-variant' + variant);
     }
 
-    // Add a random arrow to the <mark> element. A little bit of fun. Check the css file for the arrow variants.
-    const variant = Math.floor(Math.random() * 4) + 1;
-    mark.className = '';
-    mark.classList.add('arrow-variant' + variant);
   });
 }
 
