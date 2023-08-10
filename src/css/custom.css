@@ -852,53 +852,59 @@ article .markdown img,
 
 /* Default settings, no media queries */
 article .markdown .inline-thumb-start,
-#hits img .inline-thumb-start,
+#hits img.inline-thumb-start,
 article .markdown .inline-thumb-end,
-#hits img  .inline-thumb-end,
+#hits img.inline-thumb-end,
 article .markdown .inline-small-start,
-#hits img  .inline-small-start,
+#hits img.inline-small-start,
 article .markdown .inline-small-end,
-#hits img  .inline-small-end,
+#hits img.inline-small-end,
 article .markdown .inline-medium-start,
-#hits img  .inline-medium-start,
+#hits img.inline-medium-start,
 article .markdown .inline-medium-end,
-#hits img  .inline-medium-end {
+#hits img.inline-medium-end {
   width: 100%;
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-  article .markdown  .inline-thumb-start {
+  article .markdown .inline-thumb-start,
+  #hits img.inline-thumb-start {
     float: left;
     width: 5em;
     max-width: 15%;
     margin: 0 1em 1em 0;
   }
-  article .markdown .inline-thumb-end {
+  article .markdown .inline-thumb-end,
+  #hits img.inline-thumb-end {
     float: right;
     width: 5em;
     max-width: 15%;
     margin: 0 0 1em 1em;
   }
-  article .markdown .inline-small-start {
+  article .markdown .inline-small-start,
+  #hits img.inline-small-start {
     float: left;
     width: 15em;
     max-width: 25%;
     margin: 0 1em 1em 0;
   }
-  article .markdown .inline-small-end {
+  article .markdown .inline-small-end,
+  #hits img.inline-small-end {
     float: right;
     width: 15em;
     max-width: 25%;
     margin: 0 0 1em 1em;
   }
-  article .markdown .inline-medium-start {
+  article .markdown .inline-medium-start,
+  #hits img.inline-medium-start {
     float: left;
     width: 25em;
     max-width: 50%;
     margin: 0 1em 1em 0;
   }
-  article .markdown .inline-medium-end {
+  article .markdown .inline-medium-end,
+  #hits img.inline-medium-end {
     float: right;
     width: 25em;
     max-width: 50%;
