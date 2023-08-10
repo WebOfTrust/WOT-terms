@@ -17,6 +17,7 @@ import {
   // stats,
   // analytics,
   refinementList,
+  clearRefinements
   // menu,
   // sortBy,
   // currentRefinements,
@@ -256,6 +257,17 @@ const typeSenseInstantSearch = () => {
     pagination({
       container: '#pagination',
     }),
+    clearRefinements({
+      container: '#clear-refinements',
+      templates: {
+        resetLabel: 'Clear filters'
+      },
+      cssClasses: {
+        button: 'btn btn-secondary btn-sm align-content-center mb-5 mt-3'
+      }
+    }),
+
+
     refinementList({
       container: '#knowledgelevel-refinement-list',
       attribute: 'knowledgeLevel',
