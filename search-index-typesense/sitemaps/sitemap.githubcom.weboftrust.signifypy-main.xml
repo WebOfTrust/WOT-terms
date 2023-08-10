@@ -52,6 +52,9 @@
     <loc>https://github.com/WebOfTrust/signifypy/blob/main/scripts/env.sh</loc>
   </url>
   <url>
+    <loc>https://github.com/WebOfTrust/signifypy/blob/main/scripts/init_agent.py</loc>
+  </url>
+  <url>
     <loc>https://github.com/WebOfTrust/signifypy/blob/main/scripts/issue-ecr.sh</loc>
   </url>
   <url>
@@ -59,6 +62,9 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signifypy/blob/main/scripts/list_person_credentials.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signifypy/blob/main/scripts/multisig-endrole.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signifypy/blob/main/src/signify/app/aiding.py</loc>
@@ -73,10 +79,16 @@
     <loc>https://github.com/WebOfTrust/signifypy/blob/main/src/signify/app/credentialing.py</loc>
   </url>
   <url>
-    <loc>https://github.com/WebOfTrust/signifypy/blob/main/src/signify/app/grouping.py</loc>
+    <loc>https://github.com/WebOfTrust/signifypy/blob/main/src/signify/app/ending.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signifypy/blob/main/src/signify/app/escrowing.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signifypy/blob/main/src/signify/core/authing.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signifypy/blob/main/src/signify/core/httping.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signifypy/blob/main/src/signify/core/keeping.py</loc>

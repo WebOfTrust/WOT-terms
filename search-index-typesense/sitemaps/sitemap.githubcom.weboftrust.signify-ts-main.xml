@@ -4,6 +4,15 @@
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/.github/workflows/main.yml</loc>
   </url>
   <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/codecov.yaml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/docs/diagrams/account-creation-webpage-workflow.mmd</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/docs/diagrams/account-creation-workflow.mmd</loc>
+  </url>
+  <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/challenge.ts</loc>
   </url>
   <url>
@@ -49,6 +58,9 @@
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/create_person_aid.py</loc>
   </url>
   <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/create_rpys.py</loc>
+  </url>
+  <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/data/delegator.json</loc>
   </url>
   <url>
@@ -67,13 +79,28 @@
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/keri/cf/demo-witness-oobis-schema.json</loc>
   </url>
   <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/list_aids.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/make_endroles.ts</loc>
+  </url>
+  <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/multisig-kli.sh</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/multisig-sigpy.sh</loc>
   </url>
   <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/multisig-sigty.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/multisig_endrole.py</loc>
+  </url>
+  <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/src/index.ts</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/stream_escrows.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/signify-ts/blob/main/examples/scripts/tsconfig.json</loc>

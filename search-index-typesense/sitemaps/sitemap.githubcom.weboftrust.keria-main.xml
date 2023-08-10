@@ -10,6 +10,9 @@
     <loc>https://github.com/WebOfTrust/keria/blob/main/.readthedocs.yaml</loc>
   </url>
   <url>
+    <loc>https://github.com/WebOfTrust/keria/blob/main/codecov.yaml</loc>
+  </url>
+  <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/docs/README.rst</loc>
   </url>
   <url>
@@ -68,6 +71,9 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/app/specing.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/app/watching.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/src/keria/core/authing.py</loc>
@@ -149,6 +155,9 @@
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/tests/app/test_credentialing.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/keria/blob/main/tests/app/test_httping.py</loc>
   </url>
   <url>
     <loc>https://github.com/WebOfTrust/keria/blob/main/tests/app/test_indirecting.py</loc>

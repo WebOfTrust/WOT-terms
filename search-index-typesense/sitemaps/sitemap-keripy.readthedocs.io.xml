@@ -7,13 +7,19 @@
     <loc>https://keripy.readthedocs.io/en/latest/</loc>
   </url>
   <url>
-    <loc>https://keripy.readthedocs.io/en/feat-sync/</loc>
+    <loc>https://keripy.readthedocs.io/en/main/</loc>
+  </url>
+  <url>
+    <loc>https://keripy.readthedocs.io/en/development/</loc>
   </url>
   <url>
     <loc>https://readthedocs.org/projects/keripy/?fromdocs=keripy</loc>
   </url>
   <url>
     <loc>https://readthedocs.org/builds/keripy/?fromdocs=keripy</loc>
+  </url>
+  <url>
+    <loc>https://keripy.readthedocs.io/en/feat-sync/</loc>
   </url>
   <url>
     <loc>https://readthedocs.org/</loc>
@@ -41,6 +47,9 @@
   </url>
   <url>
     <loc>https://readthedocs.org/profiles/pfeairheller/</loc>
+  </url>
+  <url>
+    <loc>https://readthedocs.org/profiles/m00sey/</loc>
   </url>
   <url>
     <loc>https://readthedocs.org/sustainability/</loc>
@@ -79,6 +88,15 @@
     <loc>https://readthedocs.org/accounts/password/reset/</loc>
   </url>
   <url>
+    <loc>https://readthedocs.org/projects/keripy/builds/21562092/</loc>
+  </url>
+  <url>
+    <loc>https://readthedocs.org/projects/keripy/builds/21560727/</loc>
+  </url>
+  <url>
+    <loc>https://readthedocs.org/projects/keripy/builds/21560572/</loc>
+  </url>
+  <url>
     <loc>https://readthedocs.org/projects/keripy/builds/21531877/</loc>
   </url>
   <url>
@@ -115,18 +133,6 @@
     <loc>https://readthedocs.org/projects/keripy/builds/21071656/</loc>
   </url>
   <url>
-    <loc>https://readthedocs.org/projects/keripy/builds/21071635/</loc>
-  </url>
-  <url>
-    <loc>https://readthedocs.org/projects/keripy/builds/21071631/</loc>
-  </url>
-  <url>
-    <loc>https://readthedocs.org/projects/keripy/builds/21059455/</loc>
-  </url>
-  <url>
-    <loc>https://readthedocs.org/dashboard/keripy/version/main/edit/</loc>
-  </url>
-  <url>
     <loc>https://readthedocs.org/dashboard/keripy/version/development/edit/</loc>
   </url>
   <url>
@@ -139,6 +145,9 @@
     <loc>https://readthedocs.org/projects/loopy/</loc>
   </url>
   <url>
+    <loc>https://readthedocs.org/projects/keria/</loc>
+  </url>
+  <url>
     <loc>https://readthedocs.org/sustainability/#supporters</loc>
   </url>
   <url>
@@ -146,6 +155,15 @@
   </url>
   <url>
     <loc>https://readthedocs.org/accounts/signup/?next=%2Fsupport%2F</loc>
+  </url>
+  <url>
+    <loc>https://readthedocs.org/api/v2/build/21562092.txt</loc>
+  </url>
+  <url>
+    <loc>https://readthedocs.org/api/v2/build/21560727.txt</loc>
+  </url>
+  <url>
+    <loc>https://readthedocs.org/api/v2/build/21560572.txt</loc>
   </url>
   <url>
     <loc>https://readthedocs.org/api/v2/build/21531877.txt</loc>
@@ -182,14 +200,5 @@
   </url>
   <url>
     <loc>https://readthedocs.org/api/v2/build/21071656.txt</loc>
-  </url>
-  <url>
-    <loc>https://readthedocs.org/api/v2/build/21071635.txt</loc>
-  </url>
-  <url>
-    <loc>https://readthedocs.org/api/v2/build/21071631.txt</loc>
-  </url>
-  <url>
-    <loc>https://readthedocs.org/api/v2/build/21059455.txt</loc>
   </url>
 </urlset>
