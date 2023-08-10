@@ -18,7 +18,7 @@ const config = {
 async function customScrape(page, domQueryForContent, pageUrl) {
     const mainContent = await extractMainContent(page, domQueryForContent);
 
-    const pageTitle = await getTextContent(page, '#keri-db-api h1');
+    const pageTitle = await getTextContent(page, 'section h1');
 
     let all = {};
     all.mainContent = mainContent;
