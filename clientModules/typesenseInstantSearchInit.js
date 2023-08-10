@@ -24,7 +24,9 @@ const typesenseInstantSearchCreateDomElements = () => {
    <div class="row mt-3">
       <div class="col-md-3 p-0">
          <h2 class="">Refine</h2>
-          
+
+         <div id="clear-refinements"></div>
+
          <div class="" id="filters-section">
             <h3 class="mt-1">Source</h3>
             <div id="source-refinement-list"></div>
