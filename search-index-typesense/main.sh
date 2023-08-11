@@ -71,6 +71,10 @@ function do_main() {
     # Get the directory where the main.sh script is located
     SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+    # Backup output from previous run.
+    source "$SCRIPT_DIR/backup.sh"
+    echo "Backup finished" | tee -a search-index-typesense/logs/succes.log
+
     # Prepare file system.
     source "$SCRIPT_DIR/prepareFileSystem.sh"
     echo "Preparing file system finished" | tee -a search-index-typesense/logs/succes.log
