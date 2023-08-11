@@ -81,43 +81,75 @@ export async function githubPDF(page, pageUrl) {
     // Now that the whole pdf is loaded (into several canvasses), we can scrape the PDF
     // Fetch all the canvas elements on the page
     const canvases = await page.$$('canvas');
+
+    // TODO: remove after testing
+    // for (const canvas of canvases) {
+    //     const canvasImage = await canvas.screenshot();
+
+    //     // OCR the captured canvas image using Tesseract.js
+    //     Tesseract.recognize(
+    //         canvasImage,
+    //         'eng',
+    //         {
+    //             logger: m => {
+    //                 console.log(m);
+    //                 writeToSuccesFile(m);
+    //             }
+    //         }
+    //     ).then(({ data: { text } }) => {
+    //         mainContent.push({
+    //             content: text,
+    //             contentLength: text.length,
+    //             tag: "pdf"
+    //         });
+    //     }).catch(err => {
+    //         console.error('Error:', err);
+    //         writeToErrorFile('Error:' + err);
+    //     });
+
+    //     // // Tesseract via Worker part 2 - load image
+    //     // (async () => {
+    //     //     await worker.loadLanguage('eng');
+    //     //     await worker.initialize('eng');
+    //     //     const { data: { text } } = await worker.recognize(canvasImage);
+    //     //     // console.log(text);
+    //     //     mainContent.push({
+    //     //         content: text,
+    //     //         contentLength: text.length,
+    //     //         tag: "pdf"
+    //     //     });
+    //     // })();
+    // }
+
     for (const canvas of canvases) {
         const canvasImage = await canvas.screenshot();
 
-        // OCR the captured canvas image using Tesseract.js
-        Tesseract.recognize(
-            canvasImage,
-            'eng',
-            {
-                logger: m => {
-                    console.log(m);
-                    writeToSuccesFile(m);
+        try {
+            // OCR the captured canvas image using Tesseract.js
+            const { data: { text } } = await Tesseract.recognize(
+                canvasImage,
+                'eng',
+                {
+                    logger: m => {
+                        console.log(m);
+                        writeToSuccesFile(m);
+                    }
                 }
-            }
-        ).then(({ data: { text } }) => {
+            );
+
             mainContent.push({
                 content: text,
                 contentLength: text.length,
                 tag: "pdf"
             });
-        }).catch(err => {
+
+        } catch (err) {
             console.error('Error:', err);
             writeToErrorFile('Error:' + err);
-        });
-
-        // // Tesseract via Worker part 2 - load image
-        // (async () => {
-        //     await worker.loadLanguage('eng');
-        //     await worker.initialize('eng');
-        //     const { data: { text } } = await worker.recognize(canvasImage);
-        //     // console.log(text);
-        //     mainContent.push({
-        //         content: text,
-        //         contentLength: text.length,
-        //         tag: "pdf"
-        //     });
-        // })();
+        }
     }
+
+
 
     // // Tesseract via Worker part 3 - close the worker
     // await worker.terminate();
