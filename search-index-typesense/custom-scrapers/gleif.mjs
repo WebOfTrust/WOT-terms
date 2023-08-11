@@ -6,7 +6,7 @@ import { writeToErrorFile } from '../modules/writeToErrorFile.mjs';
 import { writeToSuccesFile } from '../modules/writeToSuccesFile.mjs';
 
 const config = {
-    // 1: Use a local created sitemap
+    // // 1: Use a local created sitemap
     // sitemap: await createInput({
     //     sourceType: 'localXMLsitemap',
     //     sourcePath: 'search-index-typesense/sitemaps/sitemap-www.gleif.org.xml',
