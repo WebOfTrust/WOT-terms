@@ -5,14 +5,15 @@
   Description: Scrape websites using puppeteer.
 */
 
-
 import puppeteer from 'puppeteer';
 import createOutput from './createOutput.mjs';
-import writeToFile from './writeToFile.mjs';
+import appendToFile from './appendToFile.mjs';
 import fs from 'fs';
 import { writeToErrorFile } from './writeToErrorFile.mjs';
 import { writeToSuccesFile } from './writeToSuccesFile.mjs';
 import { githubPDF } from './github-pdf.mjs';
+import { processPDF as generalPDF } from './general-pdf.mjs';
+import { getFileContent as githubContent } from './github-API.mjs';
 
 export default async function scrape(config, customScrape) {
     const browser = await puppeteer.launch();// for production
@@ -20,8 +21,6 @@ export default async function scrape(config, customScrape) {
     const page = await browser.newPage();
     // Set a custom user agent header
     await page.setUserAgent('KERISSE-Web-of-Trust-Scraper');
-    // Iterate over each URL in the sitemap and create an array of entries for each URL
-    const entries = [];
     let scraped = {};
 
     function getFileExtension(url) {
@@ -37,20 +36,33 @@ export default async function scrape(config, customScrape) {
             if (match) {
                 return match[1]; // Return the file extension without the dot
             } else {
-                // return null; // No file extension found
                 return "Web page"; // No file extension found, so we'll assume it's a web page
             }
 
         } catch (err) {
             console.error(err.message);
+            writeToErrorFile(err.message);
             return null; // Invalid URL
         }
     }
 
-    // const url = 'https://github.com/SmithSamuelM/Papers/blob/master/presentations/AI_Overview_20180208.pdf';
-    // const fileExtension = getFileExtension(url);
-    // console.log(fileExtension);  // Output: pdf
+    function extractGithubParts(url) {
+        // Check if the URL is a valid GitHub URL
+        const githubRegex = /^https:\/\/github\.com\/([^\/]+)\/([^\/]+)\/blob\/([^\/]+)\/(.+)$/;
+        const match = url.match(githubRegex);
 
+        if (!match) {
+            writeToErrorFile('Invalid GitHub URL');
+            throw new Error('Invalid GitHub URL');
+        }
+
+        return {
+            owner: match[1],
+            repo: match[2],
+            branch: match[3],
+            path: match[4]
+        };
+    }
 
     if (config && config.sitemap && config.sitemap.urlset && Array.isArray(config.sitemap.urlset.url)) {
         // Iterate over each URL in the sitemap and create an array of entries for each URL
@@ -65,25 +77,60 @@ export default async function scrape(config, customScrape) {
 
             try {
                 // Navigate to the page URL and process the page content using the specified function
-                await page.goto(pageUrl);
 
-                // If the page is a PDF…
+                // PDF:
                 if (pageUrl.toLowerCase().endsWith('.pdf')) {
-                    // …and it's on github.com use the githubPDF function
+                    // PDF + github.com
                     if (parsedUrl.hostname.includes('github.com')) {
+                        await page.goto(pageUrl);
                         scraped = await githubPDF(page, pageUrl);
                     }
-                } else {
-                    scraped = await customScrape(page, config.domQueryForContent, pageUrl);//TODO: find out if pageUrl is needed
+                    // PDF + not github.com
+                    else {
+                        scraped = await generalPDF(pageUrl);
+                    }
+
+                }
+
+                // Not PDF:
+                else {
+                    // Not PDF + github.com
+                    if (parsedUrl.hostname.includes('github.com')) {
+
+                        let mainContent = [];
+                        const parts = extractGithubParts(url.loc[0]);
+
+                        const content = await githubContent(parts.owner, parts.repo, parts.branch, parts.path)
+                            .then(content => {
+                                return content;
+                            })
+                            .catch(error => {
+                                console.error(`Failed to fetch file content: ${error.message}`);
+                            });
+
+                        // return content;
+                        mainContent.push({
+                            content: content,
+                            contentLength: content.length,
+                            tag: 'textarea',
+                        });
+                        scraped.mainContent = mainContent;
+                        scraped.pageTitle = parts.path;
+                    }
+
+                    // Not PDF + not github.com
+                    else {
+                        await page.goto(pageUrl);
+                        scraped = await customScrape(page, config.domQueryForContent, pageUrl);//TODO: find out if pageUrl is needed
+                    }
                 }
 
                 /* 
-                -if an entry is not passed, createOutput creates a default entry.
-                -everything that is assigned via scraped, like scraped,knowledgeLevel, can be added via customScrape. But mediaType for example cannot be assigned via the custom Scraper but get its data via a local var.
+                  -if an entry is not passed, createOutput creates a default entry.
+                  -everything that is assigned via scraped, like scraped,knowledgeLevel, can be added via customScrape. But mediaType for example cannot be assigned via the custom Scraper but get its data via a local var.
                 */
 
-
-                let output = createOutput({
+                let strOutput = createOutput({
                     siteName: config.siteName,
                     source: config.source,
                     author: config.author,
@@ -101,12 +148,8 @@ export default async function scrape(config, customScrape) {
                     mediaType: pageExtension
                 });
 
-                output.forEach((entry) => {
-                    console.log('Output: ' + JSON.stringify(entry));
-                    writeToSuccesFile('Output: ' + JSON.stringify(entry));
-                    entries.push(entry);
-                });
 
+                appendToFile(strOutput, config.destinationFile);
                 // Log the page URL to a log file and to a markdown file
                 fs.appendFileSync('search-index-typesense/logs/scraped.log', `Scraped: ${pageUrl}\n`);
                 fs.appendFileSync(process.env.INDEX_OVERVIEW_FILE, `${pageUrl}\n\n`);
@@ -120,8 +163,6 @@ export default async function scrape(config, customScrape) {
         console.error('config.sitemap.urlset.url is not defined or not an array');
         writeToErrorFile('config.sitemap.urlset.url is not defined or not an array');
     }
-
-    writeToFile(entries, config.destinationFile);
 
     // await new Promise(resolve => setTimeout(resolve, 1000000000)); // For testing: Delay the script termination
 
