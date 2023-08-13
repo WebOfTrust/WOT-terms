@@ -1,15 +1,23 @@
 #!/bin/bash
-# Create dirs and files if necessary
 
-### LOG FILES ###
-# Set the directory path in a variable
+
+# Author: Kor Dwarshuis
+# Created: 2023
+# Updated: 2023-08-13
+# Description: This script prepares the file system for the search-index-typesense project. It creates the necessary directories and files. It also removes the old files and directories. This script is meant to be run before the other scripts. 
+
+
+# Set the directory path
 dir_path="search-index-typesense"
 
+
+### LOG FILES ###
 # Check if a directory named "log" exists inside the path
 if [ -d "${dir_path}/logs" ]; then
   # If the directory exists, delete it and everything inside
   rm -rf "${dir_path}/logs"
 fi
+
 
 # Create a new directory named "logs"
 mkdir "${dir_path}/logs"
@@ -18,15 +26,22 @@ mkdir "${dir_path}/logs"
 touch "${dir_path}/logs/error.log" "${dir_path}/logs/import-into-search-index.log" "${dir_path}/logs/scraped.log" "${dir_path}/logs/succes.log"
 
 
-
 ### SEARCH-INDEX-ENTRIES ###
-# Create search-index-entries if it doesn't exist
-
-# Check if a directory named "search-index-entries" does not exist inside the path
-if [ ! -d "${dir_path}/search-index-entries" ]; then
-  # If the directory does not exist, create it
-  mkdir "${dir_path}/search-index-entries"
+if [ -d "${dir_path}/search-index-entries" ]; then
+  rm -rf "${dir_path}/search-index-entries"
 fi
+mkdir "${dir_path}/search-index-entries"
+
+
+### SITEMAPS ###
+if [ -d "${dir_path}/sitemaps" ]; then
+  rm -rf "${dir_path}/sitemaps"
+fi
+mkdir "${dir_path}/sitemaps"
+
+
+
+
 
 
 
