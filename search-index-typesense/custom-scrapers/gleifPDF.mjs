@@ -22,7 +22,7 @@ const config = {
     siteName: 'Gleif website',
     source: 'Gleif website',
     author: '',
-    destinationFile: 'search-index-typesense/search-index-entries/gleifPDF.json'
+    destinationFile: 'search-index-typesense/search-index-entries/gleifPDF.jsonl'
 }
 
 async function customScrape(page, domQueryForContent, pageUrl) {
