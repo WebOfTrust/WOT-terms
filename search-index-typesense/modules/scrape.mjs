@@ -94,9 +94,8 @@ export default async function scrape(config, customScrape) {
 
                 // Not PDF:
                 else {
-                    // Not PDF + github.com
-                    if (parsedUrl.hostname.includes('github.com')) {
-
+                    // Not PDF + github.com (not wiki)
+                    if (parsedUrl.hostname.includes('github.com') && !parsedUrl.pathname.includes('/wiki/')) {
                         let mainContent = [];
                         const parts = extractGithubParts(url.loc[0]);
 
