@@ -7,6 +7,7 @@
 node search-index-typesense/createSitemap.mjs --url https://keripy.readthedocs.io/en/latest/ --depth 5
 
 # Github repos
+node search-index-typesense/createSitemapGithub.mjs SmithSamuelM Papers master search-index-typesense/sitemaps
 node search-index-typesense/createSitemapGithub.mjs WebOfTrust cardano-backer main search-index-typesense/sitemaps
 node search-index-typesense/createSitemapGithub.mjs WebOfTrust cesride main search-index-typesense/sitemaps
 node search-index-typesense/createSitemapGithub.mjs WebOfTrust cesrpy main search-index-typesense/sitemaps
@@ -32,5 +33,4 @@ node search-index-typesense/createSitemapGithub.mjs WebOfTrust signify-ts main s
 node search-index-typesense/createSitemapGithub.mjs WebOfTrust signifypy main search-index-typesense/sitemaps
 node search-index-typesense/createSitemapGithub.mjs WebOfTrust vlei dev search-index-typesense/sitemaps
 node search-index-typesense/createSitemapGithub.mjs WebOfTrust ward main search-index-typesense/sitemaps
-node search-index-typesense/createSitemapGithub.mjs SmithSamuelM Papers master search-index-typesense/sitemaps
 
