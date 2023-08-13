@@ -6,7 +6,7 @@
 # Description:
 
 
-############## COPY JSON FROM HANDMADE DIR TO AUTOMATED DIR ##############
+############## COPY SCRAPED CONTENT (JSON) FROM HANDMADE DIR TO AUTOMATED DIR ##############
 # Handmade entries
 search_index_entries_manual_dir="$(pwd)/search-index-typesense/search-index-entries-manual"
 
@@ -19,7 +19,7 @@ for file in "$search_index_entries_manual_dir"/*.json; do
 done
 
 
-############## COPY XML FROM HANDMADE DIR TO AUTOMATED DIR ##############
+############## COPY SITEMAP.XML FROM HANDMADE DIR TO AUTOMATED DIR ##############
 # Handmade entries
 sitemaps_manual_dir="$(pwd)/search-index-typesense/sitemaps-manual"
 
