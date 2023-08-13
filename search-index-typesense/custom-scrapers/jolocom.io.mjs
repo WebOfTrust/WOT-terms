@@ -11,7 +11,7 @@ const config = {
     siteName: 'jolocom.io blog',
     source: 'Blogposts',
     author: 'Charles',
-    destinationFile: 'search-index-typesense/search-index-entries/jolocom.json',
+    destinationFile: 'search-index-typesense/search-index-entries/jolocom.jsonl',
     domQueryForContent: '.blog-post-single p, .blog-post-single h1, .blog-post-single h2, .blog-post-single h3, .blog-post-single h4, .blog-post-single h5, .blog-post-single h6, .blog-post-single li, .blog-post-single img, '
 }
 

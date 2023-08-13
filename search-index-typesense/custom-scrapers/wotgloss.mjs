@@ -12,7 +12,7 @@ const config = {
     siteName: 'WebofTrust glossary',
     source: 'WebofTrust glossary',
     author: 'Henk van Cann',
-    destinationFile: 'search-index-typesense/search-index-entries/wotgloss.json',
+    destinationFile: 'search-index-typesense/search-index-entries/wotgloss.jsonl',
     domQueryForContent: '.markdown-body p, .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6, .markdown-body li, .markdown-body img, .markdown-body pre, .markdown-body code'
 }
 

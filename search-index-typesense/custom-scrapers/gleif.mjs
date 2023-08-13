@@ -22,7 +22,7 @@ const config = {
     siteName: 'Gleif website',
     source: 'Gleif website',
     author: '',
-    destinationFile: 'search-index-typesense/search-index-entries/gleif.json',
+    destinationFile: 'search-index-typesense/search-index-entries/gleif.jsonl',
     domQueryForContent: 'article .content p, article .content h1, article .content h2, article .content h3, article .content h4, article .content h5, article .content h6, article .content li, article .content img, article .content pre, article .content code'
 }
 
