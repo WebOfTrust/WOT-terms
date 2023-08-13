@@ -1,11 +1,10 @@
 #!/bin/bash
 
-/*
-  Author: Kor Dwarshuis
-  Created: 2023-08-11 
-  Updated: -
-  Description: This script backups three directories from the search-index-typesense directory to a timestamped directory in the KERISSE_BACKUPS_DIR directory. It also empties the original directories. The name of the directory containing the backups is the timestamp of the backup.
-*/
+# Author: Kor Dwarshuis
+# Created: 2023-08-11 
+# Updated: -
+# Description: This script backups three directories from the search-index-typesense directory to a timestamped directory in the KERISSE_BACKUPS_DIR directory. It also empties the original directories. The name of the directory containing the backups is the timestamp of the backup.
+
 
 # Load environment variables from .env file
 source .env
