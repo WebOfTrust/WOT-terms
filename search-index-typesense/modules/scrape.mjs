@@ -16,7 +16,7 @@ import { processPDF as generalPDF } from './general-pdf.mjs';
 import { getFileContent as githubContent } from './github-API.mjs';
 
 export default async function scrape(config, customScrape) {
-    const browser = await puppeteer.launch();// for production
+    const browser = await puppeteer.launch({ headless: "new" });// for production
     // const browser = await puppeteer.launch({ headless: false });// for testing
     const page = await browser.newPage();
     // Set a custom user agent header
