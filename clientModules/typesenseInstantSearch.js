@@ -371,7 +371,7 @@ const typeSenseInstantSearch = () => {
       container: '#media-type-refinement-list',
       attribute: 'mediaType',
       searchable: true,
-      searchablePlaceholder: 'Media type',
+      searchablePlaceholder: 'File type',
       showMore: true,
       // max_facet_values: 100,TODO: does this work?
       cssClasses: {
