@@ -1,13 +1,23 @@
 # Q&A about KERI
 
+
+
+<div className="inline-small-start">
+
 [![hackmd-github-sync-badge](https://hackmd.io/Ox_1L3adTdCEkcFtAzuTFA/badge)](https://hackmd.io/Ox_1L3adTdCEkcFtAzuTFA)
 
-<img className="inline-small-end" src="https://github.com/WebOfTrust/keri/blob/main/images/Keri_logo_color_on_white.png?raw=true" alt="KERI logo" border="0" width="300" />
+</div>
+
+
+
 
 This document is part one. Part two is [Q-and-A Security](./Q-and-A-Security.md). Both files shares a common [Glossary](./Glossary.md) that has:
 
+
 - an alphabethically ordered list of **abbreviations**
 - an alphabethically ordered list of **definitions**
+
+<img className="inline-small-start" src="https://github.com/WebOfTrust/keri/blob/main/images/Keri_logo_color_on_white.png?raw=true" alt="KERI logo" />
 
 **The questions are of a varied level: basic and detailed. The answers are mostly directed towards generally interested people and newbies.**\
 \*Q = one star question. Novice to KERI, advanced in DIDs\
