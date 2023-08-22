@@ -20,6 +20,7 @@ yarn-error.log*
 
 search-index-typesense/search-index-entries/*
 search-index-typesense/logs/*
+search-index-typesense/sitemaps/*
 .history
 # media
 *.mp4
