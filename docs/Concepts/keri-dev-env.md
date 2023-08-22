@@ -30,6 +30,24 @@ In the following sections, we'll delve into the key tools employed in the KERI S
 Through this structured approach, we aim to provide clear insights into our development choices and their impact on the KERI Suite.
 
 
+### What is Slack
+
+#### Why is it relevant for the KERI Suite
+
+#### Why Slack and not something else?
+Concerning the vanished Slack History, I’ve got this update:
+- I’ve requested Slack to give us a rebate to the standard Slack Pro price of US$ 420 per month… Let’s see where Slack comes up with.
+
+And this request for KERI Suite Slack users:
+Anticipating on a future where we don’t like to burn too much money on a Slack paywall to just have continuous access to our history:  let’s move discussions from Slack (as soon as they take off) to Github Discussion and link them from Slack. 
+Use Slack just for chat, announcements, notifications and planning stuff?
+ 
+You to Everyone (10 Aug 2023, 15:26)
+Discussions -> GH Discussions
+Questions & Answers -> GH discussions
+Bugs & feature requests -> GH Issues
+
+
 ### What is Sphinx?
 
 <img src="https://github.com/WebOfTrust/keri/blob/main/images/Sphinx.png?raw=true" class="img-thumbnail" alt="Sphinx-logo" width="250"  /> Sphinx is a documentation generator or a tool that translates a set of plain text source files into various output formats, automatically producing cross-references, indices, etc. That is, if you have a directory containing a bunch of reStructuredText or Markdown documents, Sphinx can generate a series of HTML files, a PDF file (via LaTeX), man pages and much more.\
