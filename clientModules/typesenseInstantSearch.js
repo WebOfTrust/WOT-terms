@@ -67,7 +67,8 @@ const typeSenseInstantSearch = () => {
       // sort_by: 'contentLength:asc',//asc or desc
 
       // sort_by: 'imgMetaLength:asc, contentLength:asc',//asc or desc
-      sort_by: 'imgWidth:desc,contentLength:desc,imgUrl(missing_values: last):desc',//asc or desc
+      // sort_by: 'imgWidth:desc,contentLength:desc,imgUrl(missing_values: last):desc',//asc or desc
+      sort_by: 'imgWidth:desc,imgUrl(missing_values: last):desc',//asc or desc
       group_by: 'url',
       group_limit: 2
     },
