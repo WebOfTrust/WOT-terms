@@ -41,7 +41,9 @@ const unwantedExtensions = [
   '.history',
   '.idea',
   '.docusaurus',
-  '.icns'
+  '.icns',
+  '.otf',
+  '.ttf'
 ];
 
 // Add an array for unwanted hidden files
