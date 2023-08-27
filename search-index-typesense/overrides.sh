@@ -140,4 +140,4 @@ JSON_DATA1=$(<"search-index-typesense/overrides/overridesID.json")
 process_json_data "$JSON_DATA1"
 
 # Cleanup
-rm search-index-typesense/overrides/overridesID.json
+# rm search-index-typesense/overrides/overridesID.json
