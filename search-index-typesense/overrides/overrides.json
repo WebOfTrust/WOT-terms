@@ -1,5 +1,12 @@
 [
     {
+        "name": "Diger",
+        "query": "Diger",
+        "url": "https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/coring.py",
+        "position": 1,
+        "match": "exact"
+    },
+    {
         "name": "keriForMuggels",
         "query": "Keri for Muggles",
         "url": "https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERI_for_Muggles.pdf",
