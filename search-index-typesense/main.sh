@@ -71,10 +71,6 @@ function do_main() {
     # Get the directory where the main.sh script is located
     SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-    # Backup output from previous run.
-    source "$SCRIPT_DIR/backup.sh"
-    echo "Backup finished" | tee -a search-index-typesense/logs/succes.log
-
     # Prepare file system.
     source "$SCRIPT_DIR/prepare_file_system.sh"
     echo "Preparing file system finished" | tee -a search-index-typesense/logs/succes.log
@@ -99,13 +95,21 @@ function do_main() {
     node "$SCRIPT_DIR/extractData.mjs"
     echo "Extracting data finished" | tee -a search-index-typesense/logs/succes.log
 
+    # Split the content.jsonl file into multiple files so the size is optimal for Typesense.
+    node "$SCRIPT_DIR/splitContentJSONL.mjs"
+    echo "Splitting content finished" | tee -a search-index-typesense/logs/succes.log
+
     # Sort and style the index file.
     node "$SCRIPT_DIR/sortAndStyleScrapedIndex.mjs" "$INDEX_OVERVIEW_FILE"
     echo "Sorting and styling index file finished" | tee -a search-index-typesense/logs/succes.log
 
-    # Export the data from Typesense.
+    # Export the data from Typesense to the downloads dir.
     source "$SCRIPT_DIR/export.sh"
     echo "Exporting data finished" | tee -a search-index-typesense/logs/succes.log
+
+    # Backup output (scrape results, handmade stuff, sitemaps etc).
+    source "$SCRIPT_DIR/backup.sh"
+    echo "Backup finished" | tee -a search-index-typesense/logs/succes.log
 
     # Make collection in Typesense empty.
     source "$SCRIPT_DIR/make_collection_empty.sh"
