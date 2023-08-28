@@ -36,8 +36,6 @@ for dir in "${dirsToBackup[@]}"; do
         # Copy directory to backup location
         cp -r "$SOURCE_DIR" "$BACKUP_DIR"
         
-        # Empty the original directory
-        rm -r "${SOURCE_DIR:?}"/*   # Using :? to ensure variable is set and not empty to prevent accidental deletion
         
     else
         echo "Warning: Directory $SOURCE_DIR does not exist."
