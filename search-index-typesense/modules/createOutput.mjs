@@ -7,7 +7,7 @@
 
 
 export default function createOutput(input) {
-  let entries = [];
+  let strEntries = '';
   for (const element of input.mainContent) {
     // if an entry is not passed, create a default entry
     const entry = {
@@ -35,7 +35,9 @@ export default function createOutput(input) {
       firstHeadingBeforeElement: element.firstHeadingBeforeElement || '',
       mediaType: input.mediaType || 'No file type specified'
     };
-    entries.push(entry);
+
+    strEntries += JSON.stringify(entry) + '\n';
+
   }
-  return entries;
+  return strEntries;
 }

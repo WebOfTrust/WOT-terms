@@ -5,7 +5,7 @@
         "author": "Samuel Smith",
         "creationDate": "",
         "url": "https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERI_for_Muggles.pdf",
-        "content": "",
+        "content": "KERI for Muggles",
         "contentLength": 0,
         "tag": "p",
         "imgUrl": "",
@@ -21,7 +21,8 @@
         "knowledgeLevel": "",
         "type": "",
         "pageTitle": "Keri for Muggles",
-        "firstHeadingBeforeElement": ""
+        "firstHeadingBeforeElement": "",
+        "mediaType": "pdf"
     },
     {
         "siteName": "PDF-ed",
@@ -29,7 +30,7 @@
         "author": "Drummond Reed",
         "creationDate": "",
         "url": "https://docs.google.com/presentation/d/1mO1EZa9BcjAjWEzw7DWi124uMfyNyDeM3HuajsGNoTo/",
-        "content": "",
+        "content": "ACDC for Muggles",
         "contentLength": 0,
         "tag": "p",
         "imgUrl": "",
@@ -45,7 +46,8 @@
         "knowledgeLevel": "",
         "type": "",
         "pageTitle": "ACDC for Muggles",
-        "firstHeadingBeforeElement": ""
+        "firstHeadingBeforeElement": "",
+        "mediaType": "Google Docs"
     },
     {
         "siteName": "PDF-ed",
@@ -53,7 +55,7 @@
         "author": "Robert Mitwicki",
         "creationDate": "",
         "url": "https://docs.google.com/presentation/d/1tF_OFGAKUz9RKCLTdwDYDu7hJuEbFz-LQ6PAih7HBK8/",
-        "content": "",
+        "content": "KERI: Facilitating secure data flows in an auditable supply chain",
         "contentLength": 0,
         "tag": "p",
         "imgUrl": "",
@@ -69,7 +71,8 @@
         "knowledgeLevel": "",
         "type": "",
         "pageTitle": "KERI: Facilitating secure data flows in an auditable supply chain",
-        "firstHeadingBeforeElement": ""
+        "firstHeadingBeforeElement": "",
+        "mediaType": "Google Docs"
     },
     {
         "siteName": "PDF-ed",
@@ -77,7 +80,7 @@
         "author": "Henk van Cann",
         "creationDate": "",
         "url": "https://docs.google.com/presentation/d/1gknUMIBGgU7aOLbrQKN1QtIKZKqkW7oY/",
-        "content": "",
+        "content": "You control, therefore you are, and you get to decide",
         "contentLength": 0,
         "tag": "p",
         "imgUrl": "",
@@ -93,7 +96,8 @@
         "knowledgeLevel": "",
         "type": "",
         "pageTitle": "You control, therefore you are, and you get to decide",
-        "firstHeadingBeforeElement": ""
+        "firstHeadingBeforeElement": "",
+        "mediaType": "Google Docs"
     },
     {
         "siteName": "PDF-ed",
@@ -101,7 +105,7 @@
         "author": "Daniel Hardman",
         "creationDate": "",
         "url": "https://docs.google.com/presentation/d/1wz1cqUDI8M9w1Q8-gvJ_8zCjefTOd68LmrGj2UCBgI0/",
-        "content": "",
+        "content": "DIDComm Mythconceptions",
         "contentLength": 0,
         "tag": "p",
         "imgUrl": "",
@@ -117,7 +121,8 @@
         "knowledgeLevel": "",
         "type": "",
         "pageTitle": "DIDComm Mythconceptions",
-        "firstHeadingBeforeElement": ""
+        "firstHeadingBeforeElement": "",
+        "mediaType": "Google Docs"
     },
     {
         "siteName": "PDF-ed",
@@ -125,7 +130,7 @@
         "author": "Ryan West",
         "creationDate": "",
         "url": "https://docs.google.com/presentation/d/1hknEsGJlP5blETmPOw91FZyaOPwer6wnmnIWMlVUHKc/",
-        "content": "",
+        "content": "Keridemlia: Discovery for KERI",
         "contentLength": 0,
         "tag": "p",
         "imgUrl": "",
@@ -141,7 +146,8 @@
         "knowledgeLevel": "",
         "type": "",
         "pageTitle": "Keridemlia: Discovery for KERI",
-        "firstHeadingBeforeElement": ""
+        "firstHeadingBeforeElement": "",
+        "mediaType": "Google Docs"
     },
     {
         "siteName": "PDF-ed",
@@ -149,7 +155,7 @@
         "author": "",
         "creationDate": "",
         "url": "https://docs.google.com/presentation/d/12nX_IIPp5xw8qAxhZy-ae2aWYytYQmFBbB9K3PcVhqQ/",
-        "content": "",
+        "content": "CESR for First Year Wizards",
         "contentLength": 0,
         "tag": "p",
         "imgUrl": "",
@@ -165,6 +171,7 @@
         "knowledgeLevel": "",
         "type": "",
         "pageTitle": "CESR for First Year Wizards",
-        "firstHeadingBeforeElement": ""
+        "firstHeadingBeforeElement": "",
+        "mediaType": "Google Docs"
     }
 ]

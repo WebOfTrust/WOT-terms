@@ -3,7 +3,7 @@
 # Author: Kor Dwarshuis
 # Created: 2023
 # Updated: -
-# Description: This script exports JSONL files from a Typesense collection (typesense.org).
+# Description: This script exports JSONL files from a Typesense collection (typesense.org) and copies them to the downloads dir specified.
 # Instructions:
 # In order to run this script, you need to have a .env file in the root of the project with the following variables:
 #   TYPESENSE_ADMIN_API_KEY

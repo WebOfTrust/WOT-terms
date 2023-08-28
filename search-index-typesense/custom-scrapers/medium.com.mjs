@@ -1,3 +1,10 @@
+/*
+  Author: Kor Dwarshuis
+  Created: 2023
+  Updated: -
+  Description: Custom scraper for medium.com blogposts (https://medium.com/). Use the switch case to add custom logic for specific blogposts. 
+*/
+
 import createInput from '../modules/createInput.mjs';
 import scrape from '../modules/scrape.mjs';
 import extractMainContent from '../modules/extractMainContent.mjs';
@@ -10,7 +17,7 @@ const config = {
     }),
     siteName: 'Blogposts',
     source: 'Blogposts',
-    destinationFile: 'search-index-typesense/search-index-entries/medium.com.json',
+    destinationFile: 'search-index-typesense/search-index-entries/medium.com.jsonl',
     // domQueryForContent: '.ch p, .ch h1, .ch h2, .ch h3, .ch h4, .ch h5, .ch h6, .ch li'
 
     domQueryForContent: '.ch > p, .ch > h1, .ch > h2, .ch > h3, .ch > h4, .ch > h5, .ch > h6, .ch > li, .ch > img, .ch > pre, .ch > code'
@@ -77,6 +84,11 @@ async function customScrape(page, domQueryForContent, pageUrl) {
             all.type = 'AID';
             config.siteName = "Happy Blockchains";
             config.author = 'Henk van Cann';
+            break;
+        case 'https://rufftimo.medium.com/second-generation-verifiable-credentials-c225d390fe90':
+            all.type = 'AIDSecond-Generation Verifiable Credentials';
+            config.siteName = "Rufftimo";
+            config.author = 'Timothy Ruff';
             break;
     }
 

@@ -3,6 +3,7 @@ External libraries needed to run all scraper scripts:
 For Shell scripts:
 - jq (https://stedolan.github.io/jq/)
 - curl (https://curl.se/)
+- ImageMagick (https://imagemagick.org)
 
 If not installed on your system, you can install them using your package manager (e.g., apt, yum, brew, etc.).
 

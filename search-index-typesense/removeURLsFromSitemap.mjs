@@ -40,7 +40,10 @@ const unwantedExtensions = [
   '.vscodeignore',
   '.history',
   '.idea',
-  '.docusaurus'
+  '.docusaurus',
+  '.icns',
+  '.otf',
+  '.ttf'
 ];
 
 // Add an array for unwanted hidden files

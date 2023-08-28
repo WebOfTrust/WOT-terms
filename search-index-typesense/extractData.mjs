@@ -8,6 +8,7 @@
 
 import scrapeWOTterms from './custom-scrapers/WOT-terms.mjs';
 import scrapeGleif from './custom-scrapers/gleif.mjs';
+// import scrapeGleifPDF from './custom-scrapers/gleifPDF.mjs';
 import scrapeWotgloss from './custom-scrapers/wotgloss.mjs';
 import scrapeESSIFLab from './custom-scrapers/eSSIF-Lab.mjs';
 import scrapeJolocom from './custom-scrapers/jolocom.io.mjs';
@@ -20,6 +21,7 @@ import scrapeReadthedocs from './custom-scrapers/readthedocs.io.mjs';
 
 scrapeWOTterms();
 scrapeGleif();
+// scrapeGleifPDF();
 scrapeWotgloss();
 scrapeESSIFLab();
 scrapeJolocom();

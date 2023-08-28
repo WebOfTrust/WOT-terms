@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://medium.com/spherity/introducing-keri-8f50ed1d8ed7</loc>
   </url>
@@ -32,5 +36,8 @@
   </url>
   <url>
     <loc>https://medium.com/happy-blockchains/you-control-therefore-you-are-and-you-get-to-decide-2e2e615714a9</loc>
+  </url>
+  <url>
+    <loc>https://rufftimo.medium.com/second-generation-verifiable-credentials-c225d390fe90</loc>
   </url>
 </urlset>

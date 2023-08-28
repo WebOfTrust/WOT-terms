@@ -117,7 +117,3 @@ import_jsonl_files_to_search_index() {
 
 # Start importing the files
 import_jsonl_files_to_search_index $output_dir $log_dir
-
-
-# although import_output_dir is in the function, it is available outside the function.
-rm "$import_output_dir"/*.jsonl

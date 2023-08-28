@@ -1,7 +1,5 @@
 import createInput from '../modules/createInput.mjs';
 import scrape from '../modules/scrape.mjs';
-import extractMainContent from '../modules/extractMainContent.mjs';
-import getTextContent from '../modules/getTextContent.mjs';
 
 // List of sitemap files
 const sitemapFiles = [
@@ -48,8 +46,7 @@ const createConfig = async (filename) => {
         siteName: `${repositoryOwner} / ${repositoryName}`,
         source: `${repositoryOwner} / ${repositoryName}`,
         author: `${repositoryOwner}`,
-        destinationFile: `search-index-typesense/search-index-entries/${repositoryOwner}-${repositoryName}.json`,
-        domQueryForContent: 'turbo-frame #read-only-cursor-text-area, turbo-frame .markdown-body h1, turbo-frame .markdown-body p',// First one for code
+        destinationFile: `search-index-typesense/search-index-entries/${repositoryOwner}-${repositoryName}.jsonl`,
         branch: branchName
     };
 }
@@ -58,31 +55,12 @@ function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function customScrape(page, domQueryForContent) {
-    // // Pause the script (in miliseconds), could be useful so you don't get blocked
-    // console.log('Pausing...');
-    // await sleep(3000);
-    // console.log('Resuming...'); 
-
-    const mainContent = await extractMainContent(page, domQueryForContent);
-
-    // let pageTitle = await page.$eval('.repository-content h1', (element) => {
-    //     return element.textContent.trim()
-    // });
-    // const pageTitle = await getTextContent(page, '#breadcrumb');
-    const pageTitle = await getTextContent(page, '[itemprop="name"]');
-
-
-    let all = {};
-    all.mainContent = mainContent;
-    all.pageTitle = pageTitle;
-    return all;
-}
+// No customScrape function needed, since it will not be called in scrape.mjs
 
 
 export default async function () {
     for (const filename of sitemapFiles) {
         const config = await createConfig(filename);
-        await scrape(config, customScrape);
+        await scrape(config);// no customScrape as second argument needed, since it will not be called in scrape.mjs
     }
 };
