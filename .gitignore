@@ -21,6 +21,7 @@ yarn-error.log*
 search-index-typesense/search-index-entries/*
 search-index-typesense/logs/*
 search-index-typesense/sitemaps/*
+search-index-typesense/overrides/overridesID.json
 .history
 # media
 *.mp4
