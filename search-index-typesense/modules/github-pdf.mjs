@@ -8,9 +8,7 @@
 import Tesseract from 'tesseract.js';
 import { createWorker } from 'tesseract.js';
 import puppeteer from 'puppeteer';
-import logger from './modules/logger.mjs';
-import { writeToErrorFile } from '../modules/writeToErrorFile.mjs';
-import { writeToSuccesFile } from '../modules/writeToSuccesFile.mjs';
+import logger from './logger.mjs';
 
 export async function githubPDF(page, pageUrl) {
     function extractRepoNameFromGithubURL(url) {
@@ -27,8 +25,9 @@ export async function githubPDF(page, pageUrl) {
             return segments[2]; // This will be the repo name
 
         } catch (err) {
-            console.error(err.message);
-            writeToErrorFile(err.message);
+            logger.setLogFile('error.log');
+            logger.log(err.message);
+
             return null; // Invalid URL or not a GitHub URL
         }
     }
@@ -83,44 +82,6 @@ export async function githubPDF(page, pageUrl) {
     // Fetch all the canvas elements on the page
     const canvases = await page.$$('canvas');
 
-    // TODO: remove after testing
-    // for (const canvas of canvases) {
-    //     const canvasImage = await canvas.screenshot();
-
-    //     // OCR the captured canvas image using Tesseract.js
-    //     Tesseract.recognize(
-    //         canvasImage,
-    //         'eng',
-    //         {
-    //             logger: m => {
-    //                 console.log(m);
-    //                 writeToSuccesFile(m);
-    //             }
-    //         }
-    //     ).then(({ data: { text } }) => {
-    //         mainContent.push({
-    //             content: text,
-    //             contentLength: text.length,
-    //             tag: "pdf"
-    //         });
-    //     }).catch(err => {
-    //         console.error('Error:', err);
-    //         writeToErrorFile('Error:' + err);
-    //     });
-
-    //     // // Tesseract via Worker part 2 - load image
-    //     // (async () => {
-    //     //     await worker.loadLanguage('eng');
-    //     //     await worker.initialize('eng');
-    //     //     const { data: { text } } = await worker.recognize(canvasImage);
-    //     //     // console.log(text);
-    //     //     mainContent.push({
-    //     //         content: text,
-    //     //         contentLength: text.length,
-    //     //         tag: "pdf"
-    //     //     });
-    //     // })();
-    // }
 
     for (const canvas of canvases) {
         const canvasImage = await canvas.screenshot();
@@ -132,8 +93,8 @@ export async function githubPDF(page, pageUrl) {
                 'eng',
                 {
                     logger: m => {
-                        console.log(m);
-                        writeToSuccesFile(m);
+                        logger.setLogFile('success.log');
+                        logger.log(m);
                     }
                 }
             );
@@ -145,8 +106,8 @@ export async function githubPDF(page, pageUrl) {
             });
 
         } catch (err) {
-            console.error('Error:', err);
-            writeToErrorFile('Error:' + err);
+            logger.setLogFile('error.log');
+            logger.log('Error:' + err);
         }
     }
 

@@ -29,8 +29,6 @@ import { create } from 'xmlbuilder2';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import logger from './modules/logger.mjs';
-import { writeToErrorFile } from './modules/writeToErrorFile.mjs';
-import { writeToSuccesFile } from './modules/writeToSuccesFile.mjs';
 
 // Configuration
 // const outputDirectory = path.resolve(__dirname, './sitemaps');
@@ -90,8 +88,8 @@ async function createSitemap(startUrl, maxDepth) {
                 await crawl(nextUrl, depth + 1);
             }
         } catch (error) {
-            console.error(`Failed to fetch URL: ${urlString}`);
-            writeToErrorFile(`Failed to fetch URL: ${urlString}`);
+            logger.setLogFile('error.log');
+            logger.log(`Failed to fetch URL: ${urlString}`);
         }
     }
 
@@ -126,8 +124,9 @@ async function main() {
     const filePath = path.join(outputDirectory, fileName);// Create the complete file path
     fs.writeFileSync(filePath, sitemapXml); // Write the sitemap XML to the specified file path
 
-    console.log(`Sitemap generated and saved to ${filePath}`);
-    writeToSuccesFile(`Sitemap generated and saved to ${filePath}`);
+    logger.setLogFile('success.log');
+    logger.log(`${domainName} sitemap generated and saved to ${filePath}`);
+
 }
 
 main().catch(console.error);

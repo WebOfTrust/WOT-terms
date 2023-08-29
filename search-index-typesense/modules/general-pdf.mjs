@@ -12,9 +12,7 @@ import { convert as callbackConvert } from 'imagemagick';
 // import tesseract from 'node-tesseract-ocr';
 import Tesseract from 'tesseract.js';
 import path from 'path';
-import logger from './modules/logger.mjs';
-import { writeToErrorFile } from '../modules/writeToErrorFile.mjs';
-import { writeToSuccesFile } from '../modules/writeToSuccesFile.mjs';
+import logger from './logger.mjs';
 
 // Config
 const directoryPath = './search-index-typesense/temp';
@@ -26,12 +24,14 @@ async function resetDirectory(path) {
 
         // If it exists, remove it
         await fs.rmdir(path, { recursive: true });
-        console.log('Directory removed');
-        writeToSuccesFile('Directory removed');
+        logger.setLogFile('success.log');
+        logger.log('Directory removed');
     } catch (error) {
         // If the error is not because the directory doesn't exist, throw it
         if (error.code !== 'ENOENT') {
-            writeToErrorFile('Error in resetDirectory: ' + err);
+            logger.setLogFile('error.log');
+            logger.log('Error in resetDirectory: ' + err);
+
             throw error;
         }
     }
@@ -39,8 +39,8 @@ async function resetDirectory(path) {
     // Create the directory
 
     await fs.mkdir(path);
-    console.log('Directory created');
-    writeToSuccesFile('Directory created');
+    logger.setLogFile('success.log');
+    logger.log('Directory created');
 }
 async function deleteDirectory(path) {
     try {
@@ -55,8 +55,8 @@ async function deleteDirectory(path) {
         if (error.code !== 'ENOENT') {
             throw error;
         }
-        console.log('Directory does not exist, no action needed');
-        writeToSuccesFile('Directory does not exist, no action needed');
+        logger.setLogFile('success.log');
+        logger.log('Directory does not exist, no action needed');
     }
 }
 
@@ -77,13 +77,12 @@ async function convertPDFtoImage(directoryPath) {
             '-quality', '90',
             `${directoryPath}/page.png`
         ]);
+        logger.setLogFile('success.log');
+        logger.log('PDF converted to images');
 
-        console.log('PDF converted to images');
-        writeToSuccesFile('PDF converted to images');
     } catch (err) {
-        console.error('Error during conversion: ', err);
-        writeToErrorFile('Error during conversion: ' + err);
-
+        logger.setLogFile('error.log');
+        logger.log('Error during conversion: ' + err);
     }
 }
 
@@ -150,8 +149,8 @@ async function ocrAllImagesInDirectory(directory) {
                     'eng',
                     {
                         logger: m => {
-                            console.log(m);
-                            writeToSuccesFile(m);
+                            logger.setLogFile('success.log');
+                            logger.log(m);
                         }
                     }
                 );
@@ -163,7 +162,9 @@ async function ocrAllImagesInDirectory(directory) {
                 };
             } catch (err) {
                 console.error('Error:', err);
-                writeToErrorFile('Error:' + err);
+                logger.setLogFile('error.log');
+                logger.log('Error:' + err);
+
                 return null; // return null for failed OCR operations
             }
         }));
@@ -173,7 +174,8 @@ async function ocrAllImagesInDirectory(directory) {
 
     } catch (error) {
         console.error(error.message);
-        writeToErrorFile(error.message);
+        logger.setLogFile('error.log');
+        logger.log(error.message);
     }
 
     return mainContent;
@@ -192,8 +194,9 @@ export async function processPDF(url) {
         deleteDirectory(directoryPath);
         return all;
     } catch (error) {
-        console.error('Error in processing: ', error);
-        writeToErrorFile('Error in processing: ' + err);
+        logger.setLogFile('error.log');
+        logger.log('Error in processing: ' + err);
+
         throw error;
     }
 }

@@ -22,8 +22,6 @@ import axios from 'axios';
 import fs from 'fs';
 import path from 'path';
 import logger from './modules/logger.mjs';
-import { writeToErrorFile } from './modules/writeToErrorFile.mjs';
-import { writeToSuccesFile } from './modules/writeToSuccesFile.mjs';
 
 const args = process.argv.slice(2);
 const repositoryOwner = args[0];
@@ -36,8 +34,8 @@ async function getRepositoryTree() {
     const response = await axios.get(`https://api.github.com/repos/${repositoryOwner}/${repositoryName}/git/trees/${branchName}?recursive=1`);
     return response.data.tree;
   } catch (error) {
-    console.error('Failed to fetch repository tree', error);
-    writeToErrorFile('Failed to fetch repository tree' + error);
+    logger.setLogFile('error.log');
+    logger.log('Failed to fetch repository tree' + error);
     return [];
   }
 }
@@ -57,8 +55,10 @@ async function generateSitemap() {
 
   const sitemapFilePath = path.join(sitemapDirectory, `sitemap.githubcom.${repositoryOwner}.${repositoryName}-${branchName}.xml`);
   fs.writeFileSync(sitemapFilePath, sitemapXml);
-  console.log(`Sitemap generated successfully at ${sitemapFilePath}`);
-  writeToSuccesFile(`Sitemap generated successfully at ${sitemapFilePath}`);
+
+  logger.setLogFile('success.log');
+  logger.log(`${sitemapFilePath} sitemap generated successfully`);
+
 }
 
 generateSitemap();

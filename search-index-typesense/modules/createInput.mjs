@@ -10,10 +10,7 @@ import xml2js from 'xml2js';
 import fetch from 'node-fetch';
 import fs from 'fs';
 import path from 'path';
-import logger from './modules/logger.mjs';
-import { writeToErrorFile } from './writeToErrorFile.mjs';
-import { writeToSuccesFile } from './writeToSuccesFile.mjs';
-
+import logger from './logger.mjs';
 
 function removeUrlsFromSitemap(sitemap, excludeURLs) {
   if (excludeURLs !== undefined) {
@@ -37,8 +34,9 @@ export default async function createInput(input) {
   // If there is a remote sitemap.xml file, fetch it and parse it
   if (input.sourceType === 'remoteXMLsitemap') {
     // Fetch and parse the sitemap.xml file
-    console.log('Fetching sitemap...');
-    writeToSuccesFile('Fetching sitemap...');
+    logger.setLogFile('success.log');
+    logger.log('Fetching sitemap...');
+
     const sitemapUrl = input.sourcePath;
     const sitemapResponse = await fetch(sitemapUrl);
     const sitemapXml = await sitemapResponse.text();
@@ -47,11 +45,11 @@ export default async function createInput(input) {
     removeUrlsFromSitemap(sitemap, input.excludeURLs);
 
     if (sitemap.urlset && sitemap.urlset.url) {
-      console.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
-      writeToSuccesFile(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
+      logger.setLogFile('success.log');
+      logger.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
     } else {
-      console.log('No URLs found in sitemap');
-      writeToSuccesFile('No URLs found in sitemap');
+      logger.setLogFile('error.log');
+      logger.log('No URLs found in sitemap');
     }
 
     return sitemap;
@@ -64,11 +62,12 @@ export default async function createInput(input) {
     removeUrlsFromSitemap(sitemap, input.excludeURLs);
 
     if (sitemap.urlset && sitemap.urlset.url) {
-      console.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
-      writeToSuccesFile(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
+      logger.setLogFile('success.log');
+      logger.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
+
     } else {
-      console.log('No URLs found in sitemap');
-      writeToSuccesFile('No URLs found in sitemap');
+      logger.setLogFile('error.log');
+      logger.log('No URLs found in sitemap');
     }
 
     return sitemap;
@@ -84,8 +83,8 @@ export default async function createInput(input) {
     const urls = await page.$$eval(input.queryString, (links) =>
       links.map((link) => link.href)
     );
-    console.log('urls: ', urls);
-    writeToSuccesFile('urls: ', urls);
+    logger.setLogFile('success.log');
+    logger.log('urls: ', urls);
 
     const sitemapXml = `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">${urls
       .map((url) => `<url><loc>${url}</loc></url>`)
@@ -97,11 +96,11 @@ export default async function createInput(input) {
     removeUrlsFromSitemap(sitemap, input.excludeURLs);
 
     if (urls.length > 0) {
-      console.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
-      writeToSuccesFile(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
+      logger.setLogFile('success.log');
+      logger.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
     } else {
-      console.log('No URLs found in sitemap');
-      writeToSuccesFile('No URLs found in sitemap');
+      logger.setLogFile('error.log');
+      logger.log('No URLs found in sitemap');
     }
 
     return sitemap;

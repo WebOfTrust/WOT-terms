@@ -2,9 +2,7 @@ import createInput from '../modules/createInput.mjs';
 import scrape from '../modules/scrape.mjs';
 import extractMainContent from '../modules/extractMainContent.mjs';
 import getTextContent from '../modules/getTextContent.mjs';
-import logger from './modules/logger.mjs';
-import { writeToErrorFile } from '../modules/writeToErrorFile.mjs';
-import { writeToSuccesFile } from '../modules/writeToSuccesFile.mjs';
+import logger from '../modules/logger.mjs';
 
 const config = {
     // // 1: Use a local created sitemap
@@ -28,8 +26,9 @@ const config = {
 }
 
 async function customScrape(page, domQueryForContent, pageUrl) {
-    console.log('pageUrl: ', pageUrl);
-    writeToSuccesFile('pageUrl: ' + pageUrl);
+    logger.setLogFile('success.log');
+    logger.log('pageUrl: ' + pageUrl);
+
     const mainContent = await extractMainContent(page, domQueryForContent);
 
     const creationDate = await getTextContent(page, '.meta li');

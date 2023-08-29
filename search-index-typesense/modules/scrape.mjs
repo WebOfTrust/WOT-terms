@@ -9,9 +9,7 @@ import puppeteer from 'puppeteer';
 import createOutput from './createOutput.mjs';
 import appendToFile from './appendToFile.mjs';
 import fs from 'fs';
-import logger from './modules/logger.mjs';
-import { writeToErrorFile } from './writeToErrorFile.mjs';
-import { writeToSuccesFile } from './writeToSuccesFile.mjs';
+import logger from './logger.mjs';
 import { githubPDF } from './github-pdf.mjs';
 import { processPDF as generalPDF } from './general-pdf.mjs';
 import { getFileContent as githubContent } from './github-API.mjs';
@@ -41,8 +39,9 @@ export default async function scrape(config, customScrape) {
             }
 
         } catch (err) {
-            console.error(err.message);
-            writeToErrorFile(err.message);
+            logger.setLogFile('error.log');
+            logger.log(err.message);
+
             return null; // Invalid URL
         }
     }
@@ -53,7 +52,9 @@ export default async function scrape(config, customScrape) {
         const match = url.match(githubRegex);
 
         if (!match) {
-            writeToErrorFile('Invalid GitHub URL');
+            logger.setLogFile('error.log');
+            logger.log('Invalid GitHub URL');
+
             throw new Error('Invalid GitHub URL');
         }
 
@@ -73,8 +74,8 @@ export default async function scrape(config, customScrape) {
             const pageUrl = url.loc[0];
             const pageExtension = getFileExtension(pageUrl);
             const parsedUrl = new URL(pageUrl);
-            console.log(`Indexing ${pageUrl}`);
-            writeToSuccesFile(`Indexing ${pageUrl}`);
+            logger.setLogFile('success.log');
+            logger.log(`Indexing ${pageUrl}`);
 
             try {
                 // Navigate to the page URL and process the page content using the specified function
@@ -155,13 +156,13 @@ export default async function scrape(config, customScrape) {
                 fs.appendFileSync(process.env.INDEX_OVERVIEW_FILE, `${pageUrl}\n\n`);
 
             } catch (err) {
-                console.error(`Error processing page ${pageUrl}: ${err}`);
-                writeToErrorFile(`Error processing page ${pageUrl}: ${err}`);
+                logger.setLogFile('error.log');
+                logger.log(`Error processing page ${pageUrl}: ${err}`);
             }
         }
     } else {
-        console.error('config.sitemap.urlset.url is not defined or not an array');
-        writeToErrorFile('config.sitemap.urlset.url is not defined or not an array');
+        logger.setLogFile('error.log');
+        logger.log('config.sitemap.urlset.url is not defined or not an array');
     }
 
     // await new Promise(resolve => setTimeout(resolve, 1000000000)); // For testing: Delay the script termination

@@ -2,9 +2,6 @@ import fs from 'fs';
 import path from 'path';
 import xml2js from 'xml2js';
 import logger from './modules/logger.mjs';
-import { writeToErrorFile } from './modules/writeToErrorFile.mjs';
-import { writeToSuccesFile } from './modules/writeToSuccesFile.mjs';
-
 
 // Sitemap directory
 const sitemapDir = 'search-index-typesense/sitemaps';
@@ -112,30 +109,34 @@ async function removeFilesFromSitemap(dir, extensions, fileNames, hiddenFiles, p
 
         // Filter out unwanted extensions
         if (extensions.includes(parsedPath.ext)) {
-          console.log('Url removed from sitemap: ', parsedUrl.href);
-          writeToSuccesFile('Url removed from sitemap: ' + parsedUrl.href);
+          logger.setLogFile('success.log');
+          logger.log('Url removed from sitemap: ', parsedUrl.href);
+
           return false;
         }
 
         // Filter out unwanted hidden files
         if (hiddenFiles.includes(parsedPath.base)) {
-          console.log('Hidden file URL removed from sitemap: ', parsedUrl.href);
-          writeToSuccesFile('Hidden file URL removed from sitemap: ' + parsedUrl.href);
+          logger.setLogFile('success.log');
+          logger.log('Hidden file URL removed from sitemap: ', parsedUrl.href);
+
           return false;
         }
 
         // Filter out unwanted filenames
         if (fileNames.includes(parsedPath.base)) {
-          console.log('Url removed from sitemap: ', parsedUrl.href);
-          writeToSuccesFile('Url removed from sitemap: ' + parsedUrl.href);
+          logger.setLogFile('success.log');
+          logger.log('Url removed from sitemap: ', parsedUrl.href);
+
           return false;
         }
 
         // Filter out unwanted patterns
         for (let pattern of patterns) {
           if (pattern.test(parsedPath.base)) {
-            console.log('Url removed from sitemap: ', parsedUrl.href);
-            writeToSuccesFile('Url removed from sitemap: ' + parsedUrl.href);
+            logger.setLogFile('success.log');
+            logger.log('Url removed from sitemap: ', parsedUrl.href);
+
             return false;
           }
         }
@@ -155,10 +156,11 @@ async function removeFilesFromSitemap(dir, extensions, fileNames, hiddenFiles, p
 
 removeFilesFromSitemap(sitemapDir, unwantedExtensions, unwantedFileNames, unwantedHiddenFiles, unwantedPatterns)
   .then(() => {
-    console.log('Removed urls from sitemaps successfully');
-    writeToSuccesFile('Removed urls from sitemaps successfully');
+    logger.setLogFile('success.log');
+    logger.log('Removed urls from sitemaps successfully');
+
   })
   .catch(err => {
-    console.error('Error while removing urls from sitemaps:', err);
-    writeToErrorFile('Error while removing urls from sitemaps:' + err);
+    logger.setLogFile('error.log');
+    logger.log('Error while removing urls from sitemaps:' + err);
   });

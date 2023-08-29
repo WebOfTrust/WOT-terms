@@ -8,14 +8,13 @@
 import fs from 'fs';
 import path from 'path';
 import logger from './modules/logger.mjs';
-import { writeToErrorFile } from './modules/writeToErrorFile.mjs';
-import { writeToSuccesFile } from './modules/writeToSuccesFile.mjs';
 
 function renameFilesToLowerCase(directoryPath) {
   fs.readdir(directoryPath, (err, files) => {
     if (err) {
-      console.error(`Error reading directory: ${err}`);
-      writeToErrorFile(`Error reading directory: ${err}`);
+      logger.setLogFile('error.log');
+      logger.log(`Error reading directory: ${err}`);
+
       return;
     }
 
@@ -25,11 +24,11 @@ function renameFilesToLowerCase(directoryPath) {
 
       fs.rename(oldFilePath, newFilePath, (renameErr) => {
         if (renameErr) {
-          console.error(`Error renaming file to lower case: ${renameErr}`);
-          writeToErrorFile(`Error renaming file to lower case: ${renameErr}`);
+          logger.setLogFile('error.log');
+          logger.log(`Error renaming file to lower case: ${renameErr}`);
         } else {
-          console.log(`${file} has been renamed to lower case to ${file.toLowerCase()}`);
-          writeToSuccesFile(`${file} has been renamed to to lower case ${file.toLowerCase()}`);
+          logger.setLogFile('success.log');
+          logger.log(`${file} has been renamed to to lower case ${file.toLowerCase()}`);
         }
       });
     });
@@ -40,8 +39,9 @@ function renameFilesToLowerCase(directoryPath) {
 const directoryPath = process.argv[2];
 
 if (!directoryPath) {
-  console.error('Please provide the directory path as an argument.');
-  writeToErrorFile('Please provide the directory path as an argument.');
+  logger.setLogFile('success.log');
+  logger.log('Please provide the directory path as an argument.');
+
 } else {
   renameFilesToLowerCase(directoryPath);
 }

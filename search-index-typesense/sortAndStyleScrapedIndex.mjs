@@ -9,8 +9,6 @@
 
 import fs from 'fs';
 import logger from './modules/logger.mjs';
-import { writeToErrorFile } from './modules/writeToErrorFile.mjs';
-import { writeToSuccesFile } from './modules/writeToSuccesFile.mjs';
 
 const urlRegex = /(https?:\/\/[^\s]+)/g;
 
@@ -18,15 +16,17 @@ function sortLinesInFile(fileName) {
   // Read the file
   fs.readFile(fileName, 'utf8', (err, data) => {
     if (err) {
-      console.error('Error reading the file:', err);
-      writeToErrorFile('Error reading the file:' + err);
+      logger.setLogFile('error.log');
+      logger.log('Error reading the file:' + err);
+
       return;
     }
 
     // Check if the content already contains <ul> or <li>
     if (data.includes('<ul>') || data.includes('<li>')) {
-      console.error('The content already contains HTML list elements, skipping processing.');
-      writeToErrorFile('The content already contains HTML list elements, skipping processing.');
+      logger.setLogFile('error.log');
+      logger.log('The content already contains HTML list elements, skipping processing.');
+
       return;
     }
 
@@ -65,12 +65,13 @@ function sortLinesInFile(fileName) {
     // Write the final content back to the file
     fs.writeFile(fileName, contentWithHeader, 'utf8', (err) => {
       if (err) {
-        console.error('Error writing to the file:', err);
-        writeToErrorFile('Error writing to the file:' + err);
+        logger.setLogFile('error.log');
+        logger.log('Error writing to the file:' + err);
+
         return;
       }
-      console.log('File sorted and wrapped in HTML successfully!');
-      writeToSuccesFile('File sorted and wrapped in HTML successfully!');
+      logger.setLogFile('success.log');
+      logger.log('File sorted and wrapped in HTML successfully!');
     });
   });
 }
@@ -78,8 +79,9 @@ function sortLinesInFile(fileName) {
 // Usage: node sortFile.js <fileName>
 const fileName = process.argv[2];
 if (!fileName) {
-  console.error('Please provide a file name as an argument.');
-  writeToErrorFile('Please provide a file name as an argument.');
+  logger.setLogFile('error.log');
+  logger.log('Please provide a file name as an argument.');
+
   process.exit(1);
 }
 
