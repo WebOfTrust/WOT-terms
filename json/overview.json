@@ -1406,7 +1406,7 @@
       "",
       "",
       "",
-      "#NAME?",
+      "asserting the truth of something that is typically disputed or in doubt",
       "",
       "Assertion of truth, disputed or uncertain."
     ],
@@ -9542,9 +9542,11 @@
     [
       "471",
       "-",
-      "c ",
+      "salty-nonce-blinding-factor",
       "",
-      "c "
+      "salty-nonce-blinding-factor",
+      "",
+      "https://github.com/weboftrust/WOT-terms/wiki/salty-nonce-blinding-factor"
     ],
     [
       "472",
