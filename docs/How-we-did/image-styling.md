@@ -15,6 +15,8 @@ The following classes are available for styling:
 
 Start means “to the left” (in left-to-right languages).
 
+When no class is added the image will be 100% width.
+
 There are two ways for styling images:
 
 ## Add a class to the image
