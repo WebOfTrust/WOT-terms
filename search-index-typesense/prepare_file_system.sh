@@ -11,29 +11,27 @@
 dir_path="search-index-typesense"
 
 
-### LOG FILES ###
+### LOG FILES remove dir and recreate ###
 # Check if a directory named "log" exists inside the path
 if [ -d "${dir_path}/logs" ]; then
   # If the directory exists, delete it and everything inside
   rm -rf "${dir_path}/logs"
 fi
-
-
 # Create a new directory named "logs"
 mkdir "${dir_path}/logs"
 
 # Create files with the specified names
-touch "${dir_path}/logs/error.log" "${dir_path}/logs/import-into-search-index.log" "${dir_path}/logs/scraped.log" "${dir_path}/logs/succes.log"
+touch "${dir_path}/logs/error.log" "${dir_path}/logs/import-into-search-index.log" "${dir_path}/logs/scraped.log" "${dir_path}/logs/success.log"
 
 
-### SEARCH-INDEX-ENTRIES ###
+### SEARCH-INDEX-ENTRIES remove dir and recreate ###
 if [ -d "${dir_path}/search-index-entries" ]; then
   rm -rf "${dir_path}/search-index-entries"
 fi
 mkdir "${dir_path}/search-index-entries"
 
 
-### SITEMAPS ###
+### SITEMAPS remove dir and recreate ###
 if [ -d "${dir_path}/sitemaps" ]; then
   rm -rf "${dir_path}/sitemaps"
 fi
