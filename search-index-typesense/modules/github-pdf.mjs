@@ -8,6 +8,7 @@
 import Tesseract from 'tesseract.js';
 import { createWorker } from 'tesseract.js';
 import puppeteer from 'puppeteer';
+import logger from './modules/logger.mjs';
 import { writeToErrorFile } from '../modules/writeToErrorFile.mjs';
 import { writeToSuccesFile } from '../modules/writeToSuccesFile.mjs';
 

@@ -28,6 +28,7 @@ import commandLineArgs from 'command-line-args';
 import { create } from 'xmlbuilder2';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import logger from './modules/logger.mjs';
 import { writeToErrorFile } from './modules/writeToErrorFile.mjs';
 import { writeToSuccesFile } from './modules/writeToSuccesFile.mjs';
 

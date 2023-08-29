@@ -21,6 +21,7 @@
 import axios from 'axios';
 import fs from 'fs';
 import path from 'path';
+import logger from './modules/logger.mjs';
 import { writeToErrorFile } from './modules/writeToErrorFile.mjs';
 import { writeToSuccesFile } from './modules/writeToSuccesFile.mjs';
 

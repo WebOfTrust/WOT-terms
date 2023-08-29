@@ -12,6 +12,7 @@ import { convert as callbackConvert } from 'imagemagick';
 // import tesseract from 'node-tesseract-ocr';
 import Tesseract from 'tesseract.js';
 import path from 'path';
+import logger from './modules/logger.mjs';
 import { writeToErrorFile } from '../modules/writeToErrorFile.mjs';
 import { writeToSuccesFile } from '../modules/writeToSuccesFile.mjs';
 

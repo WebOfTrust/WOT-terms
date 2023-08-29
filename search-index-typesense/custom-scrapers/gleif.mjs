@@ -2,6 +2,7 @@ import createInput from '../modules/createInput.mjs';
 import scrape from '../modules/scrape.mjs';
 import extractMainContent from '../modules/extractMainContent.mjs';
 import getTextContent from '../modules/getTextContent.mjs';
+import logger from './modules/logger.mjs';
 import { writeToErrorFile } from '../modules/writeToErrorFile.mjs';
 import { writeToSuccesFile } from '../modules/writeToSuccesFile.mjs';
 

@@ -9,6 +9,7 @@ import puppeteer from 'puppeteer';
 import createOutput from './createOutput.mjs';
 import appendToFile from './appendToFile.mjs';
 import fs from 'fs';
+import logger from './modules/logger.mjs';
 import { writeToErrorFile } from './writeToErrorFile.mjs';
 import { writeToSuccesFile } from './writeToSuccesFile.mjs';
 import { githubPDF } from './github-pdf.mjs';

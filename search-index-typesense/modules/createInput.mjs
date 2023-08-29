@@ -10,6 +10,7 @@ import xml2js from 'xml2js';
 import fetch from 'node-fetch';
 import fs from 'fs';
 import path from 'path';
+import logger from './modules/logger.mjs';
 import { writeToErrorFile } from './writeToErrorFile.mjs';
 import { writeToSuccesFile } from './writeToSuccesFile.mjs';
 

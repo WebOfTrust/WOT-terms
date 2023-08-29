@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import xml2js from 'xml2js';
+import logger from './modules/logger.mjs';
 import { writeToErrorFile } from './modules/writeToErrorFile.mjs';
 import { writeToSuccesFile } from './modules/writeToSuccesFile.mjs';
 
