@@ -43,3 +43,8 @@ Use this when the image is added via Markdown code. Example:
 </div>
 ```
 
+===
+
+Below is a testlink that does not work. Do not remove. It is used for testing a script that finds broken links.
+
+[foo](file-system-wrong.md)
