@@ -138,23 +138,23 @@ const config = {
               },
               {
                 label: 'Concepts',
-                to: '/docs/concepts/intro',
+                to: '/docs/Concepts/intro',
               },
               {
                 label: 'Education',
-                to: '/docs/education/intro',
+                to: '/docs/Education/intro',
               },
               {
                 label: 'Resources',
-                to: '/docs/resources/intro',
+                to: '/docs/Resources/intro',
               },
               {
                 label: 'Glossary',
-                to: '/docs/terms/glossary/intro',
+                to: '/docs/glossary/intro',
               },
               {
                 label: 'Howtos',
-                to: '/docs/how\ we\did/intro',
+                to: '/docs/How-we-did/intro',
               },
             ],
           },
