@@ -116,17 +116,17 @@ We've done our best to protect the privacy of Github users by investigating the 
 
 ### PART TWO
 
-- [Q&A section KERI security considerations](./Q-and-A-Security.md#qa-section-keri-security-considerations.md)
-- [KERI operational security](./Q-and-A-Security.md#qa-section-KERI-operational-security.md)
-- [Identifiers](./Q-and-A-Security.md#qa-section-identifiers.md)
-- [Event logs](./Q-and-A-Security.md#qa-section-event-logs.md)
-- [Inconsistency and duplicity](./Q-and-A-Security.md#qa-inconsistency-and-duplicity.md)
+- [Q&A section KERI security considerations](./Q-and-A-Security.md#qa-section-keri-security-considerations)
+- [KERI operational security](./Q-and-A-Security.md#qa-section-KERI-operational-security)
+- [Identifiers](./Q-and-A-Security.md#qa-section-identifiers)
+- [Event logs](./Q-and-A-Security.md#qa-section-event-logs)
+- [Inconsistency and duplicity](./Q-and-A-Security.md#qa-inconsistency-and-duplicity)
 - [Key rotation](./Q-and-A-Security.md#qa-key-rotation.md)
-- [KEL and KELR](./Q-and-A-Security.md#qa-section-kel-and-kerl.md)
-- [Witness](./Q-and-A-Security.md#qa-section-Witness.md)
+- [KEL and KELR](./Q-and-A-Security.md#qa-section-kel-and-kerl)
+- [Witness](./Q-and-A-Security.md#qa-section-Witness)
 - [Watchers](./Q-and-A-Security.md#qa-section-watcher.md)
-- [KERI and blockchain settled DIDs](./Q-and-A-Security.md#qa-KERI-and-blockchain-settled-dids.md)
-- [Security Guarantees](./Q-and-A-Security.md#qa-security-guarantees.md)
+- [KERI and blockchain settled DIDs](./Q-and-A-Security.md#qa-KERI-and-blockchain-settled-dids)
+- [Security Guarantees](./Q-and-A-Security.md#qa-security-guarantees)
 
 ---
 
