@@ -77,19 +77,19 @@ We've done our best to protect the privacy of the Github by investigating the im
 
 ## PART ONE
 
-- [General](./Q-and-A.md#qa-section-general.md)
-- [Why the internet is broken](./Q-and-A.md#qa-section-why-the-internet-is-broken.md)
-- [Open source licenses](./Q-and-A.md#open-source-licences.md)
-- [KERI and DIDs](./Q-and-A.md#qa-keri-and-dids.md)
-- [Wallets](./Q-and-A.md#qa-section-wallets.md)
-- [Signatures](./Q-and-A.md#qa-section-signatures.md)
-- [Proofs](./Q-and-A.md#qa-section-proofs.md)
-- [Private Key Management](./Q-and-A.md#qa-section-private-key-management.md)
-- [Blockchain](./Q-and-A.md#qa-key-blockchain.md)
-- [KERI operational](./Q-and-A.md#qa-section-keri-operational.md)
-- [Root of trust](./Q-and-A.md#qa-section-root-of-trust.md)
-- [Agencies](./Q-and-A.md#qa-key-agencies.md)
-- [Virtual Credentials](./Q-and-A.md#virtual-credentials.md)
+- [General](./Q-and-A.md#qa-section-general)
+- [Why the internet is broken](./Q-and-A.md#qa-section-why-the-internet-is-broken)
+- [Open source licenses](./Q-and-A.md#open-source-licences)
+- [KERI and DIDs](./Q-and-A.md#qa-keri-and-dids)
+- [Wallets](./Q-and-A.md#qa-section-wallets)
+- [Signatures](./Q-and-A.md#qa-section-signatures)
+- [Proofs](./Q-and-A.md#qa-section-proofs)
+- [Private Key Management](./Q-and-A.md#qa-section-private-key-management)
+- [Blockchain](./Q-and-A.md#qa-key-blockchain)
+- [KERI operational](./Q-and-A.md#qa-section-keri-operational)
+- [Root of trust](./Q-and-A.md#qa-section-root-of-trust)
+- [Agencies](./Q-and-A.md#qa-key-agencies)
+- [Virtual Credentials](./Q-and-A.md#virtual-credentials)
 
 ---
 
