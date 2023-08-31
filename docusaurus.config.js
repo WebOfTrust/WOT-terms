@@ -138,23 +138,23 @@ const config = {
               },
               {
                 label: 'Concepts',
-                to: '/docs/Concepts/intro',
+                to: '/docs/category/Concepts',
               },
               {
                 label: 'Education',
-                to: '/docs/Education/intro',
+                to: '/docs/category/Education',
               },
               {
                 label: 'Resources',
-                to: '/docs/Resources/intro',
+                to: '/docs/category/Resources',
               },
               {
                 label: 'Glossary',
-                to: '/docs/glossary/intro',
+                to: '/docs/category/glossary',
               },
               {
-                label: 'Howtos',
-                to: '/docs/How-we-did/intro',
+                label: 'How we did',
+                to: '/docs/category/how-we-did',
               },
             ],
           },
