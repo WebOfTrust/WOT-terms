@@ -19,19 +19,16 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 
 In KERI's "security first" approach Authenticity includes _technical integrity_ of data involved. This includes:
 
-1. [internal consistency](internal-inconsistency.md)
-2. external consistency or [duplicity](duplicity.md) evident
-
 
 <div data-level="1">
 
-Integrity in ACDCs is "self-verifying": the [SAID](self-adressing-identifier.md) that is contained in the data is also the of hash of the data.
+Integrity in ACDCs is "self-verifying": the [SAID](../glossary/self-addressing-identifier) that is contained in the data is also the of hash of the data.
 
 </div>
 
 <div data-level="3">
 
-The integrity of streaming data in [CESR](composable-event-streaming-representation.md) and [CESR proof signatures](cesr-proof-signature.md) is established by code tables and verifiable by the mere (killer-)feature: round-robin [composability](composability.md). If you can toggle between the text - and binary representation, _then that's the integrity proof_, if not, then it's provably lacking integrity.
+The integrity of streaming data in [CESR](../glossary/composable-event-streaming-representation) is established by code tables and verifiable by the mere (killer-)feature: round-robin [composability](../glossary/composability). If you can toggle between the text - and binary representation, _then that's the integrity proof_, if not, then it's provably lacking integrity.
 
 </div>
 
@@ -58,9 +55,6 @@ On today's Technology Architecture TF call,..., we defined authenticity to inclu
 The further separation of Authenticity and Integrity in the ToIP glossary can be largely adopted by KERI? {TBW}
 
 ## See also
-
-[verified integrity](verified-integrity.md)\
-[(complementary) integrity verification](complementary-integrity-verification.md)
 
 \*Validation in relation to integrity, in KERI's view would be an assessment of what's been verified before; in a certain context from a certain angle. And this mechanism is too close to _veracity judgement_, to be an objective verdict over integrity of data.
 

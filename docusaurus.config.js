@@ -138,15 +138,15 @@ const config = {
               },
               {
                 label: 'Concepts',
-                to: '/docs/category/Concepts',
+                to: '/docs/category/concepts',
               },
               {
                 label: 'Education',
-                to: '/docs/category/Education',
+                to: '/docs/category/education',
               },
               {
                 label: 'Resources',
-                to: '/docs/category/Resources',
+                to: '/docs/category/resources',
               },
               {
                 label: 'Glossary',
