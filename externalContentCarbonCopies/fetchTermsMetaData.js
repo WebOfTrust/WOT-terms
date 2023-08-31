@@ -8,7 +8,7 @@ const path = require('path');
 const https = require('https');
 
 // CONFIG
-const outputDirMarkDown = './docs/Overview/';
+const outputDirMarkDown = './docs/overview/';
 const outputFileNameMarkDown = 'Overview.mdx';
 
 const outputDirJSON = './static/json/'; //TODO: find a better place for this file
