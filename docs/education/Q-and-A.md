@@ -11,7 +11,7 @@
 
 
 
-This document is part one. Part two is [Q-and-A Security](./Q-and-A-Security.md). Both files shares a common [Glossary](./Glossary.md) that has:
+This document is part one. Part two is [Q-and-A Security](./Q-and-A-Security). Both files shares a common [Glossary](./category/glossary) that has:
 
 
 - an alphabethically ordered list of **abbreviations**
@@ -84,7 +84,7 @@ We've done our best to protect the privacy of Github users by investigating the 
 
 ## Knowledge you should be confidently applying
 
-- The definitions in the [glossary](./Glossary.md)
+- The definitions in the [glossary](./category/glossary)
 - Public private key pairs
 - Hashing and hashes
 - Signatures
@@ -102,7 +102,7 @@ We've done our best to protect the privacy of Github users by investigating the 
 
 - [General](#qa-section-general)
 - [Why the internet is broken](#qa-section-why-the-internet-is-broken)
-- [Open source licenses](open-source-licenses.md)
+- [Open source licenses](open-source-licenses)
 - [KERI and DIDs](#qa-KERI-and-dids)
 - [Wallets](#qa-section-wallets)
 - [Signatures](#qa-section-signatures)
@@ -116,17 +116,17 @@ We've done our best to protect the privacy of Github users by investigating the 
 
 ### PART TWO
 
-- [Q&A section KERI security considerations](./Q-and-A-Security.md#qa-section-keri-security-considerations.md)
-- [KERI operational security](./Q-and-A-Security.md#qa-section-KERI-operational-security.md)
-- [Identifiers](./Q-and-A-Security.md#qa-section-identifiers.md)
-- [Event logs](./Q-and-A-Security.md#qa-section-event-logs.md)
-- [Inconsistency and duplicity](./Q-and-A-Security.md#qa-inconsistency-and-duplicity.md)
-- [Key rotation](./Q-and-A-Security.md#qa-key-rotation.md)
-- [KEL and KELR](./Q-and-A-Security.md#qa-section-kel-and-kerl.md)
-- [Witness](./Q-and-A-Security.md#qa-section-Witness.md)
-- [Watchers](./Q-and-A-Security.md#qa-section-watcher.md)
-- [KERI and blockchain settled DIDs](./Q-and-A-Security.md#qa-KERI-and-blockchain-settled-dids.md)
-- [Security Guarantees](./Q-and-A-Security.md#qa-security-guarantees.md)
+- [Q&A section KERI security considerations](./Q-and-A-Security#qa-section-keri-security-considerations)
+- [KERI operational security](./Q-and-A-Security#qa-section-KERI-operational-security)
+- [Identifiers](./Q-and-A-Security#qa-section-identifiers)
+- [Event logs](./Q-and-A-Security#qa-section-event-logs)
+- [Inconsistency and duplicity](./Q-and-A-Security#qa-inconsistency-and-duplicity)
+- [Key rotation](./Q-and-A-Security#qa-key-rotation)
+- [KEL and KELR](./Q-and-A-Security#qa-section-kel-and-kerl)
+- [Witness](./Q-and-A-Security#qa-section-Witness)
+- [Watchers](./Q-and-A-Security#qa-section-watcher)
+- [KERI and blockchain settled DIDs](./Q-and-A-Security#qa-KERI-and-blockchain-settled-dids)
+- [Security Guarantees](./Q-and-A-Security#qa-security-guarantees)
 
 ---
 
@@ -146,7 +146,7 @@ Hmm, a mouthful of terms. Let's start with the identifier. One of the basic (!) 
 
 Based on the constructive ideas the founder Samuel Smith has developed over time in his career plus the awareness that in the self-sovereign identity field there had been to little attention for security as the most important feature of digital identifiers, KERI had to be build from the ground up.
 
-The main design principles have a designated page "[Concepts](../../WOT-terms/Concepts.md)" but in brief:
+The main design principles have a designated page "[Concepts](../category/concepts)" but in brief:
 
 1. Security first, confidentiality second, privacy third
 2. Offer a remedy for the [broken internet](#qa-section-why-the-internet-is-broken)
@@ -155,7 +155,7 @@ The main design principles have a designated page "[Concepts](../../WOT-terms/Co
 
 This lead to the understanding that KERI in nothing is like something else in the SSI space. It's the [Internet identifier Platypus](#keri-the-internet-identifier-platypus).
 
-Because of this many new concepts and new terms had to be specified, and always thoroughly anchored in relevant scientific resources. A new type of language emerged, not seldom lovingly addressed as a "Sam-ism" (referring to the language used by its founder). According to KERI's objective (and ACDC's follow-up on this in the Verifiable Credentials arena) the [Universal Identity Theory](.md) could be completed.
+Because of this many new concepts and new terms had to be specified, and always thoroughly anchored in relevant scientific resources. A new type of language emerged, not seldom lovingly addressed as a "Sam-ism" (referring to the language used by its founder). According to KERI's objective (and ACDC's follow-up on this in the Verifiable Credentials arena) the [Universal Identity Theory] (.md) could be completed.
 Hence, KERI's complexity stems from three main aspects of its current nature:
 
 - it's a new concept
@@ -182,7 +182,7 @@ Explanatory articles from Henk van Cann about KERI, CESR, OOBI, Autonomic identi
 
 [KERI](https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERI_for_Muggles.pdf) and [ACDC](https://docs.google.com/presentation/d/1mO1EZa9BcjAjWEzw7DWi124uMfyNyDeM3HuajsGNoTo/edit#slide=id.ga411be7e84_0_0) for Muggles by Drummond Reed / Sam Smith
 
-[Docs](https://github.com/WebOfTrust/keri/tree/main/docs) about technical concepts behind KERI: Questions and Answers [general](https://github.com/WebOfTrust/keri/blob/main/docs/Q-and-A.md) and focussed on [security](https://github.com/WebOfTrust/keri/blob/main/docs/Q-and-A-Security.md), [Glossary KERI](https://github.com/WebOfTrust/keri/blob/main/docs/Glossary.md) and [Glossary ACDC](https://github.com/trustoverip/acdc/wiki).
+[Docs](https://github.com/WebOfTrust/keri/tree/main/docs) about technical concepts behind KERI: Questions and Answers [general](https://github.com/WebOfTrust/keri/blob/main/docs/Q-and-A) and focussed on [security](https://github.com/WebOfTrust/keri/blob/main/docs/Q-and-A-Security.md), [Glossary KERI](https://github.com/WebOfTrust/keri/blob/main/docs/Glossary.md) and [Glossary ACDC](https://github.com/trustoverip/acdc/wiki).
 
 Explanation of KERI development tools and techniques (preliminary link): [KERI development environment](https://github.com/henkvancann/keri-1/blob/main/docs/keri-dev-env.md)
 
@@ -357,7 +357,7 @@ See the [definitions](#normative) section for what both terms mean. For example,
 
 The [whitepaper](https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf) is the historically grown and expanded design document of `KERI`.
 
-A [KID](../kids.md) used to be focussed on Implementation; "this is how we do it" We add commentary to the individual KIDs that elaborate on the why. It has been split from the _how_ to not bother implementors with the _why_.
+A [KID] (../kids.md) used to be focussed on Implementation; "this is how we do it" We add commentary to the individual KIDs that elaborate on the why. It has been split from the _how_ to not bother implementors with the _why_.
 
 The KIDS concept has been abandoned but a remnant of them can still be found [here](https://github.com/decentralized-identity/keri/tree/master/kids). Now the first thing you should read are the `ietf-` drafts repos, for example ietf-cesr: https://github.com/WebOfTrust/ietf-cesr and ietf-keri: https://github.com/WebOfTrust/ietf-keri.
 

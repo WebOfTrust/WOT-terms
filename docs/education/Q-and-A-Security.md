@@ -2,7 +2,7 @@
 
 <img className="inline-small-start" src="../../img/Keri_logo_color_on_white.png" alt="KERI logo" border="0" width="400" />
 
-This document is part two of [Q-and-A](./Q-and-A.md). Both files shares a common [Glossary](./Glossary.md), KERI specific and more generic decentralized Identity ones, that has:
+This document is part two of [Q-and-A](./Q-and-A). Both files shares a common [Glossary](../category/glossary), KERI specific and more generic decentralized Identity ones, that has:
 
 - an alphabetically ordered list of **abbreviations**
 - an alphabetically ordered list of **definitions**
@@ -42,12 +42,12 @@ We've done our best to protect the privacy of the Github by investigating the im
 
 ### List of questions and definitions
 
-{TBW}
+TBW
 
 ## Knowledge you should be confidently applying
 
-- The definitions in the [glossary](./Glossary.md)
-- The Knowledge you should be confidently applying from part one of the [Q-and-A](./Q-and-A.md#knowledge-you-should-be-confidently-applying.md)
+- The definitions in the [glossary](./category/glossary)
+- The Knowledge you should be confidently applying from part one of the [Q-and-A](./Q-and-A#knowledge-you-should-be-confidently-applying)
 - Bitcoin Improvement Protocols: BIP32, BIP39, BIP44, BIP47, BIP49, BIP84, BIP174
 - hierarchical deterministic derivation paths
 - Base58
@@ -56,7 +56,7 @@ We've done our best to protect the privacy of the Github by investigating the im
 
 ## Actions you should be comfortable with
 
-- The Actions you should be comfortable with from part one of the [Q-and-A](./Q-and-A.md#actions-you-should-be-comfortable-with.md)
+- The Actions you should be comfortable with from part one of the [Q-and-A](./Q-and-A#actions-you-should-be-comfortable-with)
 - Amend knowledge and keep existing knowledge up to date
 
 ## Jump table to categories
@@ -77,19 +77,19 @@ We've done our best to protect the privacy of the Github by investigating the im
 
 ## PART ONE
 
-- [General](./Q-and-A.md#qa-section-general.md)
-- [Why the internet is broken](./Q-and-A.md#qa-section-why-the-internet-is-broken.md)
-- [Open source licenses](./Q-and-A.md#open-source-licences.md)
-- [KERI and DIDs](./Q-and-A.md#qa-keri-and-dids.md)
-- [Wallets](./Q-and-A.md#qa-section-wallets.md)
-- [Signatures](./Q-and-A.md#qa-section-signatures.md)
-- [Proofs](./Q-and-A.md#qa-section-proofs.md)
-- [Private Key Management](./Q-and-A.md#qa-section-private-key-management.md)
-- [Blockchain](./Q-and-A.md#qa-key-blockchain.md)
-- [KERI operational](./Q-and-A.md#qa-section-keri-operational.md)
-- [Root of trust](./Q-and-A.md#qa-section-root-of-trust.md)
-- [Agencies](./Q-and-A.md#qa-key-agencies.md)
-- [Virtual Credentials](./Q-and-A.md#virtual-credentials.md)
+- [General](./Q-and-A#qa-section-general)
+- [Why the internet is broken](./Q-and-A#qa-section-why-the-internet-is-broken)
+- [Open source licenses](./Q-and-A#open-source-licences)
+- [KERI and DIDs](./Q-and-A#qa-keri-and-dids)
+- [Wallets](./Q-and-A#qa-section-wallets)
+- [Signatures](./Q-and-A#qa-section-signatures)
+- [Proofs](./Q-and-A#qa-section-proofs)
+- [Private Key Management](./Q-and-A#qa-section-private-key-management)
+- [Blockchain](./Q-and-A#qa-key-blockchain)
+- [KERI operational](./Q-and-A#qa-section-keri-operational)
+- [Root of trust](./Q-and-A#qa-section-root-of-trust)
+- [Agencies](./Q-and-A#qa-key-agencies)
+- [Virtual Credentials](./Q-and-A#virtual-credentials)
 
 ---
 
@@ -131,7 +131,7 @@ despite their 30+ years of working in the identity space. The future of distribu
 
 Although the Decentralized Identity space is young, it's already pretty biased and sometimes narrow minded. The solutions in the DID space also have fundamental flaws. We will argue for both claims.
 
-DID expert tend to not read and re-invent what KERI is all about. [See here](https://github.com/decentralized-identity/keri/blob/master/docs/Q-and-A.md#critical-stance-welcomed-just-dont-try-to-rewrite-history-nor-be-lazy) how the KERI community would like to be handled.
+DID expert tend to not read and re-invent what KERI is all about. [See here](https://github.com/decentralized-identity/keri/blob/master/docs/Q-and-A#critical-stance-welcomed-just-dont-try-to-rewrite-history-nor-be-lazy) how the KERI community would like to be handled.
 
 Fundamental flaws:
 
@@ -209,7 +209,7 @@ The library provides a set of functions to generate unpredictable data, suitable
 
 ## \*Q: What is the main component of KERI's security?
 
-**Key management** is the main component, because every attack on KERI starts with `key compromise`. In KERI that is [strictly defined](./Glossary.md#key-compromise.md) and has a few caveats. There are no other attacks possible because KERI has consistent logs that are cryptographic verifiable to the `root-of-trust`, also know as the `public private key pair` used to create the identifier.\
+**Key management** is the main component, because every attack on KERI starts with `key compromise`. In KERI that is [strictly defined](./category/glossary#key-compromise) and has a few caveats. There are no other attacks possible because KERI has consistent logs that are cryptographic verifiable to the `root-of-trust`, also know as the `public private key pair` used to create the identifier.\
 
 So when we say “key compromise” in KERI we really mean compromise of **one of these three things**:
 Three infrastructures that are included in “key management” systems that must be protected.
@@ -623,7 +623,7 @@ _(@henkvancann)_
 
 ## \*\*Q: How do I create a KEL?
 
-By a key [`inception event`](./Glossary.md#inception-event.md). A controller creates a key pair and binds this to his/her KERI identifier.
+By a key [`inception event`](./category/glossary#inception-event). A controller creates a key pair and binds this to his/her KERI identifier.
 There will be wallet software and an API available in the course of code development and also a DID scheme (DID:UN) that invokes calls to those APIs during resolution of the DID.\
 _(@henkvancann)_
 
