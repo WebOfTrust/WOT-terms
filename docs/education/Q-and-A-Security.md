@@ -485,7 +485,7 @@ Within the assumption of both exceptions KERI complies with the GDPR rules:
 1. block-list of “deleted” KELs: a receipt of a request for erasure must naturally hold some PII, a two-party interaction might allow this to be recorded.
 2. a need to maintain system integrity/archival purposes can be a reason for maintaining some info right of erasure versus right to be forgotten. This active and passive approach reflects two slightly different interpretations of the same article (which one people use is a hint of their school of thought).
 
-<img src="../images/keri-gdpr-compliance-muggles.png" alt="KERI GDPR compliance" border="0" width="500" />
+<img src="../../img/keri-gdpr-compliance-muggles.png" alt="KERI GDPR compliance" />
 
 Beware that most of GDPR rules are there to protect you from being exploited. So you're not being prosecuted or being labelled as a criminal activity. It might only be illegal and somebody could hold you liable for that.
 _(@henkvancann)_
@@ -717,9 +717,9 @@ I first wrote about in 2018, it's been public knowledge ever since. I guess peop
 
 ## \*Q: What do I need to do step by step to rotate my keys?
 
-<img src="../images/key-rotation-muggles-steps1-2.png" alt="key rotation steps 1 and 2" border="0" width="500"/><img src="../images/key-rotation-muggles-steps3-4.png" alt="key rotation steps 3 and 4" border="0" width="500" align="right" />
-<img src="../images/key-rotation-muggles-steps5-6.png" alt="key rotation steps 5 and 6" border="0" width="500"/><img src="../images/key-rotation-muggles-steps7-8.png" alt="key rotation steps 7 and 8" border="0" width="500" align="right" />
-<img src="../images/key-rotation-muggles-steps9-10.png" alt="key rotation steps 9 and 10" border="0" width="500" />
+<img src="../../img/key-rotation-muggles-steps1-2.png" alt="key rotation steps 1 and 2" /><img src="../.. key-rotation-muggles-steps3-4.png" alt="key rotation steps 3 and 4" />
+<img src="../../img/key-rotation-muggles-steps5-6.png" alt="key rotation steps 5 and 6" /><img src="../../img/key-rotation-muggles-steps7-8.png" alt="key rotation steps 7 and 8" />
+<img src="../img/key-rotation-muggles-steps9-10.png" alt="key rotation steps 9 and 10"  />
 
 ---
 
@@ -730,7 +730,7 @@ I first wrote about in 2018, it's been public knowledge ever since. I guess peop
 ## \*\*Q What is the difference between KEL and KERL?
 
 The word 'Receipt' explains it all: the sender signs off the verification of the KEL done by the recipient. That _Receipt_ is hosted in the KERL and is the root-of-trust for KERI.\
-<img src="../images/Direct-mode-kel-kerl.png" alt="Direct mode: kel and kerl difference charted" border="0" width="600" class="rounded float-start" />
+<img src="../../img/Direct-mode-kel-kerl.png" alt="Direct mode: kel and kerl difference charted" className="inline-thumb-start" />
 The analogy is the difference between a _two-way_ - and a _three-way handshake_: Did I, the recipient, only verify that the sender's message was valid (two-way using KEL, arrow left to right) or did the sender _sign off the receipt_ of that verification by the recipient (three-way in KERL, arrow right to left)
 _(@henkvancann)_
 

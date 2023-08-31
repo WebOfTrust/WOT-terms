@@ -102,7 +102,7 @@ We've done our best to protect the privacy of Github users by investigating the 
 
 - [General](#qa-section-general)
 - [Why the internet is broken](#qa-section-why-the-internet-is-broken)
-- [Open source licenses](open-source-licenses)
+- [Open source licenses](#open-source-licenses)
 - [KERI and DIDs](#qa-KERI-and-dids)
 - [Wallets](#qa-section-wallets)
 - [Signatures](#qa-section-signatures)
@@ -936,14 +936,14 @@ On (sub)page(s of) [github](https://github.com/decentralized-identity/KERI).
 
 ## \*Q: Where can we find the code and how could a coder get started?
 
-The homepage on github [README.md](../README.md) pretty much sums up all the possibilities to download the available code and how developers can currently engage in the development process. We welcome all help we can get.
+The homepage on github [README.md] (../README) pretty much sums up all the possibilities to download the available code and how developers can currently engage in the development process. We welcome all help we can get.
 
 ## \*Q: What would you see as the main drawback of KERI?
 
 - Its main drawback is that it's nascent. (_SamMSmith_)
 - The field of cryptography is already complex by itself. KERI's extended complexity, combined with totally new terms and new process description make it a steep learning curve. It depends on your individual drive to want to know about KERI, to what extent the effort pays off. Maybe first try:
-  1. [KERI made easy](./KERI-made-easy.md)
-  2. The general [KERI Q&A](./Q-and-A.md)
+  1. [KERI made easy] (./KERI-made-easy.md)
+  2. The general [KERI Q&A] (./Q-and-A.md)
      _(@henkvancann)_
 - KERI is inventing its own lowest level building blocks. That will prevent a lot of potential code reuse. (@OR13)
 
