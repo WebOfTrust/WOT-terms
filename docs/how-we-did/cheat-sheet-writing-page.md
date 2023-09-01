@@ -65,7 +65,7 @@ You have to enable this feature. Go to settings and search for “markdown link 
 
 There are more ways to create links, read about it on https://docusaurus.io/docs/markdown-features/links, but this is how we do it here.
 
-## Inserting and styling mages
+## Inserting and styling images
 
 ### How to style images
 
