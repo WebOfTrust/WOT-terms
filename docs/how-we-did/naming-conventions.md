@@ -16,3 +16,8 @@ Directory: `tutorial-basics`
 File: `create-a-page.md`
 
 Combined: `tutorial-basics/create-a-page.md`
+
+## Media (images, video etc)
+
+No conventions (yet), except one:
+* remove spaces and replace with dash, underscore or nothing.
