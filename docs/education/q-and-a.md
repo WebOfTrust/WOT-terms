@@ -11,7 +11,7 @@
 
 
 
-This document is part one. Part two is [Q-and-A Security](./Q-and-A-Security). Both files shares a common [Glossary](./category/glossary) that has:
+This document is part one. Part two is [Q-and-A Security](./q-and-a-security). Both files shares a common [Glossary](./category/glossary) that has:
 
 
 - an alphabethically ordered list of **abbreviations**
@@ -116,17 +116,17 @@ We've done our best to protect the privacy of Github users by investigating the 
 
 ### PART TWO
 
-- [Q&A section KERI security considerations](./Q-and-A-Security#qa-section-keri-security-considerations)
-- [KERI operational security](./Q-and-A-Security#qa-section-KERI-operational-security)
-- [Identifiers](./Q-and-A-Security#qa-section-identifiers)
-- [Event logs](./Q-and-A-Security#qa-section-event-logs)
-- [Inconsistency and duplicity](./Q-and-A-Security#qa-inconsistency-and-duplicity)
-- [Key rotation](./Q-and-A-Security#qa-key-rotation)
-- [KEL and KELR](./Q-and-A-Security#qa-section-kel-and-kerl)
-- [Witness](./Q-and-A-Security#qa-section-Witness)
-- [Watchers](./Q-and-A-Security#qa-section-watcher)
-- [KERI and blockchain settled DIDs](./Q-and-A-Security#qa-KERI-and-blockchain-settled-dids)
-- [Security Guarantees](./Q-and-A-Security#qa-security-guarantees)
+- [Q&A section KERI security considerations](./q-and-a-security#qa-section-keri-security-considerations)
+- [KERI operational security](./q-and-a-security#qa-section-KERI-operational-security)
+- [Identifiers](./q-and-a-security#qa-section-identifiers)
+- [Event logs](./q-and-a-security#qa-section-event-logs)
+- [Inconsistency and duplicity](./q-and-a-security#qa-inconsistency-and-duplicity)
+- [Key rotation](./q-and-a-security#qa-key-rotation)
+- [KEL and KELR](./q-and-a-security#qa-section-kel-and-kerl)
+- [Witness](./q-and-a-security#qa-section-Witness)
+- [Watchers](./q-and-a-security#qa-section-watcher)
+- [KERI and blockchain settled DIDs](./q-and-a-security#qa-KERI-and-blockchain-settled-dids)
+- [Security Guarantees](./q-and-a-security#qa-security-guarantees)
 
 ---
 
@@ -182,7 +182,7 @@ Explanatory articles from Henk van Cann about KERI, CESR, OOBI, Autonomic identi
 
 [KERI](https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERI_for_Muggles.pdf) and [ACDC](https://docs.google.com/presentation/d/1mO1EZa9BcjAjWEzw7DWi124uMfyNyDeM3HuajsGNoTo/edit#slide=id.ga411be7e84_0_0) for Muggles by Drummond Reed / Sam Smith
 
-[Docs](https://github.com/WebOfTrust/keri/tree/main/docs) about technical concepts behind KERI: Questions and Answers [general](https://github.com/WebOfTrust/keri/blob/main/docs/Q-and-A) and focussed on [security](https://github.com/WebOfTrust/keri/blob/main/docs/Q-and-A-Security.md), [Glossary KERI](https://github.com/WebOfTrust/keri/blob/main/docs/Glossary.md) and [Glossary ACDC](https://github.com/trustoverip/acdc/wiki).
+[Docs](https://github.com/WebOfTrust/keri/tree/main/docs) about technical concepts behind KERI: Questions and Answers [general](https://github.com/WebOfTrust/keri/blob/main/docs/q-and-a) and focussed on [security](https://github.com/WebOfTrust/keri/blob/main/docs/q-and-a-security.md), [Glossary KERI](https://github.com/WebOfTrust/keri/blob/main/docs/Glossary.md) and [Glossary ACDC](https://github.com/trustoverip/acdc/wiki).
 
 Explanation of KERI development tools and techniques (preliminary link): [KERI development environment](https://github.com/henkvancann/keri-1/blob/main/docs/keri-dev-env.md)
 
@@ -257,7 +257,7 @@ It may have the characteristics you describe, but it's a species of its own.
 KERI better fits the Identity space. Doing away the total ordering in blockchains is a huge performance - and throughput gain, plus less worry about governance. There's also not such a thing as consensus forks.
 KERI solves (or _"gets away with"_ if you wish) this by a mechanism called **duplicity detection**. Watchers are all that matter. They guarantee that logs are immutable by one very simple rule: **"first seen wins"**.
 
-There is a separate [Q&A Security](./Q-and-A-Security.md) to answer the extensive list of Security related questions.
+There is a separate [Q&A Security](./q-and-a-security.md) to answer the extensive list of Security related questions.
 
 ## \*\*\*Q: Could we see a `WASM` module in the near future for Sidetree and DID:peer interoperability?
 
@@ -943,7 +943,7 @@ The homepage on github [README.md] (../README) pretty much sums up all the possi
 - Its main drawback is that it's nascent. (_SamMSmith_)
 - The field of cryptography is already complex by itself. KERI's extended complexity, combined with totally new terms and new process description make it a steep learning curve. It depends on your individual drive to want to know about KERI, to what extent the effort pays off. Maybe first try:
   1. [KERI made easy] (./KERI-made-easy.md)
-  2. The general [KERI Q&A] (./Q-and-A.md)
+  2. The general [KERI Q&A] (./q-and-a.md)
      _(@henkvancann)_
 - KERI is inventing its own lowest level building blocks. That will prevent a lot of potential code reuse. (@OR13)
 

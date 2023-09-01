@@ -92,7 +92,7 @@
   - **Level:** 2
   - **Type:** Slides
   - **Category:** KERI, SAID
-- **Title:** [KERI MOOC (Massive Online Opensource Course) Github Repo](https://github.com/henkvancann/keri-1/blob/main/docs/KERI-Mooc.md)
+- **Title:** [KERI MOOC (Massive Online Opensource Course) Github Repo](https://github.com/henkvancann/keri-1/blob/main/docs/keri-mooc.md)
   - **Description:** Slide deck for KERI Q&A session held in spring 2021.
   - **Target group:** General Public, Developers, Researchers
   - **Level:** 2

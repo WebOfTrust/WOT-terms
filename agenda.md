@@ -56,7 +56,7 @@ Explanatory articles from Henk van Cann about KERI, CESR, OOBI, Autonomic identi
 
 [KERI](https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERI_for_Muggles.pdf) and [ACDC](https://docs.google.com/presentation/d/1mO1EZa9BcjAjWEzw7DWi124uMfyNyDeM3HuajsGNoTo/edit#slide=id.ga411be7e84_0_0) for Muggles by Drummond Reed / Sam Smith
 
-[Docs](https://github.com/WebOfTrust/keri/tree/main/docs) about technical concepts behind KERI: Questions and Answers [general](https://github.com/WebOfTrust/keri/blob/main/docs/Q-and-A.md) and focussed on [security](https://github.com/WebOfTrust/keri/blob/main/docs/Q-and-A-Security.md), [Glossary KERI](https://github.com/WebOfTrust/keri/blob/main/docs/Glossary.md) and [Glossary ACDC](https://github.com/trustoverip/acdc/wiki).
+[Docs](https://github.com/WebOfTrust/keri/tree/main/docs) about technical concepts behind KERI: Questions and Answers [general](https://github.com/WebOfTrust/keri/blob/main/docs/q-and-a.md) and focussed on [security](https://github.com/WebOfTrust/keri/blob/main/docs/q-and-a-Security.md), [Glossary KERI](https://github.com/WebOfTrust/keri/blob/main/docs/Glossary.md) and [Glossary ACDC](https://github.com/trustoverip/acdc/wiki).
 
 Explanation of KERI development tools and techniques (preliminary link): [KERI development environment](https://github.com/henkvancann/keri-1/blob/main/docs/keri-dev-env.md)
 
@@ -266,7 +266,7 @@ The forest of interconnectied trees - Joseph\
 We need labels to analogies we create - Joseph
 
 What's the infratstructure I need for KERI? This is very hard to explain to the average interested person. - Randy
-People start comparing to what you can't compare. Sam Smith: KERI is the [internet identifier Platypus](https://github.com/WebOfTrust/keri/blob/main/docs/Q-and-A.md#keri-the-internet-identifier-platypus) 
+People start comparing to what you can't compare. Sam Smith: KERI is the [internet identifier Platypus](https://github.com/WebOfTrust/keri/blob/main/docs/q-and-a.md#keri-the-internet-identifier-platypus) 
 
 What are the key selling points of KERI - Kent
 

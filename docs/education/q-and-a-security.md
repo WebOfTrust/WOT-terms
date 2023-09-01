@@ -2,7 +2,7 @@
 
 <img className="inline-small-start" src="../../img/Keri_logo_color_on_white.png" alt="KERI logo" border="0" width="400" />
 
-This document is part two of [Q-and-A](./Q-and-A). Both files shares a common [Glossary](../category/glossary), KERI specific and more generic decentralized Identity ones, that has:
+This document is part two of [Q-and-A](./q-and-a). Both files shares a common [Glossary](../category/glossary), KERI specific and more generic decentralized Identity ones, that has:
 
 - an alphabetically ordered list of **abbreviations**
 - an alphabetically ordered list of **definitions**
@@ -47,7 +47,7 @@ TBW
 ## Knowledge you should be confidently applying
 
 - The definitions in the [glossary](./category/glossary)
-- The Knowledge you should be confidently applying from part one of the [Q-and-A](./Q-and-A#knowledge-you-should-be-confidently-applying)
+- The Knowledge you should be confidently applying from part one of the [Q-and-A](./q-and-a#knowledge-you-should-be-confidently-applying)
 - Bitcoin Improvement Protocols: BIP32, BIP39, BIP44, BIP47, BIP49, BIP84, BIP174
 - hierarchical deterministic derivation paths
 - Base58
@@ -56,7 +56,7 @@ TBW
 
 ## Actions you should be comfortable with
 
-- The Actions you should be comfortable with from part one of the [Q-and-A](./Q-and-A#actions-you-should-be-comfortable-with)
+- The Actions you should be comfortable with from part one of the [Q-and-A](./q-and-a#actions-you-should-be-comfortable-with)
 - Amend knowledge and keep existing knowledge up to date
 
 ## Jump table to categories
@@ -77,19 +77,19 @@ TBW
 
 ## PART ONE
 
-- [General](./Q-and-A#qa-section-general)
-- [Why the internet is broken](./Q-and-A#qa-section-why-the-internet-is-broken)
-- [Open source licenses](./Q-and-A#open-source-licences)
-- [KERI and DIDs](./Q-and-A#qa-keri-and-dids)
-- [Wallets](./Q-and-A#qa-section-wallets)
-- [Signatures](./Q-and-A#qa-section-signatures)
-- [Proofs](./Q-and-A#qa-section-proofs)
-- [Private Key Management](./Q-and-A#qa-section-private-key-management)
-- [Blockchain](./Q-and-A#qa-key-blockchain)
-- [KERI operational](./Q-and-A#qa-section-keri-operational)
-- [Root of trust](./Q-and-A#qa-section-root-of-trust)
-- [Agencies](./Q-and-A#qa-key-agencies)
-- [Virtual Credentials](./Q-and-A#virtual-credentials)
+- [General](./q-and-a#qa-section-general)
+- [Why the internet is broken](./q-and-a#qa-section-why-the-internet-is-broken)
+- [Open source licenses](./q-and-a#open-source-licences)
+- [KERI and DIDs](./q-and-a#qa-keri-and-dids)
+- [Wallets](./q-and-a#qa-section-wallets)
+- [Signatures](./q-and-a#qa-section-signatures)
+- [Proofs](./q-and-a#qa-section-proofs)
+- [Private Key Management](./q-and-a#qa-section-private-key-management)
+- [Blockchain](./q-and-a#qa-key-blockchain)
+- [KERI operational](./q-and-a#qa-section-keri-operational)
+- [Root of trust](./q-and-a#qa-section-root-of-trust)
+- [Agencies](./q-and-a#qa-key-agencies)
+- [Virtual Credentials](./q-and-a#virtual-credentials)
 
 ---
 
@@ -131,7 +131,7 @@ despite their 30+ years of working in the identity space. The future of distribu
 
 Although the Decentralized Identity space is young, it's already pretty biased and sometimes narrow minded. The solutions in the DID space also have fundamental flaws. We will argue for both claims.
 
-DID expert tend to not read and re-invent what KERI is all about. [See here](https://github.com/decentralized-identity/keri/blob/master/docs/Q-and-A#critical-stance-welcomed-just-dont-try-to-rewrite-history-nor-be-lazy) how the KERI community would like to be handled.
+DID expert tend to not read and re-invent what KERI is all about. [See here](https://github.com/decentralized-identity/keri/blob/master/docs/q-and-a#critical-stance-welcomed-just-dont-try-to-rewrite-history-nor-be-lazy) how the KERI community would like to be handled.
 
 Fundamental flaws:
 
@@ -629,7 +629,7 @@ _(@henkvancann)_
 
 ## \*Q: How can I trust a KEL?
 
-It is secured by a `Distributed Hash Table`, so internal inconsistencies are cryptographically provable. If they they are internal consistent the first level of trust is established. Furthermore a KERL is end-verifiable to the root-of-trust. You don't need the whole KERL at all times [Read more why](https://github.com/henkvancann/keri/blob/master/docs/Q-and-A.md#do-i-need-to-show-the-full-log-kel-to-anybody-i-transact-with-even-though-id-only-like-to-show-a-part-of-it-for-example-a-virtual-credential).\
+It is secured by a `Distributed Hash Table`, so internal inconsistencies are cryptographically provable. If they they are internal consistent the first level of trust is established. Furthermore a KERL is end-verifiable to the root-of-trust. You don't need the whole KERL at all times [Read more why](https://github.com/henkvancann/keri/blob/master/docs/q-and-a.md#do-i-need-to-show-the-full-log-kel-to-anybody-i-transact-with-even-though-id-only-like-to-show-a-part-of-it-for-example-a-virtual-credential).\
 KEL is considered a secondary root of trust (Whitepaper, Page 60/141, Section 7.35).
 _(@henkvancann)_
 
