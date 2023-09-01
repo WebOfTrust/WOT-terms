@@ -9,7 +9,7 @@ const https = require('https');
 
 // CONFIG
 const outputDirMarkDown = './docs/overview/';
-const outputFileNameMarkDown = 'Overview.mdx';
+const outputFileNameMarkDown = 'overview-and-context.mdx';
 
 const outputDirJSON = './static/json/'; //TODO: find a better place for this file
 const outputFileNameJSON = 'overview.json';
