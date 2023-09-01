@@ -9207,7 +9207,7 @@
       "pathing",
       "",
       "pathing",
-      "pathing",
+      "enables sending portions of a credential",
       "https://github.com/weboftrust/WOT-terms/wiki/pathing",
       "",
       "3"
@@ -9485,12 +9485,131 @@
     ],
     [
       "465",
+      "G",
+      "CBOR",
+      "",
+      "CBOR",
+      "concise binary object representation",
+      "https://github.com/weboftrust/WOT-terms/wiki/CBOR"
+    ],
+    [
+      "466",
+      "K",
+      "tholder",
+      "",
+      "tholder",
+      "t-holder object  that supports fractionally-weighted thresholds",
+      "https://github.com/weboftrust/WOT-terms/wiki/tholder"
+    ],
+    [
+      "467",
+      "K",
+      "bexter",
+      "",
+      "bexter",
+      "",
+      "https://github.com/weboftrust/WOT-terms/wiki/bexter"
+    ],
+    [
+      "468",
+      "K",
+      "moobi",
+      "",
+      "moobi",
+      "to share a bunch of different end-points (oobis) all at onc",
+      "https://github.com/weboftrust/WOT-terms/wiki/moobi"
+    ],
+    [
+      "469",
+      "G",
+      "ts-node",
+      "",
+      "ts-node",
+      "npm package that lets you run typescript from a shell",
+      "https://github.com/weboftrust/WOT-terms/wiki/ts-node"
+    ],
+    [
+      "470",
       "-",
-      "WWWWWW",
+      "interceptor",
       "",
+      "interceptor",
+      "a keria class that allows to push events happening inside the cloud agent to other backend processes",
+      "https://github.com/weboftrust/WOT-terms/wiki/interceptor",
       "",
+      "3"
+    ],
+    [
+      "471",
+      "-",
+      "salty-nonce-blinding-factor",
       "",
-      "https://github.com/weboftrust/WOT-terms/wiki/WWWWWW"
+      "salty-nonce-blinding-factor",
+      "",
+      "https://github.com/weboftrust/WOT-terms/wiki/salty-nonce-blinding-factor"
+    ],
+    [
+      "472",
+      "-",
+      "c ",
+      "",
+      "c "
+    ],
+    [
+      "473",
+      "-",
+      "c ",
+      "",
+      "c "
+    ],
+    [
+      "474",
+      "-",
+      "c ",
+      "",
+      "c "
+    ],
+    [
+      "475",
+      "-",
+      "c ",
+      "",
+      "c "
+    ],
+    [
+      "476",
+      "-",
+      "c ",
+      "",
+      "c "
+    ],
+    [
+      "477",
+      "-",
+      "c ",
+      "",
+      "c "
+    ],
+    [
+      "478",
+      "-",
+      "c ",
+      "",
+      "c "
+    ],
+    [
+      "479",
+      "-",
+      "c ",
+      "",
+      "c "
+    ],
+    [
+      "480",
+      "-",
+      "c ",
+      "",
+      "c "
     ]
   ]
 }
