@@ -1,5 +1,6 @@
 {
   "label": "Education",
+  "position": 9,
   "link": {
     "type": "generated-index",
     "description": "Educational resources."
