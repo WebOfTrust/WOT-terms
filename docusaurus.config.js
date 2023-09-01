@@ -96,18 +96,18 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          {
-            to: '/visualisations',
-            label: 'Visualisations',
-            position: 'left',
-            items: [
-              {
-                to: 'https://weboftrust.github.io/WOT-terms/visualisations/WebOfTrust/index.htm',
-                label: 'Connections in repo`s of WebOfTrust',
-                target: '_self',
-              }
-            ],
-          },
+          // {
+          //   to: '/visualisations',
+          //   label: 'Visualisations',
+          //   position: 'left',
+          //   items: [
+          //     {
+          //       to: 'https://weboftrust.github.io/WOT-terms/visualisations/WebOfTrust/index.htm',
+          //       label: 'Connections in repo`s of WebOfTrust',
+          //       target: '_self',
+          //     }
+          //   ],
+          // },
           // {
           //   href: 'https://weboftrust.github.io/WOT-terms/glossary.html',
           //   label: 'Glossary',
