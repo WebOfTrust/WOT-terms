@@ -84,6 +84,9 @@ function createMarkDownFiles(content) {
 
     let finalStringAll = '';
 
+    // Create title for page
+    finalStringAll += `# Overview and context`;
+
     // Create table container
     finalStringAll += `<div id='table-container'>`;
 
