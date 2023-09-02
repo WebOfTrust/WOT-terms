@@ -96,6 +96,12 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
+          {
+            type: 'doc',
+            docId: 'how-we-did/cheat-sheet-writing-page',
+            position: 'left',
+            label: 'For contributors to this website',
+          },
           // {
           //   to: '/visualisations',
           //   label: 'Visualisations',
