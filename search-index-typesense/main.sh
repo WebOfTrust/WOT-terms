@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export INDEX_OVERVIEW_FILE="docs/overview/indexed-in-KERISSE.md"
+export INDEX_OVERVIEW_FILE="docs/02_overview/indexed-in-KERISSE.md"
 
 
 # Function to handle the user's choice
