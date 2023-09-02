@@ -11,6 +11,8 @@ Everything that is important to do the right way but you keep forgetting how to 
 
 Use an editor that fixes markdown links when changing file names or moving files. We recommend * Visual Studio Code * (https://code.visualstudio.com).
 
+Change default setting in Visual Studio Code:
+
 * Go to preferences
 * Type in search field: “markdown link update”
 * Set to “prompt” or “always”
@@ -63,7 +65,7 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
 
 </div>
 
-### From page to page
+### Linking from page to page
 
 Internal linking is not easy in most content management systems. In Docusaurus it's difficult to keep all links working after renaming files. Here you will find best practise.
 
@@ -89,7 +91,7 @@ If you do it this way, you can make Visual Studio Code [work for you](#strongly-
 
 There are more ways to create links, read about it on https://docusaurus.io/docs/markdown-features/links, but this is how we do it here.
 
-### In the same page (anchor)
+### Create links to anchors in the same page
 
 To create a link to an anchor in the same page:
 
@@ -97,7 +99,7 @@ To create a link to an anchor in the same page:
 [anchor link inside the same page](#foo)
 ```
 
-### To an anchor in another page
+### Linking to an anchor in another page
 
 ```
 [Link to concepts](../concepts/concepts.md#foo)
@@ -105,50 +107,52 @@ To create a link to an anchor in the same page:
 
 ## Inserting and styling images
 
+### How to insert images in your text
+
+* Use html syntax (not markdown)
+* however, use `className` and not the normal `class`
+* and use `require`
+
+You can copy this example and use it (there is a copy button available at the right):
+
+```
+<img className="inline-small-start" src={require('/static/img/foo.png').default} alt="Foo" />
+```
+
+You can insert images using Markdown but you cannot style these images using classes (CSS). So that is not very usable. That is why we use html syntax.
+
+
 ### How to style images
 
 Images are styled via CSS.
 
-The following classes are available for styling:
+The following classes are available for styling (there is a copy button available at the right):
 
 ```
-.inline-thumb-start,
-.inline-thumb-end,
-.inline-small-start,
-.inline-small-end,
-.inline-medium-start,
-.inline-medium-end,
+inline-thumb-start
+```
+```
+inline-thumb-end
+```
+```
+inline-small-start
+```
+
+```
+inline-small-end
+```
+
+```
+inline-medium-start
+```
+
+```
+inline-medium-end
 ```
 
 Start means “to the left” (in left-to-right languages).
 
 When no class is added the image will be 100% width.
-
-There are two ways for styling images:
-
-#### Add a class to the image
-
-Use this when the image code is normal HTML.
-
-Apply the classes by adding the class to the image. Note: do it like this. Example:
-
-```
-<img className="inline-thumb-start" src="…" alt="…">
-```
-
-Do not use ```class``` like in regular HTML, instead use ```className```.
-
-#### Wrap the image in a div with a class
-
-Use this when the image is added via Markdown code. Example:
-
-```
-<div className="inline-small-start">
-
-[![foo](https://example.com/foo/bar)](https://example.com/foo/bar)
-
-</div>
-```
 
 ### How to link to the image
 
