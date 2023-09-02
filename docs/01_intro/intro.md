@@ -57,7 +57,7 @@ That said, we consider there's given a wish to mutually understand each-other (t
 
 Then what might magically happen is that somewhere in this process the recipients concludes that the tool has **meaning** for them! He/she believes it has unique characteristics, value, practical application etc. There might even be someone that _sees_ it's the next big thing on the web, like the KERI / ACDC tends to believe.
 
-So this is why we explain our concepts in various levels of understanding and link it to terminology spun in a interrelated glossary. Here you can find the KERI, OOBI, CESR and ACDC concepts, starting points and principles: [Concepts.md](../concepts/concepts.md)
+So this is why we explain our concepts in various levels of understanding and link it to terminology spun in a interrelated glossary. Here you can find the KERI, OOBI, CESR and ACDC concepts, starting points and principles: [Concepts.md](../06_concepts/concepts.md)
 
 {EXplain IETF, ToIP, eSSIF-Lab}
 
