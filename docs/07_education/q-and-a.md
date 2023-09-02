@@ -17,7 +17,8 @@ This document is part one. Part two is [Q-and-A Security](./q-and-a-security). B
 - an alphabethically ordered list of **abbreviations**
 - an alphabethically ordered list of **definitions**
 
-<img className="inline-small-start" src="https://github.com/WebOfTrust/keri/blob/main/images/Keri_logo_color_on_white.png?raw=true" alt="KERI logo" />
+
+<img className="inline-small-start" src={require('/static/img/Keri_logo_color_on_white.png').default} alt="Keri logo" />
 
 **The questions are of a varied level: basic and detailed. The answers are mostly directed towards generally interested people and newbies.**\
 \*Q = one star question. Novice to KERI, advanced in DIDs\
