@@ -112,16 +112,17 @@ To create a link to an anchor in the same page:
 * Use html syntax (not markdown)
 * however, use `className` and not the normal `class`
 * and use `require` for local images
+* do not add html attributes like `width` or `height` and do not use `style='…'`
 
-You can copy this example and use it (there is a copy button available at the right):
+You can copy these examples and use it (there is a copy button available at the right):
 
-To insert a local image:
+#### To insert a local image
 
 ```
 <img className="inline-small-start" src={require('/static/img/foo.png').default} alt="Foo" />
 ```
 
-To insert a remote image:
+##### To insert a remote image
 
 ```
 <img className="inline-small-start" src='https://www.example.dom/img/foo.png' alt="Foo" />
