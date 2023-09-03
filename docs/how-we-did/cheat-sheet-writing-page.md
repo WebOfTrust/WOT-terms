@@ -124,7 +124,7 @@ To insert a local image:
 To insert a remote image:
 
 ```
-<img className="inline-small-start" src=('https://www.example.dom/img/foo.png') alt="Foo" />
+<img className="inline-small-start" src='https://www.example.dom/img/foo.png' alt="Foo" />
 ```
 
 You can insert images using Markdown but you cannot style these images using classes (CSS). So that is not very usable. That is why we use html syntax.
