@@ -21,6 +21,32 @@ Change default setting in Visual Studio Code:
 
 </div>
 
+## General
+
+Use empty lines between everything:
+
+Good:
+
+```
+# Main title
+
+## Subtitle
+
+A paragraph text
+
+Another paragraph text
+```
+
+
+Wrong:
+
+```
+# Main title
+## Subtitle
+A paragraph text
+Another paragraph text
+```
+
 ## Headings
 
 Start a page with a `#` followed by a space.
