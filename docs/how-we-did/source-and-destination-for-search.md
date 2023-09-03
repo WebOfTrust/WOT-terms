@@ -13,7 +13,8 @@ To streamline this process, we are considering two types of data inputs: direct 
 > The user-friendly output could be indirect input or an extract / modification of this. For example the indriect input of our KERI for Muggles example is a Google Doc `Slides` file on the web. The user-friendly output could be a `pdf` generated with Google Docs from the `Slides` file.
 
 ## Current Situation
-![Tab Handmade of WOT-term Google sheet](https://hackmd.io/_uploads/HyUgpI8o2.png)
+
+<img src='https://hackmd.io/_uploads/HyUgpI8o2.png' alt="Tab Handmade of WOT-term Google sheet" />
 
 Our existing system includes a 'WOT-Terms' sheet that contains a 'Handmade' tab. This tab features resources specified in a 'Source' column and their corresponding 'Destination' column.
 
@@ -32,7 +33,7 @@ After deliberating on the current situation, the following decisions were made:
 ## Save to htm(l)
 Example export to html:
 
-![](https://hackmd.io/_uploads/r10McuLo3.png)
+<img src='https://hackmd.io/_uploads/r10McuLo3.png' alt="" />
 
 Only use the content file `.html`
 

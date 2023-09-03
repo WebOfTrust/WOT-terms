@@ -7,7 +7,7 @@ sidebar: HowWeDidSidebar
 
 We edit HackMD.io files during meetings. There is a `Versions and github sync` option in HackMD.io.
 
-![](https://hackmd.io/_uploads/HkkAyTGps.png)
+<img src='https://hackmd.io/_uploads/HkkAyTGps.png' alt="" />
 
 If this is not configured to direct access the production site, we need to sync this explicitly.
 

@@ -1,15 +1,6 @@
 # Q&A about KERI
 
-
-
-<div className="inline-small-start">
-
-[![hackmd-github-sync-badge](https://hackmd.io/Ox_1L3adTdCEkcFtAzuTFA/badge)](https://hackmd.io/Ox_1L3adTdCEkcFtAzuTFA)
-
-</div>
-
-
-
+<a href="https://hackmd.io/Ox_1L3adTdCEkcFtAzuTFA"><img className="inline-small-start" src='https://hackmd.io/Ox_1L3adTdCEkcFtAzuTFA/badge' alt="" /></a>
 
 This document is part one. Part two is [Q-and-A Security](./q-and-a-security.md). Both files shares a common [Glossary](./category/glossary) that has:
 
@@ -139,7 +130,7 @@ We've done our best to protect the privacy of Github users by investigating the 
 
 Key Event Receipt Infrastructure; a **secure identifier overlay** for the internet.\
 Hmm, a mouthful of terms. Let's start with the identifier. One of the basic (!) forms of KERI identifiers is this example:
-<img src="https://github.com/WebOfTrust/keri/blob/main/images/basic-scid.png?raw=true" alt="identifier" border="0" width="600" />
+<img src="https://github.com/WebOfTrust/keri/blob/main/images/basic-scid.png?raw=true" alt="identifier" />
 
 ## \*\*\*Q: Why is KERI and all its supporting tools so complex?
 
@@ -204,7 +195,7 @@ did:aid:BDKrJxkcR9m5u1xs33F5pxRJP6T7hJEbhpHrUtlDdhh0/path/to/resource?name=secur
 Currently `KERI` is just code, that can be tested and executed in a terminal on the command line. Private key management of KERI will look like `wallets`.\
 Key Event Logs (`KEL`) and Key Event Receipt Log (`KERL`) are files with lots of encrypted stuff in there.\
 
-<img src="https://github.com/WebOfTrust/keri/blob/main/images/key-event-log-muggles.png?raw=true" alt="key event log" border="0" width="400" />
+<img src="https://github.com/WebOfTrust/keri/blob/main/images/key-event-log-muggles.png?raw=true" alt="key event log" />
 *(@henkvancann)*
 
 ### \*Q: How is KERI an overlay?
@@ -269,7 +260,7 @@ _(CharlesCunningham)_
 ## \*Q: How does KERI match the `trust-over-ip` model and how does KERI fit in the `W3C DID standardization`?
 
 The ToIP stack has a left side (governance) and the right side (technical)
-<img src="https://github.com/WebOfTrust/keri/blob/main/images/trust-over-ip-stack.png?raw=true" alt="Trust over IP stack" border="0" width="600" />
+<img src="https://github.com/WebOfTrust/keri/blob/main/images/trust-over-ip-stack.png?raw=true" alt="Trust over IP stack" />
 KERI is at lower levels of the ToIP. Other DID methods will add KERI to their method and that's how KERI could be present in these layers.
 
 [Trust-over-IP](#trust-over-ip):
@@ -294,8 +285,8 @@ _(@henkvancann)_
 
 KERI solves the problem of **secure attribution to identifiers**. By using self-certifying identifiers (`SCI`s) and ambient availability of verifiable Key Event Logs (`KEL`) that prove authoritative control over identifiers' private keys. It can't be solved by other solutions known so far because those solution have not managed to span identifier interoperability over the internet and function all the same as an overlay.
 _(@henkvancann)_
-<img src="https://github.com/WebOfTrust/keri/blob/main/images/sci-muggles.png?raw=true" alt="self-certifying identifiers" border="0" width="400" />
-<img src="https://github.com/WebOfTrust/keri/blob/main/images/key-event-log-muggles.png?raw=true" alt="key event log" border="0" width="400" />
+<img src="https://github.com/WebOfTrust/keri/blob/main/images/sci-muggles.png?raw=true" alt="self-certifying identifiers" />
+<img src="https://github.com/WebOfTrust/keri/blob/main/images/key-event-log-muggles.png?raw=true" alt="key event log" />
 
 ## \*Q What is KERI made of?
 
@@ -390,7 +381,7 @@ In brief these are these reasons:
 
 ## \*Q: In the KERI system design trade space you strike out features, so you must have stroked out application space too; which?
 
-<img src="https://github.com/WebOfTrust/keri/blob/main/images/trade-space-limitations.png?raw=true" alt="trade-space-limitations" border="0" width="300" />
+<img src="https://github.com/WebOfTrust/keri/blob/main/images/trade-space-limitations.png?raw=true" alt="trade-space-limitations" />
 
 ### KERI's suitability
 
@@ -436,7 +427,7 @@ So KERI has an audience that acts as if they understand distributed consensus bu
 ## \*Q: Why would the internet be broken?
 
 The Internet Protocol (IP) is broken because it has no security layer.\
-<img src="https://github.com/WebOfTrust/keri/blob/main/images/internet_broken.png?raw=true" alt="Internet stack shows omissions" border="0" width="500" />
+<img src="https://github.com/WebOfTrust/keri/blob/main/images/internet_broken.png?raw=true" alt="Internet stack shows omissions" />
 (_SamMSmith_)
 
 ### \*\*Q: There is no security on the internet?, are you serious?
@@ -448,7 +439,7 @@ The security measures the internet has are \_bolt-on*s and dependent of intermed
 
 Establish authenticity between the key pair and the identifier of IP packet’s message payload. [See more](https://ssimeetup.org/key-event-receipt-infrastructure-KERI-secure-identifier-overlay-internet-sam-smith-webinar-58/) in an explanatory presentation.
 
-<img src="https://github.com/WebOfTrust/keri/blob/main/images/identity_system_security_overlay.png?raw=true" alt="identity system security overlay" border="0" width="800" />
+<img src="https://github.com/WebOfTrust/keri/blob/main/images/identity_system_security_overlay.png?raw=true" alt="identity system security overlay" />
 (*SamMSmith*)
 
 ## \*Q: What's wrong with SSL certificate intermediairies?
@@ -469,7 +460,7 @@ We don't have a trustable interoperability. And that leads to the idea that the 
 
 ## \*Q: How to repair the internet trust layer?
 
-With a waist and a neck. <img src="https://github.com/WebOfTrust/keri/blob/main/images/platform_locked_trust.png?raw=true" alt="Platform locked trust" border="0" width="300" class="rounded float-start" /><img src="https://github.com/WebOfTrust/keri/blob/main/images/waist_neck.png?raw=true" alt="Waist and neck" border="0" width="350" class="rounded float-end" />
+With a waist and a neck. <img src="https://github.com/WebOfTrust/keri/blob/main/images/platform_locked_trust.png?raw=true" alt="Platform locked trust" class="rounded float-start" /><img src="https://github.com/WebOfTrust/keri/blob/main/images/waist_neck.png?raw=true" alt="Waist and neck" />
 _(@henkvancann)_
 
 ## \*Q: What role does KERI play in the suggested "repair of the internet"?
@@ -625,7 +616,7 @@ _(@henkvancann)_
 
 KERI identifiers can be “delegated”, meaning one identifier can create another one that can prove its relationship with its parent. This way you can create any hierarchy of identifiers & keys.
 
-<img src="https://github.com/WebOfTrust/keri/blob/main/images/delegation-keri-muggles.png?raw=true" alt="key delegation illustration" border="0" width="600" />
+<img src="https://github.com/WebOfTrust/keri/blob/main/images/delegation-keri-muggles.png?raw=true" alt="key delegation illustration" />
 
 ## \*\*Q: How to sign an ACDC?
 
@@ -760,7 +751,7 @@ However it's not very practical, because PGP itself is a conglomerate format tha
 
 ## \*\*Q: What difference does the Autonomic Architecture of the KERI Identity System make?
 
-<img src="https://github.com/WebOfTrust/keri/blob/main/images/autonomic-architecture.png?raw=true" alt="Autonomic Architecture" border="0" width="400" />
+<img src="https://github.com/WebOfTrust/keri/blob/main/images/autonomic-architecture.png?raw=true" alt="Autonomic Architecture" />
 
 The controller uses her `private key` to authoritatively and non-repudiated sign statements about the operations on the keys and their binding to the identifier, storing those in an ordered key event log (`KEL`). One of the important realizations that make autonomic identity systems possible is that the key event log must only be ordered in the context of a single identifier, not globally. **So, a ledger is not needed for recording operations on identifiers that are not public.** The key event log can be shared with and verified by anyone who cares to see it.
 
@@ -772,7 +763,7 @@ More in [The Architecture of Identity Systems](https://www.windley.com/archives/
 ## \*\*Q: How multi-tasking is the key infrastructure?
 
 KERI has `univalent`, `bivalent` and `multivalent` infrastructures.\ 
-<img src="https://github.com/WebOfTrust/keri/blob/main/images/key-infra-valence.png?raw=true" alt="Key Infrastruction Valence levels" border="0" width="600" />
+<img src="https://github.com/WebOfTrust/keri/blob/main/images/key-infra-valence.png?raw=true" alt="Key Infrastruction Valence levels" />
 You need Key-pair Generation and Key-Event-Signing Infrastructure. And KERI doesn't care how you do it.\
 From `bivalent` delegation | fill out?! | comes into play. But in fact you can have `multivalent` infrastructures, all with their own security guarantees and its own key management policies.\
 It's all one KERI codebase to do all these infrastructures.\
@@ -791,7 +782,7 @@ Yes, you can derive your keys from that scheme. But KERI is agnostic about it, i
 ## \*Q: Not your keys, not your identity?
 
 To begin with, yes, KERI fully depends on `PKI` cryptography. KERI was built upon the assumption of unbreakable public private keys.
-<img src="https://github.com/WebOfTrust/keri/blob/main/images/pubprivkey-caveat.png?raw=true?raw=true" alt="Public Private Key caveat to KERI" border="0" width="500" />
+<img src="https://github.com/WebOfTrust/keri/blob/main/images/pubprivkey-caveat.png?raw=true?raw=true" alt="Public Private Key caveat to KERI" />
 
 By the way, in KERI we say _identifier_, because **identity** is a loaded term, lots of misunderstanding around it.
 

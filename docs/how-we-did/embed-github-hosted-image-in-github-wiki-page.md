@@ -49,7 +49,7 @@ B.
 
 Either way will work. Here's the proof :), that I've deleted already:
 
-<img src="https://hackmd.io/_uploads/B1l9wwX-09.png" width="700" />
+<img src="https://hackmd.io/_uploads/B1l9wwX-09.png" alt="" />
 
 C. Just add `?raw=true` to the URL
 
@@ -57,7 +57,7 @@ C. Just add `?raw=true` to the URL
 
 Either way will work. And here is the proof, that I've already deleted of course from the production environment:
 
-<img src="https://hackmd.io/_uploads/S15bh7Z09.png" width="800" />
+<img src="https://hackmd.io/_uploads/S15bh7Z09.png" alt="" />
 
 ## Resume
 

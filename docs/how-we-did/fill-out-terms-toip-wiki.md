@@ -24,7 +24,7 @@ Go to any of them, for example to the [acdc](https://github.com/weboftrust/WOT-t
 
 1. **Find a page**: To find a term just type part of it and the available list will be filtered instantly
 
-![How to find a term in the terms wiki](/img/find-a-page.png)
+<img src={require('/static/img/find-a-page.png').default} alt="How to find a term in the terms wiki" />
 
 <!--
    <img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/find-a-page.png" alt="how to find a term in the terms wiki" width="300" />
@@ -33,7 +33,8 @@ Go to any of them, for example to the [acdc](https://github.com/weboftrust/WOT-t
 > you could save the newcomers by throwing links in the chat to the matching terms in the wiki.
 
 ### Result filtered pages
-![How to filter terms in the terms wiki](/img/filter-pages.png)
+
+<img src={require('/static/img/filter-pages.png').default} alt="How to filter terms in the terms wiki" />
 
 <!--
 <img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/filter-pages.png" alt="how to filter terms in the terms wiki" width="300" />
@@ -53,7 +54,7 @@ Go to any of them, for example to the [acdc](https://github.com/weboftrust/WOT-t
 The authentic web is the internet as a whole giant verifiable data structure. Also called Web5. The web will be one big graph. That's the mental model of the 'authentic web'.
 ```
 
-![How to create a new term in the terms wiki](/img/new-term-wiki-page.png)
+<img src={require('/static/img/new-term-wiki-page.png').default} alt="How to create a new term in the terms wiki" />
 
 <!--
 <img src="https://WebOfTrust.github.io/WOT-terms/static/img/new-term-wiki-page.png" alt="how to create a new term in the terms wiki" width="600" />

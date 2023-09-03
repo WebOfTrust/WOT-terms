@@ -79,7 +79,7 @@ And glue it together into a clickable and working URL to the right spot/timing i
 
 The start of example Excel sheet would like this:
 
-<img src="https://hackmd.io/_uploads/rkWsMskAc.png" width="800" align="right" />
+<img src="https://hackmd.io/_uploads/rkWsMskAc.png" alt="" />
 
 The Excel file can be saved as a Comma Separated file `.csv`
 
@@ -96,25 +96,25 @@ I've used [Tablesgenerator.com](https://www.tablesgenerator.com). Use the follow
 
 #### Upload `.csv` file
 
-<img src="https://hackmd.io/_uploads/HJ3zejyCq.png" width="300" />
+<img src="https://hackmd.io/_uploads/HJ3zejyCq.png" alt="" />
 
-<img src="https://hackmd.io/_uploads/S19Llo1C9.png" width="400" align="right" />
+<img src="https://hackmd.io/_uploads/S19Llo1C9.png" alt="" />
 
-<img src="https://hackmd.io/_uploads/Hk93ki1Aq.png" width="500" />
+<img src="https://hackmd.io/_uploads/Hk93ki1Aq.png" alt="" />
 
 #### Check the result
 
 And then copy the result; use the clipboard
 
-<img src="https://hackmd.io/_uploads/rkljgoyA9.png" width="200" />
+<img src="https://hackmd.io/_uploads/rkljgoyA9.png" alt="" />
 
 and paste into your editor. After pasting the column headers in compact form will show
 
-<img src="https://hackmd.io/_uploads/BkwAmsJ09.png" width="500" />
+<img src="https://hackmd.io/_uploads/BkwAmsJ09.png" alt="" />
 
 remove the column you don't need, by not referencing them (the data is still in the column, redundantly). In this example I removed 3 columns:
 
-<img src="https://hackmd.io/_uploads/S1qt4sJ0q.png" width="400" />
+<img src="https://hackmd.io/_uploads/S1qt4sJ0q.png" alt="" />
 
 ### Create the description file of the resource where the Links Table is included
 
@@ -179,7 +179,7 @@ Any source that uses the css to adjust the column and cell width (to shrink the 
 
 For example:
 
-<img src="https://hackmd.io/_uploads/HyYs35JC9.png" width="500" />
+<img src="https://hackmd.io/_uploads/HyYs35JC9.png" alt="" />
 
 ## Result
 

@@ -20,9 +20,7 @@ Paddington Bear is a fictional character in children's literature. He first appe
 
 <div data-level="2">
 
-<div className="testje-images">
-    <img src="https://github.com/WebOfTrust/keri/blob/main/images/Keri_logo_color_on_white.png?raw=true" alt="KERI logo" className="test" />
-</div>
+<img src="https://github.com/WebOfTrust/keri/blob/main/images/Keri_logo_color_on_white.png?raw=true" alt="KERI logo" />
 
 The friendly spectacled bear from “darkest Peru” – with his old hat, battered suitcase, duffel coat and love of marmalade – has become a classic character in children's literature.[2] An anthropomorphised bear, Paddington is always polite – addressing people as “Mr”, “Mrs” and “Miss” but rarely by first names – and kindhearted, though he inflicts hard stares on those who incur his disapproval.[3] He has an endless capacity for innocently getting into trouble, but he is known to “try so hard to get things right”. He was discovered in London Paddington station by the (human) Brown family who adopted him and gives his full name as “Paddington Brown,” as his original name in bear language was too hard for them to pronounce.
 

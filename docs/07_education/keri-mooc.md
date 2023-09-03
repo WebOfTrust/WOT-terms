@@ -21,7 +21,9 @@ The content of the Massive Online Opensource Course (MOOC) should be
 
 
 ## KERI solves...
-![](https://hackmd.io/_uploads/SyBaKmMct.png)
+
+<img src='https://hackmd.io/_uploads/SyBaKmMct.png' alt="" />
+
 Source: Sam Smith 2021, [KERI.one](http://keri.one)
 
 ## What is not specifically KERI

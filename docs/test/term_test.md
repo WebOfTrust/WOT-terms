@@ -21,7 +21,7 @@ Winnie-the-Pooh, also called Pooh Bear and Pooh, is a <a href="https://example.c
 
 <div data-level="2">
 
-<img src="https://github.com/WebOfTrust/keri/blob/main/images/Keri_logo_color_on_white.png?raw=true" alt="KERI logo" border="0" width="300" />The first collection of stories about the character was the book Winnie-the-Pooh (1926), and this was followed by The House at Pooh Corner (1928). Milne also included a poem about the bear in the children's verse book When We Were Very Young (1924) and many more in Now We Are Six (1927). All four volumes were illustrated by E. H. Shepard.
+<img src="https://github.com/WebOfTrust/keri/blob/main/images/Keri_logo_color_on_white.png?raw=true" alt="KERI logo" />The first collection of stories about the character was the book Winnie-the-Pooh (1926), and this was followed by The House at Pooh Corner (1928). Milne also included a poem about the bear in the children's verse book When We Were Very Young (1924) and many more in Now We Are Six (1927). All four volumes were illustrated by E. H. Shepard.
 
 </div>
 
