@@ -1406,7 +1406,7 @@
       "",
       "",
       "",
-      "#NAME?",
+      "Claiming the truth of something, usually when it is disputed or uncertain.",
       "",
       "Assertion of truth, disputed or uncertain."
     ],
@@ -7202,7 +7202,7 @@
       "issuer",
       "",
       "issuer",
-      "an ACDC is issued by the Issuer. The Issuer identifier (AID) appears in the top level of the ACDC.",
+      "an ACDC is issued by the Issuer. The Issuer��identifier (AID) appears in the top level of the ACDC.",
       "https://github.com/trustoverip/acdc/wiki/issuer",
       "",
       "1",
