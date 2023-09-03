@@ -78,7 +78,7 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
 
 ```
 
-## Internal linking in the `docs` section
+## Links: Internal linking in the `docs` section
 
 
 <div class="alert alert-info" role="alert">
@@ -129,6 +129,12 @@ To create a link to an anchor in the same page:
 
 ```
 [Link to concepts](../concepts/concepts.md#foo)
+```
+
+## Links: External linking
+
+```
+[link text](https://www.example.com)
 ```
 
 ## Inserting and styling images
