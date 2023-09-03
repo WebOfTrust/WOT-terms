@@ -5,11 +5,11 @@ Mechanical protection is composed of sharing the schema of the data to be shared
 
 Once the legal agreements have been met then the disclosure mechanism exchanges the desired data contents.
 
-This is also the most elaborate form of disclosure by an [IPEX](IPEX.md). Contractually protected disclosure includes both [chain-link confidential](chain-link-confidentiality) and [contingent disclosure](contingent-disclosure.md).\
+This is also the most elaborate form of disclosure by an [IPEX](IPEX.md). Contractually protected disclosure includes both [chain-link confidential](chain-link-confidentiality.md) and [contingent disclosure](contingent-disclosure.md).\
 Paraphrased by @henkvancann based on [source](https://github.com/WebOfTrust/ietf-ipex/blob/main/draft-ssmith-ipex.md#discussion)
 
 ## Relation
-This [IPEX](IPEX) protocol leverages important features of [ACDC](acdc.md)s and ancillary protocols such as [CESR](CESR), [SAID](SAID.md)s, and [CESR-Proofs](cesr-proof.md) as well as [Ricardian contract](ricardian-contract)s and graduated disclosure (partial, selective, full) to enable contractually protected disclosure. Contractually protected disclosure includes both [chain-link confidential](chain-link confidential) and [contingent disclosure](contingent disclosure.md).
+This [IPEX](IPEX) protocol leverages important features of [ACDC](acdc.md)s and ancillary protocols such as [CESR](CESR.md), [SAID](SAID.md)s, and [CESR-Proofs](cesr-proof.md) as well as [Ricardian contract](ricardian-contract.md)s and graduated disclosure (partial, selective, full) to enable contractually protected disclosure. Contractually protected disclosure includes both [chain-link confidential](chain-link confidential) and [contingent disclosure](contingent disclosure.md).
 
 ## Rule
-The disclosure performed by a presentation exchange MAY be [graduated](graduated-disclosure) and MAY be [contractually](contractually-protected-disclosure.md) protected.
+The disclosure performed by a presentation exchange MAY be [graduated](graduated-disclosure.md) and MAY be [contractually](contractually-protected-disclosure.md) protected.
