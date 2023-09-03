@@ -236,7 +236,7 @@ serialization indicates a preferred content-addressable identifier for that seri
 #### Barriers to Adoption of Linked Data VCs
 
 The purpose of this paper is to capture and convey to a broader audience my increasingly worrisome concerns about the adoption path for Verifiable Credentials (VCs). My concerns began with the security limitations of VCs that use Linked Data (otherwise known as JSON-LD/RDF) and have since extended to the semantic inference limitations of Linked Data. My concerns may be expressed succinctly as, the VC standard appears to be an adoption vector for Linked Data, not the other way around. My overriding interest is that the concept of a VC as a securely attributable statement is a very powerful and attractive one and therefore should be widely adopted. We should therefore be picking the best technologies that best support broad VC adoption, not the other way around.\
-[Source:](.md) VC Spec Enhancement Strategy Proposal by Sam Smith
+[Source:] (.md) VC Spec Enhancement Strategy Proposal by Sam Smith
 
 <!-- #######NEW BLOCK####### -->
 
@@ -278,7 +278,7 @@ pre-rotation (double-checked control authority)\
 Rotation (act when you smell danger)\
 Delegation (engage service provider without losing control; middleman on a leash)\
 Revocation (minimize effects of adversely situation)\
-Scalable witness & watchers network (reconciliation options; [first seen](.md))\
+Scalable witness & watchers network (reconciliation options; [first seen] (.md))\
 Round-robin composable streaming (for readability of commitments)\
 Tamper evident (duplicity checks)\
 Non-repudiation
@@ -443,9 +443,9 @@ principles and pre-conditions
 
 #### Freedom of witness and backer organization - extensible - scalable
 
-We have two types: witnesses (for the controller) and backer to check duplicity in the network. The reason we've done this because we thus avoid the [eclipse attack](.md), that blockchains suffer from.
+We have two types: witnesses (for the controller) and backer to check duplicity in the network. The reason we've done this because we thus avoid the [eclipse attack] (.md), that blockchains suffer from.
 
-We foresee witness and watcher hosting services, just like web hosting currently. Technically speaking a watcher and a witness use the same code and protocol, watchers run in [promiscuous mode](.md).
+We foresee witness and watcher hosting services, just like web hosting currently. Technically speaking a watcher and a witness use the same code and protocol, watchers run in [promiscuous mode] (.md).
 
 #### Freedom of validator and watchtower organization - extensible - scalable
 
