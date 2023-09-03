@@ -1,6 +1,6 @@
 ## Definition
 
-A controller is a controlling entity (person, organization, or autonomous software) of an identifier. For an [autonomic identifier (AID)](autonomic-identifier), a controlling entity has the capability to make changes to the [key event log (KEL)](key-event-log) of the AID. This capability is typically asserted by the control of a set of cryptographic keys used by software acting on behalf of the controller, though it might also be asserted via other mechanisms.
+A controller is a controlling entity (person, organization, or autonomous software) of an identifier. For an [autonomic identifier (AID)](autonomic-identifier.md), a controlling entity has the capability to make changes to the [key event log (KEL)](key-event-log) of the AID. This capability is typically asserted by the control of a set of cryptographic keys used by software acting on behalf of the controller, though it might also be asserted via other mechanisms.
 
 At any point in time, an identifier has at least one but may have more than one controlling entity. This set of controlling entities constitutes the controller. Without loss of generality, when the context is unambiguous, the term controller may refer either to the whole set or a member of the set of controlling entities.
 

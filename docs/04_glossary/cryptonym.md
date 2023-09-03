@@ -3,7 +3,7 @@ A code name, call sign or cryptonym is a [code word](https://en.wikipedia.org/wi
 Source [Wikipedia](https://en.wikipedia.org/wiki/Code_name)
 
 ## KERI related
-A cryptographic pseudonymous identifier represented by a string of characters derived from a random or pseudo-random secret seed or salt via a one-way cryptographic function with a sufficiently high degree of cryptographic strength (e.g. 128 bits, see appendix on [cryptographic strength](cryptographic-strength). A cryptonym is a type of primitive.\
-Due the [entropy](entropy) in its [derivation](derivation), a cryptonym is a universally unique identifier and only the [controller](controller) of the secret [salt](salt) or [seed](seed) from which the cryptonym is derived may prove control over the cryptonym. Therefore the derivation function MUST be associated with the cryptonym and MAY be encoded as part of the cryptonym itself.\
+A cryptographic pseudonymous identifier represented by a string of characters derived from a random or pseudo-random secret seed or salt via a one-way cryptographic function with a sufficiently high degree of cryptographic strength (e.g. 128 bits, see appendix on [cryptographic strength](cryptographic-strength.md). A cryptonym is a type of primitive.\
+Due the [entropy](entropy) in its [derivation](derivation), a cryptonym is a universally unique identifier and only the [controller](controller.md) of the secret [salt](salt) or [seed](seed.md) from which the cryptonym is derived may prove control over the cryptonym. Therefore the derivation function MUST be associated with the cryptonym and MAY be encoded as part of the cryptonym itself.\
 Source [Smith, ietf-keri draft](https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-keri.md)
 

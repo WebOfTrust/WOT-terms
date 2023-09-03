@@ -5,4 +5,4 @@ It is cryptographically secure if nobody can _reliably distinguish_ the output f
 (Source: https://crypto.stackexchange.com/questions/12436/what-is-the-difference-between-csprng-and-prng)
 
 ## See also
-[PRNG](PRNG)
+[PRNG](PRNG.md)
