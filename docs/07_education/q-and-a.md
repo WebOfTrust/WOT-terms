@@ -11,7 +11,7 @@
 
 
 
-This document is part one. Part two is [Q-and-A Security](./q-and-a-security). Both files shares a common [Glossary](./category/glossary) that has:
+This document is part one. Part two is [Q-and-A Security](./q-and-a-security.md). Both files shares a common [Glossary](./category/glossary) that has:
 
 
 - an alphabethically ordered list of **abbreviations**

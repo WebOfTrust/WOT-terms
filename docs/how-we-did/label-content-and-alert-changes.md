@@ -64,7 +64,7 @@ What is the [advantage of this](#advantage), who's going to benefit and what's t
 5. the filename will be the filename of the source, the path will be the path in the Filesystem.
 6. Add an `ourid` in the Column `ourid`. We raise the IDs per file by 100 and then number the blocks, that have a different labelling than the file as a total, from there on by 1,2,3 etc. This is not mandatory. The code has to be unique only and the sheet will report with a color if not.
 
-<img src="./images/management-ourid.png" class="img-thumbnail" alt="caxe-logo"  width="250" />
+<img className="inline-thumb-start" src={require('/static/img/management-ourid.png').default} alt="caxe-logo" />
 
 ### Postcondition
 

@@ -9,8 +9,8 @@ To generate our static content site on the Github project page of this [WOT-term
 2. a sheet called _Terms WOT manage_ (`a Google sheet`) a central location with strict editing rights: [here](https://docs.google.com/spreadsheets/d/18IUa-1NSJ_8Tz_2D-VSuSQa_yf3ES1s_hovitm3Clvc/edit?pli=1#gid=209150977).
 3. From this central sheet you can go where ever you like: e.g. a "comma separated" file _Terms WOT manage_ (`.csv`) exported from the Sheet in any directory locally. In fact it's a semi-colon-separated text file that you might get; so check the result.
 
-<img src="./images/Terms-wot-manage-screen-example.png" alt="Terms-wot-manage-screen-example" width="800" />
-<img src="./images/csv-utf-8-save-as.png" alt="csv-utf-8-save-as" width="600" />
+<img src={require('/static/img/Terms-wot-manage-screen-example.png').default} alt="Terms-wot-manage-screen-example" />
+<img src={require('/static/img/csv-utf-8-save-as.png').default} alt="csv-utf-8-save-as" />
 
 ## Why a sheet and why is it called Terms WOT manage?
 
