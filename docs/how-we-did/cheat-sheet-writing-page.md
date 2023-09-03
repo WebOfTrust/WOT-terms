@@ -139,6 +139,7 @@ To create a link to an anchor in the same page:
 * however, use `className` and not the normal `class`
 * and use `require` for local images
 * do not add html attributes like `width` or `height` and do not use `style='…'`
+* always use an `alt` attribute. If the image is decorative leave it empty (`alt=""`), else write something as if you explain the image to someone on the phone
 
 You can copy these examples and use it (there is a copy button available at the right):
 
@@ -147,6 +148,11 @@ You can copy these examples and use it (there is a copy button available at the 
 ```
 <img className="inline-small-start" src={require('/static/img/foo.png').default} alt="Foo" />
 ```
+#### To insert a local image that is a link
+
+```
+<a href="https://www.example.com"><img className="inline-small-start" src={require('/static/img/foo.png').default} alt="Foo" /></a>
+```
 
 #### To insert a remote image
 
@@ -154,7 +160,14 @@ You can copy these examples and use it (there is a copy button available at the 
 <img className="inline-small-start" src='https://www.example.dom/img/foo.png' alt="Foo" />
 ```
 
+#### To insert a remote image that is a link
+
+```
+<a href="https://www.example.com"><img className="inline-small-start" src='https://www.example.dom/img/foo.png' alt="Foo" /></a>
+```
 You can insert images using Markdown but you cannot style these images using classes (CSS). So that is not very usable. That is why we use html syntax.
+
+
 
 
 ### How to style images
