@@ -181,8 +181,9 @@ Combined: `tutorial-basics/create-a-page.md`
 
 ### Media (images, video etc)
 
-No conventions (yet), except one:
+No conventions (yet), except two:
 * remove spaces and replace with dash, underscore or nothing.
+* put all media files in `/static` (and not in an image dir somewhere in `/doc`).
 
 ## Sidebar Menu
 
