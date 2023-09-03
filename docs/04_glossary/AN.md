@@ -1,2 +1,2 @@
 ## See
-[Autonomic namespace](autonomic-namespace)
+[Autonomic namespace](autonomic-namespace.md)

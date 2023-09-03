@@ -1,9 +1,9 @@
 ## Definition
-The current state of a [transaction event log](transaction-event-log) (TEL) **be hidden or blinded** such that _the only way_ for a potential verifier of the state to observe that state is _when the controller of a designated AID discloses it_ at the time of presentation.
+The current state of a [transaction event log](transaction-event-log.md) (TEL) **be hidden or blinded** such that _the only way_ for a potential verifier of the state to observe that state is _when the controller of a designated AID discloses it_ at the time of presentation.
 
 {BE CAREFUL WITH THE REST, JUST TEXT SNIPPETS TYPED IN FROM A CONVERSATION }
 
-No information can be obtained via a [rainbow table attack](rainbow-table-attack) because the hash has enough [entropy](entropy) added to it.
+No information can be obtained via a [rainbow table attack](rainbow-table-attack.md) because the hash has enough [entropy](entropy) added to it.
 
 {TBW on the basis of the last half hour of the recording ACDC meetup Dec 6 }
 

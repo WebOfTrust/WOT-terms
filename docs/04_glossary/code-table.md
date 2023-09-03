@@ -8,4 +8,4 @@ a code table is the Internet's most comprehensive yet simple resource for browsi
 
 
 ## CESR related
-Multiple text and binary code tables exist to pre-pend characters before the respective stream parts to characterize ([self-framing](self-framing)) them or group them.
+Multiple text and binary code tables exist to pre-pend characters before the respective stream parts to characterize ([self-framing](self-framing.md)) them or group them.

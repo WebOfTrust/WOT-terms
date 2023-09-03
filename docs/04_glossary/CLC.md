@@ -1,2 +1,2 @@
 ## See
-[Chain link confidential](chain-link-confidentiality)
+[Chain link confidential](chain-link-confidentiality.md)
