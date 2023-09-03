@@ -3,4 +3,4 @@ A [KERI](keri) implementation that sacrifices performance or other non-security 
 More on source [Github Repo SKWA](https://github.com/WebOfTrust/skwa).
 
 ## Design
-Designed for private clouds, just like [Keep](Keep). [Signify](signify) is designed for public clouds.
+Designed for private clouds, just like [Keep](Keep). [Signify](signify.md) is designed for public clouds.

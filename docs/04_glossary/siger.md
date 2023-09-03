@@ -1,1 +1,1 @@
-## See [Indexed signature](indexed-signature)
+## See [Indexed signature](indexed-signature.md)

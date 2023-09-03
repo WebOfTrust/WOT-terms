@@ -6,7 +6,7 @@ In our digital mental model it's an _official_ digital _record book_. When peopl
 
 A unique registry can be referenced in one of two ways, by [namespace](namespace), or by [domain](domain).
 
-<img src="https://hackmd.io/_uploads/HyXBDKbGi.png" width="400" />
+<img src="https://hackmd.io/_uploads/HyXBDKbGi.png" />
 
 [Source](https://stevelasker.blog/2020/02/17/registry-namespace-repo-names/)
 

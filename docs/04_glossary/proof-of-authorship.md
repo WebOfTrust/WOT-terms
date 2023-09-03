@@ -7,7 +7,7 @@ For example, a [signature](https://en.wikipedia.org/wiki/Signature) constitutes 
 
 ## ACDC and proofs
 
-_Proof of authorship_ and [proof of authority](proof-of-authority) are integrated in [Authentic Chained Data Containers (ACDCs)](authentic-chained-data-container-(ACDC)) constituting an [Authentic Provenance Chain (APC)](authentic-provenance-chain-(APC)):
+_Proof of authorship_ and [proof of authority](proof-of-authority) are integrated in [Authentic Chained Data Containers (ACDCs)](authentic-chained-data-container-(ACDC)) constituting an [Authentic Provenance Chain (APC)](authentic-provenance-chain-(APC.md)):
 - ACDCs provide a verifiable chain of proof-of-`authorship` of the contained data
 - A proof-of-`authority` may be used to provide verifiable authorizations or permissions or rights or credentials. A chained (treed) proof-of-authority enables delegation of authority and delegated authorizations.
 These proofs of authorship and/or authority provide provenance of an ACDC itself and by association any data that is so conveyed.\

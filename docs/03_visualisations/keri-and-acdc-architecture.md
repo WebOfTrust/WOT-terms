@@ -5,7 +5,8 @@ Flow charts created by Kent Bull.
 
 ## KERI & ACDC Architecture - Controller Node
 
-![KERI & ACDC Architecture - Ctlr-Node](/img/KERI-ACDC-architecture/KERI-&-ACDC-Architecture---Ctlr-Node.png)
+<img src={require('/static/img/KERI-ACDC-architecture/KERI-&-ACDC-Architecture---Ctlr-Node.png').default} alt="KERI & ACDC Architecture - Ctlr-Node" />
 
 ## KERI & ACDC Architecture - Witness Node
-![KERI & ACDC Architecture - Wit-Node](/img/KERI-ACDC-architecture/KERI-&-ACDC-Architecture---Wit-Node.png)
+
+<img src={require('/static/img/KERI-ACDC-architecture/KERI-&-ACDC-Architecture---Wit-Node.png').default} alt="KERI & ACDC Architecture - Wit-Node" />

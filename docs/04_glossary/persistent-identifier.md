@@ -1,2 +1,2 @@
 ## See
-[Transferable Identifiers](transferable-identifier)
+[Transferable Identifiers](transferable-identifier.md)

@@ -1,7 +1,7 @@
 ## Definition
-tells us what part of the [CESR](CESR) stream will be parsed by which code.
+tells us what part of the [CESR](CESR.md) stream will be parsed by which code.
 
 ## Related
-[Parside](parside)
+[Parside](parside.md)
 
 | TBW |

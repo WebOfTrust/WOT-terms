@@ -1,2 +1,2 @@
 ## See
-[Secure asset transfer protocol](secure-asset-transfer-protocol)
+[Secure asset transfer protocol](secure-asset-transfer-protocol.md)

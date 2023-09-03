@@ -242,7 +242,8 @@ Blockchain and KERI is comparing apples and oranges. But we're happy to do that 
 
 ### KERI, the internet identifier Platypus
 
-<img src="https://github.com/WebOfTrust/keri/blob/main/images/platypus.jpg" alt="Platypus" border="0" width="250" />
+<img className="inline-small-start" src={require('/static/img/platypus.jpg').default} alt="Platypus" />
+
 
 ```text
 KERI is nothing like we already know of. It's a mixtures of things.

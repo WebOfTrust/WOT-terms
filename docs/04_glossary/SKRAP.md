@@ -1,2 +1,2 @@
 ## See
-[Signify/KERIA Request Authentication Protocol](signify-keria-request-authentication-protocol)
+[Signify/KERIA Request Authentication Protocol](signify-keria-request-authentication-protocol.md)

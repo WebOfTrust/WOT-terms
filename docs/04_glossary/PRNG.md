@@ -5,4 +5,4 @@ Such pseudorandomness can be cryptographically secure, or not. It is cryptograph
 (Source: https://crypto.stackexchange.com/questions/12436/what-is-the-difference-between-csprng-and-prng)
 
 ## See also
-[CSPRNG](CSPRNG)
+[CSPRNG](CSPRNG.md)

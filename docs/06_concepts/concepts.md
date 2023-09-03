@@ -48,7 +48,7 @@ We reuse and reorganise as much as possible, using open source tools.
 
 Contributions welcome!
 
-<img src="https://hackmd.io/_uploads/r1BYbPfA5.png" class="img-fluid" alt="CDCI design for WOT-terms" />
+<img src="https://hackmd.io/_uploads/r1BYbPfA5.png" alt="CDCI design for WOT-terms" />
 
 ## Explanation of concepts
 
@@ -310,7 +310,9 @@ Non-repudiation
 | Obligatory           | No, it is the personal choice of an individual                               | Yes, when the information is professional and legal.                                                                                       |
 | Disallowed           | Everyone is disallowed from involving the personal affairs of an individual. | Only unauthorized persons are disallowed from using the information.                                                                       |
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/privacy-vs-confidentiality.png" alt="privacy-vs-confidentiality table" class="img-fluid" /> [Source: ](https://keydifferences.com/difference-between-privacy-and-confidentiality.html) Keydifferences.com
+<img src={require('/static/img/privacy-vs-confidentiality.png').default} alt="privacy-vs-confidentiality table" />
+
+[Source: ](https://keydifferences.com/difference-between-privacy-and-confidentiality.html) Keydifferences.com
 
 #### Strong bindings
 

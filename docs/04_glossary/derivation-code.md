@@ -9,7 +9,8 @@ To properly extract and use the [public key](public-key-infrastructure) embedded
 
 ### Relation with KERI
 All crypto material appears in `KERI` in a fully [qualified](qualified) representation. This includes a derivation code prepended to the crypto-material.
-![](https://github.com/WebOfTrust/keri/blob/main/images/derivation-code.png)
+
+<img src='https://github.com/WebOfTrust/keri/blob/main/images/derivation-code.png?raw=true' alt="" />
 
 ## Beware
 [Key derivation functions](https://en.wikipedia.org/wiki/Key_derivation_function) are not related to the pre-pended derivation codes used in KERI.
