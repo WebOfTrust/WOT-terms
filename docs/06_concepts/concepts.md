@@ -244,7 +244,7 @@ The purpose of this paper is to capture and convey to a broader audience my incr
 
 #### Its and Bits - Cryptography and one-way functions is the only thing than can safe our digital twin
 
-Use [trans-contextual value](trans-contextual-value.md) creation and capture to fuel cooperative network effects.
+Use [trans-contextual value](../04_glossary/trans-contextual-value.md) creation and capture to fuel cooperative network effects.
 
 #### Network dynamics - centralized system will lose
 
@@ -353,7 +353,7 @@ See [glossary item](https://github.com/trustoverip/acdc/wiki/non-repudiable)
 
 #### First seen - timing solution - overload protection
 
-KERI alternative to total global ordering and consensus protocols is a mechanism called [duplicity](duplicity.md) detection. In the [verification](verifiers.md) and [validation](validation.md) **watchers are all that matter**; they guarantee that logs are immutable by one very simple rule: "[first seen](first-seen.md) wins".
+KERI alternative to total global ordering and consensus protocols is a mechanism called [duplicity](../04_glossary/duplicity.md) detection. In the [verification](../04_glossary/verifiers.md) and [validation](../04_glossary/validation.md) **watchers are all that matter**; they guarantee that logs are immutable by one very simple rule: "[first seen](../04_glossary/first-seen.md) wins".
 
 #### Pre-rotation - quantum protection - security fallback (exposure, theft) - portray changing power dynamics
 
