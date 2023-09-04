@@ -2,7 +2,9 @@
   Author: Kor Dwarshuis
   Created: 2023-09-04
   Updated: -
-  Description: This script checks all links on the WOT-terms site and reports broken links. It also creates a GitHub issue with the broken links. 
+  Description: This script checks all links on the WOT-terms site and reports broken links. It also creates a GitHub issue with the broken links.
+  The script should be run from the root of the WOT-terms repository.
+    Usage: node findBrokenLinks.js
 */
 
 require('dotenv').config();
