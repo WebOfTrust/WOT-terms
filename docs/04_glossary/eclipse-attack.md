@@ -1,5 +1,5 @@
 ## Definition
-An eclipse attack is a [P2P](peer-to-peer) network-based attack. Eclipse attack can only be performed on nodes that accept incoming connections from other nodes, and not all nodes accept incoming connections.
+An eclipse attack is a [P2P](peer-to-peer.md) network-based attack. Eclipse attack can only be performed on nodes that accept incoming connections from other nodes, and not all nodes accept incoming connections.
 
 In a bitcoin network, by default, there are a maximum of 117 incoming TCP connections and 8 outgoing TCP connections.\
 [Source](https://www.geeksforgeeks.org/what-is-an-eclipse-attack/)

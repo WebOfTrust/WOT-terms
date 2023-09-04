@@ -4,5 +4,5 @@ An electronic signature, or e-signature, refers to data in electronic form, whic
 
 ## Digital signature implementation of e-signatures
 
-_Electronic_ signatures are a legal concept _distinct_ from **[digital signatures](digital-signature), a cryptographic mechanism** often used to implement electronic signatures. While an electronic signature can be as simple as a name entered in an electronic document, digital signatures are increasingly used in e-commerce and in regulatory filings to implement electronic signatures in a cryptographically protected way. 
+_Electronic_ signatures are a legal concept _distinct_ from **[digital signatures](digital-signature.md), a cryptographic mechanism** often used to implement electronic signatures. While an electronic signature can be as simple as a name entered in an electronic document, digital signatures are increasingly used in e-commerce and in regulatory filings to implement electronic signatures in a cryptographically protected way. 
 

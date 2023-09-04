@@ -5,5 +5,5 @@ Regarding the graduated disclosure objective this form is the one with the highe
 
 
 ## See also
-[Fully compact(ed)](fully-compact) version of an ACDC\
-[Most compact](most-compact) version of an ACDC.
+[Fully compact(ed)](fully-compact.md) version of an ACDC\
+[Most compact](most-compact.md) version of an ACDC.
