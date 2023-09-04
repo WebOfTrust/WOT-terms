@@ -1,0 +1,33 @@
+name: Run Node.js Script Manually
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-node-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: npm install
+      # Assuming you have a package.json and your dependencies are listed there
+
+    - name: Run Node.js script
+      env:
+        GITHUB_ISSUE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: node multitools/findBrokenLinks.js
+
+    - name: Commit and push if there are changes
+      run: |
+        git add -A
+        git commit -m "Auto-commit broken links report"
+        git push
+      continue-on-error: true  # Continue even if nothing to commit
