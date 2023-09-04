@@ -59,8 +59,6 @@ Then what might magically happen is that somewhere in this process the recipient
 
 So this is why we explain our concepts in various levels of understanding and link it to terminology spun in a interrelated glossary. Here you can find the KERI, OOBI, CESR and ACDC concepts, starting points and principles: [Concepts.md](../06_concepts/concepts.md)
 
-
-
 {EXplain IETF, ToIP, eSSIF-Lab}
 
 ### Levels of understanding
