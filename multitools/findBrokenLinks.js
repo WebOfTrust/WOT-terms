@@ -27,7 +27,7 @@ const config = {
     githubRepo: 'WebOfTrust/WOT-terms',
     githubToken: process.env.GITHUB_ISSUE_AUTH_TOKEN
 };
-
+console.log("config.outputFilePath: " + config.outputFilePath);
 console.log('Configuration loaded.');
 
 let brokenLinks = [];
