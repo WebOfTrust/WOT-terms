@@ -11,6 +11,12 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
+    - name: Show working directory
+      run: pwd
+
+    - name: List files in current directory
+      run: ls -al
+
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
@@ -19,10 +25,6 @@ jobs:
     - name: Install dependencies
       run: npm install
       # Assuming you have a package.json and your dependencies are listed there
-
-    - name: Show working directory
-      run: pwd
-
 
     - name: Find broken links
       env:
