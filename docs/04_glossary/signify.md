@@ -2,7 +2,7 @@
 
 Signify is a web client [(key) event](key-event.md) signing - and key pair creation app that minimizes the use of [KERI](KERI.md) on the client.
 
-The main reason is that we want to minimize what needs to be put in the client or the cloud. Most proofs should be cryptographically verifiable and it should not be able to be repudiated (successful [pointing fingers](#Finger-pointing) should be prevented), and this happens when the signatures come straight from the controller.
+The main reason is that we want to minimize what needs to be put in the client or the cloud. Most proofs should be cryptographically verifiable and it should not be able to be repudiated (successful [pointing fingers](#Finger-pointing.md) should be prevented), and this happens when the signatures come straight from the controller.
 
 ## Background
 On a small set of activities that need to be protected in infrastructure for key management
