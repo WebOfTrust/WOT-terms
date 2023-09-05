@@ -17,7 +17,7 @@ console.log('Initialization...');
 
 // Configuration Section
 const config = {
-    outputFilePath: './logs/brokenLinks.txt',
+    outputFilePath: '/logs/brokenLinks.txt',
     githubRepo: 'WebOfTrust/WOT-terms',
     githubToken: process.env.GITHUB_ISSUE_AUTH_TOKEN
 };
