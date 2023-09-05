@@ -38,7 +38,7 @@ const siteChecker = new SiteChecker({}, {
             return;
         }
 
-        // console.log(`Checking link: ${result.url.original} on ${result.base.original}`);
+        console.log(`Checking link: ${result.url.original} on ${result.base.original}`);
         try {
             // Create fully qualified URLs
             const baseURL = 'https://weboftrust.github.io';
