@@ -20,7 +20,11 @@ jobs:
       run: npm install
       # Assuming you have a package.json and your dependencies are listed there
 
-    - name: Run Node.js script
+    - name: Show working directory
+      run: pwd
+
+
+    - name: Find broken links
       env:
         GITHUB_ISSUE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: node multitools/findBrokenLinks.js
