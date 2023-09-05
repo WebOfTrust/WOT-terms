@@ -1,5 +1,5 @@
 {
-  "range": "'Terms-WOT-manage'!A1:AA1028",
+  "range": "'Terms-WOT-manage'!A1:AA1020",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -9390,7 +9390,7 @@
       "vcp",
       "",
       "vcp",
-      "|TBW|",
+      "vdr incept, verifiable data registry inception",
       "https://github.com/weboftrust/WOT-terms/wiki/vcp"
     ],
     [
@@ -9399,7 +9399,7 @@
       "bis",
       "",
       "bis",
-      "|TBW|",
+      "backed vc issue, registry-backed transaction event log credential issuance",
       "https://github.com/weboftrust/WOT-terms/wiki/bis"
     ],
     [
@@ -9417,7 +9417,7 @@
       "brv",
       "",
       "brv",
-      "|TBW|",
+      "backed vc revoke, registry-backed transaction event log credential revocation",
       "https://github.com/weboftrust/WOT-terms/wiki/brv"
     ],
     [
@@ -9426,17 +9426,8 @@
       "vrt",
       "",
       "vrt",
-      "|TBW|",
+      "vdr rotate, verifiable data registry rotation",
       "https://github.com/weboftrust/WOT-terms/wiki/vrt"
-    ],
-    [
-      "459",
-      "K",
-      "ixn",
-      "",
-      "ixn",
-      "|TBW|",
-      "https://github.com/weboftrust/WOT-terms/wiki/ixn"
     ],
     [
       "460",
@@ -9551,65 +9542,98 @@
     [
       "472",
       "-",
-      "c ",
+      "ilk",
       "",
-      "c "
-    ],
-    [
-      "473",
-      "-",
-      "c ",
-      "",
-      "c "
-    ],
-    [
-      "474",
-      "-",
-      "c ",
-      "",
-      "c "
-    ],
-    [
-      "475",
-      "-",
-      "c ",
-      "",
-      "c "
+      "ilk",
+      "ilk is short for message type"
     ],
     [
       "476",
       "-",
-      "c ",
+      "dip",
       "",
-      "c "
+      "dip",
+      "delcept, delegated inception"
     ],
     [
       "477",
       "-",
-      "c ",
+      "drt",
       "",
-      "c "
+      "drt",
+      "deltate, delegated rotation"
     ],
     [
       "478",
       "-",
-      "c ",
+      "rct",
       "",
-      "c "
+      "rct",
+      "receipt"
     ],
     [
       "479",
       "-",
-      "c ",
+      "ksn",
       "",
-      "c "
+      "ksn",
+      "sate, key state notice"
     ],
     [
       "480",
       "-",
-      "c ",
+      "qry",
       "",
-      "c "
+      "qry",
+      "query"
+    ],
+    [
+      "",
+      "",
+      "rpy",
+      "",
+      "rpy",
+      "reply"
+    ],
+    [
+      "",
+      "",
+      "exn",
+      "",
+      "exn",
+      "exchange"
+    ],
+    [
+      "",
+      "",
+      "exp",
+      "",
+      "exp",
+      "expose, sealed data exposition"
+    ],
+    [
+      "",
+      "",
+      "iss",
+      "",
+      "iss",
+      "vc issue, verifiable credential issuance"
+    ],
+    [
+      "",
+      "",
+      "rev",
+      "",
+      "rev",
+      "vc revoke, verifiable credential revocation"
+    ],
+    [
+      "",
+      "",
+      "vdr",
+      "",
+      "vdr",
+      "verifiable data registry"
     ]
   ]
 }
