@@ -71,9 +71,6 @@ const siteChecker = new SiteChecker({}, {
         }).join('\n');
 
         fs.writeFile(config.outputFilePath, dataToWrite, async (err) => {
-
-
-
             if (err) {
                 console.error('Error writing to file:', err);
             } else {
