@@ -54,14 +54,26 @@ const siteChecker = new SiteChecker({}, {
     end: async () => {
         console.log('Checking done! Writing to file...');
 
+        // Get ISO8601 timestamp
+        const getISO8601Timestamp = () => {
+            const now = new Date();
+            return now.toISOString();
+        };
+
+        const timestamp = getISO8601Timestamp();
+
         const numberOfBrokenLinks = brokenLinks.length;
-        let dataToWrite = `Total Broken Links Found: ${numberOfBrokenLinks}\n\n`;
+        let dataToWrite = "Created: " + timestamp + "\n\n";
+        dataToWrite += `Total Broken Links Found: ${numberOfBrokenLinks}\n\n`;
         let totalBrokenLinks = `Total Broken Links Found: ${numberOfBrokenLinks}\n\n`;
         dataToWrite += brokenLinks.map(linkInfo => {
             return `Broken Link: ${linkInfo.brokenLink}, Found on Page: ${linkInfo.foundOnPage}`;
         }).join('\n');
 
         fs.writeFile(config.outputFilePath, dataToWrite, async (err) => {
+
+
+
             if (err) {
                 console.error('Error writing to file:', err);
             } else {
@@ -70,10 +82,11 @@ const siteChecker = new SiteChecker({}, {
 
             console.log('Creating GitHub issue...');
 
+            // TODO: Create GitHub should not be inside the file write callback
             // Create GitHub issue using Octokit
             const issueData = {
                 title: 'Broken Links Report',
-                body: "Total number of broken links: " + totalBrokenLinks
+                body: "Created: " + timestamp + "\n\n" + totalBrokenLinks + "<a href='../../blob/main/logs/brokenLinks.txt'>See full list of broken links</a>.",
             };
 
             const octokit = new Octokit({
