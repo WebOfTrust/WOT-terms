@@ -1,4 +1,4 @@
-Created: 2023-09-05T12:46:57.200Z
+Created: 2023-09-05T14:09:53.142Z
 
 Total Broken Links Found: 106
 
@@ -71,15 +71,15 @@ Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/authentic, Fou
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/qvi, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/redundant-credential/
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/key-event-receipt-infrastructure-(KERI), Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/rotation-event/
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/revocation.md, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/sally/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/graph, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/schema-namespace-registry/
+Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/graph.md, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/schema-namespace-registry/
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/composable-event-streaming-representation-(CESR), Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/self-framing/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/uniform-resource-locator-(URL), Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/service-endpoint/
+Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/uniform-resource-locator-(URL).md, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/service-endpoint/
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/KERIA.md, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/signify-keria-request-authentication-protocol/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/keri, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/simple-keri-for-web-auth/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/Keep, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/simple-keri-for-web-auth/
+Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/keri.md, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/simple-keri-for-web-auth/
+Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/Keep.md, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/simple-keri-for-web-auth/
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/keypair.md, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/single-signature-identifier/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/self-sovereign-identity-(SSI), Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/ssi-system/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/transmission-control-protocol-(TCP), Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/tcp-endpoint/
+Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/self-sovereign-identity-(SSI).md, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/ssi-system/
+Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/transmission-control-protocol-(TCP.md), Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/tcp-endpoint/
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/key-event-receipt-infrastructure-(KERI), Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/validator/
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/authentic-chained-data-container-(ACDC.md), Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/validator/
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/internal-consistency.md, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/verified-integrity/
