@@ -1,2 +1,2 @@
 ## See
-[Pretty good privacy](pretty-good-privacy.md)
+[Pretty good privacy](pretty-good-privacy)

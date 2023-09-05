@@ -1,2 +1,2 @@
 ## See
-[Certificate transparency](certificate-transparency.md)
+[Certificate transparency](certificate-transparency)

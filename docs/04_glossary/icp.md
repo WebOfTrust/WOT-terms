@@ -1,0 +1,2 @@
+## Definition
+icp = incept, inception

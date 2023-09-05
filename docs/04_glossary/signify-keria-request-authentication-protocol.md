@@ -1,11 +1,11 @@
 ## Definition
-SKRAP is a client to the KERIA server. Mobile clients will be using SKRAP to connect to KERI [AID](AID.md)s via [agent](agent.md)s in the new, multi-tenant Mark II Agent server, [KERIA](KERIA.md). 
+SKRAP is a client to the KERIA server. Mobile clients will be using SKRAP to connect to KERI [AID](AID)s via [agent](agent)s in the new, multi-tenant Mark II Agent server, [KERIA](KERIA). 
 Also, browser extensions will use SKRAP in order to use a wallet similar to _MetaMask_, except it will be KERIMask, and it will be a browser extension.
-[KERIMask] (KERIMask.md) will connect to KERIA servers in order for a person to control AIDs from their browser extension.
+[KERIMask](KERIMask) will connect to KERIA servers in order for a person to control AIDs from their browser extension.
 
 SKRAP is also usable from HSMs and hardware wallets because the keys from the hardware wallet, along with some app code, connect through SKRAP to agents running in a KERIA server.
 
-[Signify](signify.md) signs things at the edge. This includes [ACDC](ACDC.md)s. KERIA will be used to send communications between agents. The things KERIA sends are signed by Signify.\
+[Signify](signify) signs things at the edge. This includes [ACDC](ACDC)s. KERIA will be used to send communications between agents. The things KERIA sends are signed by Signify.\
 
 Source: Kent Bull in KERI Slack May 2023
 

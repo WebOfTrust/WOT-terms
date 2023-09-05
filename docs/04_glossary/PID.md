@@ -1,2 +1,2 @@
 ## See
-[percolated information discovery](percolated-information-discovery.md)
+[percolated information discovery](percolated-information-discovery)

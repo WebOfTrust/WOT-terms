@@ -9,7 +9,7 @@ Source [Sam Smith](https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmit
 
 ### Inception Statement
 
-<img src="https://raw.githubusercontent.com/WebOfTrust/keri/7fc96da6c277d3921fb1248ce9235400a4ff6af7/images/inception-statement.png" alt="inception statement" />
+<img src="https://raw.githubusercontent.com/WebOfTrust/keri/7fc96da6c277d3921fb1248ce9235400a4ff6af7/images/inception-statement.png" alt="inception statement" border="0" width="400" />
 
 **In brief: It's the signed version of a statement containing the inception event with some extra data.**\
 (_@henkvancann_)

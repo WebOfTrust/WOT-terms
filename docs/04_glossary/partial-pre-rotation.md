@@ -1,2 +1,2 @@
 ## See
-[Partial rotation](partial-rotation.md)
+[Partial rotation](partial-rotation)
