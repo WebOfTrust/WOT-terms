@@ -2,16 +2,16 @@
    <path fill="#fff" d="M0 0h808.851v1006.954H0z"/>
    <path fill="none" stroke="#c92a2a" stroke-linecap="round" stroke-width="2" d="M195.164 206.139c27.37-1.12 49.98 1.5 100.66-.69m-99.01-2.44c38.74 2.2 78.89 3.14 99.03 1.38m-1.99 1.1c4.39 11.26-.46 24.17-1.18 59.15m3.13-60.44c.92 22.17 1.18 43.55.12 62.79m1.81 3.9c-30.62-2.79-55.65-.01-104.6-2.25m102.42.29c-36.48.1-70.51-.1-98.06-1.8m1.76 2.75c-1.32-17.36-7.76-38.16-2.43-63.31m-1.07 61.77c.07-14.38.3-28.85-1.01-65.29"/>
 
-   <a xlink:href="/WOT-terms/docs/Terms/glossary/icp">
+   <a xlink:href="/WOT-terms/docs/glossary/icp">
       <text x="17.578" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(227.986 224.039)">icp</text>
    </a>
 
-   <a xlink:href="/WOT-terms/docs/Terms/glossary/KEL">
+   <a xlink:href="/WOT-terms/docs/glossary/KEL">
       <text x="24.609" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="28" style="white-space:pre" text-anchor="middle" transform="translate(208.21 165.355)">KEL</text>
    </a>
 
    <path fill="none" stroke="#c92a2a" stroke-linecap="round" stroke-width="2" d="M194.476 380.75c36.55-7.1 65.01-.8 97.69-1.04m-97.67-.02c32.8-1.71 69.01-3.06 100.45.83m-3.62-4.58c4.14 20.51 1.38 36.81 3.21 69.31m.04-66.96c-.48 19.54.66 39.58 1.06 63.59m-3.85 2.06c-25.16 3.66-55.47.68-95.79-3.89m100.15 2.38c-34.3 2.04-66.19 2.96-101.01 2.39m.34 1.05c-3.55-26.79 2.89-48.97-.66-66.55m-1.42 63.03c1.78-15.78 1.41-35.57 1.03-63.94"/>
-   <a xlink:href="/WOT-terms/docs/Terms/glossary/ixn">
+   <a xlink:href="/WOT-terms/docs/glossary/ixn">
       <text x="17.578" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(226.638 399.34)">ixn</text>
    </a>
 
@@ -25,12 +25,12 @@
       <path d="M244.481 313.216H256.2v24h-11.719z"/>
    </mask>
    <text x="5.859" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(244.481 313.216)">p</text>
-   <a xlink:href="/WOT-terms/docs/Terms/glossary/VC">
+   <a xlink:href="/WOT-terms/docs/glossary/VC">
       <text x="16.406" fill="#2b8a3e" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="28" style="white-space:pre" text-anchor="middle" transform="translate(663.337 185.946)">VC</text>
    </a>
    <path fill="none" stroke="#2b8a3e" stroke-linecap="round" stroke-width="2" d="M634.464 226.518c27.92-4.09 59.14-.81 94.58.89m-99.9-2.9c35.81 3.72 73.73 2.34 101.85 1.61m-2.73.57c.29 19.74 1.93 44.27 4.66 66.12m-.87-68.07c-1.06 16.72.12 30.87-1.31 66.11m.41 2.97c-23.99-5.34-42.09-5.02-96.71-2.02m96.3-1.21c-36.14-4.07-75.24-.85-99.8-.33m-2.25-1.93c.29-15.35 5.08-35.26 1.64-61.94m1 63.36c-.5-15.34-2.91-32.43-1.11-64.61"/>
 
-   <a xlink:href="/WOT-terms/docs/Terms/glossary/bis">
+   <a xlink:href="/WOT-terms/docs/glossary/bis">
       <text x="17.578" fill="#2b8a3e" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(663.176 245.958)">bis</text>
    </a>
    <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2" mask="url(#b)">
@@ -45,7 +45,7 @@
    <text x="23.438" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(533.2 372.865)">ra.d</text>
    <path fill="none" stroke="#1864ab" stroke-linecap="round" stroke-width="2" d="M394.305 8.29c29.55-2.32 63.53-2.5 111.69 2.35m-113.1-.79c31.87-1.28 62.62-1.08 110.16-.08m-2.03.04c1.24 23.7 1.22 42.62 4.86 70.15m-3.58-69.55c.81 21.85 3.56 42.81 1.31 67.52m3.29 1.7c-39.08-1.62-66.99.93-118.36-3.48m115.39.53c-41.88-.37-85.01-.33-110.9 1.73m-2.96 2.19c-.66-24.97 1.59-46.18 3.2-72.96m-.14 69.01c-2.26-19.04-1.26-38.09-2.95-65.38"/>
 
-   <a xlink:href="https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ACDC">
+   <a xlink:href="https://weboftrust.github.io/WOT-terms/docs/glossary/ACDC">
       <text x="23.438" fill="#1864ab" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(424.508 31.5)">ACDC</text>
    </a>
 
@@ -60,7 +60,7 @@
    </mask>
    <text x="11.719" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(448.734 140.946)">ri</text>
    <path fill="none" stroke="#862e9c" stroke-linecap="round" stroke-width="2" d="M416.077 226.765c22.54 1.11 43.43 1.63 98.22.25m-97.27.36c25.92-2.32 49.14-2.06 101.06-2.31m-.13 1.21c1.23 16.88.27 38.69-.77 67.87m-.57-66.01c.88 15.92 1.27 29 .16 62.78m3.05-.25c-38.77-.83-76.34-.38-105.1-2.01m102.78 1.42c-25.56.68-49.04.28-100.14 0m-1.01-.85c-1.63-19.72-.7-48.11.43-63.79m-.52 64.04c1.43-17.96 1.67-37.82-1.32-63.57"/>
-   <a xlink:href="/WOT-terms/docs/Terms/glossary/vcp">
+   <a xlink:href="/WOT-terms/docs/glossary/vcp">
       <text x="17.578" fill="#862e9c" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(449.209 246.285)">vcp</text>
    </a>
    <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2" mask="url(#d)">
@@ -74,7 +74,7 @@
    </mask>
    <text x="5.859" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(327.527 130.717)">i</text>
 
-   <a xlink:href="/WOT-terms/docs/Terms/glossary/MGMT">
+   <a xlink:href="/WOT-terms/docs/glossary/MGMT">
       <text x="32.813" fill="#862e9c" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="28" style="white-space:pre" text-anchor="middle" transform="translate(483.986 183.088)">MGMT</text>
    </a>
 
@@ -109,7 +109,7 @@
    </mask>
    <text x="17.578" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(343.492 335.672)">a.d</text>
    <path fill="none" stroke="#c92a2a" stroke-linecap="round" stroke-width="2" d="M198.413 735.08c32.11-4.76 62.66-3.11 99.23 3.87m-100.57-2.01c26.55-1.3 52.4-4.52 100.16-1.22m3.05-.25c-3.53 22.85-4.77 46.54-5.1 61.99m2.78-62.58c.19 15.31 1.78 30.95-.14 64m-1.01-.85c-37.39 2.26-72.64-2.97-99.57.21m99.48.04c-31.37 3.59-62.81 3.99-101.32.43m-.39-.17c2.58-22.47 1.02-48.03 2.47-63.42m-.63 65.92c.1-20.72-.62-41.25 1.42-67.07"/>
-   <a xlink:href="/WOT-terms/docs/Terms/glossary/ixn">
+   <a xlink:href="/WOT-terms/docs/glossary/ixn">
       <text x="17.578" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(229.665 755.09)">ixn</text>
    </a>
 
@@ -135,7 +135,7 @@
    <text x="23.438" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(550.25 244.566)">ra.i</text>
    <path fill="none" stroke="#862e9c" stroke-linecap="round" stroke-width="2" d="M376.374 449.692c27.63.96 49.55-1.69 97.57.69m-101.07-2.23c21.3-2.14 43.02-2.85 98.99-1.29m.4 1.42c-.55 25.87-1.35 46.13 0 66.04m-.11-67.29c.97 21.79-1.65 43.47.11 65.16m-1.21-.77c-16.56-.04-36.95-3.78-99.13 4.4m100.48-4.24c-21.5-1.9-44.56-.73-99.7.11m3.89-.15c-3.43-21.31-7.12-37.37-6.15-65.2m.54 66.79c2.54-24.14 3.01-48.43.85-64.09"/>
 
-   <a xlink:href="/WOT-terms/docs/Terms/glossary/vrt">
+   <a xlink:href="/WOT-terms/docs/glossary/vrt">
       <text x="17.578" fill="#862e9c" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(405.106 467.852)">vrt</text>
    </a>
 
@@ -170,7 +170,7 @@
    </mask>
    <text x="17.578" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(463.424 520.971)">a.d</text>
    <path fill="none" stroke="#c92a2a" stroke-linecap="round" stroke-width="2" d="M201.857 560.019c22.69-2.12 47.17 1.06 94.52-.29m-98.51-1.37c29.6-1.27 60.26-.81 99.76.21m3.96-1.05c-3.95 18.46.69 36.79 1.29 61.36m-1.91-61.42c-.93 18.83.61 36.04-.66 65.23m-3.29-.89c-24.14.67-58.29-.77-101.83 2.84m102.15-1.86c-24.38 2.4-47.32 1.74-98.07-.41m-1.87-.03c-.31-15.11-3.01-34.8 3.81-65.76m-1.82 64.78c.57-16.19.94-33.88.31-63.86"/>
-   <a xlink:href="/WOT-terms/docs/Terms/glossary/ixn">
+   <a xlink:href="/WOT-terms/docs/glossary/ixn">
       <text x="17.578" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(231.468 578.569)">ixn</text>
    </a>
    <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2" mask="url(#m)">
@@ -212,7 +212,7 @@
    <text x="17.578" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(77.863 197.66)">a.i</text>
    <path fill="none" stroke="#c92a2a" stroke-dasharray="8 10" stroke-linecap="round" stroke-width="2.5" d="M197.796 933.014c28.2-3.53 50.99 4.12 94.2 3.78m5.31-5.94c-.19 17.97-2.68 33.04-2.11 64.07m-.59.28c-31.76 3.66-58.2.09-97.16-1.67m-3.18 4.65c2.03-21.49-.1-38.57-2.34-66.88"/>
 
-   <a xlink:href="/WOT-terms/docs/Terms/glossary/vcp">
+   <a xlink:href="/WOT-terms/docs/glossary/vcp">
       <text x="17.578" fill="#c92a2a" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(227.198 952.954)">vcp</text>
    </a>
    <g fill="none" stroke="#c92a2a" stroke-linecap="round" stroke-width="2.5" mask="url(#q)">
@@ -227,7 +227,7 @@
    <path fill="none" stroke="#2b8a3e" stroke-dasharray="8 10" stroke-linecap="round" stroke-width="2.5" d="M696.62 389.677c41.61 1.16 79.96 1.14 102.47.58m-1.01 3.88c.59 14.6-.84 29.59 2.84 57.85m-1.66-1.17c-24.09 1.19-51.65 2.13-100.81 1.7m.17.51c2.27-25.71-.94-42.68-1.76-63.89"/>
 
 
-   <a xlink:href="/WOT-terms/docs/Terms/glossary/brv">
+   <a xlink:href="/WOT-terms/docs/glossary/brv">
       <text x="17.578" fill="#2b8a3e" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(731.273 410.227)">brv</text>
    </a>
 
