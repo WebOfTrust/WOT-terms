@@ -9381,7 +9381,7 @@
       "icp",
       "",
       "icp",
-      "|TBW|",
+      "incept, inception",
       "https://github.com/weboftrust/WOT-terms/wiki/icp"
     ],
     [
@@ -9430,7 +9430,7 @@
       "https://github.com/weboftrust/WOT-terms/wiki/vrt"
     ],
     [
-      "460",
+      "459",
       "K",
       "secure-private-authentic-confidentiality",
       "",
@@ -9439,7 +9439,7 @@
       "https://github.com/weboftrust/WOT-terms/wiki/secure-private-authentic-confidentiality"
     ],
     [
-      "461",
+      "460",
       "K",
       "SPAC",
       "",
@@ -9448,7 +9448,7 @@
       "https://github.com/weboftrust/WOT-terms/wiki/SPAC"
     ],
     [
-      "462",
+      "461",
       "G",
       "dead-drop",
       "",
@@ -9457,8 +9457,8 @@
       "https://github.com/weboftrust/WOT-terms/wiki/dead-drop"
     ],
     [
-      "463",
-      "K",
+      "462",
+      "incept, inception",
       "ample",
       "",
       "ample",
@@ -9466,7 +9466,7 @@
       "https://github.com/weboftrust/WOT-terms/wiki/ample"
     ],
     [
-      "464",
+      "463",
       "-",
       "supemajority",
       "",
@@ -9475,7 +9475,7 @@
       "https://github.com/weboftrust/WOT-terms/wiki/supemajority"
     ],
     [
-      "465",
+      "464",
       "G",
       "CBOR",
       "",
@@ -9484,7 +9484,7 @@
       "https://github.com/weboftrust/WOT-terms/wiki/CBOR"
     ],
     [
-      "466",
+      "465",
       "K",
       "tholder",
       "",
@@ -9493,7 +9493,7 @@
       "https://github.com/weboftrust/WOT-terms/wiki/tholder"
     ],
     [
-      "467",
+      "466",
       "K",
       "bexter",
       "",
@@ -9502,7 +9502,7 @@
       "https://github.com/weboftrust/WOT-terms/wiki/bexter"
     ],
     [
-      "468",
+      "467",
       "K",
       "moobi",
       "",
@@ -9511,7 +9511,7 @@
       "https://github.com/weboftrust/WOT-terms/wiki/moobi"
     ],
     [
-      "469",
+      "468",
       "G",
       "ts-node",
       "",
@@ -9520,7 +9520,7 @@
       "https://github.com/weboftrust/WOT-terms/wiki/ts-node"
     ],
     [
-      "470",
+      "469",
       "-",
       "interceptor",
       "",
@@ -9531,7 +9531,7 @@
       "3"
     ],
     [
-      "471",
+      "470",
       "-",
       "salty-nonce-blinding-factor",
       "",
@@ -9540,100 +9540,142 @@
       "https://github.com/weboftrust/WOT-terms/wiki/salty-nonce-blinding-factor"
     ],
     [
-      "472",
-      "-",
+      "471",
+      "K",
       "ilk",
       "",
       "ilk",
-      "ilk is short for message type"
+      "short for message type",
+      "https://github.com/weboftrust/WOT-terms/wiki/ilk"
+    ],
+    [
+      "472",
+      "K",
+      "dip",
+      "",
+      "dip",
+      "delcept, delegated inception",
+      "https://github.com/weboftrust/WOT-terms/wiki/dip"
+    ],
+    [
+      "473",
+      "K",
+      "drt",
+      "",
+      "drt",
+      "deltate, delegated rotation",
+      "https://github.com/weboftrust/WOT-terms/wiki/drt"
+    ],
+    [
+      "474",
+      "K",
+      "rct",
+      "",
+      "rct",
+      "receipt",
+      "https://github.com/weboftrust/WOT-terms/wiki/rct"
+    ],
+    [
+      "475",
+      "K",
+      "ksn",
+      "",
+      "ksn",
+      "sate, key state notice",
+      "https://github.com/weboftrust/WOT-terms/wiki/ksn"
     ],
     [
       "476",
-      "-",
-      "dip",
+      "K",
+      "qry",
       "",
-      "dip",
-      "delcept, delegated inception"
+      "qry",
+      "query",
+      "https://github.com/weboftrust/WOT-terms/wiki/qry"
     ],
     [
       "477",
-      "-",
-      "drt",
+      "K",
+      "rpy",
       "",
-      "drt",
-      "deltate, delegated rotation"
+      "rpy",
+      "reply",
+      "https://github.com/weboftrust/WOT-terms/wiki/rpy"
     ],
     [
       "478",
-      "-",
-      "rct",
+      "K",
+      "exn",
       "",
-      "rct",
-      "receipt"
+      "exn",
+      "exchange",
+      "https://github.com/weboftrust/WOT-terms/wiki/exn"
     ],
     [
       "479",
-      "-",
-      "ksn",
+      "K",
+      "exp",
       "",
-      "ksn",
-      "sate, key state notice"
+      "exp",
+      "expose, sealed data exposition",
+      "https://github.com/weboftrust/WOT-terms/wiki/exp"
     ],
     [
       "480",
-      "-",
-      "qry",
-      "",
-      "qry",
-      "query"
-    ],
-    [
-      "",
-      "",
-      "rpy",
-      "",
-      "rpy",
-      "reply"
-    ],
-    [
-      "",
-      "",
-      "exn",
-      "",
-      "exn",
-      "exchange"
-    ],
-    [
-      "",
-      "",
-      "exp",
-      "",
-      "exp",
-      "expose, sealed data exposition"
-    ],
-    [
-      "",
-      "",
+      "K",
       "iss",
       "",
       "iss",
-      "vc issue, verifiable credential issuance"
+      "vc issue, verifiable credential issuance",
+      "https://github.com/weboftrust/WOT-terms/wiki/iss"
     ],
     [
-      "",
-      "",
+      "481",
+      "K",
       "rev",
       "",
       "rev",
-      "vc revoke, verifiable credential revocation"
+      "vc revoke, verifiable credential revocation",
+      "https://github.com/weboftrust/WOT-terms/wiki/rev"
     ],
     [
-      "",
-      "",
+      "482",
+      "K",
       "vdr",
       "",
       "vdr",
-      "verifiable data registry"
+      "verifiable data registry",
+      "https://github.com/weboftrust/WOT-terms/wiki/vdr"
+    ],
+    [
+      "483"
+    ],
+    [
+      "484"
+    ],
+    [
+      "485"
+    ],
+    [
+      "486"
+    ],
+    [
+      "487"
+    ],
+    [
+      "488"
+    ],
+    [
+      "489"
+    ],
+    [
+      "490"
+    ],
+    [
+      "491"
+    ],
+    [
+      "492"
     ]
   ]
 }
