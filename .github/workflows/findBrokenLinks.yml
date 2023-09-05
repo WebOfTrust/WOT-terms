@@ -11,11 +11,11 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
     
-      # Configure git user
-    - name: Configure Git Author
-      run: |
-        git config --global user.email "actions@github.com"
-        git config --global user.name "GitHub Actions"
+    #   # Configure git user
+    # - name: Configure Git Author
+    #   run: |
+    #     git config --global user.email "actions@github.com"
+    #     git config --global user.name "GitHub Actions"
 
     - name: Show working directory
       run: pwd
@@ -43,6 +43,8 @@ jobs:
 
     - name: Commit and push if there are changes
       run: |
+        git config --global user.email "actions@github.com"
+        git config --global user.name "GitHub Actions"
         git add -A
         git commit -m "Auto-commit broken links report"
         git push
