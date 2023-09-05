@@ -4,7 +4,7 @@ This is one valid choice for an ACDC schema. \
 This form is part of the graduated disclosure mechanism in ACDCs.
 
 ## Anchoring to the TEL
-The extra a fully compact version has to offer over a [most compact](most-compact) version is the anchoring to the [Tranaction event log](transaction-event-log). Here were various proofs ([hashes](hash)) can be "stored" which are optional in all kind of [ACDC](ACDC) variants.
+The extra a fully compact version has to offer over a [most compact](most-compact) version is the anchoring to the [Tranaction event log](transaction-event-log). Here were various proofs ([hashes](distributed-hash-table)) can be "stored" which are optional in all kind of [ACDC](ACDC) variants.
 
 ## See
 [Fully (expanded)](fully-expanded) version of an ACDC\
