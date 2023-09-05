@@ -1,7 +1,9 @@
-Total Broken Links Found: 112
+Created: 2023-09-05T12:11:19.397Z
+
+Total Broken Links Found: 106
 
 Broken Link: https://weboftrust.github.io/WOT-terms/agenda.md, Found on Page: https://weboftrust.github.io/WOT-terms/docs/concepts/concepts/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/concepts/README.md#levels-of-understanding.md, Found on Page: https://weboftrust.github.io/WOT-terms/docs/concepts/concepts/
+Broken Link: https://weboftrust.github.io/WOT-terms/docs/concepts/README.md#levels-of-understanding, Found on Page: https://weboftrust.github.io/WOT-terms/docs/concepts/concepts/
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/concepts/README.md#levels-of-understanding, Found on Page: https://weboftrust.github.io/WOT-terms/docs/concepts/concepts/
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/04_glossary/verifiers.md, Found on Page: https://weboftrust.github.io/WOT-terms/docs/concepts/concepts/
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/04_glossary/validation.md, Found on Page: https://weboftrust.github.io/WOT-terms/docs/concepts/concepts/
@@ -43,8 +45,8 @@ Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/primitives, Fo
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/self-adressing-identifier, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/integrity/
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/cesr-proof-signature, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/integrity/
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/issues, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/issuance-exchange/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/rust, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/keride/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/cesr, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/keride/
+Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/rust.md, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/keride/
+Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/cesr.md, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/keride/
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/acdc, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/most-compact/
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/said, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/most-compact/
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/primitives, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/multiplexing/
@@ -88,19 +90,13 @@ Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/verifiers.md, 
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/validation.md, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/watcher/
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/pgp.md, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/web-of-trust/
 Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/gig.md, Found on Page: https://weboftrust.github.io/WOT-terms/docs/glossary/web-of-trust/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/icp, Found on Page: https://weboftrust.github.io/WOT-terms/docs/visualisations/backed-and-backerless-issuance-and-revocation/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/KEL, Found on Page: https://weboftrust.github.io/WOT-terms/docs/visualisations/backed-and-backerless-issuance-and-revocation/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ixn, Found on Page: https://weboftrust.github.io/WOT-terms/docs/visualisations/backed-and-backerless-issuance-and-revocation/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/VC, Found on Page: https://weboftrust.github.io/WOT-terms/docs/visualisations/backed-and-backerless-issuance-and-revocation/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/bis, Found on Page: https://weboftrust.github.io/WOT-terms/docs/visualisations/backed-and-backerless-issuance-and-revocation/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ACDC, Found on Page: https://weboftrust.github.io/WOT-terms/docs/visualisations/backed-and-backerless-issuance-and-revocation/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/vcp, Found on Page: https://weboftrust.github.io/WOT-terms/docs/visualisations/backed-and-backerless-issuance-and-revocation/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/MGMT, Found on Page: https://weboftrust.github.io/WOT-terms/docs/visualisations/backed-and-backerless-issuance-and-revocation/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ixn, Found on Page: https://weboftrust.github.io/WOT-terms/docs/visualisations/backed-and-backerless-issuance-and-revocation/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/vrt, Found on Page: https://weboftrust.github.io/WOT-terms/docs/visualisations/backed-and-backerless-issuance-and-revocation/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/ixn, Found on Page: https://weboftrust.github.io/WOT-terms/docs/visualisations/backed-and-backerless-issuance-and-revocation/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/vcp, Found on Page: https://weboftrust.github.io/WOT-terms/docs/visualisations/backed-and-backerless-issuance-and-revocation/
-Broken Link: https://weboftrust.github.io/WOT-terms/docs/Terms/glossary/brv, Found on Page: https://weboftrust.github.io/WOT-terms/docs/visualisations/backed-and-backerless-issuance-and-revocation/
+Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/icp, Found on Page: https://weboftrust.github.io/WOT-terms/docs/visualisations/backed-and-backerless-issuance-and-revocation/
+Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/bis, Found on Page: https://weboftrust.github.io/WOT-terms/docs/visualisations/backed-and-backerless-issuance-and-revocation/
+Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/vcp, Found on Page: https://weboftrust.github.io/WOT-terms/docs/visualisations/backed-and-backerless-issuance-and-revocation/
+Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/MGMT, Found on Page: https://weboftrust.github.io/WOT-terms/docs/visualisations/backed-and-backerless-issuance-and-revocation/
+Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/vrt, Found on Page: https://weboftrust.github.io/WOT-terms/docs/visualisations/backed-and-backerless-issuance-and-revocation/
+Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/vcp, Found on Page: https://weboftrust.github.io/WOT-terms/docs/visualisations/backed-and-backerless-issuance-and-revocation/
+Broken Link: https://weboftrust.github.io/WOT-terms/docs/glossary/brv, Found on Page: https://weboftrust.github.io/WOT-terms/docs/visualisations/backed-and-backerless-issuance-and-revocation/
 Broken Link: https://weboftrust.github.io/key-event-receipt-infrastructure-(KERI), Found on Page: https://weboftrust.github.io/WOT-terms/glossary.html
 Broken Link: https://weboftrust.github.io/uniform-resource-locator-(URL), Found on Page: https://weboftrust.github.io/WOT-terms/glossary.html
 Broken Link: https://weboftrust.github.io/transmission-control-protocol-(TCP), Found on Page: https://weboftrust.github.io/WOT-terms/glossary.html
