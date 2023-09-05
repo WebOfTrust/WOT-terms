@@ -1,0 +1,11 @@
+IdentifierTheory-ssmith-uidt.md
+draft-pfeairheller-cesr-proof.md
+draft-pfeairheller-did-keri.md
+draft-pfeairheller-ptel.md
+draft-ssmith-acdc.md
+draft-ssmith-cesr.md
+draft-ssmith-ipex.md
+draft-ssmith-keri.md
+draft-ssmith-oobi.md
+draft-ssmith-said.md
+kli-demo-2022.md
