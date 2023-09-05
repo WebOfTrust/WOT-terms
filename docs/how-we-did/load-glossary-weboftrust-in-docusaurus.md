@@ -13,8 +13,19 @@ With regard to the glossary our weboftrust github page of the WOT-terms repo ser
 2. Terms WOT manage [Google Sheet](https://docs.google.com/spreadsheets/d/18IUa-1NSJ_8Tz_2D-VSuSQa_yf3ES1s_hovitm3Clvc/edit#gid=209150977)
 5. Version control (git & Github)
 
+<div class="alert alert-info" role="alert">
+## Strongly recommended
+
+Be sure to leave the following files in tact when overwriting glossary items in Docusaurus from the source WOT-terms wiki:
+- _category_.json 
+- intro.md
+
+These are vital for Docusaurus to offer links from various parts of the documentation straight to the glossary.
+
+</div>
+
 ## In Sync with original ToIP ACDC glossary?
-Yes, the WebofTrust wiki glossary is the new home of our glossary. But we regularly will pull changes from ToIP [acdc wiki](https://github.com/trustoverip/acdc/wiki) and offer PRs to the ToIP version too.
+Yes, the WebofTrust wiki glossary is the new home of our glossary. But we can sync with ToIP [acdc wiki](https://github.com/trustoverip/acdc/wiki) anytime. For example by offering PRs to the ToIP version or vice versa.
 
 We use local repo's or PR to sync Weboftrust `WOT-terms.wiki` and TrustoverIP `acdc.wiki`. Note that the wiki pages of a github repo are manifest in a seperate repo. 
 
@@ -35,7 +46,7 @@ In 2023 we experienced:
 - the knowledge and skills needed to "roll our own" had been acquired
 
 Mid 2023 we decided:
-- to start [Weboftrust wiki](https://github.com/WebOfTrust/WOT-terms/wiki)
+- to start using [Weboftrust wiki](https://github.com/WebOfTrust/WOT-terms/wiki)
 - to sync at will with [ToIP wiki](https://github.com/trustoverip/acdc/wiki)
 
 ## Software environment
