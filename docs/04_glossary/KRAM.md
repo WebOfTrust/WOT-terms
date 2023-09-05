@@ -1,2 +1,2 @@
 ## See
-[KERI Request Authentication Method](keri-request-authentication-method)
+[KERI Request Authentication Method](keri-request-authentication-method.md)

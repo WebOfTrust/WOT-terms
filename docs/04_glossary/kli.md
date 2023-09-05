@@ -1,2 +1,2 @@
 ## See
-[KERI command line interface](keri-command-line-interface)
+[KERI command line interface](keri-command-line-interface.md)
