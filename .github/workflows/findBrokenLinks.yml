@@ -37,6 +37,10 @@ jobs:
         GITHUB_ISSUE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: node multitools/findBrokenLinks.js
 
+    # Echo the contents of the brokenLinks.txt file
+    - name: Display brokenLinks.txt
+      run: cat /logs/brokenLinks.txt
+
     - name: Commit and push if there are changes
       run: |
         git add -A
