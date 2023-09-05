@@ -25,11 +25,19 @@ const config = {
 console.log('Configuration loaded.');
 
 let brokenLinks = [];
+let linkCount = 0;  // New variable to keep track of links checked
+const maxLinks = 10;  // New variable to set maximum number of links for testing
 
 console.log('Starting link checking...');
 
 const siteChecker = new SiteChecker({}, {
     link: (result) => {
+        if (linkCount >= maxLinks) {
+            console.log(`Reached test limit of ${maxLinks} links. Stopping.`);
+            siteChecker.pause();  // Pauses the link checking
+            return;
+        }
+
         // console.log(`Checking link: ${result.url.original} on ${result.base.original}`);
         try {
             // Create fully qualified URLs
@@ -50,6 +58,8 @@ const siteChecker = new SiteChecker({}, {
         } catch (e) {
             console.warn(`Skipping invalid URL: ${result.url.original}`);
         }
+
+        linkCount++;  // Increment the count of links checked
     },
     end: async () => {
         console.log('Checking done! Writing to file...');
