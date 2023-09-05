@@ -10,12 +10,6 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-    
-    #   # Configure git user
-    # - name: Configure Git Author
-    #   run: |
-    #     git config --global user.email "actions@github.com"
-    #     git config --global user.name "GitHub Actions"
 
     - name: Show working directory
       run: pwd
@@ -32,20 +26,10 @@ jobs:
       run: npm install
       # Assuming you have a package.json and your dependencies are listed there
 
-    - name: List logs directory before
-      run: ls -al ./logs
-
     - name: Find broken links
       env:
         GITHUB_ISSUE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: node multitools/findBrokenLinks.js
-
-    - name: List logs directory after
-      run: ls -al ./logs
-
-    # Echo the contents of the brokenLinks.txt file
-    - name: Display brokenLinks.txt
-      run: cat ./logs/brokenLinks.txt
 
     - name: Commit and push if there are changes
       run: |
