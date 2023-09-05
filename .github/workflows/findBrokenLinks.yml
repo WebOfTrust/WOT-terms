@@ -32,10 +32,16 @@ jobs:
       run: npm install
       # Assuming you have a package.json and your dependencies are listed there
 
+    - name: List logs directory before
+      run: ls -al ./logs
+
     - name: Find broken links
       env:
         GITHUB_ISSUE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: node multitools/findBrokenLinks.js
+
+    - name: List logs directory after
+      run: ls -al ./logs
 
     # Echo the contents of the brokenLinks.txt file
     - name: Display brokenLinks.txt
