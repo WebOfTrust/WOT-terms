@@ -1,2 +1,2 @@
 ## See
-[Key event receipt log](key-event-receipt-log)
+[Key event receipt log](key-event-receipt-log.md)

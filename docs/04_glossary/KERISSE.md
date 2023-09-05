@@ -1,2 +1,2 @@
 ## See
-[KERI suite search engine](keri-suite-search-engine)
+[KERI suite search engine](keri-suite-search-engine.md)

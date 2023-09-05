@@ -56,7 +56,7 @@ Concepts use existing terms (which could create confusion) and introduces new te
 
 ### Familiar terms
 
-We explain the terminology at various [levels of understanding](README.md#levels-of-understanding.md), and also **our criteria** how we judge certain terms to be defined for the sake of KERI / ACDC. E.g. `multisignatures`, `validators` and `verifiers`. What are they exactly?
+We explain the terminology at various [levels of understanding](README.md#levels-of-understanding), and also **our criteria** how we judge certain terms to be defined for the sake of KERI / ACDC. E.g. `multisignatures`, `validators` and `verifiers`. What are they exactly?
 
 ### Use cases and domains
 
