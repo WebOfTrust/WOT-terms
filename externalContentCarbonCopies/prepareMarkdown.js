@@ -1,3 +1,11 @@
+/*
+  Author: Kor Dwarshuis
+  Created: 2023
+  Updated: -
+  Description: To Be Written
+*/
+
+
 const fs = require('fs');
 const path = require('path');
 
