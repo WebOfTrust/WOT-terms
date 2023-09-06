@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       reason:
-        description: 'This action will keep Github Pages in sync with the Wiki (which is source).'
+        description: 'This action will keep Github Pages in sync with the Wiki (which is source)'
         required: true
         default: 'User triggered'
 
