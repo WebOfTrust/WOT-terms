@@ -49,6 +49,14 @@ jobs:
           mkdir -p docs/04_glossary  # Create the directory if it doesn't exist
           rsync -a wiki/ docs/04_glossary/  # Synchronize wiki contents to /docs/04_glossary/
 
+      - name: Commit and push the changes coming from the wiki
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Automatically copied wiki to /docs/04_glossary/"
+          git push
+
       - name: Build website
         run: npm run build
 
