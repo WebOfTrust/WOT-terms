@@ -40,6 +40,15 @@ jobs:
       # - name: Import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files
       #   run: node externalContentCarbonCopies/fetchExternalContent.js
 
+      - name: Checkout wiki
+        run: |
+          git clone https://github.com/WebOfTrust/WOT-terms.wiki.git wiki
+
+      - name: Copy Wiki To Docusaurus Glossary directory
+        run: |
+          mkdir -p docs/04_glossary  # Create the directory if it doesn't exist
+          rsync -a wiki/ docs/04_glossary/  # Synchronize wiki contents to /docs/04_glossary/
+
       - name: Build website
         run: npm run build
 
