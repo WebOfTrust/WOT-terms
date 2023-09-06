@@ -11,6 +11,6 @@ In identity systems Control Authority is who controls what and that is the prima
 How these events are ordered and their dependence on previous operations is important. The record of these operations is the source of truth for the identity system.
 
 ## Change control authority
-In the 2022 implementation of [KeriPy](keripy.md) two [rotations](key-rotation.md) were required to _change_ control authority.
-In new rotation rules, you can rotate to new keys that aren't in the prior next key [digests](digest.md). You just need to reach the appropriate thresholds of [prior next threshold](prior-next-threshold.md) and [current signing threshold](current-signing-threshold.md). So you now only need one rotation to change control authority.\
-**Note**: This change was the forcing function to require [dual indexed codes](dual-indexed-codes.md) in CESR.
+In the 2022 implementation of [KeriPy](keripy) two [rotations](key-rotation) were required to _change_ control authority.
+In new rotation rules, you can rotate to new keys that aren't in the prior next key [digests](digest). You just need to reach the appropriate thresholds of [prior next threshold](prior-next-threshold) and [current signing threshold](current-signing-threshold). So you now only need one rotation to change control authority.\
+**Note**: This change was the forcing function to require [dual indexed codes](dual-indexed-codes) in CESR.

@@ -1,2 +1,2 @@
 ## See
-[Self addressing data](self-addressing-data.md)
+[Self addressing data](self-addressing-data)

@@ -1,2 +1,2 @@
 ## See
-[Verifiable credential](verifiable-credential.md)
+[Verifiable credential](verifiable-credential)

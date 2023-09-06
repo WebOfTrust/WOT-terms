@@ -1,2 +1,2 @@
 ## See
-[Text binary concatenation composability](text-binary-concatenation-composability.md)
+[Text binary concatenation composability](text-binary-concatenation-composability)

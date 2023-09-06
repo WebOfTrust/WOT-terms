@@ -1,5 +1,5 @@
 ## Definition
-a context-specific coding scheme, for the common use case of thresholded multi-signature schemes in [CESR](CESR.md).
+a context-specific coding scheme, for the common use case of thresholded multi-signature schemes in [CESR](CESR).
 
 ## Related to CESR
 One way to compactly associated each signature with its public key is to include in the text code for that signature the index into the ordered set of public keys.

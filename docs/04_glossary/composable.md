@@ -1,2 +1,2 @@
 ## See
-[Composability](composable.md)
+[Composability](composable)

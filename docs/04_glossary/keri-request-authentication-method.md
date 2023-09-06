@@ -3,4 +3,4 @@ All requests from a web client must use KRAM (KERI Request Authentication Method
 Source [SKWA GitHub repo](https://github.com/WebOfTrust/skwa), more info in [Hacked.io write-up](https://hackmd.io/ZbVAbNK1SPyT90-oNwN_cw)
 
 ## Related
-[SKWA](SKWA.md)
+[SKWA](SKWA)

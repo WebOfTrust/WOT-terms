@@ -1,2 +1,2 @@
 ## See
-[Public key infrastructure](public-key-infrastructure.md)
+[Public key infrastructure](public-key-infrastructure)

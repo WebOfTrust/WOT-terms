@@ -3,4 +3,4 @@ Signed Key Events, keeping track of establishment events. To begin with the ince
 The Key Event Receipt Logs are built from receipts of events signed by the witnesses of those events (these are called commitments); these are also append-only but not hash-chained.
 (@henkvancann)
 
-<img className="inline-small-start" src='https://github.com/WebOfTrust/keri/blob/main/images/inception-rotation.png?raw=true' alt="" />
+![](https://github.com/WebOfTrust/keri/blob/main/images/inception-rotation.png)

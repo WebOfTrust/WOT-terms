@@ -6,6 +6,6 @@ Selective disclosure is a list of field maps. You can choose to blind and publis
 It is an aggregator because you have to disclosure all the blinded fields when you do the selective disclosure.
 
 ## Related
-[Partial Disclosure](partial-disclosure.md)
+[Partial Disclosure](partial-disclosure)
 
 Source: distilled from ACDC Zoom meeting, date March 28, 2023

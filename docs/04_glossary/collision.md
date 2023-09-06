@@ -5,7 +5,7 @@ E.g. two hashes collide, meaning two different digital sources produce the same 
 Another example is [name(space) collision](https://en.wikipedia.org/wiki/Naming_collision).
 
 ## Naming collision
-A circumstance where two or more identifiers in a given [namespace](namespace.md) or a given scope cannot be unambiguously resolved.\
+A circumstance where two or more identifiers in a given [namespace](namespace) or a given scope cannot be unambiguously resolved.\
 [Source Wikipedia](https://en.wikipedia.org/wiki/Naming_collision)
 
 

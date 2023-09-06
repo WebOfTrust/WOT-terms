@@ -1,2 +1,2 @@
 ## See
-[Foreign Function Interface](foreign-function-interface.md)
+[Foreign Function Interface](foreign-function-interface)

@@ -1,2 +1,2 @@
 ## See
-[Application programming interface](application-programming-interface.md)
+[Application programming interface](application-programming-interface)

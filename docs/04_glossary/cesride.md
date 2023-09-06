@@ -2,14 +2,14 @@
 is concerned with parsing CESR primitives.
 
 Cesride is built from cryptographic primitives that are named clearly and concisely. There are:
-* [Diger](diger.md)
-* [Verfer](verfer.md)
-* [Signer](signer.md) 
-* [Siger](siger.md)
-* [Cigar](cigar.md)
-* [Salter](salter.md)
+* [Diger](diger)
+* [Verfer](verfer)
+* [Signer](signer) 
+* [Siger](siger)
+* [Cigar](cigar)
+* [Salter](salter)
 
-Each primitive will have methods attached to it that permit one to generate and parse the qualified base2 or [base64](base64.md) representation. Common methods you'll find:
+Each primitive will have methods attached to it that permit one to generate and parse the qualified base2 or [base64](base64) representation. Common methods you'll find:
 
 * `.qb64()` - qualified base-64 representation of cryptographic material as a string
 * `.qb64b()` - qualified base-64 representation of cryptographic material as octets (bytes)
@@ -20,4 +20,4 @@ Each primitive will have methods attached to it that permit one to generate and 
 [Source](https://github.com/WebOfTrust/cesride#terminology) by Jason Colburne
 
 ## Related
-[Parside](parside.md)
+[Parside](parside)

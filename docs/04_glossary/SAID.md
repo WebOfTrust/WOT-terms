@@ -1,2 +1,2 @@
 ## See
-[Self-addressing identifier](self-addressing-identifier.md)
+[Self-addressing identifier](self-addressing-identifier)
