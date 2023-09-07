@@ -1406,7 +1406,7 @@
       "",
       "",
       "",
-      "claim of a disputed or uncertain truth",
+      "a statement affirming the truth of something, often when it is disputed or uncertain",
       "",
       "Assertion of truth, disputed or uncertain."
     ],
@@ -7268,7 +7268,7 @@
       "chain-link-confidentiality",
       "",
       "chain-link-confidentiality",
-      "chains together a sequence of Disclosees. Each Disclosee in the sequence in turn is the Discloser��to the next Disclosee.",
+      "chains together a sequence of Disclosees. Each Disclosee in the sequence in turn is the Discloser to the next Disclosee.",
       "https://github.com/trustoverip/acdc/wiki/chain-link-confidentiality",
       "",
       "3",
