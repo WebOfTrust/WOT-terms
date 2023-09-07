@@ -58,8 +58,10 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
+          git diff --exit-code && exit 0  # Exit if no changes
           git commit -m "Automatically copied wiki to /docs/04_glossary/"
           git push
+
         
       # Builds the website so it is also visible in the KERISSE website
       - name: Build website
