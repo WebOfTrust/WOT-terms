@@ -1,9 +1,9 @@
 # Get the directory where the main.sh script is located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-# Prepare file system.
-source "$SCRIPT_DIR/prepare_file_system.sh"
-echo "Preparing file system finished" | tee -a search-index-typesense/logs/succes.log
+# # Prepare file system.
+# source "$SCRIPT_DIR/prepare_file_system.sh"
+# echo "Preparing file system finished" | tee -a search-index-typesense/logs/succes.log
 
 # Copy handmade stuff.
 source "$SCRIPT_DIR/copy_manual_files.sh"
@@ -33,13 +33,13 @@ echo "Splitting content finished" | tee -a search-index-typesense/logs/succes.lo
 node "$SCRIPT_DIR/sortAndStyleScrapedIndex.mjs" "$INDEX_OVERVIEW_FILE"
 echo "Sorting and styling index file finished" | tee -a search-index-typesense/logs/succes.log
 
-# Export the data from Typesense to the downloads dir.
-source "$SCRIPT_DIR/export.sh"
-echo "Exporting data finished" | tee -a search-index-typesense/logs/succes.log
+# # Export the data from Typesense to the downloads dir.
+# source "$SCRIPT_DIR/export.sh"
+# echo "Exporting data finished" | tee -a search-index-typesense/logs/succes.log
 
-# Backup output (scrape results, handmade stuff, sitemaps etc).
-source "$SCRIPT_DIR/backup.sh"
-echo "Backup finished" | tee -a search-index-typesense/logs/succes.log
+# # Backup output (scrape results, handmade stuff, sitemaps etc).
+# source "$SCRIPT_DIR/backup.sh"
+# echo "Backup finished" | tee -a search-index-typesense/logs/succes.log
 
 # Make collection in Typesense empty.
 source "$SCRIPT_DIR/make_collection_empty.sh"
