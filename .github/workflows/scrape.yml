@@ -26,6 +26,11 @@ jobs:
           echo "TYPESENSE_HOST=${{ secrets.TYPESENSE_HOST }}" >> $GITHUB_ENV
           echo "TYPESENSE_COLLECTION_NAME=${{ secrets.TYPESENSE_COLLECTION_NAME }}" >> $GITHUB_ENV
           echo "What is the value of TYPESENSE_COLLECTION_NAME"
+
+      - name: Check environment variables
+        run: |
+          echo "What is the value of TYPESENSE_COLLECTION_NAME"
           echo "$TYPESENSE_COLLECTION_NAME"
+
       - name: Run Shell Script
         run: bash search-index-typesense/scrape-start-test.sh
