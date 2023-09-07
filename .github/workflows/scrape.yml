@@ -24,4 +24,4 @@ jobs:
           echo "TYPESENSE_COLLECTION_NAME=${{ secrets.TYPESENSE_COLLECTION_NAME }}" >> $GITHUB_ENV
         
       - name: Run Shell Script
-        run: bash search-index-typesense/main.sh
+        run: bash search-index-typesense/scrape-start-test.sh
