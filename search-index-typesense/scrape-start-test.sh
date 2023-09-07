@@ -9,17 +9,17 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$SCRIPT_DIR/copy_manual_files.sh"
 echo "Copying manual files finished" | tee -a search-index-typesense/logs/succes.log
 
-# Create sitemaps.
-source "$SCRIPT_DIR/create_sitemaps.sh"
-echo "Creating sitemaps finished" | tee -a search-index-typesense/logs/succes.log
+# # Create sitemaps.
+# source "$SCRIPT_DIR/create_sitemaps.sh"
+# echo "Creating sitemaps finished" | tee -a search-index-typesense/logs/succes.log
 
-# Remove unwanted urls from the sitemaps (new sitemaps generated or not)
-node "$SCRIPT_DIR/removeURLsFromSitemap.mjs"
-echo "Extracting data finished" | tee -a search-index-typesense/logs/succes.log
+# # Remove unwanted urls from the sitemaps (new sitemaps generated or not)
+# node "$SCRIPT_DIR/removeURLsFromSitemap.mjs"
+# echo "Extracting data finished" | tee -a search-index-typesense/logs/succes.log
 
-# Filenames to lowercase.
-node "$SCRIPT_DIR/renameFilesToLowerCase.mjs" search-index-typesense/sitemaps
-echo "Renaming files to lowercase finished" | tee -a search-index-typesense/logs/succes.log
+# # Filenames to lowercase.
+# node "$SCRIPT_DIR/renameFilesToLowerCase.mjs" search-index-typesense/sitemaps
+# echo "Renaming files to lowercase finished" | tee -a search-index-typesense/logs/succes.log
 
 # Scrape the websites.
 node "$SCRIPT_DIR/extractData-test.mjs"
