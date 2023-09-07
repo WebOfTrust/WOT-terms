@@ -16,9 +16,9 @@ With regard to the glossary our weboftrust github page of the WOT-terms repo ser
 <div class="alert alert-info" role="alert">
 ## Strongly recommended
 
-Be sure to leave the following files in tact when overwriting glossary items in Docusaurus from the source WOT-terms wiki:
-- _category_.json 
-- intro.md
+Be sure to leave the following files in tact when overwriting glossary items in Docusaurus dir `nn-glossary` (`nn`  will be any sequence number before "glossary to instruct the order") from the source WOT-terms wiki:
+- **\_category\_.json** 
+- **intro.md**
 
 These are vital for Docusaurus to offer links from various parts of the documentation straight to the glossary.
 
