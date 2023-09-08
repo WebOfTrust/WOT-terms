@@ -68,6 +68,8 @@ const siteChecker = new SiteChecker({}, {
 
         const timestamp = getISO8601Timestamp();
 
+        const numberOfBrokenLinks = brokenLinks.length;
+
         // Initialize the HTML document with necessary headers
         let dataToWrite = "<!DOCTYPE html><html><head><title>Broken Links Report</title></head><body>";
 
