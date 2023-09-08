@@ -7,7 +7,7 @@ on:
 
 jobs:
   findbrokenlinks:
-    name: Deploy to GitHub Pages
+    name: Find broken links
     runs-on: ubuntu-latest
 
     steps:
