@@ -18,7 +18,7 @@ console.log('Initialization...');
 
 
 const directory = path.join(__dirname, '../logs');  // Go up one level to get to the root, then into the logs directory
-const fileName = 'brokenLinks.txt';
+const fileName = 'brokenLinks.html';
 
 // Configuration Section
 const config = {
@@ -68,13 +68,41 @@ const siteChecker = new SiteChecker({}, {
 
         const timestamp = getISO8601Timestamp();
 
-        const numberOfBrokenLinks = brokenLinks.length;
-        let dataToWrite = "Created: " + timestamp + "\n\n";
-        dataToWrite += `Total Broken Links Found: ${numberOfBrokenLinks}\n\n`;
-        let totalBrokenLinks = `Total Broken Links Found: ${numberOfBrokenLinks}\n\n`;
-        dataToWrite += brokenLinks.map(linkInfo => {
-            return `Broken Link: ${linkInfo.brokenLink}, Found on Page: ${linkInfo.foundOnPage}`;
-        }).join('\n');
+        // Initialize the HTML document with necessary headers
+        let dataToWrite = "<!DOCTYPE html><html><head><title>Broken Links Report</title></head><body>";
+
+        // Add a timestamp to indicate when the report was created
+        dataToWrite += "<h1>Created: " + timestamp + "</h1>";
+
+        // Display the total number of broken links found
+        dataToWrite += `<h2>Total Broken Links Found: ${numberOfBrokenLinks}</h2>`;
+
+        // Initialize an empty string to hold the HTML for the unordered list
+        let brokenLinksHtml = "<ul>";
+
+        // Loop through the array of broken links, making each URL clickable
+        brokenLinksHtml += brokenLinks.map(linkInfo => {
+            // Convert the broken link URL into a clickable HTML link
+            let clickableBrokenLink = linkInfo.brokenLink.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1">$1</a>');
+
+            // Convert the found-on-page URL into a clickable HTML link
+            let clickableFoundOnPage = linkInfo.foundOnPage.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1">$1</a>');
+
+            // Return the list item for each broken link, including the clickable URLs
+            return `<li>Broken Link: ${clickableBrokenLink}, Found on Page: ${clickableFoundOnPage}</li>`;
+        }).join('');
+
+        // Close the unordered list tag
+        brokenLinksHtml += "</ul>";
+
+        // Append the unordered list to the main HTML content
+        dataToWrite += brokenLinksHtml;
+
+        // Close the HTML document
+        dataToWrite += "</body></html>";
+
+        // Now, dataToWrite is an HTML string where every URL is clickable and listed as an unordered list
+
 
         fs.writeFile(config.outputFilePath, dataToWrite, async (err) => {
             if (err) {
