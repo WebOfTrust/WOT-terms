@@ -21,6 +21,10 @@ jobs:
         run: npm ci
       
 
+      ##############################
+      # Find broken links
+      ##############################
+
       - name: Find broken links
         env:
           GITHUB_ISSUE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -35,3 +39,4 @@ jobs:
           git commit -m "Auto-commit broken links report"
           git push
         continue-on-error: true  # Continue even if nothing to commit
+      ##############################
