@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  findbrokenlinks:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
 
