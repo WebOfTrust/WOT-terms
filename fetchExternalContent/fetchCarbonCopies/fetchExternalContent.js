@@ -1,7 +1,26 @@
-/**
- * This script is used to fetch external content from various sources and copy it to the local repo. The script will also clean up the content. This is done to ensure that the content is ready for the build process. The script will also create a JSON file that contains the URLs of the content that was copied to the local repo. This JSON file is used by the build process to create the search index. The script is run as part of the build process. See the "scripts" section in package.json for more details. The script is also run manually when needed. See the "scripts" section in package.json for more details. The script is also run manually when needed. See the "scripts" section in package.json for more details.
- * 
- */
+/*
+  Author: Kor Dwarshuis
+  Created: 2023
+  Updated: -
+  Description: 
+
+    This script consumes the data produced by the 'fetchExternalContentMetaData.js' script.
+    
+    This script performs the following tasks:
+    1. Reads the 'externalContentMetaData.json' file located in the './static/json/' directory to obtain a list of URLs.
+    2. Downloads Markdown files (.md) from the URLs and stores them in the './docs/CarbonCopies/' directory.
+    3. Cleans up the downloaded Markdown files by:
+       - Replacing Markdown links without URLs.
+       - Removing the first line if it contains "---".
+       Configuration:
+    - `inputFileLocation`: Directory where the JSON file containing URLs is located.
+    - `inputFileName`: Name of the JSON file containing the URLs to be copied.
+    - `outputFileLocation`: Directory where the downloaded files will be stored.
+       The code utilizes Node.js and its 'fs', 'path', and 'https' modules to read files, manage directories, and download content.
+    Promises are used for asynchronous operations.
+
+*/
+
 
 const fs = require('fs');
 const path = require('path');
@@ -10,7 +29,7 @@ const https = require('https');
 // Config
 const inputFileLocation = './static/json/';
 const inputFileName = 'externalContentMetaData.json'; // Contains the urls that should be copied to local
-const outputFileLocation = './docs/CarbonCopies/'; // Where to copy the files to
+const outputFileLocation = './docs/08_carbon-copies/'; // Where to copy the files to
 // End Config
 
 // Create the output directory if it doesn't exist

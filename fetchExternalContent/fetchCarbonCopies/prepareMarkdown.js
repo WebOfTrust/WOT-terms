@@ -2,15 +2,36 @@
   Author: Kor Dwarshuis
   Created: 2023
   Updated: -
-  Description: To Be Written
-*/
+  Description:
+
+    Markdown to Bootstrap Accordion Converter
+    
+    This script automates the conversion of Markdown files in the './docs/CarbonCopies/' directory into Bootstrap accordion format.
+    It imports a JSON file named 'externalContentMetaData.json' to create a mapping of anchor tags to 'Level' attributes, which 
+    are then used as data attributes in the generated Bootstrap accordions.
+    
+    Features:
+    1. Reads all Markdown (.md) files in the specified directory.
+    2. Imports 'Level' attributes from an external JSON file.
+    3. Converts all headings in the Markdown files to H2.
+    4. Wraps sections under H2 headings in Bootstrap accordion divs, utilizing the imported 'Level' as a data attribute.
+    5. Writes the updated content back into each Markdown file.
+    
+    Dependencies: 
+    - Node.js built-in modules: 'fs' for file system operations, 'path' for path manipulations.
+    
+    Logging:
+    Outputs a log message for each successfully updated file.
+ */
+
+
 
 
 const fs = require('fs');
 const path = require('path');
 
 // Directory path
-const directoryPath = './docs/CarbonCopies/';
+const directoryPath = './docs/08_carbon-copies/';
 
 // Import external JSON object
 const externalContentMetaData = require('../static/json/externalContentMetaData.json');

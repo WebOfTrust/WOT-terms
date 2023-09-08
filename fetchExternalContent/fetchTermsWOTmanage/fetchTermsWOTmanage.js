@@ -1,5 +1,35 @@
 #!/usr/bin/env node
 
+/*
+  Author: Kor Dwarshuis
+  Created: 2023
+  Updated: -
+  Description: 
+
+    This Node.js script performs the following tasks:
+    1. Sends an HTTP GET request to a Google Sheets API endpoint to fetch JSON-formatted data.
+       - The URL of the Google Sheet API endpoint is hardcoded within the script.
+    2. Receives and accumulates the JSON data in chunks as it is streamed from the Google Sheet API.
+    3. Writes the received JSON data to a file named 'overview.json' in the './static/json/' directory.
+    4. Also processes the received JSON data to generate Markdown (MDX) content for an "Overview and Context" page.
+       - The Markdown content includes a table with various columns populated by the Google Sheet data.
+       - Output is saved to 'overview-and-context.mdx' in the './docs/02_overview/' directory.
+   
+    Configuration:
+    - `outputDirMarkDown`: Directory where the MDX output file will be stored.
+    - `outputFileNameMarkDown`: Name of the MDX output file.
+    - `outputDirJSON`: Directory where the JSON output file will be stored.
+    - `outputFileNameJSON`: Name of the JSON output file.
+    
+    Note: 
+    - The script should be run from the root of the project.
+    - For information on how to create a JSON endpoint from a Google Sheet, refer to https://stackoverflow.com/a/68854199
+   
+    The code uses Node.js built-in 'fs', 'path', and 'https' modules for file management, directory paths, and HTTPS GET   equests.
+    The generated Markdown includes HTML elements and is formatted as an MDX file.
+*/
+
+
 // This script should be run from the root of the project
 
 // const json2md = require('json2md');
