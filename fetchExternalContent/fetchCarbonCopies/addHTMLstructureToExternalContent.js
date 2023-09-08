@@ -34,7 +34,7 @@ const path = require('path');
 const directoryPath = './docs/08_carbon-copies/';
 
 // Import external JSON object
-const externalContentMetaData = require('../static/json/externalContentMetaData.json');
+const externalContentMetaData = require('./static/json/externalContentMetaData.json');
 
 // Create mapping from the imported JSON
 let dataAttributeMap = {};
