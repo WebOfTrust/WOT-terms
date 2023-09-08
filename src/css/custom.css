@@ -46,6 +46,14 @@
 .navbar.navbar--fixed-top {
   margin-left: 1em;
 }
+.navbar--fixed-top {
+    position: sticky;
+    top: 0;
+    z-index: var(--ifm-z-index-fixed);
+}
+/* End */
+
+
 
 .button--primary {
   background-color: var(--ifm-color-primary);
