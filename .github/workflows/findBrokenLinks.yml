@@ -31,7 +31,7 @@ jobs:
     - name: Find broken links
       env:
         GITHUB_ISSUE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: node multitools/findBrokenLinks.js
+      run: node maintenance/findBrokenLinks.js
 
     - name: Commit and push if there are changes
       run: |
