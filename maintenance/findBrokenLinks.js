@@ -18,7 +18,7 @@ console.log('Initialization...');
 
 
 const directory = path.join(__dirname, '../logs');  // Go up one level to get to the root, then into the logs directory
-const fileName = 'brokenLinks.html';
+const fileName = 'brokenLinks.md';
 
 // Configuration Section
 const config = {
@@ -70,40 +70,30 @@ const siteChecker = new SiteChecker({}, {
 
         const numberOfBrokenLinks = brokenLinks.length;
 
-        // Initialize the HTML document with necessary headers
-        let dataToWrite = "<!DOCTYPE html><html><head><title>Broken Links Report</title></head><body>";
+        // Initialize the Markdown content with a timestamp
+        let dataToWrite = `# Broken Links Report\n\nCreated: ${timestamp}\n\n`;
 
-        // Add a timestamp to indicate when the report was created
-        dataToWrite += "<h1>Created: " + timestamp + "</h1>";
+        // Add the total number of broken links found
+        dataToWrite += `## Total Broken Links Found: ${numberOfBrokenLinks}\n\n`;
 
-        // Display the total number of broken links found
-        dataToWrite += `<h2>Total Broken Links Found: ${numberOfBrokenLinks}</h2>`;
+        // Initialize an empty string to hold the Markdown for the list
+        let brokenLinksMarkdown = "";
 
-        // Initialize an empty string to hold the HTML for the unordered list
-        let brokenLinksHtml = "<ul>";
-
-        // Loop through the array of broken links, making each URL clickable
-        brokenLinksHtml += brokenLinks.map(linkInfo => {
-            // Convert the broken link URL into a clickable HTML link
-            let clickableBrokenLink = linkInfo.brokenLink.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1">$1</a>');
-
-            // Convert the found-on-page URL into a clickable HTML link
-            let clickableFoundOnPage = linkInfo.foundOnPage.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1">$1</a>');
+        // Loop through the array of broken links, making each URL clickable in Markdown
+        brokenLinksMarkdown += brokenLinks.map(linkInfo => {
+            // Convert the broken link and found-on-page URLs into Markdown links
+            let markdownBrokenLink = `[${linkInfo.brokenLink}](${linkInfo.brokenLink})`;
+            let markdownFoundOnPage = `[${linkInfo.foundOnPage}](${linkInfo.foundOnPage})`;
 
             // Return the list item for each broken link, including the clickable URLs
-            return `<li>Broken Link: ${clickableBrokenLink}, Found on Page: ${clickableFoundOnPage}</li>`;
-        }).join('');
+            return `- Broken Link: ${markdownBrokenLink}, Found on Page: ${markdownFoundOnPage}`;
+        }).join('\n');
 
-        // Close the unordered list tag
-        brokenLinksHtml += "</ul>";
+        // Append the list to the main Markdown content
+        dataToWrite += brokenLinksMarkdown;
 
-        // Append the unordered list to the main HTML content
-        dataToWrite += brokenLinksHtml;
+        // Now, dataToWrite is a Markdown string where every URL is clickable
 
-        // Close the HTML document
-        dataToWrite += "</body></html>";
-
-        // Now, dataToWrite is an HTML string where every URL is clickable and listed as an unordered list
 
         // Check if directory exists, if not then create it
         if (!fs.existsSync(directory)) {
@@ -123,7 +113,7 @@ const siteChecker = new SiteChecker({}, {
             // Create GitHub issue using Octokit
             const issueData = {
                 title: 'Broken Links Report',
-                body: "Created: " + timestamp + "\n\n" + "Number of broken internal links: " + numberOfBrokenLinks + "\n\n" + "<a href='https://github.com/WebOfTrust/WOT-terms/blob/main/logs/brokenLinks.html'>See full list of broken internal links</a>.",
+                body: "Created: " + timestamp + "\n\n" + "Number of broken internal links: " + numberOfBrokenLinks + "\n\n" + "<a href='https://github.com/WebOfTrust/WOT-terms/blob/main/logs/brokenLinks.md'>See full list of broken internal links</a>.",
             };
 
             const octokit = new Octokit({
