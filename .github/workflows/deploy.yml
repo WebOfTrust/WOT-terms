@@ -4,23 +4,13 @@ on:
   push:
     branches:
       - main
-    # Review gh actions docs if you want to further define triggers, paths, etc
-    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
   workflow_dispatch:
 
 jobs:
-  # create-preview-md:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: Checkout repo
-  #       uses: actions/checkout@v2
-
-  #     - name: Run Node.js script
-  #       run: node node_scripts/import-google-sheet/index.js
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
-    # needs: ['create-preview-md']
+
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -30,18 +20,42 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+      
+      ##############################
+      # Google sheet: WOT-terms, tab: Terms-WOT-manage
+      ##############################
 
       # Fetches data from WOT-terms (Google sheet) and generates an overview file that takes all the terms and their definitions and puts them into a single file. 
       - name: Import Google Sheet “WOT-terms”, tab “Terms-WOT-manage” data into markdown file
-        run: node externalContentCarbonCopies/fetchTermsMetaData.js
+        run: node fetchExternalContent/fetchTermsWOTmanage/fetchTermsWOTmanage.js
+      ##############################
 
-      # - name: Fetch information for import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files
-      #   run: node externalContentCarbonCopies/fetchExternalContentMetaData.js
 
-      # - name: Import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files
-      #   run: node externalContentCarbonCopies/fetchExternalContent.js
 
+      ##############################
+      # Google sheet: WOT-terms, tab: LabelContent
+      ##############################
+
+      # Fetches and copies external websites based on the URLs in the Google sheet "WOT-terms", tab "LabelContent"  
+      # Step 1
+      - name: Fetch information in JSON format that serves as source for import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files
+        run: node fetchExternalContent/fetchCarbonCopies/fetchExternalContentMetaData.js
+
+      # Step 2
+      - name: Import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files
+        run: node fetchExternalContent/fetchCarbonCopies/fetchExternalContent.js
+
+      # Step 3
+      - name: Add HTML structure to external content, like Accordeon code
+        run: node fetchExternalContent/fetchCarbonCopies/addHTMLstructureToExternalContent.js
+      ##############################
+
+
+
+      ##############################
       # Clones the wiki
+      ##############################
+
       - name: Checkout wiki
         run: |
           git clone https://github.com/WebOfTrust/WOT-terms.wiki.git wiki
@@ -51,23 +65,40 @@ jobs:
         run: |
           mkdir -p docs/04_glossary  # Create the directory if it doesn't exist
           rsync -a wiki/ docs/04_glossary/  # Synchronize wiki contents to /docs/04_glossary/
+      ##############################
 
-      # Pushes the changes from the wiki into the repo 
-      - name: Commit and push the changes coming from the wiki
+
+
+      ##############################
+      # Pushes the changes into the repo
+      ##############################
+
+      - name: Commit and push the changes after fetching content from various external sources
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
           git diff --exit-code && exit 0  # Exit if no changes
-          git commit -m "Automatically copied wiki to /docs/04_glossary/"
+          git commit -m "Fetched content from various external sources"
           git push
+      ##############################
+      
+      
 
-        
-      # Builds the website so it is also visible in the KERISSE website
+      ##############################
+      # Builds the website to /build
+      ##############################
+
       - name: Build website
         run: npm run build
+      ##############################
 
+
+
+      ##############################
       # Popular action to deploy to GitHub Pages:
+      ##############################
+      
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -82,3 +113,4 @@ jobs:
           # You can swap them out with your own user credentials.
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
+      ##############################
