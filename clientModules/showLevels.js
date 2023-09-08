@@ -97,7 +97,7 @@ const showLevels = (targetElements) => {
       // insert level selection buttons into the HTML
       let htmlString =
         `
-        <div class="${levelButtonsAndInfoClassNames} container text-center sticky-top pt-3 pb-3 mb-4" style="background: white;">
+        <div class="${levelButtonsAndInfoClassNames} container text-center pt-3 pb-3 mb-4" style="background: white;">
           <div class="row">
             <div class="col">
               <div class="show-level-buttons-info d-inline">
