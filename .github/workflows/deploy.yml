@@ -64,8 +64,31 @@ jobs:
       - name: Copy Wiki To Docusaurus Glossary directory
         run: |
           mkdir -p docs/04_glossary  # Create the directory if it doesn't exist
+          
+          # Files that are already in the /docs/04_glossary/ directory will not be overwritten
           rsync -a wiki/ docs/04_glossary/  # Synchronize wiki contents to /docs/04_glossary/
+          
+          # The /wiki directory is not needed anymore
+          rm -rf wiki/  # Remove the /wiki directory
       ##############################
+
+
+
+      ##############################
+      # Fix svg's created by OmniGraffle
+      ##############################
+      - name: Fix svg's created by OmniGraffle
+        run: node maintenance/fixOmnigraffleSvgOutput.js
+      ##############################
+
+
+      # # CURRENTLY MANUALLY RUN 
+      # ##############################
+      # # Find broken links and create a Github issue
+      # ##############################
+      # - name: Find broken links and create a Github issue
+      #   run: node maintenance/findBrokenLinks.js
+      # ##############################
 
 
 
@@ -82,8 +105,8 @@ jobs:
           git commit -m "Fetched content from various external sources"
           git push
       ##############################
-      
-      
+
+
 
       ##############################
       # Builds the website to /build
