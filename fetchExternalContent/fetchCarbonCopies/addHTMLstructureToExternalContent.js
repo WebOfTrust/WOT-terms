@@ -34,7 +34,6 @@ const path = require('path');
 const directoryPath = './docs/08_carbon-copies/';
 
 // Import external JSON object
-const path = require('path');
 const externalContentMetaData = require(path.join(__dirname, '../../static/json/externalContentMetaData.json'));
 
 
