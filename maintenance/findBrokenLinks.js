@@ -105,6 +105,10 @@ const siteChecker = new SiteChecker({}, {
 
         // Now, dataToWrite is an HTML string where every URL is clickable and listed as an unordered list
 
+        // Check if directory exists, if not then create it
+        if (!fs.existsSync(directory)) {
+            fs.mkdirSync(directory, { recursive: true });
+        }
 
         fs.writeFile(config.outputFilePath, dataToWrite, async (err) => {
             if (err) {
