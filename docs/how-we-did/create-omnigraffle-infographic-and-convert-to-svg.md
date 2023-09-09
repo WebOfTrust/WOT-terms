@@ -2,7 +2,7 @@
 
 Three steps:
 1. Use Omnigraffle app
-2. Run ` node multitools/fixOmnigraffleSvgOutput.js` to fix the svg for our Docusaurus purposes. This script enhances the compatibility and display of OmniGraffle-produced SVGs.
+2. Run `node maintenance/fixOmnigraffleSvgOutput.js` to fix the svg for our Docusaurus purposes. This script enhances the compatibility and display of OmniGraffle-produced SVGs.
 3. Incoperate resulting svg in a Docusaurus page
 
 ## 1. Omnigraffle app
@@ -26,7 +26,7 @@ Sub steps
 
 **In short, this script enhances the compatibility and display of OmniGraffle-produced SVGs.**
 
-Run ` node multitools/fixOmnigraffleSvgOutput.js` to fix the svg for our Docusaurus purposes. This script enhances the compatibility and display of OmniGraffle-produced SVGs.
+Run `node maintenance/fixOmnigraffleSvgOutput.js` to fix the svg for our Docusaurus purposes. This script enhances the compatibility and display of OmniGraffle-produced SVGs.
 
 **Run this script from the `[root]` of your project, it expects your files to be in dir `[root]/static/img`**
 ### Brief Description
