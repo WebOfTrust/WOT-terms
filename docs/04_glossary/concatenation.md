@@ -2,7 +2,7 @@ In [formal language theory](https://en.wikipedia.org/wiki/Formal_language) and [
 More on source [Wikipedia page](https://en.wikipedia.org/wiki/Concatenation)
 
 ## KERI related
-In CESR Concatenation is an important property of CESR's [Composability](composability); it is associative and may be applied to any two [primitives](primitives) or any two groups or sets of concatenated primitives.
+In CESR Concatenation is an important property of CESR's [Composability](composability); it is associative and may be applied to any two [primitives](primitive) or any two groups or sets of concatenated primitives.
 
 The composability property of CESR allows us to create arbitrary compositions of primitives via concatenation in either the text or binary domain and then convert the composition en masse to the other domain and then de-concatenate the result without loss. The [self-framing](self-framing) property of the primitives enables de-concatenation.
 

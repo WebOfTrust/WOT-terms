@@ -14,7 +14,7 @@ Our strategic decision to house copies of these resources, rather than merely li
 
 3. **Enhanced Comprehension** – For contextual understanding, we dynamically add hyperlinks and hover texts to terms within the text, enabling immediate inline explanations and offering additional information at your fingertips.
 
-4. **Chatbot Integration** – The information in these documents also enhances the capabilities of our sophisticated chatbot (Powered By [Chatbase.co](Chatbase.co)), improving its ability to assist and engage with users.
+4. **Chatbot Integration** – The information in these documents also enhances the capabilities of our sophisticated chatbot (Powered By [Chatbase.co](http://chatbase.co)), improving its ability to assist and engage with users.
 
 Dive into the directory structure presented in the left menu to explore our vast collection of resources. Among these, you will discover select material from [keri.one](http://keri.one), maintained by Samuel Smith – the founding father of KERI.
 
