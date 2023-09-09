@@ -74,9 +74,8 @@
    </mask>
    <text x="5.859" fill="#343a40" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="20" style="white-space:pre" text-anchor="middle" transform="translate(327.527 130.717)">i</text>
 
-   <a xlink:href="/WOT-terms/docs/glossary/MGMT">
-      <text x="32.813" fill="#862e9c" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="28" style="white-space:pre" text-anchor="middle" transform="translate(483.986 183.088)">MGMT</text>
-   </a>
+   <text x="32.813" fill="#862e9c" dominant-baseline="text-before-edge" font-family="Cascadia, Segoe UI Emoji" font-size="28" style="white-space:pre" text-anchor="middle" transform="translate(483.986 183.088)">MGMT</text>
+
 
    <g fill="none" stroke="#343a40" stroke-linecap="round" stroke-width="2" mask="url(#e)">
       <path d="M663.475 221.717c-45.15-48.37-98.44-100.25-155.24-152.89m156.93 152.98c-38.43-35.45-76.59-72.88-155.55-155.06"/>
