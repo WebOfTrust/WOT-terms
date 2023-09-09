@@ -426,7 +426,7 @@ table td:nth-child(8) {
   background-size: contain;
   /* background-size: clamp(30px, 4%, 160px) auto; */
   /* background-origin: content-box; */
-  padding: 0 1em;
+  padding: 0 1em 0 2em;
 }
 
 #search {
