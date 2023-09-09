@@ -2,8 +2,7 @@
 
 [![hackmd-github-sync-badge](https://hackmd.io/TYKEsJ5OQy-4w78NUGRSMA/badge)](https://hackmd.io/TYKEsJ5OQy-4w78NUGRSMA)
 
-THIS IS UNDER CONSTRUCTION
-Would you like to contribute? Join us at the Concepts, Terms and Edu [bi-weekly Zoom session](/agenda.md)
+THIS IS CONTINUOUSLY UNDER CONSTRUCTION
 
 ## What is this?
 
@@ -56,7 +55,7 @@ Concepts use existing terms (which could create confusion) and introduces new te
 
 ### Familiar terms
 
-We explain the terminology at various [levels of understanding](README.md#levels-of-understanding), and also **our criteria** how we judge certain terms to be defined for the sake of KERI / ACDC. E.g. `multisignatures`, `validators` and `verifiers`. What are they exactly?
+We explain the terminology at various [levels of understanding](../../README.md#levels-of-understanding), and also **our criteria** how we judge certain terms to be defined for the sake of KERI / ACDC. E.g. `multisignatures`, `validators` and `verifiers`. What are they exactly?
 
 ### Use cases and domains
 
@@ -64,7 +63,7 @@ Understanding could vary in different domains and use-cases (e.g. a controller i
 
 ### New terminology, acronyms and abbreviations
 
-KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevitably, new terminology has surfaced in the design of KERI and ACDC. In this `concepts` page we try to explain related terms in a few [levels of understanding](README.md#levels-of-understanding). We've used analogies and symbols to clear up complex and intangible concepts for those new to KERI / ACDC and even for those experts that we consider being 'advanced'. The ultimate goal is to try to make sense in the perception of respectively the newbie - and the advanced identity expert.
+KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevitably, new terminology has surfaced in the design of KERI and ACDC. In this `concepts` page we try to explain related terms in a few [levels of understanding](../..README.md#levels-of-understanding). We've used analogies and symbols to clear up complex and intangible concepts for those new to KERI / ACDC and even for those experts that we consider being 'advanced'. The ultimate goal is to try to make sense in the perception of respectively the newbie - and the advanced identity expert.
 
 ## Concept details (NO ORDERING yet)
 
@@ -353,7 +352,7 @@ See [glossary item](https://github.com/trustoverip/acdc/wiki/non-repudiable)
 
 #### First seen - timing solution - overload protection
 
-KERI alternative to total global ordering and consensus protocols is a mechanism called [duplicity](../04_glossary/duplicity.md) detection. In the [verification](../04_glossary/verifiers.md) and [validation](../04_glossary/validation.md) **watchers are all that matter**; they guarantee that logs are immutable by one very simple rule: "[first seen](../04_glossary/first-seen.md) wins".
+KERI alternative to total global ordering and consensus protocols is a mechanism called [duplicity](../04_glossary/duplicity.md) detection. In the [verification](../04_glossary/verifier.md) and [validation](../04_glossary/validate.md) **watchers are all that matter**; they guarantee that logs are immutable by one very simple rule: "[first seen](../04_glossary/first-seen.md) wins".
 
 #### Pre-rotation - quantum protection - security fallback (exposure, theft) - portray changing power dynamics
 

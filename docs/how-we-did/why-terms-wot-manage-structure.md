@@ -136,7 +136,7 @@ The count of terms are in the Cat_CCCCC columns after a (re)run of the counting 
 - Key: We might need a Key field **to be able to** have a unique long-living identifier for a term in the WebofTrust domain. However, any term goes through a life cycle, with the end state of a term being well-known, unchanged for a while and unique. The `Key` field has become superfluous by then.
 - Type: We don't need this, but it's courtesy to users / learners to be able to filter or select just specific terms to SSI, Autonomic identifier space and KERI suite specific consequetively.
 - TTTTT_Fkey / TTTTT_start: We use this Foreign Key to link to other educational resources of the this term, like Youtube footage\*, webpages and other glossaries.
-- level: We assess a [level of understanding](README.md#levels-of-understanding.md) to meaningful study a term. Regardless this subjective and personal judgement, the filtering options are numerous:
+- level: We assess a [level of understanding](../../README.md#levels-of-understanding.md) to meaningful study a term. Regardless this subjective and personal judgement, the filtering options are numerous:
 
 1.  offer everything (a glossary)
 2.  offer a learning trajectory
@@ -149,7 +149,7 @@ The count of terms are in the Cat_CCCCC columns after a (re)run of the counting 
 
 ## Why not a term-content file per level of understanding?
 
-Per term various levels of explanation (plus related further readings) are offered within one source file `.md`. The reason for this is that every individual learner is different. Within the source file of a term we can label "stars" to both questions and answers, compliant to what's explained in this section of the README.md file : [Levels of Understanding](README.md#levels-of-understanding.md)
+Per term various levels of explanation (plus related further readings) are offered within one source file `.md`. The reason for this is that every individual learner is different. Within the source file of a term we can label "stars" to both questions and answers, compliant to what's explained in this section of the README.md file : [Levels of Understanding](../../README.md#levels-of-understanding.md)
 
 By offering "everything we have" about a certain term in one file, a reader is able to identify herself / himself with a certain level in a specific context and "filter the stars" in an eye blink.
 
@@ -157,7 +157,7 @@ By offering "everything we have" about a certain term in one file, a reader is a
 
 Three major applications:
 
-Being the home of our terms maintenance, we [load ToIP glossary](./load-toip-glossary-in-weboftrust-github-page.md) and generate our Docusaurus [static content site](https://weboftrust.github.io/WOT-terms/) on Github. This whole process is steered with the content in the _Terms WOT manage sheet_.
+Being the home of our terms maintenance, we [load ToIP glossary](./load-glossary-weboftrust-in-docusaurus.md) and generate our Docusaurus [static content site](https://weboftrust.github.io/WOT-terms/) on Github. This whole process is steered with the content in the _Terms WOT manage sheet_.
 
 Any resource that mentions WebofTrust terms can be much easier enriched with the use of _Terms WOT manage sheet_.
 For example, we can create a [terms link table for any footage](https://github.com/WebOfTrust/WOT-terms/blob/gh-pages/how\ we\did/create-terms-link-table.md) from the sheet Terms WOT manage sheet.

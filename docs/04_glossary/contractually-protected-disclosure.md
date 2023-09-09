@@ -9,7 +9,7 @@ This is also the most elaborate form of disclosure by an [IPEX](IPEX). Contractu
 Paraphrased by @henkvancann based on [source](https://github.com/WebOfTrust/ietf-ipex/blob/main/draft-ssmith-ipex.md#discussion)
 
 ## Relation
-This [IPEX](IPEX) protocol leverages important features of [ACDC](acdc)s and ancillary protocols such as [CESR](CESR), [SAID](SAID)s, and [CESR-Proofs](cesr-proof) as well as [Ricardian contract](ricardian-contract)s and graduated disclosure (partial, selective, full) to enable contractually protected disclosure. Contractually protected disclosure includes both [chain-link confidential](chain-link confidential) and [contingent disclosure](contingent disclosure).
+This [IPEX](IPEX) protocol leverages important features of [ACDC](ACDC)s and ancillary protocols such as [CESR](CESR), [SAID](SAID)s, and [CESR-Proofs](cesr-proof-signatures) as well as [Ricardian contract](ricardian-contract)s and graduated disclosure (partial, selective, full) to enable contractually protected disclosure. Contractually protected disclosure includes both [chain-link confidential](chain-link confidential) and [contingent disclosure](contingent disclosure).
 
 ## Rule
 The disclosure performed by a presentation exchange MAY be [graduated](graduated-disclosure) and MAY be [contractually](contractually-protected-disclosure) protected.

@@ -8,5 +8,5 @@ Also used to describe [PKI](PKI) key pairs that have this feature.
 3. Authorized: consent, [loci-of-control](loci-of-control) 
 4. **Authoritative: accurate, reputable**
 
-"A4" data control securely is established via [self-certifying](self-certifying-dentifier) [pseudonymous](pseudonymous) identifiers\
+"A4" data control securely is established via [self-certifying](self-certifying-identifier) pseudonymous identifiers\
 [Source](https://youtu.be/L82O9nqHjRE) Samuel M. Smith
