@@ -1,5 +1,5 @@
 
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="229 -4 532 779">
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="229 -4 532 779">
   <defs>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#199ce8">
       <g>
@@ -12,7 +12,7 @@
       </g>
     </marker>
   </defs>
-  <g id="Canvas_1" stroke-opacity="1" stroke="none" stroke-dasharray="none" fill="none" fill-opacity="1">
+  <g id="Canvas_1" stroke="none" stroke-dasharray="none" fill="none" stroke-opacity="1" fill-opacity="1">
     <title>Canvas 1</title>
     <g id="Canvas_1_Layer_1">
       <title>Layer 1</title>
@@ -78,7 +78,7 @@
         <path d="M 463.8772 325 C 476.84823 339.01234 488.4786 353.64972 500.52143 365.77264 M 463.8772 325 C 477.34823 338.51234 488.9786 353.14972 501.02143 365.27264" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
       </g>
       <g id="Graphic_18">
-        <a xlink:href="/WOT-terms/docs/How-we-did/create-search-index">
+        <a xlink:href="/WOT-terms/docs/how-we-did/create-search-index">
           <text transform="translate(440.64635 336.8751)" fill="black">
             <tspan font-family="Verdana" font-size="11" fill="black" x="0" y="11">Content scraped</tspan>
             <tspan font-family="Verdana" font-size="11" fill="black" x="19.188232" y="24">(Node.js)</tspan>
@@ -89,8 +89,8 @@
         <path d="M 547.53686 684.276 C 545.76397 644.5028 540.6735 520.66184 539.7578 458.31195 M 547.53686 684.276 C 546.26397 644.0028 541.1735 520.16184 540.2578 457.81195" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
       </g>
       <g id="Graphic_19">
-        <a xlink:href="/WOT-terms/docs/How-we-did/create-search-index">
-          <text transform="translate(495.82437 561.154)" fill="black">
+        <a xlink:href="/WOT-terms/docs/how-we-did/create-search-index">
+          <text transform="translate(495.8264 561.1965)" fill="black">
             <tspan font-family="Verdana" font-size="11" fill="black" x="0" y="11">Content scraped</tspan>
             <tspan font-family="Verdana" font-size="11" fill="black" x="19.188232" y="24">(Node.js)</tspan>
           </text>
@@ -100,8 +100,8 @@
         <path d="M 621.41634 740 C 619.8383 687.3607 629.1663 529.71804 605.2981 457.5007 M 621.41634 740 C 620.3383 686.8607 629.6663 529.21804 605.7981 457.0007" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
       </g>
       <g id="Graphic_21">
-        <a xlink:href="/WOT-terms/docs/How-we-did/Create-search-index">
-          <text transform="translate(578.1594 590.939)" fill="black">
+        <a xlink:href="/WOT-terms/docs/how-we-did/create-search-index">
+          <text transform="translate(578.15955 590.9462)" fill="black">
             <tspan font-family="Verdana" font-size="11" fill="black" x="0" y="11">Content scraped</tspan>
             <tspan font-family="Verdana" font-size="11" fill="black" x="19.188232" y="24">(Node.js)</tspan>
           </text>
@@ -138,7 +138,7 @@
         <path d="M 400.67786 583.939 C 398.1389 531.3291 395.60777 414.0361 406.34547 337.8206 M 400.67786 583.939 C 398.6389 530.8291 396.10777 413.5361 406.84547 337.3206" marker-end="url(#FilledArrow_Marker_2)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
       </g>
       <g id="Graphic_29">
-        <a xlink:href="/WOT-terms/docs/How-we-did/create-search-index">
+        <a xlink:href="/WOT-terms/docs/how-we-did/create-search-index">
           <text transform="translate(358.93687 507.85265)" fill="black">
             <tspan font-family="Verdana" font-size="11" fill="black" x="0" y="11">Content copied</tspan>
             <tspan font-family="Verdana" font-size="11" fill="black" x="15.616455" y="24">(Node.js)</tspan>
