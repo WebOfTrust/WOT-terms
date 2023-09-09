@@ -5,7 +5,7 @@
   Description:
   
   Run this script from the root of the project using the following command:
-    $ node multitools/fixOmnigraffleSvgOutput.js
+    $ node maintenance/fixOmnigraffleSvgOutput.js
     
     This script fixes Omnigraffle svg output. Without these fixes the Docusaurus page does not render.
     
