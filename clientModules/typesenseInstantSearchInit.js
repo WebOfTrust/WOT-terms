@@ -14,7 +14,7 @@ const typesenseInstantSearchCreateDomElements = () => {
 <h1 class="search-heading text-center fs-5">KERI Suite Search Engine (KERISSE)</h1>
    <div id="search-box" class="mt-3 mb-2"></div>
    <div id="search-close">✖</div>
-   <a href="#search-results" class="btn btn-light btn-sm mt-3 mb-3 d-none d-sm-block d-md-none">To search results</a>
+   <a href="#search-results" class="btn btn-light btn-sm mt-3 mb-3 d-block d-md-none">To search results</a>
    <div id="example-search-terms" class="mt-4 text-center">Try searching for:
       <a role="button" class="clickable-search-term btn btn-outline-secondary btn-sm d-inline">Keri</a> 
       <a role="button" class="clickable-search-term btn btn-outline-secondary btn-sm d-inline">ACDC</a> 
