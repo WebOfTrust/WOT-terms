@@ -1080,9 +1080,9 @@ Paraphrased by @henkvancann based on <a href="https://github.com/WebOfTrust/ietf
 </dd>
 
 <dt id="group-framing-code"><svg class="_slf" onclick="copyUrl('#group-framing-code')"><use href="#_slf"/></svg>group framing code <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//group-framing-code')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
-<dd><p>special framing codes can be specified to support groups of <a href="#primitives">primitives</a> in <a href="#composable-event-streaming-representation" title="This compact encoding scheme fully supports both textual and binary streaming applications of attached crypto material of all types.">CESR</a>. Grouping enables <a href="#pipelining" title="In computing, a pipeline, also known as a data pipeline, is a set of data processing elements connected in series, where the output of one element is the input of the next one.">pipelining</a>. Other suitable terms for these special framing codes are <em>group codes</em> or <em>count codes</em> for short. These are suitable terms because these framing codes can be used to count characters, primitives in a group, or groups of primitives in a larger group when parsing and off-loading a stream of CESR primitives.<br />
+<dd><p>special framing codes can be specified to support groups of <a href="#primitive" title="In general in computing a 'primitive' is the simplest type of programming language item.">primitives</a> in <a href="#composable-event-streaming-representation" title="This compact encoding scheme fully supports both textual and binary streaming applications of attached crypto material of all types.">CESR</a>. Grouping enables <a href="#pipelining" title="In computing, a pipeline, also known as a data pipeline, is a set of data processing elements connected in series, where the output of one element is the input of the next one.">pipelining</a>. Other suitable terms for these special framing codes are <em>group codes</em> or <em>count codes</em> for short. These are suitable terms because these framing codes can be used to count characters, primitives in a group, or groups of primitives in a larger group when parsing and off-loading a stream of CESR primitives.<br />
 <a href="https://github.com/WebOfTrust/ietf-cesr/blob/main/draft-ssmith-cesr.md#count-group-or-framing-codes">Source</a></p>
-<p class="meta">version 1, commit b326c62, created 2023-07-07, contributors Henk van Cann</p>
+<p class="meta">version 2, commit a2490b5, created 2023-07-07, last modified 2023-09-09, contributors Henk van Cann</p>
 </dd>
 
 <dt id="H" class="letter">H</td>
@@ -1104,7 +1104,7 @@ More in source <a href="https://en.wikipedia.org/wiki/Hardware_security_module">
 
 <dt id="hierarchical-composition"><svg class="_slf" onclick="copyUrl('#hierarchical-composition')"><use href="#_slf"/></svg>hierarchical composition <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//hierarchical-composition')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p>Encoding protocol that is composable in a hierarchy and enables <a href="#pipelining" title="In computing, a pipeline, also known as a data pipeline, is a set of data processing elements connected in series, where the output of one element is the input of the next one.">pipelining</a> (multiplexing and de-multiplexing) of complex streams in either text or compact binary. This allows management at scale for high-bandwidth applications.</p>
-<p class="meta">version 1, commit b326c62, created 2023-07-07, contributors Henk van Cann</p>
+<p class="meta">version 2, commit 28f1d53, created 2023-07-07, last modified 2023-09-09, contributors Henk van Cann</p>
 </dd>
 
 <dt id="hierchical-deterministic-keys"><svg class="_slf" onclick="copyUrl('#hierchical-deterministic-keys')"><use href="#_slf"/></svg>hierchical deterministic keys <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//hierchical-deterministic-keys')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
@@ -1253,8 +1253,8 @@ Source: Philip Feairheller.</p>
 
 <dt id="issuance-exchange"><svg class="_slf" onclick="copyUrl('#issuance-exchange')"><use href="#_slf"/></svg>issuance exchange <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//issuance-exchange')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p>A special case of a <a href="#presentation-exchange" title="An exchange that provides disclosure of one or more ACDCs between a Discloser and a Disclosee.">presentation exchange</a> where the <a href="#discloser" title="An ACDC in a disclosure is disclosed by the Discloser.">Discloser</a> is the <a href="#issuer" title="An ACDC is issued by the Issuer.">Issuer</a> of the origin (Primary) ACDC of the <a href="#directed-acyclic-graph" title="From Wikipedia (source):">DAG</a> formed by the set of chained <a href="#authentic-chained-data-container" title="In brief, an ACDC or ADC proves digital data consistency and authenticity in one go.">ACDC</a>s so disclosed.</p>
-<p>In an issuance exchange, when the origin ACDC has an <a href="#issues">Issuee</a>, the <a href="#disclosee">Disclosee</a> MAY also be the origin ACDC's Issuee.</p>
-<p class="meta">version 1, commit b326c62, created 2023-07-07, contributors Henk van Cann</p>
+<p>In an issuance exchange, when the origin ACDC has an <a href="#issuee" title="An ACDC is optionally issued to the Issuee.">Issuee</a>, the <a href="#disclosee">Disclosee</a> MAY also be the origin ACDC's Issuee.</p>
+<p class="meta">version 2, commit 7325941, created 2023-07-07, last modified 2023-09-09, contributors Henk van Cann</p>
 </dd>
 
 <dt id="issuee"><svg class="_slf" onclick="copyUrl('#issuee')"><use href="#_slf"/></svg>issuee <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//issuee')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
