@@ -254,7 +254,8 @@ const typeSenseInstantSearch = () => {
         ${itemImgUrlTemplateString}
         ${itemImgMetaTemplateString}
     </div>
-</div>
+  </div>
+  <a href="#search-close" class="btn btn-light btn-sm mt-3 mb-3 d-block d-md-none">To search box</a>
       `;
         },
       },
