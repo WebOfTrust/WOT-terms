@@ -7,7 +7,7 @@
       </g>
     </marker>
   </defs>
-  <g id="File_system" stroke="none" stroke-opacity="1" fill="none" fill-opacity="1" stroke-dasharray="none">
+  <g id="File_system" stroke="none" stroke-opacity="1" fill-opacity="1" stroke-dasharray="none" fill="none">
     <title>File system</title>
     <g id="File_system_Layer_1">
       <title>Layer 1</title>
@@ -22,11 +22,11 @@
         </a>
       </g>
       <g id="Graphic_9">
-        <rect x="114" y="317" width="278" height="56" fill="#dde9f5"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/externalContentCarbonCopies">
+        <rect x="114" y="317" width="278" height="56" fill="#dde9f5"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/fetchExternalContent">
           
           <path d="M 112.38643 317.00476 L 392.22256 316.17887 M 391.00797 314.5376 L 391.30837 375.3163 M 392.4065 373.9313 L 112.41332 372.9872 M 113.65789 374.29273 L 114.01151 315.07214 M 112.63639 316.73972 L 391.26556 315.75006 M 391.3419 314.28718 L 391.63407 373.67715 M 392.65636 373.7232 L 113.91537 372.8272 M 113.75784 374.04184 L 114.24538 316.74997" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
           <text transform="translate(119 335.5)" fill="black">
-            <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">&gt; externalContentCarbonCopies</tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">&gt; fetchExternalContent</tspan>
           </text>
         </a>
       </g>
@@ -40,14 +40,14 @@
         <line x1="502.8047" y1="192" x2="403.9" y2="192" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_19">
-        <text transform="translate(603.8203 314)" fill="black">
-          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">These scripts together</tspan>
-          <tspan font-family="Courier New" font-size="16" fill="black" x="9.601562" y="31">fetch remote content</tspan>
-          <tspan font-family="Courier New" font-size="16" fill="black" x="4.800781" y="49">and make a local copy</tspan>
+        <text transform="translate(546.21094 314)" fill="black">
+          <tspan font-family="Courier New" font-size="16" fill="black" x="57.609375" y="13">These scripts together</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="67.21094" y="31">fetch remote content</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="49">and make it available in some form</tspan>
         </text>
       </g>
       <g id="Line_18">
-        <line x1="598.8203" y1="341.9694" x2="403.8996" y2="343.6776" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <line x1="541.21094" y1="342.47426" x2="403.8996" y2="343.6776" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_22">
         <rect x="114" y="456" width="278" height="56" fill="#dde9f5"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/search-index-typesense">
@@ -105,11 +105,11 @@
         </text>
       </g>
       <g id="Graphic_34">
-        <rect x="114" y="586" width="278" height="56" fill="#dde9f5"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/multitools">
+        <rect x="114" y="586" width="278" height="56" fill="#dde9f5"/><a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/maintenance">
           
           <path d="M 113.19472 585.9988 L 393.31965 586.4131 M 392.56944 584.8949 L 392.064 642.8433 M 393.04727 642.0103 L 111.67951 642.1899 M 113.65726 643.9011 L 114.00392 585.33836 M 113.44498 585.5743 L 392.80626 586.1298 M 393.03573 584.6468 L 392.52644 641.7627 M 393.29737 641.9071 L 113.91745 642.0294 M 113.89802 643.651 L 114.11447 585.7492" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
           <text transform="translate(119 604.5)" fill="black">
-            <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">&gt; multitools</tspan>
+            <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">&gt; maintenance</tspan>
           </text>
         </a>
       </g>
