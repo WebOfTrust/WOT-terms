@@ -24,10 +24,17 @@ const typesenseInstantSearchCreateDomElements = () => {
    <div class="container">
    <div class="row mt-3">
       <div class="col-md-3 p-0">
-         <h2 class="">Refine</h2>
+         <p id='index-created-timestamp'>-</p>
 
-         <div id="clear-refinements"></div>
-
+         <div class="container text-center border-bottom border-top mb-4 pb-2 pt-3">
+            <div class="row">
+               <div class="col">
+                  <h2 class="">Refine</h2>
+               </div>
+                  <div class="col d-flex align-items-center" id="clear-refinements"></div>
+            </div>
+         </div>
+         
          <div class="" id="filters-section">
             <h3 class="mt-1">Source</h3>
             <div id="source-refinement-list"></div>
@@ -74,6 +81,45 @@ const typesenseInstantSearchCreateDomElements = () => {
       .querySelector('.navbar__items--right')
       .insertAdjacentHTML('beforeend', domStringSearchStart);
    // }
+
+
+   /*
+      TIMESTAMP   
+
+      The code below Fetches HTML content from indexed-in-KERISSE on this same domain using the `fetch` API.
+      
+      It then parses the fetched HTML using `DOMParser` and queries the DOM to find a paragraph element with the id "index-created-timestamp".
+      
+      If the element is found, its text content is added to the search result page; otherwise, an appropriate message indicating the absence of such an element is logged.
+   */
+
+
+   // Fetching the HTML content
+   fetch('/WOT-terms/docs/overview/indexed-in-KERISSE/')
+      .then(response => response.text())
+      .then(html => {
+         // Parsing the fetched HTML string into a DOM object
+         const parser = new DOMParser();
+         const doc = parser.parseFromString(html, 'text/html');
+
+         // Finding the paragraph element by its id
+         const timestampElement = doc.querySelector('#index-created-timestamp');
+
+         if (timestampElement) {
+            // Extracting and logging the content of the paragraph
+            const timestampContent = timestampElement.textContent;
+            document.querySelector('#index-created-timestamp').textContent = timestampContent;
+         } else {
+            console.log('Element with id "index-created-timestamp" not found.');
+         }
+      })
+      .catch(error => {
+         console.error(`Error fetching the content: ${error}`);
+      });
+   // END TIMESTAMP
+
+
+
 };
 
 export function onRouteDidUpdate({ location, previousLocation }) {
