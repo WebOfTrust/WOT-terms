@@ -297,7 +297,7 @@ const config = {
     require.resolve('./clientModules/dynamicTables'),
     require.resolve('./clientModules/elementGoFullScreen'),
     require.resolve('./clientModules/horizontalScrollHint'),
-    // require.resolve('./clientModules/showDefinitionsPopUpOnClick'),
+    require.resolve('./clientModules/showDefinitionsPopUpOnClick'),
     require.resolve('./clientModules/writeChanges'),
     require.resolve('./clientModules/addDataTypes'),
     require.resolve('./clientModules/showGPTsummary'),
