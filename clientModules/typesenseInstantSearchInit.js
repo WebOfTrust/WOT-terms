@@ -58,7 +58,7 @@ const typesenseInstantSearchCreateDomElements = () => {
       </div>
       <!-- Column with search results -->
       <div class="col-md-9 p-0 ps-md-3">
-        <h2 class="text-center" id="search-results">Results</h2>
+        <h2 class="text-center border-bottom border-top mb-4 pb-3 pt-3" id="search-results">Results</h2>
          <div id="hits"></div>
          <div id="pagination"></div>
       </div>
