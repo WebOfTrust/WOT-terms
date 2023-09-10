@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="197 183 1219 2740" width="1219" height="2740">
+
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="197 183 1219 2740">
   <defs>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#199ce8">
       <g>
@@ -59,7 +58,7 @@
         <path d="M 340.4135 444.0211 C 340.59654 455.1965 338.85887 467.805 338.50753 480.34297 M 340.4135 444.0211 C 341.59654 454.1965 339.85887 466.805 339.50753 479.34297" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_75">
-        <a xl:href="https://github.com/WebOfTrust/WOT-terms/tree/main/search-index-typesense">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/tree/main/search-index-typesense">
           <text transform="translate(739 217)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">Using a collection</tspan>
             <tspan font-family="Courier New" font-size="16" fill="black" x="38.40625" y="31">of scripts</tspan>
@@ -70,7 +69,7 @@
         <path d="M 816.608 212 C 807.8757 197.90508 790.8225 182.76962 758 184 C 738.3253 184.73752 715.995 191.24268 694.8209 199.68368" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_143">
-        <a xl:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/import.sh">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/import.sh">
           <text transform="translate(703.8125 2486)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">import.sh</tspan>
           </text>
@@ -170,7 +169,7 @@
       </g>
       <g id="Graphic_57">
         <text transform="translate(782.5977 330)" fill="black">
-          <tspan font-family="Courier New" font-size="16" fill="black" x="14.402344" y="13">The scraper needs a list of url’s</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="14.402344" y="13">The scraper needs a list of url&#x2019;s</tspan>
           <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="31">(= sitemap), usually in website root</tspan>
         </text>
       </g>
@@ -178,14 +177,14 @@
         <path d="M 965.3245 371 C 968.9073 385.8653 969.4547 407.0663 957 432 C 953.0806 439.84647 948.167 447.4753 942.6749 454.75696" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_60">
-        <a xl:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/createSitemapGithub.mjs">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/createSitemapGithub.mjs">
           <text transform="translate(429.39453 1131)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">createSitemapGithub.mjs</tspan>
           </text>
         </a>
       </g>
       <g id="Graphic_61">
-        <a xl:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/modules/extractMainContent.mjs">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/modules/extractMainContent.mjs">
           <text transform="translate(476.3425 919)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">extractMainContent.mjs</tspan>
           </text>
@@ -198,9 +197,9 @@
         <path d="M 591.328 942 C 592.7994 950.2825 587.49004 960.8693 560 969.8169 C 541.651 975.7892 516.33115 980.0837 490.83326 983.1527" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_73">
-        <a xl:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/modules/extractMainContent.mjs">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/modules/extractMainContent.mjs">
           <text transform="translate(1163 1080.95)" fill="black">
-            <tspan font-family="Courier New" font-size="16" fill="black" x="9.601562" y="13">Collect url’s via</tspan>
+            <tspan font-family="Courier New" font-size="16" fill="black" x="9.601562" y="13">Collect url&#x2019;s via</tspan>
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="31">custom script using</tspan>
             <tspan font-family="Courier New" font-size="16" fill="black" x="14.402344" y="49">querySelectorAll</tspan>
           </text>
@@ -248,7 +247,7 @@
         <path d="M 942.8963 1270 C 925.5546 1279.9595 905.1503 1296.297 884 1309.3333 C 872.705 1316.388 861.798 1324.0498 852.994 1331.1594 M 942.8963 1270 C 926.5546 1278.9595 906.1503 1295.297 885 1308.3333 C 873.705 1315.388 862.798 1323.0498 853.994 1330.1594" marker-end="url(#FilledArrow_Marker_3)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_92">
-        <a xl:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/createSitemap.mjs">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/createSitemap.mjs">
           <text transform="translate(451.1992 1078)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">createSitemap.mjs</tspan>
           </text>
@@ -293,12 +292,12 @@
         <rect x="730.8404" y="1344.2675" width="130" height="60" fill="#dde9f5"/>
         <path d="M 729.876 1344.2681 L 862.3245 1344.1881 M 861.8319 1342.9974 L 860.9759 1405.1177 M 862.1251 1403.3664 L 730.8941 1403.639 M 731.74 1405.3575 L 730.8206 1342.9203 M 730.1258 1343.822 L 862.0654 1343.811 M 862.1723 1342.7486 L 861.3906 1403.1206 M 862.3756 1403.3382 L 731.9651 1403.5878 M 731.8084 1405.1102 L 730.9565 1344.0195" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
         <text transform="translate(735.8404 1355.2675)" fill="black">
-          <tspan font-family="Verdana" font-size="16" fill="black" x="3.7578125" y="16">Remove URL’s </tspan>
-          <tspan font-family="Verdana" font-size="16" fill="black" x="3.2148438" y="35">we don’t want</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="3.7578125" y="16">Remove URL&#x2019;s </tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="3.2148438" y="35">we don&#x2019;t want</tspan>
         </text>
       </g>
       <g id="Graphic_137">
-        <a xl:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/removeURLsFromSitemap.mjs">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/removeURLsFromSitemap.mjs">
           <text transform="translate(839 1466.0524)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">removeURLsFromSitemap.mjs</tspan>
           </text>
@@ -314,10 +313,10 @@
         </text>
       </g>
       <g id="Graphic_81">
-        <a xl:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/custom-scrapers/medium.com.mjs#L53">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/custom-scrapers/medium.com.mjs#L53">
           <text transform="translate(890 1113.975)" fill="black">
             <tspan font-family="Courier New" font-size="12" fill="black" x="25.204102" y="10">Manually create</tspan>
-            <tspan font-family="Courier New" font-size="12" fill="black" x="21.603516" y="24">a list of url’s,</tspan>
+            <tspan font-family="Courier New" font-size="12" fill="black" x="21.603516" y="24">a list of url&#x2019;s,</tspan>
             <tspan font-family="Courier New" font-size="12" fill="black" x="7.201172" y="38">or write a letter to</tspan>
             <tspan font-family="Courier New" font-size="12" fill="black" x="0" y="52">the website owner, etc</tspan>
           </text>
@@ -340,12 +339,12 @@
           <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="16">Assign results to keys </tspan>
           <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="35">in array object</tspan>
           <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="54">[{</tspan>
-          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="73">    siteName: “xxx“,</tspan>
-          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="92">    </tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="73">&#xa0;&#xa0;&#xa0;&#xa0;siteName: &#x201c;xxx&#x201c;,</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="92">&#xa0;&#xa0;&#xa0;&#xa0;</tspan>
           <tspan font-family="Verdana" font-size="16" fill="black" y="92">url</tspan>
-          <tspan font-family="Verdana" font-size="16" fill="black" y="92">: “xxx“,</tspan>
-          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="111">    content: “xxx“,</tspan>
-          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="130">    tag: “xxx“</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" y="92">: &#x201c;xxx&#x201c;,</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="111">&#xa0;&#xa0;&#xa0;&#xa0;content: &#x201c;xxx&#x201c;,</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="130">&#xa0;&#xa0;&#xa0;&#xa0;tag: &#x201c;xxx&#x201c;</tspan>
           <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="149">        etc.</tspan>
           <tspan font-family="Verdana" font-size="16" fill="black" x="0" y="168">}]</tspan>
         </text>
@@ -372,14 +371,14 @@
         <path d="M 619.5992 2002.0004 L 686.38545 2066.5499 M 620.1261 2001.4725 L 684.09474 2063.3414" marker-end="url(#FilledArrow_Marker)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_62">
-        <a xl:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/modules/extractMainContent.mjs">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/modules/extractMainContent.mjs">
           <text transform="translate(764.9773 1702)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">extractMainContent.mjs</tspan>
           </text>
         </a>
       </g>
       <g id="Graphic_63">
-        <a xl:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/modules/createOutput.mjs">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/modules/createOutput.mjs">
           <text transform="translate(697.1875 1886)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">createOutput.mjs</tspan>
           </text>
@@ -417,8 +416,8 @@
         </text>
       </g>
       <g id="Graphic_129">
-        <a xl:href="https://weboftrust.github.io/WOT-terms/docs/Overview/indexed-in-KERISSE">
-          <rect x="933" y="1978.5" width="235" height="120.5" fill="#dde9f5"/>
+        <rect x="933" y="1978.5" width="235" height="120.5" fill="#dde9f5"/><a xlink:href="https://weboftrust.github.io/WOT-terms/docs/Overview/indexed-in-KERISSE">
+          
           <path d="M 931.9662 1978.4988 L 1168.5886 1978.7848 M 1168.0056 1976.8525 L 1168.1977 2099.946 M 1168.9822 2099.125 L 931.7911 2099.9412 M 932.6708 2101.1128 L 933.005 1976.65 M 932.2165 1978.018 L 1168.2588 1978.3727 M 1168.4749 1976.6022 L 1168.6175 2098.8776 M 1169.2325 2098.9702 L 932.9242 2099.7479 M 932.7967 2100.8625 L 933.217 1978.25" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
           <text transform="translate(938 1991.25)" fill="black">
             <tspan font-family="Verdana" font-size="16" fill="black" x="37.75" y="16">Sort alphabetically</tspan>
@@ -432,7 +431,7 @@
         <path d="M 948.8864 1847.8668 L 1008.508 1960.1965 M 949.5578 1847.2758 L 1008.8614 1958.5014" marker-end="url(#FilledArrow_Marker_3)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_132">
-        <a xl:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/sortAndStyleScrapedIndex.mjs">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/sortAndStyleScrapedIndex.mjs">
           <text transform="translate(943 1893.2285)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">sortAndStyleScrapedIndex.mjs</tspan>
           </text>
@@ -488,7 +487,7 @@
         <path d="M 824.7163 2684.5465 L 928.0137 2765.9704 M 825.5072 2683.6775 L 925.8433 2762.8052" marker-end="url(#FilledArrow_Marker_3)" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_64">
-        <a xl:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/import.sh">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/scrapers/import.sh">
           <text transform="translate(675.0391 2494)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">import.sh</tspan>
           </text>
@@ -515,7 +514,7 @@
         </text>
       </g>
       <g id="Graphic_145">
-        <a xl:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/overrides.sh">
+        <a xlink:href="https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/overrides.sh">
           <text transform="translate(1068.039 2508)" fill="black">
             <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="13">overrides.sh</tspan>
           </text>
@@ -545,35 +544,35 @@
       <g id="Graphic_150">
         <text transform="translate(296 2486)" fill="black">
           <tspan font-family="Courier New" font-size="16" fill="black" x="29.201172" y="13">so you can give them</tspan>
-          <tspan font-family="Courier New" font-size="16" fill="black" x="62.80664" y="31">an known “id”</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="62.80664" y="31">an known &#x201c;id&#x201d;</tspan>
           <tspan font-family="Courier New" font-size="16" fill="black" x="48.404297" y="49">that can be used</tspan>
           <tspan font-family="Courier New" font-size="16" fill="black" x="58.00586" y="67">for overrides:</tspan>
           <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="103">[{</tspan>
-          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="124">  id: </tspan>
-          <tspan font-family="Verdana" font-size="16" fill="black" y="124">“</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="124">&#xa0;&#xa0;id: </tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" y="124">&#x201c;</tspan>
           <tspan font-family="Courier New" font-size="16" fill="black" y="124">0</tspan>
-          <tspan font-family="Verdana" font-size="16" fill="black" y="124">“,</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" y="124">&#x201c;,</tspan>
           <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="145">  siteName: </tspan>
-          <tspan font-family="Verdana" font-size="16" fill="black" y="145">“</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" y="145">&#x201c;</tspan>
           <tspan font-family="Courier New" font-size="16" fill="black" y="145">xxx</tspan>
-          <tspan font-family="Verdana" font-size="16" fill="black" y="145">“</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" y="145">&#x201c;</tspan>
           <tspan font-family="Courier New" font-size="16" fill="black" y="145">,</tspan>
-          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="166">  </tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="166">&#xa0;&#xa0;</tspan>
           <tspan font-family="Courier New" font-size="16" fill="black" y="166">url</tspan>
           <tspan font-family="Courier New" font-size="16" fill="black" y="166">: </tspan>
-          <tspan font-family="Verdana" font-size="16" fill="black" y="166">“</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" y="166">&#x201c;</tspan>
           <tspan font-family="Courier New" font-size="16" fill="black" y="166">xxx</tspan>
-          <tspan font-family="Verdana" font-size="16" fill="black" y="166">“</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" y="166">&#x201c;</tspan>
           <tspan font-family="Courier New" font-size="16" fill="black" y="166">,</tspan>
-          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="187">  content: </tspan>
-          <tspan font-family="Verdana" font-size="16" fill="black" y="187">“</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="187">&#xa0;&#xa0;content: </tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" y="187">&#x201c;</tspan>
           <tspan font-family="Courier New" font-size="16" fill="black" y="187">xxx</tspan>
-          <tspan font-family="Verdana" font-size="16" fill="black" y="187">“</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" y="187">&#x201c;</tspan>
           <tspan font-family="Courier New" font-size="16" fill="black" y="187">,</tspan>
-          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="208">  tag: </tspan>
-          <tspan font-family="Verdana" font-size="16" fill="black" y="208">“</tspan>
+          <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="208">&#xa0;&#xa0;tag: </tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" y="208">&#x201c;</tspan>
           <tspan font-family="Courier New" font-size="16" fill="black" y="208">xxx</tspan>
-          <tspan font-family="Verdana" font-size="16" fill="black" y="208">“</tspan>
+          <tspan font-family="Verdana" font-size="16" fill="black" y="208">&#x201c;</tspan>
           <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="226">     etc.</tspan>
           <tspan font-family="Courier New" font-size="16" fill="black" x="0" y="244">}]</tspan>
         </text>
