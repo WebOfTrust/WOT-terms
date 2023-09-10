@@ -2,7 +2,7 @@
 
 <a href="https://hackmd.io/Ox_1L3adTdCEkcFtAzuTFA"><img className="inline-small-start" src='https://hackmd.io/Ox_1L3adTdCEkcFtAzuTFA/badge' alt="" /></a>
 
-This document is part one. Part two is [Q-and-A Security](./q-and-a-security.md). Both files shares a common [Glossary](./category/glossary) that has:
+This document is part one. Part two is [Q-and-A Security](./q-and-a-security.md). Both files shares a common [Glossary](../04_glossary/intro.md) that has:
 
 
 - an alphabethically ordered list of **abbreviations**
@@ -138,7 +138,7 @@ Hmm, a mouthful of terms. Let's start with the identifier. One of the basic (!) 
 
 Based on the constructive ideas the founder Samuel Smith has developed over time in his career plus the awareness that in the self-sovereign identity field there had been to little attention for security as the most important feature of digital identifiers, KERI had to be build from the ground up.
 
-The main design principles have a designated page "[Concepts](../category/concepts)" but in brief:
+The main design principles have a designated page "[Concepts](../06_concepts/intro.md)" but in brief:
 
 1. Security first, confidentiality second, privacy third
 2. Offer a remedy for the [broken internet](#qa-section-why-the-internet-is-broken)
