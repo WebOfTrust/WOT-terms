@@ -505,6 +505,10 @@ table td:nth-child(8) {
   max-width: 100%;
 }
 
+#clear-refinements .ais-ClearRefinements-button {
+  margin: 0 !important; /* To override the classes that are assigned to typesense buttons, defined in typesenseInstantSearch.js */
+}
+
 .ais-Hits-list {
   list-style-type: none;
   padding-left: 0;
