@@ -29,10 +29,10 @@ const typesenseInstantSearchCreateDomElements = () => {
       <div class="col-md-3 p-0">
          <div class="container text-center border-bottom border-top mb-4 pb-2 pt-3">
             <div class="row">
-               <div class="col p-0">
+               <div class="col p-0" style='flex-basis: 0'><!-- Something goes wrong in build phase, this is to compensate -->
                   <h2 class="">Refine</h2>
                </div>
-               <div class="col p-0" id="clear-refinements"></div>
+               <div class="col p-0" id="clear-refinements" style='flex-basis: 0'></div>
             </div>
          </div>
          
