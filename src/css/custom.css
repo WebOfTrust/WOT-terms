@@ -505,6 +505,10 @@ table td:nth-child(8) {
   max-width: 100%;
 }
 
+.column-refinement-filters {
+  background: #337dbe0c;
+}
+
 #clear-refinements .ais-ClearRefinements-button {
   margin: 0 !important; /* To override the classes that are assigned to typesense buttons, defined in typesenseInstantSearch.js */
 }
