@@ -85,9 +85,17 @@ const siteChecker = new SiteChecker({}, {
             let markdownBrokenLink = `[${linkInfo.brokenLink}](${linkInfo.brokenLink})`;
             let markdownFoundOnPage = `[${linkInfo.foundOnPage}](${linkInfo.foundOnPage})`;
 
-            // Return the list item for each broken link, including the clickable URLs
-            return `- Broken Link: ${markdownBrokenLink}, Found on Page: ${markdownFoundOnPage}`;
+            // Check if the foundOnPage URL contains the specific string and replace it if so
+            let goToSource = '';
+            if (linkInfo.foundOnPage.includes('https://weboftrust.github.io/WOT-terms/docs/glossary/')) {
+                let markdownFoundOnPageReplaced = markdownFoundOnPage.replace('https://weboftrust.github.io/WOT-terms/docs/glossary/', 'https://github.com/WebOfTrust/WOT-terms/wiki/');
+                goToSource = ` , Go to source: ${markdownFoundOnPageReplaced}/_edit`;
+            }
+
+            // Return the list item for each broken link, including the clickable URLs and the 'Go to source' if applicable
+            return `- Broken Link: ${markdownBrokenLink}, Found on Page: ${markdownFoundOnPage}` + (goToSource ? `\n  - ${goToSource}` : '');
         }).join('\n');
+
 
         // Append the list to the main Markdown content
         dataToWrite += brokenLinksMarkdown;
