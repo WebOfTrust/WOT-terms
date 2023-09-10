@@ -15,7 +15,7 @@ const typesenseInstantSearchCreateDomElements = () => {
    <div id="search-box" class="mt-3 mb-2"></div>
    <div id="search-close">✖</div>
    <a href="#search-results" class="btn btn-light btn-sm mt-3 mb-3 d-block d-md-none">To search results</a>
-   <div id="example-search-terms" class="mt-4 text-center">Try searching for:
+   <div id="example-search-terms" class="mt-4 text-center">Try:
       <a role="button" class="clickable-search-term btn btn-outline-secondary btn-sm d-inline">Keri</a> 
       <a role="button" class="clickable-search-term btn btn-outline-secondary btn-sm d-inline">ACDC</a> 
       <a role="button" class="clickable-search-term btn btn-outline-secondary btn-sm d-inline">Trust over IP</a>
@@ -23,7 +23,7 @@ const typesenseInstantSearchCreateDomElements = () => {
    </div>
    <div class="container">
    <div class="row mt-3">
-      <div class="col-md-3 p-0">
+      <div class="col-md-3 p-0 pe-2">
          <p id='index-created-timestamp'>-</p>
 
          <div class="container text-center border-bottom border-top mb-4 pb-2 pt-3">
