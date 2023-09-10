@@ -32,7 +32,7 @@ const typesenseInstantSearchCreateDomElements = () => {
                <div class="col">
                   <h2 class="">Refine</h2>
                </div>
-                  <div class="col d-flex align-items-center" id="clear-refinements"></div>
+                  <div class="col" id="clear-refinements"></div>
             </div>
          </div>
          
