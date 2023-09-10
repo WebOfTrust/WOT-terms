@@ -35,7 +35,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add /logs/brokenLinks.md
+          git add ./logs/brokenLinks.md  # Using the full relative path from the root
           
           # Check if there are changes in /logs/brokenLinks.md
           git diff --cached --exit-code && exit 0  # Exit if no changes
