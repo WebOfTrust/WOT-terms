@@ -38,6 +38,6 @@ jobs:
           # git diff --exit-code && exit 0  # Exit if no changes
           git commit -m "Auto-commit broken links report"
           # git push
-          git push origin HEAD:<branch-name> --force  # Using force push
+          git push origin HEAD:main --force  # Using force push
         continue-on-error: true  # Continue even if nothing to commit
       ##############################
