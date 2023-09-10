@@ -2,7 +2,7 @@
 
 <img className="inline-small-start" src={require('/static/img/Keri_logo_color_on_white.png').default} alt="KERI logo" />
 
-This document is part two of [Q-and-A](./q-and-a). Both files shares a common [Glossary](../category/glossary), KERI specific and more generic decentralized Identity ones, that has:
+This document is part two of [Q-and-A](./q-and-a). Both files shares a common [Glossary](../04_glossary/intro.md), KERI specific and more generic decentralized Identity ones, that has:
 
 - an alphabetically ordered list of **abbreviations**
 - an alphabetically ordered list of **definitions**
@@ -1038,7 +1038,7 @@ From a Validator perspective their security is due to duplicity detection. Succe
 
 ### \*\*\*Q: How does FIFO prevent effective DOS attacks in Out-of-order KAACE?
 
-_An escrow cache of unverified out-of-order event provides an opportunity for malicious attackers to send forged event that may fill up the cache as a type of denial of service attack. For this reason escrow caches are typically FIFO (first-in-first-out) where older events are flushed to make room for newer events. [Paragraph 11.3.1] (<(https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf)>)_\
+_An escrow cache of unverified out-of-order event provides an opportunity for malicious attackers to send forged event that may fill up the cache as a type of denial of service attack. For this reason escrow caches are typically FIFO (first-in-first-out) where older events are flushed to make room for newer events. [Paragraph 11.3.1] ([in KERI WP](https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf))_\
 _Question: how does FIFO prevent effective DOS attacks?_
 
 By load-balancing the incoming messages. If you don't have any load-balancing, the messages are going to be processed First In First Out. Only when an attacker has full bandwidth available to overload the buffer, they could frustrate the process to get honest messages in.
