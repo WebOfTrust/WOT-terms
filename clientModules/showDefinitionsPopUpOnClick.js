@@ -12,60 +12,94 @@ import tippy from 'tippy.js';
 import 'tippy.js/themes/light-border.css';
 // import 'tippy.js/themes/material.css';
 // import 'tippy.js/themes/translucent.css';
+import overview from '../static/json/overview.json';
+
+var findTerm = (function () {
+  let termsWOTmanage = overview.values;
+
+  // Find the position of the column "Term" in the array, by looping through the first row
+  let termArrayPosition = 0;
+  let textArrayPosition = 0;
+
+  // Loop through the first row and find the position of the column "Term"
+  for (let i = 0; i < termsWOTmanage[0].length; i++) {
+    if (termsWOTmanage[0][i].trim() === "Term") {
+      termArrayPosition = i;
+    }
+    if (termsWOTmanage[0][i].trim() === "text") {
+      textArrayPosition = i;
+    }
+  }
+
+  function find(term) {
+    for (let i = 0; i < termsWOTmanage.length; i++) {
+      if (termsWOTmanage[i][termArrayPosition].trim() === term.trim()) {
+        return termsWOTmanage[i][textArrayPosition];
+      }
+    }
+    return "No definition found.";
+  }
+
+  return {
+    find: find
+  };
+}());
 
 const showDefinitionsPopUpOnClick = () => {
-  // The links that we want to add a popup to
+  // All links in the main text of the article that are not anchors
   let links = document.querySelectorAll(
     'article .markdown a[href]:not([href^="#"])'
   );
 
+  /**
+   * JS function that takes a string (a url, but it can be relative or full, we don't know) and:
+   * if there is no “/” at the end:
+   * finds everything after the last “/”
+   * if there is a “/” at the end:
+   * removes this “/” and then finds everything after the then last “/”
+   */
+  function extractLastPathComponent(url) {
+    // Remove trailing slash if it exists
+    if (url.endsWith('/')) {
+      url = url.slice(0, -1);
+    }
+
+    // Find everything after the last "/"
+    const lastSlashIndex = url.lastIndexOf('/');
+    const result = url.slice(lastSlashIndex + 1);
+
+    return result;
+  }
+
   const definitionButtonClassName = 'definition-button';
 
   links.forEach((item) => {
+    // Get the host of the link
     let linkHref = new URL(item.href, location).host;
 
-    // Fetch the text from the target url if it's on same domain
+    // If the link is internal
     if (linkHref === window.location.host) {
-      // Get the text from the target url
-      fetch(item.href)
-        .then(function (response) {
-          return response.text();
-        })
-        .then(function (html) {
-          // Convert the HTML string into a document object
-          var parser = new DOMParser();
-          var doc = parser.parseFromString(html, 'text/html');
+      let term = extractLastPathComponent(item.href)
+      let text = findTerm.find(term);
 
-          // Find the paragraph after heading with id="definition"
-          let domEl = doc.querySelector('#definition');
+      // add an inline button after the link
+      let button = document.createElement('button');
+      button.innerHTML = '+';
+      button.classList.add(definitionButtonClassName);
+      item.after(button);
 
-          // If there is text && the button that shows popup on click does not exist, add a popup to the button (the check if the button exists is needed)
-          if (domEl && item.nextElementSibling.classList.contains(definitionButtonClassName) === false) {
-            let content = domEl.nextElementSibling;
-            // add an inline button after the link
-            let button = document.createElement('button');
-            button.innerHTML = '+';
-            button.classList.add(definitionButtonClassName);
-            item.after(button);
-
-            tippy(item, {
-              triggerTarget: item.nextElementSibling, // button
-              trigger: 'click',
-              arrow: true,
-              // arrowType: 'round',
-              theme: 'light-border',
-              allowHTML: true,
-              content:
-                '<p>' +
-                content.innerText +
-                '</p><p>Visit link to see more.</p>',
-            });
-          }
-        })
-        .catch(function (err) {
-          // There was an error
-          console.warn('Something went wrong.', err);
-        });
+      tippy(item, {
+        triggerTarget: item.nextElementSibling, // button
+        trigger: 'click',
+        arrow: true,
+        // arrowType: 'round',
+        theme: 'light-border',
+        allowHTML: true,
+        content:
+          '<p>' +
+          text +
+          '</p><p>Visit link to see more.</p>',
+      });
     }
   });
 };
