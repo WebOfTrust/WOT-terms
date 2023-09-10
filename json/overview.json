@@ -1406,7 +1406,7 @@
       "",
       "",
       "",
-      "#NAME?",
+      "asserting the truth of something, usually in dispute or doubt.",
       "",
       "Assertion of truth, disputed or uncertain."
     ],
@@ -9240,7 +9240,7 @@
       "KERIMask",
       "",
       "KERIMask",
-      "",
+      "A wallet similar to MetaMask that will connect to KERIA servers in order for a person to control AIDs from their browser.\n\n",
       "https://github.com/weboftrust/WOT-terms/wiki/KERIMask",
       "",
       "3"
