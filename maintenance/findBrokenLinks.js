@@ -89,7 +89,7 @@ const siteChecker = new SiteChecker({}, {
             let goToSource = '';
             if (linkInfo.foundOnPage.includes('https://weboftrust.github.io/WOT-terms/docs/glossary/')) {
                 let markdownFoundOnPageReplaced = markdownFoundOnPage.replace('https://weboftrust.github.io/WOT-terms/docs/glossary/', 'https://github.com/WebOfTrust/WOT-terms/wiki/');
-                goToSource = ` , Go to source: ${markdownFoundOnPageReplaced}_edit`;
+                goToSource = ` , Go to source: ${markdownFoundOnPageReplaced}`;
             }
 
             // Return the list item for each broken link, including the clickable URLs and the 'Go to source' if applicable
