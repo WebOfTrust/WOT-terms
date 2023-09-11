@@ -927,6 +927,28 @@ article .markdown .inline-medium-end,
     margin: 0 0 1em 1em;
   }
 }
+
+/* Full page images */
+.markdown img {
+  cursor: pointer;
+}
+
+.full-page-image {
+  border: 1px solid #111;
+  background: #eee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: calc(100% - 10px);
+  max-height: calc(100% - 10px - 1em);
+  margin: auto;
+  object-fit: contain;
+  z-index: calc(var(--ifm-z-index-fixed) + 1);
+}
+/* End full page images */
+
 /* 
   End Images
 */
