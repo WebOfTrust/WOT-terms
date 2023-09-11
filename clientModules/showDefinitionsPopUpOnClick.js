@@ -23,18 +23,25 @@ var findTerm = (function () {
 
   // Loop through the first row and find the position of the column "Term"
   for (let i = 0; i < termsWOTmanage[0].length; i++) {
-    if (termsWOTmanage[0][i].trim() === "Term") {
-      termArrayPosition = i;
-    }
-    if (termsWOTmanage[0][i].trim() === "text") {
-      textArrayPosition = i;
+    console.log('termsWOTmanage[i][termArrayPosition]: ', termsWOTmanage[i][termArrayPosition]);
+
+    if (termsWOTmanage[i][termArrayPosition] !== undefined) {
+      if (termsWOTmanage[0][i].trim() === "Term") {
+        termArrayPosition = i;
+      }
+      if (termsWOTmanage[0][i].trim() === "text") {
+        textArrayPosition = i;
+      }
     }
   }
 
   function find(term) {
     for (let i = 0; i < termsWOTmanage.length; i++) {
-      if (termsWOTmanage[i][termArrayPosition].trim() === term.trim()) {
-        return termsWOTmanage[i][textArrayPosition];
+      // console.log('termsWOTmanage[i][termArrayPosition]: ', termsWOTmanage[i][termArrayPosition]);
+      if (termsWOTmanage[i][termArrayPosition] !== undefined) {
+        if (termsWOTmanage[i][termArrayPosition].trim() === term.trim()) {
+          return termsWOTmanage[i][textArrayPosition];
+        }
       }
     }
     return "No definition found.";
