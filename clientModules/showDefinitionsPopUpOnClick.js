@@ -1,7 +1,5 @@
 /***************
  *
- * ONLY WORKS AFTER BUILD, WITH STATIC FILES.
- * ONLY THEN IS HTML CREATED AND HTML CAN BE LOADED VIA FETCH.
  *
  * This plugin shows popups with definitions when hovering over links.
  *
@@ -23,8 +21,6 @@ var findTerm = (function () {
 
   // Loop through the first row and find the position of the column "Term"
   for (let i = 0; i < termsWOTmanage[0].length; i++) {
-    console.log('termsWOTmanage[i][termArrayPosition]: ', termsWOTmanage[i][termArrayPosition]);
-
     if (termsWOTmanage[i][termArrayPosition] !== undefined) {
       if (termsWOTmanage[0][i].trim() === "Term") {
         termArrayPosition = i;
@@ -53,6 +49,11 @@ var findTerm = (function () {
 }());
 
 const showDefinitionsPopUpOnClick = () => {
+  if (window.location.href.includes("/docs/glossary") === false) {
+    console.log("Stopping");
+    return
+  }
+
   // All links in the main text of the article that are not anchors
   let links = document.querySelectorAll(
     'article .markdown a[href]:not([href^="#"])'
