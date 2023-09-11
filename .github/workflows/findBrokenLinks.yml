@@ -2,7 +2,12 @@ name: Find broken links
 
 on:
   schedule:
-    - cron: '0 3 * * 1' # Every Monday at 3:00 PM
+  # 0: At the start of the minute (0th minute)
+  # 3: At 3 o'clock
+  # *: Every day of the month
+  # *: Every month
+  # 1: On Monday
+    - cron: '0 3 * * 1' # Every Monday at 3:00 AM
   workflow_dispatch:
 
 jobs:
