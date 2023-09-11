@@ -303,6 +303,7 @@ const config = {
     require.resolve('./clientModules/showGPTsummary'),
     require.resolve('./clientModules/typesenseHandleSearchModal'),
     require.resolve('./clientModules/scrollHorizontallyToKeyWordInSearchResults'),
+    require.resolve('./clientModules/imageFullSize'),
   ],
 };
 
