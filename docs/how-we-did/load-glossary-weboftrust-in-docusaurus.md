@@ -146,4 +146,4 @@ The push will activate Github Actions and the resources will be input to a stati
 
 This is the Github pages result from the step by step above:
 
-https://weboftrust.github.io/WOT-terms/glossary.html
+[glossary](../category/glossary)

@@ -14,7 +14,7 @@ In a Trust over IP glossary you can easily change its underlying Markdown.
 
 ## Be careful
 
-Changes are immediate. A change like the one the example above, will be promoted to the production [glossary](https://weboftrust.github.io/WOT-terms/glossary) because of installed Github Actions and triggers that go off there.
+Changes are immediate. A change like the one the example above, will be promoted to the production [glossary](../category/glossary) because of installed Github Actions and triggers that go off there.
 
 ## But I want the actual .MD-file in my hands!
 
