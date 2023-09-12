@@ -12,6 +12,7 @@
 .env
 .history
 .DS_Store
+.ds_store
 .idea
 .vscode/
 npm-debug.log*
