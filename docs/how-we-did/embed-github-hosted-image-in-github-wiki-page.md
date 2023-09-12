@@ -1,5 +1,5 @@
 ---
-sidebar: HowWeDidSidebar
+
 ---
 # Embed a Github-hosted image in a Github wiki page
 

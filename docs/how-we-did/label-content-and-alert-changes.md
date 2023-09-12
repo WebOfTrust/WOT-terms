@@ -1,5 +1,5 @@
 ---
-sidebar: HowWeDidSidebar
+
 ---
 # Label Content and Alert Changes
 We have:
