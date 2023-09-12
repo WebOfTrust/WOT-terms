@@ -102,6 +102,7 @@ const unwantedFileNames = [
   'package.json',
   'package-lock.json',
   '__pycache__',
+  'pycache',
   '__init__.py',
   'init.py',
   'README.md',
