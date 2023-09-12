@@ -1,5 +1,5 @@
 ---
-sidebar: HowWeDidSidebar
+
 ---
 import Filesystem from '/img/file-system.svg';
 

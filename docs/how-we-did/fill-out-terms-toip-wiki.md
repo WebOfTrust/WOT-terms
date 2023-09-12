@@ -1,5 +1,5 @@
 ---
-sidebar: HowWeDidSidebar
+
 ---
 # Fill out terms in the WebofTrust wiki
 

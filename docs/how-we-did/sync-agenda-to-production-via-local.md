@@ -1,5 +1,5 @@
 ---
-sidebar: HowWeDidSidebar
+
 ---
 # Sync agenda to production via local
 
