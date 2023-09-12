@@ -1,3 +1,39 @@
+/**
+ * Author: Kor Dwarshuis
+ * Created: 2023
+ * Updated: -
+ * 
+ * This script is designed to filter and remove unwanted URLs from XML sitemaps.
+ * It performs several types of filtering based on:
+ * - File extensions
+ * - Specific file names
+ * - Hidden files
+ * - Custom regex patterns
+ *
+ * Required Modules:
+ * - fs (File System): To read and write files.
+ * - path: To handle and transform file paths.
+ * - xml2js: To convert XML data to JavaScript objects and vice versa.
+ * - logger: A custom logging module for success and error logs.
+ *
+ * Global Constants:
+ * - sitemapDir: Directory where XML sitemap files are stored.
+ * - unwantedExtensions: Array of file extensions to filter out.
+ * - unwantedHiddenFiles: Array of hidden files to filter out.
+ * - unwantedFileNames: Array of specific file names to filter out.
+ * - unwantedPatterns: Array of regex patterns to filter out.
+ *
+ * Functions:
+ * - removeFilesFromSitemap(dir, extensions, fileNames, hiddenFiles, patterns): 
+ *   An asynchronous function that reads XML sitemap files, filters unwanted URLs,
+ *   and writes the cleaned data back to the sitemap files.
+ *
+ * Output:
+ * - Updates the XML sitemap files by removing URLs that match the unwanted criteria.
+ * - Logs success and errors into different log files using the custom logger module.
+ */
+
+
 import fs from 'fs';
 import path from 'path';
 import xml2js from 'xml2js';
