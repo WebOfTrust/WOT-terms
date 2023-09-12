@@ -470,7 +470,7 @@
       "KAACE",
       "",
       "KAACE",
-      "KERI agreement algorithm for control establishment",
+      "KERI agreement algorithm for control establishment - TESTJE HENK",
       "https://github.com/weboftrust/WOT-terms/wiki/KAACE.md",
       "",
       "3",
@@ -9648,7 +9648,13 @@
       "https://github.com/weboftrust/WOT-terms/wiki/vdr"
     ],
     [
-      "483"
+      "483",
+      "K",
+      "KATE",
+      "",
+      "KATE",
+      "Kate = KERI at the Edge",
+      "https://github.com/weboftrust/WOT-terms/wiki/KATE"
     ],
     [
       "484"
