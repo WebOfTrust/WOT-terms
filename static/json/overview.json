@@ -470,7 +470,7 @@
       "KAACE",
       "",
       "KAACE",
-      "KERI agreement algorithm for control establishment",
+      "KERI agreement algorithm for control establishment - TESTJE HENK",
       "https://github.com/weboftrust/WOT-terms/wiki/KAACE.md",
       "",
       "3",
@@ -1406,7 +1406,7 @@
       "",
       "",
       "",
-      "assertion of truth, usually disputed or doubtful",
+      "assertion of truth, typically disputed or in doubt",
       "",
       "Assertion of truth, disputed or uncertain."
     ],
@@ -9240,7 +9240,7 @@
       "KERIMask",
       "",
       "KERIMask",
-      "",
+      "A wallet similar to MetaMask that will connect to KERIA servers in order for a person to control AIDs from their browser.\n\n",
       "https://github.com/weboftrust/WOT-terms/wiki/KERIMask",
       "",
       "3"
@@ -9404,11 +9404,11 @@
     ],
     [
       "456",
-      "K",
-      "MGMT",
       "",
-      "MGMT",
-      "|TBW|",
+      "",
+      "",
+      "",
+      "",
       "https://github.com/weboftrust/WOT-terms/wiki/MGMT"
     ],
     [
