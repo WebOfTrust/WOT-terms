@@ -5,13 +5,16 @@
 # Updated: -
 # Description: This script backups three directories from the search-index-typesense directory to a timestamped directory in the KERISSE_BACKUPS_DIR directory. It also empties the original directories. The name of the directory containing the backups is the timestamp of the backup.
 
+# Logger generates a log file with a timestamp and from which file the message comes from.
+source ./search-index-typesense/logger.sh
 
 # Load environment variables from .env file
 source .env
 
 # Check if KERISSE_BACKUPS_DIR is set
 if [ -z "$KERISSE_BACKUPS_DIR" ]; then
-    echo "KERISSE_BACKUPS_DIR is not set in the .env file."
+    setLogFile "error.log"
+    log "KERISSE_BACKUPS_DIR is not set in the .env file."
     exit 1
 fi
 
@@ -38,8 +41,10 @@ for dir in "${dirsToBackup[@]}"; do
         
         
     else
-        echo "Warning: Directory $SOURCE_DIR does not exist."
+        setLogFile "error.log"
+        log "Warning: Directory $SOURCE_DIR does not exist."
     fi
 done
 
-echo "Backup completed to $BACKUP_DIR"
+setLogFile "success.log"
+log "Backup completed to $BACKUP_DIR"
