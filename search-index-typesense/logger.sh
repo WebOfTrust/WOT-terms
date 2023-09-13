@@ -34,7 +34,7 @@ setLogFile() {
 
 # Function to log messages
 log() {
-    local timestamp=$(date +"%H:%M:%S.%3N") # Get the current time with milliseconds
+    local timestamp=$(date +"%H:%M:%S") # Get the current time without milliseconds
     local logMessage="[$timestamp] $1"
     
     echo "$logMessage" # Output to console
