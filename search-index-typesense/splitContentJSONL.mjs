@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import readline from 'readline';
+import logger from './modules/logger.mjs';
 
 const directoryPath = './search-index-typesense/search-index-entries/';  // The path to the directory containing the .jsonl files
 // Set it to your desired path
@@ -10,7 +11,8 @@ const chunkSize = 2500;  // Adjust this value to change the chunk size
 // Get all files from the directory
 fs.readdir(directoryPath, (err, files) => {
   if (err) {
-    console.error('Error reading the directory:', err);
+    logger.setLogFile('error.log');
+    logger.log('Error reading the directory:', err);
     return;
   }
 
@@ -44,16 +46,21 @@ function processFile(file) {
     // Rename the original file by adding ".not-split" at the end
     fs.rename(originalFilePath, renamedOriginalFilePath, (err) => {
       if (err) {
-        console.error(`Error renaming ${file} to ${renamedOriginalFilePath}:`, err);
+        logger.setLogFile('error.log');
+        logger.log(`Error renaming ${file} to ${renamedOriginalFilePath}:`, err);
         return;
       }
       // Rename the temp file back to the original name
       fs.rename(tempFilePath, originalFilePath, (err) => {
         if (err) {
-          console.error(`Error renaming temporary file ${tempFilePath} to ${file}:`, err);
+          logger.setLogFile('error.log');
+          logger.log(`Error renaming temporary file ${tempFilePath} to ${file}:`, err);
+
           return;
         }
-        console.log(`Done processing ${file}. Original renamed to ${file}.not-split`);
+        logger.setLogFile('success.log');
+        logger.log(`Done processing ${file}. Original renamed to ${file}.not-split`);
+
       });
     });
   });
