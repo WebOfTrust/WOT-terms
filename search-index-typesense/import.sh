@@ -10,6 +10,7 @@
 #   TYPESENSE_COLLECTION_NAME
 # External libraries: jq (https://stedolan.github.io/jq/) and curl (https://curl.se/) are required to run this script.
 
+# Logger generates a log file with a timestamp and from which file the message comes from.
 source ./search-index-typesense/logger.sh
 
 local_TYPESENSE_ADMIN_API_KEY="${TYPESENSE_ADMIN_API_KEY}"

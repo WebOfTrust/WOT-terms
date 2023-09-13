@@ -5,6 +5,7 @@
 # Updated: -
 # Description: This script empties a Typesense collection (typesense.org). 
 
+# Logger generates a log file with a timestamp and from which file the message comes from.
 source ./search-index-typesense/logger.sh
 
 # Find out if the script is running in GitHub Actions or locally
