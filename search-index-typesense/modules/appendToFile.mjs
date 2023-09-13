@@ -18,7 +18,7 @@ export default function appendToFile(entries, outputPath) {
 
   // Append the entries array to the file
   logger.setLogFile('success.log');
-  logger.log('`Appending entries to file…`');
+  logger.log('Appending entries to file');
 
   fs.appendFileSync(resolvedPath, fileContent);
 
