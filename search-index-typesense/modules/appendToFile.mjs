@@ -8,6 +8,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import logger from './logger.mjs';
 
 export default function appendToFile(entries, outputPath) {
   const resolvedPath = path.resolve(outputPath);
@@ -20,6 +21,7 @@ export default function appendToFile(entries, outputPath) {
   fs.appendFileSync(resolvedPath, fileContent);
 
   // For reporting purposes, though it might not be the actual number of total pages after append
-  console.log(`Appended ${entries.length} pages`);
-  console.log(`Search index updated at ${resolvedPath}`);
+  logger.setLogFile('success.log');
+  logger.log(`Appended ${entries.length} pages`);
+  logger.log(`Search index updated at ${resolvedPath}`);
 }
