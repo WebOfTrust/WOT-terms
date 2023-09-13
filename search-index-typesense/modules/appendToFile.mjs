@@ -17,7 +17,9 @@ export default function appendToFile(entries, outputPath) {
   const fileContent = entries;
 
   // Append the entries array to the file
-  console.log(`Appending entries to file...`);
+  logger.setLogFile('success.log');
+  logger.log('`Appending entries to file…`');
+
   fs.appendFileSync(resolvedPath, fileContent);
 
   // For reporting purposes, though it might not be the actual number of total pages after append
