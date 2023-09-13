@@ -23,8 +23,8 @@ fi
 
 # Use the `local_TYPESENSE_ADMIN_API_KEY`, `local_TYPESENSE_HOST`, and `local_TYPESENSE_COLLECTION_NAME` variables anywhere in the script as needed
 
-echo "local_TYPESENSE_COLLECTION_NAME:" | tee -a search-index-typesense/logs/succes.log
-echo $local_TYPESENSE_COLLECTION_NAME | tee -a search-index-typesense/logs/succes.log
+echo "local_TYPESENSE_COLLECTION_NAME:" | tee -a search-index-typesense/logs/success.log
+echo $local_TYPESENSE_COLLECTION_NAME | tee -a search-index-typesense/logs/success.log
 
 
 ############## CONFIGURATION ##############
