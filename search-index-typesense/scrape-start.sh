@@ -1,6 +1,6 @@
 export INDEX_OVERVIEW_FILE="docs/02_overview/indexed-in-KERISSE.md"
 
-source ./logger.sh
+source ./search-index-typesense/logger.sh
 
 #########################
 # PREPARING
