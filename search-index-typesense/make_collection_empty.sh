@@ -5,6 +5,7 @@
 # Updated: -
 # Description: This script empties a Typesense collection (typesense.org). 
 
+source ./search-index-typesense/logger.sh
 
 # Find out if the script is running in GitHub Actions or locally
 # Via Github actions is not working yet. 
@@ -23,8 +24,9 @@ fi
 
 # Use the `local_TYPESENSE_ADMIN_API_KEY`, `local_TYPESENSE_HOST`, and `local_TYPESENSE_COLLECTION_NAME` variables anywhere in the script as needed
 
-echo "local_TYPESENSE_COLLECTION_NAME:" | tee -a search-index-typesense/logs/success.log
-echo $local_TYPESENSE_COLLECTION_NAME | tee -a search-index-typesense/logs/success.log
+setLogFile "success.log"
+log "local_TYPESENSE_COLLECTION_NAME:"
+log $local_TYPESENSE_COLLECTION_NAME
 
 
 ############## CONFIGURATION ##############
