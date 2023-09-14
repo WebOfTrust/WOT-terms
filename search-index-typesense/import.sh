@@ -10,6 +10,10 @@
 #   TYPESENSE_COLLECTION_NAME
 # External libraries: jq (https://stedolan.github.io/jq/) and curl (https://curl.se/) are required to run this script.
 
+# Logger generates a log file with a timestamp and from which file the message comes from.
+source ./search-index-typesense/logger.sh
+
+source "$(pwd)/.env"
 local_TYPESENSE_ADMIN_API_KEY="${TYPESENSE_ADMIN_API_KEY}"
 local_TYPESENSE_HOST="${TYPESENSE_HOST}"
 local_TYPESENSE_COLLECTION_NAME="${TYPESENSE_COLLECTION_NAME}"
@@ -17,8 +21,10 @@ local_TYPESENSE_COLLECTION_NAME="${TYPESENSE_COLLECTION_NAME}"
 
 # Use the `local_TYPESENSE_ADMIN_API_KEY`, `local_TYPESENSE_HOST`, and `local_TYPESENSE_COLLECTION_NAME` variables anywhere in the script as needed
 
-echo "local_TYPESENSE_COLLECTION_NAME:" | tee -a search-index-typesense/logs/succes.log
-echo $local_TYPESENSE_COLLECTION_NAME | tee -a search-index-typesense/logs/succes.log
+setLogFile "success.log"
+log "local_TYPESENSE_COLLECTION_NAME:"
+log $local_TYPESENSE_COLLECTION_NAME
+
 
 
 ############## CONFIGURATION ##############
@@ -76,7 +82,9 @@ convert_json_to_jsonl $input_dir $output_dir
 ############## IMPORT JSONL FILES ##############
 # Iterate over each JSONL file in the directory
 
-echo "Start importing files: $file" > $log_dir/import-into-search-index.log
+setLogFile "success.log"
+log "Start importing files: $file"
+
 
 import_jsonl_files_to_search_index() {
   import_output_dir="$1"
@@ -86,7 +94,8 @@ import_jsonl_files_to_search_index() {
   for file in "$import_output_dir"/*.jsonl; do
     # Check if the file exists and is a regular file
     if [[ -f "$file" ]]; then
-      echo -e "\n\nImporting file: $file" >> "$import_log_dir/import-into-search-index.log"
+      setLogFile "success.log"
+      log "\n\nImporting file: $file"
 
       # Extract the filename without extension
       filename=$(basename "$file" .jsonl)
@@ -98,8 +107,11 @@ import_jsonl_files_to_search_index() {
            --http1.1 \
            "$urlImport" >> "$import_log_dir/import-into-search-index.log"
 
-      echo -e "\n\nImport completed for file: $file" >> "$import_log_dir/import-into-search-index.log"
-      echo "-------------------------"
+      setLogFile "success.log"
+      log "\n\nImport completed for file: $file"
+      log "-------------------------"
+
+
     fi
   done
 }

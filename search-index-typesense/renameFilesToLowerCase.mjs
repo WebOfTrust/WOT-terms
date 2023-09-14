@@ -28,7 +28,7 @@ function renameFilesToLowerCase(directoryPath) {
           logger.log(`Error renaming file to lower case: ${renameErr}`);
         } else {
           logger.setLogFile('success.log');
-          logger.log(`${file} has been renamed to to lower case ${file.toLowerCase()}`);
+          logger.log(`${file} has been renamed to lower case`);
         }
       });
     });

@@ -8,8 +8,8 @@ const config = {
         sourceType: 'localXMLsitemap',
         sourcePath: 'search-index-typesense/sitemaps/sitemap-keripy.readthedocs.io.xml',
     }),
-    siteName: 'Python Implementation of the KERI Core Libraries¶',
-    source: 'Python Implementation of the KERI Core Libraries¶',
+    siteName: 'Python Implementation of the KERI Core Libraries',
+    source: 'Python Implementation of the KERI Core Libraries',
     author: 'Dr. Samuel Smith and contributors',
     destinationFile: 'search-index-typesense/search-index-entries/readthedocs.io.jsonl',
     domQueryForContent: '.document'

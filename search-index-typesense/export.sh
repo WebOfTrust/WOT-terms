@@ -11,6 +11,9 @@
 #   TYPESENSE_COLLECTION_NAME
 #   DOWNLOADS_DIR
 
+# Logger generates a log file with a timestamp and from which file the message comes from.
+source ./search-index-typesense/logger.sh
+
 # Running locally with .env file
 source "$(pwd)/.env"
 local_TYPESENSE_ADMIN_API_KEY="${TYPESENSE_ADMIN_API_KEY}"
@@ -23,9 +26,9 @@ timestamp=$(date +%Y-%m-%d_%H-%M-%S)
 
 ############## CHECK IF DOWNLOAD DIR EXISTS ##############
 if [ ! -d "$download_path" ]; then
-  echo "Warning: The download directory does not exist. Cannot export Typesense data."
+  setLogFile "error.log"
+  log "Warning: The download directory does not exist. Cannot export Typesense data."
 
-#   echo "Warning: The download directory does not exist. Creating it now."
 #   mkdir -p "$download_path"
 fi
 
