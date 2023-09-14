@@ -1,3 +1,25 @@
 [
-    "weboftrust.github.io/WOT-terms/docs/overview/"
+    "weboftrust.github.io/WOT-terms/docs/overview/",
+    "weboftrust.github.io/WOT-terms/docs/category/how-we-did",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/chatbots",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/cheat-sheet-writing-page",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/check-and-accept-pr-production-edusite-locally",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/create-omnigraffle-infographic-and-convert-to-svg",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/create-search-index",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/create-terms-link-table",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/docusaurus-process",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/embed-github-hosted-image-in-github-wiki-page",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/file-system",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/fill-out-terms-toip-wiki",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/homepage-text-altering",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/install",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/intro",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/label-content-and-alert-changes",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/load-glossary-weboftrust-in-docusaurus",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/markdown-from-wot-wiki",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/pull-in-markdown-documents",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/source-and-destination-for-search",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/sync-agenda-to-production-via-local",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/typesense-search-install-config",
+    "weboftrust.github.io/WOT-terms/docs/how-we-did/why-terms-wot-manage-structure"
 ]
