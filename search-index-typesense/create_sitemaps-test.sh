@@ -9,7 +9,7 @@
 
 
 # General websites
-node search-index-typesense/createSitemap.mjs --url https://keripy.readthedocs.io/en/latest/ --depth 5
+# node search-index-typesense/createSitemap.mjs --url https://keripy.readthedocs.io/en/latest/ --depth 5
 
 # Github repos
 # node search-index-typesense/createSitemapGithub.mjs SmithSamuelM Papers master search-index-typesense/sitemaps
