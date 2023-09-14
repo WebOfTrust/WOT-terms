@@ -79,8 +79,12 @@ function processFile(file) {
 // This function splits the content into chunks of the configured size
 function splitContent(content) {
   const chunks = [];
-  for (let i = 0; i < content.length; i += chunkSize) {
-    chunks.push(content.slice(i, i + chunkSize));
+  if (content === "") {
+    chunks.push("");  // Add an empty string to preserve the entry
+  } else {
+    for (let i = 0; i < content.length; i += chunkSize) {
+      chunks.push(content.slice(i, i + chunkSize));
+    }
   }
   return chunks;
 }
