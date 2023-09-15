@@ -628,40 +628,148 @@ table td:nth-child(8) {
   display: block;
 }
 
-#search pre mark {
-  background-color: #ffff00;
+#search mark {
+  /* background-color: #ffff00; */
+  background-color: transparent;
   color: #000;
   position: relative;
-}
-#search pre mark:after {
-  position: absolute;
-  bottom: 1.5em; /* Positioning the square at the bottom */
-  right: -0.5em;  /* Positioning the square to the right */
-  width: 80px;  /* Width of the square */
-  height: 80px; /* Height of the square */  content: "";
-  /* border: #000 1px solid; */
-  background: transparent url('/img/hand-drawn-arrow-4.png') center center no-repeat;
-  background-size: contain;
-  transform: rotate(80deg);
-  transform-origin: center;
+
+
+
+  
+
 }
 
-#search pre mark.arrow-variant1:after {
-  transform: rotate(60deg);
-  right: -0.5em;
+
+
+
+#search mark {
+  position: relative;
 }
-#search pre mark.arrow-variant2:after {
-  transform: rotate(50deg);
-  right: 0.5em;
+
+#search mark::after {
+  content: "";
+  display: block;
+  height: 0.8em;  /* Adjust the height */
+  width: 100%;
+  position: absolute;
+  bottom: -0.3em;
+  left: 0;
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q20,9 40,11 T80,10 120,11 160,10 200,12 240,10 280,11 300,10' stroke='%23266fff' stroke-opacity='0.7' stroke-width='6' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
 }
-#search pre mark.arrow-variant3:after {
-  transform: rotate(120deg);
-  right: -3.5em;
+
+/* Variation 1 */
+#search mark.variation1::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q20,9 40,11 T80,10 120,11 160,10 200,12 240,10 280,11 300,10' stroke='%23266fff' stroke-opacity='0.7' stroke-width='6' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
 }
-#search pre mark.arrow-variant4:after {
-  transform: rotate(100deg);
-  right: -1.5em;
+
+/* Variation 2 */
+#search mark.variation2::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q20,12 40,14 T80,10 120,16 160,10 200,14 240,9 280,15 300,10' stroke='%23266fff' stroke-opacity='0.7' stroke-width='10' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
 }
+
+/* Variation 3 */
+#search mark.variation3::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q30,8 60,12 T120,11 180,13 240,10 300,12' stroke='%23266fff' stroke-opacity='0.7' stroke-width='4' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+}
+
+/* Variation 4 */
+#search mark.variation4::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q25,15 50,9 T100,11 150,14 200,9 250,15 300,10' stroke='%23266fff' stroke-opacity='0.7' stroke-width='8' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+}
+
+/* Variation 5 */
+#search mark.variation5::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q40,16 80,10 T160,12 240,14 300,10' stroke='%23266fff' stroke-opacity='0.7' stroke-width='5' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+}
+
+/* Variation 6 */
+#search mark.variation6::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q40,18 80,9 T160,10 240,16 300,11' stroke='%23266fff' stroke-opacity='0.7' stroke-width='6' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+}
+
+/* Variation 7 */
+#search mark.variation7::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q50,6 100,15 T200,10 300,14' stroke='%23266fff' stroke-opacity='0.7' stroke-width='8' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+}
+
+/* Variation 8 */
+#search mark.variation8::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q20,12 40,8 T80,14 120,10 160,12 200,8 240,14 280,10 300,11' stroke='%23266fff' stroke-opacity='0.7' stroke-width='5' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+}
+
+/* Variation 9 */
+#search mark.variation9::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q30,9 60,11 T120,10 180,11 240,10 300,11' stroke='%23266fff' stroke-opacity='0.7' stroke-width='5' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+}
+
+/* Variation 10 */
+#search mark.variation10::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q30,14 60,9 T120,12 180,15 240,10 300,14' stroke='%23266fff' stroke-opacity='0.7' stroke-width='8' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+}
+
+/* Variation 11 */
+#search mark.variation11::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q35,14 70,9 T140,12 210,15 280,10 300,14' stroke='%23266fff' stroke-opacity='0.7' stroke-width='8' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+}
+
+/* Variation 12 */
+#search mark.variation12::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q30,8 60,12 T120,10 180,13 240,12 300,14' stroke='%23266fff' stroke-opacity='0.7' stroke-width='6' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+}
+
+/* Variation 13 */
+#search mark.variation13::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q40,15 80,11 T160,12 240,14 300,12' stroke='%23266fff' stroke-opacity='0.7' stroke-width='8' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+}
+
+/* Variation 14 */
+#search mark.variation14::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q20,13 40,9 T80,12 120,10 160,11 200,12 240,11 280,12 300,13' stroke='%23266fff' stroke-opacity='0.7' stroke-width='6' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+}
+
+/* Variation 15 */
+#search mark.variation15::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q50,7 100,15 T200,13 300,10' stroke='%23266fff' stroke-opacity='0.7' stroke-width='5' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+}
+
+/* Variation 16 */
+#search mark.variation16::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q40,5 80,13 T160,12 240,14 300,12' stroke='%23266fff' stroke-opacity='0.7' stroke-width='8' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+}
+
+/* Variation 17 */
+#search mark.variation17::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q30,6 60,14 T120,12 180,15 240,11 300,14' stroke='%23266fff' stroke-opacity='0.7' stroke-width='6' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+}
+
+/* Variation 18 */
+#search mark.variation18::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q40,16 80,11 T160,10 240,12 300,13' stroke='%23266fff' stroke-opacity='0.7' stroke-width='5' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+}
+
+/* Variation 19 */
+#search mark.variation19::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q20,9 40,12 T80,11 120,14 160,10 200,15 240,11 280,13 300,12' stroke='%23266fff' stroke-opacity='0.7' stroke-width='8' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+}
+
+/* Variation 20 */
+#search mark.variation20::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q30,7 60,11 T120,15 180,13 240,12 300,14' stroke='%23266fff' stroke-opacity='0.7' stroke-width='6' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**
