@@ -40,8 +40,6 @@ function addRandomArrowClassToMarkElement() {
   });
 }
 
-
-
 const makeKeywordsStandOut = () => {
   // Select the node that you want to observe
   const targetNode = document.getElementById('hits'); // Works, presumable because it's harcoded in the html
