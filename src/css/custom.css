@@ -43,9 +43,6 @@
 
 
 /* Needed since introducion of Bootstrap */
-.navbar.navbar--fixed-top {
-  margin-left: 1em;
-}
 .navbar--fixed-top {
     position: sticky;
     top: 0;
@@ -953,7 +950,9 @@ article .markdown .inline-medium-end,
   End Images
 */
 
-
+/* 
+  Various
+*/
 .ais-SearchBox-loadingIndicator {
   display: none;
 }
