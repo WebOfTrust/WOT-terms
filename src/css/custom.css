@@ -633,15 +633,7 @@ table td:nth-child(8) {
   background-color: transparent;
   color: #000;
   position: relative;
-
-
-
-  
-
 }
-
-
-
 
 #search mark {
   position: relative;
@@ -759,18 +751,6 @@ table td:nth-child(8) {
 #search mark.variation20::after {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q30,7 60,11 T120,15 180,13 240,12 300,14' stroke='%23266fff' stroke-opacity='0.7' stroke-width='6' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
   * END TYPESENSE INSTANTSEARCH
