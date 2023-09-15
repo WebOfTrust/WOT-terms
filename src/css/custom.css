@@ -952,3 +952,8 @@ article .markdown .inline-medium-end,
 /* 
   End Images
 */
+
+
+.ais-SearchBox-loadingIndicator {
+  display: none;
+}
