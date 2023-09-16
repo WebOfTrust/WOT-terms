@@ -275,7 +275,7 @@ const typeSenseInstantSearch = () => {
       }
     }),
 
-
+    // KNOWLEDGELEVEL
     refinementList({
       container: '#knowledgelevel-refinement-list',
       attribute: 'knowledgeLevel',
@@ -295,6 +295,7 @@ const typeSenseInstantSearch = () => {
 
       sortBy: ['name:asc', 'count:desc'],
     }),
+    // TYPE
     refinementList({
       container: '#type-refinement-list',
       attribute: 'type',
@@ -314,6 +315,7 @@ const typeSenseInstantSearch = () => {
 
       sortBy: ['name:asc', 'count:desc'],
     }),
+    // SUBJECT
     refinementList({
       container: '#subject-refinement-list',
       attribute: 'hierarchy.lvl1',
@@ -332,6 +334,7 @@ const typeSenseInstantSearch = () => {
       },
       sortBy: ['name:asc', 'count:desc'],
     }),
+    // SOURCE
     refinementList({
       container: '#source-refinement-list',
       attribute: 'source',
@@ -370,6 +373,7 @@ const typeSenseInstantSearch = () => {
       },
       sortBy: ['name:asc', 'count:desc'],
     }),
+    // MEDIATYPE
     refinementList({
       container: '#media-type-refinement-list',
       attribute: 'mediaType',
