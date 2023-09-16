@@ -629,8 +629,7 @@ table td:nth-child(8) {
 }
 
 #search mark {
-  /* background-color: #ffff00; */
-  background-color: transparent;
+  /* background-color: transparent; */
   color: #000;
   position: relative;
 }
@@ -639,6 +638,7 @@ table td:nth-child(8) {
   position: relative;
 }
 
+/* Underlining search hits */
 #search mark::after {
   content: "";
   display: block;
