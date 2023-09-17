@@ -122,16 +122,17 @@ const typeSenseInstantSearch = () => {
       container: '#hits',
       templates: {
         item(item) {
-          /*
-          Sometimes code blocks are very long and they take up a lot of space in the search results.
-          
-          This function takes a string as input and returns a modified version of the string.
-          It finds the first occurrence of the <marker> tag and the </marker> tag in the input string.
-          Then, it extracts a substring that includes 100 characters before the first <marker> and 100 characters after the first </marker>.
-          The extracted substring is wrapped in an HTML <span> element with the class "highlighted".
-          If either the <marker> tag or the </marker> tag is not found, the function returns the original string unchanged.
-          */
           function makeCodeStringShorter(string) {
+            /*
+            Sometimes code blocks are very long and they take up a lot of space in the search results.
+            
+            This function takes a string as input and returns a modified version of the string.
+            It finds the first occurrence of the <marker> tag and the </marker> tag in the input string.
+            Then, it extracts a substring that includes 100 characters before the first <marker> and 100 characters after the first </marker>.
+            The extracted substring is wrapped in an HTML <span> element with the class "highlighted".
+            If either the <marker> tag or the </marker> tag is not found, the function returns the original string unchanged.
+            */
+
             // Find the index of the first occurrence of <marker> and </marker> in the string
             let firstMarkerTagIndex = string.indexOf('<mark>');
             let lastMarkerTagIndex = string.indexOf('</mark>');
@@ -233,10 +234,12 @@ const typeSenseInstantSearch = () => {
           }
           return `
 <div class="card border-secondary mt-5 scroll-shadows" data-typesense-id="${item.id}">
-    <div class="card-header ${siteBrandingClass}">Found on: ${itemSiteNameTemplateString}</div>
-    <div class="card-body text-secondary">
+  <div class="card-header ${siteBrandingClass}">
+    Found on: ${itemSiteNameTemplateString}
+  </div>
+  <div class="card-body text-secondary">
         <div style="font-size: 0.9rem;">
-            <a class="" href="${item.url}" ${openInNewTab}>${item._highlightResult.url.value}</a>
+            <a class="search-hit-url btn btn-outline-primary mb-2" href="${item.url}" ${openInNewTab}>${item._highlightResult.url.value}</a>
             ${itemAuthorTemplateString}
             ${itemCreationDateTemplateString}
             ${itemKnowledgeLevelTemplateString}
@@ -248,15 +251,18 @@ const typeSenseInstantSearch = () => {
         ${itemFirstHeadingBeforeElementTemplateString}
 
         ${postProcessedOpeningTag}
-          <a class="stretched-link text-secondary" href="${item.url}" ${openInNewTab}>${postProcessedCode}</a>
+          ${postProcessedCode}
         ${postProcessedClosingTag}
 
         ${itemImgUrlTemplateString}
         ${itemImgMetaTemplateString}
-    </div>
   </div>
-  <!--<a href="#search-close" class="btn btn-light btn-sm mt-3 mb-3 d-block d-md-none">To search box</a>-->
-  <a href="#search-close" class="btn btn-light btn-sm mt-3 mb-3">To search box</a>
+  <div class="card-footer p-3">
+    <a href="#search-close" class="btn btn-outline-secondary d-inline btn-sm align-self-start p-2">Back search box</a>
+    <a class="btn btn-outline-primary d-inline btn-sm align-self-start p-2" href="${item.url}">Go to URL</a>
+    <button type="button" class="btn btn-outline-secondary d-inline btn-sm align-self-end p-1 upvote">Upvote 👍</button>
+  </div>
+</div>
       `;
         },
       },
