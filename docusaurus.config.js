@@ -304,6 +304,7 @@ const config = {
     require.resolve('./clientModules/typesenseHandleSearchModal'),
     require.resolve('./clientModules/scrollHorizontallyToKeyWordInSearchResults'),
     require.resolve('./clientModules/imageFullSize'),
+    require.resolve('./clientModules/upvoteSearchResult'),
   ],
 };
 
