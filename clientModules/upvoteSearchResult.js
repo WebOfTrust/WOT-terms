@@ -49,6 +49,7 @@ const upvoteSearchResult = () => {
   const promptText = '- - - - - - - - -\nCheck: What is the four letter word (in lowercase) for the identity system based secure overlay for the Internet?\n\nSet the cookie. Go!!!';
   const upvoteSentText = 'Your upvote has been sent. This is a test and currently we are manually checking and processing the results.';
   const upvoteNotSentText = `Not the answer we expected. Your upvote has NOT been sent.`;
+  const continueText = 'You are upvoting a search result.';
   // END CONFIG
 
   let activeButton = null;
@@ -69,9 +70,8 @@ const upvoteSearchResult = () => {
       upvoteData.query = searchTerm;
       upvoteData.position = "1";
       upvoteData.match = "exact";
-      submitAnswer();
-
       activeButton = event.target;
+      submitAnswer();
     }
   });
 
@@ -86,7 +86,20 @@ const upvoteSearchResult = () => {
 
       // Here we could validate the token against the server, but this is a basic check, we will leave it for now.
       // For now, we skip the question.
-      sendContent(upvoteData, cookieValue);
+      // sendContent(upvoteData, cookieValue);
+      const userResponse = confirm(continueText);
+      if (userResponse) {
+        // Code to execute if the user clicks "OK"
+        console.log("You chose to continue!");
+        sendContent(upvoteData, cookieValue);
+        console.log("sendContent");
+        // Disable the upvote button
+        activeButton.disabled = true;
+      } else {
+        // Code to execute if the user clicks "Cancel"
+        console.log("You chose to cancel.");
+        return
+      }
     } else {
       // User has not yet answered the question
       const userAnswer = prompt(promptText, "");
@@ -102,9 +115,20 @@ const upvoteSearchResult = () => {
           if (data.success) {
             console.log("Correct answer!");
             document.cookie = `upvoteAnswer=${data.token}; max-age=31536000`; // Expires after 1 year
-            sendContent(upvoteData, data.token);
-            // Disable the upvote button
-            activeButton.disabled = true;
+
+            const userResponse = confirm(continueText);
+            if (userResponse) {
+              // Code to execute if the user clicks "OK"
+              console.log("You chose to continue!");
+              sendContent(upvoteData, data.token);
+              console.log("sendContent");
+              // Disable the upvote button
+              activeButton.disabled = true;
+            } else {
+              // Code to execute if the user clicks "Cancel"
+              console.log("You chose to cancel.");
+              return
+            }
           } else {
             console.log("Incorrect answer!");
             notifier.confirm(
