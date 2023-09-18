@@ -51,6 +51,7 @@ const upvoteSearchResult = () => {
   const upvoteNotSentText = `Not the answer we expected. Your upvote has NOT been sent.`;
   // END CONFIG
 
+  let activeButton = null;
   let upvoteData = {};
 
   // Add event listener to the upvote buttons. 
@@ -70,8 +71,7 @@ const upvoteSearchResult = () => {
       upvoteData.match = "exact";
       submitAnswer();
 
-      // Disable the upvote button
-      event.target.disabled = true;
+      activeButton = event.target;
     }
   });
 
@@ -103,6 +103,8 @@ const upvoteSearchResult = () => {
             console.log("Correct answer!");
             document.cookie = `upvoteAnswer=${data.token}; max-age=31536000`; // Expires after 1 year
             sendContent(upvoteData, data.token);
+            // Disable the upvote button
+            activeButton.disabled = true;
           } else {
             console.log("Incorrect answer!");
             notifier.confirm(
