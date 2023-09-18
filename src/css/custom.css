@@ -1053,19 +1053,19 @@ article .markdown .inline-medium-end,
   Horizontal scrollable navbar in search results
 */
 .scrollable-navbar {
-  overflow-x: auto;
+  overflow-x: auto !important;
   width: 100% !important;
 }
 
 .nowrap {
-  white-space: nowrap;
-  display: inline-block;
+  white-space: nowrap !important;
+  display: inline-block !important;
 }
 
 .nav-item {
-  display: inline-block;
-  padding: 10px 5px;
-  text-decoration: none;
+  display: inline-block !important;
+  padding: 10px 5px !important;
+  text-decoration: none !important;
 }
 /* 
   End Horizontal scrollable navbar in search results
