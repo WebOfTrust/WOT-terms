@@ -1044,3 +1044,29 @@ article .markdown .inline-medium-end,
 .ais-SearchBox-loadingIndicator {
   display: none;
 }
+/* 
+  End Various
+*/
+
+
+/* 
+  Horizontal scrollable navbar in search results
+*/
+.scrollable-navbar {
+  overflow-x: auto;
+  width: 100% !important;
+}
+
+.nowrap {
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 10px 5px;
+  text-decoration: none;
+}
+/* 
+  End Horizontal scrollable navbar in search results
+*/
