@@ -258,9 +258,9 @@ const typeSenseInstantSearch = () => {
         ${itemImgMetaTemplateString}
   </div>
   <div class="card-footer p-3">
-    <a href="#search-close" class="btn btn-outline-secondary d-inline btn-sm align-self-start p-2">Back search box</a>
-    <a class="btn btn-outline-primary d-inline btn-sm align-self-start p-2" href="${item.url}">Go to URL</a>
-    <button type="button" class="btn btn-outline-secondary d-inline align-self-end p-1 upvote">Upvote ↑</button>
+    <a href="#search-close" class="btn btn-outline-secondary d-inline btn-sm align-self-start p-2">to search</a>
+    <a class="btn btn-outline-primary d-inline btn-sm align-self-start p-2" href="${item.url}">to URL</a>
+    <button type="button" class="btn btn-outline-secondary d-inline align-self-end p-1 upvote">upvote ↑</button>
   </div>
 </div>
       `;
