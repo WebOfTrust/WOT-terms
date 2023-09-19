@@ -13,8 +13,7 @@
        - Replacing Markdown links without URLs.
        - Removing the first line if it contains "---".
        Configuration:
-    - `inputFileLocation`: Directory where the JSON file containing URLs is located.
-    - `inputFileName`: Name of the JSON file containing the URLs to be copied.
+    - `inputFileLocation`: Directory and filename where the JSON file containing URLs is located.
     - `outputFileLocation`: Directory where the downloaded files will be stored.
        The code utilizes Node.js and its 'fs', 'path', and 'https' modules to read files, manage directories, and download content.
     Promises are used for asynchronous operations.
@@ -25,11 +24,11 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+require('dotenv').config();
 
 // Config
-const inputFileLocation = './static/json/';
-const inputFileName = 'externalContentMetaData.json'; // Contains the urls that should be copied to local
-const outputFileLocation = './docs/08_carbon-copies/'; // Where to copy the files to
+const inputFileLocation = process.env.CARBON_COPIES_INPUT_DIR;
+const outputFileLocation = process.env.CARBON_COPIES_OUTPUT_DIR; // Where to copy the files to
 // End Config
 
 // Create the output directory if it doesn't exist
@@ -135,7 +134,7 @@ function cleanUpFile(filePath) {
 
 }
 
-readFileAsync(inputFileLocation + inputFileName)
+readFileAsync(inputFileLocation)
     .then((input) => {
         process(input);
     })
