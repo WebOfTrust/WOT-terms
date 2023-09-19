@@ -1,5 +1,3 @@
-export INDEX_OVERVIEW_FILE="docs/02_overview/indexed-in-KERISSE.md"
-
 # Logger generates a log file with a timestamp and from which file the message comes from.
 source ./search-index-typesense/logger.sh
 
