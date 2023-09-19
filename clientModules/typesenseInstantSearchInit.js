@@ -6,6 +6,8 @@
   Description: This plugin creates the DOM elements for the Typesense search box and search results. The DOM elements for the search hits are in the main Typesense InstantSearch plugin code.
 */
 
+import paths from "../docusaurus.paths";
+
 const typesenseInstantSearchCreateDomElements = () => {
    const domStringSearchStart = `<button id="search-start">🔍</button>`;
    const domStringSearchResult = `
@@ -114,7 +116,7 @@ const typesenseInstantSearchCreateDomElements = () => {
 
 
    // Fetching the HTML content
-   fetch('/WOT-terms/docs/overview/indexed-in-KERISSE/')
+   fetch(paths.indexedInKERISSE)
       .then(response => response.text())
       .then(html => {
          // Parsing the fetched HTML string into a DOM object
