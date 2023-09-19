@@ -34,7 +34,7 @@ function sortLinesInFile(fileName) {
     const lines = data.split('\n');
 
     // Remove empty lines and skip the first line
-    const nonEmptyLines = lines.slice(1).filter(line => line.trim() !== '');
+    const nonEmptyLines = lines.slice(2).filter(line => line.trim() !== '');
 
     // Count the entries
     const pagesCount = nonEmptyLines.length;
