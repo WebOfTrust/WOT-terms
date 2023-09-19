@@ -70,5 +70,5 @@ timestamp="${hour}:${minute}, on ${month} ${day}${suffix}, ${year}"
 
 # Echo the timestamp into the file
 echo "<p id='index-created-timestamp'>Indexed at $timestamp</p>" >> "$INDEX_OVERVIEW_FILE"
-
+# If you add another line here make sure to change the nonEmptyLines in “sortAndStyleScrapedIndex.mjs”
 
