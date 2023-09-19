@@ -6,7 +6,7 @@
 
     Markdown to Bootstrap Accordion Converter
     
-    This script automates the conversion of Markdown files in the './docs/CarbonCopies/' directory into Bootstrap accordion format.
+    This script automates the conversion of Markdown files in the directoryPath directory into Bootstrap accordion format.
     It imports a JSON file named 'externalContentMetaData.json' to create a mapping of anchor tags to 'Level' attributes, which 
     are then used as data attributes in the generated Bootstrap accordions.
     

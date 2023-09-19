@@ -8,7 +8,7 @@
     
     This script performs the following tasks:
     1. Reads the 'externalContentMetaData.json' file located in the './static/json/' directory to obtain a list of URLs.
-    2. Downloads Markdown files (.md) from the URLs and stores them in the './docs/CarbonCopies/' directory.
+    2. Downloads Markdown files (.md) from the URLs and stores them in the outputFileLocation directory.
     3. Cleans up the downloaded Markdown files by:
        - Replacing Markdown links without URLs.
        - Removing the first line if it contains "---".
