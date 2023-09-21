@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Load environment variables
-source .env
-
 # Run the first script
 node fetchExternalContent/fetchCarbonCopies/fetchExternalContentMetaData.js
 
