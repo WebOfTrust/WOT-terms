@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /*
   Author: Kor Dwarshuis
   Created: 2023
