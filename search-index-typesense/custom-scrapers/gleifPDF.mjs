@@ -20,6 +20,7 @@ const config = {
     // }),
     siteName: 'Gleif website',
     source: 'Gleif website',
+    category: 'Blogs',
     author: '',
     destinationFile: 'search-index-typesense/search-index-entries/gleifPDF.jsonl'
 }

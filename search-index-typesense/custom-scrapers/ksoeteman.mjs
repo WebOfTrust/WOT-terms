@@ -10,6 +10,7 @@ const config = {
     }),
     siteName: 'ksoeteman.nl blog',
     source: 'Blogposts',
+    category: 'Blogs',
     author: 'Krijn Soeteman',
     destinationFile: 'search-index-typesense/search-index-entries/ksoeteman.jsonl',
     domQueryForContent: '.entry-content p, .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, .entry-content li, .entry-content img, .entry-content pre, .entry-content code'

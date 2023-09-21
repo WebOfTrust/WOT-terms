@@ -45,6 +45,7 @@ const createConfig = async (filename) => {
         }),
         siteName: `${repositoryOwner} / ${repositoryName}`,
         source: `${repositoryOwner} / ${repositoryName}`,
+        category: 'Code',
         author: `${repositoryOwner}`,
         destinationFile: `search-index-typesense/search-index-entries/${repositoryOwner}-${repositoryName}.jsonl`,
         branch: branchName

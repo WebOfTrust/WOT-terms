@@ -10,6 +10,7 @@ const config = {
     }),
     siteName: 'Python Implementation of the KERI Core Libraries',
     source: 'Python Implementation of the KERI Core Libraries',
+    category: 'Blogs',
     author: 'Dr. Samuel Smith and contributors',
     destinationFile: 'search-index-typesense/search-index-entries/readthedocs.io.jsonl',
     domQueryForContent: '.document'

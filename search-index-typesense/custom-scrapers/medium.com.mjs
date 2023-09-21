@@ -17,6 +17,7 @@ const config = {
     }),
     siteName: 'Blogposts',
     source: 'Blogposts',
+    category: 'Blogs',
     destinationFile: 'search-index-typesense/search-index-entries/medium.com.jsonl',
     // domQueryForContent: '.ch p, .ch h1, .ch h2, .ch h3, .ch h4, .ch h5, .ch h6, .ch li'
 
