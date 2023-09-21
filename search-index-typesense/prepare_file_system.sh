@@ -7,6 +7,10 @@
 # Description: This script prepares the file system for the search-index-typesense project. It creates the necessary directories and files. It also removes the old files and directories. This script is meant to be run before the other scripts. 
 
 
+
+# Import variables from .env file
+source .env
+
 # Set the directory path
 dir_path="search-index-typesense"
 
