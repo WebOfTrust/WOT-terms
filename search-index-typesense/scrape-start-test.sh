@@ -26,7 +26,7 @@ setLogFile "success.log"
 log "Copying manual files finished"
 
 # Create sitemaps.
-source "$SCRIPT_DIR/create_sitemaps.sh"
+source "$SCRIPT_DIR/create_sitemaps-test.sh"
 setLogFile "success.log"
 log "Creating sitemaps finished"
 
@@ -48,7 +48,7 @@ log "Renaming files to lowercase finished"
 #########################
 
 # Scrape the websites.
-node "$SCRIPT_DIR/extractData.mjs"
+node "$SCRIPT_DIR/extractData-test.mjs"
 setLogFile "success.log"
 log "Extracting data finished"
 
@@ -85,25 +85,25 @@ log "Backup finished"
 
 
 
-#########################
-# IMPORTING INTO TYPESENSE CLOUD Open Source Search
-#########################
+# #########################
+# # IMPORTING INTO TYPESENSE CLOUD Open Source Search
+# #########################
 
-# Make collection in Typesense empty.
-source "$SCRIPT_DIR/make_collection_empty.sh"
-setLogFile "success.log"
-log "Making collection empty finished"
+# # Make collection in Typesense empty.
+# source "$SCRIPT_DIR/make_collection_empty.sh"
+# setLogFile "success.log"
+# log "Making collection empty finished"
 
-# Import the data into Typesense.
-source "$SCRIPT_DIR/import.sh"
-setLogFile "success.log"
-log "Importing data finished"
+# # Import the data into Typesense.
+# source "$SCRIPT_DIR/import.sh"
+# setLogFile "success.log"
+# log "Importing data finished"
 
-# Import overrides into Typesense.
-source "$SCRIPT_DIR/overrides.sh"
-setLogFile "success.log"
-log "Importing overrides finished"
+# # Import overrides into Typesense.
+# source "$SCRIPT_DIR/overrides.sh"
+# setLogFile "success.log"
+# log "Importing overrides finished"
 
-#########################
-# END
-#########################
+# #########################
+# # END
+# #########################
