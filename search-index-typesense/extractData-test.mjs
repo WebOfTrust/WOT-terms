@@ -6,7 +6,7 @@
 */
 
 
-import scrapeWOTterms from './custom-scrapers/WOT-terms.mjs';
+// import scrapeWOTterms from './custom-scrapers/WOT-terms.mjs';
 // import scrapeGleif from './custom-scrapers/gleif.mjs';
 // import scrapeGleifPDF from './custom-scrapers/gleifPDF.mjs';
 // import scrapeWotgloss from './custom-scrapers/wotgloss.mjs';
@@ -16,10 +16,10 @@ import scrapeWOTterms from './custom-scrapers/WOT-terms.mjs';
 // import scrapeKsoeteman from './custom-scrapers/ksoeteman.mjs';
 // import scrapemediumCom from './custom-scrapers/medium.com.mjs';
 // import scrapeKentbull from './custom-scrapers/kentbull.com.mjs';
-// import scrapeGithub from './custom-scrapers/github.mjs';
+import scrapeGithub from './custom-scrapers/github.mjs';
 // import scrapeReadthedocs from './custom-scrapers/readthedocs.io.mjs';
 
-scrapeWOTterms();
+// scrapeWOTterms();
 // scrapeGleif();
 // scrapeGleifPDF();
 // scrapeWotgloss();
@@ -29,5 +29,5 @@ scrapeWOTterms();
 // scrapeKsoeteman();
 // scrapemediumCom();
 // scrapeKentbull();
-// scrapeGithub();
+scrapeGithub();
 // scrapeReadthedocs();
