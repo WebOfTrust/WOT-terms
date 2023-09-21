@@ -20,12 +20,10 @@ source "$SCRIPT_DIR/prepare_file_system.sh"
 setLogFile "success.log"
 log "Preparing file system finished"
 
-
 # Copy handmade stuff.
 source "$SCRIPT_DIR/copy_manual_files.sh"
 setLogFile "success.log"
 log "Copying manual files finished"
-
 
 # Create sitemaps.
 source "$SCRIPT_DIR/create_sitemaps.sh"
@@ -69,6 +67,12 @@ node "$SCRIPT_DIR/sortAndStyleScrapedIndex.mjs" "$INDEX_OVERVIEW_FILE"
 setLogFile "success.log"
 log "Sorting and styling index file finished"
 
+
+
+#########################
+# BACKING UP
+#########################
+
 # Export the data from Typesense to the downloads dir.
 source "$SCRIPT_DIR/export.sh"
 setLogFile "success.log"
@@ -80,8 +84,9 @@ setLogFile "success.log"
 log "Backup finished"
 
 
+
 #########################
-# CONNECTING TO TYPESENSE CLOUD Open Source Search
+# IMPORTING INTO TYPESENSE CLOUD Open Source Search
 #########################
 
 # Make collection in Typesense empty.
@@ -98,3 +103,7 @@ log "Importing data finished"
 source "$SCRIPT_DIR/overrides.sh"
 setLogFile "success.log"
 log "Importing overrides finished"
+
+#########################
+# END
+#########################
