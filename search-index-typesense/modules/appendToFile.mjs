@@ -25,5 +25,5 @@ export default function appendToFile(entries, outputPath) {
   // For reporting purposes, though it might not be the actual number of total pages after append
   logger.setLogFile('success.log');
   logger.log(`Appended ${entries.length} pages`);
-  logger.log(`Search index updated at ${resolvedPath}`);
+  logger.log(`Search index updated at ${outputPath}`);
 }
