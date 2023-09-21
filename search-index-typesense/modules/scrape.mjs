@@ -146,7 +146,8 @@ export default async function scrape(config, customScrape) {
                     creationDate: scraped.creationDate,
                     pageTitle: scraped.pageTitle,
                     firstHeadingBeforeElements: scraped.firstHeadingBeforeElements,
-                    mediaType: pageExtension
+                    mediaType: pageExtension,
+                    category: scraped.category
                 });
 
 
