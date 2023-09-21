@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /*
   Author: Kor Dwarshuis
   Created: 2023
@@ -19,7 +21,6 @@
     Promises are used for asynchronous operations.
 
 */
-
 
 const fs = require('fs');
 const path = require('path');
@@ -54,7 +55,7 @@ function readFileAsync(filePath) {
     });
 }
 
-function process(json) {
+function processJSON(json) {
     // Used for naming the downloaded file: Remove the protocol from the URL, this is done to ensure that the file name is valid (no colons, slashes, etc.)
     function removeProtocol(inputString) {
         if (inputString.startsWith("https://")) {
@@ -136,7 +137,7 @@ function cleanUpFile(filePath) {
 
 readFileAsync(inputFileLocation)
     .then((input) => {
-        process(input);
+        processJSON(input);
     })
     .catch((err) => {
         console.error('Error reading file:', err);
