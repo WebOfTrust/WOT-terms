@@ -73,10 +73,10 @@ log "Sorting and styling index file finished"
 # BACKING UP
 #########################
 
-# Export the data from Typesense to the downloads dir.
-source "$SCRIPT_DIR/export.sh"
-setLogFile "success.log"
-log "Exporting data finished"
+# # Export the data from Typesense to the downloads dir.
+# source "$SCRIPT_DIR/export.sh"
+# setLogFile "success.log"
+# log "Exporting data finished"
 
 # Backup output (scrape results, handmade stuff, sitemaps etc).
 source "$SCRIPT_DIR/backup.sh"
