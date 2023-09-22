@@ -112,7 +112,6 @@ const typesenseInstantSearchCreateDomElements = () => {
       If the element is found, its text content is added to the search result page; otherwise, an appropriate message indicating the absence of such an element is logged.
    */
 
-
    // Fetching the HTML content
    fetch(paths.indexedInKERISSE)
       .then(response => response.text())
