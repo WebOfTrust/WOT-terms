@@ -21,34 +21,34 @@ jobs:
       - name: Install dependencies
         run: npm ci
       
-      # ##############################
-      # # Google sheet: WOT-terms, tab: Terms-WOT-manage
-      # ##############################
-
-      # # Fetches data from WOT-terms (Google sheet) and generates an overview file that takes all the terms and their definitions and puts them into a single file. 
-      # - name: Import Google Sheet “WOT-terms”, tab “Terms-WOT-manage” data into markdown file
-      #   run: node fetchExternalContent/fetchTermsWOTmanage/fetchTermsWOTmanage.js
-      # ##############################
-
-
-
       ##############################
-      # Google sheet: WOT-terms, tab: LabelContent
+      # Google sheet: WOT-terms, tab: Terms-WOT-manage
       ##############################
 
-      # Fetches and copies external websites based on the URLs in the Google sheet "WOT-terms", tab "LabelContent"  
-      # Step 1
-      - name: Fetch information in JSON format that serves as source for import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files
-        run: node fetchExternalContent/fetchCarbonCopies/fetchExternalContentMetaData.js
-
-      # Step 2
-      - name: Import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files
-        run: node fetchExternalContent/fetchCarbonCopies/fetchExternalContent.js
-
-      # Step 3
-      - name: Add HTML structure to external content, like Accordeon code
-        run: node fetchExternalContent/fetchCarbonCopies/addHTMLstructureToExternalContent.js
+      # Fetches data from WOT-terms (Google sheet) and generates an overview file that takes all the terms and their definitions and puts them into a single file. 
+      - name: Import Google Sheet “WOT-terms”, tab “Terms-WOT-manage” data into markdown file
+        run: node fetchExternalContent/fetchTermsWOTmanage/fetchTermsWOTmanage.js
       ##############################
+
+
+
+      # ##############################
+      # # Google sheet: WOT-terms, tab: LabelContent
+      # ##############################
+
+      # # Fetches and copies external websites based on the URLs in the Google sheet "WOT-terms", tab "LabelContent"  
+      # # Step 1
+      # - name: Fetch information in JSON format that serves as source for import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files, meta data
+      #   run: node fetchExternalContent/fetchCarbonCopies/fetchExternalContentMetaData.js
+
+      # # Step 2
+      # - name: Import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files
+      #   run: node fetchExternalContent/fetchCarbonCopies/fetchExternalContent.js
+
+      # # Step 3
+      # - name: Add HTML structure to external content, like Accordeon code
+      #   run: node fetchExternalContent/fetchCarbonCopies/addHTMLstructureToExternalContent.js
+      # ##############################
 
 
 
