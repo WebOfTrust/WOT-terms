@@ -98,7 +98,13 @@ export async function githubPDF(page, pageUrl) {
     const clickMorePagesButton = async (page) => {
         if (morePagesToLoad) {
             // Wait for the "More pages" button to be visible
-            await page.waitForSelector('#js-click-for-more', { visible: true });
+            try {
+                await page.waitForSelector('#js-click-for-more', { visible: true, timeout: 60000 });
+            } catch (err) {
+                logger.setLogFile('error.log');
+                logger.log('Could not find #js-click-for-more: ' + err.message);
+                // Exit or continue based on your logic
+            }
 
             const button = await page.$('#js-click-for-more');
             if (button) {
