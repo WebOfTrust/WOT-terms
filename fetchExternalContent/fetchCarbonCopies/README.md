@@ -2,4 +2,4 @@
 
 1. fetchExternalContentMetaData.js
 2. fetchExternalContent.js
-3. prepareMarkdown.js
+3. addHTMLstructureToExternalContent.js

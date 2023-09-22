@@ -49,7 +49,7 @@ export default async function createInput(input) {
       logger.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
     } else {
       logger.setLogFile('error.log');
-      logger.log('No URLs found in sitemap');
+      logger.log(`${sitemapUrl}: No URLs found in sitemap`);
     }
 
     return sitemap;
@@ -67,7 +67,7 @@ export default async function createInput(input) {
 
     } else {
       logger.setLogFile('error.log');
-      logger.log('No URLs found in sitemap');
+      logger.log(`${input.sourcePath}: No URLs found in sitemap`);
     }
 
     return sitemap;
@@ -100,7 +100,7 @@ export default async function createInput(input) {
       logger.log(`Found ${sitemap.urlset.url.length} URLs in sitemap`);
     } else {
       logger.setLogFile('error.log');
-      logger.log('No URLs found in sitemap');
+      logger.log(`${input.sourcePath}: No URLs found in sitemap`);
     }
 
     return sitemap;

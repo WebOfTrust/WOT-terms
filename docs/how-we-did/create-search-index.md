@@ -283,7 +283,17 @@ The documents we want to import have to follow a scheme. The current scheme we u
         "optional": false,
         "sort": false,
         "type": "string"
-        }
+        },
+        {
+        "facet": true,
+        "index": true,
+        "infix": false,
+        "locale": "",
+        "name": "type",
+        "optional": false,
+        "sort": false,
+        "type": "string"
+    },
     ],
     "name": "xxx",
     "num_documents": xxx,

@@ -16,8 +16,7 @@
        - Output is saved to 'overview-and-context.mdx' in the './docs/02_overview/' directory.
    
     Configuration:
-    - `outputDirMarkDown`: Directory where the MDX output file will be stored.
-    - `outputFileNameMarkDown`: Name of the MDX output file.
+    - `outputPathMarkDown`: Name of the MDX output file and directory where the MDX output file will be stored.
     - `outputDirJSON`: Directory where the JSON output file will be stored.
     - `outputFileNameJSON`: Name of the JSON output file.
     
@@ -36,17 +35,15 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+require('dotenv').config();
 
 // CONFIG
-const outputDirMarkDown = './docs/02_overview/';
-const outputFileNameMarkDown = 'overview-and-context.mdx';
-
-const outputDirJSON = './static/json/'; //TODO: find a better place for this file
-const outputFileNameJSON = 'overview.json';
+const outputPathMarkDown = process.env.TERMS_WOT_MANAGE_MARKDOWN;
+const outputDirJSON = process.env.TERMS_WOT_MANAGE_JSON_DIR_NAME;
+const outputFileNameJSON = process.env.TERMS_WOT_MANAGE_JSON_FILE_NAME;
 
 // How to create JSON endpoint from Google Sheet: https://stackoverflow.com/a/68854199
-const url =
-  'https://sheets.googleapis.com/v4/spreadsheets/18IUa-1NSJ_8Tz_2D-VSuSQa_yf3ES1s_hovitm3Clvc/values/Terms-WOT-manage?alt=json&key=AIzaSyCA4sOfLTriHKjaQftREYWMnQNokDHf_tM';
+const url = process.env.TERMS_WOT_MANAGE_JSON_ENDPOINT;
 
 https
   .get(url, (resp) => {
@@ -187,7 +184,7 @@ function createMarkDownFiles(content) {
     finalStringAll += `</div>`;
 
     fs.writeFile(
-      outputDirMarkDown + outputFileNameMarkDown,
+      outputPathMarkDown,
       finalStringAll,
       // When it goes wrong:
       function (err) {

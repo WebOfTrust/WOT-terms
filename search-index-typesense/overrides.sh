@@ -70,10 +70,22 @@ jq -c '.[]' "$input_file_path" | while read -r object; do
   response=$(curl -s -H "X-TYPESENSE-API-KEY: ${local_TYPESENSE_ADMIN_API_KEY}" \
     "https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/documents/search?q=${url}&query_by=url")
 
-  # Sanitize the JSON response by removing control characters
-  sanitized_response=$(echo "$response" | tr -d '\000-\031')
 
-  # Check if the sanitized response contains any error messages
+
+  # SANITIZE RESPONSE
+  # This is trial and error and only working for the current response.
+
+  # Replace backslash-escaped double quotes with single quotes
+  sanitized_string=$(echo "$response" | sed 's/\\"/'\''/g')
+
+  # Sanitize the JSON response by removing all backslashes.
+  # Reason is this output: "content":"1 ) } \ .@ccoun;mg ;@eclger2) 4p ’7:3) ? /4) 420Rotated public keys",
+  sanitized_response=$(echo "$sanitized_string" | sed 's/\\//g')
+  
+  # Sanitize the JSON response by removing control characters
+  sanitized_response=$(echo "$sanitized_response" | tr -d '\000-\031')
+  
+    # Check if the sanitized response contains any error messages
   if echo "$sanitized_response" | jq -e '.error' > /dev/null; then
     error_message=$(echo "$sanitized_response" | jq -r '.error')
     setLogFile "error.log"
@@ -146,5 +158,5 @@ process_json_data() {
 JSON_DATA1=$(<"search-index-typesense/overrides/overridesID.json")
 process_json_data "$JSON_DATA1"
 
-# Cleanup
+# # Cleanup if desired
 # rm search-index-typesense/overrides/overridesID.json

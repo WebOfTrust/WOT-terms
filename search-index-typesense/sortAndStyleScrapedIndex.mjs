@@ -9,6 +9,7 @@
 
 import fs from 'fs';
 import logger from './modules/logger.mjs';
+import { format } from 'date-fns';
 
 const urlRegex = /(https?:\/\/[^\s]+)/g;
 
@@ -33,8 +34,8 @@ function sortLinesInFile(fileName) {
     // Split the data into lines
     const lines = data.split('\n');
 
-    // Remove empty lines and skip the first line
-    const nonEmptyLines = lines.slice(1).filter(line => line.trim() !== '');
+    // Remove empty lines
+    const nonEmptyLines = lines.filter(line => line.trim() !== '');
 
     // Count the entries
     const pagesCount = nonEmptyLines.length;
@@ -59,8 +60,14 @@ function sortLinesInFile(fileName) {
     // Wrap the content in <ul> and </ul>
     const finalContent = `<ol>\n${wrappedContent}\n</ol>`;
 
-    // Preserve the first line (header), add entry count and append the final content
-    const contentWithHeader = `${lines[0]}\n<p>Pages Count: ${pagesCount}</p>\n${finalContent}`;
+    // Get the current time
+    const currentTime = format(new Date(), 'dd MMMM yyyy HH:mm:ss');
+
+    // Add a header
+    const header = '# Indexed in KERISSE';
+
+    // Final string to write to the file
+    const contentWithHeader = `${header}\n<p id='index-created-timestamp'>Indexed at ${currentTime}</p>\n<p id='index-created-page-count'>Number of indexed pages: ${pagesCount}</p>\n${finalContent}`;
 
     // Write the final content back to the file
     fs.writeFile(fileName, contentWithHeader, 'utf8', (err) => {

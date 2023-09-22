@@ -6,6 +6,8 @@
   Description: This plugin creates the DOM elements for the Typesense search box and search results. The DOM elements for the search hits are in the main Typesense InstantSearch plugin code.
 */
 
+import paths from "../docusaurus.paths";
+
 const typesenseInstantSearchCreateDomElements = () => {
    const domStringSearchStart = `<button id="search-start">🔍</button>`;
    const domStringSearchResult = `
@@ -25,16 +27,10 @@ const typesenseInstantSearchCreateDomElements = () => {
    <nav class="bg-light scrollable-navbar">
    <ul class="nav nowrap">
       <li class="nav-item">
-         <a target="_blank" rel="noopener" class="" href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf">Keri White Paper</a>
+         <a target="_blank" rel="noopener" class="" href="https://github.com/WebOfTrust/keri">Keri on Github</a>
       </li>
       <li class="nav-item">
-         <a target="_blank" rel="noopener" class="" href="https://docs.google.com/presentation/d/1lpzYcPrIox9V4hERtn4Kcf7uq01OVU9u3PuVm1aYzR0/edit#slide=id.ga411be7e84_0_0">Keri for Muggles</a>
-      </li>
-      <li class="nav-item">
-         <a target="_blank" rel="noopener" class="" href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/IdentifierTheory_web.pdf">Universal Identifier Theory with KERI</a>
-      </li>
-      <li class="nav-item">
-         <a target="_blank" rel="noopener" class="" href="https://keri.one/keri-resources/">More</a>
+         <a target="_blank" rel="noopener" class="" href="https://keri.one/keri-resources/">Keri.one</a>
       </li>
    </ul>
    </nav>
@@ -54,6 +50,9 @@ const typesenseInstantSearchCreateDomElements = () => {
          </div>
          
          <div class="" id="filters-section">
+            <h3 class="mt-1">Category</h3>
+            <div id="category-refinement-list"></div>
+
             <h3 class="mt-1">Source</h3>
             <div id="source-refinement-list"></div>
             
@@ -62,7 +61,7 @@ const typesenseInstantSearchCreateDomElements = () => {
 
             <h3 class="mt-5">File type</h3>
             <div id="media-type-refinement-list"></div>
-
+            <!--
             <h3 class="mt-5">Knowledge Level</h3>
             <div id="knowledgelevel-refinement-list"></div>
             
@@ -71,6 +70,7 @@ const typesenseInstantSearchCreateDomElements = () => {
             
             <h3 class="mt-5">Subject</h3>
             <div id="subject-refinement-list"></div>
+            -->
          </div>           
       </div>
       <!-- Column with search results -->
@@ -114,7 +114,7 @@ const typesenseInstantSearchCreateDomElements = () => {
 
 
    // Fetching the HTML content
-   fetch('/WOT-terms/docs/overview/indexed-in-KERISSE/')
+   fetch(paths.indexedInKERISSE)
       .then(response => response.text())
       .then(html => {
          // Parsing the fetched HTML string into a DOM object

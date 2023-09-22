@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /*
   Author: Kor Dwarshuis
   Created: 2023
@@ -8,28 +10,26 @@
     
     This script performs the following tasks:
     1. Reads the 'externalContentMetaData.json' file located in the './static/json/' directory to obtain a list of URLs.
-    2. Downloads Markdown files (.md) from the URLs and stores them in the './docs/CarbonCopies/' directory.
+    2. Downloads Markdown files (.md) from the URLs and stores them in the outputFileLocation directory.
     3. Cleans up the downloaded Markdown files by:
        - Replacing Markdown links without URLs.
        - Removing the first line if it contains "---".
        Configuration:
-    - `inputFileLocation`: Directory where the JSON file containing URLs is located.
-    - `inputFileName`: Name of the JSON file containing the URLs to be copied.
+    - `inputFileLocation`: Directory and filename where the JSON file containing URLs is located.
     - `outputFileLocation`: Directory where the downloaded files will be stored.
        The code utilizes Node.js and its 'fs', 'path', and 'https' modules to read files, manage directories, and download content.
     Promises are used for asynchronous operations.
 
 */
 
-
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+require('dotenv').config();
 
 // Config
-const inputFileLocation = './static/json/';
-const inputFileName = 'externalContentMetaData.json'; // Contains the urls that should be copied to local
-const outputFileLocation = './docs/08_carbon-copies/'; // Where to copy the files to
+const inputFileLocation = process.env.CARBON_COPIES_INPUT_DIR;
+const outputFileLocation = process.env.CARBON_COPIES_OUTPUT_DIR; // Where to copy the files to
 // End Config
 
 // Create the output directory if it doesn't exist
@@ -55,7 +55,7 @@ function readFileAsync(filePath) {
     });
 }
 
-function process(json) {
+function processJSON(json) {
     // Used for naming the downloaded file: Remove the protocol from the URL, this is done to ensure that the file name is valid (no colons, slashes, etc.)
     function removeProtocol(inputString) {
         if (inputString.startsWith("https://")) {
@@ -135,9 +135,9 @@ function cleanUpFile(filePath) {
 
 }
 
-readFileAsync(inputFileLocation + inputFileName)
+readFileAsync(inputFileLocation)
     .then((input) => {
-        process(input);
+        processJSON(input);
     })
     .catch((err) => {
         console.error('Error reading file:', err);
