@@ -123,7 +123,7 @@ const typesenseInstantSearchCreateDomElements = () => {
 
          // Finding the paragraph elements by their id's
          const timestampElement = doc.querySelector('#index-created-timestamp');
-         const numberOfPagesElement = doc.querySelector('#index-created-page-count');
+         const pageCountElement = doc.querySelector('#index-created-page-count');
 
          if (timestampElement) {
             // Extracting and logging the content of the paragraph
@@ -133,10 +133,10 @@ const typesenseInstantSearchCreateDomElements = () => {
             console.log('Element with id "index-created-timestamp" not found.');
          }
 
-         if (numberOfPagesElement) {
+         if (pageCountElement) {
             // Extracting and logging the content of the paragraph
-            const numberOfPagesContent = numberOfPagesElement.textContent;
-            document.querySelector('#index-created-page-count').textContent = timestampContent;
+            const numberOfPagesContent = pageCountElement.textContent;
+            document.querySelector('#index-created-page-count').textContent = pageCountElement;
          } else {
             console.log('Element with id "index-created-page-count" not found.');
          }
