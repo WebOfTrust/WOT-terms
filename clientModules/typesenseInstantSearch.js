@@ -281,53 +281,73 @@ const typeSenseInstantSearch = () => {
       }
     }),
 
-    // KNOWLEDGELEVEL
-    refinementList({
-      container: '#knowledgelevel-refinement-list',
-      attribute: 'knowledgeLevel',
-      searchable: false,
-      searchablePlaceholder: 'Search knowledge level',
-      showMore: false,
-      cssClasses: {
-        searchableInput: 'form-control form-control-sm mb-2 border-light-2',
-        searchableSubmit: 'hidden',
-        searchableReset: 'hidden',
-        showMore: 'btn btn-secondary btn-sm align-content-center',
-        list: 'list-unstyled',
-        count: '',
-        label: '',
-        checkbox: 'me-2',
-      },
+    // // KNOWLEDGELEVEL
+    // refinementList({
+    //   container: '#knowledgelevel-refinement-list',
+    //   attribute: 'knowledgeLevel',
+    //   searchable: false,
+    //   searchablePlaceholder: 'Search knowledge level',
+    //   showMore: false,
+    //   cssClasses: {
+    //     searchableInput: 'form-control form-control-sm mb-2 border-light-2',
+    //     searchableSubmit: 'hidden',
+    //     searchableReset: 'hidden',
+    //     showMore: 'btn btn-secondary btn-sm align-content-center',
+    //     list: 'list-unstyled',
+    //     count: '',
+    //     label: '',
+    //     checkbox: 'me-2',
+    //   },
 
-      sortBy: ['name:asc', 'count:desc'],
-    }),
-    // TYPE
-    refinementList({
-      container: '#type-refinement-list',
-      attribute: 'type',
-      searchable: false,
-      searchablePlaceholder: 'Search type',
-      showMore: false,
-      cssClasses: {
-        searchableInput: 'form-control form-control-sm mb-2 border-light-2',
-        searchableSubmit: 'hidden',
-        searchableReset: 'hidden',
-        showMore: 'btn btn-secondary btn-sm align-content-center',
-        list: 'list-unstyled',
-        count: '',
-        label: '',
-        checkbox: 'me-2',
-      },
+    //   sortBy: ['name:asc', 'count:desc'],
+    // }),
+    // // TYPE
+    // refinementList({
+    //   container: '#type-refinement-list',
+    //   attribute: 'type',
+    //   searchable: false,
+    //   searchablePlaceholder: 'Search type',
+    //   showMore: false,
+    //   cssClasses: {
+    //     searchableInput: 'form-control form-control-sm mb-2 border-light-2',
+    //     searchableSubmit: 'hidden',
+    //     searchableReset: 'hidden',
+    //     showMore: 'btn btn-secondary btn-sm align-content-center',
+    //     list: 'list-unstyled',
+    //     count: '',
+    //     label: '',
+    //     checkbox: 'me-2',
+    //   },
 
-      sortBy: ['name:asc', 'count:desc'],
-    }),
-    // SUBJECT
+    //   sortBy: ['name:asc', 'count:desc'],
+    // }),
+    // // SUBJECT
+    // refinementList({
+    //   container: '#subject-refinement-list',
+    //   attribute: 'hierarchy.lvl1',
+    //   searchable: false,
+    //   searchablePlaceholder: 'Subject',
+    //   showMore: false,
+    //   cssClasses: {
+    //     searchableInput: 'form-control form-control-sm mb-2 border-light-2',
+    //     searchableSubmit: 'hidden',
+    //     searchableReset: 'hidden',
+    //     showMore: 'btn btn-secondary btn-sm align-content-center',
+    //     list: 'list-unstyled',
+    //     count: '',
+    //     label: '',
+    //     checkbox: 'me-2',
+    //   },
+    //   sortBy: ['name:asc', 'count:desc'],
+    // }),
+    // CATEGORY
     refinementList({
-      container: '#subject-refinement-list',
-      attribute: 'hierarchy.lvl1',
+      container: '#category-refinement-list',
+      attribute: 'category',
       searchable: false,
-      searchablePlaceholder: 'Subject',
+      searchablePlaceholder: 'Source',
       showMore: false,
+      // max_facet_values: 100, TODO: does this work?
       cssClasses: {
         searchableInput: 'form-control form-control-sm mb-2 border-light-2',
         searchableSubmit: 'hidden',
@@ -360,6 +380,7 @@ const typeSenseInstantSearch = () => {
       },
       sortBy: ['name:asc', 'count:desc'],
     }),
+
     refinementList({
       container: '#author-refinement-list',
       attribute: 'author',
