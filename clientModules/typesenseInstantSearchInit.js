@@ -14,7 +14,7 @@ const typesenseInstantSearchCreateDomElements = () => {
 <div class="search-modal-backdrop hidden"></div>
 <div id="search" class="container p-3 hidden" style="max-width: 70em;">
 <h1 class="search-heading text-center fs-5">KERI Suite Search Engine (KERISSE)</h1>
-<p class='text-center' id='index-created-timestamp'>-</p>
+<p class='text-center'><span id='index-created-timestamp'>–</span>, <span id='index-created-page-count'>–</span></p>
    <div id="search-box" class="mt-3 mb-2"></div>
    <div id="search-close">✖</div>
    <a href="#search-results" class="btn btn-light btn-sm mt-3 mb-3 d-block d-md-none">To search results</a>
@@ -121,8 +121,9 @@ const typesenseInstantSearchCreateDomElements = () => {
          const parser = new DOMParser();
          const doc = parser.parseFromString(html, 'text/html');
 
-         // Finding the paragraph element by its id
+         // Finding the paragraph elements by their id's
          const timestampElement = doc.querySelector('#index-created-timestamp');
+         const numberOfPagesElement = doc.querySelector('#index-created-page-count');
 
          if (timestampElement) {
             // Extracting and logging the content of the paragraph
@@ -130,6 +131,14 @@ const typesenseInstantSearchCreateDomElements = () => {
             document.querySelector('#index-created-timestamp').textContent = timestampContent;
          } else {
             console.log('Element with id "index-created-timestamp" not found.');
+         }
+
+         if (numberOfPagesElement) {
+            // Extracting and logging the content of the paragraph
+            const numberOfPagesContent = numberOfPagesElement.textContent;
+            document.querySelector('#index-created-page-count').textContent = timestampContent;
+         } else {
+            console.log('Element with id "index-created-page-count" not found.');
          }
       })
       .catch(error => {
