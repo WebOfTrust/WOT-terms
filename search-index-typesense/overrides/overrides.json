@@ -14,6 +14,13 @@
         "match": "exact"
     },
     {
+        "name": "keri",
+        "query": "keri",
+        "url": "https://github.com/WebOfTrust/keri/blob/main/CONTRIBUTING.md",
+        "position": 1,
+        "match": "exact"
+    },
+    {
         "name": "acdcForMuggles",
         "query": "ACDC for Muggles",
         "url": "https://docs.google.com/presentation/d/1mO1EZa9BcjAjWEzw7DWi124uMfyNyDeM3HuajsGNoTo/",
