@@ -66,9 +66,15 @@ jq -c '.[]' "$input_file_path" | while read -r object; do
   # Extract the URL from the object
   url=$(echo "$object" | jq -r '.url')
 
-  # Perform the request and store the response in a variable
+  # Perform the request and store the response in a variable, Contains the url
+  # response=$(curl -s -H "X-TYPESENSE-API-KEY: ${local_TYPESENSE_ADMIN_API_KEY}" \
+  #   "https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/documents/search?q=${url}&query_by=url")
+
+
+  # Perform the request and store the response in a variable, Exact match on the url
   response=$(curl -s -H "X-TYPESENSE-API-KEY: ${local_TYPESENSE_ADMIN_API_KEY}" \
-    "https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/documents/search?q=${url}&query_by=url")
+    "https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/documents/search?q=${url}&query_by=url&filter_by=url:=:${url}")
+
 
 
 
