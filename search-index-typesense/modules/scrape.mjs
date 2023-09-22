@@ -135,6 +135,7 @@ export default async function scrape(config, customScrape) {
                     siteName: config.siteName,
                     source: config.source,
                     author: config.author,
+                    category: config.category,
                     pageUrl: pageUrl,
                     mainContent: scraped.mainContent,
                     hierarchyLvl0: scraped.hierarchyLevel0,
@@ -146,8 +147,7 @@ export default async function scrape(config, customScrape) {
                     creationDate: scraped.creationDate,
                     pageTitle: scraped.pageTitle,
                     firstHeadingBeforeElements: scraped.firstHeadingBeforeElements,
-                    mediaType: pageExtension,
-                    category: scraped.category
+                    mediaType: pageExtension
                 });
 
 
