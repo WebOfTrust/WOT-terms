@@ -134,8 +134,8 @@ const typesenseInstantSearchCreateDomElements = () => {
 
          if (pageCountElement) {
             // Extracting and logging the content of the paragraph
-            const numberOfPagesContent = pageCountElement.textContent;
-            document.querySelector('#index-created-page-count').textContent = pageCountElement;
+            const pageCountContent = pageCountElement.textContent;
+            document.querySelector('#index-created-page-count').textContent = pageCountContent;
          } else {
             console.log('Element with id "index-created-page-count" not found.');
          }
