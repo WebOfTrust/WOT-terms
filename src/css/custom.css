@@ -510,6 +510,19 @@ table td:nth-child(8) {
   margin: 0 !important; /* To override the classes that are assigned to typesense buttons, defined in typesenseInstantSearch.js */
 }
 
+#current-refinements-list {
+  font-size: 0.7em !important;
+}
+#current-refinements-list .ais-CurrentRefinements-label,
+#current-refinements-list .ais-CurrentRefinements-category {
+  display: block;
+}
+#current-refinements-list .ais-CurrentRefinements-label {
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+
 .ais-Hits-list {
   list-style-type: none;
   padding-left: 0;
