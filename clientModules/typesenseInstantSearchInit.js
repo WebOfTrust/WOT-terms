@@ -50,6 +50,14 @@ const typesenseInstantSearchCreateDomElements = () => {
          </div>
          
          <div class="" id="filters-section">
+            <!--
+            <h3 class="mt-1">Sort</h3>
+            <div id="sort-by"></div>
+            -->
+
+            <h3 id="current-refinements-list-heading" class="mt-1">Current refinements</h3>
+            <div id="current-refinements-list" class="fs-6"></div>
+
             <h3 class="mt-1">Category</h3>
             <div id="category-refinement-list"></div>
 
