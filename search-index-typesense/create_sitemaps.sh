@@ -14,6 +14,12 @@ node search-index-typesense/createSitemap.mjs --url https://keria.readthedocs.io
 node search-index-typesense/createSitemap.mjs --url https://signifypy.readthedocs.io/en/latest/ --depth 5
 
 # Github repos
+# How to use:
+# node search-index-typesense/createSitemapGithub.mjs <repository-owner> <repository-name> <branch-name> <sitemap-directory>
+
+node search-index-typesense/createSitemapGithub.mjs trustoverip tswg-acdc-specification main search-index-typesense/sitemaps
+node search-index-typesense/createSitemapGithub.mjs trustoverip tswg-did-method-webs-specification main search-index-typesense/sitemaps
+
 node search-index-typesense/createSitemapGithub.mjs SmithSamuelM Papers master search-index-typesense/sitemaps
 node search-index-typesense/createSitemapGithub.mjs WebOfTrust cardano-backer main search-index-typesense/sitemaps
 node search-index-typesense/createSitemapGithub.mjs WebOfTrust cesride main search-index-typesense/sitemaps
