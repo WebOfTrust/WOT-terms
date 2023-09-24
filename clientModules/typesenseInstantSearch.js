@@ -88,9 +88,7 @@ const typeSenseInstantSearch = () => {
     //  filterBy is managed and overridden by InstantSearch.js. To set it, you want to use one of the filter widgets like refinementList or use the `configure` widget.
     additionalSearchParameters: {
       // query_by: 'title,authors',
-      // query_by: 'imgMeta, content, firstHeadingBeforeElement, pageTitle, siteName, source, url',
-      query_by: 'content, firstHeadingBeforeElement, imgMeta, pageTitle, siteName, source, url',
-      // query_by: 'pageTitle',
+      query_by: 'imgMeta, content, firstHeadingBeforeElement, pageTitle, siteName, source, url',
       // weights: '10000,1,1,1,1,1,1',
       // filter_by: 'tag:=[p]',
       // filter_by: 'tag:[a]',
@@ -99,9 +97,9 @@ const typeSenseInstantSearch = () => {
 
       // sort_by: 'imgMetaLength:asc, contentLength:asc',//asc or desc
       // sort_by: 'imgWidth:desc,contentLength:desc,imgUrl(missing_values: last):desc',//asc or desc
-      // sort_by: 'imgWidth:desc,imgUrl(missing_values: last):desc',//asc or desc
-      // group_by: 'url',
-      // group_limit: 2
+      sort_by: 'imgWidth:desc,imgUrl(missing_values: last):desc',//asc or desc
+      group_by: 'url',
+      group_limit: 2
     },
   });
   const searchClient = typesenseInstantsearchAdapter.searchClient;
