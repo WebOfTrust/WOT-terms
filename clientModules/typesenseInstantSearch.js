@@ -8,6 +8,9 @@
 
 import instantsearch from 'instantsearch.js/es';
 
+// to be uaed in the future
+// import { queriesWithSortAdjustment } from '/search-index-typesense/overrides/sortAdjustment.js';
+
 import {
   searchBox,
   hits,
@@ -17,10 +20,10 @@ import {
   // stats,
   // analytics,
   refinementList,
-  clearRefinements
+  clearRefinements,
   // menu,
   // sortBy,
-  // currentRefinements,
+  currentRefinements,
 } from 'instantsearch.js/es/widgets';
 
 import TypesenseInstantSearchAdapter from 'typesense-instantsearch-adapter';
@@ -42,6 +45,32 @@ const typeSenseInstantSearch = () => {
     el.addEventListener('click', handleSearchTermClick);
   });
 
+  // to be uaed in the future
+  // function applyCustomSorting(items) {
+  //   console.log('items: ', items);
+  //   const currentQuery = search.helper.state.query;
+
+  //   const matchingQueryObj = queriesWithSortAdjustment.find(
+  //     (obj) => obj.queryString === currentQuery
+  //   );
+
+  //   if (matchingQueryObj) {
+  //     const sortAdjustment = matchingQueryObj.sortAdjustment;
+  //     const urlSubstring = matchingQueryObj.urlSubstring;
+
+  //     return items.map((item) => {
+  //       item.sort_order = item.url && item.url.includes(urlSubstring) ? sortAdjustment : 0;
+  //       return item;
+  //     }).sort((a, b) => b.sort_order - a.sort_order);
+  //   }
+
+  //   return items;
+  // }
+
+
+
+
+
   const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
     server: {
       apiKey: 'qy6mC9ZakKZ3C8GUD5T3iDrelDgpp5Zc', // Be sure to use an API key that only allows searches, in production
@@ -59,7 +88,9 @@ const typeSenseInstantSearch = () => {
     //  filterBy is managed and overridden by InstantSearch.js. To set it, you want to use one of the filter widgets like refinementList or use the `configure` widget.
     additionalSearchParameters: {
       // query_by: 'title,authors',
-      query_by: 'imgMeta, content, firstHeadingBeforeElement, pageTitle, siteName, source, url',
+      // query_by: 'imgMeta, content, firstHeadingBeforeElement, pageTitle, siteName, source, url',
+      query_by: 'content, firstHeadingBeforeElement, imgMeta, pageTitle, siteName, source, url',
+      // query_by: 'pageTitle',
       // weights: '10000,1,1,1,1,1,1',
       // filter_by: 'tag:=[p]',
       // filter_by: 'tag:[a]',
@@ -68,9 +99,9 @@ const typeSenseInstantSearch = () => {
 
       // sort_by: 'imgMetaLength:asc, contentLength:asc',//asc or desc
       // sort_by: 'imgWidth:desc,contentLength:desc,imgUrl(missing_values: last):desc',//asc or desc
-      sort_by: 'imgWidth:desc,imgUrl(missing_values: last):desc',//asc or desc
-      group_by: 'url',
-      group_limit: 2
+      // sort_by: 'imgWidth:desc,imgUrl(missing_values: last):desc',//asc or desc
+      // group_by: 'url',
+      // group_limit: 2
     },
   });
   const searchClient = typesenseInstantsearchAdapter.searchClient;
@@ -120,6 +151,12 @@ const typeSenseInstantSearch = () => {
     }),
     hits({
       container: '#hits',
+
+      // to be uaed in the future
+      // transformItems(items) {
+      //   let sortedItems = applyCustomSorting(items);
+      //   return sortedItems;
+      // },
       templates: {
         item(item) {
           function makeCodeStringShorter(string) {
@@ -280,6 +317,46 @@ const typeSenseInstantSearch = () => {
         button: 'btn btn-secondary btn-sm align-content-center mb-5 mt-3'
       }
     }),
+    currentRefinements({
+      container: '#current-refinements-list',
+      cssClasses: {
+        list: 'list-unstyled',
+        item: '',
+        delete: 'btn btn-sm btn-link text-decoration-none p-0 px-2',
+      },
+      transformItems: (items) => {
+        // hide the heading if there are no current refinements
+        document.querySelector("#current-refinements-list-heading").classList.add("d-none");
+        const labelLookup = {
+          content: 'Content',
+          author: 'Author',
+          category: 'Category',
+          source: 'Source',
+          mediaType: 'File type',
+        };
+        const modifiedItems = items.map((item) => {
+          // show the heading if there are current refinements
+          document.querySelector("#current-refinements-list-heading").classList.remove("d-none");
+          return {
+            ...item,
+            label: labelLookup[item.attribute] || '',
+          };
+        });
+        return modifiedItems;
+      },
+    }),
+    // Currently not useful
+    // sortBy({
+    //   container: '#sort-by',
+    //   items: [
+    //     { label: 'Default Sort', value: 'Wot-terms' },
+    //     { label: 'Content Length: Low to High', value: 'Wot-terms/sort/contentLength:asc' },
+    //     { label: 'Content Length: High to Low', value: 'Wot-terms/sort/contentLength:desc' },
+    //   ],
+    //   cssClasses: {
+    //     select: 'form-select form-select-sm mb-2 border-light-2',
+    //   },
+    // }),
 
     // // KNOWLEDGELEVEL
     // refinementList({
