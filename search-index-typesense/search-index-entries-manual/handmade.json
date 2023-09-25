@@ -2,31 +2,6 @@
     {
         "siteName": "PDF-ed",
         "source": "PDF-ed",
-        "author": "Samuel Smith",
-        "creationDate": "",
-        "url": "https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERI_for_Muggles.pdf",
-        "content": "KERI for Muggles",
-        "contentLength": 0,
-        "tag": "p",
-        "imgUrl": "",
-        "imgMeta": "",
-        "imgMetaLength": 0,
-        "imgWidth": 0,
-        "imgHeight": 0,
-        "timestamp": "2023-07-27T00:00:00.000Z",
-        "hierarchy.lvl0": "",
-        "hierarchy.lvl1": "",
-        "hierarchy.lvl2": "",
-        "hierarchy.lvl3": "",
-        "knowledgeLevel": "",
-        "type": "",
-        "pageTitle": "Keri for Muggles",
-        "firstHeadingBeforeElement": "",
-        "mediaType": "pdf"
-    },
-    {
-        "siteName": "PDF-ed",
-        "source": "PDF-ed",
         "author": "Drummond Reed",
         "creationDate": "",
         "url": "https://docs.google.com/presentation/d/1mO1EZa9BcjAjWEzw7DWi124uMfyNyDeM3HuajsGNoTo/",
@@ -47,7 +22,8 @@
         "type": "",
         "pageTitle": "ACDC for Muggles",
         "firstHeadingBeforeElement": "",
-        "mediaType": "Google Docs"
+        "mediaType": "Google Docs",
+        "category": "Presentation"
     },
     {
         "siteName": "PDF-ed",
@@ -72,7 +48,8 @@
         "type": "",
         "pageTitle": "KERI: Facilitating secure data flows in an auditable supply chain",
         "firstHeadingBeforeElement": "",
-        "mediaType": "Google Docs"
+        "mediaType": "Google Docs",
+        "category": "Presentation"
     },
     {
         "siteName": "PDF-ed",
@@ -97,7 +74,8 @@
         "type": "",
         "pageTitle": "You control, therefore you are, and you get to decide",
         "firstHeadingBeforeElement": "",
-        "mediaType": "Google Docs"
+        "mediaType": "Google Docs",
+        "category": "Presentation"
     },
     {
         "siteName": "PDF-ed",
@@ -122,7 +100,8 @@
         "type": "",
         "pageTitle": "DIDComm Mythconceptions",
         "firstHeadingBeforeElement": "",
-        "mediaType": "Google Docs"
+        "mediaType": "Google Docs",
+        "category": "Presentation"
     },
     {
         "siteName": "PDF-ed",
@@ -147,7 +126,8 @@
         "type": "",
         "pageTitle": "Keridemlia: Discovery for KERI",
         "firstHeadingBeforeElement": "",
-        "mediaType": "Google Docs"
+        "mediaType": "Google Docs",
+        "category": "Presentation"
     },
     {
         "siteName": "PDF-ed",
@@ -172,6 +152,7 @@
         "type": "",
         "pageTitle": "CESR for First Year Wizards",
         "firstHeadingBeforeElement": "",
-        "mediaType": "Google Docs"
+        "mediaType": "Google Docs",
+        "category": "Presentation"
     }
 ]
