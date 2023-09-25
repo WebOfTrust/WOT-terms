@@ -950,7 +950,7 @@ svg a {
 /* Default settings for images */
 article .markdown img,
 /* images in search results also need a shadow */
-#hits img {
+#hits .card-body img {
   width: 100%;
 
   /* Since images often contain text, it is important to show where the image ends */
