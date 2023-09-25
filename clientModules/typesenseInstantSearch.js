@@ -219,6 +219,8 @@ const typeSenseInstantSearch = () => {
           }
           // END "Postprocess" the content
 
+          // Only if curated is true, show it
+          let itemCurated = item.curated === true ? `<p role="alert" class='alert alert-info text-center p-1 d-inline fs-6'><small class="">Curated</small></p>` : '';
 
           // Only if siteName is not empty, show it
           let itemSiteNameTemplateString = item.siteName !== '' ? `${item._highlightResult.siteName.value}` : '';
@@ -270,7 +272,7 @@ const typeSenseInstantSearch = () => {
           return `
 <div class="card border-secondary mt-5 scroll-shadows" data-typesense-id="${item.id}">
   <div class="card-header ${siteBrandingClass}">
-    Found on: ${itemSiteNameTemplateString}
+    ${itemCurated}<p class="d-inline"> Found on: ${itemSiteNameTemplateString}</p>
   </div>
   <div class="card-body text-secondary">
         <div style="font-size: 0.9rem;">
@@ -324,7 +326,7 @@ const typeSenseInstantSearch = () => {
       },
       transformItems: (items) => {
         // hide the heading if there are no current refinements
-        document.querySelector("#current-refinements-list-heading").classList.add("d-none");
+        document.querySelector("#current-refinements-list-container").classList.add("d-none");
         const labelLookup = {
           content: 'Content',
           author: 'Author',
@@ -334,7 +336,7 @@ const typeSenseInstantSearch = () => {
         };
         const modifiedItems = items.map((item) => {
           // show the heading if there are current refinements
-          document.querySelector("#current-refinements-list-heading").classList.remove("d-none");
+          document.querySelector("#current-refinements-list-container").classList.remove("d-none");
           return {
             ...item,
             label: labelLookup[item.attribute] || '',
