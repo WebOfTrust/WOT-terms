@@ -38,6 +38,9 @@ const createConfig = async (filename) => {
     const repositoryName = parts[3];
     const branchName = parts[4];
 
+    // This way we can distinguish between whitepapers and code
+    const category = filename.includes('sitemap.githubcom.smithsamuelm.papers-master.xml') ? 'Whitepapers' : 'Code';
+
     return {
         sitemap: await createInput({
             sourceType: 'localXMLsitemap',
@@ -45,7 +48,7 @@ const createConfig = async (filename) => {
         }),
         siteName: `${repositoryOwner} / ${repositoryName}`,
         source: `${repositoryOwner} / ${repositoryName}`,
-        category: 'Code',
+        category: category,
         author: `${repositoryOwner}`,
         destinationFile: `search-index-typesense/search-index-entries/${repositoryOwner}-${repositoryName}.jsonl`,
         branch: branchName

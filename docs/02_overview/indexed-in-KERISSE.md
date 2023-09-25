@@ -1,5 +1,5 @@
 # Indexed in KERISSE
-<p id='index-created-timestamp'>Indexed at 22 September 2023 12:43:00</p>
+<p id='index-created-timestamp'>Indexed at 25 September 2023 16:44:19</p>
 <p id='index-created-page-count'>Number of indexed pages: 3297</p>
 <ol>
 <li><a href="https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79" target="_blank">https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79</a></li>
@@ -2590,7 +2590,6 @@
 <li><a href="https://readthedocs.org/accounts/password/reset/" target="_blank">https://readthedocs.org/accounts/password/reset/</a></li>
 <li><a href="https://readthedocs.org/accounts/signup/" target="_blank">https://readthedocs.org/accounts/signup/</a></li>
 <li><a href="https://readthedocs.org/accounts/signup/?next=%2Fsupport%2F" target="_blank">https://readthedocs.org/accounts/signup/?next=%2Fsupport%2F</a></li>
-<li><a href="https://readthedocs.org/api/v2/build/21562092.txt" target="_blank">https://readthedocs.org/api/v2/build/21562092.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21595970.txt" target="_blank">https://readthedocs.org/api/v2/build/21595970.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21665614.txt" target="_blank">https://readthedocs.org/api/v2/build/21665614.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21665618.txt" target="_blank">https://readthedocs.org/api/v2/build/21665618.txt</a></li>
@@ -2605,6 +2604,7 @@
 <li><a href="https://readthedocs.org/api/v2/build/21904109.txt" target="_blank">https://readthedocs.org/api/v2/build/21904109.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21929265.txt" target="_blank">https://readthedocs.org/api/v2/build/21929265.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21985757.txt" target="_blank">https://readthedocs.org/api/v2/build/21985757.txt</a></li>
+<li><a href="https://readthedocs.org/api/v2/build/22008437.txt" target="_blank">https://readthedocs.org/api/v2/build/22008437.txt</a></li>
 <li><a href="https://readthedocs.org/builds/keripy/?fromdocs=keripy" target="_blank">https://readthedocs.org/builds/keripy/?fromdocs=keripy</a></li>
 <li><a href="https://readthedocs.org/choosing-a-platform/" target="_blank">https://readthedocs.org/choosing-a-platform/</a></li>
 <li><a href="https://readthedocs.org/company/" target="_blank">https://readthedocs.org/company/</a></li>
@@ -2625,7 +2625,6 @@
 <li><a href="https://readthedocs.org/projects/keripy/" target="_blank">https://readthedocs.org/projects/keripy/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/?fromdocs=keripy" target="_blank">https://readthedocs.org/projects/keripy/?fromdocs=keripy</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/" target="_blank">https://readthedocs.org/projects/keripy/builds/</a></li>
-<li><a href="https://readthedocs.org/projects/keripy/builds/21562092/" target="_blank">https://readthedocs.org/projects/keripy/builds/21562092/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/21595970/" target="_blank">https://readthedocs.org/projects/keripy/builds/21595970/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/21665614/" target="_blank">https://readthedocs.org/projects/keripy/builds/21665614/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/21665618/" target="_blank">https://readthedocs.org/projects/keripy/builds/21665618/</a></li>
@@ -2640,6 +2639,7 @@
 <li><a href="https://readthedocs.org/projects/keripy/builds/21904109/" target="_blank">https://readthedocs.org/projects/keripy/builds/21904109/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/21929265/" target="_blank">https://readthedocs.org/projects/keripy/builds/21929265/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/21985757/" target="_blank">https://readthedocs.org/projects/keripy/builds/21985757/</a></li>
+<li><a href="https://readthedocs.org/projects/keripy/builds/22008437/" target="_blank">https://readthedocs.org/projects/keripy/builds/22008437/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/downloads/" target="_blank">https://readthedocs.org/projects/keripy/downloads/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/versions/" target="_blank">https://readthedocs.org/projects/keripy/versions/</a></li>
 <li><a href="https://readthedocs.org/projects/loopy/" target="_blank">https://readthedocs.org/projects/loopy/</a></li>
@@ -2765,6 +2765,7 @@
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/agency" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/agency</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/agent" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/agent</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/ambient-verifiability" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/ambient-verifiability</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/ample" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/ample</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/append-only-event-logs" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/append-only-event-logs</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/application-programming-interface" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/application-programming-interface</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/authentic-chained-data-container" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/authentic-chained-data-container</a></li>
@@ -2798,7 +2799,6 @@
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/byzantine-fault-tolerance" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/byzantine-fault-tolerance</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/certificate-transparency" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/certificate-transparency</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/cesr-proof-signatures" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/cesr-proof-signatures</a></li>
-<li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/cesride" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/cesride</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/chain-link-confidentiality" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/chain-link-confidentiality</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/chain-of-custody" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/chain-of-custody</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/cigar" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/cigar</a></li>
@@ -2816,7 +2816,6 @@
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/composable" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/composable</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/composable-event-streaming-representation" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/composable-event-streaming-representation</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/concatenation" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/concatenation</a></li>
-<li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/concise-binary-object-representation" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/concise-binary-object-representation</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/configuration-files" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/configuration-files</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/consensus-mechanism" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/consensus-mechanism</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/content-addressable-hash" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/content-addressable-hash</a></li>
@@ -3083,6 +3082,7 @@
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/solicited-issuance" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/solicited-issuance</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/source-of-truth" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/source-of-truth</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/spanning-layer" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/spanning-layer</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/spurn" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/spurn</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/ssi-system" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/ssi-system</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/strip-parameter" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/strip-parameter</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/sub-shell" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/sub-shell</a></li>
