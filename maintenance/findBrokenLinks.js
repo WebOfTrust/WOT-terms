@@ -133,9 +133,9 @@ const siteChecker = new SiteChecker({}, {
                 repo: 'WOT-terms',
                 title: issueData.title,
                 body: issueData.body,
-                labels: [
-                    'bug'
-                ],
+                // labels: [
+                //     'bug'
+                // ],
                 headers: {
                     'X-GitHub-Api-Version': '2022-11-28'
                 }
