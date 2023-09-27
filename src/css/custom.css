@@ -1083,3 +1083,16 @@ article .markdown .inline-medium-end,
 /* 
   End Horizontal scrollable navbar in search results
 */
+
+
+/* 
+  Realtime scraping
+*/
+.realtime ul li {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* 
+  End Realtime scraping
+*/
