@@ -17,10 +17,24 @@ node search-index-typesense/createSitemap.mjs --url https://signifypy.readthedoc
 # How to use:
 # node search-index-typesense/createSitemapGithub.mjs <repository-owner> <repository-name> <branch-name> <sitemap-directory>
 
+# Trust over IP
 node search-index-typesense/createSitemapGithub.mjs trustoverip tswg-acdc-specification main search-index-typesense/sitemaps
 node search-index-typesense/createSitemapGithub.mjs trustoverip tswg-did-method-webs-specification main search-index-typesense/sitemaps
+node search-index-typesense/createSitemapGithub.mjs trustoverip tswg-cesr-specification main  search-index-typesense/sitemaps
+node search-index-typesense/createSitemapGithub.mjs trustoverip tswg-cesr-proof-specification main  search-index-typesense/sitemaps
+node search-index-typesense/createSitemapGithub.mjs trustoverip tswg-oobi-specification main  search-index-typesense/sitemaps
+node search-index-typesense/createSitemapGithub.mjs trustoverip tswg-ipex-specification main  search-index-typesense/sitemaps
+node search-index-typesense/createSitemapGithub.mjs trustoverip tswg-acdc-specification-archived main  search-index-typesense/sitemaps
+node search-index-typesense/createSitemapGithub.mjs trustoverip acdc main  search-index-typesense/sitemaps
+node search-index-typesense/createSitemapGithub.mjs trustoverip TSS0033-technology-stack-acdc main  search-index-typesense/sitemaps
+node search-index-typesense/createSitemapGithub.mjs trustoverip tswg-keri-specification main  search-index-typesense/sitemaps
+node search-index-typesense/createSitemapGithub.mjs trustoverip tswg-ptel-specification main  search-index-typesense/sitemaps
+node search-index-typesense/createSitemapGithub.mjs trustoverip keri main  search-index-typesense/sitemaps
 
+# Sam Smith
 node search-index-typesense/createSitemapGithub.mjs SmithSamuelM Papers master search-index-typesense/sitemaps
+
+# WebOfTrust
 node search-index-typesense/createSitemapGithub.mjs WebOfTrust cardano-backer main search-index-typesense/sitemaps
 node search-index-typesense/createSitemapGithub.mjs WebOfTrust cesride main search-index-typesense/sitemaps
 node search-index-typesense/createSitemapGithub.mjs WebOfTrust cesrpy main search-index-typesense/sitemaps
