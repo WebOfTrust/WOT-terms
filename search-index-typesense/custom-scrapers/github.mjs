@@ -3,6 +3,21 @@ import scrape from '../modules/scrape.mjs';
 
 // List of sitemap files
 const sitemapFiles = [
+    'sitemap-keria.readthedocs.io.xml',
+    'sitemap-keripy.readthedocs.io.xml',
+    'sitemap-signifypy.readthedocs.io.xml',
+    'sitemap.githubcom.trustoverip.acdc-main.xml',
+    'sitemap.githubcom.trustoverip.keri-main.xml',
+    'sitemap.githubcom.trustoverip.tss0033-technology-stack-acdc-main.xml',
+    'sitemap.githubcom.trustoverip.tswg-acdc-specification-archived-main.xml',
+    'sitemap.githubcom.trustoverip.tswg-acdc-specification-main.xml',
+    'sitemap.githubcom.trustoverip.tswg-cesr-proof-specification-main.xml',
+    'sitemap.githubcom.trustoverip.tswg-cesr-specification-main.xml',
+    'sitemap.githubcom.trustoverip.tswg-did-method-webs-specification-main.xml',
+    'sitemap.githubcom.trustoverip.tswg-ipex-specification-main.xml',
+    'sitemap.githubcom.trustoverip.tswg-keri-specification-main.xml',
+    'sitemap.githubcom.trustoverip.tswg-oobi-specification-main.xml',
+    'sitemap.githubcom.trustoverip.tswg-ptel-specification-main.xml',
     'sitemap.githubcom.smithsamuelm.papers-master.xml',
     'sitemap.githubcom.weboftrust.cardano-backer-main.xml',
     'sitemap.githubcom.weboftrust.cesride-main.xml',
