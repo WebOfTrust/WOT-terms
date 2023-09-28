@@ -1088,11 +1088,12 @@ article .markdown .inline-medium-end,
 /* 
   Realtime scraping
 */
-.realtime ul li {
+/* Shorten text and add ellipses */
+/* .realtime ul li {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
+} */
 /* 
   End Realtime scraping
 */
