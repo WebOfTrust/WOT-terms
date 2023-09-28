@@ -4,7 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
+import RealtimeScraper from '@site/src/components/realtimeScraper';
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -27,6 +27,7 @@ function HomepageHeader() {
             START
           </Link>
         </div>
+        <RealtimeScraper />
       </div>
     </header>
   );
