@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Masonry from 'masonry-layout';
 import cheerio from 'cheerio';
-import paths from "../../../docusaurus.paths";
+// import paths from "../../../docusaurus.paths";
 
 // Function to fetch GitHub commits and issues based on given URLs
 function fetchGitHubCommitsAndIssues(urls, callback) {
@@ -204,42 +204,42 @@ const fetchData = (url, callback) => {
   }
 };
 
-function fetchIndexInfo() {
-  // Fetching the HTML content
-  fetch(paths.indexedInKERISSE)
-    .then(response => response.text())
-    .then(html => {
-      // Parsing the fetched HTML string into a DOM object
-      const parser = new DOMParser();
-      const doc = parser.parseFromString(html, 'text/html');
+// function fetchIndexInfo() {
+//   // Fetching the HTML content
+//   fetch(paths.indexedInKERISSE)
+//     .then(response => response.text())
+//     .then(html => {
+//       // Parsing the fetched HTML string into a DOM object
+//       const parser = new DOMParser();
+//       const doc = parser.parseFromString(html, 'text/html');
 
-      // Finding the paragraph elements by their id's
-      const timestampElement = doc.querySelector('#index-created-timestamp');
-      const pageCountElement = doc.querySelector('#index-created-page-count');
+//       // Finding the paragraph elements by their id's
+//       const timestampElement = doc.querySelector('#index-created-timestamp');
+//       const pageCountElement = doc.querySelector('#index-created-page-count');
 
-      if (timestampElement) {
-        // Extracting and logging the content of the paragraph
-        const timestampContent = timestampElement.textContent;
-        document.querySelector('#index-created-timestamp').textContent = timestampContent;
-      } else {
-        console.log('Element with id "index-created-timestamp" not found.');
-      }
+//       if (timestampElement) {
+//         // Extracting and logging the content of the paragraph
+//         const timestampContent = timestampElement.textContent;
+//         document.querySelector('#index-created-timestamp').textContent = timestampContent;
+//       } else {
+//         console.log('Element with id "index-created-timestamp" not found.');
+//       }
 
-      if (pageCountElement) {
-        // Extracting and logging the content of the paragraph
-        const pageCountContent = pageCountElement.textContent;
-        document.querySelector('#index-created-page-count').textContent = pageCountContent;
-      } else {
-        console.log('Element with id "index-created-page-count" not found.');
-      }
-    })
-    .catch(error => {
-      console.error(`Error fetching the content: ${error}`);
-    });
-  // END TIMESTAMP
+//       if (pageCountElement) {
+//         // Extracting and logging the content of the paragraph
+//         const pageCountContent = pageCountElement.textContent;
+//         document.querySelector('#index-created-page-count').textContent = pageCountContent;
+//       } else {
+//         console.log('Element with id "index-created-page-count" not found.');
+//       }
+//     })
+//     .catch(error => {
+//       console.error(`Error fetching the content: ${error}`);
+//     });
+//   // END TIMESTAMP
 
 
-}
+// }
 
 const RealTimeScraping = () => {
   const [data1, setData1] = useState(null);
