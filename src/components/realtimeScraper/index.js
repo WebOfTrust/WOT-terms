@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-// import Masonry from 'masonry-layout';
-
 
 const urlsGithub = [
   'https://github.com/WebOfTrust/keripy',
@@ -94,7 +92,6 @@ const IIW = () => {
     const fetchFromProxy = async () => {
       const response = await fetchData('https://internetidentityworkshop.com/schedule/');
       const doc = initializeDOMparser(response);
-      console.log('doc: ', doc);
 
       let selection;
       if (typeof window !== 'undefined' && typeof document !== 'undefined') {
