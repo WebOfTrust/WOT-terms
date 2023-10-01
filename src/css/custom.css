@@ -1031,19 +1031,28 @@ article .markdown .inline-medium-end,
   cursor: pointer;
 }
 
-.full-page-image {
-  border: 1px solid #111;
-  background: #eee;
+.image-container-full-page img {
+  margin: auto;
+  object-fit: contain;
+}
+
+.image-container-full-page {
+  z-index: 1041;
+  background: white;
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  max-width: calc(100% - 10px);
-  max-height: calc(100% - 10px - 1em);
-  margin: auto;
-  object-fit: contain;
-  z-index: calc(var(--ifm-z-index-fixed) + 1);
+  width: 100vw;
+  height: 100vh;
+}
+
+.image-container-full-page::after {
+  content: '×';  /* Unicode character for multiplication sign, resembles a cross */
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 48px;
+  cursor: pointer; /* Makes it obvious the element is clickable */
 }
 /* End full page images */
 
