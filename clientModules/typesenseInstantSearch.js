@@ -99,7 +99,7 @@ const typeSenseInstantSearch = () => {
       // sort_by: 'imgWidth:desc,contentLength:desc,imgUrl(missing_values: last):desc',//asc or desc
       sort_by: 'imgWidth:desc,imgUrl(missing_values: last):desc',//asc or desc
       group_by: 'url',
-      group_limit: 2
+      group_limit: 1
     },
   });
   const searchClient = typesenseInstantsearchAdapter.searchClient;
