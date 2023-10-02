@@ -109,6 +109,12 @@ const config = {
             position: 'left',
             label: 'For contributors to this website',
           },
+          {
+            type: 'doc',
+            docId: 'concepts/how-to',
+            position: 'left',
+            label: 'How-to',
+          },
           // {
           //   to: '/visualisations',
           //   label: 'Visualisations',
