@@ -1044,6 +1044,7 @@ article .markdown .inline-medium-end,
   left: 0;
   width: 100vw;
   height: 100vh;
+  overflow: scroll;
 }
 
 .image-container-full-page::after {
