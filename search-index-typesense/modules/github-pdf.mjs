@@ -2,8 +2,39 @@
   Author: Kor Dwarshuis
   Created: 2023-08
   Updated: -
-  Description: Scrape PDF's on Github using puppeteer and Tesseract.
+  Description: 
+    This script performs PDF scraping from a given GitHub repository using Puppeteer and OCR (Optical Character Recognition) via Tesseract.js.
+    
+    Functions and Procedures:
+    
+    1. `githubPDF(page, pageUrl)`:
+        - Main function that initiates the scraping process.
+        - Takes a puppeteer page object and the URL of the GitHub page where the PDF is located.
+        
+    2. `extractRepoNameFromGithubURL(url)`:
+        - Extracts and returns the repository name from a GitHub URL.
+        
+    3. `areMorePagesAvailable(page)`:
+        - Checks whether more PDF pages are available for scraping on the GitHub page.
+        
+    4. `clickMorePagesButton(page)`:
+        - Clicks the "More pages" button on the GitHub page to load additional PDF pages.
+        
+    Flow of Execution:
+    
+    - The script navigates to the GitHub page containing the PDF.
+    - It waits for an iframe to load that contains the PDF.
+    - Clicks the "More Pages" button until all PDF pages are visible.
+    - Takes a screenshot of each PDF page (rendered in a canvas element).
+    - Performs OCR on each screenshot using Tesseract.js to convert images to text.
+    - Returns the OCR text and the repository name.
+    
+    Logging:
+    
+    - Any errors encountered are logged into 'error.log'.
+    - OCR progress and other information are logged into 'success.log'.
 */
+
 
 import Tesseract from 'tesseract.js';
 import { createWorker } from 'tesseract.js';
@@ -32,19 +63,16 @@ export async function githubPDF(page, pageUrl) {
         }
     }
 
-    // PDF on github are shown in an iframe. So we need to navigate to the iframe's source to scrape the PDF.  
-    // There is only one iframe on the page, so we can use page.$eval to get the iframe's source
+
+
+    // Wait for iframe to be loaded
+    await page.waitForSelector('iframe');
+
     // Extract the 'src' attribute from the iframe
     const iframeSrc = await page.$eval('iframe', frame => frame.src);
     let mainContent = [];
 
-    // // Tesseract via Worker part 1 - create the worker
-    // const worker = await createWorker({
-    //     logger: m => console.log(m)
-    // });
-
-
-    // Now navigate to the iframe's source
+    // Navigate to the iframe's source
     await page.goto(iframeSrc, {
         waitUntil: 'networkidle2'
     });
@@ -57,22 +85,38 @@ export async function githubPDF(page, pageUrl) {
         return !(await page.$eval(selector, (el, className) => el.classList.contains(className), className));
     }
 
+
+
+
+
+
+
     // Repeatedly click the "More pages" button until all pages are loaded
     let morePagesToLoad = await areMorePagesAvailable(page);
 
     // Function to check for the "More pages" button and click it
-    // Run at least once, since if there was nothing, we would not be here
     const clickMorePagesButton = async (page) => {
         if (morePagesToLoad) {
+            // Wait for the "More pages" button to be visible
+            try {
+                await page.waitForSelector('#js-click-for-more', { visible: true, timeout: 60000 });
+            } catch (err) {
+                logger.setLogFile('error.log');
+                logger.log('Could not find #js-click-for-more: ' + err.message);
+                // Exit or continue based on your logic
+            }
+
             const button = await page.$('#js-click-for-more');
-            await button.click();
-            console.log("More pages button clicked");
-            await page.waitForTimeout(1000); // Wait for 1 second to allow pages to load. Adjust as necessary.
-            morePagesToLoad = await areMorePagesAvailable(page);
-        } else {
-            return;
+            if (button) {
+                await button.click();
+                console.log("More pages button clicked");
+                await page.waitForTimeout(1000);
+                morePagesToLoad = await areMorePagesAvailable(page);
+            } else {
+                console.log("'More pages' button not found");
+            }
         }
-    }
+    };
 
     while (morePagesToLoad) {
         await clickMorePagesButton(page);
@@ -110,7 +154,6 @@ export async function githubPDF(page, pageUrl) {
             logger.log('Error:' + err);
         }
     }
-
 
 
     // // Tesseract via Worker part 3 - close the worker

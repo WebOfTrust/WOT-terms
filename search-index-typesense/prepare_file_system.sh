@@ -7,6 +7,10 @@
 # Description: This script prepares the file system for the search-index-typesense project. It creates the necessary directories and files. It also removes the old files and directories. This script is meant to be run before the other scripts. 
 
 
+
+# Import variables from .env file
+source .env
+
 # Set the directory path
 dir_path="search-index-typesense"
 
@@ -39,36 +43,8 @@ mkdir "${dir_path}/sitemaps"
 
 
 
-
-
-
-
 ### INDEXED-IN-KERISSE.MD ###
 # Remove and recreate the index file where all the indexed websites are listed
 rm -rf "$INDEX_OVERVIEW_FILE"
 touch "$INDEX_OVERVIEW_FILE"
-echo "# Indexed in KERISSE" > "$INDEX_OVERVIEW_FILE"
-
-# Create a line that shows the date and time when the index file was created
-# Get individual date components
-hour=$(date '+%H')
-minute=$(date '+%M')
-month=$(date '+%B')
-day=$(date '+%d')
-year=$(date '+%Y')
-
-# Determine the suffix for the day (st, nd, rd, or th)
-case "$day" in
-  1|21|31) suffix="st";;
-  2|22) suffix="nd";;
-  3|23) suffix="rd";;
-  *) suffix="th";;
-esac
-
-# Construct the complete date string
-timestamp="${hour}:${minute}, on ${month} ${day}${suffix}, ${year}"
-
-# Echo the timestamp into the file
-echo "<p id='index-created-timestamp'>Indexed at $timestamp</p>" >> "$INDEX_OVERVIEW_FILE"
-
 

@@ -24,18 +24,23 @@ function scrollToMarkElementInPre() {
 
       // Scroll the parent <pre> horizontally
       pre.scrollLeft = scrollOffset;
-
-      // Add a random arrow to the <mark> element. A little bit of fun. Check the css file for the arrow variants.
-      const variant = Math.floor(Math.random() * 4) + 1;
-      mark.className = '';
-      mark.classList.add('arrow-variant' + variant);
     }
 
   });
 }
 
+function addRandomArrowClassToMarkElement() {
+  const markElements = document.querySelectorAll('mark');
 
-const scrollHorizontallyToKeyWordInSearchResults = () => {
+  markElements.forEach(item => {
+    // Add a random arrow to the <mark> element. A little bit of fun. Check the css file for the arrow variants.
+    const variant = Math.floor(Math.random() * 19) + 1;
+    item.className = '';
+    item.classList.add('variation' + variant);
+  });
+}
+
+const makeKeywordsStandOut = () => {
   // Select the node that you want to observe
   const targetNode = document.getElementById('hits'); // Works, presumable because it's harcoded in the html
   // const targetNode = document.querySelector('.ais-Hits-list');// Does not work
@@ -46,6 +51,7 @@ const scrollHorizontallyToKeyWordInSearchResults = () => {
       if (mutation.type == 'childList') {
         // console.log('Content of the target node has changed.');
         scrollToMarkElementInPre();
+        addRandomArrowClassToMarkElement();
       }
     }
   });
@@ -63,13 +69,11 @@ const scrollHorizontallyToKeyWordInSearchResults = () => {
 
   // Later, you can stop observing
   // observer.disconnect();
-
-
 };
 
 export function onRouteDidUpdate({ location, previousLocation }) {
   // Don't execute if we are still on the same page; the lifecycle may be fired
   // because the hash changes (e.g. when navigating between headings)
   // if (location.pathname === previousLocation?.pathname) return;
-  scrollHorizontallyToKeyWordInSearchResults();
+  makeKeywordsStandOut();
 }

@@ -10,6 +10,7 @@ const config = {
     }),
     siteName: 'kentbull.com blog',
     source: 'Blogposts',
+    category: 'Blogs',
     author: 'Kent Bull',
     destinationFile: 'search-index-typesense/search-index-entries/kentbull.com.jsonl',
     domQueryForContent: 'article p, article h1, article h2, article h3, article h4, article h5, article h6, article li, article img, article pre, article code'

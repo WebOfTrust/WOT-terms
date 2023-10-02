@@ -33,7 +33,8 @@ export default function createOutput(input) {
       type: input.type || 'No type specified',
       pageTitle: input.pageTitle || 'No title specified',
       firstHeadingBeforeElement: element.firstHeadingBeforeElement || '',
-      mediaType: input.mediaType || 'No file type specified'
+      mediaType: input.mediaType || 'No file type specified',
+      category: input.category || 'No category type specified'
     };
 
     strEntries += JSON.stringify(entry) + '\n';

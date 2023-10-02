@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /*
   Author: Kor Dwarshuis
   Created: 2023
@@ -6,7 +8,7 @@
 
     Markdown to Bootstrap Accordion Converter
     
-    This script automates the conversion of Markdown files in the './docs/CarbonCopies/' directory into Bootstrap accordion format.
+    This script automates the conversion of Markdown files in the directoryPath directory into Bootstrap accordion format.
     It imports a JSON file named 'externalContentMetaData.json' to create a mapping of anchor tags to 'Level' attributes, which 
     are then used as data attributes in the generated Bootstrap accordions.
     
@@ -29,12 +31,13 @@
 
 const fs = require('fs');
 const path = require('path');
+require('dotenv').config();
 
 // Directory path
-const directoryPath = './docs/08_carbon-copies/';
+const directoryPath = process.env.CARBON_COPIES_OUTPUT_DIR;
 
-// Import external JSON object
-const externalContentMetaData = require(path.join(__dirname, '../../static/json/externalContentMetaData.json'));
+// Import external JSON object TODO: fix the way the path is constructed
+const externalContentMetaData = require(path.join(__dirname, '../.' + process.env.CARBON_COPIES_INPUT_DIR));
 
 
 // Create mapping from the imported JSON

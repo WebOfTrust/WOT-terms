@@ -6,22 +6,35 @@
   Description: This plugin creates the DOM elements for the Typesense search box and search results. The DOM elements for the search hits are in the main Typesense InstantSearch plugin code.
 */
 
+import paths from "../docusaurus.paths";
+
 const typesenseInstantSearchCreateDomElements = () => {
    const domStringSearchStart = `<button id="search-start">🔍</button>`;
    const domStringSearchResult = `
 <div class="search-modal-backdrop hidden"></div>
 <div id="search" class="container p-3 hidden" style="max-width: 70em;">
 <h1 class="search-heading text-center fs-5">KERI Suite Search Engine (KERISSE)</h1>
-<p class='text-center' id='index-created-timestamp'>-</p>
+<p class='text-center'><span id='index-created-timestamp'>–</span>, <span id='index-created-page-count'>–</span></p>
    <div id="search-box" class="mt-3 mb-2"></div>
    <div id="search-close">✖</div>
    <a href="#search-results" class="btn btn-light btn-sm mt-3 mb-3 d-block d-md-none">To search results</a>
-   <p id="example-search-terms" class="mt-4 text-center"><small>Try:
+   <!--<p id="example-search-terms" class="mt-4 text-center"><small>Try:
       <a role="button" class="clickable-search-term btn btn-outline-secondary btn-sm d-inline">Keri</a> 
       <a role="button" class="clickable-search-term btn btn-outline-secondary btn-sm d-inline">ACDC</a> 
       <a role="button" class="clickable-search-term btn btn-outline-secondary btn-sm d-inline">Trust over IP</a>
-      <a role="button" class="clickable-search-term btn btn-outline-secondary btn-sm d-inline">LEI</a></small>
-   </p>
+   </p>-->
+
+   <nav class="bg-light scrollable-navbar">
+   <ul class="nav nowrap">
+      <li class="nav-item">
+         <a target="_blank" rel="noopener" class="" href="https://github.com/WebOfTrust/keri">Keri on Github</a>
+      </li>
+      <li class="nav-item">
+         <a target="_blank" rel="noopener" class="" href="https://keri.one/keri-resources/">Keri.one</a>
+      </li>
+   </ul>
+   </nav>
+
    <div class="container mt-3">
 
    <!-- Column with refinement filters -->
@@ -37,6 +50,20 @@ const typesenseInstantSearchCreateDomElements = () => {
          </div>
          
          <div class="" id="filters-section">
+            <!--
+            <h3 class="mt-1">Sort</h3>
+            <div id="sort-by"></div>
+            -->
+
+            <div id="current-refinements-list-container">
+               <h3 id="current-refinements-list-heading" class="mt-1 fs-6">Current refinements</h3>
+               <div id="current-refinements-list" class="fs-6"></div>
+               <hr>
+            </div>
+
+            <h3 class="mt-1">Category</h3>
+            <div id="category-refinement-list"></div>
+
             <h3 class="mt-1">Source</h3>
             <div id="source-refinement-list"></div>
             
@@ -45,7 +72,7 @@ const typesenseInstantSearchCreateDomElements = () => {
 
             <h3 class="mt-5">File type</h3>
             <div id="media-type-refinement-list"></div>
-
+            <!--
             <h3 class="mt-5">Knowledge Level</h3>
             <div id="knowledgelevel-refinement-list"></div>
             
@@ -54,6 +81,7 @@ const typesenseInstantSearchCreateDomElements = () => {
             
             <h3 class="mt-5">Subject</h3>
             <div id="subject-refinement-list"></div>
+            -->
          </div>           
       </div>
       <!-- Column with search results -->
@@ -95,17 +123,17 @@ const typesenseInstantSearchCreateDomElements = () => {
       If the element is found, its text content is added to the search result page; otherwise, an appropriate message indicating the absence of such an element is logged.
    */
 
-
    // Fetching the HTML content
-   fetch('/WOT-terms/docs/overview/indexed-in-KERISSE/')
+   fetch(paths.indexedInKERISSE)
       .then(response => response.text())
       .then(html => {
          // Parsing the fetched HTML string into a DOM object
          const parser = new DOMParser();
          const doc = parser.parseFromString(html, 'text/html');
 
-         // Finding the paragraph element by its id
+         // Finding the paragraph elements by their id's
          const timestampElement = doc.querySelector('#index-created-timestamp');
+         const pageCountElement = doc.querySelector('#index-created-page-count');
 
          if (timestampElement) {
             // Extracting and logging the content of the paragraph
@@ -113,6 +141,14 @@ const typesenseInstantSearchCreateDomElements = () => {
             document.querySelector('#index-created-timestamp').textContent = timestampContent;
          } else {
             console.log('Element with id "index-created-timestamp" not found.');
+         }
+
+         if (pageCountElement) {
+            // Extracting and logging the content of the paragraph
+            const pageCountContent = pageCountElement.textContent;
+            document.querySelector('#index-created-page-count').textContent = pageCountContent;
+         } else {
+            console.log('Element with id "index-created-page-count" not found.');
          }
       })
       .catch(error => {

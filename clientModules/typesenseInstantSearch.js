@@ -8,6 +8,9 @@
 
 import instantsearch from 'instantsearch.js/es';
 
+// to be uaed in the future
+// import { queriesWithSortAdjustment } from '/search-index-typesense/overrides/sortAdjustment.js';
+
 import {
   searchBox,
   hits,
@@ -17,10 +20,10 @@ import {
   // stats,
   // analytics,
   refinementList,
-  clearRefinements
+  clearRefinements,
   // menu,
   // sortBy,
-  // currentRefinements,
+  currentRefinements,
 } from 'instantsearch.js/es/widgets';
 
 import TypesenseInstantSearchAdapter from 'typesense-instantsearch-adapter';
@@ -41,6 +44,32 @@ const typeSenseInstantSearch = () => {
   document.querySelectorAll('.clickable-search-term').forEach((el) => {
     el.addEventListener('click', handleSearchTermClick);
   });
+
+  // to be uaed in the future
+  // function applyCustomSorting(items) {
+  //   console.log('items: ', items);
+  //   const currentQuery = search.helper.state.query;
+
+  //   const matchingQueryObj = queriesWithSortAdjustment.find(
+  //     (obj) => obj.queryString === currentQuery
+  //   );
+
+  //   if (matchingQueryObj) {
+  //     const sortAdjustment = matchingQueryObj.sortAdjustment;
+  //     const urlSubstring = matchingQueryObj.urlSubstring;
+
+  //     return items.map((item) => {
+  //       item.sort_order = item.url && item.url.includes(urlSubstring) ? sortAdjustment : 0;
+  //       return item;
+  //     }).sort((a, b) => b.sort_order - a.sort_order);
+  //   }
+
+  //   return items;
+  // }
+
+
+
+
 
   const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
     server: {
@@ -70,7 +99,7 @@ const typeSenseInstantSearch = () => {
       // sort_by: 'imgWidth:desc,contentLength:desc,imgUrl(missing_values: last):desc',//asc or desc
       sort_by: 'imgWidth:desc,imgUrl(missing_values: last):desc',//asc or desc
       group_by: 'url',
-      group_limit: 2
+      group_limit: 1
     },
   });
   const searchClient = typesenseInstantsearchAdapter.searchClient;
@@ -120,18 +149,25 @@ const typeSenseInstantSearch = () => {
     }),
     hits({
       container: '#hits',
+
+      // to be uaed in the future
+      // transformItems(items) {
+      //   let sortedItems = applyCustomSorting(items);
+      //   return sortedItems;
+      // },
       templates: {
         item(item) {
-          /*
-          Sometimes code blocks are very long and they take up a lot of space in the search results.
-          
-          This function takes a string as input and returns a modified version of the string.
-          It finds the first occurrence of the <marker> tag and the </marker> tag in the input string.
-          Then, it extracts a substring that includes 100 characters before the first <marker> and 100 characters after the first </marker>.
-          The extracted substring is wrapped in an HTML <span> element with the class "highlighted".
-          If either the <marker> tag or the </marker> tag is not found, the function returns the original string unchanged.
-          */
           function makeCodeStringShorter(string) {
+            /*
+            Sometimes code blocks are very long and they take up a lot of space in the search results.
+            
+            This function takes a string as input and returns a modified version of the string.
+            It finds the first occurrence of the <marker> tag and the </marker> tag in the input string.
+            Then, it extracts a substring that includes 100 characters before the first <marker> and 100 characters after the first </marker>.
+            The extracted substring is wrapped in an HTML <span> element with the class "highlighted".
+            If either the <marker> tag or the </marker> tag is not found, the function returns the original string unchanged.
+            */
+
             // Find the index of the first occurrence of <marker> and </marker> in the string
             let firstMarkerTagIndex = string.indexOf('<mark>');
             let lastMarkerTagIndex = string.indexOf('</mark>');
@@ -183,6 +219,8 @@ const typeSenseInstantSearch = () => {
           }
           // END "Postprocess" the content
 
+          // Only if curated is true, show it
+          let itemCurated = item.curated === true ? `<p role="alert" class='alert alert-info text-center p-1 d-inline fs-6'><small class="">Sticky</small></p>` : '';
 
           // Only if siteName is not empty, show it
           let itemSiteNameTemplateString = item.siteName !== '' ? `${item._highlightResult.siteName.value}` : '';
@@ -233,10 +271,12 @@ const typeSenseInstantSearch = () => {
           }
           return `
 <div class="card border-secondary mt-5 scroll-shadows" data-typesense-id="${item.id}">
-    <div class="card-header ${siteBrandingClass}">Found on: ${itemSiteNameTemplateString}</div>
-    <div class="card-body text-secondary">
+  <div class="card-header ${siteBrandingClass}">
+    ${itemCurated}<p class="d-inline"> Found on: ${itemSiteNameTemplateString}</p>
+  </div>
+  <div class="card-body text-secondary">
         <div style="font-size: 0.9rem;">
-            <a class="" href="${item.url}" ${openInNewTab}>${item._highlightResult.url.value}</a>
+            <a class="search-hit-url btn btn-outline-primary mb-2" href="${item.url}" ${openInNewTab}>${item._highlightResult.url.value}</a>
             ${itemAuthorTemplateString}
             ${itemCreationDateTemplateString}
             ${itemKnowledgeLevelTemplateString}
@@ -248,14 +288,18 @@ const typeSenseInstantSearch = () => {
         ${itemFirstHeadingBeforeElementTemplateString}
 
         ${postProcessedOpeningTag}
-          <a class="stretched-link text-secondary" href="${item.url}" ${openInNewTab}>${postProcessedCode}</a>
+          ${postProcessedCode}
         ${postProcessedClosingTag}
 
         ${itemImgUrlTemplateString}
         ${itemImgMetaTemplateString}
-    </div>
   </div>
-  <a href="#search-close" class="btn btn-light btn-sm mt-3 mb-3 d-block d-md-none">To search box</a>
+  <div class="card-footer p-3">
+    <a href="#search-close" class="btn btn-outline-secondary d-inline btn-sm align-self-start p-2">to search</a>
+    <a class="btn btn-outline-primary d-inline btn-sm align-self-start p-2" href="${item.url}">to URL</a>
+    <button type="button" class="btn btn-outline-secondary d-inline align-self-end p-1 upvote">upvote ↑</button>
+  </div>
+</div>
       `;
         },
       },
@@ -273,14 +317,114 @@ const typeSenseInstantSearch = () => {
         button: 'btn btn-secondary btn-sm align-content-center mb-5 mt-3'
       }
     }),
+    currentRefinements({
+      container: '#current-refinements-list',
+      cssClasses: {
+        list: 'list-unstyled',
+        item: '',
+        delete: 'btn btn-sm btn-link text-decoration-none p-0 px-2',
+      },
+      transformItems: (items) => {
+        // hide the heading if there are no current refinements
+        document.querySelector("#current-refinements-list-container").classList.add("d-none");
+        const labelLookup = {
+          content: 'Content',
+          author: 'Author',
+          category: 'Category',
+          source: 'Source',
+          mediaType: 'File type',
+        };
+        const modifiedItems = items.map((item) => {
+          // show the heading if there are current refinements
+          document.querySelector("#current-refinements-list-container").classList.remove("d-none");
+          return {
+            ...item,
+            label: labelLookup[item.attribute] || '',
+          };
+        });
+        return modifiedItems;
+      },
+    }),
+    // Currently not useful
+    // sortBy({
+    //   container: '#sort-by',
+    //   items: [
+    //     { label: 'Default Sort', value: 'Wot-terms' },
+    //     { label: 'Content Length: Low to High', value: 'Wot-terms/sort/contentLength:asc' },
+    //     { label: 'Content Length: High to Low', value: 'Wot-terms/sort/contentLength:desc' },
+    //   ],
+    //   cssClasses: {
+    //     select: 'form-select form-select-sm mb-2 border-light-2',
+    //   },
+    // }),
 
+    // // KNOWLEDGELEVEL
+    // refinementList({
+    //   container: '#knowledgelevel-refinement-list',
+    //   attribute: 'knowledgeLevel',
+    //   searchable: false,
+    //   searchablePlaceholder: 'Search knowledge level',
+    //   showMore: false,
+    //   cssClasses: {
+    //     searchableInput: 'form-control form-control-sm mb-2 border-light-2',
+    //     searchableSubmit: 'hidden',
+    //     searchableReset: 'hidden',
+    //     showMore: 'btn btn-secondary btn-sm align-content-center',
+    //     list: 'list-unstyled',
+    //     count: '',
+    //     label: '',
+    //     checkbox: 'me-2',
+    //   },
 
+    //   sortBy: ['name:asc', 'count:desc'],
+    // }),
+    // // TYPE
+    // refinementList({
+    //   container: '#type-refinement-list',
+    //   attribute: 'type',
+    //   searchable: false,
+    //   searchablePlaceholder: 'Search type',
+    //   showMore: false,
+    //   cssClasses: {
+    //     searchableInput: 'form-control form-control-sm mb-2 border-light-2',
+    //     searchableSubmit: 'hidden',
+    //     searchableReset: 'hidden',
+    //     showMore: 'btn btn-secondary btn-sm align-content-center',
+    //     list: 'list-unstyled',
+    //     count: '',
+    //     label: '',
+    //     checkbox: 'me-2',
+    //   },
+
+    //   sortBy: ['name:asc', 'count:desc'],
+    // }),
+    // // SUBJECT
+    // refinementList({
+    //   container: '#subject-refinement-list',
+    //   attribute: 'hierarchy.lvl1',
+    //   searchable: false,
+    //   searchablePlaceholder: 'Subject',
+    //   showMore: false,
+    //   cssClasses: {
+    //     searchableInput: 'form-control form-control-sm mb-2 border-light-2',
+    //     searchableSubmit: 'hidden',
+    //     searchableReset: 'hidden',
+    //     showMore: 'btn btn-secondary btn-sm align-content-center',
+    //     list: 'list-unstyled',
+    //     count: '',
+    //     label: '',
+    //     checkbox: 'me-2',
+    //   },
+    //   sortBy: ['name:asc', 'count:desc'],
+    // }),
+    // CATEGORY
     refinementList({
-      container: '#knowledgelevel-refinement-list',
-      attribute: 'knowledgeLevel',
+      container: '#category-refinement-list',
+      attribute: 'category',
       searchable: false,
-      searchablePlaceholder: 'Search knowledge level',
+      searchablePlaceholder: 'Source',
       showMore: false,
+      // max_facet_values: 100, TODO: does this work?
       cssClasses: {
         searchableInput: 'form-control form-control-sm mb-2 border-light-2',
         searchableSubmit: 'hidden',
@@ -291,46 +435,9 @@ const typeSenseInstantSearch = () => {
         label: '',
         checkbox: 'me-2',
       },
-
       sortBy: ['name:asc', 'count:desc'],
     }),
-    refinementList({
-      container: '#type-refinement-list',
-      attribute: 'type',
-      searchable: false,
-      searchablePlaceholder: 'Search type',
-      showMore: false,
-      cssClasses: {
-        searchableInput: 'form-control form-control-sm mb-2 border-light-2',
-        searchableSubmit: 'hidden',
-        searchableReset: 'hidden',
-        showMore: 'btn btn-secondary btn-sm align-content-center',
-        list: 'list-unstyled',
-        count: '',
-        label: '',
-        checkbox: 'me-2',
-      },
-
-      sortBy: ['name:asc', 'count:desc'],
-    }),
-    refinementList({
-      container: '#subject-refinement-list',
-      attribute: 'hierarchy.lvl1',
-      searchable: false,
-      searchablePlaceholder: 'Subject',
-      showMore: false,
-      cssClasses: {
-        searchableInput: 'form-control form-control-sm mb-2 border-light-2',
-        searchableSubmit: 'hidden',
-        searchableReset: 'hidden',
-        showMore: 'btn btn-secondary btn-sm align-content-center',
-        list: 'list-unstyled',
-        count: '',
-        label: '',
-        checkbox: 'me-2',
-      },
-      sortBy: ['name:asc', 'count:desc'],
-    }),
+    // SOURCE
     refinementList({
       container: '#source-refinement-list',
       attribute: 'source',
@@ -350,6 +457,7 @@ const typeSenseInstantSearch = () => {
       },
       sortBy: ['name:asc', 'count:desc'],
     }),
+
     refinementList({
       container: '#author-refinement-list',
       attribute: 'author',
@@ -369,6 +477,7 @@ const typeSenseInstantSearch = () => {
       },
       sortBy: ['name:asc', 'count:desc'],
     }),
+    // MEDIATYPE
     refinementList({
       container: '#media-type-refinement-list',
       attribute: 'mediaType',

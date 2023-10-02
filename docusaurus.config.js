@@ -14,8 +14,8 @@ const config = {
     'KERI Suite Search Engine',
   url: paths.url,
   baseUrl: paths.baseUrl,
-  onBrokenLinks: 'ignore',//'ignore' | 'log' | 'warn' | 'throw'
-  onBrokenMarkdownLinks: 'ignore',//'ignore' | 'log' | 'warn' | 'throw'
+  onBrokenLinks: 'warn',//'ignore' | 'log' | 'warn' | 'throw'
+  onBrokenMarkdownLinks: 'warn',//'ignore' | 'log' | 'warn' | 'throw'
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
@@ -46,7 +46,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the 'edit this page' links.
-          // editUrl: 'https://github.com/kordwarshuis/WOT-terms-docusaurus/tree/main/',//TODO: find correct url
+          editUrl: 'https://github.com/WebOfTrust/WOT-terms/tree/main/',
         },
         blog: false,
         // {
@@ -304,6 +304,7 @@ const config = {
     require.resolve('./clientModules/typesenseHandleSearchModal'),
     require.resolve('./clientModules/scrollHorizontallyToKeyWordInSearchResults'),
     require.resolve('./clientModules/imageFullSize'),
+    require.resolve('./clientModules/upvoteSearchResult'),
   ],
 };
 

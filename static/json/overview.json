@@ -9404,12 +9404,12 @@
     ],
     [
       "456",
+      "G ",
+      "concise-binary-object-representation",
       "",
-      "",
-      "",
-      "",
-      "",
-      "https://github.com/weboftrust/WOT-terms/wiki/MGMT"
+      "concise-binary-object-representation",
+      "It is a binary data serialization format loosely based on JSON",
+      "https://github.com/weboftrust/WOT-terms/wiki/concise-binary-object-representation"
     ],
     [
       "457",
@@ -9458,7 +9458,7 @@
     ],
     [
       "462",
-      "incept, inception",
+      "K",
       "ample",
       "",
       "ample",
@@ -9648,10 +9648,22 @@
       "https://github.com/weboftrust/WOT-terms/wiki/vdr"
     ],
     [
-      "483"
+      "483",
+      "K",
+      "KATE",
+      "",
+      "KATE",
+      "Kate = KERI at the Edge",
+      "https://github.com/weboftrust/WOT-terms/wiki/KATE"
     ],
     [
-      "484"
+      "484",
+      "K",
+      "spurn",
+      "",
+      "spurn",
+      "Reject",
+      "https://github.com/weboftrust/WOT-terms/wiki/spurn"
     ],
     [
       "485"

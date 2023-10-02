@@ -1,5 +1,5 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="197 183 1219 2740">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="197 183 1219 2738">
   <defs>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#199ce8">
       <g>
@@ -22,7 +22,7 @@
       </g>
     </marker>
   </defs>
-  <g id="Indexing" stroke-opacity="1" fill="none" stroke-dasharray="none" stroke="none" fill-opacity="1">
+  <g id="Indexing" stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
     <title>Indexing</title>
     <g id="Indexing_0._Start">
       <title>0. Start</title>
@@ -416,7 +416,7 @@
         </text>
       </g>
       <g id="Graphic_129">
-        <rect x="933" y="1978.5" width="235" height="120.5" fill="#dde9f5"/><a xlink:href="https://weboftrust.github.io/WOT-terms/docs/Overview/indexed-in-KERISSE">
+        <rect x="933" y="1978.5" width="235" height="120.5" fill="#dde9f5"/><a xlink:href="https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE">
           
           <path d="M 931.9662 1978.4988 L 1168.5886 1978.7848 M 1168.0056 1976.8525 L 1168.1977 2099.946 M 1168.9822 2099.125 L 931.7911 2099.9412 M 932.6708 2101.1128 L 933.005 1976.65 M 932.2165 1978.018 L 1168.2588 1978.3727 M 1168.4749 1976.6022 L 1168.6175 2098.8776 M 1169.2325 2098.9702 L 932.9242 2099.7479 M 932.7967 2100.8625 L 933.217 1978.25" stroke="#199ce8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
           <text transform="translate(938 1991.25)" fill="black">

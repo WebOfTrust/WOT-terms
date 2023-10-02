@@ -48,7 +48,8 @@ async function createSitemap(startUrl, maxDepth) {
     const excludedExtensions = []; // Add more extensions if needed
 
     async function crawl(urlString, depth) {
-        console.log('working ', Math.floor(Date.now() / 1000));
+        logger.setLogFile('success.log');
+        logger.log('Creating sitemap: ', urlString);
         if (depth > maxDepth) {
             return;
         }

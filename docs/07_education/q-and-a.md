@@ -460,7 +460,7 @@ We don't have a trustable interoperability. And that leads to the idea that the 
 
 ## \*Q: How to repair the internet trust layer?
 
-With a waist and a neck. <img src="https://github.com/WebOfTrust/keri/blob/main/images/platform_locked_trust.png?raw=true" alt="Platform locked trust" class="rounded float-start" /><img src="https://github.com/WebOfTrust/keri/blob/main/images/waist_neck.png?raw=true" alt="Waist and neck" />
+With a waist and a neck. <img src="https://github.com/WebOfTrust/keri/blob/main/images/platform_locked_trust.png?raw=true" alt="Platform locked trust" className="rounded float-start" /><img src="https://github.com/WebOfTrust/keri/blob/main/images/waist_neck.png?raw=true" alt="Waist and neck" />
 _(@henkvancann)_
 
 ## \*Q: What role does KERI play in the suggested "repair of the internet"?

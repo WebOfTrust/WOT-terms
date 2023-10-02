@@ -49,6 +49,9 @@
 # External Dependencies:
 # - jq: Lightweight and flexible command-line JSON processor.
 
+# Logger generates a log file with a timestamp and from which file the message comes from.
+source ./search-index-typesense/logger.sh
+
 ### CONFIGURATION
 source "$(pwd)/.env"
 local_TYPESENSE_ADMIN_API_KEY="${TYPESENSE_ADMIN_API_KEY}"
@@ -63,17 +66,37 @@ jq -c '.[]' "$input_file_path" | while read -r object; do
   # Extract the URL from the object
   url=$(echo "$object" | jq -r '.url')
 
-  # Perform the request and store the response in a variable
+  # Perform the request and store the response in a variable, Contains the url
+  # response=$(curl -s -H "X-TYPESENSE-API-KEY: ${local_TYPESENSE_ADMIN_API_KEY}" \
+  #   "https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/documents/search?q=${url}&query_by=url")
+
+
+  # Perform the request and store the response in a variable, Exact match on the url
   response=$(curl -s -H "X-TYPESENSE-API-KEY: ${local_TYPESENSE_ADMIN_API_KEY}" \
-    "https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/documents/search?q=${url}&query_by=url")
+    "https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/documents/search?q=${url}&query_by=url&filter_by=url:=:${url}")
 
+
+
+
+  # SANITIZE RESPONSE
+  # This is trial and error and only working for the current response.
+
+  # Replace backslash-escaped double quotes with single quotes
+  sanitized_string=$(echo "$response" | sed 's/\\"/'\''/g')
+
+  # Sanitize the JSON response by removing all backslashes.
+  # Reason is this output: "content":"1 ) } \ .@ccoun;mg ;@eclger2) 4p ’7:3) ? /4) 420Rotated public keys",
+  sanitized_response=$(echo "$sanitized_string" | sed 's/\\//g')
+  
   # Sanitize the JSON response by removing control characters
-  sanitized_response=$(echo "$response" | tr -d '\000-\031')
-
-  # Check if the sanitized response contains any error messages
+  sanitized_response=$(echo "$sanitized_response" | tr -d '\000-\031')
+  
+    # Check if the sanitized response contains any error messages
   if echo "$sanitized_response" | jq -e '.error' > /dev/null; then
     error_message=$(echo "$sanitized_response" | jq -r '.error')
-    echo "Error in response: $error_message" | tee -a search-index-typesense/logs/error.log
+    setLogFile "error.log"
+    log "Error in response: $error_message"
+
     exit 1
   fi
 
@@ -82,7 +105,9 @@ jq -c '.[]' "$input_file_path" | while read -r object; do
 
   # Check if the ID is null and handle this case accordingly
   if [ "$id" = "null" ]; then
-    echo "No ID found for the URL $url" | tee -a search-index-typesense/logs/error.log
+    setLogFile "error.log"
+    log "No ID found for the URL $url"
+
   else
     # Remove the "url" entry and add the "id" entry in the object
     new_object=$(echo "$object" | jq --arg id "$id" 'del(.url) | .id = $id')
@@ -139,5 +164,5 @@ process_json_data() {
 JSON_DATA1=$(<"search-index-typesense/overrides/overridesID.json")
 process_json_data "$JSON_DATA1"
 
-# Cleanup
+# # Cleanup if desired
 # rm search-index-typesense/overrides/overridesID.json

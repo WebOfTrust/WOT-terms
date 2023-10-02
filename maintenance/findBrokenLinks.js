@@ -121,7 +121,7 @@ const siteChecker = new SiteChecker({}, {
             // Create GitHub issue using Octokit
             const issueData = {
                 title: 'Broken Links Report',
-                body: "Created: " + timestamp + "\n\n" + "Number of broken internal links: " + numberOfBrokenLinks + "\n\n" + "<a href='https://github.com/WebOfTrust/WOT-terms/blob/main/logs/brokenLinks.md'>See full list of broken internal links</a>.",
+                body: "Created: " + timestamp + "\n\n" + "Number of broken internal links: " + numberOfBrokenLinks + "\n\n" + "<a href='https://github.com/WebOfTrust/WOT-terms/blob/main/logs/brokenLinks.md'>See full list of broken internal links</a>, or see below:\n\n" + dataToWrite
             };
 
             const octokit = new Octokit({
@@ -133,9 +133,9 @@ const siteChecker = new SiteChecker({}, {
                 repo: 'WOT-terms',
                 title: issueData.title,
                 body: issueData.body,
-                labels: [
-                    'bug'
-                ],
+                // labels: [
+                //     'bug'
+                // ],
                 headers: {
                     'X-GitHub-Api-Version': '2022-11-28'
                 }

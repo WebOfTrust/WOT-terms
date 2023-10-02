@@ -1,8 +1,5 @@
 #!/bin/bash
 
-export INDEX_OVERVIEW_FILE="docs/02_overview/indexed-in-KERISSE.md"
-
-
 # Function to handle the user's choice
 function handle_choice() {
     if [[ "$choice" == "Y" || "$choice" == "y" ]]; then
