@@ -65,7 +65,6 @@ node "$SCRIPT_DIR/countLinesInJsonlFiles.mjs"
 setLogFile "success.log"
 log "Counting number of lines finished"
 
-# node "$SCRIPT_DIR/collectScrapedUrls.mjs" "search-index-entries" "$INDEX_OVERVIEW_FILE"
 node "$SCRIPT_DIR/collectScrapedUrls.mjs" "search-index-typesense/search-index-entries" "$INDEX_OVERVIEW_FILE"
 setLogFile "success.log"
 log "Collecting urls and writing to index file finished"
