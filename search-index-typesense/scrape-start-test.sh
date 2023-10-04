@@ -6,6 +6,9 @@ source ./search-index-typesense/logger.sh
 # INITIALIZING
 #########################
 
+# Import variables from .env file
+source .env
+
 # Get the directory where the main.sh script is located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
