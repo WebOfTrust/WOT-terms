@@ -11,11 +11,12 @@
 #   TYPESENSE_COLLECTION_NAME
 #   DOWNLOADS_DIR
 
-# Logger generates a log file with a timestamp and from which file the message comes from.
-source ./search-index-typesense/logger.sh
+# Import variables from .env file
+source .env
 
-# Running locally with .env file
-source "$(pwd)/.env"
+# Logger generates a log file with a timestamp and from which file the message comes from.
+source ./${SEARCH_INDEX_DIR}/logger.sh
+
 local_TYPESENSE_ADMIN_API_KEY="${TYPESENSE_ADMIN_API_KEY}"
 local_TYPESENSE_HOST="${TYPESENSE_HOST}"
 local_TYPESENSE_COLLECTION_NAME="${TYPESENSE_COLLECTION_NAME}"

@@ -5,11 +5,12 @@
 # Updated: -
 # Description: This script backups three directories from the search-index-typesense directory to a timestamped directory in the KERISSE_BACKUPS_DIR directory. It also empties the original directories. The name of the directory containing the backups is the timestamp of the backup.
 
-# Logger generates a log file with a timestamp and from which file the message comes from.
-source ./search-index-typesense/logger.sh
-
 # Load environment variables from .env file
 source .env
+
+
+# Logger generates a log file with a timestamp and from which file the message comes from.
+source ./${SEARCH_INDEX_DIR}/logger.sh
 
 # Check if KERISSE_BACKUPS_DIR is set
 if [ -z "$KERISSE_BACKUPS_DIR" ]; then
@@ -31,7 +32,7 @@ mkdir -p "$BACKUP_DIR"
 declare -a dirsToBackup=("logs" "search-index-entries" "sitemaps")
 
 # Base directory
-BASE_DIR="search-index-typesense"
+BASE_DIR="${SEARCH_INDEX_DIR}"
 
 for dir in "${dirsToBackup[@]}"; do
     SOURCE_DIR="${BASE_DIR}/${dir}"
