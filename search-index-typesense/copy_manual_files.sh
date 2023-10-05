@@ -5,34 +5,55 @@
 # Updated: -
 # Description: Copy manually created files to the output directories of the automated scripts so they will be included in the final output directories
 
-# Import variables from .env file
-source .env
+#!/bin/bash
 
-############## COPY SCRAPED CONTENT (JSON) FROM HANDMADE DIR TO AUTOMATED DIR ##############
-# Handmade content entries
+# Author: Kor Dwarshuis
+# Created: 2023
+# Updated: -
+# Description: Improved script for copying files
+
+# Check if .env file exists and source it
+if [[ -f .env ]]; then
+    source .env
+else
+    echo "Error: .env file not found."
+    exit 1
+fi
+
+# Function to copy files from one directory to another
+copy_files() {
+    local src_dir="$1"
+    local dest_dir="$2"
+    local file_ext="$3"
+    
+    if [[ ! -d "$src_dir" ]]; then
+        echo "Warning: Source directory '$src_dir' does not exist."
+        return
+    fi
+    
+    if [[ ! -d "$dest_dir" ]]; then
+        echo "Warning: Destination directory '$dest_dir' does not exist."
+        return
+    fi
+    
+    for file in "$src_dir"/*.$file_ext; do
+        if [[ -f "$file" ]]; then
+            cp "$file" "$dest_dir" || {
+                echo "Error: Failed to copy '$file' to '$dest_dir'."
+            }
+        fi
+    done
+}
+
+# Copy JSON and JSONL files
 search_index_entries_manual_dir="$(pwd)/${SEARCH_INDEX_DIR}/search-index-entries-manual"
-
-# Automated entries
 search_index_entries_dir="$(pwd)/${SEARCH_INDEX_DIR}/search-index-entries"
 
-# Copy all .json files from the handmade directory to the output directory
-for file in "$search_index_entries_manual_dir"/*.{json,jsonl}; do
-    if [[ -f "$file" ]]; then  # this check ensures it's a file, in case no .json or .jsonl files are found
-        cp "$file" "${SEARCH_INDEX_ENTRIES_DIR}"
-    fi
-done
+copy_files "$search_index_entries_manual_dir" "$search_index_entries_dir" "json"
+copy_files "$search_index_entries_manual_dir" "$search_index_entries_dir" "jsonl"
 
-
-
-############## COPY SITEMAP.XML FROM HANDMADE DIR TO AUTOMATED DIR ##############
-# Handmade sitemaps
+# Copy XML files
 sitemaps_manual_dir="$(pwd)/${SEARCH_INDEX_DIR}/sitemaps-manual"
-
-# Automated entries
 sitemaps_dir="$(pwd)/${SEARCH_INDEX_DIR}/${SEARCH_INDEX_SITEMAPS_DIR}"
 
-
-# Copy manually created sitemap files to the output directory
-for file in "$sitemaps_manual_dir"/*.xml; do
-    cp "$file" "$sitemaps_dir"
-done
+copy_files "$sitemaps_manual_dir" "$sitemaps_dir" "xml"
