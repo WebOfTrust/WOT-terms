@@ -2,7 +2,7 @@
   Author: Kor Dwarshuis
   Created: 2023-08-11
   Updated: -
-  Description: Append the scrape results (in jsonl, not json format) output to a file.
+  Description: Write the scrape results (in jsonl, not json format) output to a file.
 */
 
 
