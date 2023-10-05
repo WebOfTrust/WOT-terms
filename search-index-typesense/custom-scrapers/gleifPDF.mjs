@@ -4,11 +4,14 @@ import extractMainContent from '../modules/extractMainContent.mjs';
 import getTextContent from '../modules/getTextContent.mjs';
 import logger from '../modules/logger.mjs';
 
+import { config as configDotEnv } from 'dotenv';
+configDotEnv();
+
 const config = {
     // 1: Use a local created sitemap
     sitemap: await createInput({
         sourceType: 'localXMLsitemap',
-        sourcePath: 'search-index-typesense/sitemaps/sitemap-www.gleif.org-pdf.xml',
+        sourcePath: `${process.env.SEARCH_INDEX_DIR}/${process.env.SEARCH_INDEX_SITEMAPS_DIR}/sitemap-www.gleif.org-pdf.xml`,
     }),
 
     // // 2: Use html sitemap on website
@@ -22,7 +25,7 @@ const config = {
     source: 'Gleif website',
     category: 'Blogs',
     author: '',
-    destinationFile: 'search-index-typesense/search-index-entries/gleifPDF.jsonl'
+    destinationFile: `${process.env.SEARCH_INDEX_DIR}/${process.env.SEARCH_INDEX_ENTRIES_DIR}/gleifPDF.jsonl`
 }
 
 async function customScrape(page, domQueryForContent, pageUrl) {
