@@ -1,5 +1,7 @@
 import createInput from '../modules/createInput.mjs';
 import scrape from '../modules/scrape.mjs';
+import { config as configDotEnv } from 'dotenv';
+configDotEnv();
 
 // List of sitemap files
 const sitemapFiles = [
@@ -59,13 +61,13 @@ const createConfig = async (filename) => {
     return {
         sitemap: await createInput({
             sourceType: 'localXMLsitemap',
-            sourcePath: `search-index-typesense/sitemaps/${filename}`,
+            sourcePath: `${process.env.SEARCH_INDEX_DIR}/${process.env.SEARCH_INDEX_SITEMAPS_DIR}/${filename}`,
         }),
         siteName: `${repositoryOwner} / ${repositoryName}`,
         source: `${repositoryOwner} / ${repositoryName}`,
         category: category,
         author: `${repositoryOwner}`,
-        destinationFile: `search-index-typesense/search-index-entries/${repositoryOwner}-${repositoryName}.jsonl`,
+        destinationFile: `${process.env.SEARCH_INDEX_DIR}/${process.env.SEARCH_INDEX_ENTRIES_DIR}/${repositoryOwner}-${repositoryName}.jsonl`,
         branch: branchName
     };
 }

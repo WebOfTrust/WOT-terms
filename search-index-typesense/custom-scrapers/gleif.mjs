@@ -11,7 +11,7 @@ const config = {
     // // 1: Use a local created sitemap
     // sitemap: await createInput({
     //     sourceType: 'localXMLsitemap',
-    //     sourcePath: 'search-index-typesense/sitemaps/sitemap-www.gleif.org.xml',
+    //     sourcePath: `${process.env.SEARCH_INDEX_DIR}/${process.env.SEARCH_INDEX_SITEMAPS_DIR}/sitemap-www.gleif.org.xml`,
     // }),
 
     // 2: Use html sitemap on website
@@ -19,7 +19,7 @@ const config = {
         sourceType: 'querySelector',
         sourcePath: 'https://www.gleif.org/en/meta/sitemap',
         queryString: '.content ul li a',// must be an a element
-        excludeURLs: `search-index-typesense/sitemaps-exlude-urls/sitemap-www.gleif.org-exclude-urls.json`
+        excludeURLs: `${process.env.SEARCH_INDEX_DIR}/sitemaps-exlude-urls/sitemap-www.gleif.org-exclude-urls.json`
     }),
     siteName: 'Gleif website',
     source: 'Gleif website',
