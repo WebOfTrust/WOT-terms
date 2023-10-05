@@ -28,18 +28,18 @@ mkdir "${dir_path}/logs"
 touch "${dir_path}/logs/error.log" "${dir_path}/logs/import-into-search-index.log" "${dir_path}/logs/scraped.log" "${dir_path}/logs/success.log"
 
 
-### SEARCH-INDEX-ENTRIES remove dir and recreate ###
-if [ -d "${dir_path}/search-index-entries" ]; then
-  rm -rf "${dir_path}/search-index-entries"
-fi
-mkdir "${dir_path}/search-index-entries"
+# ### SEARCH-INDEX-ENTRIES remove dir and recreate ###
+# if [ -d "${dir_path}/search-index-entries" ]; then
+#   rm -rf "${dir_path}/search-index-entries"
+# fi
+# mkdir "${dir_path}/search-index-entries"
 
 
-### SITEMAPS remove dir and recreate ###
-if [ -d "${dir_path}/sitemaps" ]; then
-  rm -rf "${dir_path}/sitemaps"
-fi
-mkdir "${dir_path}/sitemaps"
+# ### SITEMAPS remove dir and recreate ###
+# if [ -d "${dir_path}/sitemaps" ]; then
+#   rm -rf "${dir_path}/sitemaps"
+# fi
+# mkdir "${dir_path}/sitemaps"
 
 
 
