@@ -2,6 +2,7 @@ import createInput from '../modules/createInput.mjs';
 import scrape from '../modules/scrape.mjs';
 import extractMainContent from '../modules/extractMainContent.mjs';
 import getTextContent from '../modules/getTextContent.mjs';
+import logger from '../modules/logger.mjs';
 
 import { config as configDotEnv } from 'dotenv';
 configDotEnv();
