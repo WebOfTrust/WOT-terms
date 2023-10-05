@@ -7,7 +7,7 @@
 
 import puppeteer from 'puppeteer';
 import createOutput from './createOutput.mjs';
-import appendScrapeResultToFile from './appendScrapeResultToFile.mjs';
+import writeScrapeResultToFile from './writeScrapeResultToFile.mjs';
 import fs from 'fs';
 import logger from './logger.mjs';
 import { githubPDF } from './github-pdf.mjs';
@@ -154,7 +154,7 @@ export default async function scrape(config, customScrape) {
                 });
 
 
-                appendScrapeResultToFile(strOutput, config.destinationFile);
+                writeScrapeResultToFile(strOutput, config.destinationFile);
                 // Log the page URL to a log file and to a markdown file
                 fs.appendFileSync(`${process.env.SEARCH_INDEX_DIR}/logs/scraped.log`, `Scraped: ${pageUrl}\n`);
 
