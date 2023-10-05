@@ -9666,28 +9666,265 @@
       "https://github.com/weboftrust/WOT-terms/wiki/spurn"
     ],
     [
-      "485"
+      "485",
+      "G",
+      "dnd",
+      "",
+      "dnd",
+      "do not delegate",
+      "https://github.com/WebOfTrust/WOT-terms/wiki/dnd"
     ],
     [
-      "486"
+      "486",
+      "G",
+      "revocation",
+      "",
+      "revocation",
+      "The act of recall or annulment. It is the cancelling of an act, the recalling of a grant or privilege.",
+      "https://github.com/weboftrust/WOT-terms/wiki/revocation"
     ],
     [
-      "487"
+      "487",
+      "G",
+      "verifiable-data-registry",
+      "",
+      "verifiable-data-registry",
+      " a Verifiable Data Structure that actually holds content",
+      "https://github.com/weboftrust/WOT-terms/wiki/verifiable-data-registry"
     ],
     [
-      "488"
+      "488",
+      "G",
+      "VDR",
+      "",
+      "VDR",
+      " Verifiable Data Registry, a Verifiable Data Structure that actually holds content",
+      "https://github.com/weboftrust/WOT-terms/wiki/VDR"
     ],
     [
-      "489"
+      "489",
+      "G",
+      "E2E",
+      "",
+      "E2E",
+      "end-to-end",
+      "https://github.com/weboftrust/WOT-terms/wiki/E2E"
     ],
     [
-      "490"
+      "490",
+      "G",
+      "end-to-end",
+      "",
+      "end-to-end",
+      "Inter-host communication and data flow transformations, considered in motion and at rest",
+      "https://github.com/weboftrust/WOT-terms/wiki/end-to-end"
     ],
     [
-      "491"
+      "491",
+      "K",
+      "duplicity-detection",
+      "",
+      "duplicity-detection",
+      "A mechanism to detect duplicity in cryptographically secured event log",
+      "https://github.com/weboftrust/WOT-terms/wiki/duplicity-detection"
     ],
     [
-      "492"
+      "492",
+      "G",
+      "double-spend-proof",
+      "",
+      "double-spend-proof",
+      "Total global ordering of transactions so that you can't spend value twice",
+      "https://github.com/weboftrust/WOT-terms/wiki/double-spend-proof"
+    ],
+    [
+      "493",
+      "G",
+      "MFA",
+      "",
+      "MFA",
+      "multi-factor authentication",
+      "https://github.com/weboftrust/WOT-terms/wiki/MFA"
+    ],
+    [
+      "494",
+      "G",
+      "multi-factor-authentication",
+      "",
+      "multi-factor-authentication",
+      "Authentication by combining multiple security factors, e.g. what you know, what you have and what you are. ",
+      "https://github.com/weboftrust/WOT-terms/wiki/multi-factor-authentication"
+    ],
+    [
+      "495",
+      "G",
+      "threshold-structure-security",
+      "",
+      "threshold-structure-security",
+      "Allows for weaker key management or execution environment infrastructure individually, but achieves greater overall security by multiplying the number of attack surfaces",
+      "https://github.com/weboftrust/WOT-terms/wiki/threshold-structure-security"
+    ],
+    [
+      "496",
+      "G",
+      "TEE",
+      "",
+      "TEE",
+      "trusted-execution-environment; protected hardware/software/firmware security system",
+      "https://github.com/weboftrust/WOT-terms/wiki/TEE"
+    ],
+    [
+      "497",
+      "G",
+      "trusted-execution-environment",
+      "",
+      "trusted-execution-environment",
+      "Protected hardware/software/firmware security system",
+      "https://github.com/weboftrust/WOT-terms/wiki/trusted-execution-environment"
+    ],
+    [
+      "498",
+      "G",
+      "security-overlay-properties-trillema",
+      "",
+      "security-overlay-properties-trillema",
+      "an identifier system has some degree of any combination of the three properties authenticity, privacy and confidentiality, but not all three completely",
+      "https://github.com/weboftrust/WOT-terms/wiki/security-overlay-properties-trillema"
+    ],
+    [
+      "499",
+      "S",
+      "autonomic-trust-basis",
+      "",
+      "autonomic-trust-basis",
+      "to form this we use an AID as the root-of-trust",
+      "https://github.com/weboftrust/WOT-terms/wiki/autonomic-trust-basis"
+    ],
+    [
+      "500",
+      "S",
+      "autonomic-identifier ",
+      "",
+      "autonomic-identifier ",
+      "self-managing self-certifying identifier",
+      "https://github.com/weboftrust/WOT-terms/wiki/autonomic-identifier "
+    ],
+    [
+      "501",
+      "S",
+      "legitimized-human-meaningful-identifier",
+      "",
+      "legitimized-human-meaningful-identifier",
+      "identifier authorised through its autonomic identifier couplet",
+      "https://github.com/weboftrust/WOT-terms/wiki/legitimized-human-meaningful-identifier"
+    ],
+    [
+      "502",
+      "S",
+      "LID",
+      "",
+      "LID",
+      "Legitimized (or authorised) human meaningful identifier",
+      "https://github.com/weboftrust/WOT-terms/wiki/LID"
+    ],
+    [
+      "503",
+      "S",
+      "security",
+      "",
+      "security",
+      "in identifier systems it means secure from exploit or compromise",
+      "https://github.com/weboftrust/WOT-terms/wiki/security"
+    ],
+    [
+      "504",
+      "S",
+      "secure",
+      "",
+      "secure",
+      "in identifier systems it means secure from exploit or compromise",
+      "https://github.com/weboftrust/WOT-terms/wiki/secure"
+    ],
+    [
+      "505",
+      "K",
+      "univalent",
+      "",
+      "univalent",
+      "",
+      "https://github.com/weboftrust/WOT-terms/wiki/univalent"
+    ],
+    [
+      "506",
+      "K",
+      "multi-valent",
+      "",
+      "multi-valent",
+      "",
+      "https://github.com/weboftrust/WOT-terms/wiki/multi-valent"
+    ],
+    [
+      "507",
+      "S",
+      "security-cost-performance-architecture-trade-off",
+      "",
+      "security-cost-performance-architecture-trade-off",
+      "",
+      "https://github.com/weboftrust/WOT-terms/wiki/security-cost-performance-architecture-trade-off"
+    ],
+    [
+      "508",
+      "K",
+      "cooperative-delegation",
+      "",
+      "cooperative-delegation",
+      "",
+      "https://github.com/weboftrust/WOT-terms/wiki/cooperative-delegation"
+    ],
+    [
+      "509",
+      "G",
+      "TPM",
+      "",
+      "TPM",
+      "trusted platform module;  a device that enhances the security and privacy by providing hardware-based cryptographic functions",
+      "https://github.com/weboftrust/WOT-terms/wiki/TPM"
+    ],
+    [
+      "510",
+      "G",
+      "trusted-platform-module",
+      "",
+      "trusted-platform-module",
+      " A device that enhances the security and privacy by providing hardware-based cryptographic functions",
+      "https://github.com/weboftrust/WOT-terms/wiki/trusted-platform-module"
+    ],
+    [
+      "511",
+      "K",
+      "bivalent",
+      "",
+      "bivalent",
+      "",
+      "https://github.com/weboftrust/WOT-terms/wiki/bivalent"
+    ],
+    [
+      "512",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "https://github.com/weboftrust/WOT-terms/wiki/"
+    ],
+    [
+      "513"
+    ],
+    [
+      "514"
+    ],
+    [
+      "515"
     ]
   ]
 }
