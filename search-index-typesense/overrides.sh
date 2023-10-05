@@ -49,16 +49,18 @@
 # External Dependencies:
 # - jq: Lightweight and flexible command-line JSON processor.
 
+# Import variables from .env file
+source .env
+
 # Logger generates a log file with a timestamp and from which file the message comes from.
-source ./search-index-typesense/logger.sh
+source ./${SEARCH_INDEX_DIR}/logger.sh
 
 ### CONFIGURATION
-source "$(pwd)/.env"
 local_TYPESENSE_ADMIN_API_KEY="${TYPESENSE_ADMIN_API_KEY}"
 local_TYPESENSE_HOST="${TYPESENSE_HOST}"
 local_TYPESENSE_COLLECTION_NAME="${TYPESENSE_COLLECTION_NAME}"
-input_file_path="search-index-typesense/overrides/overrides.json"
-output_file_path="search-index-typesense/overrides/overridesID.json"
+input_file_path="${SEARCH_INDEX_DIR}/overrides/overrides.json"
+output_file_path="${SEARCH_INDEX_DIR}/overrides/overridesID.json"
 
 ### STEP 1: Convert URLs to IDs
 temp_file=$(mktemp)
@@ -161,8 +163,8 @@ process_json_data() {
     }'
   done
 }
-JSON_DATA1=$(<"search-index-typesense/overrides/overridesID.json")
+JSON_DATA1=$(<"${SEARCH_INDEX_DIR}/overrides/overridesID.json")
 process_json_data "$JSON_DATA1"
 
 # # Cleanup if desired
-# rm search-index-typesense/overrides/overridesID.json
+# rm ${SEARCH_INDEX_DIR}/overrides/overridesID.json

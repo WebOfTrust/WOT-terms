@@ -12,7 +12,7 @@
 source .env
 
 # Set the directory path
-dir_path="search-index-typesense"
+dir_path="${SEARCH_INDEX_DIR}"
 
 
 ### LOG FILES remove dir and recreate ###

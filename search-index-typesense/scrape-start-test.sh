@@ -1,13 +1,14 @@
+# Import variables from .env file
+source .env
+
+
 # Logger generates a log file with a timestamp and from which file the message comes from.
-source ./search-index-typesense/logger.sh
+source ./${SEARCH_INDEX_DIR}/logger.sh
 
 
 #########################
 # INITIALIZING
 #########################
-
-# Import variables from .env file
-source .env
 
 # Get the directory where the main.sh script is located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -40,7 +41,7 @@ log "Extracting data finished"
 
 
 # Filenames to lowercase.
-node "$SCRIPT_DIR/renameFilesToLowerCase.mjs" search-index-typesense/sitemaps
+node "${SCRIPT_DIR}/renameFilesToLowerCase.mjs" ${SEARCH_INDEX_DIR}/sitemaps
 setLogFile "success.log"
 log "Renaming files to lowercase finished"
 
@@ -65,7 +66,7 @@ node "$SCRIPT_DIR/countLinesInJsonlFiles.mjs"
 setLogFile "success.log"
 log "Counting number of lines finished"
 
-node "$SCRIPT_DIR/collectScrapedUrls.mjs" "search-index-typesense/search-index-entries" "$INDEX_OVERVIEW_FILE"
+node "$SCRIPT_DIR/collectScrapedUrls.mjs" "${SEARCH_INDEX_DIR}/${SEARCH_INDEX_ENTRIES_DIR}" "$INDEX_OVERVIEW_FILE"
 setLogFile "success.log"
 log "Collecting urls and writing to index file finished"
 
