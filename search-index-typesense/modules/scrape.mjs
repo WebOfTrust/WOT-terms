@@ -7,7 +7,8 @@
 
 import puppeteer from 'puppeteer';
 import createOutput from './createOutput.mjs';
-import writeScrapeResultToFile from './writeScrapeResultToFile.mjs';
+import appendToFile from './appendToFile.mjs';
+import { createOrEmptyFile } from './createOrEmptyFile.mjs';
 import fs from 'fs';
 import logger from './logger.mjs';
 import { githubPDF } from './github-pdf.mjs';
@@ -18,6 +19,12 @@ configDotEnv();
 
 
 export default async function scrape(config, customScrape) {
+    console.log('customScrape: ', customScrape);
+    console.log("yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy");
+
+
+    createOrEmptyFile(config.destinationFile);
+    // await new Promise(resolve => setTimeout(resolve, 1000000000)); // For testing: Delay the script termination
     const browser = await puppeteer.launch({ headless: "new" });// for production
     // const browser = await puppeteer.launch({ headless: false });// for testing
     const page = await browser.newPage();
@@ -56,9 +63,9 @@ export default async function scrape(config, customScrape) {
 
         if (!match) {
             logger.setLogFile('error.log');
-            logger.log('Invalid GitHub URL');
+            logger.log(`Invalid GitHub URL: ${url}`);
 
-            throw new Error('Invalid GitHub URL');
+            throw new Error(`Invalid GitHub URL: ${url}`);
         }
 
         return {
@@ -153,8 +160,7 @@ export default async function scrape(config, customScrape) {
                     mediaType: pageExtension
                 });
 
-
-                writeScrapeResultToFile(strOutput, config.destinationFile);
+                appendToFile(strOutput, config.destinationFile);
                 // Log the page URL to a log file and to a markdown file
                 fs.appendFileSync(`${process.env.SEARCH_INDEX_DIR}/logs/scraped.log`, `Scraped: ${pageUrl}\n`);
 
