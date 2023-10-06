@@ -93,24 +93,24 @@ log "Backup finished"
 
 
 
-#########################
-# IMPORTING INTO TYPESENSE CLOUD Open Source Search
-#########################
+# #########################
+# # IMPORTING INTO TYPESENSE CLOUD Open Source Search
+# #########################
 
-# Make collection in Typesense empty.
-source "$SCRIPT_DIR/make_collection_empty.sh"
-setLogFile "success.log"
-log "Making collection empty finished"
+# # Make collection in Typesense empty.
+# source "$SCRIPT_DIR/make_collection_empty.sh"
+# setLogFile "success.log"
+# log "Making collection empty finished"
 
-# Import the data into Typesense.
-source "$SCRIPT_DIR/import.sh"
-setLogFile "success.log"
-log "Importing data finished"
+# # Import the data into Typesense.
+# source "$SCRIPT_DIR/import.sh"
+# setLogFile "success.log"
+# log "Importing data finished"
 
-# Import overrides into Typesense.
-source "$SCRIPT_DIR/overrides.sh"
-setLogFile "success.log"
-log "Importing overrides finished"
+# # Import overrides into Typesense.
+# source "$SCRIPT_DIR/overrides.sh"
+# setLogFile "success.log"
+# log "Importing overrides finished"
 
 #########################
 # END
