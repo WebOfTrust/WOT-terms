@@ -2,7 +2,7 @@
   Author: Kor Dwarshuis
   Created: 2023-08-11
   Updated: -
-  Description: Write the scrape results (in jsonl, not json format) output to a file.
+  Description: Append the jsonl (not json) output to a file.
 */
 
 
@@ -18,15 +18,12 @@ export default function appendToFile(entries, outputPath) {
 
   // Append the entries array to the file
   logger.setLogFile('success.log');
-  // logger.log('Appending entries to file');
-  logger.log('Writing entries to file');
+  logger.log('Appending entries to file');
 
-  // fs.appendFileSync(resolvedPath, fileContent);
-  fs.writeFileSync(resolvedPath, fileContent);
+  fs.appendFileSync(resolvedPath, fileContent);
 
   // For reporting purposes, though it might not be the actual number of total pages after append
   logger.setLogFile('success.log');
-  // logger.log(`Appended ${entries.length} pages`);
-  logger.log(`${entries.length} pages written to file`);
+  logger.log(`Appended ${entries.length} pages`);
   logger.log(`Search index updated at ${outputPath}`);
 }
