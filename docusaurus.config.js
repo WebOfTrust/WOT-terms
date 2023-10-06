@@ -110,29 +110,40 @@ const config = {
             label: 'For contributors to this website',
           },
           {
-            type: 'doc',
-            docId: 'concepts/how-to',
+            to: 'docs/concepts/how-to/intro',
+            label: 'How to',
             position: 'left',
-            label: 'How-to',
+            items: [
+              {
+                to: 'docs/concepts/how-to/set-up-basic-keri-network',
+                label: 'Set up a basic KERI network'
+              },
+              {
+                to: 'docs/concepts/how-to/create-a-basic-acdc-graph',
+                label: 'Create a basic ACDC graph'
+              },
+              {
+                to: 'docs/concepts/how-to/make-a-schema',
+                label: 'Make a schema'
+              },
+              {
+                to: 'docs/concepts/how-to/issue-a-credential',
+                label: 'Issue a credential'
+              },
+              {
+                to: 'docs/concepts/how-to/present-a-credential',
+                label: 'Present a credential'
+              },
+              {
+                to: 'docs/concepts/how-to/verify-a-credential',
+                label: 'Verify a credential'
+              },
+              {
+                to: 'docs/concepts/how-to/current-open-issues',
+                label: 'Current open issues'
+              }
+            ],
           },
-          // {
-          //   to: '/visualisations',
-          //   label: 'Visualisations',
-          //   position: 'left',
-          //   items: [
-          //     {
-          //       to: 'https://weboftrust.github.io/WOT-terms/visualisations/WebOfTrust/index.htm',
-          //       label: 'Connections in repo`s of WebOfTrust',
-          //       target: '_self',
-          //     }
-          //   ],
-          // },
-          // {
-          //   href: 'https://weboftrust.github.io/WOT-terms/glossary.html',
-          //   label: 'Glossary',
-          //   position: 'left',
-          //   target: '_self',
-          // },
           {
             href: '/feedback',
             label: 'Feedback',
