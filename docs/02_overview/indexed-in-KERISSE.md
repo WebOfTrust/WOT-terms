@@ -1,6 +1,6 @@
 # Indexed in KERISSE
-<p id='index-created-timestamp'>Indexed at 27 September 2023 14:26:03</p>
-<p id='index-created-page-count'>Number of indexed pages: 3518</p>
+<p id='index-created-timestamp'>Indexed at 06 October 2023 12:25:52</p>
+<p id='index-created-page-count'>Number of indexed pages: 3558</p>
 <ol>
 <li><a href="https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79" target="_blank">https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79</a></li>
 <li><a href="https://essif-lab.github.io/framework/" target="_blank">https://essif-lab.github.io/framework/</a></li>
@@ -383,6 +383,7 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/DID" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/DID</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/DKMI" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/DKMI</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/DPKI" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/DPKI</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/E2E" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/E2E</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/ECR" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/ECR</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/FFI" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/FFI</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/GAR" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/GAR</a></li>
@@ -390,6 +391,7 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/GLEIS" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/GLEIS</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/GPG" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/GPG</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/HSM" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/HSM</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/Hab" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/Hab</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/I-O" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/I-O</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/IANA" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/IANA</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/IPEX" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/IPEX</a></li>
@@ -405,9 +407,11 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/KID" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/KID</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/KRAM" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/KRAM</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/LEI" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/LEI</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/LID" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/LID</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/LLM" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/LLM</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/LoA" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/LoA</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/LoC" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/LoC</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/MFA" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/MFA</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/NFT" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/NFT</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/OOBI" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/OOBI</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/OOR" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/OOR</a></li>
@@ -429,8 +433,10 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/SPAC" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/SPAC</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/SSI" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/SSI</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/TCP" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/TCP</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/TEE" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/TEE</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/TEL" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/TEL</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/TOAD" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/TOAD</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/TPM" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/TPM</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/UI" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/UI</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/URL" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/URL</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/VC" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/VC</a></li>
@@ -456,6 +462,7 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/autonomic-identifier" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/autonomic-identifier</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/autonomic-identity-system" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/autonomic-identity-system</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/autonomic-namespace" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/autonomic-namespace</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/autonomic-trust-basis" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/autonomic-trust-basis</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/backer" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/backer</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/base-media-type" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/base-media-type</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/base64" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/base64</a></li>
@@ -464,6 +471,7 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/bexter" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/bexter</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/binding" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/binding</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/bis" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/bis</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/bivalent" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/bivalent</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/blake3" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/blake3</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/blind-oobi" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/blind-oobi</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/blinded-revocation-registry" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/blinded-revocation-registry</a></li>
@@ -501,6 +509,7 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/contractually-protected-disclosure" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/contractually-protected-disclosure</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/control-authority" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/control-authority</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/controller" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/controller</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/cooperative-delegation" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/cooperative-delegation</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/coroutines" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/coroutines</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/correlation" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/correlation</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/count-code" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/count-code</a></li>
@@ -530,16 +539,21 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/disclosee" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/disclosee</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/discloser" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/discloser</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/distributed-hash-table" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/distributed-hash-table</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/dnd" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/dnd</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/domain" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/domain</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/domain-name" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/domain-name</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/double-spend-proof" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/double-spend-proof</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/drt" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/drt</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/dual-indexed-codes" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/dual-indexed-codes</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/dual-text-binary-encoding-format" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/dual-text-binary-encoding-format</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/duplicitous-event-log" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/duplicitous-event-log</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/duplicity" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/duplicity</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/duplicity-detection" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/duplicity-detection</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/easyCLA_trick" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/easyCLA_trick</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/eclipse-attack" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/eclipse-attack</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/electronic-signature" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/electronic-signature</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/end-role" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/end-role</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/end-to-end" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/end-to-end</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/end-verifiable" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/end-verifiable</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/engagement-context-role" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/engagement-context-role</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/entity" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/entity</a></li>
@@ -606,6 +620,7 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/keep" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/keep</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/keri-agreement-algorithm-for-control-establishment" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/keri-agreement-algorithm-for-control-establishment</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/keri-command-line-interface" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/keri-command-line-interface</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/keri-event-stream" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/keri-event-stream</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/keri-improvement-doc" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/keri-improvement-doc</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/keri-ox" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/keri-ox</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/keri-request-authentication-method" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/keri-request-authentication-method</a></li>
@@ -615,6 +630,7 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/keride" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/keride</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/keridemlia" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/keridemlia</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/keripy" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/keripy</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/kever" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/kever</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/key" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/key</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/key-compromise" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/key-compromise</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/key-event" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/key-event</a></li>
@@ -638,6 +654,7 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/legal-entity-engagement-context-role-vlei-credential-governance-framework" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/legal-entity-engagement-context-role-vlei-credential-governance-framework</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/legal-entity-official-organizational-role-vlei-credential-governance-framework" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/legal-entity-official-organizational-role-vlei-credential-governance-framework</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/legal-entity-vlei-credential-governance-framework" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/legal-entity-vlei-credential-governance-framework</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/legitimized-human-meaningful-identifier" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/legitimized-human-meaningful-identifier</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/levels-of-assurance" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/levels-of-assurance</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/liveness" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/liveness</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/loci-of-control" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/loci-of-control</a></li>
@@ -648,6 +665,8 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/messagepack" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/messagepack</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/moobi" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/moobi</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/most-compact" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/most-compact</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/multi-factor-authentication" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/multi-factor-authentication</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/multi-valent" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/multi-valent</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/multicodec" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/multicodec</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/multiplexing" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/multiplexing</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/multisig" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/multisig</a></li>
@@ -716,6 +735,7 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/repo" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/repo</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/reserve-rotation" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/reserve-rotation</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/rev" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/rev</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/revocation" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/revocation</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/revocation-event" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/revocation-event</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/ricardian-contract" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/ricardian-contract</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/root-of-trust" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/root-of-trust</a></li>
@@ -733,9 +753,13 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/schema-registry" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/schema-registry</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/seal" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/seal</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/secondary-root-of-trust" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/secondary-root-of-trust</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/secure" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/secure</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/secure-asset-transfer-protocol" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/secure-asset-transfer-protocol</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/secure-attribution" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/secure-attribution</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/secure-private-authentic-confidentiality" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/secure-private-authentic-confidentiality</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/security" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/security</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/security-cost-performance-architecture-trade-off" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/security-cost-performance-architecture-trade-off</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/security-overlay-properties-trillema" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/security-overlay-properties-trillema</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/seed" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/seed</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/selective-disclosure" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/selective-disclosure</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/self-addressing-data" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/self-addressing-data</a></li>
@@ -769,6 +793,7 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/tholder" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/tholder</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/threshold-of-accountable-duplicity" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/threshold-of-accountable-duplicity</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/threshold-signature-scheme" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/threshold-signature-scheme</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/threshold-structure-security" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/threshold-structure-security</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/top-level-section" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/top-level-section</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/trans-contextual-value" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/trans-contextual-value</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/transaction-event-log" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/transaction-event-log</a></li>
@@ -777,8 +802,11 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/transferable-identifier" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/transferable-identifier</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/transmission-control-protocol" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/transmission-control-protocol</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/trust-domain" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/trust-domain</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/trusted-execution-environment" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/trusted-execution-environment</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/trusted-platform-module" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/trusted-platform-module</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/ts-node" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/ts-node</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/uniform-resource-locator" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/uniform-resource-locator</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/univalent" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/univalent</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/unsolicited-issuance" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/unsolicited-issuance</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/user-interface" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/user-interface</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/vLEI" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/vLEI</a></li>
@@ -790,8 +818,8 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/verfer" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/verfer</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/verifiable" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/verifiable</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/verifiable-credential" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/verifiable-credential</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/verifiable-data-registry" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/verifiable-data-registry</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/verifiable-data-structure" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/verifiable-data-structure</a></li>
-<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/verifiable-data-structure-(VDS)" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/verifiable-data-structure-(VDS)</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/verifiable-legal-entity-identifier" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/verifiable-legal-entity-identifier</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/verified-integrity" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/verified-integrity</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/verifier" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/verifier</a></li>
@@ -811,6 +839,7 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/well-known-witnesses" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/well-known-witnesses</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/witness" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/witness</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/zero-trust" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/zero-trust</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/zero-trust-computing" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/zero-trust-computing</a></li>
 <li><a href="https://github.com/WebOfTrust/cardano-backer/blob/main/DOCKER.md" target="_blank">https://github.com/WebOfTrust/cardano-backer/blob/main/DOCKER.md</a></li>
 <li><a href="https://github.com/WebOfTrust/cardano-backer/blob/main/Dockerfile" target="_blank">https://github.com/WebOfTrust/cardano-backer/blob/main/Dockerfile</a></li>
 <li><a href="https://github.com/WebOfTrust/cardano-backer/blob/main/docker-compose-macos.yaml" target="_blank">https://github.com/WebOfTrust/cardano-backer/blob/main/docker-compose-macos.yaml</a></li>
@@ -2719,6 +2748,7 @@
 <li><a href="https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/spec/abstract.md" target="_blank">https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/spec/abstract.md</a></li>
 <li><a href="https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/spec/acknowledgements_authors.md" target="_blank">https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/spec/acknowledgements_authors.md</a></li>
 <li><a href="https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/spec/core.md" target="_blank">https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/spec/core.md</a></li>
+<li><a href="https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/spec/did_metadata.md" target="_blank">https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/spec/did_metadata.md</a></li>
 <li><a href="https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/spec/diddocuments.md" target="_blank">https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/spec/diddocuments.md</a></li>
 <li><a href="https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/spec/didparameters.md" target="_blank">https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/spec/didparameters.md</a></li>
 <li><a href="https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/spec/header.md" target="_blank">https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/spec/header.md</a></li>
@@ -2809,12 +2839,6 @@
 <li><a href="https://readthedocs.org/accounts/password/reset/" target="_blank">https://readthedocs.org/accounts/password/reset/</a></li>
 <li><a href="https://readthedocs.org/accounts/signup/" target="_blank">https://readthedocs.org/accounts/signup/</a></li>
 <li><a href="https://readthedocs.org/accounts/signup/?next=%2Fsupport%2F" target="_blank">https://readthedocs.org/accounts/signup/?next=%2Fsupport%2F</a></li>
-<li><a href="https://readthedocs.org/api/v2/build/21595970.txt" target="_blank">https://readthedocs.org/api/v2/build/21595970.txt</a></li>
-<li><a href="https://readthedocs.org/api/v2/build/21665614.txt" target="_blank">https://readthedocs.org/api/v2/build/21665614.txt</a></li>
-<li><a href="https://readthedocs.org/api/v2/build/21665618.txt" target="_blank">https://readthedocs.org/api/v2/build/21665618.txt</a></li>
-<li><a href="https://readthedocs.org/api/v2/build/21665647.txt" target="_blank">https://readthedocs.org/api/v2/build/21665647.txt</a></li>
-<li><a href="https://readthedocs.org/api/v2/build/21676377.txt" target="_blank">https://readthedocs.org/api/v2/build/21676377.txt</a></li>
-<li><a href="https://readthedocs.org/api/v2/build/21725257.txt" target="_blank">https://readthedocs.org/api/v2/build/21725257.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21735408.txt" target="_blank">https://readthedocs.org/api/v2/build/21735408.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21735409.txt" target="_blank">https://readthedocs.org/api/v2/build/21735409.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21814884.txt" target="_blank">https://readthedocs.org/api/v2/build/21814884.txt</a></li>
@@ -2824,6 +2848,12 @@
 <li><a href="https://readthedocs.org/api/v2/build/21929265.txt" target="_blank">https://readthedocs.org/api/v2/build/21929265.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21985757.txt" target="_blank">https://readthedocs.org/api/v2/build/21985757.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/22008437.txt" target="_blank">https://readthedocs.org/api/v2/build/22008437.txt</a></li>
+<li><a href="https://readthedocs.org/api/v2/build/22051481.txt" target="_blank">https://readthedocs.org/api/v2/build/22051481.txt</a></li>
+<li><a href="https://readthedocs.org/api/v2/build/22056239.txt" target="_blank">https://readthedocs.org/api/v2/build/22056239.txt</a></li>
+<li><a href="https://readthedocs.org/api/v2/build/22061030.txt" target="_blank">https://readthedocs.org/api/v2/build/22061030.txt</a></li>
+<li><a href="https://readthedocs.org/api/v2/build/22079591.txt" target="_blank">https://readthedocs.org/api/v2/build/22079591.txt</a></li>
+<li><a href="https://readthedocs.org/api/v2/build/22079593.txt" target="_blank">https://readthedocs.org/api/v2/build/22079593.txt</a></li>
+<li><a href="https://readthedocs.org/api/v2/build/22133973.txt" target="_blank">https://readthedocs.org/api/v2/build/22133973.txt</a></li>
 <li><a href="https://readthedocs.org/builds/keripy/?fromdocs=keripy" target="_blank">https://readthedocs.org/builds/keripy/?fromdocs=keripy</a></li>
 <li><a href="https://readthedocs.org/choosing-a-platform/" target="_blank">https://readthedocs.org/choosing-a-platform/</a></li>
 <li><a href="https://readthedocs.org/company/" target="_blank">https://readthedocs.org/company/</a></li>
@@ -2844,12 +2874,6 @@
 <li><a href="https://readthedocs.org/projects/keripy/" target="_blank">https://readthedocs.org/projects/keripy/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/?fromdocs=keripy" target="_blank">https://readthedocs.org/projects/keripy/?fromdocs=keripy</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/" target="_blank">https://readthedocs.org/projects/keripy/builds/</a></li>
-<li><a href="https://readthedocs.org/projects/keripy/builds/21595970/" target="_blank">https://readthedocs.org/projects/keripy/builds/21595970/</a></li>
-<li><a href="https://readthedocs.org/projects/keripy/builds/21665614/" target="_blank">https://readthedocs.org/projects/keripy/builds/21665614/</a></li>
-<li><a href="https://readthedocs.org/projects/keripy/builds/21665618/" target="_blank">https://readthedocs.org/projects/keripy/builds/21665618/</a></li>
-<li><a href="https://readthedocs.org/projects/keripy/builds/21665647/" target="_blank">https://readthedocs.org/projects/keripy/builds/21665647/</a></li>
-<li><a href="https://readthedocs.org/projects/keripy/builds/21676377/" target="_blank">https://readthedocs.org/projects/keripy/builds/21676377/</a></li>
-<li><a href="https://readthedocs.org/projects/keripy/builds/21725257/" target="_blank">https://readthedocs.org/projects/keripy/builds/21725257/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/21735408/" target="_blank">https://readthedocs.org/projects/keripy/builds/21735408/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/21735409/" target="_blank">https://readthedocs.org/projects/keripy/builds/21735409/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/21814884/" target="_blank">https://readthedocs.org/projects/keripy/builds/21814884/</a></li>
@@ -2859,6 +2883,12 @@
 <li><a href="https://readthedocs.org/projects/keripy/builds/21929265/" target="_blank">https://readthedocs.org/projects/keripy/builds/21929265/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/21985757/" target="_blank">https://readthedocs.org/projects/keripy/builds/21985757/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/22008437/" target="_blank">https://readthedocs.org/projects/keripy/builds/22008437/</a></li>
+<li><a href="https://readthedocs.org/projects/keripy/builds/22051481/" target="_blank">https://readthedocs.org/projects/keripy/builds/22051481/</a></li>
+<li><a href="https://readthedocs.org/projects/keripy/builds/22056239/" target="_blank">https://readthedocs.org/projects/keripy/builds/22056239/</a></li>
+<li><a href="https://readthedocs.org/projects/keripy/builds/22061030/" target="_blank">https://readthedocs.org/projects/keripy/builds/22061030/</a></li>
+<li><a href="https://readthedocs.org/projects/keripy/builds/22079591/" target="_blank">https://readthedocs.org/projects/keripy/builds/22079591/</a></li>
+<li><a href="https://readthedocs.org/projects/keripy/builds/22079593/" target="_blank">https://readthedocs.org/projects/keripy/builds/22079593/</a></li>
+<li><a href="https://readthedocs.org/projects/keripy/builds/22133973/" target="_blank">https://readthedocs.org/projects/keripy/builds/22133973/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/downloads/" target="_blank">https://readthedocs.org/projects/keripy/downloads/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/versions/" target="_blank">https://readthedocs.org/projects/keripy/versions/</a></li>
 <li><a href="https://readthedocs.org/projects/loopy/" target="_blank">https://readthedocs.org/projects/loopy/</a></li>
@@ -2885,6 +2915,14 @@
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/category/video" target="_blank">https://weboftrust.github.io/WOT-terms/docs/category/video</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/category/visualisations" target="_blank">https://weboftrust.github.io/WOT-terms/docs/category/visualisations</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/concepts/concepts" target="_blank">https://weboftrust.github.io/WOT-terms/docs/concepts/concepts</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/create-a-basic-acdc-graph" target="_blank">https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/create-a-basic-acdc-graph</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/current-open-issues" target="_blank">https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/current-open-issues</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/intro" target="_blank">https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/intro</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/issue-a-credential" target="_blank">https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/issue-a-credential</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/make-a-schema" target="_blank">https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/make-a-schema</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/present-a-credential" target="_blank">https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/present-a-credential</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/set-up-basic-keri-network" target="_blank">https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/set-up-basic-keri-network</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/verify-a-credential" target="_blank">https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/verify-a-credential</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/concepts/intro" target="_blank">https://weboftrust.github.io/WOT-terms/docs/concepts/intro</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/concepts/keri-dev-env" target="_blank">https://weboftrust.github.io/WOT-terms/docs/concepts/keri-dev-env</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/education/intro" target="_blank">https://weboftrust.github.io/WOT-terms/docs/education/intro</a></li>
@@ -3073,6 +3111,7 @@
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/disclosee" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/disclosee</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/discloser" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/discloser</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/distributed-hash-table" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/distributed-hash-table</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/dnd" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/dnd</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/domain" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/domain</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/domain-name" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/domain-name</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/drt" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/drt</a></li>
@@ -3158,6 +3197,7 @@
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/keride" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/keride</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/keridemlia" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/keridemlia</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/keripy" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/keripy</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/kever" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/kever</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/key" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/key</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/key-compromise" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/key-compromise</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/key-event" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/key-event</a></li>
