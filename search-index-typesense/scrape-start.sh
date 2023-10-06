@@ -86,7 +86,7 @@ source "$SCRIPT_DIR/export.sh"
 setLogFile "success.log"
 log "Exporting data finished"
 
-# Backup output (scrape results, handmade stuff, sitemaps etc).
+# Backup output (scrape results, handmade stuff, sitemaps, logs, webpage overview etc).
 source "$SCRIPT_DIR/backup.sh"
 setLogFile "success.log"
 log "Backup finished"
