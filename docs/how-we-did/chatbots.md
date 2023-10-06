@@ -5,9 +5,9 @@ Status: draft
 
 ## Chatbase and other chatbots
 
-Chatbase only used the sources uploaded to it. However, it is built on chatGPT's gpt model and it has been known to sometimes break out of character and act as ChatGPT.
+Chatbase only uses the sources uploaded to it. However, it is built on chatGPT's gpt model and it has been known to sometimes break out of character and act as ChatGPT.
 
-Therefore, it has to be explicitly instructed in the base prompt to only respond with answers from the data it was trained on, and to never break character.
+Therefore, the chatbot needs to be explicitly instructed in the base prompt to only respond with answers from the data it was trained on, and nothing else.
 
 Source: support@chatbase.co
 

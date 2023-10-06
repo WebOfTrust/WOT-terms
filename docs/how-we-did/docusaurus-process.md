@@ -1,5 +1,5 @@
 ---
-sidebar: HowWeDidSidebar
+Status:
 ---
 import Docusaurusprocess from '/img/docusaurus-process.svg';
 

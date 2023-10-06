@@ -21,4 +21,3 @@ This takes about half an hour.
 
 Instructions on how to use createSitemap.js:
 https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/createSitemap.js
-

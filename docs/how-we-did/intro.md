@@ -1,5 +1,5 @@
 ---
-sidebar: HowWeDidSidebar
+
 ---
 
 import Kerisse from '/img/kerisse.svg';
