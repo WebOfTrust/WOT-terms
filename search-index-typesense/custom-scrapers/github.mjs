@@ -3,11 +3,8 @@ import scrape from '../modules/scrape.mjs';
 import { config as configDotEnv } from 'dotenv';
 configDotEnv();
 
-// List of sitemap files
+// List of GITHUB sitemap files
 const sitemapFiles = [
-    'sitemap-keria.readthedocs.io.xml',
-    'sitemap-keripy.readthedocs.io.xml',
-    'sitemap-signifypy.readthedocs.io.xml',
     'sitemap.githubcom.trustoverip.acdc-main.xml',
     'sitemap.githubcom.trustoverip.keri-main.xml',
     'sitemap.githubcom.trustoverip.tss0033-technology-stack-acdc-main.xml',
