@@ -69,7 +69,7 @@ function do_main() {
     SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
     # Start scraping.
-    source "$SCRIPT_DIR/scrape-start.sh"
+    source "$SCRIPT_DIR/scrape_start.sh"
 }
 
 # Main script starts here
