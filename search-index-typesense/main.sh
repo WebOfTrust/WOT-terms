@@ -32,6 +32,16 @@ function handle_choice() {
         echo " "
         show_progress
         do_scrape_test
+    elif [[ "$choice" == "4" ]]; then
+        echo " "
+        echo " "
+        echo "  ************************************"
+        echo "  The script will now make a backup."
+        echo "  ************************************"
+        echo " "
+        echo " "
+        show_progress
+        do_backup
     else
         clear
         echo " "
@@ -65,6 +75,7 @@ function display_intro() {
     echo "   [1] Scrape all sites (default)"
     echo "   [2] Scrape priority sites only"
     echo "   [3] Scrape test sites only"
+    echo "   [4] Backup"
     echo "   [Q] Exit the script"
     echo " "
     echo " "
@@ -73,7 +84,7 @@ function display_intro() {
 
 # Function to prompt the user for input
 function prompt_input() {
-    read -n 1 -r -p "  What is your choice (1/2/3/Q)? " choice
+    read -n 1 -r -p "  What is your choice (1/2/3/4/Q)? " choice
     echo  # Empty line below the prompt
     echo  # Empty line below the prompt
 }
@@ -100,6 +111,14 @@ function do_scrape_test() {
 
     # Start scraping priority sites only.
     source "$SCRIPT_DIR/scrape_start_test.sh"
+}
+
+function do_backup() {
+    # Get the directory where the main.sh script is located
+    SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+    # Start scraping priority sites only.
+    source "$SCRIPT_DIR/backup.sh"
 }
 
 # Function to show the progress of the scraping process
