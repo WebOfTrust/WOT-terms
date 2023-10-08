@@ -19,10 +19,6 @@ configDotEnv();
 
 
 export default async function scrape(config, customScrape) {
-    console.log('customScrape: ', customScrape);
-    console.log("yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy");
-
-
     createOrEmptyFile(config.destinationFile);
     // await new Promise(resolve => setTimeout(resolve, 1000000000)); // For testing: Delay the script termination
     const browser = await puppeteer.launch({ headless: "new" });// for production
