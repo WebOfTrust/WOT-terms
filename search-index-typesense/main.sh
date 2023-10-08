@@ -42,6 +42,16 @@ function handle_choice() {
         echo " "
         show_progress
         do_backup
+    elif [[ "$choice" == "5" ]]; then
+        echo " "
+        echo " "
+        echo "  ************************************"
+        echo "  The script will now import into Typesense."
+        echo "  ************************************"
+        echo " "
+        echo " "
+        show_progress
+        do_import
     else
         clear
         echo " "
@@ -72,10 +82,11 @@ function display_intro() {
     echo " "
     echo "  Please choose one of the following options:"
     echo " "
-    echo "   [1] Scrape all sites (default)"
+    echo "   [1] Scrape all sites"
     echo "   [2] Scrape priority sites only"
     echo "   [3] Scrape test sites only"
     echo "   [4] Backup"
+    echo "   [5] Import into Typesense"
     echo "   [Q] Exit the script"
     echo " "
     echo " "
@@ -84,7 +95,7 @@ function display_intro() {
 
 # Function to prompt the user for input
 function prompt_input() {
-    read -n 1 -r -p "  What is your choice (1/2/3/4/Q)? " choice
+    read -n 1 -r -p "  What is your choice (1/2/3/4/5/Q)? " choice
     echo  # Empty line below the prompt
     echo  # Empty line below the prompt
 }
@@ -109,7 +120,7 @@ function do_scrape_test() {
     # Get the directory where the main.sh script is located
     SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-    # Start scraping priority sites only.
+    # Start scraping test.
     source "$SCRIPT_DIR/scrape_start_test.sh"
 }
 
@@ -117,8 +128,37 @@ function do_backup() {
     # Get the directory where the main.sh script is located
     SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-    # Start scraping priority sites only.
+    # Start backing up.
     source "$SCRIPT_DIR/backup.sh"
+}
+
+function do_import() {
+    # Get the directory where the main.sh script is located
+    SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+    # Start backup.
+    source "$SCRIPT_DIR/backup.sh"
+
+
+    #########################
+    # IMPORTING INTO TYPESENSE CLOUD Open Source Search
+    #########################
+
+    # Make collection in Typesense empty.
+    source "$SCRIPT_DIR/make_collection_empty.sh"
+    setLogFile "success.log"
+    log "Making collection empty finished"
+
+    # Import the data into Typesense.
+    source "$SCRIPT_DIR/import.sh"
+    setLogFile "success.log"
+    log "Importing data finished"
+
+    # Import overrides into Typesense.
+    source "$SCRIPT_DIR/overrides.sh"
+    setLogFile "success.log"
+    log "Importing overrides finished"
+
 }
 
 # Function to show the progress of the scraping process
