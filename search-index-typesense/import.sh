@@ -30,10 +30,6 @@ log $local_TYPESENSE_COLLECTION_NAME
 
 
 ############## CONFIGURATION ##############
-# URL of the endpoint to empty the collection
-# explanation: the filter_by parameter is used to delete all documents that have a content field that is not empty
-urlDelete="https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/documents?filter_by=content:!=''"
-
 # URL of the endpoint to import documents
 urlImport="https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/documents/import?action=create"
 
