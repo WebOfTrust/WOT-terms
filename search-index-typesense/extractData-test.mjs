@@ -15,8 +15,9 @@
 // import scrapeHumancolossus from './custom-scrapers/humancolossus.mjs';
 // import scrapeKsoeteman from './custom-scrapers/ksoeteman.mjs';
 // import scrapemediumCom from './custom-scrapers/medium.com.mjs';
-import scrapeKentbull from './custom-scrapers/kentbull.com.mjs';
+// import scrapeKentbull from './custom-scrapers/kentbull.com.mjs';
 // import scrapeGithub from './custom-scrapers/github.mjs';
+import scrapeGithubTest from './custom-scrapers/githubTest.mjs';
 // import scrapeReadthedocs from './custom-scrapers/readthedocs.io.mjs';
 
 // scrapeWOTterms();
@@ -28,6 +29,8 @@ import scrapeKentbull from './custom-scrapers/kentbull.com.mjs';
 // scrapeHumancolossus();
 // scrapeKsoeteman();
 // scrapemediumCom();
-scrapeKentbull();
+// scrapeKentbull();
 // scrapeGithub();
+scrapeGithubTest();
+// scrapeGithubTest();
 // scrapeReadthedocs();
