@@ -1,6 +1,6 @@
 # Indexed in KERISSE
-<p id='index-created-timestamp'>Indexed at 06 October 2023 18:11:47</p>
-<p id='index-created-page-count'>Number of indexed pages: 3617</p>
+<p id='index-created-timestamp'>Indexed at 07 October 2023 21:25:35</p>
+<p id='index-created-page-count'>Number of indexed pages: 3618</p>
 <ol>
 <li><a href="https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79" target="_blank">https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79</a></li>
 <li><a href="https://essif-lab.github.io/framework/docs/TBD" target="_blank">https://essif-lab.github.io/framework/docs/TBD</a></li>
@@ -2835,6 +2835,7 @@
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-ietf-ipex-main-draft-ssmith-ipex" target="_blank">https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-ietf-ipex-main-draft-ssmith-ipex</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-keria-main-docs-protocol" target="_blank">https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-keria-main-docs-protocol</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/concepts/concepts" target="_blank">https://weboftrust.github.io/WOT-terms/docs/concepts/concepts</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/concepts/how-to" target="_blank">https://weboftrust.github.io/WOT-terms/docs/concepts/how-to</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/create-a-basic-acdc-graph" target="_blank">https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/create-a-basic-acdc-graph</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/current-open-issues" target="_blank">https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/current-open-issues</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/intro" target="_blank">https://weboftrust.github.io/WOT-terms/docs/concepts/how-to/intro</a></li>
