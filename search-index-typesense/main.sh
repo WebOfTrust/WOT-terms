@@ -52,6 +52,16 @@ function handle_choice() {
         echo " "
         show_progress
         do_import
+    elif [[ "$choice" == "6" ]]; then
+        echo " "
+        echo " "
+        echo "  ************************************"
+        echo "  The script will now rstore into Typesense."
+        echo "  ************************************"
+        echo " "
+        echo " "
+        show_progress
+        do_restore
     else
         clear
         echo " "
@@ -87,6 +97,7 @@ function display_intro() {
     echo "   [3] Scrape test"
     echo "   [4] Backup"
     echo "   [5] Import (backup + import)"
+    echo "   [6] Restore (import jsonl file into Typesense)"
     echo "   [Q] Exit the script"
     echo " "
     echo " "
@@ -95,7 +106,7 @@ function display_intro() {
 
 # Function to prompt the user for input
 function prompt_input() {
-    read -n 1 -r -p "  What is your choice (1/2/3/4/5/Q)? " choice
+    read -n 1 -r -p "  What is your choice (1/2/3/4/5/6/Q)? " choice
     echo  # Empty line below the prompt
     echo  # Empty line below the prompt
 }
@@ -158,7 +169,19 @@ function do_import() {
     source "$SCRIPT_DIR/overrides.sh"
     setLogFile "success.log"
     log "Importing overrides finished"
+}
 
+function do_restore() {
+    # Get the directory where the main.sh script is located
+    SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+    # Make collection in Typesense empty.
+    source "$SCRIPT_DIR/make_collection_empty.sh"
+    setLogFile "success.log"
+    log "Making collection empty finished"
+
+    # Start backing up.
+    source "$SCRIPT_DIR/restore.sh"
 }
 
 # Function to show the progress of the scraping process
