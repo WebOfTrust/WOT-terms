@@ -9910,21 +9910,84 @@
     ],
     [
       "512",
+      "S",
+      "keri‐event‐stream",
+      "",
+      "keri‐event‐stream",
+      "A stream of verifiable KERI data, consisting of the key event log and other data such as a transaction event log",
+      "https://github.com/weboftrust/WOT-terms/wiki/keri‐event‐stream"
+    ],
+    [
+      "513",
+      "S",
+      "stale-key",
+      "",
+      "stale-key",
+      "A stale key is an outdated or expired encryption key that should no longer be used for securing data",
+      "https://github.com/weboftrust/WOT-terms/wiki/stale-key"
+    ],
+    [
+      "514",
+      "S",
+      "stale-event",
+      "",
+      "stale-event",
+      "An outdated or irrelevant (key) event involving an expired encryption key that may compromise security",
+      "https://github.com/weboftrust/WOT-terms/wiki/stale-event"
+    ],
+    [
+      "515",
+      "G",
+      "privacy",
+      "",
+      "privacy",
+      "Privacy is the ability of an individual or group to seclude themselves or information about themselves",
+      "https://github.com/weboftrust/WOT-terms/wiki/privacy"
+    ],
+    [
+      "516",
+      "G",
+      "confidentiality",
+      "",
+      "confidentiality",
+      "a set of rules or a promise that limits the access or places restrictions on certain types of information",
+      "https://github.com/weboftrust/WOT-terms/wiki/confidentiality"
+    ],
+    [
+      "517",
+      "K",
+      "RID",
+      "",
+      "RID",
+      "Root autonomic identifier",
+      "https://github.com/weboftrust/WOT-terms/wiki/RID"
+    ],
+    [
+      "518",
+      "K",
+      "root-autonomic-identifier",
+      "",
+      "root-autonomic-identifier",
+      "An entity may provide the root-of-trust for some ecosystem (with delegations) via its root autonomic identier (AID).",
+      "https://github.com/weboftrust/WOT-terms/wiki/root-autonomic-identifier"
+    ],
+    [
+      "519",
+      "K",
+      "provenanced",
+      "",
+      "provenanced",
+      "The act of verifying authenticity or quality of documented history or origin of something",
+      "https://github.com/weboftrust/WOT-terms/wiki/provenanced"
+    ],
+    [
+      "",
       "",
       "",
       "",
       "",
       "",
       "https://github.com/weboftrust/WOT-terms/wiki/"
-    ],
-    [
-      "513"
-    ],
-    [
-      "514"
-    ],
-    [
-      "515"
     ]
   ]
 }
