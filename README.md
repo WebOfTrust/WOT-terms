@@ -76,3 +76,4 @@ What should you do to install this project:
 `$ npx docusaurus start`. The search engine also works now.
 
 [How we did](https://weboftrust.github.io/WOT-terms/docs/how-we-did/install) describes the follow-up steps.
+
