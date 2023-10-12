@@ -13,9 +13,12 @@ import { convert as callbackConvert } from 'imagemagick';
 import Tesseract from 'tesseract.js';
 import path from 'path';
 import logger from './logger.mjs';
+import { config as configDotEnv } from 'dotenv';
+configDotEnv();
+
 
 // Config
-const directoryPath = './search-index-typesense/temp';
+const directoryPath = `./${process.env.SEARCH_INDEX_DIR}/temp`;
 
 async function resetDirectory(path) {
     try {

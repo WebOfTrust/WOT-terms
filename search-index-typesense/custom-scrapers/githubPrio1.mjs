@@ -17,7 +17,6 @@ const sitemapFiles = [
     'sitemap.githubcom.trustoverip.tswg-keri-specification-main.xml',
     'sitemap.githubcom.trustoverip.tswg-oobi-specification-main.xml',
     'sitemap.githubcom.trustoverip.tswg-ptel-specification-main.xml',
-    'sitemap.githubcom.smithsamuelm.papers-master.xml',
     'sitemap.githubcom.weboftrust.cardano-backer-main.xml',
     'sitemap.githubcom.weboftrust.cesride-main.xml',
     'sitemap.githubcom.weboftrust.cesrpy-main.xml',

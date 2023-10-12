@@ -10,11 +10,12 @@
 const fs = require('fs');
 const path = require('path');
 const xml2js = require('xml2js');
+require('dotenv').config();
 
 // Configuration
 const mode = 2;  // 1 for .pdf check, 2 for specific string removal
-const specificString = "/regulatory-use-of-the-lei/";  // Replace 'example' with the string you want to check for and remove
-const inputFilePath = '../search-index-typesense/sitemaps-manual/sitemap-www.gleif.org-pdf.xml';
+const specificString = '/regulatory-use-of-the-lei/';  // Replace 'example' with the string you want to check for and remove
+const inputFilePath = `../${process.env.SEARCH_INDEX_DIR}/sitemaps-manual/sitemap-www.gleif.org-pdf.xml`;
 
 // Backup original file
 const backupFilePath = `${inputFilePath}.backup`;

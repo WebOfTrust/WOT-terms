@@ -4,11 +4,14 @@ import extractMainContent from '../modules/extractMainContent.mjs';
 import getTextContent from '../modules/getTextContent.mjs';
 import logger from '../modules/logger.mjs';
 
+import { config as configDotEnv } from 'dotenv';
+configDotEnv();
+
 const config = {
     // // 1: Use a local created sitemap
     // sitemap: await createInput({
     //     sourceType: 'localXMLsitemap',
-    //     sourcePath: 'search-index-typesense/sitemaps/sitemap-www.gleif.org.xml',
+    //     sourcePath: `${process.env.SEARCH_INDEX_DIR}/${process.env.SEARCH_INDEX_SITEMAPS_DIR}/sitemap-www.gleif.org.xml`,
     // }),
 
     // 2: Use html sitemap on website
@@ -16,13 +19,13 @@ const config = {
         sourceType: 'querySelector',
         sourcePath: 'https://www.gleif.org/en/meta/sitemap',
         queryString: '.content ul li a',// must be an a element
-        excludeURLs: 'search-index-typesense/sitemaps-exlude-urls/sitemap-www.gleif.org-exclude-urls.json'
+        excludeURLs: `${process.env.SEARCH_INDEX_DIR}/sitemaps-exlude-urls/sitemap-www.gleif.org-exclude-urls.json`
     }),
     siteName: 'Gleif website',
     source: 'Gleif website',
     category: 'Blogs',
     author: '',
-    destinationFile: 'search-index-typesense/search-index-entries/gleif.jsonl',
+    destinationFile: `${process.env.SEARCH_INDEX_DIR}/${process.env.SEARCH_INDEX_ENTRIES_DIR}/gleif.jsonl`,
     domQueryForContent: 'article .content p, article .content h1, article .content h2, article .content h3, article .content h4, article .content h5, article .content h6, article .content li, article .content img, article .content pre, article .content code'
 }
 

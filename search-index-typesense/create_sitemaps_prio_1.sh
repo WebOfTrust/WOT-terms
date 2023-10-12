@@ -9,13 +9,6 @@
 # Import variables from .env file
 source .env
 
-
-
-# General websites
-node ${SEARCH_INDEX_DIR}/createSitemap.mjs --url https://keripy.readthedocs.io/en/latest/ --depth 5
-node ${SEARCH_INDEX_DIR}/createSitemap.mjs --url https://keria.readthedocs.io/en/latest/ --depth 5
-node ${SEARCH_INDEX_DIR}/createSitemap.mjs --url https://signifypy.readthedocs.io/en/latest/ --depth 5
-
 # Github repos
 # How to use:
 # node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs <repository-owner> <repository-name> <branch-name> <sitemap-directory>
@@ -33,9 +26,6 @@ node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip TSS0033-technology-
 node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip tswg-keri-specification main  ${SEARCH_INDEX_DIR}/sitemaps
 node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip tswg-ptel-specification main  ${SEARCH_INDEX_DIR}/sitemaps
 node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip keri main  ${SEARCH_INDEX_DIR}/sitemaps
-
-# Sam Smith
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs SmithSamuelM Papers master ${SEARCH_INDEX_DIR}/sitemaps
 
 # WebOfTrust
 node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust cardano-backer main ${SEARCH_INDEX_DIR}/sitemaps

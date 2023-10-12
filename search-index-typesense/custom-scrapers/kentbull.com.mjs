@@ -2,21 +2,28 @@ import createInput from '../modules/createInput.mjs';
 import scrape from '../modules/scrape.mjs';
 import extractMainContent from '../modules/extractMainContent.mjs';
 import getTextContent from '../modules/getTextContent.mjs';
+import logger from '../modules/logger.mjs';
+
+import { config as configDotEnv } from 'dotenv';
+configDotEnv();
 
 const config = {
     sitemap: await createInput({
         sourceType: 'localXMLsitemap',
-        sourcePath: 'search-index-typesense/sitemaps/sitemap-kentbull.com.xml',
+        sourcePath: `${process.env.SEARCH_INDEX_DIR}/${process.env.SEARCH_INDEX_SITEMAPS_DIR}/sitemap-kentbull.com.xml`,
     }),
     siteName: 'kentbull.com blog',
     source: 'Blogposts',
     category: 'Blogs',
     author: 'Kent Bull',
-    destinationFile: 'search-index-typesense/search-index-entries/kentbull.com.jsonl',
+    destinationFile: `${process.env.SEARCH_INDEX_DIR}/${process.env.SEARCH_INDEX_ENTRIES_DIR}/kentbull.com.jsonl`,
     domQueryForContent: 'article p, article h1, article h2, article h3, article h4, article h5, article h6, article li, article img, article pre, article code'
 }
 
 async function customScrape(page, domQueryForContent, pageUrl) {
+    logger.setLogFile('success.log');
+    logger.log('pageUrl: ' + pageUrl);
+
     const mainContent = await extractMainContent(page, domQueryForContent);
 
     // let pageTitle = await page.$eval('.posttitle', (element) => {

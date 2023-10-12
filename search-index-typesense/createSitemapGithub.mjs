@@ -35,7 +35,7 @@ async function getRepositoryTree() {
     return response.data.tree;
   } catch (error) {
     logger.setLogFile('error.log');
-    logger.log('Failed to fetch repository tree' + error);
+    logger.log(`Failed to fetch repository tree (${repositoryOwner}/${repositoryName}/git/trees/${branchName}) ` + error);
     return [];
   }
 }

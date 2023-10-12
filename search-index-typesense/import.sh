@@ -10,10 +10,12 @@
 #   TYPESENSE_COLLECTION_NAME
 # External libraries: jq (https://stedolan.github.io/jq/) and curl (https://curl.se/) are required to run this script.
 
-# Logger generates a log file with a timestamp and from which file the message comes from.
-source ./search-index-typesense/logger.sh
+# Import variables from .env file
+source .env
 
-source "$(pwd)/.env"
+# Logger generates a log file with a timestamp and from which file the message comes from.
+source ./${SEARCH_INDEX_DIR}/logger.sh
+
 local_TYPESENSE_ADMIN_API_KEY="${TYPESENSE_ADMIN_API_KEY}"
 local_TYPESENSE_HOST="${TYPESENSE_HOST}"
 local_TYPESENSE_COLLECTION_NAME="${TYPESENSE_COLLECTION_NAME}"
@@ -28,34 +30,15 @@ log $local_TYPESENSE_COLLECTION_NAME
 
 
 ############## CONFIGURATION ##############
-# URL of the endpoint to empty the collection
-# explanation: the filter_by parameter is used to delete all documents that have a content field that is not empty
-urlDelete="https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/documents?filter_by=content:!=''"
-
 # URL of the endpoint to import documents
 urlImport="https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/documents/import?action=create"
 
-# Handmade entries
-input_handmade_dir="$(pwd)/search-index-typesense/search-index-entries-manual"
-output_handmade_dir="$(pwd)/search-index-typesense/search-index-entries-manual"
-
 # Automated entries
-input_dir="$(pwd)/search-index-typesense/search-index-entries"
-output_dir="$(pwd)/search-index-typesense/search-index-entries"
+input_dir="$(pwd)/${SEARCH_INDEX_DIR}/${SEARCH_INDEX_ENTRIES_DIR}"
+output_dir="$(pwd)/${SEARCH_INDEX_DIR}/${SEARCH_INDEX_ENTRIES_DIR}"
 
 # log files
-log_dir="$(pwd)/search-index-typesense/logs"
-
-
-
-
-# ############## COPY FROM HANDMADE DIR TO (MAIN) OUTPUT DIR ##############
-# # Copy all .json files from the output-handmade directory to the output directory, so they will be converted to jsonl as well together with the automated entries
-# for file in "$output_handmade_dir"/*.json; do
-#     cp "$file" "$output_dir"
-# done
-
-
+log_dir="$(pwd)/${SEARCH_INDEX_DIR}/logs"
 
 
 ############## CONVERT JSON TO JSONL ##############

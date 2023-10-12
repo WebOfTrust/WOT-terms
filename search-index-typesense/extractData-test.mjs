@@ -2,7 +2,7 @@
   Author: Kor Dwarshuis
   Created: 2023-03-16
   Updated: -
-  Description: 
+  Description:
 */
 
 
@@ -13,10 +13,11 @@
 // import scrapeESSIFLab from './custom-scrapers/eSSIF-Lab.mjs';
 // import scrapeJolocom from './custom-scrapers/jolocom.io.mjs';
 // import scrapeHumancolossus from './custom-scrapers/humancolossus.mjs';
-import scrapeKsoeteman from './custom-scrapers/ksoeteman.mjs';
+// import scrapeKsoeteman from './custom-scrapers/ksoeteman.mjs';
 // import scrapemediumCom from './custom-scrapers/medium.com.mjs';
 // import scrapeKentbull from './custom-scrapers/kentbull.com.mjs';
 // import scrapeGithub from './custom-scrapers/github.mjs';
+import scrapeGithubTest from './custom-scrapers/githubTest.mjs';
 // import scrapeReadthedocs from './custom-scrapers/readthedocs.io.mjs';
 
 // scrapeWOTterms();
@@ -26,8 +27,10 @@ import scrapeKsoeteman from './custom-scrapers/ksoeteman.mjs';
 // scrapeESSIFLab();
 // scrapeJolocom();
 // scrapeHumancolossus();
-scrapeKsoeteman();
+// scrapeKsoeteman();
 // scrapemediumCom();
 // scrapeKentbull();
 // scrapeGithub();
+scrapeGithubTest();
+// scrapeGithubTest();
 // scrapeReadthedocs();

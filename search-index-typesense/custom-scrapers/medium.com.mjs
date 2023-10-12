@@ -9,22 +9,29 @@ import createInput from '../modules/createInput.mjs';
 import scrape from '../modules/scrape.mjs';
 import extractMainContent from '../modules/extractMainContent.mjs';
 import getTextContent from '../modules/getTextContent.mjs';
+import logger from '../modules/logger.mjs';
+
+import { config as configDotEnv } from 'dotenv';
+configDotEnv();
 
 const config = {
     sitemap: await createInput({
         sourceType: 'localXMLsitemap',
-        sourcePath: 'search-index-typesense/sitemaps/sitemap-medium.com.xml'
+        sourcePath: `${process.env.SEARCH_INDEX_DIR}/${process.env.SEARCH_INDEX_SITEMAPS_DIR}/sitemap-medium.com.xml`
     }),
     siteName: 'Blogposts',
     source: 'Blogposts',
     category: 'Blogs',
-    destinationFile: 'search-index-typesense/search-index-entries/medium.com.jsonl',
+    destinationFile: `${process.env.SEARCH_INDEX_DIR}/${process.env.SEARCH_INDEX_ENTRIES_DIR}/medium.com.jsonl`,
     // domQueryForContent: '.ch p, .ch h1, .ch h2, .ch h3, .ch h4, .ch h5, .ch h6, .ch li'
 
     domQueryForContent: '.ch > p, .ch > h1, .ch > h2, .ch > h3, .ch > h4, .ch > h5, .ch > h6, .ch > li, .ch > img, .ch > pre, .ch > code'
 }
 
 async function customScrape(page, domQueryForContent, pageUrl) {
+    logger.setLogFile('success.log');
+    logger.log('pageUrl: ' + pageUrl);
+
     const mainContent = await extractMainContent(page, domQueryForContent);
 
     // let pageTitle = await page.$eval('.ch h1', (element) => {

@@ -20,11 +20,12 @@
 # log "This code ran successfully!"
 ###########################################################################
 
-
+# Import variables from .env file
+source .env
 
 
 # Define log directory and default log file
-logsDir="search-index-typesense/logs"
+logsDir="${SEARCH_INDEX_DIR}/logs"
 currentLogFile="success.log"
 
 # Function to set the log file

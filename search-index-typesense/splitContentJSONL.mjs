@@ -2,8 +2,11 @@ import fs from 'fs';
 import path from 'path';
 import readline from 'readline';
 import logger from './modules/logger.mjs';
+import { config as configDotEnv } from 'dotenv';
+configDotEnv();
 
-const directoryPath = './search-index-typesense/search-index-entries/';  // The path to the directory containing the .jsonl files
+
+const directoryPath = `./${process.env.SEARCH_INDEX_DIR}/${process.env.SEARCH_INDEX_ENTRIES_DIR}/`;  // The path to the directory containing the .jsonl files
 // Set it to your desired path
 const chunkSize = 2500;  // Adjust this value to change the chunk size
 
