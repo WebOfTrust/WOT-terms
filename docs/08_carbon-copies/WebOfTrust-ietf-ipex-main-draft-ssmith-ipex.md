@@ -1,23 +1,24 @@
-<div className="accordion accordion-flush" id="annotated-copies">
+<div className="accordion">               
+                
+
+<div className="accordion-item accordion-item-9028235178614" data-level="1">
                     
 
-<div className="accordion-item" data-level="1">
+<h2 className="accordion-header" id="header9028235178614">
                         
 
-<h2 className="accordion-header" id="header7682483760460">
-                        
-
-<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-7682483760460" aria-expanded="false" aria-controls="accordeon-7682483760460">
-                            7682483760460, level 1
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-9028235178614" aria-expanded="true" aria-controls="accordeon-9028235178614">
+                            9028235178614, level 1
                         
 
 </button>
-                        
+                    
 
 </h2>
-                        
 
-<div id="accordeon-7682483760460" className="accordion-collapse collapse">
+                    
+
+<div id="accordeon-9028235178614" className="accordion-collapse collapse" aria-labelledby="header9028235178614" >
                         
 
 <div className="accordion-body">
@@ -231,33 +232,34 @@ This IPEX {{IPEX-ID}} protocol leverages important features of ACDCs and ancilla
                         
 
 </div>
-                        
-
-</div>
                     
 
 </div>
                 
 
-                    
+</div>
+                
+               
+                
 
-<div className="accordion-item" data-level="2">
-                        
+<div className="accordion-item accordion-item-introduction" data-level="2">
+                    
 
 <h2 className="accordion-header" id="headerintroduction">
                         
 
-<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-introduction" aria-expanded="false" aria-controls="accordeon-introduction">
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-introduction" aria-expanded="true" aria-controls="accordeon-introduction">
                             introduction, level 2
                         
 
 </button>
-                        
+                    
 
 </h2>
-                        
 
-<div id="accordeon-introduction" className="accordion-collapse collapse">
+                    
+
+<div id="accordeon-introduction" className="accordion-collapse collapse" aria-labelledby="headerintroduction" >
                         
 
 <div className="accordion-body">
@@ -270,33 +272,34 @@ TODO Introduction
                         
 
 </div>
-                        
-
-</div>
                     
 
 </div>
                 
 
-                    
+</div>
+                
+               
+                
 
-<div className="accordion-item" data-level="1">
-                        
+<div className="accordion-item accordion-item-terminology" data-level="1">
+                    
 
 <h2 className="accordion-header" id="headerterminology">
                         
 
-<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-terminology" aria-expanded="false" aria-controls="accordeon-terminology">
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-terminology" aria-expanded="true" aria-controls="accordeon-terminology">
                             terminology, level 1
                         
 
 </button>
-                        
+                    
 
 </h2>
-                        
 
-<div id="accordeon-terminology" className="accordion-collapse collapse">
+                    
+
+<div id="accordeon-terminology" className="accordion-collapse collapse" aria-labelledby="headerterminology" >
                         
 
 <div className="accordion-body">
@@ -341,33 +344,34 @@ In an *issuance exchange*, when the *origin* ACDC has an *Issuee*, the *Disclose
                         
 
 </div>
-                        
-
-</div>
                     
 
 </div>
                 
 
-                    
+</div>
+                
+               
+                
 
-<div className="accordion-item" data-level="1">
-                        
+<div className="accordion-item accordion-item-chain-link-confidentiality" data-level="1">
+                    
 
 <h2 className="accordion-header" id="headerchain-link-confidentiality">
                         
 
-<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-chain-link-confidentiality" aria-expanded="false" aria-controls="accordeon-chain-link-confidentiality">
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-chain-link-confidentiality" aria-expanded="true" aria-controls="accordeon-chain-link-confidentiality">
                             chain-link-confidentiality, level 1
                         
 
 </button>
-                        
+                    
 
 </h2>
-                        
 
-<div id="accordeon-chain-link-confidentiality" className="accordion-collapse collapse">
+                    
+
+<div id="accordeon-chain-link-confidentiality" className="accordion-collapse collapse" aria-labelledby="headerchain-link-confidentiality" >
                         
 
 <div className="accordion-body">
@@ -382,33 +386,34 @@ Disclosures via Presentations Exchanges may be contractually protected by Chain-
                         
 
 </div>
-                        
-
-</div>
                     
 
 </div>
                 
 
-                    
+</div>
+                
+               
+                
 
-<div className="accordion-item" data-level="1">
-                        
+<div className="accordion-item accordion-item-exchange-protocol" data-level="1">
+                    
 
 <h2 className="accordion-header" id="headerexchange-protocol">
                         
 
-<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-exchange-protocol" aria-expanded="false" aria-controls="accordeon-exchange-protocol">
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-exchange-protocol" aria-expanded="true" aria-controls="accordeon-exchange-protocol">
                             exchange-protocol, level 1
                         
 
 </button>
-                        
+                    
 
 </h2>
-                        
 
-<div id="accordeon-exchange-protocol" className="accordion-collapse collapse">
+                    
+
+<div id="accordeon-exchange-protocol" className="accordion-collapse collapse" aria-labelledby="headerexchange-protocol" >
                         
 
 <div className="accordion-body">
@@ -432,33 +437,34 @@ Disclosures via Presentations Exchanges may be contractually protected by Chain-
                         
 
 </div>
-                        
-
-</div>
                     
 
 </div>
                 
 
-                    
+</div>
+                
+               
+                
 
-<div className="accordion-item" data-level="1">
-                        
+<div className="accordion-item accordion-item-discussion" data-level="1">
+                    
 
 <h2 className="accordion-header" id="headerdiscussion">
                         
 
-<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-discussion" aria-expanded="false" aria-controls="accordeon-discussion">
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-discussion" aria-expanded="true" aria-controls="accordeon-discussion">
                             discussion, level 1
                         
 
 </button>
-                        
+                    
 
 </h2>
-                        
 
-<div id="accordeon-discussion" className="accordion-collapse collapse">
+                    
+
+<div id="accordeon-discussion" className="accordion-collapse collapse" aria-labelledby="headerdiscussion" >
                         
 
 <div className="accordion-body">
@@ -479,33 +485,34 @@ Consequently, the IPEX protocol must specify how a validator does validation of 
                         
 
 </div>
-                        
-
-</div>
                     
 
 </div>
                 
 
-                    
+</div>
+                
+               
+                
 
-<div className="accordion-item" data-level="1">
-                        
+<div className="accordion-item accordion-item-ipex-validation" data-level="1">
+                    
 
 <h2 className="accordion-header" id="headeripex-validation">
                         
 
-<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-ipex-validation" aria-expanded="false" aria-controls="accordeon-ipex-validation">
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-ipex-validation" aria-expanded="true" aria-controls="accordeon-ipex-validation">
                             ipex-validation, level 1
                         
 
 </button>
-                        
+                    
 
 </h2>
-                        
 
-<div id="accordeon-ipex-validation" className="accordion-collapse collapse">
+                    
+
+<div id="accordeon-ipex-validation" className="accordion-collapse collapse" aria-labelledby="headeripex-validation" >
                         
 
 <div className="accordion-body">
@@ -520,33 +527,34 @@ For example, in the bulk issuance of an ACDC, the Issuer only signs the blinded 
                         
 
 </div>
-                        
-
-</div>
                     
 
 </div>
                 
 
-                    
+</div>
+                
+               
+                
 
-<div className="accordion-item" data-level="1">
-                        
+<div className="accordion-item accordion-item-issuer-signing-rules" data-level="1">
+                    
 
 <h2 className="accordion-header" id="headerissuer-signing-rules">
                         
 
-<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-issuer-signing-rules" aria-expanded="false" aria-controls="accordeon-issuer-signing-rules">
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-issuer-signing-rules" aria-expanded="true" aria-controls="accordeon-issuer-signing-rules">
                             issuer-signing-rules, level 1
                         
 
 </button>
-                        
+                    
 
 </h2>
-                        
 
-<div id="accordeon-issuer-signing-rules" className="accordion-collapse collapse">
+                    
+
+<div id="accordeon-issuer-signing-rules" className="accordion-collapse collapse" aria-labelledby="headerissuer-signing-rules" >
                         
 
 <div className="accordion-body">
@@ -576,33 +584,34 @@ Thus for any disclosed variant of an ACDC, the Disclosee need only verify only o
                         
 
 </div>
-                        
-
-</div>
                     
 
 </div>
                 
 
-                    
+</div>
+                
+               
+                
 
-<div className="accordion-item" data-level="1">
-                        
+<div className="accordion-item accordion-item-example-most-compact-variant" data-level="1">
+                    
 
 <h2 className="accordion-header" id="headerexample-most-compact-variant">
                         
 
-<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-example-most-compact-variant" aria-expanded="false" aria-controls="accordeon-example-most-compact-variant">
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-example-most-compact-variant" aria-expanded="true" aria-controls="accordeon-example-most-compact-variant">
                             example-most-compact-variant, level 1
                         
 
 </button>
-                        
+                    
 
 </h2>
-                        
 
-<div id="accordeon-example-most-compact-variant" className="accordion-collapse collapse">
+                    
+
+<div id="accordeon-example-most-compact-variant" className="accordion-collapse collapse" aria-labelledby="headerexample-most-compact-variant" >
                         
 
 <div className="accordion-body">
@@ -884,33 +893,34 @@ The Issuer signs the SAID, `d` field value of the field map above.
                         
 
 </div>
-                        
-
-</div>
                     
 
 </div>
                 
 
-                    
+</div>
+                
+               
+                
 
-<div className="accordion-item" data-level="1">
-                        
+<div className="accordion-item accordion-item-conventions-and-definitions" data-level="1">
+                    
 
 <h2 className="accordion-header" id="headerconventions-and-definitions">
                         
 
-<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-conventions-and-definitions" aria-expanded="false" aria-controls="accordeon-conventions-and-definitions">
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-conventions-and-definitions" aria-expanded="true" aria-controls="accordeon-conventions-and-definitions">
                             conventions-and-definitions, level 1
                         
 
 </button>
-                        
+                    
 
 </h2>
-                        
 
-<div id="accordeon-conventions-and-definitions" className="accordion-collapse collapse">
+                    
+
+<div id="accordeon-conventions-and-definitions" className="accordion-collapse collapse" aria-labelledby="headerconventions-and-definitions" >
                         
 
 <div className="accordion-body">
@@ -924,33 +934,34 @@ The Issuer signs the SAID, `d` field value of the field map above.
                         
 
 </div>
-                        
-
-</div>
                     
 
 </div>
                 
 
-                    
+</div>
+                
+               
+                
 
-<div className="accordion-item" data-level="1">
-                        
+<div className="accordion-item accordion-item-security-considerations" data-level="1">
+                    
 
 <h2 className="accordion-header" id="headersecurity-considerations">
                         
 
-<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-security-considerations" aria-expanded="false" aria-controls="accordeon-security-considerations">
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-security-considerations" aria-expanded="true" aria-controls="accordeon-security-considerations">
                             security-considerations, level 1
                         
 
 </button>
-                        
+                    
 
 </h2>
-                        
 
-<div id="accordeon-security-considerations" className="accordion-collapse collapse">
+                    
+
+<div id="accordeon-security-considerations" className="accordion-collapse collapse" aria-labelledby="headersecurity-considerations" >
                         
 
 <div className="accordion-body">
@@ -964,33 +975,34 @@ TODO Security
                         
 
 </div>
-                        
-
-</div>
                     
 
 </div>
                 
 
-                    
+</div>
+                
+               
+                
 
-<div className="accordion-item" data-level="1">
-                        
+<div className="accordion-item accordion-item-iana-considerations" data-level="1">
+                    
 
 <h2 className="accordion-header" id="headeriana-considerations">
                         
 
-<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-iana-considerations" aria-expanded="false" aria-controls="accordeon-iana-considerations">
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-iana-considerations" aria-expanded="true" aria-controls="accordeon-iana-considerations">
                             iana-considerations, level 1
                         
 
 </button>
-                        
+                    
 
 </h2>
-                        
 
-<div id="accordeon-iana-considerations" className="accordion-collapse collapse">
+                    
+
+<div id="accordeon-iana-considerations" className="accordion-collapse collapse" aria-labelledby="headeriana-considerations" >
                         
 
 <div className="accordion-body">
@@ -1006,33 +1018,34 @@ This document has no IANA actions.
                         
 
 </div>
-                        
-
-</div>
                     
 
 </div>
                 
 
-                    
+</div>
+                
+               
+                
 
-<div className="accordion-item" data-level="1">
-                        
+<div className="accordion-item accordion-item-acknowledgments" data-level="1">
+                    
 
 <h2 className="accordion-header" id="headeracknowledgments">
                         
 
-<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-acknowledgments" aria-expanded="false" aria-controls="accordeon-acknowledgments">
+<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-acknowledgments" aria-expanded="true" aria-controls="accordeon-acknowledgments">
                             acknowledgments, level 1
                         
 
 </button>
-                        
+                    
 
 </h2>
-                        
 
-<div id="accordeon-acknowledgments" className="accordion-collapse collapse">
+                    
+
+<div id="accordeon-acknowledgments" className="accordion-collapse collapse" aria-labelledby="headeracknowledgments" >
                         
 
 <div className="accordion-body">
@@ -1046,10 +1059,10 @@ TODO acknowledge.
                         
 
 </div>
-                        
+                    
 
 </div>
-                    
+                
 
 </div>
                 </div>

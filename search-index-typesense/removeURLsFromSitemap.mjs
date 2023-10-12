@@ -38,12 +38,9 @@ import fs from 'fs';
 import path from 'path';
 import xml2js from 'xml2js';
 import logger from './modules/logger.mjs';
-import { config as configDotEnv } from 'dotenv';
-configDotEnv();
-
 
 // Sitemap directory
-const sitemapDir = `${process.env.SEARCH_INDEX_DIR}/${process.env.SEARCH_INDEX_SITEMAPS_DIR}`;
+const sitemapDir = 'search-index-typesense/sitemaps';
 
 // Array of extensions to filter out
 const unwantedExtensions = [

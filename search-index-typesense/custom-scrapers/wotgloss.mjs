@@ -2,10 +2,6 @@ import createInput from '../modules/createInput.mjs';
 import scrape from '../modules/scrape.mjs';
 import extractMainContent from '../modules/extractMainContent.mjs';
 import getTextContent from '../modules/getTextContent.mjs';
-import logger from '../modules/logger.mjs';
-
-import { config as configDotEnv } from 'dotenv';
-configDotEnv();
 
 const config = {
     sitemap: await createInput({
@@ -17,14 +13,11 @@ const config = {
     source: 'WebofTrust glossary',
     category: 'Glossary',
     author: 'Henk van Cann',
-    destinationFile: `${process.env.SEARCH_INDEX_DIR}/${process.env.SEARCH_INDEX_ENTRIES_DIR}/wotgloss.jsonl`,
+    destinationFile: 'search-index-typesense/search-index-entries/wotgloss.jsonl',
     domQueryForContent: '.markdown-body p, .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6, .markdown-body li, .markdown-body img, .markdown-body pre, .markdown-body code'
 }
 
 async function customScrape(page, domQueryForContent, pageUrl) {
-    logger.setLogFile('success.log');
-    logger.log('pageUrl: ' + pageUrl);
-
     const mainContent = await extractMainContent(page, domQueryForContent);
 
     // let pageTitle = await page.$eval('.repository-content h1', (element) => {

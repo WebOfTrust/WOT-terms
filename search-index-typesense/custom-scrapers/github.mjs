@@ -1,10 +1,11 @@
 import createInput from '../modules/createInput.mjs';
 import scrape from '../modules/scrape.mjs';
-import { config as configDotEnv } from 'dotenv';
-configDotEnv();
 
-// List of GITHUB sitemap files
+// List of sitemap files
 const sitemapFiles = [
+    'sitemap-keria.readthedocs.io.xml',
+    'sitemap-keripy.readthedocs.io.xml',
+    'sitemap-signifypy.readthedocs.io.xml',
     'sitemap.githubcom.trustoverip.acdc-main.xml',
     'sitemap.githubcom.trustoverip.keri-main.xml',
     'sitemap.githubcom.trustoverip.tss0033-technology-stack-acdc-main.xml',
@@ -58,13 +59,13 @@ const createConfig = async (filename) => {
     return {
         sitemap: await createInput({
             sourceType: 'localXMLsitemap',
-            sourcePath: `${process.env.SEARCH_INDEX_DIR}/${process.env.SEARCH_INDEX_SITEMAPS_DIR}/${filename}`,
+            sourcePath: `search-index-typesense/sitemaps/${filename}`,
         }),
         siteName: `${repositoryOwner} / ${repositoryName}`,
         source: `${repositoryOwner} / ${repositoryName}`,
         category: category,
         author: `${repositoryOwner}`,
-        destinationFile: `${process.env.SEARCH_INDEX_DIR}/${process.env.SEARCH_INDEX_ENTRIES_DIR}/${repositoryOwner}-${repositoryName}.jsonl`,
+        destinationFile: `search-index-typesense/search-index-entries/${repositoryOwner}-${repositoryName}.jsonl`,
         branch: branchName
     };
 }

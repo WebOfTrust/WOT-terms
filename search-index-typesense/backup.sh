@@ -27,10 +27,6 @@ BACKUP_DIR="${KERISSE_BACKUPS_DIR}${TIMESTAMP}"
 # Check and create the backup directory
 mkdir -p "$BACKUP_DIR"
 
-####################
-# BACKUP LOCAL FILES
-####################
-
 # List of directories to backup
 declare -a dirsToBackup=("${SEARCH_INDEX_DIR}/logs" "${SEARCH_INDEX_DIR}/search-index-entries" "${SEARCH_INDEX_DIR}/sitemaps" "docs/${OVERVIEW_DIR}")
 
@@ -49,27 +45,3 @@ done
 
 setLogFile "success.log"
 log "Backup completed to $BACKUP_DIR"
-
-
-####################
-# BACKUP TYPESENSE COLLECTION
-####################
-
-setLogFile "success.log"
-log "Backup completed to $BACKUP_DIR"
-
-
-# Credentials and settings for Typesense export
-local_TYPESENSE_ADMIN_API_KEY="${TYPESENSE_ADMIN_API_KEY}"
-local_TYPESENSE_HOST="${TYPESENSE_HOST}"
-local_TYPESENSE_COLLECTION_NAME="${TYPESENSE_COLLECTION_NAME}"
-
-# Create directory for Typesense export
-mkdir "${BACKUP_DIR}/typesense-export"
-
-# Export Typesense data to JSONL file in the backup directory with timestamp in the filename 
-curl -H "X-TYPESENSE-API-KEY: ${local_TYPESENSE_ADMIN_API_KEY}" \
-     "https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/documents/export" > "${BACKUP_DIR}/typesense-export/${TIMESTAMP}-typesense-export.jsonl"
-
-setLogFile "success.log"
-log "Typesense export completed to $BACKUP_DIR"

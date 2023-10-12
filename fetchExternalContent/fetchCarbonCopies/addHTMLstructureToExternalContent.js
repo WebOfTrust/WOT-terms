@@ -94,29 +94,33 @@ fs.readdir(directoryPath, (err, files) => {
                     .replace(/\?/g, '-')
                     .replace(/!/g, '-')
                     .replace(/"/g, '-')
+
+
                     ;
+                console.log('dataAttributeMap[anchor]: ', dataAttributeMap[anchor]);
                 let dataAttribute = dataAttributeMap[anchor] || '1';
 
                 // Creating Bootstrap Accordion
                 // the “\n\n” must be added or the code will fail
-                return `
-                    \n\n<div className="accordion-item" data-level="${dataAttribute}">
-                        \n\n<h2 className="accordion-header" id="header${anchor}">
-                        \n\n<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-${anchor}" aria-expanded="false" aria-controls="accordeon-${anchor}">
+                return `               
+                \n\n<div className="accordion-item accordion-item-${anchor}" data-level="${dataAttribute}">
+                    \n\n<h2 className="accordion-header" id="header${anchor}">
+                        \n\n<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-${anchor}" aria-expanded="true" aria-controls="accordeon-${anchor}">
                             ${anchor}, level ${dataAttribute}
                         \n\n</button>
-                        \n\n</h2>
-                        \n\n<div id="accordeon-${anchor}" className="accordion-collapse collapse">
+                    \n\n</h2>
+
+                    \n\n<div id="accordeon-${anchor}" className="accordion-collapse collapse" aria-labelledby="header${anchor}" >
                         \n\n<div className="accordion-body">
                             \n\n${section}
                         \n\n</div>
-                        \n\n</div>
                     \n\n</div>
+                \n\n</div>
                 `;
             }).join('\n');
 
-            // Wrap all content in a div with the accordion className
-            updatedData = `<div className="accordion accordion-flush" id="annotated-copies">` + updatedData + `</div>`;
+            // Wrap all content in a div with the accordion class
+            updatedData = `<div className="accordion">` + updatedData + `</div>`;
 
             // Write to the file
             fs.writeFile(markdownFilePath, updatedData, (err) => {

@@ -18,10 +18,8 @@
 
 import fs from 'fs';
 import tracer from 'tracer';
-import { config as configDotEnv } from 'dotenv';
-configDotEnv();
 
-const logsDir = `${process.env.SEARCH_INDEX_DIR}/logs`;
+const logsDir = 'search-index-typesense/logs';
 let currentLogFile = 'success.log'; // default log file
 
 const logger = tracer.console({

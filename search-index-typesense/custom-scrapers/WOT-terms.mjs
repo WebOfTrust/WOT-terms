@@ -2,29 +2,22 @@ import createInput from '../modules/createInput.mjs';
 import scrape from '../modules/scrape.mjs';
 import extractMainContent from '../modules/extractMainContent.mjs';
 import getTextContent from '../modules/getTextContent.mjs';
-import logger from '../modules/logger.mjs';
-
-import { config as configDotEnv } from 'dotenv';
-configDotEnv();
 
 const config = {
     sitemap: await createInput({
         sourceType: 'remoteXMLsitemap',
         sourcePath: 'https://weboftrust.github.io/WOT-terms/sitemap.xml',
-        excludeURLs: `${process.env.SEARCH_INDEX_DIR}/sitemaps-exlude-urls/WOT-terms-exclude-urls.json`
+        excludeURLs: 'search-index-typesense/sitemaps-exlude-urls/WOT-terms-exclude-urls.json'
     }),
     siteName: 'KERISSE (this site)',
     source: 'KERISSE (this site)',
     category: 'KERISSE (this site)',
     author: 'Henk van Cann',
-    destinationFile: `${process.env.SEARCH_INDEX_DIR}/${process.env.SEARCH_INDEX_ENTRIES_DIR}/WOT-terms.jsonl`,
+    destinationFile: 'search-index-typesense/search-index-entries/WOT-terms.jsonl',
     domQueryForContent: 'article .markdown p, article .markdown h1, article .markdown h2, article .markdown h3, article .markdown h4, article .markdown h5, article .markdown h6, article .markdown li, article .markdown img, article .markdown pre, article .markdown code'
 }
 
 async function customScrape(page, domQueryForContent, pageUrl) {
-    logger.setLogFile('success.log');
-    logger.log('pageUrl: ' + pageUrl);
-
     const mainContent = await extractMainContent(page, domQueryForContent);
 
     let type = await page.$eval('article', (element) => {

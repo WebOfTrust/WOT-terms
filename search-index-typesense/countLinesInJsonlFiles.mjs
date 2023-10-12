@@ -14,13 +14,10 @@
 
 import fs from 'fs/promises';
 import path from 'path';
-import { config as configDotEnv } from 'dotenv';
-configDotEnv();
-
 
 // Configurable input and output paths
-const inputDir = `./${process.env.SEARCH_INDEX_DIR}/search-index-entries`; // Directory containing .jsonl files
-const outputDir = `./${process.env.SEARCH_INDEX_DIR}/logs`; // Directory where the output file will be saved
+const inputDir = './search-index-typesense/search-index-entries'; // Directory containing .jsonl files
+const outputDir = './search-index-typesense/logs'; // Directory where the output file will be saved
 const outputFilename = 'entry_counts.txt'; // Output filename
 
 // Initialize grand total of lines
