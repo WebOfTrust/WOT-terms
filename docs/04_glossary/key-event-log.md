@@ -1,5 +1,5 @@
 ## Definition
-A verifiable data structure that is a backward and forward chained, signed, append-only log of key events for an AID. The first entry in a KEL MUST be the one and only Inception Event of that AID.\
+A verifiable data structure that is a backward and forward chained, signed, append-only log of key events for an AID. The first entry in a KEL MUST be the one and only Inception Event of that AID.  
 Source [Sam Smith](https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-keri.md#basic-terminology)
 
 ### Put differently

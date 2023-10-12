@@ -1,6 +1,6 @@
 ## Definition
 
-Non-CESR Base64 conversion. How people are used to using the Base64 encode and decode.  Without [pre-pad](pre-pad)ding etc all the stuff CESR does to ensure aligns on 24 bit boundaries so [CESR](CESR) never uses the '=' pad character. But naive [Base64](Base64) will pad if the length is not 24 bit aligned.\
+Non-CESR Base64 conversion. How people are used to using the Base64 encode and decode.  Without [pre-pad](pre-pad)ding etc all the stuff CESR does to ensure aligns on 24 bit boundaries so [CESR](CESR) never uses the '=' pad character. But naive [Base64](base64) will pad if the length is not 24 bit aligned.  
 Source: Samuel Smith in [issue 34](https://github.com/WebOfTrust/ietf-cesr/issues/34)
 
 Naive conversion is a text to binary conversion or vice versa that doesn't anticipate on either [composability](composability) and / or on the [concatenation](concatenation) capability of the result of such an operation.

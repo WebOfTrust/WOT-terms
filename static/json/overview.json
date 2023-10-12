@@ -9981,8 +9981,98 @@
       "https://github.com/weboftrust/WOT-terms/wiki/provenanced"
     ],
     [
+      "520",
+      "K",
+      "non-interactive-authentication-design",
       "",
+      "non-interactive-authentication-design",
+      "Non-interactive Authentication Design",
+      "https://github.com/weboftrust/WOT-terms/wiki/non-interactive-authentication-design"
+    ],
+    [
+      "521",
+      "K",
+      "interactive-authentication-design",
       "",
+      "interactive-authentication-design",
+      "",
+      "https://github.com/weboftrust/WOT-terms/wiki/interactive-authentication-design"
+    ],
+    [
+      "522",
+      "S",
+      "ESSR",
+      "",
+      "ESSR",
+      "Encrypt Sender, Sign the Receiver",
+      "https://github.com/weboftrust/WOT-terms/wiki/ESSR"
+    ],
+    [
+      "523",
+      "S",
+      "VID ",
+      "",
+      "VID",
+      "Verifiable Identifier",
+      "https://github.com/weboftrust/WOT-terms/wiki/VID "
+    ],
+    [
+      "524",
+      "S",
+      "encrypt‐sender‐sign‐receiver",
+      "",
+      "encrypt‐sender‐sign‐receiver",
+      "Encrypt Sender, Sign the Receiver",
+      "https://github.com/weboftrust/WOT-terms/wiki/encrypt‐sender‐sign‐receiver"
+    ],
+    [
+      "525",
+      "S",
+      "verifiable-identifier",
+      "",
+      "verifiable-identifier",
+      "Cryptographically verifiable authentic identifier",
+      "https://github.com/weboftrust/WOT-terms/wiki/verifiable-identifier"
+    ],
+    [
+      "526",
+      "S",
+      "trust-spanning-protocol",
+      "",
+      "trust-spanning-protocol",
+      "Protocol using VIDs that signs every single message on the internet.",
+      "https://github.com/weboftrust/WOT-terms/wiki/trust-spanning-protocol"
+    ],
+    [
+      "527",
+      "S",
+      "TSP",
+      "",
+      "TSP",
+      "Trust spanning protocol, using VIDs that signs every single message on the internet.",
+      "https://github.com/weboftrust/WOT-terms/wiki/TSP"
+    ],
+    [
+      "528",
+      "S",
+      "privacy-washing",
+      "",
+      "privacy-washing",
+      "De-identification so that it provides a personal data safe harbour and could be legally acceptable forwarded",
+      "https://github.com/weboftrust/WOT-terms/wiki/privacy-washing"
+    ],
+    [
+      "529",
+      "S",
+      "DKR",
+      "",
+      "DKR",
+      "Did:keri resolver",
+      "https://github.com/weboftrust/WOT-terms/wiki/DKR"
+    ],
+    [
+      "530",
+      "S",
       "",
       "",
       "",
