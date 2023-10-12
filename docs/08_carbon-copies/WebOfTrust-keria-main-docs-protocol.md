@@ -1,24 +1,23 @@
-<div className="accordion">               
-                
-
-<div className="accordion-item accordion-item-signify-keria-request-authentication-protocol--skrap-" data-level="1">
+<div className="accordion accordion-flush" id="annotated-copies">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headersignify-keria-request-authentication-protocol--skrap-">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-signify-keria-request-authentication-protocol--skrap-" aria-expanded="true" aria-controls="accordeon-signify-keria-request-authentication-protocol--skrap-">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-signify-keria-request-authentication-protocol--skrap-" aria-expanded="false" aria-controls="accordeon-signify-keria-request-authentication-protocol--skrap-">
                             signify-keria-request-authentication-protocol--skrap-, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-signify-keria-request-authentication-protocol--skrap-" className="accordion-collapse collapse" aria-labelledby="headersignify-keria-request-authentication-protocol--skrap-" >
+<div id="accordeon-signify-keria-request-authentication-protocol--skrap-" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -29,34 +28,33 @@
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-keria-service-endpoint-interfaces" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headerkeria-service-endpoint-interfaces">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-keria-service-endpoint-interfaces" aria-expanded="true" aria-controls="accordeon-keria-service-endpoint-interfaces">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-keria-service-endpoint-interfaces" aria-expanded="false" aria-controls="accordeon-keria-service-endpoint-interfaces">
                             keria-service-endpoint-interfaces, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-keria-service-endpoint-interfaces" className="accordion-collapse collapse" aria-labelledby="headerkeria-service-endpoint-interfaces" >
+<div id="accordeon-keria-service-endpoint-interfaces" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -74,34 +72,33 @@ This separation allows for the Boot interface to be expose to internal infrastru
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-agent-worker-initialization" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headeragent-worker-initialization">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-agent-worker-initialization" aria-expanded="true" aria-controls="accordeon-agent-worker-initialization">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-agent-worker-initialization" aria-expanded="false" aria-controls="accordeon-agent-worker-initialization">
                             agent-worker-initialization, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-agent-worker-initialization" className="accordion-collapse collapse" aria-labelledby="headeragent-worker-initialization" >
+<div id="accordeon-agent-worker-initialization" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -114,34 +111,33 @@ To initiate a connection between a Signify Client and a KERIA agent, the two sid
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-step-one---generate-client-aid" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headerstep-one---generate-client-aid">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-step-one---generate-client-aid" aria-expanded="true" aria-controls="accordeon-step-one---generate-client-aid">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-step-one---generate-client-aid" aria-expanded="false" aria-controls="accordeon-step-one---generate-client-aid">
                             step-one---generate-client-aid, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-step-one---generate-client-aid" className="accordion-collapse collapse" aria-labelledby="headerstep-one---generate-client-aid" >
+<div id="accordeon-step-one---generate-client-aid" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -181,34 +177,33 @@ The follow is an example of a Client AID generated by the SignifyPy (Python impl
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-step-two---agent-worker-creation" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headerstep-two---agent-worker-creation">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-step-two---agent-worker-creation" aria-expanded="true" aria-controls="accordeon-step-two---agent-worker-creation">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-step-two---agent-worker-creation" aria-expanded="false" aria-controls="accordeon-step-two---agent-worker-creation">
                             step-two---agent-worker-creation, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-step-two---agent-worker-creation" className="accordion-collapse collapse" aria-labelledby="headerstep-two---agent-worker-creation" >
+<div id="accordeon-step-two---agent-worker-creation" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -247,34 +242,33 @@ can be generated using a salt or truly random depending on the requirements of t
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-step-three--signify-client-delegation-approval" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headerstep-three--signify-client-delegation-approval">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-step-three--signify-client-delegation-approval" aria-expanded="true" aria-controls="accordeon-step-three--signify-client-delegation-approval">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-step-three--signify-client-delegation-approval" aria-expanded="false" aria-controls="accordeon-step-three--signify-client-delegation-approval">
                             step-three--signify-client-delegation-approval, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-step-three--signify-client-delegation-approval" className="accordion-collapse collapse" aria-labelledby="headerstep-three--signify-client-delegation-approval" >
+<div id="accordeon-step-three--signify-client-delegation-approval" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -291,34 +285,33 @@ Once these steps are complete the Signify Client can begin using the rest of the
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-reconnecting-to-existing-agent-worker" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headerreconnecting-to-existing-agent-worker">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-reconnecting-to-existing-agent-worker" aria-expanded="true" aria-controls="accordeon-reconnecting-to-existing-agent-worker">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-reconnecting-to-existing-agent-worker" aria-expanded="false" aria-controls="accordeon-reconnecting-to-existing-agent-worker">
                             reconnecting-to-existing-agent-worker, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-reconnecting-to-existing-agent-worker" className="accordion-collapse collapse" aria-labelledby="headerreconnecting-to-existing-agent-worker" >
+<div id="accordeon-reconnecting-to-existing-agent-worker" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -331,34 +324,33 @@ Document the steps for retrieving state from the Admin interface and updating.
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-key-generate-methods" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headerkey-generate-methods">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-key-generate-methods" aria-expanded="true" aria-controls="accordeon-key-generate-methods">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-key-generate-methods" aria-expanded="false" aria-controls="accordeon-key-generate-methods">
                             key-generate-methods, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-key-generate-methods" className="accordion-collapse collapse" aria-labelledby="headerkey-generate-methods" >
+<div id="accordeon-key-generate-methods" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -377,34 +369,33 @@ For all key generation methods, the Signify Client creates and signs all KERI ev
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-salty-keys" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headersalty-keys">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-salty-keys" aria-expanded="true" aria-controls="accordeon-salty-keys">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-salty-keys" aria-expanded="false" aria-controls="accordeon-salty-keys">
                             salty-keys, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-salty-keys" className="accordion-collapse collapse" aria-labelledby="headersalty-keys" >
+<div id="accordeon-salty-keys" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -439,34 +430,33 @@ class SaltyPrm:
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-salty-key-salt-rotations" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headersalty-key-salt-rotations">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-salty-key-salt-rotations" aria-expanded="true" aria-controls="accordeon-salty-key-salt-rotations">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-salty-key-salt-rotations" aria-expanded="false" aria-controls="accordeon-salty-key-salt-rotations">
                             salty-key-salt-rotations, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-salty-key-salt-rotations" className="accordion-collapse collapse" aria-labelledby="headersalty-key-salt-rotations" >
+<div id="accordeon-salty-key-salt-rotations" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -477,34 +467,33 @@ Document the procedure for rotating a new Salt in for a Salty Key AID.
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-randy-keys" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headerrandy-keys">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-randy-keys" aria-expanded="true" aria-controls="accordeon-randy-keys">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-randy-keys" aria-expanded="false" aria-controls="accordeon-randy-keys">
                             randy-keys, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-randy-keys" className="accordion-collapse collapse" aria-labelledby="headerrandy-keys" >
+<div id="accordeon-randy-keys" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -519,34 +508,33 @@ The server stores the encrypted private key material for signing and rotation ke
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-sandy-keys" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headersandy-keys">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-sandy-keys" aria-expanded="true" aria-controls="accordeon-sandy-keys">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-sandy-keys" aria-expanded="false" aria-controls="accordeon-sandy-keys">
                             sandy-keys, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-sandy-keys" className="accordion-collapse collapse" aria-labelledby="headersandy-keys" >
+<div id="accordeon-sandy-keys" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -558,34 +546,33 @@ The server stores the encrypted private key material for signing and rotation ke
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-group-keys" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headergroup-keys">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-group-keys" aria-expanded="true" aria-controls="accordeon-group-keys">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-group-keys" aria-expanded="false" aria-controls="accordeon-group-keys">
                             group-keys, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-group-keys" className="accordion-collapse collapse" aria-labelledby="headergroup-keys" >
+<div id="accordeon-group-keys" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -600,34 +587,33 @@ All signing operations must be performed on the Signify Client on behalf of the 
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-hsm-keys--experimental-" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headerhsm-keys--experimental-">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-hsm-keys--experimental-" aria-expanded="true" aria-controls="accordeon-hsm-keys--experimental-">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-hsm-keys--experimental-" aria-expanded="false" aria-controls="accordeon-hsm-keys--experimental-">
                             hsm-keys--experimental-, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-hsm-keys--experimental-" className="accordion-collapse collapse" aria-labelledby="headerhsm-keys--experimental-" >
+<div id="accordeon-hsm-keys--experimental-" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -689,34 +675,33 @@ class Shim:
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-passcode-rotation" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headerpasscode-rotation">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-passcode-rotation" aria-expanded="true" aria-controls="accordeon-passcode-rotation">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-passcode-rotation" aria-expanded="false" aria-controls="accordeon-passcode-rotation">
                             passcode-rotation, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-passcode-rotation" className="accordion-collapse collapse" aria-labelledby="headerpasscode-rotation" >
+<div id="accordeon-passcode-rotation" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -736,34 +721,33 @@ To perform a passcode rotation, the Signify Client requires both old and new pas
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-partial-client-aid-rotaion-in-support-of-passcode-rotation" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headerpartial-client-aid-rotaion-in-support-of-passcode-rotation">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-partial-client-aid-rotaion-in-support-of-passcode-rotation" aria-expanded="true" aria-controls="accordeon-partial-client-aid-rotaion-in-support-of-passcode-rotation">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-partial-client-aid-rotaion-in-support-of-passcode-rotation" aria-expanded="false" aria-controls="accordeon-partial-client-aid-rotaion-in-support-of-passcode-rotation">
                             partial-client-aid-rotaion-in-support-of-passcode-rotation, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-partial-client-aid-rotaion-in-support-of-passcode-rotation" className="accordion-collapse collapse" aria-labelledby="headerpartial-client-aid-rotaion-in-support-of-passcode-rotation" >
+<div id="accordeon-partial-client-aid-rotaion-in-support-of-passcode-rotation" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -827,34 +811,33 @@ The following steps are followed to accept the passcode rotation:
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-passcode-rotation-recovery" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headerpasscode-rotation-recovery">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-passcode-rotation-recovery" aria-expanded="true" aria-controls="accordeon-passcode-rotation-recovery">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-passcode-rotation-recovery" aria-expanded="false" aria-controls="accordeon-passcode-rotation-recovery">
                             passcode-rotation-recovery, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-passcode-rotation-recovery" className="accordion-collapse collapse" aria-labelledby="headerpasscode-rotation-recovery" >
+<div id="accordeon-passcode-rotation-recovery" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -878,34 +861,33 @@ To perform a passcode rotation recovery, the Signify Client requires only the ne
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-signify-request-response-authentication" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headersignify-request-response-authentication">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-signify-request-response-authentication" aria-expanded="true" aria-controls="accordeon-signify-request-response-authentication">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-signify-request-response-authentication" aria-expanded="false" aria-controls="accordeon-signify-request-response-authentication">
                             signify-request-response-authentication, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-signify-request-response-authentication" className="accordion-collapse collapse" aria-labelledby="headersignify-request-response-authentication" >
+<div id="accordeon-signify-request-response-authentication" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -917,34 +899,33 @@ Signify clients must sign all requests to the KERIA Admin Interface using the la
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-metadata-headers" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headermetadata-headers">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-metadata-headers" aria-expanded="true" aria-controls="accordeon-metadata-headers">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-metadata-headers" aria-expanded="false" aria-controls="accordeon-metadata-headers">
                             metadata-headers, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-metadata-headers" className="accordion-collapse collapse" aria-labelledby="headermetadata-headers" >
+<div id="accordeon-metadata-headers" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -956,34 +937,33 @@ Document `Signify-Resource` and `Signify-Timestamp` headers here.
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-signature-input-header" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headersignature-input-header">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-signature-input-header" aria-expanded="true" aria-controls="accordeon-signature-input-header">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-signature-input-header" aria-expanded="false" aria-controls="accordeon-signature-input-header">
                             signature-input-header, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-signature-input-header" className="accordion-collapse collapse" aria-labelledby="headersignature-input-header" >
+<div id="accordeon-signature-input-header" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -995,34 +975,33 @@ Document the `Signagture-Input` header here with link to https://httpwg.org/http
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-signature-header" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headersignature-header">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-signature-header" aria-expanded="true" aria-controls="accordeon-signature-header">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-signature-header" aria-expanded="false" aria-controls="accordeon-signature-header">
                             signature-header, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-signature-header" className="accordion-collapse collapse" aria-labelledby="headersignature-header" >
+<div id="accordeon-signature-header" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -1033,10 +1012,10 @@ Docuemnt the signing method and `Signature` header.
                         
 
 </div>
-                    
+                        
 
 </div>
-                
+                    
 
 </div>
                 </div>
