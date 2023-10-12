@@ -2,7 +2,7 @@
 An [agent](agent) owned by an individual who has granted [signing authority](signing-authority) to a custodian who is usually also the host of the running agent software. Using [partial rotation](partial-rotation) to facilitate custodial key management the owner of the identifier retains [rotational authority](rotation-authority) and thus the ability to "fire" the custodian at any time without requiring the cooperation of the custodian.
 
 ## Importance
-Custodial Agents are important for individuals who may not be comfortable managing their own [signing keys](digital-signature) and agent software but still want to participate in a decentralized identity ecosystem and they enable a software as a service business model without centralizing control on the service provider.\
+Custodial Agents are important for individuals who may not be comfortable managing their own [signing keys](digital-signature) and agent software but still want to participate in a decentralized identity ecosystem and they enable a software as a service business model without centralizing control on the service provider.  
 (Source: Philip Feairheller)
 
 ## Key functionality

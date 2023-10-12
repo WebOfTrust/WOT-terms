@@ -6,7 +6,7 @@ If you want to transition to using KERI, you could do that by anchoring your KE
 
 ## One at a time
 Although it's portable, you can be anchored to any one ledger at a time, or you could move it to an identifier (witness, backer, watcher, etc) can only be represented different ledger, or you could move to using just witnesses, all with the same identifier by just
-doing rotation events and changing your anchor, your backers here.\
+doing rotation events and changing your anchor, your backers here.  
 So an identifier cannot be anchored, let's say to multiple Indies or Ethereum. You could be only anchored in one at a time.
 
 ## Move identifiers across networks

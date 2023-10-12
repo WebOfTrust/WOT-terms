@@ -8,7 +8,7 @@ From section **11.4.2.4 Immune** of v2.60 of the KERI whitepaper,
 > Satisfaction of this constraint guarantees that at most one sufficient agreement occurs or none at
 all despite a dishonest controller but where at most F of the witnesses are potentially faulty.
 
-Ample Agreement Constraint:\
+Ample Agreement Constraint:   
 ![image](https://github.com/WebOfTrust/WOT-terms/assets/65027257/5c8733c1-4370-420c-83f0-f6e778a6b68f)
 
 Can apply to either
@@ -22,7 +22,7 @@ Ample witnesses avoids problems of accidental lockout from a multisig group whic
 
 ## Table of minimum required, or ample, number of participants
 
-N = Number of total participants\
+N = Number of total participants  
 M = Number of participants needed to get the guarantees of "ample"
 
 ![image](https://github.com/WebOfTrust/WOT-terms/assets/65027257/01363aeb-7055-4413-bbc4-8f89325e703a)

@@ -18,7 +18,7 @@ More info on [Wikipedia page](https://en.wikipedia.org/wiki/International_Standa
 9. Security. The identifier system should be as little vulnerable to malicious attack as possible.
 10. Documentation and quality assurance. Protocols must be written for establishing the identifier system, for assigning identifiers, for protecting the system, and for monitoring the system. 
 11. Centrality. The subject's identifier is the central "key" to which every event for the subject is attached.
-12. Autonomy. An identifier system has a life of its own.\
+12. Autonomy. An identifier system has a life of its own.  
 By (_@henkvancann_) based on this [source](https://www.sciencedirect.com/topics/computer-science/identifier-system)
 
 ### Relationship with KERI / ACDC plus example vLEI
