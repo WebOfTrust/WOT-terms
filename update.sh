@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Runs several scripts to update the content of the website
+
+
 source ".env"
 
 ##############################
