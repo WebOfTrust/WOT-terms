@@ -56,8 +56,7 @@ log "Backup completed to $BACKUP_DIR"
 ####################
 
 setLogFile "success.log"
-log "Backup completed to $BACKUP_DIR"
-
+log "Start export from Typesense"
 
 # Credentials and settings for Typesense export
 local_TYPESENSE_ADMIN_API_KEY="${TYPESENSE_ADMIN_API_KEY}"
@@ -70,6 +69,30 @@ mkdir "${BACKUP_DIR}/typesense-export"
 # Export Typesense data to JSONL file in the backup directory with timestamp in the filename 
 curl -H "X-TYPESENSE-API-KEY: ${local_TYPESENSE_ADMIN_API_KEY}" \
      "https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/documents/export" > "${BACKUP_DIR}/typesense-export/${TIMESTAMP}-typesense-export.jsonl"
+
+setLogFile "success.log"
+log "Finished export from Typesense"
+
+
+setLogFile "success.log"
+log "Copy exported Typesense file to second location, for easy restore."
+
+# Copy the just exported file to a second location, namely a location inside the search-index-typesense directory where a restore from can be done
+# Copy the file ${TIMESTAMP}-typesense-export.jsonl from the ${BACKUP_DIR}/typesense-export/ directory
+# to the ${SEARCH_INDEX_DIR}/${KERISSE_RESTORE_DIR} directory and name it restore.jsonl.
+# If restore.jsonl already exists in the destination directory, it will be overwritten.
+
+# Define source and destination directories and filenames
+src_dir="${BACKUP_DIR}/typesense-export"
+src_file="${TIMESTAMP}-typesense-export.jsonl"
+dest_dir="${SEARCH_INDEX_DIR}/${KERISSE_RESTORE_DIR}"
+dest_file="restore.jsonl"
+
+# Copy and rename the file
+cp "$src_dir/$src_file" "$dest_dir/$dest_file"
+
+# Print a message to indicate success
+echo "Successfully copied $src_file from $src_dir to $dest_dir and renamed it to $dest_file."
 
 setLogFile "success.log"
 log "Typesense export completed to $BACKUP_DIR"
