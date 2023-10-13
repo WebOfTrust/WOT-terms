@@ -1,5 +1,11 @@
 #!/bin/bash
 
+source ".env"
+
+# Sets the variable SCRIPT_DIR to the directory where the script itself is located.
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+
 # Function to handle the user's choice
 function handle_choice() {
     if [[ "$choice" == "1" ]]; then
@@ -43,25 +49,37 @@ function handle_choice() {
         show_progress
         do_backup
     elif [[ "$choice" == "5" ]]; then
-        echo " "
-        echo " "
-        echo "  ************************************"
-        echo "  The script will now import into Typesense."
-        echo "  ************************************"
-        echo " "
-        echo " "
-        show_progress
-        do_import
+        read -n 1 -r -p "  Are you sure you want to import into Typesense? (y/N) " confirm
+        echo  # Empty line below the prompt
+        if [[ "$confirm" == [yY] ]]; then
+            echo " "
+            echo " "
+            echo "  ************************************"
+            echo "  The script will now import into Typesense."
+            echo "  ************************************"
+            echo " "
+            echo " "
+            show_progress
+            do_import
+        else
+            echo "Import operation cancelled."
+        fi
     elif [[ "$choice" == "6" ]]; then
-        echo " "
-        echo " "
-        echo "  ************************************"
-        echo "  The script will now rstore into Typesense."
-        echo "  ************************************"
-        echo " "
-        echo " "
-        show_progress
-        do_restore
+        read -n 1 -r -p "  Are you sure you want to restore into Typesense? (y/N) " confirm
+            echo  # Empty line below the prompt
+            if [[ "$confirm" == [yY] ]]; then
+                echo " "
+                echo " "
+                echo "  ************************************"
+                echo "  The script will now restore into Typesense."
+                echo "  ************************************"
+                echo " "
+                echo " "
+                show_progress
+                do_restore
+            else
+                echo "Restore operation cancelled."
+            fi
     else
         clear
         echo " "
@@ -112,41 +130,26 @@ function prompt_input() {
 }
 
 function do_scrape_all() {
-    # Get the directory where the main.sh script is located
-    SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
     # Start scraping all sites.
     source "$SCRIPT_DIR/scrape_start.sh"
 }
 
 function do_scrape_prio_1() {
-    # Get the directory where the main.sh script is located
-    SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
     # Start scraping priority sites only.
     source "$SCRIPT_DIR/scrape_prio_1_start.sh"
 }
 
 function do_scrape_test() {
-    # Get the directory where the main.sh script is located
-    SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
     # Start scraping test.
     source "$SCRIPT_DIR/scrape_start_test.sh"
 }
 
 function do_backup() {
-    # Get the directory where the main.sh script is located
-    SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
     # Start backing up.
     source "$SCRIPT_DIR/backup.sh"
 }
 
 function do_import() {
-    # Get the directory where the main.sh script is located
-    SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
     # Start backup.
     source "$SCRIPT_DIR/backup.sh"
 
@@ -172,9 +175,6 @@ function do_import() {
 }
 
 function do_restore() {
-    # Get the directory where the main.sh script is located
-    SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
     # Make collection in Typesense empty.
     source "$SCRIPT_DIR/make_collection_empty.sh"
     setLogFile "success.log"
