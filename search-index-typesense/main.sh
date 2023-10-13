@@ -109,11 +109,11 @@ function display_intro() {
     echo " "
     echo "  Please choose one of the following options:"
     echo " "
-    echo "   [1] Scrape all sites (scrape + backup + import)"
-    echo "   [2] Scrape priority sites (scrape + backup + import)"
+    echo "   [1] Scrape all sites (scrape + backup)"
+    echo "   [2] Scrape priority sites (scrape + backup)"
     echo "   [3] Scrape test"
     echo "   [4] Backup"
-    echo "   [5] Import (backup + import)"
+    echo "   [5] Import"
     echo "   [6] Restore (import jsonl file into Typesense)"
     echo "   [Q] Exit"
     echo " "
@@ -149,10 +149,6 @@ function do_backup() {
 }
 
 function do_import() {
-    # Start backup.
-    source "$SCRIPT_DIR/backup.sh"
-
-
     #########################
     # IMPORTING INTO TYPESENSE CLOUD Open Source Search
     #########################
