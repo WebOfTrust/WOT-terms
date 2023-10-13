@@ -2,13 +2,17 @@
 
 source ".env"
 
+# Sets the variable SCRIPT_DIR to the directory where the script itself is located.
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+
 # Function to handle the user's choice
 function handle_choice() {
     if [[ "$choice" == "1" ]]; then
         echo " "
         echo " "
         echo "  ************************************"
-        echo "  The script will now start the updating process."
+        echo "  The script will now start the content-updating process."
         echo "  ************************************"
         echo " "
         echo " "
@@ -18,7 +22,17 @@ function handle_choice() {
         echo " "
         echo " "
         echo "  ************************************"
-        echo "  The script will now go to the scrape menu."
+        echo "  Fix SVG files."
+        echo "  ************************************"
+        echo " "
+        echo " "
+        show_progress
+        do_fix_svg
+    elif [[ "$choice" == "3" ]]; then
+        echo " "
+        echo " "
+        echo "  ************************************"
+        echo "  Going to the scraping section menu."
         echo "  ************************************"
         echo " "
         echo " "
@@ -53,36 +67,44 @@ function display_intro() {
     echo " "
     echo "  Please choose one of the following options:"
     echo " "
-    echo "   [1] Update (fetch content from external sources"
-    echo "       (like the Wiki, and Google sheets)"
-    echo "   [2] Go to the scraping menu"
+    echo "   [1] Update content (always safe to run)"
+    echo "       (fetch from the Wiki, and Google sheets)"
+    echo " "
+    echo "   [2] Fix SVG output (always safe to run)"
+    echo " "
+    echo "   [3] Go to the scraping section"
     echo "       (various scraping options)"
-    echo "   [Q] Exit"
+    echo " "
+    echo "   [Q] Quit"
     echo " "
     echo " "
 }
 
 # Function to prompt the user for input
 function prompt_input() {
-    read -n 1 -r -p "  What is your choice (1/2/Q)? " choice
+    read -n 1 -r -p "  Enter your choice (1/2/Q)? " choice
     echo  # Empty line below the prompt
     echo  # Empty line below the prompt
 }
 
 function do_update() {
-    # Get the directory where the main.sh script is located
-    SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
     # Start scraping all sites.
     source "$SCRIPT_DIR/update.sh"
 }
 
 function do_scrape_menu() {
-    # Get the directory where the main.sh script is located
-    SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
     # Start scraping priority sites only.
     source "${SCRIPT_DIR}/${SEARCH_INDEX_DIR}/main.sh"
+}
+
+function do_fix_svg() {
+    # Fix Omnigraffle SVG output
+    ##############################
+    # Fix svg's created by OmniGraffle
+    ##############################
+    # Fix svg's created by OmniGraffle
+    node maintenance/fixOmnigraffleSvgOutput.js
+    ##############################
 }
 
 # Function to show the progress of the scraping process
