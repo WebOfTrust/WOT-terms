@@ -8,7 +8,7 @@ function handle_choice() {
         echo " "
         echo " "
         echo "  ************************************"
-        echo "  The script will now start the updating process."
+        echo "  The script will now start the content-updating process."
         echo "  ************************************"
         echo " "
         echo " "
@@ -18,7 +18,7 @@ function handle_choice() {
         echo " "
         echo " "
         echo "  ************************************"
-        echo "  The script will now go to the scrape menu."
+        echo "  Going to the scraping section menu."
         echo "  ************************************"
         echo " "
         echo " "
@@ -53,9 +53,9 @@ function display_intro() {
     echo " "
     echo "  Please choose one of the following options:"
     echo " "
-    echo "   [1] Update (fetch content from external sources"
+    echo "   [1] Update content (fetch content from external sources"
     echo "       (like the Wiki, and Google sheets)"
-    echo "   [2] Go to the scraping menu"
+    echo "   [2] Go to the scraping section"
     echo "       (various scraping options)"
     echo "   [Q] Exit"
     echo " "
@@ -64,7 +64,7 @@ function display_intro() {
 
 # Function to prompt the user for input
 function prompt_input() {
-    read -n 1 -r -p "  What is your choice (1/2/Q)? " choice
+    read -n 1 -r -p "  Enter your choice (1/2/Q)? " choice
     echo  # Empty line below the prompt
     echo  # Empty line below the prompt
 }
