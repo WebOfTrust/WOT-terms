@@ -121,7 +121,7 @@ function display_intro() {
     echo " "
     echo "   [6] Restore (import jsonl file into Typesense)"
     echo " "
-    echo "   [Q] Exit"
+    echo "   [Q] Quit"
     echo " "
     echo " "
     echo "  *) The backup is always made after the scraping is finished"

@@ -75,7 +75,7 @@ function display_intro() {
     echo "   [3] Go to the scraping section"
     echo "       (various scraping options)"
     echo " "
-    echo "   [Q] Exit"
+    echo "   [Q] Quit"
     echo " "
     echo " "
 }
