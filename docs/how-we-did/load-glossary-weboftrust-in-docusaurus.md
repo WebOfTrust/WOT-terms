@@ -58,11 +58,39 @@ For Github pages Docusaurus runs locally and remotely (Github Actions). **Be sur
 
 ## Steps
 
-### Pull the WebofTrust wiki
-
 Because the glossary is maintained in Github wiki using Github userinterface here: [Weboftrust wiki](https://github.com/WebOfTrust/WOT-terms/wiki), the most recent version is a remote repo. We have to pull this wiki-repo (be sure to have the **wiki** repo not the "normal" WOT-terms repo!) to local to be able to create our own glossary and Docusaurus static site from this. The static site is then run as a github project page (branch _gh-pages_).
 
-#### Initial clone of the WOT-terms.wiki repo to local
+This is performed by this section in the Github Actions script [Deploy to GitHub Pages](WOT-terms/.github/workflows
+/deploy.yml):
+
+```
+      ##############################
+      # Clones the wiki
+      ##############################
+
+      - name: Checkout wiki
+        run: |
+          git clone https://github.com/WebOfTrust/WOT-terms.wiki.git wiki
+
+      # Copies the wiki contents to the /docs/04_glossary/ directory
+      - name: Copy Wiki To Docusaurus Glossary directory
+        run: |
+          mkdir -p docs/04_glossary  # Create the directory if it doesn't exist
+          
+          # Files that are already in the /docs/04_glossary/ directory will not be overwritten
+          rsync -a wiki/ docs/04_glossary/  # Synchronize wiki contents to /docs/04_glossary/
+          
+          # The /wiki directory is not needed anymore
+          rm -rf wiki/  # Remove the /wiki directory
+      ##############################
+```
+
+## Legacy Steps
+### Legacy Pull the WebofTrust wiki by hand
+
+Because the glossary is maintained in Github wiki using Github userinterface here: [Weboftrust wiki](https://github.com/WebOfTrust/WOT-terms/wiki), the most recent version is a remote repo. We used to pull this wiki-repo (and had to be sure to have the **wiki** repo not the "normal" WOT-terms repo!) to local to be able to create our own glossary and Docusaurus static site from this. All done by hand. 
+
+#### Legacy: Initial clone of the WOT-terms.wiki repo to local
 
 ```
 git clone https://github.com/weboftrust/WOT-terms.wiki.git
@@ -73,13 +101,13 @@ ls
 
 <img src={require('/static/img/wiki-repo-ls.png').default} alt="wiki-repo-ls-result" />
 
-#### Refresh the WOT-terms.wiki repo to local
+#### Legacy: Refresh the WOT-terms.wiki repo to local
 
 ```
 git pull origin master
 ```
 
-### Copy the WebofTrust glossary resources into the Docusaurus file structure
+### Legacy: Copy the WebofTrust glossary resources into the Docusaurus file structure
 
 To able to generate a tailor made explanation site we use two inputs (see full list of inputs [here](#input)):
 
@@ -90,9 +118,18 @@ To able to generate a tailor made explanation site we use two inputs (see full l
 Step into the Docusaurus dir structure to `WOT-terms/docs/glossary` 
 and execute the command `cp ../../../WOT-terms.wiki/*  .` to finish what we'd like to achieve: Copy the glossary resources into the Docusaurus file structure.
 
-### Script YYYYYYY to put WOT-terms sheet into JSON structure
+### Github Action Script deploy.yml to put WOT-terms sheet into JSON structure
+```
+##############################
+      # Google sheet: WOT-terms, tab: Terms-WOT-manage
+      ##############################
 
-| TBW by creator Kor |
+      # Fetches data from WOT-terms (Google sheet) and generates an overview file that takes all the terms and their definitions and puts them into a single file. 
+      - name: Import Google Sheet “WOT-terms”, tab “Terms-WOT-manage” data into markdown file
+        run: node fetchExternalContent/fetchTermsWOTmanage/fetchTermsWOTmanage.js
+      ##############################
+```
+Inner working:
 - it reads the input file (2.) per line.
 - each row describes a term and its resource file
 - we create a proper file name
@@ -119,6 +156,8 @@ Explanation
 - a _brief explanation_ in field **text** of the term in the first column.
 
 #### Level
+
+> As of mid 2023 temporarily disabled
 
 Since KERI Suite education starts off at the level of SSI-expert, a _beginner_ is not a layman, but somebody with a good common understanding of IT and digital identity.
 
