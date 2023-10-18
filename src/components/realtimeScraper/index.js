@@ -10,21 +10,6 @@ const urlsGithub = [
 ];
 
 
-// useEffect(() => {
-//   // Initialize Masonry
-//   const msnry = new Masonry('#masonry-grid', {
-//     "percentPosition": true,
-//     "itemSelector": '.mason-item',
-//     "initLayout": true
-//   });
-
-//   // You may also need to re-layout Masonry after each data update
-//   setTimeout(() => {
-//     msnry.layout()
-//   }, 2000);
-// }, []);
-
-
 // Helper function
 const fetchData = async (url) => {
   const proxyUrl = 'https://dwarshuis.com/various/kerisse/proxy/proxy-curl.php?url=';
@@ -112,63 +97,63 @@ RealtimeScraperGithub();
 //   );
 // };
 
-const Gleif = () => {
-  const [response, setResponse] = useState('');
+// const Gleif = () => {
+//   const [response, setResponse] = useState('');
 
-  useEffect(() => {
-    const fetchFromProxy = async () => {
-      const response = await fetchData('https://www.gleif.org/en/newsroom/gleif-and-lei-news');
-      const doc = initializeDOMparser(response);
+//   useEffect(() => {
+//     const fetchFromProxy = async () => {
+//       const response = await fetchData('https://www.gleif.org/en/newsroom/gleif-and-lei-news');
+//       const doc = initializeDOMparser(response);
 
-      let selection;
-      if (typeof window !== 'undefined' && typeof document !== 'undefined') {
-        selection = doc.querySelectorAll('.news__item-headline');
-        selection = [...selection];
-        selection = selection.map((element) => {
-          return element;
-        });
-      }
-      const listItems = selection.map((item, index) => {
-        if (index > 5) {
-          return;
-        }
-        return (
-          <ul className="list-group" key={'parent' + index}>
-            <li className='list-group-item mb-1 p-1' key={index}>
-              {item.innerText}
-            </li>
-          </ul>)
+//       let selection;
+//       if (typeof window !== 'undefined' && typeof document !== 'undefined') {
+//         selection = doc.querySelectorAll('.news__item-headline');
+//         selection = [...selection];
+//         selection = selection.map((element) => {
+//           return element;
+//         });
+//       }
+//       const listItems = selection.map((item, index) => {
+//         if (index > 5) {
+//           return;
+//         }
+//         return (
+//           <ul className="list-group" key={'parent' + index}>
+//             <li className='list-group-item mb-1 p-1' key={index}>
+//               {item.innerText}
+//             </li>
+//           </ul>)
 
-      });
+//       });
 
-      setResponse(listItems);
-    };
-    fetchFromProxy();
-  }, []);
+//       setResponse(listItems);
+//     };
+//     fetchFromProxy();
+//   }, []);
 
 
-  return (
-    <div>
-      <h2>Gleif news</h2>
-      {/* <div dangerouslySetInnerHTML={{ __html: response }} /> */}
-      <div>{response}</div>
-    </div>
-  );
-};
+//   return (
+//     <div>
+//       <h2>Gleif news</h2>
+//       {/* <div dangerouslySetInnerHTML={{ __html: response }} /> */}
+//       <div>{response}</div>
+//     </div>
+//   );
+// };
 
 
 const GithubFinalOutput = ({ outputData }) => {
   return (
-    <ul className="list-group">
+    <ul className="list-group list-group-flush">
       {outputData.map((data, index) => (
-        <li key={index} className='list-group-item mb-1 p-1'>
+        <li key={index} className='list-group-item '>
           <h3 key={index}>{data.owner} – {data.repoName}</h3>
-          <h4>{data.commitDate}</h4>
+          <h4 class='fs-6'><mark>{data.commitDate}</mark></h4>
           <p><a href={`https://github.com/${data.commitLink}`}>{data.commitMessage} ({data.commitAuthor})</a></p>
           {/* <p>Author: {data.commitAuthor}</p> */}
           {data.issueMessage && (
             <>
-              <h4>Latest issue:</h4>
+              <h4 class='fs-6'><mark>Latest issue</mark></h4>
               <p><a href={`https://github.com/${data.issueLink}`}>{data.issueMessage}</a></p>
             </>
           )}
@@ -196,30 +181,13 @@ const GithubScraper = () => {
 
 const RealtimeScraper = () => {
   return (
-    <div className="container text-start mt-5 realtime">
-      <div className="row" id="masonry-grid">
-        <div className="col-lg-6 col-md-6 mb-2 mason-item">
-          <div className="card">
-            <div className="card-body">
-              <h2>Github</h2>
-              <GithubScraper />
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-6 col-md-6 mb-2 mason-item">
-          {/* <div className="card">
-            <div className="card-body">
-              <IIW />
-            </div>
-          </div> */}
-          <div className="card">
-            <div className="card-body">
-              <Gleif />
-              <p class='mt-3'><a class='btn btn-outline-dark' target='_blank' rel='noopener' href="https://www.gleif.org/en/newsroom/gleif-and-lei-news">Go to gleif news</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div className="realtime">
+      <GithubScraper />
+
+      {/* <Gleif />
+      <p class='mt-3'><a class='btn btn-outline-dark' target='_blank' rel='noopener' href="https://www.gleif.org/en/newsroom/gleif-and-lei-news">Go to gleif news</a></p> */}
+
+
     </div>
   );
 };
