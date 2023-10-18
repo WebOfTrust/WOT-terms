@@ -149,12 +149,12 @@ const GithubFinalOutput = ({ outputData }) => {
         <li key={index} className='list-group-item '>
           <h3 key={index}>{data.owner} – {data.repoName}</h3>
           <h4 class='fs-6'><mark>{data.commitDate}</mark></h4>
-          <p><a href={`https://github.com/${data.commitLink}`}>{data.commitMessage} ({data.commitAuthor})</a></p>
+          <p><a target='_blank' rel='noopener' href={`https://github.com/${data.commitLink}`}>{data.commitMessage} ({data.commitAuthor})</a></p>
           {/* <p>Author: {data.commitAuthor}</p> */}
           {data.issueMessage && (
             <>
               <h4 class='fs-6'><mark>Latest issue</mark></h4>
-              <p><a href={`https://github.com/${data.issueLink}`}>{data.issueMessage}</a></p>
+              <p><a target='_blank' rel='noopener' href={`https://github.com/${data.issueLink}`}>{data.issueMessage}</a></p>
             </>
           )}
         </li>
