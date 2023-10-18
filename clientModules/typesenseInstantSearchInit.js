@@ -124,7 +124,13 @@ const typesenseInstantSearchCreateDomElements = () => {
    */
 
    // Fetching the HTML content
-   fetch(paths.indexedInKERISSE)
+   fetch(paths.indexedInKERISSE, {
+      headers: {
+         'Cache-Control': 'no-cache',
+         'Pragma': 'no-cache',
+         'Expires': '0'
+      }
+   })
       .then(response => response.text())
       .then(html => {
          // Parsing the fetched HTML string into a DOM object

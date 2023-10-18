@@ -1,3 +1,5 @@
+// This is used for the overview page with the big generated table
+
 const elementGoFullScreen = (element) => {
   const elementGoFullScreen = document.querySelector(element);
   const langMaximizeButton = 'Make fullscreen';
