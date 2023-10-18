@@ -215,6 +215,7 @@ const RealtimeScraper = () => {
           <div className="card">
             <div className="card-body">
               <Gleif />
+              <p class='mt-3'><a class='btn btn-outline-dark' target='_blank' rel='noopener' href="https://www.gleif.org/en/newsroom/gleif-and-lei-news">Go to gleif news</a></p>
             </div>
           </div>
         </div>
