@@ -15,6 +15,7 @@ const imageFullSize = () => {
 
   // All images get a click event listener via event delegation
   const markdownElement = document.querySelector('body');
+  // const markdownElement = document.querySelector('.markdown');
 
   function removeContainer() {
     let container = document.querySelector('.image-container-full-page');
@@ -24,8 +25,9 @@ const imageFullSize = () => {
   }
 
   if (markdownElement) {
+    console.log("event listener added");
     markdownElement.addEventListener('click', (event) => {
-      if (event.target.tagName === 'IMG') {
+      if (event.target.tagName === 'IMG' && event.target.closest('.markdown')) {
         let image = event.target;
 
         if (document.querySelector('.image-container-full-page') === null) {
@@ -63,16 +65,6 @@ const imageFullSize = () => {
   }
 };
 
-// function to call when the route changes
-export function onRouteDidUpdate({ location, previousLocation }) {
-  // Don't execute if we are still on the same page; the lifecycle may be fired
-  // because the hash changes (e.g. when navigating between headings)
-  // if (location.pathname === previousLocation?.pathname) return;
+document.addEventListener('DOMContentLoaded', (event) => {
   imageFullSize();
-}
-// export function onRouteUpdate({ location, previousLocation }) {
-//   // Don't execute if we are still on the same page; the lifecycle may be fired
-//   // because the hash changes (e.g. when navigating between headings)
-//   // if (location.pathname === previousLocation?.pathname) return;
-//   showLevels('div, tr');
-// }
+});
