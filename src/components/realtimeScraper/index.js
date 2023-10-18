@@ -85,32 +85,32 @@ const RealtimeScraperGithub = async (appendOutputData) => {
 
 RealtimeScraperGithub();
 
-const IIW = () => {
-  const [response, setResponse] = useState('');
+// const IIW = () => {
+//   const [response, setResponse] = useState('');
 
-  useEffect(() => {
-    const fetchFromProxy = async () => {
-      const response = await fetchData('https://internetidentityworkshop.com/schedule/');
-      const doc = initializeDOMparser(response);
+//   useEffect(() => {
+//     const fetchFromProxy = async () => {
+//       const response = await fetchData('https://internetidentityworkshop.com/schedule/');
+//       const doc = initializeDOMparser(response);
 
-      let selection;
-      if (typeof window !== 'undefined' && typeof document !== 'undefined') {
-        selection = doc.querySelector('#section-1').innerText;
-        setResponse(selection);
-      }
-    };
+//       let selection;
+//       if (typeof window !== 'undefined' && typeof document !== 'undefined') {
+//         selection = doc.querySelector('#section-1').innerText;
+//         setResponse(selection);
+//       }
+//     };
 
-    fetchFromProxy();
-  }, []);
+//     fetchFromProxy();
+//   }, []);
 
-  return (
-    <div>
-      <h2>IIW Schedule</h2>
-      {/* <div dangerouslySetInnerHTML={{ __html: response }} /> */}
-      <p>{response}</p>
-    </div>
-  );
-};
+//   return (
+//     <div>
+//       <h2>IIW Schedule</h2>
+//       {/* <div dangerouslySetInnerHTML={{ __html: response }} /> */}
+//       <p>{response}</p>
+//     </div>
+//   );
+// };
 
 const Gleif = () => {
   const [response, setResponse] = useState('');
@@ -207,11 +207,11 @@ const RealtimeScraper = () => {
           </div>
         </div>
         <div className="col-lg-6 col-md-6 mb-2 mason-item">
-          <div className="card">
+          {/* <div className="card">
             <div className="card-body">
               <IIW />
             </div>
-          </div>
+          </div> */}
           <div className="card mt-2">
             <div className="card-body">
               <Gleif />
