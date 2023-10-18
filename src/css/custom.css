@@ -1093,36 +1093,3 @@ article .markdown .inline-medium-end,
 /* 
   End Horizontal scrollable navbar in search results
 */
-
-
-/* 
-  Realtime scraping
-*/
-/* Shorten text and add ellipses */
-/* .realtime ul li {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-} */
-
-/* .realtime { */
-  /* font-size: 10px !important; */
-/* } */
-
-.realtime h1,
-.realtime h2,
-.realtime h3,
-.realtime h4,
-.realtime h5,
-.realtime h6
-{
-  font-size: 0.9em !important;
-}
-
-.realtime p,
-.realtime li {
-  font-size: 0.8em;
-}
-/* 
-  End Realtime scraping
-*/
