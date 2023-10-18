@@ -16,7 +16,13 @@ const IndexedInfo = () => {
     const [pageCountContent, setPageCountContent] = useState("");
 
     useEffect(() => {
-        fetch(paths.indexedInKERISSE)
+        fetch(paths.indexedInKERISSE, {
+            headers: {
+                'Cache-Control': 'no-cache',
+                'Pragma': 'no-cache',
+                'Expires': '0'
+            }
+        })
             .then((response) => response.text())
             .then((html) => {
                 const doc = initializeDOMparser(html);
