@@ -212,7 +212,7 @@ const RealtimeScraper = () => {
               <IIW />
             </div>
           </div> */}
-          <div className="card mt-2">
+          <div className="card">
             <div className="card-body">
               <Gleif />
             </div>
