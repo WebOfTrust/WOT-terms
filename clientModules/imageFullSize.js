@@ -65,6 +65,8 @@ const imageFullSize = () => {
   }
 };
 
-document.addEventListener('DOMContentLoaded', (event) => {
-  imageFullSize();
-});
+if (typeof window !== 'undefined') {// should run on client only
+  document.addEventListener('DOMContentLoaded', (event) => {
+    imageFullSize();
+  });
+}
