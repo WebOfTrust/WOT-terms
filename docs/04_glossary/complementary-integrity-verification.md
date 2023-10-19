@@ -1,5 +1,5 @@
 ## Definition
-A mechanism that can verify integrity independent of needing access to a previous instance or reference version of the information for comparison.\
+A mechanism that can verify integrity independent of needing access to a previous instance or reference version of the information for comparison.  
 Source: Neil Thomson
 
 ## Complementary nature
@@ -9,5 +9,5 @@ The already verified chain up to a certain point in time in the past (previous i
 > Example: The tail of a [KEL](key-event-log) that has been verified to its [root-of-trust](root-of-trust) on a certain date and time, can be cut off. You don't need to verify this any more from this date.
 
 ## See also
-[integrity](integrity)\
+[integrity](integrity)  
 [verified integrity](verified-integrity)

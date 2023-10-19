@@ -30,3 +30,4 @@ search-index-typesense/overrides/overridesID.json
 
 copy-to-testsite.sh
 docusaurus.paths.*.js
+restore.jsonl

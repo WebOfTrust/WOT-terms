@@ -1,24 +1,23 @@
-<div className="accordion">               
-                
-
-<div className="accordion-item accordion-item-5891298543043" data-level="1">
+<div className="accordion accordion-flush" id="annotated-copies">
                     
 
-<h2 className="accordion-header" id="header5891298543043">
+<div className="accordion-item" data-level="1">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-5891298543043" aria-expanded="true" aria-controls="accordeon-5891298543043">
-                            5891298543043, level 1
+<h2 className="accordion-header" id="header8237854370711">
+                        
+
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-8237854370711" aria-expanded="false" aria-controls="accordeon-8237854370711">
+                            8237854370711, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-5891298543043" className="accordion-collapse collapse" aria-labelledby="header5891298543043" >
+<div id="accordeon-8237854370711" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -142,34 +141,33 @@ CESR Proof Signatures are an extension to the Composable Event Streaming Represe
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-introduction" data-level="2">
                     
+
+<div className="accordion-item" data-level="2">
+                        
 
 <h2 className="accordion-header" id="headerintroduction">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-introduction" aria-expanded="true" aria-controls="accordeon-introduction">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-introduction" aria-expanded="false" aria-controls="accordeon-introduction">
                             introduction, level 2
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-introduction" className="accordion-collapse collapse" aria-labelledby="headerintroduction" >
+<div id="accordeon-introduction" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -182,34 +180,33 @@ Composable Event Streaming Representation (CESR) is a dual text-binary encoding 
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-streamable-sads" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headerstreamable-sads">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-streamable-sads" aria-expanded="true" aria-controls="accordeon-streamable-sads">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-streamable-sads" aria-expanded="false" aria-controls="accordeon-streamable-sads">
                             streamable-sads, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-streamable-sads" className="accordion-collapse collapse" aria-labelledby="headerstreamable-sads" >
+<div id="accordeon-streamable-sads" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -221,34 +218,33 @@ A primary goal of CESR Proof Signatures is to allow any signed self-addressing d
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-nested-partial-signatures" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headernested-partial-signatures">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-nested-partial-signatures" aria-expanded="true" aria-controls="accordeon-nested-partial-signatures">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-nested-partial-signatures" aria-expanded="false" aria-controls="accordeon-nested-partial-signatures">
                             nested-partial-signatures, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-nested-partial-signatures" className="accordion-collapse collapse" aria-labelledby="headernested-partial-signatures" >
+<div id="accordeon-nested-partial-signatures" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -260,34 +256,33 @@ CESR Proof Signatures can be used to sign as many portions of a SAD as needed, i
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-transposable-signature-attachments" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headertransposable-signature-attachments">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-transposable-signature-attachments" aria-expanded="true" aria-controls="accordeon-transposable-signature-attachments">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-transposable-signature-attachments" aria-expanded="false" aria-controls="accordeon-transposable-signature-attachments">
                             transposable-signature-attachments, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-transposable-signature-attachments" className="accordion-collapse collapse" aria-labelledby="headertransposable-signature-attachments" >
+<div id="accordeon-transposable-signature-attachments" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -301,34 +296,33 @@ There are several events in KERI that can contain context specific embedded self
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-cesr-sad-path-language" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headercesr-sad-path-language">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-cesr-sad-path-language" aria-expanded="true" aria-controls="accordeon-cesr-sad-path-language">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-cesr-sad-path-language" aria-expanded="false" aria-controls="accordeon-cesr-sad-path-language">
                             cesr-sad-path-language, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-cesr-sad-path-language" className="accordion-collapse collapse" aria-labelledby="headercesr-sad-path-language" >
+<div id="accordeon-cesr-sad-path-language" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -341,34 +335,33 @@ CESR Proof Signatures defines a SAD Path Language to be used in signature attach
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-description-and-usage" data-level="2">
                     
+
+<div className="accordion-item" data-level="2">
+                        
 
 <h2 className="accordion-header" id="headerdescription-and-usage">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-description-and-usage" aria-expanded="true" aria-controls="accordeon-description-and-usage">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-description-and-usage" aria-expanded="false" aria-controls="accordeon-description-and-usage">
                             description-and-usage, level 2
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-description-and-usage" className="accordion-collapse collapse" aria-labelledby="headerdescription-and-usage" >
+<div id="accordeon-description-and-usage" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -407,34 +400,33 @@ The root context (after the initial `-`) is always a map. Therefore, the first p
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-cesr-encoding-for-sad-path-language" data-level="3">
                     
+
+<div className="accordion-item" data-level="3">
+                        
 
 <h2 className="accordion-header" id="headercesr-encoding-for-sad-path-language">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-cesr-encoding-for-sad-path-language" aria-expanded="true" aria-controls="accordeon-cesr-encoding-for-sad-path-language">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-cesr-encoding-for-sad-path-language" aria-expanded="false" aria-controls="accordeon-cesr-encoding-for-sad-path-language">
                             cesr-encoding-for-sad-path-language, level 3
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-cesr-encoding-for-sad-path-language" className="accordion-collapse collapse" aria-labelledby="headercesr-encoding-for-sad-path-language" >
+<div id="accordeon-cesr-encoding-for-sad-path-language" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -447,34 +439,33 @@ SAD Paths are variable raw size primitives that require CESR variable size codes
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-sad-path-examples" data-level="3">
                     
+
+<div className="accordion-item" data-level="3">
+                        
 
 <h2 className="accordion-header" id="headersad-path-examples">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-sad-path-examples" aria-expanded="true" aria-controls="accordeon-sad-path-examples">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-sad-path-examples" aria-expanded="false" aria-controls="accordeon-sad-path-examples">
                             sad-path-examples, level 3
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-sad-path-examples" className="accordion-collapse collapse" aria-labelledby="headersad-path-examples" >
+<div id="accordeon-sad-path-examples" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -539,34 +530,33 @@ The examples in Table 1 represent all the features of the SAD Path language when
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-alternative-pathing---query-languages" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headeralternative-pathing---query-languages">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-alternative-pathing---query-languages" aria-expanded="true" aria-controls="accordeon-alternative-pathing---query-languages">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-alternative-pathing---query-languages" aria-expanded="false" aria-controls="accordeon-alternative-pathing---query-languages">
                             alternative-pathing---query-languages, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-alternative-pathing---query-languages" className="accordion-collapse collapse" aria-labelledby="headeralternative-pathing---query-languages" >
+<div id="accordeon-alternative-pathing---query-languages" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -578,34 +568,33 @@ The SAD Path language was chosen over alternatives such as JSONPtr and JSONPath 
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-cesr-attachments" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headercesr-attachments">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-cesr-attachments" aria-expanded="true" aria-controls="accordeon-cesr-attachments">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-cesr-attachments" aria-expanded="false" aria-controls="accordeon-cesr-attachments">
                             cesr-attachments, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-cesr-attachments" className="accordion-collapse collapse" aria-labelledby="headercesr-attachments" >
+<div id="accordeon-cesr-attachments" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -618,34 +607,33 @@ This specification adds 2 *Counter Four Character Codes* to the Master Code Tabl
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-counter-four-character-codes" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headercounter-four-character-codes">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-counter-four-character-codes" aria-expanded="true" aria-controls="accordeon-counter-four-character-codes">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-counter-four-character-codes" aria-expanded="false" aria-controls="accordeon-counter-four-character-codes">
                             counter-four-character-codes, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-counter-four-character-codes" className="accordion-collapse collapse" aria-labelledby="headercounter-four-character-codes" >
+<div id="accordeon-counter-four-character-codes" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -657,34 +645,33 @@ The SAD Path Signature counter code is represented by the four character code `-
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-variable-size-codes" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headervariable-size-codes">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-variable-size-codes" aria-expanded="true" aria-controls="accordeon-variable-size-codes">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-variable-size-codes" aria-expanded="false" aria-controls="accordeon-variable-size-codes">
                             variable-size-codes, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-variable-size-codes" className="accordion-collapse collapse" aria-labelledby="headervariable-size-codes" >
+<div id="accordeon-variable-size-codes" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -714,34 +701,33 @@ The additions to the Master Code Table of CESR is shown below:
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-cesr-signature-attachments" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headercesr-signature-attachments">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-cesr-signature-attachments" aria-expanded="true" aria-controls="accordeon-cesr-signature-attachments">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-cesr-signature-attachments" aria-expanded="false" aria-controls="accordeon-cesr-signature-attachments">
                             cesr-signature-attachments, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-cesr-signature-attachments" className="accordion-collapse collapse" aria-labelledby="headercesr-signature-attachments" >
+<div id="accordeon-cesr-signature-attachments" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -753,34 +739,33 @@ CESR defines several counter codes for attaching signatures to serialized CESR e
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-signing-sad-content" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headersigning-sad-content">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-signing-sad-content" aria-expanded="true" aria-controls="accordeon-signing-sad-content">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-signing-sad-content" aria-expanded="false" aria-controls="accordeon-signing-sad-content">
                             signing-sad-content, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-signing-sad-content" className="accordion-collapse collapse" aria-labelledby="headersigning-sad-content" >
+<div id="accordeon-signing-sad-content" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -806,34 +791,33 @@ Each attached signature is accompanied by a SAD Path that indicates the content 
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-signatures-with-non-transferable-identifiers" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headersignatures-with-non-transferable-identifiers">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-signatures-with-non-transferable-identifiers" aria-expanded="true" aria-controls="accordeon-signatures-with-non-transferable-identifiers">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-signatures-with-non-transferable-identifiers" aria-expanded="false" aria-controls="accordeon-signatures-with-non-transferable-identifiers">
                             signatures-with-non-transferable-identifiers, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-signatures-with-non-transferable-identifiers" className="accordion-collapse collapse" aria-labelledby="headersignatures-with-non-transferable-identifiers" >
+<div id="accordeon-signatures-with-non-transferable-identifiers" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -845,34 +829,33 @@ Non-transferable identifiers only ever have one public key.  In addition, the id
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-signatures-with-transferable-identifiers" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headersignatures-with-transferable-identifiers">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-signatures-with-transferable-identifiers" aria-expanded="true" aria-controls="accordeon-signatures-with-transferable-identifiers">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-signatures-with-transferable-identifiers" aria-expanded="false" aria-controls="accordeon-signatures-with-transferable-identifiers">
                             signatures-with-transferable-identifiers, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-signatures-with-transferable-identifiers" className="accordion-collapse collapse" aria-labelledby="headersignatures-with-transferable-identifiers" >
+<div id="accordeon-signatures-with-transferable-identifiers" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -885,34 +868,33 @@ Transferable identifiers require full KEL resolution and verfication to determin
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-additional-count-codes" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headeradditional-count-codes">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-additional-count-codes" aria-expanded="true" aria-controls="accordeon-additional-count-codes">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-additional-count-codes" aria-expanded="false" aria-controls="accordeon-additional-count-codes">
                             additional-count-codes, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-additional-count-codes" className="accordion-collapse collapse" aria-labelledby="headeradditional-count-codes" >
+<div id="accordeon-additional-count-codes" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -924,34 +906,33 @@ This specification adds two Counter Four Character Codes to the CESR Master Code
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-sad-path-signature-group" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headersad-path-signature-group">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-sad-path-signature-group" aria-expanded="true" aria-controls="accordeon-sad-path-signature-group">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-sad-path-signature-group" aria-expanded="false" aria-controls="accordeon-sad-path-signature-group">
                             sad-path-signature-group, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-sad-path-signature-group" className="accordion-collapse collapse" aria-labelledby="headersad-path-signature-group" >
+<div id="accordeon-sad-path-signature-group" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -1041,34 +1022,33 @@ BmMfUwIOywRkyc5GyQXfgDA4UOAMvjvnXcaK9G939ArM
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-sad-path-groups" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headersad-path-groups">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-sad-path-groups" aria-expanded="true" aria-controls="accordeon-sad-path-groups">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-sad-path-groups" aria-expanded="false" aria-controls="accordeon-sad-path-groups">
                             sad-path-groups, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-sad-path-groups" className="accordion-collapse collapse" aria-labelledby="headersad-path-groups" >
+<div id="accordeon-sad-path-groups" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -1107,34 +1087,33 @@ The root path is the single `-` character meaning that all subsequent SAD Paths 
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-transposable-signature-attachments" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headertransposable-signature-attachments">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-transposable-signature-attachments" aria-expanded="true" aria-controls="accordeon-transposable-signature-attachments">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-transposable-signature-attachments" aria-expanded="false" aria-controls="accordeon-transposable-signature-attachments">
                             transposable-signature-attachments, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-transposable-signature-attachments" className="accordion-collapse collapse" aria-labelledby="headertransposable-signature-attachments" >
+<div id="accordeon-transposable-signature-attachments" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -1182,34 +1161,33 @@ Now the SAD Path of the first signed SAD content resolves to the `a` field of th
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-small-variable-raw-size-sad-path-code" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headersmall-variable-raw-size-sad-path-code">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-small-variable-raw-size-sad-path-code" aria-expanded="true" aria-controls="accordeon-small-variable-raw-size-sad-path-code">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-small-variable-raw-size-sad-path-code" aria-expanded="false" aria-controls="accordeon-small-variable-raw-size-sad-path-code">
                             small-variable-raw-size-sad-path-code, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-small-variable-raw-size-sad-path-code" className="accordion-collapse collapse" aria-labelledby="headersmall-variable-raw-size-sad-path-code" >
+<div id="accordeon-small-variable-raw-size-sad-path-code" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -1222,34 +1200,33 @@ The small variable raw side code reserved for SAD Path encoding is `A` which res
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-nested-partial-signatures" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headernested-partial-signatures">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-nested-partial-signatures" aria-expanded="true" aria-controls="accordeon-nested-partial-signatures">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-nested-partial-signatures" aria-expanded="false" aria-controls="accordeon-nested-partial-signatures">
                             nested-partial-signatures, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-nested-partial-signatures" className="accordion-collapse collapse" aria-labelledby="headernested-partial-signatures" >
+<div id="accordeon-nested-partial-signatures" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -1262,34 +1239,33 @@ Additional signatures on nested content can be included in a SAD Path Group and 
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-signing-nested-sads" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headersigning-nested-sads">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-signing-nested-sads" aria-expanded="true" aria-controls="accordeon-signing-nested-sads">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-signing-nested-sads" aria-expanded="false" aria-controls="accordeon-signing-nested-sads">
                             signing-nested-sads, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-signing-nested-sads" className="accordion-collapse collapse" aria-labelledby="headersigning-nested-sads" >
+<div id="accordeon-signing-nested-sads" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -1355,34 +1331,33 @@ To sign the SAD located at the path `-a`, JSON serialization would be used becau
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-signing-saids" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headersigning-saids">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-signing-saids" aria-expanded="true" aria-controls="accordeon-signing-saids">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-signing-saids" aria-expanded="false" aria-controls="accordeon-signing-saids">
                             signing-saids, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-signing-saids" className="accordion-collapse collapse" aria-labelledby="headersigning-saids" >
+<div id="accordeon-signing-saids" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -1462,34 +1437,33 @@ With this approach, credential presentation request and exchange protocols can b
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-conventions-and-definitions" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headerconventions-and-definitions">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-conventions-and-definitions" aria-expanded="true" aria-controls="accordeon-conventions-and-definitions">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-conventions-and-definitions" aria-expanded="false" aria-controls="accordeon-conventions-and-definitions">
                             conventions-and-definitions, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-conventions-and-definitions" className="accordion-collapse collapse" aria-labelledby="headerconventions-and-definitions" >
+<div id="accordeon-conventions-and-definitions" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -1502,34 +1476,33 @@ With this approach, credential presentation request and exchange protocols can b
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-security-considerations" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headersecurity-considerations">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-security-considerations" aria-expanded="true" aria-controls="accordeon-security-considerations">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-security-considerations" aria-expanded="false" aria-controls="accordeon-security-considerations">
                             security-considerations, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-security-considerations" className="accordion-collapse collapse" aria-labelledby="headersecurity-considerations" >
+<div id="accordeon-security-considerations" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -1542,34 +1515,33 @@ TODO Security
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-iana-considerations" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headeriana-considerations">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-iana-considerations" aria-expanded="true" aria-controls="accordeon-iana-considerations">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-iana-considerations" aria-expanded="false" aria-controls="accordeon-iana-considerations">
                             iana-considerations, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-iana-considerations" className="accordion-collapse collapse" aria-labelledby="headeriana-considerations" >
+<div id="accordeon-iana-considerations" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -1586,34 +1558,33 @@ This document has no IANA actions.
                         
 
 </div>
+                        
+
+</div>
                     
 
 </div>
                 
 
-</div>
-                
-               
-                
-
-<div className="accordion-item accordion-item-acknowledgments" data-level="1">
                     
+
+<div className="accordion-item" data-level="1">
+                        
 
 <h2 className="accordion-header" id="headeracknowledgments">
                         
 
-<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-acknowledgments" aria-expanded="true" aria-controls="accordeon-acknowledgments">
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-acknowledgments" aria-expanded="false" aria-controls="accordeon-acknowledgments">
                             acknowledgments, level 1
                         
 
 </button>
-                    
+                        
 
 </h2>
+                        
 
-                    
-
-<div id="accordeon-acknowledgments" className="accordion-collapse collapse" aria-labelledby="headeracknowledgments" >
+<div id="accordeon-acknowledgments" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
@@ -1627,10 +1598,10 @@ Dr Sam Smith, Kevin Griffin and the Global Legal Entity Identifier Foundation (G
                         
 
 </div>
-                    
+                        
 
 </div>
-                
+                    
 
 </div>
                 </div>

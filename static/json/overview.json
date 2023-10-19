@@ -9981,13 +9981,196 @@
       "https://github.com/weboftrust/WOT-terms/wiki/provenanced"
     ],
     [
+      "520",
+      "K",
+      "non-interactive-authentication-design",
       "",
+      "non-interactive-authentication-design",
+      "Non-interactive Authentication Design",
+      "https://github.com/weboftrust/WOT-terms/wiki/non-interactive-authentication-design"
+    ],
+    [
+      "521",
+      "K",
+      "interactive-authentication-design",
+      "",
+      "interactive-authentication-design",
+      "",
+      "https://github.com/weboftrust/WOT-terms/wiki/interactive-authentication-design"
+    ],
+    [
+      "522",
+      "S",
+      "ESSR",
+      "",
+      "ESSR",
+      "Encrypt Sender, Sign the Receiver",
+      "https://github.com/weboftrust/WOT-terms/wiki/ESSR"
+    ],
+    [
+      "523",
+      "S",
+      "VID ",
+      "",
+      "VID",
+      "Verifiable Identifier",
+      "https://github.com/weboftrust/WOT-terms/wiki/VID "
+    ],
+    [
+      "524",
+      "S",
+      "encrypt‐sender‐sign‐receiver",
+      "",
+      "encrypt‐sender‐sign‐receiver",
+      "Encrypt Sender, Sign the Receiver",
+      "https://github.com/weboftrust/WOT-terms/wiki/encrypt‐sender‐sign‐receiver"
+    ],
+    [
+      "525",
+      "S",
+      "verifiable-identifier",
+      "",
+      "verifiable-identifier",
+      "Cryptographically verifiable authentic identifier",
+      "https://github.com/weboftrust/WOT-terms/wiki/verifiable-identifier"
+    ],
+    [
+      "526",
+      "S",
+      "trust-spanning-protocol",
+      "",
+      "trust-spanning-protocol",
+      "Protocol using VIDs that signs every single message on the internet.",
+      "https://github.com/weboftrust/WOT-terms/wiki/trust-spanning-protocol"
+    ],
+    [
+      "527",
+      "S",
+      "TSP",
+      "",
+      "TSP",
+      "Trust spanning protocol, using VIDs that signs every single message on the internet.",
+      "https://github.com/weboftrust/WOT-terms/wiki/TSP"
+    ],
+    [
+      "528",
+      "S",
+      "privacy-washing",
+      "",
+      "privacy-washing",
+      "De-identification so that it provides a personal data safe harbour and could be legally acceptable forwarded",
+      "https://github.com/weboftrust/WOT-terms/wiki/privacy-washing"
+    ],
+    [
+      "529",
+      "S",
+      "DKR",
+      "",
+      "DKR",
+      "Did:keri resolver",
+      "https://github.com/weboftrust/WOT-terms/wiki/DKR"
+    ],
+    [
+      "530",
+      "S",
+      "reputation",
+      "",
+      "reputation",
+      "",
+      "https://github.com/weboftrust/WOT-terms/wiki/reputation"
+    ],
+    [
+      "531",
+      "S",
+      "discovery",
+      "",
+      "discovery",
+      "a discovery mechanism helps to locate and verify digital identities without relying on a central authority",
+      "https://github.com/weboftrust/WOT-terms/wiki/discovery"
+    ],
+    [
+      "532",
+      "S",
+      "broken-object-level-authorization",
+      "",
+      "broken-object-level-authorization",
+      "or BOLA, ",
+      "https://github.com/weboftrust/WOT-terms/wiki/broken-object-level-authorization"
+    ],
+    [
+      "533",
+      "S",
+      "BOLA",
+      "",
+      "BOLA",
+      "Broken Object Level Authorization",
+      "https://github.com/weboftrust/WOT-terms/wiki/BOLA"
+    ],
+    [
+      "534",
+      "K",
+      "read-update-nullify",
+      "",
+      "read-update-nullify",
+      "or \"RUN\"; Read, update, nullify are actions you can take on data, no create or delete.",
+      "https://github.com/weboftrust/WOT-terms/wiki/read-update-nullify"
+    ],
+    [
+      "535",
+      "K",
+      "RUN",
+      "",
+      "RUN",
+      "read-update-nullify, actions you can take on data, no create or delete.",
+      "https://github.com/weboftrust/WOT-terms/wiki/RUN"
+    ],
+    [
+      "536",
       "",
       "",
       "",
       "",
       "",
       "https://github.com/weboftrust/WOT-terms/wiki/"
+    ],
+    [
+      "537"
+    ],
+    [
+      "538"
+    ],
+    [
+      "539"
+    ],
+    [
+      "540"
+    ],
+    [
+      "541"
+    ],
+    [
+      "542"
+    ],
+    [
+      "543"
+    ],
+    [
+      "544"
+    ],
+    [
+      "545"
+    ],
+    [
+      "546"
+    ],
+    [
+      "547"
+    ],
+    [
+      "548"
+    ],
+    [
+      "549"
     ]
   ]
 }

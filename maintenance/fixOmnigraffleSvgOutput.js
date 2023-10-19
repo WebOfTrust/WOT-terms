@@ -24,6 +24,10 @@
     Modified SVG data is then saved back to the file. Error handling is implemented at several stages to address potential issues during directory scanning, file reading, and writing.
 */
 
+console.log("");
+console.log("");
+console.log("Fixing SVG files...");
+
 const fs = require('fs');
 const path = require('path');
 const config = require('../docusaurus.config.js');
@@ -101,3 +105,6 @@ fs.readdir(directoryPath, (err, files) => {
         }
     });
 });
+
+console.log("");
+console.log("SVG files have been fixed.");

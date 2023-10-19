@@ -5,7 +5,7 @@ Mechanical protection is composed of sharing the schema of the data to be shared
 
 Once the legal agreements have been met then the disclosure mechanism exchanges the desired data contents.
 
-This is also the most elaborate form of disclosure by an [IPEX](IPEX). Contractually protected disclosure includes both [chain-link confidential](chain-link-confidentiality) and [contingent disclosure](contingent-disclosure).\
+This is also the most elaborate form of disclosure by an [IPEX](IPEX). Contractually protected disclosure includes both [chain-link confidential](chain-link-confidentiality) and [contingent disclosure](contingent-disclosure).  
 Paraphrased by @henkvancann based on [source](https://github.com/WebOfTrust/ietf-ipex/blob/main/draft-ssmith-ipex.md#discussion)
 
 ## Relation

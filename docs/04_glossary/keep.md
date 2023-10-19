@@ -1,5 +1,5 @@
 ## Definition
-Is KERI's and ACDC's user interface that uses the keripy agent for its backend. It uses the REST API exposed from the keripy agent.\
+Is KERI's and ACDC's user interface that uses the keripy agent for its backend. It uses the REST API exposed from the keripy agent.  
 Source: Philip Feairheller
 
 ## Interface
