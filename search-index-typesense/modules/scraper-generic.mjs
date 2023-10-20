@@ -82,11 +82,17 @@ async function scrapeAll() {
             source: entries[i][positionInArray('source')],
             category: entries[i][positionInArray('category')],
             author: entries[i][positionInArray('author')],
-            destinationFile: 'search-index-typesense/search-index-entries/site-' + i + entries[i][positionInArray('pageTitle')] + '.jsonl',
+            destinationFile: 'search-index-typesense/search-index-entries/site-' + i + '-' + entries[i][positionInArray('pageTitle')].replace(/\s+/g, '-') + '.jsonl',
             domQueryForContent: entries[i][positionInArray('querySelector')]
         }
 
-        scrape(config, customScrape);
+        // Pass additional parameters to customScrape
+        const type = entries[i][positionInArray('type')];
+        const pageTitle = entries[i][positionInArray('pageTitle')];
+
+        scrape(config, (page, domQueryForContent, pageUrl) => {
+            return customScrape(page, domQueryForContent, pageUrl, type, pageTitle);
+        });
     }
 }
 
@@ -98,12 +104,12 @@ async function scrapeAll() {
  * @param {string} pageUrl - The URL of the webpage.
  * @returns {Object} - An object containing the main content, type, and page title of the webpage.
  */
-async function customScrape(page, domQueryForContent, pageUrl) {
+async function customScrape(page, domQueryForContent, pageUrl, type, pageTitle) {
     const mainContent = await extractMainContent(page, domQueryForContent);
     let all = {};
     all.mainContent = mainContent;
-    all.type = entries[i][positionInArray('type')];
-    all.pageTitle = entries[i][positionInArray('pageTitle')];
+    all.type = type;
+    all.pageTitle = pageTitle;
     return all;
 }
 
