@@ -5,35 +5,10 @@
   Description: 
 */
 
+import scraperGithub from './scrapers-config/scraper-github.mjs';
+import scraperGenericSingleUrls from './scrapers-config/scraper-generic-single-urls.mjs';
+import scraperGenericSitemap from './scrapers-config/scraper-generic-sitemaps.mjs';
 
-import scrapeWOTterms from './custom-scrapers/WOT-terms.mjs';
-import scrapeGleif from './custom-scrapers/gleif.mjs';
-
-// // Not always necessary and takes a lot of time
-// import scrapeGleifPDF from './custom-scrapers/gleifPDF.mjs';
-
-import scrapeWotgloss from './custom-scrapers/wotgloss.mjs';
-import scrapeESSIFLab from './custom-scrapers/eSSIF-Lab.mjs';
-import scrapeJolocom from './custom-scrapers/jolocom.io.mjs';
-import scrapeHumancolossus from './custom-scrapers/humancolossus.mjs';
-import scrapeKsoeteman from './custom-scrapers/ksoeteman.mjs';
-import scrapemediumCom from './custom-scrapers/medium.com.mjs';
-import scrapeKentbull from './custom-scrapers/kentbull.com.mjs';
-import scrapeGithub from './custom-scrapers/github.mjs';
-import scrapeReadthedocs from './custom-scrapers/readthedocs.io.mjs';
-
-scrapeWOTterms();
-scrapeGleif();
-
-// // Not always necessary and takes a lot of time
-// scrapeGleifPDF();
-
-scrapeWotgloss();
-scrapeESSIFLab();
-scrapeJolocom();
-scrapeHumancolossus();
-scrapeKsoeteman();
-scrapemediumCom();
-scrapeKentbull();
-scrapeGithub();
-scrapeReadthedocs();
+scraperGithub();
+scraperGenericSingleUrls();
+scraperGenericSitemap();

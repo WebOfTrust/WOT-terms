@@ -15,6 +15,9 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # PREPARING
 #########################
 
+# Update content (always safe to run). Fetches all the content from the remote sources, more than strictly necessary for scraping.
+source "$SCRIPT_DIR/../update.sh"
+
 # Prepare file system.
 source "$SCRIPT_DIR/prepare_file_system.sh"
 setLogFile "success.log"
@@ -34,7 +37,6 @@ log "Creating sitemaps finished"
 node "$SCRIPT_DIR/removeURLsFromSitemap.mjs"
 setLogFile "success.log"
 log "Extracting data finished"
-
 
 # Filenames to lowercase.
 node "$SCRIPT_DIR/renameFilesToLowerCase.mjs" search-index-typesense/sitemaps
@@ -82,28 +84,3 @@ log "Exporting data finished"
 source "$SCRIPT_DIR/backup.sh"
 setLogFile "success.log"
 log "Backup finished"
-
-
-
-#########################
-# IMPORTING INTO TYPESENSE CLOUD Open Source Search
-#########################
-
-# Make collection in Typesense empty.
-source "$SCRIPT_DIR/make_collection_empty.sh"
-setLogFile "success.log"
-log "Making collection empty finished"
-
-# Import the data into Typesense.
-source "$SCRIPT_DIR/import.sh"
-setLogFile "success.log"
-log "Importing data finished"
-
-# Import overrides into Typesense.
-source "$SCRIPT_DIR/overrides.sh"
-setLogFile "success.log"
-log "Importing overrides finished"
-
-#########################
-# END
-#########################

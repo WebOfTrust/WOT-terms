@@ -47,10 +47,10 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # # START SCRAPING
 # #########################
 
-# # Scrape the websites.
-# node "$SCRIPT_DIR/extractData-test.mjs"
-# setLogFile "success.log"
-# log "Extracting data finished"
+# Scrape the websites.
+node "$SCRIPT_DIR/extractData-test.mjs"
+setLogFile "success.log"
+log "Extracting data finished"
 
 # # Split the content.jsonl file into multiple files so the size is optimal for Typesense.
 # node "$SCRIPT_DIR/splitContentJSONL.mjs"
@@ -78,10 +78,10 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # # setLogFile "success.log"
 # # log "Exporting data finished"
 
-# Backup output (scrape results, handmade stuff, sitemaps etc).
-source "$SCRIPT_DIR/backup.sh"
-setLogFile "success.log"
-log "Backup finished"
+# # Backup output (scrape results, handmade stuff, sitemaps etc).
+# source "$SCRIPT_DIR/backup.sh"
+# setLogFile "success.log"
+# log "Backup finished"
 
 
 
