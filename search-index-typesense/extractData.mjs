@@ -5,9 +5,9 @@
   Description: 
 */
 
-import scraperGithub from './custom-scrapers/scraper-github.mjs';
-import scraperGenericSingleUrls from './custom-scrapers/scraper-generic-single-urls.mjs';
-import scraperGenericSitemap from './custom-scrapers/scraper-generic-sitemaps.mjs';
+import scraperGithub from './scrapers-config/scraper-github.mjs';
+import scraperGenericSingleUrls from './scrapers-config/scraper-generic-single-urls.mjs';
+import scraperGenericSitemap from './scrapers-config/scraper-generic-sitemaps.mjs';
 
 // scraperGithub();
 scraperGenericSingleUrls();
