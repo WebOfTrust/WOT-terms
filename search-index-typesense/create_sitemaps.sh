@@ -6,18 +6,23 @@
 # Updated: -
 # Description: This script starts sitemap creator scripts. Not every URL that is scraped needs a sitemap via this route: sometimes a sitemap is already available, for example in the root of a website (sitemap.xml). Or via an HTLM sitemap available via a URL.
 
+########################################
+# General websites - createSitemap.mjs
+########################################
 
-
-# General websites
 node search-index-typesense/createSitemap.mjs --url https://keripy.readthedocs.io/en/latest/ --depth 5
 node search-index-typesense/createSitemap.mjs --url https://keria.readthedocs.io/en/latest/ --depth 5
 node search-index-typesense/createSitemap.mjs --url https://signifypy.readthedocs.io/en/latest/ --depth 5
 
-# Github repos
-# How to use:
-# node search-index-typesense/createSitemapGithub.mjs <repository-owner> <repository-name> <branch-name> <sitemap-directory>
 
-# Trust over IP
+########################################
+# Github repos - createSitemapGithub.mjs
+########################################
+
+# How to use:
+# $ node search-index-typesense/createSitemapGithub.mjs <repository-owner> <repository-name> <branch-name> <sitemap-directory>
+
+# Github owner: Trust over IP
 node search-index-typesense/createSitemapGithub.mjs trustoverip tswg-acdc-specification main search-index-typesense/sitemaps
 node search-index-typesense/createSitemapGithub.mjs trustoverip tswg-did-method-webs-specification main search-index-typesense/sitemaps
 node search-index-typesense/createSitemapGithub.mjs trustoverip tswg-cesr-specification main  search-index-typesense/sitemaps
@@ -31,10 +36,10 @@ node search-index-typesense/createSitemapGithub.mjs trustoverip tswg-keri-specif
 node search-index-typesense/createSitemapGithub.mjs trustoverip tswg-ptel-specification main  search-index-typesense/sitemaps
 node search-index-typesense/createSitemapGithub.mjs trustoverip keri main  search-index-typesense/sitemaps
 
-# Sam Smith
+# Github owner: Sam Smith
 node search-index-typesense/createSitemapGithub.mjs SmithSamuelM Papers master search-index-typesense/sitemaps
 
-# WebOfTrust
+# Github owner: WebOfTrust
 node search-index-typesense/createSitemapGithub.mjs WebOfTrust cardano-backer main search-index-typesense/sitemaps
 node search-index-typesense/createSitemapGithub.mjs WebOfTrust cesride main search-index-typesense/sitemaps
 node search-index-typesense/createSitemapGithub.mjs WebOfTrust cesrpy main search-index-typesense/sitemaps
