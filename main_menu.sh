@@ -88,12 +88,12 @@ function prompt_input() {
 }
 
 function do_update() {
-    # Start scraping all sites.
+    # Update content (always safe to run)
     source "$SCRIPT_DIR/update.sh"
 }
 
 function do_scrape_menu() {
-    # Start scraping priority sites only.
+    # Go to scraping section menu.
     source "${SCRIPT_DIR}/${SEARCH_INDEX_DIR}/main.sh"
 }
 
