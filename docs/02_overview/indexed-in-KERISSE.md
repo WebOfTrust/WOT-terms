@@ -1,7 +1,12 @@
 # Indexed in KERISSE
-<p id='index-created-timestamp'>Indexed at 21 October 2023 13:38:37</p>
-<p id='index-created-page-count'>Number of indexed pages: 1696</p>
+<p id='index-created-timestamp'>Indexed at 21 October 2023 19:13:34</p>
+<p id='index-created-page-count'>Number of indexed pages: 1699</p>
 <ol>
+<li># Indexed in KERISSE</li>
+<li><a href="https://kentbull.com/2022/06/05/keri-start/" target="_blank">https://kentbull.com/2022/06/05/keri-start/</a></li>
+<li><ol></li>
+<li><p id='index-created-page-count'>Number of indexed pages: 0</p></li>
+<li><p id='index-created-timestamp'>Indexed at 21 October 2023 19:01:01</p></li>
 <li><a href="https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79" target="_blank">https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79</a></li>
 <li><a href="https://essif-lab.github.io/framework/" target="_blank">https://essif-lab.github.io/framework/</a></li>
 <li><a href="https://essif-lab.github.io/framework/docs/TBD" target="_blank">https://essif-lab.github.io/framework/docs/TBD</a></li>
@@ -156,7 +161,6 @@
 <li><a href="https://essif-lab.github.io/framework/docs/terms/qualified-data" target="_blank">https://essif-lab.github.io/framework/docs/terms/qualified-data</a></li>
 <li><a href="https://essif-lab.github.io/framework/docs/terms/revocation-component" target="_blank">https://essif-lab.github.io/framework/docs/terms/revocation-component</a></li>
 <li><a href="https://essif-lab.github.io/framework/docs/terms/revocation-policy" target="_blank">https://essif-lab.github.io/framework/docs/terms/revocation-policy</a></li>
-<li><a href="https://essif-lab.github.io/framework/docs/terms/revoke" target="_blank">https://essif-lab.github.io/framework/docs/terms/revoke</a></li>
 <li><a href="https://essif-lab.github.io/framework/docs/terms/risk" target="_blank">https://essif-lab.github.io/framework/docs/terms/risk</a></li>
 <li><a href="https://essif-lab.github.io/framework/docs/terms/risk-level" target="_blank">https://essif-lab.github.io/framework/docs/terms/risk-level</a></li>
 <li><a href="https://essif-lab.github.io/framework/docs/terms/risk-management" target="_blank">https://essif-lab.github.io/framework/docs/terms/risk-management</a></li>
@@ -783,7 +787,6 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/zero-trust" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/zero-trust</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/zero-trust-computing" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/zero-trust-computing</a></li>
 <li><a href="https://humancolossus.foundation/blog/thinking-of-did-keri-on" target="_blank">https://humancolossus.foundation/blog/thinking-of-did-keri-on</a></li>
-<li><a href="https://kentbull.com/2022/06/05/keri-start/" target="_blank">https://kentbull.com/2022/06/05/keri-start/</a></li>
 <li><a href="https://kentbull.com/2023/01/27/keri-tutorial-series-kli-sign-and-verify-with-heartnet/" target="_blank">https://kentbull.com/2023/01/27/keri-tutorial-series-kli-sign-and-verify-with-heartnet/</a></li>
 <li><a href="https://kentbull.com/2023/03/09/keri-tutorial-series-treasure-hunting-in-abydos-issuing-and-verifying-a-credential-acdc/" target="_blank">https://kentbull.com/2023/03/09/keri-tutorial-series-treasure-hunting-in-abydos-issuing-and-verifying-a-credential-acdc/</a></li>
 <li><a href="https://keria.readthedocs.io/en/latest/" target="_blank">https://keria.readthedocs.io/en/latest/</a></li>
@@ -829,6 +832,7 @@
 <li><a href="https://readthedocs.org/api/v2/build/21562095.txt" target="_blank">https://readthedocs.org/api/v2/build/21562095.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21562101.txt" target="_blank">https://readthedocs.org/api/v2/build/21562101.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21562105.txt" target="_blank">https://readthedocs.org/api/v2/build/21562105.txt</a></li>
+<li><a href="https://readthedocs.org/api/v2/build/21686781.txt" target="_blank">https://readthedocs.org/api/v2/build/21686781.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21686915.txt" target="_blank">https://readthedocs.org/api/v2/build/21686915.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21687344.txt" target="_blank">https://readthedocs.org/api/v2/build/21687344.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21687384.txt" target="_blank">https://readthedocs.org/api/v2/build/21687384.txt</a></li>
@@ -838,6 +842,7 @@
 <li><a href="https://readthedocs.org/api/v2/build/21707450.txt" target="_blank">https://readthedocs.org/api/v2/build/21707450.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21711687.txt" target="_blank">https://readthedocs.org/api/v2/build/21711687.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21711689.txt" target="_blank">https://readthedocs.org/api/v2/build/21711689.txt</a></li>
+<li><a href="https://readthedocs.org/api/v2/build/21735409.txt" target="_blank">https://readthedocs.org/api/v2/build/21735409.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21814884.txt" target="_blank">https://readthedocs.org/api/v2/build/21814884.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21825670.txt" target="_blank">https://readthedocs.org/api/v2/build/21825670.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/21843859.txt" target="_blank">https://readthedocs.org/api/v2/build/21843859.txt</a></li>
@@ -857,8 +862,6 @@
 <li><a href="https://readthedocs.org/api/v2/build/22126438.txt" target="_blank">https://readthedocs.org/api/v2/build/22126438.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/22133973.txt" target="_blank">https://readthedocs.org/api/v2/build/22133973.txt</a></li>
 <li><a href="https://readthedocs.org/api/v2/build/22154291.txt" target="_blank">https://readthedocs.org/api/v2/build/22154291.txt</a></li>
-<li><a href="https://readthedocs.org/api/v2/build/22247776.txt" target="_blank">https://readthedocs.org/api/v2/build/22247776.txt</a></li>
-<li><a href="https://readthedocs.org/api/v2/build/22247851.txt" target="_blank">https://readthedocs.org/api/v2/build/22247851.txt</a></li>
 <li><a href="https://readthedocs.org/builds/keria/?fromdocs=keria" target="_blank">https://readthedocs.org/builds/keria/?fromdocs=keria</a></li>
 <li><a href="https://readthedocs.org/builds/keripy/?fromdocs=keripy" target="_blank">https://readthedocs.org/builds/keripy/?fromdocs=keripy</a></li>
 <li><a href="https://readthedocs.org/builds/signifypy/?fromdocs=signifypy" target="_blank">https://readthedocs.org/builds/signifypy/?fromdocs=signifypy</a></li>
@@ -924,6 +927,7 @@
 <li><a href="https://readthedocs.org/projects/keripy/" target="_blank">https://readthedocs.org/projects/keripy/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/?fromdocs=keripy" target="_blank">https://readthedocs.org/projects/keripy/?fromdocs=keripy</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/" target="_blank">https://readthedocs.org/projects/keripy/builds/</a></li>
+<li><a href="https://readthedocs.org/projects/keripy/builds/21735409/" target="_blank">https://readthedocs.org/projects/keripy/builds/21735409/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/21814884/" target="_blank">https://readthedocs.org/projects/keripy/builds/21814884/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/21843859/" target="_blank">https://readthedocs.org/projects/keripy/builds/21843859/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/21850825/" target="_blank">https://readthedocs.org/projects/keripy/builds/21850825/</a></li>
@@ -938,7 +942,6 @@
 <li><a href="https://readthedocs.org/projects/keripy/builds/22079593/" target="_blank">https://readthedocs.org/projects/keripy/builds/22079593/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/22133973/" target="_blank">https://readthedocs.org/projects/keripy/builds/22133973/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/builds/22154291/" target="_blank">https://readthedocs.org/projects/keripy/builds/22154291/</a></li>
-<li><a href="https://readthedocs.org/projects/keripy/builds/22247851/" target="_blank">https://readthedocs.org/projects/keripy/builds/22247851/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/downloads/" target="_blank">https://readthedocs.org/projects/keripy/downloads/</a></li>
 <li><a href="https://readthedocs.org/projects/keripy/versions/" target="_blank">https://readthedocs.org/projects/keripy/versions/</a></li>
 <li><a href="https://readthedocs.org/projects/loopy/" target="_blank">https://readthedocs.org/projects/loopy/</a></li>
@@ -947,6 +950,7 @@
 <li><a href="https://readthedocs.org/projects/signifypy/" target="_blank">https://readthedocs.org/projects/signifypy/</a></li>
 <li><a href="https://readthedocs.org/projects/signifypy/?fromdocs=signifypy" target="_blank">https://readthedocs.org/projects/signifypy/?fromdocs=signifypy</a></li>
 <li><a href="https://readthedocs.org/projects/signifypy/builds/" target="_blank">https://readthedocs.org/projects/signifypy/builds/</a></li>
+<li><a href="https://readthedocs.org/projects/signifypy/builds/21686781/" target="_blank">https://readthedocs.org/projects/signifypy/builds/21686781/</a></li>
 <li><a href="https://readthedocs.org/projects/signifypy/builds/21686915/" target="_blank">https://readthedocs.org/projects/signifypy/builds/21686915/</a></li>
 <li><a href="https://readthedocs.org/projects/signifypy/builds/21687344/" target="_blank">https://readthedocs.org/projects/signifypy/builds/21687344/</a></li>
 <li><a href="https://readthedocs.org/projects/signifypy/builds/21687384/" target="_blank">https://readthedocs.org/projects/signifypy/builds/21687384/</a></li>
@@ -961,7 +965,6 @@
 <li><a href="https://readthedocs.org/projects/signifypy/builds/22051396/" target="_blank">https://readthedocs.org/projects/signifypy/builds/22051396/</a></li>
 <li><a href="https://readthedocs.org/projects/signifypy/builds/22080476/" target="_blank">https://readthedocs.org/projects/signifypy/builds/22080476/</a></li>
 <li><a href="https://readthedocs.org/projects/signifypy/builds/22126438/" target="_blank">https://readthedocs.org/projects/signifypy/builds/22126438/</a></li>
-<li><a href="https://readthedocs.org/projects/signifypy/builds/22247776/" target="_blank">https://readthedocs.org/projects/signifypy/builds/22247776/</a></li>
 <li><a href="https://readthedocs.org/projects/signifypy/downloads/" target="_blank">https://readthedocs.org/projects/signifypy/downloads/</a></li>
 <li><a href="https://readthedocs.org/projects/signifypy/versions/" target="_blank">https://readthedocs.org/projects/signifypy/versions/</a></li>
 <li><a href="https://readthedocs.org/search/?q=project:keria%20" target="_blank">https://readthedocs.org/search/?q=project:keria%20</a></li>
