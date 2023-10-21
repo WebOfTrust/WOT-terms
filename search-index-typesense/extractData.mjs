@@ -5,10 +5,10 @@
   Description: 
 */
 
-import scrapeGithub from './custom-scrapers/scraper-github.mjs';
+import scraperGithub from './custom-scrapers/scraper-github.mjs';
 import scraperGenericSingleUrls from './custom-scrapers/scraper-generic-single-urls.mjs';
 import scraperGenericSitemap from './custom-scrapers/scraper-generic-sitemaps.mjs';
 
-// scrapeGithub();
+// scraperGithub();
 scraperGenericSingleUrls();
 scraperGenericSitemap();
