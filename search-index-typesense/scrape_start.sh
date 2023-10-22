@@ -1,5 +1,9 @@
+# Import variables from .env file
+source .env
+
+
 # Logger generates a log file with a timestamp and from which file the message comes from.
-source ./search-index-typesense/logger.sh
+source ./${SEARCH_INDEX_DIR}/logger.sh
 
 
 #########################
@@ -38,8 +42,9 @@ node "$SCRIPT_DIR/removeURLsFromSitemap.mjs"
 setLogFile "success.log"
 log "Extracting data finished"
 
+
 # Filenames to lowercase.
-node "$SCRIPT_DIR/renameFilesToLowerCase.mjs" search-index-typesense/sitemaps
+node "${SCRIPT_DIR}/renameFilesToLowerCase.mjs" ${SEARCH_INDEX_DIR}/sitemaps
 setLogFile "success.log"
 log "Renaming files to lowercase finished"
 
@@ -64,6 +69,10 @@ node "$SCRIPT_DIR/countLinesInJsonlFiles.mjs"
 setLogFile "success.log"
 log "Counting number of lines finished"
 
+node "$SCRIPT_DIR/collectScrapedUrls.mjs" "${SEARCH_INDEX_DIR}/${SEARCH_INDEX_ENTRIES_DIR}" "${INDEX_OVERVIEW_FILE}"
+setLogFile "success.log"
+log "Collecting urls and writing to index file finished"
+
 # Sort and style the index file.
 node "$SCRIPT_DIR/sortAndStyleScrapedIndex.mjs" "$INDEX_OVERVIEW_FILE"
 setLogFile "success.log"
@@ -75,12 +84,7 @@ log "Sorting and styling index file finished"
 # BACKING UP
 #########################
 
-# Export the data from Typesense to the downloads dir.
-source "$SCRIPT_DIR/export.sh"
-setLogFile "success.log"
-log "Exporting data finished"
-
-# Backup output (scrape results, handmade stuff, sitemaps etc).
+# Backup output (scrape results, handmade stuff, sitemaps, logs, webpage overview, typesense export).
 source "$SCRIPT_DIR/backup.sh"
 setLogFile "success.log"
 log "Backup finished"
