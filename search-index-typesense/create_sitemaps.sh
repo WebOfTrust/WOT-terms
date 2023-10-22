@@ -14,9 +14,9 @@ source .env
 # General websites - createSitemap.mjs
 ########################################
 
-node ${SEARCH_INDEX_DIR}/createSitemap.mjs --url https://keripy.readthedocs.io/en/latest/ --depth 5
-node ${SEARCH_INDEX_DIR}/createSitemap.mjs --url https://keria.readthedocs.io/en/latest/ --depth 5
-node ${SEARCH_INDEX_DIR}/createSitemap.mjs --url https://signifypy.readthedocs.io/en/latest/ --depth 5
+# node ${SEARCH_INDEX_DIR}/createSitemap.mjs --url https://keripy.readthedocs.io/en/latest/ --depth 5
+# node ${SEARCH_INDEX_DIR}/createSitemap.mjs --url https://keria.readthedocs.io/en/latest/ --depth 5
+# node ${SEARCH_INDEX_DIR}/createSitemap.mjs --url https://signifypy.readthedocs.io/en/latest/ --depth 5
 
 
 ########################################
