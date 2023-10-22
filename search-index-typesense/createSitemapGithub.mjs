@@ -22,6 +22,7 @@ import axios from 'axios';
 import fs from 'fs';
 import path from 'path';
 import logger from './modules/logger.mjs';
+import { config } from 'dotenv';
 
 const args = process.argv.slice(2);
 const repositoryOwner = args[0];
@@ -31,7 +32,10 @@ const sitemapDirectory = args[3];
 
 async function getRepositoryTree() {
   try {
-    const response = await axios.get(`https://api.github.com/repos/${repositoryOwner}/${repositoryName}/git/trees/${branchName}?recursive=1`);
+    const response = await axios.get(`https://api.github.com/repos/${repositoryOwner}/${repositoryName}/git/trees/${branchName}?recursive=1`, {
+      headers: { 'Authorization': `${process.env.GITHUB_AUTH_TOKEN}` }
+    })
+      ;
     return response.data.tree;
   } catch (error) {
     logger.setLogFile('error.log');
