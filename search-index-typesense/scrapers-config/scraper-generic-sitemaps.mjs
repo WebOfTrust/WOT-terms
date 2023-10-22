@@ -260,7 +260,7 @@ async function customScrapeReadTheDocsSignifypy(page, domQueryForContent, pageUr
 
 
 /**
- * ReadTheDocs WOTterms
+ * WOTterms
  * 
  * 
  */
