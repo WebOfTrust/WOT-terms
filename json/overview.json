@@ -10126,21 +10126,39 @@
     ],
     [
       "536",
+      "K",
+      "direct-mode",
       "",
-      "",
-      "",
-      "",
-      "",
-      "https://github.com/weboftrust/WOT-terms/wiki/"
+      "direct-mode",
+      "(one-to-one) trust mode in KERI, in which the identity controller establishes control via verified signatures of the controlling key-pair. ",
+      "https://github.com/weboftrust/WOT-terms/wiki/direct-mode"
     ],
     [
-      "537"
+      "537",
+      "K",
+      "indirect-mode",
+      "",
+      "indirect-mode",
+      "(one-to-many) trust mode in KERI, which extends the direct trust basis with witnessed key event receipt logs (KERL) for validating events.",
+      "https://github.com/weboftrust/WOT-terms/wiki/indirect-mode"
     ],
     [
-      "538"
+      "538",
+      "K",
+      "end-role",
+      "",
+      "end-role",
+      "An end role is an authorization for one AID to serve in a role for another AID.",
+      "https://github.com/weboftrust/WOT-terms/wiki/end-role"
     ],
     [
-      "539"
+      "539",
+      "K",
+      "hab",
+      "",
+      "hab",
+      "A Hab is a keystore for one identifier.",
+      "https://github.com/weboftrust/WOT-terms/wiki/hab"
     ],
     [
       "540"
