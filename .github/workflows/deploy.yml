@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Comprehensive Content Fetch and Deploy
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    name: Deploy to GitHub Pages
+    name: Fetch Content and Deploy to GitHub Pages
     runs-on: ubuntu-latest
 
     steps:
