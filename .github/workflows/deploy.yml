@@ -102,7 +102,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add -A
           git diff --exit-code && exit 0  # Exit if no changes
-          git commit -m "Fetched content from various external sources"
+          git commit -m "chore: fetch content from various external sources"
           git push
       ##############################
 
