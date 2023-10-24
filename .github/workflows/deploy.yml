@@ -98,14 +98,28 @@ jobs:
 
       - name: Commit and push the changes after fetching content from various external sources
         run: |
+          echo "Initial status:"
           git status
+
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+
           git add -A
-          git diff --exit-code && exit 0  # Exit if no changes
-          git commit -m "chore: fetch content from various external sources"
-          git push
+
+          echo "Status after git add:"
           git status
+
+          git diff --cached --exit-code && exit 0  # Exit if no changes in the staging area
+
+          echo "Committing changes:"
+          git commit -m "chore: fetch content from various external sources"
+
+          echo "Pushing changes:"
+          git push
+
+          echo "Final status:"
+          git status
+
       ##############################
 
 
