@@ -65,9 +65,10 @@ jobs:
         run: |
           mkdir -p docs/04_glossary  # Create the directory if it doesn't exist
           
-          # Files that are already in the /docs/04_glossary/ directory will not be overwritten
-          rsync -a wiki/ docs/04_glossary/  # Synchronize wiki contents to /docs/04_glossary/
-          
+          # Copy all new and updated files from wiki/ to docs/04_glossary/
+          # Delete any files in docs/04_glossary/ that do not exist in wiki/
+          rsync -a --delete wiki/ docs/04_glossary/
+
           # The /wiki directory is not needed anymore
           rm -rf wiki/  # Remove the /wiki directory
       ##############################
