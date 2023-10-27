@@ -67,6 +67,30 @@ https
 
 function createMarkDownFiles(content) {
   if (content !== undefined) {
+
+    /**
+     * The column names of the list of websites to scrape.
+     * @type {Array<string>}
+     */
+    const entriesIndex = content.values[0];
+
+
+    /**
+     * Returns the position of a value in the entriesIndex array.
+     * @param {string} value - The value to search for in the entriesIndex array.
+     * @returns {number} - The position of the value in the entriesIndex array, or -1 if not found.
+     */
+    function positionInArray(value) {
+      for (let i = 0; i < entriesIndex.length; i++) {
+        if (entriesIndex[i] === value) return i;
+      }
+      return -1;
+    }
+
+
+
+
+
     // Create separate files
     // content.values.forEach((item, index) => {
     //   // Skip first one, https://stackoverflow.com/a/41283243
@@ -156,7 +180,7 @@ function createMarkDownFiles(content) {
 
       // Create table cells
       item.forEach((item, indexTableCell) => {
-        if (indexTableCell > 17) return;
+        if (indexTableCell > 21) return;
         item = item || '';
 
         finalStringAll += `<td className='column${indexTableCell}' data-row='row${indexTableRow}' data-rownr='${indexTableRow}' data-column='column${indexTableCell}' data-columnnr='${indexTableCell}'>`;
