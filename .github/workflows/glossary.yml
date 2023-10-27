@@ -86,3 +86,18 @@ jobs:
           git commit -m "auto-update glossary"
           git push
           echo DONE
+
+      - name: Copy glossary.html to /static/ in main branch
+        run: |
+          git fetch origin
+          git checkout ${{ github.ref }}  # Switch back to the original branch
+          cp glossary.html ./static/glossary.html # Copy the existing glossary.html to the /static/ directory
+          if [ $? -eq 0 ]; then
+            echo "Successfully copied glossary.html to /static/ directory."
+          else
+            echo "Failed to copy glossary.html to /static/ directory."
+            exit 1
+          fi
+          git add ./static/glossary.html
+          git commit -m "Copy glossary.html to /static/ directory"
+          git push
