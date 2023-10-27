@@ -87,11 +87,13 @@ jobs:
           git push
           echo DONE
 
-      - name: Copy glossary.html to /static/ in main branch
+      - name: Copy glossary.html to /static/ directory of the original branch
         run: |
           git fetch origin
-          git checkout ${{ github.ref }}  # Switch back to the original branch
-          cp glossary.html ./static/glossary.html # Copy the existing glossary.html to the /static/ directory
+          git checkout ${{ env.DEPLOY_BRANCH }}  # Switch back to the DEPLOY_BRANCH
+          cp glossary.html ../glossary.html.temp  # Temporary copy
+          git checkout $(echo ${{ github.ref }} | sed "s/refs\/heads\///g")  # Switch back to the original branch
+          cp ../glossary.html.temp ./static/glossary.html  # Copy the existing glossary.html to the /static/ directory
           if [ $? -eq 0 ]; then
             echo "Successfully copied glossary.html to /static/ directory."
           else
