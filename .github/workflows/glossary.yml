@@ -77,6 +77,18 @@ jobs:
           #lock-pullrequest-aftermerge: false - if you don't want this bot to automatically lock the pull request after merging (default - true)
           #use-dco-flag: true - If you are using DCO instead of CLA
 
+
+
+      - name: Check and delete /static/glossary.html in main if exists
+        run: |
+          git checkout main
+          if [ -f "./static/glossary.html" ]; then
+            git rm ./static/glossary.html
+            git commit -m "Remove existing glossary.html from /static/ directory"
+            git push
+          fi
+          git checkout ${{ env.DEPLOY_BRANCH }}
+
       - name: Publishing
         run: |
           git fetch origin
@@ -86,3 +98,20 @@ jobs:
           git commit -m "auto-update glossary"
           git push
           echo DONE
+
+      - name: Copy glossary.html to /static/ directory of the original branch
+        run: |
+          git fetch origin
+          git checkout ${{ env.DEPLOY_BRANCH }}  # Switch back to the DEPLOY_BRANCH
+          cp glossary.html ../glossary.html.temp  # Temporary copy
+          git checkout main  # Switch back to the original branch (assuming it's 'main')
+          cp ../glossary.html.temp ./static/glossary.html  # Copy the existing glossary.html to the /static/ directory
+          if [ $? -eq 0 ]; then
+            echo "Successfully copied glossary.html to /static/ directory."
+          else
+            echo "Failed to copy glossary.html to /static/ directory."
+            exit 1
+          fi
+          git add ./static/glossary.html
+          git commit -m "Copy glossary.html to /static/ directory"
+          git push
