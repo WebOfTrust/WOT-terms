@@ -184,7 +184,7 @@ function createMarkDownFiles(content) {
         item = item || '';
 
         finalStringAll += `<td className='column${indexTableCell}' data-row='row${indexTableRow}' data-rownr='${indexTableRow}' data-column='column${indexTableCell}' data-columnnr='${indexTableCell}'>`;
-        if (indexTableCell === 6 || indexTableCell === 7) {
+        if (indexTableCell === positionInArray('link') || indexTableCell === positionInArray('Philvid_start')) {
           finalStringAll += `<a target='_blank' rel='noopener' href='${item}'>Link</a>`;
         } else {
           finalStringAll += `${item}`;
