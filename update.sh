@@ -54,7 +54,8 @@ mkdir -p docs/${OVERVIEW_DIR}
 # Files that are already in the /docs/04_glossary/ directory will not be overwritten
 # Synchronize wiki contents to /docs/04_glossary/
 # Exclude multiple files: --exclude={'.gitignore','README.md'}
-rsync -a --exclude='.gitignore' temp-wiki/ docs/${OVERVIEW_DIR}
+rsync -a --delete --exclude='.gitignore' temp-wiki/ docs/${OVERVIEW_DIR}
+
 
 # Step 3: Cleanup
 # The /temp-wiki directory is not needed anymore
