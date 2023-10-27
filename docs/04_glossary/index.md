@@ -2,4 +2,4 @@
 
 This is the main glossary.
 
-Content to be written.
+Content to be written
