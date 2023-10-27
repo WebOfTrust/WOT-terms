@@ -58,19 +58,19 @@ jobs:
 
       - name: Checkout wiki
         run: |
-          git clone https://github.com/WebOfTrust/WOT-terms.wiki.git wiki
+          git clone https://github.com/WebOfTrust/WOT-terms.wiki.git temp-wiki
 
       # Copies the wiki contents to the /docs/04_glossary/ directory
       - name: Copy Wiki To Docusaurus Glossary directory
         run: |
           mkdir -p docs/04_glossary  # Create the directory if it doesn't exist
           
-          # Copy all new and updated files from wiki/ to docs/04_glossary/
-          # Delete any files in docs/04_glossary/ that do not exist in wiki/
-          rsync -a --delete --exclude='.gitignore' wiki/ docs/04_glossary/
+          # Copy all new and updated files from temp-wiki/ to docs/04_glossary/
+          # Delete any files in docs/04_glossary/ that do not exist in temp-wiki/
+          rsync -a --delete --exclude='.gitignore' temp-wiki/ docs/04_glossary/
 
-          # The /wiki directory is not needed anymore
-          rm -rf wiki/  # Remove the /wiki directory
+          # The /temp-wiki directory is not needed anymore
+          rm -rf temp-wiki/  # Remove the /temp-wiki directory
       ##############################
 
 
