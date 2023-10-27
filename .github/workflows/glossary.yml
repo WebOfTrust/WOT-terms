@@ -77,6 +77,11 @@ jobs:
           #lock-pullrequest-aftermerge: false - if you don't want this bot to automatically lock the pull request after merging (default - true)
           #use-dco-flag: true - If you are using DCO instead of CLA
 
+
+      - name: Show git status and untracked files
+        run: git status
+
+
       - name: Publishing
         run: |
           git fetch origin
