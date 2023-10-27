@@ -180,7 +180,7 @@ function createMarkDownFiles(content) {
 
       // Create table cells
       item.forEach((item, indexTableCell) => {
-        if (indexTableCell > 21) return;
+        if (indexTableCell > entriesIndex.length) return;
         item = item || '';
 
         finalStringAll += `<td className='column${indexTableCell}' data-row='row${indexTableRow}' data-rownr='${indexTableRow}' data-column='column${indexTableCell}' data-columnnr='${indexTableCell}'>`;
