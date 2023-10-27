@@ -67,7 +67,7 @@ jobs:
           
           # Copy all new and updated files from wiki/ to docs/04_glossary/
           # Delete any files in docs/04_glossary/ that do not exist in wiki/
-          rsync -a --delete wiki/ docs/04_glossary/
+          rsync -a --delete --exclude='.gitignore' wiki/ docs/04_glossary/
 
           # The /wiki directory is not needed anymore
           rm -rf wiki/  # Remove the /wiki directory
