@@ -225,7 +225,7 @@ jobs:
           git push
           echo DONE
 
-      - name: Copy glossary.html to /static/ directory of the original branch
+      - name: Copy glossary.html to /static/ directory of the original branch2  
         run: |
           git fetch origin
           git checkout ${{ env.DEPLOY_BRANCH }}  # Switch back to the DEPLOY_BRANCH
@@ -239,5 +239,7 @@ jobs:
             exit 1
           fi
           git add ./static/glossary.html
+          git diff --cached --exit-code && exit 0  # Exit if no changes in the staging area
           git commit -m "Copy glossary.html to /static/ directory"
           git push
+
