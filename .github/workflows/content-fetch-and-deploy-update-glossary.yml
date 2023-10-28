@@ -171,6 +171,7 @@ jobs:
       ##############################
       
   update-glossary:
+    name: Update Glossary
     needs: deploy
     runs-on: ubuntu-latest
 
