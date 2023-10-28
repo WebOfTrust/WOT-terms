@@ -1,155 +1,155 @@
-# name: Comprehensive Content Fetch and Deploy
+name: Comprehensive Content Fetch and Deploy
 
-# on:
-#   push:
-#     branches:
-#       - main
-#   workflow_dispatch:
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 
-# jobs:
-#   deploy:
-#     name: Fetch Content and Deploy to GitHub Pages
-#     runs-on: ubuntu-latest
+jobs:
+  deploy:
+    name: Fetch Content and Deploy to GitHub Pages
+    runs-on: ubuntu-latest
 
-#     steps:
-#       - uses: actions/checkout@v3
-#       - uses: actions/setup-node@v3
-#         with:
-#           node-version: 19
-#           cache: npm
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 19
+          cache: npm
 
-#       - name: Install dependencies
-#         run: npm ci
+      - name: Install dependencies
+        run: npm ci
       
-#       ##############################
-#       # Google sheet: WOT-terms, tab: Terms-WOT-manage
-#       ##############################
+      ##############################
+      # Google sheet: WOT-terms, tab: Terms-WOT-manage
+      ##############################
 
-#       # Fetches data from WOT-terms (Google sheet) and generates an overview file that takes all the terms and their definitions and puts them into a single file. 
-#       - name: Import Google Sheet “WOT-terms”, tab “Terms-WOT-manage” data into markdown file
-#         run: node fetchExternalContent/fetchTermsWOTmanage/fetchTermsWOTmanage.js
-#       ##############################
-
-
-
-#       # ##############################
-#       # # Google sheet: WOT-terms, tab: LabelContent
-#       # ##############################
-
-#       # # Fetches and copies external websites based on the URLs in the Google sheet "WOT-terms", tab "LabelContent"  
-#       # # Step 1
-#       # - name: Fetch information in JSON format that serves as source for import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files, meta data
-#       #   run: node fetchExternalContent/fetchCarbonCopies/fetchExternalContentMetaData.js
-
-#       # # Step 2
-#       # - name: Import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files
-#       #   run: node fetchExternalContent/fetchCarbonCopies/fetchExternalContent.js
-
-#       # # Step 3
-#       # - name: Add HTML structure to external content, like Accordeon code
-#       #   run: node fetchExternalContent/fetchCarbonCopies/addHTMLstructureToExternalContent.js
-#       # ##############################
+      # Fetches data from WOT-terms (Google sheet) and generates an overview file that takes all the terms and their definitions and puts them into a single file. 
+      - name: Import Google Sheet “WOT-terms”, tab “Terms-WOT-manage” data into markdown file
+        run: node fetchExternalContent/fetchTermsWOTmanage/fetchTermsWOTmanage.js
+      ##############################
 
 
 
-#       ##############################
-#       # Clones the wiki
-#       ##############################
+      # ##############################
+      # # Google sheet: WOT-terms, tab: LabelContent
+      # ##############################
 
-#       - name: Checkout wiki
-#         run: |
-#           git clone https://github.com/WebOfTrust/WOT-terms.wiki.git temp-wiki
+      # # Fetches and copies external websites based on the URLs in the Google sheet "WOT-terms", tab "LabelContent"  
+      # # Step 1
+      # - name: Fetch information in JSON format that serves as source for import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files, meta data
+      #   run: node fetchExternalContent/fetchCarbonCopies/fetchExternalContentMetaData.js
 
-#       # Copies the wiki contents to the /docs/04_glossary/ directory
-#       - name: Copy Wiki To Docusaurus Glossary directory
-#         run: |
-#           mkdir -p docs/04_glossary  # Create the directory if it doesn't exist
+      # # Step 2
+      # - name: Import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files
+      #   run: node fetchExternalContent/fetchCarbonCopies/fetchExternalContent.js
+
+      # # Step 3
+      # - name: Add HTML structure to external content, like Accordeon code
+      #   run: node fetchExternalContent/fetchCarbonCopies/addHTMLstructureToExternalContent.js
+      # ##############################
+
+
+
+      ##############################
+      # Clones the wiki
+      ##############################
+
+      - name: Checkout wiki
+        run: |
+          git clone https://github.com/WebOfTrust/WOT-terms.wiki.git temp-wiki
+
+      # Copies the wiki contents to the /docs/04_glossary/ directory
+      - name: Copy Wiki To Docusaurus Glossary directory
+        run: |
+          mkdir -p docs/04_glossary  # Create the directory if it doesn't exist
           
-#           # Copy all new and updated files from temp-wiki/ to docs/04_glossary/
-#           # Delete any files in docs/04_glossary/ that do not exist in temp-wiki/
-#           rsync -a --delete --exclude='.gitignore' temp-wiki/ docs/04_glossary/
+          # Copy all new and updated files from temp-wiki/ to docs/04_glossary/
+          # Delete any files in docs/04_glossary/ that do not exist in temp-wiki/
+          rsync -a --delete --exclude='.gitignore' temp-wiki/ docs/04_glossary/
 
-#           # The /temp-wiki directory is not needed anymore
-#           rm -rf temp-wiki/  # Remove the /temp-wiki directory
-#       ##############################
-
-
-
-#       ##############################
-#       # Fix svg's created by OmniGraffle
-#       ##############################
-#       - name: Fix svg's created by OmniGraffle
-#         run: node maintenance/fixOmnigraffleSvgOutput.js
-#       ##############################
-
-
-#       # # CURRENTLY MANUALLY RUN 
-#       # ##############################
-#       # # Find broken links and create a Github issue
-#       # ##############################
-#       # - name: Find broken links and create a Github issue
-#       #   run: node maintenance/findBrokenLinks.js
-#       # ##############################
+          # The /temp-wiki directory is not needed anymore
+          rm -rf temp-wiki/  # Remove the /temp-wiki directory
+      ##############################
 
 
 
-#       ##############################
-#       # Pushes the changes into the repo
-#       ##############################
+      ##############################
+      # Fix svg's created by OmniGraffle
+      ##############################
+      - name: Fix svg's created by OmniGraffle
+        run: node maintenance/fixOmnigraffleSvgOutput.js
+      ##############################
 
-#       - name: Commit and push the changes after fetching content from various external sources
-#         run: |
-#           echo "Initial status:"
-#           git status
 
-#           git config --local user.email "action@github.com"
-#           git config --local user.name "GitHub Action"
-
-#           git add -A
-
-#           echo "Status after git add:"
-#           git status
-
-#           git diff --cached --exit-code && exit 0  # Exit if no changes in the staging area
-
-#           echo "Committing changes:"
-#           git commit -m "chore: fetch content from various external sources"
-
-#           echo "Pushing changes:"
-#           git push
-
-#           echo "Final status:"
-#           git status
-#       ##############################
+      # # CURRENTLY MANUALLY RUN 
+      # ##############################
+      # # Find broken links and create a Github issue
+      # ##############################
+      # - name: Find broken links and create a Github issue
+      #   run: node maintenance/findBrokenLinks.js
+      # ##############################
 
 
 
-#       ##############################
-#       # Builds the website to /build
-#       ##############################
+      ##############################
+      # Pushes the changes into the repo
+      ##############################
 
-#       - name: Build website
-#         run: npm run build
-#       ##############################
+      - name: Commit and push the changes after fetching content from various external sources
+        run: |
+          echo "Initial status:"
+          git status
+
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          git add -A
+
+          echo "Status after git add:"
+          git status
+
+          git diff --cached --exit-code && exit 0  # Exit if no changes in the staging area
+
+          echo "Committing changes:"
+          git commit -m "chore: fetch content from various external sources"
+
+          echo "Pushing changes:"
+          git push
+
+          echo "Final status:"
+          git status
+      ##############################
 
 
 
-#       ##############################
-#       # Popular action to deploy to GitHub Pages:
-#       ##############################
+      ##############################
+      # Builds the website to /build
+      ##############################
+
+      - name: Build website
+        run: npm run build
+      ##############################
+
+
+
+      ##############################
+      # Popular action to deploy to GitHub Pages:
+      ##############################
       
-#       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
-#       - name: Deploy to GitHub Pages
-#         uses: peaceiris/actions-gh-pages@v3
-#         with:
-#           github_token: ${{ secrets.GITHUB_TOKEN }}
-#           # Build output to publish to the `gh-pages` branch:
-#           publish_dir: ./build
-#           # The following lines assign commit authorship to the official
-#           # GH-Actions bot for deploys to `gh-pages` branch:
-#           # https://github.com/actions/checkout/issues/13#issuecomment-724415212
-#           # The GH actions bot is used by default if you didn't specify the two fields.
-#           # You can swap them out with your own user credentials.
-#           user_name: github-actions[bot]
-#           user_email: 41898282+github-actions[bot]@users.noreply.github.com
-#       ##############################
+      # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Build output to publish to the `gh-pages` branch:
+          publish_dir: ./build
+          # The following lines assign commit authorship to the official
+          # GH-Actions bot for deploys to `gh-pages` branch:
+          # https://github.com/actions/checkout/issues/13#issuecomment-724415212
+          # The GH actions bot is used by default if you didn't specify the two fields.
+          # You can swap them out with your own user credentials.
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
+      ##############################
