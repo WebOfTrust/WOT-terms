@@ -1,0 +1,269 @@
+name: Comprehensive Content Fetch, Deploy and Update Glossary
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      glossaryDefFile:
+        required: true
+        default: glossary.json
+        description: glossaryDefFile
+      deployBranch:
+        required: false
+        default: gh-pages
+        description: This is where the output of script will be pushed to.
+  gollum:
+
+permissions:
+  actions: write
+  contents: write
+  pull-requests: write
+  statuses: write
+
+jobs:
+  deploy:
+    name: Fetch Content and Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 19
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+      
+      ##############################
+      # Google sheet: WOT-terms, tab: Terms-WOT-manage
+      ##############################
+
+      # Fetches data from WOT-terms (Google sheet) and generates an overview file that takes all the terms and their definitions and puts them into a single file. 
+      - name: Import Google Sheet “WOT-terms”, tab “Terms-WOT-manage” data into markdown file
+        run: node fetchExternalContent/fetchTermsWOTmanage/fetchTermsWOTmanage.js
+      ##############################
+
+
+
+      # ##############################
+      # # Google sheet: WOT-terms, tab: LabelContent
+      # ##############################
+
+      # # Fetches and copies external websites based on the URLs in the Google sheet "WOT-terms", tab "LabelContent"  
+      # # Step 1
+      # - name: Fetch information in JSON format that serves as source for import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files, meta data
+      #   run: node fetchExternalContent/fetchCarbonCopies/fetchExternalContentMetaData.js
+
+      # # Step 2
+      # - name: Import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files
+      #   run: node fetchExternalContent/fetchCarbonCopies/fetchExternalContent.js
+
+      # # Step 3
+      # - name: Add HTML structure to external content, like Accordeon code
+      #   run: node fetchExternalContent/fetchCarbonCopies/addHTMLstructureToExternalContent.js
+      # ##############################
+
+
+
+      ##############################
+      # Clones the wiki
+      ##############################
+
+      - name: Checkout wiki
+        run: |
+          git clone https://github.com/WebOfTrust/WOT-terms.wiki.git temp-wiki
+
+      # Copies the wiki contents to the /docs/04_glossary/ directory
+      - name: Copy Wiki To Docusaurus Glossary directory
+        run: |
+          mkdir -p docs/04_glossary  # Create the directory if it doesn't exist
+          
+          # Copy all new and updated files from temp-wiki/ to docs/04_glossary/
+          # Delete any files in docs/04_glossary/ that do not exist in temp-wiki/
+          rsync -a --delete --exclude='.gitignore' temp-wiki/ docs/04_glossary/
+
+          # The /temp-wiki directory is not needed anymore
+          rm -rf temp-wiki/  # Remove the /temp-wiki directory
+      ##############################
+
+
+
+      ##############################
+      # Fix svg's created by OmniGraffle
+      ##############################
+      - name: Fix svg's created by OmniGraffle
+        run: node maintenance/fixOmnigraffleSvgOutput.js
+      ##############################
+
+
+      # # CURRENTLY MANUALLY RUN 
+      # ##############################
+      # # Find broken links and create a Github issue
+      # ##############################
+      # - name: Find broken links and create a Github issue
+      #   run: node maintenance/findBrokenLinks.js
+      # ##############################
+
+
+
+      ##############################
+      # Pushes the changes into the repo
+      ##############################
+
+      - name: Commit and push the changes after fetching content from various external sources
+        run: |
+          echo "Initial status:"
+          git status
+
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          git add -A
+
+          echo "Status after git add:"
+          git status
+
+          git diff --cached --exit-code && exit 0  # Exit if no changes in the staging area
+
+          echo "Committing changes:"
+          git commit -m "chore: fetch content from various external sources"
+
+          echo "Pushing changes:"
+          git push
+
+          echo "Final status:"
+          git status
+      ##############################
+
+
+
+      ##############################
+      # Builds the website to /build
+      ##############################
+
+      - name: Build website
+        run: npm run build
+      ##############################
+
+
+
+      ##############################
+      # Popular action to deploy to GitHub Pages:
+      ##############################
+      
+      # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Build output to publish to the `gh-pages` branch:
+          publish_dir: ./build
+          # The following lines assign commit authorship to the official
+          # GH-Actions bot for deploys to `gh-pages` branch:
+          # https://github.com/actions/checkout/issues/13#issuecomment-724415212
+          # The GH actions bot is used by default if you didn't specify the two fields.
+          # You can swap them out with your own user credentials.
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
+      ##############################
+      
+  update-glossary:
+    needs: deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v2.2.2
+
+      - name: Install deps
+        run: |
+          git clone https://github.com/trustoverip/tt.git
+          python -m pip install marko
+          python -m pip install requests
+
+      - name: Set variables
+        env:
+          DEFAULT_GLOSSARY_DEF_FILE: glossary.json
+          DEFAULT_DEPLOY_BRANCH: gh-pages
+        run: |
+          echo "GLOSSARY_DEF_FILE=${{ github.event.inputs.glossaryDefFile || env.DEFAULT_GLOSSARY_DEF_FILE }}" >> $GITHUB_ENV
+          echo "DEPLOY_BRANCH=${{ github.event.inputs.deployBranch || env.DEFAULT_DEPLOY_BRANCH }}" >> $GITHUB_ENV
+
+      - name: Run script
+        run: ./tt/bin/tt glossary ${{ env.GLOSSARY_DEF_FILE }} >glossary.html.new
+
+      - name: Setup git config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+
+      - name: "CLA Assistant"
+        if: (github.event.comment.body == 'recheck' || github.event.comment.body == 'I have read the CLA Document and I hereby sign the CLA') || github.event_name == 'pull_request_target'
+        uses: contributor-assistant/github-action@v2.3.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # the below token should have repo scope and must be manually added by you in the repository's secret
+          # This token is required only if you have configured to store the signatures in a remote repository/organization
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        with:
+          path-to-signatures: "signatures/version1/cla.json"
+          path-to-document: "https://github.com/cla-assistant/github-action/blob/master/SAPCLA.md" # e.g. a CLA or a DCO document
+          # branch should not be protected
+          branch: "gh-pages"
+          allowlist: user1,bot*
+
+          # the followings are the optional inputs - If the optional inputs are not given, then default values will be taken
+          #remote-organization-name: enter the remote organization name where the signatures should be stored (Default is storing the signatures in the same repository)
+          #remote-repository-name: enter the  remote repository name where the signatures should be stored (Default is storing the signatures in the same repository)
+          #create-file-commit-message: 'For example: Creating file for storing CLA Signatures'
+          #signed-commit-message: 'For example: $contributorName has signed the CLA in $owner/$repo#$pullRequestNo'
+          #custom-notsigned-prcomment: 'pull request comment with Introductory message to ask new contributors to sign'
+          #custom-pr-sign-comment: 'The signature to be committed in order to sign the CLA'
+          #custom-allsigned-prcomment: 'pull request comment when all contributors has signed, defaults to **CLA Assistant Lite bot** All Contributors have signed the CLA.'
+          #lock-pullrequest-aftermerge: false - if you don't want this bot to automatically lock the pull request after merging (default - true)
+          #use-dco-flag: true - If you are using DCO instead of CLA
+
+
+
+      - name: Check and delete /static/glossary.html in main if exists
+        run: |
+          git checkout main
+          if [ -f "./static/glossary.html" ]; then
+            git rm ./static/glossary.html
+            git commit -m "Remove existing glossary.html from /static/ directory"
+            git push
+          fi
+          git checkout ${{ env.DEPLOY_BRANCH }}
+
+      - name: Publishing
+        run: |
+          git fetch origin
+          git checkout ${{ env.DEPLOY_BRANCH }}
+          mv glossary.html.new glossary.html
+          git add glossary.html
+          git commit -m "auto-update glossary"
+          git push
+          echo DONE
+
+      - name: Copy glossary.html to /static/ directory of the original branch
+        run: |
+          git fetch origin
+          git checkout ${{ env.DEPLOY_BRANCH }}  # Switch back to the DEPLOY_BRANCH
+          cp glossary.html ../glossary.html.temp  # Temporary copy
+          git checkout main  # Switch back to the original branch (assuming it's 'main')
+          cp ../glossary.html.temp ./static/glossary.html  # Copy the existing glossary.html to the /static/ directory
+          if [ $? -eq 0 ]; then
+            echo "Successfully copied glossary.html to /static/ directory."
+          else
+            echo "Failed to copy glossary.html to /static/ directory."
+            exit 1
+          fi
+          git add ./static/glossary.html
+          git commit -m "Copy glossary.html to /static/ directory"
+          git push
