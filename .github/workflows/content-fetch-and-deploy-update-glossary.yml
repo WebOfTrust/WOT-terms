@@ -231,6 +231,7 @@ jobs:
           git checkout ${{ env.DEPLOY_BRANCH }}  # Switch back to the DEPLOY_BRANCH
           cp glossary.html ../glossary.html.temp  # Temporary copy
           git checkout main  # Switch back to the original branch (assuming it's 'main')
+          git pull origin main --rebase  # Make sure local main is in sync with remote
           cp ../glossary.html.temp ./static/glossary.html  # Copy the existing glossary.html to the /static/ directory
           if [ $? -eq 0 ]; then
             echo "Successfully copied glossary.html to /static/ directory."
