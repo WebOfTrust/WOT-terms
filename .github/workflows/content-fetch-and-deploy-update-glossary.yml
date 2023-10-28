@@ -267,3 +267,4 @@ jobs:
           git add ./static/glossary.html
           git commit -m "Copy glossary.html to /static/ directory"
           git push
+          
