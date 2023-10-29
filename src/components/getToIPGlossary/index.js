@@ -7,7 +7,7 @@ const GlossaryContent = () => {
     useEffect(() => {
         const fetchHtmlContent = async () => {
             try {
-                const response = await fetch(`${config.baseUrl}/glossary.html`);
+                const response = await fetch(`${config.baseUrl}/glossary.html?timestamp=${new Date().getTime()}`);
                 const html = await response.text();
                 const bodyStartIndex = html.indexOf('<body>');
                 const bodyEndIndex = html.indexOf('</body>');
