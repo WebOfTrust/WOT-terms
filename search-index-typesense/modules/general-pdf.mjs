@@ -16,7 +16,7 @@ import logger from './logger.mjs';
 import dotenv from 'dotenv';
 
 // Config
-const directoryPath = './' + process.env.SEARCH_INDEX_TEMP_DIR;
+const tempDirectoryPath = './' + process.env.SEARCH_INDEX_TEMP_DIR;
 
 async function resetDirectory(path) {
     try {
@@ -186,13 +186,13 @@ async function ocrAllImagesInDirectory(directory) {
 export async function processPDF(url) {
     try {
 
-        await resetDirectory(directoryPath);
-        await downloadPDF(url, directoryPath);
-        await convertPDFtoImage(directoryPath);
-        const mainContent = await ocrAllImagesInDirectory(directoryPath);
+        await resetDirectory(tempDirectoryPath);
+        await downloadPDF(url, tempDirectoryPath);
+        await convertPDFtoImage(tempDirectoryPath);
+        const mainContent = await ocrAllImagesInDirectory(tempDirectoryPath);
         let all = {};
         all.mainContent = mainContent;
-        deleteDirectory(directoryPath);
+        deleteDirectory(tempDirectoryPath);
         return all;
     } catch (error) {
         logger.setLogFile('error.log');
