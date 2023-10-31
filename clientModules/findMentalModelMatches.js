@@ -17,13 +17,12 @@ const findMentalModelMatches = () => {
     console.log('heading: ', headingText);
 
 
-
     toipTermsDefinitions.forEach((term) => {
       if (term.term === headingText) {
         // Create Bootstrap accordion container
         const accordionContainer = document.createElement('div');
         accordionContainer.classList.add('accordion');
-        accordionContainer.classList.add('mt-5');
+        accordionContainer.classList.add('mb-3');
 
         // Create Bootstrap accordion item
         const accordionItem = document.createElement('div');
@@ -56,7 +55,14 @@ const findMentalModelMatches = () => {
         accordionContainer.appendChild(accordionItem);
 
         // Insert accordion container as first child of heading
-        heading.append(accordionContainer);
+        heading.after(accordionContainer);
+
+        // Create h2 element
+        const h2 = document.createElement('h2');
+        h2.textContent = 'Other mental models';
+        heading.after(h2);
+
+
       }
     });
   }
