@@ -12,6 +12,7 @@ const findMentalModelMatches = () => {
     window.location.href.indexOf('/docs/glossary/') > -1 ? true : false;
 
   if (inDocSection) {
+    const markdown = document.querySelector('.markdown');
     const heading = document.querySelector('.markdown header h1');
     const headingText = heading.innerText;
     console.log('heading: ', headingText);
@@ -54,13 +55,14 @@ const findMentalModelMatches = () => {
         // Insert accordion item as first child of accordion container
         accordionContainer.appendChild(accordionItem);
 
-        // Insert accordion container as first child of heading
-        heading.after(accordionContainer);
-
         // Create h2 element
         const h2 = document.createElement('h2');
         h2.textContent = 'Other mental models';
-        heading.after(h2);
+        markdown.appendChild(h2);
+
+        // Insert accordion container as first child of heading
+        // heading.after(accordionContainer);
+        markdown.appendChild(accordionContainer);
 
 
       }
