@@ -67,6 +67,12 @@ async function createJSONfromHTML(extractToDir) {
         // Collect sibling nodes until we reach the next h1 or end of the document
         while (node && (node.nodeName.toLowerCase() !== 'h1')) {
             if (node.outerHTML) {
+                // Remove all links from the node
+                const links = node.querySelectorAll('a');
+                links.forEach(link => {
+                    link.parentNode.replaceChild(dom.window.document.createTextNode(link.textContent), link);
+                });
+                // End: Remove all links from the node
                 definition += node.outerHTML;
             }
             node = node.nextSibling;
