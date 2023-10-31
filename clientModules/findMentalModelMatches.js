@@ -6,11 +6,18 @@ import toipTermsDefinitions from '@site/static/json/toip-terms-definitions.json'
 
 const findMentalModelMatches = () => {
 
-  const heading = document.querySelector('.markdown header h1');
-  const headingText = heading.innerText;
-  console.log('heading: ', headingText);
 
-  if (headingText) {
+  // Code should only run in the documentation section
+  const inDocSection =
+    window.location.href.indexOf('/docs/glossary/') > -1 ? true : false;
+
+  if (inDocSection) {
+    const heading = document.querySelector('.markdown header h1');
+    const headingText = heading.innerText;
+    console.log('heading: ', headingText);
+
+
+
     toipTermsDefinitions.forEach((term) => {
       if (term.term === headingText) {
         // Create Bootstrap accordion item
