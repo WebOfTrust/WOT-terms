@@ -22,6 +22,7 @@ const showLevelButtonActiveClass = 'button--active';
 // main function to show different levels
 const showLevels = (targetElements) => {
   // Code should only run in the documentation section
+  //TODO: should this not be: only in the glossary section?
   const inDocSection =
     window.location.href.indexOf('/docs/') > -1 ? true : false;
 
