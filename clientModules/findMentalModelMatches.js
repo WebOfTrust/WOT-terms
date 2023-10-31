@@ -20,7 +20,7 @@ const findMentalModelMatches = () => {
 
     // Create h2 element
     const h2 = document.createElement('h2');
-    h2.textContent = 'Other mental models';
+    h2.textContent = 'Other glossaries (or mental models)';
     markdown.appendChild(h2);
 
 
