@@ -324,6 +324,7 @@ const config = {
     require.resolve('./clientModules/scrollHorizontallyToKeyWordInSearchResults'),
     require.resolve('./clientModules/imageFullSize'),
     require.resolve('./clientModules/upvoteSearchResult'),
+    require.resolve('./clientModules/findMentalModelMatches'),
   ],
 };
 
