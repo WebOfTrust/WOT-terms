@@ -38,7 +38,7 @@ const findMentalModelMatches = () => {
         accordionButton.setAttribute('type', 'button');
         accordionButton.setAttribute('data-bs-toggle', 'collapse');
         accordionButton.setAttribute('data-bs-target', `#collapse-${term.term}`);
-        accordionButton.textContent = 'Other mental models‘ definitions';
+        accordionButton.textContent = 'ToIP mental model‘s definition';
         accordionHeader.appendChild(accordionButton);
 
         const accordionCollapse = document.createElement('div');
