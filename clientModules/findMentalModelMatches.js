@@ -1,5 +1,5 @@
 import overview from '@site/static/json/overview.json';
-import toipTermsDefinitions from '@site/static/json/toip-terms-definitions.json';
+import toipTermsDefinitions from '@site/static/json/terms-definitions-toip.json';
 /**
  *  This plugin adds a GTP generated summary to the top of the page.
  */

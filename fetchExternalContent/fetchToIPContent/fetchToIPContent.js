@@ -15,7 +15,7 @@ const fullPath = path.join(dir, filename); // Use path.join for better compatibi
 // https://docs.google.com/document/d/1fZByfuSOwszDRkE7ARQLeElSYmVznoOyJK4sxRvJpyM/edit
 const toipDownloadHtmlUrl = 'https://docs.google.com/document/export?format=zip&id=1fZByfuSOwszDRkE7ARQLeElSYmVznoOyJK4sxRvJpyM&includes_info_params=true&cros_files=false&inspectorResult=%7B%22pc%22%3A83%2C%22lplc%22%3A6%7D&showMarkups=true';
 const unzippedFilename = 'ToIPGlossaryWorkspace_PublicVersion_.html';
-const generatedJSONfilename = 'toip-terms-definitions.json';
+const generatedJSONfilename = 'terms-definitions-toip.json';
 // END CONFIG
 
 async function downloadFile() {
