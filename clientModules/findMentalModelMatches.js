@@ -20,6 +20,11 @@ const findMentalModelMatches = () => {
 
     toipTermsDefinitions.forEach((term) => {
       if (term.term === headingText) {
+        // Create Bootstrap accordion container
+        const accordionContainer = document.createElement('div');
+        accordionContainer.classList.add('accordion');
+        accordionContainer.classList.add('mt-5');
+
         // Create Bootstrap accordion item
         const accordionItem = document.createElement('div');
         accordionItem.classList.add('accordion-item');
@@ -32,13 +37,13 @@ const findMentalModelMatches = () => {
         accordionButton.classList.add('accordion-button');
         accordionButton.setAttribute('type', 'button');
         accordionButton.setAttribute('data-bs-toggle', 'collapse');
-        accordionButton.setAttribute('data-bs-target', '#collapseOne');
+        accordionButton.setAttribute('data-bs-target', `#collapse-${term.term}`);
         accordionButton.textContent = 'Other mental models‘ definitions';
         accordionHeader.appendChild(accordionButton);
 
         const accordionCollapse = document.createElement('div');
         accordionCollapse.classList.add('accordion-collapse', 'collapse');
-        accordionCollapse.setAttribute('id', 'collapseOne');
+        accordionCollapse.setAttribute('id', `collapse-${term.term}`);
         accordionItem.appendChild(accordionCollapse);
 
         const accordionBody = document.createElement('div');
@@ -47,10 +52,11 @@ const findMentalModelMatches = () => {
         accordionBody.innerHTML = term.definition;
         accordionCollapse.appendChild(accordionBody);
 
-        // Insert accordion item as first child of heading
-        heading.append(accordionItem);
+        // Insert accordion item as first child of accordion container
+        accordionContainer.appendChild(accordionItem);
 
-        // heading.insertAdjacentHTML("afterend", accordionItem);
+        // Insert accordion container as first child of heading
+        heading.append(accordionContainer);
       }
     });
   }
