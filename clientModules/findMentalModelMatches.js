@@ -10,6 +10,8 @@ const findMentalModelMatches = () => {
   const inDocSection =
     window.location.href.indexOf('/docs/glossary/') > -1 ? true : false;
 
+  let headingAdded = false;
+
   if (inDocSection) {
     const markdown = document.querySelector('.markdown');
     const heading = document.querySelector('.markdown header h1');
@@ -18,10 +20,6 @@ const findMentalModelMatches = () => {
 
     const allTermsDefinitions = [...termsDefinitionsToip, ...termsDefinitionsEssiflab];
 
-    // Create h2 element
-    const h2 = document.createElement('h2');
-    h2.textContent = 'Other glossaries (or mental models)';
-    markdown.appendChild(h2);
 
 
     allTermsDefinitions.forEach((term) => {
@@ -31,6 +29,15 @@ const findMentalModelMatches = () => {
       // Case sensitive except for first letter
       if (term.term.toLowerCase() === headingText.toLowerCase() ||
         term.term.charAt(0).toLowerCase() + term.term.slice(1) === headingText.charAt(0).toLowerCase() + headingText.slice(1)) {
+
+        if (headingAdded === false) {
+          // Create h2 element
+          const h2 = document.createElement('h2');
+          h2.textContent = 'Other glossaries (or mental models)';
+          markdown.appendChild(h2);
+          headingAdded = true;
+        }
+
 
         // Create Bootstrap accordion container
         const accordionContainer = document.createElement('div');
