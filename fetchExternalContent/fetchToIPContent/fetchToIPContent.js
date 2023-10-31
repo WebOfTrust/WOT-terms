@@ -59,6 +59,7 @@ async function createJSONfromHTML(extractToDir) {
 
     // Loop through each h1 element and collect the term and definition
     h1Elements.forEach((h1, index) => {
+        let organisation = 'ToIP';
         let term = h1.textContent;
         let definition = '';
 
@@ -79,6 +80,8 @@ async function createJSONfromHTML(extractToDir) {
         }
 
         termsDefinitions.push({
+            organisation: organisation,
+            url: 'https://docs.google.com/document/d/1fZByfuSOwszDRkE7ARQLeElSYmVznoOyJK4sxRvJpyM/edit',
             term: term,
             definition: definition
         });
