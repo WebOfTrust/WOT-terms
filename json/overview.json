@@ -1470,7 +1470,7 @@
       "",
       "",
       "",
-      "Asserting the truth of something, usually under dispute or doubt.",
+      "assertion of disputed or doubtful truth.",
       "",
       "Assertion of truth, disputed or uncertain."
     ],
@@ -1884,7 +1884,7 @@
       "",
       "",
       "",
-      "Participants can retrieve values associated with keys.",
+      "Any participant can get the value for a specific key.",
       "",
       "NO INPUT"
     ],
@@ -1930,7 +1930,7 @@
       "1",
       "",
       "",
-      "record of inconsistent event messages from a controller or witness",
+      "log of inconsistent event messages from a controller or witness",
       "",
       "NO INPUT"
     ],
@@ -1953,7 +1953,7 @@
       "1",
       "",
       "",
-      "External inconsistency arises from publishing two or more versions of a key event log, even though the log itself is consistent.",
+      "External inconsistency occurs when multiple versions of a key event log are published, even though the log itself is consistent.",
       "",
       "NO INPUT"
     ],
@@ -2482,7 +2482,7 @@
       "",
       "",
       "",
-      "distributed database of Witness IP addresses",
+      "Database of Witness IP addresses.",
       "",
       "NO INPUT"
     ],
@@ -2551,7 +2551,7 @@
       "1",
       "",
       "",
-      "The approach to decentralized identifiers and key management offers significant benefits for self-sovereign identity and Trust over IP infrastructure.",
+      "An approach to decentralized identifiers and key management that offers significant benefits for self-sovereign identity and Trust over IP infrastructure.",
       "",
       "NO INPUT"
     ],
@@ -2643,7 +2643,7 @@
       "1",
       "",
       "",
-      "generic record lookup service and a public, tamper-proof audit log of all record changes",
+      "lookup service for generic records and a publicly accessible, tamper-proof audit log of all record modifications",
       "",
       "NO INPUT"
     ],
@@ -9709,7 +9709,7 @@
     [
       "441",
       "K",
-      "",
+      "n",
       "ndigs",
       "",
       "ndigs",
@@ -9719,7 +9719,7 @@
     [
       "442",
       "K",
-      "",
+      "n",
       "verfer",
       "",
       "verfer",
@@ -9729,7 +9729,7 @@
     [
       "443",
       "K",
-      "",
+      "n",
       "diger",
       "",
       "diger",
@@ -9739,7 +9739,7 @@
     [
       "444",
       "K",
-      "",
+      "n",
       "cigar",
       "",
       "cigar",
@@ -9749,7 +9749,7 @@
     [
       "445",
       "K",
-      "",
+      "n",
       "siger",
       "",
       "siger",
@@ -9759,7 +9759,7 @@
     [
       "446",
       "K",
-      "",
+      "n",
       "signer",
       "",
       "signer",
@@ -9769,7 +9769,7 @@
     [
       "447",
       "K",
-      "",
+      "n",
       "salter",
       "",
       "salter",
@@ -9779,7 +9779,7 @@
     [
       "448",
       "G",
-      "",
+      "n",
       "LLM",
       "",
       "LLM",
@@ -9789,7 +9789,7 @@
     [
       "449",
       "G",
-      "",
+      "n",
       "large-language-model",
       "",
       "large-language-model",
@@ -9799,7 +9799,7 @@
     [
       "450",
       "K",
-      "",
+      "n",
       "ixn",
       "",
       "ixn",
@@ -9809,7 +9809,7 @@
     [
       "451",
       "K",
-      "",
+      "n",
       "rot",
       "",
       "rot",
@@ -9819,7 +9819,7 @@
     [
       "452",
       "G",
-      "",
+      "n",
       "JSON",
       "",
       "JSON",
@@ -9829,7 +9829,7 @@
     [
       "453",
       "K",
-      "",
+      "v",
       "icp",
       "",
       "icp",
@@ -9839,7 +9839,7 @@
     [
       "454",
       "K",
-      "",
+      "v",
       "vcp",
       "",
       "vcp",
@@ -9849,7 +9849,7 @@
     [
       "455",
       "K",
-      "",
+      "v",
       "bis",
       "",
       "bis",
@@ -9859,7 +9859,7 @@
     [
       "456",
       "G ",
-      "",
+      "n",
       "concise-binary-object-representation",
       "",
       "concise-binary-object-representation",
@@ -9869,7 +9869,7 @@
     [
       "457",
       "K",
-      "",
+      "v",
       "brv",
       "",
       "brv",
@@ -9879,7 +9879,7 @@
     [
       "458",
       "K",
-      "",
+      "v",
       "vrt",
       "",
       "vrt",
@@ -9889,7 +9889,7 @@
     [
       "459",
       "K",
-      "",
+      "r",
       "secure-private-authentic-confidentiality",
       "",
       "secure-private-authentic-confidentiality",
@@ -9899,7 +9899,7 @@
     [
       "460",
       "K",
-      "",
+      "r",
       "SPAC",
       "",
       "SPAC",
@@ -9908,18 +9908,18 @@
     ],
     [
       "461",
-      "G",
-      "",
+      "K",
+      "r",
       "dead-drop",
       "",
       "dead-drop",
-      "",
+      "a presenter controls the disclosure so you can't re-identify the data",
       "https://github.com/weboftrust/WOT-terms/wiki/dead-drop"
     ],
     [
       "462",
       "K",
-      "",
+      "n",
       "ample",
       "",
       "ample",
@@ -9928,18 +9928,18 @@
     ],
     [
       "463",
-      "-",
+      "G",
+      "r",
+      "supermajority",
       "",
-      "supemajority",
-      "",
-      "supemajority",
-      "",
+      "supermajority",
+      "Sufficient majority immune to certain kinds of attacks or faults",
       "https://github.com/weboftrust/WOT-terms/wiki/supemajority"
     ],
     [
       "464",
       "G",
-      "",
+      "n",
       "CBOR",
       "",
       "CBOR",
@@ -9949,7 +9949,7 @@
     [
       "465",
       "K",
-      "",
+      "n",
       "tholder",
       "",
       "tholder",
@@ -9959,27 +9959,27 @@
     [
       "466",
       "K",
-      "",
+      "n",
       "bexter",
       "",
       "bexter",
-      "",
+      "A class (programming code) in CESR that preserves its round-trip transposability even though it offers variable length text",
       "https://github.com/weboftrust/WOT-terms/wiki/bexter"
     ],
     [
       "467",
       "K",
-      "",
+      "r",
       "moobi",
       "",
       "moobi",
-      "to share a bunch of different end-points (oobis) all at onc",
+      "to share a bunch of different end-points (oobis) all at once",
       "https://github.com/weboftrust/WOT-terms/wiki/moobi"
     ],
     [
       "468",
       "G",
-      "",
+      "n",
       "ts-node",
       "",
       "ts-node",
@@ -9988,8 +9988,8 @@
     ],
     [
       "469",
-      "-",
-      "",
+      "K",
+      "n",
       "interceptor",
       "",
       "interceptor",
@@ -10001,7 +10001,7 @@
     [
       "470",
       "-",
-      "",
+      "n",
       "salty-nonce-blinding-factor",
       "",
       "salty-nonce-blinding-factor",
@@ -10011,7 +10011,7 @@
     [
       "471",
       "K",
-      "",
+      "n",
       "ilk",
       "",
       "ilk",
@@ -10021,7 +10021,7 @@
     [
       "472",
       "K",
-      "",
+      "v",
       "dip",
       "",
       "dip",
@@ -10031,7 +10031,7 @@
     [
       "473",
       "K",
-      "",
+      "v",
       "drt",
       "",
       "drt",
@@ -10041,7 +10041,7 @@
     [
       "474",
       "K",
-      "",
+      "n",
       "rct",
       "",
       "rct",
@@ -10051,7 +10051,7 @@
     [
       "475",
       "K",
-      "",
+      "n",
       "ksn",
       "",
       "ksn",
@@ -10061,7 +10061,7 @@
     [
       "476",
       "K",
-      "",
+      "v",
       "qry",
       "",
       "qry",
@@ -10071,7 +10071,7 @@
     [
       "477",
       "K",
-      "",
+      "v",
       "rpy",
       "",
       "rpy",
@@ -10081,7 +10081,7 @@
     [
       "478",
       "K",
-      "",
+      "v",
       "exn",
       "",
       "exn",
@@ -10091,7 +10091,7 @@
     [
       "479",
       "K",
-      "",
+      "v",
       "exp",
       "",
       "exp",
@@ -10101,7 +10101,7 @@
     [
       "480",
       "K",
-      "",
+      "v",
       "iss",
       "",
       "iss",
@@ -10111,7 +10111,7 @@
     [
       "481",
       "K",
-      "",
+      "v",
       "rev",
       "",
       "rev",
@@ -10121,7 +10121,7 @@
     [
       "482",
       "K",
-      "",
+      "n",
       "vdr",
       "",
       "vdr",
@@ -10131,7 +10131,7 @@
     [
       "483",
       "K",
-      "",
+      "r",
       "KATE",
       "",
       "KATE",
@@ -10141,7 +10141,7 @@
     [
       "484",
       "K",
-      "",
+      "v",
       "spurn",
       "",
       "spurn",
@@ -10151,7 +10151,7 @@
     [
       "485",
       "G",
-      "",
+      "v",
       "dnd",
       "",
       "dnd",
@@ -10161,7 +10161,7 @@
     [
       "486",
       "G",
-      "",
+      "v",
       "revocation",
       "",
       "revocation",
@@ -10171,7 +10171,7 @@
     [
       "487",
       "G",
-      "",
+      "n",
       "verifiable-data-registry",
       "",
       "verifiable-data-registry",
@@ -10181,7 +10181,7 @@
     [
       "488",
       "G",
-      "",
+      "n",
       "VDR",
       "",
       "VDR",
@@ -10191,7 +10191,7 @@
     [
       "489",
       "G",
-      "",
+      "r",
       "E2E",
       "",
       "E2E",
@@ -10201,7 +10201,7 @@
     [
       "490",
       "G",
-      "",
+      "r",
       "end-to-end",
       "",
       "end-to-end",
@@ -10211,7 +10211,7 @@
     [
       "491",
       "K",
-      "",
+      "v",
       "duplicity-detection",
       "",
       "duplicity-detection",
@@ -10221,7 +10221,7 @@
     [
       "492",
       "G",
-      "",
+      "r",
       "double-spend-proof",
       "",
       "double-spend-proof",
@@ -10231,7 +10231,7 @@
     [
       "493",
       "G",
-      "",
+      "v",
       "MFA",
       "",
       "MFA",
@@ -10241,7 +10241,7 @@
     [
       "494",
       "G",
-      "",
+      "v",
       "multi-factor-authentication",
       "",
       "multi-factor-authentication",
@@ -10251,7 +10251,7 @@
     [
       "495",
       "G",
-      "",
+      "r",
       "threshold-structure-security",
       "",
       "threshold-structure-security",
@@ -10261,7 +10261,7 @@
     [
       "496",
       "G",
-      "",
+      "n",
       "TEE",
       "",
       "TEE",
@@ -10271,7 +10271,7 @@
     [
       "497",
       "G",
-      "",
+      "n",
       "trusted-execution-environment",
       "",
       "trusted-execution-environment",
@@ -10281,7 +10281,7 @@
     [
       "498",
       "G",
-      "",
+      "r",
       "security-overlay-properties-trillema",
       "",
       "security-overlay-properties-trillema",
@@ -10291,7 +10291,7 @@
     [
       "499",
       "S",
-      "",
+      "r",
       "autonomic-trust-basis",
       "",
       "autonomic-trust-basis",
@@ -10301,7 +10301,7 @@
     [
       "500",
       "S",
-      "",
+      "n",
       "autonomic-identifier ",
       "",
       "autonomic-identifier ",
@@ -10311,7 +10311,7 @@
     [
       "501",
       "S",
-      "",
+      "n",
       "legitimized-human-meaningful-identifier",
       "",
       "legitimized-human-meaningful-identifier",
@@ -10321,7 +10321,7 @@
     [
       "502",
       "S",
-      "",
+      "n",
       "LID",
       "",
       "LID",
@@ -10331,7 +10331,7 @@
     [
       "503",
       "S",
-      "",
+      "n",
       "security",
       "",
       "security",
@@ -10341,7 +10341,7 @@
     [
       "504",
       "S",
-      "",
+      "a",
       "secure",
       "",
       "secure",
@@ -10351,17 +10351,17 @@
     [
       "505",
       "K",
-      "",
+      "r",
       "univalent",
       "",
       "univalent",
-      "",
+      "having a unique and non-ambiguous identifier for each entity or resource",
       "https://github.com/weboftrust/WOT-terms/wiki/univalent"
     ],
     [
       "506",
       "K",
-      "",
+      "r",
       "multi-valent",
       "",
       "multi-valent",
@@ -10371,7 +10371,7 @@
     [
       "507",
       "S",
-      "",
+      "r",
       "security-cost-performance-architecture-trade-off",
       "",
       "security-cost-performance-architecture-trade-off",
@@ -10381,7 +10381,7 @@
     [
       "508",
       "K",
-      "",
+      "r",
       "cooperative-delegation",
       "",
       "cooperative-delegation",
@@ -10391,7 +10391,7 @@
     [
       "509",
       "G",
-      "",
+      "n",
       "TPM",
       "",
       "TPM",
@@ -10401,7 +10401,7 @@
     [
       "510",
       "G",
-      "",
+      "n",
       "trusted-platform-module",
       "",
       "trusted-platform-module",
@@ -10411,7 +10411,7 @@
     [
       "511",
       "K",
-      "",
+      "r",
       "bivalent",
       "",
       "bivalent",
@@ -10421,7 +10421,7 @@
     [
       "512",
       "S",
-      "",
+      "n",
       "keri‐event‐stream",
       "",
       "keri‐event‐stream",
@@ -10431,7 +10431,7 @@
     [
       "513",
       "S",
-      "",
+      "n",
       "stale-key",
       "",
       "stale-key",
@@ -10441,7 +10441,7 @@
     [
       "514",
       "S",
-      "",
+      "n",
       "stale-event",
       "",
       "stale-event",
@@ -10451,7 +10451,7 @@
     [
       "515",
       "G",
-      "",
+      "r",
       "privacy",
       "",
       "privacy",
@@ -10461,7 +10461,7 @@
     [
       "516",
       "G",
-      "",
+      "n",
       "confidentiality",
       "",
       "confidentiality",
@@ -10471,7 +10471,7 @@
     [
       "517",
       "K",
-      "",
+      "n",
       "RID",
       "",
       "RID",
@@ -10481,7 +10481,7 @@
     [
       "518",
       "K",
-      "",
+      "n",
       "root-autonomic-identifier",
       "",
       "root-autonomic-identifier",
@@ -10491,7 +10491,7 @@
     [
       "519",
       "K",
-      "",
+      "a",
       "provenanced",
       "",
       "provenanced",
@@ -10501,7 +10501,7 @@
     [
       "520",
       "K",
-      "",
+      "r",
       "non-interactive-authentication-design",
       "",
       "non-interactive-authentication-design",
@@ -10511,17 +10511,17 @@
     [
       "521",
       "K",
-      "",
+      "r",
       "interactive-authentication-design",
       "",
       "interactive-authentication-design",
-      "",
+      "secure authentication through an interactive mechanism that requires a set of requests and responses or challenge responses with challenge response replies",
       "https://github.com/weboftrust/WOT-terms/wiki/interactive-authentication-design"
     ],
     [
       "522",
       "S",
-      "",
+      "r",
       "ESSR",
       "",
       "ESSR",
@@ -10531,7 +10531,7 @@
     [
       "523",
       "S",
-      "",
+      "n",
       "VID ",
       "",
       "VID",
@@ -10541,7 +10541,7 @@
     [
       "524",
       "S",
-      "",
+      "r",
       "encrypt‐sender‐sign‐receiver",
       "",
       "encrypt‐sender‐sign‐receiver",
@@ -10551,7 +10551,7 @@
     [
       "525",
       "S",
-      "",
+      "n",
       "verifiable-identifier",
       "",
       "verifiable-identifier",
@@ -10561,7 +10561,7 @@
     [
       "526",
       "S",
-      "",
+      "n",
       "trust-spanning-protocol",
       "",
       "trust-spanning-protocol",
@@ -10571,7 +10571,7 @@
     [
       "527",
       "S",
-      "",
+      "n",
       "TSP",
       "",
       "TSP",
@@ -10581,7 +10581,7 @@
     [
       "528",
       "S",
-      "",
+      "v",
       "privacy-washing",
       "",
       "privacy-washing",
@@ -10591,7 +10591,7 @@
     [
       "529",
       "S",
-      "",
+      "n",
       "DKR",
       "",
       "DKR",
@@ -10601,17 +10601,17 @@
     [
       "530",
       "S",
-      "",
+      "n",
       "reputation",
       "",
       "reputation",
-      "",
+      "Consistent behaviour over time on the basis of which anyone else makes near-future decisions",
       "https://github.com/weboftrust/WOT-terms/wiki/reputation"
     ],
     [
       "531",
       "S",
-      "",
+      "r",
       "discovery",
       "",
       "discovery",
@@ -10621,17 +10621,17 @@
     [
       "532",
       "S",
-      "",
+      "r",
       "broken-object-level-authorization",
       "",
       "broken-object-level-authorization",
-      "or BOLA, ",
+      "or BOLA, refers to security flaws where users can access data they shouldn't",
       "https://github.com/weboftrust/WOT-terms/wiki/broken-object-level-authorization"
     ],
     [
       "533",
       "S",
-      "",
+      "n",
       "BOLA",
       "",
       "BOLA",
@@ -10641,7 +10641,7 @@
     [
       "534",
       "K",
-      "",
+      "v",
       "read-update-nullify",
       "",
       "read-update-nullify",
@@ -10651,7 +10651,7 @@
     [
       "535",
       "K",
-      "",
+      "v",
       "RUN",
       "",
       "RUN",
@@ -10661,7 +10661,7 @@
     [
       "536",
       "K",
-      "",
+      "r",
       "direct-mode",
       "",
       "direct-mode",
@@ -10671,7 +10671,7 @@
     [
       "537",
       "K",
-      "",
+      "r",
       "indirect-mode",
       "",
       "indirect-mode",
@@ -10681,7 +10681,7 @@
     [
       "538",
       "K",
-      "",
+      "r",
       "end-role",
       "",
       "end-role",
@@ -10691,7 +10691,7 @@
     [
       "539",
       "K",
-      "",
+      "n",
       "hab",
       "",
       "hab",
@@ -10701,7 +10701,7 @@
     [
       "540",
       "S",
-      "",
+      "r",
       "identity-assurance",
       "",
       "identity-assurance",
@@ -10711,7 +10711,7 @@
     [
       "541",
       "S",
-      "",
+      "r",
       "attributional-trust",
       "",
       "attributional-trust",
@@ -10721,7 +10721,7 @@
     [
       "542",
       "S",
-      "",
+      "r",
       "reputational-trust",
       "",
       "reputational-trust",
