@@ -61,6 +61,8 @@ async function createJSONfromHTML(extractToDir) {
     h1Elements.forEach((h1, index) => {
         let organisation = 'ToIP';
         let term = h1.textContent;
+        let anchor = h1.getAttribute('id'); // Get the value of the id attribute
+
         let definition = '';
 
         let node = h1.nextSibling;
@@ -68,12 +70,12 @@ async function createJSONfromHTML(extractToDir) {
         // Collect sibling nodes until we reach the next h1 or end of the document
         while (node && (node.nodeName.toLowerCase() !== 'h1')) {
             if (node.outerHTML) {
-                // Remove all links from the node
-                const links = node.querySelectorAll('a');
-                links.forEach(link => {
-                    link.parentNode.replaceChild(dom.window.document.createTextNode(link.textContent), link);
-                });
-                // End: Remove all links from the node
+                // // Remove all links from the node
+                // const links = node.querySelectorAll('a');
+                // links.forEach(link => {
+                //     link.parentNode.replaceChild(dom.window.document.createTextNode(link.textContent), link);
+                // });
+                // // End: Remove all links from the node
                 definition += node.outerHTML;
             }
             node = node.nextSibling;
@@ -83,7 +85,8 @@ async function createJSONfromHTML(extractToDir) {
             organisation: organisation,
             url: 'https://docs.google.com/document/d/1fZByfuSOwszDRkE7ARQLeElSYmVznoOyJK4sxRvJpyM/edit',
             term: term,
-            definition: definition
+            definition: definition,
+            anchor: anchor // Add the anchor property to the object
         });
     });
 
