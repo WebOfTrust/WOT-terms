@@ -6,6 +6,12 @@
  * work well for content-centric websites.
  */
 
+ html {
+  /* avoid anchors disappear under fixed top menu */
+  scroll-padding-top: 80px;  /* height of your fixed header */
+}
+
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #337dbe;
