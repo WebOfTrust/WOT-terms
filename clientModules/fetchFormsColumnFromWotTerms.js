@@ -85,13 +85,8 @@ const fetchFormsColumnFromWotTerms = () => {
 
     overview.values.forEach((term) => {
       if (term[termColumn] === headingText) {
-        const text = 'Form: ' + getNameFromAbbreviation(term[formColumn]);
-        const heading = document.createElement('h2');
-        heading.textContent = 'Form';
-        const paragraph = document.createElement('p');
-        paragraph.textContent = text;
-        markdown.appendChild(heading);
-        markdown.appendChild(paragraph);
+        const text = getNameFromAbbreviation(term[formColumn]);
+        heading.innerHTML += ` <span class='ms-2 fs-4'>[ <em>${text}</em> ]</span>`;
       }
     });
   }
