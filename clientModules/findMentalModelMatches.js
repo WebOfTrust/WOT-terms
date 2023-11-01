@@ -1,4 +1,3 @@
-import overview from '@site/static/json/overview.json';
 import termsDefinitionsToip from '@site/static/json/terms-definitions-toip.json';
 import termsDefinitionsEssiflab from '@site/static/json/terms-definitions-essiflab.json';
 /**
