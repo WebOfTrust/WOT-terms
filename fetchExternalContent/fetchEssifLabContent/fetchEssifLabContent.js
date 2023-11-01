@@ -13,9 +13,10 @@ axios.get(url)
             const organisation = 'Essif-Lab';
             const url = 'https://essif-lab.github.io/framework/docs/essifLab-glossary';
             const term = $(el).text().trim();
-            console.log('term: ', term);
-            const definition = $(el).nextUntil('h3').text().trim();
-            terms.push({ organisation, url, term, definition });
+            const anchor = $(el).attr('id');
+            // const definition = $(el).nextUntil('h3').text().trim();
+            const definition = $(el).nextUntil('h3').html();
+            terms.push({ organisation, url, term, definition, anchor });
         });
 
         const fs = require('fs');
