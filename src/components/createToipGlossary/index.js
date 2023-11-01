@@ -7,7 +7,7 @@ const CreateToipGlossary = () => {
         <dl>
             {termsData.map((term) => (
                 <React.Fragment key={term.term}>
-                    <dt>{term.term}</dt>
+                    <dt><a id={term.anchor}>{term.term}</a></dt>
                     <dd className='ms-5' dangerouslySetInnerHTML={{ __html: term.definition }}></dd>
                 </React.Fragment>
             ))}
