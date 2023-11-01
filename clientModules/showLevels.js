@@ -97,13 +97,13 @@ const showLevels = (targetElements) => {
     ) {
       // insert level selection buttons into the HTML
       let htmlString =
-        `<hr>
-         <div>Choose knowledge level:
+        `<hr class="${levelButtonsAndInfoClassNames}">
+         <div class="${levelButtonsAndInfoClassNames}">Choose knowledge level:
           <button data-level="1" class="show-level button button--secondary margin-right--sm margin-left--sm" href="?level=1">1</button>
           <button data-level="2" class="show-level button button--secondary margin-right--sm" href="?level=2">2</button>
           <button data-level="3" class="show-level button button--secondary margin-right--sm" href="?level=3">3</button>
          </div>
-         <hr>
+         <hr class="${levelButtonsAndInfoClassNames}">
         `;
 
       let mainArticle = document.querySelector('main article');
