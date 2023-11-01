@@ -325,6 +325,7 @@ const config = {
     require.resolve('./clientModules/imageFullSize'),
     require.resolve('./clientModules/upvoteSearchResult'),
     require.resolve('./clientModules/findMentalModelMatches'),
+    require.resolve('./clientModules/fetchFormsColumnFromWotTerms'),
   ],
 };
 
