@@ -10,9 +10,9 @@ const levelButtonsAndInfoClassNames = 'show-level-buttons-info-container';
 
 // define the message to be shown for each level
 const infoMessage = {
-  level1: `<img src="${config.baseUrl}img/skill-level-basic-svgrepo-com.svg" alt="Level 1, a bar diagram with one bar active">Level 1`,
-  level2: `<img src="${config.baseUrl}img/skill-level-intermediate-svgrepo-com.svg" alt="Level 2, a bar diagram with two bars active">Level 2`,
-  level3: `<img src="${config.baseUrl}img/skill-level-advanced-svgrepo-com.svg" alt="Level 3, a bar diagram with three bars active">Level 3`,
+  level1: `Level 1`,
+  level2: `Level 2`,
+  level3: `Level 3`,
 };
 
 // define the css class names for the show level button and the active button
@@ -97,23 +97,13 @@ const showLevels = (targetElements) => {
     ) {
       // insert level selection buttons into the HTML
       let htmlString =
-        `
-        <div class="${levelButtonsAndInfoClassNames} container text-center pt-3 pb-3 mb-4" style="background: white;">
-          <div class="row">
-            <div class="col">
-              <div class="show-level-buttons-info d-inline">
-                Choose your knowledge level.
-              </div>
-            </div>
-            <div class="col">
-            <span>Level </span>
-            
-            <button data-level="1" class="show-level button button--secondary margin-right--sm margin-left--sm" href="?level=1">1</button>
-            <button data-level="2" class="show-level button button--secondary margin-right--sm" href="?level=2">2</button>
-            <button data-level="3" class="show-level button button--secondary margin-right--sm" href="?level=3">3</button>
-            </div>
-          </div>
-        </div>
+        `<hr>
+         <div>Choose knowledge level:
+          <button data-level="1" class="show-level button button--secondary margin-right--sm margin-left--sm" href="?level=1">1</button>
+          <button data-level="2" class="show-level button button--secondary margin-right--sm" href="?level=2">2</button>
+          <button data-level="3" class="show-level button button--secondary margin-right--sm" href="?level=3">3</button>
+         </div>
+         <hr>
         `;
 
       let mainArticle = document.querySelector('main article');
@@ -125,8 +115,6 @@ const showLevels = (targetElements) => {
       document.querySelectorAll('.show-level').forEach((button) => {
         button.addEventListener('click', handleShowLevelButton.bind(button));
       });
-
-      // showLevelButtonsAdded = true;
     }
 
     // Buttons should only be visible if there are elements with data-level
@@ -182,8 +170,6 @@ const showLevels = (targetElements) => {
     // make the clicked button active
     resetShowLevelButton();
     button.target.classList.add(showLevelButtonActiveClass);
-    document.querySelector('.show-level-buttons-info').innerHTML =
-      infoMessage['level' + button.target.dataset.level];
   };
 
   // create the buttons when the page loads
@@ -232,12 +218,6 @@ const showLevels = (targetElements) => {
           '.show-level[data-level="' + localStorage.getItem('level') + '"]'
         )
         .classList.add(showLevelButtonActiveClass);
-    }
-
-    // update the information message based on the level from the URL
-    if (document.querySelector('.show-level-buttons-info')) {
-      document.querySelector('.show-level-buttons-info').innerHTML =
-        infoMessage['level' + localStorage.getItem('level')];
     }
   }
 };
