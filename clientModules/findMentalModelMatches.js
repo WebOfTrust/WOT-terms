@@ -5,6 +5,19 @@ import termsDefinitionsEssiflab from '@site/static/json/terms-definitions-essifl
  *  This plugin adds a GTP generated summary to the top of the page.
  */
 
+
+// Remove links from term.definition
+const removeLinks = (html) => {
+  const doc = new DOMParser().parseFromString(html, 'text/html');
+  const links = doc.querySelectorAll('a');
+  links.forEach(link => {
+    const text = doc.createTextNode(link.textContent);
+    link.parentNode.replaceChild(text, link);
+  });
+  return doc.body.innerHTML;
+};
+
+
 const findMentalModelMatches = () => {
   // Code should only run in the documentation section
   const inDocSection =
@@ -69,22 +82,13 @@ const findMentalModelMatches = () => {
         accordionBody.classList.add('accordion-body');
         accordionBody.classList.add('fs-6');
 
-
-        console.log('term.url: ', term.url);
-
-        accordionBody.innerHTML = term.definition + `(<a href="${term.url}" target="_blank" rel="noopener">source</a>)`;
+        const definitionWithoutLinks = removeLinks(term.definition);
+        accordionBody.innerHTML = definitionWithoutLinks + `(<a href="${term.url}" target="_blank" rel="noopener">source</a>)`;
         accordionCollapse.appendChild(accordionBody);
 
         // Insert accordion item as first child of accordion container
         accordionContainer.appendChild(accordionItem);
 
-        // // Create h2 element
-        // const h2 = document.createElement('h2');
-        // h2.textContent = 'Other mental models';
-        // markdown.appendChild(h2);
-
-        // Insert accordion container as first child of heading
-        // heading.after(accordionContainer);
         markdown.appendChild(accordionContainer);
       }
     });
