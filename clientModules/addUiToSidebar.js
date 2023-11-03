@@ -22,6 +22,7 @@ function positionInArray(value) {
 // Find the column number of the column with the name 'Form'
 const formColumnNumber = positionInArray('Form');
 const levelColumnNumber = positionInArray('level');
+const typeColumnNumber = positionInArray('Type');
 const termColumnNumber = positionInArray('Term');
 
 // Create a Set of unique values in the Form column
@@ -41,9 +42,19 @@ for (let i = 1; i < overview.values.length; i++) {
     }
 }
 
+// Create a Set of unique values in the Type column
+const uniqueValuesType = new Set();
+for (let i = 1; i < overview.values.length; i++) {
+    const value = overview.values[i][typeColumnNumber];
+    if (value) {
+        uniqueValuesType.add(value);
+    }
+}
+
 // convert Set to Array
 let uniqueValuesArrayForm = Array.from(uniqueValuesForm);
 let uniqueValuesArrayLevel = Array.from(uniqueValuesLevel);
+let uniqueValuesArrayType = Array.from(uniqueValuesType);
 
 // const checkboxData = uniqueValuesArray.map((value) => {
 //     const obj = {};
@@ -60,6 +71,11 @@ uniqueValuesArrayLevel.forEach((value) => {
     checkboxLevelData[value] = false;
 });
 
+const checkboxTypeData = {};
+uniqueValuesArrayType.forEach((value) => {
+    checkboxTypeData[value] = false;
+});
+
 const addUiToSidebar = () => {
     const glossaryLink = document.querySelector('li.theme-doc-sidebar-item-category-level-1 a[href*="/docs/glossary"]');
     // go up two nodes to get the list item
@@ -68,8 +84,6 @@ const addUiToSidebar = () => {
     const glossaryListItemChildLinks = glossaryListItem.querySelector('ul').querySelectorAll('a');
 
     function setMenuItems() {
-
-        console.log('checkboxData in setMenuItems: ', JSON.stringify(checkboxFormData));
         // loop through all links in the glossary menu
         glossaryListItemChildLinks.forEach((link) => {
             for (let i = 0; i < overview.values.length; i++) {
@@ -78,6 +92,28 @@ const addUiToSidebar = () => {
                         if (checkboxFormData.hasOwnProperty(formValue)) {
                             if (formValue === overview.values[i][positionInArray('Form')]) {
                                 if (!checkboxFormData[formValue]) { // if it's false
+                                    link.classList.add('greyed-out');
+                                } else {
+                                    link.classList.remove('greyed-out');
+                                }
+                            }
+                        }
+                    }
+                    for (const levelValue in checkboxLevelData) {
+                        if (checkboxLevelData.hasOwnProperty(levelValue)) {
+                            if (levelValue === overview.values[i][positionInArray('Level')]) {
+                                if (!checkboxLevelData[levelValue]) { // if it's false
+                                    link.classList.add('greyed-out');
+                                } else {
+                                    link.classList.remove('greyed-out');
+                                }
+                            }
+                        }
+                    }
+                    for (const typeValue in checkboxTypeData) {
+                        if (checkboxTypeData.hasOwnProperty(typeValue)) {
+                            if (typeValue === overview.values[i][positionInArray('Type')]) {
+                                if (!checkboxTypeData[typeValue]) { // if it's false
                                     link.classList.add('greyed-out');
                                 } else {
                                     link.classList.remove('greyed-out');
@@ -97,36 +133,31 @@ const addUiToSidebar = () => {
         return;
     }
     const nav = document.querySelector('nav[aria-label="Docs sidebar"]');
-    const checkboxFormContainer = document.createElement('div');
-    checkboxFormContainer.classList.add('check-container-form');
-    checkboxFormContainer.classList.add('border');
-    checkboxFormContainer.classList.add('ms-2');
-    checkboxFormContainer.classList.add('me-2');
-    checkboxFormContainer.classList.add('mb-2');
-    checkboxFormContainer.classList.add('p-2');
-    checkboxFormContainer.classList.add('rounded');
-    checkboxFormContainer.style.fontSize = '0.8rem';
 
+
+    const checkboxFormContainer = document.createElement('div');
+    checkboxFormContainer.classList.add('check-container-form', 'border', 'ms-2', 'me-2', 'mb-2', 'p-2', 'rounded');
+    checkboxFormContainer.style.fontSize = '0.8rem';
     checkboxFormContainer.innerHTML = `<h2 style="font-size: 1.2em">Form:</h2>`
 
     const checkboxLevelContainer = document.createElement('div');
-    checkboxLevelContainer.classList.add('check-container-level');
-    checkboxLevelContainer.classList.add('border');
-    checkboxLevelContainer.classList.add('ms-2');
-    checkboxLevelContainer.classList.add('me-2');
-    checkboxFormContainer.classList.add('mb-2');
-    checkboxLevelContainer.classList.add('p-2');
-    checkboxLevelContainer.classList.add('rounded');
+    checkboxLevelContainer.classList.add('check-container-level', 'border', 'ms-2', 'me-2', 'mb-2', 'p-2', 'rounded');
     checkboxLevelContainer.style.fontSize = '0.8rem';
-
     checkboxLevelContainer.innerHTML = `<h2 style="font-size: 1.2em">Level:</h2>`
+
+    const checkboxTypeContainer = document.createElement('div');
+    checkboxTypeContainer.classList.add('check-container-type', 'border', 'ms-2', 'me-2', 'mb-2', 'p-2', 'rounded');
+    checkboxTypeContainer.style.fontSize = '0.8rem';
+    checkboxTypeContainer.innerHTML = `<h2 style="font-size: 1.2em">Type:</h2>`
 
     nav.insertBefore(checkboxLevelContainer, nav.firstChild);
     nav.insertBefore(checkboxFormContainer, nav.firstChild);
+    nav.insertBefore(checkboxTypeContainer, nav.firstChild);
 
 
     const checkboxesForm = [];
     const checkboxesLevel = [];
+    const checkboxesType = [];
 
 
     // Form checkboxes
@@ -179,6 +210,31 @@ const addUiToSidebar = () => {
         levelCheckContainer.appendChild(checkboxLevel);
 
         checkboxesLevel.push(checkboxLevel.querySelector('input'));
+    }
+    // Type checkboxes
+    for (let i = 0; i < uniqueValuesArrayType.length; i++) {
+        const checkboxType = document.createElement('div');
+        checkboxType.classList.add('form-check');
+        checkboxType.classList.add('form-check-inline');
+
+        checkboxType.innerHTML = `
+          <input data-type=${uniqueValuesArrayType[i]} class="form-check-input" type="checkbox" value="" id="defaultCheck3${i}">
+          <label class="type-check-label" for="defaultCheck3${i}">
+              ${uniqueValuesArrayType[i]} 
+          </label>
+      `;
+        checkboxType.addEventListener('click', () => {
+            checkboxesType.forEach((cb, index) => {
+                checkboxType[cb.dataset.type] = cb.checked;
+            });
+            // update the menu items based on the checkboxData array
+            setMenuItems();
+        });
+
+        const typeCheckContainer = document.querySelector('.check-container-type');
+        typeCheckContainer.appendChild(checkboxType);
+
+        checkboxesType.push(checkboxType.querySelector('input'));
     }
     // return checkboxesForm.map(checkboxForm => checkboxForm.checked);
     // return checkboxesLevel.map(checkboxLevel => checkboxLevel.checked);
