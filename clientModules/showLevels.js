@@ -4,7 +4,7 @@
  */
 
 // import the config file
-import config from '@generated/docusaurus.config';
+// import config from '@generated/docusaurus.config';
 
 const levelButtonsAndInfoClassNames = 'show-level-buttons-info-container';
 
