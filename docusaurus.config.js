@@ -326,6 +326,7 @@ const config = {
     require.resolve('./clientModules/upvoteSearchResult'),
     require.resolve('./clientModules/findMentalModelMatches'),
     require.resolve('./clientModules/fetchFormsColumnFromWotTerms'),
+    require.resolve('./clientModules/addUiToSidebar'),
   ],
 };
 

@@ -1103,3 +1103,9 @@ article .markdown .inline-medium-end,
 /* 
   End Horizontal scrollable navbar in search results
 */
+
+
+.greyed-out {
+  color: #aaa;
+  pointer-events: none;
+}
