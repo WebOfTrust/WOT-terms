@@ -127,20 +127,23 @@ const addUiToSidebar = () => {
         return;
     }
     const nav = document.querySelector('nav[aria-label="Docs sidebar"]');
-    const bootstrapClasses = `check-container-form', 'border', 'ms-2', 'me-2', 'mb-2', 'p-2', 'rounded'`;
+    const classesToAdd = ['border', 'ms-2', 'me-2', 'mb-2', 'p-2', 'rounded'];
 
     const checkboxFormContainer = document.createElement('div');
-    checkboxFormContainer.classList.add(bootstrapClasses);
+    checkboxFormContainer.classList.add(...classesToAdd);
+    checkboxFormContainer.classList.add('check-container-form');
     checkboxFormContainer.style.fontSize = '0.8rem';
     checkboxFormContainer.innerHTML = `<h2 style="font-size: 1.2em">Form:</h2>`
 
     const checkboxLevelContainer = document.createElement('div');
-    checkboxLevelContainer.classList.add(bootstrapClasses);
+    checkboxLevelContainer.classList.add(...classesToAdd);
+    checkboxLevelContainer.classList.add('check-container-level');
     checkboxLevelContainer.style.fontSize = '0.8rem';
     checkboxLevelContainer.innerHTML = `<h2 style="font-size: 1.2em">Level:</h2>`
 
     const checkboxTypeContainer = document.createElement('div');
-    checkboxTypeContainer.classList.add(bootstrapClasses);
+    checkboxTypeContainer.classList.add(...classesToAdd);
+    checkboxTypeContainer.classList.add('check-container-type');
     checkboxTypeContainer.style.fontSize = '0.8rem';
     checkboxTypeContainer.innerHTML = `<h2 style="font-size: 1.2em">Type:</h2>`
 
