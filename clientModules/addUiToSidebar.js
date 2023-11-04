@@ -23,7 +23,6 @@ function positionInArray(value) {
 const formColumnNumber = positionInArray('Form');
 const levelColumnNumber = positionInArray('level');
 const typeColumnNumber = positionInArray('Type');
-const termColumnNumber = positionInArray('Term');
 
 function getUniqueValues(data, columnIndex) {
     const uniqueValues = new Set();
