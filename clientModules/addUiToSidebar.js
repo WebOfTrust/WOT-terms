@@ -25,56 +25,44 @@ const levelColumnNumber = positionInArray('level');
 const typeColumnNumber = positionInArray('Type');
 const termColumnNumber = positionInArray('Term');
 
-// Create a Set of unique values in the Form column
-const uniqueValuesForm = new Set();
-for (let i = 1; i < overview.values.length; i++) {
-    const value = overview.values[i][formColumnNumber];
-    if (value) {
-        uniqueValuesForm.add(value);
+function getUniqueValues(data, columnIndex) {
+    const uniqueValues = new Set();
+    for (let i = 1; i < data.length; i++) {
+        const value = data[i][columnIndex];
+        if (value) {
+            uniqueValues.add(value);
+        }
     }
-}
-// Create a Set of unique values in the Level column
-const uniqueValuesLevel = new Set();
-for (let i = 1; i < overview.values.length; i++) {
-    const value = overview.values[i][levelColumnNumber];
-    if (value) {
-        uniqueValuesLevel.add(value);
-    }
+    return uniqueValues;
 }
 
-// Create a Set of unique values in the Type column
-const uniqueValuesType = new Set();
-for (let i = 1; i < overview.values.length; i++) {
-    const value = overview.values[i][typeColumnNumber];
-    if (value) {
-        uniqueValuesType.add(value);
-    }
-}
+// Assuming overview.values is a 2D array and formColumnNumber, levelColumnNumber, typeColumnNumber are the respective column indexes
+const uniqueValuesForm = getUniqueValues(overview.values, formColumnNumber);
+const uniqueValuesLevel = getUniqueValues(overview.values, levelColumnNumber);
+const uniqueValuesType = getUniqueValues(overview.values, typeColumnNumber);
+
 
 // convert Set to Array
 let uniqueValuesArrayForm = Array.from(uniqueValuesForm);
 let uniqueValuesArrayLevel = Array.from(uniqueValuesLevel);
 let uniqueValuesArrayType = Array.from(uniqueValuesType);
 
-// const checkboxData = uniqueValuesArray.map((value) => {
-//     const obj = {};
-//     obj[value] = false;
-//     return obj;
-// });
+// Create a checkbox state object
+function createCheckboxState(uniqueValues) {
+    const checkboxState = {};
+    Array.from(uniqueValues).forEach((value) => {
+        checkboxState[value] = false;
+    });
+    return checkboxState;
+}
 
-const checkboxFormData = {};
-uniqueValuesArrayForm.forEach((value) => {
-    checkboxFormData[value] = false;
-});
-const checkboxLevelData = {};
-uniqueValuesArrayLevel.forEach((value) => {
-    checkboxLevelData[value] = false;
-});
+const checkboxFormState = createCheckboxState(uniqueValuesForm);
+const checkboxLevelState = createCheckboxState(uniqueValuesLevel);
+const checkboxTypeState = createCheckboxState(uniqueValuesType);
 
-const checkboxTypeData = {};
-uniqueValuesArrayType.forEach((value) => {
-    checkboxTypeData[value] = false;
-});
+
+
+
 
 const addUiToSidebar = () => {
     const glossaryLink = document.querySelector('li.theme-doc-sidebar-item-category-level-1 a[href*="/docs/glossary"]');
@@ -88,10 +76,10 @@ const addUiToSidebar = () => {
         glossaryListItemChildLinks.forEach((link) => {
             for (let i = 0; i < overview.values.length; i++) {
                 if (overview.values[i][positionInArray('Term')] === link.innerText) {
-                    for (const formValue in checkboxFormData) {
-                        if (checkboxFormData.hasOwnProperty(formValue)) {
+                    for (const formValue in checkboxFormState) {
+                        if (checkboxFormState.hasOwnProperty(formValue)) {
                             if (formValue === overview.values[i][positionInArray('Form')]) {
-                                if (!checkboxFormData[formValue]) { // if it's false
+                                if (!checkboxFormState[formValue]) { // if it's false
                                     link.classList.add('greyed-out');
                                 } else {
                                     link.classList.remove('greyed-out');
@@ -99,10 +87,10 @@ const addUiToSidebar = () => {
                             }
                         }
                     }
-                    for (const levelValue in checkboxLevelData) {
-                        if (checkboxLevelData.hasOwnProperty(levelValue)) {
+                    for (const levelValue in checkboxLevelState) {
+                        if (checkboxLevelState.hasOwnProperty(levelValue)) {
                             if (levelValue === overview.values[i][positionInArray('Level')]) {
-                                if (!checkboxLevelData[levelValue]) { // if it's false
+                                if (!checkboxLevelState[levelValue]) { // if it's false
                                     link.classList.add('greyed-out');
                                 } else {
                                     link.classList.remove('greyed-out');
@@ -110,10 +98,10 @@ const addUiToSidebar = () => {
                             }
                         }
                     }
-                    for (const typeValue in checkboxTypeData) {
-                        if (checkboxTypeData.hasOwnProperty(typeValue)) {
+                    for (const typeValue in checkboxTypeState) {
+                        if (checkboxTypeState.hasOwnProperty(typeValue)) {
                             if (typeValue === overview.values[i][positionInArray('Type')]) {
-                                if (!checkboxTypeData[typeValue]) { // if it's false
+                                if (!checkboxTypeState[typeValue]) { // if it's false
                                     link.classList.add('greyed-out');
                                 } else {
                                     link.classList.remove('greyed-out');
@@ -173,7 +161,7 @@ const addUiToSidebar = () => {
       `;
         checkboxForm.addEventListener('click', () => {
             checkboxesForm.forEach((cb, index) => {
-                checkboxFormData[cb.dataset.form] = cb.checked;
+                checkboxFormState[cb.dataset.form] = cb.checked;
             });
             // update the menu items based on the checkboxData array
             setMenuItems();
@@ -200,7 +188,7 @@ const addUiToSidebar = () => {
       `;
         checkboxLevel.addEventListener('click', () => {
             checkboxesLevel.forEach((cb, index) => {
-                checkboxLevelData[cb.dataset.level] = cb.checked;
+                checkboxLevelState[cb.dataset.level] = cb.checked;
             });
             // update the menu items based on the checkboxData array
             setMenuItems();
