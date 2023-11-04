@@ -19,11 +19,12 @@ function positionInArray(value) {
     return -1;
 }
 
-// Find the column number of the column with the name 'Form'
-const formColumnNumber = positionInArray('Form');
-const levelColumnNumber = positionInArray('level');
-const typeColumnNumber = positionInArray('Type');
-
+/**
+ * Returns a set of unique values from a 2D array based on a given column index.
+ * @param {Array<Array>} data - The 2D array to search for unique values.
+ * @param {number} columnIndex - The index of the column to search for unique values.
+ * @returns {Set} - A set of unique values from the specified column.
+ */
 function getUniqueValues(data, columnIndex) {
     const uniqueValues = new Set();
     for (let i = 1; i < data.length; i++) {
@@ -35,7 +36,13 @@ function getUniqueValues(data, columnIndex) {
     return uniqueValues;
 }
 
-// Assuming overview.values is a 2D array and formColumnNumber, levelColumnNumber, typeColumnNumber are the respective column indexes
+// overview.values is a 2D array and formColumnNumber, levelColumnNumber, typeColumnNumber are the respective column indexes
+const formColumnNumber = positionInArray('Form');
+const levelColumnNumber = positionInArray('level');
+const typeColumnNumber = positionInArray('Type');
+
+
+// Get unique values for each column
 const uniqueValuesForm = getUniqueValues(overview.values, formColumnNumber);
 const uniqueValuesLevel = getUniqueValues(overview.values, levelColumnNumber);
 const uniqueValuesType = getUniqueValues(overview.values, typeColumnNumber);
