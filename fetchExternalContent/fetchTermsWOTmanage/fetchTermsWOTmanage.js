@@ -45,6 +45,21 @@ const outputFileNameJSON = process.env.TERMS_WOT_MANAGE_JSON_FILE_NAME;
 // How to create JSON endpoint from Google Sheet: https://stackoverflow.com/a/68854199
 const url = process.env.TERMS_WOT_MANAGE_JSON_ENDPOINT;
 
+/**
+ * Returns the position of a value in the entriesIndex array.
+ * @param {Array<string>} content - The content to search in.
+ * @param {string} value - The value to search for in the entriesIndex array.
+ * @returns {number} - The position of the value in the entriesIndex array, or -1 if not found.
+ */
+function positionInArray(content, value) {
+  const entriesIndex = content.values[0];
+  for (let i = 0; i < entriesIndex.length; i++) {
+    if (entriesIndex[i] === value) return i;
+  }
+  return -1;
+}
+
+
 https
   .get(url, (resp) => {
     let data = '';
@@ -73,22 +88,6 @@ function createMarkDownFiles(content) {
      * @type {Array<string>}
      */
     const entriesIndex = content.values[0];
-
-
-    /**
-     * Returns the position of a value in the entriesIndex array.
-     * @param {string} value - The value to search for in the entriesIndex array.
-     * @returns {number} - The position of the value in the entriesIndex array, or -1 if not found.
-     */
-    function positionInArray(value) {
-      for (let i = 0; i < entriesIndex.length; i++) {
-        if (entriesIndex[i] === value) return i;
-      }
-      return -1;
-    }
-
-
-
 
 
     // Create separate files
@@ -184,7 +183,7 @@ function createMarkDownFiles(content) {
         item = item || '';
 
         finalStringAll += `<td className='column${indexTableCell}' data-row='row${indexTableRow}' data-rownr='${indexTableRow}' data-column='column${indexTableCell}' data-columnnr='${indexTableCell}'>`;
-        if (indexTableCell === positionInArray('link') || indexTableCell === positionInArray('Philvid_start')) {
+        if (indexTableCell === positionInArray(content, 'link') || indexTableCell === positionInArray(content, 'Philvid_start')) {
           finalStringAll += `<a target='_blank' rel='noopener' href='${item}'>Link</a>`;
         } else {
           finalStringAll += `${item}`;
