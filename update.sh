@@ -11,7 +11,7 @@ source ".env"
 
 # Fetches data from WOT-terms (Google sheet) and generates an overview file that takes all the terms and their definitions and puts them into a single file. 
 # Import Google Sheet “WOT-terms”, tab “Terms-WOT-manage” data into markdown file
-node fetchExternalContent/fetchTermsWOTmanage/fetchTermsWOTmanage.js
+node fetchExternalContent/fetchTermsWOTmanage/fetchTermsWOTmanage.mjs
 ##############################
 
 

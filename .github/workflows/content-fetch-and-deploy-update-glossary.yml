@@ -43,7 +43,7 @@ jobs:
 
       # Fetches data from WOT-terms (Google sheet) and generates an overview file that takes all the terms and their definitions and puts them into a single file. 
       - name: Import Google Sheet “WOT-terms”, tab “Terms-WOT-manage” data into markdown file
-        run: node fetchExternalContent/fetchTermsWOTmanage/fetchTermsWOTmanage.js
+        run: node fetchExternalContent/fetchTermsWOTmanage/fetchTermsWOTmanage.mjs
       ##############################
 
 
