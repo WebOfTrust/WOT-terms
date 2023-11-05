@@ -24,18 +24,22 @@
     - The script should be run from the root of the project.
     - For information on how to create a JSON endpoint from a Google Sheet, refer to https://stackoverflow.com/a/68854199
    
-    The code uses Node.js built-in 'fs', 'path', and 'https' modules for file management, directory paths, and HTTPS GET   equests.
+    The code uses Node.js built-in 'fs', 'path', and 'https' modules for file management, directory paths, and HTTPS GET requests.
     The generated Markdown includes HTML elements and is formatted as an MDX file.
 */
 
 
 // This script should be run from the root of the project
 
-// const json2md = require('json2md');
-const fs = require('fs');
-const path = require('path');
-const https = require('https');
-require('dotenv').config();
+// import json2md from 'json2md';
+import fs from 'fs';
+import path from 'path';
+import https from 'https';
+import positionInArray from '../../modules-js-universal/positionInArray.mjs';
+import { config } from 'dotenv';
+config();
+
+
 
 // CONFIG
 const outputPathMarkDown = process.env.TERMS_WOT_MANAGE_MARKDOWN;
@@ -44,21 +48,6 @@ const outputFileNameJSON = process.env.TERMS_WOT_MANAGE_JSON_FILE_NAME;
 
 // How to create JSON endpoint from Google Sheet: https://stackoverflow.com/a/68854199
 const url = process.env.TERMS_WOT_MANAGE_JSON_ENDPOINT;
-
-/**
- * Returns the position of a value in the entriesIndex array.
- * @param {Array<string>} content - The content to search in.
- * @param {string} value - The value to search for in the entriesIndex array.
- * @returns {number} - The position of the value in the entriesIndex array, or -1 if not found.
- */
-function positionInArray(content, value) {
-  const entriesIndex = content.values[0];
-  for (let i = 0; i < entriesIndex.length; i++) {
-    if (entriesIndex[i] === value) return i;
-  }
-  return -1;
-}
-
 
 https
   .get(url, (resp) => {
@@ -71,14 +60,60 @@ https
 
     // The whole response has been received. Print out the result.
     resp.on('end', () => {
-      writeJSONFile(data);
-      let oContent = JSON.parse(data);
-      createMarkDownFiles(oContent);
+      let oData = JSON.parse(data);
+      cleanup(oData);// writes back to oData
+      let relevantContent = oData.values;
+      createMarkDownFiles(relevantContent);
+      let strData = JSON.stringify(oData);
+      writeJSONFile(strData);
     });
   })
   .on('error', (err) => {
     console.log('Error: ' + err.message);
   });
+
+function cleanup(content) {
+  if (content !== undefined) {
+    let relevantContent = content.values;
+
+    // for every entry in relevantContent[0] (the first row) do remove spaces at both ends
+    relevantContent[0].forEach((item, index) => {
+      item = item.trim();
+      relevantContent[0][index] = item; // update the item in the relevantContent array
+    });
+
+    // Remove empty rows
+    relevantContent = relevantContent.filter((item) => {
+      return item[0] !== '';
+    });
+
+    // Remove rows where Term is empty or undefined
+    relevantContent = relevantContent.filter((item, index) => {
+      const termIndex = positionInArray(relevantContent, 'Term');
+      const term = item[termIndex];
+      return term !== "" && term !== undefined;
+    });
+
+
+    // // Remove empty columns
+    // relevantContent.forEach((item, index) => {
+    //   item = item.filter((item) => {
+    //     return item !== '';
+    //   });
+    //   relevantContent[index] = item; // update the item in the relevantContent array
+    // });
+
+    // // Remove first row
+    // relevantContent.shift();
+
+    // update the values property of the content object
+    content.values = relevantContent;
+  }
+  return content; // return the updated content object
+}
+
+
+
 
 function createMarkDownFiles(content) {
   if (content !== undefined) {
@@ -87,7 +122,7 @@ function createMarkDownFiles(content) {
      * The column names of the list of websites to scrape.
      * @type {Array<string>}
      */
-    const entriesIndex = content.values[0];
+    const entriesIndex = content[0];
 
 
     // Create separate files
@@ -155,7 +190,7 @@ function createMarkDownFiles(content) {
     finalStringAll += `<thead>`;
     finalStringAll += `<tr>`;
 
-    content.values[0].forEach((element, index) => {
+    content[0].forEach((element, index) => {
       finalStringAll += `<th data-columnnr='${index}'>${element}</th>`;
     });
 
@@ -167,7 +202,7 @@ function createMarkDownFiles(content) {
     finalStringAll += `<tbody className='list'>`;
 
     // Create table rows
-    content.values.forEach((item, indexTableRow) => {
+    content.forEach((item, indexTableRow) => {
       // Skip first one, https://stackoverflow.com/a/41283243
       if (indexTableRow < 1) return;
       //   if (index < 1 || index > 12) return;
