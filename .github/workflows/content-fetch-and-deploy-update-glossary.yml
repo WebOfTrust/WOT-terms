@@ -1,4 +1,4 @@
-name: Comprehensive Content Fetch, Deploy and Update Glossary
+name: Fetch, Deploy and Update Glossary
 
 on:
   push:
