@@ -66,6 +66,32 @@ const allFormCheckboxesState = createCheckboxState(uniqueValuesForm);
 const allLevelCheckboxesState = createCheckboxState(uniqueValuesLevel);
 const allTypeCheckboxesState = createCheckboxState(uniqueValuesType);
 
+function setLocalStorage() {
+    localStorage.setItem('allFormCheckboxesStateLocalStorage', JSON.stringify(allFormCheckboxesState));
+    localStorage.setItem('allLevelCheckboxesStateLocalStorage', JSON.stringify(allLevelCheckboxesState));
+    localStorage.setItem('allTypeCheckboxesStateLocalStorage', JSON.stringify(allTypeCheckboxesState));
+}
+
+function getLocalStorage() {
+    const allFormCheckboxesStateLocalStorage = JSON.parse(localStorage.getItem('allFormCheckboxesStateLocalStorage'));
+    const allLevelCheckboxesStateLocalStorage = JSON.parse(localStorage.getItem('allLevelCheckboxesStateLocalStorage'));
+    const allTypeCheckboxesStateLocalStorage = JSON.parse(localStorage.getItem('allTypeCheckboxesStateLocalStorage'));
+    return [allFormCheckboxesStateLocalStorage, allLevelCheckboxesStateLocalStorage, allTypeCheckboxesStateLocalStorage];
+}
+
+function nothingChecked() {
+    // If only one checkbox is checked, this function returns false, else it returns true. “some” is used to check if any checkbox in each category is checked. If any some call returns true, the function returns false, indicating that not "nothing is checked". If all some calls return false, the function returns true, indicating that "nothing is checked".
+    const formCheckboxes = document.querySelectorAll('input[type="checkbox"][data-form]');
+    const levelCheckboxes = document.querySelectorAll('input[type="checkbox"][data-level]');
+    const typeCheckboxes = document.querySelectorAll('input[type="checkbox"][data-type]');
+
+    const isFormChecked = Array.from(formCheckboxes).some(checkbox => checkbox.checked);
+    const isLevelChecked = Array.from(levelCheckboxes).some(checkbox => checkbox.checked);
+    const isTypeChecked = Array.from(typeCheckboxes).some(checkbox => checkbox.checked);
+
+    return !(isFormChecked || isLevelChecked || isTypeChecked);
+}
+
 function areAllCheckboxesFalse() {
     const allCheckboxes = [allFormCheckboxesState, allLevelCheckboxesState, allTypeCheckboxesState];
     for (const checkboxes of allCheckboxes) {
@@ -78,8 +104,6 @@ function areAllCheckboxesFalse() {
     return true;
 }
 
-
-
 const addUiToSidebar = () => {
     const glossaryLink = document.querySelector('li.theme-doc-sidebar-item-category-level-1 a[href*="/docs/glossary"]');
     // go up two nodes to get the list item
@@ -87,71 +111,112 @@ const addUiToSidebar = () => {
     // now get the ul, so we skip the <a>glossary</a> link
     const glossaryListItemChildLinks = glossaryListItem.querySelector('ul').querySelectorAll('a');
 
-    function setMenuItems() {
 
-        function greyOutAllLinks() {
-            glossaryListItemChildLinks.forEach((link) => {
-                link.classList.add('greyed-out');
-            });
+
+
+
+    function greyOutAllLinks() {
+        glossaryListItemChildLinks.forEach((link) => {
+            link.classList.add('greyed-out');
+        });
+    }
+    function removeGreyOutAllLinks() {
+        glossaryListItemChildLinks.forEach((link) => {
+            link.classList.remove('greyed-out');
+        });
+    }
+
+    function setMenuItems(e) {
+
+        let eTargetChecked = e.target.checked;
+        let eTargetDatasetFilter = e.target.dataset.filter
+
+        // greyOutAllLinks();
+        console.log('nothingChecked(): ', nothingChecked());
+
+        // update the checkboxes state object
+        if (e.target.dataset.form !== undefined) {
+            allFormCheckboxesState[e.target.dataset.form] = true;
         }
-        function removeGreyOutAllLinks() {
-            glossaryListItemChildLinks.forEach((link) => {
-                link.classList.remove('greyed-out');
-            });
+        if (e.target.dataset.level !== undefined) {
+            allLevelCheckboxesState[e.target.dataset.level] = true;
+        }
+        if (e.target.dataset.type !== undefined) {
+            allTypeCheckboxesState[e.target.dataset.type] = true;
         }
 
-        greyOutAllLinks();
 
         // loop through all links in the glossary menu
         glossaryListItemChildLinks.forEach((link) => {
+            // loop through all entries in the overview.json
             for (let i = 0; i < overview.values.length; i++) {
-                if (overview.values[i][positionInArray('Term')] === link.innerText) {
-                    // Go through the checkboxFormState object and check the value of the checkbox
-                    // “Form” refers to the column name in the overview.json, NOT the html form of the page
-                    for (const checkbox in allFormCheckboxesState) {
-                        if (allFormCheckboxesState.hasOwnProperty(checkbox)) {
-                            // Find the form value in the overview.values array
-                            // Example: if the checkbox is "n", find the "n" value in the overview.values array
-                            if (checkbox === overview.values[i][positionInArray('Form')]) {
-                                // if the checkbox is true, remove the greyed-out class
-                                if (allFormCheckboxesState[checkbox]) {
-                                    link.classList.remove('greyed-out');
-                                }
-                                else {
-                                    link.classList.add('greyed-out');
-                                }
+
+                // if the link text matches the term in the overview.json
+                if (overview.values[i][positionInArray('Term')].trim() === link.innerText) {
+                    // now we can lookup the form, level and type of the entry
+
+                    // if the checkbox belongs to the “Form” (name of the column in the source data, has nothing to do with html forms) filter
+                    if (eTargetDatasetFilter === "form") {
+                        // if the checkbox value matches the value in the overview.json
+                        if (e.target.dataset.form === overview.values[i][positionInArray('Form')]) {
+                            // then it should control this menu item
+                            // the state of the checkbox determines if the menu item is greyed-out or not
+                            // if the checkbox is checked then remove the greyed-out class
+                            console.log('eTargetChecked: ', eTargetChecked);
+
+                            if (eTargetChecked) {
+                                link.classList.remove('greyed-out');
+                            } else {
+                                link.classList.add('greyed-out');
+                            }
+
+
+
+
+                        }
+                    }
+                    if (eTargetDatasetFilter === "level") {
+                        // if the checkbox value matches the value in the overview.json
+                        if (e.target.dataset.level === overview.values[i][positionInArray('level')]) {
+                            console.log('e.target.dataset.form: ', e.target.dataset.form);
+                            // if the checkbox is checked then remove the greyed-out class
+
+                            if (eTargetChecked) {
+                                link.classList.remove('greyed-out');
+                            } else {
+                                link.classList.add('greyed-out');
                             }
                         }
                     }
-                    for (const checkbox in allLevelCheckboxesState) {
-                        if (allLevelCheckboxesState.hasOwnProperty(checkbox)) {
-                            if (checkbox === overview.values[i][positionInArray('Level')]) {
-                                if (!allLevelCheckboxesState[checkbox]) { // if it's false
-                                    link.classList.remove('greyed-out');
-                                } else {
-                                    link.classList.add('greyed-out');
-                                }
+                    if (eTargetDatasetFilter === "type") {
+                        // if the checkbox value matches the value in the overview.json
+                        if (e.target.dataset.type === overview.values[i][positionInArray('Type')]) {
+                            // if the checkbox is checked then remove the greyed-out class
+
+                            if (eTargetChecked) {
+                                link.classList.remove('greyed-out');
+                            } else {
+                                link.classList.add('greyed-out');
                             }
                         }
                     }
-                    for (const checkbox in allTypeCheckboxesState) {
-                        if (allTypeCheckboxesState.hasOwnProperty(checkbox)) {
-                            if (checkbox === overview.values[i][positionInArray('Type')]) {
-                                if (!allTypeCheckboxesState[checkbox]) { // if it's false
-                                    link.classList.remove('greyed-out');
-                                } else {
-                                    link.classList.add('greyed-out');
-                                }
-                            }
-                        }
-                    }
+
+
                 }
+
+                // for (const checkbox in allFormCheckboxesState) {
+                //     if (checkbox === formValue) {
+                //         link.classList.remove('greyed-out');
+                //     } else {
+                //         link.classList.add('greyed-out');
+                //     }
+                // }
+
             }
         });
 
-        if (areAllCheckboxesFalse()) {
-            removeGreyOutAllLinks();
-        }
+
+
     }
 
 
@@ -161,7 +226,7 @@ const addUiToSidebar = () => {
         return;
     }
     const nav = document.querySelector('nav[aria-label="Docs sidebar"]');
-    const classesToAdd = ['border', 'ms-2', 'me-2', 'mb-2', 'p-2', 'rounded'];
+    const classesToAdd = ['border', 'ms-2', 'me-2', 'mb-1', 'ps-2', 'pe-2', 'rounded'];
     const fontSize = '0.8rem';
 
     const checkboxFormContainer = document.createElement('div');
@@ -198,17 +263,17 @@ const addUiToSidebar = () => {
         checkboxForm.classList.add('form-check');
         checkboxForm.classList.add('form-check-inline');
         checkboxForm.innerHTML = `
-          <input data-form=${uniqueValuesArrayForm[i]} class="form-check-input" type="checkbox" value="" id="defaultCheck${i}">
+          <input checked data-filter="form" data-form=${uniqueValuesArrayForm[i]} class="form-check-input" type="checkbox" value="" id="defaultCheck${i}">
           <label class="form-check-label" for="defaultCheck${i}">
               ${uniqueValuesArrayForm[i]} 
           </label>
       `;
-        checkboxForm.addEventListener('click', () => {
+        checkboxForm.addEventListener('click', (e) => {
             checkboxesForm.forEach((cb, index) => {
                 allFormCheckboxesState[cb.dataset.form] = cb.checked;
             });
             // update the menu items based on the checkboxData array
-            setMenuItems();
+            setMenuItems(e);
         });
 
         const formCheckContainer = document.querySelector('.check-container-form');
@@ -225,17 +290,17 @@ const addUiToSidebar = () => {
         checkboxLevel.classList.add('form-check-inline');
 
         checkboxLevel.innerHTML = `
-          <input data-level=${uniqueValuesArrayLevel[i]} class="form-check-input" type="checkbox" value="" id="defaultCheck2${i}">
+          <input checked data-filter="level" data-level=${uniqueValuesArrayLevel[i]} class="form-check-input" type="checkbox" value="" id="defaultCheck2${i}">
           <label class="level-check-label" for="defaultCheck2${i}">
               ${uniqueValuesArrayLevel[i]} 
           </label>
       `;
-        checkboxLevel.addEventListener('click', () => {
+        checkboxLevel.addEventListener('click', (e) => {
             checkboxesLevel.forEach((cb, index) => {
                 allLevelCheckboxesState[cb.dataset.level] = cb.checked;
             });
             // update the menu items based on the checkboxData array
-            setMenuItems();
+            setMenuItems(e);
         });
 
         const levelCheckContainer = document.querySelector('.check-container-level');
@@ -250,17 +315,17 @@ const addUiToSidebar = () => {
         checkboxType.classList.add('form-check-inline');
 
         checkboxType.innerHTML = `
-          <input data-type=${uniqueValuesArrayType[i]} class="form-check-input" type="checkbox" value="" id="defaultCheck3${i}">
+          <input checked data-filter="type" data-type=${uniqueValuesArrayType[i]} class="form-check-input" type="checkbox" value="" id="defaultCheck3${i}">
           <label class="type-check-label" for="defaultCheck3${i}">
               ${uniqueValuesArrayType[i]} 
           </label>
       `;
-        checkboxType.addEventListener('click', () => {
+        checkboxType.addEventListener('click', (e) => {
             checkboxesType.forEach((cb, index) => {
                 allTypeCheckboxesState[cb.dataset.type] = cb.checked;
             });
             // update the menu items based on the checkboxData array
-            setMenuItems();
+            setMenuItems(e);
         });
 
         const typeCheckContainer = document.querySelector('.check-container-type');
