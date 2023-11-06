@@ -105,7 +105,146 @@ function areAllCheckboxesFalse() {
 }
 
 const addUiToSidebar = () => {
-    const glossaryLink = document.querySelector('li.theme-doc-sidebar-item-category-level-1 a[href*="/docs/glossary"]');
+    console.log("addUiToSidebar xxxx xxxx xxxx xxxxx xx xxx xx");
+    function createFilters() {
+        // add checkboxes to the sidebar, first add a container
+        if (document.querySelector('.check-container-form')) {
+            // checkboxes already added, do nothing
+            return;
+        }
+        const nav = document.querySelector('nav[aria-label="Docs sidebar"]');
+        const classesToAdd = ['border', 'ms-2', 'me-2', 'mb-1', 'ps-2', 'pe-2', 'rounded'];
+        const fontSize = '0.8rem';
+
+        const checkboxFormContainer = document.createElement('div');
+        checkboxFormContainer.classList.add(...classesToAdd);
+        checkboxFormContainer.classList.add('check-container-form');
+        checkboxFormContainer.style.fontSize = fontSize;
+        checkboxFormContainer.innerHTML = `<h2 style="font-size: 1.2em">Form:</h2>`
+
+        const checkboxLevelContainer = document.createElement('div');
+        checkboxLevelContainer.classList.add(...classesToAdd);
+        checkboxLevelContainer.classList.add('check-container-level');
+        checkboxLevelContainer.style.fontSize = fontSize;
+        checkboxLevelContainer.innerHTML = `<h2 style="font-size: 1.2em">Level:</h2>`
+
+        const checkboxTypeContainer = document.createElement('div');
+        checkboxTypeContainer.classList.add(...classesToAdd);
+        checkboxTypeContainer.classList.add('check-container-type');
+        checkboxTypeContainer.style.fontSize = fontSize;
+        checkboxTypeContainer.innerHTML = `<h2 style="font-size: 1.2em">Type:</h2>`
+
+        // nav.insertBefore(checkboxLevelContainer, nav.firstChild);
+        // nav.insertBefore(checkboxFormContainer, nav.firstChild);
+        // nav.insertBefore(checkboxTypeContainer, nav.firstChild);
+
+
+        const glossaryLink1 = document.querySelector('li a[href*="/docs/glossary"]');
+        console.log('glossaryLink1 -----: ', glossaryLink1);
+        // go up two nodes to get the list item
+        const glossaryListItem1 = glossaryLink1.parentNode.parentNode;
+        console.log('glossaryListItem1 -------: ', glossaryListItem1);
+
+
+        const glossaryList = glossaryListItem1.querySelector('ul');
+        console.log('glossaryList ------: ', glossaryList);
+        glossaryList.insertBefore(checkboxLevelContainer, glossaryList.firstChild);
+        glossaryList.insertBefore(checkboxFormContainer, glossaryList.firstChild);
+        glossaryList.insertBefore(checkboxTypeContainer, glossaryList.firstChild);
+
+        const checkboxesForm = [];
+        const checkboxesLevel = [];
+        const checkboxesType = [];
+
+
+        // Form checkboxes
+        for (let i = 0; i < uniqueValuesArrayForm.length; i++) {
+            const checkboxForm = document.createElement('div');
+            checkboxForm.classList.add('form-check');
+            checkboxForm.classList.add('form-check-inline');
+            checkboxForm.innerHTML = `
+          <input checked data-filter="form" data-form=${uniqueValuesArrayForm[i]} class="form-check-input" type="checkbox" value="" id="defaultCheck${i}">
+          <label class="form-check-label" for="defaultCheck${i}">
+              ${uniqueValuesArrayForm[i]} 
+          </label>
+      `;
+            checkboxForm.addEventListener('click', (e) => {
+                checkboxesForm.forEach((cb, index) => {
+                    allFormCheckboxesState[cb.dataset.form] = cb.checked;
+                });
+                // update the menu items based on the checkboxData array
+                setMenuItems(e);
+            });
+
+            const formCheckContainer = document.querySelector('.check-container-form');
+            formCheckContainer.appendChild(checkboxForm);
+
+            checkboxesForm.push(checkboxForm.querySelector('input'));
+        }
+
+
+        // Level checkboxes
+        for (let i = 0; i < uniqueValuesArrayLevel.length; i++) {
+            const checkboxLevel = document.createElement('div');
+            checkboxLevel.classList.add('form-check');
+            checkboxLevel.classList.add('form-check-inline');
+
+            checkboxLevel.innerHTML = `
+          <input checked data-filter="level" data-level=${uniqueValuesArrayLevel[i]} class="form-check-input" type="checkbox" value="" id="defaultCheck2${i}">
+          <label class="level-check-label" for="defaultCheck2${i}">
+              ${uniqueValuesArrayLevel[i]} 
+          </label>
+      `;
+            checkboxLevel.addEventListener('click', (e) => {
+                checkboxesLevel.forEach((cb, index) => {
+                    allLevelCheckboxesState[cb.dataset.level] = cb.checked;
+                });
+                // update the menu items based on the checkboxData array
+                setMenuItems(e);
+            });
+
+            const levelCheckContainer = document.querySelector('.check-container-level');
+            levelCheckContainer.appendChild(checkboxLevel);
+
+            checkboxesLevel.push(checkboxLevel.querySelector('input'));
+        }
+        // Type checkboxes
+        for (let i = 0; i < uniqueValuesArrayType.length; i++) {
+            const checkboxType = document.createElement('div');
+            checkboxType.classList.add('form-check');
+            checkboxType.classList.add('form-check-inline');
+
+            checkboxType.innerHTML = `
+          <input checked data-filter="type" data-type=${uniqueValuesArrayType[i]} class="form-check-input" type="checkbox" value="" id="defaultCheck3${i}">
+          <label class="type-check-label" for="defaultCheck3${i}">
+              ${uniqueValuesArrayType[i]} 
+          </label>
+      `;
+            checkboxType.addEventListener('click', (e) => {
+                checkboxesType.forEach((cb, index) => {
+                    allTypeCheckboxesState[cb.dataset.type] = cb.checked;
+                });
+                // update the menu items based on the checkboxData array
+                setMenuItems(e);
+            });
+
+            const typeCheckContainer = document.querySelector('.check-container-type');
+            typeCheckContainer.appendChild(checkboxType);
+
+            checkboxesType.push(checkboxType.querySelector('input'));
+        }
+        // return checkboxesForm.map(checkboxForm => checkboxForm.checked);
+        // return checkboxesLevel.map(checkboxLevel => checkboxLevel.checked);
+    }
+
+
+
+    createFilters();
+
+    // if (location.pathname !== '/docs/glossary') {
+    //     return;
+    // }
+    const glossaryLink = document.querySelector('li a[href*="/docs/glossary"]');
     // go up two nodes to get the list item
     const glossaryListItem = glossaryLink.parentNode.parentNode;
     // now get the ul, so we skip the <a>glossary</a> link
@@ -220,121 +359,7 @@ const addUiToSidebar = () => {
     }
 
 
-    // add checkboxes to the sidebar, first add a container
-    if (document.querySelector('.check-container-form')) {
-        // checkboxes already added, do nothing
-        return;
-    }
-    const nav = document.querySelector('nav[aria-label="Docs sidebar"]');
-    const classesToAdd = ['border', 'ms-2', 'me-2', 'mb-1', 'ps-2', 'pe-2', 'rounded'];
-    const fontSize = '0.8rem';
 
-    const checkboxFormContainer = document.createElement('div');
-    checkboxFormContainer.classList.add(...classesToAdd);
-    checkboxFormContainer.classList.add('check-container-form');
-    checkboxFormContainer.style.fontSize = fontSize;
-    checkboxFormContainer.innerHTML = `<h2 style="font-size: 1.2em">Form:</h2>`
-
-    const checkboxLevelContainer = document.createElement('div');
-    checkboxLevelContainer.classList.add(...classesToAdd);
-    checkboxLevelContainer.classList.add('check-container-level');
-    checkboxLevelContainer.style.fontSize = fontSize;
-    checkboxLevelContainer.innerHTML = `<h2 style="font-size: 1.2em">Level:</h2>`
-
-    const checkboxTypeContainer = document.createElement('div');
-    checkboxTypeContainer.classList.add(...classesToAdd);
-    checkboxTypeContainer.classList.add('check-container-type');
-    checkboxTypeContainer.style.fontSize = fontSize;
-    checkboxTypeContainer.innerHTML = `<h2 style="font-size: 1.2em">Type:</h2>`
-
-    nav.insertBefore(checkboxLevelContainer, nav.firstChild);
-    nav.insertBefore(checkboxFormContainer, nav.firstChild);
-    nav.insertBefore(checkboxTypeContainer, nav.firstChild);
-
-
-    const checkboxesForm = [];
-    const checkboxesLevel = [];
-    const checkboxesType = [];
-
-
-    // Form checkboxes
-    for (let i = 0; i < uniqueValuesArrayForm.length; i++) {
-        const checkboxForm = document.createElement('div');
-        checkboxForm.classList.add('form-check');
-        checkboxForm.classList.add('form-check-inline');
-        checkboxForm.innerHTML = `
-          <input checked data-filter="form" data-form=${uniqueValuesArrayForm[i]} class="form-check-input" type="checkbox" value="" id="defaultCheck${i}">
-          <label class="form-check-label" for="defaultCheck${i}">
-              ${uniqueValuesArrayForm[i]} 
-          </label>
-      `;
-        checkboxForm.addEventListener('click', (e) => {
-            checkboxesForm.forEach((cb, index) => {
-                allFormCheckboxesState[cb.dataset.form] = cb.checked;
-            });
-            // update the menu items based on the checkboxData array
-            setMenuItems(e);
-        });
-
-        const formCheckContainer = document.querySelector('.check-container-form');
-        formCheckContainer.appendChild(checkboxForm);
-
-        checkboxesForm.push(checkboxForm.querySelector('input'));
-    }
-
-
-    // Level checkboxes
-    for (let i = 0; i < uniqueValuesArrayLevel.length; i++) {
-        const checkboxLevel = document.createElement('div');
-        checkboxLevel.classList.add('form-check');
-        checkboxLevel.classList.add('form-check-inline');
-
-        checkboxLevel.innerHTML = `
-          <input checked data-filter="level" data-level=${uniqueValuesArrayLevel[i]} class="form-check-input" type="checkbox" value="" id="defaultCheck2${i}">
-          <label class="level-check-label" for="defaultCheck2${i}">
-              ${uniqueValuesArrayLevel[i]} 
-          </label>
-      `;
-        checkboxLevel.addEventListener('click', (e) => {
-            checkboxesLevel.forEach((cb, index) => {
-                allLevelCheckboxesState[cb.dataset.level] = cb.checked;
-            });
-            // update the menu items based on the checkboxData array
-            setMenuItems(e);
-        });
-
-        const levelCheckContainer = document.querySelector('.check-container-level');
-        levelCheckContainer.appendChild(checkboxLevel);
-
-        checkboxesLevel.push(checkboxLevel.querySelector('input'));
-    }
-    // Type checkboxes
-    for (let i = 0; i < uniqueValuesArrayType.length; i++) {
-        const checkboxType = document.createElement('div');
-        checkboxType.classList.add('form-check');
-        checkboxType.classList.add('form-check-inline');
-
-        checkboxType.innerHTML = `
-          <input checked data-filter="type" data-type=${uniqueValuesArrayType[i]} class="form-check-input" type="checkbox" value="" id="defaultCheck3${i}">
-          <label class="type-check-label" for="defaultCheck3${i}">
-              ${uniqueValuesArrayType[i]} 
-          </label>
-      `;
-        checkboxType.addEventListener('click', (e) => {
-            checkboxesType.forEach((cb, index) => {
-                allTypeCheckboxesState[cb.dataset.type] = cb.checked;
-            });
-            // update the menu items based on the checkboxData array
-            setMenuItems(e);
-        });
-
-        const typeCheckContainer = document.querySelector('.check-container-type');
-        typeCheckContainer.appendChild(checkboxType);
-
-        checkboxesType.push(checkboxType.querySelector('input'));
-    }
-    // return checkboxesForm.map(checkboxForm => checkboxForm.checked);
-    // return checkboxesLevel.map(checkboxLevel => checkboxLevel.checked);
 };
 
 // function to call when the route changes
@@ -342,6 +367,29 @@ export function onRouteDidUpdate({ location, previousLocation }) {
     // Don't execute if we are still on the same page; the lifecycle may be fired
     // because the hash changes (e.g. when navigating between headings)
     // if (location.pathname === previousLocation?.pathname) return;
+    console.log('location.pathname: ', location.pathname);
+
+    // if the sidebar is not present, do nothing
+    if (!document.querySelector('.theme-doc-sidebar-container')) {
+        return;
+    }
+    const glossaryLink1 = document.querySelector('li a[href*="/docs/glossary"]');
+    console.log('glossaryLink1 -----: ', glossaryLink1);
+    // go up two nodes to get the list item
+    const glossaryListItem1 = glossaryLink1.parentNode.parentNode;
+    console.log('glossaryListItem1 -------: ', glossaryListItem1);
+
+
+    const glossaryList = glossaryListItem1.querySelector('ul');
+    console.log('glossaryList ------: ', glossaryList);
+
+    if (!glossaryList) {
+        return;
+
+    }
+
+    console.log("wel of niet xxxxxxx");
+    // console.log(document.querySelector('li a[href*="/docs/glossary"]'));
     addUiToSidebar();
 }
 
