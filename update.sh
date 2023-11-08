@@ -49,12 +49,12 @@ git clone https://github.com/WebOfTrust/WOT-terms.wiki.git temp-wiki
 
 # Step 2: Copy Wiki To Docusaurus Glossary directory
 # Create the directory if it doesn't exist
-mkdir -p docs/${OVERVIEW_DIR}
+mkdir -p docs/${GLOSSARY_DIR}
 
 # Files that are already in the /docs/04_glossary/ directory will not be overwritten
 # Synchronize wiki contents to /docs/04_glossary/
 # Exclude multiple files: --exclude={'.gitignore','README.md'}
-rsync -a --delete --exclude='.gitignore' temp-wiki/ docs/${OVERVIEW_DIR}
+rsync -a --delete --exclude='.gitignore' temp-wiki/ docs/${GLOSSARY_DIR}
 
 
 # Step 3: Cleanup
