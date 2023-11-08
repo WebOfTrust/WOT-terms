@@ -77,11 +77,12 @@ function cleanup(content) {
     let relevantContent = content.values;
 
     // for every entry in relevantContent[0] (the first row) do remove spaces at both ends
-    relevantContent[0].forEach((item, index) => {
-      item = item.trim();
-      relevantContent[0][index] = item; // update the item in the relevantContent array
+    relevantContent.forEach((row, rowIndex) => {
+      row.forEach((item, index) => {
+        item = item.trim();
+        relevantContent[rowIndex][index] = item; // update the item in the relevantContent array
+      });
     });
-
     // Remove empty rows
     relevantContent = relevantContent.filter((item) => {
       return item[0] !== '';
