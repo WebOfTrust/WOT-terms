@@ -1,5 +1,6 @@
 import overview from '/static/json/overview.json';
 const paths = require('../docusaurus.paths.js');
+const baseUrl = paths.baseUrl;
 
 /**
  * The column names of the list of websites to scrape.
@@ -332,7 +333,7 @@ export function onRouteDidUpdate({ location, previousLocation }) {
     if (!document.querySelector('.theme-doc-sidebar-container')) {
         return;
     }
-    const glossaryMainMenuItem = document.querySelector(`.theme-doc-sidebar-menu li a[href="${paths.baseUrl}docs/glossary"]`);
+    const glossaryMainMenuItem = document.querySelector(`.theme-doc-sidebar-menu li a[href="${baseUrl}docs/glossary"]`);
     const parentElement = glossaryMainMenuItem.parentNode.parentNode; // This is the 'li'
     const ulElement = parentElement.querySelector('ul');
 
