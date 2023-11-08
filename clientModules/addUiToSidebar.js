@@ -1,4 +1,5 @@
 import overview from '/static/json/overview.json';
+const paths = require('../docusaurus.paths.js');
 
 /**
  * The column names of the list of websites to scrape.
@@ -104,53 +105,41 @@ function areAllCheckboxesFalse() {
     return true;
 }
 
-const addUiToSidebar = () => {
-    console.log("addUiToSidebar xxxx xxxx xxxx xxxxx xx xxx xx");
+const addUiToSidebar = (ulElement, glossaryListItemChildLinks) => {
     function createFilters() {
         // add checkboxes to the sidebar, first add a container
         if (document.querySelector('.check-container-form')) {
             // checkboxes already added, do nothing
             return;
         }
-        const nav = document.querySelector('nav[aria-label="Docs sidebar"]');
-        const classesToAdd = ['border', 'ms-2', 'me-2', 'mb-1', 'ps-2', 'pe-2', 'rounded'];
+        const classesToAdd = ['border', 'me-2', 'mb-1', 'ps-2', 'pt-2', 'pe-2', 'rounded', 'd-block', 'bg-light', 'border-secondary'];
         const fontSize = '0.8rem';
 
         const checkboxFormContainer = document.createElement('div');
         checkboxFormContainer.classList.add(...classesToAdd);
         checkboxFormContainer.classList.add('check-container-form');
         checkboxFormContainer.style.fontSize = fontSize;
-        checkboxFormContainer.innerHTML = `<h2 style="font-size: 1.2em">Form:</h2>`
+        checkboxFormContainer.innerHTML = `<h2 class="d-inline pe-1" style="font-size: 1.2em">Form:</h2>`
 
         const checkboxLevelContainer = document.createElement('div');
         checkboxLevelContainer.classList.add(...classesToAdd);
         checkboxLevelContainer.classList.add('check-container-level');
         checkboxLevelContainer.style.fontSize = fontSize;
-        checkboxLevelContainer.innerHTML = `<h2 style="font-size: 1.2em">Level:</h2>`
+        checkboxLevelContainer.innerHTML = `<h2 class="d-inline pe-1" style="font-size: 1.2em">Level:</h2>`
 
         const checkboxTypeContainer = document.createElement('div');
         checkboxTypeContainer.classList.add(...classesToAdd);
         checkboxTypeContainer.classList.add('check-container-type');
         checkboxTypeContainer.style.fontSize = fontSize;
-        checkboxTypeContainer.innerHTML = `<h2 style="font-size: 1.2em">Type:</h2>`
-
-        // nav.insertBefore(checkboxLevelContainer, nav.firstChild);
-        // nav.insertBefore(checkboxFormContainer, nav.firstChild);
-        // nav.insertBefore(checkboxTypeContainer, nav.firstChild);
+        checkboxTypeContainer.innerHTML = `<h2 class="d-inline pe-1" style="font-size: 1.2em">Type:</h2>`
 
 
-        const glossaryLink1 = document.querySelector('li a[href*="/docs/glossary"]');
-        console.log('glossaryLink1 -----: ', glossaryLink1);
-        // go up two nodes to get the list item
-        const glossaryListItem1 = glossaryLink1.parentNode.parentNode;
-        console.log('glossaryListItem1 -------: ', glossaryListItem1);
-
-
-        const glossaryList = glossaryListItem1.querySelector('ul');
-        console.log('glossaryList ------: ', glossaryList);
-        glossaryList.insertBefore(checkboxLevelContainer, glossaryList.firstChild);
-        glossaryList.insertBefore(checkboxFormContainer, glossaryList.firstChild);
-        glossaryList.insertBefore(checkboxTypeContainer, glossaryList.firstChild);
+        // add the container with filters to the sidebar
+        if (ulElement) {
+            ulElement.insertBefore(checkboxLevelContainer, ulElement.firstChild);
+            ulElement.insertBefore(checkboxFormContainer, ulElement.firstChild);
+            ulElement.insertBefore(checkboxTypeContainer, ulElement.firstChild);
+        }
 
         const checkboxesForm = [];
         const checkboxesLevel = [];
@@ -233,26 +222,13 @@ const addUiToSidebar = () => {
 
             checkboxesType.push(checkboxType.querySelector('input'));
         }
-        // return checkboxesForm.map(checkboxForm => checkboxForm.checked);
-        // return checkboxesLevel.map(checkboxLevel => checkboxLevel.checked);
     }
-
-
 
     createFilters();
 
-    // if (location.pathname !== '/docs/glossary') {
-    //     return;
-    // }
-    const glossaryLink = document.querySelector('li a[href*="/docs/glossary"]');
-    // go up two nodes to get the list item
-    const glossaryListItem = glossaryLink.parentNode.parentNode;
-    // now get the ul, so we skip the <a>glossary</a> link
-    const glossaryListItemChildLinks = glossaryListItem.querySelector('ul').querySelectorAll('a');
-
-
-
-
+    document.querySelector('.navbar__toggle').addEventListener('click', (e) => {
+        createFilters();
+    });
 
     function greyOutAllLinks() {
         glossaryListItemChildLinks.forEach((link) => {
@@ -266,12 +242,8 @@ const addUiToSidebar = () => {
     }
 
     function setMenuItems(e) {
-
         let eTargetChecked = e.target.checked;
         let eTargetDatasetFilter = e.target.dataset.filter
-
-        // greyOutAllLinks();
-        console.log('nothingChecked(): ', nothingChecked());
 
         // update the checkboxes state object
         if (e.target.dataset.form !== undefined) {
@@ -301,23 +273,17 @@ const addUiToSidebar = () => {
                             // then it should control this menu item
                             // the state of the checkbox determines if the menu item is greyed-out or not
                             // if the checkbox is checked then remove the greyed-out class
-                            console.log('eTargetChecked: ', eTargetChecked);
 
                             if (eTargetChecked) {
                                 link.classList.remove('greyed-out');
                             } else {
                                 link.classList.add('greyed-out');
                             }
-
-
-
-
                         }
                     }
                     if (eTargetDatasetFilter === "level") {
                         // if the checkbox value matches the value in the overview.json
                         if (e.target.dataset.level === overview.values[i][positionInArray('level')]) {
-                            console.log('e.target.dataset.form: ', e.target.dataset.form);
                             // if the checkbox is checked then remove the greyed-out class
 
                             if (eTargetChecked) {
@@ -353,13 +319,7 @@ const addUiToSidebar = () => {
 
             }
         });
-
-
-
     }
-
-
-
 };
 
 // function to call when the route changes
@@ -367,29 +327,23 @@ export function onRouteDidUpdate({ location, previousLocation }) {
     // Don't execute if we are still on the same page; the lifecycle may be fired
     // because the hash changes (e.g. when navigating between headings)
     // if (location.pathname === previousLocation?.pathname) return;
-    console.log('location.pathname: ', location.pathname);
 
     // if the sidebar is not present, do nothing
     if (!document.querySelector('.theme-doc-sidebar-container')) {
         return;
     }
-    const glossaryLink1 = document.querySelector('li a[href*="/docs/glossary"]');
-    console.log('glossaryLink1 -----: ', glossaryLink1);
-    // go up two nodes to get the list item
-    const glossaryListItem1 = glossaryLink1.parentNode.parentNode;
-    console.log('glossaryListItem1 -------: ', glossaryListItem1);
+    const glossaryMainMenuItem = document.querySelector(`.theme-doc-sidebar-menu li a[href="${paths.baseUrl}docs/glossary"]`);
+    const parentElement = glossaryMainMenuItem.parentNode.parentNode; // This is the 'li'
+    const ulElement = parentElement.querySelector('ul');
 
-
-    const glossaryList = glossaryListItem1.querySelector('ul');
-    console.log('glossaryList ------: ', glossaryList);
-
-    if (!glossaryList) {
-        return;
-
+    // if the sidebar is present but the glossary menu is not present, do nothing
+    if (!ulElement) {
+        return
     }
 
-    console.log("wel of niet xxxxxxx");
-    // console.log(document.querySelector('li a[href*="/docs/glossary"]'));
-    addUiToSidebar();
+    // now get the ul, so we skip the <a>glossary</a> link
+    const glossaryListItemChildLinks = ulElement.querySelectorAll('a');
+
+    addUiToSidebar(ulElement, glossaryListItemChildLinks);
 }
 
