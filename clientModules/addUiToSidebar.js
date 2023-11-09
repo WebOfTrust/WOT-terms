@@ -352,9 +352,14 @@ export function onRouteDidUpdate({ location, previousLocation }) {
         }
     }
 
-    const selectorString = ".theme-doc-sidebar-menu li a[href$='" + baseUrl + "docs/glossary']"
+    // const selectorString = ".theme-doc-sidebar-menu li a[href$='" + baseUrl + "docs/glossary']"
 
-    console.log('selectorString: ', selectorString);
+    // if the sidebar is present but the glossary menu is not present, do nothing
+    if (!glossaryMainMenuItem) {
+        return
+    }
+
+    // console.log('selectorString: ', selectorString);
     // const glossaryMainMenuItem = document.querySelector(selectorString);
     console.log('glossaryMainMenuItem: ', glossaryMainMenuItem);
     const parentElement = glossaryMainMenuItem.parentNode.parentNode; // This is the 'li'
