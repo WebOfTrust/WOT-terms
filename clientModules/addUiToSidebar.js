@@ -336,7 +336,10 @@ export function onRouteDidUpdate({ location, previousLocation }) {
     // const glossaryMainMenuItem = document.querySelector(`.theme-doc-sidebar-menu li a[href="${baseUrl}docs/glossary"]`);
     console.log('baseUrl: ', baseUrl);
     // const selectorString = '.theme-doc-sidebar-menu li a[href="' + baseUrl + 'docs/glossary"]';
-    const selectorString = ".theme-doc-sidebar-menu li a[href='" + baseUrl + "docs/glossary']";
+    // const selectorString = ".theme-doc-sidebar-menu li a[href='" + baseUrl + "docs/glossary']";
+    // const selectorString = ".theme-doc-sidebar-menu li a[href='" + baseUrl + "docs/glossary']";
+    document.querySelector(".theme-doc-sidebar-menu li a[href$='" + baseUrl + "docs/glossary']")
+
     console.log('selectorString: ', selectorString);
     const glossaryMainMenuItem = document.querySelector(selectorString);
     console.log('glossaryMainMenuItem: ', glossaryMainMenuItem);
