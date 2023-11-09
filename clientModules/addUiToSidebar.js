@@ -338,10 +338,24 @@ export function onRouteDidUpdate({ location, previousLocation }) {
     // const selectorString = '.theme-doc-sidebar-menu li a[href="' + baseUrl + 'docs/glossary"]';
     // const selectorString = ".theme-doc-sidebar-menu li a[href='" + baseUrl + "docs/glossary']";
     // const selectorString = ".theme-doc-sidebar-menu li a[href='" + baseUrl + "docs/glossary']";
+
+    let glossaryMainMenuItem;
+
+    const links = document.querySelectorAll(".theme-doc-sidebar-menu li a");
+    for (let i = 0; i < links.length; i++) {
+        const link = links[i];
+        const href = link.getAttribute('href');
+        const regex = new RegExp(baseUrl + 'docs/glossary$');
+        if (regex.test(href)) {
+            glossaryMainMenuItem = link;
+            break;
+        }
+    }
+
     const selectorString = ".theme-doc-sidebar-menu li a[href$='" + baseUrl + "docs/glossary']"
 
     console.log('selectorString: ', selectorString);
-    const glossaryMainMenuItem = document.querySelector(selectorString);
+    // const glossaryMainMenuItem = document.querySelector(selectorString);
     console.log('glossaryMainMenuItem: ', glossaryMainMenuItem);
     const parentElement = glossaryMainMenuItem.parentNode.parentNode; // This is the 'li'
     const ulElement = parentElement.querySelector('ul');
