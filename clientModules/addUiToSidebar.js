@@ -106,7 +106,45 @@ function areAllCheckboxesFalse() {
     return true;
 }
 
-const addUiToSidebar = (ulElement, glossaryListItemChildLinks) => {
+const addUiToSidebar = () => {
+    // if the sidebar is not present, do nothing
+    if (!document.querySelector('.theme-doc-sidebar-container')) {
+        return;
+    }
+
+    // “a[href=” does not work on iOS…
+    // const selectorString = ".theme-doc-sidebar-menu li a[href$='" + baseUrl + "docs/glossary']"
+    // const glossaryMainMenuItem = document.querySelector(selectorString);
+
+    //… so we use this instead:
+    let glossaryMainMenuItem;
+
+    const links = document.querySelectorAll(".theme-doc-sidebar-menu li a");
+    for (let i = 0; i < links.length; i++) {
+        const link = links[i];
+        const href = link.getAttribute('href');
+        const regex = new RegExp(baseUrl + 'docs/glossary$');
+        if (regex.test(href)) {
+            glossaryMainMenuItem = link;
+            break;
+        }
+    }
+
+    // if glossaryMainMenuItem does not exist, do nothing
+    if (!glossaryMainMenuItem) {
+        return
+    }
+    const parentElement = glossaryMainMenuItem.parentNode.parentNode; // This is the 'li'
+    const ulElement = parentElement.querySelector('ul');
+
+    // if the sidebar is present but the glossary menu is not present, do nothing
+    if (!ulElement) {
+        return
+    }
+
+    // now get the ul, so we skip the <a>glossary</a> link
+    const glossaryListItemChildLinks = ulElement.querySelectorAll('a');
+
     function createFilters() {
         // add checkboxes to the sidebar, first add a container
         if (document.querySelector('.check-container-form')) {
@@ -328,51 +366,6 @@ export function onRouteDidUpdate({ location, previousLocation }) {
     // Don't execute if we are still on the same page; the lifecycle may be fired
     // because the hash changes (e.g. when navigating between headings)
     // if (location.pathname === previousLocation?.pathname) return;
-
-    // if the sidebar is not present, do nothing
-    if (!document.querySelector('.theme-doc-sidebar-container')) {
-        return;
-    }
-    // const glossaryMainMenuItem = document.querySelector(`.theme-doc-sidebar-menu li a[href="${baseUrl}docs/glossary"]`);
-    console.log('baseUrl: ', baseUrl);
-    // const selectorString = '.theme-doc-sidebar-menu li a[href="' + baseUrl + 'docs/glossary"]';
-    // const selectorString = ".theme-doc-sidebar-menu li a[href='" + baseUrl + "docs/glossary']";
-    // const selectorString = ".theme-doc-sidebar-menu li a[href='" + baseUrl + "docs/glossary']";
-
-    let glossaryMainMenuItem;
-
-    const links = document.querySelectorAll(".theme-doc-sidebar-menu li a");
-    for (let i = 0; i < links.length; i++) {
-        const link = links[i];
-        const href = link.getAttribute('href');
-        const regex = new RegExp(baseUrl + 'docs/glossary$');
-        if (regex.test(href)) {
-            glossaryMainMenuItem = link;
-            break;
-        }
-    }
-
-    // const selectorString = ".theme-doc-sidebar-menu li a[href$='" + baseUrl + "docs/glossary']"
-
-    // if the sidebar is present but the glossary menu is not present, do nothing
-    if (!glossaryMainMenuItem) {
-        return
-    }
-
-    // console.log('selectorString: ', selectorString);
-    // const glossaryMainMenuItem = document.querySelector(selectorString);
-    console.log('glossaryMainMenuItem: ', glossaryMainMenuItem);
-    const parentElement = glossaryMainMenuItem.parentNode.parentNode; // This is the 'li'
-    const ulElement = parentElement.querySelector('ul');
-
-    // if the sidebar is present but the glossary menu is not present, do nothing
-    if (!ulElement) {
-        return
-    }
-
-    // now get the ul, so we skip the <a>glossary</a> link
-    const glossaryListItemChildLinks = ulElement.querySelectorAll('a');
-
-    addUiToSidebar(ulElement, glossaryListItemChildLinks);
+    addUiToSidebar();
 }
 
