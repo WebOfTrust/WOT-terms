@@ -338,7 +338,7 @@ export function onRouteDidUpdate({ location, previousLocation }) {
     // const selectorString = '.theme-doc-sidebar-menu li a[href="' + baseUrl + 'docs/glossary"]';
     // const selectorString = ".theme-doc-sidebar-menu li a[href='" + baseUrl + "docs/glossary']";
     // const selectorString = ".theme-doc-sidebar-menu li a[href='" + baseUrl + "docs/glossary']";
-    const selectorString = document.querySelector(".theme-doc-sidebar-menu li a[href$='" + baseUrl + "docs/glossary']")
+    const selectorString = ".theme-doc-sidebar-menu li a[href$='" + baseUrl + "docs/glossary']"
 
     console.log('selectorString: ', selectorString);
     const glossaryMainMenuItem = document.querySelector(selectorString);
