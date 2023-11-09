@@ -143,7 +143,7 @@ const addUiToSidebar = () => {
     }
 
     // now get the ul, so we skip the <a>glossary</a> link
-    const glossaryListItemChildLinks = ulElement.querySelectorAll('a');
+    const ulElementChildLinks = ulElement.querySelectorAll('a');
 
     function createFilters() {
         // add checkboxes to the sidebar, first add a container
@@ -270,12 +270,12 @@ const addUiToSidebar = () => {
     });
 
     function greyOutAllLinks() {
-        glossaryListItemChildLinks.forEach((link) => {
+        ulElementChildLinks.forEach((link) => {
             link.classList.add('greyed-out');
         });
     }
     function removeGreyOutAllLinks() {
-        glossaryListItemChildLinks.forEach((link) => {
+        ulElementChildLinks.forEach((link) => {
             link.classList.remove('greyed-out');
         });
     }
@@ -297,7 +297,7 @@ const addUiToSidebar = () => {
 
 
         // loop through all links in the glossary menu
-        glossaryListItemChildLinks.forEach((link) => {
+        ulElementChildLinks.forEach((link) => {
             // loop through all entries in the overview.json
             for (let i = 0; i < overview.values.length; i++) {
 
