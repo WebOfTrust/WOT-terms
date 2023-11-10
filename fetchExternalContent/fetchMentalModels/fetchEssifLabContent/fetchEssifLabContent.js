@@ -11,7 +11,6 @@ axios.get(url)
 
         $('h3').each((i, el) => {
             const organisation = 'Essif-Lab';
-            const url = 'https://essif-lab.github.io/framework/docs/essifLab-glossary';
             const term = $(el).text().trim();
             const anchor = $(el).attr('id');
             // const definition = $(el).nextUntil('h3').text().trim();
