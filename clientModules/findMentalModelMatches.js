@@ -1,5 +1,6 @@
 import termsDefinitionsToip from '@site/static/json/terms-definitions-toip.json';
 import termsDefinitionsEssiflab from '@site/static/json/terms-definitions-essiflab.json';
+import termsDefinitionsDigitalgovtnz from '@site/static/json/terms-definitions-digitalgovtnz.json';
 /**
  *  This plugin adds a GTP generated summary to the top of the page.
  */
@@ -30,7 +31,7 @@ const findMentalModelMatches = () => {
     const headingText = heading.innerText;
     console.log('heading: ', headingText);
 
-    const allTermsDefinitions = [...termsDefinitionsToip, ...termsDefinitionsEssiflab];
+    const allTermsDefinitions = [...termsDefinitionsToip, ...termsDefinitionsEssiflab, ...termsDefinitionsDigitalgovtnz];
 
 
 
