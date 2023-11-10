@@ -4,8 +4,9 @@ require('dotenv').config();
 // Config
 const url = 'https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/';
 const organisation = 'digital.govt.nz';
+const jsonFileName = 'terms-definitions-digitalgovtnz.json';
 
-axios.get(url, organisation)
+axios.get(url, organisation, jsonFileName)
     .then(response => {
         const html = response.data;
         const cheerio = require('cheerio');
@@ -22,12 +23,12 @@ axios.get(url, organisation)
 
         const fs = require('fs');
         const path = require('path');
-        const filePath = path.join(process.env.GENERATED_JSON_DIR, 'terms-definitions-essiflab.json');
+        const filePath = path.join(process.env.GENERATED_JSON_DIR, jsonFileName);
         fs.writeFile(filePath, JSON.stringify(terms), err => {
             if (err) {
                 console.log(err);
             } else {
-                console.log('Essif Lab terms saved to terms-definitions-essiflab.json');
+                console.log(`Digital Govt Nz terms saved to ${jsonFileName}`);
             }
         });
     })
