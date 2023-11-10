@@ -14,7 +14,7 @@ const typesenseInstantSearchCreateDomElements = () => {
 <div class="search-modal-backdrop hidden"></div>
 <div id="search" class="container p-3 hidden" style="max-width: 70em;">
 <h1 class="search-heading text-center fs-5">KERI Suite Search Engine (KERISSE)</h1>
-<p class='text-center'><span id='index-created-timestamp'>–</span>, <span id='index-created-page-count'>–</span></p>
+<p class='text-center'><span id='index-created-timestamp-target-search-modal'>–</span>, <span id='index-created-page-count-target-search-modal'>–</span></p>
    <div id="search-box" class="mt-3 mb-2"></div>
    <div id="search-close">✖</div>
    <a href="#search-results" class="btn btn-light btn-sm mt-3 mb-3 d-block d-md-none">To search results</a>
@@ -118,7 +118,7 @@ const typesenseInstantSearchCreateDomElements = () => {
 
       The code below Fetches HTML content from indexed-in-KERISSE on this same domain using the `fetch` API.
       
-      It then parses the fetched HTML using `DOMParser` and queries the DOM to find a paragraph element with the id "index-created-timestamp".
+      It then parses the fetched HTML using `DOMParser` and queries the DOM to find a paragraph element with the id "index-created-timestamp-source".
       
       If the element is found, its text content is added to the search result page; otherwise, an appropriate message indicating the absence of such an element is logged.
    */
@@ -138,23 +138,23 @@ const typesenseInstantSearchCreateDomElements = () => {
          const doc = parser.parseFromString(html, 'text/html');
 
          // Finding the paragraph elements by their id's
-         const timestampElement = doc.querySelector('#index-created-timestamp');
-         const pageCountElement = doc.querySelector('#index-created-page-count');
+         const timestampElement = doc.querySelector('#index-created-timestamp-source');
+         const pageCountElement = doc.querySelector('#index-created-page-count-source');
 
          if (timestampElement) {
             // Extracting and logging the content of the paragraph
             const timestampContent = timestampElement.textContent;
-            document.querySelector('#index-created-timestamp').textContent = timestampContent;
+            document.querySelector('#index-created-timestamp-target-search-modal').textContent = timestampContent;
          } else {
-            console.log('Element with id "index-created-timestamp" not found.');
+            console.log('Element with id "index-created-timestamp-source" not found.');
          }
 
          if (pageCountElement) {
             // Extracting and logging the content of the paragraph
             const pageCountContent = pageCountElement.textContent;
-            document.querySelector('#index-created-page-count').textContent = pageCountContent;
+            document.querySelector('#index-created-page-count-target-search-modal').textContent = pageCountContent;
          } else {
-            console.log('Element with id "index-created-page-count" not found.');
+            console.log('Element with id "index-created-page-count-source" not found.');
          }
       })
       .catch(error => {
