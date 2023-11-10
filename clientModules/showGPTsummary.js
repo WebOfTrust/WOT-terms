@@ -80,8 +80,8 @@ const showGPTsummary = () => {
           const summaryContainer = document.createElement('div');
           summaryContainer.classList.add(
             'summary-container',
-            'alert',
-            'alert--info',
+            // 'alert',
+            // 'alert--info',
             'margin-bottom--lg'
           );
           summaryContainer.setAttribute('role', 'alert');

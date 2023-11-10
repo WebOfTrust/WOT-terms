@@ -1,4 +1,6 @@
 import overview from '/static/json/overview.json';
+import tippy from 'tippy.js';
+import 'tippy.js/themes/light-border.css';
 const paths = require('../docusaurus.paths.js');
 const baseUrl = paths.baseUrl;
 
@@ -158,20 +160,19 @@ const addUiToSidebar = () => {
         checkboxFormContainer.classList.add(...classesToAdd);
         checkboxFormContainer.classList.add('check-container-form');
         checkboxFormContainer.style.fontSize = fontSize;
-        checkboxFormContainer.innerHTML = `<h2 class="d-inline pe-1" style="font-size: 1.2em">Form:</h2>`
+        checkboxFormContainer.innerHTML = `<h2 class="d-inline pe-1" style="font-size: 1.2em">Form:</h2><span role="button" class="fs-5 lh-1 explanation-form float-end">?</span>`
 
         const checkboxLevelContainer = document.createElement('div');
         checkboxLevelContainer.classList.add(...classesToAdd);
         checkboxLevelContainer.classList.add('check-container-level');
         checkboxLevelContainer.style.fontSize = fontSize;
-        checkboxLevelContainer.innerHTML = `<h2 class="d-inline pe-1" style="font-size: 1.2em">Level:</h2>`
+        checkboxLevelContainer.innerHTML = `<h2 class="d-inline pe-1" style="font-size: 1.2em">Level:</h2><span role="button" class="fs-5 lh-1 explanation-level float-end">?</span>`
 
         const checkboxTypeContainer = document.createElement('div');
         checkboxTypeContainer.classList.add(...classesToAdd);
         checkboxTypeContainer.classList.add('check-container-type');
         checkboxTypeContainer.style.fontSize = fontSize;
-        checkboxTypeContainer.innerHTML = `<h2 class="d-inline pe-1" style="font-size: 1.2em">Type:</h2>`
-
+        checkboxTypeContainer.innerHTML = `<h2 class="d-inline pe-1" style="font-size: 1.2em">Type:</h2><span role="button" class="fs-5 lh-1 explanation-type float-end align-middle">?</span>`
 
         // add the container with filters to the sidebar
         if (ulElement) {
@@ -179,6 +180,67 @@ const addUiToSidebar = () => {
             ulElement.insertBefore(checkboxFormContainer, ulElement.firstChild);
             ulElement.insertBefore(checkboxTypeContainer, ulElement.firstChild);
         }
+
+        const explanationType = document.querySelector('.explanation-type');
+        const explanationLevel = document.querySelector('.explanation-level');
+        const explanationForm = document.querySelector('.explanation-form');
+
+        tippy(explanationType, {
+            triggerTarget: explanationType, // button
+            trigger: 'click',
+            arrow: true,
+            // arrowType: 'round',
+            theme: 'light-border',
+            allowHTML: true,
+            content: `
+                <div style="font-size: 0.8em">
+                    <h2 class="fs-6 text-center">Type</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">K: Keri-related</li>
+                        <li class="list-group-item">S: SSI related</li>
+                        <li class="list-group-item">G: General</li>
+                    </ul>
+                </div
+            `,
+        });
+        tippy(explanationLevel, {
+            triggerTarget: explanationLevel, // button
+            trigger: 'click',
+            arrow: true,
+            // arrowType: 'round',
+            theme: 'light-border',
+            allowHTML: true,
+            content: `
+                <div style="font-size: 0.8em">
+                    <h2 class="fs-6 text-center">Level</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">1: level 1</li>
+                        <li class="list-group-item">2: level 2</li>
+                        <li class="list-group-item">3: level 3</li>
+                    </ul>
+                </div>
+            `,
+        });
+        tippy(explanationForm, {
+            triggerTarget: explanationForm, // button
+            trigger: 'click',
+            arrow: true,
+            // arrowType: 'round',
+            theme: 'light-border',
+            allowHTML: true,
+            content: `
+                <div style="font-size: 0.8em">
+                    <h2 class="fs-6 text-center">Form</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">n: noun</li>
+                        <li class="list-group-item">r: verb</li>
+                        <li class="list-group-item">v: relation</li>
+                        <li class="list-group-item">a: adjective/adverb</li>
+                    </ul>
+                </div>
+            `,
+        });
+
 
         const checkboxesForm = [];
         const checkboxesLevel = [];
