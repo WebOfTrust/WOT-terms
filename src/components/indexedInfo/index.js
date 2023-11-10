@@ -27,8 +27,8 @@ const IndexedInfo = () => {
             .then((html) => {
                 const doc = initializeDOMparser(html);
 
-                const timestampElement = doc.querySelector("#index-created-timestamp");
-                const pageCountElement = doc.querySelector("#index-created-page-count");
+                const timestampElement = doc.querySelector("#index-created-timestamp-source");
+                const pageCountElement = doc.querySelector("#index-created-page-count-source");
 
                 if (timestampElement) {
                     setTimestampContent(timestampElement.textContent);
@@ -45,7 +45,7 @@ const IndexedInfo = () => {
 
     return (
         <>
-            <span id="index-created-timestamp">{timestampContent}</span> – <span id="index-created-page-count">{pageCountContent}</span>
+            <span>{timestampContent}</span> – <span>{pageCountContent}</span>
         </>
     );
 }
