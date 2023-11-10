@@ -67,7 +67,7 @@ function sortLinesInFile(fileName) {
     const header = '# Indexed in KERISSE';
 
     // Final string to write to the file
-    const contentWithHeader = `${header}\n<p id='index-created-timestamp'>Indexed at ${currentTime}</p>\n<p id='index-created-page-count'>Number of indexed pages: ${pagesCount}</p>\n${finalContent}`;
+    const contentWithHeader = `${header}\n<p id='index-created-timestamp-source'>Indexed at ${currentTime}</p>\n<p id='index-created-page-count-source'>Number of indexed pages: ${pagesCount}</p>\n${finalContent}`;
 
     // Write the final content back to the file
     fs.writeFile(fileName, contentWithHeader, 'utf8', (err) => {
