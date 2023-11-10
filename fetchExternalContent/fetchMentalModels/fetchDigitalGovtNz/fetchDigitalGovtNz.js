@@ -13,12 +13,10 @@ axios.get(url, organisation, jsonFileName)
         const $ = cheerio.load(html);
         const terms = [];
 
-        $('h3').each((i, el) => {
-            const term = $(el).text().trim();
-            const anchor = $(el).attr('id');
-            // const definition = $(el).nextUntil('h3').text().trim();
-            const definition = $(el).nextUntil('h3').html();
-            terms.push({ organisation, url, term, definition, anchor });
+        $('tr').each((i, el) => {
+            const term = $(el).find('td').first().text().trim();
+            const definition = $(el).find('td').last().text().trim();
+            terms.push({ organisation, url, term, definition });
         });
 
         const fs = require('fs');
