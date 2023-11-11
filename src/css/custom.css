@@ -946,7 +946,22 @@ svg a {
   /* stroke-width: 0.4; */
   /* stroke-linecap: round; */
   text-decoration: underline !important;
+}
 
+/* Animate SVG arrows */
+@keyframes drawSvgArrows {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* path { */
+/* path[stroke-dasharray] { */
+path[marker-end] {
+  stroke-dasharray: 10;
+  stroke-dashoffset: 40;
+  /* animation: drawSvgArrows 3.5s linear forwards; */
+  animation: drawSvgArrows 3.5s linear infinite;
 }
 /*
   END SVG
