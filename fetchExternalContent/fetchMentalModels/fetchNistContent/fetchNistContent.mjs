@@ -19,6 +19,7 @@ const filteredJsonFullPath = path.join(process.env.GENERATED_JSON_DIR, 'terms-de
 
 
 
+
 function filterJson(overviewPath, sourceJsonPath, filteredJsonPath) {
     try {
         // Read and parse the overview JSON
@@ -32,7 +33,7 @@ function filterJson(overviewPath, sourceJsonPath, filteredJsonPath) {
         }
         const sourceJsonData = JSON.parse(sourceJsonRaw);
 
-        // Filter the terms, assign the appropriate 'definition', add 'organisation', and rename 'link' to 'url'
+        // Filter the terms, assign the appropriate 'definition', add 'organisation', rename 'link' to 'url', and add 'anchor'
         const filteredTerms = sourceJsonData.parentTerms.filter(termObj => terms.includes(termObj.term)).map(termObj => {
             if (termObj.definitions && termObj.definitions.length > 0 && termObj.definitions[0].text) {
                 termObj.definition = termObj.definitions[0].text;
@@ -41,10 +42,11 @@ function filterJson(overviewPath, sourceJsonPath, filteredJsonPath) {
             }
             termObj.organisation = "Nist";
             if (termObj.link) {
-                termObj.url = termObj.link; // Rename 'link' to 'url'
-                delete termObj.link; // Remove the old 'link' property
+                termObj.url = termObj.link;
+                delete termObj.link;
             }
             delete termObj.definitions;
+            termObj.anchor = termObj.term.replace(/[\s-]+/g, ''); // Remove spaces and dashes from 'term' to create 'anchor'
             return termObj;
         });
 
@@ -54,7 +56,6 @@ function filterJson(overviewPath, sourceJsonPath, filteredJsonPath) {
         console.error(`An error occurred: ${error.message}`);
     }
 }
-
 
 // Main function to run the tasks sequentially
 async function main() {
