@@ -15,8 +15,9 @@ axios.get(url, organisation, jsonFileName)
 
         $('tr').each((i, el) => {
             const term = $(el).find('td').first().text().trim();
+            const anchor = term.replace(/[\s-]+/g, ''); // Remove spaces and dashes from 'term' to create 'anchor'
             const definition = $(el).find('td').last().text().trim();
-            terms.push({ organisation, url, term, definition });
+            terms.push({ organisation, url, term, definition, anchor });
         });
 
         const fs = require('fs');
