@@ -821,12 +821,19 @@ https://css-tricks.com/books/greatest-css-tricks/scroll-shadows/
 }
 
 
-/* ToIP Glossary */
+/* 
+  ToIP Glossary
+*/
+
 #glossary_content dt {
     margin-top: 1.4em;
-    color: #a3c74e;
     font-size: 125%;
     font-family: Verdana, sans-serif;
+}
+
+#glossary_content dt,
+#glossary_content dt a {
+    color: #a3c74e;
 }
 
 #glossary_content dt.letter {
@@ -909,7 +916,10 @@ https://css-tricks.com/books/greatest-css-tricks/scroll-shadows/
 #glossary_content dt:not(.letter):hover > ._xl {
   display: inline;
 }
-/* END ToIP Glossary */
+/* 
+  END ToIP Glossary
+*/
+
 
 
 /* img.floatleft {
