@@ -6,7 +6,7 @@ const { JSDOM } = require('jsdom');
 require('dotenv').config();
 
 // CONFIG
-const dir = 'fetchExternalContent/fetchToIPContent/download'
+const dir = 'fetchExternalContent/fetchMentalModels/fetchToIPContent/download'
 const filename = 'toip-html-download.zip';
 const fullPath = path.join(dir, filename); // Use path.join for better compatibility
 
