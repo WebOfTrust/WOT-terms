@@ -1,5 +1,5 @@
-<!doctype html><html lang="en-US"><head>
-    <meta charset="utf-8" /><meta name="viewport" content="width=device-width" /><style>			* {
+<!doctype html><html lang="en-US"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width" /><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script><style>			* {
 				font-family:sans-serif;
 			}
 			body {
@@ -45,92 +45,143 @@
 			.messages .message .msg {
 				line-height:1.5;
 			}</style><title>Slack history</title></head><body><div class="messages">
-            <div>
-                <img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-                <div class="message">
-                    <div class="username">griffin.kev</div>
-                    <div class="time">2023-01-21T14:59:23.000Z</div>
-                    <div class="msg"><@U024KC347B4> has joined the channel</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2021-06-11/2162736674914_fc00f96f16d31a82162e_72.png" />
-                <div class="message">
-                    <div class="username">github</div>
-                    <div class="time">2023-01-21T15:04:20.000Z</div>
-                    <div class="msg"><@U025GFV1SJC> has joined the channel</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2021-06-11/2162736674914_fc00f96f16d31a82162e_72.png" />
-                <div class="message">
-                    <div class="username">github</div>
-                    <div class="time">2023-01-21T15:04:21.000Z</div>
-                    <div class="msg">This content can't be displayed.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-                <div class="message">
-                    <div class="username">griffin.kev</div>
-                    <div class="time">2023-01-23T15:23:10.000Z</div>
-                    <div class="msg">/github subscribe weboftrust/cesride</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="undefined" />
-                <div class="message">
-                    <div class="username">undefined</div>
-                    <div class="time">2023-01-23T15:23:10.000Z</div>
-                    <div class="msg">:white_check_mark: Subscribed to <https://github.com/WebOfTrust/cesride|WebOfTrust/cesride>. This channel will receive notifications for `issues`, `pulls`, `commits`, `releases`, `deployments`</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-                <div class="message">
-                    <div class="username">griffin.kev</div>
-                    <div class="time">2023-01-23T15:24:06.000Z</div>
-                    <div class="msg">/github subscribe weboftrust/parside</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="undefined" />
-                <div class="message">
-                    <div class="username">undefined</div>
-                    <div class="time">2023-01-23T15:24:06.000Z</div>
-                    <div class="msg">:white_check_mark: Subscribed to <https://github.com/WebOfTrust/parside|WebOfTrust/parside>. This channel will receive notifications for `issues`, `pulls`, `commits`, `releases`, `deployments`</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-01-24T13:52:24.000Z</div>
-                    <div class="msg"><@U04HQD29Z7E> has joined the channel</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-01-24T13:52:42.000Z</div>
-                    <div class="msg">Over the weekend I implemented `Matter` in `cesride` at parity with `KERIpy` (I believe). Here's the code:
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+  				<div class="card-text username">griffin.kev</div>
+            	<div class="card-text time">2023-01-21T14:59:23.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U024KC347B4> has joined the channel</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2021-06-11/2162736674914_fc00f96f16d31a82162e_72.png" />
+  				<div class="card-text username">github</div>
+            	<div class="card-text time">2023-01-21T15:04:20.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U025GFV1SJC> has joined the channel</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2021-06-11/2162736674914_fc00f96f16d31a82162e_72.png" />
+  				<div class="card-text username">github</div>
+            	<div class="card-text time">2023-01-21T15:04:21.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">This content can't be displayed.</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+  				<div class="card-text username">griffin.kev</div>
+            	<div class="card-text time">2023-01-23T15:23:10.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">/github subscribe weboftrust/cesride</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="undefined" />
+  				<div class="card-text username">undefined</div>
+            	<div class="card-text time">2023-01-23T15:23:10.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">:white_check_mark: Subscribed to <https://github.com/WebOfTrust/cesride|WebOfTrust/cesride>. This channel will receive notifications for `issues`, `pulls`, `commits`, `releases`, `deployments`</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+  				<div class="card-text username">griffin.kev</div>
+            	<div class="card-text time">2023-01-23T15:24:06.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">/github subscribe weboftrust/parside</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="undefined" />
+  				<div class="card-text username">undefined</div>
+            	<div class="card-text time">2023-01-23T15:24:06.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">:white_check_mark: Subscribed to <https://github.com/WebOfTrust/parside|WebOfTrust/parside>. This channel will receive notifications for `issues`, `pulls`, `commits`, `releases`, `deployments`</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-01-24T13:52:24.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U04HQD29Z7E> has joined the channel</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-01-24T13:52:42.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">Over the weekend I implemented `Matter` in `cesride` at parity with `KERIpy` (I believe). Here's the code:
 <https://github.com/jasoncolburne/cesride/tree/spike>
 
 It can probably use some more work, I'm a fairly new Rust coder (2 months but pretty intensive) but it's a good start. <@U024KC347B4> you probably want to check this out as I noticed you made some changes, too. I can open a PR for review if people want? I'm willing to contribute a great deal to this suite of projects in Rust.
@@ -138,248 +189,392 @@ It can probably use some more work, I'm a fairly new Rust coder (2 months but pr
 I tested this by instantiating `Matter` several different ways, in one gross function. It grew out of what was there, I just kind of took the path of least resistance but this is where my work could benefit the most, I believe. Better tests. I will add them later. I did generate lots of tests for `Sizages` and `Codes` though. Normally I wouldn't throw down a 1300 line PR but this is a foundational bit that was hard to get away from.
 
 For the curious, I used string transformations in Ruby to turn Python codexes etc into Rust code directly.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-                <div class="message">
-                    <div class="username">griffin.kev</div>
-                    <div class="time">2023-01-24T13:58:54.000Z</div>
-                    <div class="msg">Hey Jason, yes I was working on Matter so we'll likely conflict</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-01-24T13:59:57.000Z</div>
-                    <div class="msg">Now that I know of this channel, after we resolve the conflict can I just grab issues?</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-01-24T14:00:15.000Z</div>
-                    <div class="msg">Or should we have some sort of regular grooming?</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2022-12-08/4510784087344_af8e57c2c9da3e02018d_72.png" />
-                <div class="message">
-                    <div class="username">shoeb.ahmed</div>
-                    <div class="time">2023-01-24T14:02:55.000Z</div>
-                    <div class="msg"><@U04BRS1MUAH> has joined the channel</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-01-24T14:03:18.000Z</div>
-                    <div class="msg">Just realized I left a couple magic numbers in that branch too, around the variable length binary decoding</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-                <div class="message">
-                    <div class="username">griffin.kev</div>
-                    <div class="time">2023-01-24T14:10:37.000Z</div>
-                    <div class="msg">yeah, open a PR
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+  				<div class="card-text username">griffin.kev</div>
+            	<div class="card-text time">2023-01-24T13:58:54.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">Hey Jason, yes I was working on Matter so we'll likely conflict</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-01-24T13:59:57.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">Now that I know of this channel, after we resolve the conflict can I just grab issues?</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-01-24T14:00:15.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">Or should we have some sort of regular grooming?</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2022-12-08/4510784087344_af8e57c2c9da3e02018d_72.png" />
+  				<div class="card-text username">shoeb.ahmed</div>
+            	<div class="card-text time">2023-01-24T14:02:55.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U04BRS1MUAH> has joined the channel</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-01-24T14:03:18.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">Just realized I left a couple magic numbers in that branch too, around the variable length binary decoding</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+  				<div class="card-text username">griffin.kev</div>
+            	<div class="card-text time">2023-01-24T14:10:37.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">yeah, open a PR
 
 if you could rebase locally before and make it a single commit it will help with house keeping and a cleaner git history over time</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-                <div class="message">
-                    <div class="username">griffin.kev</div>
-                    <div class="time">2023-01-24T14:11:57.000Z</div>
-                    <div class="msg">As for process, we have a cesr call every other Thursday and a keri call (today) other than that assigning yourself an issue is about as formal as it gets</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-01-24T14:14:06.000Z</div>
-                    <div class="msg">Okay cool, thanks Kevin! I'll open a PR shortly</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-                <div class="message">
-                    <div class="username">griffin.kev</div>
-                    <div class="time">2023-01-24T14:30:31.000Z</div>
-                    <div class="msg">Let’s get your branch merged in today, I had other cosmetic changes in there, moving size tests into sizeage and hard tables and tests into their own file along with matter_codex</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-                <div class="message">
-                    <div class="username">griffin.kev</div>
-                    <div class="time">2023-01-24T14:30:46.000Z</div>
-                    <div class="msg">Just to try reduce the size or core::matter</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-01-24T14:40:23.000Z</div>
-                    <div class="msg">Yeah those are definitely good changes to make I was just hacking it out for functionality. I am all for smaller/focused files</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-01-24T14:40:56.000Z</div>
-                    <div class="msg">Let me know if you need any changes made to my PR, and how to proceed</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-05/4593385265894_ef460d2b69918720b9c8_72.jpg" />
-                <div class="message">
-                    <div class="username">pdm</div>
-                    <div class="time">2023-01-24T14:42:23.000Z</div>
-                    <div class="msg"><@U04HMQT1XFV> has joined the channel</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-26/4704430470914_e201234863058e80ad8e_72.jpg" />
-                <div class="message">
-                    <div class="username">joseph.l.hunsaker</div>
-                    <div class="time">2023-01-24T15:11:32.000Z</div>
-                    <div class="msg"><@U03QRSUA87Q> has joined the channel</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
-                <div class="message">
-                    <div class="username">pfeairheller</div>
-                    <div class="time">2023-01-24T15:12:15.000Z</div>
-                    <div class="msg"><@U024CJMG22J> has joined the channel</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-05-24/5315833935091_b93afcd23af8e5c45914_72.jpg" />
-                <div class="message">
-                    <div class="username">kent</div>
-                    <div class="time">2023-01-24T15:21:06.000Z</div>
-                    <div class="msg"><@U03EUG009MY> has joined the channel</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
-                <div class="message">
-                    <div class="username">hvancann</div>
-                    <div class="time">2023-01-24T18:26:45.000Z</div>
-                    <div class="msg"><@U02PA6UQ6BV> has joined the channel</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-05-24/5315833935091_b93afcd23af8e5c45914_72.jpg" />
-                <div class="message">
-                    <div class="username">kent</div>
-                    <div class="time">2023-01-26T12:59:00.000Z</div>
-                    <div class="msg">You are on fire Jason! Keep it up.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-01-26T12:59:11.000Z</div>
-                    <div class="msg">:pray:</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://secure.gravatar.com/avatar/f81c703a7917166c3be25dac8facc8aa.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png" />
-                <div class="message">
-                    <div class="username">7moshe7</div>
-                    <div class="time">2023-01-27T12:17:36.000Z</div>
-                    <div class="msg"><@U02MD0HA7EJ> has joined the channel</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2022-07-15/3810085503492_e5beacfba6b68179a88b_72.jpg" />
-                <div class="message">
-                    <div class="username">rodolfo.miranda</div>
-                    <div class="time">2023-01-27T18:57:01.000Z</div>
-                    <div class="msg"><@U03P53FCYB1> has joined the channel</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-01-27T22:01:28.000Z</div>
-                    <div class="msg">:tada:</div>
-                    <div class="imgInMessage"><img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/main/static/slack/img/cesr-dev/Screenshot 2023-01-27 at 5.57.42 PM.png" alt="Screenshot 2023-01-27 at 5.57.42 PM.png"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2022-11-01/4290300458023_9bf45695757720bafaa0_72.jpg" />
-                <div class="message">
-                    <div class="username">dmitry</div>
-                    <div class="time">2023-02-02T15:41:10.000Z</div>
-                    <div class="msg"><@U048YRLFKTK> has joined the channel</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T09:40:19.000Z</div>
-                    <div class="msg">I have code that passes this test module:
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+  				<div class="card-text username">griffin.kev</div>
+            	<div class="card-text time">2023-01-24T14:11:57.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">As for process, we have a cesr call every other Thursday and a keri call (today) other than that assigning yourself an issue is about as formal as it gets</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-01-24T14:14:06.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">Okay cool, thanks Kevin! I'll open a PR shortly</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+  				<div class="card-text username">griffin.kev</div>
+            	<div class="card-text time">2023-01-24T14:30:31.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">Let’s get your branch merged in today, I had other cosmetic changes in there, moving size tests into sizeage and hard tables and tests into their own file along with matter_codex</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+  				<div class="card-text username">griffin.kev</div>
+            	<div class="card-text time">2023-01-24T14:30:46.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">Just to try reduce the size or core::matter</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-01-24T14:40:23.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">Yeah those are definitely good changes to make I was just hacking it out for functionality. I am all for smaller/focused files</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-01-24T14:40:56.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">Let me know if you need any changes made to my PR, and how to proceed</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-05/4593385265894_ef460d2b69918720b9c8_72.jpg" />
+  				<div class="card-text username">pdm</div>
+            	<div class="card-text time">2023-01-24T14:42:23.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U04HMQT1XFV> has joined the channel</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-26/4704430470914_e201234863058e80ad8e_72.jpg" />
+  				<div class="card-text username">joseph.l.hunsaker</div>
+            	<div class="card-text time">2023-01-24T15:11:32.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U03QRSUA87Q> has joined the channel</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
+  				<div class="card-text username">pfeairheller</div>
+            	<div class="card-text time">2023-01-24T15:12:15.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U024CJMG22J> has joined the channel</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-05-24/5315833935091_b93afcd23af8e5c45914_72.jpg" />
+  				<div class="card-text username">kent</div>
+            	<div class="card-text time">2023-01-24T15:21:06.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U03EUG009MY> has joined the channel</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
+  				<div class="card-text username">hvancann</div>
+            	<div class="card-text time">2023-01-24T18:26:45.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U02PA6UQ6BV> has joined the channel</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-05-24/5315833935091_b93afcd23af8e5c45914_72.jpg" />
+  				<div class="card-text username">kent</div>
+            	<div class="card-text time">2023-01-26T12:59:00.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">You are on fire Jason! Keep it up.</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-01-26T12:59:11.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">:pray:</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://secure.gravatar.com/avatar/f81c703a7917166c3be25dac8facc8aa.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png" />
+  				<div class="card-text username">7moshe7</div>
+            	<div class="card-text time">2023-01-27T12:17:36.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U02MD0HA7EJ> has joined the channel</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2022-07-15/3810085503492_e5beacfba6b68179a88b_72.jpg" />
+  				<div class="card-text username">rodolfo.miranda</div>
+            	<div class="card-text time">2023-01-27T18:57:01.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U03P53FCYB1> has joined the channel</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-01-27T22:01:28.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">:tada:</div>
+            	<div class="card-text imgInMessage"><img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/main/static/slack/img/cesr-dev/Screenshot 2023-01-27 at 5.57.42 PM.png" alt="Screenshot 2023-01-27 at 5.57.42 PM.png"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2022-11-01/4290300458023_9bf45695757720bafaa0_72.jpg" />
+  				<div class="card-text username">dmitry</div>
+            	<div class="card-text time">2023-02-02T15:41:10.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U048YRLFKTK> has joined the channel</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T09:40:19.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">I have code that passes this test module:
 ```mod test {
     use super::{data, Data, Value};
 
@@ -430,141 +625,219 @@ if you could rebase locally before and make it a single commit it will help with
     }
 }```
 I was thinking it would be useful to have such a structure in Rust for things like KEDs and SADs and now that I've built the core of it, once `cesride` is complete it should be trivial to implement `.to_cesr()` and `.to_cesrb()`. I was thinking since this complements parsing logic, all this probably wants to live in `parside`. Any objections to me starting work on spiking out `parside` and spiking out an integration with `cesride`?</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 22</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T09:42:31.000Z</div>
-                    <div class="msg">The hard part was building the macros, and I stole most of that code from `serde_json` so it should be pretty solid.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T09:45:05.000Z</div>
-                    <div class="msg">Also it may not be clear from the example but you don't need to use a real `String` to create data, you can pass a `&amp;str`.
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 22</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T09:42:31.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">The hard part was building the macros, and I stole most of that code from `serde_json` so it should be pretty solid.</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T09:45:05.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">Also it may not be clear from the example but you don't need to use a real `String` to create data, you can pass a `&amp;str`.
 
 ```data!({"foo": "bar"})```
 is valid.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T09:46:53.000Z</div>
-                    <div class="msg">This is actually really cool to do in Rust, things like this aren't common in compiled languages. I wanted to make the underlying data access simpler and tried for a while using things like `Any` but was unsuccessful. Since `serde_json` does almost exactly the same thing with respect to its `Value` objects I figure it's probably impossible to do elegantly.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T09:49:50.000Z</div>
-                    <div class="msg">My theory is that most classes in `KERIpy` that belong in `parside` can be built from stuff like this, and if we find we need the `data!()` macro in `cesride` it may be a sign we should move something up to `parside`.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T09:50:13.000Z</div>
-                    <div class="msg">But I haven't read all the code.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2022-11-01/4290300458023_9bf45695757720bafaa0_72.jpg" />
-                <div class="message">
-                    <div class="username">dmitry</div>
-                    <div class="time">2023-02-03T10:30:33.000Z</div>
-                    <div class="msg"><@U04HQD29Z7E> could you please push the code somewhere to let me have a look? I'm worrying about does it friendly for FFI.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T10:36:59.000Z</div>
-                    <div class="msg">This code wouldn’t need to pass through an ffi</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T10:37:25.000Z</div>
-                    <div class="msg">Serialized data would enter parside which can call rust directly</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T10:38:00.000Z</div>
-                    <div class="msg">The ffi of cesride can be addressed separately, sorry if I misspoke</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T10:44:45.000Z</div>
-                    <div class="msg">I am writing up a simple FFI for parside right now to show you what it looks like, and I'll generate the C header file to give you an idea of what integration is like</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2022-11-01/4290300458023_9bf45695757720bafaa0_72.jpg" />
-                <div class="message">
-                    <div class="username">dmitry</div>
-                    <div class="time">2023-02-03T10:49:47.000Z</div>
-                    <div class="msg">Cool.
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T09:46:53.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">This is actually really cool to do in Rust, things like this aren't common in compiled languages. I wanted to make the underlying data access simpler and tried for a while using things like `Any` but was unsuccessful. Since `serde_json` does almost exactly the same thing with respect to its `Value` objects I figure it's probably impossible to do elegantly.</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T09:49:50.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">My theory is that most classes in `KERIpy` that belong in `parside` can be built from stuff like this, and if we find we need the `data!()` macro in `cesride` it may be a sign we should move something up to `parside`.</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T09:50:13.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">But I haven't read all the code.</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2022-11-01/4290300458023_9bf45695757720bafaa0_72.jpg" />
+  				<div class="card-text username">dmitry</div>
+            	<div class="card-text time">2023-02-03T10:30:33.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U04HQD29Z7E> could you please push the code somewhere to let me have a look? I'm worrying about does it friendly for FFI.</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T10:36:59.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">This code wouldn’t need to pass through an ffi</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T10:37:25.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">Serialized data would enter parside which can call rust directly</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T10:38:00.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">The ffi of cesride can be addressed separately, sorry if I misspoke</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T10:44:45.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">I am writing up a simple FFI for parside right now to show you what it looks like, and I'll generate the C header file to give you an idea of what integration is like</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2022-11-01/4290300458023_9bf45695757720bafaa0_72.jpg" />
+  				<div class="card-text username">dmitry</div>
+            	<div class="card-text time">2023-02-03T10:49:47.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">Cool.
 BTW my plan is to use UniFFI for Kotlin/Python bindings and wasm for Javascript.
 I plan to start work on parside and FFI from Monday so let's be in sync on that to not waste time.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T11:26:13.000Z</div>
-                    <div class="msg">Sure, there are issues we can use to coordinate.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T11:28:24.000Z</div>
-                    <div class="msg">```mod core;
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T11:26:13.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">Sure, there are issues we can use to coordinate.</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T11:28:24.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">```mod core;
 mod data;
 mod error;
 
@@ -626,26 +899,38 @@ pub unsafe extern "C" fn parside_free(
     }}
 }```
 this is a start, i wrote it up in a few minutes so it won't compile but it shows you the idea. generally i like returning an int to indicate success or a failure code and dealing with all returned data as inout params, but that's not exactly the example I am showing here</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T12:43:24.000Z</div>
-                    <div class="msg">I got the ffi to work</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T12:45:33.000Z</div>
-                    <div class="msg">```❯ cat header.h
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T12:43:24.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">I got the ffi to work</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T12:45:33.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">```❯ cat header.h
 #include &lt;stdarg.h&gt;
 #include &lt;stdbool.h&gt;
 #include &lt;stdint.h&gt;
@@ -676,26 +961,38 @@ int main(int argc, char *argv[]) {
 ❯ clang main.c -o main -L target/release -l saidide
 ❯ ./main 
 test string```</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T12:45:58.000Z</div>
-                    <div class="msg">This is the rust code:</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T12:46:38.000Z</div>
-                    <div class="msg">```pub struct Parser {
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T12:45:58.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">This is the rust code:</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T12:46:38.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">```pub struct Parser {
     data: String
 }
 
@@ -767,129 +1064,201 @@ pub unsafe extern "C" fn parser_next(
     parser.dump();
     return 0;
 }```</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T12:47:26.000Z</div>
-                    <div class="msg">it obviously doesn't do anything but it shows how we can use a struct in rust through the FFI</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T12:47:46.000Z</div>
-                    <div class="msg">i mean, it prints a string that we store. it does _something_. but not much</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T12:48:46.000Z</div>
-                    <div class="msg">the header is generated with cbindgen, the lib is setup to build a staticlib. I'll add all this to `parside` this weekend to give you a good head start</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T14:56:40.000Z</div>
-                    <div class="msg">This looks pretty nice at a glance, for the python use case:
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T12:47:26.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">it obviously doesn't do anything but it shows how we can use a struct in rust through the FFI</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T12:47:46.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">i mean, it prints a string that we store. it does _something_. but not much</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T12:48:46.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">the header is generated with cbindgen, the lib is setup to build a staticlib. I'll add all this to `parside` this weekend to give you a good head start</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T14:56:40.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">This looks pretty nice at a glance, for the python use case:
 <https://docs.rs/pyo3/latest/pyo3/index.html></div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T15:07:10.000Z</div>
-                    <div class="msg">You can create multiple Cargo.toml files and have each point to a different <http://lib.rs|lib.rs> that depends on common code, and expose multiple FFIs. This is a good thing for us.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-                <div class="message">
-                    <div class="username">griffin.kev</div>
-                    <div class="time">2023-02-03T15:07:33.000Z</div>
-                    <div class="msg">This sounds very cool</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T15:08:34.000Z</div>
-                    <div class="msg">Yes I was wrestling with how to expose this to multiple languages and take advantage of Rust's nice integrations</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-                <div class="message">
-                    <div class="username">griffin.kev</div>
-                    <div class="time">2023-02-03T15:09:40.000Z</div>
-                    <div class="msg">Love to put this on the agenda for next meeting</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-05-24/5315833935091_b93afcd23af8e5c45914_72.jpg" />
-                <div class="message">
-                    <div class="username">kent</div>
-                    <div class="time">2023-02-03T23:21:22.000Z</div>
-                    <div class="msg">wow, this is amazing to see coming together. I hope to contribute soon</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T23:37:55.000Z</div>
-                    <div class="msg">I threw together a draft PR to spike things out a bit in `cesride`: <https://github.com/WebOfTrust/cesride/pull/59>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T15:07:10.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">You can create multiple Cargo.toml files and have each point to a different <http://lib.rs|lib.rs> that depends on common code, and expose multiple FFIs. This is a good thing for us.</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+  				<div class="card-text username">griffin.kev</div>
+            	<div class="card-text time">2023-02-03T15:07:33.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">This sounds very cool</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T15:08:34.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">Yes I was wrestling with how to expose this to multiple languages and take advantage of Rust's nice integrations</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+  				<div class="card-text username">griffin.kev</div>
+            	<div class="card-text time">2023-02-03T15:09:40.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">Love to put this on the agenda for next meeting</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-05-24/5315833935091_b93afcd23af8e5c45914_72.jpg" />
+  				<div class="card-text username">kent</div>
+            	<div class="card-text time">2023-02-03T23:21:22.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">wow, this is amazing to see coming together. I hope to contribute soon</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T23:37:55.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">I threw together a draft PR to spike things out a bit in `cesride`: <https://github.com/WebOfTrust/cesride/pull/59>
 
 Would love some :eyes:</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-03T23:39:23.000Z</div>
-                    <div class="msg">I dropped a simple PR that shows how a python integration may work. Obviously not for everyone and a straight C interface will be most widely usable, but it's a neat idea.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-04T09:55:31.000Z</div>
-                    <div class="msg">```❯ make python-shell
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-03T23:39:23.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">I dropped a simple PR that shows how a python integration may work. Obviously not for everyone and a straight C interface will be most widely usable, but it's a neat idea.</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-04T09:55:31.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">```❯ make python-shell
 Python 3.10.6 (main, Aug 11 2022, 13:49:25) [Clang 13.1.6 (clang-1316.0.21.2.5)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 &gt;&gt;&gt; from cesride import Matter
@@ -901,78 +1270,120 @@ Type "help", "copyright", "credits" or "license" for more information.
 &gt;&gt;&gt; m2.qb64()
 'BGlOiUdp5sMmfotHfCWQKEzWR91C72AH0lT84c0um-Qj'
 &gt;&gt;&gt; ```</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-05-24/5315833935091_b93afcd23af8e5c45914_72.jpg" />
-                <div class="message">
-                    <div class="username">kent</div>
-                    <div class="time">2023-02-04T21:13:58.000Z</div>
-                    <div class="msg">This is so exciting to see all of this activity happening! I can’t wait to dive into the code.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-05T01:34:21.000Z</div>
-                    <div class="msg">If anyone is interested, here's a POC I did earlier in the week on arbitrary value objects for use in `parside`: <https://github.com/jasoncolburne/parside/pull/1/files>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-05-24/5315833935091_b93afcd23af8e5c45914_72.jpg" />
+  				<div class="card-text username">kent</div>
+            	<div class="card-text time">2023-02-04T21:13:58.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">This is so exciting to see all of this activity happening! I can’t wait to dive into the code.</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-05T01:34:21.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">If anyone is interested, here's a POC I did earlier in the week on arbitrary value objects for use in `parside`: <https://github.com/jasoncolburne/parside/pull/1/files>
 
 If it makes sense we can pull it in.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-06T14:00:20.000Z</div>
-                    <div class="msg"><@U048YRLFKTK> I didn't realize when you mentioned `uniffi` that it was actually a rust package that did this! Let us know if you make progress!</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2022-12-08/4477425360247_9566e62bb036fe7ba6a2_72.png" />
-                <div class="message">
-                    <div class="username">artem.ivanov.konst</div>
-                    <div class="time">2023-02-07T09:38:31.000Z</div>
-                    <div class="msg"><@U04EFUFR71Q> has joined the channel</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-10T00:15:19.000Z</div>
-                    <div class="msg">^ I posted a comment on the above Issue. I recommend, since slack is not permanent at our tier, that we discuss issues like this in the comments on GitHub for posterity.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-10T00:17:14.000Z</div>
-                    <div class="msg">What should our criterion for consensus be on issues like this?</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2022-12-08/4477425360247_9566e62bb036fe7ba6a2_72.png" />
-                <div class="message">
-                    <div class="username">artem.ivanov.konst</div>
-                    <div class="time">2023-02-10T15:18:39.000Z</div>
-                    <div class="msg">Hey,
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-06T14:00:20.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U048YRLFKTK> I didn't realize when you mentioned `uniffi` that it was actually a rust package that did this! Let us know if you make progress!</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2022-12-08/4477425360247_9566e62bb036fe7ba6a2_72.png" />
+  				<div class="card-text username">artem.ivanov.konst</div>
+            	<div class="card-text time">2023-02-07T09:38:31.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U04EFUFR71Q> has joined the channel</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-10T00:15:19.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">^ I posted a comment on the above Issue. I recommend, since slack is not permanent at our tier, that we discuss issues like this in the comments on GitHub for posterity.</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-10T00:17:14.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">What should our criterion for consensus be on issues like this?</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2022-12-08/4477425360247_9566e62bb036fe7ba6a2_72.png" />
+  				<div class="card-text username">artem.ivanov.konst</div>
+            	<div class="card-text time">2023-02-10T15:18:39.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">Hey,
 Why do we have `Matter` as `structure` and `Verfer`, `Diger`, etc as `traits`?
 What’s idea behind this?
 
@@ -981,40 +1392,58 @@ Groups will consists of various primitives.
 
 With currently implemented approach, if I have `Matter` instance I can call any methods from all implemented traits `Verfer` `Diger` etc .  That seems to be wrong.
 Using `trait` as a fields of `Group` structure adds a lot of complexity because we have to wrap it into `Box` .</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-                <div class="message">
-                    <div class="username">griffin.kev</div>
-                    <div class="time">2023-02-10T16:12:52.000Z</div>
-                    <div class="msg">It was the idea behind moving quickly and people learning Rust as they went, with a focus on porting as much logic as we could while we had resources available to bootstrap a project that had been idle for six months.
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+  				<div class="card-text username">griffin.kev</div>
+            	<div class="card-text time">2023-02-10T16:12:52.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">It was the idea behind moving quickly and people learning Rust as they went, with a focus on porting as much logic as we could while we had resources available to bootstrap a project that had been idle for six months.
 
 Glad you're here now though.
 
 Correct Matter is essentially an abstract class not something you would initialize directly, the others are.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-10T16:53:57.000Z</div>
-                    <div class="msg">Yeah it was to move fast. But I have actually thought about this too Artem, that it should likely be all structs with `matter` hidden under the hood.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-                <div class="message">
-                    <div class="username">griffin.kev</div>
-                    <div class="time">2023-02-10T18:03:16.000Z</div>
-                    <div class="msg">As <@U04EFUFR71Q> pointed out the current implementation of Matter the subsequent derived classes isn't ideal.
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-10T16:53:57.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">Yeah it was to move fast. But I have actually thought about this too Artem, that it should likely be all structs with `matter` hidden under the hood.</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+  				<div class="card-text username">griffin.kev</div>
+            	<div class="card-text time">2023-02-10T18:03:16.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">As <@U04EFUFR71Q> pointed out the current implementation of Matter the subsequent derived classes isn't ideal.
 
 I created  <https://github.com/WebOfTrust/cesride/issues/72> and <https://github.com/WebOfTrust/cesride/issues/73> to contain the discussion.
 
@@ -1023,187 +1452,298 @@ I think 72 is a good first refactor that will be less painful than 73, but allow
 Then 73 can be discussed and addressed.
 
 Looking for feedback <@U04EFUFR71Q> <@U04HQD29Z7E></div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-                <div class="message">
-                    <div class="username">griffin.kev</div>
-                    <div class="time">2023-02-10T18:03:35.000Z</div>
-                    <div class="msg">I am going to start looking at 72.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-11T07:11:28.000Z</div>
-                    <div class="msg">for visibility, working on the Matter refactor: <https://github.com/WebOfTrust/cesride/pull/75></div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2022-12-08/4477425360247_9566e62bb036fe7ba6a2_72.png" />
-                <div class="message">
-                    <div class="username">artem.ivanov.konst</div>
-                    <div class="time">2023-02-21T06:40:26.000Z</div>
-                    <div class="msg"><@U04HQD29Z7E> Could you take a look this [comment](<https://github.com/WebOfTrust/parkside/pull/3#issuecomment-1436631256>) regarding parside I added yesterday.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 6</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2022-12-08/4477425360247_9566e62bb036fe7ba6a2_72.png" />
-                <div class="message">
-                    <div class="username">artem.ivanov.konst</div>
-                    <div class="time">2023-02-21T06:41:59.000Z</div>
-                    <div class="msg">Right now, I do not see way how to implement option with `generic`  parsing result after the latest cesride changes</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-21T12:52:35.000Z</div>
-                    <div class="msg">I will look this morning.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-21T12:52:39.000Z</div>
-                    <div class="msg">I already did, a bit</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-21T13:08:56.000Z</div>
-                    <div class="msg">I left a comment, I may have thought of a solution.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-21T13:09:38.000Z</div>
-                    <div class="msg">I am not sure, being a new Rustacean.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-02-21T13:10:26.000Z</div>
-                    <div class="msg">Also that link has an extra k in `parside` and is broken</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-                <div class="message">
-                    <div class="username">griffin.kev</div>
-                    <div class="time">2023-02-22T00:27:54.000Z</div>
-                    <div class="msg">wip-ing <https://github.com/WebOfTrust/cesride/issues/12></div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://secure.gravatar.com/avatar/b89b24b2387a804402928b0f3c8bcb83.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png" />
-                <div class="message">
-                    <div class="username">contact.johannes</div>
-                    <div class="time">2023-03-18T15:24:12.000Z</div>
-                    <div class="msg"><@U04PXR871PS> has joined the channel</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://secure.gravatar.com/avatar/b89b24b2387a804402928b0f3c8bcb83.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png" />
-                <div class="message">
-                    <div class="username">contact.johannes</div>
-                    <div class="time">2023-03-22T16:08:25.000Z</div>
-                    <div class="msg"><@U04PXR871PS> has joined the channel</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2022-11-01/4290300458023_9bf45695757720bafaa0_72.jpg" />
-                <div class="message">
-                    <div class="username">dmitry</div>
-                    <div class="time">2023-03-28T09:00:29.000Z</div>
-                    <div class="msg"><@U04HQD29Z7E> <@U024KC347B4> a cleanup of clippy warnings for cesride ^^^</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-                <div class="message">
-                    <div class="username">jason</div>
-                    <div class="time">2023-04-22T16:27:34.000Z</div>
-                    <div class="msg">I don't really know how we feel about a release candidate in the library proper, but this PR can stay open until it lands if we don't want to merge it. The changes are positive.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 1</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-                <div class="message">
-                    <div class="username">griffin.kev</div>
-                    <div class="time">2023-04-24T18:09:26.000Z</div>
-                    <div class="msg">I think it is a discussion for when/if we decide to cut a 1.0.0 I think we have a few options.</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-04-29/5191268328884_0a699eee1c39fb96ad18_72.jpg" />
-                <div class="message">
-                    <div class="username">markus</div>
-                    <div class="time">2023-04-29T04:16:59.000Z</div>
-                    <div class="msg"><@U055XBX2EAD> has joined the channel</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-05-05/5203522813527_661fbf67abaa2a2e63f8_72.jpg" />
-                <div class="message">
-                    <div class="username">jason873</div>
-                    <div class="time">2023-05-05T11:09:29.000Z</div>
-                    <div class="msg"><@U056E1W01K4> has joined the channel</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div>
-            <div>
-                <img src="https://avatars.slack-edge.com/2023-08-09/5712241113667_844bb32e2d495886390c_72.jpg" />
-                <div class="message">
-                    <div class="username">amin.benmansour.10</div>
-                    <div class="time">2023-08-01T18:26:12.000Z</div>
-                    <div class="msg"><@U05GQD16J1L> has joined the channel</div>
-                    <div class="imgInMessage"></div>
-                </div>
-            </div>
-        <div><p>Number of replies: 0</p></div></div></body></html>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+  				<div class="card-text username">griffin.kev</div>
+            	<div class="card-text time">2023-02-10T18:03:35.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">I am going to start looking at 72.</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-11T07:11:28.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">for visibility, working on the Matter refactor: <https://github.com/WebOfTrust/cesride/pull/75></div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2022-12-08/4477425360247_9566e62bb036fe7ba6a2_72.png" />
+  				<div class="card-text username">artem.ivanov.konst</div>
+            	<div class="card-text time">2023-02-21T06:40:26.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U04HQD29Z7E> Could you take a look this [comment](<https://github.com/WebOfTrust/parkside/pull/3#issuecomment-1436631256>) regarding parside I added yesterday.</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 6</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2022-12-08/4477425360247_9566e62bb036fe7ba6a2_72.png" />
+  				<div class="card-text username">artem.ivanov.konst</div>
+            	<div class="card-text time">2023-02-21T06:41:59.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">Right now, I do not see way how to implement option with `generic`  parsing result after the latest cesride changes</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-21T12:52:35.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">I will look this morning.</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-21T12:52:39.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">I already did, a bit</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-21T13:08:56.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">I left a comment, I may have thought of a solution.</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-21T13:09:38.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">I am not sure, being a new Rustacean.</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-02-21T13:10:26.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">Also that link has an extra k in `parside` and is broken</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+  				<div class="card-text username">griffin.kev</div>
+            	<div class="card-text time">2023-02-22T00:27:54.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">wip-ing <https://github.com/WebOfTrust/cesride/issues/12></div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://secure.gravatar.com/avatar/b89b24b2387a804402928b0f3c8bcb83.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png" />
+  				<div class="card-text username">contact.johannes</div>
+            	<div class="card-text time">2023-03-18T15:24:12.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U04PXR871PS> has joined the channel</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://secure.gravatar.com/avatar/b89b24b2387a804402928b0f3c8bcb83.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png" />
+  				<div class="card-text username">contact.johannes</div>
+            	<div class="card-text time">2023-03-22T16:08:25.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U04PXR871PS> has joined the channel</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2022-11-01/4290300458023_9bf45695757720bafaa0_72.jpg" />
+  				<div class="card-text username">dmitry</div>
+            	<div class="card-text time">2023-03-28T09:00:29.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U04HQD29Z7E> <@U024KC347B4> a cleanup of clippy warnings for cesride ^^^</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+  				<div class="card-text username">jason</div>
+            	<div class="card-text time">2023-04-22T16:27:34.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">I don't really know how we feel about a release candidate in the library proper, but this PR can stay open until it lands if we don't want to merge it. The changes are positive.</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 1</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+  				<div class="card-text username">griffin.kev</div>
+            	<div class="card-text time">2023-04-24T18:09:26.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg">I think it is a discussion for when/if we decide to cut a 1.0.0 I think we have a few options.</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-04-29/5191268328884_0a699eee1c39fb96ad18_72.jpg" />
+  				<div class="card-text username">markus</div>
+            	<div class="card-text time">2023-04-29T04:16:59.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U055XBX2EAD> has joined the channel</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-05-05/5203522813527_661fbf67abaa2a2e63f8_72.jpg" />
+  				<div class="card-text username">jason873</div>
+            	<div class="card-text time">2023-05-05T11:09:29.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U056E1W01K4> has joined the channel</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        
+		<div class="card mt-5">
+			<div class="card-header">
+    			<img src="https://avatars.slack-edge.com/2023-08-09/5712241113667_844bb32e2d495886390c_72.jpg" />
+  				<div class="card-text username">amin.benmansour.10</div>
+            	<div class="card-text time">2023-08-01T18:26:12.000Z</div>
+			</div>
+			
+  			<div class="card-body">    
+            	<div class="card-text msg"><@U05GQD16J1L> has joined the channel</div>
+            	<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+    			<div><p>Number of replies: 0</p></div>
+  			</div>
+		</div>
+        </div></body></html>
