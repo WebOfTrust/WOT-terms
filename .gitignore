@@ -32,3 +32,5 @@ search-index-typesense/generic-scraper-sites-info/*
 copy-to-testsite.sh
 docusaurus.paths.*.js
 restore.jsonl
+
+static/slack
