@@ -2,7 +2,7 @@
 
 <img className="inline-small-start" src={require('/static/img/Keri_logo_color_on_white.png').default} alt="KERI logo" />
 
-This document is part two of [Q-and-A](./q-and-a). Both files shares a common [Glossary](../04_glossary/intro.md), KERI specific and more generic decentralized Identity ones, that has:
+This document is part two of [Q-and-A](./q-and-a). Both files shares a common [Glossary](../04_glossary/index.md), KERI specific and more generic decentralized Identity ones, that has:
 
 - an alphabetically ordered list of **abbreviations**
 - an alphabetically ordered list of **definitions**
@@ -46,7 +46,7 @@ TBW
 
 ## Knowledge you should be confidently applying
 
-- The definitions in the [glossary](../04_glossary/intro.md)
+- The definitions in the [glossary](../04_glossary/index.md)
 - The Knowledge you should be confidently applying from part one of the [Q-and-A](./q-and-a#knowledge-you-should-be-confidently-applying)
 - Bitcoin Improvement Protocols: BIP32, BIP39, BIP44, BIP47, BIP49, BIP84, BIP174
 - hierarchical deterministic derivation paths
