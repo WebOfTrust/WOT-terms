@@ -349,8 +349,7 @@ const addUiToSidebar = () => {
         searchInput.addEventListener('click', (e) => {
             e.target.value = '';
             removeDisplayNoneAllLinks();
-        }
-        );
+        });
 
         searchInput.addEventListener('keyup', (e) => {
             const searchValue = e.target.value.toLowerCase();
