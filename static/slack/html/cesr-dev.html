@@ -45,7 +45,7 @@
 			}
 			.messages .message .msg {
 				line-height:1.5;
-			}</style><title>Slack history</title></head><body><a class="btn btn-outline-secondary d-block" href="index.html">To Index</a><h1 class="mt-3" id="begin">Slack History</h1><div class="fixed-bottom d-flex justify-content-end"><a href="#begin" class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div><div class="messages">
+			}</style><title>Slack history</title></head><body><h1 class="mt-3" id="begin">Slack History</h1><a class="btn btn-outline-secondary d-block" href="index.html">To Index</a><div class="fixed-bottom d-flex justify-content-end"><a href="#begin" class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div><div class="messages">
 		<div class="card mt-5">
 			<div class="card-header">
     			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
@@ -608,7 +608,7 @@ if you could rebase locally before and make it a single commit it will help with
 			
   			<div class="card-body">    
             	<div class="card-text msg">I have code that passes this test module:
-```mod test {
+<pre>mod test {
     use super::{data, Data, Value};
 
     #[test]
@@ -656,7 +656,7 @@ if you could rebase locally before and make it a single commit it will help with
         let d2 = Value::from(&amp;v);
         assert_eq!(d.to_json().unwrap(), d2.to_json().unwrap());
     }
-}```
+}<pre>
 I was thinking it would be useful to have such a structure in Rust for things like KEDs and SADs and now that I've built the core of it, once `cesride` is complete it should be trivial to implement `.to_cesr()` and `.to_cesrb()`. I was thinking since this complements parsing logic, all this probably wants to live in `parside`. Any objections to me starting work on spiking out `parside` and spiking out an integration with `cesride`?</div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -1146,7 +1146,7 @@ pub unsafe extern "C" fn parser_next(
   			<div class="card-body">    
             	<div class="card-text msg">Also it may not be clear from the example but you don't need to use a real `String` to create data, you can pass a `&amp;str`.
 
-```data!({"foo": "bar"})```
+<pre>data!({"foo": "bar"})<pre>
 is valid.</div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -1336,7 +1336,7 @@ I plan to start work on parside and FFI from Monday so let's be in sync on that 
 			</div>
 			
   			<div class="card-body">    
-            	<div class="card-text msg">```mod core;
+            	<div class="card-text msg"><pre>mod core;
 mod data;
 mod error;
 
@@ -1396,7 +1396,7 @@ pub unsafe extern "C" fn parside_free(
     if !object.is_null() { unsafe {
         Box::from_raw(object);
     }}
-}```
+}<pre>
 this is a start, i wrote it up in a few minutes so it won't compile but it shows you the idea. generally i like returning an int to indicate success or a failure code and dealing with all returned data as inout params, but that's not exactly the example I am showing here</div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -1431,7 +1431,7 @@ this is a start, i wrote it up in a few minutes so it won't compile but it shows
 			</div>
 			
   			<div class="card-body">    
-            	<div class="card-text msg">```❯ cat header.h
+            	<div class="card-text msg"><pre>❯ cat header.h
 #include &lt;stdarg.h&gt;
 #include &lt;stdbool.h&gt;
 #include &lt;stdint.h&gt;
@@ -1461,7 +1461,7 @@ int main(int argc, char *argv[]) {
 }
 ❯ clang main.c -o main -L target/release -l saidide
 ❯ ./main 
-test string```</div>
+test string<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -1495,7 +1495,7 @@ test string```</div>
 			</div>
 			
   			<div class="card-body">    
-            	<div class="card-text msg">```pub struct Parser {
+            	<div class="card-text msg"><pre>pub struct Parser {
     data: String
 }
 
@@ -1566,7 +1566,7 @@ pub unsafe extern "C" fn parser_next(
 
     parser.dump();
     return 0;
-}```</div>
+}<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -1773,7 +1773,7 @@ Would love some :eyes:</div>
 			</div>
 			
   			<div class="card-body">    
-            	<div class="card-text msg">```❯ make python-shell
+            	<div class="card-text msg"><pre>❯ make python-shell
 Python 3.10.6 (main, Aug 11 2022, 13:49:25) [Clang 13.1.6 (clang-1316.0.21.2.5)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 &gt;&gt;&gt; from cesride import Matter
@@ -1784,7 +1784,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 &gt;&gt;&gt; m2 = Matter(qb2=bytes(qb2))
 &gt;&gt;&gt; m2.qb64()
 'BGlOiUdp5sMmfotHfCWQKEzWR91C72AH0lT84c0um-Qj'
-&gt;&gt;&gt; ```</div>
+&gt;&gt;&gt; <pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">

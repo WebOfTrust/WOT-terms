@@ -45,7 +45,7 @@
 			}
 			.messages .message .msg {
 				line-height:1.5;
-			}</style><title>Slack history</title></head><body><a class="btn btn-outline-secondary d-block" href="index.html">To Index</a><h1 class="mt-3" id="begin">Slack History</h1><div class="fixed-bottom d-flex justify-content-end"><a href="#begin" class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div><div class="messages">
+			}</style><title>Slack history</title></head><body><h1 class="mt-3" id="begin">Slack History</h1><a class="btn btn-outline-secondary d-block" href="index.html">To Index</a><div class="fixed-bottom d-flex justify-content-end"><a href="#begin" class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div><div class="messages">
 		<div class="card mt-5">
 			<div class="card-header">
     			<img src="https://secure.gravatar.com/avatar/924a193292afe1737fec14b7a068dc38.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png" />
@@ -853,9 +853,9 @@ Within DIF they continue to develop `did:keri` .</div>
 			</div>
 			
   			<div class="card-body">    
-            	<div class="card-text msg">```Q: Implementation maturity?
+            	<div class="card-text msg"><pre>Q: Implementation maturity?
 Implementation by Jolocom (in Rust) - implements the core
-Other implementations - GO, Javascript```
+Other implementations - GO, Javascript<pre>
 I'm stunned by the arrogance to not mention HCF or `keripy`</div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -1380,7 +1380,7 @@ The result was the following issue <https://github.com/WebOfTrust/keripy/issues/
 			
   			<div class="card-body">    
             	<div class="card-text msg">FYI:
-```CEN/CLC/JTC19  has approved a  work item aiming to produce a Technical Specification with the following title: "Decentralised Identity Management Model based on Blockchain and other Distributed Ledgers Technologies. –Part 1: Generic Reference Framework".As per document N 103, the scope of the work item is the following: "The proposed standard will specify a reference architecture for decentralised identity management, optionally enabled by distributed ledger technology (DLT) and blockchain systems. The reference architecture aims to natural persons and legal entities and addresses concepts, cross-cutting aspects,   architectural considerations,  and architecture views,  including functional components,  roles, activities, and their relationships with blockchain and DLT.```</div>
+<pre>CEN/CLC/JTC19  has approved a  work item aiming to produce a Technical Specification with the following title: "Decentralised Identity Management Model based on Blockchain and other Distributed Ledgers Technologies. –Part 1: Generic Reference Framework".As per document N 103, the scope of the work item is the following: "The proposed standard will specify a reference architecture for decentralised identity management, optionally enabled by distributed ledger technology (DLT) and blockchain systems. The reference architecture aims to natural persons and legal entities and addresses concepts, cross-cutting aspects,   architectural considerations,  and architecture views,  including functional components,  roles, activities, and their relationships with blockchain and DLT.<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -2429,10 +2429,10 @@ We just renamed our primary branch from `master` to `main` and then created the 
 
 If you have already cloned or forked the `keripy` repo, you can run the following commands to update your local copy of the primary branch from `master` to `main`.
 
-```git branch -m master main
+<pre>git branch -m master main
 git fetch origin
 git branch -u origin/main main
-git remote set-head origin -a```
+git remote set-head origin -a<pre>
 Of course changing `origin` to whatever your remote is named for the `WebOfTrust/keripy` remote repository.</div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -2453,8 +2453,8 @@ Of course changing `origin` to whatever your remote is named for the `WebOfTrust
             	<div class="card-text msg">I already had cloned the keripy repo. So I used github today to sync  WebOfTrust/keripy to my <https://github.com/henkvancann/keri-1.git> remote repo.
 
 The first two commands run successfully to update my local repo.
-```git branch -m master main
-git fetch origin```
+<pre>git branch -m master main
+git fetch origin<pre>
 But the third:
 hvc@Henks-Mbp20 keripy-1 % git branch -u origin/main main
 error: the requested upstream branch ‘origin/main’ does not exist
@@ -2647,7 +2647,7 @@ $ git reset --hard wot/main```</div>
 			
   			<div class="card-body">    
             	<div class="card-text msg">these commits:
-```424234c (HEAD -&gt; main, origin/main, origin/HEAD) img alignment changed - 2
+<pre>424234c (HEAD -&gt; main, origin/main, origin/HEAD) img alignment changed - 2
 82aded6 img alignment changed
 384ea51 typos corrected
 e920883 all logo references added
@@ -2663,7 +2663,7 @@ f6536c9 DIDComm added
 bfe5fb6 Docker typos corrected
 8f1cf38 Docker and NPM added, general reasons added.
 d479c66 a few typos corrected
-cfadc54 Initial fill of the file keri-dev-env.md```
+cfadc54 Initial fill of the file keri-dev-env.md<pre>
 are your ones and are on top of `keri/main`</div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -2750,11 +2750,11 @@ are your ones and are on top of `keri/main`</div>
 			
   			<div class="card-body">    
             	<div class="card-text msg">if you want to align with keripy from weboftrust:
-```cd keripy/
+<pre>cd keripy/
 $ git remote add wot git@github.com:WebOfTrust/keripy
 $ git fetch wot 
 $ git checkout -b main
-$ git reset --hard wot/main```</div>
+$ git reset --hard wot/main<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -7357,7 +7357,7 @@ to get a version string similar to the following:
 			
   			<div class="card-body">    
             	<div class="card-text msg">I was looking for the following:
-```### Local installation
+<pre>### Local installation
 Once all dependencies are installed and working then run:
 
 `$ python3 -m pip install -e ./`
@@ -7368,7 +7368,7 @@ Then you can run
 
 to get a version string similar to the following: 
 
-`0.6.7````</div>
+`0.6.7<pre>`</div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -7478,14 +7478,14 @@ Seems someone found it useful. However, due to the language barrier you might ha
 			
   			<div class="card-body">    
             	<div class="card-text msg">Found a paper <https://koreascience.kr/article/JAKO202101355700154.pdf> discussing this algorithm. There:
-```At present,
+<pre>At present,
 SM2 is also used in blind signatures, proxy
 signatures, threshold cryptosystems and secure
 cooperation between two parties. However, no one
 has conducted research on SM2's batch verification
 algorithm. This article proposes SM2 digital
 signatures A batch verification algorithm for the
-same signer and different signers.```
+same signer and different signers.<pre>
 Seems someone found it useful. However, due to the language barrier you might have difficulties to find anything about SM2. The published <https://datatracker.ietf.org/doc/html/draft-shen-sm2-ecdsa-02|spec> on IETF is indeed in English, but would definitely require formal audit.</div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -8366,10 +8366,10 @@ we have renamed master to main on keriox:
 <https://github.com/WebOfTrust/keriox/issues/6>
 
 the following should catch you up:
-```git branch -m master main
+<pre>git branch -m master main
 git fetch origin
 git branch -u origin/main main
-git remote set-head origin -a```
+git remote set-head origin -a<pre>
 </div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -9348,9 +9348,9 @@ As a part of the witness evaluation process I could see value in adding a protoc
   			<div class="card-body">    
             	<div class="card-text msg">GLEIF Root AID is published at the following well known OOBIs:
 
-```<https://www.gleif.org/.well-known/keri/oobi/EDP1vHcw_wc4M__Fj53-cJaBnZZASd-aMTaSyWEQ-PC2>
+<pre><https://www.gleif.org/.well-known/keri/oobi/EDP1vHcw_wc4M__Fj53-cJaBnZZASd-aMTaSyWEQ-PC2>
 <https://gleif-it.github.io/.well-known/keri/oobi/EDP1vHcw_wc4M__Fj53-cJaBnZZASd-aMTaSyWEQ-PC2>
-<https://weboftrust.github.io/.well-known/keri/oobi/EDP1vHcw_wc4M__Fj53-cJaBnZZASd-aMTaSyWEQ-PC2>```
+<https://weboftrust.github.io/.well-known/keri/oobi/EDP1vHcw_wc4M__Fj53-cJaBnZZASd-aMTaSyWEQ-PC2><pre>
 </div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -10397,7 +10397,7 @@ What purpose does challenge and response serve?</div>
 Tomorrow morning I will answer that question and with the help of Sam (of course) I was able to create a KERI inception event using Falcon-512 to generate public and next keys and sign the inception event.  I did this using the Open Quantum Safe library (<https://github.com/open-quantum-safe/liboqs>) with the python bindings (<https://github.com/open-quantum-safe/liboqs-python>) integrated into KERIpy.
 
 Here is the inception event (with a hefty public key):
-```{
+<pre>{
   "v": "KERI10JSON0005af_",
   "t": "icp",
   "d": "EI8G61z6s5c6-jrDSQ36eIx5wt-VV5T_Z_YMoZ6EyRKq",
@@ -10415,9 +10415,9 @@ Here is the inception event (with a hefty public key):
   "b": [],
   "c": [],
   "a": []
-}```
+}<pre>
 And here is the signature:
-```-AAB1AALOTQGtYrp3F7h8ua7BL0bOwDiB6nlxJ7Q4GEYsIR4jv_2VxCILI4BbQ6-v8hSXuyVaU2RlFmFv6BNcMGumxUFyKfwTFI_1HtkKgGo1TmQdAW_nZK4BnUpMLK6vTM3-shGkt77usooC0ZxGNxOl9sthgltg2AEEsyI6nGyAUtZ7kz0OL_s4FfVXTDPtisMiXoVcotRRQpejh-9Hx16Zaxutg-ZK2htbrwvwmJoMIQHPeaby9Iyu5_UMs2v4nbX52b5iza6eZmcR1mhX2p4iV55ojgpCrTmrSbJmMYfAQMNOIHkT8knjrvldxTXlKSOL5BneTfKtBZeRAKI2MT3iQERZo78bQtaUVIbf42utUx70YyAaAST_numnLjL2_63r73_6ZhJLEvgjItLVjeKFonoUPSaW2UTnfJJ1gddlTlqtgkzQXZRcjpEL85OMNgk8Bf9no5iWQwC5cpM99Z1kox138gF2ZbuQe1ERKk-bjqrG2LO8cdzpOwPWcROsQRzZtInvuxWJb5tZKwyT-ghkzZQXKsQLjmGxyKYJGKg4BLjF6jEaBUaOUGta4p-hrODesiRWKMWuawTMYP3U_TyIzHaqKRY9j1Gs61NnEzeuCpmtYnA5IpTOUC5593YIzs1_rQp5inGJ3sktcKLkIyaLwHHX6pIm31MXzk_jHxw-Tii_MZJ-hbeUxf2Z9R2u1MlwiRlnd3PoYxXT9s_HY9alpNICmZwtgau3qtZ4ilPBXp6lfMiWdFVAlWbkE-amAq5Q710-VadkTFB-rC5i2FxyeskmQLfK-qyEljF6pCzIWmixsy1baUr-qZCUmWL_vpF6sifx3kScUkUUOPamixkQfvP-Or4rKq9JopmCUYx5ObLemi1Ru63wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA```</div>
+<pre>-AAB1AALOTQGtYrp3F7h8ua7BL0bOwDiB6nlxJ7Q4GEYsIR4jv_2VxCILI4BbQ6-v8hSXuyVaU2RlFmFv6BNcMGumxUFyKfwTFI_1HtkKgGo1TmQdAW_nZK4BnUpMLK6vTM3-shGkt77usooC0ZxGNxOl9sthgltg2AEEsyI6nGyAUtZ7kz0OL_s4FfVXTDPtisMiXoVcotRRQpejh-9Hx16Zaxutg-ZK2htbrwvwmJoMIQHPeaby9Iyu5_UMs2v4nbX52b5iza6eZmcR1mhX2p4iV55ojgpCrTmrSbJmMYfAQMNOIHkT8knjrvldxTXlKSOL5BneTfKtBZeRAKI2MT3iQERZo78bQtaUVIbf42utUx70YyAaAST_numnLjL2_63r73_6ZhJLEvgjItLVjeKFonoUPSaW2UTnfJJ1gddlTlqtgkzQXZRcjpEL85OMNgk8Bf9no5iWQwC5cpM99Z1kox138gF2ZbuQe1ERKk-bjqrG2LO8cdzpOwPWcROsQRzZtInvuxWJb5tZKwyT-ghkzZQXKsQLjmGxyKYJGKg4BLjF6jEaBUaOUGta4p-hrODesiRWKMWuawTMYP3U_TyIzHaqKRY9j1Gs61NnEzeuCpmtYnA5IpTOUC5593YIzs1_rQp5inGJ3sktcKLkIyaLwHHX6pIm31MXzk_jHxw-Tii_MZJ-hbeUxf2Z9R2u1MlwiRlnd3PoYxXT9s_HY9alpNICmZwtgau3qtZ4ilPBXp6lfMiWdFVAlWbkE-amAq5Q710-VadkTFB-rC5i2FxyeskmQLfK-qyEljF6pCzIWmixsy1baUr-qZCUmWL_vpF6sifx3kScUkUUOPamixkQfvP-Or4rKq9JopmCUYx5ObLemi1Ru63wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -10613,7 +10613,7 @@ P.S. as mentioned in previous post still have few VIP tickets to distribute, PM 
   			<div class="card-body">    
             	<div class="card-text msg">Last ACDC meeting, near the end, Daniel asked a question and I came up with a potential solution to it by concatenating two identifiers to form a single one. The idea was that a namespace would be hashed to provide the first part of the identifier, and a complete data structure to provide the rest. I’ll now give a complete description that I believe will create an auto-governing system, potentially addressing Phil’s concern. Sorry for not using the typical one letter identifiers, I don’t know them off the top so I’m going to be verbose so that I can communicate clearly.
 
-```{
+<pre>{
   namespace: {
    digest: "E...",
    name: "xyz.qui.domain.identifier",
@@ -10622,7 +10622,7 @@ P.S. as mentioned in previous post still have few VIP tickets to distribute, PM 
   digest: "E...",
   version: "0.1.0",
   // other data
-}```
+}<pre>
 
 
 If we combine (`namespace.digest` | `digest`), we can create a fixed-length searchable (by digest of issuer and name) versioning system where only the identified issuer can create versions of their data. There is no administration required, I believe. The trick is that `issuer` is an input to `namespace.digest`, and `namespace.digest` is an input to `digest` (we could use a compact expression of this information). The caveats:
@@ -12325,10 +12325,10 @@ and entries in the Q-and-A.</div>
 			
   			<div class="card-body">    
             	<div class="card-text msg">Here's a way to view entropy on the command line (should work in Linux and macOS):
-```cat /dev/urandom | od -tx1 -Ax```
+<pre>cat /dev/urandom | od -tx1 -Ax<pre>
 if you want a specific number of bytes, something like:
-```dd if=/dev/urandom bs=1 count=32 &gt; entropy
-cat entropy | od -tx1 -Ax```</div>
+<pre>dd if=/dev/urandom bs=1 count=32 &gt; entropy
+cat entropy | od -tx1 -Ax<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -12434,8 +12434,8 @@ Some material provide by Jacques, his team and others:
   			<div class="card-body">    
             	<div class="card-text msg">Yesterday I presented to the Aries WG the did:keri method as an alternative to did:peer. You can find the recording at the end of this <https://wiki.hyperledger.org/display/ARIES/2023-02-22+Aries+Working+Group+Call|meeting notes> (that recording, starting at min 21:20,  can be also  useful for those who weren’t at the KERI meeting when I presented the topic  weeks ago since it was not recorded).
 The Aries WG has now the task to compare different candidates: did:peer:1, did:peer:2, did:keri, did:legacypeer and make a recomendation. Quote with what they are looking to compare:
-```- Verifying and document that the transformation can be made in each case — e.g. from unqualified DID and related DIDDoc to the new format — and what extra information and libraries would have to be defined/used for each.
-- Create a spreadsheet of the properties that we get from each so that we have a comparison — size of DID, key rotation, ease of transformation, future path, multi-key support etc. Some will be subjective, but I think we have them in one place, it might be easier to see the differences.```</div>
+<pre>- Verifying and document that the transformation can be made in each case — e.g. from unqualified DID and related DIDDoc to the new format — and what extra information and libraries would have to be defined/used for each.
+- Create a spreadsheet of the properties that we get from each so that we have a comparison — size of DID, key rotation, ease of transformation, future path, multi-key support etc. Some will be subjective, but I think we have them in one place, it might be easier to see the differences.<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -14368,7 +14368,7 @@ where VC_DATA is the w3c vc data model and  [ISO.18013-5] is mDL .</div>
 			
   			<div class="card-body">    
             	<div class="card-text msg">based on <https://openid.net/specs/openid-4-verifiable-credential-issuance-1_0.html|that> , the VC can be:
-```Can be of any format used in the Issuer-Holder-Verifier Model, including, but not limited to those defined in [VC_DATA] and [ISO.18013-5]```
+<pre>Can be of any format used in the Issuer-Holder-Verifier Model, including, but not limited to those defined in [VC_DATA] and [ISO.18013-5]<pre>
 where VC_DATA is the w3c vc data model and  [ISO.18013-5] is mDL .</div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -15538,7 +15538,7 @@ I am just finishing up my lengthy blog post today and it has a whole section on 
   			<div class="card-body">    
             	<div class="card-text msg">Do you think it's sufficient to say something like:
 
-```KERI OOBI (Out of Bands Introduction) connects trusted KERI identifiers with discovered URLs to enable authenticated IP discovery.```
+<pre>KERI OOBI (Out of Bands Introduction) connects trusted KERI identifiers with discovered URLs to enable authenticated IP discovery.<pre>
 </div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -15574,7 +15574,7 @@ I am just finishing up my lengthy blog post today and it has a whole section on 
 			
   			<div class="card-body">    
             	<div class="card-text msg">Maybe I could finish it off with
-```, and it has the potential to replace DNS securely.```</div>
+<pre>, and it has the potential to replace DNS securely.<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -17591,7 +17591,7 @@ whereas this returns:
 			
   			<div class="card-body">    
             	<div class="card-text msg">In the meantime, here's something very useful I distilled with a bit of work from <@U03EUG009MY>’s blog post:
-```[
+<pre>[
     {
         "v": "KERI10JSON0001b7_",
         "t": "icp",
@@ -17684,7 +17684,7 @@ whereas this returns:
             }
         ]
     }
-]```
+]<pre>
 It's a full set of messages required to issue an ACDC (without sigs, but that's the easy part)</div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -17822,7 +17822,7 @@ It's a full set of messages required to issue an ACDC (without sigs, but that's 
 			
   			<div class="card-body">    
             	<div class="card-text msg">For completeness, here's the schema used:
-```{
+<pre>{
     "$id": "EIxAox3KEhiQ_yCwXWeriQ3ruPWbgK94NDDkHAZCuP9l",
     "$schema": "<http://json-schema.org/draft-07/schema#>",
     "title": "Treasure Hunting Journey",
@@ -17952,7 +17952,7 @@ It's a full set of messages required to issue an ACDC (without sigs, but that's 
         "d",
         "a"
     ]
-}```
+}<pre>
 </div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -18056,13 +18056,13 @@ It's a full set of messages required to issue an ACDC (without sigs, but that's 
 			
   			<div class="card-body">    
             	<div class="card-text msg">Interesting, I'm getting this
-```ERR: can only join an iterable```
+<pre>ERR: can only join an iterable<pre>
 when I run
-```kli vc present -n wiseman -a ramiel -s EOB9YVK7UY1BZ2gDWNcFLBMVzcOmPuh6DR6Yg1Zen9qV --include```
+<pre>kli vc present -n wiseman -a ramiel -s EOB9YVK7UY1BZ2gDWNcFLBMVzcOmPuh6DR6Yg1Zen9qV --include<pre>
 (with or without --include)
 whereas this returns:
-```❯ kli vc export -n wiseman -a ramiel -s EOB9YVK7UY1BZ2gDWNcFLBMVzcOmPuh6DR6Yg1Zen9qV          
-{"v":"ACDC10JSON000591_","d":"EOB9YVK7UY1BZ2gDWNcFLBMVzcOmPuh6DR6Yg1Zen9qV","i":"EIaJ5gpHSL9nl1XIWDkfMth1uxbD-AfLkqdiZL6S7HkZ","ri":"EAuvxnObLjS8E2Yn9-7twA8_ZqEsMC3vispqy26NVdaW","s":"EEq0AkHV-i5-aCc1JMBGsd7G85HlBzI3BfyuS5lHOGjr","a":{"d":"ELKskAf1BKsld9UpOyFwBv4TiIKoR6QLlguDfEeoGS2_","i":"EJS0-vv_OPAQCdJLmkd5dT0EW-mOfhn_Cje4yzRjTv8q","dt":"2023-04-23T09:11:45.768793+00:00","partySize":2,"authorizerName":"Ramiel"},"e":{"d":"EKU0VqkWIcpMQJxu-oVFkE2Fsf-J6tA_oKbOpSxOGImd","mark":{"n":"EAhQ4wojPhBx6evAl-6mHv9enCKLOfDRoK-tv5dj0BoA","s":"EBEefH4LNQswHSrXanb-3GbjCZK7I_UCL6BdD-zwJ4my"},"journey":{"n":"EKriPO1JGk369l5zJGzfFn-yS0dazYu0ktCg8h5pxKZ3","s":"EIxAox3KEhiQ_yCwXWeriQ3ruPWbgK94NDDkHAZCuP9l"}},"r":{"d":"EHP7ROagNEPGR2VaQeghzoCqzwOMuXgZwJUFWn3D-k3K","usageDisclaimer":{"l":"Usage of a JourneyCharter Credential in Abydos may significantly reduce your life expectancy."},"issuanceDisclaimer":{"l":"All desiring entrance into Abydos must present credentials issued by the Veniordine."},"privacyDisclaimer":{"l":"It is the sole responsibility of Holders as Issuees of a JourneyCharter credential to present that credential in a privacy-preserving manner using the mechanisms provided in the Issuance and Presentation Exchange (IPEX) protocol specification and the Authentic Chained Data Container (ACDC) specification. <https://github.com/WebOfTrust/IETF-IPEX> and <https://github.com/trustoverip/tswg-acdc-specification>."}}}```</div>
+<pre>❯ kli vc export -n wiseman -a ramiel -s EOB9YVK7UY1BZ2gDWNcFLBMVzcOmPuh6DR6Yg1Zen9qV          
+{"v":"ACDC10JSON000591_","d":"EOB9YVK7UY1BZ2gDWNcFLBMVzcOmPuh6DR6Yg1Zen9qV","i":"EIaJ5gpHSL9nl1XIWDkfMth1uxbD-AfLkqdiZL6S7HkZ","ri":"EAuvxnObLjS8E2Yn9-7twA8_ZqEsMC3vispqy26NVdaW","s":"EEq0AkHV-i5-aCc1JMBGsd7G85HlBzI3BfyuS5lHOGjr","a":{"d":"ELKskAf1BKsld9UpOyFwBv4TiIKoR6QLlguDfEeoGS2_","i":"EJS0-vv_OPAQCdJLmkd5dT0EW-mOfhn_Cje4yzRjTv8q","dt":"2023-04-23T09:11:45.768793+00:00","partySize":2,"authorizerName":"Ramiel"},"e":{"d":"EKU0VqkWIcpMQJxu-oVFkE2Fsf-J6tA_oKbOpSxOGImd","mark":{"n":"EAhQ4wojPhBx6evAl-6mHv9enCKLOfDRoK-tv5dj0BoA","s":"EBEefH4LNQswHSrXanb-3GbjCZK7I_UCL6BdD-zwJ4my"},"journey":{"n":"EKriPO1JGk369l5zJGzfFn-yS0dazYu0ktCg8h5pxKZ3","s":"EIxAox3KEhiQ_yCwXWeriQ3ruPWbgK94NDDkHAZCuP9l"}},"r":{"d":"EHP7ROagNEPGR2VaQeghzoCqzwOMuXgZwJUFWn3D-k3K","usageDisclaimer":{"l":"Usage of a JourneyCharter Credential in Abydos may significantly reduce your life expectancy."},"issuanceDisclaimer":{"l":"All desiring entrance into Abydos must present credentials issued by the Veniordine."},"privacyDisclaimer":{"l":"It is the sole responsibility of Holders as Issuees of a JourneyCharter credential to present that credential in a privacy-preserving manner using the mechanisms provided in the Issuance and Presentation Exchange (IPEX) protocol specification and the Authentic Chained Data Container (ACDC) specification. <https://github.com/WebOfTrust/IETF-IPEX> and <https://github.com/trustoverip/tswg-acdc-specification>."}}}<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -21976,10 +21976,10 @@ I was not able to find anything in the IETF drafts and the whitepaper. For examp
 			
   			<div class="card-body">    
             	<div class="card-text msg">hmm I see it in the slack search results but history doesn't go back that far I'm getting this error when I run the tests, but the only change I made to the base repository is a spelling fix
-```============================================== short test summary info ===============================================
+<pre>============================================== short test summary info ===============================================
 FAILED tests/app/cli/test_kli_commands.py::test_standalone_kli_commands - ValueError: Already incepted pre=BI81UmEUu6Vrii26PxQagwdkWJzJm3Q6PERtUw1c_y9K.
 FAILED tests/app/cli/test_kli_commands.py::test_incept_and_rotate_opts - ValueError: Already incepted pre=DNgNWvmgmLbFuS_fuhIsLCc7IpkPKxSfmRC6_Tq7yQQZ.
-=============================== 2 failed, 270 passed, 4 warnings in 141.15s (0:02:21) ================================```
+=============================== 2 failed, 270 passed, 4 warnings in 141.15s (0:02:21) ================================<pre>
 I was mucking around with the demo scripts beforehand though.  Does anyone know what I might be doing wrong.  Here's a draft PR if that helps clarify.  <https://github.com/WebOfTrust/keripy/pull/546></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -22083,7 +22083,7 @@ Please note that this information is based on Slack’s policies and procedures 
   			<div class="card-body">    
             	<div class="card-text msg">yeah, I guess I do have this directory, does state live here that the tests might interact with?
 
-```keri) daidoji@darkstar:~/ssi/keripy$ git status
+<pre>keri) daidoji@darkstar:~/ssi/keripy$ git status
 On branch development
 Your branch is ahead of 'origin/development' by 1 commit.
   (use "git push" to publish your local commits)
@@ -22092,7 +22092,7 @@ Untracked files:
   (use "git add &lt;file&gt;..." to include in what will be committed)
         scripts/demo/scripts/
 
-nothing added to commit but untracked files present (use "git add" to track)```</div>
+nothing added to commit but untracked files present (use "git add" to track)<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -26423,7 +26423,7 @@ Now .. is it possible to generate a multisig AID, where one of the controllers i
 			</div>
 			
   			<div class="card-body">    
-            	<div class="card-text msg">```
+            	<div class="card-text msg"><pre>
   "kt": "1",
   "k" :
     [
@@ -26435,7 +26435,7 @@ Now .. is it possible to generate a multisig AID, where one of the controllers i
     [
       0
       "ETNZH3ULvYawyZ-i0d8JZU6JR2nmAoAfSVPzhzS6b5CM",
-    ],```</div>
+    ],<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -26491,7 +26491,7 @@ It just might happen that this keypair is removed one day but never rotated.</di
   			<div class="card-body">    
             	<div class="card-text msg">Or is the solution just to do soemthing like this:
 
-```
+<pre>
 
   "kt": "1",
   "k" :
@@ -26504,7 +26504,7 @@ It just might happen that this keypair is removed one day but never rotated.</di
     [
       "ETNZH3ULvYawyZ-i0d8JZU6JR2nmAoAfSVPzhzS6b5CM"     &lt;- random key with 0 rotation rights and is not stored
       "ETNZH3ULvYawyZ-i0d8JZU6JR2nmAoAfSVPzhzS6b5CM",
-    ],```</div>
+    ],<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -26695,7 +26695,7 @@ It just might happen that this keypair is removed one day but never rotated.</di
 
 So in my case I would just need something like this:
 
-```  "kt": "1",
+<pre>  "kt": "1",
   "k" :
     [
       "DnmwyZ-i0H3ULvad8JZAoTNZaU6JR2YAfSVPzh5CMzS6b",
@@ -26705,7 +26705,7 @@ So in my case I would just need something like this:
   "n" :
     [
       "ETNZH3ULvYawyZ-i0d8JZU6JR2nmAoAfSVPzhzS6b5CM",
-    ],```
+    ],<pre>
 </div>
             	<div class="card-text imgInMessage"></div>
 			</div>

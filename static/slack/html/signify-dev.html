@@ -45,7 +45,7 @@
 			}
 			.messages .message .msg {
 				line-height:1.5;
-			}</style><title>Slack history</title></head><body><a class="btn btn-outline-secondary d-block" href="index.html">To Index</a><h1 class="mt-3" id="begin">Slack History</h1><div class="fixed-bottom d-flex justify-content-end"><a href="#begin" class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div><div class="messages">
+			}</style><title>Slack history</title></head><body><h1 class="mt-3" id="begin">Slack History</h1><a class="btn btn-outline-secondary d-block" href="index.html">To Index</a><div class="fixed-bottom d-flex justify-content-end"><a href="#begin" class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div><div class="messages">
 		<div class="card mt-5">
 			<div class="card-header">
     			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
@@ -857,7 +857,7 @@
 
 I changed the `create` method to no longer be async and created an `InceptionResult` class that I'm now returning from `create` that looks like the following:
 
-```export class InceptionResult {
+<pre>export class InceptionResult {
     private readonly _serder: Serder
     private readonly _sigs: string[]
     private readonly promise: Promise&lt;Response&gt;
@@ -880,7 +880,7 @@ I changed the `create` method to no longer be async and created an `InceptionRes
         let res = await this.promise
         return await res.json()
     }
-}```
+}<pre>
 Now callers that don't need anything other than the HTTP op can just call `await res.op()` and if you need the serder and sigs, they are available as getters.
 
 Does this look "Ok"?  If so, I'll be making similar changes to `rotate` and `interact`.</div>
@@ -952,17 +952,17 @@ Does this look "Ok"?  If so, I'll be making similar changes to `rotate` and `int
 			
   			<div class="card-body">    
             	<div class="card-text msg">You can return async tuples with typescript
-```async function test1(): Promise&lt;[string, string]&gt; {
+<pre>async function test1(): Promise&lt;[string, string]&gt; {
     return ["hello", "world"];
-}```
+}<pre>
 Destructing it
-```let [a, b] = await test1();```
+<pre>let [a, b] = await test1();<pre>
 I agree with rodolfo that you should await the Response "earlier", check status and handle any error, and only if things are positive return a promise with all results. Otherwise the caller will see partial results.
 The create method could then look like this
-```async function create(): Promise&lt;[Serder, string[], object]&gt; {
+<pre>async function create(): Promise&lt;[Serder, string[], object]&gt; {
   ...
   return [serder, sigs, await res.json];
-}```
+}<pre>
 <https://www.typescriptlang.org/docs/handbook/2/objects.html#tuple-types></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
