@@ -152,6 +152,14 @@ const config = {
             position: 'left',
           },
           {
+            // to: 'https://weboftrust.github.io/WOT-terms/slack/html/',
+            to: 'https://weboftrust.github.io/WOT-terms/slack/html/',
+            label: 'Slack history',
+            target: '_self',
+            position: 'left'
+          },
+
+          {
             href: 'https://github.com/weboftrust/WOT-terms',
             label: 'GitHub repo',
             position: 'right',
