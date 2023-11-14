@@ -45,7 +45,7 @@
 			}
 			.messages .message .msg {
 				line-height:1.5;
-			}</style><title>Slack history</title></head><body><a class="btn btn-outline-secondary d-block" href="index.html">To Index</a><h1 class="mt-3" id="begin">Slack History</h1><div class="fixed-bottom d-flex justify-content-end"><a href="#begin" class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div><div class="messages">
+			}</style><title>Slack history</title></head><body><h1 class="mt-3" id="begin">Slack History</h1><a class="btn btn-outline-secondary d-block" href="index.html">To Index</a><div class="fixed-bottom d-flex justify-content-end"><a href="#begin" class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div><div class="messages">
 		<div class="card mt-5">
 			<div class="card-header">
     			<img src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
@@ -2770,7 +2770,7 @@ I'll try get details out today/tomorrow to clarify things</div>
   			<div class="card-body">    
             	<div class="card-text msg">Why is `bran` in `Controller` the argument passed in to the `passcode` parameter in `SignifyClient`?
 And then in Controller the following code makes it look like passcode is being used as a salt:
-```self.bran = coring.MtrDex.Salt_128 + 'A' + bran[:21]  # qb64 salt for seed```</div>
+<pre>self.bran = coring.MtrDex.Salt_128 + 'A' + bran[:21]  # qb64 salt for seed<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -3055,7 +3055,7 @@ Each test I’ve run has always got a 404 when issuing the initial connection re
             	<div class="card-text msg">Is there an integration or other test that walks through the three items above?
 
 Each test I’ve run has always got a 404 when issuing the initial connection request to KERIA saying
-```keri.kering.ConfigurationError: agent does not exist for controller ELI7pg979AdhmvrjDeam2eAO2SR5niCgnjAJXJHtJose```</div>
+<pre>keri.kering.ConfigurationError: agent does not exist for controller ELI7pg979AdhmvrjDeam2eAO2SR5niCgnjAJXJHtJose<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -3074,7 +3074,7 @@ Each test I’ve run has always got a 404 when issuing the initial connection re
   			<div class="card-body">    
             	<div class="card-text msg">I’ve got the kli witness demo network up and running as well as KERIA. I’m thinking I’m missing the out of band part in Step One defined in the protocol:
 
-```signed inception event out-of-bands to the KERIA service through the Boot interface```</div>
+<pre>signed inception event out-of-bands to the KERIA service through the Boot interface<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -3772,11 +3772,11 @@ What is it and why should I use it?</div>
   			<div class="card-body">    
             	<div class="card-text msg">What is the equivalent to the `-c [AID]` argument in the current form of KERIA? In trying to run the Signify tests in `integration_clienting.py` I see the following doc comment in the `def test_salty` test:
 
-```    """ This test assumes a running KERIA agent with the following comand:
+<pre>    """ This test assumes a running KERIA agent with the following comand:
 
           `keria start -c ELI7pg979AdhmvrjDeam2eAO2SR5niCgnjAJXJHtJose`
 
-    """```
+    """<pre>
 </div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -3982,12 +3982,12 @@ I don’t mean to ask the same question over and over again. There’s something
 			
   			<div class="card-body">    
             	<div class="card-text msg">I’m looking through the code of old versions of KERIA and I see the `-c` stands for `--controller` :
-```parser.add_argument('-c', '--controller', required=True,
-                    help="Identifier prefix of the controller of this agent.")```
+<pre>parser.add_argument('-c', '--controller', required=True,
+                    help="Identifier prefix of the controller of this agent.")<pre>
 This was then sent to `agenting.setup` as `conAid`
-```doers.extend(agenting.setup(name=name, base=base, bran=bran,
+<pre>doers.extend(agenting.setup(name=name, base=base, bran=bran,
                                 ctrlAid=ctrlAid,
-                                adminPort=admin,```
+                                adminPort=admin,<pre>
 This further made it into Habery:
 `conHby = habbing.Habery(name=conAid, base=base, cf=cf)`
 And Authenticater:
@@ -7109,13 +7109,13 @@ I'll try to fix it now and get it working again, hopefully tonight.</div>
 			
   			<div class="card-body">    
             	<div class="card-text msg"><@U024CJMG22J> :
-```keria start --config-file demo-witness-oobis.json --config-dir ./scripts
+<pre>keria start --config-file demo-witness-oobis.json --config-dir ./scripts
 The Agency is loaded and waiting for requests...
   Agent: EEXekkGu9IAzav6pZVJhkLnjtjM5v3AcyA-pdKUcaGei   Controller: ELI7pg979AdhmvrjDeam2eAO2SR5niCgnjAJXJHtJose
 Sending multisig event to 2 other participants
 Waiting for other signatures for EE-643P7FUUG8-8ffVupf6iiMcE3VMx42chE4UUiBmWr:0...
 Waiting for fully signed witness receipts for 0
-Witness receipts complete, EE-643P7FUUG8-8ffVupf6iiMcE3VMx42chE4UUiBmWr confirmed.```</div>
+Witness receipts complete, EE-643P7FUUG8-8ffVupf6iiMcE3VMx42chE4UUiBmWr confirmed.<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -7235,7 +7235,7 @@ Witness receipts complete, EE-643P7FUUG8-8ffVupf6iiMcE3VMx42chE4UUiBmWr confirme
 			
   			<div class="card-body">    
             	<div class="card-text msg">accepted on kli as well:
-```Alias:  multisig
+<pre>Alias:  multisig
 Identifier: EE-643P7FUUG8-8ffVupf6iiMcE3VMx42chE4UUiBmWr
 Seq No: 0
 Group Identifier
@@ -7249,7 +7249,7 @@ Threshold:      3
 Public Keys:
         1. DOZlWGPfDHLMf62zSFzE8thHmnQUOgA3_Y-KpOyF9ScG
         2. DHGb2qY9WwZ1sBnC9Ip0F-M8QjTM27ftI-3jTGF9mc6K
-        3. DPmhSfdhCPxr3EqjxzEtF8TVy0YX7ATo0Uc8oo2cnmY9```</div>
+        3. DPmhSfdhCPxr3EqjxzEtF8TVy0YX7ATo0Uc8oo2cnmY9<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -7334,7 +7334,7 @@ Public Keys:
 			</div>
 			
   			<div class="card-body">    
-            	<div class="card-text msg">```Traceback (most recent call last):
+            	<div class="card-text msg"><pre>Traceback (most recent call last):
   File "/Users/eujinong/signifypy/scripts/create_person_aid.py", line 112, in &lt;module&gt;
     create_aid()
   File "/Users/eujinong/signifypy/scripts/create_person_aid.py", line 23, in create_aid
@@ -7347,7 +7347,7 @@ Public Keys:
   File "/Users/eujinong/signifypy/src/signify/app/aiding.py", line 175, in Identifiers
     def addEndRole(self, name, *, role=Roles.agent, eid=None):
                                        ^^^^^^^^^^^
-AttributeError: 'Rolage' object has no attribute 'agent'```</div>
+AttributeError: 'Rolage' object has no attribute 'agent'<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -8169,7 +8169,7 @@ This is happening in the issue-ecr.sh script, yet it hasn’t happened anywhere 
 			
   			<div class="card-body">    
             	<div class="card-text msg">that credential was revoked from Signify/KERIA:
-```{
+<pre>{
     "sad": {
         "v": "ACDC10JSON000197_",
         "d": "EDRys0t8LGBzEwr_PEMyKB-Zum4khrfjXEEkM1bqVU-4",
@@ -8206,7 +8206,7 @@ This is happening in the issue-ecr.sh script, yet it hasn’t happened anywhere 
         "dt": "2023-07-13T18:49:08.925000+00:00",
         "et": "rev"
     }
-}```</div>
+}<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -9176,11 +9176,11 @@ It's here</div>
 			</div>
 			
   			<div class="card-body">    
-            	<div class="card-text msg">```        # Index of credentials by issuer/issuee.
+            	<div class="card-text msg"><pre>        # Index of credentials by issuer/issuee.
         for field in (ISSUER_FIELD, ISSUEE_FIELD):
             self.createIndex(field.qb64)
             subkey = f"{field.qb64}.{SCHEMA_FIELD.qb64}"
-            self.createIndex(subkey)```
+            self.createIndex(subkey)<pre>
 It's here</div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -9693,7 +9693,7 @@ It's here</div>
   			<div class="card-body">    
             	<div class="card-text msg">Hi <@U03P53FCYB1>. I tried running `request-present.ts` from <https://github.com/WebOfTrust/signify-ts/pull/71> but I cannot get it to complete. Keria is on latest main branch. Any ideas?
 
-```$ ts-node --esm request-present.ts
+<pre>$ ts-node --esm request-present.ts
 *** Starting REQUEST-PRESENT test ***
 Client 1 connected. Client AID: ELo2ZsLl5C39ZoDNkcUurMXUyvodFi-tgTew09JM_lqw Agent AID:  EADY1vHTlvadY-6A5C3YjNZOFWlZdEx_AuaKMhJ5TGBd
 Client 2 connected. Client AID: EHnU14RLuJ1mBv_9c9aksNo3ff0Lj8QqykzNdfGtaWgL Agent AID:  ELBPV0ooTSbWxYMS8h6IeNZGt1RXt5RUAgJ_RnKPKM21
@@ -9716,7 +9716,7 @@ SyntaxError: Unexpected end of JSON input
     at node:internal/process/task_queues:140:7
     at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
     at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
-    at processTicksAndRejections (node:internal/process/task_queues:95:5)```</div>
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -9808,7 +9808,7 @@ SyntaxError: Unexpected end of JSON input
 			
   			<div class="card-body">    
             	<div class="card-text msg">On the keria side this seems to be the last http request
-```PUT /notifications/APBk_VRo-hZZFOGtV14NpcH_Zinwk3dxYlROKbL1KG69```</div>
+<pre>PUT /notifications/APBk_VRo-hZZFOGtV14NpcH_Zinwk3dxYlROKbL1KG69<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -9951,11 +9951,11 @@ Essentially, I want identifier creation to be idempotent from SignifyTS.</div>
 			
   			<div class="card-body">    
             	<div class="card-text msg">This line from `identifiers.create()` I am thinking should error out on the second attempt:
-```let res = await this.client.fetch("/identifiers", "POST", jsondata)```
+<pre>let res = await this.client.fetch("/identifiers", "POST", jsondata)<pre>
 *jsondata* has the name property, and all the rest:
-```var jsondata: any = {
+<pre>var jsondata: any = {
             name: name,
-...```
+...<pre>
 </div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -10053,9 +10053,9 @@ Essentially, I want identifier creation to be idempotent from SignifyTS.</div>
             	<div class="card-text msg">Should a POST call to `identifiers.addEndRole()` similarly error out on the second identical call when it is the same role name (`agent` here) for the same identifier (`issuer` here) and same prefix (`client1!.agent!.pre` here) ?
 
 <https://github.com/WebOfTrust/signify-ts/blob/main/examples/signify-react-ts/src/test_components/Credentials.tsx#L85|Sample call> from SignifyTS:
-```await identifiers1.addEndRole("issuer", 'agent', client1!.agent!.pre)```
+<pre>await identifiers1.addEndRole("issuer", 'agent', client1!.agent!.pre)<pre>
 Ends up making a `fetch()` call to:
-```let res = await this.client.fetch("/identifiers/" + name + "/endroles", "POST", jsondata)```
+<pre>let res = await this.client.fetch("/identifiers/" + name + "/endroles", "POST", jsondata)<pre>
 </div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -10143,7 +10143,7 @@ Ends up making a `fetch()` call to:
   			<div class="card-body">    
             	<div class="card-text msg">How is a nonce generated for registry creation?
 I see one here in `Credentials.tsx`: `AOLPzF1vRwMPo6tDfoxba1udvpu0jG_BCP_CI49rpMxK`
-```op1 = await client1.registries().create('issuer', 'vLEI', "AOLPzF1vRwMPo6tDfoxba1udvpu0jG_BCP_CI49rpMxK")```</div>
+<pre>op1 = await client1.registries().create('issuer', 'vLEI', "AOLPzF1vRwMPo6tDfoxba1udvpu0jG_BCP_CI49rpMxK")<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -10255,7 +10255,7 @@ I see one here in `Credentials.tsx`: `AOLPzF1vRwMPo6tDfoxba1udvpu0jG_BCP_CI49rpM
 			</div>
 			
   			<div class="card-body">    
-            	<div class="card-text msg">```def randomNonce():
+            	<div class="card-text msg"><pre>def randomNonce():
     """ Generate a random ed25519 seed and encode as qb64
 
     Returns:
@@ -10263,7 +10263,7 @@ I see one here in `Credentials.tsx`: `AOLPzF1vRwMPo6tDfoxba1udvpu0jG_BCP_CI49rpM
     """
     preseed = pysodium.randombytes(pysodium.crypto_sign_SEEDBYTES)
     seedqb64 = Matter(raw=preseed, code=MtrDex.Ed25519_Seed).qb64
-    return seedqb64```</div>
+    return seedqb64<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -10315,11 +10315,11 @@ I see one here in `Credentials.tsx`: `AOLPzF1vRwMPo6tDfoxba1udvpu0jG_BCP_CI49rpM
 			
   			<div class="card-body">    
             	<div class="card-text msg">Looks like <@U03N48D5VD1> added a version to SignifyTS
-```export function randomNonce(): string {
+<pre>export function randomNonce(): string {
     let seed = libsodium.randombytes_buf(libsodium.crypto_sign_SEEDBYTES);
     let seedqb64 = new Matter({ raw: seed, code: MtrDex.Ed25519_Seed });
     return seedqb64.qb64;
-}```</div>
+}<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -10377,14 +10377,14 @@ Script: *keria/src/keria*
 Params: *start --config-file demo-witness-oobis.json --config-dir /Users/kbull/code/keri/wot/keripy/scripts*
 
 When running at the command line, from my KERIA repository root directory, I use the following command:
-```keria start --config-dir scripts --config-file demo-witness-oobis```
+<pre>keria start --config-dir scripts --config-file demo-witness-oobis<pre>
 And, of course, I use `kli witness demo` to run the witnesses and have cleaned out the KERI state with `rm -rfv ~/.keri &amp;&amp; rm -rfv /usr/local/var/keri`
 
 NOTE: I found my problem. It’s that the `demo-witness-oobis.json` in the KERIA repo contains the subsection for KERIA and the one in the KERIpy repo does not. Here’s the difference between the two files:
-```  "keria": {
+<pre>  "keria": {
     "dt": "2022-01-20T12:57:59.823350+00:00",
     "curls": ["<http://127.0.0.1:3902/>"]
-  },```
+  },<pre>
 </div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -10945,7 +10945,7 @@ Is that correct?</div>
 			
   			<div class="card-body">    
             	<div class="card-text msg">I’m getting a KERIA  500 server error when my SignifyTS client makes a duplicate request to `/identifiers/{aid}/endroles` endpoint. Does this look familiar?
-```2023-08-16 18:22:21 [FALCON] [ERROR] POST /identifiers/dc_primary/endroles =&gt; Traceback (most recent call last):
+<pre>2023-08-16 18:22:21 [FALCON] [ERROR] POST /identifiers/dc_primary/endroles =&gt; Traceback (most recent call last):
   File "falcon/app.py", line 365, in falcon.app.App.__call__
   File "/Users/kbull/code/keri/wot/keria/src/keria/app/aiding.py", line 733, in on_post
     agent.hby.rvy.processReply(rserder, tsgs=[tsg])
@@ -10958,7 +10958,7 @@ Is that correct?</div>
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/Users/kbull/code/keri/wot/keripy/src/keri/core/routing.py", line 347, in acceptReply
     raise kering.ValidationError(f"Invalid reply from signer={spre}, no "
-keri.kering.ValidationError: Invalid reply from signer=EFNtHlFG-SVN4cklD17ANPzPTBJPg-xaNeBHDxphmz5Z, no keys at signer's est. event sn=1.```
+keri.kering.ValidationError: Invalid reply from signer=EFNtHlFG-SVN4cklD17ANPzPTBJPg-xaNeBHDxphmz5Z, no keys at signer's est. event sn=1.<pre>
 What does `no keys at signer's est. event sn=1` mean? I’d like to be able to diagnose this myself.</div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -11716,7 +11716,7 @@ Then just do a local install and you’re good.</div>
 			
   			<div class="card-body">    
             	<div class="card-text msg">A GET to `/identifiers/dc_primary` for the `dc_primary` identifier returns the following
-```{
+<pre>{
     "name": "dc_primary",
     "prefix": "EOCoYugn-KTYdMbvpRTFFZLowzK1_CyJFOYuhN7ap3Fq",
     "salty": {
@@ -11769,7 +11769,7 @@ Then just do a local install and you’re good.</div>
         "di": ""
     },
     "windexes": []
-}```</div>
+}<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -12771,7 +12771,7 @@ I’ve always considered folks in this community in the 9 and 1, but it does ill
 			</div>
 			
   			<div class="card-body">    
-            	<div class="card-text msg">```
+            	<div class="card-text msg"><pre>
 {
  "v": "KERI10JSON00012b_",
  "t": "icp",
@@ -12790,7 +12790,7 @@ I’ve always considered folks in this community in the 9 and 1, but it does ill
  "b": [],
  "c": [],
  "a": []
-}```
+}<pre>
 This is an inception event from `protocol.md`. As you can see here it says the `kidx` of the rotation key is 1.
 However if you look at the code for the signify controller, the passed `kidx` is 0.
 
@@ -12874,9 +12874,9 @@ Additionally it says the salty keys are generated using a composition of positio
 Am I correct that the `ridx` is the number of the next rotation event where an rotation key gets authority?
 If this is right, when you think about the example from `keri-dev` channel where not all next keys got used to rotated, `ridx` is an optional parameter because it cannot always be made clear when the key will be used in a rotation event.
 
-```0 	Crnt 	[A0, A1, A2] 	            [1/2, 1/2, 1/2]      
+<pre>0 	Crnt 	[A0, A1, A2] 	            [1/2, 1/2, 1/2]      
 0 	Next 	[H(A3), H(A4), H(A5)] 	    1                      
-1 	Crnt 	[A4, A6, A7, A8] 	        [0, 1/2, 1/2, 1/2]    ```
+1 	Crnt 	[A4, A6, A7, A8] 	        [0, 1/2, 1/2, 1/2]    <pre>
 `A0` =&gt; `ridx = 0`
 `A4` =&gt; `ridx = 1`
 

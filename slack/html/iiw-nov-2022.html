@@ -45,7 +45,7 @@
 			}
 			.messages .message .msg {
 				line-height:1.5;
-			}</style><title>Slack history</title></head><body><a class="btn btn-outline-secondary d-block" href="index.html">To Index</a><h1 class="mt-3" id="begin">Slack History</h1><div class="fixed-bottom d-flex justify-content-end"><a href="#begin" class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div><div class="messages">
+			}</style><title>Slack history</title></head><body><h1 class="mt-3" id="begin">Slack History</h1><a class="btn btn-outline-secondary d-block" href="index.html">To Index</a><div class="fixed-bottom d-flex justify-content-end"><a href="#begin" class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div><div class="messages">
 		<div class="card mt-5">
 			<div class="card-header">
     			<img src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
@@ -215,7 +215,7 @@ It has 2 command in its command line tool...  `dkr server start`  to launch an H
 
 I also recently added `kli did generate` to the keripy command line tool for creating a valid DID.  The did syntax is as follows:
 
-```did:keri:&lt;aid&gt;:&lt;oobi&gt;```
+<pre>did:keri:&lt;aid&gt;:&lt;oobi&gt;<pre>
 I am planning on hosting a session on `did:keri` and hope to get input from DID folks on this approach and help building out support for DIDDic metadata and DID resolution metadata to allow for folks to retrieve a DIDDoc from an untrusted source and able to perform the verification of key state themselves.  Hope to see everyone there</div>
             	<div class="card-text imgInMessage"></div>
 			</div>
@@ -395,10 +395,10 @@ I ran the following:
   			<div class="card-body">    
             	<div class="card-text msg">Where would I find the DID after generation?
 I ran the following:
-```1. dkr server start
+<pre>1. dkr server start
    Output: did:keri Method Resolver listening on 7676
 2. kli did generate -n kentbull
-   Output: Keystore must already exist, exiting```</div>
+   Output: Keystore must already exist, exiting<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">

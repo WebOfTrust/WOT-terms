@@ -45,7 +45,7 @@
 			}
 			.messages .message .msg {
 				line-height:1.5;
-			}</style><title>Slack history</title></head><body><a class="btn btn-outline-secondary d-block" href="index.html">To Index</a><h1 class="mt-3" id="begin">Slack History</h1><div class="fixed-bottom d-flex justify-content-end"><a href="#begin" class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div><div class="messages">
+			}</style><title>Slack history</title></head><body><h1 class="mt-3" id="begin">Slack History</h1><a class="btn btn-outline-secondary d-block" href="index.html">To Index</a><div class="fixed-bottom d-flex justify-content-end"><a href="#begin" class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div><div class="messages">
 		<div class="card mt-5">
 			<div class="card-header">
     			<img src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
@@ -534,13 +534,13 @@ The vLEI schemas are referenced in Keri oobi configurations, for example here <h
   			<div class="card-body">    
             	<div class="card-text msg">Has anyone encountered with the problem running the `./scripts/create-local-aid.sh` script?
 It seems my Local AID does not get the `receipts` from the `witness` . The error is as below
-```Waiting for witness receipts...
-ERR: unable to find a valid endpoint for witness BHeD7WvSDGwm0glBHGTuHpGeMRq7HyCOAJ8h_epQyHkR```
+<pre>Waiting for witness receipts...
+ERR: unable to find a valid endpoint for witness BHeD7WvSDGwm0glBHGTuHpGeMRq7HyCOAJ8h_epQyHkR<pre>
 and
-```Witnesses:
+<pre>Witnesses:
 Count:          5
 Receipts:       0
-Threshold:      5```</div>
+Threshold:      5<pre></div>
             	<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
@@ -1427,7 +1427,7 @@ To me, and to many others in this community, KERI is by far the best technology 
 			</div>
 			
   			<div class="card-body">    
-            	<div class="card-text msg">```"I can't see any stake or incentive for the witnesses, watchers and etc. to ensure a ultimate trust model. Also, Im not sure if the witnesses can handle that much volume."```
+            	<div class="card-text msg"><pre>"I can't see any stake or incentive for the witnesses, watchers and etc. to ensure a ultimate trust model. Also, Im not sure if the witnesses can handle that much volume."<pre>
 Again, KERI is not double-spending proof, so it doesn’t provide a tokenomic incentive for participating parties, unlike miners in proof-of-work blockchains and validators in proof-of-stake blockchains.
 
 Witnesses are designated by “controllers” to provide a “key promulgation service”, basically a service for others to discover their keys.
@@ -1652,7 +1652,7 @@ P.S. When I use `kli vc list` to check the LE credential, its status is still �
 <https://github.com/WebOfTrust/keri/discussions/38>
 
 In [Technical Requirements Part 1: KERI Infrastructure] of the vLEI ecosystem governance framework Section 6.6
-```The Delegated AID of a Qualified vLEI Issuer MUST set the Do Not Delegate configuration trait to True. (NOTE: This may change in future versions in order to accommodate horizontal scalability of the vLEI signing infrastructure.)```
+<pre>The Delegated AID of a Qualified vLEI Issuer MUST set the Do Not Delegate configuration trait to True. (NOTE: This may change in future versions in order to accommodate horizontal scalability of the vLEI signing infrastructure.)<pre>
 I am wondering if the following approach is allowed within the ecosystem.
 1. A QVI incepts a new AID (AID1) that is different from the one used as the QVI AID (AID0)
 2. Use AID0 to issue a Legal Entity vLEI to AID1—i.e., the QVI issues Legal Entity vLEI to itself using AID1
