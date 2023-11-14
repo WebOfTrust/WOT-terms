@@ -7,3 +7,5 @@ node fetchExternalContent/fetchMentalModels/fetchNistContent/fetchNistContent.mj
 node fetchExternalContent/fetchMentalModels/fetchEssifLabContent/fetchEssifLabContent.js
 
 node fetchExternalContent/fetchMentalModels/fetchDigitalGovtNzContent/fetchDigitalGovtNzContent.js
+
+node fetchExternalContent/fetchMentalModels/fetchW3cDid/fetchW3cDid.js
