@@ -174,8 +174,15 @@ const addUiToSidebar = () => {
         checkboxTypeContainer.style.fontSize = fontSize;
         checkboxTypeContainer.innerHTML = `<h2 class="d-inline pe-1" style="font-size: 1.2em">Type:</h2><span role="button" class="fs-5 lh-1 explanation-type float-end align-middle">?</span>`
 
+        const searchContainer = document.createElement('div');
+        // searchContainer.classList.add(...classesToAdd);
+        searchContainer.classList.add('glossary-search-container', 'pe-2');
+        searchContainer.style.fontSize = fontSize;
+        searchContainer.innerHTML = `<h2 class="d-none pe-1" style="font-size: 1.2em">Search:</h2>`
+
         // add the container with filters to the sidebar
         if (ulElement) {
+            ulElement.insertBefore(searchContainer, ulElement.firstChild);
             ulElement.insertBefore(checkboxLevelContainer, ulElement.firstChild);
             ulElement.insertBefore(checkboxFormContainer, ulElement.firstChild);
             ulElement.insertBefore(checkboxTypeContainer, ulElement.firstChild);
@@ -323,6 +330,32 @@ const addUiToSidebar = () => {
 
             checkboxesType.push(checkboxType.querySelector('input'));
         }
+
+        // Search input
+        const searchInput = document.createElement('input');
+        searchInput.classList.add('form-control');
+        searchInput.classList.add('form-control-sm');
+        searchInput.classList.add('mb-1');
+        searchInput.classList.add('mt-1');
+        searchInput.classList.add('border', 'border-secondary');
+        searchInput.classList.add('search-input');
+        searchInput.setAttribute('type', 'text');
+        searchInput.setAttribute('placeholder', 'Search');
+        searchInput.setAttribute('aria-label', 'Search');
+        searchInput.setAttribute('aria-describedby', 'search-addon');
+        searchInput.addEventListener('keyup', (e) => {
+            const searchValue = e.target.value.toLowerCase();
+            ulElementChildLinks.forEach((link) => {
+                if (link.innerText.toLowerCase().includes(searchValue)) {
+                    link.classList.remove('d-none');
+                } else {
+                    link.classList.add('d-none');
+                }
+            });
+        });
+        const searchContainerElement = document.querySelector('.glossary-search-container');
+        searchContainerElement.appendChild(searchInput);
+
     }
 
     createFilters();
