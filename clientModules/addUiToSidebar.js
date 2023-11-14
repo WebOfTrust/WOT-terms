@@ -343,6 +343,15 @@ const addUiToSidebar = () => {
         searchInput.setAttribute('placeholder', 'Search');
         searchInput.setAttribute('aria-label', 'Search');
         searchInput.setAttribute('aria-describedby', 'search-addon');
+        // searchInput.setAttribute('autocomplete', 'on');
+        searchInput.setAttribute('autofocus', 'on');
+        // empty the search input when the user clicks on it
+        searchInput.addEventListener('click', (e) => {
+            e.target.value = '';
+            removeDisplayNoneAllLinks();
+        }
+        );
+
         searchInput.addEventListener('keyup', (e) => {
             const searchValue = e.target.value.toLowerCase();
             ulElementChildLinks.forEach((link) => {
@@ -372,6 +381,12 @@ const addUiToSidebar = () => {
     function removeGreyOutAllLinks() {
         ulElementChildLinks.forEach((link) => {
             link.classList.remove('greyed-out');
+        });
+    }
+
+    function removeDisplayNoneAllLinks() {
+        ulElementChildLinks.forEach((link) => {
+            link.classList.remove('d-none');
         });
     }
 
