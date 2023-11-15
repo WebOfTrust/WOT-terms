@@ -1130,7 +1130,17 @@ article .markdown .inline-medium-end,
 */
 
 
+/* 
+  Glossary Menu
+*/
+.glossary-menu {
+  background: #ecf1f4;
+}
+
 .greyed-out {
   color: #aaa;
   pointer-events: none;
 }
+/* 
+  End Glossary Menu
+*/
