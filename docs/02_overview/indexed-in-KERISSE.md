@@ -1,6 +1,6 @@
 # Indexed in KERISSE
-<p id='index-created-timestamp-source'>Indexed at 10 November 2023 20:13:15</p>
-<p id='index-created-page-count-source'>Number of indexed pages: 3839</p>
+<p id='index-created-timestamp-source'>Indexed at 15 November 2023 18:56:55</p>
+<p id='index-created-page-count-source'>Number of indexed pages: 3845</p>
 <ol>
 <li><a href="https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79" target="_blank">https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79</a></li>
 <li><a href="https://essif-lab.github.io/framework/docs/TBD" target="_blank">https://essif-lab.github.io/framework/docs/TBD</a></li>
@@ -666,6 +666,7 @@
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/legal-entity-vlei-credential-governance-framework" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/legal-entity-vlei-credential-governance-framework</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/legitimized-human-meaningful-identifier" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/legitimized-human-meaningful-identifier</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/levels-of-assurance" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/levels-of-assurance</a></li>
+<li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/listed-identifier" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/listed-identifier</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/liveness" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/liveness</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/loci-of-control" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/loci-of-control</a></li>
 <li><a href="https://github.com/WebOfTrust/WOT-terms/wiki/locked-state" target="_blank">https://github.com/WebOfTrust/WOT-terms/wiki/locked-state</a></li>
@@ -3047,8 +3048,11 @@
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/gleif/2022-12-06_appendix-3-vlei-issuer-qualification-program-checklist_v1.0_final" target="_blank">https://weboftrust.github.io/WOT-terms/docs/gleif/2022-12-06_appendix-3-vlei-issuer-qualification-program-checklist_v1.0_final</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/gleif/2022-12-06_appendix-4-vlei-issuer-contact-details_v1.0_final" target="_blank">https://weboftrust.github.io/WOT-terms/docs/gleif/2022-12-06_appendix-4-vlei-issuer-contact-details_v1.0_final</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/gleif/2022-12-16_Legal-Entity-QVI-AUTH-vLEI-Credential-Governance-Framework_v1.0_final" target="_blank">https://weboftrust.github.io/WOT-terms/docs/gleif/2022-12-16_Legal-Entity-QVI-AUTH-vLEI-Credential-Governance-Framework_v1.0_final</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/glossaries-external/glossary-digital.govt.nz" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossaries-external/glossary-digital.govt.nz</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossaries-external/glossary-essiflab" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossaries-external/glossary-essiflab</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/glossaries-external/glossary-nist" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossaries-external/glossary-nist</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossaries-external/glossary-toip" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossaries-external/glossary-toip</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/glossaries-external/glossary-w3cdid" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossaries-external/glossary-w3cdid</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary-toip-style" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary-toip-style</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/ACDC" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/ACDC</a></li>
@@ -3364,6 +3368,7 @@
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/legal-entity-vlei-credential-governance-framework" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/legal-entity-vlei-credential-governance-framework</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/legitimized-human-meaningful-identifier" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/legitimized-human-meaningful-identifier</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/levels-of-assurance" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/levels-of-assurance</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/listed-identifier" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/listed-identifier</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/liveness" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/liveness</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/loci-of-control" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/loci-of-control</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/locked-state" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/locked-state</a></li>
@@ -3738,9 +3743,10 @@
 <li><a href="https://www.gleif.org/en/lei-solutions" target="_blank">https://www.gleif.org/en/lei-solutions</a></li>
 <li><a href="https://www.gleif.org/en/lei-solutions/better-knowledge-better-business" target="_blank">https://www.gleif.org/en/lei-solutions/better-knowledge-better-business</a></li>
 <li><a href="https://www.gleif.org/en/lei-solutions/featuring-the-lei" target="_blank">https://www.gleif.org/en/lei-solutions/featuring-the-lei</a></li>
-<li><a href="https://www.gleif.org/en/lei-solutions/featuring-the-lei/1-cross-border-payments" target="_blank">https://www.gleif.org/en/lei-solutions/featuring-the-lei/1-cross-border-payments</a></li>
+<li><a href="https://www.gleif.org/en/lei-solutions/featuring-the-lei/cross-border-payments" target="_blank">https://www.gleif.org/en/lei-solutions/featuring-the-lei/cross-border-payments</a></li>
 <li><a href="https://www.gleif.org/en/lei-solutions/featuring-the-lei/digital-organizational-identification" target="_blank">https://www.gleif.org/en/lei-solutions/featuring-the-lei/digital-organizational-identification</a></li>
 <li><a href="https://www.gleif.org/en/lei-solutions/featuring-the-lei/international-supply-chain" target="_blank">https://www.gleif.org/en/lei-solutions/featuring-the-lei/international-supply-chain</a></li>
+<li><a href="https://www.gleif.org/en/lei-solutions/featuring-the-lei/sustainability-reporting-and-environmental-social-and-governance-esg" target="_blank">https://www.gleif.org/en/lei-solutions/featuring-the-lei/sustainability-reporting-and-environmental-social-and-governance-esg</a></li>
 <li><a href="https://www.gleif.org/en/lei-solutions/gleifs-digital-strategy-for-the-lei" target="_blank">https://www.gleif.org/en/lei-solutions/gleifs-digital-strategy-for-the-lei</a></li>
 <li><a href="https://www.gleif.org/en/lei-solutions/gleifs-digital-strategy-for-the-lei/gleif-idc-research-creating-agile-resilient-global-trade-with-the-lei-and-vlei" target="_blank">https://www.gleif.org/en/lei-solutions/gleifs-digital-strategy-for-the-lei/gleif-idc-research-creating-agile-resilient-global-trade-with-the-lei-and-vlei</a></li>
 <li><a href="https://www.gleif.org/en/lei-solutions/lei-in-kyc-a-new-future-for-legal-entity-identification" target="_blank">https://www.gleif.org/en/lei-solutions/lei-in-kyc-a-new-future-for-legal-entity-identification</a></li>
