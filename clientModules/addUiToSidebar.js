@@ -139,6 +139,8 @@ const addUiToSidebar = () => {
     const parentElement = glossaryMainMenuItem.parentNode.parentNode; // This is the 'li'
     const ulElement = parentElement.querySelector('ul');
 
+    parentElement.classList.add('glossary-menu');
+
     // if the sidebar is present but the glossary menu is not present, do nothing
     if (!ulElement) {
         return
