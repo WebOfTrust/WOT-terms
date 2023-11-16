@@ -94,7 +94,7 @@ async function createJSONfromHTML(extractToDir) {
     const jsonContent = JSON.stringify(termsDefinitions, null, 2);
 
     // Write the JSON to a file
-    const jsonFilePath = path.join(process.env.GENERATED_JSON_DIR, generatedJSONfilename);
+    const jsonFilePath = path.join(process.env.GENERATED_JSON_GLOSSARIES_DIR, generatedJSONfilename);
     fs.writeFileSync(jsonFilePath, jsonContent);
 
     console.log('Terms and definitions have been saved to terms-definitions.json');
