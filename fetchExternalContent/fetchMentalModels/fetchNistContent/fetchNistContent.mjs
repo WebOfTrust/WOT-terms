@@ -13,7 +13,7 @@ const fullPath = path.join(dir, filename); // Use path.join for better compatibi
 const overview = './static/json/overview.json';
 
 const sourceJsonFullPath = dir + '/' + 'glossary-export.json'; ``
-const filteredJsonFullPath = path.join(process.env.GENERATED_JSON_DIR, 'terms-definitions-nist.json');
+const filteredJsonFullPath = path.join(process.env.GENERATED_JSON_GLOSSARIES_DIR, 'terms-definitions-nist.json');
 
 // END CONFIG
 

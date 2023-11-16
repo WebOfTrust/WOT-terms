@@ -20,7 +20,7 @@ axios.get(url)
 
         const fs = require('fs');
         const path = require('path');
-        const filePath = path.join(process.env.GENERATED_JSON_DIR, 'terms-definitions-essiflab.json');
+        const filePath = path.join(process.env.GENERATED_JSON_GLOSSARIES_DIR, 'terms-definitions-essiflab.json');
         fs.writeFile(filePath, JSON.stringify(terms), err => {
             if (err) {
                 console.log(err);
