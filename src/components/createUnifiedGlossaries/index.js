@@ -47,7 +47,7 @@ const CreateUnifiedGlossaries = () => {
                             {term.definitions.map((definition, index) => (
                                 <li className="list-group-item" key={index}>
                                     <h3>{definition.organisation}</h3>
-                                    <p>{parse(definition.definition)}</p>
+                                    <div>{parse(definition.definition)}</div>
                                     <a href={definition.url}>Learn more</a>
                                 </li>
                             ))}
