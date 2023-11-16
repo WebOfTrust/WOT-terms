@@ -20,17 +20,17 @@ The following principles guide the development of policies in this Credential Go
 
 ## Binding to Holder
 
-> The Legal Entity vLEI Credential shall be designed to provide a strong enough binding to the Legal Entity vLEI Credential Holder that a Proof Request for the Legal Entity vLEI Credential can be satisfied only by the Legal Entity vLEI Credential Holder.
+The Legal Entity vLEI Credential shall be designed to provide a strong enough binding to the Legal Entity vLEI Credential Holder that a Proof Request for the Legal Entity vLEI Credential can be satisfied only by the Legal Entity vLEI Credential Holder.
 
 ## Context Independence
 
-> The Legal Entity vLEI Credential shall be designed to fulfil a Proof Request for the legal identity of the Legal Entity vLEI Credential Holder regardless of context, including in-person, online, or over the phone.
+The Legal Entity vLEI Credential shall be designed to fulfil a Proof Request for the legal identity of the Legal Entity vLEI Credential Holder regardless of context, including in-person, online, or over the phone.
 
 # Issuer Policies
 
 ## Qualifications
 
-> The Issuer MUST:
+The Issuer MUST:
 
 1.  be a Qualified vLEI Issuer (QVI) in the vLEI Ecosystem with Qualification up to date.
 
@@ -40,7 +40,7 @@ The following principles guide the development of policies in this Credential Go
 
 ## Credential
 
-> The Issuer MUST:
+The Issuer MUST:
 
 1.  use the Legal Entity vLEI Credential schema defined in section 9.1.
 
@@ -127,7 +127,7 @@ The following principles guide the development of policies in this Credential Go
 
 ## Level of Assurance
 
-> The Legal Entity vLEI Credential SHOULD be issued with only a single Level of Assurance. Future versions of this credential governance framework MAY define multiple Levels of Assurance.
+The Legal Entity vLEI Credential SHOULD be issued with only a single Level of Assurance. Future versions of this credential governance framework MAY define multiple Levels of Assurance.
 
 # Holder Policies
 
@@ -143,20 +143,20 @@ There are no restrictions on the Verifiers of vLEI Credentials specified in the 
 
 1.  The Legal Entity vLEI Credential MUST be an Authentic Chained Data Container (ACDC) that MUST use for its schema at the time of issuance, the JSON Schema found in:
 
-> https://github.com/WebOfTrust/vLEI/blob/dev/schema/acdc/legal-entity-vLEI-credential.json
+https://github.com/WebOfTrust/vLEI/blob/dev/schema/acdc/legal-entity-vLEI-credential.json
 
 2.  **The field values in the credential** **MUST** **be as follows:**
 
 \"LEI\" field value MUST be the LEI of Legal Entity Holder.
 
-> Additional data elements can be specified about the Legal Entity through issuance of another ACDC credential containing these additional elements by using the chaining capabilities of ACDC credentials to chain this additional ACDC credential to the related Legal Entity vLEI Credential.
+Additional data elements can be specified about the Legal Entity through issuance of another ACDC credential containing these additional elements by using the chaining capabilities of ACDC credentials to chain this additional ACDC credential to the related Legal Entity vLEI Credential.
 
 3.  The Sources section MUST contain a source reference to the Qualified vLEI Issuer vLEI Credential of the QVI that issued this Legal Entity vLEI Credential.
 
-> The elements in this type of credential can be returned in response to a presentation request as defined in the IPEX protocol (see below).
->
-> The ACDC specification is covered in the ACDC protocol specification which can be found in: https://github.com/WebOfTrust/ietf-keri
->
-> The issuance and presentation exchange protocols are covered in the Issuance and Presentation Exchange (IPEX) protocol specification, which can be found in: https://github.com/WebOfTrust/IETF-IPEX
->
-> Additional data elements can be specified about the Legal Entity, OOR Person and ECR Person through issuance of another ACDC credential containing these additional elements by using the chaining capabilities of ACDC credentials to chain this additional ACDC credential to the related Legal Entity vLEI Credential, Legal Entity Official Organizational Role vLEI or a Legal Entity Engagement Context vLEI Credential.
+The elements in this type of credential can be returned in response to a presentation request as defined in the IPEX protocol (see below).
+
+The ACDC specification is covered in the ACDC protocol specification which can be found in: https://github.com/WebOfTrust/ietf-keri
+
+The issuance and presentation exchange protocols are covered in the Issuance and Presentation Exchange (IPEX) protocol specification, which can be found in: https://github.com/WebOfTrust/IETF-IPEX
+
+Additional data elements can be specified about the Legal Entity, OOR Person and ECR Person through issuance of another ACDC credential containing these additional elements by using the chaining capabilities of ACDC credentials to chain this additional ACDC credential to the related Legal Entity vLEI Credential, Legal Entity Official Organizational Role vLEI or a Legal Entity Engagement Context vLEI Credential.
