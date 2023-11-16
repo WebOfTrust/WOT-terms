@@ -1,8 +1,8 @@
-import termsDefinitionsToip from '@site/static/json/terms-definitions-toip.json';
-import termsDefinitionsEssiflab from '@site/static/json/terms-definitions-essiflab.json';
-import termsDefinitionsDigitalgovtnz from '@site/static/json/terms-definitions-digitalgovtnz.json';
-import termsDefinitionsNist from '@site/static/json/terms-definitions-nist.json';
-import termsDefinitionsW3cDid from '@site/static/json/terms-definitions-w3cdid.json';
+import termsDefinitionsToip from '@site/static/json/external-glosseries/glossaries/terms-definitions-toip.json';
+import termsDefinitionsEssiflab from '@site/static/json/external-glosseries/glossaries/terms-definitions-essiflab.json';
+import termsDefinitionsDigitalgovtnz from '@site/static/json/external-glosseries/glossaries/terms-definitions-digitalgovtnz.json';
+import termsDefinitionsNist from '@site/static/json/external-glosseries/glossaries/terms-definitions-nist.json';
+import termsDefinitionsW3cDid from '@site/static/json/external-glosseries/glossaries/terms-definitions-w3cdid.json';
 /**
  *  This plugin adds a GTP generated summary to the top of the page.
  */
