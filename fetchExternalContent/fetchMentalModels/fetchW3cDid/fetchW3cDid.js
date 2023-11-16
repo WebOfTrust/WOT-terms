@@ -15,7 +15,6 @@ axios.get(url, organisation, jsonFileName)
 
         // find the heading with class "termlist" and then find the first sibling that is a definition list
         const termsList = $('.termlist');
-        console.log('termsList: ', termsList);
         termsList.find('dt').each((i, el) => {
             const term = $(el).text().trim();
             const anchor = term.replace(/[\s-]+/g, ''); // Remove spaces and dashes from 'term' to create 'anchor'
@@ -26,7 +25,7 @@ axios.get(url, organisation, jsonFileName)
 
         const fs = require('fs');
         const path = require('path');
-        const filePath = path.join(process.env.GENERATED_JSON_DIR, jsonFileName);
+        const filePath = path.join(process.env.GENERATED_JSON_GLOSSARIES_DIR, jsonFileName);
         fs.writeFile(filePath, JSON.stringify(terms), err => {
             if (err) {
                 console.log(err);
