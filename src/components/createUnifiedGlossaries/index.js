@@ -41,14 +41,22 @@ const CreateUnifiedGlossaries = () => {
             </div> */}
             <ul className="list-group">
                 {termsData.map((term, index) => (
-                    <li className="list-group-item" key={index}>
+                    <li className="list-group-item border border-0" key={index}>
                         <h2>{term.term}</h2>
                         <ul className="list-group">
                             {term.definitions.map((definition, index) => (
-                                <li className="list-group-item" key={index}>
-                                    <h3>{definition.organisation}</h3>
-                                    <div>{parse(definition.definition)}</div>
-                                    <a href={definition.url}>Learn more</a>
+                                <li className="list-group-item border border-0" key={index}>
+                                    <div className="card">
+                                        <div className="card-header">
+                                            <h3 className="card-title">{definition.organisation}</h3>
+                                        </div>
+                                        <div className="card-body">
+                                            <div className="card-text">{parse(definition.definition)}</div>
+                                        </div>
+                                        <div className="card-footer">
+                                            <a href={definition.url} className="">Learn more</a>
+                                        </div>
+                                    </div>
                                 </li>
                             ))}
                         </ul>
