@@ -1,6 +1,6 @@
 # Indexed in KERISSE
-<p id='index-created-timestamp-source'>Indexed at 15 November 2023 18:56:55</p>
-<p id='index-created-page-count-source'>Number of indexed pages: 3845</p>
+<p id='index-created-timestamp-source'>Indexed at 17 November 2023 22:13:31</p>
+<p id='index-created-page-count-source'>Number of indexed pages: 3889</p>
 <ol>
 <li><a href="https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79" target="_blank">https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79</a></li>
 <li><a href="https://essif-lab.github.io/framework/docs/TBD" target="_blank">https://essif-lab.github.io/framework/docs/TBD</a></li>
@@ -2125,6 +2125,21 @@
 <li><a href="https://github.com/WebOfTrust/schema/blob/main/bindkey/bindkey.schema.json" target="_blank">https://github.com/WebOfTrust/schema/blob/main/bindkey/bindkey.schema.json</a></li>
 <li><a href="https://github.com/WebOfTrust/schema/blob/main/bindkey/example-bindkey.json" target="_blank">https://github.com/WebOfTrust/schema/blob/main/bindkey/example-bindkey.json</a></li>
 <li><a href="https://github.com/WebOfTrust/schema/blob/main/bindkey/index.md" target="_blank">https://github.com/WebOfTrust/schema/blob/main/bindkey/index.md</a></li>
+<li><a href="https://github.com/WebOfTrust/schema/blob/main/desig-aliases/desig-aliases-attr-private-schema.json" target="_blank">https://github.com/WebOfTrust/schema/blob/main/desig-aliases/desig-aliases-attr-private-schema.json</a></li>
+<li><a href="https://github.com/WebOfTrust/schema/blob/main/desig-aliases/desig-aliases-attr-public-schema.json" target="_blank">https://github.com/WebOfTrust/schema/blob/main/desig-aliases/desig-aliases-attr-public-schema.json</a></li>
+<li><a href="https://github.com/WebOfTrust/schema/blob/main/desig-aliases/desig-aliases-private-schema.json" target="_blank">https://github.com/WebOfTrust/schema/blob/main/desig-aliases/desig-aliases-private-schema.json</a></li>
+<li><a href="https://github.com/WebOfTrust/schema/blob/main/desig-aliases/desig-aliases-public-schema.json" target="_blank">https://github.com/WebOfTrust/schema/blob/main/desig-aliases/desig-aliases-public-schema.json</a></li>
+<li><a href="https://github.com/WebOfTrust/schema/blob/main/desig-aliases/desig-aliases-rules-private-schema.json" target="_blank">https://github.com/WebOfTrust/schema/blob/main/desig-aliases/desig-aliases-rules-private-schema.json</a></li>
+<li><a href="https://github.com/WebOfTrust/schema/blob/main/desig-aliases/desig-aliases-rules-public-schema.json" target="_blank">https://github.com/WebOfTrust/schema/blob/main/desig-aliases/desig-aliases-rules-public-schema.json</a></li>
+<li><a href="https://github.com/WebOfTrust/schema/blob/main/desig-aliases/examples/desig-aliases-attr-public.json" target="_blank">https://github.com/WebOfTrust/schema/blob/main/desig-aliases/examples/desig-aliases-attr-public.json</a></li>
+<li><a href="https://github.com/WebOfTrust/schema/blob/main/desig-aliases/examples/desig-aliases-public.json" target="_blank">https://github.com/WebOfTrust/schema/blob/main/desig-aliases/examples/desig-aliases-public.json</a></li>
+<li><a href="https://github.com/WebOfTrust/schema/blob/main/desig-aliases/examples/desig-aliases-rules-public.json" target="_blank">https://github.com/WebOfTrust/schema/blob/main/desig-aliases/examples/desig-aliases-rules-public.json</a></li>
+<li><a href="https://github.com/WebOfTrust/schema/blob/main/desig-aliases/examples/my-scripts/keri/cf/config.json" target="_blank">https://github.com/WebOfTrust/schema/blob/main/desig-aliases/examples/my-scripts/keri/cf/config.json</a></li>
+<li><a href="https://github.com/WebOfTrust/schema/blob/main/desig-aliases/examples/my-scripts/keri/cf/my-config.json" target="_blank">https://github.com/WebOfTrust/schema/blob/main/desig-aliases/examples/my-scripts/keri/cf/my-config.json</a></li>
+<li><a href="https://github.com/WebOfTrust/schema/blob/main/desig-aliases/examples/my-scripts/my-incept.json" target="_blank">https://github.com/WebOfTrust/schema/blob/main/desig-aliases/examples/my-scripts/my-incept.json</a></li>
+<li><a href="https://github.com/WebOfTrust/schema/blob/main/desig-aliases/examples/public.sh" target="_blank">https://github.com/WebOfTrust/schema/blob/main/desig-aliases/examples/public.sh</a></li>
+<li><a href="https://github.com/WebOfTrust/schema/blob/main/desig-aliases/index.md" target="_blank">https://github.com/WebOfTrust/schema/blob/main/desig-aliases/index.md</a></li>
+<li><a href="https://github.com/WebOfTrust/schema/blob/main/desig-aliases/update.sh" target="_blank">https://github.com/WebOfTrust/schema/blob/main/desig-aliases/update.sh</a></li>
 <li><a href="https://github.com/WebOfTrust/schema/blob/main/registry.json" target="_blank">https://github.com/WebOfTrust/schema/blob/main/registry.json</a></li>
 <li><a href="https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/.projectile" target="_blank">https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/.projectile</a></li>
 <li><a href="https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/Dockerfile" target="_blank">https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/Dockerfile</a></li>
@@ -2977,7 +2992,6 @@
 <li><a href="https://medium.com/decentralized-identity/peer-dids-moving-to-difs-id-working-group-7f1664bcbf30" target="_blank">https://medium.com/decentralized-identity/peer-dids-moving-to-difs-id-working-group-7f1664bcbf30</a></li>
 <li><a href="https://medium.com/finema/anonymous-credential-part-1-brief-overview-and-history-c6679034c914" target="_blank">https://medium.com/finema/anonymous-credential-part-1-brief-overview-and-history-c6679034c914</a></li>
 <li><a href="https://medium.com/finema/keri-jargon-in-a-nutshell-part-1-fb554d58f9d0" target="_blank">https://medium.com/finema/keri-jargon-in-a-nutshell-part-1-fb554d58f9d0</a></li>
-<li><a href="https://medium.com/finema/keri-jargon-in-a-nutshell-part-2-said-and-acdc-de6bc544b95e" target="_blank">https://medium.com/finema/keri-jargon-in-a-nutshell-part-2-said-and-acdc-de6bc544b95e</a></li>
 <li><a href="https://medium.com/finema/keri-jargon-in-a-nutshell-part-3-oobi-and-ipex-2e6b222f4b87" target="_blank">https://medium.com/finema/keri-jargon-in-a-nutshell-part-3-oobi-and-ipex-2e6b222f4b87</a></li>
 <li><a href="https://medium.com/finema/minimal-disclosure-of-identity-with-zero-knowledge-proof-and-cl-signature-517ed2a61307" target="_blank">https://medium.com/finema/minimal-disclosure-of-identity-with-zero-knowledge-proof-and-cl-signature-517ed2a61307</a></li>
 <li><a href="https://medium.com/finema/remote-identity-proofing-for-digital-identity-c9a285c1b774" target="_blank">https://medium.com/finema/remote-identity-proofing-for-digital-identity-c9a285c1b774</a></li>
@@ -3581,7 +3595,17 @@
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/resources/mdfiles/draft-ssmith-oobi" target="_blank">https://weboftrust.github.io/WOT-terms/docs/resources/mdfiles/draft-ssmith-oobi</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/resources/mdfiles/draft-ssmith-said" target="_blank">https://weboftrust.github.io/WOT-terms/docs/resources/mdfiles/draft-ssmith-said</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/resources/mdfiles/kli-demo-2022" target="_blank">https://weboftrust.github.io/WOT-terms/docs/resources/mdfiles/kli-demo-2022</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/test/2022-11-22_Legal-Entity-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work" target="_blank">https://weboftrust.github.io/WOT-terms/docs/test/2022-11-22_Legal-Entity-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/test/converted_test_document_bij_chatGPT" target="_blank">https://weboftrust.github.io/WOT-terms/docs/test/converted_test_document_bij_chatGPT</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/test/did-webs-iiw37-tutorial/intro" target="_blank">https://weboftrust.github.io/WOT-terms/docs/test/did-webs-iiw37-tutorial/intro</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/test/gleif-legal/2022-10-28_Qualified-vLEI-Issuer-vLEI-Identifer-Credential-GF-Prep-1.0-Publication_v0.9_work" target="_blank">https://weboftrust.github.io/WOT-terms/docs/test/gleif-legal/2022-10-28_Qualified-vLEI-Issuer-vLEI-Identifer-Credential-GF-Prep-1.0-Publication_v0.9_work</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/test/gleif-legal/2022-11-01_GLEIF-Identifier-GF-Prep-1.0-Publication_v0.6_work" target="_blank">https://weboftrust.github.io/WOT-terms/docs/test/gleif-legal/2022-11-01_GLEIF-Identifier-GF-Prep-1.0-Publication_v0.6_work</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/test/gleif-legal/2022-11-22_Legal-Entity-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work" target="_blank">https://weboftrust.github.io/WOT-terms/docs/test/gleif-legal/2022-11-22_Legal-Entity-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/test/gleif-legal/2022-11-23_Legal-Entity-Engagement-Context-Role-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work" target="_blank">https://weboftrust.github.io/WOT-terms/docs/test/gleif-legal/2022-11-23_Legal-Entity-Engagement-Context-Role-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/test/gleif-legal/2022-11-23_Legal-Entity-Official-Organizational-Role-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work" target="_blank">https://weboftrust.github.io/WOT-terms/docs/test/gleif-legal/2022-11-23_Legal-Entity-Official-Organizational-Role-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/test/gleif-legal/2022-11-30_Legal-Entity-QVI-AUTH-vLEI-Credential-GF-Prep-1.0-Publication_v0.6_work" target="_blank">https://weboftrust.github.io/WOT-terms/docs/test/gleif-legal/2022-11-30_Legal-Entity-QVI-AUTH-vLEI-Credential-GF-Prep-1.0-Publication_v0.6_work</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/test/glossary-unified" target="_blank">https://weboftrust.github.io/WOT-terms/docs/test/glossary-unified</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/test/result" target="_blank">https://weboftrust.github.io/WOT-terms/docs/test/result</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/test/term_test" target="_blank">https://weboftrust.github.io/WOT-terms/docs/test/term_test</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/test/term_test2" target="_blank">https://weboftrust.github.io/WOT-terms/docs/test/term_test2</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/test/term_test3" target="_blank">https://weboftrust.github.io/WOT-terms/docs/test/term_test3</a></li>
@@ -3590,6 +3614,27 @@
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/visualisations/keri-and-acdc-architecture" target="_blank">https://weboftrust.github.io/WOT-terms/docs/visualisations/keri-and-acdc-architecture</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/visualisations/keria-service-architecture" target="_blank">https://weboftrust.github.io/WOT-terms/docs/visualisations/keria-service-architecture</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/visualisations/repo-connections" target="_blank">https://weboftrust.github.io/WOT-terms/docs/visualisations/repo-connections</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/cesr-dev.html" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/cesr-dev.html</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/cesr.html" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/cesr.html</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/did-keri-dev.html" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/did-keri-dev.html</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/did-keri.html" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/did-keri.html</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/edu.html" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/edu.html</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/general.html" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/general.html</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/governance.html" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/governance.html</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/iiw-nov-2022.html" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/iiw-nov-2022.html</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/introductions.html" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/introductions.html</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/keri-cesr-licensing.html" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/keri-cesr-licensing.html</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/keri-dev.html" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/keri-dev.html</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/keri-rs.html" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/keri-rs.html</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/keri-swift.html" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/keri-swift.html</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/keriml.html" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/keriml.html</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/keripy.html" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/keripy.html</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/licencing.html" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/licencing.html</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/random.html" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/random.html</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/signify-dev.html" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/signify-dev.html</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/signify.html" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/signify.html</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/slack/html/vlei.html" target="_blank">https://weboftrust.github.io/WOT-terms/slack/html/vlei.html</a></li>
 <li><a href="https://www.gleif.org/about-lei/code-lists/gleif-accepted-legal-jurisdictions-code-list/gleif_acceptedjurisdictions_v1.4.pdf" target="_blank">https://www.gleif.org/about-lei/code-lists/gleif-accepted-legal-jurisdictions-code-list/gleif_acceptedjurisdictions_v1.4.pdf</a></li>
 <li><a href="https://www.gleif.org/about-lei/code-lists/gleif-registration-authorities-list/2022-03-23_overview_changes_ra_list_v1.0_to_v1.7.pdf" target="_blank">https://www.gleif.org/about-lei/code-lists/gleif-registration-authorities-list/2022-03-23_overview_changes_ra_list_v1.0_to_v1.7.pdf</a></li>
 <li><a href="https://www.gleif.org/about-lei/code-lists/gleif-registration-authorities-list/2022-03-23_ra_list_v1.7.pdf" target="_blank">https://www.gleif.org/about-lei/code-lists/gleif-registration-authorities-list/2022-03-23_ra_list_v1.7.pdf</a></li>
@@ -3711,7 +3756,6 @@
 <li><a href="https://www.gleif.org/en/lei-data/gleif-api" target="_blank">https://www.gleif.org/en/lei-data/gleif-api</a></li>
 <li><a href="https://www.gleif.org/en/lei-data/gleif-concatenated-file" target="_blank">https://www.gleif.org/en/lei-data/gleif-concatenated-file</a></li>
 <li><a href="https://www.gleif.org/en/lei-data/gleif-concatenated-file/about-the-concatenated-file" target="_blank">https://www.gleif.org/en/lei-data/gleif-concatenated-file/about-the-concatenated-file</a></li>
-<li><a href="https://www.gleif.org/en/lei-data/gleif-concatenated-file/download-the-concatenated-file" target="_blank">https://www.gleif.org/en/lei-data/gleif-concatenated-file/download-the-concatenated-file</a></li>
 <li><a href="https://www.gleif.org/en/lei-data/gleif-concatenated-file/lei-issuers-historical-files" target="_blank">https://www.gleif.org/en/lei-data/gleif-concatenated-file/lei-issuers-historical-files</a></li>
 <li><a href="https://www.gleif.org/en/lei-data/gleif-concatenated-file/lei-issuers-original-sources" target="_blank">https://www.gleif.org/en/lei-data/gleif-concatenated-file/lei-issuers-original-sources</a></li>
 <li><a href="https://www.gleif.org/en/lei-data/gleif-data-quality-management" target="_blank">https://www.gleif.org/en/lei-data/gleif-data-quality-management</a></li>
