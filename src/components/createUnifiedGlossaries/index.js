@@ -39,7 +39,15 @@ const CreateUnifiedGlossaries = () => {
         setSearchTerm(event.target.value.toLowerCase());
     };
 
+    const [animateCards, setAnimateCards] = useState(false);
+
+    const triggerAnimation = () => {
+        setAnimateCards(true);
+        setTimeout(() => setAnimateCards(false), 1000); // Animation duration is 1s
+    };
+
     const handleCheckboxChange = (organisation) => {
+        triggerAnimation();
         setCheckedOrganisations(prevChecked => ({
             ...prevChecked,
             [organisation]: !prevChecked[organisation]
@@ -78,7 +86,7 @@ const CreateUnifiedGlossaries = () => {
                         <ul className="list-group">
                             {term.definitions.map((definition, defIndex) => (
                                 <li className={`list-group-item border border-0 ${checkedOrganisations[definition.organisation] ? '' : 'd-none'}`} key={defIndex}>
-                                    <div className="card">
+                                    <div className={`card ${animateCards ? 'animate-outline' : ''}`}>
                                         <div className="card-header">
                                             <h3 className="card-title organisation">{definition.organisation}</h3>
                                         </div>
