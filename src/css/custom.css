@@ -1144,3 +1144,19 @@ article .markdown .inline-medium-end,
 /* 
   End Glossary Menu
 */
+
+@keyframes outlineAnimation {
+    0% {
+        outline: 2px solid transparent;
+    }
+    50% {
+        outline: 2px solid blue; /* Change color as needed */
+    }
+    100% {
+        outline: 2px solid transparent;
+    }
+}
+
+.animate-outline {
+    animation: outlineAnimation 1s ease-in-out;
+}
