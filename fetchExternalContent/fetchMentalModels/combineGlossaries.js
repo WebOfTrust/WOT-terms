@@ -26,6 +26,13 @@ fs.readdir(directoryPathInput, (err, files) => {
             }
 
             jsonData.forEach(entry => {
+                // Skip the entry if the 'term' is an empty string
+                // console.log('entry.term: ', entry.term);
+                if (entry.term === "") {
+                    console.log("empty");
+                    return;
+                }
+
                 if (!termsMap[entry.term]) {
                     termsMap[entry.term] = {
                         term: entry.term,
@@ -39,6 +46,7 @@ fs.readdir(directoryPathInput, (err, files) => {
                     url: entry.url
                 });
             });
+
         }
     });
 
