@@ -365,6 +365,43 @@ async function customScrapeWOTgloss(page, domQueryForContent, pageUrl) {
 
 
 
+/**
+ * Slack Keri Archive
+ * 
+ * 
+ */
+
+const configSlackKeriArchive = {
+    sitemap: await createInput({
+        sourceType: 'localXMLsitemap',
+        sourcePath: 'search-index-typesense/sitemaps/slack-keri-archive.xml',
+    }),
+    siteName: 'Slack Keri Archive',
+    source: 'Slack Keri Archive',
+    category: 'Slack Keri Archive',
+    author: 'Slack Keri Members',
+    destinationFile: 'search-index-typesense/search-index-entries/slack-keri-archive.jsonl',
+    domQueryForContent: 'body'
+}
+
+async function customScrapeSlackKeriArchive(page, domQueryForContent, pageUrl) {
+    logger.setLogFile('success.log');
+    logger.log('pageUrl: ' + pageUrl);
+
+    const mainContent = await extractMainContent(page, domQueryForContent);
+
+    const pageTitle = await getTextContent(page, 'h1');
+
+    let all = {};
+    all.mainContent = mainContent;
+    all.pageTitle = pageTitle;
+    return all;
+}
+
+
+
+
+
 
 export default async function () {
     scrape(configESSIFlabs, customScrapeESSIFlabs);
@@ -375,4 +412,5 @@ export default async function () {
     scrape(configReadTheDocsSignifypy, customScrapeReadTheDocsSignifypy);
     scrape(configWOTterms, customScrapeWOTterms);
     scrape(configWOTgloss, customScrapeWOTgloss);
+    scrape(configSlackKeriArchive, customScrapeSlackKeriArchive);
 };
