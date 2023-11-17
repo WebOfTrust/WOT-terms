@@ -326,42 +326,42 @@ async function customScrapeReadTheDocsSignifypy(page, domQueryForContent, pageUr
 
 
 
-/**
- * ReadTheDocs WOTgloss
- * 
- * 
- */
+// /**
+//  * WOTgloss
+//  * 
+//  * 
+//  */
 
-const configWOTgloss = {
-    sitemap: await createInput({
-        sourceType: 'querySelector',
-        sourcePath: 'https://github.com/weboftrust/WOT-terms/wiki',
-        queryString: '#wiki-pages-box a',
-    }),
-    siteName: 'WebofTrust glossary',
-    source: 'WebofTrust glossary',
-    category: 'Glossary',
-    author: 'Henk van Cann',
-    destinationFile: 'search-index-typesense/search-index-entries/wotgloss.jsonl',
-    domQueryForContent: '.markdown-body p, .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6, .markdown-body li, .markdown-body img, .markdown-body pre, .markdown-body code'
-}
+// const configWOTgloss = {
+//     sitemap: await createInput({
+//         sourceType: 'querySelector',
+//         sourcePath: 'https://github.com/weboftrust/WOT-terms/wiki',
+//         queryString: '#wiki-pages-box a',
+//     }),
+//     siteName: 'WebofTrust glossary',
+//     source: 'WebofTrust glossary',
+//     category: 'Glossary',
+//     author: 'Henk van Cann',
+//     destinationFile: 'search-index-typesense/search-index-entries/wotgloss.jsonl',
+//     domQueryForContent: '.markdown-body p, .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6, .markdown-body li, .markdown-body img, .markdown-body pre, .markdown-body code'
+// }
 
-async function customScrapeWOTgloss(page, domQueryForContent, pageUrl) {
-    logger.setLogFile('success.log');
-    logger.log('pageUrl: ' + pageUrl);
+// async function customScrapeWOTgloss(page, domQueryForContent, pageUrl) {
+//     logger.setLogFile('success.log');
+//     logger.log('pageUrl: ' + pageUrl);
 
-    const mainContent = await extractMainContent(page, domQueryForContent);
+//     const mainContent = await extractMainContent(page, domQueryForContent);
 
-    // let pageTitle = await page.$eval('.repository-content h1', (element) => {
-    //     return element.textContent.trim()
-    // });
-    const pageTitle = await getTextContent(page, '.repository-content h1');
+//     // let pageTitle = await page.$eval('.repository-content h1', (element) => {
+//     //     return element.textContent.trim()
+//     // });
+//     const pageTitle = await getTextContent(page, '.repository-content h1');
 
-    let all = {};
-    all.mainContent = mainContent;
-    all.pageTitle = pageTitle;
-    return all;
-}
+//     let all = {};
+//     all.mainContent = mainContent;
+//     all.pageTitle = pageTitle;
+//     return all;
+// }
 
 
 
