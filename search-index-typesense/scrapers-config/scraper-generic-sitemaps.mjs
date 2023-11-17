@@ -327,7 +327,7 @@ async function customScrapeWOTterms(page, domQueryForContent, pageUrl) {
 
 
 /**
- * ReadTheDocs WOTgloss
+ * WOTgloss
  * 
  * 
  */
