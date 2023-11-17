@@ -27,9 +27,7 @@ fs.readdir(directoryPathInput, (err, files) => {
 
             jsonData.forEach(entry => {
                 // Skip the entry if the 'term' is an empty string
-                // console.log('entry.term: ', entry.term);
                 if (entry.term === "") {
-                    console.log("empty");
                     return;
                 }
 
@@ -51,6 +49,17 @@ fs.readdir(directoryPathInput, (err, files) => {
     });
 
     const finalArray = Object.values(termsMap);
+
+    // Sort the finalArray alphabetically based on 'term'
+    finalArray.sort((a, b) => {
+        if (a.term < b.term) {
+            return -1;
+        }
+        if (a.term > b.term) {
+            return 1;
+        }
+        return 0;
+    });
 
     if (!fs.existsSync(directoryPathOutput)) {
         fs.mkdirSync(directoryPathOutput, { recursive: true });
