@@ -54,7 +54,7 @@ const CreateUnifiedGlossaries = () => {
             <ul className="list-group">
                 {termsData.map((term, index) => (
                     <li className="term list-group-item border border-0" key={index}>
-                        <h2>{term.term}</h2>
+                        <h2 id={term.anchor}>{term.term} <a href={`#${term.anchor}`} className="hash-link" aria-label={`Direct link to ${term.anchor}`} title={`Direct link to ${term.anchor}`}>​</a></h2>
                         <ul className="list-group">
                             {term.definitions.map((definition, index) => (
                                 <li className="list-group-item border border-0" key={index}>
