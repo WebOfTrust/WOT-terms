@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import parse from 'html-react-parser';
 const termsData = require('@site/static/json/external-glosseries/glossaries-combined/all-glossaries.json');
 
@@ -28,20 +28,32 @@ termsData.forEach(term => {
 });
 
 const CreateUnifiedGlossaries = () => {
+    const [searchTerm, setSearchTerm] = useState('');
+
+    const handleSearch = (event) => {
+        setSearchTerm(event.target.value);
+    };
+
+    useEffect(() => {
+        const listItems = document.querySelectorAll('.term h2');
+        listItems.forEach(item => {
+            // If the item text includes the search term, remove 'd-none', else add 'd-none'
+            if (item.textContent.toLowerCase().includes(searchTerm.toLowerCase())) {
+                item.parentElement.classList.remove('d-none');
+                console.log(item.textContent);
+            } else {
+                item.parentElement.classList.add('d-none');
+            }
+        });
+    }, [searchTerm]);
+
     return (
         <div>
-            {/* <h1>All Glossaries</h1> */}
-            {/* <div id='alphabet-index' className='fs-4'>
-                [ {alphabetLetters.map((letter, index) => (
-                    <React.Fragment key={letter}>
-                        <a href={`#${alphabetIndex[letter]}`}>{letter}</a>
-                        {index < alphabetLetters.length - 1 && <span> | </span>}
-                    </React.Fragment>
-                ))} ]
-            </div> */}
+            <input type="text" className="form-control" placeholder="Search" aria-label="Search" onChange={handleSearch} />
+
             <ul className="list-group">
                 {termsData.map((term, index) => (
-                    <li className="list-group-item border border-0" key={index}>
+                    <li className="term list-group-item border border-0" key={index}>
                         <h2>{term.term}</h2>
                         <ul className="list-group">
                             {term.definitions.map((definition, index) => (
