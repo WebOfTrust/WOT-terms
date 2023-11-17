@@ -1,21 +1,5 @@
 [
   {
-    "term": "",
-    "anchor": "",
-    "definitions": [
-      {
-        "organisation": "digital.govt.nz",
-        "definition": "",
-        "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/"
-      },
-      {
-        "organisation": "digital.govt.nz",
-        "definition": "",
-        "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/"
-      }
-    ]
-  },
-  {
     "term": "account",
     "anchor": "account",
     "definitions": [
