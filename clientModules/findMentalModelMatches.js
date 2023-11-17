@@ -7,6 +7,8 @@ import termsDefinitionsW3cDid from '@site/static/json/external-glosseries/glossa
  *  This plugin adds a GTP generated summary to the top of the page.
  */
 
+const allTermsDefinitions = [...termsDefinitionsToip, ...termsDefinitionsEssiflab, ...termsDefinitionsDigitalgovtnz, ...termsDefinitionsNist, ...termsDefinitionsW3cDid];
+
 
 // Remove links from term.definition
 const removeLinks = (html) => {
@@ -33,7 +35,7 @@ const findMentalModelMatches = () => {
     const headingText = heading.innerText;
     console.log('heading: ', headingText);
 
-    const allTermsDefinitions = [...termsDefinitionsToip, ...termsDefinitionsEssiflab, ...termsDefinitionsDigitalgovtnz, ...termsDefinitionsNist, ...termsDefinitionsW3cDid];
+
 
 
 
