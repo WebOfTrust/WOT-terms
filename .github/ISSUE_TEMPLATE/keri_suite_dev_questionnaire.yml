@@ -1,0 +1,101 @@
+name: KERI Suite Questionnaire
+description: Share your experience and feedback about the KERI Suite.
+title: "KERI Suite Feedback: "
+labels: [feedback, questionnaire]
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you for participating in our KERI Suite Questionnaire. Your feedback is valuable."
+  - type: markdown
+    attributes:
+      value: "The goal of this questionnaire is to assess the progress of KERISSE development based on the intial [interviews](https://github.com/WebOfTrust/WOT-terms/discussions/30). To recall the main target group is 'starting KERI Suite developers', the goal is to diminish their working time to get up to speed with the for them essential parts of the Suite."
+  - type: markdown
+    attributes:
+      value: "The goal of this form is to go back in time and remember how you entered the field as a developer. If we get this information from the current development team we can adapt KERISSE for newcomers better."
+  - type: dropdown
+    id: how-heard
+    attributes:
+      label: How did you hear about KERI Suite?
+      description: Select one of the options below.
+      options:
+        - at IIW
+        - via Google search on SSI
+        - via TrustoverIP
+        - via GitHub
+        - other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: interest-area
+    attributes:
+      label: Which part of the KERI Suite was your angle to look for?
+      description: Check all that apply.
+      options:
+        - label: key management
+        - label: crypto currency
+        - label: Self Sovereign Identity
+        - label: KERI
+        - label: ACDC
+        - label: CESR
+        - label: OOBI
+        - label: IPEX
+        - label: PTEL
+        - label: KERIA
+        - label: SIGNIFY
+
+  - type: input
+    id: other-source
+    attributes:
+      label: Other Source
+      description: If you selected 'other' above, please specify.
+      placeholder: Type here...
+
+  - type: textarea
+    id: developer-interest
+    attributes:
+      label: What was the point of interest for you as a developer?
+      description: Why were you looking for something like the KERI Suite development?
+      placeholder: Share your thoughts...
+
+  - type: textarea
+    id: why-involved
+    attributes:
+      label: Why did you become involved?
+      description: Do you remember the initial reason why you looked into KERI Suite?
+      placeholder: Share your thoughts...
+  - type: textarea
+    id: how-involved
+    attributes:
+      label: How did you become involved?
+      description: Do you remember via who or what you become involved in coding for KERI Suite?
+      placeholder: Share your thoughts...
+  - type: textarea
+    id: how-knowledge
+    attributes:
+      label: How did you build up you knowledge?
+      description: Which resources did you study in what order (if you remember)?
+      placeholder: Share your thoughts...
+  - type: textarea
+    id: how-skills
+    attributes:
+      label: How did you build up your skills?
+      description: Which actions did you perform in what order to build your skills?
+      placeholder: Share your thoughts...
+  - type: textarea
+    id: what-lacked
+    attributes:
+      label: What learning resources lacked?
+      description: What in the process lacked to help you go forward more efficiently in he lerarning process?
+      placeholder: Share your thoughts...
+  - type: markdown
+    attributes: 
+      value: "We think these are the consequtive steps for new developers learning to code on of the KERI Suite codebases: <br/> - Introduction <br/> - Zoom sessions."
+  - type: textarea
+    id: tips-tricks
+    attributes:
+      label: What tips & tricks would you have for us?
+      description: What tips & tricks would you have for us concerning the approach above?
+      placeholder: Share your thoughts...
+
+
