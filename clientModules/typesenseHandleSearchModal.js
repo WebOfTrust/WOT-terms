@@ -6,6 +6,8 @@
   Description: This plugin makes the state of the search modal (open or closed) persistent in the url.
 */
 
+import paths from "../docusaurus.paths";
+
 // The search Modal is a modal that opens when the user clicks on the search icon in the top right corner of the screen.
 let searchModalStatus = '';
 
@@ -78,6 +80,14 @@ const typesenseHandleSearchModal = () => {
       // Add to url that the modal is open
       myRouter.setParam('searchModalStatus', 'open');
 
+      // Hide the search results on the home page if the search box is empty
+      if (window.location.pathname === paths.baseUrl && document.querySelector('.ais-SearchBox-input').value === '') {
+        document.querySelector('.search-results-container').classList.add('d-none');
+        document.querySelector('.to-search-results').classList.add('d-none');
+      } else {
+        document.querySelector('.search-results-container').classList.remove('d-none');
+        document.querySelector('.to-search-results').classList.remove('d-none');
+      }
     }, false);
 
   }
@@ -101,14 +111,25 @@ const typesenseHandleSearchModal = () => {
   //   })
   // }
 
-  function setSearchModalStatus() {
+  function setSearchModalStatusInUrl() {
     setTimeout(() => {
       myRouter.setParam('searchModalStatus', searchModalStatus);
     }, 1000);//TODO: typesense removes all query params so we need to wait for that to happen and the re-add the searchModalStatus param. Find out how typesense can be configured to not remove all query params
   }
 
+  function toggleSearchResultsVisibility() {
+    if (document.querySelector('.ais-SearchBox-input').value === '') {
+      document.querySelector('.search-results-container').classList.add('d-none');
+      document.querySelector('.to-search-results').classList.add('d-none');
+    } else {
+      document.querySelector('.search-results-container').classList.remove('d-none');
+      document.querySelector('.to-search-results').classList.remove('d-none');
+    }
+  }
+
   document.querySelector('.ais-SearchBox-input').addEventListener('input', function (e) {// Should be “input”, not “change”
-    setSearchModalStatus();
+    setSearchModalStatusInUrl();
+    toggleSearchResultsVisibility();
   }, false);
 
   // event delegation, for the filters
@@ -125,7 +146,7 @@ const typesenseHandleSearchModal = () => {
 
   // When a filter is clicked
   on('#filters-section', 'click', '.ais-RefinementList-checkbox', event => {
-    setSearchModalStatus();
+    setSearchModalStatusInUrl();
   });
 
 
@@ -152,6 +173,11 @@ const typesenseHandleSearchModal = () => {
   // This DOM element is not preserved between pages, so we need to add the event listener every time the page loads
   document.querySelector('#search-start').addEventListener('click', handleSearchModalOpenClick);
 
+  if (window.location.pathname === paths.baseUrl) {
+    handleSearchModalOpenClick();
+  }
+
+  // Close the search modal when the escape key is pressed
   document.addEventListener('keyup', (event) => {
     switch (event.key) {
       // escape
