@@ -1,0 +1,58 @@
+name: KERI Suite Questionnaire
+description: Share your experience and feedback about the KERI Suite.
+title: "KERI Suite Feedback: "
+labels: [feedback, questionnaire]
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you for participating in our KERI Suite Questionnaire. Your feedback is valuable."
+
+  - type: dropdown
+    id: how-heard
+    attributes:
+      label: How did you hear about KERI Suite?
+      description: Select one of the options below.
+      options:
+        - at IIW
+        - via Google search on SSI
+        - via TrustoverIP
+        - via GitHub
+        - other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: interest-area
+    attributes:
+      label: Which part of the KERI Suite was your angle to look for?
+      description: Check all that apply.
+      options:
+        - key management
+        - crypto currency
+        - Self Sovereign Identity
+        - KERI
+        - ACDC
+        - CESR
+        - OOBI
+        - IPEX
+        - PTEL
+        - KERIA
+        - SIGNIFY
+    validations:
+      required: true
+
+  - type: input
+    id: other-source
+    attributes:
+      label: Other Source
+      description: If you selected 'other' above, please specify.
+      placeholder: Type here...
+
+  - type: textarea
+    id: developer-interest
+    attributes:
+      label: What was the point of interest for you as a developer?
+      description: Why were you looking for something like the KERI Suite development?
+      placeholder: Share your thoughts...
+    validations:
+      required: false
