@@ -17,7 +17,7 @@ const typesenseInstantSearchCreateDomElements = () => {
 <p class='text-center'><span id='index-created-timestamp-target-search-modal'>–</span>, <span id='index-created-page-count-target-search-modal'>–</span></p>
    <div id="search-box" class="mt-3 mb-2"></div>
    <div id="search-close">✖</div>
-   <a href="#search-results" class="btn btn-light btn-sm mt-3 mb-3 d-block d-md-none">To search results</a>
+   <a href="#search-results" class="to-search-results btn btn-light btn-sm mt-3 mb-3 d-block d-md-none">To search results</a>
    <!--<p id="example-search-terms" class="mt-4 text-center"><small>Try:
       <a role="button" class="clickable-search-term btn btn-outline-secondary btn-sm d-inline">Keri</a> 
       <a role="button" class="clickable-search-term btn btn-outline-secondary btn-sm d-inline">ACDC</a> 
