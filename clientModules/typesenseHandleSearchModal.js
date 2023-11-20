@@ -152,6 +152,7 @@ const typesenseHandleSearchModal = () => {
   // This DOM element is not preserved between pages, so we need to add the event listener every time the page loads
   document.querySelector('#search-start').addEventListener('click', handleSearchModalOpenClick);
 
+  // Close the search modal when the escape key is pressed
   document.addEventListener('keyup', (event) => {
     switch (event.key) {
       // escape
