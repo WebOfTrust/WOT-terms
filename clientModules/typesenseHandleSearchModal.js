@@ -6,6 +6,8 @@
   Description: This plugin makes the state of the search modal (open or closed) persistent in the url.
 */
 
+import paths from "../docusaurus.paths";
+
 // The search Modal is a modal that opens when the user clicks on the search icon in the top right corner of the screen.
 let searchModalStatus = '';
 
