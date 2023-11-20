@@ -110,14 +110,14 @@ const typesenseHandleSearchModal = () => {
   //   })
   // }
 
-  function setSearchModalStatus() {
+  function setSearchModalStatusInUrl() {
     setTimeout(() => {
       myRouter.setParam('searchModalStatus', searchModalStatus);
     }, 1000);//TODO: typesense removes all query params so we need to wait for that to happen and the re-add the searchModalStatus param. Find out how typesense can be configured to not remove all query params
   }
 
   document.querySelector('.ais-SearchBox-input').addEventListener('input', function (e) {// Should be “input”, not “change”
-    setSearchModalStatus();
+    setSearchModalStatusInUrl();
   }, false);
 
   // event delegation, for the filters
@@ -134,7 +134,7 @@ const typesenseHandleSearchModal = () => {
 
   // When a filter is clicked
   on('#filters-section', 'click', '.ais-RefinementList-checkbox', event => {
-    setSearchModalStatus();
+    setSearchModalStatusInUrl();
   });
 
 
