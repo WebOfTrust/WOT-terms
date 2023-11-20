@@ -80,6 +80,13 @@ const typesenseHandleSearchModal = () => {
       // Add to url that the modal is open
       myRouter.setParam('searchModalStatus', 'open');
 
+      // Hide the search results on the home page
+      if (window.location.pathname === paths.baseUrl) {
+        document.querySelector('.search-results-container').classList.add('d-none');
+      } else {
+        document.querySelector('.search-results-container').classList.remove('d-none');
+      }
+
     }, false);
 
   }
@@ -153,6 +160,10 @@ const typesenseHandleSearchModal = () => {
   // Dispatch the event.
   // This DOM element is not preserved between pages, so we need to add the event listener every time the page loads
   document.querySelector('#search-start').addEventListener('click', handleSearchModalOpenClick);
+
+  if (window.location.pathname === paths.baseUrl) {
+    handleSearchModalOpenClick();
+  }
 
   // Close the search modal when the escape key is pressed
   document.addEventListener('keyup', (event) => {
