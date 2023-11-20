@@ -176,6 +176,8 @@ const typesenseHandleSearchModal = () => {
   if (window.location.pathname === paths.baseUrl) {
     handleSearchModalOpenClick();
   }
+  // Close the search modal when the backdrop is clicked
+  document.querySelector('.search-modal-backdrop').addEventListener('click', handleSearchModalCloseClick);
 
   // Close the search modal when the escape key is pressed
   document.addEventListener('keyup', (event) => {
