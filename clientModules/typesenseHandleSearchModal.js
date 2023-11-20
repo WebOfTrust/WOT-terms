@@ -83,10 +83,11 @@ const typesenseHandleSearchModal = () => {
       // Hide the search results on the home page
       if (window.location.pathname === paths.baseUrl) {
         document.querySelector('.search-results-container').classList.add('d-none');
+        document.querySelector('.to-search-results').classList.add('d-none');
       } else {
         document.querySelector('.search-results-container').classList.remove('d-none');
+        document.querySelector('.to-search-results').classList.remove('d-none');
       }
-
     }, false);
 
   }
@@ -116,8 +117,19 @@ const typesenseHandleSearchModal = () => {
     }, 1000);//TODO: typesense removes all query params so we need to wait for that to happen and the re-add the searchModalStatus param. Find out how typesense can be configured to not remove all query params
   }
 
+  function toggleSearchResultsVisibility() {
+    if (document.querySelector('.ais-SearchBox-input').value === '') {
+      document.querySelector('.search-results-container').classList.add('d-none');
+      document.querySelector('.to-search-results').classList.add('d-none');
+    } else {
+      document.querySelector('.search-results-container').classList.remove('d-none');
+      document.querySelector('.to-search-results').classList.remove('d-none');
+    }
+  }
+
   document.querySelector('.ais-SearchBox-input').addEventListener('input', function (e) {// Should be “input”, not “change”
     setSearchModalStatusInUrl();
+    toggleSearchResultsVisibility();
   }, false);
 
   // event delegation, for the filters
