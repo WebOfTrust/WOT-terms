@@ -80,8 +80,8 @@ const typesenseHandleSearchModal = () => {
       // Add to url that the modal is open
       myRouter.setParam('searchModalStatus', 'open');
 
-      // Hide the search results on the home page
-      if (window.location.pathname === paths.baseUrl) {
+      // Hide the search results on the home page if the search box is empty
+      if (window.location.pathname === paths.baseUrl && document.querySelector('.ais-SearchBox-input').value === '') {
         document.querySelector('.search-results-container').classList.add('d-none');
         document.querySelector('.to-search-results').classList.add('d-none');
       } else {
