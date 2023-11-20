@@ -35,7 +35,7 @@ const typesenseInstantSearchCreateDomElements = () => {
    </ul>
    </nav>
 
-   <div class="container mt-3">
+   <div class="search-results-container container mt-3">
 
    <!-- Column with refinement filters -->
    <div class="row">
