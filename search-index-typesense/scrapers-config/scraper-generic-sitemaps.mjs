@@ -411,6 +411,6 @@ export default async function () {
     scrape(configReadTheDocsKeria, customScrapeReadTheDocsKeria);
     scrape(configReadTheDocsSignifypy, customScrapeReadTheDocsSignifypy);
     scrape(configWOTterms, customScrapeWOTterms);
-    scrape(configWOTgloss, customScrapeWOTgloss);
+    // scrape(configWOTgloss, customScrapeWOTgloss);
     scrape(configSlackKeriArchive, customScrapeSlackKeriArchive);
 };
