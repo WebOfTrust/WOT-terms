@@ -66,7 +66,7 @@ body:
     id: how-involved
     attributes:
       label: How did you become involved?
-      description: Do you remember via who or what you become involved in coding for KERI Suite?
+      description: Do you remember via who or what you became involved in coding for KERI Suite?
       placeholder: Share your thoughts...
   - type: textarea
     id: how-knowledge
@@ -88,7 +88,7 @@ body:
       placeholder: Share your thoughts...
   - type: markdown
     attributes: 
-      value: "We think these are the consequtive steps for new developers learning to code on of the KERI Suite codebases: <br/> - Introductory reading <br/> - Fork code and install code base <br/> - Attend Zoom sessions <br/> - Work through tutorials <br/>   1. Set up a basic KERI network <br/> - Create a basic ACDC graph <br/>   2. Make a schema <br/>   3. Issue a credential <br/>   4. Present a credential <br/>   5. Verify a credential <br/> - Study open - and closed issues <br/> - Offer a PR with existing code  <br/> - Create new functionality <br/> - Operate a live KERI Suite identifier network <br/> - Opt to become a GLEIF QVI."
+      value: "We think these are the consequtive steps for new developers learning to code on of the KERI Suite codebases: <br/> - Introductory reading <br/> - Fork code and install code base <br/> - Attend Zoom sessions <br/> - Work through tutorials <br/>   1. Set up a basic KERI network <br/>   2. Create a basic ACDC graph <br/>   3. Make a schema <br/>   4. Issue a credential <br/>   5. Present a credential <br/>   6. Verify a credential <br/> - Study open - and closed issues <br/> - Study how to contribute to WebofTrust github <br/> - Offer a PR with existing code  <br/> - Create new functionality <br/> - Operate a live KERI Suite identifier network <br/> - Opt to become a GLEIF QVI."
   - type: textarea
     id: tips-tricks
     attributes:

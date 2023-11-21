@@ -1,7 +1,7 @@
 ---
 
 ---
-# Load ToIP glossary in weboftrust github page
+# Load weboftrust glossary in weboftrust github page
 
 With regard to the glossary our weboftrust github page of the WOT-terms repo serves two clearly distinctive purposes:
 1.  show the world we conform to the ToIP and eSSIF-lab standards of generating glossaries 
