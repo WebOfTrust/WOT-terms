@@ -1,6 +1,6 @@
 # Tutorials
 
-<a role="button" class='btn btn-outline-secondary' href="/WOT-terms/docs/education/tutorials?Wot-terms%5BrefinementList%5D%5Bcategory%5D%5B0%5D=Tutorials&searchModalStatus=closed">Search through tutorials</a>
+<a role="button" class='btn btn-outline-secondary' href="docs/education/tutorials?Wot-terms%5BrefinementList%5D%5Bcategory%5D%5B0%5D=Tutorials&searchModalStatus=closed">Search through tutorials</a>
 
 ## By Kent Bull
 
@@ -24,7 +24,7 @@ All tutorials by Kent Bull:
 
   https://kentbull.com/2022/06/05/keri-start/
 
-<a role="button" class='btn btn-outline-secondary' href="/WOT-terms/docs/education/tutorials?Wot-terms%5BrefinementList%5D%5Bcategory%5D%5B0%5D=Tutorials&Wot-terms%5BrefinementList%5D%5Bauthor%5D%5B0%5D=Kent+Bull&searchModalStatus=open">Search through Kent Bull tutorials</a>
+<a role="button" class='btn btn-outline-secondary' href="docs/education/tutorials?Wot-terms%5BrefinementList%5D%5Bcategory%5D%5B0%5D=Tutorials&Wot-terms%5BrefinementList%5D%5Bauthor%5D%5B0%5D=Kent+Bull&searchModalStatus=open">Search through Kent Bull tutorials</a>
 
 
 ## By Nuttawut Kongsuwan
@@ -73,4 +73,4 @@ All tutorials by Nuttawut Kongsuwan:
 
   https://medium.com/finema/keri-jargon-in-a-nutshell-part-3-oobi-and-ipex-2e6b222f4b87
 
-<a role="button" class='btn btn-outline-secondary' href="/WOT-terms/docs/education/tutorials?Wot-terms%5BrefinementList%5D%5Bcategory%5D%5B0%5D=Tutorials&Wot-terms%5BrefinementList%5D%5Bauthor%5D%5B0%5D=Nuttawut+Kongsuwan&searchModalStatus=open">Search through Nuttawut Kongsuwan tutorials</a>
+<a role="button" class='btn btn-outline-secondary' href="docs/education/tutorials?Wot-terms%5BrefinementList%5D%5Bcategory%5D%5B0%5D=Tutorials&Wot-terms%5BrefinementList%5D%5Bauthor%5D%5B0%5D=Nuttawut+Kongsuwan&searchModalStatus=open">Search through Nuttawut Kongsuwan tutorials</a>
