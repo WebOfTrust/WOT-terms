@@ -14,7 +14,7 @@ A 'blind' AID becomes "unblind" when you establish a direct relationship with hu
 
 ## Why is a blind OOBI interesting
 type 2 authentication: minimise the friction
-{TBW prio 3}
+| TBW prio 3 |
 
 ## Related terms
 Authentication by reference, latent authenticity

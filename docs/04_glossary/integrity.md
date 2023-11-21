@@ -21,7 +21,7 @@ On today's Technology Architecture TF call,..., we defined authenticity to inclu
 
 [message integrity](https://github.com/trustoverip/TechArch/issues/10) seems to be included in `technical integrity`.
 
-The further separation of Authenticity and Integrity in the ToIP glossary can be largely adopted by KERI? {TBW}
+The further separation of Authenticity and Integrity in the ToIP glossary can be largely adopted by KERI? | TBW prio 2 |
 
 ## See also
 [verified integrity](verified-integrity)  

@@ -16,4 +16,4 @@ The disclosure performed by a presentation exchange MAY be [graduated](graduated
 - [Full Disclosure](https://github.com/trustoverip/acdc/wiki/full-disclosure)
 
 
-{TBW check prio 1}
+| TBW  | check prio 1

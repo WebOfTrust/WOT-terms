@@ -1,4 +1,4 @@
 ## Definition
 Reject. The verb 'spurn' is originated in [IPEX](IPEX) specification.
 
-{TBW} 
+| TBW prio 2 | 
