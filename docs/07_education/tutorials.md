@@ -1,7 +1,7 @@
 # Tutorials
 
 <!-- Should be absolute full url so search modal is triggered throug page reload -->
-<a role="button" class='btn btn-outline-secondary' href="https://weboftrust.github.io/WOT-terms/docs/education/tutorials?Wot-terms%5BrefinementList%5D%5Bcategory%5D%5B0%5D=Tutorials&searchModalStatus=closed">Search through tutorials</a>
+<a role="button" class='btn btn-outline-secondary' href="https://weboftrust.github.io/WOT-terms/docs/education/tutorials?Wot-terms%5BrefinementList%5D%5Bcategory%5D%5B0%5D=Tutorials&searchModalStatus=open">Search through tutorials</a>
 
 ## By Kent Bull
 
