@@ -11,6 +11,8 @@ There are a few [practical rules](https://wiki.trustoverip.org/display/HOME/Term
 6. don't change or **update** the name of an item single handed, for it might change the concept / meaning for other people and create dead links for those who **read** - or link to the term. Please open an issue or a PR to discuss first. 
 7. any other immediate updates and amendments welcome, the revisions are available for us to be able to (partially) revert if something unwanted or unexpected happens.
 
+### KERISSE reads this wiki
+
 The _weboftrust_ wiki glossary is currently our input tool for our KERI Suite glossary. However, we regularly scrape the wiki into [KERISSE](kerisse.org), we add features and metadata, we connect relevant matching terms from related glossaries and finally we index it for the KERI Suite Search Engine (KERISSE).
 
 _Have fun CRU-ing!_  
