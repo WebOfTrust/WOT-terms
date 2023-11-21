@@ -426,6 +426,10 @@ To properly extract and use the `public key` embedded in a self-certifying ident
 All crypto material appears in `KERI` in a fully qualified representation that includes a derivation code prepended to the crypto-material.
 <img src="../images/derivation-code.png" alt="Derivation Code" border="0" width="600">
 
+#### Designated Aliases
+
+An AID controller can designate aliases which are AID controlled identifiers such as a did:keri, did:webs, etc. The AID controller issues a designated aliases attestion (no issuee) that lists the identifiers and manages the status through a registry anchored to their KEL. See the [designated aliases docs](https://weboftrust.github.io/schema/desig-aliases)
+
 #### Distributed Hash Table
 
 Also DHT. It is a distributed system that provides a lookup service similar to a hash table: key-value pairs are stored in a DHT, and any participating node can efficiently retrieve the value associated with a given key. The main advantage of a DHT is that nodes can be added or removed with minimum work around re-distributing keys. Keys are unique identifiers which map to particular values, which in turn can be anything from addresses, to documents, to arbitrary data. ([Wikipedia](https://en.wikipedia.org/wiki/Distributed_hash_table))
