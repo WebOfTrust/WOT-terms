@@ -1,6 +1,12 @@
 # Tutorials
 
+<a role="button" class='btn btn-outline-secondary' href="WOT-terms/docs/resources/intro?Wot-terms%5BrefinementList%5D%5Bcategory%5D%5B0%5D=Tutorials&searchModalStatus=open">Search through tutorials</a>
+
+
+
 ## By Kent Bull
+
+All tutorials by Kent Bull:
 
 - KERI Tutorial Series: Treasure Hunting in Abydos! Issuing and Verifying a Credential (ACDC)
   
@@ -20,8 +26,12 @@
 
   https://kentbull.com/2022/06/05/keri-start/
 
+<a role="button" class='btn btn-outline-secondary' href="/WOT-terms/docs/resources/intro?Wot-terms%5BrefinementList%5D%5Bcategory%5D%5B0%5D=Tutorials&Wot-terms%5BrefinementList%5D%5Bauthor%5D%5B0%5D=Kent+Bull&searchModalStatus=open">Search through Kent Bull tutorials</a>
+
 
 ## By Nuttawut Kongsuwan
+
+All tutorials by Nuttawut Kongsuwan:
 
 * Minimal Disclosure of Identity with Zero-Knowledge Proof and CL-Signature
   
@@ -64,3 +74,5 @@
   *Jul 23, 2023*
 
   https://medium.com/finema/keri-jargon-in-a-nutshell-part-3-oobi-and-ipex-2e6b222f4b87
+
+<a role="button" class='btn btn-outline-secondary' href="/WOT-terms/docs/resources/intro?Wot-terms%5BrefinementList%5D%5Bcategory%5D%5B0%5D=Tutorials&Wot-terms%5BrefinementList%5D%5Bauthor%5D%5B0%5D=Nuttawut+Kongsuwan&searchModalStatus=open">Search through Nuttawut Kongsuwan tutorials</a>
