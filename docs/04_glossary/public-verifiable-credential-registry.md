@@ -7,4 +7,4 @@ Two types of TELs will be used for this purpose. The first type of [TEL](transac
 [Credential registry](https://github.com/trustoverip/toip/wiki/credential-registry)
  
 ## Why do we need this?
-{TBW prio2}
+| TBW  | prio2

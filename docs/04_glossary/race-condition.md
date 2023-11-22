@@ -4,4 +4,4 @@ A race condition or race hazard is the condition of an electronics, software, or
 [Source](https://en.wikipedia.org/wiki/Race_condition).
 
 ## KERI related
-{TBW prio 2}
+| TBW prio 2 |

@@ -8,4 +8,4 @@ Source Same Smith
 ## What is it worth?
 The payload of the seal becomes immutable and the controller commits a signature to the seal.
 
-{TBW prio 2}
+| TBW prio 2 |
