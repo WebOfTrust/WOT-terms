@@ -1,0 +1,3 @@
+# Contributors' Guide
+
+Lorem ipsum

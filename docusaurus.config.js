@@ -117,6 +117,10 @@ const config = {
             position: 'left',
             items: [
               {
+                to: 'docs/concepts/how-to/contribute-to-weboftrust-github',
+                label: 'Contribute to WebofTrust github'
+              },
+              {
                 to: 'docs/concepts/how-to/set-up-basic-keri-network',
                 label: 'Set up a basic KERI network'
               },
