@@ -32,7 +32,7 @@ const isGlossaryMenuItem = () => {
     linkToWiki.setAttribute('href', 'https://github.com/WebOfTrust' + urlToWiki);
 
     // set the link's text
-    linkToWiki.innerText = 'Edit this page on GitHub Wiki';
+    linkToWiki.innerText = 'Edit this term definition on GitHub Wiki';
 
     // create a paragraph element
     const paragraphElement = document.createElement('p');
