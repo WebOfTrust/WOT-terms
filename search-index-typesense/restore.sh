@@ -32,8 +32,7 @@ urlImport="https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_
 log_dir="$(pwd)/${SEARCH_INDEX_DIR}/logs"
 
 
-############## IMPORT JSONL FILES ##############
-# Iterate over each JSONL file in the directory
+############## IMPORT JSONL FILE ##############
 
 setLogFile "success.log"
 log "Start importing files: $file"

@@ -4,7 +4,7 @@ More on [wikipedia](https://en.wikipedia.org/wiki/Locus_of_control)
 
 ## In SSI domain
 In SSI loci-of-control was decribed by Tim Bouma in 2019:
-![](https://github.com/WebOfTrust/keri/blob/main/images/loci-of-control.png)
+![](https://github.com/WebOfTrust/keri/blob/main/images/loci-of-control.png?raw=true)
 
 ## KERI development
 In KERI this is further developed:  

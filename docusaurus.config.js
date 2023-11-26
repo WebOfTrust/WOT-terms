@@ -48,7 +48,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the 'edit this page' links.
-          editUrl: 'https://github.com/WebOfTrust/WOT-terms/tree/main/',
+          // editUrl: 'https://github.com/WebOfTrust/WOT-terms/tree/main/',
         },
         blog: false,
         // {
@@ -338,6 +338,7 @@ const config = {
     require.resolve('./clientModules/findMentalModelMatches'),
     require.resolve('./clientModules/fetchFormsColumnFromWotTerms'),
     require.resolve('./clientModules/addUiToSidebar'),
+    require.resolve('./clientModules/isGlossaryMenuItem'),
   ],
 };
 
