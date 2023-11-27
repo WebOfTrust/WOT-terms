@@ -14,7 +14,7 @@ on:
         required: false
         default: gh-pages
         description: This is where the output of script will be pushed to.
-  gollum:
+  # gollum:
 
 permissions:
   actions: write
