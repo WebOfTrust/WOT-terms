@@ -338,7 +338,7 @@ const config = {
     require.resolve('./clientModules/findMentalModelMatches'),
     require.resolve('./clientModules/fetchFormsColumnFromWotTerms'),
     require.resolve('./clientModules/addUiToSidebar'),
-    require.resolve('./clientModules/isGlossaryMenuItem'),
+    require.resolve('./clientModules/createLinkToWikiPage'),
   ],
 };
 
