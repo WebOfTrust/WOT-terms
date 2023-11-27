@@ -37,6 +37,12 @@ const createLinkToWikiPage = () => {
     // set title attribute
     linkToWiki.setAttribute('title', 'Edit this term definition on GitHub Wiki');
 
+    // set target attribute
+    linkToWiki.setAttribute('target', '_blank');
+
+    // set rel attribute
+    linkToWiki.setAttribute('rel', 'noopener noreferrer');
+
     // create a paragraph element
     const paragraphElement = document.createElement('p');
 
