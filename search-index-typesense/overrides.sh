@@ -57,7 +57,7 @@ source "$(pwd)/.env"
 local_TYPESENSE_ADMIN_API_KEY="${TYPESENSE_ADMIN_API_KEY}"
 local_TYPESENSE_HOST="${TYPESENSE_HOST}"
 local_TYPESENSE_COLLECTION_NAME="${TYPESENSE_COLLECTION_NAME}"
-input_file_path="search-index-typesense/overrides/overrides.json"
+input_file_path="search-index-typesense/config/configOverrides.json"
 output_file_path="search-index-typesense/overrides/overridesID.json"
 
 ### STEP 1: Convert URLs to IDs
