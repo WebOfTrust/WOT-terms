@@ -1,4 +1,4 @@
-name: Fetch, Deploy and Update Glossary
+name: Fetch, Deploy KERISSE and Update Glossary
 
 on:
   push:
