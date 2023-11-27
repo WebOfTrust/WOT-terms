@@ -15,6 +15,7 @@ on:
         default: gh-pages
         description: This is where the output of script will be pushed to.
   gollum:
+ # gollum run on wiki-changes
 
 permissions:
   actions: write
