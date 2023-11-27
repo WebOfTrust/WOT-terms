@@ -1,4 +1,4 @@
-name: Fetch, Deploy and Update Glossary
+name: Fetch, Deploy KERISSE and Update Glossary
 
 on:
   push:
@@ -15,6 +15,7 @@ on:
         default: gh-pages
         description: This is where the output of script will be pushed to.
   # gollum:
+  # gollum run on wiki-changes
 
 permissions:
   actions: write
