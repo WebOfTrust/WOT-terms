@@ -3,7 +3,7 @@ const baseUrl = paths.baseUrl;
 
 const createLinkToWikiPage = () => {
     // When are we in the glossary?
-    const urlIsGlossary = baseUrl + 'docs/glossary'
+    const urlIsGlossary = baseUrl + 'docs/glossary/'
     // And, are we in the glossary? Test if urlIsGlossary is in window.location.pathname
     const urlIsGlossaryInPathname = window.location.pathname.includes(urlIsGlossary);
 
@@ -26,13 +26,16 @@ const createLinkToWikiPage = () => {
     const linkToWiki = document.createElement('a');
 
     // add classes to the link
-    linkToWiki.classList.add('btn', 'btn-outline-secondary');
+    linkToWiki.classList.add('btn', 'btn-outline-secondary', 'mt-5');
 
     // set the link's href TODO: 'https://github.com/WebOfTrust' in a variable
     linkToWiki.setAttribute('href', 'https://github.com/WebOfTrust' + urlToWiki);
 
     // set the link's text
-    linkToWiki.innerText = 'Edit this term definition on GitHub Wiki';
+    linkToWiki.innerText = 'Edit on Wiki';
+
+    // set title attribute
+    linkToWiki.setAttribute('title', 'Edit this term definition on GitHub Wiki');
 
     // create a paragraph element
     const paragraphElement = document.createElement('p');
