@@ -1,7 +1,7 @@
 const paths = require('../docusaurus.paths.js');
 const baseUrl = paths.baseUrl;
 
-const isGlossaryMenuItem = () => {
+const createLinkToWikiPage = () => {
     // When are we in the glossary?
     const urlIsGlossary = baseUrl + 'docs/glossary'
     // And, are we in the glossary? Test if urlIsGlossary is in window.location.pathname
@@ -49,6 +49,6 @@ export function onRouteDidUpdate({ location, previousLocation }) {
     // Don't execute if we are still on the same page; the lifecycle may be fired
     // because the hash changes (e.g. when navigating between headings)
     // if (location.pathname === previousLocation?.pathname) return;
-    isGlossaryMenuItem();
+    createLinkToWikiPage();
 }
 
