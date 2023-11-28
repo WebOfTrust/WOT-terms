@@ -67,7 +67,7 @@ const configGleif = {
         sourceType: 'querySelector',
         sourcePath: 'https://www.gleif.org/en/meta/sitemap',
         queryString: '.content ul li a',// must be an a element
-        excludeURLs: 'search-index-typesense/sitemaps-exlude-urls/sitemap-www.gleif.org-exclude-urls.json'
+        excludeURLs: 'search-index-typesense/config/config-sitemaps-exlude-urls/gleifExcludeUrls.json'
     }),
     siteName: 'Gleif website',
     source: 'Gleif website',
@@ -120,7 +120,7 @@ const configGleifPDF = {
     //     sourceType: 'querySelector',
     //     sourcePath: 'https://www.gleif.org/en/meta/sitemap',
     //     queryString: '.content ul li a',// must be an a element
-    //     excludeURLs: 'search-index-typesense/sitemaps-exlude-urls/sitemap-www.gleif.org-exclude-urls.json'
+    //     excludeURLs: 'search-index-typesense/config/config-sitemaps-exlude-urls/gleifExcludeUrls.json'
     // }),
     siteName: 'Gleif website',
     source: 'Gleif website',
@@ -269,7 +269,7 @@ const configWOTterms = {
     sitemap: await createInput({
         sourceType: 'remoteXMLsitemap',
         sourcePath: 'https://weboftrust.github.io/WOT-terms/sitemap.xml',
-        excludeURLs: 'search-index-typesense/sitemaps-exlude-urls/WOT-terms-exclude-urls.json'
+        excludeURLs: 'search-index-typesense/config/config-sitemaps-exlude-urls/wotTermsExcludeUrls.json'
     }),
     siteName: 'KERISSE (this site)',
     source: 'KERISSE (this site)',
