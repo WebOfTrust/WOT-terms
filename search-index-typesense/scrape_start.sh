@@ -33,7 +33,7 @@ setLogFile "success.log"
 log "Copying manual files finished"
 
 # Create sitemaps.
-source "$SCRIPT_DIR/config/config_create_sitemaps.sh"
+source "$SCRIPT_DIR/config/config_sitemaps_create.sh"
 setLogFile "success.log"
 log "Creating sitemaps finished"
 

@@ -26,7 +26,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # log "Copying manual files finished"
 
 # # Create sitemaps.
-# source "$SCRIPT_DIR/config/config_create_sitemaps-test.sh"
+# source "$SCRIPT_DIR/config/config_sitemaps_create_test.sh"
 # setLogFile "success.log"
 # log "Creating sitemaps finished"
 
