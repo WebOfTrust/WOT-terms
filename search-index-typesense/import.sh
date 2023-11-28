@@ -35,28 +35,12 @@ urlDelete="https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_
 # URL of the endpoint to import documents
 urlImport="https://${local_TYPESENSE_HOST}.a1.typesense.net/collections/${local_TYPESENSE_COLLECTION_NAME}/documents/import?action=create"
 
-# Handmade entries
-input_handmade_dir="$(pwd)/search-index-typesense/search-index-entries-manual"
-output_handmade_dir="$(pwd)/search-index-typesense/search-index-entries-manual"
-
 # Automated entries
 input_dir="$(pwd)/search-index-typesense/search-index-entries"
 output_dir="$(pwd)/search-index-typesense/search-index-entries"
 
 # log files
 log_dir="$(pwd)/search-index-typesense/logs"
-
-
-
-
-# ############## COPY FROM HANDMADE DIR TO (MAIN) OUTPUT DIR ##############
-# # Copy all .json files from the output-handmade directory to the output directory, so they will be converted to jsonl as well together with the automated entries
-# for file in "$output_handmade_dir"/*.json; do
-#     cp "$file" "$output_dir"
-# done
-
-
-
 
 ############## CONVERT JSON TO JSONL ##############
 
