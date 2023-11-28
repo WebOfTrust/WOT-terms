@@ -8,7 +8,7 @@
 
 ############## COPY SCRAPED CONTENT (JSON) FROM HANDMADE DIR TO AUTOMATED DIR ##############
 # Handmade content entries
-search_index_entries_manual_dir="$(pwd)/search-index-typesense/search-index-entries-manual"
+search_index_entries_manual_dir="$(pwd)/search-index-typesense/config/config-search-index-entries-manual"
 
 # Automated entries
 search_index_entries_dir="$(pwd)/search-index-typesense/search-index-entries"
@@ -24,7 +24,7 @@ done
 
 ############## COPY SITEMAP.XML FROM HANDMADE DIR TO AUTOMATED DIR ##############
 # Handmade sitemaps
-sitemaps_manual_dir="$(pwd)/search-index-typesense/sitemaps-manual"
+sitemaps_manual_dir="$(pwd)/search-index-typesense/config-sitemaps-manual"
 
 # Automated entries
 sitemaps_dir="$(pwd)/search-index-typesense/sitemaps"
