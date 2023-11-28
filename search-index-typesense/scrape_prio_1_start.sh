@@ -30,7 +30,7 @@ setLogFile "success.log"
 log "Copying manual files finished"
 
 # Create sitemaps.
-source "$SCRIPT_DIR/create_sitemaps_prio_1.sh"
+source "$SCRIPT_DIR/config/config_create_sitemaps_prio_1.sh"
 setLogFile "success.log"
 log "Creating sitemaps finished"
 
