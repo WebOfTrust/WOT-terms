@@ -7,6 +7,8 @@ import fs from 'fs';
 import path from 'path';
 import scrape from '../modules/scrape.mjs';
 import extractMainContent from '../modules/extractMainContent.mjs';
+import { config as configDotEnv } from 'dotenv';
+configDotEnv();
 
 /**
  * The directory where the JSON file containing the list of websites to scrape is located.
