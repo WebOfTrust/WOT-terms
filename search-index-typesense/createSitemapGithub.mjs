@@ -29,7 +29,8 @@ const args = process.argv.slice(2);
 const repositoryOwner = args[0];
 const repositoryName = args[1];
 const branchName = args[2];
-const sitemapDirectory = process.env.SEARCH_INDEX_DIR + '/sitemaps/gihub';
+const category = args[3];
+const githubSitemapDirectory = process.env.SEARCH_INDEX_DIR + '/sitemaps/gihub';
 
 async function getRepositoryTree() {
   try {
@@ -58,7 +59,7 @@ async function generateSitemap() {
     </urlset>
   `;
 
-  const sitemapFilePath = path.join(sitemapDirectory, `sitemap.githubcom.${repositoryOwner}.${repositoryName}-${branchName}.xml`);
+  const sitemapFilePath = path.join(githubSitemapDirectory, `sitemap.githubcom.${repositoryOwner}.${repositoryName}-${branchName}.${category}.xml`);
   fs.writeFileSync(sitemapFilePath, sitemapXml);
 
   logger.setLogFile('success.log');
