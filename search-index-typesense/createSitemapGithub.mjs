@@ -28,7 +28,7 @@ const args = process.argv.slice(2);
 const repositoryOwner = args[0];
 const repositoryName = args[1];
 const branchName = args[2];
-const sitemapDirectory = args[3];
+const sitemapDirectory = process.env.SEARCH_INDEX_DIR + '/sitemaps/gihub';
 
 async function getRepositoryTree() {
   try {
