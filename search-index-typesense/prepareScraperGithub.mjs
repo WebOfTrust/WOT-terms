@@ -1,5 +1,5 @@
-import createInput from '../modules/createInput.mjs';
-import scrape from '../modules/scrape.mjs';
+import createInput from './modules/createInput.mjs';
+import scrape from './modules/scrape.mjs';
 import { config as dotenvConfig } from 'dotenv';
 import { promises as fs } from 'fs';
 import path from 'path';
