@@ -5,7 +5,7 @@
   Description: 
 */
 
-import scraperGithub from './config/prepareScraperGithub.mjs';
+import scraperGithub from './prepareScraperGithub.mjs';
 import scraperGenericSingleUrls from './config/configScraperGenericSingleUrls.mjs';
 import scraperGenericSitemap from './config/configScraperGenericSitemaps.mjs';
 
