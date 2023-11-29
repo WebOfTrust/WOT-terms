@@ -25,7 +25,7 @@ axios.get(url)
             if (err) {
                 console.log(err);
             } else {
-                console.log('Essif Lab terms saved to terms-definitions-essiflab.json');
+                console.log('Terms saved');
             }
         });
     })
