@@ -102,55 +102,55 @@ async function customScrapeGleif(page, domQueryForContent, pageUrl) {
 
 
 
-/**
- * gleifPDF
- * 
- * 
- */
+// /**
+//  * gleifPDF
+//  * 
+//  * 
+//  */
 
-const configGleifPDF = {
-    // 1: Use a local created sitemap
-    sitemap: await createInput({
-        sourceType: 'localXMLsitemap',
-        sourcePath: 'search-index-typesense/sitemaps/sitemap-www.gleif.org-pdf.xml',
-    }),
+// const configGleifPDF = {
+//     // 1: Use a local created sitemap
+//     sitemap: await createInput({
+//         sourceType: 'localXMLsitemap',
+//         sourcePath: 'search-index-typesense/sitemaps/sitemap-www.gleif.org-pdf.xml',
+//     }),
 
-    // // 2: Use html sitemap on website
-    // sitemap: await createInput({
-    //     sourceType: 'querySelector',
-    //     sourcePath: 'https://www.gleif.org/en/meta/sitemap',
-    //     queryString: '.content ul li a',// must be an a element
-    //     excludeURLs: 'search-index-typesense/config/config-sitemaps-exlude-urls/gleifExcludeUrls.json'
-    // }),
-    siteName: 'Gleif website',
-    source: 'Gleif website',
-    category: 'Blogs',
-    author: '',
-    destinationFile: 'search-index-typesense/search-index-entries/gleifPDF.jsonl'
-}
+//     // // 2: Use html sitemap on website
+//     // sitemap: await createInput({
+//     //     sourceType: 'querySelector',
+//     //     sourcePath: 'https://www.gleif.org/en/meta/sitemap',
+//     //     queryString: '.content ul li a',// must be an a element
+//     //     excludeURLs: 'search-index-typesense/config/config-sitemaps-exlude-urls/gleifExcludeUrls.json'
+//     // }),
+//     siteName: 'Gleif website',
+//     source: 'Gleif website',
+//     category: 'Blogs',
+//     author: '',
+//     destinationFile: 'search-index-typesense/search-index-entries/gleifPDF.jsonl'
+// }
 
-async function customScrapeGleifPDF(page, domQueryForContent, pageUrl) {
-    logger.setLogFile('success.log');
-    logger.log('pageUrl: ' + pageUrl);
+// async function customScrapeGleifPDF(page, domQueryForContent, pageUrl) {
+//     logger.setLogFile('success.log');
+//     logger.log('pageUrl: ' + pageUrl);
 
-    const mainContent = await extractMainContent(page, domQueryForContent);
+//     const mainContent = await extractMainContent(page, domQueryForContent);
 
-    const creationDate = await getTextContent(page, '.meta li');
+//     const creationDate = await getTextContent(page, '.meta li');
 
-    // let pageTitle;
-    // pageTitle = await page.$eval('.content h1', (element) => {
-    //     return element.textContent.trim()
-    // });
+//     // let pageTitle;
+//     // pageTitle = await page.$eval('.content h1', (element) => {
+//     //     return element.textContent.trim()
+//     // });
 
-    const pageTitle = await getTextContent(page, '.content h1');
+//     const pageTitle = await getTextContent(page, '.content h1');
 
 
-    let all = {};
-    all.mainContent = mainContent;
-    all.pageTitle = pageTitle;
-    all.creationDate = creationDate;
-    return all;
-}
+//     let all = {};
+//     all.mainContent = mainContent;
+//     all.pageTitle = pageTitle;
+//     all.creationDate = creationDate;
+//     return all;
+// }
 
 
 
