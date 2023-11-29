@@ -5,8 +5,8 @@
 
 import fs from 'fs';
 import path from 'path';
-import scrape from '../modules/scrape.mjs';
-import extractMainContent from '../modules/extractMainContent.mjs';
+import scrape from './modules/scrape.mjs';
+import extractMainContent from './modules/extractMainContent.mjs';
 import { config as configDotEnv } from 'dotenv';
 configDotEnv();
 
