@@ -84,7 +84,7 @@ async function scrapeAll() {
             source: entries[i][positionInArray('source')],
             category: entries[i][positionInArray('category')],
             author: entries[i][positionInArray('author')],
-            destinationFile: 'search-index-typesense/search-index-entries/site-' + i + '-' + entries[i][positionInArray('pageTitle')].replace(/\s+/g, '-') + '.jsonl',
+            destinationFile: process.env.SEARCH_INDEX_DIR + '/search-index-entries/site-' + i + '-' + entries[i][positionInArray('pageTitle')].replace(/\s+/g, '-') + '.jsonl',
             domQueryForContent: entries[i][positionInArray('querySelector')]
         }
 
