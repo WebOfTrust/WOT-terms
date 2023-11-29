@@ -30,7 +30,7 @@ axios.get(url, organisation, jsonFileName)
             if (err) {
                 console.log(err);
             } else {
-                console.log(`Digital Govt Nz terms saved to ${jsonFileName}`);
+                console.log(`Terms saved to ${jsonFileName}`);
             }
         });
     })
