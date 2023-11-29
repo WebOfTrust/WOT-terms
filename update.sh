@@ -35,7 +35,7 @@ sh  fetchExternalContent/fetchCarbonCopies/main.sh
 # Google sheet: WOT-terms, tab: GenericScraper
 ##############################
 
-node  fetchExternalContent/fetchGenericScraperSitesInfo/fetchGenericScraperSitesInfo.js
+node  fetchExternalContent/fetchSingleUrlsFromWotTermsGoogleSheet/fetchSingleUrlsFromWotTermsGoogleSheet.js
 ##############################
 
 
