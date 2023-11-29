@@ -29,49 +29,49 @@ node ${SEARCH_INDEX_DIR}/createSitemap.mjs --url https://trustoverip.github.io/t
 ########################################
 
 # How to use:
-# $ node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs <repository-owner> <repository-name> <branch-name> <sitemap-directory>
+# $ node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs <repository-owner> <repository-name> <branch-name> <category>
 
 # Github owner: Trust over IP
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip tswg-acdc-specification main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip tswg-did-method-webs-specification main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip tswg-cesr-specification main  ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip tswg-cesr-proof-specification main  ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip tswg-oobi-specification main  ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip tswg-ipex-specification main  ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip tswg-acdc-specification-archived main  ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip acdc main  ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip TSS0033-technology-stack-acdc main  ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip tswg-keri-specification main  ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip tswg-ptel-specification main  ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip keri main  ${SEARCH_INDEX_DIR}/sitemaps
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip tswg-acdc-specification main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip tswg-did-method-webs-specification main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip tswg-cesr-specification main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip tswg-cesr-proof-specification main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip tswg-oobi-specification main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip tswg-ipex-specification main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip tswg-acdc-specification-archived main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip acdc main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip TSS0033-technology-stack-acdc main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip tswg-keri-specification main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip tswg-ptel-specification main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs trustoverip keri main Code
 
 # Github owner: Sam Smith
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs SmithSamuelM Papers master ${SEARCH_INDEX_DIR}/sitemaps
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs SmithSamuelM Papers master Whitepapers
 
 # Github owner: WebOfTrust
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust cardano-backer main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust cesride main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust cesrpy main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust gcp-ksm-shim main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust ietf-did-keri main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust kara main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust kassh main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust keep main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust keri main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust keri-swift main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust keria main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust keride main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust keriox main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust keripy main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust parside main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust saidide main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust schema main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust scir main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust shkr main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust signifi main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust signifide main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust signify-ts main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust signifypy main ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust vlei dev ${SEARCH_INDEX_DIR}/sitemaps
-node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust ward main ${SEARCH_INDEX_DIR}/sitemaps
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust cardano-backer main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust cesride main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust cesrpy main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust gcp-ksm-shim main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust ietf-did-keri main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust kara main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust kassh main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust keep main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust keri main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust keri-swift main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust keria main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust keride main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust keriox main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust keripy main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust parside main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust saidide main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust schema main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust scir main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust shkr main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust signifi main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust signifide main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust signify-ts main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust signifypy main Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust vlei dev Code
+node ${SEARCH_INDEX_DIR}/createSitemapGithub.mjs WebOfTrust ward main Code
 
