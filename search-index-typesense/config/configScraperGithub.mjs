@@ -1,6 +1,9 @@
 import createInput from '../modules/createInput.mjs';
 import scrape from '../modules/scrape.mjs';
 
+import { config } from 'dotenv';
+config();
+
 // List of sitemap files
 const sitemapFiles = [
     'sitemap.githubcom.trustoverip.acdc-main.xml',
