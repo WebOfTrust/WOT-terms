@@ -766,6 +766,11 @@
         "url": "https://docs.google.com/document/d/1fZByfuSOwszDRkE7ARQLeElSYmVznoOyJK4sxRvJpyM/edit"
       },
       {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "A set of data describing the subject of a DID, as defined by DID Core. See also section DID Documents.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
+      },
+      {
         "organisation": "W3C (DID)",
         "definition": "A set of data describing the DID subject, including mechanisms, such as\ncryptographic public keys, that the DID subject or a DID delegate\ncan use to authenticate itself and prove its association with the\nDID. A DID document might have one or more different\nrepresentations as defined in 6. Representations or in the\nW3C DID Specification Registries [DID-SPEC-REGISTRIES].",
         "url": "https://www.w3.org/TR/did-core"
@@ -1585,6 +1590,17 @@
         "organisation": "WebOfTrust",
         "definition": "<h2>See</h2>\n<p><a href=\"key-event-receipt-infrastructure\">Key event receipt infrastructure</a></p>\n",
         "url": "https://github.com/WebOfTrust/WOT-terms/wiki"
+      }
+    ]
+  },
+  {
+    "term": "KERI event stream",
+    "anchor": "KERIeventstream",
+    "definitions": [
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "A stream of verifiable KERI data, consisting of the key event log (KEL) and other data such as a transaction event log (TEL). This data is a CESR event stream (TODO: link to IANA application/cesr media type) and may be serialized in a file using CESR encoding. We refer to these CESR stream resources as KERI event streams to simplify the vocabulary. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
       }
     ]
   },
@@ -4027,6 +4043,17 @@
     ]
   },
   {
+    "term": "authentic chained data container (ACDC)",
+    "anchor": "authenticchaineddatacontainer(ACDC)",
+    "definitions": [
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "a variant of the Verifiable Credential (VC) specification that inherits the security model derived from KERI, as defined by the draft ACDC specification. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
+      }
+    ]
+  },
+  {
     "term": "authentic-chained-data-container",
     "anchor": "authenticchaineddatacontainer",
     "definitions": [
@@ -4246,6 +4273,17 @@
         "organisation": "WebOfTrust",
         "definition": "<h2>Definition</h2>\n<p>Also 'AVR'. This a representative of a Legal Entity that are authorized by the <a href=\"DAR\">DAR</a> of a Legal Entity to request issuance and revocation of:</p>\n<ul>\n<li>vLEI Legal Entity Credentials</li>\n<li>Legal Entity Official Organizational Role vLEI Credentials (<a href=\"official-organizational-role\">OOR</a> vLEI Credentials)</li>\n<li>Legal Entity Engagement Context Role vLEI Credentials (<a href=\"engagement-context-role\">ECR</a> vLEI Credentials).</li>\n</ul>\n<p>Paraphrased by @henkvancann from <a href=\"https://www.gleif.org/vlei/introducing-the-vlei-ecosystem-governance-framework/2022-02-07_verifiable-lei-vlei-ecosystem-governance-framework-glossary-draft-publication_v0.9-draft.pdf\">source</a> Draft vLEI Ecosystem Governance Framework Glossary.</p>\n",
         "url": "https://github.com/WebOfTrust/WOT-terms/wiki"
+      }
+    ]
+  },
+  {
+    "term": "autonomic identifier (AID)",
+    "anchor": "autonomicidentifier(AID)",
+    "definitions": [
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "A DID that is self-certifying and cryptographically bound to a key event log (KEL), as defined by the draft KERI specification. An AID is either non-transferable or transferable. A non-transferable AID does not support key rotation while a transferable AID supports key rotation using a key pre-rotation mechanism that enables the AID to persist in spite of the evolution of its key state. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
       }
     ]
   },
@@ -4880,6 +4918,17 @@
     ]
   },
   {
+    "term": "compact event streaming representation (CESR)",
+    "anchor": "compacteventstreamingrepresentation(CESR)",
+    "definitions": [
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "An encoding format that enables round-trip text-binary conversion of concatenated cryptographic primitives and general data types, as defined by the draft CESR specification and draft CESR Proof Signature specification.  See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
+      }
+    ]
+  },
+  {
     "term": "compact-variant",
     "anchor": "compactvariant",
     "definitions": [
@@ -5157,6 +5206,11 @@
     "term": "controller",
     "anchor": "controller",
     "definitions": [
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "A controlling entity that can cryptographically prove the control authority (signing and rotation) over an AID as well as make changes on the associated KEL. A controller may consist of multiple controlling entities in a multi-signature scheme. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
+      },
       {
         "organisation": "WebOfTrust",
         "definition": "<h2>Definition</h2>\n<p>A controller is a controlling entity (person, organization, or autonomous software) of an identifier. For an <a href=\"autonomic-identifier\">autonomic identifier (AID)</a>, a controlling entity has the capability to make changes to the <a href=\"key-event-log\">key event log (KEL)</a> of the AID. This capability is typically asserted by the control of a set of cryptographic keys used by software acting on behalf of the controller, though it might also be asserted via other mechanisms.</p>\n<p>At any point in time, an identifier has at least one but may have more than one controlling entity. This set of controlling entities constitutes the controller. Without loss of generality, when the context is unambiguous, the term controller may refer either to the whole set or a member of the set of controlling entities.</p>\n<p>All <a href=\"key-event\">key events</a> on the identifier must include a signature from the sole controlling entity when there is only one controlling entity or at least one signature from one of the controlling entities when there is more than one. Typically, when there is more than one controlling entity, control is established via signatures from all or a subset of controlling entities. This is called <a href=\"multisig\">multi-signature (multi-sig)</a>. In a threshold multi-sig scheme, the control authority is split among the controlling entities, where each is assigned a weight. In this case, the control authority over the identifier is established via signatures from a subset of controlling entities whose combined weights exceed an agreed threshold. These thresholded multiple signatures may be expressed as a single collective threshold signature when a collective signing scheme is used.</p>\n<p>The control authority over an identifier can also be divided into signing authority and rotation authority. The controller of the identifier may grant their authority to other entities. For example, in <a href=\"custodial-rotation\">custodial rotation</a>, the controller grants a designated custodial agent the signing authority while retaining their rotation authority. In the case of a <a href=\"delegated-identifier\">delegated identifier</a>, the delegated identifier is granted some degree of control authority from its delegating identifier.</p>\n",
@@ -5558,6 +5612,11 @@
     "anchor": "decentralizedidentifier(DID)",
     "definitions": [
       {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "A globally unique persistent identifier, as defined by DID Core.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
+      },
+      {
         "organisation": "W3C (DID)",
         "definition": "A globally unique persistent identifier that does not require a centralized\nregistration authority and is often generated and/or registered\ncryptographically. The generic format of a DID is defined in 3.1 DID Syntax. A specific DID scheme is defined in a DID\nmethod specification. Many—but not all—DID methods make use of\ndistributed ledger technology (DLT) or some other form of decentralized\nnetwork.",
         "url": "https://www.w3.org/TR/did-core"
@@ -5902,6 +5961,17 @@
         "organisation": "WebOfTrust",
         "definition": "<h2>Definition</h2>\n<p>dip = delcept, delegated inception</p>\n",
         "url": "https://github.com/WebOfTrust/WOT-terms/wiki"
+      }
+    ]
+  },
+  {
+    "term": "direct mode",
+    "anchor": "directmode",
+    "definitions": [
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "an operational mode of the KERI protocol where a controller and a verifier of an AID exchange the KEL of the AID directly, as defined by the KERI whitepaper. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
       }
     ]
   },
@@ -7265,6 +7335,17 @@
     ]
   },
   {
+    "term": "inception event",
+    "anchor": "inceptionevent",
+    "definitions": [
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "A key event that provides the incepting information needed to derive an AID and establish its initial key state, as defined by the draft KERI specification. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
+      }
+    ]
+  },
+  {
     "term": "inception-event",
     "anchor": "inceptionevent",
     "definitions": [
@@ -7305,6 +7386,17 @@
         "organisation": "WebOfTrust",
         "definition": "<h2>Definition</h2>\n<p>Also called <em>siger</em>. An indexed signature attachment is used when signing anything with a multi-key autonomic identifier. The index is included as part of the attachment, so a verifier knows which of the multiple public keys was used to generate a specific signature.<br>\nSource:Philip Feairheller</p>\n<h2>Example working</h2>\n<p>An indexed signature attachment would look something like:</p>\n<pre><code>03.&lt;binary signature&gt;\n</code></pre>\n<p>All encoded as <a href=\"qualified\">qualified</a> <a href=\"base64\">base64</a>.  A verifier would then know to use the AID’s public key located at index 3 in the list of public keys to verify the signature.<br>\nSource:Philip Feairheller</p>\n<h2>Witness signatures indexed</h2>\n<p>In addition, <a href=\"witness\">witness</a> signatures can also be attached as indexed signatures. So a verifier can determine which witness signed a particular <a href=\"receipt\">receipt</a>. This is useful when witnesses are receipting an event and only attaching their own signature. The <a href=\"controller\">controller</a> knows which witness signed the receipt by looking up the index in their list of witnesses for that event.<br>\nSource:Philip Feairheller</p>\n",
         "url": "https://github.com/WebOfTrust/WOT-terms/wiki"
+      }
+    ]
+  },
+  {
+    "term": "indirect mode",
+    "anchor": "indirectmode",
+    "definitions": [
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "An operational mode of the KERI protocol where the KEL of an AID is discovered by a verifier via witnesses, as defined by the KERI whitepaper. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
       }
     ]
   },
@@ -7360,6 +7452,17 @@
         "organisation": "ToIP",
         "definition": "<p class=\"c6\"><span>In IT security, </span><span>data integrity</span><span>&nbsp;means maintaining and assuring the accuracy and completeness of </span><span class=\"c1\"><a class=\"c0\" href=\"#h.o783ayrrkc6g\">data</a></span><span>&nbsp;over its entire lifecycle. This means that </span><span class=\"c1\"><a class=\"c0\" href=\"#h.o783ayrrkc6g\">data</a></span><span>&nbsp;cannot be modified in an </span><span class=\"c1\"><a class=\"c0\" href=\"#h.576ssfpt348i\">unauthorized</a></span><span class=\"c2\">&nbsp;or undetected manner.</span></p><p class=\"c6\"><span>Source: </span><span class=\"c1\"><a class=\"c0\" href=\"https://www.google.com/url?q=https://en.wikipedia.org/wiki/Information_security%23Integrity&amp;sa=D&amp;source=editors&amp;ust=1700146547665026&amp;usg=AOvVaw1hMJqNlELzJdE7rokGYOCl\">Wikipedia</a></span><span class=\"c2\">.</span></p>",
         "url": "https://docs.google.com/document/d/1fZByfuSOwszDRkE7ARQLeElSYmVznoOyJK4sxRvJpyM/edit"
+      }
+    ]
+  },
+  {
+    "term": "interaction event",
+    "anchor": "interactionevent",
+    "definitions": [
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "A key event that anchors external data to an AID, as defined by the draft KERI specification. An interaction event does not change the key state of the AID. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
       }
     ]
   },
@@ -7837,6 +7940,11 @@
         "organisation": "ToIP",
         "definition": "<p class=\"c6\"><span>An event in the history of the usage of a </span><span class=\"c1\"><a class=\"c0\" href=\"#h.53rzpn1yn6q7\">cryptographic key pair</a></span><span>. There are multiple types of key events. The inception event is when the key pair is first generated. A rotation event is when the key pair is changed to a new key pair. In some </span><span class=\"c1\"><a class=\"c0\" href=\"#h.q0w3jq78va39\">key management systems</a></span><span>&nbsp;(such as </span><span class=\"c1\"><a class=\"c0\" href=\"#h.7pp65h7qs9lu\">KERI</a></span><span>),</span><span>&nbsp;key events are tracked in a </span><span class=\"c1\"><a class=\"c0\" href=\"#h.6jhhyjh47h\">key event log</a></span><span class=\"c2\">.</span></p>",
         "url": "https://docs.google.com/document/d/1fZByfuSOwszDRkE7ARQLeElSYmVznoOyJK4sxRvJpyM/edit"
+      },
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "A serialized data structure of an entry in the key event log(KEL) for an AID, as defined by the draft KERI specification. There are three types of key events, namely inception event, rotation event, and interaction event. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
       }
     ]
   },
@@ -7848,6 +7956,44 @@
         "organisation": "ToIP",
         "definition": "<p class=\"c6\"><span>An ordered sequence of </span><span class=\"c1\"><a class=\"c0\" href=\"#h.y4ybzkfe6yzv\">records</a></span><span>&nbsp;of </span><span class=\"c1\"><a class=\"c0\" href=\"#h.w6skxxfqgbqp\">key events</a></span><span class=\"c2\">.</span></p><p class=\"c6\"><span>Note: Key event logs are a fundamental data structure in </span><span class=\"c1\"><a class=\"c0\" href=\"#h.7pp65h7qs9lu\">KERI</a></span><span class=\"c2\">.</span></p>",
         "url": "https://docs.google.com/document/d/1fZByfuSOwszDRkE7ARQLeElSYmVznoOyJK4sxRvJpyM/edit"
+      },
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "A verifiable append-only log of key events for an AID that is both backward and forward-chained, as defined by the draft KERI specification. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
+      }
+    ]
+  },
+  {
+    "term": "key event receipt",
+    "anchor": "keyeventreceipt",
+    "definitions": [
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "A message whose body references a key event of an AID and includes one or more signatures on that key event, as defined by the draft KERI specification. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
+      }
+    ]
+  },
+  {
+    "term": "key event receipt infrastructure (KERI)",
+    "anchor": "keyeventreceiptinfrastructure(KERI)",
+    "definitions": [
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "A protocol that provides an identity system-based secure overlay for the internet and uses AIDs as the primary roots of trust, as defined by the draft KERI specification. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
+      }
+    ]
+  },
+  {
+    "term": "key event receipt log (KERL)",
+    "anchor": "keyeventreceiptlog(KERL)",
+    "definitions": [
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "A verifiable append-only log that includes all the consistent key event receipt messages, as defined by the draft KERI specification. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
       }
     ]
   },
@@ -7859,6 +8005,17 @@
         "organisation": "ToIP",
         "definition": "<p class=\"c6\"><span>A system for the management of </span><span class=\"c1\"><a class=\"c0\" href=\"#h.53rzpn1yn6q7\">cryptographic keys</a></span><span>&nbsp;and their </span><span class=\"c1\"><a class=\"c0\" href=\"#h.t63bf0ssndfd\">metadata</a></span><span>&nbsp;(e.g., generation, distribution, storage, backup, archive, recovery, use, </span><span class=\"c1\"><a class=\"c0\" href=\"#h.ilt4dj4huwza\">revocation</a></span><span>, and destruction). An automated key management system may be used to oversee, automate, and secure the key management process. A key management is often protected by implementing it within the </span><span class=\"c1\"><a class=\"c0\" href=\"#h.rsly6bxjqeg5\">trusted execution environment</a></span><span>&nbsp;(TEE) of a device. An example is the </span><span class=\"c1\"><a class=\"c0\" href=\"#h.lf0txjgjs67z\">Secure Enclave</a></span><span class=\"c2\">&nbsp;on Apple iOS devices.</span></p><p class=\"c6\"><span>Also known as: </span><span class=\"c1\"><a class=\"c0\" href=\"#h.wcbd8vhwq6z1\">KMS</a></span><span class=\"c2\">.</span></p><p class=\"c6\"><span>Source: </span><span class=\"c1\"><a class=\"c0\" href=\"https://www.google.com/url?q=https://csrc.nist.gov/glossary/term/key_management_system&amp;sa=D&amp;source=editors&amp;ust=1700146547678109&amp;usg=AOvVaw114WvU6vLtwJ3DNThYE6Af\">NIST-CRSC</a></span><span>.</span></p>",
         "url": "https://docs.google.com/document/d/1fZByfuSOwszDRkE7ARQLeElSYmVznoOyJK4sxRvJpyM/edit"
+      }
+    ]
+  },
+  {
+    "term": "key state",
+    "anchor": "keystate",
+    "definitions": [
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "The set of currently authoritative key pairs (current keys) for an AID and any other information necessary to secure or establish control authority over the AID. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
       }
     ]
   },
@@ -8385,6 +8542,17 @@
     ]
   },
   {
+    "term": "method-specific identifier",
+    "anchor": "methodspecificidentifier",
+    "definitions": [
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "The method-specific-id part of DID Syntax, as defined in DID Core. See section Method-Specific Identifier.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
+      }
+    ]
+  },
+  {
     "term": "mobile deep link",
     "anchor": "h.le2xkm9qaw28",
     "definitions": [
@@ -8781,6 +8949,17 @@
     ]
   },
   {
+    "term": "out-of-band introduction (OOBI)",
+    "anchor": "outofbandintroduction(OOBI)",
+    "definitions": [
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "A protocol for discovering verifiable information on an AID or a SAID, as defined by the draft OOBI specification. The OOBI by itself is insecure, and the information discovered by the OOBI must be verified. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
+      }
+    ]
+  },
+  {
     "term": "out-of-band-introduction",
     "anchor": "outofbandintroduction",
     "definitions": [
@@ -9135,6 +9314,11 @@
     "term": "pre-rotation",
     "anchor": "prerotation",
     "definitions": [
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "A key rotation mechanism whereby a set of rotation keys are pre-commited using cryptographic digests, as defined by the draft KERI specification. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
+      },
       {
         "organisation": "WebOfTrust",
         "definition": "<h2>Definition</h2>\n<p>Cryptographic commitment to next rotated key set in previous rotation or <a href=\"inception-event\">inception event</a>.</p>\n<h2>Rotation</h2>\n<p>The main purpose of <a href=\"rotation\">key rotation</a> it to either prevent or recover from a successful compromise of one or more private keys by an exploiter. Given a potentially compromised private key, an exploiter could sign statements and even capture full control over the identifier by rotating the current key pair.</p>\n<h2>Pre-rotation</h2>\n<p>Pre-rotation mitigates successful exploit of a given set of signing private keys. There are several assumptions listed in <a href=\"https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf\">chapter Pre-rotation of the KERI white paper</a> about the circumstances under which pre-rotation is able to sustain this mitigation, e.g. it assumes that the private keys remains private until after issuance of the associated identifier.</p>\n<h2>Origin and technique</h2>\n<p>Pre-rotation is a new invention in KERI. Pre-rotation is a cryptographic commitment (a hash) to the next private/public key in the rotation-scheme.<br>\n<a href=\"https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf\">Source: chapter Pre-rotation in whitepaper</a></p>\n",
@@ -10076,6 +10260,17 @@
     ]
   },
   {
+    "term": "rotation event",
+    "anchor": "rotationevent",
+    "definitions": [
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "A key event that provides the information needed to change the key state for an AID using pre-rotation, as defined by the draft KERI specification. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
+      }
+    ]
+  },
+  {
     "term": "rotation-authority",
     "anchor": "rotationauthority",
     "definitions": [
@@ -10401,6 +10596,17 @@
         "organisation": "WebOfTrust",
         "definition": "<h2>Definition</h2>\n<p>Selective disclosure is a from partial disclosure that has a different cryptographic fundament: a sort of cryptographic aggregator (not an accumulator).</p>\n<p>Selective disclosure is a list of field maps. You can choose to blind and publish every single field map, but you have to disclosure all the field maps, either blinded or published.</p>\n<p>It is an aggregator because you have to disclosure all the blinded fields when you do the selective disclosure.</p>\n<h2>Related</h2>\n<p><a href=\"partial-disclosure\">Partial Disclosure</a></p>\n<p>Source: distilled from ACDC Zoom meeting, date March 28, 2023</p>\n",
         "url": "https://github.com/WebOfTrust/WOT-terms/wiki"
+      }
+    ]
+  },
+  {
+    "term": "self-addressing identifier (SAID)",
+    "anchor": "selfaddressingidentifier(SAID)",
+    "definitions": [
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "An identifier that is uniquely and cryptographically bound to a serialization of data (content-addressable) while also being included as a component in that serialization (self-referential), as defined by the draft SAID specification. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
       }
     ]
   },
@@ -11136,6 +11342,17 @@
         "organisation": "ToIP",
         "definition": "<p class=\"c6\"><span>A discrete event between a user and a system that supports a business or programmatic purpose. A digital system may have multiple categories or types of transactions, which may require separate analysis within the overall digital identity </span><span class=\"c1\"><a class=\"c0\" href=\"#h.91ipsr7y3vb6\">risk assessment</a></span><span class=\"c2\">.</span></p><p class=\"c6\"><span>Source: </span><span class=\"c1\"><a class=\"c0\" href=\"https://www.google.com/url?q=https://csrc.nist.gov/glossary/term/transaction&amp;sa=D&amp;source=editors&amp;ust=1700146547813158&amp;usg=AOvVaw3gF3-rubRMK5M7eIDTtYKo\">NIST-CSRC</a></span><span class=\"c2\">.</span></p><p class=\"c6\"><span>See also: </span><span class=\"c1\"><a class=\"c0\" href=\"#h.thbpewq1px8x\">connection</a></span><span class=\"c2\">.</span></p><p class=\"c6\"><span class=\"c2\">Supporting definitions:</span></p><p class=\"c6\"><span>eSSIF-Lab: the exchange of goods, services, funds, or data between some </span><span class=\"c1\"><a class=\"c0\" href=\"https://www.google.com/url?q=https://essif-lab.github.io/framework/docs/terms/party&amp;sa=D&amp;source=editors&amp;ust=1700146547813683&amp;usg=AOvVaw2W4Gyc7cvA2MV2aCI42uy7\">parties</a></span><span>&nbsp;(called </span><span class=\"c1\"><a class=\"c0\" href=\"https://www.google.com/url?q=https://essif-lab.github.io/framework/docs/terms/participant&amp;sa=D&amp;source=editors&amp;ust=1700146547813856&amp;usg=AOvVaw3K1rr5hXFIY5UKAnht1poI\">participants</a></span><span>&nbsp;of the </span><span class=\"c1\"><a class=\"c0\" href=\"https://www.google.com/url?q=https://essif-lab.github.io/framework/docs/terms/transaction&amp;sa=D&amp;source=editors&amp;ust=1700146547814027&amp;usg=AOvVaw1c9A9M1moX8ijAvh-mCsXJ\">transaction</a></span><span class=\"c2\">).</span></p>",
         "url": "https://docs.google.com/document/d/1fZByfuSOwszDRkE7ARQLeElSYmVznoOyJK4sxRvJpyM/edit"
+      }
+    ]
+  },
+  {
+    "term": "transaction event log (TEL)",
+    "anchor": "transactioneventlog(TEL)",
+    "definitions": [
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "A verifiable append-only log of transaction data that are cryptographically anchored to a KEL. The transaction events of a TEL may be used to establish the issuance or revocation state of ACDCs. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
       }
     ]
   },
@@ -11923,6 +12140,11 @@
         "url": "https://csrc.nist.gov/glossary/term/verifier"
       },
       {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "An entity or component that cryptographically verifies the signature(s) on an event message. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
+      },
+      {
         "organisation": "WebOfTrust",
         "definition": "<h2>Definition</h2>\n<p>the entity that (cryptographically) verifies data received from peers (check structure, signatures, dates). More narrowly defined for the KERI suite: cryptographically verifies signature(s) on an event message.</p>\n<p>Notice the subtile difference between <a href=\"validator\">validator</a> and verifier.</p>\n<h2>KERI related</h2>\n<p>Any entity or agent that cryptographically verifies the signature(s) and/or digests on an event message. In order to verify a signature, a verifier must first determine which set of keys are or were the controlling set for an identifier when an event was issued. In other words, a verifier must first establish control authority for an identifier. For identifiers that are declared as non-transferable at inception, this control establishment merely requires a copy of the inception event for the identifier. For identifiers that are declared transferable at inception, this control establishment requires a complete copy of the sequence of establishment events (inception and all rotations) for the identifier up to the time at which the statement was issued.<br>\nSource <a href=\"https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-keri.md#basic-terminology\">Sam Smith</a></p>\n<h2>ESSIF-lab definitions</h2>\n<ul>\n<li><em><a href=\"https://essif-lab.github.io/framework/docs/essifLab-glossary#verify\">verify</a></em> definition is in sync with the definition in the KERI/ACDC vocabulary</li>\n<li><em><a href=\"https://essif-lab.github.io/framework/docs/essifLab-glossary#verifier\">verifier</a></em> definition is in sync with the definition in the KERI/ACDC vocabulary</li>\n<li><em><a href=\"https://essif-lab.github.io/framework/docs/essifLab-glossary#validate\">validate</a></em> definition is very general, however in the KERI/ACDC vocabulary 'validate' currently has diverse meanings including this one</li>\n<li><em><a href=\"https://essif-lab.github.io/framework/docs/essifLab-glossary#validator\">validator</a></em> definition is a generalisation of the much more specific definition in the KERI/ACDC vocabulary</li>\n</ul>\n",
         "url": "https://github.com/WebOfTrust/WOT-terms/wiki"
@@ -12093,6 +12315,11 @@
     "anchor": "watcher",
     "definitions": [
       {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "An entity that keeps a copy of a KERL of an AID to detect duplicity of key events, as defined by the KERI whitepaper. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
+      },
+      {
         "organisation": "WebOfTrust",
         "definition": "<h2>Definition</h2>\n<p>KERI alternative to total global ordering and consensus protocols is a mechanism called <a href=\"duplicity\">duplicity</a> detection. In the <a href=\"verifier\">verification</a> and <a href=\"validate\">validation</a> <strong>watchers are all that matter</strong>; they guarantee that logs are immutable by one very simple rule: &quot;<a href=\"first-seen\">first seen</a> wins&quot;.</p>\n<h2>KERI operational</h2>\n<p>This would be a set of watchers (that the validators trust) that record any and all copies of key event logs (KEL) that they see. Because these watchers can be anyone and anywhere, any controller of a public identifier is at peril should they choose to publish inconsistent copies of their KEL. This removes the incentive to be duplicitous.</p>\n",
         "url": "https://github.com/WebOfTrust/WOT-terms/wiki"
@@ -12134,6 +12361,11 @@
         "organisation": "ToIP",
         "definition": "<p class=\"c6\"><span>A computer system that receives, </span><span class=\"c1\"><a class=\"c0\" href=\"#h.xfewd7t01hu0\">verifies</a></span><span>, and stores </span><span class=\"c1\"><a class=\"c0\" href=\"#h.r2qw6757lopw\">proofs</a></span><span>&nbsp;of </span><span class=\"c1\"><a class=\"c0\" href=\"#h.w6skxxfqgbqp\">key events</a></span><span>&nbsp;for a </span><span class=\"c1\"><a class=\"c0\" href=\"#h.wyda231qefe\">verifiable identifier</a></span><span>&nbsp;(especially an </span><span class=\"c1\"><a class=\"c0\" href=\"#h.bz098kwwc559\">autonomous identifier</a></span><span>)</span><span>. Each witness controls its own </span><span class=\"c1\"><a class=\"c0\" href=\"#h.wyda231qefe\">verifiable identifier</a></span><span>&nbsp;used to sign </span><span class=\"c1\"><a class=\"c0\" href=\"#h.w6skxxfqgbqp\">key event</a></span><span>&nbsp;messages stored by the witness. A witness may use any suitable computer system or database architecture, including a file, centralized database, distributed database, </span><span class=\"c1\"><a class=\"c0\" href=\"#h.eoh04mpatko3\">distributed ledger</a></span><span>, or </span><span class=\"c1\"><a class=\"c0\" href=\"#h.bxz57auzxstx\">blockchain</a></span><span class=\"c2\">.</span></p><p class=\"c6\"><span>Note: </span><span class=\"c1\"><a class=\"c0\" href=\"#h.7pp65h7qs9lu\">KERI</a></span><span>&nbsp;is an example of a </span><span class=\"c1\"><a class=\"c0\" href=\"#h.q0w3jq78va39\">key management system</a></span><span>&nbsp;that uses witnesses.</span></p>",
         "url": "https://docs.google.com/document/d/1fZByfuSOwszDRkE7ARQLeElSYmVznoOyJK4sxRvJpyM/edit"
+      },
+      {
+        "organisation": "ToIP (DID:Webs)",
+        "definition": "An entity that is designated by the controller of an AID to verify, sign, and keep the key events associated with the AID, as defined by the KERI whitepaper. See WebOfTrust glossary for more detail.",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html"
       },
       {
         "organisation": "WebOfTrust",

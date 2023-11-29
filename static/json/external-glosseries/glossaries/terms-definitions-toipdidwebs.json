@@ -1,0 +1,184 @@
+[
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "authentic chained data container (ACDC)",
+        "definition": "a variant of the Verifiable Credential (VC) specification that inherits the security model derived from KERI, as defined by the draft ACDC specification. See WebOfTrust glossary for more detail.",
+        "anchor": "authenticchaineddatacontainer(ACDC)"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "autonomic identifier (AID)",
+        "definition": "A DID that is self-certifying and cryptographically bound to a key event log (KEL), as defined by the draft KERI specification. An AID is either non-transferable or transferable. A non-transferable AID does not support key rotation while a transferable AID supports key rotation using a key pre-rotation mechanism that enables the AID to persist in spite of the evolution of its key state. See WebOfTrust glossary for more detail.",
+        "anchor": "autonomicidentifier(AID)"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "compact event streaming representation (CESR)",
+        "definition": "An encoding format that enables round-trip text-binary conversion of concatenated cryptographic primitives and general data types, as defined by the draft CESR specification and draft CESR Proof Signature specification.  See WebOfTrust glossary for more detail.",
+        "anchor": "compacteventstreamingrepresentation(CESR)"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "controller",
+        "definition": "A controlling entity that can cryptographically prove the control authority (signing and rotation) over an AID as well as make changes on the associated KEL. A controller may consist of multiple controlling entities in a multi-signature scheme. See WebOfTrust glossary for more detail.",
+        "anchor": "controller"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "decentralized identifier (DID)",
+        "definition": "A globally unique persistent identifier, as defined by DID Core.",
+        "anchor": "decentralizedidentifier(DID)"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "DID document",
+        "definition": "A set of data describing the subject of a DID, as defined by DID Core. See also section DID Documents.",
+        "anchor": "DIDdocument"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "direct mode",
+        "definition": "an operational mode of the KERI protocol where a controller and a verifier of an AID exchange the KEL of the AID directly, as defined by the KERI whitepaper. See WebOfTrust glossary for more detail.",
+        "anchor": "directmode"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "inception event",
+        "definition": "A key event that provides the incepting information needed to derive an AID and establish its initial key state, as defined by the draft KERI specification. See WebOfTrust glossary for more detail.",
+        "anchor": "inceptionevent"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "indirect mode",
+        "definition": "An operational mode of the KERI protocol where the KEL of an AID is discovered by a verifier via witnesses, as defined by the KERI whitepaper. See WebOfTrust glossary for more detail.",
+        "anchor": "indirectmode"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "interaction event",
+        "definition": "A key event that anchors external data to an AID, as defined by the draft KERI specification. An interaction event does not change the key state of the AID. See WebOfTrust glossary for more detail.",
+        "anchor": "interactionevent"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "key event",
+        "definition": "A serialized data structure of an entry in the key event log(KEL) for an AID, as defined by the draft KERI specification. There are three types of key events, namely inception event, rotation event, and interaction event. See WebOfTrust glossary for more detail.",
+        "anchor": "keyevent"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "key event log",
+        "definition": "A verifiable append-only log of key events for an AID that is both backward and forward-chained, as defined by the draft KERI specification. See WebOfTrust glossary for more detail.",
+        "anchor": "keyeventlog"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "key event receipt",
+        "definition": "A message whose body references a key event of an AID and includes one or more signatures on that key event, as defined by the draft KERI specification. See WebOfTrust glossary for more detail.",
+        "anchor": "keyeventreceipt"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "key event receipt log (KERL)",
+        "definition": "A verifiable append-only log that includes all the consistent key event receipt messages, as defined by the draft KERI specification. See WebOfTrust glossary for more detail.",
+        "anchor": "keyeventreceiptlog(KERL)"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "key event receipt infrastructure (KERI)",
+        "definition": "A protocol that provides an identity system-based secure overlay for the internet and uses AIDs as the primary roots of trust, as defined by the draft KERI specification. See WebOfTrust glossary for more detail.",
+        "anchor": "keyeventreceiptinfrastructure(KERI)"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "KERI event stream",
+        "definition": "A stream of verifiable KERI data, consisting of the key event log (KEL) and other data such as a transaction event log (TEL). This data is a CESR event stream (TODO: link to IANA application/cesr media type) and may be serialized in a file using CESR encoding. We refer to these CESR stream resources as KERI event streams to simplify the vocabulary. See WebOfTrust glossary for more detail.",
+        "anchor": "KERIeventstream"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "key state",
+        "definition": "The set of currently authoritative key pairs (current keys) for an AID and any other information necessary to secure or establish control authority over the AID. See WebOfTrust glossary for more detail.",
+        "anchor": "keystate"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "method-specific identifier",
+        "definition": "The method-specific-id part of DID Syntax, as defined in DID Core. See section Method-Specific Identifier.",
+        "anchor": "methodspecificidentifier"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "out-of-band introduction (OOBI)",
+        "definition": "A protocol for discovering verifiable information on an AID or a SAID, as defined by the draft OOBI specification. The OOBI by itself is insecure, and the information discovered by the OOBI must be verified. See WebOfTrust glossary for more detail.",
+        "anchor": "outofbandintroduction(OOBI)"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "pre-rotation",
+        "definition": "A key rotation mechanism whereby a set of rotation keys are pre-commited using cryptographic digests, as defined by the draft KERI specification. See WebOfTrust glossary for more detail.",
+        "anchor": "prerotation"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "rotation event",
+        "definition": "A key event that provides the information needed to change the key state for an AID using pre-rotation, as defined by the draft KERI specification. See WebOfTrust glossary for more detail.",
+        "anchor": "rotationevent"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "self-addressing identifier (SAID)",
+        "definition": "An identifier that is uniquely and cryptographically bound to a serialization of data (content-addressable) while also being included as a component in that serialization (self-referential), as defined by the draft SAID specification. See WebOfTrust glossary for more detail.",
+        "anchor": "selfaddressingidentifier(SAID)"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "transaction event log (TEL)",
+        "definition": "A verifiable append-only log of transaction data that are cryptographically anchored to a KEL. The transaction events of a TEL may be used to establish the issuance or revocation state of ACDCs. See WebOfTrust glossary for more detail.",
+        "anchor": "transactioneventlog(TEL)"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "verifier",
+        "definition": "An entity or component that cryptographically verifies the signature(s) on an event message. See WebOfTrust glossary for more detail.",
+        "anchor": "verifier"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "watcher",
+        "definition": "An entity that keeps a copy of a KERL of an AID to detect duplicity of key events, as defined by the KERI whitepaper. See WebOfTrust glossary for more detail.",
+        "anchor": "watcher"
+    },
+    {
+        "organisation": "ToIP (DID:Webs)",
+        "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+        "term": "witness",
+        "definition": "An entity that is designated by the controller of an AID to verify, sign, and keep the key events associated with the AID, as defined by the KERI whitepaper. See WebOfTrust glossary for more detail.",
+        "anchor": "witness"
+    }
+]
