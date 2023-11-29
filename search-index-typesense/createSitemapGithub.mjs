@@ -23,6 +23,7 @@ import fs from 'fs';
 import path from 'path';
 import logger from './modules/logger.mjs';
 import { config } from 'dotenv';
+config();
 
 const args = process.argv.slice(2);
 const repositoryOwner = args[0];
