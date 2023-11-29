@@ -9,3 +9,5 @@ node fetchExternalContent/fetchMentalModels/fetchEssifLabContent/fetchEssifLabCo
 node fetchExternalContent/fetchMentalModels/fetchDigitalGovtNzContent/fetchDigitalGovtNzContent.js
 
 node fetchExternalContent/fetchMentalModels/fetchW3cDid/fetchW3cDid.js
+
+node fetchExternalContent/fetchMentalModels/fetchToipDidWebs/fetchToipDidWebs.js
