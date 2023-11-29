@@ -17,13 +17,13 @@ const createConfig = async (filename) => {
     return {
         sitemap: await createInput({
             sourceType: 'localXMLsitemap',
-            sourcePath: `search-index-typesense/sitemaps/${filename}`,
+            sourcePath: `${process.env.SEARCH_INDEX_DIR}/sitemaps/${filename}`,
         }),
         siteName: `${repositoryOwner} / ${repositoryName}`,
         source: `${repositoryOwner} / ${repositoryName}`,
         category: category,
         author: `${repositoryOwner}`,
-        destinationFile: `search-index-typesense/search-index-entries/${repositoryOwner}-${repositoryName}.jsonl`,
+        destinationFile: `${process.env.SEARCH_INDEX_DIR}/search-index-entries/${repositoryOwner}-${repositoryName}.jsonl`,
         branch: branchName
     };
 }
