@@ -24,7 +24,7 @@ search-index-typesense/search-index-entries/*
 search-index-typesense/logs/*
 search-index-typesense/sitemaps/*
 search-index-typesense/overrides/overridesID.json
-search-index-typesense/generic-scraper-sites-info/*
+search-index-typesense/singleUrlsFromWotTermsGoogleSheet/*
 .history
 # media
 *.mp4

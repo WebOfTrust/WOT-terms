@@ -14,13 +14,13 @@ configDotEnv();
  * The directory where the JSON file containing the list of websites to scrape is located.
  * @type {string}
  */
-const inputDirJSON = process.env.SEARCH_INDEX_DIR + "/generic-scraper-sites-info";
+const inputDirJSON = process.env.SEARCH_INDEX_DIR + "/singleUrlsFromWotTermsGoogleSheet";
 
 /**
  * The name of the JSON file containing the list of websites to scrape.
  * @type {string}
  */
-const inputFileNameJSON = "generic-scraper-sites-info.json";
+const inputFileNameJSON = "singleUrlsFromWotTermsGoogleSheet.json";
 
 /**
  * The full path of the JSON file containing the list of websites to scrape.

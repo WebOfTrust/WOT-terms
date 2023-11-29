@@ -9,8 +9,8 @@ const https = require('https');
 require('dotenv').config();
 
 // CONFIG
-const outputDirJSON = process.env.SEARCH_INDEX_DIR + "/generic-scraper-sites-info";
-const outputFileNameJSON = "generic-scraper-sites-info.json";
+const outputDirJSON = process.env.SEARCH_INDEX_DIR + "/singleUrlsFromWotTermsGoogleSheet";
+const outputFileNameJSON = "singleUrlsFromWotTermsGoogleSheet.json";
 
 // How to create JSON endpoint from Google Sheet: https://stackoverflow.com/a/68854199
 const url = process.env.GENERIC_SCRAPER_JSON_ENDPOINT;
