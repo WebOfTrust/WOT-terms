@@ -11,3 +11,5 @@ node fetchExternalContent/fetchMentalModels/fetchDigitalGovtNzContent/fetchDigit
 node fetchExternalContent/fetchMentalModels/fetchW3cDid/fetchW3cDid.js
 
 node fetchExternalContent/fetchMentalModels/fetchToipDidWebs/fetchToipDidWebs.js
+
+node fetchExternalContent/fetchMentalModels/combineGlossaries.js
