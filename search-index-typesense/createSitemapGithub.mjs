@@ -30,7 +30,7 @@ const repositoryOwner = args[0];
 const repositoryName = args[1];
 const branchName = args[2];
 const category = args[3];
-const githubSitemapDirectory = process.env.SEARCH_INDEX_DIR + '/sitemaps/gihub';
+const githubSitemapDirectory = process.env.SEARCH_INDEX_DIR + '/sitemaps/github';
 
 async function getRepositoryTree() {
   try {
