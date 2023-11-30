@@ -1,6 +1,6 @@
 # Indexed in KERISSE
-<p id='index-created-timestamp-source'>Indexed at 30 November 2023 17:07:30</p>
-<p id='index-created-page-count-source'>Number of indexed pages: 3378</p>
+<p id='index-created-timestamp-source'>Indexed at 28 November 2023 15:00:52</p>
+<p id='index-created-page-count-source'>Number of indexed pages: 3379</p>
 <ol>
 <li><a href="https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79" target="_blank">https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79</a></li>
 <li><a href="https://essif-lab.github.io/framework/docs/TBD" target="_blank">https://essif-lab.github.io/framework/docs/TBD</a></li>
@@ -291,6 +291,7 @@
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/BlockChain.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/BlockChain.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/CESR_Overview.web.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/CESR_Overview.web.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/CensorshipResistance_IIW_2019_B.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/CensorshipResistance_IIW_2019_B.pdf</a></li>
+<li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/DDEPresentation_20200910.web.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/DDEPresentation_20200910.web.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/DID_Everything_BlockchainKickoffSummit.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/DID_Everything_BlockchainKickoffSummit.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/DID_Everything_IIW_20181023.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/DID_Everything_IIW_20181023.pdf</a></li>
 <li><a href="https://github.com/SmithSamuelM/Papers/blob/master/presentations/DID_Everything_MedTalk_20190822.pdf" target="_blank">https://github.com/SmithSamuelM/Papers/blob/master/presentations/DID_Everything_MedTalk_20190822.pdf</a></li>
