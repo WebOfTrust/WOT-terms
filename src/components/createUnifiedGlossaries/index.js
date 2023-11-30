@@ -55,15 +55,22 @@ const CreateUnifiedGlossaries = () => {
     };
 
     const isTermVisible = (term) => {
+        const regexPattern = /[-–_ ]/g; // Matches a dash, an en dash, or an underscore
+
+        // Normalizes the term for comparison
+        const normalizedTerm = term.term.toLowerCase().replace(regexPattern, '');
+        const normalizedSearchTerm = searchTerm.replace(regexPattern, '').toLowerCase();
+        const regex = new RegExp(normalizedSearchTerm, 'i');
+
         return term.definitions.some(definition =>
-            checkedOrganisations[definition.organisation] && term.term.toLowerCase().includes(searchTerm)
+            checkedOrganisations[definition.organisation] && regex.test(normalizedTerm)
         );
     };
 
     return (
         <div>
             <input type="text" className="form-control" placeholder="Search" aria-label="Search" onChange={handleSearch} />
-            <div className='mt-5 mb-5 text-center'>
+            <div className='mt-5 mb-5 text-left'>
                 {organisations.map((organisation, index) => (
                     <div className="form-check form-check-inline" key={index}>
                         <input
