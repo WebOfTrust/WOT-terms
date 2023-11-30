@@ -59,6 +59,11 @@ async function generateSitemap() {
     </urlset>
   `;
 
+  // If githubSitemapDirectory does not exist, create it
+  if (!fs.existsSync(githubSitemapDirectory)) {
+    fs.mkdirSync(githubSitemapDirectory);
+  }
+
   const sitemapFilePath = path.join(githubSitemapDirectory, `sitemap.githubcom.${repositoryOwner}.${repositoryName}-${branchName}.${category}.xml`);
   fs.writeFileSync(sitemapFilePath, sitemapXml);
 
