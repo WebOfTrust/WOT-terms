@@ -6,6 +6,9 @@ import path from 'path';
 
 dotenvConfig();
 
+const sitemapDir = path.join(process.env.SEARCH_INDEX_DIR, '/sitemaps/github');
+
+
 // Function to create configuration
 const createConfig = async (filename) => {
     const parts = filename.split('.');
@@ -17,7 +20,7 @@ const createConfig = async (filename) => {
     return {
         sitemap: await createInput({
             sourceType: 'localXMLsitemap',
-            sourcePath: `${process.env.SEARCH_INDEX_DIR}/sitemaps/${filename}`,
+            sourcePath: `${sitemapDir}/${filename}`,
         }),
         siteName: `${repositoryOwner} / ${repositoryName}`,
         source: `${repositoryOwner} / ${repositoryName}`,
@@ -29,7 +32,6 @@ const createConfig = async (filename) => {
 }
 
 export default async function () {
-    const sitemapDir = path.join(process.env.SEARCH_INDEX_DIR, '/sitemaps/github');
     try {
         const files = await fs.readdir(sitemapDir);
         for (const filename of files) {
