@@ -14,8 +14,8 @@ const createConfig = async (filename) => {
     const parts = filename.split('.');
     const repositoryOwner = parts[2];
     const repositoryName = parts[3];
-    const branchName = parts[4];
-    const category = parts[5];
+    // const branchName = parts[4];
+    const category = parts[4];
 
     return {
         sitemap: await createInput({
@@ -26,8 +26,8 @@ const createConfig = async (filename) => {
         source: `${repositoryOwner} / ${repositoryName}`,
         category: category,
         author: `${repositoryOwner}`,
-        destinationFile: `${process.env.SEARCH_INDEX_DIR}/search-index-entries/${repositoryOwner}-${repositoryName}.jsonl`,
-        branch: branchName
+        destinationFile: `${process.env.SEARCH_INDEX_DIR}/search-index-entries/${repositoryOwner}-${repositoryName}.jsonl`
+        // branch: branchName
     };
 }
 
