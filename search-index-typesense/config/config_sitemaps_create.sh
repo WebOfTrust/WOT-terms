@@ -14,8 +14,8 @@ source .env
 # General websites - createSitemap.mjs
 ########################################
 
-# Example use:
-node ${SEARCH_INDEX_DIR}/createSitemap.mjs --url https://example-domain.com --depth 5 --filename example-domain
+# # Example use:
+# node ${SEARCH_INDEX_DIR}/createSitemap.mjs --url https://example-domain.com --depth 5 --filename example-domain
 
 
 
