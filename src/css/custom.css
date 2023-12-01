@@ -1150,6 +1150,8 @@ article .markdown .inline-medium-end,
 */
 .glossaries-combined h2 {
   color: #a3c74e;
+  font-weight: 700;
+  font-size: 1.2em;
   font-family: Verdana, sans-serif;
 }
 /* 
