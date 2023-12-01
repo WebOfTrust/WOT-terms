@@ -95,7 +95,7 @@ const CreateUnifiedGlossaries = () => {
                                 <li className={`list-group-item border border-0 ${checkedOrganisations[definition.organisation] ? '' : 'd-none'}`} key={defIndex}>
                                     <div className={`card ${animateCards ? 'animate-outline' : ''}`}>
                                         <div className="card-header">
-                                            <h3 className="card-title organisation">{definition.organisation}</h3>
+                                            <h3 className="card-title organisation text-end fs-5">{definition.organisation}</h3>
                                         </div>
                                         <div className="card-body">
                                             <div className="card-text">{parse(definition.definition)}</div>
