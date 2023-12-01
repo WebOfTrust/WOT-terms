@@ -1,3 +1,6 @@
+import { toLowerCaseAndRemoveSpecialChars } from '../modules-js-universal/toLowerCaseAndRemoveSpecialChars.js';
+
+
 import termsDefinitionsToip from '@site/static/json/external-glosseries/glossaries/terms-definitions-toip.json';
 import termsDefinitionsEssiflab from '@site/static/json/external-glosseries/glossaries/terms-definitions-essiflab.json';
 import termsDefinitionsDigitalgovtnz from '@site/static/json/external-glosseries/glossaries/terms-definitions-digitalgovtnz.json';
@@ -32,21 +35,20 @@ const findMentalModelMatches = () => {
   if (inDocSection) {
     const markdown = document.querySelector('.markdown');
     const heading = document.querySelector('.markdown header h1');
-    const headingText = heading.innerText;
-    console.log('heading: ', headingText);
 
+    // No:
+    // const headingText = heading.innerText;
 
-
-
+    // Yes: (to avoid also selecting text in child elements, e.g. <sup>)
+    const headingText = heading.firstChild && heading.firstChild.nodeType === Node.TEXT_NODE ? heading.firstChild.textContent : '';
 
     allTermsDefinitions.forEach((term) => {
       // Remove zero-width space and other non-printable characters
       term.term = term.term.normalize('NFD').replace(/[\u200B-\u200D\uFEFF]/g, '');
 
-      // Case sensitive except for first letter
-      if (term.term.toLowerCase() === headingText.toLowerCase() ||
-        term.term.charAt(0).toLowerCase() + term.term.slice(1) === headingText.charAt(0).toLowerCase() + headingText.slice(1)) {
+      const termToLowerCaseAndRemoveSpecialChars = toLowerCaseAndRemoveSpecialChars(term.term);
 
+      if (termToLowerCaseAndRemoveSpecialChars === toLowerCaseAndRemoveSpecialChars(headingText)) {
         if (headingAdded === false) {
           // Create h2 element
           const h2 = document.createElement('h2');
@@ -54,7 +56,6 @@ const findMentalModelMatches = () => {
           markdown.appendChild(h2);
           headingAdded = true;
         }
-
 
         // Create Bootstrap accordion container
         const accordionContainer = document.createElement('div');
@@ -73,13 +74,13 @@ const findMentalModelMatches = () => {
         accordionButton.classList.add('accordion-button');
         accordionButton.setAttribute('type', 'button');
         accordionButton.setAttribute('data-bs-toggle', 'collapse');
-        accordionButton.setAttribute('data-bs-target', `#collapse-${term.term}`);
+        accordionButton.setAttribute('data-bs-target', `#collapse-${termToLowerCaseAndRemoveSpecialChars}`);
         accordionButton.innerHTML = `${term.organisation} definition`;
         accordionHeader.appendChild(accordionButton);
 
         const accordionCollapse = document.createElement('div');
         accordionCollapse.classList.add('accordion-collapse', 'collapse');
-        accordionCollapse.setAttribute('id', `collapse-${term.term}`);
+        accordionCollapse.setAttribute('id', `collapse-${termToLowerCaseAndRemoveSpecialChars}`);
         accordionItem.appendChild(accordionCollapse);
 
         const accordionBody = document.createElement('div');
@@ -87,7 +88,7 @@ const findMentalModelMatches = () => {
         accordionBody.classList.add('fs-6');
 
         const definitionWithoutLinks = removeLinks(term.definition);
-        accordionBody.innerHTML = definitionWithoutLinks + `(<a href="${term.url}" target="_blank" rel="noopener">source</a>)`;
+        accordionBody.innerHTML = "<h3>" + term.term + ": " + "</h3>" + definitionWithoutLinks + `(<a href="${term.url}" target="_blank" rel="noopener">source</a>)`;
         accordionCollapse.appendChild(accordionBody);
 
         // Insert accordion item as first child of accordion container
