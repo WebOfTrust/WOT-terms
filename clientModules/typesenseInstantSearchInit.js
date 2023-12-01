@@ -9,8 +9,8 @@
 import paths from "../docusaurus.paths";
 
 const typesenseInstantSearchCreateDomElements = () => {
-   const domStringSearchStart = `<button id="search-start">🔍</button>`;
-   const domStringSearchResult = `
+    const domStringSearchStart = `<button id="search-start">🔍</button>`;
+    const domStringSearchResult = `
 <div class="search-modal-backdrop hidden"></div>
 <div id="search" class="container p-3 hidden" style="max-width: 70em;">
     <h1 class="search-heading text-center fs-5">KERI Suite Search Engine (KERISSE)</h1>
@@ -25,7 +25,7 @@ const typesenseInstantSearchCreateDomElements = () => {
       <a role="button" class="clickable-search-term btn btn-outline-secondary btn-sm d-inline">ACDC</a>
       <a role="button" class="clickable-search-term btn btn-outline-secondary btn-sm d-inline">Trust over IP</a>
    </p>-->
-
+    <!--
     <nav class="navbar navbar-expand">
         <div class="container-fluid">
             <a target="_blank" rel="noopener" class="btn btn-outline-secundary"
@@ -94,6 +94,7 @@ const typesenseInstantSearchCreateDomElements = () => {
             </div>
         </div>
     </nav>
+    -->
 
     <div class="search-results-container container mt-3" style="z-index: 1999;">
 
@@ -156,80 +157,80 @@ const typesenseInstantSearchCreateDomElements = () => {
 </div>
   `;
 
-   // Add search to dom
-   if (document.querySelector('#search') === null) {
-      document
-         .querySelector('body')
-         .insertAdjacentHTML('afterbegin', domStringSearchResult);
-   }
+    // Add search to dom
+    if (document.querySelector('#search') === null) {
+        document
+            .querySelector('body')
+            .insertAdjacentHTML('afterbegin', domStringSearchResult);
+    }
 
-   // TODO: find out why check for null does not work
-   // if (document.querySelector('#search-start') === null) {
-   if (document.querySelector('#search-start')) {
-      document.querySelector('#search-start').remove();
-   }
-   document
-      .querySelector('.navbar__items--right')
-      .insertAdjacentHTML('beforeend', domStringSearchStart);
-   // }
+    // TODO: find out why check for null does not work
+    // if (document.querySelector('#search-start') === null) {
+    if (document.querySelector('#search-start')) {
+        document.querySelector('#search-start').remove();
+    }
+    document
+        .querySelector('.navbar__items--right')
+        .insertAdjacentHTML('beforeend', domStringSearchStart);
+    // }
 
 
-   /*
-      TIMESTAMP   
+    /*
+       TIMESTAMP   
+ 
+       The code below Fetches HTML content from indexed-in-KERISSE on this same domain using the `fetch` API.
+       
+       It then parses the fetched HTML using `DOMParser` and queries the DOM to find a paragraph element with the id "index-created-timestamp-source".
+       
+       If the element is found, its text content is added to the search result page; otherwise, an appropriate message indicating the absence of such an element is logged.
+    */
 
-      The code below Fetches HTML content from indexed-in-KERISSE on this same domain using the `fetch` API.
-      
-      It then parses the fetched HTML using `DOMParser` and queries the DOM to find a paragraph element with the id "index-created-timestamp-source".
-      
-      If the element is found, its text content is added to the search result page; otherwise, an appropriate message indicating the absence of such an element is logged.
-   */
+    // Fetching the HTML content
+    fetch(paths.indexedInKERISSE, {
+        headers: {
+            'Cache-Control': 'no-cache',
+            'Pragma': 'no-cache',
+            'Expires': '0'
+        }
+    })
+        .then(response => response.text())
+        .then(html => {
+            // Parsing the fetched HTML string into a DOM object
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
 
-   // Fetching the HTML content
-   fetch(paths.indexedInKERISSE, {
-      headers: {
-         'Cache-Control': 'no-cache',
-         'Pragma': 'no-cache',
-         'Expires': '0'
-      }
-   })
-      .then(response => response.text())
-      .then(html => {
-         // Parsing the fetched HTML string into a DOM object
-         const parser = new DOMParser();
-         const doc = parser.parseFromString(html, 'text/html');
+            // Finding the paragraph elements by their id's
+            const timestampElement = doc.querySelector('#index-created-timestamp-source');
+            const pageCountElement = doc.querySelector('#index-created-page-count-source');
 
-         // Finding the paragraph elements by their id's
-         const timestampElement = doc.querySelector('#index-created-timestamp-source');
-         const pageCountElement = doc.querySelector('#index-created-page-count-source');
+            if (timestampElement) {
+                // Extracting and logging the content of the paragraph
+                const timestampContent = timestampElement.textContent;
+                document.querySelector('#index-created-timestamp-target-search-modal').textContent = timestampContent;
+            } else {
+                console.log('Element with id "index-created-timestamp-source" not found.');
+            }
 
-         if (timestampElement) {
-            // Extracting and logging the content of the paragraph
-            const timestampContent = timestampElement.textContent;
-            document.querySelector('#index-created-timestamp-target-search-modal').textContent = timestampContent;
-         } else {
-            console.log('Element with id "index-created-timestamp-source" not found.');
-         }
-
-         if (pageCountElement) {
-            // Extracting and logging the content of the paragraph
-            const pageCountContent = pageCountElement.textContent;
-            document.querySelector('#index-created-page-count-target-search-modal').textContent = pageCountContent;
-         } else {
-            console.log('Element with id "index-created-page-count-source" not found.');
-         }
-      })
-      .catch(error => {
-         console.error(`Error fetching the content: ${error}`);
-      });
-   // END TIMESTAMP
+            if (pageCountElement) {
+                // Extracting and logging the content of the paragraph
+                const pageCountContent = pageCountElement.textContent;
+                document.querySelector('#index-created-page-count-target-search-modal').textContent = pageCountContent;
+            } else {
+                console.log('Element with id "index-created-page-count-source" not found.');
+            }
+        })
+        .catch(error => {
+            console.error(`Error fetching the content: ${error}`);
+        });
+    // END TIMESTAMP
 
 
 
 };
 
 export function onRouteDidUpdate({ location, previousLocation }) {
-   // Don't execute if we are still on the same page; the lifecycle may be fired
-   // because the hash changes (e.g. when navigating between headings)
-   if (location.pathname === previousLocation?.pathname) return;
-   typesenseInstantSearchCreateDomElements();
+    // Don't execute if we are still on the same page; the lifecycle may be fired
+    // because the hash changes (e.g. when navigating between headings)
+    if (location.pathname === previousLocation?.pathname) return;
+    typesenseInstantSearchCreateDomElements();
 }
