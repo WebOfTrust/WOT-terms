@@ -1,3 +1,5 @@
+import { toLowerCaseAndRemoveSpecialChars } from '../../../modules-js-universal/toLowerCaseAndRemoveSpecialChars.js';
+
 import React, { useState, useEffect } from 'react';
 import parse from 'html-react-parser';
 const termsData = require('@site/static/json/external-glosseries/glossaries-combined/all-glossaries.json');
@@ -57,9 +59,9 @@ const CreateUnifiedGlossaries = () => {
     const isTermVisible = (term) => {
         const regexPattern = /[-–_ ]/g; // Matches a dash, an en dash, or an underscore
 
-        // Normalizes the term for comparison
-        const normalizedTerm = term.term.toLowerCase().replace(regexPattern, '');
-        const normalizedSearchTerm = searchTerm.replace(regexPattern, '').toLowerCase();
+        // Normalizes the term and search term for comparison
+        const normalizedTerm = toLowerCaseAndRemoveSpecialChars(term.term);
+        const normalizedSearchTerm = toLowerCaseAndRemoveSpecialChars(searchTerm);
         const regex = new RegExp(normalizedSearchTerm, 'i');
 
         return term.definitions.some(definition =>
