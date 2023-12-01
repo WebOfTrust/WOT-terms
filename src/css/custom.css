@@ -1145,6 +1145,19 @@ article .markdown .inline-medium-end,
   End Glossary Menu
 */
 
+/* 
+  All Glossareis Combined
+*/
+.glossaries-combined h2 {
+  color: #a3c74e;
+  font-family: Verdana, sans-serif;
+}
+/* 
+  End all Glossareis Combined
+*/
+
+
+
 @keyframes outlineAnimation {
     0% {
         outline: 2px solid transparent;
