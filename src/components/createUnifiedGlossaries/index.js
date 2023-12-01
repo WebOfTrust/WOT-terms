@@ -70,7 +70,7 @@ const CreateUnifiedGlossaries = () => {
     };
 
     return (
-        <div>
+        <div className='glossaries-combined'>
             <input type="text" className="form-control" placeholder="Search" aria-label="Search" onChange={handleSearch} />
             <div className='mt-5 mb-5 text-left'>
                 {organisations.map((organisation, index) => (
