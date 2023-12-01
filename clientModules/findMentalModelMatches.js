@@ -71,7 +71,7 @@ const findMentalModelMatches = () => {
         accordionItem.appendChild(accordionHeader);
 
         const accordionButton = document.createElement('button');
-        accordionButton.classList.add('accordion-button');
+        accordionButton.classList.add('accordion-button', 'fs-4');
         accordionButton.setAttribute('type', 'button');
         accordionButton.setAttribute('data-bs-toggle', 'collapse');
         accordionButton.setAttribute('data-bs-target', `#collapse-${termToLowerCaseAndRemoveSpecialChars}`);
