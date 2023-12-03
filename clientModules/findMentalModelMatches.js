@@ -36,10 +36,10 @@ const findMentalModelMatches = () => {
     const markdown = document.querySelector('.markdown');
     const heading = document.querySelector('.markdown header h1');
 
-    // No:
+    // This is not working, because the heading sometimes contains child elements:
     // const headingText = heading.innerText;
 
-    // Yes: (to avoid also selecting text in child elements, e.g. <sup>)
+    // This works: (to avoid also selecting text in child elements, e.g. <sup>)
     const headingText = heading.firstChild && heading.firstChild.nodeType === Node.TEXT_NODE ? heading.firstChild.textContent : '';
 
     allTermsDefinitions.forEach((term) => {
