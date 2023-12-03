@@ -11,6 +11,13 @@ termsData.forEach(term => {
             .replace(/<h4>/g, '<h6>').replace(/<\/h4>/g, '</h6>')
             .replace(/<h3>/g, '<h5>').replace(/<\/h3>/g, '</h5>')
             .replace(/<h2>/g, '<h4>').replace(/<\/h2>/g, '</h4>');
+
+        if (definition.organisation === 'WebOfTrust') {
+            console.log(definition.definition);
+            // In definition.definition find every <a> tag that has a href attribute that does not contain 'http' or 'https' and add to the href attribute value the string '/docs/glossary/'.
+            // This is because the WebOfTrust definitions do not contain the full URL, but only the relative path.
+            definition.definition = definition.definition.replace(/<a href="((?!http|https).*)">/g, '<a href="/WOT-terms/docs/glossary/$1">');
+        }
     });
 });
 
