@@ -1,16 +1,28 @@
 import { toLowerCaseAndRemoveSpecialChars } from '../modules-js-universal/toLowerCaseAndRemoveSpecialChars.js';
 
 
-import termsDefinitionsToip from '@site/static/json/external-glosseries/glossaries/terms-definitions-toip.json';
-import termsDefinitionsEssiflab from '@site/static/json/external-glosseries/glossaries/terms-definitions-essiflab.json';
 import termsDefinitionsDigitalgovtnz from '@site/static/json/external-glosseries/glossaries/terms-definitions-digitalgovtnz.json';
+
+import termsDefinitionsEssiflab from '@site/static/json/external-glosseries/glossaries/terms-definitions-essiflab.json';
+
 import termsDefinitionsNist from '@site/static/json/external-glosseries/glossaries/terms-definitions-nist.json';
+
+import termsDefinitionsToip from '@site/static/json/external-glosseries/glossaries/terms-definitions-toip.json';
+
+import termsDefinitionsToipDidWebs from '@site/static/json/external-glosseries/glossaries/terms-definitions-toipdidwebs.json';
+
 import termsDefinitionsW3cDid from '@site/static/json/external-glosseries/glossaries/terms-definitions-w3cdid.json';
+
+
+
+
+
+
 /**
  *  This plugin adds a GTP generated summary to the top of the page.
  */
 
-const allTermsDefinitions = [...termsDefinitionsToip, ...termsDefinitionsEssiflab, ...termsDefinitionsDigitalgovtnz, ...termsDefinitionsNist, ...termsDefinitionsW3cDid];
+const allTermsDefinitions = [...termsDefinitionsToip, ...termsDefinitionsEssiflab, ...termsDefinitionsDigitalgovtnz, ...termsDefinitionsNist, ...termsDefinitionsW3cDid, ...termsDefinitionsToipDidWebs];
 
 
 // Remove links from term.definition
