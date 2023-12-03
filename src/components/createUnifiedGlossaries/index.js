@@ -16,7 +16,7 @@ termsData.forEach(term => {
             console.log(definition.definition);
             // In definition.definition find every <a> tag that has a href attribute that does not contain 'http' or 'https' and add to the href attribute value the string '/docs/glossary/'.
             // This is because the WebOfTrust definitions do not contain the full URL, but only the relative path.
-            definition.definition = definition.definition.replace(/<a href="((?!http|https).*)">/g, '<a href="/WOT-terms/docs/glossary/$1">');
+            definition.definition = definition.definition.replace(/<a href="((?!http|https)[^"]*)">/g, '<a href="/WOT-terms/docs/glossary/$1">');
         }
     });
 });
