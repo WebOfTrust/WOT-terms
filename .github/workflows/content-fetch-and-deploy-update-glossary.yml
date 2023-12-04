@@ -90,6 +90,15 @@ jobs:
           rm -rf temp-wiki/  # Remove the /temp-wiki directory
       ##############################
 
+      
+
+      ##############################
+      # Fix dashes in filenames coming from Wiki
+      ##############################
+      - name: Fix dashes in filenames coming from Wiki
+        run: node maintenance/fixDashInWikiCopyFilenames.js
+      ##############################
+
 
 
       ##############################
@@ -98,6 +107,7 @@ jobs:
       - name: Fix svg's created by OmniGraffle
         run: node maintenance/fixOmnigraffleSvgOutput.js
       ##############################
+
 
 
       # # CURRENTLY MANUALLY RUN 
