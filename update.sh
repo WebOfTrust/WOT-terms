@@ -65,6 +65,14 @@ rm -rf temp-wiki/
 
 
 ##############################
+# Fix dashes in filenames coming from Wiki
+##############################
+node maintenance/fixDashInWikiCopyFilenames.js
+##############################
+
+
+
+##############################
 # Fix svg's created by OmniGraffle
 ##############################
 # Fix svg's created by OmniGraffle
