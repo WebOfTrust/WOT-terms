@@ -12,7 +12,7 @@ const fs = require('fs');
 
 // const glossaryDir = process.env.GLOSSARY_DIR;
 // Add “docs/“ to the beginning of the directory path
-const glossaryDir = `docs/${process.env.GLOSSARY_DIR}`;
+const glossaryDir = `/docs/${process.env.GLOSSARY_DIR}`;
 
 
 // Function to replace the hyphen character in file names
