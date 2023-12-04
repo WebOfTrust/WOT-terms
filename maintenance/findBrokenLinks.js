@@ -27,32 +27,67 @@ const config = {
     githubRepo: 'WebOfTrust/WOT-terms',
     githubToken: process.env.GITHUB_ISSUE_AUTH_TOKEN
 };
+
+// Define excluded subdirectories
+const excludedSubdirectories = ['/WOT-terms/slack/'];
+
 console.log("config.outputFilePath: " + config.outputFilePath);
 console.log('Configuration loaded.');
 
-let brokenLinks = [];
+let brokenLinks = {};
 
 console.log('Starting link checking...');
 
-const siteChecker = new SiteChecker({}, {
+const siteChecker = new SiteChecker({
+    maxSocketsPerHost: 10, // Increase the number of concurrent checks per host
+    // Add other configuration options as needed
+}, {
     link: (result) => {
-        // console.log(`Checking link: ${result.url.original} on ${result.base.original}`);
         try {
-            // Create fully qualified URLs
+            // Scenario 1: only internal links
             const baseURL = 'https://weboftrust.github.io';
             const urlObj = new URL(result.url.original, baseURL);
             const baseObj = new URL(result.base.original, baseURL);
-
             const isInternal = urlObj.hostname === baseObj.hostname;
 
-            if (result.broken && isInternal) {
-                const brokenInfo = {
-                    brokenLink: urlObj.href,
-                    foundOnPage: baseObj.href
-                };
-                brokenLinks.push(brokenInfo);
+            // Check if the URL falls within the excluded subdirectories
+            const isExcluded = excludedSubdirectories.some(subdir =>
+                urlObj.pathname.startsWith(subdir) || baseObj.pathname.startsWith(subdir)
+            );
+
+            if (result.broken && isInternal && !isExcluded) {
+                const href = urlObj.href;
+                if (!brokenLinks[href]) {
+                    brokenLinks[href] = [];
+                }
+                if (!brokenLinks[href].includes(baseObj.href)) {
+                    brokenLinks[href].push(baseObj.href);
+                }
                 console.log(`Broken internal link found: ${urlObj.href}, Found on page: ${baseObj.href}`);
             }
+
+            // // Scenario 2: internal and external links
+            // if (result.broken) {
+            //     const brokenLink = result.url.original;
+            //     const foundOnPage = result.base.original;
+
+            //     // Check if the URL falls within the excluded subdirectories
+            //     const isExcluded = excludedSubdirectories.some(subdir =>
+            //         new URL(brokenLink).pathname.startsWith(subdir) ||
+            //         new URL(foundOnPage).pathname.startsWith(subdir)
+            //     );
+
+            //     if (result.broken && !isExcluded) {
+            //         if (!brokenLinks[brokenLink]) {
+            //             brokenLinks[brokenLink] = [];
+            //         }
+            //         if (!brokenLinks[brokenLink].includes(foundOnPage)) {
+            //             brokenLinks[brokenLink].push(foundOnPage);
+            //         }
+
+            //         console.log(`Broken link found: ${brokenLink}, Found on page: ${foundOnPage}`);
+            //     }
+            // }
         } catch (e) {
             console.warn(`Skipping invalid URL: ${result.url.original}`);
         }
@@ -68,37 +103,18 @@ const siteChecker = new SiteChecker({}, {
 
         const timestamp = getISO8601Timestamp();
 
-        const numberOfBrokenLinks = brokenLinks.length;
+        const numberOfBrokenLinks = Object.keys(brokenLinks).length;
 
-        // Initialize the Markdown content with a timestamp
-        let dataToWrite = `# Broken Links Report\n\nCreated: ${timestamp}\n\n`;
-
-        // Add the total number of broken links found
+        // Format the output for the Markdown file
+        let dataToWrite = `# Broken Links Report\n\nCreated: ${new Date().toISOString()}\n\n`;
         dataToWrite += `## Total Broken Links Found: ${numberOfBrokenLinks}\n\n`;
 
-        // Initialize an empty string to hold the Markdown for the list
-        let brokenLinksMarkdown = "";
+        for (const [brokenLink, foundOnPages] of Object.entries(brokenLinks)) {
+            let markdownBrokenLink = `[${brokenLink}](${brokenLink})`;
+            let pagesMarkdown = foundOnPages.map(page => `[${page}](${page})`).join(', ');
 
-        // Loop through the array of broken links, making each URL clickable in Markdown
-        brokenLinksMarkdown += brokenLinks.map(linkInfo => {
-            // Convert the broken link and found-on-page URLs into Markdown links
-            let markdownBrokenLink = `[${linkInfo.brokenLink}](${linkInfo.brokenLink})`;
-            let markdownFoundOnPage = `[${linkInfo.foundOnPage}](${linkInfo.foundOnPage})`;
-
-            // Check if the foundOnPage URL contains the specific string and replace it if so
-            let goToSource = '';
-            if (linkInfo.foundOnPage.includes('https://weboftrust.github.io/WOT-terms/docs/glossary/')) {
-                let markdownFoundOnPageReplaced = markdownFoundOnPage.replace('https://weboftrust.github.io/WOT-terms/docs/glossary/', 'https://github.com/WebOfTrust/WOT-terms/wiki/');
-                goToSource = ` , Go to source: ${markdownFoundOnPageReplaced}`;
-            }
-
-            // Return the list item for each broken link, including the clickable URLs and the 'Go to source' if applicable
-            return `- Broken Link: ${markdownBrokenLink}, Found on Page: ${markdownFoundOnPage}` + (goToSource ? `\n  - ${goToSource}` : '');
-        }).join('\n');
-
-
-        // Append the list to the main Markdown content
-        dataToWrite += brokenLinksMarkdown;
+            dataToWrite += `- Broken Link: ${markdownBrokenLink}, Found on Pages: ${pagesMarkdown}\n`;
+        }
 
         // Now, dataToWrite is a Markdown string where every URL is clickable
 
