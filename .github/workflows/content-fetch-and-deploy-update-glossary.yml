@@ -96,6 +96,8 @@ jobs:
       # Fix dashes in filenames coming from Wiki
       ##############################
       - name: Fix dashes in filenames coming from Wiki
+        env:
+          GLOSSARY_DIR: 04_glossary
         run: node maintenance/fixDashInWikiCopyFilenames.js
       ##############################
 
