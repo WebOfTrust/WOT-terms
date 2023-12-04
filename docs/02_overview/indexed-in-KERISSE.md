@@ -2572,7 +2572,7 @@
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/LoA" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/LoA</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/LoC" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/LoC</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/MFA" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/MFA</a></li>
-<li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/MIME%E2%80%90type" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/MIME%E2%80%90type</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/MIME-type" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/MIME-type</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/NFT" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/NFT</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/OOBI" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/OOBI</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/OOR" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/OOR</a></li>
@@ -2724,7 +2724,7 @@
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/easyCLA_trick" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/easyCLA_trick</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/eclipse-attack" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/eclipse-attack</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/electronic-signature" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/electronic-signature</a></li>
-<li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/encrypt%E2%80%90sender%E2%80%90sign%E2%80%90receiver" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/encrypt%E2%80%90sender%E2%80%90sign%E2%80%90receiver</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/encrypt-sender-sign-receiver" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/encrypt-sender-sign-receiver</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/end-role" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/end-role</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/end-to-end" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/end-to-end</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/end-verifiable" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/end-verifiable</a></li>
