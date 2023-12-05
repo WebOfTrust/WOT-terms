@@ -21,7 +21,7 @@ axios.get(url)
         // Loop through all definitions and remove the string '/framework/docs/terms/'
         // from the 'url' property
         terms.forEach(term => {
-            term.url = term.url.replace('/framework/docs/terms/', '/');
+            term.definition = term.definition.replace('/framework/docs/', 'https://essif-lab.github.io/framework/docs/');
         });
 
 
