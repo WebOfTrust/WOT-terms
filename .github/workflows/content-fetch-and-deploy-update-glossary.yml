@@ -67,26 +67,6 @@ jobs:
 
 
 
-      # ##############################
-      # # Google sheet: WOT-terms, tab: LabelContent
-      # ##############################
-
-      # # Fetches and copies external websites based on the URLs in the Google sheet "WOT-terms", tab "LabelContent"  
-      # # Step 1
-      # - name: Fetch information in JSON format that serves as source for import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files, meta data
-      #   run: node fetchExternalContent/fetchCarbonCopies/fetchExternalContentMetaData.js
-
-      # # Step 2
-      # - name: Import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files
-      #   run: node fetchExternalContent/fetchCarbonCopies/fetchExternalContent.js
-
-      # # Step 3
-      # - name: Add HTML structure to external content, like Accordeon code
-      #   run: node fetchExternalContent/fetchCarbonCopies/addHTMLstructureToExternalContent.js
-      # ##############################
-
-
-
       ##############################
       # Clones the wiki
       ##############################
