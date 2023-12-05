@@ -68,6 +68,29 @@ jobs:
 
 
       ##############################
+      # Google sheet: WOT-terms, tab: GenericScraper
+      ##############################
+      - name: Import Google Sheet “WOT-terms”, tab “GenericScraper” data into markdown file
+        env:
+          SEARCH_INDEX_DIR: search-index-typesense
+        run: node fetchExternalContent/fetchSingleUrlsFromWotTermsGoogleSheet/fetchSingleUrlsFromWotTermsGoogleSheet.js
+      ##############################
+
+
+
+      ##############################
+      # Fetch external glossary content
+      ##############################
+      - name: Fetch external glossary content
+        env:
+          GENERATED_JSON_GLOSSARIES_DIR: ./static/json/external-glosseries/glossaries/
+          GENERATED_JSON_GLOSSARIES_COMBINED_DIR: ./static/json/external-glosseries/glossaries-combined/
+        run: sh fetchExternalContent/fetchMentalModels/main.sh
+      ##############################
+
+
+
+      ##############################
       # Clones the wiki
       ##############################
 
