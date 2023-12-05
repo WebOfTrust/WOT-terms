@@ -44,6 +44,11 @@ jobs:
 
       # Fetches data from WOT-terms (Google sheet) and generates an overview file that takes all the terms and their definitions and puts them into a single file. 
       - name: Import Google Sheet “WOT-terms”, tab “Terms-WOT-manage” data into markdown file
+        env:
+          TERMS_WOT_MANAGE_MARKDOWN: ./docs/02_overview/overview-and-context.mdx
+          TERMS_WOT_MANAGE_JSON_DIR_NAME: ./static/json/
+          TERMS_WOT_MANAGE_JSON_FILE_NAME: overview.json
+          TERMS_WOT_MANAGE_JSON_ENDPOINT: ${{ secrets.TERMS_WOT_MANAGE_JSON_ENDPOINT }}
         run: node fetchExternalContent/fetchTermsWOTmanage/fetchTermsWOTmanage.mjs
       ##############################
 
@@ -58,7 +63,7 @@ jobs:
       # 1: Fetch information in JSON format that serves as source for import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files, meta data
       # 2: Import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files
       # 3: Add HTML structure to external content, like Accordeon code
-      - name: Import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown file
+      - name: Import Google Sheet “WOT-terms”, tab “LabelContent” (Carbon copies) data into markdown file
         env:
           CARBON_COPIES_OUTPUT_DIR: ./docs/08_carbon-copies/  
           CARBON_COPIES_INPUT_DIR: ./static/json/externalContentMetaData.json
