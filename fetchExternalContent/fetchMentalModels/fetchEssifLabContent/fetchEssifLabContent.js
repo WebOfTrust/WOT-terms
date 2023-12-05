@@ -25,7 +25,9 @@ axios.get(url)
         // from the 'url' property
         terms.forEach(term => {
             // if the link is relative, replace it with the absolute link
-            term.definition = term.definition.replace('href =\"/framework/docs/terms', 'href =\"https://essif-lab.github.io/framework/docs/terms');
+            term.definition = term.definition.replace(/href=\"\/framework\/docs\/terms\//g, 'href=\"https://essif-lab.github.io/framework/docs/terms/');
+
+
         });
 
         console.log('Writing terms to file...');
