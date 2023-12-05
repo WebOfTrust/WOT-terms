@@ -2,8 +2,11 @@ const axios = require('axios');
 const url = 'https://essif-lab.github.io/framework/docs/essifLab-glossary';
 require('dotenv').config();
 
+console.log('essifLab: Fetching external content...');
+
 axios.get(url)
     .then(response => {
+        console.log('External content fetched successfully.');
         const html = response.data;
         const cheerio = require('cheerio');
         const $ = cheerio.load(html);
@@ -24,6 +27,7 @@ axios.get(url)
             term.definition = term.definition.replace('/framework/docs/', 'https://essif-lab.github.io/framework/docs/');
         });
 
+        console.log('Writing terms to file...');
 
         const fs = require('fs');
         const path = require('path');
@@ -37,5 +41,5 @@ axios.get(url)
         });
     })
     .catch(error => {
-        console.log(error);
+        console.log('Error fetching external content:', error);
     });

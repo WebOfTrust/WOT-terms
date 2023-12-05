@@ -1,6 +1,8 @@
 const axios = require('axios');
 require('dotenv').config();
 
+console.log('W3C did: Fetching external content...');
+
 // Config
 const url = 'https://www.w3.org/TR/did-core';
 const organisation = 'W3C (DID)';

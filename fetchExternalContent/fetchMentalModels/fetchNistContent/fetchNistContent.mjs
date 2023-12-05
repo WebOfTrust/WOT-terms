@@ -5,6 +5,8 @@ import fs from 'fs';
 import { config as configDotEnv } from 'dotenv';
 configDotEnv();
 
+console.log('Nist: Fetching external content...');
+
 // CONFIG
 const url = 'https://csrc.nist.gov/csrc/media/glossary/glossary-export.zip';
 const dir = './fetchExternalContent/fetchMentalModels/fetchNistContent/download'

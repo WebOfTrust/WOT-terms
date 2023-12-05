@@ -6,6 +6,8 @@ const url = 'https://www.digital.govt.nz/standards-and-guidance/identification-m
 const organisation = 'digital.govt.nz';
 const jsonFileName = 'terms-definitions-digitalgovtnz.json';
 
+console.log('DigitalGovtNz: Fetching external content...');
+
 axios.get(url, organisation, jsonFileName)
     .then(response => {
         const html = response.data;

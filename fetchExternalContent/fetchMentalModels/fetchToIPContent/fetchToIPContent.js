@@ -4,6 +4,7 @@ const path = require('path');
 const AdmZip = require('adm-zip');
 const { JSDOM } = require('jsdom');
 require('dotenv').config();
+console.log('ToIP: Fetching external content...');
 
 // CONFIG
 const dir = 'fetchExternalContent/fetchMentalModels/fetchToIPContent/download'

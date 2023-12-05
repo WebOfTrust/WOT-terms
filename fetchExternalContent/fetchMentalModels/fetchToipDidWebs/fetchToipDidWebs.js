@@ -1,6 +1,8 @@
 const axios = require('axios');
 require('dotenv').config();
 
+console.log('ToIP did:webs: Fetching external content...');
+
 // Config
 const url = 'https://trustoverip.github.io/tswg-did-method-webs-specification/index.html';
 const organisation = 'ToIP (DID:Webs)';
