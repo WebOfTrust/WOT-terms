@@ -26,7 +26,7 @@ function replaceHyphenInFileNames(directory) {
         files.forEach(file => {
             if (file.includes('\u2010')) {
                 const newFileName = file.replace(/\u2010/g, '-');
-                fs.rename(`${directory}/${file}`, `${directory}/${newFileName}`, err => {
+                fs.renameSync(`${directory}/${file}`, `${directory}/${newFileName}`, err => {
                     if (err) {
                         console.error('Error renaming file:', err);
                     } else {
