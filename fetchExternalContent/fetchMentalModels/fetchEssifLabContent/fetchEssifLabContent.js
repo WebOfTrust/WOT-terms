@@ -18,6 +18,13 @@ axios.get(url)
             terms.push({ organisation, url, term, definition, anchor });
         });
 
+        // Loop through all definitions and remove the string '/framework/docs/terms/'
+        // from the 'url' property
+        terms.forEach(term => {
+            term.url = term.url.replace('/framework/docs/terms/', '/');
+        });
+
+
         const fs = require('fs');
         const path = require('path');
         const filePath = path.join(process.env.GENERATED_JSON_GLOSSARIES_DIR, 'terms-definitions-essiflab.json');
