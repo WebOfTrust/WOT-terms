@@ -17,7 +17,7 @@ node fetchExternalContent/fetchTermsWOTmanage/fetchTermsWOTmanage.mjs
 
 
 ##############################
-# Google sheet: WOT-terms, tab: LabelContent
+# Google sheet: WOT-terms, tab: LabelContent (Carbon copies)
 ##############################
 
 # Fetches and copies external websites based on the URLs in the Google sheet "WOT-terms", tab "LabelContent"  
