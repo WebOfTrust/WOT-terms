@@ -11,7 +11,9 @@ require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 
-const directoryPath = path.join(__dirname, `../docs/${process.env.GLOSSARY_DIR}`);
+// const directoryPath = path.join(__dirname, `../docs/${process.env.GLOSSARY_DIR}`);
+const directoryPath = `docs/${process.env.GLOSSARY_DIR}`;
+console.log('directoryPath: ', directoryPath);
 
 // Function to replace the hyphen character in file names
 function replaceHyphenInFileNames(directory) {
