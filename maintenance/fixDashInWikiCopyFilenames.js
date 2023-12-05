@@ -9,12 +9,9 @@
 
 require('dotenv').config();
 const fs = require('fs');
+const path = require('path');
 
-// const glossaryDir = process.env.GLOSSARY_DIR;
-// Add “docs/“ to the beginning of the directory path
-const glossaryDir = 'docs/' + process.env.GLOSSARY_DIR;
-console.log('glossaryDir: ', glossaryDir);
-
+const directoryPath = path.join(__dirname, `../docs/${process.env.GLOSSARY_DIR}`);
 
 // Function to replace the hyphen character in file names
 function replaceHyphenInFileNames(directory) {
@@ -40,4 +37,4 @@ function replaceHyphenInFileNames(directory) {
 }
 
 // Replace hyphens in the specified directory
-replaceHyphenInFileNames(glossaryDir);
+replaceHyphenInFileNames(directoryPath);
