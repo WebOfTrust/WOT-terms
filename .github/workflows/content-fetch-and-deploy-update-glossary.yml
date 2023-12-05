@@ -78,6 +78,7 @@ jobs:
       - name: Import Google Sheet “WOT-terms”, tab “GenericScraper” data into markdown file
         env:
           SEARCH_INDEX_DIR: search-index-typesense
+          GENERIC_SCRAPER_JSON_ENDPOINT: ${{ secrets.GENERIC_SCRAPER_JSON_ENDPOINT }}
         run: node fetchExternalContent/fetchSingleUrlsFromWotTermsGoogleSheet/fetchSingleUrlsFromWotTermsGoogleSheet.js
       ##############################
 
