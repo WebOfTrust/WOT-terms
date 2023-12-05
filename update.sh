@@ -41,6 +41,14 @@ node  fetchExternalContent/fetchSingleUrlsFromWotTermsGoogleSheet/fetchSingleUrl
 
 
 ##############################
+# Fetch external glossary content
+##############################
+sh  fetchExternalContent/fetchMentalModels/main.sh
+##############################
+
+
+
+##############################
 # Clones the wiki
 ##############################
 
