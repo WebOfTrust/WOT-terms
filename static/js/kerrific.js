@@ -1,6 +1,6 @@
 // Get the json file
 // const jsonFile = "https://dwarshuis.com/various/kerisse/bookmarklets/data/all-glossaries-test.json";
-const jsonFile = "/WOT-terms/json/external-glosseries/glossaries-combined/all-glossaries.json";
+const jsonFile = "https://weboftrust.github.io/WOT-terms/json/external-glosseries/glossaries-combined/all-glossaries.json";
 
 let counter = 0;
 let newText = '';
