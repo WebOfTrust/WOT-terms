@@ -1,16 +1,16 @@
 #!/bin/bash
 
-node fetchExternalContent/fetchMentalModels/fetchDigitalGovtNzContent/fetchDigitalGovtNzContent.js
+node fetchExternalContent/fetchMentalModels/fetchDigitalGovtNzContent/fetchDigitalGovtNzContent.mjs
 
-node fetchExternalContent/fetchMentalModels/fetchEssifLabContent/fetchEssifLabContent.js
+node fetchExternalContent/fetchMentalModels/fetchEssifLabContent/fetchEssifLabContent.mjs
 
 node fetchExternalContent/fetchMentalModels/fetchNistContent/fetchNistContent.mjs
 
-node fetchExternalContent/fetchMentalModels/fetchToIPContent/fetchToIPContent.js
+node fetchExternalContent/fetchMentalModels/fetchToIPContent/fetchToIPContent.mjs
 
-node fetchExternalContent/fetchMentalModels/fetchToipDidWebs/fetchToipDidWebs.js
+node fetchExternalContent/fetchMentalModels/fetchToipDidWebs/fetchToipDidWebs.mjs
 
-node fetchExternalContent/fetchMentalModels/fetchW3cDid/fetchW3cDid.js
+node fetchExternalContent/fetchMentalModels/fetchW3cDid/fetchW3cDid.mjs
 
 # Combine glossaries
-node fetchExternalContent/fetchMentalModels/combineGlossaries.js
+node fetchExternalContent/fetchMentalModels/combineGlossaries.mjs

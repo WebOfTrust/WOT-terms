@@ -1,5 +1,10 @@
-const axios = require('axios');
-require('dotenv').config();
+import axios from 'axios';
+import cleanJsonFile from '../../../modules-js-node/cleanJson.mjs';
+import fs from 'fs';
+import path from 'path';
+import cheerio from 'cheerio';
+import { config as configDotEnv } from 'dotenv';
+configDotEnv();
 
 // Config
 const url = 'https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/';
@@ -8,10 +13,10 @@ const jsonFileName = 'terms-definitions-digitalgovtnz.json';
 
 console.log('DigitalGovtNz: Fetching external content...');
 
+
 axios.get(url, organisation, jsonFileName)
     .then(response => {
         const html = response.data;
-        const cheerio = require('cheerio');
         const $ = cheerio.load(html);
         const terms = [];
 
@@ -22,13 +27,13 @@ axios.get(url, organisation, jsonFileName)
             terms.push({ organisation, url, term, definition, anchor });
         });
 
-        const fs = require('fs');
-        const path = require('path');
         const filePath = path.join(process.env.GENERATED_JSON_GLOSSARIES_DIR, jsonFileName);
         fs.writeFile(filePath, JSON.stringify(terms), err => {
             if (err) {
                 console.log(err);
             } else {
+                // Clean the JSON file, remove non-printable characters
+                cleanJsonFile(filePath, filePath);
                 console.log(`Digital Govt Nz terms saved to ${jsonFileName}`);
             }
         });
@@ -36,3 +41,4 @@ axios.get(url, organisation, jsonFileName)
     .catch(error => {
         console.log(error);
     });
+

@@ -1,3 +1,4 @@
+import cleanJsonFile from '../../../modules-js-node/cleanJson.mjs';
 import downloadFile from '../../../modules-js-node/downloadFile.mjs';
 import unzipFile from '../../../modules-js-node/unzipFile.mjs';
 import path from 'path';
@@ -54,6 +55,10 @@ function filterJson(overviewPath, sourceJsonPath, filteredJsonPath) {
 
         // Write only the filteredTerms array to the file
         fs.writeFileSync(filteredJsonPath, JSON.stringify(filteredTerms, null, 4));
+
+        // Clean the JSON file, remove non-printable characters
+        cleanJsonFile(filteredJsonPath, filteredJsonPath);
+
     } catch (error) {
         console.error(`An error occurred: ${error.message}`);
     }

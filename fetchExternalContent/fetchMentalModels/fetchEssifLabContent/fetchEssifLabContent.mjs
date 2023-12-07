@@ -1,6 +1,12 @@
-const axios = require('axios');
+import axios from 'axios';
+import cleanJsonFile from '../../../modules-js-node/cleanJson.mjs';
+import fs from 'fs';
+import path from 'path';
+import cheerio from 'cheerio';
+import { config as configDotEnv } from 'dotenv';
+configDotEnv();
+
 const url = 'https://essif-lab.github.io/framework/docs/essifLab-glossary';
-require('dotenv').config();
 
 console.log('essifLab: Fetching external content...');
 
@@ -8,7 +14,6 @@ axios.get(url)
     .then(response => {
         console.log('External content fetched successfully.');
         const html = response.data;
-        const cheerio = require('cheerio');
         const $ = cheerio.load(html);
         const terms = [];
 
@@ -32,14 +37,14 @@ axios.get(url)
 
         console.log('Writing terms to file...');
 
-        const fs = require('fs');
-        const path = require('path');
         const filePath = path.join(process.env.GENERATED_JSON_GLOSSARIES_DIR, 'terms-definitions-essiflab.json');
         fs.writeFile(filePath, JSON.stringify(terms), err => {
             if (err) {
                 console.log(err);
             } else {
-                console.log('Terms saved');
+                // Clean the JSON file, remove non-printable characters
+                cleanJsonFile(filePath, filePath);
+                console.log('Essiflab Terms saved');
             }
         });
     })

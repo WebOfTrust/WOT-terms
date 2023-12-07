@@ -1,6 +1,8 @@
-const fs = require('fs');
-const path = require('path');
-require('dotenv').config();
+import fs from 'fs';
+import path from 'path';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const directoryPathInput = process.env.GENERATED_JSON_GLOSSARIES_DIR;
 const directoryPathOutput = process.env.GENERATED_JSON_GLOSSARIES_COMBINED_DIR;
@@ -68,3 +70,5 @@ fs.readdir(directoryPathInput, (err, files) => {
     fs.writeFileSync(path.join(directoryPathOutput, outputFilename), JSON.stringify(finalArray, null, 2));
     console.log(`Combined glossary file created at ${path.join(directoryPathOutput, outputFilename)}`);
 });
+
+export { };

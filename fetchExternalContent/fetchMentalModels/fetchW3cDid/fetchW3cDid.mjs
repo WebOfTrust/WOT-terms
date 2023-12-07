@@ -1,5 +1,11 @@
-const axios = require('axios');
-require('dotenv').config();
+import axios from 'axios';
+import cleanJsonFile from '../../../modules-js-node/cleanJson.mjs';
+import dotenv from 'dotenv';
+import cheerio from 'cheerio';
+import fs from 'fs';
+import path from 'path';
+
+dotenv.config();
 
 console.log('W3C did: Fetching external content...');
 
@@ -8,10 +14,9 @@ const url = 'https://www.w3.org/TR/did-core';
 const organisation = 'W3C (DID)';
 const jsonFileName = 'terms-definitions-w3cdid.json';
 
-axios.get(url, organisation, jsonFileName)
+axios.get(url)
     .then(response => {
         const html = response.data;
-        const cheerio = require('cheerio');
         const $ = cheerio.load(html);
         const terms = [];
 
@@ -24,18 +29,18 @@ axios.get(url, organisation, jsonFileName)
             terms.push({ organisation, url, term, definition, anchor });
         });
 
-
-        const fs = require('fs');
-        const path = require('path');
         const filePath = path.join(process.env.GENERATED_JSON_GLOSSARIES_DIR, jsonFileName);
         fs.writeFile(filePath, JSON.stringify(terms), err => {
             if (err) {
-                console.log(err);
+                console.error(err);
             } else {
+                // Clean the JSON file, remove non-printable characters
+                cleanJsonFile(filePath, filePath);
+
                 console.log(`Terms saved to ${jsonFileName}`);
             }
         });
     })
     .catch(error => {
-        console.log(error);
+        console.error(error);
     });
