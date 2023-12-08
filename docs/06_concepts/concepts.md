@@ -2,27 +2,30 @@
 
 [![hackmd-github-sync-badge](https://hackmd.io/TYKEsJ5OQy-4w78NUGRSMA/badge)](https://hackmd.io/TYKEsJ5OQy-4w78NUGRSMA)
 
-THIS IS CONTINUOUSLY UNDER CONSTRUCTION
+THIS IS UNDER CONSTRUCTION
+Would you like to contribute? Join us at the Concepts, Terminologie and Education [Repo](../../README.md)
 
 ## What is this?
 
 This concepts page explains the main design objectives of KERI and ACDC, which results in a scope (or context) and links them to
 
-1. the things we've designed (whitepapers, technical designs)
-2. the things we've created (repos and code)
-3. the terminology we use.
+1. the things we've _designed_ (whitepapers, technical designs)
+2. the things we've _created_ (repos and code)
+3. the terminology we use
+4. the tutorials we offer
 
-## Why this page?
-
-To be better and quicker understood. It's a way to anchor our language and the words we use to our objectives. This pages shares and exchanges our criteria to why and in which situation something is important to us.
+## Why Concepts?
+To be understood better and quicker, to be able to pick your educational material more confidently, and to learn more efficiently. 
+These pages share and exchange our criteria to why and in which situation something is important to us. It's a way to anchor our language and words we use to our values, findings and objectives. 
 
 ## For Whom?
+The ultimate goal is to make sense in the perception of the proficient **technical identity expert** who'd like to learn to **code and implement (parts) the KERI suite**.  
+We'll not try to reach out to laymen, newbies, and not to the advanced identity expert or not-technical expert. The reason for this is, we'd like to stay focussed.
 
-The ultimate goal is to make sense in the perception of respectively the newbie -, the advanced - and the advanced **identity expert**.\
-We'll not try to reach out to laymen.
+## Collateral usage
+Of course we happen to also serve newcomers and more advanced people with explanation matching their level of knowledge, however, we do not aim at educating those user groups.
 
 ## How?
-
 A static site generated on Github, that uses resources all over the web and can be commented on.
 
 Also a [howto](https://github.com/WebOfTrust/WOT-terms/tree/main/howto) will be written along side to inform contributors how to add, link and amend resources.
@@ -30,8 +33,8 @@ Also a [howto](https://github.com/WebOfTrust/WOT-terms/tree/main/howto) will be 
 ## When?
 
 The intention is to have _resources_ (glossaries, videos, etc.) and _howtos_ available continuously. It'll hopefully improve over time.
-The resulting static **WebofTrust-site** is already here: https://weboftrust.github.io/WOT-terms/ and will be automatically generated with Github Actions.
-All intermediate results are also **directly available**:
+The resulting static **WebofTrust-site** is already here: https://weboftrust.github.io/WOT-terms/ and will automatically be generated through Github Actions.  
+All intermediate results are also **directly available** in the Github repo:
 
 - [resources](https://github.com/WebOfTrust/WOT-terms/tree/main/resources)
 - [howtos](https://github.com/WebOfTrust/WOT-terms/tree/main/howto)
@@ -43,45 +46,85 @@ The [Mental Model](https://github.com/WebOfTrust/WOT-terms/blob/main/mental-mode
 
 #### Vision
 
-We reuse and reorganise as much as possible, using open source tools.
+KERI is fully Open Source under [Apache-2 license](../../LICENSE.md). Some typical **aspects of open source software development** and their communities that we value:
+- We reuse as much as possible, using open source tools
+- We try to release quickly and often
+- We avoid vendor locks, propietary lock-ins and censorship
+- We scratch our own itch and expect you to do so too
 
-Contributions welcome!
-
-<img src="https://hackmd.io/_uploads/r1BYbPfA5.png" alt="CDCI design for WOT-terms" />
+<img src="https://hackmd.io/_uploads/r1BYbPfA5.png" class="img-fluid" alt="CDCI design for WOT-terms" />
 
 ## Explanation of concepts
 
-Concepts use existing terms (which could create confusion) and introduces new terminology. It's aimed at identity experts in general and Self-Sovereign Identity experts specifically.
+In the following write-up we use well-known common terminology and also introduces new terminology.  It's aimed at Self-Sovereign Identity experts specifically. Specially the general terminology could create confusion between parties, because terms like this may cover a broader scope or mental model than just KERI or Self-Sovereign Identity as a fied.
+> Example: a _witness_ in common identity - and blockchain theory most probably has a different connotation then what a  'witness' is in KERI.
 
 ### Familiar terms
 
-We explain the terminology at various [levels of understanding](https://github.com/WebOfTrust/WOT-terms/blob/main/README.md#levels-of-understanding), and also **our criteria** how we judge certain terms to be defined for the sake of KERI / ACDC. E.g. `multisignatures`, `validators` and `verifiers`. What are they exactly?
+We explain the terminology at various [levels of understanding](README.md#levels-of-understanding.md), and also **our criteria** how we judge certain terms to be defined for the sake of KERI / ACDC. E.g. `multisignatures`, `validators` and `verifiers`. 
+1. What have we decided that they mean to us in our mental model, and if so
+2. Have we formulated criteria and edge cases so that we can determine whether an instances of a term is in or out of the scope of the definition
 
 ### Use cases and domains
 
-Understanding could vary in different domains and use-cases (e.g. a controller in finance is quite different from a controller of an identifier). We need to be sure that sender and recipient are talking about "the same thing".
+Understanding could vary in different domains and use-cases (e.g. a controller in finance is quite different from a controller of an identifier). We need to be sure that parties in a conversation are talking about "the same thing".
 
 ### New terminology, acronyms and abbreviations
 
-KERI is a new development. ACDC is build on top of KERI; so it's new too. Inevitably, new terminology has surfaced in the design of KERI and ACDC. In this `concepts` page we try to explain related terms in a few [levels of understanding](https://github.com/WebOfTrust/WOT-terms/blob/main/README.md#levels-of-understanding). We've used analogies and symbols to clear up complex and intangible concepts for those new to KERI / ACDC and even for those experts that we consider being 'advanced'. The ultimate goal is to try to make sense in the perception of respectively the newbie - and the advanced identity expert.
+KERI is a new development. CESR and OOBI are new auxilary concepts to get KERI going within its frame of reference: the trust spanning layer KERI likes to provision. As an example we therefore can't use just CBOR and had to invent a dedicated event streaming representation that is pipelineable and composable.
+
+ACDC and it's auxilary concepts IPEX, KERIA, SIGNIFY are build on top of KERI; so it's new too. Inevitably, new terminology has surfaced in the design of KERI and ACDC. In this `concepts` section we try to explain related terms in a few [levels of understanding](./README.md#levels-of-understanding.md) but as mentioned above always focussed on the sole objective to reduce learning time of KERI developers in spé.  
+Here and there we've used analogies and symbols to clear up complex and intangible concepts for those new to KERI / ACDC and even for those experts that we consider being 'advanced'. 
+The derived goal is to try to make sense in the perception of the newbie - and the advanced identity expert "as we go" for the main objective and target group: Reduce learning time for KERI devs to be. Please bear this in mind. 
+> An example of much heard complaints:
+> "KERI is too complex, the 160-page KERI white paper is indigestable, let alone the hunderds of other pages that written on top of this."
+> Our response to this is: KER, CESR and ACDC is a new and all-emcompassing theory to fix the identity flaw of the internet in a secure, confidential and privacy-preserving way. It is no more complex than it needs to be. And the KERI suite uses simple long-lived and well-tested cryptography.
+
+### Trust-over-IP stack
+No meaningful identifier - and key management system without governance. Governance is targeted at practical individual use in granted roles and user groups by describing the process and juristical boundaries.  
+
+More in | TBW prio 2 |
+
+Why do we urge to take note of both sides of the ToIP stack while we're focussing on developers?
+
+Not only developers have a natural tendency to forget about how important an integral approach of identity is when designing, coding and implementing system in our society. Even a well-meant system can turn our society into a dystopian state if we don't consider all aspects of them.
+
+More on this [Sheldrake]( | TBW prio 1 | )
+
+Now that we've set the stage the replay of how KERI came to be, can begin.
 
 ## Concept details (NO ORDERING yet)
+Sam Smith the originator of KERI has set the bar for KERI and continues to do so infatiguably in nearly all Zoom sessions in our KERI space.
+I hope he gets to chance to look over the following list of core values KERI represents that I distilled in the past few years from those meetings, responses to questions in social media, during IIWs, in whitepapers, articles and technical designs. And correct & amend the list in the driven and direct way we're used to.
 
 ### Values
 
-#### Social values
+**Above all: security.**  
+We simply can't negotiate the highest level of security at the most fundamental level of the technical stack. You can build a less secure system on top of a 100% secure system, but not the other way around.
 
+#### Smith's triangle based on Zookoo's triangle
+Security, confidentiality and privacy. You can't have them all to their full extent at the same time. We sacrifice privacy for confidentiality and confidentiality for security. We don't negotiate security at the most fundamental level of the technical stack and hardly ever in the layers above.
+
+| TBW image |
+
+#### Social values
 - existance and persistance
 - access and transparency
 - privacy - consent to use
-- confidentiality - minimal disclosure
+- confidentiality - minimal disclosure at all times
 
 #### Societal values
-
 - commitment en compliance to rules - signature
 - freedom of speech and movement - inception of AIDs, rotation
 - self-sovereignty - delegation and revocation
 - Protection – users’ rights, censorship-resistant
+
+
+Sam Smith is the creator of KERI. But one man alone, even Sam, can't pull off an all-emcompHow did these values that were inherently present in the creator of KERI become explicit over time, how did they become a group culture or a team signature. And lastly how have these shared values ignited common objectives for KERI.
+
+
+
+
 
 ### Objectives of Key Event Receipt Infrastructure (KERI)
 
@@ -235,7 +278,7 @@ serialization indicates a preferred content-addressable identifier for that seri
 #### Barriers to Adoption of Linked Data VCs
 
 The purpose of this paper is to capture and convey to a broader audience my increasingly worrisome concerns about the adoption path for Verifiable Credentials (VCs). My concerns began with the security limitations of VCs that use Linked Data (otherwise known as JSON-LD/RDF) and have since extended to the semantic inference limitations of Linked Data. My concerns may be expressed succinctly as, the VC standard appears to be an adoption vector for Linked Data, not the other way around. My overriding interest is that the concept of a VC as a securely attributable statement is a very powerful and attractive one and therefore should be widely adopted. We should therefore be picking the best technologies that best support broad VC adoption, not the other way around.\
-[Source:] (.md) VC Spec Enhancement Strategy Proposal by Sam Smith
+[Source:](.md) VC Spec Enhancement Strategy Proposal by Sam Smith
 
 <!-- #######NEW BLOCK####### -->
 
@@ -243,7 +286,7 @@ The purpose of this paper is to capture and convey to a broader audience my incr
 
 #### Its and Bits - Cryptography and one-way functions is the only thing than can safe our digital twin
 
-Use [trans-contextual value](../04_glossary/trans-contextual-value.md) creation and capture to fuel cooperative network effects.
+Use [trans-contextual value](trans-contextual-value.md) creation and capture to fuel cooperative network effects.
 
 #### Network dynamics - centralized system will lose
 
@@ -277,7 +320,7 @@ pre-rotation (double-checked control authority)\
 Rotation (act when you smell danger)\
 Delegation (engage service provider without losing control; middleman on a leash)\
 Revocation (minimize effects of adversely situation)\
-Scalable witness & watchers network (reconciliation options; [first seen] (.md))\
+Scalable witness & watchers network (reconciliation options; [first seen](.md))\
 Round-robin composable streaming (for readability of commitments)\
 Tamper evident (duplicity checks)\
 Non-repudiation
@@ -309,9 +352,7 @@ Non-repudiation
 | Obligatory           | No, it is the personal choice of an individual                               | Yes, when the information is professional and legal.                                                                                       |
 | Disallowed           | Everyone is disallowed from involving the personal affairs of an individual. | Only unauthorized persons are disallowed from using the information.                                                                       |
 
-<img src={require('/static/img/privacy-vs-confidentiality.png').default} alt="privacy-vs-confidentiality table" />
-
-[Source: ](https://keydifferences.com/difference-between-privacy-and-confidentiality.html) Keydifferences.com
+<img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/gh-pages/images/privacy-vs-confidentiality.png" alt="privacy-vs-confidentiality table" class="img-fluid" /> [Source: ](https://keydifferences.com/difference-between-privacy-and-confidentiality.html) Keydifferences.com
 
 #### Strong bindings
 
@@ -352,7 +393,7 @@ See [glossary item](https://github.com/trustoverip/acdc/wiki/non-repudiable)
 
 #### First seen - timing solution - overload protection
 
-KERI alternative to total global ordering and consensus protocols is a mechanism called [duplicity](../04_glossary/duplicity.md) detection. In the [verification](../04_glossary/verifier.md) and [validation](../04_glossary/validate.md) **watchers are all that matter**; they guarantee that logs are immutable by one very simple rule: "[first seen](../04_glossary/first-seen.md) wins".
+KERI alternative to total global ordering and consensus protocols is a mechanism called [duplicity](duplicity.md) detection. In the [verification](verifiers.md) and [validation](validation.md) **watchers are all that matter**; they guarantee that logs are immutable by one very simple rule: "[first seen](first-seen.md) wins".
 
 #### Pre-rotation - quantum protection - security fallback (exposure, theft) - portray changing power dynamics
 
@@ -442,9 +483,9 @@ principles and pre-conditions
 
 #### Freedom of witness and backer organization - extensible - scalable
 
-We have two types: witnesses (for the controller) and backer to check duplicity in the network. The reason we've done this because we thus avoid the [eclipse attack] (.md), that blockchains suffer from.
+We have two types: witnesses (for the controller) and backer to check duplicity in the network. The reason we've done this because we thus avoid the [eclipse attack](.md), that blockchains suffer from.
 
-We foresee witness and watcher hosting services, just like web hosting currently. Technically speaking a watcher and a witness use the same code and protocol, watchers run in [promiscuous mode] (.md).
+We foresee witness and watcher hosting services, just like web hosting currently. Technically speaking a watcher and a witness use the same code and protocol, watchers run in [promiscuous mode](.md).
 
 #### Freedom of validator and watchtower organization - extensible - scalable
 
