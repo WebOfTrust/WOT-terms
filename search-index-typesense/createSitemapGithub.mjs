@@ -23,12 +23,14 @@ import fs from 'fs';
 import path from 'path';
 import logger from './modules/logger.mjs';
 import { config } from 'dotenv';
+config();
 
 const args = process.argv.slice(2);
 const repositoryOwner = args[0];
 const repositoryName = args[1];
 const branchName = args[2];
-const sitemapDirectory = args[3];
+const category = args[3];
+const githubSitemapDirectory = process.env.SEARCH_INDEX_DIR + '/sitemaps/github';
 
 async function getRepositoryTree() {
   try {
@@ -57,7 +59,12 @@ async function generateSitemap() {
     </urlset>
   `;
 
-  const sitemapFilePath = path.join(sitemapDirectory, `sitemap.githubcom.${repositoryOwner}.${repositoryName}-${branchName}.xml`);
+  // If githubSitemapDirectory does not exist, create it
+  if (!fs.existsSync(githubSitemapDirectory)) {
+    fs.mkdirSync(githubSitemapDirectory);
+  }
+
+  const sitemapFilePath = path.join(githubSitemapDirectory, `sitemap.githubcom.${repositoryOwner}.${repositoryName}-${branchName}.${category}.xml`);
   fs.writeFileSync(sitemapFilePath, sitemapXml);
 
   logger.setLogFile('success.log');

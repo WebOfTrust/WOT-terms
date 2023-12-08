@@ -120,7 +120,7 @@ async function main() {
     const domainName = new URL(options.url).hostname;
     const sitemapXml = generateSitemapXml(options.url, Array.from(new Set(Object.values(sitemap).flat())));
 
-    const fileName = `sitemap-${domainName}.xml`;
+    const fileName = `sitemap.${options.fileName}.xml`;
     // const filePath = `${outputDirectory}/${fileName}`; // Create the complete file path
     const filePath = path.join(outputDirectory, fileName);// Create the complete file path
     fs.writeFileSync(filePath, sitemapXml); // Write the sitemap XML to the specified file path

@@ -17,7 +17,7 @@ node fetchExternalContent/fetchTermsWOTmanage/fetchTermsWOTmanage.mjs
 
 
 ##############################
-# Google sheet: WOT-terms, tab: LabelContent
+# Google sheet: WOT-terms, tab: LabelContent (Carbon copies)
 ##############################
 
 # Fetches and copies external websites based on the URLs in the Google sheet "WOT-terms", tab "LabelContent"  
@@ -35,7 +35,15 @@ sh  fetchExternalContent/fetchCarbonCopies/main.sh
 # Google sheet: WOT-terms, tab: GenericScraper
 ##############################
 
-node  fetchExternalContent/fetchGenericScraperSitesInfo/fetchGenericScraperSitesInfo.js
+node  fetchExternalContent/fetchSingleUrlsFromWotTermsGoogleSheet/fetchSingleUrlsFromWotTermsGoogleSheet.js
+##############################
+
+
+
+##############################
+# Fetch external glossary content
+##############################
+sh  fetchExternalContent/fetchMentalModels/main.sh
 ##############################
 
 
@@ -60,6 +68,14 @@ rsync -a --delete --exclude='.gitignore' temp-wiki/ docs/${GLOSSARY_DIR}
 # Step 3: Cleanup
 # The /temp-wiki directory is not needed anymore
 rm -rf temp-wiki/
+##############################
+
+
+
+##############################
+# Fix dashes in filenames coming from Wiki
+##############################
+node maintenance/fixDashInWikiCopyFilenames.js
 ##############################
 
 

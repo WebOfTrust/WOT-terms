@@ -1,9 +1,12 @@
+import cleanJsonFile from '../../../modules-js-node/cleanJson.mjs';
 import downloadFile from '../../../modules-js-node/downloadFile.mjs';
 import unzipFile from '../../../modules-js-node/unzipFile.mjs';
 import path from 'path';
 import fs from 'fs';
 import { config as configDotEnv } from 'dotenv';
 configDotEnv();
+
+console.log('Nist: Fetching external content...');
 
 // CONFIG
 const url = 'https://csrc.nist.gov/csrc/media/glossary/glossary-export.zip';
@@ -52,6 +55,10 @@ function filterJson(overviewPath, sourceJsonPath, filteredJsonPath) {
 
         // Write only the filteredTerms array to the file
         fs.writeFileSync(filteredJsonPath, JSON.stringify(filteredTerms, null, 4));
+
+        // Clean the JSON file, remove non-printable characters
+        cleanJsonFile(filteredJsonPath, filteredJsonPath);
+
     } catch (error) {
         console.error(`An error occurred: ${error.message}`);
     }

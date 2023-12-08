@@ -1,13 +1,28 @@
-import termsDefinitionsToip from '@site/static/json/external-glosseries/glossaries/terms-definitions-toip.json';
-import termsDefinitionsEssiflab from '@site/static/json/external-glosseries/glossaries/terms-definitions-essiflab.json';
+import { toLowerCaseAndRemoveSpecialChars } from '../modules-js-universal/toLowerCaseAndRemoveSpecialChars.js';
+
+
 import termsDefinitionsDigitalgovtnz from '@site/static/json/external-glosseries/glossaries/terms-definitions-digitalgovtnz.json';
+
+import termsDefinitionsEssiflab from '@site/static/json/external-glosseries/glossaries/terms-definitions-essiflab.json';
+
 import termsDefinitionsNist from '@site/static/json/external-glosseries/glossaries/terms-definitions-nist.json';
+
+import termsDefinitionsToip from '@site/static/json/external-glosseries/glossaries/terms-definitions-toip.json';
+
+import termsDefinitionsToipDidWebs from '@site/static/json/external-glosseries/glossaries/terms-definitions-toipdidwebs.json';
+
 import termsDefinitionsW3cDid from '@site/static/json/external-glosseries/glossaries/terms-definitions-w3cdid.json';
+
+
+
+
+
+
 /**
  *  This plugin adds a GTP generated summary to the top of the page.
  */
 
-const allTermsDefinitions = [...termsDefinitionsToip, ...termsDefinitionsEssiflab, ...termsDefinitionsDigitalgovtnz, ...termsDefinitionsNist, ...termsDefinitionsW3cDid];
+const allTermsDefinitions = [...termsDefinitionsToip, ...termsDefinitionsEssiflab, ...termsDefinitionsDigitalgovtnz, ...termsDefinitionsNist, ...termsDefinitionsW3cDid, ...termsDefinitionsToipDidWebs];
 
 
 // Remove links from term.definition
@@ -32,21 +47,20 @@ const findMentalModelMatches = () => {
   if (inDocSection) {
     const markdown = document.querySelector('.markdown');
     const heading = document.querySelector('.markdown header h1');
-    const headingText = heading.innerText;
-    console.log('heading: ', headingText);
 
+    // This is not working, because the heading sometimes contains child elements:
+    // const headingText = heading.innerText;
 
-
-
+    // This works: (to avoid also selecting text in child elements, e.g. <sup>)
+    const headingText = heading.firstChild && heading.firstChild.nodeType === Node.TEXT_NODE ? heading.firstChild.textContent : '';
 
     allTermsDefinitions.forEach((term) => {
       // Remove zero-width space and other non-printable characters
       term.term = term.term.normalize('NFD').replace(/[\u200B-\u200D\uFEFF]/g, '');
 
-      // Case sensitive except for first letter
-      if (term.term.toLowerCase() === headingText.toLowerCase() ||
-        term.term.charAt(0).toLowerCase() + term.term.slice(1) === headingText.charAt(0).toLowerCase() + headingText.slice(1)) {
+      const termToLowerCaseAndRemoveSpecialChars = toLowerCaseAndRemoveSpecialChars(term.term);
 
+      if (termToLowerCaseAndRemoveSpecialChars === toLowerCaseAndRemoveSpecialChars(headingText)) {
         if (headingAdded === false) {
           // Create h2 element
           const h2 = document.createElement('h2');
@@ -54,7 +68,6 @@ const findMentalModelMatches = () => {
           markdown.appendChild(h2);
           headingAdded = true;
         }
-
 
         // Create Bootstrap accordion container
         const accordionContainer = document.createElement('div');
@@ -70,16 +83,16 @@ const findMentalModelMatches = () => {
         accordionItem.appendChild(accordionHeader);
 
         const accordionButton = document.createElement('button');
-        accordionButton.classList.add('accordion-button');
+        accordionButton.classList.add('accordion-button', 'fs-4');
         accordionButton.setAttribute('type', 'button');
         accordionButton.setAttribute('data-bs-toggle', 'collapse');
-        accordionButton.setAttribute('data-bs-target', `#collapse-${term.term}`);
+        accordionButton.setAttribute('data-bs-target', `#collapse-${termToLowerCaseAndRemoveSpecialChars}`);
         accordionButton.innerHTML = `${term.organisation} definition`;
         accordionHeader.appendChild(accordionButton);
 
         const accordionCollapse = document.createElement('div');
         accordionCollapse.classList.add('accordion-collapse', 'collapse');
-        accordionCollapse.setAttribute('id', `collapse-${term.term}`);
+        accordionCollapse.setAttribute('id', `collapse-${termToLowerCaseAndRemoveSpecialChars}`);
         accordionItem.appendChild(accordionCollapse);
 
         const accordionBody = document.createElement('div');
@@ -87,7 +100,7 @@ const findMentalModelMatches = () => {
         accordionBody.classList.add('fs-6');
 
         const definitionWithoutLinks = removeLinks(term.definition);
-        accordionBody.innerHTML = definitionWithoutLinks + `(<a href="${term.url}" target="_blank" rel="noopener">source</a>)`;
+        accordionBody.innerHTML = "<h3>" + term.term + ": " + "</h3>" + definitionWithoutLinks + `(<a href="${term.url}" target="_blank" rel="noopener">source</a>)`;
         accordionCollapse.appendChild(accordionBody);
 
         // Insert accordion item as first child of accordion container

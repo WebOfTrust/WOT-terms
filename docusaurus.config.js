@@ -82,6 +82,10 @@ const config = {
      * END CHATBASE
      */
 
+    // add Popper.js via CDN
+    {
+      src: 'https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js',
+    },
     {
       src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js',
     }
@@ -338,7 +342,7 @@ const config = {
     require.resolve('./clientModules/findMentalModelMatches'),
     require.resolve('./clientModules/fetchFormsColumnFromWotTerms'),
     require.resolve('./clientModules/addUiToSidebar'),
-    require.resolve('./clientModules/isGlossaryMenuItem'),
+    require.resolve('./clientModules/createLinkToWikiPage'),
   ],
 };
 

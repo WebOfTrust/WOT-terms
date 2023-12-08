@@ -3,34 +3,33 @@
  * Created: 2023
  * Updated: -
  * 
- * This script is designed to filter and remove unwanted URLs from XML sitemaps.
- * It performs several types of filtering based on:
- * - File extensions
- * - Specific file names
- * - Hidden files
- * - Custom regex patterns
+ * Description: This JavaScript code is designed to remove unwanted URLs 
+ * from sitemap.xml files. It uses the Node.js fs module to interact with 
+ * the file system, the path module to handle file paths, xml2js to parse 
+ * XML data, and a custom logger module for logging.
  *
- * Required Modules:
- * - fs (File System): To read and write files.
- * - path: To handle and transform file paths.
- * - xml2js: To convert XML data to JavaScript objects and vice versa.
- * - logger: A custom logging module for success and error logs.
+ * The script defines several arrays to specify the types of URLs to remove:
  *
- * Global Constants:
- * - sitemapDir: Directory where XML sitemap files are stored.
- * - unwantedExtensions: Array of file extensions to filter out.
- * - unwantedHiddenFiles: Array of hidden files to filter out.
- * - unwantedFileNames: Array of specific file names to filter out.
- * - unwantedPatterns: Array of regex patterns to filter out.
+ * - unwantedExtensions: URLs with these file extensions will be removed.
+ * - unwantedHiddenFiles: URLs of these hidden files will be removed.
+ * - unwantedFileNames: URLs of these specific files will be removed.
+ * - unwantedPatterns: URLs matching these regex patterns will be removed.
  *
- * Functions:
- * - removeFilesFromSitemap(dir, extensions, fileNames, hiddenFiles, patterns): 
- *   An asynchronous function that reads XML sitemap files, filters unwanted URLs,
- *   and writes the cleaned data back to the sitemap files.
+ * The removeFilesFromSitemap function is the main function of the script. 
+ * It takes a directory and the arrays of unwanted URLs as arguments. 
+ * It first finds all XML files in the given directory and its subdirectories. 
+ * For each XML file, it reads the file, parses the XML data, and filters out 
+ * unwanted URLs based on the given criteria. It then writes the filtered 
+ * data back to the XML file.
  *
- * Output:
- * - Updates the XML sitemap files by removing URLs that match the unwanted criteria.
- * - Logs success and errors into different log files using the custom logger module.
+ * The script logs every URL it removes to a success.log file using the 
+ * logger module. If the script encounters any errors, it logs them to an 
+ * error.log file.
+ *
+ * Finally, the script calls removeFilesFromSitemap with the sitemapDir 
+ * directory and the arrays of unwanted URLs. It logs a success message 
+ * if the function completes successfully, or an error message if it 
+ * encounters an error.
  */
 
 
@@ -128,11 +127,24 @@ const unwantedFileNames = [
 const unwantedPatterns = [/\.env\..*/];
 
 async function removeFilesFromSitemap(dir, extensions, fileNames, hiddenFiles, patterns) {
-  const files = fs.readdirSync(dir).filter(file => file.endsWith('.xml'));
+  function findXmlFiles(dir, xmlFiles = []) {
+    const files = fs.readdirSync(dir);
 
-  for (const file of files) {
-    const sitemapPath = path.join(dir, file);
-    const xmlData = fs.readFileSync(sitemapPath);
+    for (const file of files) {
+      const fullPath = path.join(dir, file);
+      if (fs.statSync(fullPath).isDirectory()) {
+        findXmlFiles(fullPath, xmlFiles);
+      } else if (file.endsWith('.xml')) {
+        xmlFiles.push(fullPath);
+      }
+    }
+    return xmlFiles;
+  }
+
+  const xmlFiles = findXmlFiles(dir);
+
+  for (const file of xmlFiles) {
+    const xmlData = fs.readFileSync(file);
     const parser = new xml2js.Parser();
     const data = await parser.parseStringPromise(xmlData);
     const urls = data.urlset.url;
@@ -186,7 +198,7 @@ async function removeFilesFromSitemap(dir, extensions, fileNames, hiddenFiles, p
       const builder = new xml2js.Builder();
       const newXml = builder.buildObject(data);
 
-      fs.writeFileSync(sitemapPath, newXml);
+      fs.writeFileSync(file, newXml);
     }
   }
 }

@@ -118,7 +118,7 @@ const typesenseHandleSearchModal = () => {
   }
 
   function toggleSearchResultsVisibility() {
-    if (document.querySelector('.ais-SearchBox-input').value === '') {
+    if (window.location.pathname === paths.baseUrl && document.querySelector('.ais-SearchBox-input').value === '') {
       document.querySelector('.search-results-container').classList.add('d-none');
       document.querySelector('.to-search-results').classList.add('d-none');
     } else {

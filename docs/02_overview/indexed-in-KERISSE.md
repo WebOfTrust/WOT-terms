@@ -1,6 +1,6 @@
 # Indexed in KERISSE
-<p id='index-created-timestamp-source'>Indexed at 24 November 2023 08:48:52</p>
-<p id='index-created-page-count-source'>Number of indexed pages: 3379</p>
+<p id='index-created-timestamp-source'>Indexed at 30 November 2023 22:36:10</p>
+<p id='index-created-page-count-source'>Number of indexed pages: 3340</p>
 <ol>
 <li><a href="https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79" target="_blank">https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79</a></li>
 <li><a href="https://essif-lab.github.io/framework/docs/TBD" target="_blank">https://essif-lab.github.io/framework/docs/TBD</a></li>
@@ -2376,7 +2376,6 @@
 <li><a href="https://keria.readthedocs.io/en/latest/py-modindex/" target="_blank">https://keria.readthedocs.io/en/latest/py-modindex/</a></li>
 <li><a href="https://keria.readthedocs.io/en/latest/search/" target="_blank">https://keria.readthedocs.io/en/latest/search/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/latest/" target="_blank">https://keripy.readthedocs.io/en/latest/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/latest/_modules/" target="_blank">https://keripy.readthedocs.io/en/latest/_modules/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/latest/_modules/keri/app/agenting/" target="_blank">https://keripy.readthedocs.io/en/latest/_modules/keri/app/agenting/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/latest/_modules/keri/app/apping/" target="_blank">https://keripy.readthedocs.io/en/latest/_modules/keri/app/apping/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/latest/_modules/keri/app/booting/" target="_blank">https://keripy.readthedocs.io/en/latest/_modules/keri/app/booting/</a></li>
@@ -2431,58 +2430,20 @@
 <li><a href="https://keripy.readthedocs.io/en/latest/readme/" target="_blank">https://keripy.readthedocs.io/en/latest/readme/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/latest/search/" target="_blank">https://keripy.readthedocs.io/en/latest/search/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/main/" target="_blank">https://keripy.readthedocs.io/en/main/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/agenting/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/agenting/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/apping/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/apping/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/booting/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/booting/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/challenging/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/challenging/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/configing/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/configing/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/connecting/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/connecting/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/delegating/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/delegating/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/directing/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/directing/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/forwarding/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/forwarding/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/grouping/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/grouping/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/habbing/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/habbing/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/httping/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/httping/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/indirecting/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/indirecting/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/keeping/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/keeping/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/kiwiing/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/kiwiing/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/notifying/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/notifying/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/signaling/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/signaling/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/signing/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/signing/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/specing/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/specing/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/storing/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/storing/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/app/watching/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/app/watching/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/core/coring/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/core/coring/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/core/eventing/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/core/eventing/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/core/parsing/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/core/parsing/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/core/routing/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/core/routing/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/core/scheming/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/core/scheming/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/db/basing/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/db/basing/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/db/dbing/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/db/dbing/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/db/koming/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/db/koming/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/db/subing/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/db/subing/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/end/ending/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/end/ending/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/end/priming/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/end/priming/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/help/helping/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/help/helping/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/peer/exchanging/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/peer/exchanging/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/vc/protocoling/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/vc/protocoling/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/vc/proving/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/vc/proving/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/vc/walleting/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/vc/walleting/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/vdr/credentialing/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/vdr/credentialing/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/vdr/eventing/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/vdr/eventing/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/vdr/verifying/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/vdr/verifying/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/_modules/keri/vdr/viring/" target="_blank">https://keripy.readthedocs.io/en/main/_modules/keri/vdr/viring/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/main/genindex/" target="_blank">https://keripy.readthedocs.io/en/main/genindex/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/main/keri_app/" target="_blank">https://keripy.readthedocs.io/en/main/keri_app/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/main/keri_core/" target="_blank">https://keripy.readthedocs.io/en/main/keri_core/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/main/keri_db/" target="_blank">https://keripy.readthedocs.io/en/main/keri_db/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/main/keri_end/" target="_blank">https://keripy.readthedocs.io/en/main/keri_end/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/keri_help/" target="_blank">https://keripy.readthedocs.io/en/main/keri_help/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/keri_peer/" target="_blank">https://keripy.readthedocs.io/en/main/keri_peer/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/keri_vc/" target="_blank">https://keripy.readthedocs.io/en/main/keri_vc/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/keri_vdr/" target="_blank">https://keripy.readthedocs.io/en/main/keri_vdr/</a></li>
-<li><a href="https://keripy.readthedocs.io/en/main/py-modindex/" target="_blank">https://keripy.readthedocs.io/en/main/py-modindex/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/main/readme/" target="_blank">https://keripy.readthedocs.io/en/main/readme/</a></li>
 <li><a href="https://keripy.readthedocs.io/en/main/search/" target="_blank">https://keripy.readthedocs.io/en/main/search/</a></li>
 <li><a href="https://ksoeteman.nl/2022/08/self-sovereign-identity-can-do-just-fine-blockchain-less/" target="_blank">https://ksoeteman.nl/2022/08/self-sovereign-identity-can-do-just-fine-blockchain-less/</a></li>
@@ -2611,7 +2572,7 @@
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/LoA" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/LoA</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/LoC" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/LoC</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/MFA" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/MFA</a></li>
-<li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/MIME%E2%80%90type" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/MIME%E2%80%90type</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/MIME-type" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/MIME-type</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/NFT" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/NFT</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/OOBI" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/OOBI</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/OOR" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/OOR</a></li>
@@ -2763,7 +2724,7 @@
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/easyCLA_trick" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/easyCLA_trick</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/eclipse-attack" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/eclipse-attack</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/electronic-signature" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/electronic-signature</a></li>
-<li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/encrypt%E2%80%90sender%E2%80%90sign%E2%80%90receiver" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/encrypt%E2%80%90sender%E2%80%90sign%E2%80%90receiver</a></li>
+<li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/encrypt-sender-sign-receiver" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/encrypt-sender-sign-receiver</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/end-role" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/end-role</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/end-to-end" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/end-to-end</a></li>
 <li><a href="https://weboftrust.github.io/WOT-terms/docs/glossary/end-verifiable" target="_blank">https://weboftrust.github.io/WOT-terms/docs/glossary/end-verifiable</a></li>
