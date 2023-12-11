@@ -73,6 +73,14 @@ rm -rf temp-wiki/
 
 
 ##############################
+# Create JSON from Github wiki files
+##############################
+node fetchExternalContent/fetchMentalModels/fetchWotTermsContent/fetchWotTermsContent.mjs
+##############################
+
+
+
+##############################
 # Fix dashes in filenames coming from Wiki
 ##############################
 node maintenance/fixDashInWikiCopyFilenames.js
