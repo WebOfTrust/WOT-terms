@@ -1175,3 +1175,14 @@ article .markdown .inline-medium-end,
 .animate-outline {
     animation: outlineAnimation 1s ease-in-out;
 }
+
+/* 
+  Bookmarklets
+*/
+.bookmarklet {
+  animation: outlineAnimation 1s ease-in-out infinite;
+  outline: 3px dashed #222;
+}
+/* 
+  End Bookmarklets
+*/
