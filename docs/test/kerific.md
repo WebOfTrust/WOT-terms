@@ -8,7 +8,9 @@ Clicking on the bookmarklet or extension will add the buttons.
 
 ## Bookmarklet
 
-Drag the bookmarklet to your bookmarks bar / favorites bar → <a class='m-3 d-inline bookmarklet btn btn-outline-dark' href="javascript: (function () { var existingScript = document.getElementById('kerific-83450285767488'); if (existingScript) { existingScript.remove(); } var jsCode = document.createElement('script'); jsCode.setAttribute('src', 'https://weboftrust.github.io/WOT-terms/js/kerific/scripts/content.js');jsCode.setAttribute('id', 'kerific-83450285767488');document.body.appendChild(jsCode);})();');document.body.appendChild(jsCode);}());">Kerific</a>
+Drag the bookmarklet to your bookmarks bar / favorites bar → <a class='m-3 d-inline bookmarklet btn btn-outline-dark' href="javascript:(function()%7Bvar%20existingScript%20=%20document.getElementById('kerific-83450285767488');if%20(existingScript)%20%7BexistingScript.remove();%7Dvar%20jsCode%20=%20document.createElement('script');jsCode.setAttribute('src',%20'https://weboftrust.github.io/WOT-terms/js/kerific/scripts/content.js');jsCode.setAttribute('id',%20'kerific-83450285767488');document.body.appendChild(jsCode);%7D)();">Kerific</a>
+
+
 
 ## Chrome browser extension (Chrome, Brave, …)
 
