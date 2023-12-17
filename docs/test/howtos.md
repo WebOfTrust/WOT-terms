@@ -1,16 +1,33 @@
 # How to's
 
-* Slack discussion – How to retrieve the KEL from an agent: https://weboftrust.github.io/WOT-terms/slack/html/keripy.html#anchor-20221009211442000
+* Slack discussion Keripy – How to retrieve the KEL from an agent: https://weboftrust.github.io/WOT-terms/slack/html/keripy.html#anchor-20221009211442000 on 20221009211442000
 
-* Slack discussion – How to get an agent running with a single witness: https://weboftrust.github.io/WOT-terms/slack/html/keripy.html#anchor-20221012192001000
+* Slack discussion Keripy – How to get an agent running with a single witness: https://weboftrust.github.io/WOT-terms/slack/html/keripy.html#anchor-20221012192001000 on 20221012192001000
 
-* Slack discussion – How to use KLI from the built Docker container: https://weboftrust.github.io/WOT-terms/slack/html/keripy.html#anchor-20221017015702000
+* Slack discussion Keripy – How to use KLI from the built Docker container: https://weboftrust.github.io/WOT-terms/slack/html/keripy.html#anchor-20221017015702000 on 20221017015702000
 
-* Slack discussion – How to encrypt and decrypt a DIDComm message using a non transferable AID: https://weboftrust.github.io/WOT-terms/slack/html/keripy.html#anchor-20230116140509000
+* Slack discussion Keripy – How to encrypt and decrypt a DIDComm message using a non transferable AID: https://weboftrust.github.io/WOT-terms/slack/html/keripy.html#anchor-20230116140509000 on 20230116140509000
 
-* Slack discussion – How to `kli vc verify` for issuing and verifying credentials: https://weboftrust.github.io/WOT-terms/slack/html/keripy.html#anchor-20230202194649000
+* Slack discussion Keripy – How to `kli vc verify` for issuing and verifying credentials: https://weboftrust.github.io/WOT-terms/slack/html/keripy.html#anchor-20230202194649000 on 20230202194649000
 
-* Slack discussion – How to use kli command to do multisig delegation where there are two delegators and two delegates: https://weboftrust.github.io/WOT-terms/slack/html/keripy.html#anchor-20230604021325000
+* Slack discussion Keripy – How to use kli command to do multisig delegation where there are two delegators and two delegates: https://weboftrust.github.io/WOT-terms/slack/html/keripy.html#anchor-20230604021325000 on 20230604021325000
+
+* Slack discussion Keripy – How to generate the OOBI when adding a new witness to an existing agent: https://weboftrust.github.io/WOT-terms/slack/html/keripy.html#anchor-20221011175827000 on 20221011175827000
+
+* Slack discussion Keripy – How to implement a really simple version of Raft in HIO: https://weboftrust.github.io/WOT-terms/slack/html/keripy.html#anchor-20230206155026000 on 20230206155026000
+
+* Slack discussion Keripy – How to resolve the OOBI (or resolve the kel and service endpoint), DIDComm: https://weboftrust.github.io/WOT-terms/slack/html/keripy.html#anchor-20230116140509000 on 20230116140509000
+
+* Slack discussion Keripy – How to resolve the OOBI when queried by CID/AID Prefix: https://weboftrust.github.io/WOT-terms/slack/html/keripy.html#anchor-20230226165927000 on 20230226165927000
+
+* Slack discussion Keripy – How to see an example of a chained acdc: https://weboftrust.github.io/WOT-terms/slack/html/keripy.html#anchor-20230816201211000 on 20230816201211000
+
+
+* Slack discussion Keripy – How to rotate a single key (kli rotate, "isith", "nsith", "icount", "ncount", "toad"): https://weboftrust.github.io/WOT-terms/slack/html/keripy.html#anchor-20230902004118000 on 20230902004118000
+
+* Slack discussion Keripy – How to get an agent running with a single witness without using `kli demo`: https://weboftrust.github.io/WOT-terms/slack/html/keripy.html#anchor-20221012192001000 on 20221012192001000
+
+* Slack discussion Keripy – How to deploy a standalone witness: https://weboftrust.github.io/WOT-terms/slack/html/keripy.html#anchor-20221026132534000 on 20221026132534000
 
 * Kent Bull Tutorial – KERI KLI: Sign and Verify with Heartnet: https://kentbull.com/2023/01/27/keri-tutorial-series-kli-sign-and-verify-with-heartnet/
 
