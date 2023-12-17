@@ -60,6 +60,13 @@ const imageFullSize = () => {
       }
     });
 
+    // Add keydown event listener to handle the ESC key
+    document.addEventListener('keydown', (event) => {
+      if (event.key === "Escape") {
+        removeContainer();
+      }
+    });
+
   } else {
     console.log("Element with class '.markdown' not found.");
   }
