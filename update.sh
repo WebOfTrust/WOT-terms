@@ -61,10 +61,10 @@ rm -rf temp-wiki/.gitignore
 
 # Create a file in temp-wiki/ called ”_category_.json”
 echo "{
-  \"label\": \"${GLOSSARY_VISIBLE_NAME}\",
+  \"label\": \"${GLOSSARY_OVERVIEW_JSON_LABEL}\",
   \"link\": {
     \"type\": \"generated-index\",
-    \"description\": \"${GLOSSARY_VISIBLE_NAME}.\"
+    \"description\": \"${GLOSSARY_OVERVIEW_JSON_DESCRIPTION}.\"
   }
 }" > temp-wiki/_category_.json
 
