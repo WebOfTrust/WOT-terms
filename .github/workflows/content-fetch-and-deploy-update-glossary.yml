@@ -82,6 +82,9 @@ jobs:
       - name: Checkout wiki
         run: |
           git clone https://github.com/WebOfTrust/WOT-terms.wiki.git temp-wiki
+          
+          # remove the .git folder
+          rm -rf temp-wiki/.git
 
       # Copies the wiki contents to the /docs/04_glossary/ directory
       - name: Copy Wiki To Docusaurus Glossary directory
