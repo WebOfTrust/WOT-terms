@@ -59,9 +59,8 @@ git clone https://github.com/WebOfTrust/WOT-terms.wiki.git temp-wiki
 # Create the directory if it doesn't exist
 mkdir -p docs/${GLOSSARY_DIR}
 
-# Files that are already in the /docs/04_glossary/ directory will not be overwritten
-# Synchronize wiki contents to /docs/04_glossary/
-# Exclude multiple files: --exclude={'.gitignore','README.md'}
+# Copy all new and updated files from temp-wiki/ to docs/04_glossary/
+# Delete any files in docs/04_glossary/ that do not exist in temp-wiki/
 rsync -a --delete --exclude='.gitignore' temp-wiki/ docs/${GLOSSARY_DIR}
 
 
