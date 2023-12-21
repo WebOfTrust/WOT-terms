@@ -23,6 +23,11 @@ function replaceHyphenInFileNames(directory) {
         }
 
         files.forEach(file => {
+
+            // Stop if file name is ”_category_.json”
+            if (file === '_category_.json') {
+                return;
+            }
             /*
                 Add an <h1> in markdown at the top of the file. Use the file name without extension as the heading text. Do two replacements:
                 1. Replace the hyphen character with a space
