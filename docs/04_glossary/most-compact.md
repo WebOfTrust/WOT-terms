@@ -1,3 +1,4 @@
+# most compact
 ## Definition
 An [ACDC](ACDC) that, for a given level of disclosure, is as compact as it can be which means
 - it has the [SAID](SAID)s for each section that are not disclosed 

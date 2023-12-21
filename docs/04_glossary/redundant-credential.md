@@ -1,3 +1,4 @@
+# redundant credential
 ## Definition
 Multiple credentials issued by the same issuer (e.g. a [QVI](QVI)). They do not have anything to do with each other. They are independently valid.
 

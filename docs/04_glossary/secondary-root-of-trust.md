@@ -1,3 +1,4 @@
+# secondary root of trust
 ## Definition
 
 In KERI its a [root-of-trust](root-of-trust) that, for its secure attribution, depends on another verifiable data structure (VDS) which MUST be a [primary root-of-trust](primary-root-of-trust).  

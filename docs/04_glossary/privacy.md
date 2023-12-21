@@ -1,3 +1,4 @@
+# privacy
 ## Definition
 Privacy is the ability of an individual or group to seclude themselves or information about themselves, and thereby express themselves selectively.
 

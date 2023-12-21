@@ -1,3 +1,4 @@
+# non fungible token
 ## Definition
 A non-fungible token (NFT) is a [financial security](https://en.wikipedia.org/wiki/Security_(finance)) consisting of digital data stored in a [blockchain](https://en.wikipedia.org/wiki/Blockchain), a form of [distributed ledger](https://en.wikipedia.org/wiki/Distributed_ledger). 
 

@@ -1,3 +1,4 @@
+# end role
 ## Definition
 An end role is an authorization for one [AID](AID) to serve in a role for another [AID](AID).  
 

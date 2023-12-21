@@ -1,3 +1,4 @@
+# transferable identifier
 ## Definition
 Control over the identifier [can be transferred](transferable) by rotating keys.  
 A synonym is 'persistent identifier'.

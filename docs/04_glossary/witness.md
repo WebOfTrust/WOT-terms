@@ -1,3 +1,4 @@
+# witness
 ## Definition
 In KERI and ACDC context, a witness is an entity or component designated (trusted) by the controller of an identifier. The primary role of a witness is to verify, sign, and keep events associated with an identifier. A witness is the controller of its own self-referential identifier which may or may not be the same as the identifier to which it is a witness.  
 

@@ -1,3 +1,4 @@
+# internal inconsistency
 ## Definition
 Internal is used to describe things that exist or happen inside an [entity](entity). In our scope of digital [identifiers](identifier) its (in)consistency is considered within the defining data structures and related data stores.
 

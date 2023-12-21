@@ -1,3 +1,4 @@
+# PRNG
 ## Definition
 means "Pseudorandom Number Generator" which means that a sequence of numbers (bits, bytes...) is produced from an algorithm which looks random, but is in fact deterministic (the sequence is generated from some unknown internal state), hence pseudorandom.
 

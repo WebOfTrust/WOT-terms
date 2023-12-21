@@ -1,3 +1,4 @@
+# digest
 ## Definition
 verifiable cryptographic commitment. It's a collision resistant hash of content.
 

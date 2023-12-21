@@ -1,3 +1,4 @@
+# compact variant
 ## Definition
 Either a [most compact](most-compact) version of an ACDC or the [fully compact](fully-compact) version of an ACDC. An [Issuer](issuer) commitment via a signature to any variant of ACDC (compact, full, etc) makes a cryptographic commitment to the top-level section fields shared by all variants of that ACDC because the value of a [top level section field](top-level-section) is either the [SAD](SAD) or the [SAID](SAID) of the SAD of the associated section.
 

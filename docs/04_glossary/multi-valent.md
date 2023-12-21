@@ -1,3 +1,4 @@
+# multi valent
 ## Definition
 A delegator may have multiple delegates thereby enabling elastic horizontal scalability. Multiple delegates from a single delegator. Furthermore, each delegate may act as a delegator for its own delegates to form a *nested delegation tree*.  
 This allows mapping key management infrastructures to any hierarchically structured organization's computing infrastructure. With this construction, both security and performance trade-offs may be made as appropriate. Such an extended delegation setup we call a multivalent key management infrastructure.

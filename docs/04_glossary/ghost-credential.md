@@ -1,3 +1,4 @@
+# ghost credential
 ## Definition
 Is a valid credential within in a 90 days grace period (the revocation transaction time frame before it's booked to revocation registry). | TBW prio 3 |
 

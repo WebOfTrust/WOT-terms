@@ -1,3 +1,4 @@
+# threshold structure security
 ## Definition
 A threshold structure for security allows for weaker key management or execution environment infrastructure individually, but achieve greater overall security by multiplying the number of attack surfaces that an attacker must overcome to compromise a system.  
 In other words, with threshold structures, overall security may be greater than the security of any of the individual parts. 

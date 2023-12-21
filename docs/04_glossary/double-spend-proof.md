@@ -1,3 +1,4 @@
+# double spend proof
 ## Definition
 Total global ordering of transaction so that value can’t be spend twice at the same time from the unit of value. Or in common language: you can't spend your money twice. 
 

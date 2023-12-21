@@ -1,3 +1,4 @@
+# percolated information discovery
 ## Definition
 In the OOBI protocol, a discovery mechanism for the KERI and the ACDC protocols is provided by a bootstrap that enables Percolated Information Discovery (PID), which is based on Invasion Percolation Theory.
 

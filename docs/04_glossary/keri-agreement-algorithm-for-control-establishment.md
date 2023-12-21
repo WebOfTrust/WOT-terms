@@ -1,3 +1,4 @@
+# keri agreement algorithm for control establishment
 ##Definition
 Agreement on an event in a key event log [KEL](KEL) means each [witness](witness) has observed the same version of the event and each witness’ [receipt](receipt) has been received by every other witness.
 

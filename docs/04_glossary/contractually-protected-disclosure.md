@@ -1,3 +1,4 @@
+# contractually protected disclosure
 ## Definition
 Usage of schema-based and contract-based controls to limit the exchange of information to provide both mechanical and legal protection on the sharing of data. 
 

@@ -1,3 +1,4 @@
+# habery
 ## Definition
 'Hab' comes from ‘Habitat’. It’s a place where multi-sigs and AIDs are linked. Habery manages a collection of Habs. A Hab is a datastructure (a Python object).
 

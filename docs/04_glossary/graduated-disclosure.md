@@ -1,3 +1,4 @@
+# graduated disclosure
 ## Definition
 selectively disclosing more data as time and/or necessity progresses.
 

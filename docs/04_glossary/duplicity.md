@@ -1,3 +1,4 @@
+# duplicity
 ## Duplicity
 
 _Duplicity_ is used to describe external inconsistency. Publication of two or more versions of a KEL, each of which is internally consistent is duplicity. Given that signatures are non-repudiable any duplicity is detectable and provable given possession of any two mutually inconsistent versions of a KEL. In KERI [consistency](inconsistency) is is used to described data that is internally consistent and cryptographically verifiably so.

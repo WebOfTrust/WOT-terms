@@ -1,3 +1,4 @@
+# verifier
 ## Definition
 the entity that (cryptographically) verifies data received from peers (check structure, signatures, dates). More narrowly defined for the KERI suite: cryptographically verifies signature(s) on an event message.
 

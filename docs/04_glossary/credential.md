@@ -1,3 +1,4 @@
+# credential
 ## Definition
 
 Evidence of authority, status, rights, entitlement to privileges, or the like.  

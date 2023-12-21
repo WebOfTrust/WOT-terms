@@ -1,3 +1,4 @@
+# signify
 ## Definition
 
 Signify is a web client [(key) event](key-event) signing - and key pair creation app that minimizes the use of [KERI](KERI) on the client.

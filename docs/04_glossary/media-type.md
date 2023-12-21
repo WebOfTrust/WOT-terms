@@ -1,3 +1,4 @@
+# media type
 ## Definition
 A Media type (formerly known as _MIME type_) is a standard way to indicate the nature and format of a file, like 'image/jpeg' for JPEG images, used on the internet.
 

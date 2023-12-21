@@ -1,3 +1,4 @@
+# key event receipt infrastructure
 ## Definition
 
 Also `KERI`. It's a new approach to decentralized identifiers and decentralized key management that promises significant benefits for `SSI` (self-sovereign identity) and `ToIP` (Trust over IP) infrastructure.  

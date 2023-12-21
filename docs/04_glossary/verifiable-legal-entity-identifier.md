@@ -1,3 +1,4 @@
+# verifiable legal entity identifier
 ## Definition
 vLEIs are digital verifiable credentials issued by (delegates) of GLEIF to prove that information about a legel entity is verifiably authentic.
 

@@ -1,3 +1,4 @@
+# verifiable
 ## Definition
 able to cryptographically verify a certain data structure on its [consistency](inconsistency) and its [authenticity](authenticity)
 

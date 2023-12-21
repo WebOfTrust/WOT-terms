@@ -1,3 +1,4 @@
+# transfer off ledger
 ## Definition
 The act of transferring control authority over an identifier from a ledger (or blockchain) to the native verifiable KERI data structure Key Event Log.
 

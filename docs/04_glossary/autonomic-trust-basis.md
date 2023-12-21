@@ -1,3 +1,4 @@
+# autonomic trust basis
 ## Definition
 When use an [AID](AID) as the [root-of-trust](root-of-trust) we form a so-called *autonomic trust basis*. This is diagrammed as follows:
 

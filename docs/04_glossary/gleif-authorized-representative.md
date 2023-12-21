@@ -1,3 +1,4 @@
+# gleif authorized representative
 ## Definition
 A representative of GLEIF authorized to perform the identity verifications requirements needed to issue the [QVI](QVI) [vLEI](vLEI) Credential.
 

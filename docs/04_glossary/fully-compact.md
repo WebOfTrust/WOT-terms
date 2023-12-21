@@ -1,3 +1,4 @@
+# fully compact
 ## definition
 The most compact form of an ACDC. This is the only signed variant of an ACDC and this signature is anchored in a transaction event log (TEL) for the ACDC.
 This is one valid choice for an ACDC schema.   

@@ -1,3 +1,4 @@
+# delegation
 ## Definition
 A person or group of persons officially elected or appointed to represent another or others.
 

@@ -1,3 +1,4 @@
+# pathing
 ## Definition
 It was designed send to sign portions of a credential. Designed for complex cases like 
 - a credential embedded in another credential

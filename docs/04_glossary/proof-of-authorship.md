@@ -1,3 +1,4 @@
+# proof of authorship
 ## Definition
 
 Proof that somebody or something has originally created certain content. It's about _data_'s inception. Whereas [proof-of-authority](proof-of-authority) is about _rights_ attached to this data.

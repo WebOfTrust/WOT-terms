@@ -1,3 +1,4 @@
+# cryptographic commitment scheme
 ## Definition
 is a cryptographic primitive that allows one to commit to a chosen value (or chosen statement) while keeping it hidden to others, with the ability to reveal the committed value later. 
 

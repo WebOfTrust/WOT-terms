@@ -1,3 +1,4 @@
+# non transferable
 ## Definition
 No [capacity to transfer](transferable) (the control over) a certain digital asset in an unobstructed or loss-less manner. As opposed to [transferable](transferable).
 

@@ -1,3 +1,4 @@
+# service endpoint
 ## Definition
 In our context we consider a **web service endpoint** which is a [URL](uniform-resource-locator) at which clients of specific service can get access to the service.
 

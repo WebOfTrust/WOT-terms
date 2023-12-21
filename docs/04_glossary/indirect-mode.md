@@ -1,3 +1,4 @@
+# indirect mode
 ## Definition 
 Two primary trust modalities motivated the KERI design, One these is the _indirect_ (one-to-many) mode, which depends on witnessed key event receipt logs (KERL) as a secondary root-of-trust for validating events. This gives rise to the acronym KERI for key event receipt infrastructure.  
 The indirect mode extends that trust basis with witnessed key event receipt logs ([KERL](key-event-receipt-log)) for validating events. The security and accountability guarantees of indirect mode are provided by [KA2CE](KA2CE) or KERI’s Agreement Algorithm for Control Establishment among a set of witnesses.  

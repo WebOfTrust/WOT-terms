@@ -1,3 +1,4 @@
+# public verifiable credential registry
 ## Definition
 is a form of a [Verifiable Data Registry](https://github.com/trustoverip/toip/wiki/credential-registry) that tracks the issuance/revocation state of credentials issued by the controller of the [KEL](key-event-log).
 

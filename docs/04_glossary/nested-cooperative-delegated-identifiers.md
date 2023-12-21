@@ -1,3 +1,4 @@
+# nested cooperative delegated identifiers
 ## Definition
 In KERI delegations are cooperative, this means that both the delegator and delegate must contribute to a delegation. The delegator creates a cryptographic commitment in either a rotation or interaction event via a seal in a delegated establishment event. The delegate creates a cryptographic commitment in its establishment event via a seal to the delegating event. Each commitment is signed respectively by the committer. This cooperative delegation together with special superseding recovery rules for events enables cooperative recovery.
 

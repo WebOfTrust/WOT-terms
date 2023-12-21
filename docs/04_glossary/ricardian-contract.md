@@ -1,3 +1,4 @@
+# ricardian contract
 ## Definition
 The Ricardian contract, as invented by Ian Grigg in 1996, is a method of recording a document as a [contract](https://en.wikipedia.org/wiki/Contract) at law, and linking it securely to other systems, such as accounting, for the contract as an issuance of value.  
 It is robust through use of identification by [cryptographic hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function), transparent through use of readable text for legal prose and efficient through [markup language](https://en.wikipedia.org/wiki/Markup_language) to extract essential information.  

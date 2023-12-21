@@ -1,3 +1,4 @@
+# message
 ## Definition
 serialized data structure event, an actionable message
 

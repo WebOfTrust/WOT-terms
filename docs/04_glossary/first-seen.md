@@ -1,3 +1,4 @@
+# first seen
 ## Definition
 
 "First seen" in KERI is the first verified event, accepted in the KEL. It has no effect on the timing of what has arrived in escrow for example; in escrow there can be garbage. Every 'first seen' event is propagated world wide within micro-seconds to the watchers. Only in this microseconds windows that you could have a live key conprise attack. If that happens, this where you have to look after this duplicity-attack a bit more in depth to handle it safely. E.g. a valid key rotation.

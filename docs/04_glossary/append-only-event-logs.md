@@ -1,3 +1,4 @@
+# append only event logs
 ## Definition
 Append-only is a property of computer data storage such that new data can be appended to the storage, but where existing data is immutable.
 

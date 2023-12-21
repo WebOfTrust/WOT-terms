@@ -1,3 +1,4 @@
+# signing authority
 ## Definition
 The authority to sign on behalf of the controller of the authoritative key pair. Often in situation where delegation has taken place, e.g. a custodial agent. These are limited rights because [rotation authority](rotation-authority) is not included. 
 

@@ -1,3 +1,4 @@
+# partial disclosure
 ## Definition
 An ACDC attribute section can be a nested branch in a tree. Partial disclosure is the weaker version because you can either decide to disclose or not. Selective disclosure is more fine grained.
 

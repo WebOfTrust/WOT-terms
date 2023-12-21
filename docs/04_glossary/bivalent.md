@@ -1,3 +1,4 @@
+# bivalent
 ## Definition
 A nested set of layered delegations in a [delegation](delegation) tree, wraps each layer with compromise recovery protection of the next higher layer. This maintains the security of the root layer for compromise recovery all the way out to the leaves in spite of the leaves using less secure key management methods.  
 

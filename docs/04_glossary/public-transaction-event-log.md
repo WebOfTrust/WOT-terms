@@ -1,3 +1,4 @@
+# public transaction event log
 ## Definition
 is a public hash-linked data structure of transactions that can be used to track state anchored to a KEL.
 

@@ -1,3 +1,4 @@
+# duplicity detection
 ## Definition
 
 A mechanism to detect [duplicity](duplicity) in cryptographically secured event logs.

@@ -1,3 +1,4 @@
+# web of trust
 ## Definition
 
 In cryptography, a web of trust is a concept used in [PGP](PGP), [GnuPG](gnu-privacy-guard), and other `OpenPGP`-compatible systems to establish the authenticity of the binding between a public key and its owner.  

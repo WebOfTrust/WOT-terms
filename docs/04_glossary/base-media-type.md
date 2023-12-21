@@ -1,3 +1,4 @@
+# base media type
 ## Definition
 `credential` plus `ld` plus `json`.
 

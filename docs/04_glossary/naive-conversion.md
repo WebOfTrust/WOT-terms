@@ -1,3 +1,4 @@
+# naive conversion
 ## Definition
 
 Non-CESR Base64 conversion. How people are used to using the Base64 encode and decode.  Without [pre-pad](pre-pad)ding etc all the stuff CESR does to ensure aligns on 24 bit boundaries so [CESR](CESR) never uses the '=' pad character. But naive [Base64](base64) will pad if the length is not 24 bit aligned.  

@@ -1,3 +1,4 @@
+# watcher
 ## Definition
 KERI alternative to total global ordering and consensus protocols is a mechanism called [duplicity](duplicity) detection. In the [verification](verifier) and [validation](validate) **watchers are all that matter**; they guarantee that logs are immutable by one very simple rule: "[first seen](first-seen) wins".
 

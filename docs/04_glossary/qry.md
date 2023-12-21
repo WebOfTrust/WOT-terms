@@ -1,2 +1,3 @@
+# qry
 ## Definition
 qry = query

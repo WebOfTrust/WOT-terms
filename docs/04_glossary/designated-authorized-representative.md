@@ -1,3 +1,4 @@
+# designated authorized representative
 ## Definition
 Also 'DAR'. These are representatives of a Legal Entity that are authorized by the Legal Entity to act officially on behalf of the Legal Entity. DARs can authorize:
 1. vLEI Issuer Qualification Program Checklists

@@ -1,3 +1,4 @@
+# self framing
 ## Definition
 a textual encoding that includes type, size, and value is self-framing.  
 Source [Samual M Smith](https://www.ietf.org/archive/id/draft-ssmith-cesr-02.txt)

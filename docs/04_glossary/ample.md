@@ -1,3 +1,4 @@
+# ample
 ## Definition
 
 The minimum required number of participants in an event to have a [supermajority](supermajority) so that one and only one agreement or consensus on an event may be reached. This is a critical part of the [KAACE](KAACE) agreement algorithm (consensus) in KERI for establishing consensus between witnesses on the key state of a KERI identifier. This consensus on key state forms the basis for accountability for a KERI controller, or what a person who controls a KERI identifier may be held legally responsible for.

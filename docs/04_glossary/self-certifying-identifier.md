@@ -1,3 +1,4 @@
+# self certifying identifier
 ## Definition
 
 A Self-Certifying Identifier (SCID) cryptographically binds an identifier to a public and private key pair. It is an identifier that can be proven to be the one and only identifier tied to a public key using cryptography alone.

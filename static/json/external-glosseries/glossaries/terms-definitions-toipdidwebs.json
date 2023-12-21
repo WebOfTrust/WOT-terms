@@ -51,6 +51,13 @@
   {
     "organisation": "ToIP (DID:Webs)",
     "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+    "term": "host",
+    "definition": "The part of a URL that can be either a domain name or an IP address. This component specifies the server that the client needs to communicate with in order to access the desired resource on the web.",
+    "anchor": "host"
+  },
+  {
+    "organisation": "ToIP (DID:Webs)",
+    "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
     "term": "inception event",
     "definition": "A key event that provides the incepting information needed to derive an AID and establish its initial key state, as defined by the draft KERI specification. See WebOfTrust glossary for more detail.",
     "anchor": "inceptionevent"
@@ -121,9 +128,9 @@
   {
     "organisation": "ToIP (DID:Webs)",
     "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
-    "term": "method-specific identifier (MSI)",
+    "term": "method-specific identifier",
     "definition": "The method-specific-id part of DID Syntax, as defined in DID Core. See section Method-Specific Identifier.",
-    "anchor": "methodspecificidentifier(MSI)"
+    "anchor": "methodspecificidentifier"
   },
   {
     "organisation": "ToIP (DID:Webs)",

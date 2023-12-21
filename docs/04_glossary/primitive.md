@@ -1,3 +1,4 @@
+# primitive
 ## Definition
 In general in computing a 'primitive' is the simplest type of programming language item. It may also refer to the smallest processing unit accessible by a programmer.  
 [Source](https://www.techopedia.com/definition/3860/primitive)

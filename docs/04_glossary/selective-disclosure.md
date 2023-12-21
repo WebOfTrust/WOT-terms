@@ -1,3 +1,4 @@
+# selective disclosure
 ## Definition
 Selective disclosure is a from partial disclosure that has a different cryptographic fundament: a sort of cryptographic aggregator (not an accumulator).
 

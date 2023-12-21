@@ -1,3 +1,4 @@
+# rotation event
 ## Definition
 An [establishment event](establishment-event) representing a transfer of root control authority of an identifier from the current set of controlling keys to new set committed to in the prior establishment event (inception or rotation) as the pre-rotated key pair set.  
 Source [KERI Whitepaper Section 7.21 page 46](https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf)

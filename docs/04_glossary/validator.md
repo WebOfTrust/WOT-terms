@@ -1,3 +1,4 @@
+# validator
 ## Definition
 determines current authoritative key set for identifier from at least one key event (receipt) log. Types:
 
