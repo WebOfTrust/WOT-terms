@@ -45,7 +45,7 @@ const showGPTsummary = () => {
     }, pauseBeforeStart);
   } // end typeWriter
 
-  const heading = document.querySelector('.markdown header h1');
+  const heading = document.querySelector('.markdown h1:first-child');
 
   if (heading) {
     // Find the column number of the column with the name 'Shortened version static copy'

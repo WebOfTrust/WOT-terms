@@ -80,7 +80,7 @@ const fetchFormsColumnFromWotTerms = () => {
 
   if (inDocSection) {
     const markdown = document.querySelector('.markdown');
-    const heading = document.querySelector('.markdown header h1');
+    const heading = document.querySelector('.markdown h1:first-child');
     const headingText = heading.innerText;
 
     overview.values.forEach((term) => {

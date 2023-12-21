@@ -36,8 +36,8 @@ const addDataTypes = () => {
     }
   }
 
-  if (document.querySelector('article header h1')) {
-    const heading = document.querySelector('header h1').innerText;
+  if (document.querySelector('.markdown h1:first-child')) {
+    const heading = document.querySelector('.markdown h1:first-child').innerText;
 
     // for every row in overview.json except the first one
     overview.values.forEach((row, index) => {

@@ -46,7 +46,7 @@ const findMentalModelMatches = () => {
 
   if (inDocSection) {
     const markdown = document.querySelector('.markdown');
-    const heading = document.querySelector('.markdown header h1');
+    const heading = document.querySelector('.markdown h1:first-child');
 
     // This is not working, because the heading sometimes contains child elements:
     // const headingText = heading.innerText;
