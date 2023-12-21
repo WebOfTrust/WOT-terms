@@ -57,6 +57,7 @@ git clone https://github.com/WebOfTrust/WOT-terms.wiki.git temp-wiki
 
 # remove the .git folder
 rm -rf temp-wiki/.git
+rm -rf temp-wiki/.gitignore
 
 # Step 2: Copy Wiki To Docusaurus Glossary directory
 # Create the directory if it doesn't exist

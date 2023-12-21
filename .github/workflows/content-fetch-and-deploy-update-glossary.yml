@@ -85,6 +85,7 @@ jobs:
           
           # remove the .git folder
           rm -rf temp-wiki/.git
+          rm -rf temp-wiki/.gitignore
 
       # Copies the wiki contents to the /docs/04_glossary/ directory
       - name: Copy Wiki To Docusaurus Glossary directory
