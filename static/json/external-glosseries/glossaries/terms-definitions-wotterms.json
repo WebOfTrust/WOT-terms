@@ -1198,13 +1198,6 @@
   },
   {
     "organisation": "WebOfTrust",
-    "term": "Glossary",
-    "url": "https://kerisse.org",
-    "anchor": "Glossary",
-    "definition": "<p>This is the main glossary.</p>"
-  },
-  {
-    "organisation": "WebOfTrust",
     "term": "gnu privacy guard",
     "url": "https://kerisse.org",
     "anchor": "gnu-privacy-guard",

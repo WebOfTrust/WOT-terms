@@ -4,11 +4,11 @@
 <div className="accordion-item" data-level="1">
                         
 
-<h2 className="accordion-header" id="header3415651651046">
+<h2 className="accordion-header" id="header1052352320142">
                         
 
-<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-3415651651046" aria-expanded="false" aria-controls="accordeon-3415651651046">
-                            3415651651046, level 1
+<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-1052352320142" aria-expanded="false" aria-controls="accordeon-1052352320142">
+                            1052352320142, level 1
                         
 
 </button>
@@ -17,7 +17,7 @@
 </h2>
                         
 
-<div id="accordeon-3415651651046" className="accordion-collapse collapse">
+<div id="accordeon-1052352320142" className="accordion-collapse collapse">
                         
 
 <div className="accordion-body">
