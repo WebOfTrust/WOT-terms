@@ -55,6 +55,9 @@ sh  fetchExternalContent/fetchMentalModels/main.sh
 # Step 1: Checkout wiki
 git clone https://github.com/WebOfTrust/WOT-terms.wiki.git temp-wiki
 
+# remove the .git folder
+rm -rf temp-wiki/.git
+
 # Step 2: Copy Wiki To Docusaurus Glossary directory
 # Create the directory if it doesn't exist
 mkdir -p docs/${GLOSSARY_DIR}
