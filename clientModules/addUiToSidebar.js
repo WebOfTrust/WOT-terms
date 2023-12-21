@@ -125,7 +125,7 @@ const addUiToSidebar = () => {
     for (let i = 0; i < links.length; i++) {
         const link = links[i];
         const href = link.getAttribute('href');
-        const regex = new RegExp(baseUrl + 'docs/glossary$');
+        const regex = new RegExp(baseUrl + 'docs/category/glossary$');
         if (regex.test(href)) {
             glossaryMainMenuItem = link;
             break;
