@@ -59,6 +59,15 @@ git clone https://github.com/WebOfTrust/WOT-terms.wiki.git temp-wiki
 rm -rf temp-wiki/.git
 rm -rf temp-wiki/.gitignore
 
+# Create a file in temp-wiki/ called ”_category_.json”
+echo "{
+  \"label\": \"${GLOSSARY_VISIBLE_NAME}\",
+  \"link\": {
+    \"type\": \"generated-index\",
+    \"description\": \"${GLOSSARY_VISIBLE_NAME}.\"
+  }
+}" > temp-wiki/_category_.json
+
 # Step 2: Copy Wiki To Docusaurus Glossary directory
 # Create the directory if it doesn't exist
 mkdir -p docs/${GLOSSARY_DIR}
