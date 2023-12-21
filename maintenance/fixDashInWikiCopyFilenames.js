@@ -13,7 +13,6 @@ const path = require('path');
 
 // const directoryPath = path.join(__dirname, `../docs/${process.env.GLOSSARY_DIR}`);
 const directoryPath = `docs/${process.env.GLOSSARY_DIR}`;
-console.log('directoryPath: ', directoryPath);
 
 // Function to replace the hyphen character in file names
 function replaceHyphenInFileNames(directory) {
@@ -24,6 +23,27 @@ function replaceHyphenInFileNames(directory) {
         }
 
         files.forEach(file => {
+            /*
+                Add an <h1> in markdown at the top of the file. Use the file name without extension as the heading text. Do two replacements:
+                1. Replace the hyphen character with a space
+                2. Replace the minus sign character with a hyphen
+            */
+            const filePath = `${directory}/${file}`;
+
+            // Read the file's content
+            const fileContent = fs.readFileSync(filePath, 'utf8');
+
+            // Extract the filename without extension
+            const fileNameWithoutExtension = path.parse(file).name;
+
+            // Modify the file's content
+            const modifiedContent = `# ${fileNameWithoutExtension.replace(/\u2010/g, '-').replace(/-/g, ' ')}\n${fileContent}`;
+
+            // Write the modified content back to the file
+            fs.writeFileSync(filePath, modifiedContent, 'utf8');
+
+            // End of addition
+
             if (file.includes('\u2010')) {
                 const newFileName = file.replace(/\u2010/g, '-');
                 fs.renameSync(`${directory}/${file}`, `${directory}/${newFileName}`, err => {
