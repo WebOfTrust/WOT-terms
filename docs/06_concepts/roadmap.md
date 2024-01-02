@@ -30,7 +30,7 @@ To modify and update our Roadmap, we regularly go through Keripy Issues (start o
 3. Most important / most urgent
 
 ## Roadmap
-Below we present timing and links to the actual issues in the Keripy github repo. Plan: when we plan the activity, not the result. However, if we plan an activity that has a preceding trigger activity you could rightfully understand that we plan to have completed the prior activity enough to be able to go forward.
+Below we present timing and links to the actual issues in the [Keripy github repo](https://github.com/WebOfTrust/keripy). Plan: when we plan the activity, not the result. However, if we plan an activity that has a preceding trigger activity you could rightfully understand that we plan to have completed the prior activity enough to be able to go forward.
 
 Mind you: no guarantees can be given, we cannot take responsibility for commitments / expectations you derive from our roadmap. 
 
