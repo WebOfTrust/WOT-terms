@@ -10,7 +10,7 @@
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Actor",
-    "definition": "Entity that can act (do things/execute <a hovertext=\"Action: something that is actually done (a 'unit of work' that is executed) by a single Actor (on behalf of a given Party), as a single operation, in a specific context.\" href=\"https://essif-lab.github.io/framework/docs/terms/action\">action</a>), e.g. people, machines, but not <a hovertext=\"Organization: a Party that is capable of setting Objectives and making sure these are realized by Actors that it has Onboarded and/or by (vetted) Parties that are committed to contribute to these Objectives.\" href=\"https://essif-lab.github.io/framework/docs/terms/organization\">organization</a>.",
+    "definition": "entity that can act (do things/execute <a hovertext=\"Action: something that is actually done (a 'unit of work' that is executed) by a single Actor (on behalf of a given Party), as a single operation, in a specific context.\" href=\"https://essif-lab.github.io/framework/docs/terms/action\">action</a>), e.g. people, machines, but not <a hovertext=\"Organization: a Party that is capable of setting Objectives and making sure these are realized by Actors that it has Onboarded and/or by (vetted) Parties that are committed to contribute to these Objectives.\" href=\"https://essif-lab.github.io/framework/docs/terms/organization\">organization</a>.",
     "anchor": "actor"
   },
   {
@@ -45,7 +45,7 @@
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Attribute",
-    "definition": "Data",
+    "definition": "data",
     "anchor": "attribute"
   },
   {
@@ -58,16 +58,16 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Capability (of a Party)",
-    "definition": "The (named) combination of (a) the means of a specific <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a> to get something done, (b) the <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a> <a hovertext=\"Governance: the act or process of governing or overseeing the realization of (the results associated with) a set of Objectives by the Owner of these Objectives, in order to ensure they will be fit for the purposes that this Owner intends to use them for.\" href=\"https://essif-lab.github.io/framework/docs/terms/governance\">governance</a> process that ensures that its (business) <a hovertext=\"Policy: a (set of) rules, working-instructions, preferences and other guidance for the execution of one or more kinds of Actions, that Agents of the Party that Governs the policy have access to and can interpret such that this results in these Actions being executed as intended by that Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/policy\">policies</a> for getting that something done are being created and maintained, and (c) the <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a> <a hovertext=\"Management: the act or process of managing or actually realizing of (the results associated with) a set of Objectives by the Owner of these Objectives.\" href=\"https://essif-lab.github.io/framework/docs/terms/management\">management</a> process that creates and maintains the (operational) <a hovertext=\"Policy: a (set of) rules, working-instructions, preferences and other guidance for the execution of one or more kinds of Actions, that Agents of the Party that Governs the policy have access to and can interpret such that this results in these Actions being executed as intended by that Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/policy\">policies</a>, such that every <a hovertext=\"Employee (of a Party): a (human or digital) Actor for whom/which it is realistic that it might execute Actions on behalf of that Party (called the Employer of that Actor).\" href=\"https://essif-lab.github.io/framework/docs/terms/employee\">employee</a> that has a task in getting this something done can find and interpret a <a hovertext=\"Policy: a (set of) rules, working-instructions, preferences and other guidance for the execution of one or more kinds of Actions, that Agents of the Party that Governs the policy have access to and can interpret such that this results in these Actions being executed as intended by that Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/policy\">policy</a> and use it as it executes <a hovertext=\"Action: something that is actually done (a 'unit of work' that is executed) by a single Actor (on behalf of a given Party), as a single operation, in a specific context.\" href=\"https://essif-lab.github.io/framework/docs/terms/action\">action</a> in such tasks.",
-    "anchor": "capability-of-a-party"
+    "term": "Capability (of an Actor)",
+    "definition": "the potential of an <a hovertext=\"Actor: Entity that can act (do things/execute Actions), e.g. people, machines, but not Organizations.\" href=\"https://essif-lab.github.io/framework/docs/terms/actor\">actor</a> to execute a (named) coherent set of <a hovertext=\"Action: something that is actually done (a 'unit of work' that is executed) by a single Actor (on behalf of a given Party), as a single operation, in a specific context.\" href=\"https://essif-lab.github.io/framework/docs/terms/action\">action</a> (a 'function', or 'task') on behalf of some <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>.",
+    "anchor": "capability-of-an-actor"
   },
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Capability (of an Actor)",
-    "definition": "The potential of an <a hovertext=\"Actor: Entity that can act (do things/execute Actions), e.g. people, machines, but not Organizations.\" href=\"https://essif-lab.github.io/framework/docs/terms/actor\">actor</a> to execute a (named) coherent set of <a hovertext=\"Action: something that is actually done (a 'unit of work' that is executed) by a single Actor (on behalf of a given Party), as a single operation, in a specific context.\" href=\"https://essif-lab.github.io/framework/docs/terms/action\">action</a> (a 'function', or 'task') on behalf of some <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>.",
-    "anchor": "capability-of-an-actor"
+    "term": "Capability (of a Party)",
+    "definition": "the (named) combination of (a) the means of a specific <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a> to get something done, (b) the <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a> <a hovertext=\"Governance: the act or process of governing or overseeing the realization of (the results associated with) a set of Objectives by the Owner of these Objectives, in order to ensure they will be fit for the purposes that this Owner intends to use them for.\" href=\"https://essif-lab.github.io/framework/docs/terms/governance\">governance</a> process that ensures that its (business) <a hovertext=\"Policy: a (set of) rules, working-instructions, preferences and other guidance for the execution of one or more kinds of Actions, that Agents of the Party that Governs the policy have access to and can interpret such that this results in these Actions being executed as intended by that Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/policy\">policies</a> for getting that something done are being created and maintained, and (c) the <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a> <a hovertext=\"Management: the act or process of managing or actually realizing of (the results associated with) a set of Objectives by the Owner of these Objectives.\" href=\"https://essif-lab.github.io/framework/docs/terms/management\">management</a> process that creates and maintains the (operational) <a hovertext=\"Policy: a (set of) rules, working-instructions, preferences and other guidance for the execution of one or more kinds of Actions, that Agents of the Party that Governs the policy have access to and can interpret such that this results in these Actions being executed as intended by that Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/policy\">policies</a>, such that every <a hovertext=\"Employee (of a Party): a (human or digital) Actor for whom/which it is realistic that it might execute Actions on behalf of that Party (called the Employer of that Actor).\" href=\"https://essif-lab.github.io/framework/docs/terms/employee\">employee</a> that has a task in getting this something done can find and interpret a <a hovertext=\"Policy: a (set of) rules, working-instructions, preferences and other guidance for the execution of one or more kinds of Actions, that Agents of the Party that Governs the policy have access to and can interpret such that this results in these Actions being executed as intended by that Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/policy\">policy</a> and use it as it executes <a hovertext=\"Action: something that is actually done (a 'unit of work' that is executed) by a single Actor (on behalf of a given Party), as a single operation, in a specific context.\" href=\"https://essif-lab.github.io/framework/docs/terms/action\">action</a> in such tasks.",
+    "anchor": "capability-of-a-party"
   },
   {
     "organisation": "Essif-Lab",
@@ -107,13 +107,6 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Compliance",
-    "definition": "the state of realization of a set of conformance criteria or normative framework of a <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>.",
-    "anchor": "compliance"
-  },
-  {
-    "organisation": "Essif-Lab",
-    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Compliance level",
     "definition": "a measure for stating how well an <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entity</a> conforms with a stated (set of) requirement(s).",
     "anchor": "compliance-level"
@@ -135,9 +128,9 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Concept",
-    "definition": "the ideas/thoughts behind a classification of <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entities</a> (what makes <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entities</a> in that class 'the same').",
-    "anchor": "concept"
+    "term": "Compliance",
+    "definition": "the state of realization of a set of conformance criteria or normative framework of a <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>.",
+    "anchor": "compliance"
   },
   {
     "organisation": "Essif-Lab",
@@ -149,9 +142,9 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Control",
-    "definition": "the combination of resources (e.g. people, tools, budgets, time) and processes that are tasked to realize a specific <a hovertext=\"Control objective (of a Party): an Objective, owned by that Party, that aims to contribute to the realization of another (set of) Objective(s) of that Party, by producing results that this Party needs to realize these other Objective(s).\" href=\"https://essif-lab.github.io/framework/docs/terms/control-objective\">control objective</a> of a particular <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>.",
-    "anchor": "control"
+    "term": "Concept",
+    "definition": "the ideas/thoughts behind a classification of <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entities</a> (what makes <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entities</a> in that class 'the same').",
+    "anchor": "concept"
   },
   {
     "organisation": "Essif-Lab",
@@ -177,6 +170,13 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
+    "term": "Control",
+    "definition": "the combination of resources (e.g. people, tools, budgets, time) and processes that are tasked to realize a specific <a hovertext=\"Control objective (of a Party): an Objective, owned by that Party, that aims to contribute to the realization of another (set of) Objective(s) of that Party, by producing results that this Party needs to realize these other Objective(s).\" href=\"https://essif-lab.github.io/framework/docs/terms/control-objective\">control objective</a> of a particular <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>.",
+    "anchor": "control"
+  },
+  {
+    "organisation": "Essif-Lab",
+    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Controller",
     "definition": "the role that an <a hovertext=\"Actor: Entity that can act (do things/execute Actions), e.g. people, machines, but not Organizations.\" href=\"https://essif-lab.github.io/framework/docs/terms/actor\">actor</a> performs as it is executing actions on that <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entity</a> for the purpose of ensuring that the <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entity</a> will act/behave, or be used, in a particular way.",
     "anchor": "controller"
@@ -198,15 +198,8 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Credential",
-    "definition": "data, representing a set of <a hovertext=\"Assertion: a declaration/statement, made by a specific Party, that something is the case.\" href=\"https://essif-lab.github.io/framework/docs/terms/assertion\">assertion</a> (claims, statements), authored and signed by, or on behalf of, a specific <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>.",
-    "anchor": "credential"
-  },
-  {
-    "organisation": "Essif-Lab",
-    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Credential Catalogue",
-    "definition": "a functional component that has the <a href=\"/framework/docs/capability-of-an-actor@\"></a> to register and advertise the information about <a hovertext=\"Credential Type: the specification of the contents, properties, constraints etc. that Credentials of this type must have/comply with.\" href=\"https://essif-lab.github.io/framework/docs/terms/credential-type\">credential types</a> that their respective <a hovertext=\"Governance: the act or process of governing or overseeing the realization of (the results associated with) a set of Objectives by the Owner of these Objectives, in order to ensure they will be fit for the purposes that this Owner intends to use them for.\" href=\"https://essif-lab.github.io/framework/docs/terms/governance\">governing parties</a> have decided to disclose so as to enable other <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> to decide whether or not it is beneficial for them to use <a hovertext=\"Credential: data, representing a set of Assertions (claims, statements), authored and signed by, or on behalf of, a specific Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/credential\">credential</a> of such types.",
+    "definition": "a functional component that has the <a hovertext=\"Capability (of an Actor): the potential of that Actor to execute a (named) coherent set of Actions (a 'function', or 'task') on behalf of some Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/capability-of-an-actor\">capability</a> to register and advertise the information about <a hovertext=\"Credential Type: the specification of the contents, properties, constraints etc. that Credentials of this type must have/comply with.\" href=\"https://essif-lab.github.io/framework/docs/terms/credential-type\">credential types</a> that their respective <a hovertext=\"Governance: the act or process of governing or overseeing the realization of (the results associated with) a set of Objectives by the Owner of these Objectives, in order to ensure they will be fit for the purposes that this Owner intends to use them for.\" href=\"https://essif-lab.github.io/framework/docs/terms/governance\">governing parties</a> have decided to disclose so as to enable other <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> to decide whether or not it is beneficial for them to use <a hovertext=\"Credential: data, representing a set of Assertions (claims, statements), authored and signed by, or on behalf of, a specific Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/credential\">credential</a> of such types.",
     "anchor": "credential-catalogue"
   },
   {
@@ -219,6 +212,13 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
+    "term": "Credential",
+    "definition": "data, representing a set of <a hovertext=\"Assertion: a declaration/statement, made by a specific Party, that something is the case.\" href=\"https://essif-lab.github.io/framework/docs/terms/assertion\">assertion</a> (claims, statements), authored and signed by, or on behalf of, a specific <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>.",
+    "anchor": "credential"
+  },
+  {
+    "organisation": "Essif-Lab",
+    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Data",
     "definition": "something (tangible) that can be used to communicate a meaning (which is intangible/information).",
     "anchor": "data"
@@ -226,16 +226,23 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Decentralized-grc",
-    "definition": "no <code>glossaryText</code> was specified for this entry.",
-    "anchor": "decentralized-grc"
+    "term": "Decentralized GRC Pattern",
+    "definition": "a set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a> and other <a href=\"/framework/docs/@\">semantic units</a> that can be used to explain one's thinking about topics related to Governance, Risk management and Compliance (GRC) in a decentralized context, i.e., a context in which <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> all autonomously do their own GRC.",
+    "anchor": "decentralized-grc-pattern"
   },
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Decentralized-risk-management",
-    "definition": "no <code>glossaryText</code> was specified for this entry.",
-    "anchor": "decentralized-risk-management"
+    "term": "Decentralized Risk Management Pattern",
+    "definition": "a set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a> and other <a href=\"/framework/docs/@\">semantic units</a> that can be used to explain how individual <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> can efficiently and effectively perform their own <a hovertext=\"Risk management: a process that is run by (or on behalf of) a specific Party for the purpose of Managing the Risks that it Owns (thereby realizing specific Risk Objectives).\" href=\"https://essif-lab.github.io/framework/docs/terms/risk-management\">risk management</a> processes, while taking into account that there are other <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> that have <a hovertext=\"Expectation (of a Party): an Objective that is Owned by that Party for having a specific (set of) result(s) produced, where the actual production thereof is (going to be) outsourced to another Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/expectation\">expectations</a> towards them.",
+    "anchor": "decentralized-risk-management-pattern"
+  },
+  {
+    "organisation": "Essif-Lab",
+    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
+    "term": "Decision Making Pattern",
+    "definition": "a set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a> and other <a href=\"/framework/docs/@\">semantic units</a> that can be used to explain how <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> would, could, or should reason in order to reach good conclusions and make good decisions. This can be used as a basis for understanding the information needs of <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> as they need to decide e.g. whether or not to commit to a <a hovertext=\"Transaction: the exchange of goods, services, funds, or data between some Parties (called Participants of the Transaction).\" href=\"https://essif-lab.github.io/framework/docs/terms/transaction\">Transaction</a> proposal, or whether or not data is <a hovertext=\"Validate/validation of data: the act, by or on behalf of a Party, of determining whether or not that data is valid to be used for some specific purpose(s) of that Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/validate\">valid</a> for some purpose. This pattern is based on <a href=\"https://www.cambridge.org/core/books/uses-of-argument/26CF801BC12004587B66778297D5567C\" target=\"_blank\" rel=\"noopener noreferrer\">Toulmin's use of arguments</a> (of which a pragmatical text can be found <a href=\"https://owl.purdue.edu/owl/general_writing/academic_writing/historical_perspectives_on_argumentation/toulmin_argument.html\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>)",
+    "anchor": "decision-making-pattern"
   },
   {
     "organisation": "Essif-Lab",
@@ -247,9 +254,9 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Decision-making",
-    "definition": "no <code>glossaryText</code> was specified for this entry.",
-    "anchor": "decision-making"
+    "term": "Define",
+    "definition": "to provide a criterion and a <a hovertext=\"Term: a word or phrase (i.e.: text) that is used in at least one Scope/context to represent a specific Concept.\" href=\"https://essif-lab.github.io/framework/docs/terms/term\">term</a>, where the criterion can be used by people to determine whether or not something is an instance/example of a <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concept</a> (or other <a href=\"https://tno-terminology-design.github.io/tev2-specifications/docs/terms/semantic-unit\" target=\"_blank\" rel=\"noopener noreferrer\" hovertext=\"a basic building block of meaning or representation that exists within the 'mind' of a party, e.g., a concept, relation, or property. Parties use terms (words/phrases) to refer to these intangible building blocks.\">semantic unit</a>), and the <a hovertext=\"Term: a word or phrase (i.e.: text) that is used in at least one Scope/context to represent a specific Concept.\" href=\"https://essif-lab.github.io/framework/docs/terms/term\">term</a> is used to refer to that <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concept</a>, or an arbitrary instance thereof.",
+    "anchor": "define"
   },
   {
     "organisation": "Essif-Lab",
@@ -275,16 +282,16 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Dictionary",
-    "definition": "an alphabetically sorted list of <a hovertext=\"Term: a word or phrase (i.e.: text) that is used in at least one Scope/context to represent a specific Concept.\" href=\"https://essif-lab.github.io/framework/docs/terms/term\">term</a> with various meanings they may have in different contexts.",
-    "anchor": "dictionary"
+    "term": "Dictionary-file",
+    "definition": "a file whose contents specifies the contents of a <a hovertext=\"Dictionary: an alphabetically sorted list of Terms with various meanings they may have in different contexts.\" href=\"https://essif-lab.github.io/framework/docs/terms/dictionary\">dictionary</a>.",
+    "anchor": "dictionary-file"
   },
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Dictionary-file",
-    "definition": "a file whose contents specifies the contents of a <a hovertext=\"Dictionary: an alphabetically sorted list of Terms with various meanings they may have in different contexts.\" href=\"https://essif-lab.github.io/framework/docs/terms/dictionary\">dictionary</a>.",
-    "anchor": "dictionary-file"
+    "term": "Dictionary",
+    "definition": "an alphabetically sorted list of <a hovertext=\"Term: a word or phrase (i.e.: text) that is used in at least one Scope/context to represent a specific Concept.\" href=\"https://essif-lab.github.io/framework/docs/terms/term\">term</a> with various meanings they may have in different contexts.",
+    "anchor": "dictionary"
   },
   {
     "organisation": "Essif-Lab",
@@ -296,9 +303,9 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Duties-and-rights",
-    "definition": "no <code>glossaryText</code> was specified for this entry.",
-    "anchor": "duties-and-rights"
+    "term": "Duties and Rights Pattern",
+    "definition": "a set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a> and other <a href=\"/framework/docs/@\">semantic units</a> that can be used to explain what a generic duties and rights consists of (based on <a href=\"https://plato.stanford.edu/entries/rights/#FormRighHohfAnalSyst\" target=\"_blank\" rel=\"noopener noreferrer\">Hofeld's theories</a>), and relates it to <a hovertext=\"Jurisdiction: the composition of a Legal System (legislation, enforcement thereof, and conflict resolution), a Party that governs that Legal System, a scope within which that Legal System is operational, and one or more Objectives for the purpose of which the Legal System is operated.\" href=\"https://essif-lab.github.io/framework/docs/terms/jurisdiction\">jurisdictions</a>, <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> and <a hovertext=\"Legal Entity (of a Jurisdiction): an Entity that is known by, recognized to exist, and registered in that Jurisdiction.\" href=\"https://essif-lab.github.io/framework/docs/terms/legal-entity\">legal entities</a>.",
+    "anchor": "duties-and-rights-pattern"
   },
   {
     "organisation": "Essif-Lab",
@@ -353,7 +360,7 @@
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Framework (Conceptual)",
-    "definition": "A set of assumptions, concepts, values, and practices that constitutes a way of viewing reality.",
+    "definition": "a set of assumptions, concepts, values, and practices that constitutes a way of viewing reality.",
     "anchor": "framework-conceptual"
   },
   {
@@ -373,16 +380,16 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Governance",
-    "definition": "the <a hovertext=\"Action: something that is actually done (a 'unit of work' that is executed) by a single Actor (on behalf of a given Party), as a single operation, in a specific context.\" href=\"https://essif-lab.github.io/framework/docs/terms/action\">act</a> or process of governing or overseeing the realization of (the results associated with) a set of <a hovertext=\"Objective: Something toward which a Party (its Owner) directs effort (an aim, goal, or end of action).\" href=\"https://essif-lab.github.io/framework/docs/terms/objective\">objective</a> by the <a hovertext=\"Owner (of an Entity): the role that a Party performs when it is exercising its legal, rightful or natural title to control that Entity.\" href=\"https://essif-lab.github.io/framework/docs/terms/owner\">owner</a> of these <a hovertext=\"Objective: Something toward which a Party (its Owner) directs effort (an aim, goal, or end of action).\" href=\"https://essif-lab.github.io/framework/docs/terms/objective\">objective</a>, in order to ensure they will be fit for the purposes that this <a hovertext=\"Owner (of an Entity): the role that a Party performs when it is exercising its legal, rightful or natural title to control that Entity.\" href=\"https://essif-lab.github.io/framework/docs/terms/owner\">owner</a> intends to use them for.",
-    "anchor": "governance"
+    "term": "Governance and Management Pattern",
+    "definition": "a set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a> and other <a href=\"/framework/docs/@\">semantic units</a> that can be used to explain how <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> organize that their <a hovertext=\"Objective: Something toward which a Party (its Owner) directs effort (an aim, goal, or end of action).\" href=\"https://essif-lab.github.io/framework/docs/terms/objective\">objectives</a> are realized, either by doing the associated work themselves, or by arranging for other <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> to do that.",
+    "anchor": "governance-and-management-pattern"
   },
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Governance-and-management",
-    "definition": "no <code>glossaryText</code> was specified for this entry.",
-    "anchor": "governance-and-management"
+    "term": "Governance",
+    "definition": "the <a hovertext=\"Action: something that is actually done (a 'unit of work' that is executed) by a single Actor (on behalf of a given Party), as a single operation, in a specific context.\" href=\"https://essif-lab.github.io/framework/docs/terms/action\">act</a> or process of governing or overseeing the realization of (the results associated with) a set of <a hovertext=\"Objective: Something toward which a Party (its Owner) directs effort (an aim, goal, or end of action).\" href=\"https://essif-lab.github.io/framework/docs/terms/objective\">objective</a> by the <a hovertext=\"Owner (of an Entity): the role that a Party performs when it is exercising its legal, rightful or natural title to control that Entity.\" href=\"https://essif-lab.github.io/framework/docs/terms/owner\">owner</a> of these <a hovertext=\"Objective: Something toward which a Party (its Owner) directs effort (an aim, goal, or end of action).\" href=\"https://essif-lab.github.io/framework/docs/terms/objective\">objective</a>, in order to ensure they will be fit for the purposes that this <a hovertext=\"Owner (of an Entity): the role that a Party performs when it is exercising its legal, rightful or natural title to control that Entity.\" href=\"https://essif-lab.github.io/framework/docs/terms/owner\">owner</a> intends to use them for.",
+    "anchor": "governance"
   },
   {
     "organisation": "Essif-Lab",
@@ -401,30 +408,30 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Guardianship",
-    "definition": "no <code>glossaryText</code> was specified for this entry.",
-    "anchor": "guardianship"
-  },
-  {
-    "organisation": "Essif-Lab",
-    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Guardianship Arrangement",
-    "definition": "Guardianship Arrangement (in a Jurisdiction): the specification of a set of rights and duties between <a hovertext=\"Legal Entity (of a Jurisdiction): an Entity that is known by, recognized to exist, and registered in that Jurisdiction.\" href=\"https://essif-lab.github.io/framework/docs/terms/legal-entity\">legal entities</a> of the <a hovertext=\"The Jurisdictions pattern captures the Concepts and relations that explain what a generic Jurisdiction consists of, and relates it to Parties and Legal Entities.\" href=\"https://essif-lab.github.io/framework/docs/terms/pattern-jurisdiction\">jurisdiction</a> that enforces these rights and duties, for the purpose of caring for and/or protecting/guarding/defending one or more of these <a hovertext=\"Legal Entity (of a Jurisdiction): an Entity that is known by, recognized to exist, and registered in that Jurisdiction.\" href=\"https://essif-lab.github.io/framework/docs/terms/legal-entity\">entities</a>.",
+    "definition": "guardianship Arrangement (in a Jurisdiction): the specification of a set of rights and duties between <a hovertext=\"Legal Entity (of a Jurisdiction): an Entity that is known by, recognized to exist, and registered in that Jurisdiction.\" href=\"https://essif-lab.github.io/framework/docs/terms/legal-entity\">legal entities</a> of the <a hovertext=\"Jurisdiction: the composition of a Legal System (legislation, enforcement thereof, and conflict resolution), a Party that governs that Legal System, a scope within which that Legal System is operational, and one or more Objectives for the purpose of which the Legal System is operated.\" href=\"https://essif-lab.github.io/framework/docs/terms/jurisdiction\">jurisdiction</a> that enforces these rights and duties, for the purpose of caring for and/or protecting/guarding/defending one or more of these <a hovertext=\"Legal Entity (of a Jurisdiction): an Entity that is known by, recognized to exist, and registered in that Jurisdiction.\" href=\"https://essif-lab.github.io/framework/docs/terms/legal-entity\">entities</a>.",
     "anchor": "guardianship-arrangement"
   },
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Guardianship-type",
-    "definition": "a class of <a hovertext=\"Guardianship Arrangement (in a Jurisdiction): a set of rights and duties between Legal Entities of the Jurisdiction that have been established and are enforced within that Jurisdiction for the purpose of caring for and/or protecting/guarding/defending one or more of these Entities.\" href=\"https://essif-lab.github.io/framework/docs/terms/guardianship-arrangement\">guardianship arrangements</a> within the <a hovertext=\"The Jurisdictions pattern captures the Concepts and relations that explain what a generic Jurisdiction consists of, and relates it to Parties and Legal Entities.\" href=\"https://essif-lab.github.io/framework/docs/terms/pattern-jurisdiction\">jurisdiction</a> that governs and manages them.",
+    "definition": "a class of <a hovertext=\"Guardianship Arrangement (in a Jurisdiction): a set of rights and duties between Legal Entities of the Jurisdiction that have been established and are enforced within that Jurisdiction for the purpose of caring for and/or protecting/guarding/defending one or more of these Entities.\" href=\"https://essif-lab.github.io/framework/docs/terms/guardianship-arrangement\">guardianship arrangements</a> within the <a hovertext=\"Jurisdiction: the composition of a Legal System (legislation, enforcement thereof, and conflict resolution), a Party that governs that Legal System, a scope within which that Legal System is operational, and one or more Objectives for the purpose of which the Legal System is operated.\" href=\"https://essif-lab.github.io/framework/docs/terms/jurisdiction\">jurisdiction</a> that governs and manages them.",
     "anchor": "guardianship-type"
   },
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Holder",
-    "definition": "a component that implements the <a hovertext=\"Capability (of a Party): the (named) combination of (a) the Party's means to get something done, (b) the Party's Governance process that that ensures that its (business) Policies for getting that something done are being created and maintained, and (c) the Party's Management process that creates and maintains the (operational) Policies, such that every Employee that has a task in getting this something done can find and interpret a Policy and use it as it executes Actions in such tasks.\" href=\"https://essif-lab.github.io/framework/docs/terms/capability\">capability</a> to handle <a hovertext=\"Presentation Request: a (signed) digital message that a Verifier component sends to a Holder component asking for specific data from one or more Verifiable Credentials that are issued by specific Parties.\" href=\"https://essif-lab.github.io/framework/docs/terms/presentation-request\">presentation requests</a> from a <a hovertext=\"Peer Agent (of some other Agent in a Communication Session): the Agent with whom/which this other Agent is communicating in that Communication Session.\" href=\"https://essif-lab.github.io/framework/docs/terms/peer-agent\">peer agent</a>, produce the requested data (a presentation) according to its <a hovertext=\"Principal (of an Actor): the Party for whom, or on behalf of whom, the Actor is executing an Action (this Actor is then called an Agent of that Party).\" href=\"https://essif-lab.github.io/framework/docs/terms/principal\">principal</a>'s <a hovertext=\"Holder Policy: a Digital Policy that contains the rules, working-instructions, preferences and other guidance for an operational Holder component to function in accordance with the Objectives of its Principal\" href=\"https://essif-lab.github.io/framework/docs/terms/holder-policy\">holder-policy</a>, and send that in response to the request.",
-    "anchor": "holder"
+    "term": "Guardianship (in a Jurisdiction)",
+    "definition": "the specification of a set of rights and duties between <a hovertext=\"Legal Entity (of a Jurisdiction): an Entity that is known by, recognized to exist, and registered in that Jurisdiction.\" href=\"https://essif-lab.github.io/framework/docs/terms/legal-entity\">legal entities</a> of the <a hovertext=\"Jurisdiction: the composition of a Legal System (legislation, enforcement thereof, and conflict resolution), a Party that governs that Legal System, a scope within which that Legal System is operational, and one or more Objectives for the purpose of which the Legal System is operated.\" href=\"https://essif-lab.github.io/framework/docs/terms/jurisdiction\">jurisdiction</a> that enforces these rights and duties, for the purpose of caring for and/or protecting/guarding/defending one or more of these <a hovertext=\"Legal Entity (of a Jurisdiction): an Entity that is known by, recognized to exist, and registered in that Jurisdiction.\" href=\"https://essif-lab.github.io/framework/docs/terms/legal-entity\">entities</a>. (Synonym of <a hovertext=\"Guardianship Arrangement (in a Jurisdiction): a set of rights and duties between Legal Entities of the Jurisdiction that have been established and are enforced within that Jurisdiction for the purpose of caring for and/or protecting/guarding/defending one or more of these Entities.\" href=\"https://essif-lab.github.io/framework/docs/terms/guardianship-arrangement\">Guardianship Arrangement</a>)",
+    "anchor": "guardianship-in-a-jurisdiction"
+  },
+  {
+    "organisation": "Essif-Lab",
+    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
+    "term": "Guardianship Pattetrn",
+    "definition": "a set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a> and other <a href=\"/framework/docs/@\">semantic units</a> that can be used to explain what a generic <a hovertext=\"Guardianship (in a Jurisdiction): the specification of a set of rights and duties between Legal Entities of the Jurisdiction that enforces these rights and duties, for the purpose of caring for and/or protecting/guarding/defending one or more of these Entities. (Synonym of Guardianship Arrangement)\" href=\"https://essif-lab.github.io/framework/docs/terms/guardianship\">guardianship</a> consists of, and how it relates to <a hovertext=\"Guardian: a Party that has been assigned rights and duties in a Guardianship Arrangement for the purpose of caring for and/or protecting/guarding/defending the Entity that is the Dependent in that Guardianship Arrangement.\" href=\"https://essif-lab.github.io/framework/docs/terms/guardian\">guardians</a>, <a hovertext=\"Dependent (in a Guardianship Arrangement): an Entity for the caring for and/or protecting/guarding/defending of which a Guardianship Arrangement has been established.\" href=\"https://essif-lab.github.io/framework/docs/terms/dependent\">dependents</a>, <a hovertext=\"Jurisdiction: the composition of a Legal System (legislation, enforcement thereof, and conflict resolution), a Party that governs that Legal System, a scope within which that Legal System is operational, and one or more Objectives for the purpose of which the Legal System is operated.\" href=\"https://essif-lab.github.io/framework/docs/terms/jurisdiction\">jurisdictions</a>, etc.",
+    "anchor": "guardianship-pattetrn"
   },
   {
     "organisation": "Essif-Lab",
@@ -436,16 +443,23 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
+    "term": "Holder",
+    "definition": "a component that implements the <a hovertext=\"Capability (of a Party): the (named) combination of (a) the Party's means to get something done, (b) the Party's Governance process that that ensures that its (business) Policies for getting that something done are being created and maintained, and (c) the Party's Management process that creates and maintains the (operational) Policies, such that every Employee that has a task in getting this something done can find and interpret a Policy and use it as it executes Actions in such tasks.\" href=\"https://essif-lab.github.io/framework/docs/terms/capability\">capability</a> to handle <a hovertext=\"Presentation Request: a (signed) digital message that a Verifier component sends to a Holder component asking for specific data from one or more Verifiable Credentials that are issued by specific Parties.\" href=\"https://essif-lab.github.io/framework/docs/terms/presentation-request\">presentation requests</a> from a <a hovertext=\"Peer Agent (of some other Agent in a Communication Session): the Agent with whom/which this other Agent is communicating in that Communication Session.\" href=\"https://essif-lab.github.io/framework/docs/terms/peer-agent\">peer agent</a>, produce the requested data (a presentation) according to its <a hovertext=\"Principal (of an Actor): the Party for whom, or on behalf of whom, the Actor is executing an Action (this Actor is then called an Agent of that Party).\" href=\"https://essif-lab.github.io/framework/docs/terms/principal\">principal</a>'s <a hovertext=\"Holder Policy: a Digital Policy that contains the rules, working-instructions, preferences and other guidance for an operational Holder component to function in accordance with the Objectives of its Principal\" href=\"https://essif-lab.github.io/framework/docs/terms/holder-policy\">holder-policy</a>, and send that in response to the request.",
+    "anchor": "holder"
+  },
+  {
+    "organisation": "Essif-Lab",
+    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Human Being",
-    "definition": "a person of flesh and blood (homo sapiens), that we classify both as a <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>,an <a hovertext=\"Actor: Entity that can act (do things/execute Actions), e.g. people, machines, but not Organizations.\" href=\"https://essif-lab.github.io/framework/docs/terms/actor\">actor</a>, and a <a hovertext=\"The Jurisdictions pattern captures the Concepts and relations that explain what a generic Jurisdiction consists of, and relates it to Parties and Legal Entities.\" href=\"https://essif-lab.github.io/framework/docs/terms/pattern-jurisdiction\">jurisdiction</a>.",
+    "definition": "a person of flesh and blood (homo sapiens), that we classify both as a <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>,an <a hovertext=\"Actor: Entity that can act (do things/execute Actions), e.g. people, machines, but not Organizations.\" href=\"https://essif-lab.github.io/framework/docs/terms/actor\">actor</a>, and a <a hovertext=\"Jurisdiction: the composition of a Legal System (legislation, enforcement thereof, and conflict resolution), a Party that governs that Legal System, a scope within which that Legal System is operational, and one or more Objectives for the purpose of which the Legal System is operated.\" href=\"https://essif-lab.github.io/framework/docs/terms/jurisdiction\">jurisdiction</a>.",
     "anchor": "human-being"
   },
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Identification",
-    "definition": "no <code>glossaryText</code> was specified for this entry.",
-    "anchor": "identification"
+    "term": "Identification Pattern",
+    "definition": "a set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a> and other <a href=\"/framework/docs/@\">semantic units</a> that can be used to explain the mechanisms that <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> may use to <a hovertext=\"Identify: an Act, by or on behalf of a Party, that results in the selection of either (a) a single Partial identity that the party Owns, given some (observed or received) data, or (b) a single Entity from a given set of entities that is the Subject of a specified Partial identity that the party Owns.\" href=\"https://essif-lab.github.io/framework/docs/terms/identify\">identify</a> <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entities</a>, and mechanisms for communicating with another <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> such that both <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> can <a hovertext=\"Identify: an Act, by or on behalf of a Party, that results in the selection of either (a) a single Partial identity that the party Owns, given some (observed or received) data, or (b) a single Entity from a given set of entities that is the Subject of a specified Partial identity that the party Owns.\" href=\"https://essif-lab.github.io/framework/docs/terms/identify\">identify</a> an <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entity</a> and know whether or not they <a hovertext=\"Identify: an Act, by or on behalf of a Party, that results in the selection of either (a) a single Partial identity that the party Owns, given some (observed or received) data, or (b) a single Entity from a given set of entities that is the Subject of a specified Partial identity that the party Owns.\" href=\"https://essif-lab.github.io/framework/docs/terms/identify\">identify</a> the same <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entity</a>.",
+    "anchor": "identification-pattern"
   },
   {
     "organisation": "Essif-Lab",
@@ -453,6 +467,13 @@
     "term": "Identifier",
     "definition": "a character string that is being used for the identification of some <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entity</a> (yet may refer to 0, 1, or more <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entities</a>, depending on the context within which it is being used).",
     "anchor": "identifier"
+  },
+  {
+    "organisation": "Essif-Lab",
+    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
+    "term": "Identifier Pattern",
+    "definition": "a set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a> and other <a href=\"/framework/docs/@\">semantic units</a> that can be used to explain how <a hovertext=\"Identifier: a character string that is being used for the identification of some Entity (yet may refer to 0, 1, or more Entities, depending on the context within which it is being used).\" href=\"https://essif-lab.github.io/framework/docs/terms/identifier\">identifiers</a> are defined and used for <a hovertext=\"The eSSIF-Lab Identification Pattern describes mechanisms that a Party uses to Identify Entities, and mechanisms for communicating with another Party such that both Parties can identify an entity and know whether or not they identify the same entity.\" href=\"https://essif-lab.github.io/framework/docs/terms/pattern-identification\">identification</a> purposes.",
+    "anchor": "identifier-pattern"
   },
   {
     "organisation": "Essif-Lab",
@@ -471,16 +492,16 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Information Process",
-    "definition": "A coherent set of <!-- -->[actions@]<!-- --> that are (to be) performed by a single <!-- -->[party@]<!-- -->, in which <a hovertext=\"Data: something (tangible) that can be used to communicate a meaning (which is intangible/information).\" href=\"https://essif-lab.github.io/framework/docs/terms/data\">data</a> (that is controlled by this <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a> is created, read, updated and/or deleted.",
-    "anchor": "information-process"
+    "term": "Identity Pattern",
+    "definition": "a set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a> and other <a href=\"/framework/docs/@\">semantic units</a> that can be used to explain how <a hovertext=\"Identity (of an Entity): the combined Knowledge about that Entity of all Parties, i.e. the union of all Partial Identities of which that Entity is the Subject.\" href=\"https://essif-lab.github.io/framework/docs/terms/identity\">digital identities</a> work, how this relates to (attributes in) <a hovertext=\"Credential: data, representing a set of Assertions (claims, statements), authored and signed by, or on behalf of, a specific Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/credential\">credentials</a>, and how all this can be made to work in <a hovertext=\"SSI (Self-Sovereign Identity): a term that has many different interpretations, and that we use to refer to concepts/ideas, architectures, processes and technologies that aim to support (autonomous) Parties as they negotiate and execute electronic Transactions with one another.\" href=\"https://essif-lab.github.io/framework/docs/terms/ssi\">SSI</a> contexts.",
+    "anchor": "identity-pattern"
   },
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Issuer",
-    "definition": "a component that implements the <a hovertext=\"Capability (of a Party): the (named) combination of (a) the Party's means to get something done, (b) the Party's Governance process that that ensures that its (business) Policies for getting that something done are being created and maintained, and (c) the Party's Management process that creates and maintains the (operational) Policies, such that every Employee that has a task in getting this something done can find and interpret a Policy and use it as it executes Actions in such tasks.\" href=\"https://essif-lab.github.io/framework/docs/terms/capability\">capability</a> to construct <a hovertext=\"Credential: data, representing a set of Assertions (claims, statements), authored and signed by, or on behalf of, a specific Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/credential\">credential</a> from data objects, according to the content of its <a hovertext=\"Principal (of an Actor): the Party for whom, or on behalf of whom, the Actor is executing an Action (this Actor is then called an Agent of that Party).\" href=\"https://essif-lab.github.io/framework/docs/terms/principal\">principal</a>'s <a hovertext=\"Issuer (functional component): a component that implements the Capability to construct Credentials from data objects, according to the content of its Principal's Issuer-Policy (specifically regarding the way in which the Credential is to be digitally signed), and pass it to the Wallet-component of its Principal allowing it to be issued.\" href=\"https://essif-lab.github.io/framework/docs/terms/issuer\">issuer</a>-Policy (specifically regarding the way in which the <a hovertext=\"Credential: data, representing a set of Assertions (claims, statements), authored and signed by, or on behalf of, a specific Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/credential\">credential</a> is to be digitally signed), and pass it to the <a hovertext=\"Wallet (functional component): a component that implements the Capability to securely store data as requested by Colleague Agents, and to provide stored data to Colleague Agents or Peer Agents, all in Compliance with the rules of its Principal's Wallet Policy.\" href=\"https://essif-lab.github.io/framework/docs/terms/wallet\">wallet</a>-component of its <a hovertext=\"Principal (of an Actor): the Party for whom, or on behalf of whom, the Actor is executing an Action (this Actor is then called an Agent of that Party).\" href=\"https://essif-lab.github.io/framework/docs/terms/principal\">principal</a> allowing it to be issued.",
-    "anchor": "issuer"
+    "term": "Information Process",
+    "definition": "a coherent set of <!-- -->[actions@]<!-- --> that are (to be) performed by a single <!-- -->[party@]<!-- -->, in which <a hovertext=\"Data: something (tangible) that can be used to communicate a meaning (which is intangible/information).\" href=\"https://essif-lab.github.io/framework/docs/terms/data\">data</a> (that is controlled by this <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a> is created, read, updated and/or deleted.",
+    "anchor": "information-process"
   },
   {
     "organisation": "Essif-Lab",
@@ -492,29 +513,43 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
+    "term": "Issuer",
+    "definition": "a component that implements the <a hovertext=\"Capability (of a Party): the (named) combination of (a) the Party's means to get something done, (b) the Party's Governance process that that ensures that its (business) Policies for getting that something done are being created and maintained, and (c) the Party's Management process that creates and maintains the (operational) Policies, such that every Employee that has a task in getting this something done can find and interpret a Policy and use it as it executes Actions in such tasks.\" href=\"https://essif-lab.github.io/framework/docs/terms/capability\">capability</a> to construct <a hovertext=\"Credential: data, representing a set of Assertions (claims, statements), authored and signed by, or on behalf of, a specific Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/credential\">credential</a> from data objects, according to the content of its <a hovertext=\"Principal (of an Actor): the Party for whom, or on behalf of whom, the Actor is executing an Action (this Actor is then called an Agent of that Party).\" href=\"https://essif-lab.github.io/framework/docs/terms/principal\">principal</a>'s <a hovertext=\"Issuer (functional component): a component that implements the Capability to construct Credentials from data objects, according to the content of its Principal's Issuer-Policy (specifically regarding the way in which the Credential is to be digitally signed), and pass it to the Wallet-component of its Principal allowing it to be issued.\" href=\"https://essif-lab.github.io/framework/docs/terms/issuer\">issuer</a>-Policy (specifically regarding the way in which the <a hovertext=\"Credential: data, representing a set of Assertions (claims, statements), authored and signed by, or on behalf of, a specific Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/credential\">credential</a> is to be digitally signed), and pass it to the <a hovertext=\"Wallet (functional component): a component that implements the Capability to securely store data as requested by Colleague Agents, and to provide stored data to Colleague Agents or Peer Agents, all in Compliance with the rules of its Principal's Wallet Policy.\" href=\"https://essif-lab.github.io/framework/docs/terms/wallet\">wallet</a>-component of its <a hovertext=\"Principal (of an Actor): the Party for whom, or on behalf of whom, the Actor is executing an Action (this Actor is then called an Agent of that Party).\" href=\"https://essif-lab.github.io/framework/docs/terms/principal\">principal</a> allowing it to be issued.",
+    "anchor": "issuer"
+  },
+  {
+    "organisation": "Essif-Lab",
+    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Jurisdiction",
-    "definition": "no <code>glossaryText</code> was specified for this entry.",
+    "definition": "the composition of a <a hovertext=\"Legal-system: a system in which rules are defined, and mechanisms for their enforcement and conflict resolution are (implicitly or explicitly) specified.\" href=\"https://essif-lab.github.io/framework/docs/terms/legal-system\">legal system</a> (legislation, enforcement thereof, and conflict resolution), a <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a> that governs that <a hovertext=\"Legal-system: a system in which rules are defined, and mechanisms for their enforcement and conflict resolution are (implicitly or explicitly) specified.\" href=\"https://essif-lab.github.io/framework/docs/terms/legal-system\">legal system</a>, a scope within which that <a hovertext=\"Legal-system: a system in which rules are defined, and mechanisms for their enforcement and conflict resolution are (implicitly or explicitly) specified.\" href=\"https://essif-lab.github.io/framework/docs/terms/legal-system\">legal system</a> is operational, and one or more <a hovertext=\"Objective: Something toward which a Party (its Owner) directs effort (an aim, goal, or end of action).\" href=\"https://essif-lab.github.io/framework/docs/terms/objective\">objective</a> for the purpose of which the <a hovertext=\"Legal-system: a system in which rules are defined, and mechanisms for their enforcement and conflict resolution are (implicitly or explicitly) specified.\" href=\"https://essif-lab.github.io/framework/docs/terms/legal-system\">legal system</a> is operated. See also the <a href=\"/framework/docs/pattern-jurisdiction@\">Jurisdictions pattern</a>.",
     "anchor": "jurisdiction"
   },
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
+    "term": "Jurisdiction Pattern",
+    "definition": "a set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a> and other <a href=\"/framework/docs/@\">semantic units</a> that can be used to explain what a generic <a hovertext=\"Jurisdiction: the composition of a Legal System (legislation, enforcement thereof, and conflict resolution), a Party that governs that Legal System, a scope within which that Legal System is operational, and one or more Objectives for the purpose of which the Legal System is operated.\" href=\"https://essif-lab.github.io/framework/docs/terms/jurisdiction\">jurisdiction</a> consists of, and relates it to <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> and <a hovertext=\"Legal Entity (of a Jurisdiction): an Entity that is known by, recognized to exist, and registered in that Jurisdiction.\" href=\"https://essif-lab.github.io/framework/docs/terms/legal-entity\">legal entities</a>.",
+    "anchor": "jurisdiction-pattern"
+  },
+  {
+    "organisation": "Essif-Lab",
+    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Knowledge",
-    "definition": "The (intangible) sum of what is known by a specific <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>, as well as the familiarity, awareness or understanding of someone or something by that <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>.",
+    "definition": "the (intangible) sum of what is known by a specific <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>, as well as the familiarity, awareness or understanding of someone or something by that <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>.",
     "anchor": "knowledge"
   },
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Legal Entity",
-    "definition": "an <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entity</a> that is known by, recognized to exist, and registered in that <a hovertext=\"The Jurisdictions pattern captures the Concepts and relations that explain what a generic Jurisdiction consists of, and relates it to Parties and Legal Entities.\" href=\"https://essif-lab.github.io/framework/docs/terms/pattern-jurisdiction\">jurisdiction</a>.",
+    "definition": "an <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entity</a> that is known by, recognized to exist, and registered in that <a hovertext=\"Jurisdiction: the composition of a Legal System (legislation, enforcement thereof, and conflict resolution), a Party that governs that Legal System, a scope within which that Legal System is operational, and one or more Objectives for the purpose of which the Legal System is operated.\" href=\"https://essif-lab.github.io/framework/docs/terms/jurisdiction\">jurisdiction</a>.",
     "anchor": "legal-entity"
   },
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Legal Jurisdiction",
-    "definition": "a <a hovertext=\"The Jurisdictions pattern captures the Concepts and relations that explain what a generic Jurisdiction consists of, and relates it to Parties and Legal Entities.\" href=\"https://essif-lab.github.io/framework/docs/terms/pattern-jurisdiction\">jurisdiction</a> that is governed/operated by a governmental body.",
+    "definition": "a <a hovertext=\"Jurisdiction: the composition of a Legal System (legislation, enforcement thereof, and conflict resolution), a Party that governs that Legal System, a scope within which that Legal System is operational, and one or more Objectives for the purpose of which the Legal System is operated.\" href=\"https://essif-lab.github.io/framework/docs/terms/jurisdiction\">jurisdiction</a> that is governed/operated by a governmental body.",
     "anchor": "legal-jurisdiction"
   },
   {
@@ -541,16 +576,23 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Mandates-delegation-hiring",
-    "definition": "no <code>glossaryText</code> was specified for this entry.",
-    "anchor": "mandates-delegation-hiring"
+    "term": "Mandates, Delegation and Hiring Pattern",
+    "definition": "a set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a> and other <a href=\"/framework/docs/@\">semantic units</a> that can be used to explain the ideas behind Mandating, Delegating, Hiring and their relations.",
+    "anchor": "mandates-delegation-and-hiring-pattern"
   },
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Mental-model",
-    "definition": "no <code>glossaryText</code> was specified for this entry.",
+    "term": "Mental Model",
+    "definition": "a description, both casual and formal, of a set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concept</a> (ideas), relations between them, and constraints, that together form a coherent and consistent 'viewpoint', or 'way of thinking' about a certain topic.",
     "anchor": "mental-model"
+  },
+  {
+    "organisation": "Essif-Lab",
+    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
+    "term": "Mental Model Pattern",
+    "definition": "a set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a> and other <a href=\"/framework/docs/@\">semantic units</a> that can be used to explain how to create, maintain and use (decentralized) <a hovertext=\"Vocabulary: the sum or stock of words employed by a language, group, individual, or work or in a field of knowledge.\" href=\"https://essif-lab.github.io/framework/docs/terms/vocabulary\">vocabularies</a> (<a hovertext=\"Terminology (in/of a Scope): the set of terms that are used within a single Scope to refer to a single Definition, enabling Parties to reason and communicate ideas they have about one or more specific topics.\" href=\"https://essif-lab.github.io/framework/docs/terms/terminology\">terminologies</a>) that groups of people can use for the specific purposes they pursue.",
+    "anchor": "mental-model-pattern"
   },
   {
     "organisation": "Essif-Lab",
@@ -570,7 +612,7 @@
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Objective",
-    "definition": "Something toward which a <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a> (its <a hovertext=\"Owner (of an Entity): the role that a Party performs when it is exercising its legal, rightful or natural title to control that Entity.\" href=\"https://essif-lab.github.io/framework/docs/terms/owner\">owner</a>) directs effort (an aim, goal, or end of action).",
+    "definition": "something toward which a <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a> (its <a hovertext=\"Owner (of an Entity): the role that a Party performs when it is exercising its legal, rightful or natural title to control that Entity.\" href=\"https://essif-lab.github.io/framework/docs/terms/owner\">owner</a>) directs effort (an aim, goal, or end of action).",
     "anchor": "objective"
   },
   {
@@ -584,7 +626,7 @@
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Onboarding",
-    "definition": "A process that is run for a specific (set of) <a hovertext=\"Actor: Entity that can act (do things/execute Actions), e.g. people, machines, but not Organizations.\" href=\"https://essif-lab.github.io/framework/docs/terms/actor\">actor</a> on behalf of a specific <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>, that terminates successfully if and  only if the <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a> has (a) established the suitability of the <a hovertext=\"Actor: Entity that can act (do things/execute Actions), e.g. people, machines, but not Organizations.\" href=\"https://essif-lab.github.io/framework/docs/terms/actor\">actor</a> for executing certain kinds of <a hovertext=\"Action: something that is actually done (a 'unit of work' that is executed) by a single Actor (on behalf of a given Party), as a single operation, in a specific context.\" href=\"https://essif-lab.github.io/framework/docs/terms/action\">action</a> on its behalf, (b) ensured that their mutual rights and duties are properly specified and will be appropriately enforced, and (c) provided the circumstances/contexts within which the <a hovertext=\"Actor: Entity that can act (do things/execute Actions), e.g. people, machines, but not Organizations.\" href=\"https://essif-lab.github.io/framework/docs/terms/actor\">actor</a> is enabled to do so.",
+    "definition": "a process that is run for a specific (set of) <a hovertext=\"Actor: Entity that can act (do things/execute Actions), e.g. people, machines, but not Organizations.\" href=\"https://essif-lab.github.io/framework/docs/terms/actor\">actor</a> on behalf of a specific <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>, that terminates successfully if and  only if the <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a> has (a) established the suitability of the <a hovertext=\"Actor: Entity that can act (do things/execute Actions), e.g. people, machines, but not Organizations.\" href=\"https://essif-lab.github.io/framework/docs/terms/actor\">actor</a> for executing certain kinds of <a hovertext=\"Action: something that is actually done (a 'unit of work' that is executed) by a single Actor (on behalf of a given Party), as a single operation, in a specific context.\" href=\"https://essif-lab.github.io/framework/docs/terms/action\">action</a> on its behalf, (b) ensured that their mutual rights and duties are properly specified and will be appropriately enforced, and (c) provided the circumstances/contexts within which the <a hovertext=\"Actor: Entity that can act (do things/execute Actions), e.g. people, machines, but not Organizations.\" href=\"https://essif-lab.github.io/framework/docs/terms/actor\">actor</a> is enabled to do so.",
     "anchor": "onboarding"
   },
   {
@@ -605,7 +647,7 @@
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Owned",
-    "definition": "an <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entity</a> over which another <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entity</a> (its <a hovertext=\"Owner (of an Entity): the role that a Party performs when it is exercising its legal, rightful or natural title to control that Entity.\" href=\"https://essif-lab.github.io/framework/docs/terms/owner\">owner</a>) has the power (duty, right) to enjoy it, dispose of it and control it; that power is limited to (the scope of) that <a hovertext=\"The Jurisdictions pattern captures the Concepts and relations that explain what a generic Jurisdiction consists of, and relates it to Parties and Legal Entities.\" href=\"https://essif-lab.github.io/framework/docs/terms/pattern-jurisdiction\">jurisdiction</a>, and by its rules.",
+    "definition": "an <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entity</a> over which another <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entity</a> (its <a hovertext=\"Owner (of an Entity): the role that a Party performs when it is exercising its legal, rightful or natural title to control that Entity.\" href=\"https://essif-lab.github.io/framework/docs/terms/owner\">owner</a>) has the power (duty, right) to enjoy it, dispose of it and control it; that power is limited to (the scope of) that <a hovertext=\"Jurisdiction: the composition of a Legal System (legislation, enforcement thereof, and conflict resolution), a Party that governs that Legal System, a scope within which that Legal System is operational, and one or more Objectives for the purpose of which the Legal System is operated.\" href=\"https://essif-lab.github.io/framework/docs/terms/jurisdiction\">jurisdiction</a>, and by its rules.",
     "anchor": "owned"
   },
   {
@@ -619,7 +661,7 @@
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Ownership",
-    "definition": "a relationship between two <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entities</a> that exists within the <a hovertext=\"Scope of Control (of a Party): the extent of the area or subject matter that the Party controls.\" href=\"https://essif-lab.github.io/framework/docs/terms/scope-of-control\">scope of control</a> of a <a hovertext=\"The Jurisdictions pattern captures the Concepts and relations that explain what a generic Jurisdiction consists of, and relates it to Parties and Legal Entities.\" href=\"https://essif-lab.github.io/framework/docs/terms/pattern-jurisdiction\">jurisdiction</a>, in which one of them (called the <a hovertext=\"Owner (of an Entity): the role that a Party performs when it is exercising its legal, rightful or natural title to control that Entity.\" href=\"https://essif-lab.github.io/framework/docs/terms/owner\">owner</a>) has legal, rightful or natural rights and/or duties to enjoy, dispose of, and control the other (called the <a hovertext=\"Owned (by an Owner, in some Jurisdiction): an Entity over which another Entity (its Owner) has the power (duty, right) to enjoy it, dispose of it and control it; that power is limited to (the scope of) that Jurisdiction, and by its rules.\" href=\"https://essif-lab.github.io/framework/docs/terms/owned\">owned</a>).",
+    "definition": "a relationship between two <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entities</a> that exists within the <a hovertext=\"Scope of Control (of a Party): the extent of the area or subject matter that the Party controls.\" href=\"https://essif-lab.github.io/framework/docs/terms/scope-of-control\">scope of control</a> of a <a hovertext=\"Jurisdiction: the composition of a Legal System (legislation, enforcement thereof, and conflict resolution), a Party that governs that Legal System, a scope within which that Legal System is operational, and one or more Objectives for the purpose of which the Legal System is operated.\" href=\"https://essif-lab.github.io/framework/docs/terms/jurisdiction\">jurisdiction</a>, in which one of them (called the <a hovertext=\"Owner (of an Entity): the role that a Party performs when it is exercising its legal, rightful or natural title to control that Entity.\" href=\"https://essif-lab.github.io/framework/docs/terms/owner\">owner</a>) has legal, rightful or natural rights and/or duties to enjoy, dispose of, and control the other (called the <a hovertext=\"Owned (by an Owner, in some Jurisdiction): an Entity over which another Entity (its Owner) has the power (duty, right) to enjoy it, dispose of it and control it; that power is limited to (the scope of) that Jurisdiction, and by its rules.\" href=\"https://essif-lab.github.io/framework/docs/terms/owned\">owned</a>).",
     "anchor": "ownership"
   },
   {
@@ -639,30 +681,23 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
+    "term": "Party, Actor and Actions Pattern",
+    "definition": "a set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a> and other <a href=\"/framework/docs/@\">semantic units</a> that can be used to explain how things get done. It answers questions such as: 'Who/what does things?', 'How are their actions being guided/controlled?', 'Who controls whom/what?', 'Who/what may be held accountable?'.",
+    "anchor": "party-actor-and-actions-pattern"
+  },
+  {
+    "organisation": "Essif-Lab",
+    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
+    "term": "Party Representation Pattern",
+    "definition": "a set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a> and other <a href=\"/framework/docs/@\">semantic units</a> that can be used to explain how <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> can be represented in various circumstances.",
+    "anchor": "party-representation-pattern"
+  },
+  {
+    "organisation": "Essif-Lab",
+    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Party",
     "definition": "an <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entity</a> that sets its <a hovertext=\"Objective: Something toward which a Party (its Owner) directs effort (an aim, goal, or end of action).\" href=\"https://essif-lab.github.io/framework/docs/terms/objective\">objective</a>, maintains its <a hovertext=\"Knowledge: The (intangible) sum of what is known by a specific Party, as well as the familiarity, awareness or understanding of someone or something by that Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/knowledge\">knowledge</a>, and uses that <a hovertext=\"Knowledge: The (intangible) sum of what is known by a specific Party, as well as the familiarity, awareness or understanding of someone or something by that Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/knowledge\">knowledge</a> to pursue its <a hovertext=\"Objective: Something toward which a Party (its Owner) directs effort (an aim, goal, or end of action).\" href=\"https://essif-lab.github.io/framework/docs/terms/objective\">objective</a> in an autonomous (sovereign) manner. Humans and <a hovertext=\"Organization: a Party that is capable of setting Objectives and making sure these are realized by Actors that it has Onboarded and/or by (vetted) Parties that are committed to contribute to these Objectives.\" href=\"https://essif-lab.github.io/framework/docs/terms/organization\">organization</a> are the typical examples.",
     "anchor": "party"
-  },
-  {
-    "organisation": "Essif-Lab",
-    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Parties, Actors and Actions",
-    "definition": "'Who/what does things?', 'How are their <a hovertext=\"Action: something that is actually done (a 'unit of work' that is executed) by a single Actor (on behalf of a given Party), as a single operation, in a specific context.\" href=\"https://essif-lab.github.io/framework/docs/terms/action\">action</a> being guided/<a hovertext=\"Controller (of an Entity): the role that an Actor performs as it is executing actions on that Entity for the purpose of ensuring that the Entity will act/behave, or be used, in a particular way.\" href=\"https://essif-lab.github.io/framework/docs/terms/controller\">controlled</a>?', 'Who <a hovertext=\"Controller (of an Entity): the role that an Actor performs as it is executing actions on that Entity for the purpose of ensuring that the Entity will act/behave, or be used, in a particular way.\" href=\"https://essif-lab.github.io/framework/docs/terms/controller\">controls</a> whom/what?', 'Who/what may be held accountable?'.",
-    "anchor": "parties-actors-and-actions"
-  },
-  {
-    "organisation": "Essif-Lab",
-    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Party Representation",
-    "definition": "The Party Representation pattern captures the foundational concepts and relations that we need for thinking about how <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> can be represented in various circumstances.",
-    "anchor": "party-representation"
-  },
-  {
-    "organisation": "Essif-Lab",
-    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Pattern",
-    "definition": "A description, both casual and formal, of a set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concept</a> (ideas), relations between them, and constraints, that together form a coherent and consistent 'viewpoint', or 'way of thinking' about a certain topic.",
-    "anchor": "pattern"
   },
   {
     "organisation": "Essif-Lab",
@@ -674,16 +709,9 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Pattern-identifier",
-    "definition": "no <code>glossaryText</code> was specified for this entry.",
-    "anchor": "pattern-identifier"
-  },
-  {
-    "organisation": "Essif-Lab",
-    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Pattern-identity",
-    "definition": "no <code>glossaryText</code> was specified for this entry.",
-    "anchor": "pattern-identity"
+    "term": "Pattern",
+    "definition": "a description, both casual and formal, of a set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concept</a> (ideas), relations between them, and constraints, that together form a coherent and consistent 'viewpoint', or 'way of thinking' about a certain topic.",
+    "anchor": "pattern"
   },
   {
     "organisation": "Essif-Lab",
@@ -716,16 +744,16 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Presentation",
-    "definition": "a (signed) digital message that a <a hovertext=\"Holder (functional component): a component that implements the Capability to handle presentation requests from a Peer Agent, produce the requested data (a presentation) according to its Principal's holder-policy, and send that in response to the request.\" href=\"https://essif-lab.github.io/framework/docs/terms/holder\">holder</a> component may send to a <a hovertext=\"Verifier (functional component): a component that implements the Capability to request Peer Agents to present (provide) data from credentials (of a specified kind, issued by specified Parties), and to verify such responses (check structure, signatures, dates), according to its Principal's Verifier Policy.\" href=\"https://essif-lab.github.io/framework/docs/terms/verifier\">verifier</a> component that contains data derived from one or more <a hovertext=\"Verify/verification of data: the act, by or on behalf of a Party, of determining whether that data is authentic (i.e. originates from the Party that authored it), timely (i.e. has not expired), and conforms to other specifications that apply to its structure.\" href=\"https://essif-lab.github.io/framework/docs/terms/verify\">verifiable</a> <a hovertext=\"Credential: data, representing a set of Assertions (claims, statements), authored and signed by, or on behalf of, a specific Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/credential\">credential</a> (that (a <a hovertext=\"Colleagues: two or more (digital or non-digital) Agents that have the same Principal (i.e. Party on whose behalf they are executing an Action).\" href=\"https://essif-lab.github.io/framework/docs/terms/colleague\">colleague</a> component of) the <a hovertext=\"Holder (functional component): a component that implements the Capability to handle presentation requests from a Peer Agent, produce the requested data (a presentation) according to its Principal's holder-policy, and send that in response to the request.\" href=\"https://essif-lab.github.io/framework/docs/terms/holder\">holder</a> component has received from <a hovertext=\"Issuer (functional component): a component that implements the Capability to construct Credentials from data objects, according to the content of its Principal's Issuer-Policy (specifically regarding the way in which the Credential is to be digitally signed), and pass it to the Wallet-component of its Principal allowing it to be issued.\" href=\"https://essif-lab.github.io/framework/docs/terms/issuer\">issuer</a> components of one or more <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a>), as a response to a specific <a hovertext=\"Presentation Request: a (signed) digital message that a Verifier component sends to a Holder component asking for specific data from one or more Verifiable Credentials that are issued by specific Parties.\" href=\"https://essif-lab.github.io/framework/docs/terms/presentation-request\">presentation request</a> of a <a hovertext=\"Verifier (functional component): a component that implements the Capability to request Peer Agents to present (provide) data from credentials (of a specified kind, issued by specified Parties), and to verify such responses (check structure, signatures, dates), according to its Principal's Verifier Policy.\" href=\"https://essif-lab.github.io/framework/docs/terms/verifier\">Verifier</a> component.",
-    "anchor": "presentation"
+    "term": "Presentation Request",
+    "definition": "a (signed) digital message that a <a hovertext=\"Verifier (functional component): a component that implements the Capability to request Peer Agents to present (provide) data from credentials (of a specified kind, issued by specified Parties), and to verify such responses (check structure, signatures, dates), according to its Principal's Verifier Policy.\" href=\"https://essif-lab.github.io/framework/docs/terms/verifier\">verifier</a> component sends to a <a hovertext=\"Holder (functional component): a component that implements the Capability to handle presentation requests from a Peer Agent, produce the requested data (a presentation) according to its Principal's holder-policy, and send that in response to the request.\" href=\"https://essif-lab.github.io/framework/docs/terms/holder\">holder</a> component asking for specific data from one or more <a hovertext=\"Verify/verification of data: the act, by or on behalf of a Party, of determining whether that data is authentic (i.e. originates from the Party that authored it), timely (i.e. has not expired), and conforms to other specifications that apply to its structure.\" href=\"https://essif-lab.github.io/framework/docs/terms/verify\">verifiable</a> <a hovertext=\"Credential: data, representing a set of Assertions (claims, statements), authored and signed by, or on behalf of, a specific Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/credential\">credential</a> that are issued by specific Parties.",
+    "anchor": "presentation-request"
   },
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Presentation Request",
-    "definition": "a (signed) digital message that a <a hovertext=\"Verifier (functional component): a component that implements the Capability to request Peer Agents to present (provide) data from credentials (of a specified kind, issued by specified Parties), and to verify such responses (check structure, signatures, dates), according to its Principal's Verifier Policy.\" href=\"https://essif-lab.github.io/framework/docs/terms/verifier\">verifier</a> component sends to a <a hovertext=\"Holder (functional component): a component that implements the Capability to handle presentation requests from a Peer Agent, produce the requested data (a presentation) according to its Principal's holder-policy, and send that in response to the request.\" href=\"https://essif-lab.github.io/framework/docs/terms/holder\">holder</a> component asking for specific data from one or more <a hovertext=\"Verify/verification of data: the act, by or on behalf of a Party, of determining whether that data is authentic (i.e. originates from the Party that authored it), timely (i.e. has not expired), and conforms to other specifications that apply to its structure.\" href=\"https://essif-lab.github.io/framework/docs/terms/verify\">verifiable</a> <a hovertext=\"Credential: data, representing a set of Assertions (claims, statements), authored and signed by, or on behalf of, a specific Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/credential\">credential</a> that are issued by specific Parties.",
-    "anchor": "presentation-request"
+    "term": "Presentation",
+    "definition": "a (signed) digital message that a <a hovertext=\"Holder (functional component): a component that implements the Capability to handle presentation requests from a Peer Agent, produce the requested data (a presentation) according to its Principal's holder-policy, and send that in response to the request.\" href=\"https://essif-lab.github.io/framework/docs/terms/holder\">holder</a> component may send to a <a hovertext=\"Verifier (functional component): a component that implements the Capability to request Peer Agents to present (provide) data from credentials (of a specified kind, issued by specified Parties), and to verify such responses (check structure, signatures, dates), according to its Principal's Verifier Policy.\" href=\"https://essif-lab.github.io/framework/docs/terms/verifier\">verifier</a> component that contains data derived from one or more <a hovertext=\"Verify/verification of data: the act, by or on behalf of a Party, of determining whether that data is authentic (i.e. originates from the Party that authored it), timely (i.e. has not expired), and conforms to other specifications that apply to its structure.\" href=\"https://essif-lab.github.io/framework/docs/terms/verify\">verifiable</a> <a hovertext=\"Credential: data, representing a set of Assertions (claims, statements), authored and signed by, or on behalf of, a specific Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/credential\">credential</a> (that (a <a hovertext=\"Colleagues: two or more (digital or non-digital) Agents that have the same Principal (i.e. Party on whose behalf they are executing an Action).\" href=\"https://essif-lab.github.io/framework/docs/terms/colleague\">colleague</a> component of) the <a hovertext=\"Holder (functional component): a component that implements the Capability to handle presentation requests from a Peer Agent, produce the requested data (a presentation) according to its Principal's holder-policy, and send that in response to the request.\" href=\"https://essif-lab.github.io/framework/docs/terms/holder\">holder</a> component has received from <a hovertext=\"Issuer (functional component): a component that implements the Capability to construct Credentials from data objects, according to the content of its Principal's Issuer-Policy (specifically regarding the way in which the Credential is to be digitally signed), and pass it to the Wallet-component of its Principal allowing it to be issued.\" href=\"https://essif-lab.github.io/framework/docs/terms/issuer\">issuer</a> components of one or more <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a>), as a response to a specific <a hovertext=\"Presentation Request: a (signed) digital message that a Verifier component sends to a Holder component asking for specific data from one or more Verifiable Credentials that are issued by specific Parties.\" href=\"https://essif-lab.github.io/framework/docs/terms/presentation-request\">presentation request</a> of a <a hovertext=\"Verifier (functional component): a component that implements the Capability to request Peer Agents to present (provide) data from credentials (of a specified kind, issued by specified Parties), and to verify such responses (check structure, signatures, dates), according to its Principal's Verifier Policy.\" href=\"https://essif-lab.github.io/framework/docs/terms/verifier\">Verifier</a> component.",
+    "anchor": "presentation"
   },
   {
     "organisation": "Essif-Lab",
@@ -737,9 +765,23 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
+    "term": "Property (of a Concept)",
+    "definition": "a connection or association between a <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concept</a> and a primitive data element, such as a text or a number, that represents some characteristic that instances of the <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concept</a> may have.",
+    "anchor": "property-of-a-concept"
+  },
+  {
+    "organisation": "Essif-Lab",
+    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Qualified Data",
     "definition": "data",
     "anchor": "qualified-data"
+  },
+  {
+    "organisation": "Essif-Lab",
+    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
+    "term": "Relation (between Concepts)",
+    "definition": "a (significant) connection or association between two or more <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a>. These connections define the way these <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a> are interrelated, providing insights into how they interact and influence each other.",
+    "anchor": "relation-between-concepts"
   },
   {
     "organisation": "Essif-Lab",
@@ -761,13 +803,6 @@
     "term": "Revoke/Revocation",
     "definition": "the act, by or on behalf of the <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a> that has issued the <a hovertext=\"Credential: data, representing a set of Assertions (claims, statements), authored and signed by, or on behalf of, a specific Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/credential\">credential</a>, of no longer vouching for the correctness or any other qualification of (arbitrary parts of) that <a hovertext=\"Credential: data, representing a set of Assertions (claims, statements), authored and signed by, or on behalf of, a specific Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/credential\">credential</a>.",
     "anchor": "revokerevocation"
-  },
-  {
-    "organisation": "Essif-Lab",
-    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Risk",
-    "definition": "the effects that uncertainty (i.e. a lack of information, understanding or <a hovertext=\"Knowledge: The (intangible) sum of what is known by a specific Party, as well as the familiarity, awareness or understanding of someone or something by that Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/knowledge\">knowledge</a> of events, their consequences or likelihoods) can have on the intended realization of an <a hovertext=\"Objective: Something toward which a Party (its Owner) directs effort (an aim, goal, or end of action).\" href=\"https://essif-lab.github.io/framework/docs/terms/objective\">objective</a> of a <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>.",
-    "anchor": "risk"
   },
   {
     "organisation": "Essif-Lab",
@@ -800,9 +835,9 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Role",
-    "definition": "a defined set of characteristics that an <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entity</a> has in some context, such as <a hovertext=\"Obligation (of a Party): an Objective that is Owned by that Party for producing a specific (set of) result(s) that are to be used (consumed) by that Party and/or other Parties.\" href=\"https://essif-lab.github.io/framework/docs/terms/obligation\">responsibilities</a> it may have, <a hovertext=\"Action: something that is actually done (a 'unit of work' that is executed) by a single Actor (on behalf of a given Party), as a single operation, in a specific context.\" href=\"https://essif-lab.github.io/framework/docs/terms/action\">action</a> (behaviors) it may execute, or pieces of <a hovertext=\"Knowledge: The (intangible) sum of what is known by a specific Party, as well as the familiarity, awareness or understanding of someone or something by that Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/knowledge\">knowledge</a> that it is expected to have in that context, which are referenced to by a specific <a hovertext=\"Role name: name (text) that refers to (and identifies) a Role in a a specific context.\" href=\"https://essif-lab.github.io/framework/docs/terms/role-name\">role name</a>.",
-    "anchor": "role"
+    "term": "Risk",
+    "definition": "the effects that uncertainty (i.e. a lack of information, understanding or <a hovertext=\"Knowledge: The (intangible) sum of what is known by a specific Party, as well as the familiarity, awareness or understanding of someone or something by that Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/knowledge\">knowledge</a> of events, their consequences or likelihoods) can have on the intended realization of an <a hovertext=\"Objective: Something toward which a Party (its Owner) directs effort (an aim, goal, or end of action).\" href=\"https://essif-lab.github.io/framework/docs/terms/objective\">objective</a> of a <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>.",
+    "anchor": "risk"
   },
   {
     "organisation": "Essif-Lab",
@@ -814,9 +849,9 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Scope",
-    "definition": "the extent of the area or subject matter (which we use, e.g., to define <a hovertext=\"Pattern (also: Mental Model): A description, both casual and formal, of a set of Concepts (ideas), relations between them, and constraints, that together form a coherent and consistent 'viewpoint', or 'way of thinking' about a certain topic.\" href=\"https://essif-lab.github.io/framework/docs/terms/pattern\">pattern</a>, <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concept</a>, <a hovertext=\"Term: a word or phrase (i.e.: text) that is used in at least one Scope/context to represent a specific Concept.\" href=\"https://essif-lab.github.io/framework/docs/terms/term\">term</a> and <a hovertext=\"Glossary: an alphabetically sorted list of Terms with the (single) meaning it has in (at least) one context.\" href=\"https://essif-lab.github.io/framework/docs/terms/glossary\">glossaries</a> in, but it serves other purposes as well).",
-    "anchor": "scope"
+    "term": "Role",
+    "definition": "a defined set of characteristics that an <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entity</a> has in some context, such as <a hovertext=\"Obligation (of a Party): an Objective that is Owned by that Party for producing a specific (set of) result(s) that are to be used (consumed) by that Party and/or other Parties.\" href=\"https://essif-lab.github.io/framework/docs/terms/obligation\">responsibilities</a> it may have, <a hovertext=\"Action: something that is actually done (a 'unit of work' that is executed) by a single Actor (on behalf of a given Party), as a single operation, in a specific context.\" href=\"https://essif-lab.github.io/framework/docs/terms/action\">action</a> (behaviors) it may execute, or pieces of <a hovertext=\"Knowledge: The (intangible) sum of what is known by a specific Party, as well as the familiarity, awareness or understanding of someone or something by that Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/knowledge\">knowledge</a> that it is expected to have in that context, which are referenced to by a specific <a hovertext=\"Role name: name (text) that refers to (and identifies) a Role in a a specific context.\" href=\"https://essif-lab.github.io/framework/docs/terms/role-name\">role name</a>.",
+    "anchor": "role"
   },
   {
     "organisation": "Essif-Lab",
@@ -835,8 +870,15 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
+    "term": "Scope",
+    "definition": "the extent of the area or subject matter (which we use, e.g., to define <a hovertext=\"Pattern (also: Mental Model): A description, both casual and formal, of a set of Concepts (ideas), relations between them, and constraints, that together form a coherent and consistent 'viewpoint', or 'way of thinking' about a certain topic.\" href=\"https://essif-lab.github.io/framework/docs/terms/pattern\">pattern</a>, <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concept</a>, <a hovertext=\"Term: a word or phrase (i.e.: text) that is used in at least one Scope/context to represent a specific Concept.\" href=\"https://essif-lab.github.io/framework/docs/terms/term\">term</a> and <a hovertext=\"Glossary: an alphabetically sorted list of Terms with the (single) meaning it has in (at least) one context.\" href=\"https://essif-lab.github.io/framework/docs/terms/glossary\">glossaries</a> in, but it serves other purposes as well).",
+    "anchor": "scope"
+  },
+  {
+    "organisation": "Essif-Lab",
+    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Self-Sovereign Identity (SSI)",
-    "definition": "Self-Sovereign Identity (SSI) is a term that has many different interpretations, and that we use to refer to concepts/ideas, architectures, processes and technologies that aim to support (autonomous) <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> as they negotiate and execute electronic <a hovertext=\"Transaction: the exchange of goods, services, funds, or data between some Parties (called Participants of the Transaction).\" href=\"https://essif-lab.github.io/framework/docs/terms/transaction\">transaction</a> with one another.",
+    "definition": "self-Sovereign Identity (SSI) is a term that has many different interpretations, and that we use to refer to concepts/ideas, architectures, processes and technologies that aim to support (autonomous) <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> as they negotiate and execute electronic <a hovertext=\"Transaction: the exchange of goods, services, funds, or data between some Parties (called Participants of the Transaction).\" href=\"https://essif-lab.github.io/framework/docs/terms/transaction\">transaction</a> with one another.",
     "anchor": "self-sovereign-identity-ssi"
   },
   {
@@ -849,6 +891,13 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
+    "term": "Semantic Unit",
+    "definition": "a basic building block of meaning or representation that exists within the 'mind' of a <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a> (i.e., in its <a hovertext=\"Knowledge: The (intangible) sum of what is known by a specific Party, as well as the familiarity, awareness or understanding of someone or something by that Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/knowledge\">knowledge</a>). Examples include ideas, or <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a>, <a href=\"/framework/docs/@\">properties</a> of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a>, <a href=\"/framework/docs/@\">relations</a> between <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a>, constraints over such <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a> and <a href=\"/framework/docs/@\">relations</a>, etc.",
+    "anchor": "semantic-unit"
+  },
+  {
+    "organisation": "Essif-Lab",
+    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Semantics",
     "definition": "a mapping between the (tangible/textual) <a hovertext=\"Term: a word or phrase (i.e.: text) that is used in at least one Scope/context to represent a specific Concept.\" href=\"https://essif-lab.github.io/framework/docs/terms/term\">term</a> and (intangible) ideas/<a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concept</a> - their meaning.",
     "anchor": "semantics"
@@ -856,9 +905,9 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "SSI (Self-Sovereign Identity)",
-    "definition": "SSI (Self-Sovereign Identity) is a term that has many different interpretations, and that we use to refer to concepts/ideas, architectures, processes and technologies that aim to support (autonomous) <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> as they negotiate and execute electronic <a hovertext=\"Transaction: the exchange of goods, services, funds, or data between some Parties (called Participants of the Transaction).\" href=\"https://essif-lab.github.io/framework/docs/terms/transaction\">transaction</a> with one another.",
-    "anchor": "ssi-self-sovereign-identity"
+    "term": "Semantics Pattern",
+    "definition": "a set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a> and other <a href=\"/framework/docs/@\">semantic units</a> that can be used to explain the relations between the (intangible) <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a> (and other <a href=\"/framework/docs/@\">semantic units</a>) that are part of a <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party's</a> <a hovertext=\"Knowledge: The (intangible) sum of what is known by a specific Party, as well as the familiarity, awareness or understanding of someone or something by that Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/knowledge\">knowledge</a>, and how they are (tangibly) represented by <a hovertext=\"Term: a word or phrase (i.e.: text) that is used in at least one Scope/context to represent a specific Concept.\" href=\"https://essif-lab.github.io/framework/docs/terms/term\">terms</a>, <a hovertext=\"Attribute (of an Entity): Data, that represents a characteristic that a Party (the Owner of the attribute) has attributed to an Entity (which is the Subject of that attribute).\" href=\"https://essif-lab.github.io/framework/docs/terms/attribute\">attributes</a>, etc.",
+    "anchor": "semantics-pattern"
   },
   {
     "organisation": "Essif-Lab",
@@ -884,6 +933,13 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
+    "term": "SSI (Self-Sovereign Identity)",
+    "definition": "sSI (Self-Sovereign Identity) is a term that has many different interpretations, and that we use to refer to concepts/ideas, architectures, processes and technologies that aim to support (autonomous) <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> as they negotiate and execute electronic <a hovertext=\"Transaction: the exchange of goods, services, funds, or data between some Parties (called Participants of the Transaction).\" href=\"https://essif-lab.github.io/framework/docs/terms/transaction\">transaction</a> with one another.",
+    "anchor": "ssi-self-sovereign-identity"
+  },
+  {
+    "organisation": "Essif-Lab",
+    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Subject",
     "definition": "the (single) <a hovertext=\"Entity: someone or something that is known to exist.\" href=\"https://essif-lab.github.io/framework/docs/terms/entity\">entity</a> to which a given set of coherent data relates/pertains. Examples of such sets include attributes, <a hovertext=\"Assertion: a declaration/statement, made by a specific Party, that something is the case.\" href=\"https://essif-lab.github.io/framework/docs/terms/assertion\">Claims/Assertions</a>, files/dossiers, <a hovertext=\"Credential: data, representing a set of Assertions (claims, statements), authored and signed by, or on behalf of, a specific Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/credential\">(verifiable) credentials</a>, <a hovertext=\"Partial identity (of an Entity): all Knowledge that a specific Party (= the Owner of the partial identity) has about that Entity (= the 'Subject' of the partial identity).\" href=\"https://essif-lab.github.io/framework/docs/terms/partial-identity\">(partial) identities</a>, <a hovertext=\"Employment Contract (between two Parties, concerning a set of Actors): an agreement/contract between these Parties that states (or refers to) all (sets of) rights and duties under which the Actors (the Subjects of the contract), that are controlled by one Party, can and/or must work for the other Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/employment-contract\">employment contracts</a>, etc.",
     "anchor": "subject"
@@ -898,13 +954,6 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Term",
-    "definition": "a word or phrase (i.e.: text) that is used in at least one <a hovertext=\"Scope: the extent of the area or subject matter (which we use, e.g., to define Patterns, Concepts, Terms and Glossaries in, but it serves other purposes as well).\" href=\"https://essif-lab.github.io/framework/docs/terms/scope\">scope</a>/context to represent a specific <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concept</a>.",
-    "anchor": "term"
-  },
-  {
-    "organisation": "Essif-Lab",
-    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Term-file",
     "definition": "a file whose contents defines/specifies a <a hovertext=\"Term: a word or phrase (i.e.: text) that is used in at least one Scope/context to represent a specific Concept.\" href=\"https://essif-lab.github.io/framework/docs/terms/term\">term</a>.",
     "anchor": "term-file"
@@ -912,9 +961,9 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Terminology",
-    "definition": "the set of <a hovertext=\"Term: a word or phrase (i.e.: text) that is used in at least one Scope/context to represent a specific Concept.\" href=\"https://essif-lab.github.io/framework/docs/terms/term\">term</a> that are used within a single <a hovertext=\"Scope: the extent of the area or subject matter (which we use, e.g., to define Patterns, Concepts, Terms and Glossaries in, but it serves other purposes as well).\" href=\"https://essif-lab.github.io/framework/docs/terms/scope\">scope</a> to refer to a single <a hovertext=\"Definition: a text that helps Parties to have the same understanding about the meaning of (and Concepts behind) a Term, ideally in such a way that these Parties can determine whether or not they make the same distinction.\" href=\"https://essif-lab.github.io/framework/docs/terms/definition\">definition</a>, enabling <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> to reason and communicate ideas they have about one or more specific topics.",
-    "anchor": "terminology"
+    "term": "Term",
+    "definition": "a word or phrase (i.e.: text) that is used in at least one <a hovertext=\"Scope: the extent of the area or subject matter (which we use, e.g., to define Patterns, Concepts, Terms and Glossaries in, but it serves other purposes as well).\" href=\"https://essif-lab.github.io/framework/docs/terms/scope\">scope</a>/context to represent a specific <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concept</a>.",
+    "anchor": "term"
   },
   {
     "organisation": "Essif-Lab",
@@ -926,16 +975,23 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Terms Community",
-    "definition": "a <a hovertext=\"Community: a Party, consisting of at least two different Parties (the members of the Community) that seek to collaborate with each other so that each of them can achieve its individual Objectives more efficiently and/or effectively.\" href=\"https://essif-lab.github.io/framework/docs/terms/community\">community</a> that maintains a <a hovertext=\"Terminology (in/of a Scope): the set of terms that are used within a single Scope to refer to a single Definition, enabling Parties to reason and communicate ideas they have about one or more specific topics.\" href=\"https://essif-lab.github.io/framework/docs/terms/terminology\">terminology</a> for the purpose of avoiding misunderstandings between its members as they collaborate.",
-    "anchor": "terms-community"
+    "term": "Terminology",
+    "definition": "the set of <a hovertext=\"Term: a word or phrase (i.e.: text) that is used in at least one Scope/context to represent a specific Concept.\" href=\"https://essif-lab.github.io/framework/docs/terms/term\">term</a> that are used within a single <a hovertext=\"Scope: the extent of the area or subject matter (which we use, e.g., to define Patterns, Concepts, Terms and Glossaries in, but it serves other purposes as well).\" href=\"https://essif-lab.github.io/framework/docs/terms/scope\">scope</a> to refer to a single <a hovertext=\"Definition: a text that helps Parties to have the same understanding about the meaning of (and Concepts behind) a Term, ideally in such a way that these Parties can determine whether or not they make the same distinction.\" href=\"https://essif-lab.github.io/framework/docs/terms/definition\">definition</a>, enabling <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> to reason and communicate ideas they have about one or more specific topics.",
+    "anchor": "terminology"
   },
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Transaction",
-    "definition": "the exchange of goods, services, funds, or data between some <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> (called <a hovertext=\"Participant (in/of a Transaction): a Party is negotiating (or has negotiated) a Transaction Agreement.\" href=\"https://essif-lab.github.io/framework/docs/terms/participant\">participant</a> of the <a hovertext=\"Transaction: the exchange of goods, services, funds, or data between some Parties (called Participants of the Transaction).\" href=\"https://essif-lab.github.io/framework/docs/terms/transaction\">transaction</a>).",
-    "anchor": "transaction"
+    "term": "Terminology Pattern",
+    "definition": "a set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a> and other <a href=\"/framework/docs/@\">semantic units</a> that one can use to explain one's thinking about a certain topic, as well as to devise/design a way of thinking that members of a <a hovertext=\"Community: a Party, consisting of at least two different Parties (the members of the Community) that seek to collaborate with each other so that each of them can achieve its individual Objectives more efficiently and/or effectively.\" href=\"https://essif-lab.github.io/framework/docs/terms/community\">community</a> can use to align their thinking as they pursue that <a hovertext=\"Community: a Party, consisting of at least two different Parties (the members of the Community) that seek to collaborate with each other so that each of them can achieve its individual Objectives more efficiently and/or effectively.\" href=\"https://essif-lab.github.io/framework/docs/terms/community\">community's</a> <a hovertext=\"Objective: Something toward which a Party (its Owner) directs effort (an aim, goal, or end of action).\" href=\"https://essif-lab.github.io/framework/docs/terms/objective\">objectives</a>.",
+    "anchor": "terminology-pattern"
+  },
+  {
+    "organisation": "Essif-Lab",
+    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
+    "term": "Terms Community",
+    "definition": "a <a hovertext=\"Community: a Party, consisting of at least two different Parties (the members of the Community) that seek to collaborate with each other so that each of them can achieve its individual Objectives more efficiently and/or effectively.\" href=\"https://essif-lab.github.io/framework/docs/terms/community\">community</a> that maintains a <a hovertext=\"Terminology (in/of a Scope): the set of terms that are used within a single Scope to refer to a single Definition, enabling Parties to reason and communicate ideas they have about one or more specific topics.\" href=\"https://essif-lab.github.io/framework/docs/terms/terminology\">terminology</a> for the purpose of avoiding misunderstandings between its members as they collaborate.",
+    "anchor": "terms-community"
   },
   {
     "organisation": "Essif-Lab",
@@ -975,9 +1031,9 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Trust",
-    "definition": "the (un)conscious decision by a <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a> to believe that X is in fact the case.",
-    "anchor": "trust"
+    "term": "Transaction",
+    "definition": "the exchange of goods, services, funds, or data between some <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> (called <a hovertext=\"Participant (in/of a Transaction): a Party is negotiating (or has negotiated) a Transaction Agreement.\" href=\"https://essif-lab.github.io/framework/docs/terms/participant\">participant</a> of the <a hovertext=\"Transaction: the exchange of goods, services, funds, or data between some Parties (called Participants of the Transaction).\" href=\"https://essif-lab.github.io/framework/docs/terms/transaction\">transaction</a>).",
+    "anchor": "transaction"
   },
   {
     "organisation": "Essif-Lab",
@@ -989,16 +1045,23 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Validate",
-    "definition": "the act, by or on behalf of a <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>, of determining whether or not that data is valid to be used for some specific purpose(s) of that <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>.",
-    "anchor": "validate"
+    "term": "Trust",
+    "definition": "the (un)conscious decision by a <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a> to believe that X is in fact the case.",
+    "anchor": "trust"
   },
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Validator",
-    "definition": "a component that implements the <a hovertext=\"Capability (of a Party): the (named) combination of (a) the Party's means to get something done, (b) the Party's Governance process that that ensures that its (business) Policies for getting that something done are being created and maintained, and (c) the Party's Management process that creates and maintains the (operational) Policies, such that every Employee that has a task in getting this something done can find and interpret a Policy and use it as it executes Actions in such tasks.\" href=\"https://essif-lab.github.io/framework/docs/terms/capability\">capability</a> to determine whether or not (<a hovertext=\"Verify/verification of data: the act, by or on behalf of a Party, of determining whether that data is authentic (i.e. originates from the Party that authored it), timely (i.e. has not expired), and conforms to other specifications that apply to its structure.\" href=\"https://essif-lab.github.io/framework/docs/terms/verify\">verified</a>) data is valid to be used for some specific purpose(s).",
-    "anchor": "validator"
+    "term": "Trust Pattern",
+    "definition": "a set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concepts</a> and other <a href=\"/framework/docs/@\">semantic units</a> that can be used to explain how the concept of <a hovertext=\"Trust (of a Party in X): the (un)conscious decision by this Party to believe that X is in fact the case\" href=\"https://essif-lab.github.io/framework/docs/terms/trust\">trust</a> relates to <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> that do the trusting, and other concepts that express what it is that these <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a> trust.",
+    "anchor": "trust-pattern"
+  },
+  {
+    "organisation": "Essif-Lab",
+    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
+    "term": "Validate",
+    "definition": "the act, by or on behalf of a <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>, of determining whether or not that data is valid to be used for some specific purpose(s) of that <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>.",
+    "anchor": "validate"
   },
   {
     "organisation": "Essif-Lab",
@@ -1010,9 +1073,9 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Verifier",
-    "definition": "a component that implements the <a hovertext=\"Capability (of a Party): the (named) combination of (a) the Party's means to get something done, (b) the Party's Governance process that that ensures that its (business) Policies for getting that something done are being created and maintained, and (c) the Party's Management process that creates and maintains the (operational) Policies, such that every Employee that has a task in getting this something done can find and interpret a Policy and use it as it executes Actions in such tasks.\" href=\"https://essif-lab.github.io/framework/docs/terms/capability\">capability</a> to request <a hovertext=\"Peer Agent (of some other Agent in a Communication Session): the Agent with whom/which this other Agent is communicating in that Communication Session.\" href=\"https://essif-lab.github.io/framework/docs/terms/peer-agent\">peer agents</a> to present (provide) data from credentials (of a specified kind, issued by specified <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a>), and to verify such responses (check structure, signatures, dates), according to its <a hovertext=\"Principal (of an Actor): the Party for whom, or on behalf of whom, the Actor is executing an Action (this Actor is then called an Agent of that Party).\" href=\"https://essif-lab.github.io/framework/docs/terms/principal\">principal</a>'s <a hovertext=\"Verifier Policy: a Digital Policy that contains the rules, working-instructions, preferences and other guidance for an operational Verifier component to function in accordance with the Objectives of its Principal.\" href=\"https://essif-lab.github.io/framework/docs/terms/verifier-policy\">verifier policy</a>.",
-    "anchor": "verifier"
+    "term": "Validator",
+    "definition": "a component that implements the <a hovertext=\"Capability (of a Party): the (named) combination of (a) the Party's means to get something done, (b) the Party's Governance process that that ensures that its (business) Policies for getting that something done are being created and maintained, and (c) the Party's Management process that creates and maintains the (operational) Policies, such that every Employee that has a task in getting this something done can find and interpret a Policy and use it as it executes Actions in such tasks.\" href=\"https://essif-lab.github.io/framework/docs/terms/capability\">capability</a> to determine whether or not (<a hovertext=\"Verify/verification of data: the act, by or on behalf of a Party, of determining whether that data is authentic (i.e. originates from the Party that authored it), timely (i.e. has not expired), and conforms to other specifications that apply to its structure.\" href=\"https://essif-lab.github.io/framework/docs/terms/verify\">verified</a>) data is valid to be used for some specific purpose(s).",
+    "anchor": "validator"
   },
   {
     "organisation": "Essif-Lab",
@@ -1024,8 +1087,15 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
+    "term": "Verifier",
+    "definition": "a component that implements the <a hovertext=\"Capability (of a Party): the (named) combination of (a) the Party's means to get something done, (b) the Party's Governance process that that ensures that its (business) Policies for getting that something done are being created and maintained, and (c) the Party's Management process that creates and maintains the (operational) Policies, such that every Employee that has a task in getting this something done can find and interpret a Policy and use it as it executes Actions in such tasks.\" href=\"https://essif-lab.github.io/framework/docs/terms/capability\">capability</a> to request <a hovertext=\"Peer Agent (of some other Agent in a Communication Session): the Agent with whom/which this other Agent is communicating in that Communication Session.\" href=\"https://essif-lab.github.io/framework/docs/terms/peer-agent\">peer agents</a> to present (provide) data from credentials (of a specified kind, issued by specified <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">parties</a>), and to verify such responses (check structure, signatures, dates), according to its <a hovertext=\"Principal (of an Actor): the Party for whom, or on behalf of whom, the Actor is executing an Action (this Actor is then called an Agent of that Party).\" href=\"https://essif-lab.github.io/framework/docs/terms/principal\">principal</a>'s <a hovertext=\"Verifier Policy: a Digital Policy that contains the rules, working-instructions, preferences and other guidance for an operational Verifier component to function in accordance with the Objectives of its Principal.\" href=\"https://essif-lab.github.io/framework/docs/terms/verifier-policy\">verifier policy</a>.",
+    "anchor": "verifier"
+  },
+  {
+    "organisation": "Essif-Lab",
+    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Verify",
-    "definition": "The act, by or on behalf of a <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>, of determining whether that data is authentic (i.e. originates from the <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a> that authored it), timely (i.e. has not expired), and conforms to other specifications that apply to its structure.",
+    "definition": "the act, by or on behalf of a <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a>, of determining whether that data is authentic (i.e. originates from the <a hovertext=\"Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.\" href=\"https://essif-lab.github.io/framework/docs/terms/party\">party</a> that authored it), timely (i.e. has not expired), and conforms to other specifications that apply to its structure.",
     "anchor": "verify"
   },
   {
@@ -1038,13 +1108,6 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
-    "term": "Wallet",
-    "definition": "a component that implements the <a hovertext=\"Capability (of a Party): the (named) combination of (a) the Party's means to get something done, (b) the Party's Governance process that that ensures that its (business) Policies for getting that something done are being created and maintained, and (c) the Party's Management process that creates and maintains the (operational) Policies, such that every Employee that has a task in getting this something done can find and interpret a Policy and use it as it executes Actions in such tasks.\" href=\"https://essif-lab.github.io/framework/docs/terms/capability\">capability</a> to securely store data as requested by <a hovertext=\"Colleagues: two or more (digital or non-digital) Agents that have the same Principal (i.e. Party on whose behalf they are executing an Action).\" href=\"https://essif-lab.github.io/framework/docs/terms/colleague\">colleague agents</a>, and to provide stored data to <a hovertext=\"Colleagues: two or more (digital or non-digital) Agents that have the same Principal (i.e. Party on whose behalf they are executing an Action).\" href=\"https://essif-lab.github.io/framework/docs/terms/colleague\">colleague agents</a> or <a hovertext=\"Peer Agent (of some other Agent in a Communication Session): the Agent with whom/which this other Agent is communicating in that Communication Session.\" href=\"https://essif-lab.github.io/framework/docs/terms/peer-agent\">peer agents</a>, all in <a hovertext=\"Compliance (of a Party): the state of realization of a set of conformance criteria or normative framework of that Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/compliance\">compliance</a> with the rules of its <a hovertext=\"Principal (of an Actor): the Party for whom, or on behalf of whom, the Actor is executing an Action (this Actor is then called an Agent of that Party).\" href=\"https://essif-lab.github.io/framework/docs/terms/principal\">principal</a>'s <a hovertext=\"Wallet Policy: a Digital Policy that contains the rules, working-instructions, preferences and other guidance for an operational Wallet component to function in accordance with the Objectives of its Principal.\" href=\"https://essif-lab.github.io/framework/docs/terms/wallet-policy\">wallet policy</a>.",
-    "anchor": "wallet"
-  },
-  {
-    "organisation": "Essif-Lab",
-    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "Wallet Policy",
     "definition": "a <a hovertext=\"Policy: a (set of) rules, working-instructions, preferences and other guidance for the execution of one or more kinds of Actions, that Agents of the Party that Governs the policy have access to and can interpret such that this results in these Actions being executed as intended by that Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/policy\">digital policy</a> that enables an operational <a hovertext=\"Wallet (functional component): a component that implements the Capability to securely store data as requested by Colleague Agents, and to provide stored data to Colleague Agents or Peer Agents, all in Compliance with the rules of its Principal's Wallet Policy.\" href=\"https://essif-lab.github.io/framework/docs/terms/wallet\">wallet</a> component to function in accordance with the <a hovertext=\"Objective: Something toward which a Party (its Owner) directs effort (an aim, goal, or end of action).\" href=\"https://essif-lab.github.io/framework/docs/terms/objective\">objective</a> of its <a hovertext=\"Principal (of an Actor): the Party for whom, or on behalf of whom, the Actor is executing an Action (this Actor is then called an Agent of that Party).\" href=\"https://essif-lab.github.io/framework/docs/terms/principal\">principal</a>.",
     "anchor": "wallet-policy"
@@ -1052,8 +1115,15 @@
   {
     "organisation": "Essif-Lab",
     "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
+    "term": "Wallet",
+    "definition": "a component that implements the <a hovertext=\"Capability (of a Party): the (named) combination of (a) the Party's means to get something done, (b) the Party's Governance process that that ensures that its (business) Policies for getting that something done are being created and maintained, and (c) the Party's Management process that creates and maintains the (operational) Policies, such that every Employee that has a task in getting this something done can find and interpret a Policy and use it as it executes Actions in such tasks.\" href=\"https://essif-lab.github.io/framework/docs/terms/capability\">capability</a> to securely store data as requested by <a hovertext=\"Colleagues: two or more (digital or non-digital) Agents that have the same Principal (i.e. Party on whose behalf they are executing an Action).\" href=\"https://essif-lab.github.io/framework/docs/terms/colleague\">colleague agents</a>, and to provide stored data to <a hovertext=\"Colleagues: two or more (digital or non-digital) Agents that have the same Principal (i.e. Party on whose behalf they are executing an Action).\" href=\"https://essif-lab.github.io/framework/docs/terms/colleague\">colleague agents</a> or <a hovertext=\"Peer Agent (of some other Agent in a Communication Session): the Agent with whom/which this other Agent is communicating in that Communication Session.\" href=\"https://essif-lab.github.io/framework/docs/terms/peer-agent\">peer agents</a>, all in <a hovertext=\"Compliance (of a Party): the state of realization of a set of conformance criteria or normative framework of that Party.\" href=\"https://essif-lab.github.io/framework/docs/terms/compliance\">compliance</a> with the rules of its <a hovertext=\"Principal (of an Actor): the Party for whom, or on behalf of whom, the Actor is executing an Action (this Actor is then called an Agent of that Party).\" href=\"https://essif-lab.github.io/framework/docs/terms/principal\">principal</a>'s <a hovertext=\"Wallet Policy: a Digital Policy that contains the rules, working-instructions, preferences and other guidance for an operational Wallet component to function in accordance with the Objectives of its Principal.\" href=\"https://essif-lab.github.io/framework/docs/terms/wallet-policy\">wallet policy</a>.",
+    "anchor": "wallet"
+  },
+  {
+    "organisation": "Essif-Lab",
+    "url": "https://essif-lab.github.io/framework/docs/essifLab-glossary",
     "term": "eSSIF-Lab World Model",
-    "definition": "The set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concept</a>, relations between them (<a hovertext=\"Pattern (also: Mental Model): A description, both casual and formal, of a set of Concepts (ideas), relations between them, and constraints, that together form a coherent and consistent 'viewpoint', or 'way of thinking' about a certain topic.\" href=\"https://essif-lab.github.io/framework/docs/terms/pattern\">pattern</a>), and <a href=\"/framework/docs/essifLab-principles\">Principles</a> (that are the starting point for eSSIF-Lab's thinking).",
+    "definition": "the set of <a hovertext=\"Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').\" href=\"https://essif-lab.github.io/framework/docs/terms/concept\">concept</a>, relations between them (<a hovertext=\"Pattern (also: Mental Model): A description, both casual and formal, of a set of Concepts (ideas), relations between them, and constraints, that together form a coherent and consistent 'viewpoint', or 'way of thinking' about a certain topic.\" href=\"https://essif-lab.github.io/framework/docs/terms/pattern\">pattern</a>), and <a href=\"/framework/docs/essifLab-principles\">Principles</a> (that are the starting point for eSSIF-Lab's thinking).",
     "anchor": "essif-lab-world-model"
   }
 ]
