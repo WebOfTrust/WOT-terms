@@ -14,7 +14,7 @@ There are a few [practical rules](https://wiki.trustoverip.org/display/HOME/Term
 
 ### KERISSE reads this wiki
 
-The _weboftrust_ wiki glossary is currently our input tool for our KERI Suite glossary. However, we regularly scrape the wiki into [KERISSE](kerisse.org), we add features and metadata, we connect relevant matching terms from related glossaries and finally we index it for the KERI Suite Search Engine (KERISSE).
+The _weboftrust_ wiki glossary is currently our input tool for our KERI Suite glossary. However, we regularly scrape the wiki into [KERISSE](https://kerisse.org), we add features and metadata, we connect relevant matching terms from related glossaries and finally we index it for the KERI Suite Search Engine (KERISSE).
 
 _Have fun CRU-ing!_  
 '* CRU=Create Read Update

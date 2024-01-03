@@ -3,7 +3,7 @@
 [![hackmd-github-sync-badge](https://hackmd.io/TYKEsJ5OQy-4w78NUGRSMA/badge)](https://hackmd.io/TYKEsJ5OQy-4w78NUGRSMA)
 
 THIS IS UNDER CONSTRUCTION
-Would you like to contribute? Join us at the Concepts, Terminologie and Education [Repo](../../README.md)
+Would you like to contribute? Join us at the Concepts, Terminologie and Education [Repo](https://github.com/WebOfTrust/WOT-terms/blob/main/README.md)
 
 ## What is this?
 
@@ -46,7 +46,7 @@ The [Mental Model](https://github.com/WebOfTrust/WOT-terms/blob/main/mental-mode
 
 #### Vision
 
-KERI is fully Open Source under [Apache-2 license](../../LICENSE.md). Some typical **aspects of open source software development** and their communities that we value:
+KERI is fully Open Source under [Apache-2 license](.https://github.com/WebOfTrust/WOT-terms/blob/main/LICENSE). Some typical **aspects of open source software development** and their communities that we value:
 - We reuse as much as possible, using open source tools
 - We try to release quickly and often
 - We avoid vendor locks, propietary lock-ins and censorship
@@ -277,8 +277,8 @@ serialization indicates a preferred content-addressable identifier for that seri
 
 #### Barriers to Adoption of Linked Data VCs
 
-The purpose of this paper is to capture and convey to a broader audience my increasingly worrisome concerns about the adoption path for Verifiable Credentials (VCs). My concerns began with the security limitations of VCs that use Linked Data (otherwise known as JSON-LD/RDF) and have since extended to the semantic inference limitations of Linked Data. My concerns may be expressed succinctly as, the VC standard appears to be an adoption vector for Linked Data, not the other way around. My overriding interest is that the concept of a VC as a securely attributable statement is a very powerful and attractive one and therefore should be widely adopted. We should therefore be picking the best technologies that best support broad VC adoption, not the other way around.\
-[Source:](.md) VC Spec Enhancement Strategy Proposal by Sam Smith
+The purpose of this paper is to capture and convey to a broader audience my increasingly worrisome concerns about the adoption path for Verifiable Credentials (VCs). My concerns began with the security limitations of VCs that use Linked Data (otherwise known as JSON-LD/RDF) and have since extended to the semantic inference limitations of Linked Data. My concerns may be expressed succinctly as, the VC standard appears to be an adoption vector for Linked Data, not the other way around. My overriding interest is that the concept of a VC as a securely attributable statement is a very powerful and attractive one and therefore should be widely adopted. We should therefore be picking the best technologies that best support broad VC adoption, not the other way around.  
+Source: VC Spec Enhancement Strategy Proposal by Sam Smith
 
 <!-- #######NEW BLOCK####### -->
 
@@ -320,7 +320,7 @@ pre-rotation (double-checked control authority)\
 Rotation (act when you smell danger)\
 Delegation (engage service provider without losing control; middleman on a leash)\
 Revocation (minimize effects of adversely situation)\
-Scalable witness & watchers network (reconciliation options; [first seen](.md))\
+Scalable witness & watchers network (reconciliation options; *first seen*)\
 Round-robin composable streaming (for readability of commitments)\
 Tamper evident (duplicity checks)\
 Non-repudiation
@@ -393,7 +393,7 @@ See [glossary item](https://github.com/trustoverip/acdc/wiki/non-repudiable)
 
 #### First seen - timing solution - overload protection
 
-KERI alternative to total global ordering and consensus protocols is a mechanism called [duplicity](duplicity.md) detection. In the [verification](verifiers.md) and [validation](validation.md) **watchers are all that matter**; they guarantee that logs are immutable by one very simple rule: "[first seen](first-seen.md) wins".
+KERI alternative to total global ordering and consensus protocols is a mechanism called *Duplicity detection*. In the [verification](https://weboftrust.github.io/WOT-terms/docs/glossary/verification) and [validation](https://weboftrust.github.io/WOT-terms/docs/glossary/validation) **watchers are all that matter**; they guarantee that logs are immutable by one very simple rule: "[first seen](https://weboftrust.github.io/WOT-terms/docs/glossary/first-seen) wins".
 
 #### Pre-rotation - quantum protection - security fallback (exposure, theft) - portray changing power dynamics
 

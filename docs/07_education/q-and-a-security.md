@@ -2,7 +2,7 @@
 
 <img className="inline-small-start" src={require('/static/img/Keri_logo_color_on_white.png').default} alt="KERI logo" />
 
-This document is part two of [Q-and-A](./q-and-a). Both files shares a common [Glossary](../04_glossary/index.md), KERI specific and more generic decentralized Identity ones, that has:
+This document is part two of [Q-and-A](./q-and-a). Both files shares a common [Glossary](https://weboftrust.github.io/WOT-terms/docs/category/glossary), KERI specific and more generic decentralized Identity ones, that has:
 
 - an alphabetically ordered list of **abbreviations**
 - an alphabetically ordered list of **definitions**
