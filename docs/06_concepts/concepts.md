@@ -61,7 +61,7 @@ In the following write-up we use well-known common terminology and also introduc
 
 ### Familiar terms
 
-We explain the terminology at various [levels of understanding](README.md#levels-of-understanding.md), and also **our criteria** how we judge certain terms to be defined for the sake of KERI / ACDC. E.g. `multisignatures`, `validators` and `verifiers`. 
+We explain the terminology at various [levels of understanding](https://github.com/WebOfTrust/WOT-terms/blob/main/README.md#levels-of-understanding), and also **our criteria** how we judge certain terms to be defined for the sake of KERI / ACDC. E.g. `multisignatures`, `validators` and `verifiers`. 
 1. What have we decided that they mean to us in our mental model, and if so
 2. Have we formulated criteria and edge cases so that we can determine whether an instances of a term is in or out of the scope of the definition
 
@@ -73,7 +73,7 @@ Understanding could vary in different domains and use-cases (e.g. a controller i
 
 KERI is a new development. CESR and OOBI are new auxilary concepts to get KERI going within its frame of reference: the trust spanning layer KERI likes to provision. As an example we therefore can't use just CBOR and had to invent a dedicated event streaming representation that is pipelineable and composable.
 
-ACDC and it's auxilary concepts IPEX, KERIA, SIGNIFY are build on top of KERI; so it's new too. Inevitably, new terminology has surfaced in the design of KERI and ACDC. In this `concepts` section we try to explain related terms in a few [levels of understanding](./README.md#levels-of-understanding.md) but as mentioned above always focussed on the sole objective to reduce learning time of KERI developers in spé.  
+ACDC and it's auxilary concepts IPEX, KERIA, SIGNIFY are build on top of KERI; so it's new too. Inevitably, new terminology has surfaced in the design of KERI and ACDC. In this `concepts` section we try to explain related terms in a few [levels of understanding](https://github.com/WebOfTrust/WOT-terms/blob/main/README.md#levels-of-understanding) but as mentioned above always focussed on the sole objective to reduce learning time of KERI developers in spé.  
 Here and there we've used analogies and symbols to clear up complex and intangible concepts for those new to KERI / ACDC and even for those experts that we consider being 'advanced'. 
 The derived goal is to try to make sense in the perception of the newbie - and the advanced identity expert "as we go" for the main objective and target group: Reduce learning time for KERI devs to be. Please bear this in mind. 
 > An example of much heard complaints:
@@ -286,7 +286,7 @@ Source: VC Spec Enhancement Strategy Proposal by Sam Smith
 
 #### Its and Bits - Cryptography and one-way functions is the only thing than can safe our digital twin
 
-Use [trans-contextual value](trans-contextual-value.md) creation and capture to fuel cooperative network effects.
+Use [trans-contextual value](trans-contextual-value) creation and capture to fuel cooperative network effects.
 
 #### Network dynamics - centralized system will lose
 
@@ -405,7 +405,7 @@ Because the cryptographic material in the events may be of variable length, a fi
 
 Only the controller of the associated identifier prefix may compose KERI events, the ordering of elements in the event serialization may be determined solely by that controller. Other entities may sign the event serialization provided by the controller but do not need to provide a serialization of their own.
 
-In summary, the necessary constraint for complete event serialization is support for arbitrary data structures with variable length fields that are serializable and de-serializable in multiple formats. Reproducible ordering is not a necessary constraint. [Source](https://github.com/decentralized-identity/keri/blob/master/kids/kid0003.md)
+In summary, the necessary constraint for complete event serialization is support for arbitrary data structures with variable length fields that are serializable and de-serializable in multiple formats. Reproducible ordering is not a necessary constraint. [Source](https://github.com/decentralized-identity/keri/blob/master/kids/kid0003)
 
 #### JSON-LD and triples are too simple (only "is"/"has") - we are proponents of property graphs
 
@@ -448,7 +448,7 @@ In addition CESR’s requirement that all cryptographic operations maintain at l
 
 "There are many coding schemes that could satisfy the composability constraint of alignment on 24-bit boundaries. The main reason for using a text domain-centric encoding is higher usability, readability, or human friendliness. Indeed **a primary design goal of CESR is to select an encoding approach that provides high usability, readability, or human friendliness** in the _text_ domain. This type of usability goal is simply not realizable in the binary domain.\
 The _binary_ domain's purpose is merely to **provide convenient compactness at scale**. We believe usability in the text domain is maximized when the _type_ portion of the prepended framing code is stable or invariant. Stable type coding makes it much easier to recognize primitives of a given type when debugging source, reading messages, or documents in the text domain that include encoded primitives. This is true even when those primitives have different lengths or values."\
-[Source](https://github.com/WebOfTrust/ietf-cesr/blob/main/draft-ssmith-cesr.md) IETF Draft CESR.
+[Source](https://github.com/WebOfTrust/ietf-cesr/blob/main/draft-ssmith-cesr) IETF Draft CESR.
 
 There are two possibilities for CESR's coding scheme to ensure a composable 24-bit alignment. The first is to add trailing pad characters post-conversion. The second is to add leading pad bytes pre-conversion. Because of the greater readability of the value portion of both the fully qualified text, T, or fully qualified binary, B, domain representations, the second approach was chosen for CESR.\
 [Source](https://github.com/WebOfTrust/ietf-cesr/blob/main/draft-ssmith-cesr.md#code-characters-and-lead-bytes) IETF Draft CESR.
@@ -483,9 +483,9 @@ principles and pre-conditions
 
 #### Freedom of witness and backer organization - extensible - scalable
 
-We have two types: witnesses (for the controller) and backer to check duplicity in the network. The reason we've done this because we thus avoid the [eclipse attack](.md), that blockchains suffer from.
+We have two types: witnesses (for the controller) and backer to check duplicity in the network. The reason we've done this because we thus avoid the *eclipse attack*, that blockchains suffer from.
 
-We foresee witness and watcher hosting services, just like web hosting currently. Technically speaking a watcher and a witness use the same code and protocol, watchers run in [promiscuous mode](.md).
+We foresee witness and watcher hosting services, just like web hosting currently. Technically speaking a watcher and a witness use the same code and protocol, watchers run in *promiscuous mode*.
 
 #### Freedom of validator and watchtower organization - extensible - scalable
 
