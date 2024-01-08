@@ -207,7 +207,7 @@
     "term": "autonomic trust basis",
     "url": "https://kerisse.org",
     "anchor": "autonomic-trust-basis",
-    "definition": "<h4>Definition</h4><p>When use an <a href=\"AID\">AID</a> as the <a href=\"root-of-trust\">root-of-trust</a> we form a so-called <em>autonomic trust basis</em>. This is diagrammed as follows:</p><p><img src=\"https://github.com/weboftrust/WOT-terms/static/img/autonomic-trust-basis.png\" alt=\"\"> </p><h4>Other trust bases</h4><p>Two other trust bases are in common use for identifier systems. One we call <em>algorithmic</em>, the other is . </p><p>An algorithmic trust basis relies on some network of nodes running some type of Byzantine fault tolerant totally ordering distributed consensus algorithm for its root-of-trust. These networks are more commonly known as a shared ledger or blockchain such as Bitcoin, Ethereum, or Sovrin</p><p>The other commonly used trust basis in identifier systems is an <em>administrative</em> or organizational <em>trust basis</em>, i.e. a trusted entity. This is neither <a href=\"security\">secure</a> nor <a href=\"decentralized\">decentralized</a>.</p>"
+    "definition": "<h4>Definition</h4><p>When use an <a href=\"AID\">AID</a> as the <a href=\"root-of-trust\">root-of-trust</a> we form a so-called <em>autonomic trust basis</em>. This is diagrammed as follows:</p><p><img src=\"https://github.com/weboftrust/WOT-terms/static/img/autonomic-trust-basis.png\" alt=\"\"> </p><h4>Other trust bases</h4><p>Two other trust bases are in common use for identifier systems. One we call <em>algorithmic</em>, the other is . </p><p>An algorithmic trust basis relies on some network of nodes running some type of Byzantine fault tolerant totally ordering distributed consensus algorithm for its root-of-trust. These networks are more commonly known as a shared ledger or blockchain such as Bitcoin, Ethereum, or Sovrin</p><p>The other commonly used trust basis in identifier systems is an <em>administrative</em> or organizational <em>trust basis</em>, i.e. a trusted entity. This is neither <a href=\"security\">secure</a> nor <a href=\"decentralized-identifier\">decentralized</a>.</p>"
   },
   {
     "organisation": "WebOfTrust",
@@ -1002,7 +1002,7 @@
   },
   {
     "organisation": "WebOfTrust",
-    "term": "encrypt-sender-sign-receiver",
+    "term": "encrypt sender sign receiver",
     "url": "https://kerisse.org",
     "anchor": "encrypt-sender-sign-receiver",
     "definition": "<h4>Definition</h4><p>An authenticated encryption approach, using <a href=\"PKI\">PKI</a>. It covers <a href=\"authenticity\">authenticity</a> and <a href=\"confidentiality\">confidentiality</a>.</p>"
@@ -1691,7 +1691,7 @@
     "term": "keridemlia",
     "url": "https://kerisse.org",
     "anchor": "keridemlia",
-    "definition": "<h4>Definition</h4><p>It is a contraction of <a href=\"key-event-receipt-infratructure\">KERI</a> and <a href=\"https://en.wikipedia.org/wiki/Kademlia\">Kademlia</a>. It&#39;s the distributed database of Witness IP-addresses based on a <a href=\"distributed-hash-table\">Distributed Hash Table</a>. It also does the CNAME - stuff that <a href=\"DNS\">DNS</a> offers for KERI: the mapping between an identifier and it&#39;s controller AID stored in the KEL to its current wittness AID and the wittness AID to the IP address.(@henkvancann)</p>"
+    "definition": "<h4>Definition</h4><p>It is a contraction of <a href=\"key-event-receipt-infratructure\">KERI</a> and <a href=\"https://en.wikipedia.org/wiki/Kademlia\">Kademlia</a>. It&#39;s the distributed database of Witness IP-addresses based on a <a href=\"distributed-hash-table\">Distributed Hash Table</a>. It also does the CNAME - stuff that <a href=\"domain-name\">Domain Name</a> Services (DNS) offers for KERI: the mapping between an identifier and it&#39;s controller AID stored in the KEL to its current wittness AID and the wittness AID to the IP address.<br>(@henkvancann)</p>"
   },
   {
     "organisation": "WebOfTrust",
@@ -2605,6 +2605,13 @@
   },
   {
     "organisation": "WebOfTrust",
+    "term": "reconciliation",
+    "url": "https://kerisse.org",
+    "anchor": "reconciliation",
+    "definition": "<h4>Definition</h4><p>Reconciliation is the process in which you decide to accept a fork of the <a href=\"key-event-log\">KEL</a> or not.<br>Source: Samuel Smith, Zoom meeting Jan 2 2024.</p><h4>Advantage</h4><ul><li>You might not have to abandon your identifier after key compromise</li><li>Only few people will see your reconciliation or clean up</li></ul>"
+  },
+  {
+    "organisation": "WebOfTrust",
     "term": "redundant credential",
     "url": "https://kerisse.org",
     "anchor": "redundant-credential",
@@ -3452,6 +3459,13 @@
   },
   {
     "organisation": "WebOfTrust",
+    "term": "verification",
+    "url": "https://kerisse.org",
+    "anchor": "verification",
+    "definition": "<h4>Definition</h4><p>An action an <a href=\"agent\">agent</a> (of a principal) performs to determine the <a href=\"authenticity\">authenticity</a> of a claim or other digital object using a cryptographic key.<br>Source: ToIP glossary, Jan 2024.</p><p>In more technical words: the capability to (cryptographically) verify data received from peers (check structure, signatures, dates)</p><h4>See also</h4><p><a href=\"verify\">verify</a></p>"
+  },
+  {
+    "organisation": "WebOfTrust",
     "term": "verified integrity",
     "url": "https://kerisse.org",
     "anchor": "verified-integrity",
@@ -3469,7 +3483,7 @@
     "term": "verify",
     "url": "https://kerisse.org",
     "anchor": "verify",
-    "definition": "<h4>See</h4><p><a href=\"https://essif-lab.github.io/framework/docs/essifLab-glossary#verify\">Verify</a> in eSSIF-lab glossary</p>"
+    "definition": "<h4>Definition</h4><p>The act, by or on behalf of a <a href=\"party\">party</a>, of determining whether that data is <a href=\"authenticity\">authentic</a> (i.e. originates from the party that authored it), timely (i.e. has not expired), and conforms to other specifications that apply to its structure.<br><a href=\"https://essif-lab.github.io/framework/docs/essifLab-glossary#verify\">Source eSSIF-lab</a> in eSSIF-lab glossary</p><h4>See also</h4><p><a href=\"verification\">Verification</a></p>"
   },
   {
     "organisation": "WebOfTrust",

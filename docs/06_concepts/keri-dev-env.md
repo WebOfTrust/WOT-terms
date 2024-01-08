@@ -31,22 +31,21 @@ Through this structured approach, we aim to provide clear insights into our deve
 
 
 ### What is Slack
-
+A social media platform
 #### Why is it relevant for the KERI Suite
+It used to be our social media platform for development (until mid 2023)
 
 #### Why Slack and not something else?
-Concerning the vanished Slack History, I’ve got this update:
-- I’ve requested Slack to give us a rebate to the standard Slack Pro price of US$ 420 per month… Let’s see where Slack comes up with.
+WebofTrust's Slack History is [here](https://weboftrust.github.io/WOT-terms/slack/html/). Soon you will be able to use [KERISSE search](https://kerisse.org) (upper right corner hour glass) to search through this Archive. For the time being: if you're looking for a specific conversation in the past, you could use good-old Ctrl/command-F per channel page there.
 
-And this request for KERI Suite Slack users:
-Anticipating on a future where we don’t like to burn too much money on a Slack paywall to just have continuous access to our history:  let’s move discussions from Slack (as soon as they take off) to Github Discussion and link them from Slack. 
-Use Slack just for chat, announcements, notifications and planning stuff?
- 
-You to Everyone (10 Aug 2023, 15:26)
-Discussions -> GH Discussions
-Questions & Answers -> GH discussions
-Bugs & feature requests -> GH Issues
 
+### What is Discord
+A social media platform
+#### Why is it relevant for the KERI Suite
+It is our current social media platform for development
+
+#### Why Discord and not something else?
+We have control over our own server. Discord has sophisticated bots available and is highly adjustable to your needs as a development team.
 
 ### What is Sphinx?
 

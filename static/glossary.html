@@ -347,7 +347,7 @@ Also used to describe <a href="#PKI">PKI</a> key pairs that have this feature.</
 <dt id="autonomic-trust-basis"><svg class="_slf" onclick="copyUrl('#autonomic-trust-basis')"><use href="#_slf"/></svg>autonomic trust basis <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//autonomic-trust-basis')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p>When use an <a href="#AID">AID</a> as the <a href="#root-of-trust" title="A root-of-trust is some component of a system that is secure by design and its security characteristics may be inherently trusted or relied upon by other components of the system.">root-of-trust</a> we form a so-called <em>autonomic trust basis</em>. This is diagrammed as follows:</p>
 <p><img src="https://github.com/weboftrust/WOT-terms/static/img/autonomic-trust-basis.png" alt="" /> </p>
-<p class="meta">version 1, commit e412903, created 2023-10-03, contributors Henk van Cann</p>
+<p class="meta">version 2, commit db05882, created 2023-10-03, last modified 2024-01-03, contributors Henk van Cann</p>
 </dd>
 
 <dt id="avr"><svg class="_slf" onclick="copyUrl('#avr')"><use href="#_slf"/></svg>AVR <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//avr')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
@@ -878,7 +878,7 @@ the presenter controls the disclosure so you can't re-identify the data</p>
 </dd>
 
 <dt id="diger"><svg class="_slf" onclick="copyUrl('#diger')"><use href="#_slf"/></svg>diger <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//diger')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
-<dd><p>A <em>primitive</em> that represents a <a href="#digest" title="verifiable cryptographic commitment.">digest</a>. It has the ability to <a href="#verify">verify</a> that an input hashes to its raw value.<br />
+<dd><p>A <em>primitive</em> that represents a <a href="#digest" title="verifiable cryptographic commitment.">digest</a>. It has the ability to <a href="#verify" title="The act, by or on behalf of a party, of determining whether that data is authentic (i.e.">verify</a> that an input hashes to its raw value.<br />
 <a href="https://github.com/WebOfTrust/cesride#terminology">Source</a> by Jason Colburne</p>
 <p class="meta">version 2, commit b5f7b1a, created 2023-07-07, last modified 2023-09-21, contributors Henk van Cann</p>
 </dd>
@@ -1010,9 +1010,9 @@ Read more in <a href="https://github.com/trustoverip/tswg-cesr-specification/blo
 <p class="meta">version 1, commit b326c62, created 2023-07-07, contributors Henk van Cann</p>
 </dd>
 
-<dt id="encrypt-sender-sign-receiver"><svg class="_slf" onclick="copyUrl('#encrypt-sender-sign-receiver')"><use href="#_slf"/></svg>encrypt‐sender‐sign‐receiver <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//encrypt-sender-sign-receiver')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
+<dt id="encrypt-sender-sign-receiver"><svg class="_slf" onclick="copyUrl('#encrypt-sender-sign-receiver')"><use href="#_slf"/></svg>encrypt sender sign receiver <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//encrypt-sender-sign-receiver')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p>An authenticated encryption approach, using <a href="#PKI">PKI</a>. It covers <a href="#authenticity" title="The quality of having an objectively verifiable origin ; contrast veracity.">authenticity</a> and <a href="#confidentiality" title="All statements in a conversation are only known by the parties to that conversation.">confidentiality</a>.</p>
-<p class="meta">version 2, commit 7e76443, created 2023-10-10, last modified 2023-10-10, contributors Henk van Cann</p>
+<p class="meta">version 1, commit 7640ee6, created 2024-01-03, contributors Henk van Cann</p>
 </dd>
 
 <dt id="end-role"><svg class="_slf" onclick="copyUrl('#end-role')"><use href="#_slf"/></svg>end role <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//end-role')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
@@ -1542,9 +1542,9 @@ More on <a href="https://github.com/WebOfTrust/keride">Github repo</a></p>
 </dd>
 
 <dt id="keridemlia"><svg class="_slf" onclick="copyUrl('#keridemlia')"><use href="#_slf"/></svg>keridemlia <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//keridemlia')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
-<dd><p>It is a contraction of <a href="#key-event-receipt-infratructure">KERI</a> and <a href="https://en.wikipedia.org/wiki/Kademlia">Kademlia</a>. It's the distributed database of Witness IP-addresses based on a <a href="#distributed-hash-table" title="It is a distributed system that provides a lookup service similar to a hash table: key-value pairs are stored in a DHT, and any participating node can efficiently retrieve the value associated with a given key.">Distributed Hash Table</a>. It also does the CNAME - stuff that <a href="#DNS">DNS</a> offers for KERI: the mapping between an identifier and it's controller AID stored in the KEL to its current wittness AID and the wittness AID to the IP address.
+<dd><p>It is a contraction of <a href="#key-event-receipt-infratructure">KERI</a> and <a href="https://en.wikipedia.org/wiki/Kademlia">Kademlia</a>. It's the distributed database of Witness IP-addresses based on a <a href="#distributed-hash-table" title="It is a distributed system that provides a lookup service similar to a hash table: key-value pairs are stored in a DHT, and any participating node can efficiently retrieve the value associated with a given key.">Distributed Hash Table</a>. It also does the CNAME - stuff that <a href="#domain-name" title="A domain name is a string that identifies a realm of administrative autonomy, authority or control within the Internet.">Domain Name</a> Services (DNS) offers for KERI: the mapping between an identifier and it's controller AID stored in the KEL to its current wittness AID and the wittness AID to the IP address.<br />
 (@henkvancann)</p>
-<p class="meta">version 2, commit 61f6aee, created 2023-07-07, last modified 2023-10-27, contributors Henk van Cann</p>
+<p class="meta">version 3, commit 6b17483, created 2023-07-07, last modified 2024-01-03, contributors Henk van Cann</p>
 </dd>
 
 <dt id="kerimask"><svg class="_slf" onclick="copyUrl('#kerimask')"><use href="#_slf"/></svg>KERIMask <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//kerimask')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
@@ -2301,6 +2301,12 @@ More on <a href="https://www.beyondidentity.com/glossary/rainbow-table-attack">s
 <p class="meta">version 1, commit b326c62, created 2023-07-07, contributors Henk van Cann</p>
 </dd>
 
+<dt id="reconciliation"><svg class="_slf" onclick="copyUrl('#reconciliation')"><use href="#_slf"/></svg>reconciliation <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//reconciliation')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
+<dd><p>Reconciliation is the process in which you decide to accept a fork of the <a href="#key-event-log" title="A verifiable data structure that is a backward and forward chained, signed, append-only log of key events for an AID.">KEL</a> or not.<br />
+Source: Samuel Smith, Zoom meeting Jan 2 2024.</p>
+<p class="meta">version 3, commit fa1093e, created 2024-01-02, last modified 2024-01-02, contributors Henk van Cann</p>
+</dd>
+
 <dt id="redundant-credential"><svg class="_slf" onclick="copyUrl('#redundant-credential')"><use href="#_slf"/></svg>redundant credential <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//redundant-credential')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p>Multiple credentials issued by the same issuer (e.g. a <a href="#QVI">QVI</a>). They do not have anything to do with each other. They are independently valid.</p>
 <p class="meta">version 2, commit c7b4c0a, created 2023-07-07, last modified 2023-09-10, contributors Henk van Cann</p>
@@ -2898,7 +2904,7 @@ Source: Bing chat, Sept 2023</p>
 <dd><p>ESSIF-lab definition of <em><a href="https://essif-lab.github.io/framework/docs/essifLab-glossary#validate">validate</a></em>. Although this definition is very general, in the KERI/ACDC vocabulary 'validate' currently has extra diverse meanings extending the one of eSSIF-lab, such as</p>
 <ul>
 <li>evaluate</li>
-<li><a href="#verify">verify</a></li>
+<li><a href="#verify" title="The act, by or on behalf of a party, of determining whether that data is authentic (i.e.">verify</a></li>
 </ul>
 <p>In contrast, <a href="#validator" title="determines current authoritative key set for identifier from at least one key event (receipt) log.">validator</a> and <a href="#verifier" title="the entity that (cryptographically) verifies data received from peers (check structure, signatures, dates).">verifier</a> have been clearly outlined in the WebofTrust vocabulary.</p>
 <p class="meta">version 1, commit b326c62, created 2023-07-07, contributors Henk van Cann</p>
@@ -2946,7 +2952,7 @@ Source: Bing chat, Sept 2023</p>
 </dd>
 
 <dt id="verfer"><svg class="_slf" onclick="copyUrl('#verfer')"><use href="#_slf"/></svg>verfer <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//verfer')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
-<dd><p>A primitive that represents a public key. It has the ability to <a href="#verify">verify</a> signatures on data.<br />
+<dd><p>A primitive that represents a public key. It has the ability to <a href="#verify" title="The act, by or on behalf of a party, of determining whether that data is authentic (i.e.">verify</a> signatures on data.<br />
 <a href="https://github.com/WebOfTrust/cesride#terminology">Source</a> by Jason Colburne</p>
 <p class="meta">version 2, commit b5f7b1a, created 2023-07-07, last modified 2023-09-21, contributors Henk van Cann</p>
 </dd>
@@ -2983,6 +2989,13 @@ It contains either a log of signed statements or a cryptographic commitment (<a 
 <p class="meta">version 2, commit 47b224c, created 2023-07-07, last modified 2023-11-21, contributors Henk van Cann</p>
 </dd>
 
+<dt id="verification"><svg class="_slf" onclick="copyUrl('#verification')"><use href="#_slf"/></svg>verification <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//verification')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
+<dd><p>An action an <a href="#agent" title="A representative for an identity.">agent</a> (of a principal) performs to determine the <a href="#authenticity" title="The quality of having an objectively verifiable origin ; contrast veracity.">authenticity</a> of a claim or other digital object using a cryptographic key.<br />
+Source: ToIP glossary, Jan 2024.</p>
+<p>In more technical words: the capability to (cryptographically) verify data received from peers (check structure, signatures, dates)</p>
+<p class="meta">version 2, commit 3aa058d, created 2024-01-03, last modified 2024-01-03, contributors Henk van Cann</p>
+</dd>
+
 <dt id="verified-integrity"><svg class="_slf" onclick="copyUrl('#verified-integrity')"><use href="#_slf"/></svg>verified integrity <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//verified-integrity')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p>A mechanism that can unambiguously assess whether the information is/continues to be whole, sound and unimpaired</p>
 <p class="meta">version 3, commit b5f7b1a, created 2023-07-07, last modified 2023-09-21, contributors Henk van Cann</p>
@@ -2995,8 +3008,9 @@ It contains either a log of signed statements or a cryptographic commitment (<a 
 </dd>
 
 <dt id="verify"><svg class="_slf" onclick="copyUrl('#verify')"><use href="#_slf"/></svg>verify <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//verify')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
-<dd><p><a href="https://essif-lab.github.io/framework/docs/essifLab-glossary#verify">Verify</a> in eSSIF-lab glossary</p>
-<p class="meta">version 1, commit b326c62, created 2023-07-07, contributors Henk van Cann</p>
+<dd><p>The act, by or on behalf of a <a href="#party">party</a>, of determining whether that data is <a href="#authenticity" title="The quality of having an objectively verifiable origin ; contrast veracity.">authentic</a> (i.e. originates from the party that authored it), timely (i.e. has not expired), and conforms to other specifications that apply to its structure.<br />
+<a href="https://essif-lab.github.io/framework/docs/essifLab-glossary#verify">Source eSSIF-lab</a> in eSSIF-lab glossary</p>
+<p class="meta">version 2, commit efc499a, created 2023-07-07, last modified 2024-01-03, contributors Henk van Cann</p>
 </dd>
 
 <dt id="verify-signature"><svg class="_slf" onclick="copyUrl('#verify-signature')"><use href="#_slf"/></svg>verify signature <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//verify-signature')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>

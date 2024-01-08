@@ -197,7 +197,7 @@ const config = {
               },
               {
                 label: 'Glossary',
-                to: '/docs/glossary',
+                to: '/docs/category/glossary',
               },
               {
                 label: 'How we did',

@@ -404,6 +404,22 @@
     "anchor": "P2P"
   },
   {
+    "term": "party",
+    "abbrSyn": [
+      {
+        "text": "entity",
+        "link": "https://csrc.nist.gov/glossary/term/entity"
+      },
+      {
+        "text": "Entity"
+      }
+    ],
+    "definition": "An individual (person), organization, device, or a combination thereof. In this Recommendation, an entity may be a functional unit that executes certain processes.",
+    "organisation": "Nist",
+    "url": "https://csrc.nist.gov/glossary/term/party",
+    "anchor": "party"
+  },
+  {
     "term": "PGP",
     "abbrSyn": [
       {
