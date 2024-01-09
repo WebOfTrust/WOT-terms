@@ -1,0 +1,15 @@
+body {
+    margin: 0 auto;
+    max-width: 40em;
+    font-size: 100%;
+}
+
+.logo {
+    max-width: 1em;
+    margin-right: 1em;
+}
+
+video {
+    margin: 1em auto;
+    max-width: 100%;
+}
