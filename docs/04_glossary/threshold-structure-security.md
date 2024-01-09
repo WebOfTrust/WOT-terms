@@ -3,7 +3,7 @@
 A threshold structure for security allows for weaker key management or execution environment infrastructure individually, but achieve greater overall security by multiplying the number of attack surfaces that an attacker must overcome to compromise a system.  
 In other words, with threshold structures, overall security may be greater than the security of any of the individual parts. 
 
-For example, in [MFA](mutli-factor-authentication) the combination of two factors, something you have and something you know, may be much more secure than either of the factors by themselves.
+For example, in [MFA](multi-factor-authentication) the combination of two factors, something you have and something you know, may be much more secure than either of the factors by themselves.
 
 ### Threshold Structure Security vs. TEE Security
 Threshold structures may be employed in a complementary manner to trusted execution environments ([TEE](trusted-execution-environment)) for security. The two types of security are complementary.
