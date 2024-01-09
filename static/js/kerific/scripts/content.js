@@ -67,6 +67,16 @@
         element.remove();
     });
 
+    function findLinkTextAfterSee(str) {
+        const pattern = /See\s?:? ?<.*?<a.*?>(.*?)<\/a>/is;
+        const match = pattern.exec(str);
+        console.log('match: ', match);
+        return match ? match[1] : null;
+    }
+    // // Example usage:
+    // const exampleString = 'Random text See <a href="link.html">Link Text</a> more text';
+    // console.log(findLinkTextAfterSee(exampleString)); // Outputs: "Link Text"
+
 
     // Add loading indicator
     const loadingIndicator = document.createElement('h1');
