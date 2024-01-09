@@ -1,5 +1,5 @@
 # Roadmap to know what's coming
-People want to know when new code will be ready and how they can rely on the code they currently use and / or create extensions or modification too. For this reason, we'ld like to know the work planning and how certain tasks are (inter)dependent of other tasks. 
+People want to know when new code will be ready, who will produce it, where it'll be and how they can rely on the code they currently use and / or create extensions or modification too. For this reason, we'ld like to know the work planning and how certain tasks are (inter)dependent of other tasks. 
 - Will changes break the current code?
 - Have black swans appeared?
 - When will the work start and when is it ready?

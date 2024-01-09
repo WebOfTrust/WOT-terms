@@ -46,7 +46,7 @@ The [Mental Model](https://github.com/WebOfTrust/WOT-terms/blob/main/mental-mode
 
 #### Vision
 
-KERI is fully Open Source under [Apache-2 license](.https://github.com/WebOfTrust/WOT-terms/blob/main/LICENSE). Some typical **aspects of open source software development** and their communities that we value:
+KERI is fully Open Source under [Apache-2 license](https://github.com/WebOfTrust/WOT-terms/blob/main/LICENSE). Some typical **aspects of open source software development** and their communities that we value:
 - We reuse as much as possible, using open source tools
 - We try to release quickly and often
 - We avoid vendor locks, propietary lock-ins and censorship
@@ -56,7 +56,7 @@ KERI is fully Open Source under [Apache-2 license](.https://github.com/WebOfTrus
 
 ## Explanation of concepts
 
-In the following write-up we use well-known common terminology and also introduces new terminology.  It's aimed at Self-Sovereign Identity experts specifically. Specially the general terminology could create confusion between parties, because terms like this may cover a broader scope or mental model than just KERI or Self-Sovereign Identity as a fied.
+In the following write-up we use well-known common terminology and also introduces new terminology.  It's aimed at Self-Sovereign Identity experts specifically. Specially the general terminology could create confusion between parties, because terms like this may cover a broader scope or mental model than just KERI or Self-Sovereign Identity as a field.
 > Example: a _witness_ in common identity - and blockchain theory most probably has a different connotation then what a  'witness' is in KERI.
 
 ### Familiar terms
@@ -286,7 +286,7 @@ Source: VC Spec Enhancement Strategy Proposal by Sam Smith
 
 #### Its and Bits - Cryptography and one-way functions is the only thing than can safe our digital twin
 
-Use [trans-contextual value](trans-contextual-value) creation and capture to fuel cooperative network effects.
+Use *trans-contextual value* creation and capture to fuel cooperative network effects.
 
 #### Network dynamics - centralized system will lose
 
@@ -393,7 +393,7 @@ See [glossary item](https://github.com/trustoverip/acdc/wiki/non-repudiable)
 
 #### First seen - timing solution - overload protection
 
-KERI alternative to total global ordering and consensus protocols is a mechanism called *Duplicity detection*. In the [verification](https://weboftrust.github.io/WOT-terms/docs/glossary/verification) and [validation](https://weboftrust.github.io/WOT-terms/docs/glossary/validation) **watchers are all that matter**; they guarantee that logs are immutable by one very simple rule: "[first seen](https://weboftrust.github.io/WOT-terms/docs/glossary/first-seen) wins".
+KERI alternative to total global ordering and consensus protocols is a mechanism called *Duplicity detection*. In the [verification](https://weboftrust.github.io/WOT-terms/docs/glossary/verification) and [validation](https://weboftrust.github.io/WOT-terms/docs/glossary/validate) **watchers are all that matter**; they guarantee that logs are immutable by one very simple rule: "[first seen](https://weboftrust.github.io/WOT-terms/docs/glossary/first-seen) wins".
 
 #### Pre-rotation - quantum protection - security fallback (exposure, theft) - portray changing power dynamics
 

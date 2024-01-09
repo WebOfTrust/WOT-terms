@@ -76,7 +76,7 @@ We've done our best to protect the privacy of Github users by investigating the 
 
 ## Knowledge you should be confidently applying
 
-- The definitions in the [glossary](../04_glossary/index.md)
+- The definitions in the [glossary](https://weboftrust.github.io/WOT-terms/docs/category/glossary)
 - Public private key pairs
 - Hashing and hashes
 - Signatures
@@ -174,7 +174,7 @@ Explanatory articles from Henk van Cann about KERI, CESR, OOBI, Autonomic identi
 
 [KERI](https://github.com/SmithSamuelM/Papers/blob/master/presentations/KERI_for_Muggles.pdf) and [ACDC](https://docs.google.com/presentation/d/1mO1EZa9BcjAjWEzw7DWi124uMfyNyDeM3HuajsGNoTo/edit#slide=id.ga411be7e84_0_0) for Muggles by Drummond Reed / Sam Smith
 
-[Docs](https://github.com/WebOfTrust/keri/tree/main/docs) about technical concepts behind KERI: Questions and Answers [general](https://github.com/WebOfTrust/keri/blob/main/docs/q-and-a) and focussed on [security](https://github.com/WebOfTrust/keri/blob/main/docs/q-and-a-security.md), [Glossary KERI Suite](../04_glossary/index.md) 
+[Docs](https://github.com/WebOfTrust/keri/tree/main/docs) about technical concepts behind KERI: Questions and Answers [general](https://github.com/WebOfTrust/keri/blob/main/docs/q-and-a) and focussed on [security](https://github.com/WebOfTrust/keri/blob/main/docs/q-and-a-security.md), [Glossary KERI Suite](https://weboftrust.github.io/WOT-terms/docs/category/glossary) 
 
 Explanation of KERI development tools and techniques (preliminary link): [KERI development environment](https://github.com/henkvancann/keri-1/blob/main/docs/keri-dev-env.md)
 
