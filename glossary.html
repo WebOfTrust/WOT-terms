@@ -225,11 +225,6 @@ all despite a dishonest controller but where at most F of the witnesses are pote
 <p class="meta">version 4, commit b5f7b1a, created 2023-07-13, last modified 2023-09-21, contributors Henk van Cann - Kent Bull</p>
 </dd>
 
-<dt id="an"><svg class="_slf" onclick="copyUrl('#an')"><use href="#_slf"/></svg>AN <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//an')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
-<dd><p><a href="#autonomic-namespace" title="A namespace that is self-certifying and hence self-administrating.">Autonomic namespace</a></p>
-<p class="meta">version 1, commit b326c62, created 2023-07-07, contributors Henk van Cann</p>
-</dd>
-
 <dt id="apc"><svg class="_slf" onclick="copyUrl('#apc')"><use href="#_slf"/></svg>APC <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//apc')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p><a href="#authentic-provenance-chain" title="Interlinked presentations of evidence that allow data to be tracked back to its origin in an objectively verifiable way.">Authentic provenance chain</a></p>
 <p class="meta">version 1, commit b326c62, created 2023-07-07, contributors Henk van Cann</p>
@@ -1113,8 +1108,8 @@ In the context of identifiers is often referred to as identifiers for one time u
 </dd>
 
 <dt id="first-seen"><svg class="_slf" onclick="copyUrl('#first-seen')"><use href="#_slf"/></svg>first seen <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//first-seen')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
-<dd><p>&quot;First seen&quot; in KERI is the first verified event, accepted in the KEL. It has no effect on the timing of what has arrived in escrow for example; in escrow there can be garbage. Every 'first seen' event is propagated world wide within micro-seconds to the watchers. Only in this microseconds windows that you could have a live key conprise attack. If that happens, this where you have to look after this duplicity-attack a bit more in depth to handle it safely. E.g. a valid key rotation.</p>
-<p class="meta">version 1, commit b326c62, created 2023-07-07, contributors Henk van Cann</p>
+<dd><p>A &quot;First seen&quot; event in KERI refers to the first event received by validator such as a witness and that is valid and fits the available tail sequence number in the validator's KEL, and therefore is accepted into the validator's KEL. This rule has no effect on the timing of what has arrived in escrow for example; in escrow there can be garbage. Assuming a watched set of validators agree on the first-seen events and thus also agree on the KELs, the watchers of those validators will propagate only those first-seen events within microseconds.</p>
+<p class="meta">version 5, commit daa750b, created 2023-07-07, last modified 2024-01-09, contributors Ed Eykholt - Henk van Cann</p>
 </dd>
 
 <dt id="foreign-function-interface"><svg class="_slf" onclick="copyUrl('#foreign-function-interface')"><use href="#_slf"/></svg>foreign function interface <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//foreign-function-interface')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
@@ -1542,9 +1537,9 @@ More on <a href="https://github.com/WebOfTrust/keride">Github repo</a></p>
 </dd>
 
 <dt id="keridemlia"><svg class="_slf" onclick="copyUrl('#keridemlia')"><use href="#_slf"/></svg>keridemlia <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//keridemlia')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
-<dd><p>It is a contraction of <a href="#key-event-receipt-infratructure">KERI</a> and <a href="https://en.wikipedia.org/wiki/Kademlia">Kademlia</a>. It's the distributed database of Witness IP-addresses based on a <a href="#distributed-hash-table" title="It is a distributed system that provides a lookup service similar to a hash table: key-value pairs are stored in a DHT, and any participating node can efficiently retrieve the value associated with a given key.">Distributed Hash Table</a>. It also does the CNAME - stuff that <a href="#domain-name" title="A domain name is a string that identifies a realm of administrative autonomy, authority or control within the Internet.">Domain Name</a> Services (DNS) offers for KERI: the mapping between an identifier and it's controller AID stored in the KEL to its current wittness AID and the wittness AID to the IP address.<br />
+<dd><p>It is a contraction of <a href="#key-event-receipt-infrastructure" title="Also KERI.">KERI</a> and <a href="https://en.wikipedia.org/wiki/Kademlia">Kademlia</a>. It's the distributed database of Witness IP-addresses based on a <a href="#distributed-hash-table" title="It is a distributed system that provides a lookup service similar to a hash table: key-value pairs are stored in a DHT, and any participating node can efficiently retrieve the value associated with a given key.">Distributed Hash Table</a>. It also does the CNAME - stuff that <a href="#domain-name" title="A domain name is a string that identifies a realm of administrative autonomy, authority or control within the Internet.">Domain Name</a> Services (DNS) offers for KERI: the mapping between an identifier and it's controller AID stored in the KEL to its current wittness AID and the wittness AID to the IP address.<br />
 (@henkvancann)</p>
-<p class="meta">version 3, commit 6b17483, created 2023-07-07, last modified 2024-01-03, contributors Henk van Cann</p>
+<p class="meta">version 4, commit b56ce64, created 2023-07-07, last modified 2024-01-09, contributors Henk van Cann</p>
 </dd>
 
 <dt id="kerimask"><svg class="_slf" onclick="copyUrl('#kerimask')"><use href="#_slf"/></svg>KERIMask <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//kerimask')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
@@ -1906,7 +1901,7 @@ Source <a href="https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-k
 <dt id="non-interactive-authentication-design"><svg class="_slf" onclick="copyUrl('#non-interactive-authentication-design')"><use href="#_slf"/></svg>non interactive authentication design <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//non-interactive-authentication-design')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p>A group of approaches having non-interactive mechanisms that pose unique problems because they do not allow a challenge response reply handshake. A request is submitted that is self-authenticating without additional interaction. The main benefits of non-interactive authentication are scalability and path independent end-to-end verifiability. These benefits become more important in decentralized applications that employ <a href="#zero-trust" title="a Zero Trust approach trusts no one.">zero-trust</a> architectures.<br />
 More in <a href="https://hackmd.io/ZbVAbNK1SPyT90-oNwN_cw">source</a> Keri Request Authentication Mechanism (KRAM) by Samuel Smith</p>
-<p class="meta">version 2, commit 42eebd8, created 2023-10-09, last modified 2023-10-09, contributors Henk van Cann</p>
+<p class="meta">version 3, commit dfeeb72, created 2023-10-09, last modified 2024-01-09, contributors Henk van Cann</p>
 </dd>
 
 <dt id="non-normative"><svg class="_slf" onclick="copyUrl('#non-normative')"><use href="#_slf"/></svg>non normative <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//non-normative')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
@@ -2025,6 +2020,12 @@ Sam Smith suggested for Parside to not iterate stuff, only parse chunks delimite
 </ul>
 <p>Paraphrased by @henkvancann on the bases of the <a href="https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-keri.md">IETF-KERI draft 2022</a> by Samual Smith.</p>
 <p class="meta">version 2, commit b5f7b1a, created 2023-07-07, last modified 2023-09-21, contributors Henk van Cann</p>
+</dd>
+
+<dt id="party"><svg class="_slf" onclick="copyUrl('#party')"><use href="#_slf"/></svg>party <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//party')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
+<dd><p>An entity who participates or is concerned in an action, proceeding, plan, etc.<br />
+Source: ToIP</p>
+<p class="meta">version 1, commit ee48370, created 2024-01-09, contributors Henk van Cann</p>
 </dd>
 
 <dt id="passcode"><svg class="_slf" onclick="copyUrl('#passcode')"><use href="#_slf"/></svg>passcode <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//passcode')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
@@ -2779,7 +2780,7 @@ Source <a href="https://cryptoapis.io/blog/78-what-is-the-threshold-signature-sc
 
 <dt id="threshold-structure-security"><svg class="_slf" onclick="copyUrl('#threshold-structure-security')"><use href="#_slf"/></svg>threshold structure security <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//threshold-structure-security')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p>Threshold structures may be employed in a complementary manner to trusted execution environments (<a href="#trusted-execution-environment" title="Protected hardware/software/firmware security system.">TEE</a>) for security. The two types of security are complementary.</p>
-<p class="meta">version 1, commit 097f89d, created 2023-10-03, contributors Henk van Cann</p>
+<p class="meta">version 2, commit 684d06c, created 2023-10-03, last modified 2024-01-09, contributors Henk van Cann</p>
 </dd>
 
 <dt id="toad"><svg class="_slf" onclick="copyUrl('#toad')"><use href="#_slf"/></svg>TOAD <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//toad')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
@@ -3008,7 +3009,7 @@ Source: ToIP glossary, Jan 2024.</p>
 </dd>
 
 <dt id="verify"><svg class="_slf" onclick="copyUrl('#verify')"><use href="#_slf"/></svg>verify <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//verify')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
-<dd><p>The act, by or on behalf of a <a href="#party">party</a>, of determining whether that data is <a href="#authenticity" title="The quality of having an objectively verifiable origin ; contrast veracity.">authentic</a> (i.e. originates from the party that authored it), timely (i.e. has not expired), and conforms to other specifications that apply to its structure.<br />
+<dd><p>The act, by or on behalf of a <a href="#party" title="An entity who participates or is concerned in an action, proceeding, plan, etc.">party</a>, of determining whether that data is <a href="#authenticity" title="The quality of having an objectively verifiable origin ; contrast veracity.">authentic</a> (i.e. originates from the party that authored it), timely (i.e. has not expired), and conforms to other specifications that apply to its structure.<br />
 <a href="https://essif-lab.github.io/framework/docs/essifLab-glossary#verify">Source eSSIF-lab</a> in eSSIF-lab glossary</p>
 <p class="meta">version 2, commit efc499a, created 2023-07-07, last modified 2024-01-03, contributors Henk van Cann</p>
 </dd>
@@ -3074,7 +3075,7 @@ Paraphrased by @henkvancann from source <a href="https://en.wikipedia.org/wiki/C
 </dd>
 
 <dt id="watcher"><svg class="_slf" onclick="copyUrl('#watcher')"><use href="#_slf"/></svg>watcher <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//watcher')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
-<dd><p>KERI alternative to total global ordering and consensus protocols is a mechanism called <a href="#duplicity">duplicity</a> detection. In the <a href="#verifier" title="the entity that (cryptographically) verifies data received from peers (check structure, signatures, dates).">verification</a> and <a href="#validate">validation</a> <strong>watchers are all that matter</strong>; they guarantee that logs are immutable by one very simple rule: &quot;<a href="#first-seen" title="&quot;First seen&quot; in KERI is the first verified event, accepted in the KEL.">first seen</a> wins&quot;.</p>
+<dd><p>KERI alternative to total global ordering and consensus protocols is a mechanism called <a href="#duplicity">duplicity</a> detection. In the <a href="#verifier" title="the entity that (cryptographically) verifies data received from peers (check structure, signatures, dates).">verification</a> and <a href="#validate">validation</a> <strong>watchers are all that matter</strong>; they guarantee that logs are immutable by one very simple rule: &quot;<a href="#first-seen" title="A &quot;First seen&quot; event in KERI refers to the first event received by validator such as a witness and that is valid and fits the available tail sequence number in the validator's KEL, and therefore is accepted into the validator's KEL.">first seen</a> wins&quot;.</p>
 <p class="meta">version 3, commit f8d2269, created 2023-07-07, last modified 2023-09-05, contributors Henk van Cann</p>
 </dd>
 
