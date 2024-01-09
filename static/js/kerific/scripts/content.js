@@ -12,6 +12,39 @@
      * It loads glossaries related to Keri.
      */
 
+    // CONFIGURATION
+    const cssTextLoadingIndicator = 'position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; border: 1px solid #333; border-radius: 20px; background: #e5ecff; padding: 3em; z-index: 9999999999999999;';
+
+    const cssTextGlossaryPopup = `
+        z-index: 9999999999999999;
+        display: none;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        width: 25%;
+        height: 50%;
+        background-color: white;
+        border: 2px solid #ddd;
+        border-radius: 20px;
+        z-index: 1000;
+        overflow: scroll;
+        margin: 0.5em 0 0 0;
+        padding: 1em;
+        box-shadow: 0px 0px 2.2px rgba(0, 0, 0, 0.02), 0px 0px 5.3px rgba(0, 0, 0, 0.028), 0px 0px 10px rgba(0, 0, 0, 0.035), 0px 0px 17.9px rgba(0, 0, 0, 0.042), 0px 0px 33.4px rgba(0, 0, 0, 0.05), 0px 0px 80px rgba(0, 0, 0, 0.07);
+    `;
+
+    const cssTextTermHighlight = `
+        display: inline-block;
+        font-size: 0.8em;
+        border: 1px solid #ffa0d6;
+        border-radius: 5px;
+        padding: 0.1em 0.6em;
+        margin: 0.5em 0.5em 1.5em 0;
+        cursor: pointer;
+        background: #f1d1ff;
+        box-shadow:0px 0px 0.3px rgba(0, 0, 0, 0.02),0px 0px 0.8px rgba(0, 0, 0, 0.028),0px 0px 1.5px rgba(0, 0, 0, 0.035),0px 0px 2.7px rgba(0, 0, 0, 0.042),0px 0px 5px rgba(0, 0, 0, 0.05),0px 0px 12px rgba(0, 0, 0, 0.07);
+    `;
+
     // In case the script runs multiple times on the same page, remove all previous popups and highlights
     // Remove all elements with class="kerific-popup" and class="kerific-term-highlight"
     document.querySelectorAll('.kerific-popup').forEach(element => {
@@ -28,7 +61,7 @@
     // Add loading indicator
     const loadingIndicator = document.createElement('h1');
     loadingIndicator.id = 'loading-indicator';
-    loadingIndicator.style.cssText = 'position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; border: 1px solid #333; border-radius: 20px; background: #e5ecff; padding: 3em; z-index: 9999999999999999';
+    loadingIndicator.style.cssText = cssTextLoadingIndicator;
     loadingIndicator.textContent = 'Loading glossaries…';
     document.body.appendChild(loadingIndicator);
 
@@ -103,22 +136,7 @@
                                 glossaryPopup.id = glossaryId;
                                 glossaryPopup.classList.add('kerific-popup');
                                 // Set styles and content for glossaryPopup
-                                glossaryPopup.style.cssText = `
-                                z-index: 9999999999999999;
-                                display: none;
-                                position: fixed;
-                                top: 10px;
-                                right: 10px;
-                                width: 25%;
-                                height: 50%;
-                                background-color: white;
-                                border: 2px solid #ddd;
-                                border-radius: 20px;
-                                z-index: 1000;
-                                overflow: scroll;
-                                margin: 0.5em 0 0 0;
-                                padding: 1em;
-                                box-shadow: 0px 0px 2.2px rgba(0, 0, 0, 0.02), 0px 0px 5.3px rgba(0, 0, 0, 0.028), 0px 0px 10px rgba(0, 0, 0, 0.035), 0px 0px 17.9px rgba(0, 0, 0, 0.042), 0px 0px 33.4px rgba(0, 0, 0, 0.05), 0px 0px 80px rgba(0, 0, 0, 0.07);`;
+                                glossaryPopup.style.cssText = cssTextGlossaryPopup;
                                 glossaryPopups.set(term.term, glossaryPopup);
                             }
 
@@ -128,17 +146,7 @@
                             termHighlight.id = termId;
                             termHighlight.classList.add('kerific-term-highlight');
                             // Set styles and content for termHighlight
-                            termHighlight.style.cssText = `
-                            display: inline-block;
-                            font-size: 0.8em;
-                            border: 1px solid #ffa0d6;
-                            border-radius: 5px;
-                            padding: 0.1em 0.6em;
-                            margin: 0.5em 0.5em 1.5em 0;
-                            cursor: pointer;
-                            background: #f1d1ff;
-                            box-shadow:0px 0px 0.3px rgba(0, 0, 0, 0.02),0px 0px 0.8px rgba(0, 0, 0, 0.028),0px 0px 1.5px rgba(0, 0, 0, 0.035),0px 0px 2.7px rgba(0, 0, 0, 0.042),0px 0px 5px rgba(0, 0, 0, 0.05),0px 0px 12px rgba(0, 0, 0, 0.07)
-                        `;
+                            termHighlight.style.cssText = cssTextTermHighlight;
 
                             // Insert termHighlight
                             element.parentNode.insertBefore(termHighlight, element.nextSibling);
