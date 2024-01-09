@@ -219,7 +219,6 @@
                         // console.log(result); // true or false
 
                         isStringBorderedBySpaceOrTag(element, term.term);
-
                     });
                 });
             });
@@ -253,5 +252,56 @@
 
             // Hide loading indicator
             loadingIndicator.style.display = 'none';
+
+
+        })
+        .then(() => {
+
+            // This function will group elements that are visually close to each other (within 100 pixels vertically, but you can adjust this value). It uses the getBoundingClientRect method to determine the position of each element relative to the viewport.
+            function groupKerificTermsByVisualProximity() {
+                const elements = Array.from(document.querySelectorAll('.kerific-term-highlight'));
+                let container = null;
+
+                // Function to get the vertical position of an element in the viewport
+                function getVerticalPosition(element) {
+                    const rect = element.getBoundingClientRect();
+                    return rect.top + window.scrollY;
+                }
+
+                elements.forEach((element, index) => {
+                    if (index > 0) {
+                        const prevElement = elements[index - 1];
+                        const currentPos = getVerticalPosition(element);
+                        const prevPos = getVerticalPosition(prevElement);
+
+                        // Check if the current element is visually near the previous one (within 100 pixels, adjust as needed)
+                        if (Math.abs(currentPos - prevPos) <= 100) {
+                            // If visually near, append to the existing container
+                            container.appendChild(element);
+                        } else {
+                            // If not, create a new container
+                            container = document.createElement('div');
+                            container.className = 'container-kerific-term-highlight';
+                            // container.style.cssText = 'border: 3px solid green;';
+                            element.parentNode.insertBefore(container, element);
+                            container.appendChild(element);
+                        }
+                    } else {
+                        // First element, creating new container
+                        container = document.createElement('div');
+                        container.className = 'container-kerific-term-highlight';
+                        container.style.cssText = 'border: 3px solid green;';
+                        element.parentNode.insertBefore(container, element);
+                        container.appendChild(element);
+                    }
+                });
+            }
+
+            // setTimeout(groupKerificTermsByVisualProximity, 100);
+            groupKerificTermsByVisualProximity()
+
+
+
         });
+
 })();
