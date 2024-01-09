@@ -12,7 +12,13 @@
      * It loads glossaries related to Keri.
      */
 
-    // CONFIGURATION
+    // 
+
+    /*
+     * CONFIGURATION
+     */
+
+    // CSS styles. “cssText” is used to set the style attribute of an element.
     const cssTextLoadingIndicator = 'position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; border: 1px solid #333; border-radius: 20px; background: #e5ecff; padding: 3em; z-index: 9999999999999999;';
 
     const cssTextGlossaryPopup = `
@@ -44,6 +50,12 @@
         background: #f1d1ff;
         box-shadow:0px 0px 0.3px rgba(0, 0, 0, 0.02),0px 0px 0.8px rgba(0, 0, 0, 0.028),0px 0px 1.5px rgba(0, 0, 0, 0.035),0px 0px 2.7px rgba(0, 0, 0, 0.042),0px 0px 5px rgba(0, 0, 0, 0.05),0px 0px 12px rgba(0, 0, 0, 0.07);
     `;
+
+
+    /*
+     * END CONFIGURATION
+     */
+
 
     // In case the script runs multiple times on the same page, remove all previous popups and highlights
     // Remove all elements with class="kerific-popup" and class="kerific-term-highlight"
