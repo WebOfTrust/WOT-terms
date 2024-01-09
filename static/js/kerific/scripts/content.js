@@ -165,17 +165,61 @@
                             // Insert termHighlight
                             element.parentNode.insertBefore(termHighlight, element.nextSibling);
                         }
+                        // // Version 1:                            
+                        // // Check if the textContent is identical to the term
+                        // if (element.tagName.toLowerCase() === 'a') {
+                        //     if (element.textContent === term.term) {
+                        //         handleMatch();
+                        //     }
+                        // } else {
+                        //     if (element.textContent.includes(' ' + term.term + ' ')) {
+                        //         handleMatch();
+                        //     }
+                        // }
 
-                        // Check if the textContent is identical to the term
-                        if (element.tagName.toLowerCase() === 'a') {
-                            if (element.textContent === term.term) {
+                        // // Version 2:
+                        // function isStringBorderedBySpaceOrTag(element, string) {
+                        //     // Escape special characters in the string for use in a regular expression
+                        //     const escapedString = string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+                        //     // Construct a regular expression that checks for spaces, opening tags, closing tags, or start/end of string around the term
+                        //     const regexPattern = `(?:^|\\s|<[^>]*>)${escapedString}(?:$|\\s|<[^>]*>)`;
+                        //     const regex = new RegExp(regexPattern, 'i');
+
+                        //     // Test the innerHTML of the element against the regular expression
+                        //     // console.log('regex.test(element.innerHTML): ', regex.test(element.innerHTML));
+                        //     if (regex.test(element.innerHTML)) {
+                        //         handleMatch();
+                        //     }
+
+                        //     // return regex.test(element.innerHTML);
+                        // }
+
+                        // Version 3:
+                        function isStringBorderedBySpaceOrTag(element, string) {
+                            // Escape special characters in the string for use in a regular expression
+                            const escapedString = string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+                            // Construct a regular expression that checks for start/end of string or spaces around the term
+                            const regexPattern = `(?:^|\\s)${escapedString}(?:$|\\s)`;
+                            const regex = new RegExp(regexPattern, 'i');
+
+                            // Test the textContent of the element against the regular expression
+
+                            if (regex.test(element.innerHTML)) {
                                 handleMatch();
                             }
-                        } else {
-                            if (element.textContent.includes(' ' + term.term + ' ')) {
-                                handleMatch();
-                            }
+
+
+                            // return regex.test(element.textContent);
                         }
+
+                        // Example usage:
+                        // const result = isStringBorderedBySpaceOrTag(yourElement, 'yourString');
+                        // console.log(result); // true or false
+
+                        isStringBorderedBySpaceOrTag(element, term.term);
+
                     });
                 });
             });
