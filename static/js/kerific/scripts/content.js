@@ -118,9 +118,11 @@
             // Combine JSON objects with identical terms.
             glossaryData = combineJSONObjects(glossaryData);
 
+            // Loop through all terms in the glossary
             glossaryData.forEach(term => {
                 const tagNames = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'li', 'td', 'th', 'code', 'a'];
 
+                // Loop through the textContent of all elements that are specified in tagNames
                 tagNames.forEach(tagName => {
                     document.querySelectorAll(tagName).forEach(element => {
                         // // A: Case sensitive search
@@ -164,6 +166,7 @@
                             element.parentNode.insertBefore(termHighlight, element.nextSibling);
                         }
 
+                        // Check if the textContent is identical to the term
                         if (element.tagName.toLowerCase() === 'a') {
                             if (element.textContent === term.term) {
                                 handleMatch();
