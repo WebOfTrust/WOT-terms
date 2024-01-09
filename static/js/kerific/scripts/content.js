@@ -154,7 +154,7 @@
                                 glossaryPopups.set(term.term, glossaryPopup);
                             }
 
-                            // Create a span for the term highlight
+                            // Create a button for the term highlight
                             let termHighlight = document.createElement('button');
                             termHighlight.innerText = term.term;
                             termHighlight.id = termId;
