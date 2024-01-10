@@ -127,51 +127,59 @@
             glossaryData = combineJSONObjects(glossaryData);
 
             // Loop through all terms in the glossary
-            glossaryData.forEach(term => {
+            glossaryData.forEach(glossaryEntry => {
                 const tagNames = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'li', 'td', 'th', 'code', 'a'];
 
                 // Loop through the textContent of all elements that are specified in tagNames
                 tagNames.forEach(tagName => {
-                    document.querySelectorAll(tagName).forEach(element => {
+                    document.querySelectorAll(tagName).forEach(selectedTagName => {
                         // // A: Case sensitive search
                         // if (element.textContent.includes(' ' + term.term + ' ')) {
 
                         // B: Case insensitive search
                         // if (element.textContent.toLowerCase().includes((' ' + term.term.toLowerCase() + ' '))) {
                         function handleMatch() {
+                            // Create a unique ID for the term highlight
                             matchedTermsCount++;
                             let currentTimeStamp = new Date().getTime();
-                            let termId = 'id' + currentTimeStamp + matchedTermsCount + glossaryData.indexOf(term);
+                            let termId = 'id' + currentTimeStamp + matchedTermsCount + glossaryData.indexOf(glossaryEntry);
                             let glossaryId = termId + 'glossary';
 
                             // glossaryPopupContent is the content of the popup
-                            let glossaryPopupContent = `<h1>“${term.term}”</h1>`;
+                            let glossaryPopupContent = `<h1>“${glossaryEntry.term}”</h1>`;
 
-                            term.definitions.forEach(definition => {
-                                glossaryPopupContent += `<h2>${definition.organisation} :</h2> <div>${definition.definition}</div>`;
+                            // Add the definitions to the popup
+                            glossaryEntry.definitions.forEach(definition => {
+                                glossaryPopupContent += `
+                                    <h2>${definition.organisation} :</h2>
+                                    <div>${definition.definition}</div>
+                                `;
                             });
+
+                            // Add a close button to the popup
                             glossaryPopupContent += '<span class="close-cross" style="font-size: 1.5em; display: block; position: fixed;top: 1.5em; right: 1.5em; cursor: pointer;">✕</span></div>';
 
-                            if (!glossaryPopups.has(term.term)) {
+                            // Create a popup for the term
+                            if (!glossaryPopups.has(glossaryEntry.term)) {
                                 let glossaryPopup = document.createElement('div');
                                 glossaryPopup.innerHTML = glossaryPopupContent;
                                 glossaryPopup.id = glossaryId;
                                 glossaryPopup.classList.add('kerific-popup');
                                 // Set styles and content for glossaryPopup
                                 glossaryPopup.style.cssText = cssTextGlossaryPopup;
-                                glossaryPopups.set(term.term, glossaryPopup);
+                                glossaryPopups.set(glossaryEntry.term, glossaryPopup);
                             }
 
                             // Create a button for the term highlight
                             let termHighlight = document.createElement('button');
-                            termHighlight.innerText = term.term;
+                            termHighlight.innerText = glossaryEntry.term;
                             termHighlight.id = termId;
                             termHighlight.classList.add('kerific-term-highlight');
-                            // Set styles and content for termHighlight
+                            // Set styles for termHighlight
                             termHighlight.style.cssText = cssTextTermHighlight;
 
                             // Insert termHighlight
-                            element.parentNode.insertBefore(termHighlight, element.nextSibling);
+                            selectedTagName.parentNode.insertBefore(termHighlight, selectedTagName.nextSibling);
                         }
 
                         function isStringBorderedBySpaceOrTag(element, string) {
@@ -196,7 +204,7 @@
                         // const result = isStringBorderedBySpaceOrTag(yourElement, 'yourString');
                         // console.log(result); // true or false
 
-                        isStringBorderedBySpaceOrTag(element, term.term);
+                        isStringBorderedBySpaceOrTag(selectedTagName, glossaryEntry.term);
                     });
                 });
             });
