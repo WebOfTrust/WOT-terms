@@ -67,6 +67,7 @@
         element.remove();
     });
 
+    // The pattern looks for the occurrence of the word "See" followed by an optional colon and space, then a link enclosed in <a> tags. It captures the text inside the <a> tags and returns it as the result. If there is no match, it returns null.
     function findLinkTextAfterSee(str) {
         const pattern = /See\s?:? ?<.*?<a.*?>(.*?)<\/a>/is;
         const match = pattern.exec(str);
@@ -138,6 +139,8 @@
 
                         // B: Case insensitive search
                         // if (element.textContent.toLowerCase().includes((' ' + term.term.toLowerCase() + ' '))) {
+
+
                         function handleMatch() {
                             // Create a unique ID for the term highlight
                             matchedTermsCount++;
@@ -150,10 +153,26 @@
 
                             // Add the definitions to the popup
                             glossaryEntry.definitions.forEach(definition => {
-                                glossaryPopupContent += `
+                                if (findLinkTextAfterSee(definition.definition) !== null) {
+                                    glossaryData.forEach(element => {
+                                        if (element.term === findLinkTextAfterSee(definition.definition)) {
+                                            console.log('findLinkTextAfterSee(definition.definition: ', findLinkTextAfterSee(definition.definition));
+                                            element.definitions.forEach(el => {
+                                                if (el.organisation === definition.organisation) {
+                                                    glossaryPopupContent += `
+                                                        <h2>${el.organisation} :</h2>
+                                                        <div>[Redirected to this definition: “${element.term}”] ${el.definition}</div>
+                                                    `;
+                                                }
+                                            });
+                                        };
+                                    });
+                                } else {
+                                    glossaryPopupContent += `
                                     <h2>${definition.organisation} :</h2>
                                     <div>${definition.definition}</div>
                                 `;
+                                }
                             });
 
                             // Add a close button to the popup
