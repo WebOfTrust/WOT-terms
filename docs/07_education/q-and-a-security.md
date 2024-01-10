@@ -46,7 +46,7 @@ TBW
 
 ## Knowledge you should be confidently applying
 
-- The definitions in the [glossary](../04_glossary/index.md)
+- The definitions in the [glossary](https://weboftrust.github.io/WOT-terms/docs/category/glossary)
 - The Knowledge you should be confidently applying from part one of the [Q-and-A](./q-and-a#knowledge-you-should-be-confidently-applying)
 - Bitcoin Improvement Protocols: BIP32, BIP39, BIP44, BIP47, BIP49, BIP84, BIP174
 - hierarchical deterministic derivation paths
