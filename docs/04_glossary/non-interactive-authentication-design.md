@@ -4,4 +4,4 @@ A group of approaches having non-interactive mechanisms that pose unique problem
 More in [source](https://hackmd.io/ZbVAbNK1SPyT90-oNwN_cw) Keri Request Authentication Mechanism (KRAM) by Samuel Smith
 
 ## Related
-[Interactive authentication design](Interactive-authentication-design)
+[Interactive authentication design](interactive-authentication-design)
