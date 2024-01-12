@@ -311,7 +311,6 @@ function createHighlightButton(glossaryEntry, termId, cssTextTermHighlight) {
     termHighlight.innerText = glossaryEntry.term;
     termHighlight.id = termId;
     termHighlight.classList.add('kerific-term-highlight');
-    // Set styles for termHighlight
     termHighlight.style.cssText = cssTextTermHighlight;
     return termHighlight;
 }
@@ -321,7 +320,7 @@ function handleMatch(combinedGlossariesEntry, htmlElement, combinedGlossaries, g
     let currentTimeStamp = new Date().getTime();
     let termId = 'id' + currentTimeStamp + combinedGlossaries.indexOf(combinedGlossariesEntry);
     let glossaryId = termId + 'glossary';
-    let glossaryPopupHeaderContent = `<h1 style="font-size: 22px !important;">“${combinedGlossariesEntry.term}”</h1>`;
+    let glossaryPopupHeaderContent = `<h2>“${combinedGlossariesEntry.term}”</h2>`;
     let glossaryPopupBodyContent = ``;
 
     // Add the definitions to the popup
@@ -337,64 +336,25 @@ function handleMatch(combinedGlossariesEntry, htmlElement, combinedGlossaries, g
             // console.log('eachDefinitions.definition: ', eachDefinitions.definition);
             console.log("not null");
 
-
-            // if (eachGlossaryData.term === "acdc") {
-            //     console.log("Found link after SEE");
-            // }
-
             // Go through all terms in the glossary
             combinedGlossaries.forEach(combinedGlossariesEntry2 => {
                 // If the term in the glossary is the same as the term found after “See”
                 if (combinedGlossariesEntry2.term === findLinkTextAfterSee(glossaryEntryDefinitionsEntry.definition)) {
                     combinedGlossariesEntry2.definitions.forEach((eachDefinitions2, index2) => {
-
-
-                        // if (combinedGlossariesEntry2.term === "authentic chained data container") {
-                        //     // console.log('index: ', index);
-                        //     console.log("authentic chained data container gevonden");
-                        //     console.log(eachDefinitions2.organisation);
-                        // }
-
-                        // console.log('eachDefinitions2: ', eachDefinitions2);
-                        // console.log('eachDefinitions2.organisation: ', eachDefinitions2.organisation);
-                        // if (eachDefinitions2.organisation === eachDefinitions.organisation) {
                         glossaryPopupBodyContent += `
-                            <h2>${eachDefinitions2.organisation} :</h2>
+                            <h3>${eachDefinitions2.organisation} :</h3>
                             <div>[Redirected to this definition: “${combinedGlossariesEntry2.term}”] ${eachDefinitions2.definition}</div>
                         `;
-                        // };
-
                     });
-
-
-                    // glossaryPopupContent += `
-                    //     <h2>${eachGlossaryData2.organisation} :</h2>
-                    //     <div>[Redirected to this definition: “${eachGlossaryData.term}”] ${eachDefinitions.definition}</div>
-                    // `;
                 }
             });
         } else {
-            console.log("null");
-            if (glossaryEntryDefinitionsEntry.term === "authentic chained data container") {
-                // console.log('index boom: ', index2);
-            }
-
-
-            // console.log('index2 x: ', index2);
             glossaryPopupBodyContent += `
-                                    <p>index2: ${index}</p>
-                                    <h2>${glossaryEntryDefinitionsEntry.organisation} :</h2>
-                                    <div>${glossaryEntryDefinitionsEntry.definition}</div>
-                                `;
+                <p>index2: ${index}</p>
+                <h3>${glossaryEntryDefinitionsEntry.organisation} :</h3>
+                <div>${glossaryEntryDefinitionsEntry.definition}</div>
+            `;
         }
-
-        // // Without redirect after SEE
-        // glossaryPopupContent += `
-        //     <h2>${eachDefinitions.organisation} :</h2>
-        //     <div>${eachDefinitions.definition}</div>
-        // `;
-
-
     });
 
     // Create a popup for the term
