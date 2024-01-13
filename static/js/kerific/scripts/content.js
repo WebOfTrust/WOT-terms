@@ -68,19 +68,20 @@
         .kerific-popup .card-header {
         	position: sticky; top: 0; background-color: #eee;
         }
+        .kerific-popup .card-header h2 {
+            font-size: 18px;
+        }
 
         .kerific-popup .card-footer {
             position: sticky; bottom: 0; background-color: #eee;
         }
-
-
     `;
 
     const glossaryJsonUrl = "https://weboftrust.github.io/WOT-terms/json/external-glosseries/glossaries-combined/all-glossaries.json";
 
     const versionNumberUrl = "https://weboftrust.github.io/WOT-terms/js/kerific/manifest.json";
 
-    const whatToQuery = '*:not(ul) ';
+    // const whatToQuery = '*:not(ul) ';
 
     /*
      * END CONFIGURATION
@@ -97,8 +98,6 @@
     const headerStyleElement = document.createElement('style');
     headerStyleElement.innerHTML = headerStyle;
     document.head.appendChild(headerStyleElement);
-
-
 
     // In case the script runs multiple times on the same page, remove all previous popups and highlights
     // Remove all elements with class="kerific-popup" and class="kerific-term-highlight"
