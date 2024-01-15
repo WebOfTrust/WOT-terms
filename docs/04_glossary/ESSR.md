@@ -1,3 +1,3 @@
 # ESSR
 ## See
-[Encrypt‐Sender‐Sign‐Receiver](encrypt‐sender‐sign‐receiver)
+[Encrypt‐Sender‐Sign‐Receiver](https://github.com/WebOfTrust/WOT-terms/wiki/encrypt-sender-sign-receiver)

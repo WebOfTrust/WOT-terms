@@ -1,10 +1,9 @@
 # Broken Links Report
 
-Created: 2024-01-10T12:59:36.784Z
+Created: 2024-01-15T03:13:10.748Z
 
-## Total Broken Links Found: 12
+## Total Broken Links Found: 10
 
-- Broken Link: [https://weboftrust.github.io/WOT-terms/docs/glossary/encrypt%E2%80%90sender%E2%80%90sign%E2%80%90receiver](https://weboftrust.github.io/WOT-terms/docs/glossary/encrypt%E2%80%90sender%E2%80%90sign%E2%80%90receiver), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/glossary-unified](https://weboftrust.github.io/WOT-terms/docs/glossary-unified), [https://weboftrust.github.io/WOT-terms/docs/glossary/ESSR](https://weboftrust.github.io/WOT-terms/docs/glossary/ESSR)
 - Broken Link: [https://weboftrust.github.io/WOT-terms/docs/glossary/#key-rotation](https://weboftrust.github.io/WOT-terms/docs/glossary/#key-rotation), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/glossary-unified](https://weboftrust.github.io/WOT-terms/docs/glossary-unified)
 - Broken Link: [https://weboftrust.github.io/WOT-terms/docs/glossary/#safety-properties](https://weboftrust.github.io/WOT-terms/docs/glossary/#safety-properties), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/glossary-unified](https://weboftrust.github.io/WOT-terms/docs/glossary-unified)
 - Broken Link: [https://weboftrust.github.io/WOT-terms/docs/glossary/#keri-agreement-algorithm-for-control-establishment](https://weboftrust.github.io/WOT-terms/docs/glossary/#keri-agreement-algorithm-for-control-establishment), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/glossary-unified](https://weboftrust.github.io/WOT-terms/docs/glossary-unified)
@@ -12,7 +11,6 @@ Created: 2024-01-10T12:59:36.784Z
 - Broken Link: [https://weboftrust.github.io/WOT-terms/docs/glossary/#Finger-pointing](https://weboftrust.github.io/WOT-terms/docs/glossary/#Finger-pointing), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/glossary-unified](https://weboftrust.github.io/WOT-terms/docs/glossary-unified)
 - Broken Link: [https://weboftrust.github.io/WOT-terms/docs/glossary/#Sources-Definition-ChatGPT](https://weboftrust.github.io/WOT-terms/docs/glossary/#Sources-Definition-ChatGPT), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/glossary-unified](https://weboftrust.github.io/WOT-terms/docs/glossary-unified)
 - Broken Link: [https://weboftrust.github.io/framework/docs/essifLab-principles](https://weboftrust.github.io/framework/docs/essifLab-principles), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/glossary-unified](https://weboftrust.github.io/WOT-terms/docs/glossary-unified), [https://weboftrust.github.io/WOT-terms/docs/glossaries-external/glossary-essiflab](https://weboftrust.github.io/WOT-terms/docs/glossaries-external/glossary-essiflab)
-- Broken Link: [https://weboftrust.github.io/WOT-terms/docs/04_glossary/index.md](https://weboftrust.github.io/WOT-terms/docs/04_glossary/index.md), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/education/q-and-a-security](https://weboftrust.github.io/WOT-terms/docs/education/q-and-a-security)
 - Broken Link: [https://weboftrust.github.io/WOT-terms/docs/glossary/AN](https://weboftrust.github.io/WOT-terms/docs/glossary/AN), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE](https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE)
-- Broken Link: [https://weboftrust.github.io/WOT-terms/docs/test/glossary-unified](https://weboftrust.github.io/WOT-terms/docs/test/glossary-unified), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE](https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE)
 - Broken Link: [https://weboftrust.github.io/WOT-terms/docs/glossary](https://weboftrust.github.io/WOT-terms/docs/glossary), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE](https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE)
+- Broken Link: [https://weboftrust.github.io/WOT-terms/docs/test/glossary-unified](https://weboftrust.github.io/WOT-terms/docs/test/glossary-unified), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE](https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE)

@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Kerific",
     "description": "Kerific, load Keri-related glossaries",
-    "version": "1.0",
+    "version": "1.2",
     "background": {
         "service_worker": "./background.js"
     },
@@ -14,9 +14,11 @@
             "128": "images/icon128.png"
         }
     },
+    "options_page": "options.html",
     "permissions": [
         "scripting",
-        "activeTab"
+        "activeTab",
+        "contextMenus"
     ],
     "commands": {
         "_execute_action": {
