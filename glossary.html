@@ -171,6 +171,12 @@ function goto(url) {
 <main>
     <dl id="glossary_content">
 <dt id="A" class="letter">A</td>
+<dt id="access-controlled-interaction"><svg class="_slf" onclick="copyUrl('#access-controlled-interaction')"><use href="#_slf"/></svg>access controlled interaction <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//access-controlled-interaction')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
+<dd><p>Access controlled actions like submitting a report. If you already have that report then load balancer needs a mechanism to drop repeated requests.</p>
+<p>Source: Samuel Smith / Daniel Hardman / Lance Byrd - Zoom meeting KERI Suite Jan 16 2024; discussion minute 30-60 min</p>
+<p class="meta">version 3, commit feae0f2, created 2024-01-16, last modified 2024-01-16, contributors Henk van Cann</p>
+</dd>
+
 <dt id="acdc"><svg class="_slf" onclick="copyUrl('#acdc')"><use href="#_slf"/></svg>ACDC <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//acdc')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p><a href="#authentic-chained-data-container" title="In brief, an ACDC or ADC proves digital data consistency and authenticity in one go.">authentic chained data container</a></p>
 <p class="meta">version 5, commit be0df1c, created 2023-07-07, last modified 2023-10-27, contributors Kor Dwarshuis - Henk van Cann</p>
@@ -2338,6 +2344,13 @@ Source: Samuel Smith, Zoom meeting Jan 2 2024.</p>
 <dt id="registrar"><svg class="_slf" onclick="copyUrl('#registrar')"><use href="#_slf"/></svg>registrar <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//registrar')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p>identifiers that serve as backers for each <a href="#transaction-event-log" title="The set of transactions that determine registry state form a log called a Transaction Event Log (TEL).">transaction event log</a> (TEL) under its provenance. This list of Registrars can be rotated with events specific to a certain type of TEL. In this way, a Registrar is analogous to a Backer in KERI KELs and Registrar lists are analogous to Backer lists in KERI KELs.</p>
 <p class="meta">version 1, commit b326c62, created 2023-07-07, contributors Henk van Cann</p>
+</dd>
+
+<dt id="registration-interaction"><svg class="_slf" onclick="copyUrl('#registration-interaction')"><use href="#_slf"/></svg>registration interaction <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//registration-interaction')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
+<dd><p>Setup/Registration interaction, new AID and authorization to establish access control. You present a (<a href="#vLEI">vLEI</a>) credential. You don't want that captured and misused. Narrowing the scope to a certain role (e.g. Document Submitter) is a pre-registration via <a href="#delegation" title="A person or group of persons officially elected or appointed to represent another or others.">delegatable</a> authority.</p>
+<p>The <a href="#virtual-credential">Credential</a> is like a bearer token. Does it matter if the credential was delivered by the <a href="#issuee" title="An ACDC is optionally issued to the Issuee.">issuee</a>? The token is <a href="#proof-of-authority" title="Proof that somebody or something has certain rights or permissions.">proof of the authorization</a>, but does the delivery require the issuee signature? Depends on the context. If it is an idempotent process resubmission has no effect.<br />
+Source: Samuel Smith / Daniel Hardman / Lance Byrd - Zoom meeting KERI Suite Jan 16 2024; discussion minute 30-60 min</p>
+<p class="meta">version 5, commit 44203e3, created 2024-01-16, last modified 2024-01-16, contributors Henk van Cann</p>
 </dd>
 
 <dt id="registry"><svg class="_slf" onclick="copyUrl('#registry')"><use href="#_slf"/></svg>registry <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//registry')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
