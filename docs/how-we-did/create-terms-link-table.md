@@ -1,5 +1,5 @@
 ---
-status:draft
+status: draft
 ---
 # Create an online table to link terms to resources
 
