@@ -193,7 +193,7 @@ function goto(url) {
 
 <dt id="agent"><svg class="_slf" onclick="copyUrl('#agent')"><use href="#_slf"/></svg>agent <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//agent')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p>An agent in <a href="#keria" title="KERI Agent in the cloud.">KERIA</a> terms is an instance of a keystore (<a href="#hab" title="A Hab is a keystore for one identifier.">Hab</a>) that runs in a given instance of the KERIA agent server.</p>
-<p class="meta">version 4, commit d03e53d, created 2023-07-07, last modified 2023-10-24, contributors Kor Dwarshuis - Kent Bull - Henk van Cann</p>
+<p class="meta">version 5, commit b1b3057, created 2023-07-07, last modified 2024-01-15, contributors Henk van Cann - Kor Dwarshuis - Kent Bull</p>
 </dd>
 
 <dt id="aid"><svg class="_slf" onclick="copyUrl('#aid')"><use href="#_slf"/></svg>AID <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//aid')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
@@ -520,7 +520,7 @@ Byzantine fault tolerance (BFT) is the dependability of a fault-tolerant compute
 </dd>
 
 <dt id="chain-link-confidentiality"><svg class="_slf" onclick="copyUrl('#chain-link-confidentiality')"><use href="#_slf"/></svg>chain link confidentiality <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//chain-link-confidentiality')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
-<dd><p>Chains together a sequence of <a href="#disclosee">Disclosees</a> which may also include a set of constraints on data usage by both second and third parties expressed in legal language such that the constraints apply to all recipients of the disclosed data thus the phrase &quot;chain link&quot; confidentiality. Each Disclosee in the sequence in turn is the <a href="#discloser" title="An ACDC in a disclosure is disclosed by the Discloser.">Discloser</a> to the next Disclosee.</p>
+<dd><p>Chains together a sequence of <a href="#disclosee" title="an ACDC in a disclosure is disclosed to the Disclosee">Disclosees</a> which may also include a set of constraints on data usage by both second and third parties expressed in legal language such that the constraints apply to all recipients of the disclosed data thus the phrase &quot;chain link&quot; confidentiality. Each Disclosee in the sequence in turn is the <a href="#discloser" title="An ACDC in a disclosure is disclosed by the Discloser.">Discloser</a> to the next Disclosee.</p>
 <p>This is the primary mechanism of granting digital data rights through binding information exchange to confidentiality laws. Confidentiality is dynamically negotiated on a per-event, per-data exchange basis according to the data that is being shared in a given exchange.</p>
 <p class="meta">version 3, commit b5f7b1a, created 2023-07-07, last modified 2023-09-21, contributors Henk van Cann</p>
 </dd>
@@ -907,6 +907,11 @@ the presenter controls the disclosure so you can't re-identify the data</p>
 <p class="meta">version 1, commit b326c62, created 2023-07-07, contributors Henk van Cann</p>
 </dd>
 
+<dt id="disclosee"><svg class="_slf" onclick="copyUrl('#disclosee')"><use href="#_slf"/></svg>disclosee <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//disclosee')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
+<dd><p>an ACDC in a disclosure is disclosed to the Disclosee</p>
+<p class="meta">version 2, commit 3e62254, created 2023-07-07, last modified 2024-01-15, contributors Henk van Cann</p>
+</dd>
+
 <dt id="discloser"><svg class="_slf" onclick="copyUrl('#discloser')"><use href="#_slf"/></svg>discloser <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//discloser')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p>An <a href="#authentic-chained-data-container" title="In brief, an ACDC or ADC proves digital data consistency and authenticity in one go.">ACDC</a> in a disclosure is disclosed by the Discloser.</p>
 <p class="meta">version 1, commit b326c62, created 2023-07-07, contributors Henk van Cann</p>
@@ -1170,20 +1175,27 @@ This form is part of the graduated disclosure mechanism in ACDCs.</p>
 <p class="meta">version 1, commit b326c62, created 2023-07-07, contributors Henk van Cann</p>
 </dd>
 
+<dt id="gnu-privacy-guard"><svg class="_slf" onclick="copyUrl('#gnu-privacy-guard')"><use href="#_slf"/></svg>gnu privacy guard <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//gnu-privacy-guard')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
+<dd><p>also GnuPG; is a free-software replacement for Symantec's PGP cryptographic software suite. It is compliant with RFC 4880, the IETF standards-track specification of OpenPGP. Modern versions of PGP are interoperable with GnuPG and other OpenPGP-compliant systems.<br />
+More on <a href="https://en.wikipedia.org/wiki/GNU_Privacy_Guard">wikipedia</a><br />
+See more about the closely related and often-confusing term <a href="#PGP">PGP</a>.</p>
+<p class="meta">version 4, commit bb8784c, created 2023-07-07, last modified 2024-01-15, contributors Henk van Cann</p>
+</dd>
+
 <dt id="governance-framework"><svg class="_slf" onclick="copyUrl('#governance-framework')"><use href="#_slf"/></svg>governance framework <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//governance-framework')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p>Also called 'Governance structure'. Governance frameworks are the structure of a government and reflect the interrelated relationships, factors, and other influences upon the institution. Governance frameworks structure and delineate power and the governing or <a href="https://en.wikipedia.org/wiki/Management">management</a> roles in an organization. They also set rules, procedures, and other informational guidelines.<br />
 More in <a href="https://en.wikipedia.org/wiki/Governance_framework">source</a> Wikipedia.</p>
-<p class="meta">version 3, commit b5f7b1a, created 2023-07-07, last modified 2023-09-21, contributors Henk van Cann</p>
+<p class="meta">version 4, commit a116af7, created 2023-07-07, last modified 2024-01-15, contributors Henk van Cann</p>
 </dd>
 
 <dt id="gpg"><svg class="_slf" onclick="copyUrl('#gpg')"><use href="#_slf"/></svg>GPG <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//gpg')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
-<dd><p><a href="#gnu-privacy-guard">Gnu privacy guard</a></p>
+<dd><p><a href="#gnu-privacy-guard" title="also GnuPG; is a free-software replacement for Symantec's PGP cryptographic software suite.">Gnu privacy guard</a></p>
 <p class="meta">version 1, commit b326c62, created 2023-07-07, contributors Henk van Cann</p>
 </dd>
 
 <dt id="graduated-disclosure"><svg class="_slf" onclick="copyUrl('#graduated-disclosure')"><use href="#_slf"/></svg>graduated disclosure <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//graduated-disclosure')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p>selectively disclosing more data as time and/or necessity progresses.</p>
-<p>Disclosure performed by a presentation exchange that has cross-variant (see <a href="#compact-variant" title="Either a most compact version of an ACDC or the fully compact version of an ACDC.">compact variant</a>) Issuer commitment verifiability as an essential property. It supports graduated disclosure by the <a href="#disclosee">Disclosee</a> of any or all variants wether it be full, compact, metadata, partial, selective, bulk issued, or contractually protected.<br />
+<p>Disclosure performed by a presentation exchange that has cross-variant (see <a href="#compact-variant" title="Either a most compact version of an ACDC or the fully compact version of an ACDC.">compact variant</a>) Issuer commitment verifiability as an essential property. It supports graduated disclosure by the <a href="#disclosee" title="an ACDC in a disclosure is disclosed to the Disclosee">Disclosee</a> of any or all variants wether it be full, compact, metadata, partial, selective, bulk issued, or contractually protected.<br />
 Paraphrased by @henkvancann based on <a href="https://github.com/WebOfTrust/ietf-ipex/blob/main/draft-ssmith-ipex.md#discussion">source</a></p>
 <p class="meta">version 3, commit 47b224c, created 2023-07-07, last modified 2023-11-21, contributors Henk van Cann</p>
 </dd>
@@ -1267,7 +1279,7 @@ Rich Flow Based Programming Hierarchical Structured Concurrency with Asynchronou
 
 <dt id="identifier"><svg class="_slf" onclick="copyUrl('#identifier')"><use href="#_slf"/></svg>identifier <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//identifier')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p>Something to uniquely identify (public) identities; pointing to something or someone else.</p>
-<p class="meta">version 1, commit b326c62, created 2023-07-07, contributors Henk van Cann</p>
+<p class="meta">version 2, commit b4971df, created 2023-07-07, last modified 2024-01-15, contributors Henk van Cann</p>
 </dd>
 
 <dt id="identifier-system"><svg class="_slf" onclick="copyUrl('#identifier-system')"><use href="#_slf"/></svg>identifier system <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//identifier-system')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
@@ -1279,7 +1291,7 @@ More info on <a href="https://www.gleif.org/en/vlei/introducing-the-verifiable-l
 
 <dt id="identity"><svg class="_slf" onclick="copyUrl('#identity')"><use href="#_slf"/></svg>identity <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//identity')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p>A unique entity. Typically represented by a unique <a href="#identifier" title="Something to uniquely identify (public) identities; pointing to something or someone else.">identifier</a>.</p>
-<p class="meta">version 1, commit b326c62, created 2023-07-07, contributors Henk van Cann</p>
+<p class="meta">version 2, commit c4bead3, created 2023-07-07, last modified 2024-01-15, contributors Henk van Cann</p>
 </dd>
 
 <dt id="identity-assurance"><svg class="_slf" onclick="copyUrl('#identity-assurance')"><use href="#_slf"/></svg>identity assurance <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//identity-assurance')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
@@ -1397,7 +1409,7 @@ Source: Philip Feairheller.</p>
 
 <dt id="issuance-exchange"><svg class="_slf" onclick="copyUrl('#issuance-exchange')"><use href="#_slf"/></svg>issuance exchange <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//issuance-exchange')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p>A special case of a <a href="#presentation-exchange" title="An exchange that provides disclosure of one or more ACDCs between a Discloser and a Disclosee.">presentation exchange</a> where the <a href="#discloser" title="An ACDC in a disclosure is disclosed by the Discloser.">Discloser</a> is the <a href="#issuer" title="An ACDC is issued by the Issuer.">Issuer</a> of the origin (Primary) ACDC of the <a href="#directed-acyclic-graph" title="From Wikipedia (source):">DAG</a> formed by the set of chained <a href="#authentic-chained-data-container" title="In brief, an ACDC or ADC proves digital data consistency and authenticity in one go.">ACDC</a>s so disclosed.</p>
-<p>In an issuance exchange, when the origin ACDC has an <a href="#issuee" title="An ACDC is optionally issued to the Issuee.">Issuee</a>, the <a href="#disclosee">Disclosee</a> MAY also be the origin ACDC's Issuee.</p>
+<p>In an issuance exchange, when the origin ACDC has an <a href="#issuee" title="An ACDC is optionally issued to the Issuee.">Issuee</a>, the <a href="#disclosee" title="an ACDC in a disclosure is disclosed to the Disclosee">Disclosee</a> MAY also be the origin ACDC's Issuee.</p>
 <p class="meta">version 2, commit 7325941, created 2023-07-07, last modified 2023-09-09, contributors Henk van Cann</p>
 </dd>
 
@@ -1515,7 +1527,7 @@ Source: Philip Feairheller</p>
 
 <dt id="keri-suite-search-engine"><svg class="_slf" onclick="copyUrl('#keri-suite-search-engine')"><use href="#_slf"/></svg>keri suite search engine <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//keri-suite-search-engine')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p>KERISSE is the Docusaurus <a href="https://weboftrust.github.io/WOT-terms/">self-education site</a> of Web-of-Trust GitHub repo with Typesense search facilities. Because of its focus on well-versed developers in the field of <a href="#SSI">SSI</a> and the support of their journey to understand the structure of the code and how things work in the <a href="#keri-suite" title="The KERI suite is the set of inter-related developments (KERI, ACDC, OOBI, CESR, IPEX, etc) under the Web-of -Trust user on Github">KERI suite</a> it's more a search engine that drills down on documentation.</p>
-<p class="meta">version 1, commit b326c62, created 2023-07-07, contributors Henk van Cann</p>
+<p class="meta">version 4, commit 941bf65, created 2023-07-07, last modified 2024-01-15, contributors Henk van Cann</p>
 </dd>
 
 <dt id="keria"><svg class="_slf" onclick="copyUrl('#keria')"><use href="#_slf"/></svg>keria <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//keria')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
@@ -1542,6 +1554,11 @@ More on <a href="https://github.com/WebOfTrust/keride">Github repo</a></p>
 <p class="meta">version 4, commit b56ce64, created 2023-07-07, last modified 2024-01-09, contributors Henk van Cann</p>
 </dd>
 
+<dt id="kerific"><svg class="_slf" onclick="copyUrl('#kerific')"><use href="#_slf"/></svg>kerific <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//kerific')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
+<dd><p><em>kerific</em> is a front plugin or extension that currently only works for Chrome and Brave. It matches words in any text on the web that is parseable for kerific and offers buttons to various glossaries and definitions in the <a href="#self-sovereign-identity" title="Self-Sovereign Identity (SSI) is a term that has many different interpretations, and that we use to refer to concepts/ideas, architectures, processes and technologies that aim to support (autonomous) parties as they negotiate and execute electronic transactions with one another.">SSI</a> field.</p>
+<p class="meta">version 2, commit afd9651, created 2024-01-15, last modified 2024-01-15, contributors Henk van Cann</p>
+</dd>
+
 <dt id="kerimask"><svg class="_slf" onclick="copyUrl('#kerimask')"><use href="#_slf"/></svg>KERIMask <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//kerimask')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p>A wallet similar to <em>MetaMask</em>, the manifestation will be a browser extension and it will connect to KERIA servers in order for a person to control AIDs from their browser.</p>
 <p class="meta">version 1, commit 75ba9c9, created 2023-09-10, contributors Henk van Cann</p>
@@ -1560,6 +1577,11 @@ More on <a href="https://github.com/WebOfTrust/keride">Github repo</a></p>
 <dt id="kerl"><svg class="_slf" onclick="copyUrl('#kerl')"><use href="#_slf"/></svg>KERL <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//kerl')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p><a href="#key-event-receipt-log" title="Signed Key Events, keeping track of establishment events.">Key event receipt log</a></p>
 <p class="meta">version 1, commit b326c62, created 2023-07-07, contributors Henk van Cann</p>
+</dd>
+
+<dt id="kever"><svg class="_slf" onclick="copyUrl('#kever')"><use href="#_slf"/></svg>kever <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//kever')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
+<dd><p>Kever is a key event verifier.</p>
+<p class="meta">version 2, commit 8c7b006, created 2023-09-29, last modified 2024-01-15, contributors Henk van Cann - Nuttawut Kongsuwan</p>
 </dd>
 
 <dt id="key"><svg class="_slf" onclick="copyUrl('#key')"><use href="#_slf"/></svg>key <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//key')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
@@ -2132,7 +2154,7 @@ Including the derivation code in the prefix binds the derivation process along w
 
 <dt id="presentation-exchange"><svg class="_slf" onclick="copyUrl('#presentation-exchange')"><use href="#_slf"/></svg>presentation exchange <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//presentation-exchange')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
 <dd><p>An exchange that provides disclosure of one or more <a href="#authentic-chained-data-container" title="In brief, an ACDC or ADC proves digital data consistency and authenticity in one go.">ACDC</a>s between a Discloser and a Disclosee.</p>
-<p>A presentation exchange is the process by which <a href="#authenticity" title="The quality of having an objectively verifiable origin ; contrast veracity.">authenticatable</a> information may be exchanged between two parties, namely, the <a href="#discloser" title="An ACDC in a disclosure is disclosed by the Discloser.">Discloser</a> and <a href="#disclosee">Disclosee</a>.</p>
+<p>A presentation exchange is the process by which <a href="#authenticity" title="The quality of having an objectively verifiable origin ; contrast veracity.">authenticatable</a> information may be exchanged between two parties, namely, the <a href="#discloser" title="An ACDC in a disclosure is disclosed by the Discloser.">Discloser</a> and <a href="#disclosee" title="an ACDC in a disclosure is disclosed to the Disclosee">Disclosee</a>.</p>
 <p class="meta">version 3, commit 94d4ace, created 2023-07-07, last modified 2023-09-09, contributors Henk van Cann</p>
 </dd>
 
@@ -2908,7 +2930,7 @@ Source: Bing chat, Sept 2023</p>
 <li><a href="#verify" title="The act, by or on behalf of a party, of determining whether that data is authentic (i.e.">verify</a></li>
 </ul>
 <p>In contrast, <a href="#validator" title="determines current authoritative key set for identifier from at least one key event (receipt) log.">validator</a> and <a href="#verifier" title="the entity that (cryptographically) verifies data received from peers (check structure, signatures, dates).">verifier</a> have been clearly outlined in the WebofTrust vocabulary.</p>
-<p class="meta">version 1, commit b326c62, created 2023-07-07, contributors Henk van Cann</p>
+<p class="meta">version 2, commit 4db5e62, created 2023-07-07, last modified 2024-01-15, contributors Henk van Cann</p>
 </dd>
 
 <dt id="validator"><svg class="_slf" onclick="copyUrl('#validator')"><use href="#_slf"/></svg>validator <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//validator')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
@@ -2919,7 +2941,7 @@ Source: Bing chat, Sept 2023</p>
 </ul>
 <p>Validator and <a href="#verifier" title="the entity that (cryptographically) verifies data received from peers (check structure, signatures, dates).">verifier</a> are close to synonyms for our purposes.</p>
 <p>A <code>validator</code> in <a href="#key-event-receipt-infrastructure" title="Also KERI.">KERI</a> and <a href="#authentic-chained-data-container" title="In brief, an ACDC or ADC proves digital data consistency and authenticity in one go.">ACDC</a> is anybody that wants to establish control-authority over an identifier, created by the controller of the identifier. Validators verify the log, they apply duplicity detection or they leverage somebody else's duplicity detection or apply any other logic so they can say &quot;Yes, these are events I can trust&quot;.</p>
-<p class="meta">version 3, commit b5f7b1a, created 2023-07-07, last modified 2023-09-21, contributors Henk van Cann</p>
+<p class="meta">version 4, commit d7fa9db, created 2023-07-07, last modified 2024-01-15, contributors Henk van Cann</p>
 </dd>
 
 <dt id="vc"><svg class="_slf" onclick="copyUrl('#vc')"><use href="#_slf"/></svg>VC <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//vc')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
@@ -3080,7 +3102,7 @@ Paraphrased by @henkvancann from source <a href="https://en.wikipedia.org/wiki/C
 </dd>
 
 <dt id="web-of-trust"><svg class="_slf" onclick="copyUrl('#web-of-trust')"><use href="#_slf"/></svg>web of trust <svg class="_xl" onclick="goto('https://github.com/weboftrust/WOT-terms/wiki//web-of-trust')"><use href="#_xl"/></svg><span class="tag">#wot</span></dt>
-<dd><p>In cryptography, a web of trust is a concept used in <a href="#PGP">PGP</a>, <a href="#gnu-privacy-guard">GnuPG</a>, and other <code>OpenPGP</code>-compatible systems to establish the authenticity of the binding between a public key and its owner.<br />
+<dd><p>In cryptography, a web of trust is a concept used in <a href="#PGP">PGP</a>, <a href="#gnu-privacy-guard" title="also GnuPG; is a free-software replacement for Symantec's PGP cryptographic software suite.">GnuPG</a>, and other <code>OpenPGP</code>-compatible systems to establish the authenticity of the binding between a public key and its owner.<br />
 Its <em>decentralized</em> trust model is an alternative to the centralized trust model of a public key infrastructure (<code>PKI</code>), which relies exclusively on a certificate authority (or a hierarchy of such). As with computer networks, there are many independent webs of trust, and any user (through their identity certificate) can be a part of, and a link between, multiple webs. The web of trust concept was first put forth by PGP creator Phil Zimmermann in 1992 in the manual for PGP.</p>
 <img src="https://github.com/WebOfTrust/keri/raw/main/images/web-of-trust.png" alt="Web of trust illustration" border="0" width="500" />
 <p>More on <a href="https://en.wikipedia.org/wiki/Web_of_trust">Wikipedia</a></p>

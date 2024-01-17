@@ -98,7 +98,10 @@ const CreateUnifiedGlossaries = () => {
             <ul className="list-group">
                 {termsData.map((term, index) => (
                     <li className={`term list-group-item border border-0 ${isTermVisible(term) ? '' : 'd-none'}`} key={index}>
-                        <h2 id={term.anchor}>{term.term}</h2>
+
+                        <h2 id={term.anchor}>
+                            <a href={`#${encodeURIComponent(term.anchor)}`}>{term.term}</a>
+                        </h2>
                         <ul className="list-group">
                             {term.definitions.map((definition, defIndex) => (
                                 <li className={`list-group-item border border-0 ${checkedOrganisations[definition.organisation] ? '' : 'd-none'}`} key={defIndex}>

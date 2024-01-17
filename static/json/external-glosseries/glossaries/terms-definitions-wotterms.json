@@ -32,7 +32,7 @@
     "term": "agent",
     "url": "https://kerisse.org",
     "anchor": "agent",
-    "definition": "<h4>Definition</h4><p>A representative for an identity. MAY require the use of a wallet. MAY support transfer.</p><h5>KERIA Agent</h5><p>An agent in <a href=\"keria\">KERIA</a> terms is an instance of a keystore (<a href=\"hab\">Hab</a>) that runs in a given instance of the KERIA agent server.</p><h4>eSSIF-lab definition</h4><p><a href=\"https://github.com/trustoverip/acdc/wiki/agent/agent@essiflab\">agent</a> in the #essiflab glossary <a href=\"https://trustoverip.github.io/essiflab/glossary#agent\">here</a>. Term also synced in the ToIP glossary.</p>"
+    "definition": "<h4>Definition</h4><p>A representative for an identity. MAY require the use of a wallet. MAY support transfer.</p><h5>KERIA Agent</h5><p>An agent in <a href=\"keria\">KERIA</a> terms is an instance of a keystore (<a href=\"hab\">Hab</a>) that runs in a given instance of the KERIA agent server.</p>"
   },
   {
     "organisation": "WebOfTrust",
@@ -851,7 +851,7 @@
     "term": "disclosee",
     "url": "https://kerisse.org",
     "anchor": "disclosee",
-    "definition": "<p>##Definition</p><p>an ACDC in a disclosure is disclosed to the Disclosee</p>"
+    "definition": "<h4>Definition</h4><p>an ACDC in a disclosure is disclosed to the Disclosee</p>"
   },
   {
     "organisation": "WebOfTrust",
@@ -964,13 +964,6 @@
     "url": "https://kerisse.org",
     "anchor": "E2E",
     "definition": "<h4>See</h4><p><a href=\"end-to-end\">End-to-end</a></p>"
-  },
-  {
-    "organisation": "WebOfTrust",
-    "term": "easyCLA_trick",
-    "url": "https://kerisse.org",
-    "anchor": "easyCLA_trick",
-    "definition": ""
   },
   {
     "organisation": "WebOfTrust",
@@ -1194,14 +1187,14 @@
     "term": "gnu privacy guard",
     "url": "https://kerisse.org",
     "anchor": "gnu-privacy-guard",
-    "definition": "<p>also GnuPG; is a free-software replacement for Symantec&#39;s PGP cryptographic software suite. It is compliant with RFC 4880, the IETF standards-track specification of OpenPGP. Modern versions of PGP are interoperable with GnuPG and other OpenPGP-compliant systems.<br>More on <a href=\"https://en.wikipedia.org/wiki/GNU_Privacy_Guard\">wikipedia</a><br>See more about the closely related and often-confusing term <a href=\"PGP\">PGP</a>.</p>"
+    "definition": "<h4>Definition</h4><p>also GnuPG; is a free-software replacement for Symantec&#39;s PGP cryptographic software suite. It is compliant with RFC 4880, the IETF standards-track specification of OpenPGP. Modern versions of PGP are interoperable with GnuPG and other OpenPGP-compliant systems.<br>More on <a href=\"https://en.wikipedia.org/wiki/GNU_Privacy_Guard\">wikipedia</a><br>See more about the closely related and often-confusing term <a href=\"PGP\">PGP</a>.</p>"
   },
   {
     "organisation": "WebOfTrust",
     "term": "governance framework",
     "url": "https://kerisse.org",
     "anchor": "governance-framework",
-    "definition": "<h4>Definition</h4><p>Also called &#39;Governance structure&#39;. Governance frameworks are the structure of a government and reflect the interrelated relationships, factors, and other influences upon the institution. Governance frameworks structure and delineate power and the governing or <a href=\"https://en.wikipedia.org/wiki/Management\">management</a> roles in an organization. They also set rules, procedures, and other informational guidelines.<br>More in <a href=\"https://en.wikipedia.org/wiki/Governance_framework\">source</a> Wikipedia.</p><h4>Related to GLEIF and vLEI</h4><p>In addition, governance frameworks define, guide, and provide for enforcement of these processes. These frameworks are shaped by the goals, strategic mandates, financial incentives, and established power structures and processes of the organization.</p><p>Within GLEIF context, <em>governance frameworks</em> manifest in a document that details the requirements for vLEI credentials.</p><h4>eSSIF-lab definition</h4><p>Governance framework in the <strong>#gswg</strong> glossary <a href=\"https://trustoverip.github.io/gswg/glossary#governance-framework\">here</a>.</p>"
+    "definition": "<h4>Definition</h4><p>Also called &#39;Governance structure&#39;. Governance frameworks are the structure of a government and reflect the interrelated relationships, factors, and other influences upon the institution. Governance frameworks structure and delineate power and the governing or <a href=\"https://en.wikipedia.org/wiki/Management\">management</a> roles in an organization. They also set rules, procedures, and other informational guidelines.<br>More in <a href=\"https://en.wikipedia.org/wiki/Governance_framework\">source</a> Wikipedia.</p><h4>Related to GLEIF and vLEI</h4><p>In addition, governance frameworks define, guide, and provide for enforcement of these processes. These frameworks are shaped by the goals, strategic mandates, financial incentives, and established power structures and processes of the organization.</p><p>Within GLEIF context, <em>governance frameworks</em> manifest in a document that details the requirements for vLEI credentials.</p>"
   },
   {
     "organisation": "WebOfTrust",
@@ -1292,7 +1285,7 @@
     "term": "Home",
     "url": "https://kerisse.org",
     "anchor": "Home",
-    "definition": "<h4>Welcome to the WebofTrust terms wiki!</h4><p>The wiki also serves the glossary terms for the underlying and related techniques to ACDC, like KERI, CESR and OOBI.</p><p>There are a few <a href=\"https://wiki.trustoverip.org/display/HOME/Terms+Wikis\">practical rules</a> from the originator ToIP to get these wiki terms through their equivalent <a href=\"https://github.com/WebOfTrust/WOT-terms/actions/workflows/content-fetch-and-deploy-update-glossary.yml\">github actions script</a>, please:</p><ol><li>beware all new wiki items you <strong>create</strong>, lead to new .md files. We&#39;d like to know</li><li>introduce lowercase names with spaces (they will convert into lower case names with dashes between the words)</li><li>start with ## Definition header; <a href=\"https://github.com/WebOfTrust/WOT-terms/wiki/composable-event-streaming-representation\">example</a></li><li>start with uppercase abbreviations with only the &quot;## See&quot; header; <a href=\"https://github.com/WebOfTrust/WOT-terms/wiki/CESR\">example</a></li><li>don&#39;t <strong>delete</strong> items (i.e. .md files) but make clear they are depreciated and / or link to the new concept / term</li><li>don&#39;t change or <strong>update</strong> the name of an item single handed, for it might change the concept / meaning for other people and create dead links for those who <strong>read</strong> - or link to the term. Please open an issue or a PR to discuss first. </li><li>any other immediate updates and amendments welcome, the revisions are available for us to be able to (partially) revert if something unwanted or unexpected happens.</li></ol><h5>KERISSE reads this wiki</h5><p>The <em>weboftrust</em> wiki glossary is currently our input tool for our KERI Suite glossary. However, we regularly scrape the wiki into <a href=\"http://kerisse.org\">KERISSE</a>, we add features and metadata, we connect relevant matching terms from related glossaries and finally we index it for the KERI Suite Search Engine (KERISSE).</p><p><em>Have fun CRU-ing!</em><br>&#39;* CRU=Create Read Update</p>"
+    "definition": "<h4>Welcome to the WebofTrust terms wiki!</h4><p>The wiki also serves the glossary terms for the underlying and related techniques to ACDC, like KERI, CESR and OOBI.</p><p>There are a few <a href=\"https://wiki.trustoverip.org/display/HOME/Terms+Wikis\">practical rules</a> from the originator ToIP to get these wiki terms through their equivalent <a href=\"https://github.com/WebOfTrust/WOT-terms/actions/workflows/content-fetch-and-deploy-update-glossary.yml\">github actions script</a>, please:</p><ol><li>beware all new wiki items you <strong>create</strong>, lead to new .md files. We&#39;d like to know</li><li>introduce lowercase names with spaces (they will convert into lower case names with dashes between the words)</li><li>start with <strong>## Definition</strong> header; <a href=\"https://github.com/WebOfTrust/WOT-terms/wiki/composable-event-streaming-representation\">example</a></li><li>start with uppercase abbreviations with only the &quot;<strong>## See</strong>&quot; header; <a href=\"https://github.com/WebOfTrust/WOT-terms/wiki/CESR\">example</a></li><li>don&#39;t <strong>delete</strong> items (i.e. .md files) but make clear they are depreciated and / or link to the new concept / term</li><li>don&#39;t change or <strong>update</strong> the name of an item single handed, for it might change the concept / meaning for other people and create dead links for those who <strong>read</strong> - or link to the term. Please open an issue or a PR to discuss first. </li><li>any other immediate updates and amendments welcome, the revisions are available for us to be able to (partially) revert if something unwanted or unexpected happens.</li></ol><h5>KERISSE reads this wiki</h5><p>The <em>weboftrust</em> wiki glossary is currently our input tool for our KERI Suite glossary. However, we regularly scrape the wiki into <a href=\"http://kerisse.org\">KERISSE</a>, we add features and metadata, we connect relevant matching terms from related glossaries and finally we index it for the KERI Suite Search Engine (KERISSE).</p><p><em>Have fun CRU-ing!</em><br>&#39;* CRU=Create Read Update</p>"
   },
   {
     "organisation": "WebOfTrust",
@@ -1327,7 +1320,7 @@
     "term": "identifier",
     "url": "https://kerisse.org",
     "anchor": "identifier",
-    "definition": "<h4>Definition</h4><p>Something to uniquely identify (public) identities; pointing to something or someone else.</p><h4>More in ToIP glossary</h4><p><a href=\"https://github.com/trustoverip/toip/wiki/identifier\">Identifier</a></p>"
+    "definition": "<h4>Definition</h4><p>Something to uniquely identify (public) identities; pointing to something or someone else.</p>"
   },
   {
     "organisation": "WebOfTrust",
@@ -1341,7 +1334,7 @@
     "term": "identity",
     "url": "https://kerisse.org",
     "anchor": "identity",
-    "definition": "<h4>Definition</h4><p>A unique entity. Typically represented by a unique <a href=\"identifier\">identifier</a>.</p><h4>More in ToIP glossary</h4><p><a href=\"https://github.com/trustoverip/toip/wiki/identity\">Identity</a></p>"
+    "definition": "<h4>Definition</h4><p>A unique entity. Typically represented by a unique <a href=\"identifier\">identifier</a>.</p>"
   },
   {
     "organisation": "WebOfTrust",
@@ -1663,7 +1656,7 @@
     "term": "keri suite search engine",
     "url": "https://kerisse.org",
     "anchor": "keri-suite-search-engine",
-    "definition": "<h4>Definition</h4><p>KERISSE is the Docusaurus <a href=\"https://weboftrust.github.io/WOT-terms/\">self-education site</a> of Web-of-Trust GitHub repo with Typesense search facilities. Because of its focus on well-versed developers in the field of <a href=\"SSI\">SSI</a> and the support of their journey to understand the structure of the code and how things work in the <a href=\"keri-suite\">KERI suite</a> it&#39;s more a search engine that drills down on documentation.</p>"
+    "definition": "<h4>Definition</h4><p>KERISSE is the Docusaurus <a href=\"https://weboftrust.github.io/WOT-terms/\">self-education site</a> of Web-of-Trust GitHub repo with Typesense search facilities. Because of its focus on well-versed developers in the field of <a href=\"SSI\">SSI</a> and the support of their journey to understand the structure of the code and how things work in the <a href=\"keri-suite\">KERI suite</a> it&#39;s more a search engine that drills down on documentation.</p><h4>Related kerific</h4><p><a href=\"kerific\">kerific</a> is a front-end tool that show all available glossary-definition in <a href=\"KERISSE\">KERISSE</a> for matching words in any web text; combined in the <a href=\"https://weboftrust.github.io/WOT-terms/docs/glossary-unified?level=2\">Unified Glossary</a>. This is based on a large JSON file</p>"
   },
   {
     "organisation": "WebOfTrust",
@@ -1685,6 +1678,13 @@
     "url": "https://kerisse.org",
     "anchor": "keridemlia",
     "definition": "<h4>Definition</h4><p>It is a contraction of <a href=\"key-event-receipt-infrastructure\">KERI</a> and <a href=\"https://en.wikipedia.org/wiki/Kademlia\">Kademlia</a>. It&#39;s the distributed database of Witness IP-addresses based on a <a href=\"distributed-hash-table\">Distributed Hash Table</a>. It also does the CNAME - stuff that <a href=\"domain-name\">Domain Name</a> Services (DNS) offers for KERI: the mapping between an identifier and it&#39;s controller AID stored in the KEL to its current wittness AID and the wittness AID to the IP address.<br>(@henkvancann)</p>"
+  },
+  {
+    "organisation": "WebOfTrust",
+    "term": "kerific",
+    "url": "https://kerisse.org",
+    "anchor": "kerific",
+    "definition": "<h4>Definition</h4><p><em>kerific</em> is a front plugin or extension that currently only works for Chrome and Brave. It matches words in any text on the web that is parseable for kerific and offers buttons to various glossaries and definitions in the <a href=\"self-sovereign-identity\">SSI</a> field.</p><h4>Relation with KERISSE</h4><p>All glossaries that <a href=\"KERISSE\">KERISSE</a> is allowed to scrape are combined in the <a href=\"https://weboftrust.github.io/WOT-terms/docs/glossary-unified?level=2\">Unified Glossary</a>. This is based on a large JSON file, which kerific uses to match words in any text and serve the combined glossaries.</p><h4>Download kerific</h4><p>It is in the <a href=\"https://chromewebstore.google.com/detail/kerific/ckbmkbbmnfbeecfmoiohobcdmopekgmp?hl=nl\">Chrome Webstore</a></p>"
   },
   {
     "organisation": "WebOfTrust",
@@ -1719,7 +1719,7 @@
     "term": "kever",
     "url": "https://kerisse.org",
     "anchor": "kever",
-    "definition": "<p>Kever is a key event verifier.</p>"
+    "definition": "<h4>Definition</h4><p>Kever is a key event verifier.</p>"
   },
   {
     "organisation": "WebOfTrust",
@@ -3357,14 +3357,14 @@
     "term": "validate",
     "url": "https://kerisse.org",
     "anchor": "validate",
-    "definition": "<h4>See</h4><p>ESSIF-lab definition of <em><a href=\"https://essif-lab.github.io/framework/docs/essifLab-glossary#validate\">validate</a></em>. Although this definition is very general, in the KERI/ACDC vocabulary &#39;validate&#39; currently has extra diverse meanings extending the one of eSSIF-lab, such as</p><ul><li>evaluate</li><li><a href=\"verify\">verify</a></li></ul><p>In contrast, <a href=\"validator\">validator</a> and <a href=\"verifier\">verifier</a> have been clearly outlined in the WebofTrust vocabulary.</p><h4>Related eSSIF-lab definitions</h4><ul><li><em><a href=\"https://essif-lab.github.io/framework/docs/essifLab-glossary#verify\">verify</a></em> definition is in sync with the definition in the KERI/ACDC vocabulary</li><li><em><a href=\"https://essif-lab.github.io/framework/docs/essifLab-glossary#verifier\">verifier</a></em> definition is in sync with the definition in the KERI/ACDC vocabulary</li><li><em><a href=\"https://essif-lab.github.io/framework/docs/essifLab-glossary#validator\">validator</a></em> definition is a generalisation of the much more specific definition in the KERI/ACDC vocabulary</li></ul>"
+    "definition": "<h4>See</h4><p>ESSIF-lab definition of <em><a href=\"https://essif-lab.github.io/framework/docs/essifLab-glossary#validate\">validate</a></em>. Although this definition is very general, in the KERI/ACDC vocabulary &#39;validate&#39; currently has extra diverse meanings extending the one of eSSIF-lab, such as</p><ul><li>evaluate</li><li><a href=\"verify\">verify</a></li></ul><p>In contrast, <a href=\"validator\">validator</a> and <a href=\"verifier\">verifier</a> have been clearly outlined in the WebofTrust vocabulary.</p>"
   },
   {
     "organisation": "WebOfTrust",
     "term": "validator",
     "url": "https://kerisse.org",
     "anchor": "validator",
-    "definition": "<h4>Definition</h4><p>determines current authoritative key set for identifier from at least one key event (receipt) log. Types:</p><ul><li>Validator of any verifiable data structure</li><li>Validator as a node in distributed consensus or participant</li></ul><p>Validator and <a href=\"verifier\">verifier</a> are close to synonyms for our purposes.</p><p>A <code>validator</code> in <a href=\"key-event-receipt-infrastructure\">KERI</a> and <a href=\"authentic-chained-data-container\">ACDC</a> is anybody that wants to establish control-authority over an identifier, created by the controller of the identifier. Validators verify the log, they apply duplicity detection or they leverage somebody else&#39;s duplicity detection or apply any other logic so they can say &quot;Yes, these are events I can trust&quot;.</p><h4>Example</h4><p>During validation of virtual credentials for example, a <a href=\"verifier\">verifier</a> checks to see if a verifiable <a href=\"credential\">credential</a> (<a href=\"VC\">VC</a>) has been signed by the controller of this VC using the applicable verification method.</p><h4>To be Sam-Smith precise in KERI</h4><p>Any entity or agent that evaluates whether or not a given signed statement as attributed to an identifier is valid at the time of its issuance. A valid statement MUST be verifiable, that is, has a verifiable signature from the current controlling keypair(s) at the time of its issuance. Therefore a Validator must first act as a Verifier in order to establish the root authoritative set of keys. Once verified, the Validator may apply other criteria or constraints to the statement in order to determine its validity for a given use case. When that statement is part of a verifiable data structure then the cryptographic verification includes verifying digests and any other structural commitments or constraints. To elaborate, with respect to an AID, for example, a Validator first evaluates one or more KELs in order to determine if it can rely on (trust) the key state (control authority) provided by any given KEL. A necessary but insufficient condition for a valid KEL is it is verifiable i.e. is internally inconsistent with respect to compliance with the KERI protocol. An invalid KEL from the perspective of a Validator may be either unverifiable or may be verifiable but duplicitous with respect to some other verifiable version of that KEL. Detected duplicity by a given validator means that the validator has seen more than one verifiable version of a KEL for a given AID. Reconciliable duplicity means that one and only one version of a KEL as seen by a Validator is accepted as the authoritative version for that validator. Irreconcilable duplicity means that none of the versions of a KEL as seen by a validator are accepted as the authoritative one for that validator. The conditions for reconcilable duplicity are described later.<br>Source <a href=\"https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-keri.md#basic-terminology\">Sam Smith</a></p><h4>ESSIF-lab definitions</h4><ul><li><em><a href=\"https://essif-lab.github.io/framework/docs/essifLab-glossary#verify\">verify</a></em> definition is in sync with the definition in the KERI/ACDC vocabulary</li><li><em><a href=\"https://essif-lab.github.io/framework/docs/essifLab-glossary#verifier\">verifier</a></em> definition is in sync with the definition in the KERI/ACDC vocabulary</li><li><em><a href=\"https://essif-lab.github.io/framework/docs/essifLab-glossary#validate\">validate</a></em> definition is very general, however in the KERI/ACDC vocabulary &#39;validate&#39; currently has diverse meanings including this one</li><li><em><a href=\"https://essif-lab.github.io/framework/docs/essifLab-glossary#validator\">validator</a></em> definition is a generalisation of the much more specific definition in the KERI/ACDC vocabulary</li></ul>"
+    "definition": "<h4>Definition</h4><p>determines current authoritative key set for identifier from at least one key event (receipt) log. Types:</p><ul><li>Validator of any verifiable data structure</li><li>Validator as a node in distributed consensus or participant</li></ul><p>Validator and <a href=\"verifier\">verifier</a> are close to synonyms for our purposes.</p><p>A <code>validator</code> in <a href=\"key-event-receipt-infrastructure\">KERI</a> and <a href=\"authentic-chained-data-container\">ACDC</a> is anybody that wants to establish control-authority over an identifier, created by the controller of the identifier. Validators verify the log, they apply duplicity detection or they leverage somebody else&#39;s duplicity detection or apply any other logic so they can say &quot;Yes, these are events I can trust&quot;.</p><h4>Example</h4><p>During validation of virtual credentials for example, a <a href=\"verifier\">verifier</a> checks to see if a verifiable <a href=\"credential\">credential</a> (<a href=\"VC\">VC</a>) has been signed by the controller of this VC using the applicable verification method.</p><h4>To be Sam-Smith precise in KERI</h4><p>Any entity or agent that evaluates whether or not a given signed statement as attributed to an identifier is valid at the time of its issuance. A valid statement MUST be verifiable, that is, has a verifiable signature from the current controlling keypair(s) at the time of its issuance. Therefore a Validator must first act as a Verifier in order to establish the root authoritative set of keys. Once verified, the Validator may apply other criteria or constraints to the statement in order to determine its validity for a given use case. When that statement is part of a verifiable data structure then the cryptographic verification includes verifying digests and any other structural commitments or constraints. To elaborate, with respect to an AID, for example, a Validator first evaluates one or more KELs in order to determine if it can rely on (trust) the key state (control authority) provided by any given KEL. A necessary but insufficient condition for a valid KEL is it is verifiable i.e. is internally inconsistent with respect to compliance with the KERI protocol. An invalid KEL from the perspective of a Validator may be either unverifiable or may be verifiable but duplicitous with respect to some other verifiable version of that KEL. Detected duplicity by a given validator means that the validator has seen more than one verifiable version of a KEL for a given AID. Reconciliable duplicity means that one and only one version of a KEL as seen by a Validator is accepted as the authoritative version for that validator. Irreconcilable duplicity means that none of the versions of a KEL as seen by a validator are accepted as the authoritative one for that validator. The conditions for reconcilable duplicity are described later.<br>Source <a href=\"https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-keri.md#basic-terminology\">Sam Smith</a></p>"
   },
   {
     "organisation": "WebOfTrust",

@@ -43,7 +43,8 @@ fs.readdir(directoryPathInput, (err, files) => {
                 termsMap[entry.term].definitions.push({
                     organisation: entry.organisation,
                     definition: entry.definition,
-                    url: entry.url
+                    url: entry.url,
+                    anchor: entry.anchor
                 });
             });
 
