@@ -1,5 +1,5 @@
 ---
-status:concept
+status: concept
 ---
 # IP rights of scraped sources
 
