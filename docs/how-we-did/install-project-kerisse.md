@@ -2,7 +2,7 @@
 Status: final
 ---
 
-What is this: [Github README](https://github.com/weboftrust/WOT-terms/README.md) describes the download, install, configuration and launch of this project.
+What is this: [Github README](https://github.com/weboftrust/WOT-terms/README) describes the download, install, configuration and launch of this project.
 
 For who: site maintainer
 
@@ -23,4 +23,4 @@ Now you can refresh the **search index** if needed:
 This takes about half an hour.
 
 Instructions on how to use createSitemap.js:
-https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/createSitemap.js
+https://github.com/WebOfTrust/WOT-terms/blob/main/search-index-typesense/createSitemap.mjs
