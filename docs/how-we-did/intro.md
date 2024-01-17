@@ -1,5 +1,5 @@
 ---
-
+status: draft
 ---
 
 import Kerisse from '/img/kerisse.svg';
@@ -25,7 +25,7 @@ Is the data part of this site and consists of:
 
 ## KERISSE
 - Typesense Search Engine
-- Artificial Intelligence chatBot 
+- Artificial Intelligence chatBot; ONHOLD 2023
 - Docusaurus static site functionality
 
 ## How we did

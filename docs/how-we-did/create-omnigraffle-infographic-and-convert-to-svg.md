@@ -1,5 +1,11 @@
 # Create Omnigraffle infographic and convert to SVG
 
+Why this doc: to show how-we-did create SVG files to serve as infographics on the site
+
+For who: anyone handy with clickable images and eager to contribute or update infographics
+
+Result: semi-automaticly (re)generated SVG files in the right spot.
+
 Three steps:
 1. Use Omnigraffle app
 2. Run `node maintenance/fixOmnigraffleSvgOutput.js` to fix the svg for our Docusaurus purposes. This script enhances the compatibility and display of OmniGraffle-produced SVGs.

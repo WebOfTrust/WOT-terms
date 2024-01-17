@@ -1,9 +1,12 @@
-# Cheat sheet: writing a page inside `/doc`
+# Cheat sheet: writing a page inside `/docs`
 
-A few simple rules about headings, internal linking, images and more.
+What is this: A few rules about headings, internal linking, images and more that we kept in mind. It's *how we did* it.
 
-Everything that is important to do the right way but you keep forgetting how to do it.
+For who: Anyone documenting in the KERI Suite and WOT-terms repo specifically.
 
+What problem does it solve: Everything that is important to do the right way, but you keep forgetting how to do it. Here's the cheat sheet to remind you and assist you.
+
+What's the result: The KERI Suite uses Docusaurus to generate enhanced technical documentation. Complying with the rules in this cheat sheet means optimal readability, less broken links, well-styled images, etc.
 
 <div class="alert alert-info" role="alert">
 
@@ -23,9 +26,9 @@ Change default setting in Visual Studio Code:
 
 ## General
 
-Use empty lines between everything:
+Use empty lines between every block:
 
-Good:
+Right:
 
 ```
 # Main title
@@ -36,7 +39,6 @@ A paragraph text
 
 Another paragraph text
 ```
-
 
 Wrong:
 
@@ -267,3 +269,6 @@ As a bonus effect, the Visual Studio File Explorer will rearrange the directorie
 
 
 The `01_` and `02_` are removed and not visible in the browser. Renumbering will change paths in internal links but Visual Studio Code will fix these paths for you if you [have configured it to do so](#strongly-recommended).
+
+## Final note
+Thank you for going all the way down the cheat sheet. Have a great time writing!

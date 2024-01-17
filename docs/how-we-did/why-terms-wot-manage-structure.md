@@ -1,7 +1,11 @@
 ---
-
+status: final
 ---
 # The Terms WOT manage structure explained
+
+What is this: A description of architecture and follow-up technical design
+
+For who: anyone that likes to understand the architecture and how-we-did build KERISSE using `github.com` and its wiki, Typesense and Docusaurus and actions, resulting in the WOT-terms repo `github.io` site.
 
 To generate our static content site on the Github project page of this [WOT-terms page](https://weboftrust.github.io/WOT-terms/) repo, we have:
 
@@ -11,6 +15,10 @@ To generate our static content site on the Github project page of this [WOT-term
 
 <img src={require('/static/img/Terms-wot-manage-screen-example.png').default} alt="Terms-wot-manage-screen-example" />
 <img src={require('/static/img/csv-utf-8-save-as.png').default} alt="csv-utf-8-save-as" />
+
+*How-we-did* in 2023 and onwards is:
+- use Google Docs to maintain and edit the structure and content of the sheet
+- pull in the data and the structure into JSON format using github actions script | TBW @kordwarshuis |
 
 ## Why a sheet and why is it called Terms WOT manage?
 
@@ -57,6 +65,19 @@ Field _names_ are in the first row. A few columns maintain our database-like str
   - `A`: Autonomic Identifier specific
   - `S`: SSI specific
   - `G`: General
+- Form: mainly for explanatory reasons, possibly filtering. The field has only one character that best fits the form description of the term.
+  - `n` : noun
+  - `v` : verb
+  - `a` : adjective/adverb
+  - `r` : relation
+- Text : This is the short description of the term. It will be shown as a popup after pressing the `+` sign. This sign is located after any link in glossary definition texts to a term that we have registered in the WOT-terms sheet. The Level of the description is mostly `1`; which means "Digital Identity advanced knowledge"
+- Link: The direct link to the source input utility, from 2022 and still in 2024 being the wiki op the repo on github.com
+- Level : level of understanding. In what kind of language is the term definition expressed? The field has only one character.
+  - `3` : KERI expert (to be); this is the target group of KERISSE
+  - `2` : SSI expert (decentralized IDs)
+  - `1` : Digital Identity advanced knowledge
+> Observation: we do not serve laymen.
+> Exception: Level `4` is extraordinary level. Philip Feairheller in 2021: "this the level only KERI Suite founder Sam Smith can formulate and understand, nobody else can". If you happen to come across level 4 text in the KERI Suite, don't feel lonely. :)
 - TTTTT_FKey: this columns contains foreigns key into another table or sheet. TTTTT can be a file that has terms mentioned in a video ("PhilVid") or another Glossary ("eSSIF-lab") that are related to the matching term on a specific row in our sheet.
 - Cat_CCCCC: this columns contains Categories. We consider a term from a certain category went it's mentioned regularly in the content of certain repository (e.g. 'KERI' or 'OOBI') of the WebofTrust Github site.
 

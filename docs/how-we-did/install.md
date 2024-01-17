@@ -2,8 +2,11 @@
 Status: final
 ---
 
-[Github README](https://github.com/weboftrust/WOT-terms/README.md) describes the download, install, configuration and launch of this project.
+What is this: [Github README](https://github.com/weboftrust/WOT-terms/README.md) describes the download, install, configuration and launch of this project.
 
+For who: site maintainer
+
+Result: | @kordwarshuis TBW |
 
 ## Run Scrapers
 

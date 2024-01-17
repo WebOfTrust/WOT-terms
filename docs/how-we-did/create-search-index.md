@@ -5,10 +5,13 @@ import Scraping from '/img/scraping.svg';
 
 # Create a search index
 
+For who is this *how-we-did*: Maintainers of the KERISSE site
+
+Why should you stick to this step by step: | @kordwarshuis ?? |
+
 ## Software used
 
-We use tools such as Puppeteer and Cheerio to achieve our goal. The added value of Puppeteer is that it can also index dynamically generated content. 
-
+We use tools such as Puppeteer and Cheerio to achieve our goal. The added value of Puppeteer is the indexing dynamically of generated content. 
 
 ## Generating a search index: three steps
 
@@ -47,7 +50,7 @@ In **Typesense** a “document” is what a “record” is in a database.
 More info on the Typesense website: https://typesense.org/docs/0.24.1/api/documents.html#index-multiple-documents
 
 The documents we want to import have to follow a scheme. The current scheme we use is:
-
+| @kordwarshuis: isn't it better to link to the actual scheme, because this demands updates dwon here ->
 ```
 {
     "created_at": ------,

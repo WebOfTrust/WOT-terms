@@ -3,19 +3,27 @@
 ---
 # Fill out terms in the WebofTrust wiki
 
-This page tells a little bit about how to use the WebofTrust terms wiki:
+What is this: This page tells a little bit about how to use the WebofTrust terms wiki:
 
 - how to use
 - how to fill
 - how to manage
 
+For who: content creators wrtiting term definition or updating them.
+
+Result: terms definition in the source environment Wiki that will process automatically into glossaries on github.io, using github action scripts.
+
+## Thanks
+
 But first a big **Thank You** to ToIP and Daniel Hardman, where we got the source code from and we sync our glossary with.
+
+The [README](https://github.com/weboftrust/WOT-terms/wiki/README) has to most recent rules to stick to.
 
 ## Video Daniel Hardman
 
 For new learners, the video | TBW prio1 | of Daniel Hardman is very educational.
 
-You could also have a look at the elaborate and complete description of the ToIP terms wikis [here](https://github.com/trustoverip/toip)
+You could also have a look at the elaborate and comprehensive description of the ToIP terms wikis [here](https://github.com/trustoverip/toip)
 
 
 ## How to use a terms wiki

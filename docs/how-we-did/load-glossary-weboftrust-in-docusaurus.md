@@ -1,11 +1,29 @@
 ---
-
+status: pre-final
 ---
 # Load weboftrust glossary in weboftrust github page
 
-With regard to the glossary our weboftrust github page of the WOT-terms repo serves two clearly distinctive purposes:
-1.  show the world we conform to the ToIP and eSSIF-lab standards of generating glossaries 
+Why *how-we-did* this: We'ld like to have a straightforward editting tool that authenticates users that Create Update and/or Delete the content of the terms repo. With the use of `git` it will register all changes and done by whom, which facilitates curation and adds reputation.  
+While the input is a rather basic operation in the wiki, we'ld like to enjoy all the extra's that a front-end technical dodumentation site can offer:
+- levels of understanding
+- categories
+- pop-up
+- formatting
+- fold-puts
+- etc
+And also add meta data to the terms definition using some kind of database table, which allows:
+- filtering
+- selection
+- sorting
+- checks
+
+For who: anyone who likes to see the results of wiki glossary input in the front-end `github.io` website KERISSE. 
+
+Purpose: With regard to the glossary our weboftrust github page of the WOT-terms repo serves two clearly distinctive purposes:
+1. conform to the ToIP and eSSIF-lab standards of generating glossaries 
 2. create our own version of the glossary where we add meta data, levels, catogeries and change the layout and UI to fit the Docusaurus KERISSE image.
+
+Result: Github actions script (2024: `content-fetch-and-deploy-update-glossary.yml`) transforms the source in the [wiki](https://github.com/weboftrust/WOT-terms/wiki) to a Docusaurus webpage structure called 'Glossary' in the left menu, thereby extracting meta data from a Google sheet into a JSON file and furthermore integrating this data on the front-end of the website.
 
 ## Input
 
@@ -14,6 +32,7 @@ With regard to the glossary our weboftrust github page of the WOT-terms repo ser
 5. Version control (git & Github)
 
 <div class="alert alert-info" role="alert">
+
 ## Strongly recommended
 
 Be sure to leave the following files in tact when overwriting glossary items in Docusaurus dir `nn-glossary` (`nn`  will be any sequence number before "glossary to instruct the order") from the source WOT-terms wiki:

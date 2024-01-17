@@ -1,7 +1,15 @@
 ---
-
+status: draft
 ---
-# Check and accept PR production Edusite locally
+# Check and accept PR production KERISSE site locally
+
+Why this *how-we-did*: To test pull request offered before accepting them in github
+
+For who: crew responsible for acceptance of PRs offered by content developers
+
+What is the objective: To check content and code that is uploaded to the team as a PR.
+
+## 
 
 ```jsx
 git stash 

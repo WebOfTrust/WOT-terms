@@ -1,11 +1,14 @@
 ---
-
+status: draft
 ---
 # Label Content and Alert Changes
+
+| TBW @henkvancann |
+
 We have:
 - **data**: WOT-terms, tab LabelContent [link](https://docs.google.com/spreadsheets/d/18IUa-1NSJ_8Tz_2D-VSuSQa_yf3ES1s_hovitm3Clvc/edit#gid=378513351)
 - **checks**: Link checker in Google Apps script [link](https://docs.google.com/spreadsheets/d/18IUa-1NSJ_8Tz_2D-VSuSQa_yf3ES1s_hovitm3Clvc/edit?usp=sharing)
-- **functionality**: | TBW Kor |
+- **functionality**: | TBW @kordwarshuis |
 
 ## Data
 In the tab `LabelContent` in WOT-terms [Google sheet](https://docs.google.com/spreadsheets/d/18IUa-1NSJ_8Tz_2D-VSuSQa_yf3ES1s_hovitm3Clvc/edit#gid=378513351) we find instructions and tests on:
@@ -22,7 +25,7 @@ In the tab `LabelContent` in WOT-terms [Google sheet](https://docs.google.com/sp
 - A resource file for the Docusaurus site
 - WOT-terms Google sheet, tabblad 'LabelContent'
 - Link checker function in Google Sheet 
-- Script | TBW Kor? | 
+- Script | @kordwarshuis TBW | 
 
 ### Attention
 - List of Characters in the filename that cause trouble in Docusaurus
@@ -88,3 +91,4 @@ This has the advantage:
 
 ### Unique Result
 
+| TBW @kordwarshuis @henkvancann |

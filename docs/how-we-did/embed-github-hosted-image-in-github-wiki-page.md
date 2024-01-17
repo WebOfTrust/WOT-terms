@@ -3,6 +3,12 @@
 ---
 # Embed a Github-hosted image in a Github wiki page
 
+For who: content developers and those who'd like to repair broken images
+
+Why: repair and avoid broken images
+
+Result: github-hosted images with a valid link
+
 ## Issue
 
 The URL of an image hosted on Github is not what it seems.

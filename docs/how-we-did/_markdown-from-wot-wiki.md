@@ -1,5 +1,5 @@
 ---
-
+status: depreciated
 ---
 # Get Markdown files from WebofTrust wiki glossary terms
 

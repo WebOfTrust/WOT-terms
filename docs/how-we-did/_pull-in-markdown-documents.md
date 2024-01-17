@@ -1,10 +1,10 @@
 ---
-
+status: depreciated
 ---
 # Pull in markdown documents
 
-`IETF drafts` are standardized write-ups for experts. Although these drafts contains loads of valuable information and learning resources, the layout and accessibility is cumbersome for training and education purposes.
-Therefore we pull in the original documents in markdown format in our Jekyll site and semi-automatically reorganize the data using our Terms and Glossaries.
+`IETF drafts` are standardized write-ups for experts. Although these drafts contain valuable information and learning resources, the layout and accessibility is cumbersome for training and education purposes.
+Therefore we pull in the original documents in markdown format in our Docusaurus site and semi-automatically reorganize the data using our Terms and Glossaries.
 
 ## How to find a document
 

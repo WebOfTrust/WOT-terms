@@ -1,5 +1,5 @@
 ---
-
+status: depreciated
 ---
 # Sync agenda to production via local
 

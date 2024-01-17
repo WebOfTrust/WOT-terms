@@ -1,7 +1,14 @@
 ---
-
+status:draft
 ---
 # Create an online table to link terms to resources
+
+What is this: This is *how-we-did* the processing of a video into an educational resource.
+
+For who: Anyone processing videos by hand.
+
+Result: an online table to jump into a video based on kerywords and terms. 
+
 
 ## Input
 
