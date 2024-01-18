@@ -27,9 +27,9 @@
             display: none;
             position: fixed;
             top: 10px;
-            right: 10px;
+            left: calc(100vw - 25% - 1em);
             width: 25%;
-            max-height: 50%;
+            max-height: 95%;
             overflow: scroll;
 
             overflow-wrap: break-word;
@@ -58,7 +58,7 @@
             h4,
             h5,
             h6 {
-                font: italic normal 1.4em georgia, sans-serif;
+                font: normal 1.4em georgia, sans-serif;
                 color: #337dbe;
             }
 
@@ -124,6 +124,7 @@
                 top: 0 !important;
                 background-color: #eee;
                 text-align: center;
+                padding: 0 0.5em;
             }
 
             .card-header h2 {
@@ -131,9 +132,9 @@
                 margin: 0;
             }
 
-            .card-header p {
-                margin: 0;
-            }
+            // .card-header p {
+            // margin: 0;
+            // }
 
             .card-body h3 {
                 font-size: 25px;
@@ -145,6 +146,7 @@
                 position: sticky;
                 bottom: 0;
                 background-color: #eee;
+                padding: 0 0.5em;
             }
 
         }
@@ -152,7 +154,7 @@
         span.kerific-match {
             position: relative;
             // outline: 1px dashed #ffa0d6;
-            background: #f1d1ff51;
+            background: #f1d1ff2d;
             padding: 0 0.5em;
             // border-radius: 5px;
         }
