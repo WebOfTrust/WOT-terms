@@ -37,7 +37,7 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 100%;
   /* background: #14233e; */
   /* position:absolute; */
@@ -52,7 +52,8 @@ ol[class] {
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
-  text-decoration-skip-ink: auto;
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
 }
 
 /* Make images easier to work with */
@@ -100,7 +101,7 @@ h1 {
   position: fixed;
   top: 0;
   left: 0;
-  font-family: 'Codystar', cursive;
+  font-family: "Codystar", cursive;
   color: #eee;
   z-index: 3;
   text-align: center;
@@ -225,4 +226,4 @@ canvas {
   width: 100%;
   height: 100%;
   z-index: 1;
-}
+}/*# sourceMappingURL=index.css.map */
