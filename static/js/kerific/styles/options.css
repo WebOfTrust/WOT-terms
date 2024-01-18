@@ -22,9 +22,9 @@
   display: none;
   position: fixed;
   top: 10px;
-  right: 10px;
+  left: calc(100vw - 25% - 1em);
   width: 25%;
-  max-height: 50%;
+  max-height: 95%;
   overflow: scroll;
   overflow-wrap: break-word;
   /* word-break: break-all; */
@@ -48,7 +48,7 @@
 .kerific-popup h4,
 .kerific-popup h5,
 .kerific-popup h6 {
-  font: italic normal 1.4em georgia, sans-serif;
+  font: normal 1.4em georgia, sans-serif;
   color: #337dbe;
 }
 .kerific-popup h3 {
@@ -102,12 +102,10 @@
   top: 0 !important;
   background-color: #eee;
   text-align: center;
+  padding: 0 0.5em;
 }
 .kerific-popup .card-header h2 {
   font-size: 25px;
-  margin: 0;
-}
-.kerific-popup .card-header p {
   margin: 0;
 }
 .kerific-popup .card-body h3 {
@@ -119,11 +117,12 @@
   position: sticky;
   bottom: 0;
   background-color: #eee;
+  padding: 0 0.5em;
 }
 
 span.kerific-match {
   position: relative;
-  background: rgba(241, 209, 255, 0.3176470588);
+  background: rgba(241, 209, 255, 0.1764705882);
   padding: 0 0.5em;
 }
 

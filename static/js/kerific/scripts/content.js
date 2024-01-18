@@ -50,7 +50,7 @@
 
     // const headerStyle is created from options.scss manually
     const headerStyle = `
-.close-cross{font-size:1.5em;display:block;top:.5em;right:1em;cursor:pointer;position:absolute;top:10px;right:10px;}.kerific-popup{all:initial;font:100% georgia,sans-serif;line-height:1.88889;color:#555753;margin:0;padding:0;box-sizing:border-box;background-color:#fff;display:none;position:fixed;top:10px;right:10px;width:25%;max-height:50%;overflow:scroll;overflow-wrap:break-word;-webkit-hyphens:auto;hyphens:auto;border:1px solid rgba(0,0,0,.125);border-radius:.25rem;box-shadow:0 0 10px rgba(0,0,0,.035),0 0 80px rgba(0,0,0,.07);z-index:1000;}.kerific-popup h2{font-family:"Franklin Gothic Medium","Arial Narrow",Arial,sans-serif!important;font-size:1.7em;letter-spacing:2px;margin-bottom:0;color:#f38787;}.kerific-popup h1,.kerific-popup h3,.kerific-popup h4,.kerific-popup h5,.kerific-popup h6{font:italic normal 1.4em georgia,sans-serif;color:#337dbe;}.kerific-popup h3{font-size:1.3em;letter-spacing:1px;margin-bottom:0;}.kerific-popup h4,.kerific-popup h5,.kerific-popup h6{font-size:1.1em;letter-spacing:1px;margin-bottom:0;}.kerific-popup p{margin-top:0;}.kerific-popup a:link{font-weight:bold;text-decoration:none;color:#B7A5DF;}.kerific-popup a:visited{font-weight:bold;text-decoration:none;color:#D4CDDC;}.kerific-popup a:hover,.kerific-popup a:focus,.kerific-popup a:active{text-decoration:underline;color:#9685BA;}.kerific-popup abbr{border-bottom:none;}.kerific-popup hr{margin:1rem 0;color:inherit;border:0;border-top:1px solid;opacity:.25;}.kerific-popup .card-header,.kerific-popup .card-body,.kerific-popup .card-footer{padding:20px;}.kerific-popup .card-header{position:sticky;top:0!important;background-color:#eee;text-align:center;}.kerific-popup .card-header h2{font-size:25px;margin:0;}.kerific-popup .card-header p{margin:0;}.kerific-popup .card-body h3{font-size:25px;margin:0 0 1em 0;text-align:center;}.kerific-popup .card-footer{position:sticky;bottom:0;background-color:#eee;}span.kerific-match{position:relative;background:rgba(241,209,255,.3176470588);padding:0 .5em;}button.kerific-match{display:inline-block;font-size:.8em;border:1px solid #ffa0d6;border-radius:5px;padding:.1em .6em;margin:.5em .5em 1.5em 0;cursor:pointer;background:#f1d1ff;box-shadow:0 0 .3px rgba(0,0,0,.02),0 0 .8px rgba(0,0,0,.028),0 0 1.5px rgba(0,0,0,.035),0 0 2.7px rgba(0,0,0,.042),0 0 5px rgba(0,0,0,.05),0 0 12px rgba(0,0,0,.07);}#loading-indicator{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;border:1px solid #333;border-radius:20px;background:#e5ecff;padding:3em;z-index:10000000000000000;}.displayBlock{display:block!important;}.displayNone{display:none!important;}
+.close-cross{font-size:1.5em;display:block;top:.5em;right:1em;cursor:pointer;position:absolute;top:10px;right:10px;}.kerific-popup{all:initial;font:100% georgia,sans-serif;line-height:1.88889;color:#555753;margin:0;padding:0;box-sizing:border-box;background-color:#fff;display:none;position:fixed;top:10px;right:10px;width:25%;max-height:50%;overflow:scroll;overflow-wrap:break-word;-webkit-hyphens:auto;hyphens:auto;border:1px solid rgba(0,0,0,.125);border-radius:.25rem;box-shadow:0 0 10px rgba(0,0,0,.035),0 0 80px rgba(0,0,0,.07);z-index:1000;}.kerific-popup h2{font-family:"Franklin Gothic Medium","Arial Narrow",Arial,sans-serif!important;font-size:1.7em;letter-spacing:2px;margin-bottom:0;color:#f38787;}.kerific-popup h1,.kerific-popup h3,.kerific-popup h4,.kerific-popup h5,.kerific-popup h6{font:italic normal 1.4em georgia,sans-serif;color:#337dbe;}.kerific-popup h3{font-size:1.3em;letter-spacing:1px;margin-bottom:0;}.kerific-popup h4,.kerific-popup h5,.kerific-popup h6{font-size:1.1em;letter-spacing:1px;margin-bottom:0;}.kerific-popup p{margin-top:0;}.kerific-popup a:link{font-weight:bold;text-decoration:none;color:#B7A5DF;}.kerific-popup a:visited{font-weight:bold;text-decoration:none;color:#D4CDDC;}.kerific-popup a:hover,.kerific-popup a:focus,.kerific-popup a:active{text-decoration:underline;color:#9685BA;}.kerific-popup abbr{border-bottom:none;}.kerific-popup hr{margin:1rem 0;color:inherit;border:0;border-top:1px solid;opacity:.25;}.kerific-popup .card-header,.kerific-popup .card-body,.kerific-popup .card-footer{padding:20px;}.kerific-popup .card-header{position:sticky;top:0!important;background-color:#eee;text-align:center;}.kerific-popup .card-header h2{font-size:25px;margin:0;}.kerific-popup .card-header p{margin:0;}.kerific-popup .card-body h3{font-size:25px;margin:0 0 1em 0;text-align:center;}.kerific-popup .card-footer{position:sticky;bottom:0;background-color:#eee;}span.kerific-match{position:relative;outline:1px dashed #ffa0d6;background:rgba(241,209,255,.1333333333);padding:0 .5em;border-radius:5px;}span.kerific-match:after{content:"";position:absolute;top:0;right:0;z-index:10000;width:.3em;height:.3em;background:#f1d1ff;border-radius:50%;box-shadow:0 0 .3px rgba(0,0,0,.02),0 0 .8px rgba(0,0,0,.028),0 0 1.5px rgba(0,0,0,.035),0 0 2.7px rgba(0,0,0,.042),0 0 5px rgba(0,0,0,.05),0 0 12px rgba(0,0,0,.07);}button.kerific-match{display:inline-block;font-size:.8em;border:1px solid #ffa0d6;border-radius:5px;padding:.1em .6em;margin:.5em .5em 1.5em 0;cursor:pointer;background:#f1d1ff;box-shadow:0 0 .3px rgba(0,0,0,.02),0 0 .8px rgba(0,0,0,.028),0 0 1.5px rgba(0,0,0,.035),0 0 2.7px rgba(0,0,0,.042),0 0 5px rgba(0,0,0,.05),0 0 12px rgba(0,0,0,.07);}#loading-indicator{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;border:1px solid #333;border-radius:20px;background:#e5ecff;padding:3em;z-index:10000000000000000;}.displayBlock{display:block!important;}.displayNone{display:none!important;}.kerific-line{height:2px;background:black;border:1px dashed black}button.kerific-match:hover ~ .kerific-line,.kerific-match:hover ~ .kerific-line{display:block}
     `;
 
     /*
@@ -61,29 +61,106 @@
     let popUpLedger = [];
 
 
+    /*
+     * Inject CSS
+     */
+
     // Insert https://animate.style/ via CDN
     const animateCss = document.createElement('link');
     animateCss.rel = 'stylesheet';
     animateCss.href = 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css';
     document.head.appendChild(animateCss);
 
+    // A: Insert local css for testing
+    const generalCss = document.createElement('link');
+    generalCss.rel = 'stylesheet';
+    generalCss.href = 'http://localhost:3000/WOT-terms/js/kerific/styles/options.css';
+    document.head.appendChild(generalCss);
+
+    // // B: Insert <style> element into page: headerStyle
+    // const headerStyleElement = document.createElement('style');
+    // headerStyleElement.innerHTML = headerStyle;
+    // document.head.appendChild(headerStyleElement);
+
     /*
-     * CSS
+     * END Inject CSS
      */
 
-    // // A: Insert local css for testing
-    // const generalCss = document.createElement('link');
-    // generalCss.rel = 'stylesheet';
-    // generalCss.href = 'http://localhost:3000/WOT-terms/js/kerific/styles/options.css';
-    // document.head.appendChild(generalCss);
+    /*
+     * Inject JS
+     * https://interactjs.io/docs
+     */
 
-    // B: Insert <style> element into page: headerStyle
-    const headerStyleElement = document.createElement('style');
-    headerStyleElement.innerHTML = headerStyle;
-    document.head.appendChild(headerStyleElement);
+    function injectResizableDraggableScript() {
+        const script = document.createElement('script');
+        script.type = 'module';
+
+        script.textContent = `
+        import 'https://cdn.interactjs.io/v1.9.20/auto-start/index.js'
+        import 'https://cdn.interactjs.io/v1.9.20/actions/drag/index.js'
+        import 'https://cdn.interactjs.io/v1.9.20/actions/resize/index.js'
+        import 'https://cdn.interactjs.io/v1.9.20/modifiers/index.js'
+        import 'https://cdn.interactjs.io/v1.9.20/dev-tools/index.js'
+        import interact from 'https://cdn.interactjs.io/v1.9.20/interactjs/index.js'
+
+        // Draggable configuration
+        interact('.kerific-popup').draggable({
+            listeners: {
+                move(event) {
+                    // Update only the dragged element's position during drag
+                    const x = (parseFloat(event.target.getAttribute('data-x')) || 0) + event.dx;
+                    const y = (parseFloat(event.target.getAttribute('data-y')) || 0) + event.dy;
+                    event.target.style.transform = \`translate(\${x}px, \${y}px)\`;
+                    event.target.setAttribute('data-x', x);
+                    event.target.setAttribute('data-y', y);
+                },
+                end(event) {
+                    // Update all .kerific-popup elements' positions when drag ends
+                    const x = parseFloat(event.target.getAttribute('data-x')) || 0;
+                    const y = parseFloat(event.target.getAttribute('data-y')) || 0;
+                    const popups = document.querySelectorAll('.kerific-popup');
+                    popups.forEach(popup => {
+                        popup.style.transform = \`translate(\${x}px, \${y}px)\`;
+                        popup.setAttribute('data-x', x);
+                        popup.setAttribute('data-y', y);
+                    });
+                }
+            }
+        });
+
+        interact('.kerific-popup')
+                    .resizable({
+            edges: { top: true, left: true, bottom: true, right: true },
+            listeners: {
+            move: function (event) {
+                let { x, y } = event.target.dataset
+
+                x = (parseFloat(x) || 0) + event.deltaRect.left
+                y = (parseFloat(y) || 0) + event.deltaRect.top
+
+                Object.assign(event.target.style, {
+                width: \`\${event.rect.width}px\`,
+                height: \`\${event.rect.height}px\`,
+                transform: \`translate(\${x}px, \${y}px)\`
+                })
+
+                Object.assign(event.target.dataset, { x, y })
+            }
+            }
+        });
+    `;
+
+        document.head.appendChild(script);
+    }
+
+    injectResizableDraggableScript();
+
+
+
+
 
     /*
-     * END CSS
+     * End Inject JS
      */
 
 
@@ -234,24 +311,11 @@
             });
 
             function createButtonsInContainers() {
-                let uniqueButtons = {};
-
                 // Find all elements with the class 'kerific-match'
                 const matches = document.querySelectorAll('.kerific-match');
 
                 matches.forEach(match => {
                     const text = match.innerText;
-
-                    // Skip creating a button if one with the same text already exists
-                    if (uniqueButtons[text]) {
-                        return;
-                    }
-
-                    // Create a new button element with the same class
-                    const button = document.createElement('button');
-                    button.innerText = text;
-                    button.className = 'kerific-match';
-                    uniqueButtons[text] = button;
 
                     // Find the nearest ancestor with 'display: block'
                     let parent = match.parentElement;
@@ -259,7 +323,23 @@
                         parent = parent.parentElement;
                     }
 
-                    // Check if the next sibling is a valid element and has the class 'kerific-match-buttons-container'
+                    // Initialize uniqueButtons for each container
+                    if (!parent.uniqueButtons) {
+                        parent.uniqueButtons = {};
+                    }
+
+                    // Skip creating a button if one with the same text already exists in this container
+                    if (parent.uniqueButtons[text]) {
+                        return;
+                    }
+
+                    // Create a new button element with the same class
+                    const button = document.createElement('button');
+                    button.innerText = text;
+                    button.className = 'kerific-match';
+                    parent.uniqueButtons[text] = button;
+
+                    // Check if the next sibling is a 'kerific-match-buttons-container'
                     let container = parent.nextSibling instanceof HTMLElement && parent.nextSibling.classList.contains('kerific-match-buttons-container')
                         ? parent.nextSibling
                         : null;
@@ -268,13 +348,7 @@
                     if (!container) {
                         container = document.createElement('div');
                         container.className = 'kerific-match-buttons-container';
-
-                        // Insert the container after the block element
-                        if (parent.nextSibling) {
-                            parent.parentNode.insertBefore(container, parent.nextSibling);
-                        } else {
-                            parent.parentNode.appendChild(container);
-                        }
+                        parent.parentNode.insertBefore(container, parent.nextSibling);
                     }
 
                     // Append the button to the container
@@ -284,77 +358,10 @@
 
             createButtonsInContainers();
 
-
-
-
-
-            function setupCanvasAndDrawLines() {
-                var canvas = document.createElement('canvas');
-                canvas.id = 'dynamicLineCanvas';
-                canvas.width = window.innerWidth;
-                canvas.height = window.innerHeight;
-                canvas.style.position = 'fixed';
-                canvas.style.top = '0';
-                canvas.style.left = '0';
-                canvas.style.zIndex = '10000';
-                canvas.style.pointerEvents = 'none';
-                document.body.appendChild(canvas);
-
-                const ctx = canvas.getContext('2d');
-
-                function drawLineBetweenElements(button, span) {
-                    if (!button || !span) return;
-
-                    ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-                    const buttonRect = button.getBoundingClientRect();
-                    const spanRect = span.getBoundingClientRect();
-
-                    const buttonCenterX = buttonRect.left + buttonRect.width / 2;
-                    const buttonCenterY = buttonRect.top + buttonRect.height / 2;
-                    const spanCenterX = spanRect.left + spanRect.width / 2;
-                    const spanCenterY = spanRect.top + spanRect.height / 2;
-
-                    ctx.beginPath();
-                    ctx.moveTo(buttonCenterX, buttonCenterY);
-                    ctx.lineTo(spanCenterX, spanCenterY);
-                    ctx.strokeStyle = 'black';
-                    ctx.lineWidth = 2;
-                    ctx.stroke();
-                }
-
-                function findNearestSpan(button) {
-                    const container = button.closest('.kerific-match-buttons-container');
-                    let previousElement = container ? container.previousElementSibling : null;
-                    let nearestSpan = null;
-                    let nearestDistance = Infinity;
-
-                    while (previousElement) {
-                        if (previousElement.classList.contains('kerific-match')) {
-                            const distance = Math.abs(previousElement.getBoundingClientRect().top - button.getBoundingClientRect().top);
-                            if (distance < nearestDistance) {
-                                nearestSpan = previousElement;
-                                nearestDistance = distance;
-                            }
-                        }
-                        previousElement = previousElement.previousElementSibling;
-                    }
-                    return nearestSpan;
-                }
-
-                document.querySelectorAll('button.kerific-match, span.kerific-match').forEach(element => {
-                    element.addEventListener('mouseover', () => {
-                        const nearestSpan = findNearestSpan(element);
-                        drawLineBetweenElements(element, nearestSpan);
-                    });
-                    element.addEventListener('mouseout', () => ctx.clearRect(0, 0, canvas.width, canvas.height));
-                });
-            }
-
             return combinedGlossaries
         })
         .then((combinedGlossaries) => {
-            handleMatch(combinedGlossaries, glossaryPopups, extensionVersionNumber)
+            handleMatch(combinedGlossaries, extensionVersionNumber)
 
             // Add glossaryPopups to body
             glossaryPopups.forEach(glossaryPopup => {
@@ -391,15 +398,17 @@
             loadingIndicator.classList.add('displayNone');
         })
 
-    function handleMatch(combinedGlossaries, glossaryPopups, extensionVersionNumber) {
+    function handleMatch(combinedGlossaries, extensionVersionNumber) {
         const allHits = document.querySelectorAll('.kerific-match');
 
         allHits.forEach(hit => {
-            let glossaryPopupHeaderContent = `<h2 class='animate__animated'>“${hit.innerText}”</h2>`;
+            const hitText = hit.innerText;
+            const hitTextLowercase = hit.innerText.toLowerCase();
+            let glossaryPopupHeaderContent = `<h2 class='animate__animated'>“${hitText}”</h2>`;
             let glossaryPopupBodyContent = ``;
 
             combinedGlossaries.forEach(combinedGlossariesEntry => {
-                if (hit.innerText.toLowerCase() === combinedGlossariesEntry.term && !popUpLedger.includes(hit.innerText)) {
+                if (hitTextLowercase === combinedGlossariesEntry.term && !popUpLedger.includes(hitTextLowercase)) {
                     glossaryPopupHeaderContent += `<p>${combinedGlossariesEntry.definitions.length} definitions found.</p>`;
                     combinedGlossariesEntry.definitions.forEach((glossaryEntryDefinitionsEntry, index) => {
                         let counter = index + 1;
@@ -409,7 +418,7 @@
                             // Go through all terms in the glossary
                             combinedGlossaries.forEach(combinedGlossariesEntry2 => {
                                 // If the term in the glossary is the same as the term found after “See”
-                                if (combinedGlossariesEntry2.term === findLinkTextAfterSee(glossaryEntryDefinitionsEntry.definition)) {
+                                if (combinedGlossariesEntry2.term.toLowerCase() === findLinkTextAfterSee(glossaryEntryDefinitionsEntry.definition).toLowerCase()) {
                                     combinedGlossariesEntry2.definitions.forEach((eachDefinitions2, index2) => {
                                         glossaryPopupBodyContent += `
                                             <h3>${counter}: ${eachDefinitions2.organisation}</h3>
@@ -444,9 +453,9 @@
                 </div>
                 `;
 
-            let uniquId = hit.innerText;
+            let uniquId = hitTextLowercase;
             // replace spaces with dashes
-            uniquId = uniquId.replace(/\s+/g, '-').toLowerCase();
+            uniquId = uniquId.replace(/\s+/g, '-');
             uniqueClass = 'kerific-popup-' + uniquId;
 
             let glossaryPopup = document.createElement('div');
@@ -455,7 +464,7 @@
             glossaryPopup.style.display = 'none';
             document.body.appendChild(glossaryPopup);
 
-            popUpLedger.push(hit.innerText);
+            popUpLedger.push(hitTextLowercase);
 
         });
 
