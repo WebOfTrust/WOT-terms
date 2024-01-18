@@ -418,7 +418,7 @@
                             // Go through all terms in the glossary
                             combinedGlossaries.forEach(combinedGlossariesEntry2 => {
                                 // If the term in the glossary is the same as the term found after “See”
-                                if (combinedGlossariesEntry2.term === findLinkTextAfterSee(glossaryEntryDefinitionsEntry.definition)) {
+                                if (combinedGlossariesEntry2.term.toLowerCase() === findLinkTextAfterSee(glossaryEntryDefinitionsEntry.definition).toLowerCase()) {
                                     combinedGlossariesEntry2.definitions.forEach((eachDefinitions2, index2) => {
                                         glossaryPopupBodyContent += `
                                             <h3>${counter}: ${eachDefinitions2.organisation}</h3>
