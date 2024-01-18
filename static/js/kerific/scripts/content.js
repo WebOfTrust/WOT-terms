@@ -361,7 +361,7 @@
             return combinedGlossaries
         })
         .then((combinedGlossaries) => {
-            handleMatch(combinedGlossaries, glossaryPopups, extensionVersionNumber)
+            handleMatch(combinedGlossaries, extensionVersionNumber)
 
             // Add glossaryPopups to body
             glossaryPopups.forEach(glossaryPopup => {
@@ -398,15 +398,17 @@
             loadingIndicator.classList.add('displayNone');
         })
 
-    function handleMatch(combinedGlossaries, glossaryPopups, extensionVersionNumber) {
+    function handleMatch(combinedGlossaries, extensionVersionNumber) {
         const allHits = document.querySelectorAll('.kerific-match');
 
         allHits.forEach(hit => {
-            let glossaryPopupHeaderContent = `<h2 class='animate__animated'>“${hit.innerText}”</h2>`;
+            const hitText = hit.innerText;
+            const hitTextLowercase = hit.innerText.toLowerCase();
+            let glossaryPopupHeaderContent = `<h2 class='animate__animated'>“${hitText}”</h2>`;
             let glossaryPopupBodyContent = ``;
 
             combinedGlossaries.forEach(combinedGlossariesEntry => {
-                if (hit.innerText.toLowerCase() === combinedGlossariesEntry.term && !popUpLedger.includes(hit.innerText)) {
+                if (hitTextLowercase === combinedGlossariesEntry.term && !popUpLedger.includes(hitTextLowercase)) {
                     glossaryPopupHeaderContent += `<p>${combinedGlossariesEntry.definitions.length} definitions found.</p>`;
                     combinedGlossariesEntry.definitions.forEach((glossaryEntryDefinitionsEntry, index) => {
                         let counter = index + 1;
@@ -451,9 +453,9 @@
                 </div>
                 `;
 
-            let uniquId = hit.innerText;
+            let uniquId = hitTextLowercase;
             // replace spaces with dashes
-            uniquId = uniquId.replace(/\s+/g, '-').toLowerCase();
+            uniquId = uniquId.replace(/\s+/g, '-');
             uniqueClass = 'kerific-popup-' + uniquId;
 
             let glossaryPopup = document.createElement('div');
@@ -462,7 +464,7 @@
             glossaryPopup.style.display = 'none';
             document.body.appendChild(glossaryPopup);
 
-            popUpLedger.push(hit.innerText);
+            popUpLedger.push(hitTextLowercase);
 
         });
 
