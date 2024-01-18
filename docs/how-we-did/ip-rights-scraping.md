@@ -9,6 +9,13 @@ For who: anyone concerned about IP rights of third parties in relation to what w
 
 Result: peace of mind, hopefully
 
+## Where are the sources?
+
+It depends. 
+- On Github.io for Reading and Referencing
+- On Github.com for Creation, Update & Delete and Github (transformation) Actions
+- On any text-base webpage and Kerific tool installed: Adoption & Creation-reminder
+
 ## Permission
 
 We have personally asked permission to scrape:
