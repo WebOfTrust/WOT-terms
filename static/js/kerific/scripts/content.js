@@ -405,6 +405,7 @@
         // Find all buttons with the class 'kerific-match' (note that we only search buttons, and not spans with the same class)
         const allKerificButtons = document.querySelectorAll('button.kerific-match');
 
+        // Go through all buttons
         allKerificButtons.forEach(kerificButton => {
             const kerificButtonText = kerificButton.innerText;
             const kerificButtonTextLowercase = kerificButton.innerText.toLowerCase();
@@ -413,31 +414,35 @@
 
             // Go through all terms in the glossary
             combinedGlossaries.forEach(combinedGlossariesEntry => {
-                // If the term in the glossary is the same as the term found in the button
+                // If the term in the glossary (to lowercase) is the same as the term found in the button (to lowercase)…
                 if (kerificButtonTextLowercase === combinedGlossariesEntry.termToLowerCase && !popUpLedger.includes(kerificButtonTextLowercase)) {
                     let counter = 0;
-                    // glossaryPopupHeaderContent += `<p>${combinedGlossariesEntry.definitions.length} definitions found.</p>`;
-                    combinedGlossariesEntry.definitions.forEach((glossaryEntryDefinitionsEntry) => {
 
+                    combinedGlossariesEntry.definitions.forEach((glossaryEntryDefinitionsEntry) => {
                         // With redirect after SEE
                         // If the definition contains a link to another term, replace the link with the definition of the other term
                         if (findLinkTextAfterSee(glossaryEntryDefinitionsEntry.definition) !== null) {
+                            // Some form of "See" link is present
                             // Go through all terms in the glossary
                             combinedGlossaries.forEach(combinedGlossariesEntry2 => {
-                                // If the term in the glossary is the same as the term found after “See”
+                                // If the term in the glossary (to lowercase) is the same as the term found after “See” (to lowercase)…
                                 if (combinedGlossariesEntry2.termToLowerCase === findLinkTextAfterSee(glossaryEntryDefinitionsEntry.definition).toLowerCase()) {
+                                    // … we have to go through all definitions of that term and add them to the popup
                                     combinedGlossariesEntry2.definitions.forEach((eachDefinitions2) => {
-                                        counter++;
-                                        glossaryPopupBodyContent += `
-                                            <h3>${counter}: ${eachDefinitions2.organisation}</h3>
-                                            <div>[Redirected to this definition: “${combinedGlossariesEntry2.term}”] ${eachDefinitions2.definition}</div>
-                                            <hr>
-                                        `;
+                                        if (eachDefinitions2.organisation === glossaryEntryDefinitionsEntry.organisation) {
+                                            counter++;
+                                            glossaryPopupBodyContent += `
+                                                <h3>${counter}: ${eachDefinitions2.organisation}</h3>
+                                                <div>[Redirected to this definition: “${combinedGlossariesEntry2.term}”] ${eachDefinitions2.definition}</div>
+                                                <hr>
+                                            `;
+                                        }
                                     });
                                 }
                             });
                         } else {
                             counter++;
+
                             glossaryPopupBodyContent += `
                                 <h3>${counter}: ${glossaryEntryDefinitionsEntry.organisation}</h3>
                                 <div>${glossaryEntryDefinitionsEntry.definition}</div>
@@ -445,6 +450,8 @@
                             `;
                         }
                     });
+
+                    glossaryPopupHeaderContent += `<p>${combinedGlossariesEntry.definitions.length} definitions found.</p>`;
                 }
             });
 
