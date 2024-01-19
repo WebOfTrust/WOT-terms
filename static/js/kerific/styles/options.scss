@@ -113,16 +113,14 @@
                 opacity: 0.25;
             }
 
-            .card-header,
-            .card-body,
-            .card-footer {
-                padding: 20px;
+
+            .card-body {
+                padding: 10px;
             }
 
             .card-header {
                 position: sticky;
                 top: 0 !important;
-                background-color: #eee;
                 text-align: center;
                 padding: 0 0.5em;
             }
@@ -138,14 +136,21 @@
 
             .card-body h3 {
                 font-size: 25px;
-                margin: 0 0 1em 0;
+                margin: 0 0 0.5em 0;
                 text-align: center;
+            }
+
+            .definition-block {
+                background: #edf6fb;
+                margin: 0 0 1em 0;
+                padding: 5px;
             }
 
             .card-footer {
                 position: sticky;
                 bottom: 0;
-                background-color: #eee;
+                background: #eee url(../images/icon128-transparent-20percent.png) no-repeat center;
+                background-size: contain;
                 padding: 0 0.5em;
             }
 
