@@ -188,23 +188,24 @@
     loadingIndicator.textContent = 'Loading glossaries…';
     document.body.appendChild(loadingIndicator);
 
-    // Combine JSON objects with identical terms.
-    function combineJSONObjects(jsonArray, term) {
+    // Combine JSON objects with identical properties.
+    function combineJSONObjects(jsonArray, propertyToCombineBy) {
         const combined = {};
 
         jsonArray.forEach(item => {
-            // Check if the term already exists in the combined object
-            if (!combined[item[term]]) {
+            // Check if the property already exists in the combined object
+            if (!combined[item[propertyToCombineBy]]) {
                 // If not, initialize it
-                combined[item[term]] = {
-                    [term]: item[term],
+                combined[item[propertyToCombineBy]] = {
+                    [propertyToCombineBy]: item[propertyToCombineBy],
                     anchor: item.anchor,
+                    term: item.term,
                     definitions: [...item.definitions]
                 };
             } else {
                 // If exists, concatenate the anchor and merge the definitions
-                combined[item[term]].anchor += "-" + item.anchor;
-                combined[item[term]].definitions = combined[item[term]].definitions.concat(item.definitions);
+                combined[item[propertyToCombineBy]].anchor += "-" + item.anchor;
+                combined[item[propertyToCombineBy]].definitions = combined[item[propertyToCombineBy]].definitions.concat(item.definitions);
             }
         });
 
@@ -230,11 +231,13 @@
         .then(glossaries => {
             // Make all combinedGlossaries terms lowercase and join identical terms to one term
             glossaries.forEach(eachTerm => {
-                eachTerm.term = eachTerm.term.toLowerCase();
+                eachTerm.termToLowerCase = eachTerm.term.toLowerCase();
             });
+            // console.log('glossaries: ', glossaries);
 
             // Combine JSON objects with identical terms. Needed since terms are now all lowercase.
-            let combinedGlossaries = combineJSONObjects(glossaries);
+            let combinedGlossaries = combineJSONObjects(glossaries, "termToLowerCase");
+            console.log('combinedGlossaries: ', combinedGlossaries);
 
             // Loop through all terms in the glossary
             combinedGlossaries.forEach(combinedGlossariesEntry => {
@@ -307,7 +310,7 @@
                     });
                 }
 
-                wrapTextWithTreeWalker(document.querySelector('body'), combinedGlossariesEntry.term.toLowerCase(), "kerific-match");
+                wrapTextWithTreeWalker(document.querySelector('body'), combinedGlossariesEntry.termToLowerCase, "kerific-match");
             });
 
             function createButtonsInContainers() {
@@ -412,7 +415,7 @@
             // Go through all terms in the glossary
             combinedGlossaries.forEach(combinedGlossariesEntry => {
                 // If the term in the glossary is the same as the term found in the button
-                if (kerificButtonTextLowercase === combinedGlossariesEntry.term && !popUpLedger.includes(kerificButtonTextLowercase)) {
+                if (kerificButtonTextLowercase === combinedGlossariesEntry.termToLowerCase && !popUpLedger.includes(kerificButtonTextLowercase)) {
                     glossaryPopupHeaderContent += `<p>${combinedGlossariesEntry.definitions.length} definitions found.</p>`;
                     combinedGlossariesEntry.definitions.forEach((glossaryEntryDefinitionsEntry, index) => {
                         let counter = index + 1;
@@ -422,7 +425,7 @@
                             // Go through all terms in the glossary
                             combinedGlossaries.forEach(combinedGlossariesEntry2 => {
                                 // If the term in the glossary is the same as the term found after “See”
-                                if (combinedGlossariesEntry2.term.toLowerCase() === findLinkTextAfterSee(glossaryEntryDefinitionsEntry.definition).toLowerCase()) {
+                                if (combinedGlossariesEntry2.termToLowerCase === findLinkTextAfterSee(glossaryEntryDefinitionsEntry.definition).toLowerCase()) {
                                     combinedGlossariesEntry2.definitions.forEach((eachDefinitions2) => {
                                         glossaryPopupBodyContent += `
                                             <h3>${counter}: ${eachDefinitions2.organisation}</h3>
