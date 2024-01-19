@@ -417,7 +417,7 @@
                 if (kerificButtonTextLowercase === combinedGlossariesEntry.termToLowerCase && !popUpLedger.includes(kerificButtonTextLowercase)) {
                     let counter = 0;
                     // glossaryPopupHeaderContent += `<p>${combinedGlossariesEntry.definitions.length} definitions found.</p>`;
-                    combinedGlossariesEntry.definitions.forEach((glossaryEntryDefinitionsEntry, index) => {
+                    combinedGlossariesEntry.definitions.forEach((glossaryEntryDefinitionsEntry) => {
 
                         // With redirect after SEE
                         // If the definition contains a link to another term, replace the link with the definition of the other term
