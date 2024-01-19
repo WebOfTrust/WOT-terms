@@ -196,6 +196,27 @@
     loadingIndicator.textContent = 'Loading glossaries…';
     document.body.appendChild(loadingIndicator);
 
+    function removeLinks(htmlString) {
+        // Parse the string into a DOM structure
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(htmlString, 'text/html');
+
+        // Find all <a> elements and replace them with their text content
+        const links = doc.querySelectorAll('a');
+        links.forEach(link => {
+            link.replaceWith(link.textContent);
+        });
+
+        // Return the modified HTML as a string
+        return doc.body.innerHTML;
+    }
+
+    // // Example usage
+    // const stringWithLinks = '<p>This is a <a href="https://example.com">link</a> in a string.</p>';
+    // const stringWithoutLinks = removeLinks(stringWithLinks);
+    // console.log(stringWithoutLinks); // Output: <p>This is a link in a string.</p>
+
+
     // Combine JSON objects with identical properties.
     function combineJSONObjects(jsonArray, propertyToCombineBy) {
         const combined = {};
@@ -241,7 +262,6 @@
             glossaries.forEach(eachTerm => {
                 eachTerm.termToLowerCase = eachTerm.term.toLowerCase();
             });
-            // console.log('glossaries: ', glossaries);
 
             // Combine JSON objects with identical terms. Needed since terms are now all lowercase.
             let combinedGlossaries = combineJSONObjects(glossaries, "termToLowerCase");
@@ -441,7 +461,7 @@
                                             counter++;
                                             glossaryPopupBodyContent += `
                                                 <h3>${counter}: ${eachDefinitions2.organisation}</h3>
-                                                <div class="definition-block">[Redirected to this definition: “${combinedGlossariesEntry2.term}”] ${eachDefinitions2.definition}</div>
+                                                <div class="definition-block">[Redirected to this definition: “${combinedGlossariesEntry2.term}”] ${removeLinks(eachDefinitions2.definition)}</div>
                                                 <hr>
                                             `;
                                         }
@@ -453,7 +473,7 @@
 
                             glossaryPopupBodyContent += `
                                 <h3>${counter}: ${glossaryEntryDefinitionsEntry.organisation}</h3>
-                                <div class="definition-block">${glossaryEntryDefinitionsEntry.definition}</div>
+                                <div class="definition-block">${removeLinks(glossaryEntryDefinitionsEntry.definition)}</div>
                                 <hr>
                             `;
                         }
