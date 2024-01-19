@@ -399,7 +399,9 @@
         })
 
     function handleMatch(combinedGlossaries, extensionVersionNumber) {
-        const allHits = document.querySelectorAll('.kerific-match');
+
+        // Find all buttons with the class 'kerific-match' (note that we only search buttons, and not spans with the same class)
+        const allHits = document.querySelectorAll('button.kerific-match');
 
         allHits.forEach(hit => {
             const hitText = hit.innerText;
@@ -426,6 +428,7 @@
                                             <hr>
                                         `;
                                     });
+                                    counter++;
                                 }
                             });
                         } else {
@@ -434,6 +437,7 @@
                             <div>${glossaryEntryDefinitionsEntry.definition}</div>
                             <hr>
                         `;
+                            counter++;
                         }
                     });
                 }
