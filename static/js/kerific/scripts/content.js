@@ -433,7 +433,7 @@
                                             counter++;
                                             glossaryPopupBodyContent += `
                                                 <h3>${counter}: ${eachDefinitions2.organisation}</h3>
-                                                <div>[Redirected to this definition: “${combinedGlossariesEntry2.term}”] ${eachDefinitions2.definition}</div>
+                                                <div class="definition-block">[Redirected to this definition: “${combinedGlossariesEntry2.term}”] ${eachDefinitions2.definition}</div>
                                                 <hr>
                                             `;
                                         }
@@ -445,7 +445,7 @@
 
                             glossaryPopupBodyContent += `
                                 <h3>${counter}: ${glossaryEntryDefinitionsEntry.organisation}</h3>
-                                <div>${glossaryEntryDefinitionsEntry.definition}</div>
+                                <div class="definition-block">${glossaryEntryDefinitionsEntry.definition}</div>
                                 <hr>
                             `;
                         }
