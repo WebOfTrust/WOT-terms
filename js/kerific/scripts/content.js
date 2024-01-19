@@ -48,7 +48,7 @@
 
     const versionNumberUrl = "https://weboftrust.github.io/WOT-terms/js/kerific/manifest.json";
 
-    // const headerStyle is created from options.scss manually
+    // const headerStyle copied from options.min.css
     const headerStyle = `.close-cross{font-size:1.5em;display:block;top:.5em;right:1em;cursor:pointer;position:absolute;top:10px;right:10px;}.kerific-popup{all:initial;font:100% georgia,sans-serif;line-height:1.88889;color:#555753;margin:0;padding:0;box-sizing:border-box;background-color:#fff;display:none;position:fixed;top:10px;left:calc(100vw - 25% - 1em);width:25%;max-height:95%;overflow:scroll;overflow-wrap:break-word;-webkit-hyphens:auto;hyphens:auto;border:1px solid rgba(0,0,0,.125);border-radius:.25rem;box-shadow:0 0 10px rgba(0,0,0,.035),0 0 80px rgba(0,0,0,.07);z-index:1000;}.kerific-popup h2{font-family:"Franklin Gothic Medium","Arial Narrow",Arial,sans-serif!important;font-size:1.7em;letter-spacing:2px;margin-bottom:0;color:#f38787;}.kerific-popup h1,.kerific-popup h3,.kerific-popup h4,.kerific-popup h5,.kerific-popup h6{font:normal 1.4em georgia,sans-serif;color:#337dbe;}.kerific-popup h3{font-size:1.3em;letter-spacing:1px;margin-bottom:0;}.kerific-popup h4,.kerific-popup h5,.kerific-popup h6{font-size:1.1em;letter-spacing:1px;margin-bottom:0;}.kerific-popup p{margin-top:0;}.kerific-popup a:link{font-weight:bold;text-decoration:none;color:#B7A5DF;}.kerific-popup a:visited{font-weight:bold;text-decoration:none;color:#D4CDDC;}.kerific-popup a:hover,.kerific-popup a:focus,.kerific-popup a:active{text-decoration:underline;color:#9685BA;}.kerific-popup abbr{border-bottom:none;}.kerific-popup hr{margin:1rem 0;color:inherit;border:0;border-top:1px solid;opacity:.25;}.kerific-popup .card-body{padding:10px;}.kerific-popup .card-header{position:sticky;top:0!important;text-align:center;padding:0 .5em;}.kerific-popup .card-header h2{font-size:25px;margin:0;}.kerific-popup .card-body h3{font-size:25px;margin:0 0 .5em 0;text-align:center;}.kerific-popup .definition-block{background:#edf6fb;margin:0 0 1em 0;padding:5px;}.kerific-popup .card-footer{position:sticky;bottom:0;background:#eee url(../images/icon128-transparent-20percent.png) no-repeat center;background-size:contain;padding:0 .5em;}span.kerific-match{position:relative;background:rgba(241,209,255,.1764705882);padding:0 .5em;}button.kerific-match{display:inline-block;font-size:.8em;border:1px solid #ffa0d6;border-radius:5px;padding:.1em .6em;margin:.5em .5em 1.5em 0;cursor:pointer;background:#f1d1ff;box-shadow:0 0 .3px rgba(0,0,0,.02),0 0 .8px rgba(0,0,0,.028),0 0 1.5px rgba(0,0,0,.035),0 0 2.7px rgba(0,0,0,.042),0 0 5px rgba(0,0,0,.05),0 0 12px rgba(0,0,0,.07);}#loading-indicator{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;border:1px solid #333;border-radius:20px;background:#e5ecff;padding:3em;z-index:10000000000000000;}.displayBlock{display:block!important;}.displayNone{display:none!important;}`;
 
     /*
@@ -196,6 +196,27 @@
     loadingIndicator.textContent = 'Loading glossaries…';
     document.body.appendChild(loadingIndicator);
 
+    function removeLinks(htmlString) {
+        // Parse the string into a DOM structure
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(htmlString, 'text/html');
+
+        // Find all <a> elements and replace them with their text content
+        const links = doc.querySelectorAll('a');
+        links.forEach(link => {
+            link.replaceWith(link.textContent);
+        });
+
+        // Return the modified HTML as a string
+        return doc.body.innerHTML;
+    }
+
+    // // Example usage
+    // const stringWithLinks = '<p>This is a <a href="https://example.com">link</a> in a string.</p>';
+    // const stringWithoutLinks = removeLinks(stringWithLinks);
+    // console.log(stringWithoutLinks); // Output: <p>This is a link in a string.</p>
+
+
     // Combine JSON objects with identical properties.
     function combineJSONObjects(jsonArray, propertyToCombineBy) {
         const combined = {};
@@ -241,7 +262,6 @@
             glossaries.forEach(eachTerm => {
                 eachTerm.termToLowerCase = eachTerm.term.toLowerCase();
             });
-            // console.log('glossaries: ', glossaries);
 
             // Combine JSON objects with identical terms. Needed since terms are now all lowercase.
             let combinedGlossaries = combineJSONObjects(glossaries, "termToLowerCase");
@@ -441,7 +461,7 @@
                                             counter++;
                                             glossaryPopupBodyContent += `
                                                 <h3>${counter}: ${eachDefinitions2.organisation}</h3>
-                                                <div class="definition-block">[Redirected to this definition: “${combinedGlossariesEntry2.term}”] ${eachDefinitions2.definition}</div>
+                                                <div class="definition-block">[Redirected to this definition: “${combinedGlossariesEntry2.term}”] ${removeLinks(eachDefinitions2.definition)}</div>
                                                 <hr>
                                             `;
                                         }
@@ -453,7 +473,7 @@
 
                             glossaryPopupBodyContent += `
                                 <h3>${counter}: ${glossaryEntryDefinitionsEntry.organisation}</h3>
-                                <div class="definition-block">${glossaryEntryDefinitionsEntry.definition}</div>
+                                <div class="definition-block">${removeLinks(glossaryEntryDefinitionsEntry.definition)}</div>
                                 <hr>
                             `;
                         }
