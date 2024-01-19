@@ -237,7 +237,6 @@
 
             // Combine JSON objects with identical terms. Needed since terms are now all lowercase.
             let combinedGlossaries = combineJSONObjects(glossaries, "termToLowerCase");
-            console.log('combinedGlossaries: ', combinedGlossaries);
 
             // Loop through all terms in the glossary
             combinedGlossaries.forEach(combinedGlossariesEntry => {
@@ -416,9 +415,10 @@
             combinedGlossaries.forEach(combinedGlossariesEntry => {
                 // If the term in the glossary is the same as the term found in the button
                 if (kerificButtonTextLowercase === combinedGlossariesEntry.termToLowerCase && !popUpLedger.includes(kerificButtonTextLowercase)) {
-                    glossaryPopupHeaderContent += `<p>${combinedGlossariesEntry.definitions.length} definitions found.</p>`;
+                    let counter = 0;
+                    // glossaryPopupHeaderContent += `<p>${combinedGlossariesEntry.definitions.length} definitions found.</p>`;
                     combinedGlossariesEntry.definitions.forEach((glossaryEntryDefinitionsEntry, index) => {
-                        let counter = index + 1;
+
                         // With redirect after SEE
                         // If the definition contains a link to another term, replace the link with the definition of the other term
                         if (findLinkTextAfterSee(glossaryEntryDefinitionsEntry.definition) !== null) {
@@ -427,22 +427,22 @@
                                 // If the term in the glossary is the same as the term found after “See”
                                 if (combinedGlossariesEntry2.termToLowerCase === findLinkTextAfterSee(glossaryEntryDefinitionsEntry.definition).toLowerCase()) {
                                     combinedGlossariesEntry2.definitions.forEach((eachDefinitions2) => {
+                                        counter++;
                                         glossaryPopupBodyContent += `
                                             <h3>${counter}: ${eachDefinitions2.organisation}</h3>
                                             <div>[Redirected to this definition: “${combinedGlossariesEntry2.term}”] ${eachDefinitions2.definition}</div>
                                             <hr>
                                         `;
                                     });
-                                    counter++;
                                 }
                             });
                         } else {
+                            counter++;
                             glossaryPopupBodyContent += `
                             <h3>${counter}: ${glossaryEntryDefinitionsEntry.organisation}</h3>
                             <div>${glossaryEntryDefinitionsEntry.definition}</div>
                             <hr>
                         `;
-                            counter++;
                         }
                     });
                 }
