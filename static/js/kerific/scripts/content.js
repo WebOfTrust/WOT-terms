@@ -401,16 +401,18 @@
     function handleMatch(combinedGlossaries, extensionVersionNumber) {
 
         // Find all buttons with the class 'kerific-match' (note that we only search buttons, and not spans with the same class)
-        const allHits = document.querySelectorAll('button.kerific-match');
+        const allKerificButtons = document.querySelectorAll('button.kerific-match');
 
-        allHits.forEach(hit => {
-            const hitText = hit.innerText;
-            const hitTextLowercase = hit.innerText.toLowerCase();
-            let glossaryPopupHeaderContent = `<h2 class='animate__animated'>“${hitText}”</h2>`;
+        allKerificButtons.forEach(kerificButton => {
+            const kerificButtonText = kerificButton.innerText;
+            const kerificButtonTextLowercase = kerificButton.innerText.toLowerCase();
+            let glossaryPopupHeaderContent = `<h2 class='animate__animated'>“${kerificButtonText}”</h2>`;
             let glossaryPopupBodyContent = ``;
 
+            // Go through all terms in the glossary
             combinedGlossaries.forEach(combinedGlossariesEntry => {
-                if (hitTextLowercase === combinedGlossariesEntry.term && !popUpLedger.includes(hitTextLowercase)) {
+                // If the term in the glossary is the same as the term found in the button
+                if (kerificButtonTextLowercase === combinedGlossariesEntry.term && !popUpLedger.includes(kerificButtonTextLowercase)) {
                     glossaryPopupHeaderContent += `<p>${combinedGlossariesEntry.definitions.length} definitions found.</p>`;
                     combinedGlossariesEntry.definitions.forEach((glossaryEntryDefinitionsEntry, index) => {
                         let counter = index + 1;
@@ -457,7 +459,7 @@
                 </div>
                 `;
 
-            let uniquId = hitTextLowercase;
+            let uniquId = kerificButtonTextLowercase;
             // replace spaces with dashes
             uniquId = uniquId.replace(/\s+/g, '-');
             uniqueClass = 'kerific-popup-' + uniquId;
@@ -468,7 +470,7 @@
             glossaryPopup.style.display = 'none';
             document.body.appendChild(glossaryPopup);
 
-            popUpLedger.push(hitTextLowercase);
+            popUpLedger.push(kerificButtonTextLowercase);
 
         });
 
