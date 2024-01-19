@@ -189,22 +189,22 @@
     document.body.appendChild(loadingIndicator);
 
     // Combine JSON objects with identical terms.
-    function combineJSONObjects(jsonArray) {
+    function combineJSONObjects(jsonArray, term) {
         const combined = {};
 
         jsonArray.forEach(item => {
             // Check if the term already exists in the combined object
-            if (!combined[item.term]) {
+            if (!combined[item[term]]) {
                 // If not, initialize it
-                combined[item.term] = {
-                    term: item.term,
+                combined[item[term]] = {
+                    [term]: item[term],
                     anchor: item.anchor,
                     definitions: [...item.definitions]
                 };
             } else {
                 // If exists, concatenate the anchor and merge the definitions
-                combined[item.term].anchor += "-" + item.anchor;
-                combined[item.term].definitions = combined[item.term].definitions.concat(item.definitions);
+                combined[item[term]].anchor += "-" + item.anchor;
+                combined[item[term]].definitions = combined[item[term]].definitions.concat(item.definitions);
             }
         });
 
