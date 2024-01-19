@@ -439,10 +439,10 @@
                         } else {
                             counter++;
                             glossaryPopupBodyContent += `
-                            <h3>${counter}: ${glossaryEntryDefinitionsEntry.organisation}</h3>
-                            <div>${glossaryEntryDefinitionsEntry.definition}</div>
-                            <hr>
-                        `;
+                                <h3>${counter}: ${glossaryEntryDefinitionsEntry.organisation}</h3>
+                                <div>${glossaryEntryDefinitionsEntry.definition}</div>
+                                <hr>
+                            `;
                         }
                     });
                 }
