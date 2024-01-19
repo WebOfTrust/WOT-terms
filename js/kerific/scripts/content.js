@@ -188,23 +188,24 @@
     loadingIndicator.textContent = 'Loading glossaries…';
     document.body.appendChild(loadingIndicator);
 
-    // Combine JSON objects with identical terms.
-    function combineJSONObjects(jsonArray) {
+    // Combine JSON objects with identical properties.
+    function combineJSONObjects(jsonArray, propertyToCombineBy) {
         const combined = {};
 
         jsonArray.forEach(item => {
-            // Check if the term already exists in the combined object
-            if (!combined[item.term]) {
+            // Check if the property already exists in the combined object
+            if (!combined[item[propertyToCombineBy]]) {
                 // If not, initialize it
-                combined[item.term] = {
-                    term: item.term,
+                combined[item[propertyToCombineBy]] = {
+                    [propertyToCombineBy]: item[propertyToCombineBy],
                     anchor: item.anchor,
+                    term: item.term,
                     definitions: [...item.definitions]
                 };
             } else {
                 // If exists, concatenate the anchor and merge the definitions
-                combined[item.term].anchor += "-" + item.anchor;
-                combined[item.term].definitions = combined[item.term].definitions.concat(item.definitions);
+                combined[item[propertyToCombineBy]].anchor += "-" + item.anchor;
+                combined[item[propertyToCombineBy]].definitions = combined[item[propertyToCombineBy]].definitions.concat(item.definitions);
             }
         });
 
@@ -230,11 +231,12 @@
         .then(glossaries => {
             // Make all combinedGlossaries terms lowercase and join identical terms to one term
             glossaries.forEach(eachTerm => {
-                eachTerm.term = eachTerm.term.toLowerCase();
+                eachTerm.termToLowerCase = eachTerm.term.toLowerCase();
             });
+            // console.log('glossaries: ', glossaries);
 
             // Combine JSON objects with identical terms. Needed since terms are now all lowercase.
-            let combinedGlossaries = combineJSONObjects(glossaries);
+            let combinedGlossaries = combineJSONObjects(glossaries, "termToLowerCase");
 
             // Loop through all terms in the glossary
             combinedGlossaries.forEach(combinedGlossariesEntry => {
@@ -307,7 +309,7 @@
                     });
                 }
 
-                wrapTextWithTreeWalker(document.querySelector('body'), combinedGlossariesEntry.term.toLowerCase(), "kerific-match");
+                wrapTextWithTreeWalker(document.querySelector('body'), combinedGlossariesEntry.termToLowerCase, "kerific-match");
             });
 
             function createButtonsInContainers() {
@@ -399,43 +401,57 @@
         })
 
     function handleMatch(combinedGlossaries, extensionVersionNumber) {
-        const allHits = document.querySelectorAll('.kerific-match');
 
-        allHits.forEach(hit => {
-            const hitText = hit.innerText;
-            const hitTextLowercase = hit.innerText.toLowerCase();
-            let glossaryPopupHeaderContent = `<h2 class='animate__animated'>“${hitText}”</h2>`;
+        // Find all buttons with the class 'kerific-match' (note that we only search buttons, and not spans with the same class)
+        const allKerificButtons = document.querySelectorAll('button.kerific-match');
+
+        // Go through all buttons
+        allKerificButtons.forEach(kerificButton => {
+            const kerificButtonText = kerificButton.innerText;
+            const kerificButtonTextLowercase = kerificButton.innerText.toLowerCase();
+            let glossaryPopupHeaderContent = `<h2 class='animate__animated'>“${kerificButtonText}”</h2>`;
             let glossaryPopupBodyContent = ``;
 
+            // Go through all terms in the glossary
             combinedGlossaries.forEach(combinedGlossariesEntry => {
-                if (hitTextLowercase === combinedGlossariesEntry.term && !popUpLedger.includes(hitTextLowercase)) {
-                    glossaryPopupHeaderContent += `<p>${combinedGlossariesEntry.definitions.length} definitions found.</p>`;
-                    combinedGlossariesEntry.definitions.forEach((glossaryEntryDefinitionsEntry, index) => {
-                        let counter = index + 1;
+                // If the term in the glossary (to lowercase) is the same as the term found in the button (to lowercase)…
+                if (kerificButtonTextLowercase === combinedGlossariesEntry.termToLowerCase && !popUpLedger.includes(kerificButtonTextLowercase)) {
+                    let counter = 0;
+
+                    combinedGlossariesEntry.definitions.forEach((glossaryEntryDefinitionsEntry) => {
                         // With redirect after SEE
                         // If the definition contains a link to another term, replace the link with the definition of the other term
                         if (findLinkTextAfterSee(glossaryEntryDefinitionsEntry.definition) !== null) {
+                            // Some form of "See" link is present
                             // Go through all terms in the glossary
                             combinedGlossaries.forEach(combinedGlossariesEntry2 => {
-                                // If the term in the glossary is the same as the term found after “See”
-                                if (combinedGlossariesEntry2.term.toLowerCase() === findLinkTextAfterSee(glossaryEntryDefinitionsEntry.definition).toLowerCase()) {
-                                    combinedGlossariesEntry2.definitions.forEach((eachDefinitions2, index2) => {
-                                        glossaryPopupBodyContent += `
-                                            <h3>${counter}: ${eachDefinitions2.organisation}</h3>
-                                            <div>[Redirected to this definition: “${combinedGlossariesEntry2.term}”] ${eachDefinitions2.definition}</div>
-                                            <hr>
-                                        `;
+                                // If the term in the glossary (to lowercase) is the same as the term found after “See” (to lowercase)…
+                                if (combinedGlossariesEntry2.termToLowerCase === findLinkTextAfterSee(glossaryEntryDefinitionsEntry.definition).toLowerCase()) {
+                                    // … we have to go through all definitions of that term and add them to the popup
+                                    combinedGlossariesEntry2.definitions.forEach((eachDefinitions2) => {
+                                        if (eachDefinitions2.organisation === glossaryEntryDefinitionsEntry.organisation) {
+                                            counter++;
+                                            glossaryPopupBodyContent += `
+                                                <h3>${counter}: ${eachDefinitions2.organisation}</h3>
+                                                <div class="definition-block">[Redirected to this definition: “${combinedGlossariesEntry2.term}”] ${eachDefinitions2.definition}</div>
+                                                <hr>
+                                            `;
+                                        }
                                     });
                                 }
                             });
                         } else {
+                            counter++;
+
                             glossaryPopupBodyContent += `
-                            <h3>${counter}: ${glossaryEntryDefinitionsEntry.organisation}</h3>
-                            <div>${glossaryEntryDefinitionsEntry.definition}</div>
-                            <hr>
-                        `;
+                                <h3>${counter}: ${glossaryEntryDefinitionsEntry.organisation}</h3>
+                                <div class="definition-block">${glossaryEntryDefinitionsEntry.definition}</div>
+                                <hr>
+                            `;
                         }
                     });
+
+                    glossaryPopupHeaderContent += `<p>${combinedGlossariesEntry.definitions.length} definitions found.</p>`;
                 }
             });
 
@@ -453,7 +469,7 @@
                 </div>
                 `;
 
-            let uniquId = hitTextLowercase;
+            let uniquId = kerificButtonTextLowercase;
             // replace spaces with dashes
             uniquId = uniquId.replace(/\s+/g, '-');
             uniqueClass = 'kerific-popup-' + uniquId;
@@ -464,7 +480,7 @@
             glossaryPopup.style.display = 'none';
             document.body.appendChild(glossaryPopup);
 
-            popUpLedger.push(hitTextLowercase);
+            popUpLedger.push(kerificButtonTextLowercase);
 
         });
 
