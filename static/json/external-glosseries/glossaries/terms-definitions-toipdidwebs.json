@@ -2,6 +2,13 @@
   {
     "organisation": "ToIP (DID:Webs)",
     "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+    "term": "AID controlled identifiers",
+    "definition": "Any identifier, including did:webs DIDs, that have the same AID are by definition referencing the same identity. As defined by KERI TODO: Add link to KERI documentation here.",
+    "anchor": "AIDcontrolledidentifiers"
+  },
+  {
+    "organisation": "ToIP (DID:Webs)",
+    "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
     "term": "authentic chained data container (ACDC)",
     "definition": "a variant of the Verifiable Credential (VC) specification that inherits the security model derived from KERI, as defined by the draft ACDC specification. See WebOfTrust glossary for more detail.",
     "anchor": "authenticchaineddatacontainer(ACDC)"
@@ -33,6 +40,13 @@
     "term": "decentralized identifier (DID)",
     "definition": "A globally unique persistent identifier, as defined by DID Core.",
     "anchor": "decentralizedidentifier(DID)"
+  },
+  {
+    "organisation": "ToIP (DID:Webs)",
+    "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+    "term": "designated aliases",
+    "definition": "An array of AID controlled identifiers that have been designated by the AID controller to be used as aliases for equivalentId and alsoKnownAs DID document metadata and to foster verification of redirection to different did:webs identifiers. See WebOfTrust glossary for more detail.",
+    "anchor": "designatedaliases"
   },
   {
     "organisation": "ToIP (DID:Webs)",
