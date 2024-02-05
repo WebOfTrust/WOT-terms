@@ -1,6 +1,6 @@
 # Broken Links Report
 
-Created: 2024-01-29T03:11:52.109Z
+Created: 2024-02-05T03:13:42.198Z
 
 ## Total Broken Links Found: 12
 
@@ -11,8 +11,8 @@ Created: 2024-01-29T03:11:52.109Z
 - Broken Link: [https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID](https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/glossary-unified](https://weboftrust.github.io/WOT-terms/docs/glossary-unified), [https://weboftrust.github.io/WOT-terms/docs/glossary-unified?level=2](https://weboftrust.github.io/WOT-terms/docs/glossary-unified?level=2)
 - Broken Link: [https://weboftrust.github.io/WOT-terms/docs/glossary/#Finger-pointing](https://weboftrust.github.io/WOT-terms/docs/glossary/#Finger-pointing), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/glossary-unified](https://weboftrust.github.io/WOT-terms/docs/glossary-unified), [https://weboftrust.github.io/WOT-terms/docs/glossary-unified?level=2](https://weboftrust.github.io/WOT-terms/docs/glossary-unified?level=2)
 - Broken Link: [https://weboftrust.github.io/WOT-terms/docs/glossary/#Sources-Definition-ChatGPT](https://weboftrust.github.io/WOT-terms/docs/glossary/#Sources-Definition-ChatGPT), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/glossary-unified](https://weboftrust.github.io/WOT-terms/docs/glossary-unified), [https://weboftrust.github.io/WOT-terms/docs/glossary-unified?level=2](https://weboftrust.github.io/WOT-terms/docs/glossary-unified?level=2)
+- Broken Link: [https://weboftrust.github.io/WOT-terms/docs/glossary/AN](https://weboftrust.github.io/WOT-terms/docs/glossary/AN), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE](https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE)
 - Broken Link: [https://weboftrust.github.io/WOT-terms/docs/test/glossary-unified](https://weboftrust.github.io/WOT-terms/docs/test/glossary-unified), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE](https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE)
 - Broken Link: [https://weboftrust.github.io/WOT-terms/docs/glossary/easyCLA_trick](https://weboftrust.github.io/WOT-terms/docs/glossary/easyCLA_trick), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE](https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE)
-- Broken Link: [https://weboftrust.github.io/WOT-terms/docs/glossary/AN](https://weboftrust.github.io/WOT-terms/docs/glossary/AN), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE](https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE)
 - Broken Link: [https://weboftrust.github.io/WOT-terms/docs/glossary](https://weboftrust.github.io/WOT-terms/docs/glossary), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE](https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE)
 - Broken Link: [https://weboftrust.github.io/WOT-terms/docs/concepts/how-to](https://weboftrust.github.io/WOT-terms/docs/concepts/how-to), Found on Pages: [https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE](https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE)
