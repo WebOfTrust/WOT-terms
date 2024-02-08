@@ -1,27 +1,19 @@
 <div className="accordion accordion-flush" id="annotated-copies">
-                    
 
 <div className="accordion-item" data-level="1">
-                        
 
 <h2 className="accordion-header" id="header9518564969689">
-                        
 
 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-9518564969689" aria-expanded="false" aria-controls="accordeon-9518564969689">
                             9518564969689, level 1
-                        
 
 </button>
-                        
 
 </h2>
-                        
 
 <div id="accordeon-9518564969689" className="accordion-collapse collapse">
-                        
 
 <div className="accordion-body">
-                            
 
 title: "Issuance and Presentation Exchange Protocol"
 abbrev: "IPEX"
@@ -35,26 +27,26 @@ keyword: Internet-Draft
 venue:
   group: WG
   type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
+  mail: <WG@example.com>
+  arch: <https://example.com/WG>
   github: USER/REPO
-  latest: https://example.com/LATEST
+  latest: <https://example.com/LATEST>
 
-author:
+author
  -
+
     fullname: Samuel M. Smith
     organization: ProSapien LLC
     email: "sam@prosapien.com"
  -
     name: Phil Feairheller
     organization: GLEIF
-    email: Philip.Feairheller@gleif.org
-
+    email: <Philip.Feairheller@gleif.org>
 
 normative:
 
   IPEX-ID:
-    target: https://github.com/WebOfTrust/ietf-oobi
+    target: <https://github.com/WebOfTrust/ietf-oobi>
     title: IETF IPEX (Issuance and Presentation EXchange) Prototocol Internet Draft
     author:
       -
@@ -64,11 +56,11 @@ normative:
       -
         name: Phil Feairheller
         organization: GLEIF
-        email: Philip.Feairheller@gleif.org
+        email: <Philip.Feairheller@gleif.org>
     date: 2022
 
   ACDC-ID:
-    target: https://github.com/trustoverip/tswg-acdc-specification
+    target: <https://github.com/trustoverip/tswg-acdc-specification>
     title: IETF ACDC (Authentic Chained Data Containers) Internet Draft
     author:
       ins: S. Smith
@@ -77,7 +69,7 @@ normative:
     date: 2022
 
   OOBI-ID:
-    target: https://github.com/WebOfTrust/ietf-oobi
+    target: <https://github.com/WebOfTrust/ietf-oobi>
     title: IETF OOBI (Out-Of-Band-Introduction) Internet Draft
     author:
       ins: S. Smith
@@ -86,7 +78,7 @@ normative:
     date: 2022
 
   KERI-ID:
-    target: https://github.com/WebOfTrust/ietf-keri
+    target: <https://github.com/WebOfTrust/ietf-keri>
     title: IETF KERI (Key Event Receipt Infrastructure) Internet Draft
     author:
       ins: S. Smith
@@ -95,7 +87,7 @@ normative:
     date: 2022
 
   SAID-ID:
-    target: https://github.com/WebOfTrust/ietf-said
+    target: <https://github.com/WebOfTrust/ietf-said>
     title: IETF SAID (Self-Addressing IDentifier) Internet Draft
     author:
       ins: S. Smith
@@ -104,7 +96,7 @@ normative:
     date: 2022
 
   CESR-ID:
-    target: https://github.com/WebOfTrust/ietf-cesr
+    target: <https://github.com/WebOfTrust/ietf-cesr>
     title: IETF CESR (Composable Event Streaming Representation) Internet Draft
     author:
       ins: S. Smith
@@ -113,7 +105,7 @@ normative:
     date: 2022
 
   PTEL-ID:
-    target: https://github.com/WebOfTrust/ietf-ptel
+    target: <https://github.com/WebOfTrust/ietf-ptel>
     title: IETF PTEL (Public Transaction Event Log) Internet Draft
     author:
       ins: P. Feairheller
@@ -122,7 +114,7 @@ normative:
     date: 2022
 
   Proof-ID:
-    target: https://github.com/WebOfTrust/ietf-cesr-proof
+    target: <https://github.com/WebOfTrust/ietf-cesr-proof>
     title: IETF CESR-Proof Internet Draft
     author:
       ins: P. Feairheller
@@ -131,7 +123,7 @@ normative:
     date: 2022
 
   DIDK-ID:
-    target: https://github.com/WebOfTrust/ietf-did-keri
+    target: <https://github.com/WebOfTrust/ietf-did-keri>
     title: IETF DID-KERI Internet Draft
     author:
       ins: P. Feairheller
@@ -140,23 +132,23 @@ normative:
     date: 2022
 
   JSON:
-    target: https://www.json.org/json-en.html
+    target: <https://www.json.org/json-en.html>
     title: JavaScript Object Notation Delimeters
 
   RFC8259:
-    target: https://datatracker.ietf.org/doc/html/rfc8259
+    target: <https://datatracker.ietf.org/doc/html/rfc8259>
     title: JSON (JavaScript Object Notation)
 
   RFC4627:
-    target: https://datatracker.ietf.org/doc/rfc4627/
+    target: <https://datatracker.ietf.org/doc/rfc4627/>
     title: The application/json Media Type for JavaScript Object Notation (JSON)
 
   CBOR:
-    target: https://en.wikipedia.org/wiki/CBOR
+    target: <https://en.wikipedia.org/wiki/CBOR>
     title: CBOR Mapping Object Codes
 
   RFC8949:
-    target: https://datatracker.ietf.org/doc/rfc8949/
+    target: <https://datatracker.ietf.org/doc/rfc8949/>
     title: Concise Binary Object Representation (CBOR)
     author:
       -
@@ -168,22 +160,21 @@ normative:
     date: 2020-12-04
 
   MGPK:
-    target: https://github.com/msgpack/msgpack/blob/master/spec.md
+    target: <https://github.com/msgpack/msgpack/blob/master/spec.md>
     title: Msgpack Mapping Object Codes
 
   JSch:
-    target: https://json-schema.org
+    target: <https://json-schema.org>
     title: JSON Schema
 
   JSch_202012:
-    target: https://json-schema.org/draft/2020-12/release-notes.html
+    target: <https://json-schema.org/draft/2020-12/release-notes.html>
     title: "JSON Schema 2020-12"
-
 
 informative:
 
   KERI:
-    target: https://arxiv.org/abs/1907.02143
+    target: <https://arxiv.org/abs/1907.02143>
     title: Key Event Receipt Infrastructure (KERI)
     author:
       ins: S. Smith
@@ -192,17 +183,16 @@ informative:
     date: 2021
 
   IDSys:
-    target: https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/Identity-System-Essentials.pdf
+    target: <https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/Identity-System-Essentials.pdf>
     title: Identity System Essentials
 
   RC:
-    target: https://en.wikipedia.org/wiki/Ricardian_contract
+    target: <https://en.wikipedia.org/wiki/Ricardian_contract>
     title: Ricardian Contract
 
   CLC:
-    target: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2045818
+    target: <https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2045818>
     title: "Chain-Link Confidentiality"
-
 
 --- abstract
 
@@ -223,84 +213,53 @@ support, update, understand, and adopt. The tooling is more consistent.
 
 This IPEX {{IPEX-ID}} protocol leverages important features of ACDCs and ancillary protocols such as CESR {{CESR-ID}}, SAIDs {{SAID-ID}}, and CESR-Proofs {{Proof-ID}} as well as Ricardian contracts {{RC}} and graduated disclosure (partial, selective, full) to enable contractually protected disclosure. Contractually protected disclosure includes both chain-link confidential {{CLC}} and contingent disclosure {{ACDC-ID}}.
 
-
-
-
 --- middle
 
-                        
+</div>
 
 </div>
-                        
 
 </div>
-                    
-
-</div>
-                
-
-                    
 
 <div className="accordion-item" data-level="2">
-                        
 
 <h2 className="accordion-header" id="headerintroduction">
-                        
 
 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-introduction" aria-expanded="false" aria-controls="accordeon-introduction">
                             introduction, level 2
-                        
 
 </button>
-                        
 
 </h2>
-                        
 
 <div id="accordeon-introduction" className="accordion-collapse collapse">
-                        
 
 <div className="accordion-body">
-                            
 
 ## Introduction
 
 TODO Introduction
 
-                        
+</div>
 
 </div>
-                        
 
 </div>
-                    
-
-</div>
-                
-
-                    
 
 <div className="accordion-item" data-level="1">
-                        
 
 <h2 className="accordion-header" id="headerterminology">
-                        
 
 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-terminology" aria-expanded="false" aria-controls="accordeon-terminology">
                             terminology, level 1
-                        
 
 </button>
-                        
 
 </h2>
-                        
 
 <div id="accordeon-terminology" className="accordion-collapse collapse">
-                        
 
 <div className="accordion-body">
-                            
 
 ## Terminology
 
@@ -337,82 +296,51 @@ Issuance Exchange
 
 In an *issuance exchange*, when the *origin* ACDC has an *Issuee*, the *Disclosee* MAY also be the *origin* ACDC's *Issuee*.
 
-
-                        
+</div>
 
 </div>
-                        
 
 </div>
-                    
-
-</div>
-                
-
-                    
 
 <div className="accordion-item" data-level="1">
-                        
 
 <h2 className="accordion-header" id="headerchain-link-confidentiality">
-                        
 
 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-chain-link-confidentiality" aria-expanded="false" aria-controls="accordeon-chain-link-confidentiality">
                             chain-link-confidentiality, level 1
-                        
 
 </button>
-                        
 
 </h2>
-                        
 
 <div id="accordeon-chain-link-confidentiality" className="accordion-collapse collapse">
-                        
 
 <div className="accordion-body">
-                            
 
 ## Chain-Link Confidentiality
 
 Disclosures via Presentations Exchanges may be contractually protected by Chain-Link Confidentiality (i.e a Chain-Link Confidential disclosure). The chaining in this case is different from the chaining described above between Issuances in a DAG of chained Issuances. Chain-link confidentiality, in contrast, chains together a sequence of Disclosees. Each Disclosee in the sequence in turn is the Discloser to the next Disclosee. The terms-of-use of the original disclosure as applied to the original Disclosee MUST be applied by each subsequent Discloser to each subsequent Disclosee via each of the subsequent disclosures (presentation exchanges). These terms-of-use typically constrain disclosure to only approved parties, i.e. imbue the chain of disclosures with some degree of confidentiality. These terms-of-use are meant to contractually protect the data rights of the original Issuer or Issuee of the data being disclosed.
 
-
-
-                        
+</div>
 
 </div>
-                        
 
 </div>
-                    
-
-</div>
-                
-
-                    
 
 <div className="accordion-item" data-level="1">
-                        
 
 <h2 className="accordion-header" id="headerexchange-protocol">
-                        
 
 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-exchange-protocol" aria-expanded="false" aria-controls="accordeon-exchange-protocol">
                             exchange-protocol, level 1
-                        
 
 </button>
-                        
 
 </h2>
-                        
 
 <div id="accordeon-exchange-protocol" className="accordion-collapse collapse">
-                        
 
 <div className="accordion-body">
-                            
 
 ## Exchange Protocol
 
@@ -427,42 +355,26 @@ Disclosures via Presentations Exchanges may be contractually protected by Chain-
 |`grant`|  | Y | full or selective disclosure ACDC, signature on `grant` or its SAID  | includes attribute values, CESR-Proof signature |
 || `admit` | N | signature on `grant` or its SAID  | CESR-Proof signature |
 
-
-
-                        
+</div>
 
 </div>
-                        
 
 </div>
-                    
-
-</div>
-                
-
-                    
 
 <div className="accordion-item" data-level="1">
-                        
 
 <h2 className="accordion-header" id="headerdiscussion">
-                        
 
 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-discussion" aria-expanded="false" aria-controls="accordeon-discussion">
                             discussion, level 1
-                        
 
 </button>
-                        
 
 </h2>
-                        
 
 <div id="accordeon-discussion" className="accordion-collapse collapse">
-                        
 
 <div className="accordion-body">
-                            
 
 ## Discussion
 
@@ -476,40 +388,26 @@ To summarize, when the Issuer commits to the composed schema of an ACDC it is co
 
 Consequently, the IPEX protocol must specify how a validator does validation of any variant in a graduated disclosure. To restate there are two proofs that a Discloser must provide. The first is proof of issuance and the second is proof of disclosure. In the former, the Discloser provide the variant via its SAD that was actually signed (as SAD or SAID of SAD) by the Issuer in order for the Disclosee to verify authentic issuance via the signature on that variant.  In the latter, the Discloser must disclose any other Issuer enabled (via schema composition) variants that the Discloser offered to disclose as part of the graduated disclosure process.
 
-                        
+</div>
 
 </div>
-                        
 
 </div>
-                    
-
-</div>
-                
-
-                    
 
 <div className="accordion-item" data-level="1">
-                        
 
 <h2 className="accordion-header" id="headeripex-validation">
-                        
 
 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-ipex-validation" aria-expanded="false" aria-controls="accordeon-ipex-validation">
                             ipex-validation, level 1
-                        
 
 </button>
-                        
 
 </h2>
-                        
 
 <div id="accordeon-ipex-validation" className="accordion-collapse collapse">
-                        
 
 <div className="accordion-body">
-                            
 
 ## IPEX Validation
 
@@ -517,40 +415,26 @@ The goal is to define a validation process (set of rules) that works for all var
 
 For example, in the bulk issuance of an ACDC, the Issuer only signs the blinded SAID of the SAD that is the Compact variant of the ACDC not the SAD itself. This enable a Discloser to make a proof of inclusion of the ACDC in a bulk issuance set by unblinding the signature on the blinded SAID without leaking correlation to anything but the blinded SAID itself. To clarify, the Disclosee can verify the signature on the SAID without to prove set inclusion with needing the disclosure of any other information about the ACDC. Issuer signing of the SAID not the SAD also has the side benefit of minimizing the computation of large numbers of bulk issued signatures.
 
-                        
+</div>
 
 </div>
-                        
 
 </div>
-                    
-
-</div>
-                
-
-                    
 
 <div className="accordion-item" data-level="1">
-                        
 
 <h2 className="accordion-header" id="headerissuer-signing-rules">
-                        
 
 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-issuer-signing-rules" aria-expanded="false" aria-controls="accordeon-issuer-signing-rules">
                             issuer-signing-rules, level 1
-                        
 
 </button>
-                        
 
 </h2>
-                        
 
 <div id="accordeon-issuer-signing-rules" className="accordion-collapse collapse">
-                        
 
 <div className="accordion-body">
-                            
 
 ## Issuer Signing Rules
 
@@ -562,8 +446,6 @@ Different variants of an ACDC (SADs with SAIDs) correspond to different paths th
 The process of verifying that  a SAD via its SAID of a section is included in a schema authorized variant down from the  top-level SAID is equivalent to a Merkle Tree proof of inclusion along a path in the Merkel Tree down from its Root.
 This allows a single signature to provide proof of Issuance of the presentation of any schema authorized variants of the ACDC.
 
-
-
 An Issuer MAY provide signatures of the SAIDS of other variants, as well as signatures of the SADs of other variants.
 
 Proof of issuance is provided by disclosing the SAID of the most compact variant and the signature by the Issuer on that SAID.
@@ -572,41 +454,26 @@ Proof of disclosure is provided by disclosing the SAD of the most compact varian
 
 Thus for any disclosed variant of an ACDC, the Disclosee need only verify only one proof of issuance as defined above and may need to verify a different proof of disclosure for each disclosed variant as defined above.
 
-
-                        
+</div>
 
 </div>
-                        
 
 </div>
-                    
-
-</div>
-                
-
-                    
 
 <div className="accordion-item" data-level="1">
-                        
 
 <h2 className="accordion-header" id="headerexample-most-compact-variant">
-                        
 
 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-example-most-compact-variant" aria-expanded="false" aria-controls="accordeon-example-most-compact-variant">
                             example-most-compact-variant, level 1
-                        
 
 </button>
-                        
 
 </h2>
-                        
 
 <div id="accordeon-example-most-compact-variant" className="accordion-collapse collapse">
-                        
 
 <div className="accordion-body">
-                            
 
 ## Example Most Compact Variant
 
@@ -879,177 +746,113 @@ The following JSON field map serialization satisfies the rules for most compact 
 
 The Issuer signs the SAID, `d` field value of the field map above.
 
-
-
-                        
+</div>
 
 </div>
-                        
 
 </div>
-                    
-
-</div>
-                
-
-                    
 
 <div className="accordion-item" data-level="1">
-                        
 
 <h2 className="accordion-header" id="headerconventions-and-definitions">
-                        
 
 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-conventions-and-definitions" aria-expanded="false" aria-controls="accordeon-conventions-and-definitions">
                             conventions-and-definitions, level 1
-                        
 
 </button>
-                        
 
 </h2>
-                        
 
 <div id="accordeon-conventions-and-definitions" className="accordion-collapse collapse">
-                        
 
 <div className="accordion-body">
-                            
 
 ## Conventions and Definitions
 
 {::boilerplate bcp14-tagged}
 
-
-                        
+</div>
 
 </div>
-                        
 
 </div>
-                    
-
-</div>
-                
-
-                    
 
 <div className="accordion-item" data-level="1">
-                        
 
 <h2 className="accordion-header" id="headersecurity-considerations">
-                        
 
 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-security-considerations" aria-expanded="false" aria-controls="accordeon-security-considerations">
                             security-considerations, level 1
-                        
 
 </button>
-                        
 
 </h2>
-                        
 
 <div id="accordeon-security-considerations" className="accordion-collapse collapse">
-                        
 
 <div className="accordion-body">
-                            
 
 ## Security Considerations
 
 TODO Security
 
-
-                        
+</div>
 
 </div>
-                        
 
 </div>
-                    
-
-</div>
-                
-
-                    
 
 <div className="accordion-item" data-level="1">
-                        
 
 <h2 className="accordion-header" id="headeriana-considerations">
-                        
 
 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-iana-considerations" aria-expanded="false" aria-controls="accordeon-iana-considerations">
                             iana-considerations, level 1
-                        
 
 </button>
-                        
 
 </h2>
-                        
 
 <div id="accordeon-iana-considerations" className="accordion-collapse collapse">
-                        
 
 <div className="accordion-body">
-                            
 
 ## IANA Considerations
 
 This document has no IANA actions.
 
-
 --- back
 
-                        
+</div>
 
 </div>
-                        
 
 </div>
-                    
-
-</div>
-                
-
-                    
 
 <div className="accordion-item" data-level="1">
-                        
 
 <h2 className="accordion-header" id="headeracknowledgments">
-                        
 
 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordeon-acknowledgments" aria-expanded="false" aria-controls="accordeon-acknowledgments">
                             acknowledgments, level 1
-                        
 
 </button>
-                        
 
 </h2>
-                        
 
 <div id="accordeon-acknowledgments" className="accordion-collapse collapse">
-                        
 
 <div className="accordion-body">
-                            
 
 ## Acknowledgments
+
 {:numbered="false"}
 
 TODO acknowledge.
 
-                        
+</div>
 
 </div>
-                        
-
-</div>
-                    
 
 </div>
                 </div>

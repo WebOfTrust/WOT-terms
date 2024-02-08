@@ -75,4 +75,4 @@ What should you do to install this project:
 * Now you can run a local version of the **Docusaurus website**:
 `$ npx docusaurus start`. The search engine also works now.
 
-[How we did](https://weboftrust.github.io/WOT-terms/docs/how-we-did/install) describes the follow-up steps.
+[How we did](https://weboftrust.github.io/WOT-terms/docs/category/how-we-did) describes the follow-up steps.
