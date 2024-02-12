@@ -10,7 +10,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/adc",
-    "anchor": "ADC"
+    "anchor": "ADC",
+    "aliases": [
+      "adc"
+    ]
   },
   {
     "term": "agency",
@@ -35,7 +38,10 @@
     "definition": "Any executive department, military department, government corporation, government controlled corporation, or other establishment in the executive branch of the government (including the Executive Office of the President), or any independent regulatory agency, but does not include: (i) the Government Accountability Office; (ii) the Federal Election Commission; (iii) the governments of the District of Columbia and of the territories and possessions of the United States, and their various subdivisions; or (iv) government-owned contractor-operated facilities, including laboratories engaged in national defense research and production activities.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/agency",
-    "anchor": "agency"
+    "anchor": "agency",
+    "aliases": [
+      "Agency"
+    ]
   },
   {
     "term": "AID",
@@ -48,7 +54,10 @@
     "definition": "A globally unique identifier of a card application as defined in ISO/IEC 7816-4.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/aid",
-    "anchor": "AID"
+    "anchor": "AID",
+    "aliases": [
+      "aid"
+    ]
   },
   {
     "term": "API",
@@ -80,7 +89,10 @@
     "definition": "A system access point or library function that has a well-defined syntax and is accessible from application programs or user code to provide well-defined functionality.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/api",
-    "anchor": "API"
+    "anchor": "API",
+    "aliases": [
+      "api"
+    ]
   },
   {
     "term": "authenticity",
@@ -96,7 +108,10 @@
     "definition": "The property of being genuine and being able to be verified and trusted; confidence in the validity of a transmission, a message, or message originator",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/authenticity",
-    "anchor": "authenticity"
+    "anchor": "authenticity",
+    "aliases": [
+      "Authenticity"
+    ]
   },
   {
     "term": "BFT",
@@ -109,7 +124,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/bft",
-    "anchor": "BFT"
+    "anchor": "BFT",
+    "aliases": [
+      "bft"
+    ]
   },
   {
     "term": "binding",
@@ -122,7 +140,10 @@
     "definition": "Process of associating two related elements of information.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/binding",
-    "anchor": "binding"
+    "anchor": "binding",
+    "aliases": [
+      "Binding"
+    ]
   },
   {
     "term": "CBOR",
@@ -135,14 +156,20 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/cbor",
-    "anchor": "CBOR"
+    "anchor": "CBOR",
+    "aliases": [
+      "cbor"
+    ]
   },
   {
     "term": "claim",
     "definition": "A true-false statement about the limitations on the values of an unambiguously defined property called the claims property; and limitations on the uncertainty of the propertys values falling within these limitations during the claims duration of applicability under stated conditions.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/claim",
-    "anchor": "claim"
+    "anchor": "claim",
+    "aliases": [
+      "Claim"
+    ]
   },
   {
     "term": "collision",
@@ -162,14 +189,20 @@
     "definition": "An event in which two different messages have the same message digest.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/collision",
-    "anchor": "collision"
+    "anchor": "collision",
+    "aliases": [
+      "Collision"
+    ]
   },
   {
     "term": "credential",
     "definition": "Evidence attesting to ones right to credit or authority. In this Standard, it is the PIV Card or derived PIV credential associated with an individual that authoritatively binds an identity (and, optionally, additional attributes) to that individual.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/credential",
-    "anchor": "credential"
+    "anchor": "credential",
+    "aliases": [
+      "Credential"
+    ]
   },
   {
     "term": "CRUD",
@@ -182,7 +215,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/crud",
-    "anchor": "CRUD"
+    "anchor": "CRUD",
+    "aliases": [
+      "crud"
+    ]
   },
   {
     "term": "CT",
@@ -199,7 +235,10 @@
     "definition": "A framework for publicly logging the existence of Transport Layer Security (TLS) certificates as they are issued or observed in a manner that allows anyone to audit CA activity and notice the issuance of suspect certificates as well as to audit the certificate logs themselves. (Experimental RFC 6962)",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/ct",
-    "anchor": "CT"
+    "anchor": "CT",
+    "aliases": [
+      "ct"
+    ]
   },
   {
     "term": "DAG",
@@ -212,7 +251,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/dag",
-    "anchor": "DAG"
+    "anchor": "DAG",
+    "aliases": [
+      "dag"
+    ]
   },
   {
     "term": "DAR",
@@ -225,7 +267,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/dar",
-    "anchor": "DAR"
+    "anchor": "DAR",
+    "aliases": [
+      "dar"
+    ]
   },
   {
     "term": "DID",
@@ -238,7 +283,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/did",
-    "anchor": "DID"
+    "anchor": "DID",
+    "aliases": [
+      "did"
+    ]
   },
   {
     "term": "domain",
@@ -256,7 +304,10 @@
     "definition": "A set of elements, data, resources, and functions that share a commonality in combinations of (1) roles supported, (2) rules governing their use, and (3) protection needs.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/domain",
-    "anchor": "domain"
+    "anchor": "domain",
+    "aliases": [
+      "Domain"
+    ]
   },
   {
     "term": "HSM",
@@ -271,7 +322,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/hsm",
-    "anchor": "HSM"
+    "anchor": "HSM",
+    "aliases": [
+      "hsm"
+    ]
   },
   {
     "term": "IANA",
@@ -288,7 +342,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/iana",
-    "anchor": "IANA"
+    "anchor": "IANA",
+    "aliases": [
+      "iana"
+    ]
   },
   {
     "term": "identity",
@@ -301,14 +358,20 @@
     "definition": "Unique group element&nbsp;<span class=\"math-tex\">\\(0\\)</span><em>&nbsp;</em>for which&nbsp;<span class=\"math-tex\">\\(x+0=x\\)</span>&nbsp;for each group element&nbsp;<span class=\"math-tex\">\\(x\\)</span>, relative to the binary group operator&nbsp;<span class=\"math-tex\">\\(+\\)</span>.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/identity",
-    "anchor": "identity"
+    "anchor": "identity",
+    "aliases": [
+      "Identity"
+    ]
   },
   {
     "term": "issuer",
     "definition": "The organization that is issuing the PIV Card to an applicant. Typically, this is an organization for which the applicant is working.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/issuer",
-    "anchor": "issuer"
+    "anchor": "issuer",
+    "aliases": [
+      "Issuer"
+    ]
   },
   {
     "term": "JOSE",
@@ -321,7 +384,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/jose",
-    "anchor": "JOSE"
+    "anchor": "JOSE",
+    "aliases": [
+      "jose"
+    ]
   },
   {
     "term": "JSON",
@@ -334,7 +400,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/json",
-    "anchor": "JSON"
+    "anchor": "JSON",
+    "aliases": [
+      "json"
+    ]
   },
   {
     "term": "key",
@@ -353,7 +422,10 @@
     "definition": "A parameter used in conjunction with a cryptographic algorithm that determines the specific operation of that algorithm.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/key",
-    "anchor": "key"
+    "anchor": "key",
+    "aliases": [
+      "Key"
+    ]
   },
   {
     "term": "MFA",
@@ -371,7 +443,10 @@
     "definition": "Authentication using two or more factors to achieve authentication. Factors include: (i) something you know (e.g., password/personal identification number [PIN]); (ii) something you have (e.g., cryptographic identification device, token); or (iii) something you are (e.g., biometric).",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/mfa",
-    "anchor": "MFA"
+    "anchor": "MFA",
+    "aliases": [
+      "mfa"
+    ]
   },
   {
     "term": "NFT",
@@ -384,7 +459,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/nft",
-    "anchor": "NFT"
+    "anchor": "NFT",
+    "aliases": [
+      "nft"
+    ]
   },
   {
     "term": "P2P",
@@ -401,7 +479,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/p2p",
-    "anchor": "P2P"
+    "anchor": "P2P",
+    "aliases": [
+      "p2p"
+    ]
   },
   {
     "term": "party",
@@ -417,7 +498,10 @@
     "definition": "An individual (person), organization, device, or a combination thereof. In this Recommendation, an entity may be a functional unit that executes certain processes.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/party",
-    "anchor": "party"
+    "anchor": "party",
+    "aliases": [
+      "Party"
+    ]
   },
   {
     "term": "PGP",
@@ -430,7 +514,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/pgp",
-    "anchor": "PGP"
+    "anchor": "PGP",
+    "aliases": [
+      "pgp"
+    ]
   },
   {
     "term": "PKI",
@@ -455,7 +542,10 @@
     "definition": "The architecture, organization, techniques, practices, and procedures that collectively support the implementation and operation of a certificate-based public key cryptographic system. Framework established to issue, maintain, and revoke public key certificates.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/pki",
-    "anchor": "PKI"
+    "anchor": "PKI",
+    "aliases": [
+      "pki"
+    ]
   },
   {
     "term": "PRNG",
@@ -474,14 +564,20 @@
     "definition": "A deterministic computational process that has one or more inputs called \"seeds\", and it outputs a sequence of values that appears to be random according to specified statistical tests. A cryptographic PRNG has the additional property that the output is unpredictable, given that the seed is not known.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/prng",
-    "anchor": "PRNG"
+    "anchor": "PRNG",
+    "aliases": [
+      "prng"
+    ]
   },
   {
     "term": "revocation",
     "definition": "The process of permanently ending the binding between a certificate and the identity asserted in the certificate from a specified time forward.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/revocation",
-    "anchor": "revocation"
+    "anchor": "revocation",
+    "aliases": [
+      "Revocation"
+    ]
   },
   {
     "term": "RID",
@@ -501,7 +597,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/rid",
-    "anchor": "RID"
+    "anchor": "RID",
+    "aliases": [
+      "rid"
+    ]
   },
   {
     "term": "SAD",
@@ -513,7 +612,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/sad",
-    "anchor": "SAD"
+    "anchor": "SAD",
+    "aliases": [
+      "sad"
+    ]
   },
   {
     "term": "salt",
@@ -526,7 +628,10 @@
     "definition": "As used in this Recommendation, a byte string (which may be secret or non-secret) that is used as a MAC key by either: 1) a MAC-based auxiliary function H employed in one-step key derivation or 2) a MAC employed in the randomness-extraction step during two-step key derivation.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/salt",
-    "anchor": "salt"
+    "anchor": "salt",
+    "aliases": [
+      "Salt"
+    ]
   },
   {
     "term": "security",
@@ -539,7 +644,10 @@
     "definition": "A condition that results from the establishment and maintenance of protective measures that enable an organization to perform its mission or critical functions despite risks posed by threats to its use of systems. Protective measures may involve a combination of deterrence, avoidance, prevention, detection, recovery, and correction that should form part of the organizations risk management approach.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/security",
-    "anchor": "security"
+    "anchor": "security",
+    "aliases": [
+      "Security"
+    ]
   },
   {
     "term": "sniffer",
@@ -552,7 +660,10 @@
     "definition": "See packet sniffer and passive wiretapping.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/sniffer",
-    "anchor": "sniffer"
+    "anchor": "sniffer",
+    "aliases": [
+      "Sniffer"
+    ]
   },
   {
     "term": "SSI",
@@ -565,7 +676,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/ssi",
-    "anchor": "SSI"
+    "anchor": "SSI",
+    "aliases": [
+      "ssi"
+    ]
   },
   {
     "term": "TCP",
@@ -586,7 +700,10 @@
     "definition": "TCP is one of the main protocols in TCP/IP networks. Whereas the IP protocol deals only with packets, TCP enables two hosts to establish a connection and exchange streams of data. TCP guarantees the delivery of data and also guarantees that packets will be delivered in the same order in which they were sent.&nbsp;",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/tcp",
-    "anchor": "TCP"
+    "anchor": "TCP",
+    "aliases": [
+      "tcp"
+    ]
   },
   {
     "term": "TEE",
@@ -599,7 +716,10 @@
     "definition": "An area or enclave protected by a system processor.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/tee",
-    "anchor": "TEE"
+    "anchor": "TEE",
+    "aliases": [
+      "tee"
+    ]
   },
   {
     "term": "TPM",
@@ -611,7 +731,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/tpm",
-    "anchor": "TPM"
+    "anchor": "TPM",
+    "aliases": [
+      "tpm"
+    ]
   },
   {
     "term": "TSP",
@@ -628,7 +751,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/tsp",
-    "anchor": "TSP"
+    "anchor": "TSP",
+    "aliases": [
+      "tsp"
+    ]
   },
   {
     "term": "UI",
@@ -644,7 +770,10 @@
     "definition": "The physical or logical means by which users interact with a system, device or process.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/ui",
-    "anchor": "UI"
+    "anchor": "UI",
+    "aliases": [
+      "ui"
+    ]
   },
   {
     "term": "URL",
@@ -664,7 +793,10 @@
     "definition": "A uniform resource locator, or URL, is a short string containing an address which refers to an object in the \"web.\" URLs are a subset of URIs.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/url",
-    "anchor": "URL"
+    "anchor": "URL",
+    "aliases": [
+      "url"
+    ]
   },
   {
     "term": "VC",
@@ -677,7 +809,10 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/vc",
-    "anchor": "VC"
+    "anchor": "VC",
+    "aliases": [
+      "vc"
+    ]
   },
   {
     "term": "VDS",
@@ -694,20 +829,29 @@
     "definition": "Term found but the definition does not exist yet.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/vds",
-    "anchor": "VDS"
+    "anchor": "VDS",
+    "aliases": [
+      "vds"
+    ]
   },
   {
     "term": "verifier",
     "definition": "An entity that verifies the claimants identity by verifying the claimants possession and control of a token using an authentication protocol. To do this, the Verifier may also need to validate credentials that link the token and identity and check their status.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/verifier",
-    "anchor": "verifier"
+    "anchor": "verifier",
+    "aliases": [
+      "Verifier"
+    ]
   },
   {
     "term": "witness",
     "definition": "An appropriately cleared (if applicable) and designated individual, other than the COMSEC Account Manager, who observes and testifies to the inventory or destruction of COMSEC material.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/witness",
-    "anchor": "witness"
+    "anchor": "witness",
+    "aliases": [
+      "Witness"
+    ]
   }
 ]

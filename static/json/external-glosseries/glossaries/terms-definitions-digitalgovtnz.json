@@ -4,370 +4,575 @@
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "",
     "definition": "",
-    "anchor": ""
+    "anchor": "",
+    "aliases": []
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "account",
     "definition": "an instance of entity information in a contextAdditional note:Note 1: A common term for the set of entity information relating to 1 entity to which an authenticator can be registered and from which credential subject information can be taken to establish a Credential.",
-    "anchor": "account"
+    "anchor": "account",
+    "aliases": [
+      "Account"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "accountable",
     "definition": "responsible for some action; answerable[Source: expanded Dictionary meaning of accountable]Additional note:Note 1: For roles such as Credential Provider and Relying Party, it is the primary publicly accessible party.",
-    "anchor": "accountable"
+    "anchor": "accountable",
+    "aliases": [
+      "Accountable"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "affected party",
     "definition": "a party that could be influenced; acted upon[Source: expanded Dictionary meaning of affected]Additional note:Note 1: For identification risk, the affected parties have been identified as:Entitled individual  for example, an entitled individual applies for a service and is deemed ineligible because their identity has been used previously by someone else to claim the same service.Service provider  for example, an organisations reputation suffers because of publicity that the agency has been defrauded by large numbers of individuals claiming false identities.Wider community  for example, identification documents are mistakenly issued to people with false identities and are then used to commit fraud against other organisations.",
-    "anchor": "affectedparty"
+    "anchor": "affectedparty",
+    "aliases": [
+      "affected-party",
+      "affected_party",
+      "Affected Party",
+      "Affected-Party"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "anonymous",
     "definition": "not easily distinguished from others or from one another because of a lack of individual features or character[Source: Dictionary]",
-    "anchor": "anonymous"
+    "anchor": "anonymous",
+    "aliases": [
+      "Anonymous"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "assurance",
     "definition": "a statement, assertion, etc. intended to inspire confidence or give encouragement[Source: Dictionary]",
-    "anchor": "assurance"
+    "anchor": "assurance",
+    "aliases": [
+      "Assurance"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "attribute",
     "definition": "(noun) a characteristic or quality of a person or thing[Source: Dictionary]",
-    "anchor": "attribute"
+    "anchor": "attribute",
+    "aliases": [
+      "Attribute"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "authentication",
     "definition": "process for establishing an authenticator is genuine or as represented[Source: expanded Dictionary meaning of authenticate]",
-    "anchor": "authentication"
+    "anchor": "authentication",
+    "aliases": [
+      "Authentication"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "authenticator",
     "definition": "things known and/or possessed and controlled by an entity that are used to be recognised when they return to an organisation[Source: Based on NIST SP 800-63-3 Digital Identity Guidelines]",
-    "anchor": "authenticator"
+    "anchor": "authenticator",
+    "aliases": [
+      "Authenticator"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "authenticator holder",
     "definition": "the entity to which an authenticator was initially bound; the rightful holder[Source: New definition]",
-    "anchor": "authenticatorholder"
+    "anchor": "authenticatorholder",
+    "aliases": [
+      "authenticator-holder",
+      "authenticator_holder",
+      "Authenticator Holder",
+      "Authenticator-Holder"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "authoritative",
     "definition": "possessing or supported by authority; official[Source: Dictionary]Additional note:Note 1: Indigenous peoples, society and industry communities can nominate a party as authoritative. Its possible that such a party is subject to legal controls.",
-    "anchor": "authoritative"
+    "anchor": "authoritative",
+    "aliases": [
+      "Authoritative"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "binding",
     "definition": "(noun) the action of a person or thing that binds[Source: Dictionary]",
-    "anchor": "binding"
+    "anchor": "binding",
+    "aliases": [
+      "Binding"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "challenge",
     "definition": "(verb) to order (a person) to halt and be identified or to give a password[Source: Dictionary]Additional note:Note 1: A challenger issues a challenge and a responder replies.",
-    "anchor": "challenge"
+    "anchor": "challenge",
+    "aliases": [
+      "Challenge"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "comply  ~ance",
     "definition": "to act in accordance with rules, wishes, etc; be obedient (to)[Source: Dictionary]",
-    "anchor": "comply~ance"
+    "anchor": "comply~ance",
+    "aliases": [
+      "comply--~ance",
+      "comply__~ance",
+      "Comply  ~Ance",
+      "Comply--~Ance"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "consequence",
     "definition": "outcome of an event affecting objectives[Source: ISO Guide 73:2009]Additional notes:Note 1: An event can lead to a range of consequences.Note 2: A consequence can be certain or uncertain and can have positive or negative effects on objectives.Note 3: Consequences can be expressed qualitatively or quantitatively.Note 4: Initial consequences can escalate through knock-on effects.",
-    "anchor": "consequence"
+    "anchor": "consequence",
+    "aliases": [
+      "Consequence"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "context",
     "definition": "environment with defined boundary conditions in which entities exist and interact[Source: ITU-T X.1252]",
-    "anchor": "context"
+    "anchor": "context",
+    "aliases": [
+      "Context"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "contiguous",
     "definition": "immediately preceding or following in time[Source: Dictionary  modified by adding immediately]Additional note:Note 1: When applied to authentication, multiple factors are tested in such adjacent steps, that they are considered part of a single process.",
-    "anchor": "contiguous"
+    "anchor": "contiguous",
+    "aliases": [
+      "Contiguous"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "control",
     "definition": "(noun) measure that is modifying risk[Source: ISO Guide 73:2009  modified to add note 3]Additional notes:Note 1: Controls include any process, policy, device, practice, or other actions which modify risk.Note 2: Controls may not always exert the intended or assumed modifying effect.Note 3: When using the Assessing identification risk guidance to calculate levels of identification process, these processes are not included as controls.",
-    "anchor": "control"
+    "anchor": "control",
+    "aliases": [
+      "Control"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "control",
     "definition": "(verb) to command, direct, or rule[Source: Dictionary]Additional note:Note 1: Control is also used outside the context of risk mitigation. For example, to indicate the ability for an authenticator holder to retain use of their authenticator.",
-    "anchor": "control"
+    "anchor": "control",
+    "aliases": [
+      "Control"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "correlate~ion",
     "definition": "to place or be placed in a mutual, complementary, or reciprocal relationship[Source: Dictionary]",
-    "anchor": "correlate~ion"
+    "anchor": "correlate~ion",
+    "aliases": [
+      "Correlate~Ion"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "credential",
     "definition": "an artefact created as the result of a series of processes that bind an entity with information and an authenticator, on which other parties relyAdditional note:Note 1: At a minimum a credential includes an authenticator and information to enable presentation.",
-    "anchor": "credential"
+    "anchor": "credential",
+    "aliases": [
+      "Credential"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "credential provider",
     "definition": "the party accountable for the establishment and presentation facilitation of a credentialAdditional note:Note 1: A Credential Provider may employ other parties in the carrying out of their function.",
-    "anchor": "credentialprovider"
+    "anchor": "credentialprovider",
+    "aliases": [
+      "credential-provider",
+      "credential_provider",
+      "Credential Provider",
+      "Credential-Provider"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "derived value",
     "definition": "value obtained by reasoning; deduction or inference[Source: expanded Dictionary meaning of derive]",
-    "anchor": "derivedvalue"
+    "anchor": "derivedvalue",
+    "aliases": [
+      "derived-value",
+      "derived_value",
+      "Derived Value",
+      "Derived-Value"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "enrol  ~ment",
     "definition": "to become or cause to become a member; enlist; register[Source: Dictionary]",
-    "anchor": "enrol~ment"
+    "anchor": "enrol~ment",
+    "aliases": [
+      "enrol--~ment",
+      "enrol__~ment",
+      "Enrol  ~Ment",
+      "Enrol--~Ment"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "entity",
     "definition": "something that has real or distinct existence from other things[Source: Dictionary]",
-    "anchor": "entity"
+    "anchor": "entity",
+    "aliases": [
+      "Entity"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "evidence",
     "definition": "to give proof of or evidence for[Source: Dictionary]",
-    "anchor": "evidence"
+    "anchor": "evidence",
+    "aliases": [
+      "Evidence"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "facilitate ~ion",
     "definition": "to make easier; assist the progress of[Source: Dictionary]",
-    "anchor": "facilitate~ion"
+    "anchor": "facilitate~ion",
+    "aliases": [
+      "facilitate-~ion",
+      "facilitate_~ion",
+      "Facilitate ~Ion",
+      "Facilitate-~Ion"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "facilitation provider FP",
     "definition": "the party accountable for the establishment and functioning of a facilitation mechanism[Source: New definition]Additional note:Note 1: A facilitation mechanism facilitates the presentation of 1 or more Credentials to a Relying Party.",
-    "anchor": "facilitationproviderFP"
+    "anchor": "facilitationproviderFP",
+    "aliases": [
+      "facilitation-provider-fp",
+      "facilitation-provider-FP",
+      "facilitation_provider_FP",
+      "Facilitation Provider FP",
+      "Facilitation-Provider-FP"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "federate~d~ion",
     "definition": "united by common agreement under an authority[Source: Dictionary  modified to remove central government]",
-    "anchor": "federate~d~ion"
+    "anchor": "federate~d~ion",
+    "aliases": [
+      "Federate~D~Ion"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "forgery",
     "definition": "the act of reproducing something for a deceitful or fraudulent purpose[Source: Dictionary]",
-    "anchor": "forgery"
+    "anchor": "forgery",
+    "aliases": [
+      "Forgery"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "identification",
     "definition": "the act of identifying or the state of being identified[Source: Dictionary]",
-    "anchor": "identification"
+    "anchor": "identification",
+    "aliases": [
+      "Identification"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "identifier",
     "definition": "information that is enough to uniquely represent an entity in a given context[Source: New definition]",
-    "anchor": "identifier"
+    "anchor": "identifier",
+    "aliases": [
+      "Identifier"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "identity theft",
     "definition": "the theft or assumption of a pre-existing identity (or significant part thereof) with or without consent, and, whether, in the case of an individual, the person is living or deceased[Source: Australian Centre for Policing Research]",
-    "anchor": "identitytheft"
+    "anchor": "identitytheft",
+    "aliases": [
+      "identity-theft",
+      "identity_theft",
+      "Identity Theft",
+      "Identity-Theft"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "level of risk",
     "definition": "magnitude of a risk or combination of risks, expressed in terms of the combination of consequences and their likelihood[Source: ISO Guide 73:2009]",
-    "anchor": "levelofrisk"
+    "anchor": "levelofrisk",
+    "aliases": [
+      "level-of-risk",
+      "level_of_risk",
+      "Level Of Risk",
+      "Level-Of-Risk"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "likelihood",
     "definition": "chance of something happening[Source: ISO Guide 73:2009]Additional notes:Note 1: In risk management terminology, the word likelihood is used to refer to the chance of something happening, whether defined, measured or determined objectively or subjectively, qualitatively or quantitatively, and described using general terms or mathematically (such as a probability or a frequency over a given time period).Note 2: The English term likelihood does not have a direct equivalent in some languages  instead, the equivalent of the term probability is often used. However, in English, probability is often narrowly interpreted as a mathematical term. Therefore, in risk management terminology, likelihood is used with the intent that it should have the same broad interpretation as the term probability has in many languages other than English.",
-    "anchor": "likelihood"
+    "anchor": "likelihood",
+    "aliases": [
+      "Likelihood"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "mechanism",
     "definition": "a process or technique, esp. of execution[Source: Dictionary]",
-    "anchor": "mechanism"
+    "anchor": "mechanism",
+    "aliases": [
+      "Mechanism"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "one-time password  OTP",
     "definition": "a password that is valid for only 1 login session or transaction[Source: Wikipedia]Additional notes:Note 1: Also known as one-time pin or dynamic password.Note 2: Generation can be time-based OTP (TOTP) or event-based OTP also known as hash-based message authentication codes (HMAC) (HOTP).",
-    "anchor": "onetimepasswordOTP"
+    "anchor": "onetimepasswordOTP",
+    "aliases": [
+      "one-time-password--otp",
+      "one-time-password--OTP",
+      "one time password  OTP",
+      "one-time_password__OTP",
+      "One-Time Password  OTP",
+      "One-Time-Password--OTP"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "orphan ~ed",
     "definition": "entity information that is not bound to an entity or authenticator",
-    "anchor": "orphan~ed"
+    "anchor": "orphan~ed",
+    "aliases": [
+      "orphan-~ed",
+      "orphan_~ed",
+      "Orphan ~Ed",
+      "Orphan-~Ed"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "party",
     "definition": "an entity who participates or is concerned in an action, proceeding, plan, etc.[Source: Dictionary  modified to include non-persons]",
-    "anchor": "party"
+    "anchor": "party",
+    "aliases": [
+      "Party"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "present  ~ation",
     "definition": "(verb) to offer or hand over for action or settlement[Source: Dictionary]",
-    "anchor": "present~ation"
+    "anchor": "present~ation",
+    "aliases": [
+      "present--~ation",
+      "present__~ation",
+      "Present  ~Ation",
+      "Present--~Ation"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "pseudonymous",
     "definition": "using a pseudonym[Source: Dictionary]Additional note:Note 1: A pseudonym being an identifier that may relate to an individual entity but does not allow the entity to be identifiable outside the context.",
-    "anchor": "pseudonymous"
+    "anchor": "pseudonymous",
+    "aliases": [
+      "Pseudonymous"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "relying party (RP)",
     "definition": "the accountable party who relies on presented credential(s) in order to make decisionsAdditional notesNote 1: A Relying Party may employ other parties in the carrying out of their function.",
-    "anchor": "relyingparty(RP)"
+    "anchor": "relyingparty(RP)",
+    "aliases": [
+      "relying-party-(rp)",
+      "relying-party-(RP)",
+      "relying_party_(RP)",
+      "Relying Party (RP)",
+      "Relying-Party-(RP)"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "replication",
     "definition": "the act of repeating, duplicating, copying, or reproducing[Source: Dictionary]",
-    "anchor": "replication"
+    "anchor": "replication",
+    "aliases": [
+      "Replication"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "risk",
     "definition": "effect of uncertainty on objectives[Source: ISO Guide 73:2009]Additional notes:Note 1: An effect is a deviation from the expected  positive and/or negative.Note 2: Objectives can have different aspects (such as financial, health and safety, information security, and environmental goals) and can apply at different levels (such as strategic, organisation-wide, project, product and process).Note 3: Risk is often characterised by reference to potential events and consequences, or a combination of these.Note 4: Risk is often expressed in terms of a combination of the consequences of an event (including changes in circumstances) and the associated likelihood of occurrence.Note 5: Uncertainty is the state, even partial, of deficiency of information related to, understanding or knowledge of, an event, its consequence, or likelihood.",
-    "anchor": "risk"
+    "anchor": "risk",
+    "aliases": [
+      "Risk"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "self-sovereign",
     "definition": "(concept) an entity having sole ownership over the ability to control their accounts and information[Source: Based on searchsecurity.techtarget.com]",
-    "anchor": "selfsovereign"
+    "anchor": "selfsovereign",
+    "aliases": [
+      "self sovereign",
+      "Self-Sovereign"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "service",
     "definition": "a system or method of providing people with the use of something, as electric power, water, transportation, mail delivery.[Source: Dictionary]Additional notes:Note 1: Today service has a broader application than utilities, such as finance, employment and compliance services.Note 2: A service may contain 1 or more transactions.",
-    "anchor": "service"
+    "anchor": "service",
+    "aliases": [
+      "Service"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "session",
     "definition": "an unbroken interactive information interchange between 2 or more entities[Source: Wikipedia (computer science)  modified]",
-    "anchor": "session"
+    "anchor": "session",
+    "aliases": [
+      "Session"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "spoofing",
     "definition": "<biometric system> presenting a recorded image or other biometric data sample, or an artificially derived biometric characteristic, in order to impersonate an individual[Source: ISO/IEC TR 24714-1:2008]",
-    "anchor": "spoofing"
+    "anchor": "spoofing",
+    "aliases": [
+      "Spoofing"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "subject",
     "definition": "entity that is the focus of entity information",
-    "anchor": "subject"
+    "anchor": "subject",
+    "aliases": [
+      "Subject"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "synchronise ~ous",
     "definition": "to occur or recur or cause to occur or recur at the same time or in unison[Source: Dictionary]",
-    "anchor": "synchronise~ous"
+    "anchor": "synchronise~ous",
+    "aliases": [
+      "synchronise-~ous",
+      "synchronise_~ous",
+      "Synchronise ~Ous",
+      "Synchronise-~Ous"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "transaction",
     "definition": "one or more exchanges between an individual and an organisation in a process related to a specific outcomeAdditional notes:Note 1: A single transaction may constitute a step in a segmented process or result in the completion of an end to end process.Note 2: A service is usually made up of several transactions.",
-    "anchor": "transaction"
+    "anchor": "transaction",
+    "aliases": [
+      "Transaction"
+    ]
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "",
     "definition": "",
-    "anchor": ""
+    "anchor": "",
+    "aliases": []
   },
   {
     "organisation": "digital.govt.nz",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identification-management/identification-terminology/",
     "term": "identity",
     "definition": "one or more attributes that allow an entity record to be unique from all others in the contextAdditional noteNote 1: Due to the contextual nature of the attributes that make up an identity and its poor interaction with other words, use of the word identity as a descriptor should be avoided wherever possible.",
-    "anchor": "identity"
+    "anchor": "identity",
+    "aliases": [
+      "Identity"
+    ]
   }
 ]
