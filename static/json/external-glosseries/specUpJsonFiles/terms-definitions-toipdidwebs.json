@@ -1,0 +1,52 @@
+{
+  "specs": [
+    {
+      "title": "ToIP Template Specification",
+      "spec_directory": "./spec",
+      "output_path": "./docs",
+      "markdown_paths": [
+  "aid_controlled_identifiers.md",
+  "authentic_chained_data_container__acdc_.md",
+  "autonomic_identifier__aid_.md",
+  "bada_run.md",
+  "compact_event_streaming_representation__cesr_.md",
+  "controller.md",
+  "decentralized_identifier__did_.md",
+  "designated_aliases.md",
+  "did_document.md",
+  "direct_mode.md",
+  "host.md",
+  "inception_event.md",
+  "indirect_mode.md",
+  "interaction_event.md",
+  "kel_backed_data.md",
+  "keri_event_stream.md",
+  "keri_request_authentication_mechanism.md",
+  "key_event.md",
+  "key_event_log__kel_.md",
+  "key_event_receipt.md",
+  "key_event_receipt_infrastructure__keri_.md",
+  "key_event_receipt_log__kerl_.md",
+  "key_state.md",
+  "method_specific_identifier.md",
+  "multi_signature.md",
+  "out_of_band_introduction__oobi_.md",
+  "pre_rotation.md",
+  "rotation_event.md",
+  "self_addressing_identifier__said_.md",
+  "transaction_event_log__tel_.md",
+  "verifier.md",
+  "watcher.md",
+  "witness.md"
+],
+      "logo": "https://raw.githubusercontent.com/trustoverip/logo-assets/master/logos/ToIP-Logo-Color-SolidDimensional-Horizontal-LightOnDark.svg",
+      "logo_link": "https://github.com/trustoverip/specification-template",
+      "katex": true,
+      "source": {
+        "host": "github",
+        "account": "trustoverip",
+        "repo": "specification-template"
+      }
+    }
+  ]
+}
