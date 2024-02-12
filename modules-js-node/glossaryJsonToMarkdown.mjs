@@ -56,7 +56,7 @@ jsonFiles.forEach(filename => {
                 // Process each object in the JSON array
                 parsedData.forEach((item, index) => {
                     // Create markdown content
-                    const markdownContent = `### ${item.term}\n\n${item.definition}`;
+                    const markdownContent = `## ${item.term}\n\n${item.definition}\n\n`;
 
                     // Write markdown content to file
                     const markdownFilename = `${item.term.replace(/[^a-zA-Z0-9]/g, '_').toLowerCase()}.md`;
