@@ -1,3 +1,4 @@
-### Key Event Receipt Infrastructure
+## Key Event Receipt Infrastructure
 
 <p class="c8"><span>A decentralized permissionless </span><span class="c2"><a class="c3" href="#h.q0w3jq78va39">key management</a></span><span class="c0">&nbsp;architecture.</span></p><p class="c8"><span class="c0">Also known as: KERI.</span></p><p class="c8"><span>For more information, see: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://keri.one/&amp;sa=D&amp;source=editors&amp;ust=1706779842730572&amp;usg=AOvVaw340JSzDWxSQF-JNm7K4zRw">https://keri.one/</a></span><span>, </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://wiki.trustoverip.org/display/HOME/ACDC%2B%2528Authentic%2BChained%2BData%2BContainer%2529%2BTask%2BForce&amp;sa=D&amp;source=editors&amp;ust=1706779842730915&amp;usg=AOvVaw0RLGnebwaDFPVAt5QQvAl3">ToIP ACDC Task Force</a></span></p>
+

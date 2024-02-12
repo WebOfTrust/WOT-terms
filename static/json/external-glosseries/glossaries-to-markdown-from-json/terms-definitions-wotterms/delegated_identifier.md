@@ -1,3 +1,4 @@
-### delegated identifier
+## delegated identifier
 
 <h4>Definition</h4><p>Matches the act of <a href="delegation">delegation</a> with the appropriate digital twin. Consequently when applied recursively, delegation may be used to compose arbitrarily complex trees of hierarchical (delegative) key management event streams. This is a most powerful capability that may provide an essential building block for a generic universal decentralized key management infrastructure (DKMI) that is also compatible with the demand of generic event streaming applications.</p><p>More in the <a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf">whitepaper</a></p><h4>More KERI context</h4><p>The KERI design approach is to build composable primitives instead of custom functionality that is so typical of other DKMI approaches:</p><ul><li><a href="transferable-identifier">transferable identifiers</a></li><li><a href="non-transferable-identifier">non-transferable identifiers</a></li><li>delegated identifiers</li></ul>
+

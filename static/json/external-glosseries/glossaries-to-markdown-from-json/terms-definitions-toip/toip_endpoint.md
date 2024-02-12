@@ -1,3 +1,4 @@
-### ToIP endpoint
+## ToIP endpoint
 
 <p class="c8"><span>An </span><span class="c2"><a class="c3" href="#h.yodlnk353mx">endpoint</a></span><span>&nbsp;capable of communicating over the </span><span class="c2"><a class="c3" href="#h.wms58fgdch9m">ToIP stack</a></span><span>. ToIP endpoints may also communication via </span><span class="c2"><a class="c3" href="#h.aiissvz29ktv">ToIP intermediaries</a></span><span class="c0">.</span></p><p class="c8"><span>See also: </span><span class="c2"><a class="c3" href="#h.2ahqabymbkn3">ToIP endpoint system</a></span><span class="c0">.</span></p><p class="c8"><span>For more information, see: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://trustoverip.org/our-work/technical-architecture/&amp;sa=D&amp;source=editors&amp;ust=1706779842857685&amp;usg=AOvVaw2dy-hk7OxrAaFVmsN_WBcG">https://trustoverip.org/our-work/technical-architecture/</a></span><span class="c0">&nbsp;</span></p>
+

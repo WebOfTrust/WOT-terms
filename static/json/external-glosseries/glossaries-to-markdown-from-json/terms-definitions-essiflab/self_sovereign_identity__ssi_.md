@@ -1,3 +1,4 @@
-### Self-Sovereign Identity (SSI)
+## Self-Sovereign Identity (SSI)
 
 self-Sovereign Identity (SSI) is a term that has many different interpretations, and that we use to refer to concepts/ideas, architectures, processes and technologies that aim to support (autonomous) <a href="https://essif-lab.github.io/framework/docs/terms/party" hovertext="Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.">parties</a> as they negotiate and execute electronic <a href="https://essif-lab.github.io/framework/docs/terms/transaction" hovertext="Transaction: the exchange of goods, services, funds, or data between some Parties (called Participants of the Transaction).">transaction</a> with one another.
+

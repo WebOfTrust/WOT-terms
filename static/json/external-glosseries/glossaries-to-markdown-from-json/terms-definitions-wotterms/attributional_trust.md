@@ -1,3 +1,4 @@
-### attributional trust
+## attributional trust
 
 <h4>Definition</h4><p>KERI offers cryptographic root-of-trust to establish attributional trust. In the real world you&#39;d also need <a href="reputational-trust">reputational trust</a>. You can&#39;t have reputation without attributional trust.<br>Read more in source <a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/IdentifierTheory_web.pdf">Universal Identifier Theory</a></p><h4>OOBI</h4><p><a href="out-of-band-introduction">Out-of-band Introduction</a>s (OOBIs) to establish attributional trust, like its done with OOBIs in KERI, is not the same as the high friction costs of establishing reputational trust by going through the heavy lifting of <a href="identity-assurance">identity assurance</a> by a to be trusted middle-men party, like <a href="GLEIF">GLEIF</a>.</p>
+

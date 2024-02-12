@@ -1,3 +1,4 @@
-### Colleague
+## Colleague
 
 two or more (digital or non-digital) <a href="https://essif-lab.github.io/framework/docs/terms/agent" hovertext="Agent (of a Party): an Actor that is executing an Action on behalf of a Party (called the Principal of that Actor).">agent</a> that have the same <a href="https://essif-lab.github.io/framework/docs/terms/principal" hovertext="Principal (of an Actor): the Party for whom, or on behalf of whom, the Actor is executing an Action (this Actor is then called an Agent of that Party).">principal</a> (i.e. <a href="https://essif-lab.github.io/framework/docs/terms/party" hovertext="Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.">party</a> on whose behalf they are executing an <a href="https://essif-lab.github.io/framework/docs/terms/action" hovertext="Action: something that is actually done (a 'unit of work' that is executed) by a single Actor (on behalf of a given Party), as a single operation, in a specific context.">action</a>).
+

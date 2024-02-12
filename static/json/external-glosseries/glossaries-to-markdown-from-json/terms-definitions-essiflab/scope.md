@@ -1,3 +1,4 @@
-### Scope
+## Scope
 
 the extent of the area or subject matter (which we use, e.g., to define <a href="https://essif-lab.github.io/framework/docs/terms/pattern" hovertext="Pattern (also: Mental Model): A description, both casual and formal, of a set of Concepts (ideas), relations between them, and constraints, that together form a coherent and consistent 'viewpoint', or 'way of thinking' about a certain topic.">pattern</a>, <a href="https://essif-lab.github.io/framework/docs/terms/concept" hovertext="Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').">concept</a>, <a href="https://essif-lab.github.io/framework/docs/terms/term" hovertext="Term: a word or phrase (i.e.: text) that is used in at least one Scope/context to represent a specific Concept.">term</a> and <a href="https://essif-lab.github.io/framework/docs/terms/glossary" hovertext="Glossary: an alphabetically sorted list of Terms with the (single) meaning it has in (at least) one context.">glossaries</a> in, but it serves other purposes as well).
+

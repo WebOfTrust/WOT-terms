@@ -1,3 +1,4 @@
-### subscription
+## subscription
 
 <p class="c8"><span>In the context of decentralized digital trust infrastructure, a subscription is an agreement between a first </span><span class="c2"><a class="c3" href="#h.z3ugzt4hgdf6">digital agent</a></span><span>—the publisher—to automatically send a second </span><span class="c2"><a class="c3" href="#h.z3ugzt4hgdf6">digital agent</a></span><span>—the subscriber—a </span><span class="c2"><a class="c3" href="#h.bge7ubygwk2q">message</a></span><span>&nbsp;when a specific type of event happens in the </span><span class="c2"><a class="c3" href="#h.mh27630t20d">wallet</a></span><span>&nbsp;or </span><span class="c2"><a class="c3" href="#h.cz29glapo2tg">vault</a></span><span>&nbsp;managed by the first </span><span class="c2"><a class="c3" href="#h.z3ugzt4hgdf6">digital agent</a></span><span class="c0">.</span></p>
+

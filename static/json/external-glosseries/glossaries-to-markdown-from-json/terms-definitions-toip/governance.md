@@ -1,3 +1,4 @@
-### governance
+## governance
 
 <p class="c8"><span>The </span><span class="c2"><a class="c3" href="#h.gzdfngxkp0ip">act</a></span><span>&nbsp;or process of governing or overseeing the realization of (the results associated with) a set of </span><span class="c2"><a class="c3" href="#h.k0v6ir8wmcav">objectives</a></span><span>&nbsp;by the </span><span class="c2"><a class="c3" href="#h.y450rpi0zmuu">owner</a></span><span>&nbsp;of these </span><span class="c2"><a class="c3" href="#h.k0v6ir8wmcav">objectives</a></span><span>, in order to ensure they will be fit for the purposes that this </span><span class="c2"><a class="c3" href="#h.y450rpi0zmuu">owner</a></span><span class="c0">&nbsp;intends to use them for.</span></p><p class="c8"><span>Source: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://essif-lab.github.io/framework/docs/essifLab-glossary%23governance&amp;sa=D&amp;source=editors&amp;ust=1706779842677909&amp;usg=AOvVaw1A_afK_gMEhe1-HjX3W6wT">eSSIF-Lab</a></span><span class="c0">.</span></p>
+

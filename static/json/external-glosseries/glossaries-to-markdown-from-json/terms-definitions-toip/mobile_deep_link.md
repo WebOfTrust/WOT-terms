@@ -1,3 +1,4 @@
-### mobile deep link
+## mobile deep link
 
 <p class="c8"><span>In the context of </span><span>mobile apps</span><span>, </span><span class="c2"><a class="c3" href="#h.ubxk9l39j7w">deep linking</a></span><span>&nbsp;consists of using a </span><span>uniform resource identifier</span><span>&nbsp;(</span><span>URI</span><span>) that links to a specific location within a mobile app rather than simply launching the app. </span><span>Deferred deep linking</span><span>&nbsp;allows users to deep link to content even if the app is not already installed. Depending on the </span><span>mobile device</span><span class="c0">&nbsp;platform, the URI required to trigger the app may be different.</span></p><p class="c8"><span>Source: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://en.wikipedia.org/wiki/Mobile_deep_linking&amp;sa=D&amp;source=editors&amp;ust=1706779842752911&amp;usg=AOvVaw0kzKYaHEqMOifMziqdnNwh">Wikipedia</a></span><span class="c0">.</span></p>
+

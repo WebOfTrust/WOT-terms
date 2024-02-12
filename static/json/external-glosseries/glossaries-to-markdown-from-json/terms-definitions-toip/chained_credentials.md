@@ -1,3 +1,4 @@
-### chained credentials
+## chained credentials
 
 <p class="c8"><span>Two or more </span><span class="c2"><a class="c3" href="#h.kcj6iw2vib1v">credentials</a></span><span>&nbsp;linked together to create a </span><span class="c2"><a class="c3" href="#h.xsqvwmepvctc">trust chain</a></span><span>&nbsp;between the credentials that is </span><span class="c2"><a class="c3" href="#h.422iwwfur12">cryptographically verifiable</a></span><span class="c0">. </span></p><p class="c8"><span>Note: </span><span class="c2"><a class="c3" href="#h.8qlmnalwgxgy">ACDCs</a></span><span>&nbsp;are a type of </span><span class="c2"><a class="c3" href="#h.ddna9lucn4k6">digital credential</a></span><span>&nbsp;that explicitly supports </span><span class="c2"><a class="c3" href="#h.kgtwd73pdfae">chaining</a></span><span class="c0">.</span></p>
+

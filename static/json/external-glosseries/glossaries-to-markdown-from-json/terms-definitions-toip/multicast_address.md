@@ -1,3 +1,4 @@
-### multicast address
+## multicast address
 
 <p class="c8"><span>A multicast address is a logical </span><span class="c2"><a class="c3" href="#h.u3bfehmj4ed3">identifier</a></span><span>&nbsp;for a group of </span><span class="c2"><a class="c3" href="#h.3f5tvermqc9k">hosts</a></span><span>&nbsp;in a </span><span>computer network</span><span>&nbsp;that are available to process </span><span class="c2"><a class="c3" href="#h.mxq90rincwo">datagrams</a></span><span>&nbsp;or frames intended to be </span><span class="c2"><a class="c3" href="#h.nopxfdr8qtr6">multicast</a></span><span>&nbsp;for a designated </span><span>network service</span><span class="c0">.</span></p><p class="c8"><span>Source: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://en.wikipedia.org/wiki/Multicast_address&amp;sa=D&amp;source=editors&amp;ust=1706779842755146&amp;usg=AOvVaw1HV70DllyKjcS6miRm4jpo">Wikipedia</a></span><span class="c0">.</span></p><p class="c8"><span>See also: </span><span class="c2"><a class="c3" href="#h.7gok5zmnh6an">broadcast address</a></span><span>, unicast address.</span></p>
+

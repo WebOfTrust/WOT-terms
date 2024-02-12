@@ -1,3 +1,4 @@
-### registry
+## registry
 
 <h4>Definition</h4><p>In our digital mental model it&#39;s an <em>official</em> digital <em>record book</em>. When people refer to a registry, they usually mean a specific instance, within a multi-tenant registry. E.g. <a href="https://hub.docker.com/">Docker Hub</a> is a multi-tenant registry, where there’s a set of <a href="https://docs.docker.com/docker-hub/official_images/">official / public images</a>.</p><h4>Unique Registries</h4><p>A unique registry can be referenced in one of two ways, by <a href="namespace">namespace</a>, or by <a href="domain">domain</a>.</p><img src="https://hackmd.io/_uploads/HyXBDKbGi.png" width="400" /><p><a href="https://stevelasker.blog/2020/02/17/registry-namespace-repo-names/">Source</a></p><h4>ACDC related</h4><p>ACDCs and SAIDS eliminated the need for a centrally controlled namespace registry for credential schemas. <a href="schema-registry">schema registry</a>.</p>
+

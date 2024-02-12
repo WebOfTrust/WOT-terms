@@ -1,3 +1,4 @@
-### group framing code
+## group framing code
 
 <h4>Definition</h4><p>special framing codes can be specified to support groups of <a href="primitive">primitives</a> in <a href="composable-event-streaming-representation">CESR</a>. Grouping enables <a href="pipelining">pipelining</a>. Other suitable terms for these special framing codes are <em>group codes</em> or <em>count codes</em> for short. These are suitable terms because these framing codes can be used to count characters, primitives in a group, or groups of primitives in a larger group when parsing and off-loading a stream of CESR primitives.\<br><a href="https://github.com/WebOfTrust/ietf-cesr/blob/main/draft-ssmith-cesr.md#count-group-or-framing-codes">Source</a></p><h4>Composability property</h4><p>One of the primary advantages of composable encoding is that we can use special framing code to support the above mentioned grouping.</p>
+

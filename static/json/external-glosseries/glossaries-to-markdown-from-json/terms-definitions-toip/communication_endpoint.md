@@ -1,3 +1,4 @@
-### communication endpoint
+## communication endpoint
 
 <p class="c8"><span>A type of </span><span>communication network node</span><span>. It is an interface exposed by a communicating party or by a </span><span class="c2"><a class="c3" href="#h.oc2pelzel246">communication channel</a></span><span>. An example of the latter type of a communication endpoint is a </span><span>publish-subscribe</span><span>&nbsp;topic or a group in </span><span>group communication systems</span><span class="c0">.</span></p><p class="c8"><span>Source: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://en.wikipedia.org/wiki/Communication_endpoint&amp;sa=D&amp;source=editors&amp;ust=1706779842550587&amp;usg=AOvVaw3882XayFxr4vnniKgCQAsz">Wikipedia</a></span><span>.</span></p><p class="c8"><span>See also: </span><span class="c2"><a class="c3" href="#h.e787fzjepk60">ToIP endpoint</a></span><span class="c0">.</span></p>
+

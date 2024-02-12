@@ -1,3 +1,4 @@
-### establishment event
+## establishment event
 
 <h4>Definition</h4><p>A key creation or rotation event that establishes or transfers control authority for an identifier. </p><p>Establishment events indicate which key pairs are authoritative (controlling) for an identifier at a given point in time.</p><p>The subset of a <a href="key-event-log">key event log</a> (KEL) that are establishment events are an ordered subsequence of the full KEL.</p><p>For a non-transferable identifier this is one authoritative key pair and it never changes so there will only ever be one establishment event, the inception event.</p><p>For transferable identifiers there can be multiple establishment events which would include the initial rotation event and any subsequent rotation events.</p><p>Source <a href="https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-keri.md#basic-terminology">Sam Smith</a></p>
+

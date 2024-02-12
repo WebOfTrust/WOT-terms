@@ -1,3 +1,4 @@
-### expression language
+## expression language
 
 <p class="c8"><span>A language for creating a computer-interpretable representation of specific </span><span class="c2"><a class="c3" href="#h.k96lktyswxnb">knowledge</a></span><span class="c0">.</span></p><p class="c8"><span>Source: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://en.wikipedia.org/wiki/Expression_language&amp;sa=D&amp;source=editors&amp;ust=1706779842666718&amp;usg=AOvVaw2_ePPfatKQ1FnLa_r0hlKc">Wikipedia</a></span><span>.</span></p><p class="c8"><span>See also: </span><span class="c2"><a class="c3" href="#h.fsrggzqf7bjg">machine-readable governance framework</a></span><span>, </span><span class="c2"><a class="c3" href="#h.4x7tsm56oicm">machine-readable policy</a></span><span>, </span><span class="c2"><a class="c3" href="#h.swtj1fvt2gug">machine-readable rule</a></span><span class="c0">.</span></p>
+

@@ -1,3 +1,4 @@
-### audit log
+## audit log
 
 <p class="c8"><span>An audit log is a security-relevant chronological </span><span class="c2"><a class="c3" href="#h.y4ybzkfe6yzv">record</a></span><span>, set of </span><span class="c2"><a class="c3" href="#h.y4ybzkfe6yzv">records</a></span><span>, and/or destination and source of </span><span class="c2"><a class="c3" href="#h.y4ybzkfe6yzv">records</a></span><span class="c0">&nbsp;that provide documentary evidence of the sequence of activities that have affected at any time a specific operation, procedure, event, or device.</span></p><p class="c8"><span>Source: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://en.wikipedia.org/wiki/Audit_trail&amp;sa=D&amp;source=editors&amp;ust=1706779842519023&amp;usg=AOvVaw28AemqftMiuU-GktgySFB_">Wikipedia</a></span><span class="c0">.</span></p><p class="c8"><span class="c0">Also known as: audit trail.</span></p><p class="c8"><span>See also: </span><span class="c2"><a class="c3" href="#h.6jhhyjh47h">key event log</a></span><span class="c0">.</span></p>
+

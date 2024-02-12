@@ -1,3 +1,4 @@
-### dependent
+## dependent
 
 <p class="c8"><span>An </span><span class="c2"><a class="c3" href="#h.5imtbzl1f4xo">entity</a></span><span>&nbsp;for the caring for and/or protecting/guarding/defending of which a </span><span class="c2"><a class="c3" href="#h.tc250ixnd67w">guardianship arrangement</a></span><span>&nbsp;has been established with a </span><span class="c2"><a class="c3" href="#h.y3s9f56kpets">guardian</a></span><span class="c0">.</span></p><p class="c8"><span>Source: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://essif-lab.github.io/framework/docs/essifLab-glossary%23dependent&amp;sa=D&amp;source=editors&amp;ust=1706779842595765&amp;usg=AOvVaw0TM7Fak7w6GpN_lB2eKNeG">eSSIF-Lab</a></span></p><p class="c8"><span>See also: </span><span class="c2"><a class="c3" href="#h.8kx1mv7y64ps">custodian</a></span><span>.</span></p><p class="c8"><span>Mental Model: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://essif-lab.github.io/framework/docs/terms/pattern-guardianship&amp;sa=D&amp;source=editors&amp;ust=1706779842596233&amp;usg=AOvVaw1VbvN1mwC_NsqkhsbaUzzJ">eSSIF-Lab Guardianship</a></span></p>
+

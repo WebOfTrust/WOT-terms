@@ -1,3 +1,4 @@
-### verifiable
+## verifiable
 
 <h4>Definition</h4><p>able to cryptographically verify a certain data structure on its <a href="inconsistency">consistency</a> and its <a href="authenticity">authenticity</a></p><h4>KERI related</h4><p>A KEL is verifiable means all content in a KEL including the digests and the signatures on that content is verifiably compliant with respect to the KERI protocol. In other words, the KEL is internally consistent and has integrity vis-a-vis its backward and forward chaining digests and authenticity vis-a-vis its non-repudiable signatures. As a verifiable data structure, the KEL satisfies the KERI protocol-defined rules for that verifiability. This includes the cryptographic verification of any digests or signatures on the contents so digested or signed.<br>Source <a href="https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-keri.md#basic-terminology">Sam Smith</a></p>
+

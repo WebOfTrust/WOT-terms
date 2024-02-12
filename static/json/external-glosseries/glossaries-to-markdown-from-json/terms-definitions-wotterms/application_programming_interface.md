@@ -1,3 +1,4 @@
-### application programming interface
+## application programming interface
 
 <h4>Definition</h4><p>An application programming interface (API) is a way for two or more <a href="https://en.wikipedia.org/wiki/Computer_program">computer programs</a> to communicate with each other. It is a type of software <a href="https://en.wikipedia.org/wiki/Interface_(computing)">interface</a>, offering a service to other pieces of <a href="https://en.wikipedia.org/wiki/Software">software</a>. </p><h4>API specification</h4><p>A document or standard that describes how to build or use such a connection or interface is called an API specification. A computer system that meets this standard is said to implement or expose an API. The term <a href="API">API</a> may refer either to the specification or to the implementation.</p><p>More on <a href="https://en.wikipedia.org/wiki/API">source</a> Wikipedia.</p>
+
