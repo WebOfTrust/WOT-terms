@@ -1,9 +1,22 @@
 name: Fetch, Deploy KERISSE and Update Glossary
 
+
+# Triggered on push to the main branch or manual workflow dispatch.
+  # Input parameters:
+  #   - glossaryDefFile: Path to the glossary definition file. Required.
+  #   - deployBranch: Branch where the output of the script will be pushed. Optional, default is gh-pages.
+  # Commented out section for potential future use.
+  # gollum:
+  #   Comments regarding potential action for the Gollum event on wiki changes.
+  #   - gollum run on wiki-changes
+
+
 on:
+  # Triggered on push to the main branch:
   push:
     branches:
       - main
+  # Triggered on manual workflow dispatch:
   workflow_dispatch:
     inputs:
       glossaryDefFile:
@@ -14,8 +27,9 @@ on:
         required: false
         default: gh-pages
         description: This is where the output of script will be pushed to.
+  # Triggered on wiki-changes:
   # gollum:
-  # gollum run on wiki-changes
+  
 
 permissions:
   actions: write
