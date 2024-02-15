@@ -1,3 +1,6 @@
+# Summary: This GitHub Actions workflow fetches content from various external sources, updates a glossary, and deploys changes to GitHub Pages.
+
+
 name: Fetch, Deploy KERISSE and Update Glossary
 
 
@@ -38,6 +41,9 @@ permissions:
   statuses: write
 
 jobs:
+  
+  ##############################
+  ##############################
   deploy:
     name: Fetch Content and Deploy to GitHub Pages
     runs-on: ubuntu-latest
@@ -53,8 +59,6 @@ jobs:
         run: npm ci
       
       ##############################
-      # Google sheet: WOT-terms, tab: Terms-WOT-manage
-      ##############################
       - name: Import Google Sheet “WOT-terms”, tab “Terms-WOT-manage” data into markdown file
         env:
           TERMS_WOT_MANAGE_MARKDOWN: ./docs/02_overview/overview-and-context.mdx
@@ -67,8 +71,6 @@ jobs:
 
 
       ##############################
-      # Google sheet: WOT-terms, tab: LabelContent (Carbon copies)
-      ##############################
       - name: Import Google Sheet “WOT-terms”, tab “LabelContent” (Carbon copies) data into markdown file
         env:
           CARBON_COPIES_OUTPUT_DIR: ./docs/08_carbon-copies/  
@@ -79,8 +81,6 @@ jobs:
 
 
       ##############################
-      # Google sheet: WOT-terms, tab: GenericScraper
-      ##############################
       - name: Import Google Sheet “WOT-terms”, tab “GenericScraper” data into markdown file
         env:
           SEARCH_INDEX_DIR: search-index-typesense
@@ -90,8 +90,6 @@ jobs:
 
 
 
-      ##############################
-      # Clones the wiki
       ##############################
       - name: Checkout wiki
         env:
@@ -113,9 +111,11 @@ jobs:
             \"description\": \"${GLOSSARY_OVERVIEW_JSON_DESCRIPTION}.\"
             }
           }" > temp-wiki/_category_.json
+      ##############################
 
 
-      # Copies the wiki contents to the /docs/04_glossary/ directory
+
+      ##############################
       - name: Copy Wiki To Docusaurus Glossary directory
         run: |
           mkdir -p docs/04_glossary  # Create the directory if it doesn't exist
@@ -131,20 +131,15 @@ jobs:
       
       
       ##############################
-      # Create JSON from Github wiki files
-      ##############################
-      - name: Fix dashes in filenames coming from Wiki
+      - name: Create JSON from Github wiki files
         env:
           GLOSSARY_DIR: 04_glossary
           GENERATED_JSON_GLOSSARIES_DIR: ./static/json/external-glosseries/glossaries/
         run: node fetchExternalContent/fetchMentalModels/fetchWotTermsContent/fetchWotTermsContent.mjs
-
       ##############################
 
 
 
-      ##############################
-      # Fix dashes in filenames coming from Wiki
       ##############################
       - name: Fix dashes in filenames coming from Wiki
         env:
@@ -154,8 +149,6 @@ jobs:
 
 
       
-      ##############################
-      # Fetch external glossary content
       ##############################
       - name: Fetch external glossary content
         env:
@@ -167,28 +160,13 @@ jobs:
 
 
       ##############################
-      # Fix svg's created by OmniGraffle
-      ##############################
       - name: Fix svg's created by OmniGraffle
         run: node maintenance/fixOmnigraffleSvgOutput.js
       ##############################
 
 
 
-      # # CURRENTLY MANUALLY RUN 
-      # ##############################
-      # # Find broken links and create a Github issue
-      # ##############################
-      # - name: Find broken links and create a Github issue
-      #   run: node maintenance/findBrokenLinks.js
-      # ##############################
-
-
-
       ##############################
-      # Pushes the changes into the repo
-      ##############################
-
       - name: Commit and push the changes after fetching content from various external sources
         run: |
           echo "Initial status:"
@@ -217,8 +195,6 @@ jobs:
 
 
       ##############################
-      # Builds the website to /build
-      ##############################
       - name: Build website
         run: npm run build
       ##############################
@@ -226,9 +202,6 @@ jobs:
 
 
       ##############################
-      # Popular action to deploy to GitHub Pages:
-      ##############################
-      
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -244,7 +217,16 @@ jobs:
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
       ##############################
-      
+  
+  
+  
+  ##############################
+  ##############################
+  
+
+  
+  ##############################
+  ##############################
   update-glossary:
     name: Update Glossary
     needs: deploy
@@ -256,13 +238,21 @@ jobs:
           fetch-depth: 0
 
       - uses: actions/setup-python@v2.2.2
+      ##############################
 
+
+
+      ##############################
       - name: Install deps
         run: |
           git clone https://github.com/trustoverip/tt.git
           python -m pip install marko
           python -m pip install requests
+      ##############################
 
+
+
+      ##############################
       - name: Set variables
         env:
           DEFAULT_GLOSSARY_DEF_FILE: glossary.json
@@ -270,15 +260,27 @@ jobs:
         run: |
           echo "GLOSSARY_DEF_FILE=${{ github.event.inputs.glossaryDefFile || env.DEFAULT_GLOSSARY_DEF_FILE }}" >> $GITHUB_ENV
           echo "DEPLOY_BRANCH=${{ github.event.inputs.deployBranch || env.DEFAULT_DEPLOY_BRANCH }}" >> $GITHUB_ENV
+      ##############################
 
+
+
+      ##############################
       - name: Run script
         run: ./tt/bin/tt glossary ${{ env.GLOSSARY_DEF_FILE }} >glossary.html.new
+      ##############################
 
+
+
+      ##############################
       - name: Setup git config
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
+      ##############################
 
+
+
+      ##############################
       # - name: Check and delete /static/glossary.html in main if exists
       #   run: |
       #     git checkout main
@@ -288,7 +290,11 @@ jobs:
       #       git push
       #     fi
       #     git checkout ${{ env.DEPLOY_BRANCH }}
+      ##############################
 
+
+
+      ##############################
       - name: Publishing
         run: |
           git fetch origin
@@ -299,7 +305,11 @@ jobs:
           git commit -m "auto-update glossary"
           git push
           echo DONE
+      ##############################
+      
+      
 
+      ##############################
       - name: Copy glossary.html to /static/ directory of the original branch2  
         run: |
           git fetch origin
@@ -318,4 +328,9 @@ jobs:
           git diff --cached --exit-code && exit 0  # Exit if no changes in the staging area
           git commit -m "Copy glossary.html to /static/ directory"
           git push
+      ##############################
 
+
+
+  ##############################
+  ##############################
