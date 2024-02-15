@@ -1,19 +1,6 @@
 # Summary: This GitHub Actions workflow fetches content from various external sources, updates a glossary, and deploys changes to GitHub Pages.
 
-
 name: Fetch, Deploy KERISSE and Update Glossary
-
-
-# Triggered on push to the main branch or manual workflow dispatch.
-  # Input parameters:
-  #   - glossaryDefFile: Path to the glossary definition file. Required.
-  #   - deployBranch: Branch where the output of the script will be pushed. Optional, default is gh-pages.
-  # Commented out section for potential future use.
-  # gollum:
-  #   Comments regarding potential action for the Gollum event on wiki changes.
-  #   - gollum run on wiki-changes
-
-
 on:
   # Triggered on push to the main branch:
   push:
