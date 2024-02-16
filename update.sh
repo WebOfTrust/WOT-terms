@@ -55,8 +55,8 @@ rm -rf temp-wiki/.gitignore
 echo "{
   \"label\": \"${GLOSSARY_OVERVIEW_JSON_LABEL}\",
   \"link\": {
-    \"type\": \"generated-index\",
-    \"description\": \"${GLOSSARY_OVERVIEW_JSON_DESCRIPTION}.\"
+  \"type\": \"generated-index\",
+  \"description\": \"${GLOSSARY_OVERVIEW_JSON_DESCRIPTION}.\"
   }
 }" > temp-wiki/_category_.json
 
