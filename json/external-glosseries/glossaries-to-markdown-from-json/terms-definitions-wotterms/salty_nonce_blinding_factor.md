@@ -1,3 +1,4 @@
-### salty nonce blinding factor
+## salty nonce blinding factor
 
 <h4>Definition</h4><p>For ease of sharing a secret and hiding information with this secret of Blindable State TELs we use a Salty Nonce Blinding Factor. You’d like to hide the state of certain credentials to some verifiers in the future, while keeping the state verifiable for others.</p><h4>How</h4><p>A way to share the key to blind/unblind the state of a TEL is</p><ul><li><a href="https://datatracker.ietf.org/doc/html/rfc6238">HTOP, HMAC-Based One-Time Password</a></li><li><a href="https://datatracker.ietf.org/doc/html/rfc6238">Time-Based One-Time Password</a></li><li>HDKM, Hierarchical Deterministic Key Management, based on a shared master key you could split off subkeys in a predictable manner.</li></ul><p>The blinding is performed by the issuer, the issuee could request the blinding.</p><h4>Example</h4><p>I don’t want my employment states shared in the future with former possible employers.</p><h4>More info</h4><p><a href="https://github.com/trustoverip/tswg-acdc-specification/blob/main/draft-ssmith-acdc.md#blindable-state-tel">Blindable State TEL</a></p>
+

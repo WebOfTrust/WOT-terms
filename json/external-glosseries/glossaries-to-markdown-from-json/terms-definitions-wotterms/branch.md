@@ -1,3 +1,4 @@
-### branch
+## branch
 
 <h4>Definition</h4><p>In software development a &#39;branch&#39; refers to the result of branching: the duplication of an object under version control for further separate modification.</p><h4>More info on Wikipedia</h4><p>Branching, in <a href="https://en.wikipedia.org/wiki/Version_control">version control</a> and <a href="https://en.wikipedia.org/wiki/Software_configuration_management">software configuration management</a>, is the duplication of an object under version control (such as a <a href="https://en.wikipedia.org/wiki/Source_code">source code</a> file or a <a href="https://en.wikipedia.org/wiki/Directory_tree">directory tree</a>). Each object can thereafter be modified separately and in parallel so that the objects become different. In this context the objects are called branches. The users of the version control system can branch any branch.</p>
+

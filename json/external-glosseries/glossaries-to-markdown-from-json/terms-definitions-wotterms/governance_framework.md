@@ -1,3 +1,4 @@
-### governance framework
+## governance framework
 
 <h4>Definition</h4><p>Also called &#39;Governance structure&#39;. Governance frameworks are the structure of a government and reflect the interrelated relationships, factors, and other influences upon the institution. Governance frameworks structure and delineate power and the governing or <a href="https://en.wikipedia.org/wiki/Management">management</a> roles in an organization. They also set rules, procedures, and other informational guidelines.<br>More in <a href="https://en.wikipedia.org/wiki/Governance_framework">source</a> Wikipedia.</p><h4>Related to GLEIF and vLEI</h4><p>In addition, governance frameworks define, guide, and provide for enforcement of these processes. These frameworks are shaped by the goals, strategic mandates, financial incentives, and established power structures and processes of the organization.</p><p>Within GLEIF context, <em>governance frameworks</em> manifest in a document that details the requirements for vLEI credentials.</p>
+

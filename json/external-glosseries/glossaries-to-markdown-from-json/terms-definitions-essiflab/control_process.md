@@ -1,3 +1,4 @@
-### Control Process
+## Control Process
 
 a process, <a href="https://essif-lab.github.io/framework/docs/terms/owned" hovertext="Owned (by an Owner, in some Jurisdiction): an Entity over which another Entity (its Owner) has the power (duty, right) to enjoy it, dispose of it and control it; that power is limited to (the scope of) that Jurisdiction, and by its rules.">owned</a> and run by a <a href="https://essif-lab.github.io/framework/docs/terms/party" hovertext="Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.">party</a>, to ensure that a specific subset of its control <a href="https://essif-lab.github.io/framework/docs/terms/objective" hovertext="Objective: Something toward which a Party (its Owner) directs effort (an aim, goal, or end of action).">objective</a> are realized.
+

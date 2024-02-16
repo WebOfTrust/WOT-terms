@@ -1,3 +1,4 @@
-### message
+## message
 
 <p class="c8"><span class="c20 c9">A discrete unit of </span><span class="c2 c26 c9"><a class="c3" href="#h.w02a6srdng3j">communication</a></span><span class="c20 c9">&nbsp;intended by the </span><span class="c20 c9">source</span><span class="c13 c9">&nbsp;for consumption by some recipient or group of recipients.</span></p><p class="c8"><span class="c20 c9">Source: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://en.wikipedia.org/wiki/Message&amp;sa=D&amp;source=editors&amp;ust=1706779842751741&amp;usg=AOvVaw1mp2DVksHXCxMm6bYKvTHi">Wikipedia</a></span><span class="c20 c9">.</span></p><p class="c8"><span>See also: </span><span class="c2"><a class="c3" href="#h.5th2gmjr7ij">ToIP message</a></span><span>, </span><span class="c2"><a class="c3" href="#h.7zrsx7mki2fr">verifiable message</a></span><span class="c0">.</span></p>
+

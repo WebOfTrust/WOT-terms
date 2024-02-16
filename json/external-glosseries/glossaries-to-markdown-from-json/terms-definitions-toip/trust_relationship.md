@@ -1,3 +1,4 @@
-### trust relationship
+## trust relationship
 
 <p class="c8"><span>A relationship between a </span><span class="c2"><a class="c3" href="#h.cn6bno48fomj">party</a></span><span>&nbsp;and an </span><span class="c2"><a class="c3" href="#h.5imtbzl1f4xo">entity</a></span><span>&nbsp;in which the </span><span class="c2"><a class="c3" href="#h.cn6bno48fomj">party</a></span><span>&nbsp;has decided to trust the </span><span class="c2"><a class="c3" href="#h.5imtbzl1f4xo">entity</a></span><span>&nbsp;in one or more </span><span class="c2"><a class="c3" href="#h.xc1hsb1i8vdu">trust contexts</a></span><span>&nbsp;up to a </span><span class="c2"><a class="c3" href="#h.bceor3akx4ko">trust limit</a></span><span class="c0">.</span></p><p class="c8"><span>For more information, see: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://trustoverip.org/our-work/design-principles/&amp;sa=D&amp;source=editors&amp;ust=1706779842892758&amp;usg=AOvVaw1mzLzQAKQ_ANb43gtkNwvs">Design Principles for the ToIP Stack</a></span><span class="c0">.</span></p>
+

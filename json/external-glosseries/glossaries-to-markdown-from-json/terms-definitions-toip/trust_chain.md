@@ -1,3 +1,4 @@
-### trust chain
+## trust chain
 
 <p class="c8"><span>A set of </span><span class="c2"><a class="c3" href="#h.422iwwfur12">cryptographically verifiable</a></span><span>&nbsp;links between </span><span class="c2"><a class="c3" href="#h.ddna9lucn4k6">digital credentials</a></span><span>&nbsp;or other </span><span class="c2"><a class="c3" href="#h.o783ayrrkc6g">data</a></span><span>&nbsp;containers that enable </span><span class="c2"><a class="c3" href="#h.syc9o7x61rkm">transitive trust decisions</a></span><span class="c0">.</span></p><p class="c8"><span>See also: </span><span class="c2"><a class="c3" href="#h.wjc1hh3dzgc7">chained credentials</a></span><span>, </span><span class="c2"><a class="c3" href="#h.eqx98nkqjzsv">trust graph</a></span><span class="c0">.</span></p><p class="c8"><span>For more information, see: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://trustoverip.org/our-work/design-principles/&amp;sa=D&amp;source=editors&amp;ust=1706779842883707&amp;usg=AOvVaw3780lATdSyGU1C9KZrEtl7">Design Principles for the ToIP Stack</a></span><span class="c0">.</span></p>
+

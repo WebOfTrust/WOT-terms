@@ -1,3 +1,4 @@
-### likelihood
+## likelihood
 
 chance of something happening[Source: ISO Guide 73:2009]Additional notes:Note 1: In risk management terminology, the word likelihood is used to refer to the chance of something happening, whether defined, measured or determined objectively or subjectively, qualitatively or quantitatively, and described using general terms or mathematically (such as a probability or a frequency over a given time period).Note 2: The English term likelihood does not have a direct equivalent in some languages  instead, the equivalent of the term probability is often used. However, in English, probability is often narrowly interpreted as a mathematical term. Therefore, in risk management terminology, likelihood is used with the intent that it should have the same broad interpretation as the term probability has in many languages other than English.
+

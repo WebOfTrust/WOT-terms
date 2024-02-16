@@ -1,0 +1,52 @@
+{
+  "specs": [
+    {
+      "title": "ToIP Template Specification",
+      "spec_directory": "./spec",
+      "output_path": "./docs",
+      "markdown_paths": [
+  "amplification_attack.md",
+  "authenticate.md",
+  "cryptographic_suite.md",
+  "decentralized_identifier__did_.md",
+  "decentralized_identity_management.md",
+  "did_controller.md",
+  "did_delegate.md",
+  "did_document.md",
+  "did_fragment.md",
+  "did_method.md",
+  "did_path.md",
+  "did_query.md",
+  "did_resolution.md",
+  "did_resolver.md",
+  "did_scheme.md",
+  "did_subject.md",
+  "did_url.md",
+  "did_url_dereferencer.md",
+  "did_url_dereferencing.md",
+  "distributed_ledger__dlt_.md",
+  "public_key_description.md",
+  "representation.md",
+  "representation_specific_entries.md",
+  "resource.md",
+  "service_endpoint.md",
+  "services.md",
+  "uniform_resource_identifier__uri_.md",
+  "universally_unique_identifier__uuid_.md",
+  "verifiable_credential.md",
+  "verifiable_data_registry.md",
+  "verifiable_timestamp.md",
+  "verification_method.md",
+  "verification_relationship.md"
+],
+      "logo": "https://raw.githubusercontent.com/trustoverip/logo-assets/master/logos/ToIP-Logo-Color-SolidDimensional-Horizontal-LightOnDark.svg",
+      "logo_link": "https://github.com/trustoverip/specification-template",
+      "katex": true,
+      "source": {
+        "host": "github",
+        "account": "trustoverip",
+        "repo": "specification-template"
+      }
+    }
+  ]
+}

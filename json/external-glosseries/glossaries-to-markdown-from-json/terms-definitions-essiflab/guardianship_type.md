@@ -1,3 +1,4 @@
-### Guardianship-type
+## Guardianship-type
 
 a class of <a href="https://essif-lab.github.io/framework/docs/terms/guardianship-arrangement" hovertext="Guardianship Arrangement (in a Jurisdiction): a set of rights and duties between Legal Entities of the Jurisdiction that have been established and are enforced within that Jurisdiction for the purpose of caring for and/or protecting/guarding/defending one or more of these Entities.">guardianship arrangements</a> within the <a href="https://essif-lab.github.io/framework/docs/terms/jurisdiction" hovertext="Jurisdiction: the composition of a Legal System (legislation, enforcement thereof, and conflict resolution), a Party that governs that Legal System, a scope within which that Legal System is operational, and one or more Objectives for the purpose of which the Legal System is operated.">jurisdiction</a> that governs and manages them.
+

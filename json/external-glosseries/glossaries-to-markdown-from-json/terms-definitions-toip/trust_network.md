@@ -1,3 +1,4 @@
-### trust network
+## trust network
 
 <p class="c8"><span>A network of parties who are connected via </span><span class="c2"><a class="c3" href="#h.pu2asd79bqzo">trust relationships</a></span><span>&nbsp;conforming to </span><span class="c2"><a class="c3" href="#h.ajxlw8r3dvcc">requirements</a></span><span>&nbsp;defined in a legal regulation, </span><span class="c2"><a class="c3" href="#h.2r5mn949idq">trust framework</a></span><span>&nbsp;or </span><span class="c2"><a class="c3" href="#h.2x05z0r097mn">governance framework</a></span><span>. A trust network is more formal than a </span><span class="c2"><a class="c3" href="#h.h47f86smlz4y">digital trust ecosystem</a></span><span class="c0">; the latter may connect parties more loosely via transitive trust relationships and/or across multiple trust networks.</span></p><p class="c8"><span class="c0">See also: ToIP trust network.</span></p>
+

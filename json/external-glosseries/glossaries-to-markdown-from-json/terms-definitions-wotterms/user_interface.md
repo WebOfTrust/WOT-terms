@@ -1,3 +1,4 @@
-### user interface
+## user interface
 
 <h4>Definition</h4><p>A user interface (UI or U/I) is the space where interactions between humans and machines occur.</p><h4>More on Wikipedia</h4><p>The <a href="https://en.wikipedia.org/wiki/Reactable">Reactable</a>, an example of a <a href="https://en.wikipedia.org/wiki/Tangible_user_interface">tangible user interface</a>In the <a href="https://en.wikipedia.org/wiki/Industrial_design">industrial design</a> field of <a href="https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction">human–computer interaction</a>, a user interface (UI) is the space where interactions between humans and machines occur. The goal of this interaction is to allow effective operation and control of the machine from the human end, while the machine simultaneously feeds back information that aids the operators&#39; <a href="https://en.wikipedia.org/wiki/Decision-making">decision-making</a> process.<br>Source <a href="https://en.wikipedia.org/wiki/User_interface">page</a></p>
+

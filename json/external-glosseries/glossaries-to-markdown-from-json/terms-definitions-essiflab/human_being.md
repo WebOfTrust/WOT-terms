@@ -1,3 +1,4 @@
-### Human Being
+## Human Being
 
 a person of flesh and blood (homo sapiens), that we classify both as a <a href="https://essif-lab.github.io/framework/docs/terms/party" hovertext="Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.">party</a>,an <a href="https://essif-lab.github.io/framework/docs/terms/actor" hovertext="Actor: Entity that can act (do things/execute Actions), e.g. people, machines, but not Organizations.">actor</a>, and a <a href="https://essif-lab.github.io/framework/docs/terms/jurisdiction" hovertext="Jurisdiction: the composition of a Legal System (legislation, enforcement thereof, and conflict resolution), a Party that governs that Legal System, a scope within which that Legal System is operational, and one or more Objectives for the purpose of which the Legal System is operated.">jurisdiction</a>.
+

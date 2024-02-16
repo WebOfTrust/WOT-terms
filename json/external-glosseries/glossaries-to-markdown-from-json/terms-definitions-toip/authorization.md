@@ -1,3 +1,4 @@
-### authorization
+## authorization
 
 <p class="c8"><span>The process of </span><span class="c2"><a class="c3" href="#h.xfewd7t01hu0">verifying</a></span><span>&nbsp;that a requested </span><span class="c2"><a class="c3" href="#h.l54nzmooy631">action</a></span><span>&nbsp;or service is approved for a specific </span><span class="c2"><a class="c3" href="#h.5imtbzl1f4xo">entity</a></span><span class="c0">.</span></p><p class="c8"><span>Source: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://csrc.nist.gov/glossary/term/authorization&amp;sa=D&amp;source=editors&amp;ust=1706779842528734&amp;usg=AOvVaw24duqB5r69EarFwpxTKOCK">NIST-CSRC</a></span><span>.</span></p><p class="c8"><span>See also: </span><span class="c2"><a class="c3" href="#h.mnqlrmrkqb9">permission</a></span><span>.</span></p>
+

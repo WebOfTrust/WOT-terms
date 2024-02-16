@@ -1,3 +1,4 @@
-### compact variant
+## compact variant
 
 <h4>Definition</h4><p>Either a <a href="most-compact">most compact</a> version of an ACDC or the <a href="fully-compact">fully compact</a> version of an ACDC. An <a href="issuer">Issuer</a> commitment via a signature to any variant of ACDC (compact, full, etc) makes a cryptographic commitment to the top-level section fields shared by all variants of that ACDC because the value of a <a href="top-level-section">top level section field</a> is either the <a href="SAD">SAD</a> or the <a href="SAID">SAID</a> of the SAD of the associated section.</p><h4>Relation</h4><p>All the variants of an <a href="authentic-chained-data-container">ACDC</a> are various degrees of expansion of the compact variant.<br>More at <a href="https://github.com/WebOfTrust/ietf-ipex/blob/main/draft-ssmith-ipex.md">source</a></p><h4>Also see</h4><p><a href="fully-expanded">Fully (expanded)</a> version of an ACDC<br><a href="fully-compact">Fully compact(ed)</a> version of an ACDC<br><a href="most-compact">Most compact</a> version of an ACDC.</p>
+

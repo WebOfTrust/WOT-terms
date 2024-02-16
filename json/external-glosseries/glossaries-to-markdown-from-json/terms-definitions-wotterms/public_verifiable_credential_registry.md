@@ -1,3 +1,4 @@
-### public verifiable credential registry
+## public verifiable credential registry
 
 <h4>Definition</h4><p>is a form of a <a href="https://github.com/trustoverip/toip/wiki/credential-registry">Verifiable Data Registry</a> that tracks the issuance/revocation state of credentials issued by the controller of the <a href="key-event-log">KEL</a>.</p><p>Two types of TELs will be used for this purpose. The first type of <a href="transaction-event-log">TEL</a> is the <a href="management-transaction-event-log">management TEL</a> and will signal the creation of the Registry and track the list of Registrars that will act as <a href="backer">Backers</a> for the individual TELs for each <a href="verifiable-credential">VC</a>. The second type of TEL is the <a href="virtual-credential-transaction-event-log">VC TEL</a> which will track the issued or revoked state of each VC and will contain a reference to it&#39;s corresponding management TEL.</p><h4>ToIP definition</h4><p><a href="https://github.com/trustoverip/toip/wiki/credential-registry">Credential registry</a></p><h4>Why do we need this?</h4><p>| TBW  | prio2</p>
+

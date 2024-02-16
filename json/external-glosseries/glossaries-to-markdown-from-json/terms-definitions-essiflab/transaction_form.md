@@ -1,3 +1,4 @@
-### Transaction Form
+## Transaction Form
 
 the specification of the set of data that this <a href="https://essif-lab.github.io/framework/docs/terms/party" hovertext="Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.">party</a> needs to (a) commit to a (proposed) <a href="https://essif-lab.github.io/framework/docs/terms/transaction" hovertext="Transaction: the exchange of goods, services, funds, or data between some Parties (called Participants of the Transaction).">business transaction</a> of that kind, (b) fulfill its duties/<a href="https://essif-lab.github.io/framework/docs/terms/obligation" hovertext="Obligation (of a Party): an Objective that is Owned by that Party for producing a specific (set of) result(s) that are to be used (consumed) by that Party and/or other Parties.">obligation</a> and (c) escalate if necessary.
+

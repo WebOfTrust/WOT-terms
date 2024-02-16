@@ -1,3 +1,4 @@
-### owner (of an entity)
+## owner (of an entity)
 
 <p class="c8"><span>The </span><span class="c2"><a class="c3" href="#h.sf54cyuamo6x">role</a></span><span>&nbsp;that a </span><span class="c2"><a class="c3" href="#h.cn6bno48fomj">party</a></span><span>&nbsp;performs when it is exercising its legal, rightful or natural title to control a specific </span><span class="c2"><a class="c3" href="#h.5imtbzl1f4xo">entity</a></span><span class="c0">.</span></p><p class="c8"><span>Source: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://essif-lab.github.io/framework/docs/essifLab-glossary%23owner&amp;sa=D&amp;source=editors&amp;ust=1706779842768178&amp;usg=AOvVaw2C-j3rWmaUw81S0xTHIsFi">eSSIF-Lab</a></span><span class="c0">.</span></p><p class="c8"><span>See also: </span><span class="c2"><a class="c3" href="#h.gemoqe2m303z">controller</a></span><span class="c0">.</span></p>
+

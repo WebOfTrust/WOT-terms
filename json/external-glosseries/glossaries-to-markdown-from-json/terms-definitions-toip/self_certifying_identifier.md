@@ -1,3 +1,4 @@
-### self-certifying identifier
+## self-certifying identifier
 
 <p class="c8"><span>A subclass of </span><span class="c2"><a class="c3" href="#h.wyda231qefe">verifiable identifier</a></span><span>&nbsp;that is </span><span class="c2"><a class="c3" href="#h.422iwwfur12">cryptographically verifiable</a></span><span>&nbsp;without the need to rely on any </span><span class="c2"><a class="c3" href="#h.zu2vj8151tr">third party</a></span><span>&nbsp;for </span><span class="c2"><a class="c3" href="#h.2bnb6g8na7cu">verification</a></span><span>&nbsp;because the </span><span class="c2"><a class="c3" href="#h.u3bfehmj4ed3">identifier</a></span><span>&nbsp;is cryptographically bound to the </span><span class="c2"><a class="c3" href="#h.53rzpn1yn6q7">cryptographic keys</a></span><span class="c0">&nbsp;from which it was generated.</span></p><p class="c8"><span>Also known as: </span><span class="c2"><a class="c3" href="#h.bz098kwwc559">autonomous identifier</a></span><span class="c0">.</span></p>
+

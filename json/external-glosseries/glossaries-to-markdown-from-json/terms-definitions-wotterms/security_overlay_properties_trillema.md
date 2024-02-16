@@ -1,3 +1,4 @@
-### security overlay properties trillema
+## security overlay properties trillema
 
 <h4>Definition</h4><p>An identifier system has some degree of any combination of the three properties <a href="authenticity">authenticity</a>, <a href="privacy">privacy</a> and <a href="confidentiality">confidentiality</a>, but not all three completely.</p><h4>Why a trillema?</h4><p>The reason a system may not provide all three completely is that no single cryptographic operation provides all three properties.<br>As a result any cryptographic system must layer the operations. But layering exposes weaknesses due to the separation between the layers. Because no single layer can exhibit all three properties, one must pick one or two properties for the bottom layer and then layer on top the remaining property or properties on one or more layers.<br>Source: Universal Identifier Theory by Samuel Smith</p><p><img src="https://github.com/weboftrust/WOT-terms/static/img/Trilemma-of-Identifier-System-Properties.png" alt="Trilemma of Identifier System Properties"></p>
+

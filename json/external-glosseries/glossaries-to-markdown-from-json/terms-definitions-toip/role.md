@@ -1,3 +1,4 @@
-### role
+## role
 
 <p class="c8"><span>A defined set of characteristics that an </span><span class="c2"><a class="c3" href="#h.5imtbzl1f4xo">entity</a></span><span>&nbsp;has in some context, such as </span><span>responsibilities</span><span>&nbsp;it may have, </span><span class="c2"><a class="c3" href="#h.l54nzmooy631">actions</a></span><span>&nbsp;(behaviors) it may execute, or pieces of </span><span class="c2"><a class="c3" href="#h.k96lktyswxnb">knowledge</a></span><span>&nbsp;that it is expected to have in that context, which are referenced by a specific </span><span>role name</span><span class="c0">.</span></p><p class="c8"><span>Source: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://essif-lab.github.io/framework/docs/essifLab-glossary%23role&amp;sa=D&amp;source=editors&amp;ust=1706779842814548&amp;usg=AOvVaw1yPxpIrmlJVsk41no6tEuD">eSSIF-Lab</a></span></p>
+

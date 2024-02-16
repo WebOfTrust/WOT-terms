@@ -1,3 +1,4 @@
-### software agent
+## software agent
 
 <p class="c8"><span>In </span><span>computer science</span><span>, a software agent is a computer program that acts for a user or other program in a relationship of </span><span class="c23">agency</span><sup><a href="#cmnt4" id="cmnt_ref4">[d]</a></sup><span>, which derives from the </span><span>Latin</span><span>&nbsp;agere (to do): an agreement to act on one's behalf. A </span><span class="c2"><a class="c3" href="#h.jb61co23rlut">user agent</a></span><span>&nbsp;is a specific type of software agent that is used directly by an end-user as the </span><span class="c2"><a class="c3" href="#h.sydbe7rk6244">principal</a></span><span class="c0">.</span></p><p class="c8"><span>Source: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://en.wikipedia.org/wiki/Software_agent&amp;sa=D&amp;source=editors&amp;ust=1706779842829815&amp;usg=AOvVaw2fTaGExnn_PjTaxjKapwBa">Wikipedia</a></span><span class="c0">.</span></p><p class="c8"><span>See also: </span><span class="c2"><a class="c3" href="#h.z3ugzt4hgdf6">digital agent</a></span><span class="c0">.</span></p>
+

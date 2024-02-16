@@ -1,3 +1,4 @@
-### autonomic trust basis
+## autonomic trust basis
 
 <h4>Definition</h4><p>When use an <a href="AID">AID</a> as the <a href="root-of-trust">root-of-trust</a> we form a so-called <em>autonomic trust basis</em>. This is diagrammed as follows:</p><p><img src="https://github.com/weboftrust/WOT-terms/static/img/autonomic-trust-basis.png" alt=""> </p><h4>Other trust bases</h4><p>Two other trust bases are in common use for identifier systems. One we call <em>algorithmic</em>, the other is . </p><p>An algorithmic trust basis relies on some network of nodes running some type of Byzantine fault tolerant totally ordering distributed consensus algorithm for its root-of-trust. These networks are more commonly known as a shared ledger or blockchain such as Bitcoin, Ethereum, or Sovrin</p><p>The other commonly used trust basis in identifier systems is an <em>administrative</em> or organizational <em>trust basis</em>, i.e. a trusted entity. This is neither <a href="security">secure</a> nor <a href="decentralized-identifier">decentralized</a>.</p>
+

@@ -1,3 +1,4 @@
-### non-custodial wallet
+## non-custodial wallet
 
 <p class="c8"><span>A </span><span class="c2"><a class="c3" href="#h.sxnvf3f5v156">digital wallet</a></span><span>&nbsp;that is directly in the control of the </span><span class="c2"><a class="c3" href="#h.64mptmm24w7u">holder</a></span><span>, usually because the holder is the </span><span class="c2"><a class="c3" href="#h.tf0m8u61wh87">device controller</a></span><span>&nbsp;of the device hosting the </span><span class="c2"><a class="c3" href="#h.sxnvf3f5v156">digital wallet</a></span><span>&nbsp;(smartcard, smartphone, tablet, laptop, desktop, car, etc.) A </span><span class="c2"><a class="c3" href="#h.sxnvf3f5v156">digital wallet</a></span><span>&nbsp;that is in the custody of a </span><span class="c2"><a class="c3" href="#h.zu2vj8151tr">third party</a></span><span>&nbsp;is called a </span><span class="c2"><a class="c3" href="#h.5qanwm5930bp">custodial wallet</a></span><span class="c0">.</span></p>
+

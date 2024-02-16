@@ -1,3 +1,4 @@
-### Guardianship Arrangement
+## Guardianship Arrangement
 
 guardianship Arrangement (in a Jurisdiction): the specification of a set of rights and duties between <a href="https://essif-lab.github.io/framework/docs/terms/legal-entity" hovertext="Legal Entity (of a Jurisdiction): an Entity that is known by, recognized to exist, and registered in that Jurisdiction.">legal entities</a> of the <a href="https://essif-lab.github.io/framework/docs/terms/jurisdiction" hovertext="Jurisdiction: the composition of a Legal System (legislation, enforcement thereof, and conflict resolution), a Party that governs that Legal System, a scope within which that Legal System is operational, and one or more Objectives for the purpose of which the Legal System is operated.">jurisdiction</a> that enforces these rights and duties, for the purpose of caring for and/or protecting/guarding/defending one or more of these <a href="https://essif-lab.github.io/framework/docs/terms/legal-entity" hovertext="Legal Entity (of a Jurisdiction): an Entity that is known by, recognized to exist, and registered in that Jurisdiction.">entities</a>.
+

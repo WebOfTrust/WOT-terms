@@ -1,3 +1,4 @@
-### Transaction Proposal
+## Transaction Proposal
 
 a <a href="https://essif-lab.github.io/framework/docs/terms/transaction-agreement" hovertext="Transaction Agreement (for a specific Business Transaction): the set of rules that specify the rights (Expectations) and duties (Obligations) of Participants towards one another in the context of a specific Business Transaction.">transaction agreement</a> that is 'in-the-making' (ranging from an empty document to a document that would be a <a href="https://essif-lab.github.io/framework/docs/terms/transaction-agreement" hovertext="Transaction Agreement (for a specific Business Transaction): the set of rules that specify the rights (Expectations) and duties (Obligations) of Participants towards one another in the context of a specific Business Transaction.">transaction agreement</a> if it were signed by all <a href="https://essif-lab.github.io/framework/docs/terms/participant" hovertext="Participant (in/of a Transaction): a Party is negotiating (or has negotiated) a Transaction Agreement.">participant</a>).
+

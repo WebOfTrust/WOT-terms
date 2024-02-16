@@ -1,3 +1,4 @@
-### primitive
+## primitive
 
 <h4>Definition</h4><p>In general in computing a &#39;primitive&#39; is the simplest type of programming language item. It may also refer to the smallest processing unit accessible by a programmer.<br><a href="https://www.techopedia.com/definition/3860/primitive">Source</a></p><h4>Cryptographic primitive</h4><p>See <a href="cryptographic-primitive">Cryptographic primitive</a></p><h4>KERI related</h4><p>In KERI and ACDC it a serialization of a unitary value. A <a href="cryptographic-primitive">cryptographic primitive</a> is the KERI-suite sense is the serialization of a value associated with a cryptographic operation including but not limited to a digest (hash), a salt, a seed, a private key, a public key, or a signature. All primitives in KERI MUST be expressed in <a href="composable-event-streaming-representation">CESR</a>.</p>
+

@@ -1,3 +1,4 @@
-### pseudonym
+## pseudonym
 
 <p class="c8"><span>A pseudonym is a fictitious name that a </span><span class="c2"><a class="c3" href="#h.yx4qb6dcjdvj">person</a></span><span>&nbsp;assumes for a particular purpose, which differs from their original or true name (</span><span>orthonym</span><span>). This also differs from a new name that entirely or legally replaces an individual's own. Many pseudonym </span><span class="c2"><a class="c3" href="#h.64mptmm24w7u">holders</a></span><span>&nbsp;use pseudonyms because they wish to remain </span><span class="c2"><a class="c3" href="#h.95pnj4tchl4m">anonymous</a></span><span class="c0">, but anonymity is difficult to achieve and often fraught with legal issues.</span></p><p class="c8"><span>Source: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://en.wikipedia.org/wiki/Pseudonym&amp;sa=D&amp;source=editors&amp;ust=1706779842790046&amp;usg=AOvVaw1SrWOLqdTqq_1QrIsCAXEQ">Wikipedia</a></span><span class="c0">.</span></p>
+

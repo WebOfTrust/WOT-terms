@@ -1,3 +1,4 @@
-### node
+## node
 
 <p class="c8"><span>In </span><span>telecommunications networks</span><span>, a node (</span><span>Latin</span><span>: nodus, ‘knot’) is either a redistribution point or a </span><span class="c2"><a class="c3" href="#h.qstkv072p5tx">communication endpoint</a></span><span>. The definition of a node depends on the network and </span><span class="c2"><a class="c3" href="#h.pe8dekl2dtq0">protocol layer</a></span><span>&nbsp;referred to. A physical network node is an electronic device that is attached to a network, and is capable of creating, receiving, or transmitting information over a </span><span class="c2"><a class="c3" href="#h.oc2pelzel246">communication channel</a></span><span class="c0">.</span></p><p class="c8"><span>Source: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://en.wikipedia.org/wiki/Node_(networking)&amp;sa=D&amp;source=editors&amp;ust=1706779842760852&amp;usg=AOvVaw2kAfyaqCBmdILmuIFr9V4t">Wikipedia</a></span><span class="c0">.</span></p>
+

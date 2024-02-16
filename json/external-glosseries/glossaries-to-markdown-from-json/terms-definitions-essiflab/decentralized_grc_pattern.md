@@ -1,3 +1,4 @@
-### Decentralized GRC Pattern
+## Decentralized GRC Pattern
 
 a set of <a href="https://essif-lab.github.io/framework/docs/terms/concept" hovertext="Concept: the ideas/thoughts behind a classification of Entities (what makes Entities in that class 'the same').">concepts</a> and other <a href="https://tno-terminology-design.github.io/tev2-specifications/docs/terms/semantic-unit" hovertext="a basic building block of meaning or representation that exists within the 'mind' of a party, e.g., a concept, relation, or property. Parties use terms (words/phrases) to refer to these intangible building blocks.">semantic units</a> that can be used to explain one's thinking about topics related to Governance, Risk management and Compliance (GRC) in a decentralized context, i.e., a context in which <a href="https://essif-lab.github.io/framework/docs/terms/party" hovertext="Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.">parties</a> all autonomously do their own GRC.
+

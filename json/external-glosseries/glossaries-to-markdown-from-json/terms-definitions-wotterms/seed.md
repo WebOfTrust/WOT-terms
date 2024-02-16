@@ -1,3 +1,4 @@
-### seed
+## seed
 
 <h4>Definition</h4><p>In cryptography a &#39;seed&#39; is a <em>pseudorandomly</em> generated number, often expressed in representation of a series of words.<br>Paraphrased from <a href="https://en.wikipedia.org/wiki/Random_seed">wikipedia</a></p><h4>Example 24-word seed</h4><pre><code>broken toddler farm argue elder behind sea ramp cake rabbit renew option combine guilt inflict sentence what desert manage angry manual grit copy hundred</code></pre><p>Test <a href="https://iancoleman.io/bip39/">here</a> yourself.</p><h4>Pseudorandom is not exactly random</h4><p>Although sequences that are closer to truly random can be generated using <a href="https://en.wikipedia.org/wiki/Hardware_random_number_generator">hardware random number generators</a>, pseudorandom number generators are important in practice for their speed in number generation and their reproducibility.<br>Source <a href="https://en.wikipedia.org/wiki/Pseudorandom_number_generator">wikipedia</a></p>
+

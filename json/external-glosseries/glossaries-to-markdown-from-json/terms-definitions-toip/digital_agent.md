@@ -1,3 +1,4 @@
-### digital agent
+## digital agent
 
 <p class="c8"><span>In the context of ​​decentralized digital trust infrastructure, an </span><span class="c2"><a class="c3" href="#h.6xkhfkjpo6xg">agent</a></span><span>&nbsp;(specifically a type of </span><span class="c2"><a class="c3" href="#h.qv9e403ohhxe">software agent</a></span><span>) that operates in conjunction with a </span><span class="c2"><a class="c3" href="#h.sxnvf3f5v156">digital wallet</a></span><span class="c0">.</span></p><p class="c8"><span>Note: In a ToIP context, a digital agent is frequently assumed to have privileged access to the </span><span class="c2"><a class="c3" href="#h.sxnvf3f5v156">digital wallet</a></span><span>(s) of its principal. In market parlance, a mobile app that performs the </span><span class="c2"><a class="c3" href="#h.l54nzmooy631">actions</a></span><span>&nbsp;of a digital agent is often simply called a </span><span class="c2"><a class="c3" href="#h.mh27630t20d">wallet</a></span><span>&nbsp;or a </span><span class="c2"><a class="c3" href="#h.sxnvf3f5v156">digital wallet</a></span><span class="c0">.</span></p>
+

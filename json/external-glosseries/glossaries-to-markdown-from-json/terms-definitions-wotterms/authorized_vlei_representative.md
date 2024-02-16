@@ -1,3 +1,4 @@
-### authorized vlei representative
+## authorized vlei representative
 
 <h4>Definition</h4><p>Also &#39;AVR&#39;. This a representative of a Legal Entity that are authorized by the <a href="DAR">DAR</a> of a Legal Entity to request issuance and revocation of:</p><ul><li>vLEI Legal Entity Credentials</li><li>Legal Entity Official Organizational Role vLEI Credentials (<a href="official-organizational-role">OOR</a> vLEI Credentials)</li><li>Legal Entity Engagement Context Role vLEI Credentials (<a href="engagement-context-role">ECR</a> vLEI Credentials).</li></ul><p>Paraphrased by @henkvancann from <a href="https://www.gleif.org/vlei/introducing-the-vlei-ecosystem-governance-framework/2022-02-07_verifiable-lei-vlei-ecosystem-governance-framework-glossary-draft-publication_v0.9-draft.pdf">source</a> Draft vLEI Ecosystem Governance Framework Glossary.</p>
+

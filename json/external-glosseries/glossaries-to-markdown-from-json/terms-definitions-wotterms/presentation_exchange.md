@@ -1,3 +1,4 @@
-### presentation exchange
+## presentation exchange
 
 <h4>Definition</h4><p>An exchange that provides disclosure of one or more <a href="authentic-chained-data-container">ACDC</a>s between a Discloser and a Disclosee.</p><p>A presentation exchange is the process by which <a href="authenticity">authenticatable</a> information may be exchanged between two parties, namely, the <a href="discloser">Discloser</a> and <a href="disclosee">Disclosee</a>.</p><h4>Rule</h4><p>Each ACDC MUST have an <a href="issuer">Issuer</a> and MAY have an <a href="issuee">Issuee</a>. The set of <a href="ACDC">ACDC</a>s so disclosed in a presentation exchange MUST be chained. This set of chained ACDCs define a <a href="directed-acyclic-graph">directed acyclic graph</a> that MUST have at least one vertex and MAY have zero or more edges pointing to other vertices.</p>
+
