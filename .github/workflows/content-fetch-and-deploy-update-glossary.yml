@@ -120,16 +120,6 @@ jobs:
       
       
       ##############################
-      - name: Create JSON from Github wiki files
-        env:
-          GLOSSARY_DIR: 04_glossary
-          GENERATED_JSON_GLOSSARIES_DIR: ./static/json/external-glosseries/glossaries/
-        run: node fetchExternalContent/fetchMentalModels/fetchWotTermsContent/fetchWotTermsContent.mjs
-      ##############################
-
-
-
-      ##############################
       - name: Fix dashes in filenames coming from Wiki
         env:
           GLOSSARY_DIR: 04_glossary
