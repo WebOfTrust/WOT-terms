@@ -12,5 +12,7 @@ node fetchExternalContent/fetchMentalModels/fetchToipDidWebs/fetchToipDidWebs.mj
 
 node fetchExternalContent/fetchMentalModels/fetchW3cDid/fetchW3cDid.mjs
 
+node fetchExternalContent/fetchMentalModels/fetchWotTermsContent/fetchWotTermsContent.mjs
+
 # Combine glossaries
 node fetchExternalContent/fetchMentalModels/combineGlossaries.mjs
