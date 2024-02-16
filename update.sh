@@ -60,6 +60,10 @@ echo "{
   }
 }" > temp-wiki/_category_.json
 
+echo "temp-wiki/_category_.json :"
+
+cat temp-wiki/_category_.json
+
 # Step 2: Copy Wiki To Docusaurus Glossary directory
 # Create the directory if it doesn't exist
 mkdir -p docs/${GLOSSARY_DIR}
