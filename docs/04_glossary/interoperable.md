@@ -1,3 +1,0 @@
-# interoperable
-## See
-[Interoperability](interoperability)

@@ -1,3 +1,0 @@
-# Intro
-
-Lorem ipsum
