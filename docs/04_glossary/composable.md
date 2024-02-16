@@ -1,3 +1,0 @@
-# composable
-## See
-[Composability](composable)
