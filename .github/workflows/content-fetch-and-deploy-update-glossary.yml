@@ -122,8 +122,9 @@ jobs:
       ##############################
       - name: Fetch external glossary content
         env:
+          GLOSSARY_DIR: 04_glossary
           GENERATED_JSON_GLOSSARIES_DIR: ./static/json/external-glosseries/glossaries/
-          GENERATED_JSON_GLOSSARIES_COMBINED_DIR: ./static/json/external-glosseries/glossaries-combined/
+          GENERATED_JSON_GLOSSARIES_COMBINED_DIR: ./static/json/external-glosseries/
         run: sh fetchExternalContent/fetchMentalModels/main.sh
       ##############################
 
