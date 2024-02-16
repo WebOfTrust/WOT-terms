@@ -47,101 +47,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
       
-      ##############################
-      - name: Import Google Sheet “WOT-terms”, tab “Terms-WOT-manage” data into markdown file
-        env:
-          TERMS_WOT_MANAGE_MARKDOWN: ./docs/02_overview/overview-and-context.mdx
-          TERMS_WOT_MANAGE_JSON_DIR_NAME: ./static/json/
-          TERMS_WOT_MANAGE_JSON_FILE_NAME: overview.json
-          TERMS_WOT_MANAGE_JSON_ENDPOINT: ${{ secrets.TERMS_WOT_MANAGE_JSON_ENDPOINT }}
-        run: node fetchExternalContent/fetchTermsWOTmanage/fetchTermsWOTmanage.mjs
-      ##############################
-
 
 
       ##############################
-      - name: Import Google Sheet “WOT-terms”, tab “LabelContent” (Carbon copies) data into markdown file
-        env:
-          CARBON_COPIES_OUTPUT_DIR: ./docs/08_carbon-copies/  
-          CARBON_COPIES_INPUT_DIR: ./static/json/externalContentMetaData.json
-        run: sh fetchExternalContent/fetchCarbonCopies/main.sh
-      ##############################
-
-
-
-      ##############################
-      - name: Import Google Sheet “WOT-terms”, tab “GenericScraper” data into markdown file
-        env:
-          SEARCH_INDEX_DIR: search-index-typesense
-          GENERIC_SCRAPER_JSON_ENDPOINT: ${{ secrets.GENERIC_SCRAPER_JSON_ENDPOINT }}
-        run: node fetchExternalContent/fetchSingleUrlsFromWotTermsGoogleSheet/fetchSingleUrlsFromWotTermsGoogleSheet.js
-      ##############################
-
-
-
-      ##############################
-      - name: Checkout wiki
-        env:
-          GLOSSARY_OVERVIEW_JSON_LABEL: Glossary
-          GLOSSARY_OVERVIEW_JSON_DESCRIPTION: Web of Trust Glossary
-
-        run: |
-          git clone https://github.com/WebOfTrust/WOT-terms.wiki.git temp-wiki
-          
-          # remove the .git folder
-          rm -rf temp-wiki/.git
-          rm -rf temp-wiki/.gitignore
-
-          # Create a file in temp-wiki/ called ”_category_.json”
-          echo "{
-            \"label\": \"${GLOSSARY_OVERVIEW_JSON_LABEL}\",
-            \"link\": {
-            \"type\": \"generated-index\",
-            \"description\": \"${GLOSSARY_OVERVIEW_JSON_DESCRIPTION}.\"
-            }
-          }" > temp-wiki/_category_.json
-      ##############################
-
-
-
-      ##############################
-      - name: Copy Wiki To Docusaurus Glossary directory
-        run: |
-          mkdir -p docs/04_glossary  # Create the directory if it doesn't exist
-          
-          # Copy all new and updated files from temp-wiki/ to docs/04_glossary/
-          # Delete any files in docs/04_glossary/ that do not exist in temp-wiki/
-          rsync -a --delete --exclude='.gitignore' temp-wiki/ docs/04_glossary/
-
-          # The /temp-wiki directory is not needed anymore
-          rm -rf temp-wiki/  # Remove the /temp-wiki directory
-      ##############################
-
-      
-      
-      ##############################
-      - name: Fetch external glossary content
-        env:
-          GLOSSARY_DIR: 04_glossary
-          GENERATED_JSON_GLOSSARIES_DIR: ./static/json/external-glosseries/glossaries/
-          GENERATED_JSON_GLOSSARIES_COMBINED_DIR: ./static/json/external-glosseries/
-        run: sh fetchExternalContent/fetchMentalModels/main.sh
-      ##############################
-
-
-
-      ##############################
-      - name: Fix dashes in filenames coming from Wiki
-        env:
-          GLOSSARY_DIR: 04_glossary
-        run: node maintenance/fixDashInWikiCopyFilenames.js
-      ##############################
-
-
-
-      ##############################
-      - name: Fix svg's created by OmniGraffle
-        run: node maintenance/fixOmnigraffleSvgOutput.js
+      - name: Various content update scripts
+        run: sh update.sh
       ##############################
 
 
