@@ -41,14 +41,6 @@ node  fetchExternalContent/fetchSingleUrlsFromWotTermsGoogleSheet/fetchSingleUrl
 
 
 ##############################
-# Fetch external glossary content
-##############################
-sh  fetchExternalContent/fetchMentalModels/main.sh
-##############################
-
-
-
-##############################
 # Clones the wiki
 ##############################
 
@@ -84,10 +76,11 @@ rm -rf temp-wiki/
 
 
 
+
 ##############################
-# Create JSON from Github wiki files
+# Fetch external glossary content
 ##############################
-node fetchExternalContent/fetchMentalModels/fetchWotTermsContent/fetchWotTermsContent.mjs
+sh  fetchExternalContent/fetchMentalModels/main.sh
 ##############################
 
 
