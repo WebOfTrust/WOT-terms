@@ -120,20 +120,20 @@ jobs:
       
       
       ##############################
-      - name: Fix dashes in filenames coming from Wiki
-        env:
-          GLOSSARY_DIR: 04_glossary
-        run: node maintenance/fixDashInWikiCopyFilenames.js
-      ##############################
-
-
-      
-      ##############################
       - name: Fetch external glossary content
         env:
           GENERATED_JSON_GLOSSARIES_DIR: ./static/json/external-glosseries/glossaries/
           GENERATED_JSON_GLOSSARIES_COMBINED_DIR: ./static/json/external-glosseries/glossaries-combined/
         run: sh fetchExternalContent/fetchMentalModels/main.sh
+      ##############################
+
+
+
+      ##############################
+      - name: Fix dashes in filenames coming from Wiki
+        env:
+          GLOSSARY_DIR: 04_glossary
+        run: node maintenance/fixDashInWikiCopyFilenames.js
       ##############################
 
 
