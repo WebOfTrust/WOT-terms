@@ -1,3 +1,0 @@
-## Definition
-
-personally identifiable information

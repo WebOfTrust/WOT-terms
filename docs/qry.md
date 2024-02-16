@@ -1,2 +1,0 @@
-## Definition
-qry = query
