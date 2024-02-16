@@ -120,6 +120,20 @@
   {
     "organisation": "ToIP (DID:Webs)",
     "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+    "term": "DID resolution metadata",
+    "definition": "DID resolution metadata is metadata about the DID Resolution process that was performed in order to obtain the DID document for a given DID. See also DID Resolution Metadata in the DID Core specification.",
+    "anchor": "DIDresolutionmetadata"
+  },
+  {
+    "organisation": "ToIP (DID:Webs)",
+    "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
+    "term": "DID document metadata",
+    "definition": "DID document metadata is metadata about the DID and the DID document that is the result of the DID Resolution process. See also DID Document Metadata in the DID Core specification.",
+    "anchor": "DIDdocumentmetadata"
+  },
+  {
+    "organisation": "ToIP (DID:Webs)",
+    "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
     "term": "direct mode",
     "definition": "an operational mode of the KERI protocol where a controller and a verifier of an AID exchange the KEL of the AID directly, as defined by the KERI whitepaper. See WebOfTrust glossary for more detail.",
     "anchor": "directmode",
