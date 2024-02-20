@@ -6,7 +6,7 @@
 source ".env"
 
 ##############################
-# Google sheet: WOT-terms, tab: Terms-WOT-manage
+# Update Google sheet: WOT-terms, tab: Terms-WOT-manage
 ##############################
 
 # Fetches data from WOT-terms (Google sheet) and generates an overview file that takes all the terms and their definitions and puts them into a single file. 
@@ -17,7 +17,7 @@ node fetchExternalContent/fetchTermsWOTmanage/fetchTermsWOTmanage.mjs
 
 
 ##############################
-# Google sheet: WOT-terms, tab: LabelContent (Carbon copies)
+# Update Google sheet: WOT-terms, tab: LabelContent (Carbon copies)
 ##############################
 
 # Fetches and copies external websites based on the URLs in the Google sheet "WOT-terms", tab "LabelContent"  
@@ -32,7 +32,7 @@ sh  fetchExternalContent/fetchCarbonCopies/main.sh
 
 
 ##############################
-# Google sheet: WOT-terms, tab: GenericScraper
+# Update Google sheet: WOT-terms, tab: GenericScraper
 ##############################
 
 node  fetchExternalContent/fetchSingleUrlsFromWotTermsGoogleSheet/fetchSingleUrlsFromWotTermsGoogleSheet.js
@@ -41,7 +41,7 @@ node  fetchExternalContent/fetchSingleUrlsFromWotTermsGoogleSheet/fetchSingleUrl
 
 
 ##############################
-# Clones the wiki
+# Clone the wiki
 ##############################
 
 # Step 1: Checkout wiki
