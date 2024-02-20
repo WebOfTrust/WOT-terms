@@ -61,6 +61,11 @@ rsync -a --delete --exclude='.gitignore' temp-wiki/ docs/${GLOSSARY_DIR}
 # Step 3: Cleanup
 # The /temp-wiki directory is not needed anymore
 rm -rf temp-wiki/
+
+# Step 4: Fixes
+echo "Fix dashes in filenames coming from Wiki"
+
+node maintenance/fixDashInWikiCopyFilenames.js
 ##############################
 
 
@@ -68,13 +73,6 @@ rm -rf temp-wiki/
 echo "Fetch external glossary content"
 
 sh  fetchExternalContent/fetchMentalModels/main.sh
-##############################
-
-
-##############################
-echo "Fix dashes in filenames coming from Wiki"
-
-node maintenance/fixDashInWikiCopyFilenames.js
 ##############################
 
 
