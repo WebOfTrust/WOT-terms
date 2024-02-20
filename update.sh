@@ -6,7 +6,7 @@
 source ".env"
 
 ##############################
-# Update Google sheet: WOT-terms, tab: Terms-WOT-manage
+echo "Update Google sheet: WOT-terms, tab: Terms-WOT-manage"
 ##############################
 
 # Fetches data from WOT-terms (Google sheet) and generates an overview file that takes all the terms and their definitions and puts them into a single file. 
@@ -17,7 +17,7 @@ node fetchExternalContent/fetchTermsWOTmanage/fetchTermsWOTmanage.mjs
 
 
 ##############################
-# Update Google sheet: WOT-terms, tab: LabelContent (Carbon copies)
+echo "Update Google sheet: WOT-terms, tab: LabelContent (Carbon copies)"
 ##############################
 
 # Fetches and copies external websites based on the URLs in the Google sheet "WOT-terms", tab "LabelContent"  
@@ -32,7 +32,7 @@ sh  fetchExternalContent/fetchCarbonCopies/main.sh
 
 
 ##############################
-# Update Google sheet: WOT-terms, tab: GenericScraper
+echo "Update Google sheet: WOT-terms, tab: GenericScraper"
 ##############################
 
 node  fetchExternalContent/fetchSingleUrlsFromWotTermsGoogleSheet/fetchSingleUrlsFromWotTermsGoogleSheet.js
@@ -41,7 +41,7 @@ node  fetchExternalContent/fetchSingleUrlsFromWotTermsGoogleSheet/fetchSingleUrl
 
 
 ##############################
-# Clone the wiki
+echo "Clone the wiki"
 ##############################
 
 # Step 1: Checkout wiki
@@ -78,7 +78,7 @@ rm -rf temp-wiki/
 
 
 ##############################
-# Fetch external glossary content
+echo "Fetch external glossary content"
 ##############################
 sh  fetchExternalContent/fetchMentalModels/main.sh
 ##############################
@@ -86,7 +86,7 @@ sh  fetchExternalContent/fetchMentalModels/main.sh
 
 
 ##############################
-# Fix dashes in filenames coming from Wiki
+echo "Fix dashes in filenames coming from Wiki"
 ##############################
 node maintenance/fixDashInWikiCopyFilenames.js
 ##############################
@@ -96,14 +96,14 @@ node maintenance/fixDashInWikiCopyFilenames.js
 ##############################
 # Fix svg's created by OmniGraffle
 ##############################
-# Fix svg's created by OmniGraffle
+echo "Fix svg's created by OmniGraffle"
 node maintenance/fixOmnigraffleSvgOutput.js
 ##############################
 
 
 # # CURRENTLY MANUALLY RUN 
 # ##############################
-# # Find broken links and create a Github issue
+# echo "Find broken links and create a Github issue"
 # ##############################
 # - name: Find broken links and create a Github issue
 #   run: node maintenance/findBrokenLinks.js
