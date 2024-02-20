@@ -529,6 +529,45 @@ It is possible to have less restrictive outgoing than incoming or have multiple 
 
 ---
 
+## \*\*Q: I am just trying to understand the mechanism here, are all AIDs derived from one root private key?
+*AIDs are identifiers.  Identity may comprise multiple identifiers.  So that kind of transfer can always be enacted if the controller controls both AIDs in the trivial sense (ie sign a proof of the old AID with a new AID and rotate the old AID KEL to null keys)*
+*I mean the prefix would be generated with the use of a salt which would generate a private key, and each peer has one identifier prefix, wouldnt that generated private key become sorta a root private key?*
+
+Phil Feairheller — 14/02/2024 18:18
+Keys are generated first, using any of the methods described above.  So you can have one or multiple private keys and those private keys can each be generated deterministically (using a salt), randomly or contained in a TEE.  Then the public keys are derived from the private keys.  The same process is followed for the pre-rotated next keys (however many you want).
+
+You then take the public signing keys (first set), digests (currently Blake3) of the pre-rotated keys (second set) and combine them with configuration information into an "inception event".  That inception event includes the signing and rotation thresholds, witness AIDs and witness threshold and other configuration information (do-not-delegate, establishment only) and is created as either a JSON, MsgPack or CBOR serialization.   You then pad out the d and the i field of the inception event and create a digest (cryptographically agile, so your choice) of that inception event serialization.  You then replace the padding of the d and i field with the digest and you have your inception event.  Also, the digest (called a SAID in KERI) is your Autonomic Identifier or AID.  It has the special properties that it is cryptographically bound (through the hash algorithm) to your first set of signing and rotation keys and it has an "unbounded term".  That means that, because you have created pre-rotated keys, you can rotate to new keys and the identifier survives.  It is not "bound" by the term of the public keys.  In this way we have solved the major problems of current PKI...  cryptographic binding of the AID to the keys and secure key rotation. 
+
+```mermaid
+flowchart TD
+%% Henk van Cann, Feb 15th 2024
+  A["entropy 🎲"];B[random];C["salt 🧂"];D["TEE 💻"];
+  E["priv key 🙈"]; F["publ key 👁️"]; G["signing 🔑"]; H["pre-rotated 🔑"]
+  I["digest 📩"]; J["config info 📝"]; K["SCI KEL"]; L["SAID"]
+  M["SAID KEL ⛓️"]
+subgraph one[Key generation]
+    A -.-> B & C & D
+    B --> |"Either"|E
+    C & D --> |"or"|E
+    E --> |derive| F
+    end
+    one -.-> G
+    one -.-> H
+subgraph muliple [Inception event]
+  subgraph two[Self certifying]
+    H --> |hash|I
+    G & I --> K
+    J --> |JSON|K
+    end
+  subgraph three[Self addressing]
+    L --> |copy in 'd' and 'i' field|M 
+    K --> |pad out 'd' and 'i' field & hash|L
+    end
+    two-->three
+end 
+```
+
+
 ## \*\*Q: Is KERI a DID?
 
 `KERI` is also the name of a `DID` method in the making [Method spec](https://identity.foundation/keri/did_methods/). The proposed related `DID` method is [`did:keri`](https://github.com/decentralized-identity/KERI/blob/master/did_methods/keri.md). A session at the recent **IIW31** presented by Jolocom’s _Charles Chunningham_ examines overlap between data models of DID documents and `KERI` identifiers [here](https://jolocom.io/blog/as-seen-at-iiw31-KERI/).\
