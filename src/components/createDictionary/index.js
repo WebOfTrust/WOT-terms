@@ -26,7 +26,7 @@ termsData.forEach(term => {
     });
 });
 
-const CreateUnifiedGlossaries = () => {
+const CreateDictionary = () => {
     const [searchTerm, setSearchTerm] = useState('');
     const [organisations, setOrganisations] = useState([]);
     const [checkedOrganisations, setCheckedOrganisations] = useState({});
@@ -131,4 +131,4 @@ const CreateUnifiedGlossaries = () => {
     );
 };
 
-export default CreateUnifiedGlossaries;
+export default CreateDictionary;
