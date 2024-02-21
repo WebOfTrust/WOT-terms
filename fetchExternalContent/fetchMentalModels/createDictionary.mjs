@@ -6,7 +6,7 @@ dotenv.config();
 
 const directoryPathInput = process.env.GENERATED_JSON_GLOSSARIES_DIR;
 const directoryPathOutput = process.env.GENERATED_JSON_GLOSSARIES_COMBINED_DIR;
-const outputFilename = 'all-glossaries.json';
+const outputFilename = 'dictionary.json';
 
 let termsMap = {};
 

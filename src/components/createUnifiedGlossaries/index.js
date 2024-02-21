@@ -2,7 +2,7 @@ import { toLowerCaseAndRemoveSpecialChars } from '../../../modules-js-universal/
 
 import React, { useState, useEffect } from 'react';
 import parse from 'html-react-parser';
-const termsData = require('@site/static/json/external-glosseries/glossaries-combined/all-glossaries.json');
+const termsData = require('@site/static/json/external-glosseries/glossaries-combined/dictionary.json');
 
 // Update the structure of termsData to replace tags as needed
 termsData.forEach(term => {
