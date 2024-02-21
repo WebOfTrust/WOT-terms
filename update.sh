@@ -20,7 +20,7 @@ echo "Update Google sheet: WOT-terms, tab: LabelContent (Carbon copies)"
 # 2: Import Google Sheet “WOT-terms”, tab “LabelContent” data into markdown files
 # 3: Add HTML structure to external content, like Accordeon code
 
-sh  fetchExternalContent/fetchCarbonCopies/main.sh
+sh  fetchExternalContent/fetchAnnotatedCopies/main.sh
 ##############################
 
 

@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Run the first script
-node fetchExternalContent/fetchCarbonCopies/fetchExternalContentMetaData.js
+node fetchExternalContent/fetchAnnotatedCopies/fetchExternalContentMetaData.js
 
 # Run the second script
-node fetchExternalContent/fetchCarbonCopies/fetchExternalContent.js
+node fetchExternalContent/fetchAnnotatedCopies/fetchExternalContent.js
 
 # Run the third script
-node fetchExternalContent/fetchCarbonCopies/addHTMLstructureToExternalContent.js
+node fetchExternalContent/fetchAnnotatedCopies/addHTMLstructureToExternalContent.js
