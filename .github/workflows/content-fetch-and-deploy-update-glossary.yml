@@ -65,7 +65,7 @@ jobs:
           GLOSSARY_OVERVIEW_JSON_DESCRIPTION: Web of Trust Glossary
           GLOSSARY_DIR: 04_glossary
           GENERATED_JSON_GLOSSARIES_DIR: ./static/json/external-glosseries/glossaries/
-          GENERATED_JSON_GLOSSARIES_COMBINED_DIR: ./static/json/external-glosseries/
+          GENERATED_JSON_GLOSSARIES_COMBINED_DIR: ./static/json/external-glosseries/glossaries-combined/
         run: sh update.sh
       ##############################
 
