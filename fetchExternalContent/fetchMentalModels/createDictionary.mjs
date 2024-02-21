@@ -69,7 +69,7 @@ fs.readdir(directoryPathInput, (err, files) => {
     }
 
     fs.writeFileSync(path.join(directoryPathOutput, outputFilename), JSON.stringify(finalArray, null, 2));
-    console.log(`Combined glossary file created at ${path.join(directoryPathOutput, outputFilename)}`);
+    console.log(`Dictionary file created at ${path.join(directoryPathOutput, outputFilename)}`);
 });
 
 export { };
