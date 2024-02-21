@@ -1,8 +1,13 @@
 import { toLowerCaseAndRemoveSpecialChars } from '../../../modules-js-universal/toLowerCaseAndRemoveSpecialChars.js';
 
+require('dotenv').config();
+
 import React, { useState, useEffect } from 'react';
 import parse from 'html-react-parser';
-const termsData = require('@site/static/json/external-glosseries/glossaries-combined/dictionary.json');
+const termsData = require('@site/' + process.env.GENERATED_JSON_GLOSSARIES_COMBINED_DIR + '/dictionary.json');
+
+process.env.GENERATED_JSON_GLOSSARIES_COMBINED_DIR;
+
 
 // Update the structure of termsData to replace tags as needed
 termsData.forEach(term => {
