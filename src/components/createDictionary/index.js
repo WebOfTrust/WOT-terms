@@ -6,8 +6,6 @@ import React, { useState, useEffect } from 'react';
 import parse from 'html-react-parser';
 const termsData = require('@site/' + process.env.GENERATED_JSON_DICTIONARY_DIR + '/dictionary.json');
 
-process.env.GENERATED_JSON_DICTIONARY_DIR;
-
 
 // Update the structure of termsData to replace tags as needed
 termsData.forEach(term => {
