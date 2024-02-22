@@ -10,7 +10,7 @@ console.log('Nist: Fetching external content...');
 
 // CONFIG
 const url = 'https://csrc.nist.gov/csrc/media/glossary/glossary-export.zip';
-const dir = './fetchExternalContent/fetchMentalModels/fetchNistContent/download'
+const dir = './fetchExternalContent/fetchExternalGlossaries/fetchNistContent/download'
 const filename = 'glossary-export.zip';
 const fullPath = path.join(dir, filename); // Use path.join for better compatibility
 const overview = './static/json/overview.json';

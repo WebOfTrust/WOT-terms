@@ -1,18 +1,18 @@
 #!/bin/bash
 
-node fetchExternalContent/fetchMentalModels/fetchDigitalGovtNzContent/fetchDigitalGovtNzContent.mjs
+node fetchExternalContent/fetchExternalGlossaries/fetchDigitalGovtNzContent/fetchDigitalGovtNzContent.mjs
 
-node fetchExternalContent/fetchMentalModels/fetchEssifLabContent/fetchEssifLabContent.mjs
+node fetchExternalContent/fetchExternalGlossaries/fetchEssifLabContent/fetchEssifLabContent.mjs
 
-node fetchExternalContent/fetchMentalModels/fetchNistContent/fetchNistContent.mjs
+node fetchExternalContent/fetchExternalGlossaries/fetchNistContent/fetchNistContent.mjs
 
-node fetchExternalContent/fetchMentalModels/fetchToIPContent/fetchToIPContent.mjs
+node fetchExternalContent/fetchExternalGlossaries/fetchToIPContent/fetchToIPContent.mjs
 
-node fetchExternalContent/fetchMentalModels/fetchToipDidWebs/fetchToipDidWebs.mjs
+node fetchExternalContent/fetchExternalGlossaries/fetchToipDidWebs/fetchToipDidWebs.mjs
 
-node fetchExternalContent/fetchMentalModels/fetchW3cDid/fetchW3cDid.mjs
+node fetchExternalContent/fetchExternalGlossaries/fetchW3cDid/fetchW3cDid.mjs
 
-node fetchExternalContent/fetchMentalModels/fetchWotTermsContent/fetchWotTermsContent.mjs
+node fetchExternalContent/fetchExternalGlossaries/fetchWotTermsContent/fetchWotTermsContent.mjs
 
 # Combine glossaries
-node fetchExternalContent/fetchMentalModels/createDictionary.mjs
+node fetchExternalContent/fetchExternalGlossaries/createDictionary.mjs

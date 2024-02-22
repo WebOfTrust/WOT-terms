@@ -72,7 +72,7 @@ node maintenance/fixDashInWikiCopyFilenames.js
 ##############################
 echo "Fetch external glossary content"
 
-sh  fetchExternalContent/fetchMentalModels/main.sh
+sh  fetchExternalContent/fetchExternalGlossaries/main.sh
 ##############################
 
 
