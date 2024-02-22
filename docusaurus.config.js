@@ -217,7 +217,7 @@ const config = {
                 href: 'https://github.com/weboftrust/WOT-terms',
               },
               {
-                label: 'test',
+                label: 'test2',
                 href: 'https://github.com/weboftrust/WOT-terms',
               },
             ],
