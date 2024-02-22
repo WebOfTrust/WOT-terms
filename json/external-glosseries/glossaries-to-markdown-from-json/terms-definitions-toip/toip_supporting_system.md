@@ -1,0 +1,4 @@
+## ToIP supporting system
+
+<p class="c8"><span>A computing system whose role in the </span><span class="c2"><a class="c3" href="#h.9looruc0w4ac">ToIP Technology Stack</a></span><span>&nbsp;is to support the operation of </span><span class="c2"><a class="c3" href="#h.2ahqabymbkn3">ToIP endpoint systems</a></span><span>&nbsp;and/or </span><span class="c2"><a class="c3" href="#h.hcobm4uk16ff">ToIP intermediary systems</a></span><span class="c0">.</span></p><p class="c8"><span>For more information, see: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://github.com/trustoverip/TechArch/blob/main/spec.md%2310-supporting-systems&amp;sa=D&amp;source=editors&amp;ust=1706779842869253&amp;usg=AOvVaw2IxTj91N8aFn4P-VSO20Sh">Section 10</a></span><span>&nbsp;of the </span><span class="c2"><a class="c3" href="#h.bjv9ltwjbiqm">ToIP Technology Architecture Specification</a></span><span class="c0">.</span></p>
+

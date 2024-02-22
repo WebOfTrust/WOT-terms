@@ -1,0 +1,4 @@
+## risk
+
+effect of uncertainty on objectives[Source: ISO Guide 73:2009]Additional notes:Note 1: An effect is a deviation from the expected  positive and/or negative.Note 2: Objectives can have different aspects (such as financial, health and safety, information security, and environmental goals) and can apply at different levels (such as strategic, organisation-wide, project, product and process).Note 3: Risk is often characterised by reference to potential events and consequences, or a combination of these.Note 4: Risk is often expressed in terms of a combination of the consequences of an event (including changes in circumstances) and the associated likelihood of occurrence.Note 5: Uncertainty is the state, even partial, of deficiency of information related to, understanding or knowledge of, an event, its consequence, or likelihood.
+

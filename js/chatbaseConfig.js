@@ -1,0 +1,3 @@
+window.chatbaseConfig = {
+    chatbotId: "gEyyxwGeZbnMxnrWTzhkV",
+}

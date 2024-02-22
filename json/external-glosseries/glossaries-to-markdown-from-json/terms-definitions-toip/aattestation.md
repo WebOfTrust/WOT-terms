@@ -1,0 +1,4 @@
+## aattestation
+
+<p class="c8"><span>The issue of a statement, based on a decision, that fulfillment of specified </span><span class="c2"><a class="c3" href="#h.ajxlw8r3dvcc">requirements</a></span><span>&nbsp;has been demonstrated. In the context of decentralized digital trust infrastructure, an attestation usually has a </span><span class="c2"><a class="c3" href="#h.s93np0i5rcne">digital signature</a></span><span>&nbsp;so that it is </span><span class="c2"><a class="c3" href="#h.422iwwfur12">cryptographically verifiable</a></span><span class="c0">.</span></p><p class="c8"><span>Source: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://csrc.nist.gov/glossary/term/attestation&amp;sa=D&amp;source=editors&amp;ust=1706779842512728&amp;usg=AOvVaw02qRWu9haSiB6CHHmjv6Rh">NIST-CSRC</a></span><span class="c0">.</span></p>
+

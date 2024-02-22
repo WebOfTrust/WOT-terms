@@ -1,0 +1,4 @@
+## legal entity
+
+<p class="c8"><span>An </span><span class="c2"><a class="c3" href="#h.5imtbzl1f4xo">entity</a></span><span>&nbsp;that is not a </span><span class="c2"><a class="c3" href="#h.yx4qb6dcjdvj">natural person</a></span><span>&nbsp;but is recognized as having legal rights and responsibilities. Examples include corporations, partnerships, sole proprietorships, non-profit </span><span class="c2"><a class="c3" href="#h.z27mp1358pi9">organizations</a></span><span class="c0">, associations, and governments. (In some cases even natural systems such as rivers are treated as legal entities.)</span></p><p class="c8"><span>See also: </span><span class="c2"><a class="c3" href="#h.tvqq4mlccuun">Legal Entity Identifier</a></span><span>, </span><span class="c2"><a class="c3" href="#h.a2q7i8my0jte">legal person</a></span><span>, </span><span class="c2"><a class="c3" href="#h.z27mp1358pi9">organization</a></span><span>.</span></p>
+

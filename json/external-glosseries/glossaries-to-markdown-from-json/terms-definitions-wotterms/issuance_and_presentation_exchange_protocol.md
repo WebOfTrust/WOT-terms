@@ -1,0 +1,4 @@
+## issuance and presentation exchange protocol
+
+<h4>Definition</h4><p>provides a uniform mechanism for the issuance and presentation of ACDCs in a securely attributable manner. </p><h4>Relation</h4><p>A single protocol is able to work for both types of exchanges (<a href="issuance-exchange">issuance</a> and <a href="presentation-exchange">presentation</a>) by recognizing that all exchanges (both issuance and presentation) may be modeled as the disclosure of information by a <a href="discloser">Discloser</a> to a <a href="disclosee">Disclosee</a>.<br>The <em>difference</em> between exchange types is <em>the information disclosed not the mechanism for disclosure</em>.</p><h4>More info at source</h4><p>(<a href="https://github.com/WebOfTrust/ietf-ipex/blob/main/draft-ssmith-ipex.md">Source</a>)</p>
+

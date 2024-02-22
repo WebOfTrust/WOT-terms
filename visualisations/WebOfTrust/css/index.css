@@ -1,0 +1,229 @@
+/* https://dev.to/hankchizljaw/a-modern-css-reset-6p3 */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 100%;
+  /* background: #14233e; */
+  /* position:absolute; */
+  /* border: 3px solid red */
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+/* @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+        } */
+/* END RESET */
+circle {
+  transition: opacity 0.7s ease-in-out;
+}
+
+/* https://flatuicolors.com/palette/fr */
+:root {
+  --color1: "#1e3799";
+  /* --color2: #fad390; */
+  --color2: "#0c2461af";
+  --color3: "#b7154018";
+}
+
+h1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: "Codystar", cursive;
+  color: #eee;
+  z-index: 3;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  font-size: 3.5em;
+}
+
+a {
+  color: #eee;
+}
+
+#audio-container {
+  z-index: 6;
+  position: fixed;
+  bottom: 3em;
+  right: 1em;
+  color: #111;
+}
+
+#audio-container a {
+  color: #111;
+}
+
+#audio-play {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+#audio-credits {
+  font-size: 0.8em;
+}
+
+.UI {
+  background: var(--color2);
+  /* border-width: 1px;
+  border-style: solid;
+  border-color: var(--color3); */
+  border-radius: 7px;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02), 6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028), 12.5px 12.5px 10px rgba(0, 0, 0, 0.035), 22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042), 41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05), 100px 100px 80px rgba(0, 0, 0, 0.07);
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #eee;
+  overflow: scroll;
+  padding: 1em;
+  margin: 1em 0 0 1em;
+  /* margin-top: 1em; */
+  z-index: 5;
+  /* width: 15em; */
+  /* width: 10%; */
+  max-width: 20%;
+  height: 100%;
+  /* min-width: 20%; */
+}
+
+#titelblock {
+  position: fixed;
+}
+
+.search {
+  margin-bottom: 2em;
+}
+
+#viz {
+  /* background: var(--color1); */
+  /* background-image: linear-gradient(to bottom, #03204d, #0a396d, #0f558f, #0e72b1, #0391d3); */
+  background: transparent;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.search-results {
+  /* background: #999; */
+  /* position: fixed;
+  top: 15em;
+  left: 0;
+  overflow: scroll; */
+  /* width: 15em;
+  height: 100%; */
+  /* z-index: 6; */
+  padding-top: 7em;
+  padding-bottom: 2em;
+  background: url(../img/tintin-rocketship.png) right 130em no-repeat;
+  background-size: 2em;
+}
+
+.search-results li {
+  cursor: pointer;
+}
+
+#grass {
+  height: 42px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: url(../img/grass.png) repeat-x left 10px;
+  z-index: 7;
+}
+
+/* https://codepen.io/dudleystorey/pen/PoNLyV */
+#rocket {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 4;
+  width: 2em;
+}
+
+/* https://codepen.io/elisabeth_hamel/pen/WLeGwQ */
+canvas {
+  /* background-image: linear-gradient(to bottom, #03204d, #0a396d, #0f558f, #0e72b1, #0391d3); */
+  background-image: linear-gradient(to bottom, #0c2461, #263b7b, #3d5495, #536eb0, #6a89cc);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}/*# sourceMappingURL=index.css.map */

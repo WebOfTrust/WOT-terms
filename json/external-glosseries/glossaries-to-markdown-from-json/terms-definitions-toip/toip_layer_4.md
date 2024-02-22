@@ -1,0 +1,4 @@
+## ToIP Layer 4
+
+<p class="c8"><span>The </span><span class="c2"><a class="c3" href="#h.3pfn27y1gu2o">trust application</a></span><span>&nbsp;layer of the </span><span class="c2"><a class="c3" href="#h.wms58fgdch9m">ToIP stack</a></span><span>, where end users have the direct </span><span class="c2"><a class="c3" href="#h.p2mpipjsl834">human experience</a></span><span>&nbsp;of using applications that call </span><span class="c2"><a class="c3" href="#h.uo2gx58kwj2o">trust task protocols</a></span><span>&nbsp;to engage in </span><span class="c2"><a class="c3" href="#h.pu2asd79bqzo">trust relationships</a></span><span>&nbsp;and make </span><span class="c2"><a class="c3" href="#h.m8c86ccqis9r">trust decisions</a></span><span class="c0">&nbsp;using ToIP decentralized digital trust infrastructure.</span></p>
+

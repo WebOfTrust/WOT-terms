@@ -1,0 +1,4 @@
+## credential offer
+
+<p class="c8"><span>A protocol request invoked by an </span><span class="c2"><a class="c3" href="#h.xyrplzbvtffq">issuer</a></span><span>&nbsp;to offer to </span><span class="c2"><a class="c3" href="#h.zfdojht594xv">issue</a></span><span>&nbsp;a </span><span class="c2"><a class="c3" href="#h.ddna9lucn4k6">digital credential</a></span><span>&nbsp;to the &nbsp;</span><span class="c2"><a class="c3" href="#h.64mptmm24w7u">holder</a></span><span>&nbsp;of a </span><span class="c2"><a class="c3" href="#h.sxnvf3f5v156">digital wallet</a></span><span>. If the request is invoked by the </span><span class="c2"><a class="c3" href="#h.64mptmm24w7u">holder</a></span><span>, it is called an </span><span class="c2"><a class="c3" href="#h.tt253lgfp4hz">issuance request</a></span><span>.</span></p>
+

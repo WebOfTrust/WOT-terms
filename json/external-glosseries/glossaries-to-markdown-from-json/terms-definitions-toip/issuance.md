@@ -1,0 +1,4 @@
+## issuance
+
+<p class="c8"><span>The </span><span class="c2"><a class="c3" href="#h.l54nzmooy631">action</a></span><span>&nbsp;of an </span><span class="c2"><a class="c3" href="#h.xyrplzbvtffq">issuer</a></span><span>&nbsp;producing and transmitting a </span><span class="c2"><a class="c3" href="#h.ddna9lucn4k6">digital credential</a></span><span>&nbsp;to a </span><span class="c2"><a class="c3" href="#h.64mptmm24w7u">holder</a></span><span>. A </span><span class="c2"><a class="c3" href="#h.64mptmm24w7u">holder</a></span><span>&nbsp;may request issuance by submitting an </span><span class="c2"><a class="c3" href="#h.tt253lgfp4hz">issuance request</a></span><span class="c0">.</span></p><p class="c8"><span>See also: </span><span class="c2"><a class="c3" href="#h.h5d1xfsxbbr0">presentation</a></span><span>, </span><span class="c2"><a class="c3" href="#h.ilt4dj4huwza">revocation</a></span><span class="c0">.</span></p>
+

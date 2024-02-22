@@ -1,0 +1,4 @@
+## trust domain
+
+<h4>Definition</h4><p>A trust domain is the ecosystem of interactions that rely on a trust basis. A trust basis binds controllers, identifiers, and key-pairs. <em>For example the Facebook ecosystem of social interactions is a trust domain that relies on Facebook’s identity system of usernames and passwords as its trust basis.</em><br>(<a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf">Source whitepaper</a>)</p><h4>Broader definition</h4><p>A trust domain is a domain that the system trusts to authenticate users. In other words, if a user or application is authenticated by a trusted domain, this authentication is accepted by all domains that trust the authenticating domain.</p><h4>Domain name</h4><p>A more technical meaning of &#39;domain&#39; is on the internet: <a href="domain-name">domain name</a>. </p>
+

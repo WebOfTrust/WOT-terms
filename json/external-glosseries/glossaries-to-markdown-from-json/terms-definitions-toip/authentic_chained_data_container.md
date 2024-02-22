@@ -1,0 +1,4 @@
+## Authentic Chained Data Container
+
+<p class="c8"><span>A digital </span><span class="c2"><a class="c3" href="#h.o783ayrrkc6g">data</a></span><span>&nbsp;structure designed for both cryptographic </span><span class="c2"><a class="c3" href="#h.2bnb6g8na7cu">verification</a></span><span>&nbsp;and </span><span class="c2"><a class="c3" href="#h.kgtwd73pdfae">chaining</a></span><span>&nbsp;of data containers. ACDC may be used for </span><span class="c2"><a class="c3" href="#h.ddna9lucn4k6">digital credentials</a></span><span class="c0">.</span></p><p class="c8"><span>For more information, see: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://wiki.trustoverip.org/display/HOME/ACDC%2B%2528Authentic%2BChained%2BData%2BContainer%2529%2BTask%2BForce&amp;sa=D&amp;source=editors&amp;ust=1706779842526094&amp;usg=AOvVaw09mEH4xmNL7Vf4J1P2kbJz">ToIP ACDC Task Force</a></span><span class="c0">.</span></p>
+

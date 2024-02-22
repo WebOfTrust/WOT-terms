@@ -1,0 +1,4 @@
+## cooperative delegation
+
+<h4>Definition</h4><p>The way KERI addresses the <a href="security-cost-performance-architecture-trade-off">security-cost-performance architecture trade-off</a> is via <a href="delegation">delegation</a> of identifier prefixes. Delegation includes a delegator and a delegate. For this reason we may call this a cooperative delegation. This is a somewhat <strong>novel form of delegation</strong>. A major advantage of cooperative delegation is the delegator’s key management protects the delegate’s via recovery by the delegator. With cooperative delegation, any exploiter that compromises only the delegate’s authoritative keys may not capture control authority of the delegate. Any exploit of the delegate only is recoverable by the delegator. </p><p>Source <a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/IdentifierTheory_web.pdf">Universal Identifier Theory</a> by Samuel Smith</p>
+

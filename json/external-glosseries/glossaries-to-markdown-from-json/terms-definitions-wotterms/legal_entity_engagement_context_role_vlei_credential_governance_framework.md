@@ -1,0 +1,4 @@
+## legal entity engagement context role vlei credential governance framework
+
+<h4>Definition</h4><p>A document that details the requirements for <a href="vlei-role-credential">vLEI Role Credentials</a> <strong>issued to</strong> representatives of a Legal Entity <em>in other than official roles</em> but in functional or other context of engagement.<br><a href="https://www.gleif.org/vlei/introducing-the-vlei-ecosystem-governance-framework/2022-02-07_verifiable-lei-vlei-ecosystem-governance-framework-glossary-draft-publication_v0.9-draft.pdf">Source</a>: Draft vLEI Ecosystem Governance Framework Glossary.</p><h4>Related</h4><ul><li><a href="legal-entity">Legal entity</a></li><li><a href="engagement-context-role">Engagement context role (ECR)</a></li><li><a href="vlei-credential">vLEI credential</a></li><li><a href="governance-framework">Governance framework</a></li></ul>
+

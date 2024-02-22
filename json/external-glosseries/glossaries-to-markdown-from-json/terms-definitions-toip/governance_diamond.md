@@ -1,0 +1,4 @@
+## governance diamond
+
+<p class="c8"><span>A term that refers to the addition of a </span><span class="c2"><a class="c3" href="#h.1wptecwzvuvz">governing body</a></span><span>&nbsp;to the standard </span><span class="c2"><a class="c3" href="#h.n29niebkxky7">trust triangle</a></span><span>&nbsp;of </span><span class="c2"><a class="c3" href="#h.xyrplzbvtffq">issuers</a></span><span>, </span><span class="c2"><a class="c3" href="#h.64mptmm24w7u">holders</a></span><span>, and </span><span class="c2"><a class="c3" href="#h.xfewd7t01hu0">verifiers</a></span><span>&nbsp;of </span><span class="c2"><a class="c3" href="#h.kcj6iw2vib1v">credentials</a></span><span>. The resulting combination of four </span><span class="c2"><a class="c3" href="#h.cn6bno48fomj">parties</a></span><span>&nbsp;represents the basic structure of a </span><span class="c2"><a class="c3" href="#h.h47f86smlz4y">digital trust ecosystem</a></span><span class="c0">.</span></p>
+

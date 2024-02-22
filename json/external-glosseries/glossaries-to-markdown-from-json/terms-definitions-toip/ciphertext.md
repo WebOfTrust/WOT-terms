@@ -1,0 +1,4 @@
+## ciphertext
+
+<p class="c8"><span class="c2"><a class="c3" href="#h.iyq318f2vg61">Encrypted</a></span><span>&nbsp;(enciphered) </span><span class="c2"><a class="c3" href="#h.o783ayrrkc6g">data</a></span><span>. The </span><span class="c2"><a class="c3" href="#h.445sv27j3c2m">confidential</a></span><span>&nbsp;form of the </span><span class="c2"><a class="c3" href="#h.ylf3pqlex968">plaintext</a></span><span>&nbsp;that is the output of the </span><span class="c2"><a class="c3" href="#h.iyq318f2vg61">encryption</a></span><span class="c0">&nbsp;function.</span></p><p class="c8"><span>Source: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://csrc.nist.gov/glossary/term/ciphertext&amp;sa=D&amp;source=editors&amp;ust=1706779842547095&amp;usg=AOvVaw3b9J0yx7kHVZQMHZbONVdB">NIST-CSRC</a></span><span class="c0">.</span></p>
+
