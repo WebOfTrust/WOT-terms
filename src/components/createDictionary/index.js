@@ -2,6 +2,8 @@ import { toLowerCaseAndRemoveSpecialChars } from '../../../modules-js-universal/
 
 import React, { useState, useEffect } from 'react';
 import parse from 'html-react-parser';
+
+// TODO: how to use env in React components?
 const termsData = require('@site/static/json/external-glosseries/glossaries-combined/dictionary.json');
 
 // Update the structure of termsData to replace tags as needed
@@ -21,7 +23,7 @@ termsData.forEach(term => {
     });
 });
 
-const CreateUnifiedGlossaries = () => {
+const CreateDictionary = () => {
     const [searchTerm, setSearchTerm] = useState('');
     const [organisations, setOrganisations] = useState([]);
     const [checkedOrganisations, setCheckedOrganisations] = useState({});
@@ -126,4 +128,4 @@ const CreateUnifiedGlossaries = () => {
     );
 };
 
-export default CreateUnifiedGlossaries;
+export default CreateDictionary;
