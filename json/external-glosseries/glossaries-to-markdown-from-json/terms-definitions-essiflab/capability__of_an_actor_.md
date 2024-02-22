@@ -1,4 +1,0 @@
-## Capability (of an Actor)
-
-the potential of an <a href="https://essif-lab.github.io/framework/docs/terms/actor" hovertext="Actor: Entity that can act (do things/execute Actions), e.g. people, machines, but not Organizations.">actor</a> to execute a (named) coherent set of <a href="https://essif-lab.github.io/framework/docs/terms/action" hovertext="Action: something that is actually done (a 'unit of work' that is executed) by a single Actor (on behalf of a given Party), as a single operation, in a specific context.">action</a> (a 'function', or 'task') on behalf of some <a href="https://essif-lab.github.io/framework/docs/terms/party" hovertext="Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.">party</a>.
-

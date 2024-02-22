@@ -1,4 +1,0 @@
-## DID subject
-
-<p class="c8"><span>The </span><span class="c2"><a class="c3" href="#h.5imtbzl1f4xo">entity</a></span><span>&nbsp;identified by a </span><span class="c2"><a class="c3" href="#h.zh539v9ul471">DID</a></span><span>&nbsp;and described by a </span><span class="c2"><a class="c3" href="#h.yjwocacp570p">DID document</a></span><span class="c0">. Anything can be a DID subject: person, group, organization, physical thing, digital thing, logical thing, etc.</span></p><p class="c8"><span>Source: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://www.w3.org/TR/did-core/%23dfn-did-subjects&amp;sa=D&amp;source=editors&amp;ust=1706779842601838&amp;usg=AOvVaw01bDG529vvjnuKWKiOVZ-_">W3C DID</a></span><span class="c0">.</span></p><p class="c8"><span>See also: </span><span class="c2"><a class="c3" href="#h.voca6uuv1a4">subject</a></span><span class="c0">.</span></p>
-

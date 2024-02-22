@@ -1,4 +1,0 @@
-## CSPRNG
-
-<h4>Definition</h4><p>means &quot;Cryptographically Secure Pseudorandom Number Generator&quot; which means that a sequence of numbers (bits, bytes...) that is produced from an algorithm which is deterministic (the sequence is generated from some unknown internal state), hence pseudorandom, is also cryptographically secure, or not. </p><p>It is cryptographically secure if nobody can <em>reliably distinguish</em> the output from true randomness, even if the PRNG algorithm is perfectly known (but not its internal state). A non-cryptographically secure PRNG would fool basic statistical tests but can be distinguished from true randomness by an intelligent attacker.<br>(Source: <a href="https://crypto.stackexchange.com/questions/12436/what-is-the-difference-between-csprng-and-prng">https://crypto.stackexchange.com/questions/12436/what-is-the-difference-between-csprng-and-prng</a>)</p><h4>See also</h4><p><a href="PRNG">PRNG</a></p>
-

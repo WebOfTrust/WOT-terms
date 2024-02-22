@@ -1,4 +1,0 @@
-## signing authority
-
-<h4>Definition</h4><p>The authority to sign on behalf of the controller of the authoritative key pair. Often in situation where delegation has taken place, e.g. a custodial agent. These are limited rights because <a href="rotation-authority">rotation authority</a> is not included. </p><h4>Relation to rotation authority</h4><p>The original controller of an <a href="autonomic-identifier">AID</a> can hold exclusive <a href="rotation-authority">rotation authority</a>. Because control authority is split between two key sets, the first for signing-authority and the second (<a href="pre-rotation">pre-rotated</a>) for <a href="rotation-authority">rotation authority</a>, the associated thresholds and key list can be structured in such a way that a designated <a href="custodial-agent">custodial agent</a> can hold signing authority while the original controller can hold exclusive rotation authority.</p>
-

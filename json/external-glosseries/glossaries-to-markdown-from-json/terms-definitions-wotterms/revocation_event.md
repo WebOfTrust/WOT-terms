@@ -1,4 +1,0 @@
-## revocation event
-
-<h4>Definition</h4><h4>Considerations</h4><h4>KERI related</h4><p>An event that revokes <a href="control-authority">control authority</a> over an <a href="identifier">identifier</a>. From that point in time the authoritative key-pairs at hand are not valid anymore.</p><p>The time stamp of a revocation is useful but not for security purposes, it can be gamed by an attacker. KERI should be fitted in a way so that it&#39;s <em>not possible</em> to rewrite history. The tool we have is the ordering of the events in a <a href="KEL">KEL</a>.</p><h4>Also see</h4><p><a href="revocation">Revocation</a></p><h4>Beware: Suspension is non-existing</h4><p>A temporary revocation of a grant or privilege is called a suspension. We don&#39;t have this type of state or event in KERI.</p>
-

@@ -1,4 +1,0 @@
-## ToIP layer
-
-<p class="c8"><span>One of four </span><span class="c2"><a class="c3" href="#h.pe8dekl2dtq0">protocol layers</a></span><span>&nbsp;in the </span><span class="c2"><a class="c3" href="#h.wms58fgdch9m">ToIP stack</a></span><span>. The four layers are </span><span class="c2"><a class="c3" href="#h.24ggrl8oz4ma">ToIP Layer 1</a></span><span>, </span><span class="c2"><a class="c3" href="#h.ikqr9hyt133k">ToIP Layer 2</a></span><span>, </span><span class="c2"><a class="c3" href="#h.7rbvlbpp8vwp">ToIP Layer 3</a></span><span>, and </span><span class="c2"><a class="c3" href="#h.ym4v87xpn7gq">ToIP Layer 4</a></span><span>.</span></p><p class="c8"><span>For more information, see: </span><span class="c2"><a class="c3" href="#h.bjv9ltwjbiqm">ToIP Technology Architecture Specification</a></span><span>, </span><span class="c2"><a class="c3" href="#h.1aa10hjxxqo3">ToIP Governance Architecture Specification</a></span><span class="c0">.</span></p>
-

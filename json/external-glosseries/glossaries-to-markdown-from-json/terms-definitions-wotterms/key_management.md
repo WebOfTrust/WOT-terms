@@ -1,4 +1,0 @@
-## key management
-
-<h4>Definition</h4><p>management of cryptographic keys in a crypto-system. This includes dealing with the generation, exchange, storage, use, crypto-shredding (destruction) and replacement of keys (also <a href="#key-rotation">rotation</a>). It includes cryptographic protocol design, key servers, user procedures, and other relevant protocols.</p><p>Successful key management is critical to the <em>security</em> of a crypto-system. It is the more challenging side of cryptography in a sense that it involves aspects of social engineering such as system policy, user training, organizational and departmental interactions, and coordination between all of these elements, in contrast to pure mathematical practices that can be automated.</p><p>More on <a href="https://en.wikipedia.org/wiki/Key_management">wikipedia</a></p>
-

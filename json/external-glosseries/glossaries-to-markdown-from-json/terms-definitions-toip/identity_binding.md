@@ -1,4 +1,0 @@
-## identity binding
-
-<p class="c8"><span>The process of associating a set of </span><span class="c2"><a class="c3" href="#h.t3ho4tago38u">identity data</a></span><span>, such as a </span><span class="c2"><a class="c3" href="#h.kcj6iw2vib1v">credential</a></span><span>, with its </span><span class="c2"><a class="c3" href="#h.voca6uuv1a4">subject</a></span><span>, such as a </span><span class="c2"><a class="c3" href="#h.yx4qb6dcjdvj">natural person</a></span><span>. The strength of an identity binding is one factor in determining an </span><span class="c2"><a class="c3" href="#h.a7560ebfrt4m">authenticator assurance level</a></span><span>.</span></p><p class="c8"><span>See also: </span><span class="c2"><a class="c3" href="#h.udr0qmo2ubln">identity assurance level</a></span><span>, </span><span class="c2"><a class="c3" href="#h.8o667cv8194w">identity proofing</a></span><span class="c0">.</span></p>
-

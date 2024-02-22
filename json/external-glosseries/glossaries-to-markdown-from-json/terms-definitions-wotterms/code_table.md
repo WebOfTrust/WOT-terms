@@ -1,4 +1,0 @@
-## code table
-
-<h4>Definition</h4><p>a code table is the Internet&#39;s most comprehensive yet simple resource for browsing and searching for <a href="https://www.codetable.net/altkeycodes">alt codes</a>, <a href="https://www.codetable.net/asciikeycodes">ascii codes</a>, <a href="https://www.codetable.net/entitiesinhtml">entities in html</a>, <a href="https://www.codetable.net/unicodecharacters">unicode characters</a>, and <a href="https://www.codetable.net/groups">unicode groups and categories</a>.<br><a href="https://www.codetable.net">Source</a></p><h5>Example text code table from CESR</h5><img src="https://hackmd.io/_uploads/H1LHEQDfj.png" width="600" /><h4>CESR related</h4><p>Multiple text and binary code tables exist to pre-pend characters before the respective stream parts to characterize (<a href="self-framing">self-framing</a>) them or group them.</p>
-

@@ -1,4 +1,0 @@
-## qualified
-
-<h4>Definition</h4><p>When qualified, a cryptographic primitive includes a prepended derivation code (as a proem) that indicates the cryptographic algorithm or suite used for that derivation. This simplifies and compactifies the essential information needed to use that cryptographic primitive. All cryptographic primitives expressed in either text or binary CESR are qualified by definition [<a href="https://weboftrust.github.io/ietf-keri/draft-ssmith-keri.html#CESR-ID">CESR-ID</a>]. Qualification is an essential property of CESR [<a href="https://weboftrust.github.io/ietf-keri/draft-ssmith-keri.html#CESR-ID">CESR-ID</a>].<a href="https://weboftrust.github.io/ietf-keri/draft-ssmith-keri.html#section-2-2.4.1">¶</a><br><a href="https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-keri.md#basic-terminology">Sam Smith, IETF-keri</a></p>
-

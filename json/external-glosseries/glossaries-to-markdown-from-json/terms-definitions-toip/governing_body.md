@@ -1,4 +1,0 @@
-## governing body
-
-<p class="c8"><span>The </span><span class="c2"><a class="c3" href="#h.cn6bno48fomj">party</a></span><span>&nbsp;(or set of </span><span class="c2"><a class="c3" href="#h.cn6bno48fomj">parties</a></span><span>) authoritative for governing a </span><span class="c2"><a class="c3" href="#h.a9l3odcb1s29">trust community</a></span><span>, usually (but not always) by developing, publishing, maintaining, and enforcing a </span><span class="c2"><a class="c3" href="#h.2x05z0r097mn">governance framework</a></span><span class="c0">. A governing body may be a government, a formal legal entity of any kind, an informal group of any kind, or an individual.</span></p><p class="c8"><span>Also known as: </span><span class="c2"><a class="c3" href="#h.hhkhnnadzpo1">governing authority</a></span><span class="c0">.</span></p>
-

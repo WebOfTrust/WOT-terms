@@ -1,4 +1,0 @@
-## input output
-
-<h4>Definition</h4><p>In <a href="https://en.wikipedia.org/wiki/Computing">computing</a>, input/output (I/O, or informally io or IO) is the communication between an information processing system, such as a <a href="https://en.wikipedia.org/wiki/Computer">computer</a>, and the outside world, possibly a human or another information processing system. <a href="https://en.wikipedia.org/wiki/Information">Inputs</a> are the signals or <a href="https://en.wikipedia.org/wiki/Data_(computing)">data</a> received by the system and outputs are the signals or data sent from it. The term can also be used as part of an action; to &quot;perform I/O&quot; is to perform an <a href="https://en.wikipedia.org/wiki/I/O_scheduling">input or output operation</a>.</p><h4>More on source Wikipedia</h4><p><a href="https://en.wikipedia.org/wiki/Input/output">Input/Output</a></p>
-

@@ -1,4 +1,0 @@
-## Self-Sovereignty
-
-the characteristic of every <a href="https://essif-lab.github.io/framework/docs/terms/party" hovertext="Party: an Entity that sets its Objectives, maintains its Knowledge, and uses that Knowledge to pursue its Objectives in an autonomous (sovereign) manner. Humans and Organizations are the typical examples.">party</a> that it is autonomous in managing and operating its <a href="https://essif-lab.github.io/framework/docs/terms/owner" hovertext="Owner (of an Entity): the role that a Party performs when it is exercising its legal, rightful or natural title to control that Entity.">owns</a> <a href="https://essif-lab.github.io/framework/docs/terms/knowledge" hovertext="Knowledge: The (intangible) sum of what is known by a specific Party, as well as the familiarity, awareness or understanding of someone or something by that Party.">knowledge</a>, particularly in making decisions and deciding how to decide.
-

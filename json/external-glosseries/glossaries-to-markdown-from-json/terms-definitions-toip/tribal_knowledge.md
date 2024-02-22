@@ -1,4 +1,0 @@
-## tribal knowledge
-
-<p class="c8"><span class="c2"><a class="c3" href="#h.k96lktyswxnb">Knowledge</a></span><span>&nbsp;that is known within an “</span><span>in-group” of people</span><span>&nbsp;but unknown outside of it. A </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://en.wikipedia.org/wiki/Tribe&amp;sa=D&amp;source=editors&amp;ust=1706779842880591&amp;usg=AOvVaw2nd3SerA9sOcFxAd2fLivq">tribe</a></span><span>, in this sense, is a group of people that share such a common </span><span class="c2"><a class="c3" href="#h.k96lktyswxnb">knowledge</a></span><span class="c0">.</span></p><p class="c8"><span>Source: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://en.wikipedia.org/wiki/Tribal_knowledge&amp;sa=D&amp;source=editors&amp;ust=1706779842881005&amp;usg=AOvVaw1WDmVYFji9uJNKKXa6FrxE">Wikipedia</a></span></p>
-

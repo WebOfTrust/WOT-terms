@@ -1,4 +1,0 @@
-## legal system
-
-<p class="c8"><span>A system in which </span><span class="c2"><a class="c3" href="#h.udts41hso4w4">policies</a></span><span>&nbsp;and </span><span class="c2"><a class="c3" href="#h.v7s575ulon74">rules</a></span><span>&nbsp;are defined, and mechanisms for their enforcement and conflict resolution are (implicitly or explicitly) specified. Legal systems are not just defined by governments; they can also be defined by a </span><span class="c2"><a class="c3" href="#h.2x05z0r097mn">governance framework</a></span><span>.</span></p><p class="c8"><span>Source: </span><span class="c2"><a class="c3" href="https://www.google.com/url?q=https://essif-lab.github.io/framework/docs/essifLab-glossary%23legal-system&amp;sa=D&amp;source=editors&amp;ust=1706779842743736&amp;usg=AOvVaw0z7KZfWbiWnJVqa6UcEkCt">eSSIF-Lab</a></span></p>
-

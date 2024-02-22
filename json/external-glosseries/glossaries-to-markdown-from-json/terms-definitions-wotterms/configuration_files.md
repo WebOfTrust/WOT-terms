@@ -1,4 +1,0 @@
-## configuration files
-
-<h4>Definition</h4><p>In <a href="https://en.wikipedia.org/wiki/Computing">computing</a>, configuration files (commonly known simply as config files) are <a href="https://en.wikipedia.org/wiki/Computer_file">files</a> used to configure the <a href="https://en.wikipedia.org/wiki/Parameter_(computer_programming)">parameters</a> and <a href="https://en.wikipedia.org/wiki/Initialization_(programming)">initial settings</a> for some <a href="https://en.wikipedia.org/wiki/Computer_program">computer programs</a>. They are used for user <a href="https://en.wikipedia.org/wiki/Application_software">applications</a>, <a href="https://en.wikipedia.org/wiki/Server_(computing)">server processes</a> and <a href="https://en.wikipedia.org/wiki/Operating_system">operating system</a> settings.</p><p>More on source <a href="https://en.wikipedia.org/wiki/Configuration_file">Wikipedia</a></p>
-

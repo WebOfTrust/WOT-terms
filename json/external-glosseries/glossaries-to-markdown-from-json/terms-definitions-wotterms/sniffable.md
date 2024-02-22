@@ -1,4 +1,0 @@
-## sniffable
-
-<h4>Definition</h4><p>A stream is <em>sniffable</em> as soon as it starts with a group code or field map; in fact this is how our parser (<a href="parside">Parside</a>) works. and detects if the CESR stream contains a certain datablock. The datablock of CESR binary, CESR Text, JSON, CBOR, MGPK have an Object code or the Group code (binary or text) and it&#39;s always a recognizable and unique <em>three bit combination</em>.</p><h4>Challenge</h4><p>We have the Cold start problem of a stream: you don&#39;t where to start recognizing structured data.</p><h4>Criterium</h4><p>So a stream is either sniffable or not, when it has or has not the fore-mentioned group- or object-codes.<br>Source: Sam Smith, Zoom Meeting KERI, Dec 5 2023</p><h4>Related</h4><p><a href="sniffer">Sniffer</a></p>
-

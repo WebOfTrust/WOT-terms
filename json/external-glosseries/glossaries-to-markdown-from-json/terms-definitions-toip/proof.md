@@ -1,4 +1,0 @@
-## proof
-
-<p class="c8"><span>A digital object that enables </span><span class="c2"><a class="c3" href="#h.lbqfpvfmcmoq">cryptographic verification</a></span><span>&nbsp;of either: a) the </span><span class="c2"><a class="c3" href="#h.akieli6njkk5">claims</a></span><span>&nbsp;from one or more </span><span class="c2"><a class="c3" href="#h.ddna9lucn4k6">digital credentials</a></span><span>, or b) facts about </span><span class="c2"><a class="c3" href="#h.akieli6njkk5">claims</a></span><span>&nbsp;that do not reveal the </span><span class="c2"><a class="c3" href="#h.o783ayrrkc6g">data </a></span><span>&nbsp;itself (e.g., proof of the </span><span class="c2"><a class="c3" href="#h.voca6uuv1a4">subject</a></span><span class="c0">&nbsp;being over/under a specific age without revealing a birthdate).</span></p><p class="c8"><span>See also: </span><span class="c2"><a class="c3" href="#h.zc9pf8eexjs">zero-knowledge proof</a></span><span class="c0">.</span></p>
-
