@@ -3,21 +3,21 @@
 name: Fetch, Deploy KERISSE and Update Glossary
 on:
   # A: Triggered on push to the main branch:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
 
   # B: Triggered on manual workflow dispatch:
   workflow_dispatch:
-    inputs:
-      glossaryDefFile:
-        required: true
-        default: glossary.json
-        description: glossaryDefFile
-      deployBranch:
-        required: false
-        default: gh-pages
-        description: This is where the output of script will be pushed to.
+    # inputs:
+    #   glossaryDefFile:
+    #     required: true
+    #     default: glossary.json
+    #     description: glossaryDefFile
+    #   deployBranch:
+    #     required: false
+    #     default: gh-pages
+    #     description: This is where the output of script will be pushed to.
   
   ## C: Triggered on Wiki changes:
   # gollum
