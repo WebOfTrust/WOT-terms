@@ -5,8 +5,8 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const directoryPathInput = process.env.GENERATED_JSON_GLOSSARIES_DIR;
-const directoryPathOutput = process.env.GENERATED_JSON_GLOSSARIES_COMBINED_DIR;
-const outputFilename = 'all-glossaries.json';
+const directoryPathOutput = "./" + process.env.GENERATED_JSON_DICTIONARY_DIR + "/";
+const outputFilename = 'dictionary.json';
 
 let termsMap = {};
 
@@ -69,7 +69,7 @@ fs.readdir(directoryPathInput, (err, files) => {
     }
 
     fs.writeFileSync(path.join(directoryPathOutput, outputFilename), JSON.stringify(finalArray, null, 2));
-    console.log(`Combined glossary file created at ${path.join(directoryPathOutput, outputFilename)}`);
+    console.log(`Dictionary file created at ${path.join(directoryPathOutput, outputFilename)}`);
 });
 
 export { };

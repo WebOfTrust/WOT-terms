@@ -9,7 +9,7 @@ dotenv.config();
 console.log('ToIP: Fetching external content...');
 
 // CONFIG
-const dir = 'fetchExternalContent/fetchMentalModels/fetchToIPContent/download';
+const dir = 'fetchExternalContent/fetchExternalGlossaries/fetchToIPContent/download';
 const filename = 'toip-html-download.zip';
 const fullPath = path.join(dir, filename); // Use path.join for better compatibility
 

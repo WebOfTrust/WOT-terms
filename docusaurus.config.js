@@ -216,6 +216,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/weboftrust/WOT-terms',
               },
+              {
+                label: 'test2',
+                href: 'https://github.com/weboftrust/WOT-terms',
+              },
             ],
           },
         ],

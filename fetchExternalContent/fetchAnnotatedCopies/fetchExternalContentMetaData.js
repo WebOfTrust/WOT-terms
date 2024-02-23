@@ -29,6 +29,7 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+require('dotenv').config();
 
 // Config
 const outputDirJSON = './static/json/'; //TODO: find a better place for this file
@@ -39,8 +40,7 @@ const outputFileNameJSON = 'externalContentMetaData.json';
 // How to create JSON endpoint from Google Sheet: https://stackoverflow.com/a/68854199
 // const url =
 //   'https://sheets.googleapis.com/v4/spreadsheets/18IUa-1NSJ_8Tz_2D-VSuSQa_yf3ES1s_hovitm3Clvc/values/LabelContentTempCopy?alt=json&key=AIzaSyCA4sOfLTriHKjaQftREYWMnQNokDHf_tM';
-const url =
-  'https://sheets.googleapis.com/v4/spreadsheets/18IUa-1NSJ_8Tz_2D-VSuSQa_yf3ES1s_hovitm3Clvc/values/LabelContent?alt=json&key=AIzaSyCA4sOfLTriHKjaQftREYWMnQNokDHf_tM';
+const url = process.env.ANNOTATED_COPIES_JSON_ENDPOINT;
 
 https
   .get(url, (resp) => {
