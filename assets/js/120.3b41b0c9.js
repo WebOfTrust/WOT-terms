@@ -12,7 +12,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _mermaid_ae477ddf_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(4602);
 /* harmony import */ var d3__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(59373);
-/* harmony import */ var dagre_d3_es_src_dagre_js_label_add_html_label_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(17795);
+/* harmony import */ var dagre_d3_es_src_dagre_js_label_add_html_label_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(70704);
 /* harmony import */ var elkjs_lib_elk_bundled_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(17295);
 /* harmony import */ var elkjs_lib_elk_bundled_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(elkjs_lib_elk_bundled_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var dayjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(27484);
