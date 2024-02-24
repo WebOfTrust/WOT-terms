@@ -113,9 +113,9 @@ const siteChecker = new SiteChecker({
 
         for (const [brokenLink, foundOnPages] of Object.entries(brokenLinks)) {
             let markdownBrokenLink = `[${brokenLink}](${brokenLink})`;
-            let pagesMarkdown = foundOnPages.map(page => `[${page}](${page})`).join(', ');
+            let pagesMarkdown = foundOnPages.map(page => `[${page}](${page})`).join('\n');
 
-            dataToWrite += `- Broken Link: ${markdownBrokenLink}, Found on Pages: ${pagesMarkdown}\n`;
+            dataToWrite += `- Broken Link:\n${markdownBrokenLink}\n\nFound on Pages: ${pagesMarkdown}\n`;
         }
 
         // Now, dataToWrite is a Markdown string where every URL is clickable
