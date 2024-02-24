@@ -115,9 +115,9 @@ const siteChecker = new SiteChecker({
 
         for (const [brokenLink, foundOnPages] of Object.entries(brokenLinks)) {
             let markdownBrokenLink = `[${brokenLink}](${brokenLink})`;
-            let pagesMarkdown = foundOnPages.map(page => `[${page}](${page})`).join('\n');
+            let pagesMarkdown = foundOnPages.map(page => `- [${page}](${page})`).join('\n');
             pagesMarkdown += '\n\n';
-            dataToWrite += `## Broken Link #${counter}:\n${markdownBrokenLink}\n\nFound on Pages:\n${pagesMarkdown}\n`;
+            dataToWrite += `## Broken Link #${counter}:\n${markdownBrokenLink}\n\nFound on Pages:\n\n${pagesMarkdown}\n`;
             counter++; // Increment counter for the next broken link
         }
 
@@ -145,24 +145,24 @@ const siteChecker = new SiteChecker({
                 body: "Created: " + timestamp + "\n\n" + "Number of broken internal links: " + numberOfBrokenLinks + "\n\n" + "<a href='https://github.com/WebOfTrust/WOT-terms/blob/main/logs/brokenLinks.md'>See full list of broken internal links</a>.",
             };
 
-            const octokit = new Octokit({
-                auth: config.githubToken
-            });
+            // const octokit = new Octokit({
+            //     auth: config.githubToken
+            // });
 
-            octokit.request('POST /repos/WebOfTrust/WOT-terms/issues', {
-                owner: 'WebOfTrust',
-                repo: 'WOT-terms',
-                title: issueData.title,
-                body: issueData.body,
-                // labels: [
-                //     'bug'
-                // ],
-                headers: {
-                    'X-GitHub-Api-Version': '2022-11-28'
-                }
-            });
+            // octokit.request('POST /repos/WebOfTrust/WOT-terms/issues', {
+            //     owner: 'WebOfTrust',
+            //     repo: 'WOT-terms',
+            //     title: issueData.title,
+            //     body: issueData.body,
+            //     // labels: [
+            //     //     'bug'
+            //     // ],
+            //     headers: {
+            //         'X-GitHub-Api-Version': '2022-11-28'
+            //     }
+            // });
 
-            console.log('GitHub issue created.');
+            // console.log('GitHub issue created.');
         });
     }
 });
