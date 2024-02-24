@@ -113,7 +113,7 @@ const siteChecker = new SiteChecker({
 
         for (const [brokenLink, foundOnPages] of Object.entries(brokenLinks)) {
             let markdownBrokenLink = `[${brokenLink}](${brokenLink})`;
-            let pagesMarkdown = foundOnPages.map(page => `[${page}](${page})`).join('\n');
+            let pagesMarkdown = foundOnPages.map(page => `[${page}](${page})`).join('\n\n\n');
 
             dataToWrite += `- Broken Link:\n${markdownBrokenLink}\n\nFound on Pages: ${pagesMarkdown}\n`;
         }
