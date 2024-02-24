@@ -27,8 +27,8 @@ const https = require('https');
 require('dotenv').config();
 
 // Config
-const inputFileLocation = process.env.CARBON_COPIES_INPUT_DIR;
-const outputFileLocation = process.env.CARBON_COPIES_OUTPUT_DIR; // Where to copy the files to
+const inputFileLocation = process.env.ANNOTATED_COPIES_INPUT_DIR;
+const outputFileLocation = process.env.ANNOTATED_COPIES_OUTPUT_DIR; // Where to copy the files to
 // End Config
 
 // Create the output directory if it doesn't exist
