@@ -1,6 +1,6 @@
 # Broken Links Report
 
-Created: 2024-02-24T19:51:54.332Z
+Created: 2024-02-26T03:10:50.930Z
 
 Total Broken Links Found: 12
 
@@ -15,7 +15,7 @@ Found on Pages:
 
 
 ## Broken Link #2:
-[https://weboftrust.github.io/WOT-terms/docs/glossary/#key-rotation](https://weboftrust.github.io/WOT-terms/docs/glossary/#key-rotation)
+[https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID](https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID)
 
 Found on Pages:
 
@@ -24,7 +24,7 @@ Found on Pages:
 
 
 ## Broken Link #3:
-[https://weboftrust.github.io/WOT-terms/docs/glossary/#safety-properties](https://weboftrust.github.io/WOT-terms/docs/glossary/#safety-properties)
+[https://weboftrust.github.io/WOT-terms/docs/glossary/#key-rotation](https://weboftrust.github.io/WOT-terms/docs/glossary/#key-rotation)
 
 Found on Pages:
 
@@ -33,7 +33,7 @@ Found on Pages:
 
 
 ## Broken Link #4:
-[https://weboftrust.github.io/WOT-terms/docs/glossary/#keri-agreement-algorithm-for-control-establishment](https://weboftrust.github.io/WOT-terms/docs/glossary/#keri-agreement-algorithm-for-control-establishment)
+[https://weboftrust.github.io/WOT-terms/docs/glossary/#safety-properties](https://weboftrust.github.io/WOT-terms/docs/glossary/#safety-properties)
 
 Found on Pages:
 
@@ -42,7 +42,7 @@ Found on Pages:
 
 
 ## Broken Link #5:
-[https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID](https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID)
+[https://weboftrust.github.io/WOT-terms/docs/glossary/#keri-agreement-algorithm-for-control-establishment](https://weboftrust.github.io/WOT-terms/docs/glossary/#keri-agreement-algorithm-for-control-establishment)
 
 Found on Pages:
 
@@ -69,7 +69,7 @@ Found on Pages:
 
 
 ## Broken Link #8:
-[https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-ietf-cesr-proof-main-draft-pfeairheller-cesr-proof](https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-ietf-cesr-proof-main-draft-pfeairheller-cesr-proof)
+[https://weboftrust.github.io/WOT-terms/docs/glossary-unified](https://weboftrust.github.io/WOT-terms/docs/glossary-unified)
 
 Found on Pages:
 
@@ -77,7 +77,7 @@ Found on Pages:
 
 
 ## Broken Link #9:
-[https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-ietf-ipex-main-draft-ssmith-ipex](https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-ietf-ipex-main-draft-ssmith-ipex)
+[https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-ietf-cesr-proof-main-draft-pfeairheller-cesr-proof](https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-ietf-cesr-proof-main-draft-pfeairheller-cesr-proof)
 
 Found on Pages:
 
@@ -93,7 +93,7 @@ Found on Pages:
 
 
 ## Broken Link #11:
-[https://weboftrust.github.io/WOT-terms/docs/glossary-unified](https://weboftrust.github.io/WOT-terms/docs/glossary-unified)
+[https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-keria-main-docs-protocol](https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-keria-main-docs-protocol)
 
 Found on Pages:
 
@@ -101,7 +101,7 @@ Found on Pages:
 
 
 ## Broken Link #12:
-[https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-keria-main-docs-protocol](https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-keria-main-docs-protocol)
+[https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-ietf-ipex-main-draft-ssmith-ipex](https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-ietf-ipex-main-draft-ssmith-ipex)
 
 Found on Pages:
 
