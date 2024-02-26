@@ -200,7 +200,7 @@ const typeSenseInstantSearch = () => {
           // "Postprocess" the content. Especially code samples can be very long and take up a lot of space in the search results. This function makes the code samples shorter. TODO: check if other content types need to be shortened as well.
           let postProcessedCode = '';
 
-          // If the tag is pre or textarea, wrap the content in a <pre> tag
+          // If the tag is pre or textarea, wrap the content in a <pre> tag, first let's do the opening tag
           let postProcessedOpeningTag = '';
           if (item.tag === 'pre' || item.tag === 'textarea') {
             postProcessedOpeningTag = '<pre>';
@@ -210,7 +210,7 @@ const typeSenseInstantSearch = () => {
             postProcessedCode = item._highlightResult.content.value;
           }
 
-          // If the tag is pre or textarea, wrap the content in a <pre> tag
+          // If the tag is pre or textarea, wrap the content in a <pre> tag, now let's do the closing tag
           let postProcessedClosingTag = '';
           if (item.tag === 'pre' || item.tag === 'textarea') {
             postProcessedClosingTag = '</pre>';
