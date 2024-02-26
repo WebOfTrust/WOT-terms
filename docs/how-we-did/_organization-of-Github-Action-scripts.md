@@ -6,7 +6,7 @@ status: draft
 
 ## For who
 
-This article is for maintainers, but also users who'd like to know what actions get triggered by what type of events.
+This article is for maintainers, but also users who'd like to know what actions get triggered by what type of events. Test
 
 Results: insight in the choice around our Coninuous Development Continuous Integration (CDCI) process.
 
