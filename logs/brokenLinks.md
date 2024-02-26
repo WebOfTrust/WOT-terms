@@ -1,6 +1,6 @@
 # Broken Links Report
 
-Created: 2024-02-24T20:18:02.383Z
+Created: 2024-02-26T03:14:04.403Z
 
 Total Broken Links Found: 12
 
@@ -85,7 +85,7 @@ Found on Pages:
 
 
 ## Broken Link #10:
-[https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-keria-main-docs-protocol](https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-keria-main-docs-protocol)
+[https://weboftrust.github.io/WOT-terms/docs/glossary-unified](https://weboftrust.github.io/WOT-terms/docs/glossary-unified)
 
 Found on Pages:
 
@@ -93,7 +93,7 @@ Found on Pages:
 
 
 ## Broken Link #11:
-[https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-ietf-cesr-proof-main-draft-pfeairheller-cesr-proof](https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-ietf-cesr-proof-main-draft-pfeairheller-cesr-proof)
+[https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-keria-main-docs-protocol](https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-keria-main-docs-protocol)
 
 Found on Pages:
 
@@ -101,7 +101,7 @@ Found on Pages:
 
 
 ## Broken Link #12:
-[https://weboftrust.github.io/WOT-terms/docs/glossary-unified](https://weboftrust.github.io/WOT-terms/docs/glossary-unified)
+[https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-ietf-cesr-proof-main-draft-pfeairheller-cesr-proof](https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-ietf-cesr-proof-main-draft-pfeairheller-cesr-proof)
 
 Found on Pages:
 
