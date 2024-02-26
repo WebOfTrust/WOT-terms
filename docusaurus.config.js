@@ -347,6 +347,7 @@ const config = {
     require.resolve('./clientModules/fetchFormsColumnFromWotTerms'),
     require.resolve('./clientModules/addUiToSidebar'),
     require.resolve('./clientModules/createLinkToWikiPage'),
+    require.resolve('./clientModules/redirects'),
   ],
 };
 
