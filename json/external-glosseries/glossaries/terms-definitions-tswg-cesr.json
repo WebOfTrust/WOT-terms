@@ -1,0 +1,114 @@
+[
+  {
+    "organisation": "TSWG (CESR)",
+    "url": "https://trustoverip.github.io/tswg-cesr-specification/index.html",
+    "term": "Autonomic Identifier (AID)",
+    "definition": "a self-managing cryptonymous identifier that must be self-certifying (self-authenticating) and must be encoded in CESR as a qualified Cryptographic Primitive.",
+    "anchor": "AutonomicIdentifier(AID)"
+  },
+  {
+    "organisation": "TSWG (CESR)",
+    "url": "https://trustoverip.github.io/tswg-cesr-specification/index.html",
+    "term": "Composability",
+    "definition": "short for text-binary concatenation composability. An encoding has Composability when any set of self-framing concatenated Primitives expressed in either the Text domain or Binary domain may be converted as a group to the other Domain and back again without loss.",
+    "anchor": "Composability"
+  },
+  {
+    "organisation": "TSWG (CESR)",
+    "url": "https://trustoverip.github.io/tswg-cesr-specification/index.html",
+    "term": "Cryptographic Primitive",
+    "definition": "the serialization of a value associated with a cryptographic operation including but not limited to a digest (hash), a salt, a seed, a private key, a public key, or a signature.",
+    "anchor": "CryptographicPrimitive"
+  },
+  {
+    "organisation": "TSWG (CESR)",
+    "url": "https://trustoverip.github.io/tswg-cesr-specification/index.html",
+    "term": "Domain",
+    "definition": "a representation of a Primitive either Text (T), Binary (B) or Raw binary (R).",
+    "anchor": "Domain"
+  },
+  {
+    "organisation": "TSWG (CESR)",
+    "url": "https://trustoverip.github.io/tswg-cesr-specification/index.html",
+    "term": "Framing Codes",
+    "definition": "codes that delineate a number of characters or bytes, as appropriate, that can be extracted atomically from a Stream.",
+    "anchor": "FramingCodes"
+  },
+  {
+    "organisation": "TSWG (CESR)",
+    "url": "https://trustoverip.github.io/tswg-cesr-specification/index.html",
+    "term": "Group/Count Codes",
+    "definition": "special Framing Codes that can be specified to support groups of Primitives which make them pipelinable.  Self-framing grouping using Count Codes is one of the primary advantages of composable encoding.",
+    "anchor": "Group/CountCodes"
+  },
+  {
+    "organisation": "TSWG (CESR)",
+    "url": "https://trustoverip.github.io/tswg-cesr-specification/index.html",
+    "term": "Key Event Receipt Infrastructure (KERI)",
+    "definition": "or the KERI protocol, is an identity system-based secure overlay for the Internet.",
+    "anchor": "KeyEventReceiptInfrastructure(KERI)"
+  },
+  {
+    "organisation": "TSWG (CESR)",
+    "url": "https://trustoverip.github.io/tswg-cesr-specification/index.html",
+    "term": "Message",
+    "definition": "consists of a serialized data structure that comprises its body and a set of serialized data structures that are its attachments. Attachments may include but are not limited to signatures on the body.",
+    "anchor": "Message"
+  },
+  {
+    "organisation": "TSWG (CESR)",
+    "url": "https://trustoverip.github.io/tswg-cesr-specification/index.html",
+    "term": "Primitive",
+    "definition": "a serialization of a unitary value.  All Primitives in KERI must be expressed in CESR.",
+    "anchor": "Primitive"
+  },
+  {
+    "organisation": "TSWG (CESR)",
+    "url": "https://trustoverip.github.io/tswg-cesr-specification/index.html",
+    "term": "Quadlet",
+    "definition": "a group of 4 characters in the T domain and equivalently in triplets of 3 bytes each in the B domain used to define variable size.",
+    "anchor": "Quadlet"
+  },
+  {
+    "organisation": "TSWG (CESR)",
+    "url": "https://trustoverip.github.io/tswg-cesr-specification/index.html",
+    "term": "Stable",
+    "definition": "todo",
+    "anchor": "Stable"
+  },
+  {
+    "organisation": "TSWG (CESR)",
+    "url": "https://trustoverip.github.io/tswg-cesr-specification/index.html",
+    "term": "Stream",
+    "definition": "any set of concatenated Primitives, concatenated groups of Primitives or hierarchically composed groups of Primitives.",
+    "anchor": "Stream"
+  },
+  {
+    "organisation": "TSWG (CESR)",
+    "url": "https://trustoverip.github.io/tswg-cesr-specification/index.html",
+    "term": "Tritet",
+    "definition": "3 bits. See Performant resynchronization with unique start bits",
+    "anchor": "Tritet"
+  },
+  {
+    "organisation": "TSWG (CESR)",
+    "url": "https://trustoverip.github.io/tswg-cesr-specification/index.html",
+    "term": "Variable Length",
+    "definition": "a type of count code allowing for vaiable size signatures or attachments which can be parsed to get the full size",
+    "anchor": "VariableLength"
+  },
+  {
+    "organisation": "TSWG (CESR)",
+    "url": "https://trustoverip.github.io/tswg-cesr-specification/index.html",
+    "term": "Version",
+    "definition": "the CESR Version is provided by a special Count Code that specifies the Version of all the the CESR code tables in a given Stream or Stream section.",
+    "anchor": "Version"
+  },
+  {
+    "organisation": "TSWG (CESR)",
+    "url": "https://trustoverip.github.io/tswg-cesr-specification/index.html",
+    "term": "Version String",
+    "definition": "the first field in any top-level KERI field map in which it appears.",
+    "anchor": "VersionString"
+  }
+]
