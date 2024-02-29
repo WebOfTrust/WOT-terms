@@ -1,5 +1,7 @@
 # Kerific Bookmarklet and Chrome Extension
 
+<video src={require('/static/video/kerific-explainer-1.mp4').default} controls muted autoplay loop></video>
+
 ## General
 
 The “Kerific” bookmarklet / chrome webinspector will look for Keri-related terms, and add buttons below each paragraph with these terms. On click it will show definitions of the term in various Keri-related glossaries.
