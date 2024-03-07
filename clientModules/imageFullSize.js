@@ -28,6 +28,10 @@ const imageFullSize = () => {
     console.log("event listener added");
     markdownElement.addEventListener('click', (event) => {
       if (event.target.tagName === 'IMG' && event.target.closest('.markdown')) {
+
+        // To be implemented: also account for SVG, path, circle, rect
+        // if ((event.target.tagName === 'svg' || event.target.tagName === 'path' || event.target.tagName === 'circle' || event.target.tagName === 'rect') && event.target.closest('.markdown')) {
+
         let image = event.target;
 
         if (document.querySelector('.image-container-full-page') === null) {
