@@ -225,11 +225,11 @@ const typeSenseInstantSearch = () => {
           // Only if siteName is not empty, show it
           let itemSiteNameTemplateString = item.siteName !== '' ? `${item._highlightResult.siteName.value}` : '';
 
-          // The same for title
+          // Only if title is not empty, show it
           // mb-4
           let itemTitleTemplateString = item.pageTitle !== '' ? `<h3 class="page-title mb-2 ms-4">${item._highlightResult.pageTitle.value}</h3>` : '';
 
-          // The same for author
+          // Only if author is not empty, show it
           let itemAuthorTemplateString = item.author !== '' ? `• ${item._highlightResult.author.value}` : '';
 
 
@@ -237,26 +237,25 @@ const typeSenseInstantSearch = () => {
           let imgClass = '';
           item.imgWidth < 200 ? imgClass = "inline-thumb-start" : imgClass = "";
 
-          // The same for img url
-          // if img url is not empty show it
+          // Only if imgUrl is not empty, show it
           let itemImgUrlTemplateString = item.imgUrl !== '' ? `<img class="search-results-img ${imgClass}" src='${item.imgUrl}'>` : '';
 
-          // The same for img meta
+          // Only if imgMeta is not empty, show it
           let itemImgMetaTemplateString = item.imgMeta !== '' ? `<p class="ms-5 mt-5">${item._highlightResult.imgMeta.value}</p>` : '';
 
-          // The same for creationDate
+          // Only if creationDate is not empty, show it
           let itemCreationDateTemplateString = item.creationDate !== '' ? `• ${item.creationDate}` : '';
 
-          // The same for knowledgeLevel
+          // Only if knowledgeLevel is not empty, show it
           let itemKnowledgeLevelTemplateString = item.knowledgeLevel !== '' ? `• Level: ${item.knowledgeLevel}` : '';
 
-          //The same for type
+          // Only if type is not empty, show it
           let itemTypeTemplateString = item.type !== '' ? `• ${item.type}` : '';
 
-          //The same for hierarchy.lvl1
+          // Only if hierarchy.lvl1 is not empty, show it
           let itemHierarchyLvl1TemplateString = item['hierarchy.lvl1'] !== '' ? `• ${item['hierarchy.lvl1']}` : '';
 
-          // The same for firstHeadingBeforeElement
+          // Only if firstHeadingBeforeElement is not empty, show it
           let itemFirstHeadingBeforeElementTemplateString = item.firstHeadingBeforeElement !== '' ? `<h4 class="first-heading-before-element ms-5">${item.firstHeadingBeforeElement}</h4>` : '';
 
           let siteBrandingClass = '';
