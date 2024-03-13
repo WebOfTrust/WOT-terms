@@ -13,7 +13,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Kerisse',
+    title: '⚡ Kerisse',
     Svg: require('@site/static/img/185139417416345278704481.svg')
       .default,
     description: <><strong>KERISSE</strong> is the fastest way to find relevant info about Keri.</>,
