@@ -1,8 +1,8 @@
 # Broken Links Report
 
-Created: 2024-02-26T03:14:04.403Z
+Created: 2024-03-11T03:14:36.174Z
 
-Total Broken Links Found: 12
+Total Broken Links Found: 7
 
 ## Broken Link #1:
 [https://weboftrust.github.io/framework/docs/essifLab-principles](https://weboftrust.github.io/framework/docs/essifLab-principles)
@@ -66,45 +66,5 @@ Found on Pages:
 
 - [https://weboftrust.github.io/WOT-terms/docs/dictionary](https://weboftrust.github.io/WOT-terms/docs/dictionary)
 - [https://weboftrust.github.io/WOT-terms/docs/dictionary?level=2](https://weboftrust.github.io/WOT-terms/docs/dictionary?level=2)
-
-
-## Broken Link #8:
-[https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-ietf-ipex-main-draft-ssmith-ipex](https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-ietf-ipex-main-draft-ssmith-ipex)
-
-Found on Pages:
-
-- [https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE](https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE)
-
-
-## Broken Link #9:
-[https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-ietf-acdc-main-draft-ssmith-acdc](https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-ietf-acdc-main-draft-ssmith-acdc)
-
-Found on Pages:
-
-- [https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE](https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE)
-
-
-## Broken Link #10:
-[https://weboftrust.github.io/WOT-terms/docs/glossary-unified](https://weboftrust.github.io/WOT-terms/docs/glossary-unified)
-
-Found on Pages:
-
-- [https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE](https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE)
-
-
-## Broken Link #11:
-[https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-keria-main-docs-protocol](https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-keria-main-docs-protocol)
-
-Found on Pages:
-
-- [https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE](https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE)
-
-
-## Broken Link #12:
-[https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-ietf-cesr-proof-main-draft-pfeairheller-cesr-proof](https://weboftrust.github.io/WOT-terms/docs/carbon-copies/WebOfTrust-ietf-cesr-proof-main-draft-pfeairheller-cesr-proof)
-
-Found on Pages:
-
-- [https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE](https://weboftrust.github.io/WOT-terms/docs/overview/indexed-in-KERISSE)
 
 
