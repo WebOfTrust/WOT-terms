@@ -12,6 +12,7 @@ import fs from 'fs';
 import path from 'path';
 import readline from 'readline';
 import { URL } from 'url';
+import { getImageMetaData } from './modules/getImageMetaData.mjs';
 
 function processJSONLFiles(directory, outputFile) {
     // Object to store unique imgUrl and their count, along with domain mismatch count
@@ -63,20 +64,42 @@ function processJSONLFiles(directory, outputFile) {
             });
 
             rl.on('close', () => {
-                // No changes needed here
-                const imgUrlArray = Object.keys(imgUrlCount).map(imgUrl => ({
-                    imgUrl,
-                    count: imgUrlCount[imgUrl],
-                    domainMismatchCount: domainMismatchCount[imgUrl] || 0
-                }));
-                const jsonContent = JSON.stringify(imgUrlArray, null, 4);
-                fs.writeFile(outputFile, jsonContent, (err) => {
-                    if (err) {
-                        console.error('Error writing file:', err);
-                        return;
+                (async () => {
+                    try {
+                        const imgUrlArray = await Promise.all(Object.keys(imgUrlCount).map(async imgUrl => {
+                            try {
+                                const info = await getImageMetaData(imgUrl);
+                                console.log(info); // You can remove this line if you don't need to log the info
+                                return {
+                                    imgUrl,
+                                    count: imgUrlCount[imgUrl],
+                                    domainMismatchCount: domainMismatchCount[imgUrl] || 0,
+                                    meta: info
+                                };
+                            } catch (error) {
+                                console.error(error);
+                                return {
+                                    imgUrl,
+                                    count: imgUrlCount[imgUrl],
+                                    domainMismatchCount: domainMismatchCount[imgUrl] || 0,
+                                    meta: null
+                                };
+                            }
+                        }));
+                        const jsonContent = JSON.stringify(imgUrlArray, null, 4);
+                        fs.writeFile(outputFile, jsonContent, (err) => {
+                            if (err) {
+                                console.error('Error writing file:', err);
+                                return;
+                            }
+                            console.log('Unique imgUrl values with count and domain mismatch count written to file:', outputFile);
+                        });
+                    } catch (error) {
+                        console.error(error);
                     }
-                    console.log('Unique imgUrl values with count and domain mismatch count written to file:', outputFile);
-                });
+                })();
+
+
             });
         });
     });
