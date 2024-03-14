@@ -24,9 +24,21 @@ async function generateMarkdown(inputFile, outputFile) {
         markdownContent += 'Images can hold anything: photo’s, diagrams, charts etc.\n\n';
 
         imgUrlArray.forEach((imageInfo, index) => {
+
+            let imageInfoMetaSizeInKB = (imageInfo && imageInfo.meta && imageInfo.meta.sizeInKB) ? imageInfo.meta.sizeInKB : 'N/A';
+            let imageInfoMetaHash = (imageInfo && imageInfo.meta && imageInfo.meta.hash) ? imageInfo.meta.hash : 'N/A';
+
             markdownContent += `## Image ${index + 1}\n`;
             markdownContent += `![Image](${imageInfo.imgUrl})\n`;
-            markdownContent += `This images was found ${imageInfo.count} times\n\n`;
+
+            // No empty space allowed to the left of the pipe character due to markdown table formatting
+            markdownContent += `
+|||
+|---|---|
+|Count|${imageInfo.count}|
+|Size (kB)|${imageInfoMetaSizeInKB}|
+|SHA256|${imageInfoMetaHash}|
+\n\n`;
         });
 
         // Write Markdown content to output file
