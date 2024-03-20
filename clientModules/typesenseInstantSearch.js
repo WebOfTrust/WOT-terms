@@ -22,7 +22,7 @@ import {
   refinementList,
   clearRefinements,
   // menu,
-  // sortBy,
+  sortBy,
   currentRefinements,
 } from 'instantsearch.js/es/widgets';
 
@@ -97,7 +97,7 @@ const typeSenseInstantSearch = () => {
 
       // sort_by: 'imgMetaLength:asc, contentLength:asc',//asc or desc
       // sort_by: 'imgWidth:desc,contentLength:desc,imgUrl(missing_values: last):desc',//asc or desc
-      sort_by: 'imgWidth:desc,imgUrl(missing_values: last):desc',//asc or desc
+      // sort_by: 'imgWidth:desc,imgUrl(missing_values: last):desc',//asc or desc
       group_by: 'url',
       group_limit: 1
     },
@@ -416,6 +416,28 @@ const typeSenseInstantSearch = () => {
     //   },
     //   sortBy: ['name:asc', 'count:desc'],
     // }),
+    // TAG
+    refinementList({
+      container: '#tag-refinement-list',
+      attribute: 'tag',
+      searchable: false,
+      searchablePlaceholder: 'Source',
+      showMore: false,
+      // max_facet_values: 100, TODO: does this work?
+      cssClasses: {
+        searchableInput: 'form-control form-control-sm mb-2 border-light-2',
+        searchableSubmit: 'hidden',
+        searchableReset: 'hidden',
+        showMore: 'btn btn-secondary btn-sm align-content-center',
+        list: 'list-unstyled',
+        count: '',
+        label: '',
+        checkbox: 'me-2',
+      },
+      sortBy: ['name:asc', 'count:desc'],
+      transformItems: items => items.filter(item => ['img'].includes(item.label)),
+      limit: 1000
+    }),
     // CATEGORY
     refinementList({
       container: '#category-refinement-list',
