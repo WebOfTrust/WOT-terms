@@ -123,6 +123,9 @@ const typesenseInstantSearchCreateDomElements = () => {
                         <hr>
                     </div>
 
+                    <h3 class="mt-1">Only Images</h3>
+                    <div id="tag-refinement-list"></div>
+
                     <h3 class="mt-1">Category</h3>
                     <div id="category-refinement-list"></div>
 
