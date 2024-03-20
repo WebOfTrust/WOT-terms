@@ -103,6 +103,7 @@ export default async function (page, domQueryForContent) {
                         // imgMeta: element.alt + " " + element.title,//TODO: remove or use it
                         imgWidth: element.clientWidth,
                         imgHeight: element.clientHeight,
+                        tag: element.tagName.toLowerCase()
                     };
                 } else if (element.tagName.toLowerCase() === 'pre' || element.tagName.toLowerCase() === 'code') {
                     return {
