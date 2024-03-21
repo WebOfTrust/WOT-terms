@@ -220,7 +220,7 @@ const typeSenseInstantSearch = () => {
           }
           // END "Postprocess" the content
 
-          // Only if curated is true, show it
+          // Only if curated is true, show a sticky label
           let itemCurated = item.curated === true ? `<p role="alert" class='alert alert-info text-center p-1 d-inline fs-6'><small class="">Sticky</small></p>` : '';
 
           // Only if siteName is not empty, show it
