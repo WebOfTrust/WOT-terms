@@ -151,7 +151,7 @@ const typeSenseInstantSearch = () => {
     hits({
       container: '#hits',
 
-      // to be uaed in the future
+      // to be used in the future
       // transformItems(items) {
       //   let sortedItems = applyCustomSorting(items);
       //   return sortedItems;
