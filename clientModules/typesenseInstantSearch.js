@@ -234,9 +234,9 @@ const typeSenseInstantSearch = () => {
           let itemAuthorTemplateString = item.author !== '' ? `• ${item._highlightResult.author.value}` : '';
 
 
-          // Add class to img based on imgWidth (img that are under 200 are assumed to be logos etc, above 200 are assumed to be explanations, flowcharts, etc)
+          // Add class to img based on imgWidth (img that are under 301 are assumed to be logos etc, above 301 are assumed to be explanations, flowcharts, etc)
           let imgClass = '';
-          item.imgWidth < 200 ? imgClass = "inline-thumb-start" : imgClass = "";
+          item.imgWidth < 301 ? imgClass = "inline-thumb-start" : imgClass = "";
 
           // Only if imgUrl is not empty, show it
           let itemImgUrlTemplateString = item.imgUrl !== '' ? `<img class="search-results-img ${imgClass}" src='${item.imgUrl}'>` : '';
