@@ -18,11 +18,8 @@ const path = require('path');
 
 
 // CONFIG
-// const siteUrl = 'https://weboftrust.github.io/WOT-terms';
-// const baseUrl = 'https://weboftrust.github.io';
-
-const siteUrl = "https://allesmetweb.nl";
-const baseUrl = "https://allesmetweb.nl";
+const siteUrl = 'https://weboftrust.github.io/WOT-terms';
+const baseUrl = 'https://weboftrust.github.io';
 const outputDirectory = path.join(__dirname, '../logs');
 const outputFileName = 'brokenLinksNew.md';
 const excludedSubdirectories = ['/WOT-terms/slack/'];
@@ -82,6 +79,7 @@ const siteChecker = new SiteChecker({
 
         const timestamp = getISO8601Timestamp();
         const numberOfBrokenLinks = Object.keys(brokenLinks).length;
+        console.log('numberOfBrokenLinks: ', numberOfBrokenLinks);
 
         // Format the output for the Markdown file
         fileContent = `# Broken Links Report\n\nCreated: ${timestamp}\n\n`;
