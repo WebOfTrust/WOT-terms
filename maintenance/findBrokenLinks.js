@@ -21,7 +21,7 @@ const path = require('path');
 const siteUrl = 'https://weboftrust.github.io/WOT-terms';
 const baseUrl = 'https://weboftrust.github.io';
 const outputDirectory = path.join(__dirname, '../logs');
-const outputFileName = 'brokenLinksNew.md';
+const outputFileName = 'brokenLinks.md';
 const excludedSubdirectories = ['/WOT-terms/slack/'];
 const githubToken = process.env.GITHUB_ISSUE_AUTH_TOKEN;
 // END CONFIG
