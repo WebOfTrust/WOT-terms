@@ -1,6 +1,6 @@
 /*
   Author: Kor Dwarshuis
-  Created: 2023-09-04
+  Created: 2024-03-26
   Updated: -
   Description: This script checks all links on the WOT-terms site and reports broken links. It also creates a GitHub issue with the broken links.
 
@@ -16,85 +16,62 @@ const { SiteChecker } = require('broken-link-checker');
 const { URL } = require('url');
 const path = require('path');
 
-console.log('Initialization...');
 
+// CONFIG
+// const siteUrl = 'https://weboftrust.github.io/WOT-terms';
+// const baseUrl = 'https://weboftrust.github.io';
 
-const directory = path.join(__dirname, '../logs');  // Go up one level to get to the root, then into the logs directory
-const fileName = 'brokenLinks.md';
-
-// Configuration Section
-const config = {
-    // outputFilePath: '/logs/brokenLinks.txt',
-    outputFilePath: path.join(directory, fileName),
-    githubRepo: 'WebOfTrust/WOT-terms',
-    githubToken: process.env.GITHUB_ISSUE_AUTH_TOKEN
-};
-
-// Define excluded subdirectories
+const siteUrl = "https://allesmetweb.nl";
+const baseUrl = "https://allesmetweb.nl";
+const outputDirectory = path.join(__dirname, '../logs');
+const outputFileName = 'brokenLinksNew.md';
 const excludedSubdirectories = ['/WOT-terms/slack/'];
+const githubToken = process.env.GITHUB_ISSUE_AUTH_TOKEN;
+// END CONFIG
 
-console.log("config.outputFilePath: " + config.outputFilePath);
-console.log('Configuration loaded.');
-
+const outputFilePath = path.join(outputDirectory, outputFileName);
 let brokenLinks = {};
+let fileContent = '';
 
-console.log('Starting link checking...');
+console.log('Start Link checking...');
 
 const siteChecker = new SiteChecker({
-    maxSocketsPerHost: 10, // Increase the number of concurrent checks per host
-    // Add other configuration options as needed
+    excludeExternalLinks: true,
+    maxSocketsPerHost: 10
 }, {
     link: (result) => {
-        try {
-            // Scenario 1: only internal links
-            const baseURL = 'https://weboftrust.github.io';
-            const urlObj = new URL(result.url.original, baseURL);
-            const baseObj = new URL(result.base.original, baseURL);
-            const isInternal = urlObj.hostname === baseObj.hostname;
+        // Log every URL that is checked
+        console.log(`Checking link: ${result.url.resolved}`);
 
-            // Check if the URL falls within the excluded subdirectories
-            const isExcluded = excludedSubdirectories.some(subdir =>
-                urlObj.pathname.startsWith(subdir) || baseObj.pathname.startsWith(subdir)
-            );
+        // Additionally, log if a link is broken
+        if (result.broken) {
+            console.log(`Broken link found: ${result.url.resolved} (${result.brokenReason})`);
 
-            if (result.broken && isInternal && !isExcluded) {
-                const href = urlObj.href;
-                if (!brokenLinks[href]) {
-                    brokenLinks[href] = [];
-                }
-                if (!brokenLinks[href].includes(baseObj.href)) {
-                    brokenLinks[href].push(baseObj.href);
-                }
-                console.log(`Broken internal link found: ${urlObj.href}, Found on page: ${baseObj.href}`);
+            // brokenLinks.push({
+            //     url: result.url.resolved,
+            //     brokenReason: result.brokenReason
+            // });
+
+
+            console.log('result.url.original: ', result.url.original);
+            const urlObj = new URL(result.url.original, baseUrl);
+            const baseObj = new URL(result.base.original, baseUrl);
+
+            const href = urlObj.href;
+            if (!brokenLinks[href]) {
+                brokenLinks[href] = [];
             }
+            if (!brokenLinks[href].includes(baseObj.href)) {
+                brokenLinks[href].push(baseObj.href);
+            }
+            console.log(`Broken internal link found: ${urlObj.href}, Found on page: ${baseObj.href}`);
 
-            // // Scenario 2: internal and external links
-            // if (result.broken) {
-            //     const brokenLink = result.url.original;
-            //     const foundOnPage = result.base.original;
 
-            //     // Check if the URL falls within the excluded subdirectories
-            //     const isExcluded = excludedSubdirectories.some(subdir =>
-            //         new URL(brokenLink).pathname.startsWith(subdir) ||
-            //         new URL(foundOnPage).pathname.startsWith(subdir)
-            //     );
-
-            //     if (result.broken && !isExcluded) {
-            //         if (!brokenLinks[brokenLink]) {
-            //             brokenLinks[brokenLink] = [];
-            //         }
-            //         if (!brokenLinks[brokenLink].includes(foundOnPage)) {
-            //             brokenLinks[brokenLink].push(foundOnPage);
-            //         }
-
-            //         console.log(`Broken link found: ${brokenLink}, Found on page: ${foundOnPage}`);
-            //     }
-            // }
-        } catch (e) {
-            console.warn(`Skipping invalid URL: ${result.url.original}`);
         }
+
     },
-    end: async () => {
+    end: () => {
+        console.log("Finished checking site.");
         console.log('Checking done! Writing to file...');
 
         // Get ISO8601 timestamp
@@ -104,12 +81,11 @@ const siteChecker = new SiteChecker({
         };
 
         const timestamp = getISO8601Timestamp();
-
         const numberOfBrokenLinks = Object.keys(brokenLinks).length;
 
         // Format the output for the Markdown file
-        let dataToWrite = `# Broken Links Report\n\nCreated: ${new Date().toISOString()}\n\n`;
-        dataToWrite += `Total Broken Links Found: ${numberOfBrokenLinks}\n\n`;
+        fileContent = `# Broken Links Report\n\nCreated: ${timestamp}\n\n`;
+        fileContent += `Total Broken Links Found: ${numberOfBrokenLinks}\n\n`;
 
         let counter = 1; // Initialize counter variable outside the loop
 
@@ -117,23 +93,20 @@ const siteChecker = new SiteChecker({
             let markdownBrokenLink = `[${brokenLink}](${brokenLink})`;
             let pagesMarkdown = foundOnPages.map(page => `- [${page}](${page})`).join('\n');
             pagesMarkdown += '\n\n';
-            dataToWrite += `## Broken Link #${counter}:\n${markdownBrokenLink}\n\nFound on Pages:\n\n${pagesMarkdown}\n`;
+            fileContent += `## Broken Link #${counter}:\n${markdownBrokenLink}\n\nFound on Pages:\n\n${pagesMarkdown}\n`;
             counter++; // Increment counter for the next broken link
         }
 
-        // Now, dataToWrite is a Markdown string where every URL is clickable
-
-
         // Check if directory exists, if not then create it
-        if (!fs.existsSync(directory)) {
-            fs.mkdirSync(directory, { recursive: true });
+        if (!fs.existsSync(outputDirectory)) {
+            fs.mkdirSync(outputDirectory, { recursive: true });
         }
 
-        fs.writeFile(config.outputFilePath, dataToWrite, async (err) => {
+        fs.writeFile(outputFilePath, fileContent, async (err) => {
             if (err) {
                 console.error('Error writing to file:', err);
             } else {
-                console.log(`Broken links and count written to ${config.outputFilePath}`);
+                console.log(`Broken links and count written to ${outputFilePath}`);
             }
 
             console.log('Creating GitHub issue...');
@@ -146,7 +119,7 @@ const siteChecker = new SiteChecker({
             };
 
             const octokit = new Octokit({
-                auth: config.githubToken
+                auth: githubToken
             });
 
             octokit.request('POST /repos/WebOfTrust/WOT-terms/issues', {
@@ -167,23 +140,4 @@ const siteChecker = new SiteChecker({
     }
 });
 
-siteChecker.enqueue('https://weboftrust.github.io/WOT-terms/');
-
-console.log('Link checking enqueued.');
-
-
-// // TEST
-
-// // Check if directory exists, if not then create it
-// if (!fs.existsSync(directory)) {
-//     fs.mkdirSync(directory, { recursive: true });
-// }
-
-// fs.writeFile(config.outputFilePath, "test test test", async (err) => {
-//     if (err) {
-//         console.error('Error writing to file:', err);
-//     } else {
-//         console.log(`Broken links and count written to ${config.outputFilePath}`);
-//     }
-
-// });
+siteChecker.enqueue(siteUrl);

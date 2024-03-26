@@ -151,7 +151,7 @@ const typeSenseInstantSearch = () => {
     hits({
       container: '#hits',
 
-      // to be uaed in the future
+      // to be used in the future
       // transformItems(items) {
       //   let sortedItems = applyCustomSorting(items);
       //   return sortedItems;
@@ -220,7 +220,7 @@ const typeSenseInstantSearch = () => {
           }
           // END "Postprocess" the content
 
-          // Only if curated is true, show it
+          // Only if curated is true, show a sticky label
           let itemCurated = item.curated === true ? `<p role="alert" class='alert alert-info text-center p-1 d-inline fs-6'><small class="">Sticky</small></p>` : '';
 
           // Only if siteName is not empty, show it
@@ -234,9 +234,9 @@ const typeSenseInstantSearch = () => {
           let itemAuthorTemplateString = item.author !== '' ? `• ${item._highlightResult.author.value}` : '';
 
 
-          // Add class to img based on imgWidth (img that are under 200 are assumed to be logos etc, above 200 are assumed to be explanations, flowcharts, etc)
+          // Add class to img based on imgWidth (img that are under 301 are assumed to be logos etc, above 301 are assumed to be explanations, flowcharts, etc)
           let imgClass = '';
-          item.imgWidth < 200 ? imgClass = "inline-thumb-start" : imgClass = "";
+          item.imgWidth < 301 ? imgClass = "inline-thumb-start" : imgClass = "";
 
           // Only if imgUrl is not empty, show it
           let itemImgUrlTemplateString = item.imgUrl !== '' ? `<img class="search-results-img ${imgClass}" src='${item.imgUrl}'>` : '';
