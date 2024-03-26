@@ -1,6 +1,6 @@
 # Broken Links Report
 
-Created: 2024-03-25T03:20:20.386Z
+Created: 2024-03-26T15:21:42.647Z
 
 Total Broken Links Found: 7
 
@@ -42,7 +42,7 @@ Found on Pages:
 
 
 ## Broken Link #5:
-[https://weboftrust.github.io/WOT-terms/docs/glossary/#Finger-pointing](https://weboftrust.github.io/WOT-terms/docs/glossary/#Finger-pointing)
+[https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID](https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID)
 
 Found on Pages:
 
@@ -51,7 +51,7 @@ Found on Pages:
 
 
 ## Broken Link #6:
-[https://weboftrust.github.io/WOT-terms/docs/glossary/#Sources-Definition-ChatGPT](https://weboftrust.github.io/WOT-terms/docs/glossary/#Sources-Definition-ChatGPT)
+[https://weboftrust.github.io/WOT-terms/docs/glossary/#Finger-pointing](https://weboftrust.github.io/WOT-terms/docs/glossary/#Finger-pointing)
 
 Found on Pages:
 
@@ -60,7 +60,7 @@ Found on Pages:
 
 
 ## Broken Link #7:
-[https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID](https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID)
+[https://weboftrust.github.io/WOT-terms/docs/glossary/#Sources-Definition-ChatGPT](https://weboftrust.github.io/WOT-terms/docs/glossary/#Sources-Definition-ChatGPT)
 
 Found on Pages:
 
