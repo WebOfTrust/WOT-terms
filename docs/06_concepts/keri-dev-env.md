@@ -417,6 +417,6 @@ Rich Flow Based Programming Hierarchical Structured Concurrency with Asynchronou
 
 Choosing HIO fits the asynchronous nature of KERI. See more at Github [Repository](https://github.com/ioflo/hio)
 
-#### Why KeriML and not something else?
+#### Why HIO and not something else?
 
 The minimal sufficient means design principle of KERI and the leading KERIpy implementation.
