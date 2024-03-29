@@ -19,9 +19,6 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # PREPARING
 #########################
 
-# Update content (always safe to run). Fetches all the content from the remote sources, more than strictly necessary for scraping.
-source "$SCRIPT_DIR/../update.sh"
-
 # Prepare file system.
 source "$SCRIPT_DIR/prepare_file_system.sh"
 setLogFile "success.log"

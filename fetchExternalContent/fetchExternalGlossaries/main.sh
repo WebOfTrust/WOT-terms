@@ -14,5 +14,15 @@ node fetchExternalContent/fetchExternalGlossaries/fetchW3cDid/fetchW3cDid.mjs
 
 node fetchExternalContent/fetchExternalGlossaries/fetchWotTermsContent/fetchWotTermsContent.mjs
 
+node fetchExternalContent/fetchExternalGlossaries/fetchTswgKeri/fetchTswgKeri.mjs
+
+node fetchExternalContent/fetchExternalGlossaries/fetchTswgAcdc/fetchTswgAcdc.mjs
+
+node fetchExternalContent/fetchExternalGlossaries/fetchTswgCesr/fetchTswgCesr.mjs
+
+
+
+
+
 # Combine glossaries
 node fetchExternalContent/fetchExternalGlossaries/createDictionary.mjs

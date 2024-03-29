@@ -34,10 +34,10 @@ const path = require('path');
 require('dotenv').config();
 
 // Directory path
-const directoryPath = process.env.CARBON_COPIES_OUTPUT_DIR;
+const directoryPath = process.env.ANNOTATED_COPIES_OUTPUT_DIR;
 
 // Import external JSON object TODO: fix the way the path is constructed
-const externalContentMetaData = require(path.join(__dirname, '../.' + process.env.CARBON_COPIES_INPUT_DIR));
+const externalContentMetaData = require(path.join(__dirname, '../.' + process.env.ANNOTATED_COPIES_INPUT_DIR));
 
 
 // Create mapping from the imported JSON

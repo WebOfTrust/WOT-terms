@@ -1,0 +1,317 @@
+[
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Authentic Chained Data Container",
+    "definition": "a directed acyclic graph with properties to provide a verifiable chain of proof-of-authorship. See the full specification",
+    "anchor": "AuthenticChainedDataContainer"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Autonomic identifier",
+    "definition": "a self-managing cryptonymous identifier that must be self-certifying (self-authenticating) and must be encoded in CESR as a qualified Cryptographic primitive.",
+    "anchor": "Autonomicidentifier"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Autonomic identity system",
+    "definition": "an identity system that includes a primary root-of-trust in self-certifying identifiers that are strongly bound at issuance to a cryptographic signing (public, private) key pair. An AIS enables any entity to establish control over an AN in an independent, interoperable, and portable way.",
+    "anchor": "Autonomicidentitysystem"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Autonomic namespace",
+    "definition": "a namespace that is self-certifying and hence self-administrating. An AN has a self-certifying prefix that provides cryptographic verification of root control authority over its namespace. All derived AIDs in the same AN share the same root-of-trust, source-of-truth, and locus-of-control (RSL). The governance of the namespace is therefore unified into one entity, that is, the controller who is/holds the root authority over the namespace.",
+    "anchor": "Autonomicnamespace"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Backer",
+    "definition": "an alternative to a traditional KERI based Witness commonly using Distributed Ledger Technology (DLT) to store the KEL for an identifier.",
+    "anchor": "Backer"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Concise Binary Object Representation",
+    "definition": "something",
+    "anchor": "ConciseBinaryObjectRepresentation"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Configuration traits",
+    "definition": "a list of specially defined strings representing a configuration of a KEL. See (Configuration traits field)[#configuration-traits-field].",
+    "anchor": "Configurationtraits"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Controller",
+    "definition": "an entity that can cryptographically prove the control authority over an AID and make changes on the associated KEL. A controller of a multi-sig AID may consist of multiple controlling entities.",
+    "anchor": "Controller"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Cryptographic Primitive",
+    "definition": "the serialization of a value associated with a cryptographic operation including but not limited to a digest (hash), a salt, a seed, a private key, a public key, or a signature.",
+    "anchor": "CryptographicPrimitive"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Cryptonym",
+    "definition": "a cryptographic pseudonymous identifier represented by a string of characters derived from a random or pseudo-random secret seed or salt via a one-way cryptographic function with a sufficiently high degree of cryptographic strength (e.g., 128 bits, see appendix on cryptographic strength) [13] [14] [12] [11]. A Cryptonym is a type of Primitive. Due to the entropy in its derivation, a Cyptonym is a universally unique identifier and only the Controller of the secret salt or seed from which the Cryptonym is derived may prove control over the Cryptonym. Therefore the derivation function must be associated with the Cryptonym and may be encoded as part of the Cryptonym itself.",
+    "anchor": "Cryptonym"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Current threshold",
+    "definition": "represents the number or fractional weights of signatures from the given set of current keys required to be attached to a Message for the Message to be considered fully signed.",
+    "anchor": "Currentthreshold"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Dead-Attack",
+    "definition": "an attack on an establishment event that occurs after the Key-state for that event has become stale because a later establishment event has rotated the sets of signing and pre-rotated keys to new sets. See (Security Properties of Prerotation)[#dead-attacks].",
+    "anchor": "DeadAttack"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Decentralized key management infrastructure",
+    "definition": "a key management infrastructure that does not rely on a single entity for the integrity and security of the system as a whole. Trust in a DKMI is decentralized through the use of technologies that make it possible for geographically and politically disparate entities to reach an agreement on the key state of an identifier DPKI.",
+    "anchor": "Decentralizedkeymanagementinfrastructure"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Duplicity",
+    "definition": "the existence of more than one Version of a Verifiable KEL for a given AID.",
+    "anchor": "Duplicity"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "End-verifiability",
+    "definition": "a data item or statement may be cryptographically securely attributable to its source (party at the source end) by any recipient verifier (party at the destination end) without reliance on any infrastructure not under the verifiers ultimate control.",
+    "anchor": "Endverifiability"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Establishment event",
+    "definition": "a Key event that establishes or changes the Key state which includes the current set of authoritative keypairs (Key state) for an AID.",
+    "anchor": "Establishmentevent"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "First-Seen",
+    "definition": "refers to the first instance of a Message recieved by any Witness or Watcher. The first-seen event is always seen, and can never be unseen. It forms the basis for Duplicity detection in KERI based systems.",
+    "anchor": "FirstSeen"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Inception",
+    "definition": "the operation of creating an AID by binding it to the initial set of authoritative keypairs and any other associated information. This operation is made verifiable and Duplicity evident upon acceptance as the Inception event that begins the AIDs KEL.",
+    "anchor": "Inception"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Inception event",
+    "definition": "an Establishment event that provides the incepting information needed to derive an AID and establish its initial Key state.",
+    "anchor": "Inceptionevent"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Interaction event",
+    "definition": "a Non-establishment event that anchors external data to the Key state as established by the most recent prior Establishment event.",
+    "anchor": "Interactionevent"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "KERIs Algorithm for Witness Agreement",
+    "definition": "a type of Byzantine Fault Tolerant (BFT) algorithm",
+    "anchor": "KERIsAlgorithmforWitnessAgreement"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Key event",
+    "definition": "concretely, the serialized data structure of an entry in the Key event log (KEL) for an AID. Abstractly, the data structure itself. Key events come in different types and are used primarily to establish or change the authoritative set of keypairs and/or anchor other data to the authoritative set of keypairs at the point in the KEL actualized by a particular entry.",
+    "anchor": "Keyevent"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Key event log",
+    "definition": "a Verifiable data structure that is a backward and forward chained, signed, append-only log of key events for an AID. The first entry in a KEL must be the one and only Inception event of that AID.",
+    "anchor": "Keyeventlog"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Key event message",
+    "definition": "message whose body is a Key event and whose attachments may include signatures on its body.",
+    "anchor": "Keyeventmessage"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Key event receipt",
+    "definition": "message whose body references a Key event and whose attachments must include one or more signatures on that Key event.",
+    "anchor": "Keyeventreceipt"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Key event receipt log",
+    "definition": "a key event receipt log is a KEL that also includes all the consistent key event receipt Messages created by the associated set of witnesses. See annex Key event receipt log",
+    "anchor": "Keyeventreceiptlog"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Key-State",
+    "definition": "a set of currently authoritative keypairs for an AID and any other information necessary to secure or establish control authority over an AID. This includes current keys, prior next key digests, current thresholds, prior next thresholds, witnesses, witness thresholds, and configurations. A key-state of an AID is first established through an inception event and may be altered by subsequent rotation events.",
+    "anchor": "KeyState"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Live-Attack",
+    "definition": "an attack that compromises either the current signing keys used to sign non-establishment events or he current pre-rotated keys needed to sign a subsequent establishment event. See (Security Properties of Prerotation)[#live-attacks].",
+    "anchor": "LiveAttack"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Message",
+    "definition": "a serialized data structure that comprises its body and a set of serialized data structures that are its attachments. Attachments may include but are not limited to signatures on the body.",
+    "anchor": "Message"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Next threshold",
+    "definition": "represents the number or fractional weights of signatures from the given set of next keys required to be attached to a Message for the Message to be considered fully signed.",
+    "anchor": "Nextthreshold"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Non-establishment event",
+    "definition": "a Key event that does not change the current Key state for an AID. Typically, the purpose of a Non-establishment event is to anchor external data to a given Key state as established by the most recent prior Establishment event for an AID.",
+    "anchor": "Nonestablishmentevent"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Primitive:",
+    "definition": "a serialization of a unitary value.  All Primitives in KERI must be expressed in CESR [1].",
+    "anchor": "Primitive:"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Rotation",
+    "definition": "the operation of revoking and replacing the set of authoritative keypairs for an AID. This operation is made verifiable and Duplicity evident upon acceptance as a Rotation event that is appended to the AIDs KEL.",
+    "anchor": "Rotation"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Rotation event",
+    "definition": "an Establishment Event that provides the information needed to change the Key state which includes a change to the set of authoritative keypairs for an AID.",
+    "anchor": "Rotationevent"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Salt",
+    "definition": "random data fed as an additional input to a one-way function that hashes data.",
+    "anchor": "Salt"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Seal",
+    "definition": "a seal is a cryptographic commitment in the form of a cryptographic digest or hash tree root (Merkle root) that anchors arbitrary data or a tree of hashes of arbitrary data to a particular event in the key event sequence. See annex (Seal)[#seal].",
+    "anchor": "Seal"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Self-addressed data",
+    "definition": "a representation of data content from which a SAID is derived. The SAID is both cryptographically bound to (content-addressable) and encapsulated by (self-referential) its SAD SAID.",
+    "anchor": "Selfaddresseddata"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Self-addressing identifiers",
+    "definition": "an identifier that is content-addressable and self-referential. A SAID is uniquely and cryptographically bound to a serialization of data that includes the SAID as a component in that serialization SAID.",
+    "anchor": "Selfaddressingidentifiers"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Self-certifying identifier",
+    "definition": "a type of Cryptonym that is uniquely cryptographically derived from the public key of an asymmetric non-repudiable signing keypair, (public, private).",
+    "anchor": "Selfcertifyingidentifier"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Validator",
+    "definition": "any entity or agent that evaluates whether or not a given signed statement as attributed to an identifier is valid at the time of its issuance.",
+    "anchor": "Validator"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Verifiable",
+    "definition": "a condition for a KEL for being internally consistent with integrity of its backward and forward chaining digest as well as authenticity of its non-repudiable signatures",
+    "anchor": "Verifiable"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Verifier",
+    "definition": "any entity or agent that cryptographically verifies the signature(s) and/or digests on an event Message.",
+    "anchor": "Verifier"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Version",
+    "definition": "an instance of a KEL for an AID in which at least one event is unique between two instances of the KEL",
+    "anchor": "Version"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Watcher",
+    "definition": "a watcher is an entity or component that keeps a copy of a KERL for an identifier but is not designated by the controller of the identifier as one of its witnesses. See annex watcher",
+    "anchor": "Watcher"
+  },
+  {
+    "organisation": "TSWG (Keri)",
+    "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
+    "term": "Witness",
+    "definition": "a witness is an entity or component designated (trusted) by the controller of an identifier. The primary role of a witness is to verify, sign, and keep events associated with an identifier. A witness is the controller of its own self-referential identifier which may or may not be the same as the identifier to which it is a witness. See Annex Witness.",
+    "anchor": "Witness"
+  }
+]

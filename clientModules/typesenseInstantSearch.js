@@ -22,7 +22,7 @@ import {
   refinementList,
   clearRefinements,
   // menu,
-  // sortBy,
+  sortBy,
   currentRefinements,
 } from 'instantsearch.js/es/widgets';
 
@@ -88,7 +88,8 @@ const typeSenseInstantSearch = () => {
     //  filterBy is managed and overridden by InstantSearch.js. To set it, you want to use one of the filter widgets like refinementList or use the `configure` widget.
     additionalSearchParameters: {
       // query_by: 'title,authors',
-      query_by: 'imgMeta, content, firstHeadingBeforeElement, pageTitle, siteName, source, url',
+      // query_by: 'imgMeta, content, firstHeadingBeforeElement, pageTitle, siteName, source, url',
+      query_by: 'content, firstHeadingBeforeElement, pageTitle, siteName, source, url',
       // weights: '10000,1,1,1,1,1,1',
       // filter_by: 'tag:=[p]',
       // filter_by: 'tag:[a]',
@@ -96,8 +97,8 @@ const typeSenseInstantSearch = () => {
       // sort_by: 'contentLength:asc',//asc or desc
 
       // sort_by: 'imgMetaLength:asc, contentLength:asc',//asc or desc
-      // sort_by: 'imgWidth:desc,contentLength:desc,imgUrl(missing_values: last):desc',//asc or desc
-      sort_by: 'imgWidth:desc,imgUrl(missing_values: last):desc',//asc or desc
+      sort_by: 'imgWidth:desc,contentLength:desc,imgUrl(missing_values: last):desc',//asc or desc
+      // sort_by: 'imgWidth:desc,imgUrl(missing_values: last):desc',//asc or desc
       group_by: 'url',
       group_limit: 1
     },
@@ -150,7 +151,7 @@ const typeSenseInstantSearch = () => {
     hits({
       container: '#hits',
 
-      // to be uaed in the future
+      // to be used in the future
       // transformItems(items) {
       //   let sortedItems = applyCustomSorting(items);
       //   return sortedItems;
@@ -200,7 +201,7 @@ const typeSenseInstantSearch = () => {
           // "Postprocess" the content. Especially code samples can be very long and take up a lot of space in the search results. This function makes the code samples shorter. TODO: check if other content types need to be shortened as well.
           let postProcessedCode = '';
 
-          // If the tag is pre or textarea, wrap the content in a <pre> tag
+          // If the tag is pre or textarea, wrap the content in a <pre> tag, first let's do the opening tag
           let postProcessedOpeningTag = '';
           if (item.tag === 'pre' || item.tag === 'textarea') {
             postProcessedOpeningTag = '<pre>';
@@ -210,7 +211,7 @@ const typeSenseInstantSearch = () => {
             postProcessedCode = item._highlightResult.content.value;
           }
 
-          // If the tag is pre or textarea, wrap the content in a <pre> tag
+          // If the tag is pre or textarea, wrap the content in a <pre> tag, now let's do the closing tag
           let postProcessedClosingTag = '';
           if (item.tag === 'pre' || item.tag === 'textarea') {
             postProcessedClosingTag = '</pre>';
@@ -219,44 +220,43 @@ const typeSenseInstantSearch = () => {
           }
           // END "Postprocess" the content
 
-          // Only if curated is true, show it
+          // Only if curated is true, show a sticky label
           let itemCurated = item.curated === true ? `<p role="alert" class='alert alert-info text-center p-1 d-inline fs-6'><small class="">Sticky</small></p>` : '';
 
           // Only if siteName is not empty, show it
           let itemSiteNameTemplateString = item.siteName !== '' ? `${item._highlightResult.siteName.value}` : '';
 
-          // The same for title
+          // Only if title is not empty, show it
           // mb-4
           let itemTitleTemplateString = item.pageTitle !== '' ? `<h3 class="page-title mb-2 ms-4">${item._highlightResult.pageTitle.value}</h3>` : '';
 
-          // The same for author
+          // Only if author is not empty, show it
           let itemAuthorTemplateString = item.author !== '' ? `• ${item._highlightResult.author.value}` : '';
 
 
-          // Add class to img based on imgWidth (img that are under 200 are assumed to be logos etc, above 200 are assumed to be explanations, flowcharts, etc)
+          // Add class to img based on imgWidth (img that are under 301 are assumed to be logos etc, above 301 are assumed to be explanations, flowcharts, etc)
           let imgClass = '';
-          item.imgWidth < 200 ? imgClass = "inline-thumb-start" : imgClass = "";
+          item.imgWidth < 301 ? imgClass = "inline-thumb-start" : imgClass = "";
 
-          // The same for img url
-          // if img url is not empty show it
+          // Only if imgUrl is not empty, show it
           let itemImgUrlTemplateString = item.imgUrl !== '' ? `<img class="search-results-img ${imgClass}" src='${item.imgUrl}'>` : '';
 
-          // The same for img meta
+          // Only if imgMeta is not empty, show it
           let itemImgMetaTemplateString = item.imgMeta !== '' ? `<p class="ms-5 mt-5">${item._highlightResult.imgMeta.value}</p>` : '';
 
-          // The same for creationDate
+          // Only if creationDate is not empty, show it
           let itemCreationDateTemplateString = item.creationDate !== '' ? `• ${item.creationDate}` : '';
 
-          // The same for knowledgeLevel
+          // Only if knowledgeLevel is not empty, show it
           let itemKnowledgeLevelTemplateString = item.knowledgeLevel !== '' ? `• Level: ${item.knowledgeLevel}` : '';
 
-          //The same for type
+          // Only if type is not empty, show it
           let itemTypeTemplateString = item.type !== '' ? `• ${item.type}` : '';
 
-          //The same for hierarchy.lvl1
+          // Only if hierarchy.lvl1 is not empty, show it
           let itemHierarchyLvl1TemplateString = item['hierarchy.lvl1'] !== '' ? `• ${item['hierarchy.lvl1']}` : '';
 
-          // The same for firstHeadingBeforeElement
+          // Only if firstHeadingBeforeElement is not empty, show it
           let itemFirstHeadingBeforeElementTemplateString = item.firstHeadingBeforeElement !== '' ? `<h4 class="first-heading-before-element ms-5">${item.firstHeadingBeforeElement}</h4>` : '';
 
           let siteBrandingClass = '';
@@ -417,6 +417,28 @@ const typeSenseInstantSearch = () => {
     //   },
     //   sortBy: ['name:asc', 'count:desc'],
     // }),
+    // TAG
+    refinementList({
+      container: '#tag-refinement-list',
+      attribute: 'tag',
+      searchable: false,
+      searchablePlaceholder: 'Source',
+      showMore: false,
+      // max_facet_values: 100, TODO: does this work?
+      cssClasses: {
+        searchableInput: 'form-control form-control-sm mb-2 border-light-2',
+        searchableSubmit: 'hidden',
+        searchableReset: 'hidden',
+        showMore: 'btn btn-secondary btn-sm align-content-center',
+        list: 'list-unstyled',
+        count: '',
+        label: '',
+        checkbox: 'me-2',
+      },
+      sortBy: ['name:asc', 'count:desc'],
+      transformItems: items => items.filter(item => ['img'].includes(item.label)),
+      limit: 1000
+    }),
     // CATEGORY
     refinementList({
       container: '#category-refinement-list',
