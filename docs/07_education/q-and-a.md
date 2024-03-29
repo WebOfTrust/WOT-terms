@@ -538,6 +538,8 @@ Keys are generated first, using any of the methods described above.  So you can 
 
 You then take the public signing keys (first set), digests (currently Blake3) of the pre-rotated keys (second set) and combine them with configuration information into an "inception event".  That inception event includes the signing and rotation thresholds, witness AIDs and witness threshold and other configuration information (do-not-delegate, establishment only) and is created as either a JSON, MsgPack or CBOR serialization.   You then pad out the d and the i field of the inception event and create a digest (cryptographically agile, so your choice) of that inception event serialization.  You then replace the padding of the d and i field with the digest and you have your inception event.  Also, the digest (called a SAID in KERI) is your Autonomic Identifier or AID.  It has the special properties that it is cryptographically bound (through the hash algorithm) to your first set of signing and rotation keys and it has an "unbounded term".  That means that, because you have created pre-rotated keys, you can rotate to new keys and the identifier survives.  It is not "bound" by the term of the public keys.  In this way we have solved the major problems of current PKI...  cryptographic binding of the AID to the keys and secure key rotation. 
 
+![](https://media.discordapp.net/attachments/1149003464190480474/1207720134177849415/Screenshot_2024-02-15_at_16.07.31.png?ex=65e0ac06&is=65ce3706&hm=ad0526225142a86c5bf040744da96b55b537386c8de1a5a09244cdd0ba75c5de&=&format=webp&quality=lossless&width=716&height=1174)
+
 ```mermaid
 flowchart TD
 %% Henk van Cann, Feb 15th 2024
