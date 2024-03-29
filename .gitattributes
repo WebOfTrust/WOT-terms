@@ -1,6 +1,6 @@
 # .gitattributes
-
 *.sh       linguist-language=Bash shell script
 *.js       linguist-language=JavaScript
 *.node     linguist-language=Node.js
 *.md       linguist-language=Markdown
+*.mp4 filter=lfs diff=lfs merge=lfs -text
