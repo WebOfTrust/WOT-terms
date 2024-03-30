@@ -3,6 +3,13 @@ layout: default
 title: 2024-03-24 KERI dev call
 ---
 
+## Why Zoom to KERISSE?
+We combined the delivery of a Zoom Meeting recording link and a KERISSE test to investigate how this would work in practise:
+- the editing with ffmpeg commandline tool
+- uploading and documenting on Youtube and finally
+- delivery of a big mp4 file hosted on Youtube.
+
+
 <div className="youtube-video" data-youtubeid="YdUbd-AzXNE" data-starttime="0"></div>
 
 ## Chat
