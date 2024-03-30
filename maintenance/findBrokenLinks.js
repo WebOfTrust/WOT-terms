@@ -18,8 +18,15 @@ const path = require('path');
 
 
 // CONFIG
-const siteUrl = 'https://weboftrust.github.io/WOT-terms';
-const baseUrl = 'https://weboftrust.github.io';
+// const siteUrl = 'https://weboftrust.github.io/WOT-terms';
+// const baseUrl = 'https://weboftrust.github.io';
+// const siteUrl = 'https://github.com/WebOfTrust/WOT-terms/wiki';
+// const baseUrl = 'https://github.com/WebOfTrust/WOT-terms/wiki';
+// const siteUrl = "https://allesmetweb.nl/bouwen/";
+// const baseUrl = "https://allesmetweb.nl";
+const siteUrl = "https://dwarshuis.com";
+const baseUrl = "https://dwarshuis.com";
+
 const outputDirectory = path.join(__dirname, '../logs');
 const outputFileName = 'brokenLinks.md';
 const excludedSubdirectories = ['/WOT-terms/slack/'];
@@ -35,6 +42,9 @@ console.log('Start Link checking...');
 const siteChecker = new SiteChecker({
     excludeExternalLinks: true,
     maxSocketsPerHost: 10
+    ,
+    includedKeywords: ["*gaswinning*"]
+    // excludedKeywords: ["https://dwarshuis.com"]
 }, {
     link: (result) => {
         // Log every URL that is checked
@@ -42,15 +52,12 @@ const siteChecker = new SiteChecker({
 
         // Additionally, log if a link is broken
         if (result.broken) {
-            console.log(`Broken link found: ${result.url.resolved} (${result.brokenReason})`);
 
             // brokenLinks.push({
             //     url: result.url.resolved,
             //     brokenReason: result.brokenReason
             // });
 
-
-            console.log('result.url.original: ', result.url.original);
             const urlObj = new URL(result.url.original, baseUrl);
             const baseObj = new URL(result.base.original, baseUrl);
 
@@ -61,7 +68,10 @@ const siteChecker = new SiteChecker({
             if (!brokenLinks[href].includes(baseObj.href)) {
                 brokenLinks[href].push(baseObj.href);
             }
-            console.log(`Broken internal link found: ${urlObj.href}, Found on page: ${baseObj.href}`);
+            console.log(`Broken link found: ${result.url.resolved} (${result.brokenReason}). Found on page: ${baseObj.href}`);
+
+
+            // console.log(`Broken internal link found: ${urlObj.href}, Found on page: ${baseObj.href}`);
 
 
         }
@@ -107,33 +117,33 @@ const siteChecker = new SiteChecker({
                 console.log(`Broken links and count written to ${outputFilePath}`);
             }
 
-            console.log('Creating GitHub issue...');
+            // console.log('Creating GitHub issue...');
 
-            // TODO: Create GitHub should not be inside the file write callback
-            // Create GitHub issue using Octokit
-            const issueData = {
-                title: 'Broken Links Report',
-                body: "Created: " + timestamp + "\n\n" + "Number of broken internal links: " + numberOfBrokenLinks + "\n\n" + "<a href='https://github.com/WebOfTrust/WOT-terms/blob/main/logs/brokenLinks.md'>See full list of broken internal links</a>.",
-            };
+            // // TODO: Create GitHub should not be inside the file write callback
+            // // Create GitHub issue using Octokit
+            // const issueData = {
+            //     title: 'Broken Links Report',
+            //     body: "Created: " + timestamp + "\n\n" + "Number of broken internal links: " + numberOfBrokenLinks + "\n\n" + "<a href='https://github.com/WebOfTrust/WOT-terms/blob/main/logs/brokenLinks.md'>See full list of broken internal links</a>.",
+            // };
 
-            const octokit = new Octokit({
-                auth: githubToken
-            });
+            // const octokit = new Octokit({
+            //     auth: githubToken
+            // });
 
-            octokit.request('POST /repos/WebOfTrust/WOT-terms/issues', {
-                owner: 'WebOfTrust',
-                repo: 'WOT-terms',
-                title: issueData.title,
-                body: issueData.body,
-                // labels: [
-                //     'bug'
-                // ],
-                headers: {
-                    'X-GitHub-Api-Version': '2022-11-28'
-                }
-            });
+            // octokit.request('POST /repos/WebOfTrust/WOT-terms/issues', {
+            //     owner: 'WebOfTrust',
+            //     repo: 'WOT-terms',
+            //     title: issueData.title,
+            //     body: issueData.body,
+            //     // labels: [
+            //     //     'bug'
+            //     // ],
+            //     headers: {
+            //         'X-GitHub-Api-Version': '2022-11-28'
+            //     }
+            // });
 
-            console.log('GitHub issue created.');
+            // console.log('GitHub issue created.');
         });
     }
 });
