@@ -15,7 +15,7 @@ termsData.forEach(term => {
             .replace(/<h2>/g, '<h4>').replace(/<\/h2>/g, '</h4>');
 
         if (definition.organisation === 'WebOfTrust') {
-            console.log(definition.definition);
+            // console.log(definition.definition);
             // In definition.definition find every <a> tag that has a href attribute that does not contain 'http' or 'https' and add to the href attribute value the string '/docs/glossary/'.
             // This is because the WebOfTrust definitions do not contain the full URL, but only the relative path.
             definition.definition = definition.definition.replace(/<a href="((?!http|https)[^"]*)">/g, '<a href="/WOT-terms/docs/glossary/$1">');
@@ -65,6 +65,30 @@ const CreateDictionary = () => {
         }));
     };
 
+    const toggleAllCheckboxes = () => {
+        const newCheckedOrganisations = {};
+        organisations.forEach(org => {
+            newCheckedOrganisations[org] = !checkedOrganisations[org];
+        });
+        setCheckedOrganisations(newCheckedOrganisations);
+    }
+
+    const turnAllOn = () => {
+        const newCheckedOrganisations = {};
+        organisations.forEach(org => {
+            newCheckedOrganisations[org] = true;
+        });
+        setCheckedOrganisations(newCheckedOrganisations);
+    }
+
+    const turnAllOff = () => {
+        const newCheckedOrganisations = {};
+        organisations.forEach(org => {
+            newCheckedOrganisations[org] = false;
+        });
+        setCheckedOrganisations(newCheckedOrganisations);
+    }
+
     const isTermVisible = (term) => {
         const regexPattern = /[-–_ ]/g; // Matches a dash, an en dash, or an underscore
 
@@ -83,7 +107,18 @@ const CreateDictionary = () => {
 
             {/* Search bar */}
             <input type="text" className="form-control" placeholder="Search" aria-label="Search" onChange={handleSearch} />
-            <div className='mt-5 mb-5 text-left'>
+
+            {/* Toggle All */}
+            <div className='mt-5 mb-0 text-left'>
+                <button type="button" className="btn btn-sm btn-outline-dark me-2" onClick={toggleAllCheckboxes}>Toggle Glossaries</button>
+
+                <button type="button" className="btn btn-sm btn-outline-dark me-2" onClick={turnAllOn}>All on</button>
+
+                <button type="button" className="btn btn-sm btn-outline-dark" onClick={turnAllOff}>All off</button>
+            </div>
+
+            <hr />
+            <div className='text-left'>
 
                 {/* Check boxes for each glossary */}
                 {organisations.map((organisation, index) => (
@@ -101,6 +136,7 @@ const CreateDictionary = () => {
                     </div>
                 ))}
             </div>
+            <hr />
             <ul className="list-group">
                 {termsData.map((term, index) => (
                     <li className={`term list-group-item border border-0 ${isTermVisible(term) ? '' : 'd-none'}`} key={index}>
