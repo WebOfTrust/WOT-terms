@@ -80,8 +80,12 @@ const CreateDictionary = () => {
 
     return (
         <div className='glossaries-combined'>
+
+            {/* Search bar */}
             <input type="text" className="form-control" placeholder="Search" aria-label="Search" onChange={handleSearch} />
             <div className='mt-5 mb-5 text-left'>
+
+                {/* Check boxes for each glossary */}
                 {organisations.map((organisation, index) => (
                     <div className="form-check form-check-inline" key={index}>
                         <input
