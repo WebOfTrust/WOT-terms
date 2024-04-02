@@ -45,7 +45,10 @@ node "${SCRIPT_DIR}/renameFilesToLowerCase.mjs" ${SEARCH_INDEX_DIR}/sitemaps
 setLogFile "success.log"
 log "Renaming files to lowercase finished"
 
-
+# Fetch external content.
+node fetchExternalContent/fetchSingleUrlsFromWotTermsGoogleSheet/fetchSingleUrlsFromWotTermsGoogleSheet.js
+setLogFile "success.log"
+log "Fetch external content finished"
 
 #########################
 # START SCRAPING
