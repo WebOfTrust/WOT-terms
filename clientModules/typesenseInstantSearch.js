@@ -270,36 +270,36 @@ const typeSenseInstantSearch = () => {
             siteBrandingClass = "kerisse";
           }
           return `
-<div class="card border-secondary mt-5 scroll-shadows" data-typesense-id="${item.id}">
-  <div class="card-header ${siteBrandingClass}">
-    ${itemCurated}<p class="d-inline"> Found on: ${itemSiteNameTemplateString}</p>
-  </div>
-  <div class="card-body text-secondary">
-        <div style="font-size: 0.9rem;">
-            <a class="search-hit-url btn btn-outline-primary mb-2" href="${item.url}" ${openInNewTab}>${item._highlightResult.url.value}</a>
-            ${itemAuthorTemplateString}
-            ${itemCreationDateTemplateString}
-            ${itemKnowledgeLevelTemplateString}
-            ${itemTypeTemplateString}
-            ${itemHierarchyLvl1TemplateString}
-        </div>
-        <hr>
-        ${itemTitleTemplateString}
-        ${itemFirstHeadingBeforeElementTemplateString}
+            <div class="card border-secondary mt-5 scroll-shadows" data-typesense-id="${item.id}">
+              <div class="card-header ${siteBrandingClass}">
+                ${itemCurated}<p class="d-inline"> Found on: ${itemSiteNameTemplateString}</p>
+              </div>
+              <div class="card-body text-secondary">
+                <div style="font-size: 0.9rem;">
+                  <a class="search-hit-url btn btn-outline-primary mb-2" href="${item.url}" ${openInNewTab}>${item._highlightResult.url.value}</a>
+                  ${itemAuthorTemplateString}
+                  ${itemCreationDateTemplateString}
+                  ${itemKnowledgeLevelTemplateString}
+                  ${itemTypeTemplateString}
+                  ${itemHierarchyLvl1TemplateString}
+                </div>
+                <hr>
+                ${itemTitleTemplateString}
+                ${itemFirstHeadingBeforeElementTemplateString}
 
-        ${postProcessedOpeningTag}
-          ${postProcessedCode}
-        ${postProcessedClosingTag}
+                ${postProcessedOpeningTag}
+                  ${postProcessedCode}
+                ${postProcessedClosingTag}
 
-        ${itemImgUrlTemplateString}
-        ${itemImgMetaTemplateString}
-  </div>
-  <div class="card-footer p-3">
-    <a href="#search-close" class="btn btn-outline-secondary d-inline btn-sm align-self-start p-2">back to top</a>
-    <a class="btn btn-outline-primary d-inline btn-sm align-self-start p-2" href="${item.url}">to URL</a>
-    <button type="button" class="btn btn-outline-secondary d-inline align-self-end p-1 upvote">upvote ↑</button>
-  </div>
-</div>
+                ${itemImgUrlTemplateString}
+                ${itemImgMetaTemplateString}
+              </div>
+              <div class="card-footer p-3">
+                <a href="#search-close" class="btn btn-outline-secondary d-inline btn-sm align-self-start p-2">back to top</a>
+                <a class="btn btn-outline-primary d-inline btn-sm align-self-start p-2" href="${item.url}">to URL</a>
+                <button type="button" class="btn btn-outline-secondary d-inline align-self-end p-1 upvote">upvote ↑</button>
+              </div>
+            </div>
       `;
         },
       },
