@@ -112,11 +112,6 @@ const typesenseInstantSearchCreateDomElements = () => {
                 </div>
 
                 <div class="" id="filters-section">
-                    <!--
-            <h3 class="mt-1">Sort</h3>
-            <div id="sort-by"></div>
-            -->
-
                     <div id="current-refinements-list-container">
                         <h3 id="current-refinements-list-heading" class="mt-1 fs-6">Current refinements</h3>
                         <div id="current-refinements-list" class="fs-6"></div>
@@ -138,15 +133,15 @@ const typesenseInstantSearchCreateDomElements = () => {
                     <h3 class="mt-5">File type</h3>
                     <div id="media-type-refinement-list"></div>
                     <!--
-            <h3 class="mt-5">Knowledge Level</h3>
-            <div id="knowledgelevel-refinement-list"></div>
+                    <h3 class="mt-5">Knowledge Level</h3>
+                    <div id="knowledgelevel-refinement-list"></div>
 
-            <h3 class="mt-5">Type</h3>
-            <div id="type-refinement-list"></div>
+                    <h3 class="mt-5">Type</h3>
+                    <div id="type-refinement-list"></div>
 
-            <h3 class="mt-5">Subject</h3>
-            <div id="subject-refinement-list"></div>
-            -->
+                    <h3 class="mt-5">Subject</h3>
+                    <div id="subject-refinement-list"></div>
+                    -->
                 </div>
             </div>
             <!-- Column with search results -->
