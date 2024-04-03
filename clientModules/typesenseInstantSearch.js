@@ -2,7 +2,7 @@
   File: typesenseInstantSearch.js
   Author: Kor Dwarshuis
   Created: 2023
-  Updated: 2023
+  Updated: 2024-04-03
   Description: This plugin instantiates the Typesense InstantSearch.js adapter and the InstantSearch.js search client.
 */
 
