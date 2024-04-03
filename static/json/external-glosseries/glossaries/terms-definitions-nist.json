@@ -377,11 +377,14 @@
     "term": "NFT",
     "abbrSyn": [
       {
-        "text": "Nonfungible Token",
-        "link": "https://csrc.nist.gov/glossary/term/nonfungible_token"
+        "text": "non-fungible token",
+        "link": "https://csrc.nist.gov/glossary/term/non_fungible_token"
+      },
+      {
+        "text": "Nonfungible Token"
       }
     ],
-    "definition": "Term found but the definition does not exist yet.",
+    "definition": "An owned, transferable, and indivisible data record that is a digital representation of a physical or virtual linked asset. The data record is created and managed by a smart contract on a blockchain.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/nft",
     "anchor": "NFT"
