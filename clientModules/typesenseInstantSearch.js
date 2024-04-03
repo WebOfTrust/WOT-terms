@@ -29,10 +29,32 @@ import {
 import TypesenseInstantSearchAdapter from 'typesense-instantsearch-adapter';
 // import { SearchClient as TypesenseSearchClient } from 'typesense'; // To get the total number of docs
 
+// import { connectSearchBox } from 'instantsearch.js/es/connectors'
+import { connectRefinementList } from 'instantsearch.js/es/connectors';
+
+// This is a custom widget that displays the refinement list for the "tag" attribute, but only for items that have the label "img". This is a replacement for the standard refinementList widget. The standard refinementList widget does not allow you to show a message when there are no items available. This custom widget does.
+const refinementListImageToggle = connectRefinementList((renderOptions, isFirstRender) => {
+  const { items, widgetParams } = renderOptions;
+
+  const container = document.querySelector("#tag-refinement-list");
+
+  if (items.length === 0) {
+    // Display "No results" if there are no items
+    container.innerHTML = '<div class="mb-3">No images available</div>';
+  } else {
+    // Otherwise, build and display the refinement list
+    const list = items.map(item => {
+      return `<label>
+                <input type="checkbox" value="${item.value}" ${item.isRefined ? 'checked' : ''} />
+                ${item.label} (${item.count})
+              </label>`;
+    }).join('');
+
+    container.innerHTML = `<div class="refinement-list">${list}</div>`;
+  }
+});
+
 const typeSenseInstantSearch = () => {
-
-
-
   // "Try searching for:"
   function handleSearchTermClick(event) {
     const searchBox = document.querySelector('.ais-SearchBox-input');
@@ -418,27 +440,16 @@ const typeSenseInstantSearch = () => {
     //   sortBy: ['name:asc', 'count:desc'],
     // }),
     // TAG
-    refinementList({
+
+
+    refinementListImageToggle({
       container: '#tag-refinement-list',
       attribute: 'tag',
-      searchable: false,
-      searchablePlaceholder: 'Source',
-      showMore: false,
-      // max_facet_values: 100, TODO: does this work?
-      cssClasses: {
-        searchableInput: 'form-control form-control-sm mb-2 border-light-2',
-        searchableSubmit: 'hidden',
-        searchableReset: 'hidden',
-        showMore: 'btn btn-secondary btn-sm align-content-center',
-        list: 'list-unstyled',
-        count: '',
-        label: '',
-        checkbox: 'me-2',
-      },
-      sortBy: ['name:asc', 'count:desc'],
+      // Include other necessary widget options here
       transformItems: items => items.filter(item => ['img'].includes(item.label)),
       limit: 1000
     }),
+
     // CATEGORY
     refinementList({
       container: '#category-refinement-list',
