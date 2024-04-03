@@ -443,8 +443,8 @@ const typeSenseInstantSearch = () => {
     refinementList({
       container: '#category-refinement-list',
       attribute: 'category',
-      searchable: false,
-      searchablePlaceholder: 'Source',
+      searchable: true,
+      searchablePlaceholder: 'Category',
       showMore: false,
       // max_facet_values: 100, TODO: does this work?
       cssClasses: {
