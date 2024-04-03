@@ -22,33 +22,13 @@ function handle_choice() {
         echo " "
         echo " "
         echo "  ************************************"
-        echo "  The script will now start scraping priority sites."
-        echo "  ************************************"
-        echo " "
-        echo " "
-        show_progress
-        do_scrape_prio_1
-    elif [[ "$choice" == "3" ]]; then
-        echo " "
-        echo " "
-        echo "  ************************************"
-        echo "  The script will now start a test scrape."
-        echo "  ************************************"
-        echo " "
-        echo " "
-        show_progress
-        do_scrape_test
-    elif [[ "$choice" == "4" ]]; then
-        echo " "
-        echo " "
-        echo "  ************************************"
         echo "  The script will now make a backup."
         echo "  ************************************"
         echo " "
         echo " "
         show_progress
         do_backup
-    elif [[ "$choice" == "5" ]]; then
+    elif [[ "$choice" == "3" ]]; then
         read -n 1 -r -p "  Are you sure you want to import into Typesense? (y/N) " confirm
         echo  # Empty line below the prompt
         if [[ "$confirm" == [yY] ]]; then
@@ -64,7 +44,7 @@ function handle_choice() {
         else
             echo "Import operation cancelled."
         fi
-    elif [[ "$choice" == "6" ]]; then
+    elif [[ "$choice" == "4" ]]; then
         read -n 1 -r -p "  Are you sure you want to restore into Typesense? (y/N) " confirm
             echo  # Empty line below the prompt
             if [[ "$confirm" == [yY] ]]; then
@@ -111,15 +91,11 @@ function display_intro() {
     echo " "
     echo "   [1] Scrape all sites (scrape + backup) *)"
     echo " "
-    echo "   [2] Scrape priority sites (scrape + backup) *)"
+    echo "   [2] Backup"
     echo " "
-    echo "   [3] Scrape test"
+    echo "   [3] Import"
     echo " "
-    echo "   [4] Backup"
-    echo " "
-    echo "   [5] Import"
-    echo " "
-    echo "   [6] Restore (import jsonl file into Typesense)"
+    echo "   [4] Restore (import jsonl file into Typesense)"
     echo " "
     echo "   [Q] Quit"
     echo " "
