@@ -8,7 +8,7 @@
 
 import instantsearch from 'instantsearch.js/es';
 
-// to be uaed in the future
+// to be used in the future
 // import { queriesWithSortAdjustment } from '/search-index-typesense/overrides/sortAdjustment.js';
 
 import {
@@ -45,7 +45,7 @@ const typeSenseInstantSearch = () => {
     el.addEventListener('click', handleSearchTermClick);
   });
 
-  // to be uaed in the future
+  // to be used in the future
   // function applyCustomSorting(items) {
   //   console.log('items: ', items);
   //   const currentQuery = search.helper.state.query;
