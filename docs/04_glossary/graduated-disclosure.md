@@ -1,7 +1,11 @@
 # graduated disclosure
 ## Definition
-selectively disclosing more data as time and/or necessity progresses.
+Lifting confidentiality step by step: Selectively disclosing more data as time and/or necessity progresses, offering backwards verifiability of earlier issued cryptographic proofs.
 
+## Example 
+You proof your insurance policy without disclosing details, before enjoying extreme sports. Only when something goes wrong, e.g. 1 in a 100, you disclose the data. This way confidentiality is kept in 99% of the cases.
+
+## KERI specific
 Disclosure performed by a presentation exchange that has cross-variant (see [compact variant](compact-variant)) Issuer commitment verifiability as an essential property. It supports graduated disclosure by the [Disclosee](disclosee) of any or all variants wether it be full, compact, metadata, partial, selective, bulk issued, or contractually protected.  
 Paraphrased by @henkvancann based on [source](https://github.com/WebOfTrust/ietf-ipex/blob/main/draft-ssmith-ipex.md#discussion)
 
