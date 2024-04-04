@@ -12,7 +12,7 @@ What's the result: The KERI Suite uses Docusaurus to generate enhanced technical
 
 ## Strongly recommended
 
-Use an editor that fixes markdown links when changing file names or moving files. We recommend * Visual Studio Code * (https://code.visualstudio.com).
+Use an editor that fixes markdown links when changing file names or moving files. We recommend *Visual Studio Code* (<https://code.visualstudio.com>).
 
 Change default setting in Visual Studio Code:
 
@@ -20,7 +20,7 @@ Change default setting in Visual Studio Code:
 * Type in search field: “markdown link update”
 * Set to “prompt” or “always”
 
-(This video explains: https://www.youtube.com/watch?v=3hcN0yfOAzQ)
+(This video explains: <https://www.youtube.com/watch?v=3hcN0yfOAzQ>)
 
 </div>
 
@@ -82,7 +82,6 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
 
 ## Links: Internal linking in the `docs` section
 
-
 <div class="alert alert-info" role="alert">
 
 ### Warnings
@@ -97,7 +96,10 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
 
 Internal linking is not easy in most content management systems. In Docusaurus it's difficult to keep all links working after renaming files. Here you will find best practise.
 
-General rule: use relative links, and use the `.md` extension at the end.
+General rules:
+* use relative links
+* use the `.md` extension at the end
+* use the **file**name, not what you see in the browser address bar (numbers at the beginning of a file are used for ordering and removed in the url. You should use the file name with numbers in it)
 
 Let's take this file system:
 
@@ -117,7 +119,7 @@ To create a link inside education/intro.md TO concepts/concepts.md write the fol
 
 If you do it this way, you can make Visual Studio Code [work for you](#strongly-recommended) and update the links if you move or rename files.
 
-There are more ways to create links, read about it on https://docusaurus.io/docs/markdown-features/links, but this is how we do it here.
+There are more ways to create links, read about it on <https://docusaurus.io/docs/markdown-features/links>, but this is how we do it here.
 
 ### Create links to anchors in the same page
 
@@ -156,6 +158,7 @@ You can copy these examples and use it (there is a copy button available at the 
 ```
 <img className="inline-small-start" src={require('/static/img/foo.png').default} alt="Foo" />
 ```
+
 #### To insert a local image that is a link
 
 ```
@@ -173,10 +176,8 @@ You can copy these examples and use it (there is a copy button available at the 
 ```
 <a href="https://www.example.com"><img className="inline-small-start" src='https://www.example.dom/img/foo.png' alt="Foo" /></a>
 ```
+
 You can insert images using Markdown but you cannot style these images using classes (CSS). So that is not very usable. That is why we use html syntax.
-
-
-
 
 ### How to style images
 
@@ -187,9 +188,11 @@ The following classes are available for styling (there is a copy button availabl
 ```
 inline-thumb-start
 ```
+
 ```
 inline-thumb-end
 ```
+
 ```
 inline-small-start
 ```
@@ -214,20 +217,20 @@ When no class is added the image will be 100% width.
 
 TBW
 
-More info: https://docusaurus.io/docs/markdown-features/assets#images
+More info: <https://docusaurus.io/docs/markdown-features/assets#images>
 
 ## Naming conventions
 
 ### Files and Directories
 
-Use 
+Use
+
 * [kebab-case](https://en.wikipedia.org/wiki/Naming_convention_(programming)#Delimiter-separated_words)
 * all lower case (except… in the glossary, where you will find files like `ACDC.md` etc. These abbreviations need to be uppercase)
 
 This is how it is done in a default Docusaurus install.
 
-
-Examples: 
+Examples:
 
 Directory: `tutorial-basics`
 
@@ -238,6 +241,7 @@ Combined: `tutorial-basics/create-a-page.md`
 ### Media (images, video etc)
 
 No conventions (yet), except two:
+
 * remove spaces and replace with dash, underscore or nothing.
 * put all media files in `/static` (and not in an image dir somewhere in `/doc`).
 
@@ -267,8 +271,8 @@ The directories “concepts” and “education” are called “categories” i
 
 As a bonus effect, the Visual Studio File Explorer will rearrange the directories, so will other systems like MacOS Finder etc. It is simple, effective (and intuitive for most people).
 
-
 The `01_` and `02_` are removed and not visible in the browser. Renumbering will change paths in internal links but Visual Studio Code will fix these paths for you if you [have configured it to do so](#strongly-recommended).
 
 ## Final note
+
 Thank you for going all the way down the cheat sheet. Have a great time writing!
