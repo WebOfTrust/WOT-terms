@@ -1,621 +1,794 @@
-<!doctype html><html lang="en-US"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width" /><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script><style>			
-			* {
-				font-family:sans-serif;
-			}
-			body {
-				text-align:center;
-				padding:1em;
-			}
-			.messages {
-				width:100%;
-				max-width:700px;
-				text-align:left;
-				display:inline-block;
-			}
-			.messages img {
-				background-color:rgb(248,244,240);
-				width:36px;
-				height:36px;
-				border-radius:0.2em;
-				display:inline-block;
-				vertical-align:top;
-				margin-right:0.65em;
-			}
-			.imgInMessage img {
-				width:100%;
-				height:auto;
+<!doctype html>
+<html lang="en-US">
 
-			}
-			.messages .time {
-				display:inline-block;
-				color:rgb(200,200,200);
-				margin-left:0.5em;
-			}
-			.messages .username {
-				display:inline-block;
-				font-weight:600;
-				line-height:1;
-			}
-			.messages .message {
-				display:inline-block;
-				vertical-align:top;
-				line-height:1;
-				width:calc(100% - 3em);
-			}
-			.messages .message .msg {
-				line-height:1.5;
-			}
-			pre {
-				border: 1px solid #ccc;
-				margin-top: 1em;
-				padding: 0.5em;
-			}
-			
-			</style><title>Slack Archive</title></head><body><h1 class="mt-3" id="begin">Slack Archive</h1><p class="mt-3"><a class="btn btn-outline-secondary" href="index.html">To Index</a></p><div class="fixed-bottom d-flex justify-content-end"><a href="#begin" class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div><div class="messages">
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-  				<div class="card-text username">griffin.kev</div>
-            	<div class="card-text time"><a id="anchor-20230121145923000" href="#anchor-20230121145923000">2023-01-21T14:59:23.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U024KC347B4> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-06-11/2162736674914_fc00f96f16d31a82162e_72.png" />
-  				<div class="card-text username">github</div>
-            	<div class="card-text time"><a id="anchor-20230121150420000" href="#anchor-20230121150420000">2023-01-21T15:04:20.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U025GFV1SJC> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-06-11/2162736674914_fc00f96f16d31a82162e_72.png" />
-  				<div class="card-text username">github</div>
-            	<div class="card-text time"><a id="anchor-20230121150421000" href="#anchor-20230121150421000">2023-01-21T15:04:21.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">This content can't be displayed.</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-  				<div class="card-text username">griffin.kev</div>
-            	<div class="card-text time"><a id="anchor-20230123152310000" href="#anchor-20230123152310000">2023-01-23T15:23:10.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">/github subscribe weboftrust/cesride</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="undefined" />
-  				<div class="card-text username">undefined</div>
-            	<div class="card-text time"><a id="anchor-20230123152310000" href="#anchor-20230123152310000">2023-01-23T15:23:10.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">:white_check_mark: Subscribed to <https://github.com/WebOfTrust/cesride|WebOfTrust/cesride>. This channel will receive notifications for `issues`, `pulls`, `commits`, `releases`, `deployments`</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-  				<div class="card-text username">griffin.kev</div>
-            	<div class="card-text time"><a id="anchor-20230123152406000" href="#anchor-20230123152406000">2023-01-23T15:24:06.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">/github subscribe weboftrust/parside</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="undefined" />
-  				<div class="card-text username">undefined</div>
-            	<div class="card-text time"><a id="anchor-20230123152406000" href="#anchor-20230123152406000">2023-01-23T15:24:06.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">:white_check_mark: Subscribed to <https://github.com/WebOfTrust/parside|WebOfTrust/parside>. This channel will receive notifications for `issues`, `pulls`, `commits`, `releases`, `deployments`</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-  				<div class="card-text username">jason</div>
-            	<div class="card-text time"><a id="anchor-20230124135224000" href="#anchor-20230124135224000">2023-01-24T13:52:24.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U04HQD29Z7E> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-  				<div class="card-text username">jason</div>
-            	<div class="card-text time"><a id="anchor-20230124135242000" href="#anchor-20230124135242000">2023-01-24T13:52:42.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Over the weekend I implemented `Matter` in `cesride` at parity with `KERIpy` (I believe). Here's the code:
-<https://github.com/jasoncolburne/cesride/tree/spike>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+	<style>
+		* {
+			font-family: sans-serif;
+		}
 
-It can probably use some more work, I'm a fairly new Rust coder (2 months but pretty intensive) but it's a good start. <@U024KC347B4> you probably want to check this out as I noticed you made some changes, too. I can open a PR for review if people want? I'm willing to contribute a great deal to this suite of projects in Rust.
+		body {
+			text-align: center;
+			padding: 1em;
+		}
 
-I tested this by instantiating `Matter` several different ways, in one gross function. It grew out of what was there, I just kind of took the path of least resistance but this is where my work could benefit the most, I believe. Better tests. I will add them later. I did generate lots of tests for `Sizages` and `Codes` though. Normally I wouldn't throw down a 1300 line PR but this is a foundational bit that was hard to get away from.
+		.messages {
+			width: 100%;
+			max-width: 700px;
+			text-align: left;
+			display: inline-block;
+		}
 
-For the curious, I used string transformations in Ruby to turn Python codexes etc into Rust code directly.</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-  				<div class="card-text username">griffin.kev</div>
-            	<div class="card-text time"><a id="anchor-20230124135854000" href="#anchor-20230124135854000">2023-01-24T13:58:54.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Hey Jason, yes I was working on Matter so we'll likely conflict</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-  				<div class="card-text username">jason</div>
-            	<div class="card-text time"><a id="anchor-20230124135957000" href="#anchor-20230124135957000">2023-01-24T13:59:57.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Now that I know of this channel, after we resolve the conflict can I just grab issues?</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-  				<div class="card-text username">jason</div>
-            	<div class="card-text time"><a id="anchor-20230124140015000" href="#anchor-20230124140015000">2023-01-24T14:00:15.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Or should we have some sort of regular grooming?</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2022-12-08/4510784087344_af8e57c2c9da3e02018d_72.png" />
-  				<div class="card-text username">shoeb.ahmed</div>
-            	<div class="card-text time"><a id="anchor-20230124140255000" href="#anchor-20230124140255000">2023-01-24T14:02:55.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U04BRS1MUAH> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-  				<div class="card-text username">jason</div>
-            	<div class="card-text time"><a id="anchor-20230124140318000" href="#anchor-20230124140318000">2023-01-24T14:03:18.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Just realized I left a couple magic numbers in that branch too, around the variable length binary decoding</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-  				<div class="card-text username">griffin.kev</div>
-            	<div class="card-text time"><a id="anchor-20230124141037000" href="#anchor-20230124141037000">2023-01-24T14:10:37.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">yeah, open a PR
+		.messages img {
+			background-color: rgb(248, 244, 240);
+			width: 36px;
+			height: 36px;
+			border-radius: 0.2em;
+			display: inline-block;
+			vertical-align: top;
+			margin-right: 0.65em;
+		}
 
-if you could rebase locally before and make it a single commit it will help with house keeping and a cleaner git history over time</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
+		.imgInMessage img {
+			width: 100%;
+			height: auto;
+
+		}
+
+		.messages .time {
+			display: inline-block;
+			color: rgb(200, 200, 200);
+			margin-left: 0.5em;
+		}
+
+		.messages .username {
+			display: inline-block;
+			font-weight: 600;
+			line-height: 1;
+		}
+
+		.messages .message {
+			display: inline-block;
+			vertical-align: top;
+			line-height: 1;
+			width: calc(100% - 3em);
+		}
+
+		.messages .message .msg {
+			line-height: 1.5;
+		}
+
+		pre {
+			border: 1px solid #ccc;
+			margin-top: 1em;
+			padding: 0.5em;
+		}
+	</style>
+	<title>Slack Archive</title>
+</head>
+
+<body>
+	<h1 class="mt-3" id="begin">Slack Archive</h1>
+	<p class="mt-3"><a class="btn btn-outline-secondary" href="index.html">To Index</a></p>
+	<div class="fixed-bottom d-flex justify-content-end"><a href="#begin"
+			class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div>
+	<div class="messages">
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-  				<div class="card-text username">griffin.kev</div>
-            	<div class="card-text time"><a id="anchor-20230124141157000" href="#anchor-20230124141157000">2023-01-24T14:11:57.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+				<div class="card-text username">griffin.kev</div>
+				<div class="card-text time"><a id="anchor-20230121145923000"
+						href="#anchor-20230121145923000">2023-01-21T14:59:23.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">As for process, we have a cesr call every other Thursday and a keri call (today) other than that assigning yourself an issue is about as formal as it gets</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-  				<div class="card-text username">jason</div>
-            	<div class="card-text time"><a id="anchor-20230124141406000" href="#anchor-20230124141406000">2023-01-24T14:14:06.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Okay cool, thanks Kevin! I'll open a PR shortly</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U024KC347B4> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-  				<div class="card-text username">griffin.kev</div>
-            	<div class="card-text time"><a id="anchor-20230124143031000" href="#anchor-20230124143031000">2023-01-24T14:30:31.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2021-06-11/2162736674914_fc00f96f16d31a82162e_72.png" />
+				<div class="card-text username">github</div>
+				<div class="card-text time"><a id="anchor-20230121150420000"
+						href="#anchor-20230121150420000">2023-01-21T15:04:20.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Let’s get your branch merged in today, I had other cosmetic changes in there, moving size tests into sizeage and hard tables and tests into their own file along with matter_codex</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U025GFV1SJC> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-  				<div class="card-text username">griffin.kev</div>
-            	<div class="card-text time"><a id="anchor-20230124143046000" href="#anchor-20230124143046000">2023-01-24T14:30:46.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2021-06-11/2162736674914_fc00f96f16d31a82162e_72.png" />
+				<div class="card-text username">github</div>
+				<div class="card-text time"><a id="anchor-20230121150421000"
+						href="#anchor-20230121150421000">2023-01-21T15:04:21.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Just to try reduce the size or core::matter</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">This content can't be displayed.</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-  				<div class="card-text username">jason</div>
-            	<div class="card-text time"><a id="anchor-20230124144023000" href="#anchor-20230124144023000">2023-01-24T14:40:23.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+				<div class="card-text username">griffin.kev</div>
+				<div class="card-text time"><a id="anchor-20230123152310000"
+						href="#anchor-20230123152310000">2023-01-23T15:23:10.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Yeah those are definitely good changes to make I was just hacking it out for functionality. I am all for smaller/focused files</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">/github subscribe weboftrust/cesride</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-  				<div class="card-text username">jason</div>
-            	<div class="card-text time"><a id="anchor-20230124144056000" href="#anchor-20230124144056000">2023-01-24T14:40:56.000Z</a></div>
+				<!--<img src="undefined" />-->
+				<div class="card-text username">undefined</div>
+				<div class="card-text time"><a id="anchor-20230123152310000"
+						href="#anchor-20230123152310000">2023-01-23T15:23:10.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Let me know if you need any changes made to my PR, and how to proceed</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">:white_check_mark: Subscribed to <https:
+						//github.com/WebOfTrust/cesride|WebOfTrust/cesride>. This channel will receive notifications for
+						`issues`, `pulls`, `commits`, `releases`, `deployments`</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-01-05/4593385265894_ef460d2b69918720b9c8_72.jpg" />
-  				<div class="card-text username">pdm</div>
-            	<div class="card-text time"><a id="anchor-20230124144223000" href="#anchor-20230124144223000">2023-01-24T14:42:23.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+				<div class="card-text username">griffin.kev</div>
+				<div class="card-text time"><a id="anchor-20230123152406000"
+						href="#anchor-20230123152406000">2023-01-23T15:24:06.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U04HMQT1XFV> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">/github subscribe weboftrust/parside</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-01-26/4704430470914_e201234863058e80ad8e_72.jpg" />
-  				<div class="card-text username">joseph.l.hunsaker</div>
-            	<div class="card-text time"><a id="anchor-20230124151132000" href="#anchor-20230124151132000">2023-01-24T15:11:32.000Z</a></div>
+				<!--<img src="undefined" />-->
+				<div class="card-text username">undefined</div>
+				<div class="card-text time"><a id="anchor-20230123152406000"
+						href="#anchor-20230123152406000">2023-01-23T15:24:06.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U03QRSUA87Q> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">:white_check_mark: Subscribed to <https:
+						//github.com/WebOfTrust/parside|WebOfTrust/parside>. This channel will receive notifications for
+						`issues`, `pulls`, `commits`, `releases`, `deployments`</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
-  				<div class="card-text username">pfeairheller</div>
-            	<div class="card-text time"><a id="anchor-20230124151215000" href="#anchor-20230124151215000">2023-01-24T15:12:15.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+				<div class="card-text username">jason</div>
+				<div class="card-text time"><a id="anchor-20230124135224000"
+						href="#anchor-20230124135224000">2023-01-24T13:52:24.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U024CJMG22J> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U04HQD29Z7E> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-05-24/5315833935091_b93afcd23af8e5c45914_72.jpg" />
-  				<div class="card-text username">kent</div>
-            	<div class="card-text time"><a id="anchor-20230124152106000" href="#anchor-20230124152106000">2023-01-24T15:21:06.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+				<div class="card-text username">jason</div>
+				<div class="card-text time"><a id="anchor-20230124135242000"
+						href="#anchor-20230124135242000">2023-01-24T13:52:42.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U03EUG009MY> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">Over the weekend I implemented `Matter` in `cesride` at parity with `KERIpy`
+					(I believe). Here's the code:
+					<https: //github.com/jasoncolburne/cesride/tree/spike>
+
+						It can probably use some more work, I'm a fairly new Rust coder (2 months but pretty intensive)
+						but it's a good start. <@U024KC347B4> you probably want to check this out as I noticed you made
+							some changes, too. I can open a PR for review if people want? I'm willing to contribute a
+							great deal to this suite of projects in Rust.
+
+							I tested this by instantiating `Matter` several different ways, in one gross function. It
+							grew out of what was there, I just kind of took the path of least resistance but this is
+							where my work could benefit the most, I believe. Better tests. I will add them later. I did
+							generate lots of tests for `Sizages` and `Codes` though. Normally I wouldn't throw down a
+							1300 line PR but this is a foundational bit that was hard to get away from.
+
+							For the curious, I used string transformations in Ruby to turn Python codexes etc into Rust
+							code directly.
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
-  				<div class="card-text username">hvancann</div>
-            	<div class="card-text time"><a id="anchor-20230124182645000" href="#anchor-20230124182645000">2023-01-24T18:26:45.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+				<div class="card-text username">griffin.kev</div>
+				<div class="card-text time"><a id="anchor-20230124135854000"
+						href="#anchor-20230124135854000">2023-01-24T13:58:54.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U02PA6UQ6BV> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">Hey Jason, yes I was working on Matter so we'll likely conflict</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-05-24/5315833935091_b93afcd23af8e5c45914_72.jpg" />
-  				<div class="card-text username">kent</div>
-            	<div class="card-text time"><a id="anchor-20230126125900000" href="#anchor-20230126125900000">2023-01-26T12:59:00.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+				<div class="card-text username">jason</div>
+				<div class="card-text time"><a id="anchor-20230124135957000"
+						href="#anchor-20230124135957000">2023-01-24T13:59:57.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">You are on fire Jason! Keep it up.</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">Now that I know of this channel, after we resolve the conflict can I just
+					grab issues?</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-  				<div class="card-text username">jason</div>
-            	<div class="card-text time"><a id="anchor-20230126125911000" href="#anchor-20230126125911000">2023-01-26T12:59:11.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+				<div class="card-text username">jason</div>
+				<div class="card-text time"><a id="anchor-20230124140015000"
+						href="#anchor-20230124140015000">2023-01-24T14:00:15.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">:pray:</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">Or should we have some sort of regular grooming?</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/f81c703a7917166c3be25dac8facc8aa.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png" />
-  				<div class="card-text username">7moshe7</div>
-            	<div class="card-text time"><a id="anchor-20230127121736000" href="#anchor-20230127121736000">2023-01-27T12:17:36.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2022-12-08/4510784087344_af8e57c2c9da3e02018d_72.png" />
+				<div class="card-text username">shoeb.ahmed</div>
+				<div class="card-text time"><a id="anchor-20230124140255000"
+						href="#anchor-20230124140255000">2023-01-24T14:02:55.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U02MD0HA7EJ> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U04BRS1MUAH> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2022-07-15/3810085503492_e5beacfba6b68179a88b_72.jpg" />
-  				<div class="card-text username">rodolfo.miranda</div>
-            	<div class="card-text time"><a id="anchor-20230127185701000" href="#anchor-20230127185701000">2023-01-27T18:57:01.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+				<div class="card-text username">jason</div>
+				<div class="card-text time"><a id="anchor-20230124140318000"
+						href="#anchor-20230124140318000">2023-01-24T14:03:18.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U03P53FCYB1> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">Just realized I left a couple magic numbers in that branch too, around the
+					variable length binary decoding</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-  				<div class="card-text username">jason</div>
-            	<div class="card-text time"><a id="anchor-20230127220128000" href="#anchor-20230127220128000">2023-01-27T22:01:28.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+				<div class="card-text username">griffin.kev</div>
+				<div class="card-text time"><a id="anchor-20230124141037000"
+						href="#anchor-20230124141037000">2023-01-24T14:10:37.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">:tada:</div>
-            	<div class="card-text imgInMessage"><img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/main/static/slack/img/cesr-dev/Screenshot 2023-01-27 at 5.57.42 PM.png" alt="Screenshot 2023-01-27 at 5.57.42 PM.png"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">yeah, open a PR
+
+					if you could rebase locally before and make it a single commit it will help with house keeping and a
+					cleaner git history over time</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2022-11-01/4290300458023_9bf45695757720bafaa0_72.jpg" />
-  				<div class="card-text username">dmitry</div>
-            	<div class="card-text time"><a id="anchor-20230202154110000" href="#anchor-20230202154110000">2023-02-02T15:41:10.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+				<div class="card-text username">griffin.kev</div>
+				<div class="card-text time"><a id="anchor-20230124141157000"
+						href="#anchor-20230124141157000">2023-01-24T14:11:57.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U048YRLFKTK> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">As for process, we have a cesr call every other Thursday and a keri call
+					(today) other than that assigning yourself an issue is about as formal as it gets</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-  				<div class="card-text username">jason</div>
-            	<div class="card-text time"><a id="anchor-20230203094019000" href="#anchor-20230203094019000">2023-02-03T09:40:19.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+				<div class="card-text username">jason</div>
+				<div class="card-text time"><a id="anchor-20230124141406000"
+						href="#anchor-20230124141406000">2023-01-24T14:14:06.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">I have code that passes this test module:
-<pre>mod test {
+
+			<div class="card-body">
+				<div class="card-text msg">Okay cool, thanks Kevin! I'll open a PR shortly</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+				<div class="card-text username">griffin.kev</div>
+				<div class="card-text time"><a id="anchor-20230124143031000"
+						href="#anchor-20230124143031000">2023-01-24T14:30:31.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Let’s get your branch merged in today, I had other cosmetic changes in there,
+					moving size tests into sizeage and hard tables and tests into their own file along with matter_codex
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+				<div class="card-text username">griffin.kev</div>
+				<div class="card-text time"><a id="anchor-20230124143046000"
+						href="#anchor-20230124143046000">2023-01-24T14:30:46.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Just to try reduce the size or core::matter</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+				<div class="card-text username">jason</div>
+				<div class="card-text time"><a id="anchor-20230124144023000"
+						href="#anchor-20230124144023000">2023-01-24T14:40:23.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Yeah those are definitely good changes to make I was just hacking it out for
+					functionality. I am all for smaller/focused files</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+				<div class="card-text username">jason</div>
+				<div class="card-text time"><a id="anchor-20230124144056000"
+						href="#anchor-20230124144056000">2023-01-24T14:40:56.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Let me know if you need any changes made to my PR, and how to proceed</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2023-01-05/4593385265894_ef460d2b69918720b9c8_72.jpg" />
+				<div class="card-text username">pdm</div>
+				<div class="card-text time"><a id="anchor-20230124144223000"
+						href="#anchor-20230124144223000">2023-01-24T14:42:23.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U04HMQT1XFV> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2023-01-26/4704430470914_e201234863058e80ad8e_72.jpg" />
+				<div class="card-text username">joseph.l.hunsaker</div>
+				<div class="card-text time"><a id="anchor-20230124151132000"
+						href="#anchor-20230124151132000">2023-01-24T15:11:32.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U03QRSUA87Q> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
+				<div class="card-text username">pfeairheller</div>
+				<div class="card-text time"><a id="anchor-20230124151215000"
+						href="#anchor-20230124151215000">2023-01-24T15:12:15.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U024CJMG22J> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2023-05-24/5315833935091_b93afcd23af8e5c45914_72.jpg" />
+				<div class="card-text username">kent</div>
+				<div class="card-text time"><a id="anchor-20230124152106000"
+						href="#anchor-20230124152106000">2023-01-24T15:21:06.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U03EUG009MY> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
+				<div class="card-text username">hvancann</div>
+				<div class="card-text time"><a id="anchor-20230124182645000"
+						href="#anchor-20230124182645000">2023-01-24T18:26:45.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U02PA6UQ6BV> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2023-05-24/5315833935091_b93afcd23af8e5c45914_72.jpg" />
+				<div class="card-text username">kent</div>
+				<div class="card-text time"><a id="anchor-20230126125900000"
+						href="#anchor-20230126125900000">2023-01-26T12:59:00.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">You are on fire Jason! Keep it up.</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+				<div class="card-text username">jason</div>
+				<div class="card-text time"><a id="anchor-20230126125911000"
+						href="#anchor-20230126125911000">2023-01-26T12:59:11.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">:pray:</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/f81c703a7917166c3be25dac8facc8aa.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png" />
+				<div class="card-text username">7moshe7</div>
+				<div class="card-text time"><a id="anchor-20230127121736000"
+						href="#anchor-20230127121736000">2023-01-27T12:17:36.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U02MD0HA7EJ> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2022-07-15/3810085503492_e5beacfba6b68179a88b_72.jpg" />
+				<div class="card-text username">rodolfo.miranda</div>
+				<div class="card-text time"><a id="anchor-20230127185701000"
+						href="#anchor-20230127185701000">2023-01-27T18:57:01.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U03P53FCYB1> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+				<div class="card-text username">jason</div>
+				<div class="card-text time"><a id="anchor-20230127220128000"
+						href="#anchor-20230127220128000">2023-01-27T22:01:28.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">:tada:</div>
+				<div class="card-text imgInMessage"><img
+						src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/main/static/slack/img/cesr-dev/Screenshot 2023-01-27 at 5.57.42 PM.png"
+						alt="Screenshot 2023-01-27 at 5.57.42 PM.png"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2022-11-01/4290300458023_9bf45695757720bafaa0_72.jpg" />
+				<div class="card-text username">dmitry</div>
+				<div class="card-text time"><a id="anchor-20230202154110000"
+						href="#anchor-20230202154110000">2023-02-02T15:41:10.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U048YRLFKTK> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+				<div class="card-text username">jason</div>
+				<div class="card-text time"><a id="anchor-20230203094019000"
+						href="#anchor-20230203094019000">2023-02-03T09:40:19.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">I have code that passes this test module:
+					<pre>mod test {
     use super::{data, Data, Value};
 
     #[test]

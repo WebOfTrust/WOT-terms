@@ -1,1220 +1,1582 @@
-<!doctype html><html lang="en-US"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width" /><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script><style>			
-			* {
-				font-family:sans-serif;
-			}
-			body {
-				text-align:center;
-				padding:1em;
-			}
-			.messages {
-				width:100%;
-				max-width:700px;
-				text-align:left;
-				display:inline-block;
-			}
-			.messages img {
-				background-color:rgb(248,244,240);
-				width:36px;
-				height:36px;
-				border-radius:0.2em;
-				display:inline-block;
-				vertical-align:top;
-				margin-right:0.65em;
-			}
-			.imgInMessage img {
-				width:100%;
-				height:auto;
+<!doctype html>
+<html lang="en-US">
 
-			}
-			.messages .time {
-				display:inline-block;
-				color:rgb(200,200,200);
-				margin-left:0.5em;
-			}
-			.messages .username {
-				display:inline-block;
-				font-weight:600;
-				line-height:1;
-			}
-			.messages .message {
-				display:inline-block;
-				vertical-align:top;
-				line-height:1;
-				width:calc(100% - 3em);
-			}
-			.messages .message .msg {
-				line-height:1.5;
-			}
-			pre {
-				border: 1px solid #ccc;
-				margin-top: 1em;
-				padding: 0.5em;
-			}
-			
-			</style><title>Slack Archive</title></head><body><h1 class="mt-3" id="begin">Slack Archive</h1><p class="mt-3"><a class="btn btn-outline-secondary" href="index.html">To Index</a></p><div class="fixed-bottom d-flex justify-content-end"><a href="#begin" class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div><div class="messages">
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/924a193292afe1737fec14b7a068dc38.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png" />
-  				<div class="card-text username">sam</div>
-            	<div class="card-text time"><a id="anchor-20210610141522000" href="#anchor-20210610141522000">2021-06-10T14:15:22.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U013SSREL0H> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/8eceaa8d4b5be8dc486818fa2ed91722.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-72.png" />
-  				<div class="card-text username">juan.caballero</div>
-            	<div class="card-text time"><a id="anchor-20210610141536000" href="#anchor-20210610141536000">2021-06-10T14:15:36.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U01304JUQP9> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/58103e7627035cb7d3c3cc8dd7b910b4.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png" />
-  				<div class="card-text username">shivam.sethi</div>
-            	<div class="card-text time"><a id="anchor-20210610141536000" href="#anchor-20210610141536000">2021-06-10T14:15:36.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U01384U5KM4> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2020-05-13/1120955497379_98ba346101a745b252b0_72.png" />
-  				<div class="card-text username">carsten.stoecker</div>
-            	<div class="card-text time"><a id="anchor-20210610141536000" href="#anchor-20210610141536000">2021-06-10T14:15:36.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U013E8JS33L> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">robert.mitwicki</div>
-            	<div class="card-text time"><a id="anchor-20210610141536000" href="#anchor-20210610141536000">2021-06-10T14:15:36.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U013F46SDRR> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
-  				<div class="card-text username">pfeairheller</div>
-            	<div class="card-text time"><a id="anchor-20210610141536000" href="#anchor-20210610141536000">2021-06-10T14:15:36.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U024CJMG22J> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-  				<div class="card-text username">griffin.kev</div>
-            	<div class="card-text time"><a id="anchor-20210610141537000" href="#anchor-20210610141537000">2021-06-10T14:15:37.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U024KC347B4> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
-  				<div class="card-text username">pfeairheller</div>
-            	<div class="card-text time"><a id="anchor-20210610141554000" href="#anchor-20210610141554000">2021-06-10T14:15:54.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Hi!</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-  				<div class="card-text username">griffin.kev</div>
-            	<div class="card-text time"><a id="anchor-20210610141640000" href="#anchor-20210610141640000">2021-06-10T14:16:40.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">:wave:</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/8eceaa8d4b5be8dc486818fa2ed91722.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-72.png" />
-  				<div class="card-text username">juan.caballero</div>
-            	<div class="card-text time"><a id="anchor-20210610141647000" href="#anchor-20210610141647000">2021-06-10T14:16:47.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">hello!</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-  				<div class="card-text username">griffin.kev</div>
-            	<div class="card-text time"><a id="anchor-20210611153615000" href="#anchor-20210611153615000">2021-06-11T15:36:15.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">/github subscribe WebOfTrust/keripy</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="undefined" />
-  				<div class="card-text username">undefined</div>
-            	<div class="card-text time"><a id="anchor-20210611153615000" href="#anchor-20210611153615000">2021-06-11T15:36:15.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">:white_check_mark: Subscribed to <https://github.com/WebOfTrust/keripy|WebOfTrust/keripy>. This channel will receive notifications for `issues`, `pulls`, `commits`, `releases`, `deployments`</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-06-11/2162736674914_fc00f96f16d31a82162e_72.png" />
-  				<div class="card-text username">github</div>
-            	<div class="card-text time"><a id="anchor-20210611153850000" href="#anchor-20210611153850000">2021-06-11T15:38:50.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">[WebOfTrust/keripy] Pull request merged by m00sey</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-  				<div class="card-text username">griffin.kev</div>
-            	<div class="card-text time"><a id="anchor-20210615144302000" href="#anchor-20210615144302000">2021-06-15T14:43:02.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">/github unsubscribe WebOfTrust/keripy</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="undefined" />
-  				<div class="card-text username">undefined</div>
-            	<div class="card-text time"><a id="anchor-20210615144302000" href="#anchor-20210615144302000">2021-06-15T14:43:02.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Unsubscribed from <https://github.com/WebOfTrust/keripy|WebOfTrust/keripy></div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-11-16/2734433804852_be5d6472ea7616a43445_72.jpg" />
-  				<div class="card-text username">michal.pietrus</div>
-            	<div class="card-text time"><a id="anchor-20211116152850000" href="#anchor-20211116152850000">2021-11-16T15:28:50.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U02N7K951DW> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-  				<div class="card-text username">griffin.kev</div>
-            	<div class="card-text time"><a id="anchor-20211116160253000" href="#anchor-20211116160253000">2021-11-16T16:02:53.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">:wave:</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-11-16/2734433804852_be5d6472ea7616a43445_72.jpg" />
-  				<div class="card-text username">michal.pietrus</div>
-            	<div class="card-text time"><a id="anchor-20211116160413000" href="#anchor-20211116160413000">2021-11-16T16:04:13.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">:tada:</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/aa48f6ede2c736698a368e2a4fb5f2bf.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">edyta.pawlak</div>
-            	<div class="card-text time"><a id="anchor-20211116160510000" href="#anchor-20211116160510000">2021-11-16T16:05:10.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U02MLCPJ85A> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/aa48f6ede2c736698a368e2a4fb5f2bf.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">edyta.pawlak</div>
-            	<div class="card-text time"><a id="anchor-20211116160810000" href="#anchor-20211116160810000">2021-11-16T16:08:10.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">:wave:</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
-  				<div class="card-text username">pfeairheller</div>
-            	<div class="card-text time"><a id="anchor-20211116160937000" href="#anchor-20211116160937000">2021-11-16T16:09:37.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Welcome <@U02MLCPJ85A> !</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/f81c703a7917166c3be25dac8facc8aa.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png" />
-  				<div class="card-text username">7moshe7</div>
-            	<div class="card-text time"><a id="anchor-20211116205430000" href="#anchor-20211116205430000">2021-11-16T20:54:30.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U02MD0HA7EJ> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-11-20/2744898877078_002c1fdd3c5aca9b526d_72.png" />
-  				<div class="card-text username">sbutterfield</div>
-            	<div class="card-text time"><a id="anchor-20211120210506000" href="#anchor-20211120210506000">2021-11-20T21:05:06.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U02N0K6LL93> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
-  				<div class="card-text username">hvancann</div>
-            	<div class="card-text time"><a id="anchor-20211202130506000" href="#anchor-20211202130506000">2021-12-02T13:05:06.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U02PA6UQ6BV> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-12-06/2808987568996_f4507fa0fe8f456e17c1_72.jpg" />
-  				<div class="card-text username">thomasclinganjones</div>
-            	<div class="card-text time"><a id="anchor-20211206222452000" href="#anchor-20211206222452000">2021-12-06T22:24:52.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U02Q3A81HA5> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2022-08-18/3954391513989_0cd35d5f2d03a4cff9d1_72.jpg" />
-  				<div class="card-text username">mijo</div>
-            	<div class="card-text time"><a id="anchor-20220228205454000" href="#anchor-20220228205454000">2022-02-28T20:54:54.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U035D255M0R> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/6beac9ecd5947cebc85d302b3b0feaaf.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png" />
-  				<div class="card-text username">randy</div>
-            	<div class="card-text time"><a id="anchor-20220307175939000" href="#anchor-20220307175939000">2022-03-07T17:59:39.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U035JNUPF1V> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/5e289a82ab093d66ca0c64b435ec62d4.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png" />
-  				<div class="card-text username">chris</div>
-            	<div class="card-text time"><a id="anchor-20220307180312000" href="#anchor-20220307180312000">2022-03-07T18:03:12.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U035WESCM0V> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/ab422b4ac358e1c4753268080bfc2517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png" />
-  				<div class="card-text username">ruth</div>
-            	<div class="card-text time"><a id="anchor-20220307183622000" href="#anchor-20220307183622000">2022-03-07T18:36:22.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U035ZHBF21H> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-04-03/5045796471222_43daa309e4c6831c3e5b_72.jpg" />
-  				<div class="card-text username">2byrds</div>
-            	<div class="card-text time"><a id="anchor-20220308175002000" href="#anchor-20220308175002000">2022-03-08T17:50:02.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U035R1TFEET> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2022-03-10/3222363978579_5bb6dcbdadc50c0dd114_72.jpg" />
-  				<div class="card-text username">janet</div>
-            	<div class="card-text time"><a id="anchor-20220310182305000" href="#anchor-20220310182305000">2022-03-10T18:23:05.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U036FDVV3GV> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
-  				<div class="card-text username">pfeairheller</div>
-            	<div class="card-text time"><a id="anchor-20220701193855000" href="#anchor-20220701193855000">2022-07-01T19:38:55.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">After changing our branches and PR strategy this week, we have our first PR to the `development` branch to get us a more stable `main` branch.  PR <https://github.com/WebOfTrust/keripy/pull/205> was just merged into `development` with additional documentation, lots of clean up and work to make sure all scripts under `demo/scripts` work as advertised.
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+	<style>
+		* {
+			font-family: sans-serif;
+		}
 
-As per our new procedures, this won't make it into `main` until we have our next Community meeting and agree to promote `development`.  So if you are looking for stable demo scripts, you can now use `development` until then.
+		body {
+			text-align: center;
+			padding: 1em;
+		}
 
-Enjoy!</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
-  				<div class="card-text username">hvancann</div>
-            	<div class="card-text time"><a id="anchor-20220702152410000" href="#anchor-20220702152410000">2022-07-02T15:24:10.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U024CJMG22J> I am looking into Sphinx / autoDocString using Vscode. I try to understand which warnings / errors actually wreck the end-result.
-<https://github.com/WebOfTrust/keripy/issues/206></div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
-  				<div class="card-text username">pfeairheller</div>
-            	<div class="card-text time"><a id="anchor-20220825145815000" href="#anchor-20220825145815000">2022-08-25T14:58:15.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">New pull request being merged into the `development` branch this morning with updates to the credential issuance scripts in `scripts/demo/vLEI` to include the new QVI Auth Credentials.  These credentials are issued from a Legal Entity back to their Qualified vLEI Issuer to authorize the issuance of role credentials.
+		.messages {
+			width: 100%;
+			max-width: 700px;
+			text-align: left;
+			display: inline-block;
+		}
 
-This change will require the latest version of the <http://github.com/WebOfTrust/vLEI> repo `dev` branch which contains the new schema and changes to the old schema to include the new auth credentials in the chains.</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
+		.messages img {
+			background-color: rgb(248, 244, 240);
+			width: 36px;
+			height: 36px;
+			border-radius: 0.2em;
+			display: inline-block;
+			vertical-align: top;
+			margin-right: 0.65em;
+		}
+
+		.imgInMessage img {
+			width: 100%;
+			height: auto;
+
+		}
+
+		.messages .time {
+			display: inline-block;
+			color: rgb(200, 200, 200);
+			margin-left: 0.5em;
+		}
+
+		.messages .username {
+			display: inline-block;
+			font-weight: 600;
+			line-height: 1;
+		}
+
+		.messages .message {
+			display: inline-block;
+			vertical-align: top;
+			line-height: 1;
+			width: calc(100% - 3em);
+		}
+
+		.messages .message .msg {
+			line-height: 1.5;
+		}
+
+		pre {
+			border: 1px solid #ccc;
+			margin-top: 1em;
+			padding: 0.5em;
+		}
+	</style>
+	<title>Slack Archive</title>
+</head>
+
+<body>
+	<h1 class="mt-3" id="begin">Slack Archive</h1>
+	<p class="mt-3"><a class="btn btn-outline-secondary" href="index.html">To Index</a></p>
+	<div class="fixed-bottom d-flex justify-content-end"><a href="#begin"
+			class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div>
+	<div class="messages">
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/ab422b4ac358e1c4753268080bfc2517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png" />
-  				<div class="card-text username">ruth</div>
-            	<div class="card-text time"><a id="anchor-20220825145935000" href="#anchor-20220825145935000">2022-08-25T14:59:35.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/924a193292afe1737fec14b7a068dc38.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png" />
+				<div class="card-text username">sam</div>
+				<div class="card-text time"><a id="anchor-20210610141522000"
+						href="#anchor-20210610141522000">2021-06-10T14:15:22.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Have the scripts been changed to issue the credential from the LE to the QVI?</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U013SSREL0H> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
-  				<div class="card-text username">pfeairheller</div>
-            	<div class="card-text time"><a id="anchor-20220825151430000" href="#anchor-20220825151430000">2022-08-25T15:14:30.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/8eceaa8d4b5be8dc486818fa2ed91722.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-72.png" />
+				<div class="card-text username">juan.caballero</div>
+				<div class="card-text time"><a id="anchor-20210610141536000"
+						href="#anchor-20210610141536000">2021-06-10T14:15:36.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Yes</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U01304JUQP9> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/966695ae913178d1eca64a0d6c235fea.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png" />
-  				<div class="card-text username">petteri.stenius</div>
-            	<div class="card-text time"><a id="anchor-20220826090456000" href="#anchor-20220826090456000">2022-08-26T09:04:56.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/58103e7627035cb7d3c3cc8dd7b910b4.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png" />
+				<div class="card-text username">shivam.sethi</div>
+				<div class="card-text time"><a id="anchor-20210610141536000"
+						href="#anchor-20210610141536000">2021-06-10T14:15:36.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Hi all. While using Keep and going through Root GAR inception process we run into this lmdb MDB_MAP_FULL issue causing "kli agent vlei" to crash. keripy is on main branch.</div>
-            	<div class="card-text imgInMessage"><img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/main/static/slack/img/keripy/image.png" alt="image.png"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U01384U5KM4> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-  				<div class="card-text username">griffin.kev</div>
-            	<div class="card-text time"><a id="anchor-20220826132547000" href="#anchor-20220826132547000">2022-08-26T13:25:47.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2020-05-13/1120955497379_98ba346101a745b252b0_72.png" />
+				<div class="card-text username">carsten.stoecker</div>
+				<div class="card-text time"><a id="anchor-20210610141536000"
+						href="#anchor-20210610141536000">2021-06-10T14:15:36.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">~<@U03U37DM125> sometimes happens when two agents are trying to to open the same key store~</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U013E8JS33L> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
-  				<div class="card-text username">pfeairheller</div>
-            	<div class="card-text time"><a id="anchor-20220826140749000" href="#anchor-20220826140749000">2022-08-26T14:07:49.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">robert.mitwicki</div>
+				<div class="card-text time"><a id="anchor-20210610141536000"
+						href="#anchor-20210610141536000">2021-06-10T14:15:36.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">The MAP_FULL exception is raised when the LMDB exceeds its allocated size. By default that is only 10 megabytes which is too small for most applications.  That value can be changed in baser.py but in general we need to make the default higher and make the value a configuration parameter somehow. </div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U013F46SDRR> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/966695ae913178d1eca64a0d6c235fea.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png" />
-  				<div class="card-text username">petteri.stenius</div>
-            	<div class="card-text time"><a id="anchor-20220829060633000" href="#anchor-20220829060633000">2022-08-29T06:06:33.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
+				<div class="card-text username">pfeairheller</div>
+				<div class="card-text time"><a id="anchor-20210610141536000"
+						href="#anchor-20210610141536000">2021-06-10T14:15:36.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Yes I can see that one of the databases for one of the keri agents has size of 10 Mb. This is a bit weird since I started from empty by first removing all databases. I was using Keep and was completing create multi-sig root gar group step.</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U024CJMG22J> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
-  				<div class="card-text username">griffin.kev</div>
-            	<div class="card-text time"><a id="anchor-20220829165053000" href="#anchor-20220829165053000">2022-08-29T16:50:53.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+				<div class="card-text username">griffin.kev</div>
+				<div class="card-text time"><a id="anchor-20210610141537000"
+						href="#anchor-20210610141537000">2021-06-10T14:15:37.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U03U37DM125> can you try replicating steps to reproduce and open an issue for us?</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U024KC347B4> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 1</p></div>
-				
-						<div class="card mt-2 ms-3">
-							<div class="card-header">
-								<img src="https://secure.gravatar.com/avatar/966695ae913178d1eca64a0d6c235fea.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png" />
-								<div class="card-text username">petteri.stenius</div>
-								<div class="card-text time"><a id="anchor-20220829165053000" href="#anchor-20220829165053000">2022-08-29T16:50:53.000Z</a></div>
-							</div>
-							
-							<div class="card-body">    
-								<div class="card-text msg">Sure. I'll create an issue on github with the information I have.</div>
-								
-							</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
+				<div class="card-text username">pfeairheller</div>
+				<div class="card-text time"><a id="anchor-20210610141554000"
+						href="#anchor-20210610141554000">2021-06-10T14:15:54.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Hi!</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+				<div class="card-text username">griffin.kev</div>
+				<div class="card-text time"><a id="anchor-20210610141640000"
+						href="#anchor-20210610141640000">2021-06-10T14:16:40.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">:wave:</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/8eceaa8d4b5be8dc486818fa2ed91722.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-72.png" />
+				<div class="card-text username">juan.caballero</div>
+				<div class="card-text time"><a id="anchor-20210610141647000"
+						href="#anchor-20210610141647000">2021-06-10T14:16:47.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">hello!</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+				<div class="card-text username">griffin.kev</div>
+				<div class="card-text time"><a id="anchor-20210611153615000"
+						href="#anchor-20210611153615000">2021-06-11T15:36:15.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">/github subscribe WebOfTrust/keripy</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<!--<img src="undefined" />-->
+				<div class="card-text username">undefined</div>
+				<div class="card-text time"><a id="anchor-20210611153615000"
+						href="#anchor-20210611153615000">2021-06-11T15:36:15.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">:white_check_mark: Subscribed to <https:
+						//github.com/WebOfTrust/keripy|WebOfTrust/keripy>. This channel will receive notifications for
+						`issues`, `pulls`, `commits`, `releases`, `deployments`</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-06-11/2162736674914_fc00f96f16d31a82162e_72.png" />
+				<div class="card-text username">github</div>
+				<div class="card-text time"><a id="anchor-20210611153850000"
+						href="#anchor-20210611153850000">2021-06-11T15:38:50.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">[WebOfTrust/keripy] Pull request merged by m00sey</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+				<div class="card-text username">griffin.kev</div>
+				<div class="card-text time"><a id="anchor-20210615144302000"
+						href="#anchor-20210615144302000">2021-06-15T14:43:02.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">/github unsubscribe WebOfTrust/keripy</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<!--<img src="undefined" />-->
+				<div class="card-text username">undefined</div>
+				<div class="card-text time"><a id="anchor-20210615144302000"
+						href="#anchor-20210615144302000">2021-06-15T14:43:02.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Unsubscribed from <https: //github.com/WebOfTrust/keripy|WebOfTrust/keripy>
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-11-16/2734433804852_be5d6472ea7616a43445_72.jpg" />
+				<div class="card-text username">michal.pietrus</div>
+				<div class="card-text time"><a id="anchor-20211116152850000"
+						href="#anchor-20211116152850000">2021-11-16T15:28:50.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U02N7K951DW> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+				<div class="card-text username">griffin.kev</div>
+				<div class="card-text time"><a id="anchor-20211116160253000"
+						href="#anchor-20211116160253000">2021-11-16T16:02:53.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">:wave:</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-11-16/2734433804852_be5d6472ea7616a43445_72.jpg" />
+				<div class="card-text username">michal.pietrus</div>
+				<div class="card-text time"><a id="anchor-20211116160413000"
+						href="#anchor-20211116160413000">2021-11-16T16:04:13.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">:tada:</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/aa48f6ede2c736698a368e2a4fb5f2bf.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">edyta.pawlak</div>
+				<div class="card-text time"><a id="anchor-20211116160510000"
+						href="#anchor-20211116160510000">2021-11-16T16:05:10.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U02MLCPJ85A> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/aa48f6ede2c736698a368e2a4fb5f2bf.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">edyta.pawlak</div>
+				<div class="card-text time"><a id="anchor-20211116160810000"
+						href="#anchor-20211116160810000">2021-11-16T16:08:10.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">:wave:</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
+				<div class="card-text username">pfeairheller</div>
+				<div class="card-text time"><a id="anchor-20211116160937000"
+						href="#anchor-20211116160937000">2021-11-16T16:09:37.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Welcome <@U02MLCPJ85A> !</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/f81c703a7917166c3be25dac8facc8aa.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png" />
+				<div class="card-text username">7moshe7</div>
+				<div class="card-text time"><a id="anchor-20211116205430000"
+						href="#anchor-20211116205430000">2021-11-16T20:54:30.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U02MD0HA7EJ> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-11-20/2744898877078_002c1fdd3c5aca9b526d_72.png" />
+				<div class="card-text username">sbutterfield</div>
+				<div class="card-text time"><a id="anchor-20211120210506000"
+						href="#anchor-20211120210506000">2021-11-20T21:05:06.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U02N0K6LL93> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
+				<div class="card-text username">hvancann</div>
+				<div class="card-text time"><a id="anchor-20211202130506000"
+						href="#anchor-20211202130506000">2021-12-02T13:05:06.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U02PA6UQ6BV> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-12-06/2808987568996_f4507fa0fe8f456e17c1_72.jpg" />
+				<div class="card-text username">thomasclinganjones</div>
+				<div class="card-text time"><a id="anchor-20211206222452000"
+						href="#anchor-20211206222452000">2021-12-06T22:24:52.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U02Q3A81HA5> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2022-08-18/3954391513989_0cd35d5f2d03a4cff9d1_72.jpg" />
+				<div class="card-text username">mijo</div>
+				<div class="card-text time"><a id="anchor-20220228205454000"
+						href="#anchor-20220228205454000">2022-02-28T20:54:54.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U035D255M0R> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/6beac9ecd5947cebc85d302b3b0feaaf.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png" />
+				<div class="card-text username">randy</div>
+				<div class="card-text time"><a id="anchor-20220307175939000"
+						href="#anchor-20220307175939000">2022-03-07T17:59:39.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U035JNUPF1V> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/5e289a82ab093d66ca0c64b435ec62d4.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png" />
+				<div class="card-text username">chris</div>
+				<div class="card-text time"><a id="anchor-20220307180312000"
+						href="#anchor-20220307180312000">2022-03-07T18:03:12.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U035WESCM0V> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/ab422b4ac358e1c4753268080bfc2517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png" />
+				<div class="card-text username">ruth</div>
+				<div class="card-text time"><a id="anchor-20220307183622000"
+						href="#anchor-20220307183622000">2022-03-07T18:36:22.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U035ZHBF21H> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2023-04-03/5045796471222_43daa309e4c6831c3e5b_72.jpg" />
+				<div class="card-text username">2byrds</div>
+				<div class="card-text time"><a id="anchor-20220308175002000"
+						href="#anchor-20220308175002000">2022-03-08T17:50:02.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U035R1TFEET> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2022-03-10/3222363978579_5bb6dcbdadc50c0dd114_72.jpg" />
+				<div class="card-text username">janet</div>
+				<div class="card-text time"><a id="anchor-20220310182305000"
+						href="#anchor-20220310182305000">2022-03-10T18:23:05.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U036FDVV3GV> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
+				<div class="card-text username">pfeairheller</div>
+				<div class="card-text time"><a id="anchor-20220701193855000"
+						href="#anchor-20220701193855000">2022-07-01T19:38:55.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">After changing our branches and PR strategy this week, we have our first PR
+					to the `development` branch to get us a more stable `main` branch. PR <https:
+						//github.com/WebOfTrust/keripy/pull/205> was just merged into `development` with additional
+						documentation, lots of clean up and work to make sure all scripts under `demo/scripts` work as
+						advertised.
+
+						As per our new procedures, this won't make it into `main` until we have our next Community
+						meeting and agree to promote `development`. So if you are looking for stable demo scripts, you
+						can now use `development` until then.
+
+						Enjoy!</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
+				<div class="card-text username">hvancann</div>
+				<div class="card-text time"><a id="anchor-20220702152410000"
+						href="#anchor-20220702152410000">2022-07-02T15:24:10.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U024CJMG22J> I am looking into Sphinx / autoDocString using Vscode. I try to understand which
+						warnings / errors actually wreck the end-result.
+						<https: //github.com/WebOfTrust/keripy/issues/206>
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
+				<div class="card-text username">pfeairheller</div>
+				<div class="card-text time"><a id="anchor-20220825145815000"
+						href="#anchor-20220825145815000">2022-08-25T14:58:15.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">New pull request being merged into the `development` branch this morning with
+					updates to the credential issuance scripts in `scripts/demo/vLEI` to include the new QVI Auth
+					Credentials. These credentials are issued from a Legal Entity back to their Qualified vLEI Issuer to
+					authorize the issuance of role credentials.
+
+					This change will require the latest version of the <http: //github.com/WebOfTrust/vLEI> repo `dev`
+						branch which contains the new schema and changes to the old schema to include the new auth
+						credentials in the chains.</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/ab422b4ac358e1c4753268080bfc2517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png" />
+				<div class="card-text username">ruth</div>
+				<div class="card-text time"><a id="anchor-20220825145935000"
+						href="#anchor-20220825145935000">2022-08-25T14:59:35.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Have the scripts been changed to issue the credential from the LE to the QVI?
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
+				<div class="card-text username">pfeairheller</div>
+				<div class="card-text time"><a id="anchor-20220825151430000"
+						href="#anchor-20220825151430000">2022-08-25T15:14:30.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Yes</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/966695ae913178d1eca64a0d6c235fea.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png" />
+				<div class="card-text username">petteri.stenius</div>
+				<div class="card-text time"><a id="anchor-20220826090456000"
+						href="#anchor-20220826090456000">2022-08-26T09:04:56.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Hi all. While using Keep and going through Root GAR inception process we run
+					into this lmdb MDB_MAP_FULL issue causing "kli agent vlei" to crash. keripy is on main branch.</div>
+				<div class="card-text imgInMessage"><img
+						src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/main/static/slack/img/keripy/image.png"
+						alt="image.png"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+				<div class="card-text username">griffin.kev</div>
+				<div class="card-text time"><a id="anchor-20220826132547000"
+						href="#anchor-20220826132547000">2022-08-26T13:25:47.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">~<@U03U37DM125> sometimes happens when two agents are trying to to open the
+						same key store~</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
+				<div class="card-text username">pfeairheller</div>
+				<div class="card-text time"><a id="anchor-20220826140749000"
+						href="#anchor-20220826140749000">2022-08-26T14:07:49.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">The MAP_FULL exception is raised when the LMDB exceeds its allocated size. By
+					default that is only 10 megabytes which is too small for most applications. That value can be
+					changed in baser.py but in general we need to make the default higher and make the value a
+					configuration parameter somehow. </div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/966695ae913178d1eca64a0d6c235fea.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png" />
+				<div class="card-text username">petteri.stenius</div>
+				<div class="card-text time"><a id="anchor-20220829060633000"
+						href="#anchor-20220829060633000">2022-08-29T06:06:33.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Yes I can see that one of the databases for one of the keri agents has size
+					of 10 Mb. This is a bit weird since I started from empty by first removing all databases. I was
+					using Keep and was completing create multi-sig root gar group step.</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-06-09/2140690266103_41d01831f1013d41073b_72.jpg" />
+				<div class="card-text username">griffin.kev</div>
+				<div class="card-text time"><a id="anchor-20220829165053000"
+						href="#anchor-20220829165053000">2022-08-29T16:50:53.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U03U37DM125> can you try replicating steps to reproduce and open an issue for us?
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 1</p>
+				</div>
+
+				<div class="card mt-2 ms-3">
+					<div class="card-header">
+						<img
+							src="https://secure.gravatar.com/avatar/966695ae913178d1eca64a0d6c235fea.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png" />
+						<div class="card-text username">petteri.stenius</div>
+						<div class="card-text time"><a id="anchor-20220829165053000"
+								href="#anchor-20220829165053000">2022-08-29T16:50:53.000Z</a></div>
+					</div>
+
+					<div class="card-body">
+						<div class="card-text msg">Sure. I'll create an issue on github with the information I have.
 						</div>
-						
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/966695ae913178d1eca64a0d6c235fea.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png" />
-  				<div class="card-text username">petteri.stenius</div>
-            	<div class="card-text time"><a id="anchor-20220829182045000" href="#anchor-20220829182045000">2022-08-29T18:20:45.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Sure. I'll create an issue on github with the information I have.</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/84b3ed0d888fc2b8947fd767c4ef5741.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png" />
-  				<div class="card-text username">harold_carr</div>
-            	<div class="card-text time"><a id="anchor-20220922150332000" href="#anchor-20220922150332000">2022-09-22T15:03:32.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U02PA6UQ6BV> In today’s KERI concepts meeeting I asked:
 
-‘In the keripy repo,
-in tests/vc/test_protocoling.py
-in the test : test_issuing
-what is the meaning of “sid”, “wan”, “red”?’
+					</div>
+				</div>
 
-Phil answered:
-
-ian: issuer     of cred (start with ‘i’)
-sid: signer     of cred (start with ‘s’)
-wan: witnesses          (start with ‘w’)
-red: receipient of cred (start with ‘r’)
-
-Perhaps that can go into a “keripy glossary”?</div>
-            	<div class="card-text imgInMessage"></div>
 			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
-  				<div class="card-text username">hvancann</div>
-            	<div class="card-text time"><a id="anchor-20220922153619000" href="#anchor-20220922153619000">2022-09-22T15:36:19.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/966695ae913178d1eca64a0d6c235fea.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png" />
+				<div class="card-text username">petteri.stenius</div>
+				<div class="card-text time"><a id="anchor-20220829182045000"
+						href="#anchor-20220829182045000">2022-08-29T18:20:45.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">We currently have a central glossary <https://github.com/trustoverip/acdc/wiki> And I categorize them into 9 categories, based on a (fuzzy) count of words in in plain text (or markdown). So yes, issuer, signer, witness etc. are all over the place.
 
-This seems to me an item for the Q&amp;A and / or the HowTo? What do you think?</div>
-            	<div class="card-text imgInMessage"></div>
+			<div class="card-body">
+				<div class="card-text msg">Sure. I'll create an issue on github with the information I have.</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
-  				<div class="card-text username">hvancann</div>
-            	<div class="card-text time"><a id="anchor-20220922153832000" href="#anchor-20220922153832000">2022-09-22T15:38:32.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">ian, sid, wan and red will create numerous false positive in a fuzzy search once they’ve been added to the glossary (3 letter words, lots of hits, multiple meanings)</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/84b3ed0d888fc2b8947fd767c4ef5741.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png" />
-  				<div class="card-text username">harold_carr</div>
-            	<div class="card-text time"><a id="anchor-20220922154025000" href="#anchor-20220922154025000">2022-09-22T15:40:25.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Good point about the fuzzy search perspective.  HowTo seems reasonable (unless adding those 3 letter words screws up search).</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-11-16/2734433804852_be5d6472ea7616a43445_72.jpg" />
-  				<div class="card-text username">michal.pietrus</div>
-            	<div class="card-text time"><a id="anchor-20220922154341000" href="#anchor-20220922154341000">2022-09-22T15:43:41.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">the keripy approach to naming variables is internal to keripy. Although it happens from time to time that the names appear on the meetings, ie. habery, habitat or these mentioned above, they are implementation detail in essence.
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
 
-If something is not keripy specific, it shall be promoted into official KERI concept and otherwise not be mentioned in any glossary (OK, maybe except keripy-specific glossary, if it'd exist).</div>
-            	<div class="card-text imgInMessage"></div>
 			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/84b3ed0d888fc2b8947fd767c4ef5741.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png" />
-  				<div class="card-text username">harold_carr</div>
-            	<div class="card-text time"><a id="anchor-20220922154626000" href="#anchor-20220922154626000">2022-09-22T15:46:26.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/84b3ed0d888fc2b8947fd767c4ef5741.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png" />
+				<div class="card-text username">harold_carr</div>
+				<div class="card-text time"><a id="anchor-20220922150332000"
+						href="#anchor-20220922150332000">2022-09-22T15:03:32.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">a keripy-specific glossary would be useful to help navigate the quirky naming schemes</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U02PA6UQ6BV> In today’s KERI concepts meeeting I asked:
+
+						‘In the keripy repo,
+						in tests/vc/test_protocoling.py
+						in the test : test_issuing
+						what is the meaning of “sid”, “wan”, “red”?’
+
+						Phil answered:
+
+						ian: issuer of cred (start with ‘i’)
+						sid: signer of cred (start with ‘s’)
+						wan: witnesses (start with ‘w’)
+						red: receipient of cred (start with ‘r’)
+
+						Perhaps that can go into a “keripy glossary”?
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 4</p></div>
-				
-						<div class="card mt-2 ms-3">
-							<div class="card-header">
-								<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
-								<div class="card-text username">hvancann</div>
-								<div class="card-text time"><a id="anchor-20220922154626000" href="#anchor-20220922154626000">2022-09-22T15:46:26.000Z</a></div>
-							</div>
-							
-							<div class="card-body">    
-								<div class="card-text msg">Sure, I am creating this using github pages</div>
-								
-							</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
+				<div class="card-text username">hvancann</div>
+				<div class="card-text time"><a id="anchor-20220922153619000"
+						href="#anchor-20220922153619000">2022-09-22T15:36:19.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">We currently have a central glossary <https:
+						//github.com/trustoverip/acdc/wiki> And I categorize them into 9 categories, based on a (fuzzy)
+						count of words in in plain text (or markdown). So yes, issuer, signer, witness etc. are all over
+						the place.
+
+						This seems to me an item for the Q&amp;A and / or the HowTo? What do you think?</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
+				<div class="card-text username">hvancann</div>
+				<div class="card-text time"><a id="anchor-20220922153832000"
+						href="#anchor-20220922153832000">2022-09-22T15:38:32.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">ian, sid, wan and red will create numerous false positive in a fuzzy search
+					once they’ve been added to the glossary (3 letter words, lots of hits, multiple meanings)</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/84b3ed0d888fc2b8947fd767c4ef5741.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png" />
+				<div class="card-text username">harold_carr</div>
+				<div class="card-text time"><a id="anchor-20220922154025000"
+						href="#anchor-20220922154025000">2022-09-22T15:40:25.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Good point about the fuzzy search perspective. HowTo seems reasonable (unless
+					adding those 3 letter words screws up search).</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-11-16/2734433804852_be5d6472ea7616a43445_72.jpg" />
+				<div class="card-text username">michal.pietrus</div>
+				<div class="card-text time"><a id="anchor-20220922154341000"
+						href="#anchor-20220922154341000">2022-09-22T15:43:41.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">the keripy approach to naming variables is internal to keripy. Although it
+					happens from time to time that the names appear on the meetings, ie. habery, habitat or these
+					mentioned above, they are implementation detail in essence.
+
+					If something is not keripy specific, it shall be promoted into official KERI concept and otherwise
+					not be mentioned in any glossary (OK, maybe except keripy-specific glossary, if it'd exist).</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/84b3ed0d888fc2b8947fd767c4ef5741.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png" />
+				<div class="card-text username">harold_carr</div>
+				<div class="card-text time"><a id="anchor-20220922154626000"
+						href="#anchor-20220922154626000">2022-09-22T15:46:26.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">a keripy-specific glossary would be useful to help navigate the quirky naming
+					schemes</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 4</p>
+				</div>
+
+				<div class="card mt-2 ms-3">
+					<div class="card-header">
+						<img
+							src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
+						<div class="card-text username">hvancann</div>
+						<div class="card-text time"><a id="anchor-20220922154626000"
+								href="#anchor-20220922154626000">2022-09-22T15:46:26.000Z</a></div>
+					</div>
+
+					<div class="card-body">
+						<div class="card-text msg">Sure, I am creating this using github pages</div>
+
+					</div>
+				</div>
+
+				<div class="card mt-2 ms-3">
+					<div class="card-header">
+						<img
+							src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
+						<div class="card-text username">hvancann</div>
+						<div class="card-text time"><a id="anchor-20220922154626000"
+								href="#anchor-20220922154626000">2022-09-22T15:46:26.000Z</a></div>
+					</div>
+
+					<div class="card-body">
+						<div class="card-text msg">
+							<https: //weboftrust.github.io/WOT-terms/mydoc_about_ruby_gems_etc.html> test environment
+								only have a look at the sidebar menu
 						</div>
-						
-						<div class="card mt-2 ms-3">
-							<div class="card-header">
-								<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
-								<div class="card-text username">hvancann</div>
-								<div class="card-text time"><a id="anchor-20220922154626000" href="#anchor-20220922154626000">2022-09-22T15:46:26.000Z</a></div>
-							</div>
-							
-							<div class="card-body">    
-								<div class="card-text msg"><https://weboftrust.github.io/WOT-terms/mydoc_about_ruby_gems_etc.html> test environment
-only have a look at the sidebar menu</div>
-								
-							</div>
-						</div>
-						
-						<div class="card mt-2 ms-3">
-							<div class="card-header">
-								<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
-								<div class="card-text username">hvancann</div>
-								<div class="card-text time"><a id="anchor-20220922154626000" href="#anchor-20220922154626000">2022-09-22T15:46:26.000Z</a></div>
-							</div>
-							
-							<div class="card-body">    
-								<div class="card-text msg">These are all the nits of the glossary against the recent IETF CESR draft</div>
-								
-							</div>
-						</div>
-						
-						<div class="card mt-2 ms-3">
-							<div class="card-header">
-								<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
-								<div class="card-text username">hvancann</div>
-								<div class="card-text time"><a id="anchor-20220922154626000" href="#anchor-20220922154626000">2022-09-22T15:46:26.000Z</a></div>
-							</div>
-							
-							<div class="card-body">    
-								<div class="card-text msg">hits</div>
-								
-							</div>
-						</div>
-						
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
-  				<div class="card-text username">hvancann</div>
-            	<div class="card-text time"><a id="anchor-20220922155318000" href="#anchor-20220922155318000">2022-09-22T15:53:18.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><https://github.com/henkvancann/keri/blob/main/docs/Q-and-A.md#q-in-the-keripy-repository-what-is-sid-wan-red></div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
-  				<div class="card-text username">hvancann</div>
-            	<div class="card-text time"><a id="anchor-20220922155411000" href="#anchor-20220922155411000">2022-09-22T15:54:11.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Sure, I am creating this using github pages</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
-  				<div class="card-text username">hvancann</div>
-            	<div class="card-text time"><a id="anchor-20220922155451000" href="#anchor-20220922155451000">2022-09-22T15:54:51.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><https://weboftrust.github.io/WOT-terms/mydoc_about_ruby_gems_etc.html> test environment
-only have a look at the sidebar menu</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
-  				<div class="card-text username">hvancann</div>
-            	<div class="card-text time"><a id="anchor-20220922155526000" href="#anchor-20220922155526000">2022-09-22T15:55:26.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">These are all the nits of the glossary against the recent IETF CESR draft</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
-  				<div class="card-text username">hvancann</div>
-            	<div class="card-text time"><a id="anchor-20220922155530000" href="#anchor-20220922155530000">2022-09-22T15:55:30.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">hits</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
-  				<div class="card-text username">hvancann</div>
-            	<div class="card-text time"><a id="anchor-20220922155815000" href="#anchor-20220922155815000">2022-09-22T15:58:15.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">The HowTo I am currently creating is more focussed on the WOT-terms themselves. But I do agree that a useful elaboration of the Concepts.md (still early draft) would be a practical ‘HowTo’ or ‘HowDone’ :slightly_smiling_face:</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/d9bfd89db24ef66d138680472c4b526d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png" />
-  				<div class="card-text username">steven</div>
-            	<div class="card-text time"><a id="anchor-20220922160500000" href="#anchor-20220922160500000">2022-09-22T16:05:00.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Can you tag glossary entries (acronyms) with "keripy"?</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
-  				<div class="card-text username">hvancann</div>
-            	<div class="card-text time"><a id="anchor-20220922193340000" href="#anchor-20220922193340000">2022-09-22T19:33:40.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">I could add a column in the WOT-terms-Manage sheet and then run the counting-terms match tool over the keripy repo. The challenge is : there is not much of white paper text or other plain text to scan through?</div>
-            	<div class="card-text imgInMessage"><img src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/main/static/slack/img/keripy/Terms-WOT-manage.png" alt="Terms-WOT-manage.png"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/d9bfd89db24ef66d138680472c4b526d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png" />
-  				<div class="card-text username">steven</div>
-            	<div class="card-text time"><a id="anchor-20220923104445000" href="#anchor-20220923104445000">2022-09-23T10:44:45.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Repo text :smiley:</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
-  				<div class="card-text username">hvancann</div>
-            	<div class="card-text time"><a id="anchor-20220923105904000" href="#anchor-20220923105904000">2022-09-23T10:59:04.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Yes _repo text_ is a generally a special kind of text: it looks reasonable and sounds like English (but it isn’t), it leap frogs through concepts, leaves out boundary conditions for what’s been stated, likes to have at least 20% broken links, and so on. So yes, repo text deserves a characterization, you either love it or hate it :stuck_out_tongue_winking_eye:</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2022-07-15/3810085503492_e5beacfba6b68179a88b_72.jpg" />
-  				<div class="card-text username">rodolfo.miranda</div>
-            	<div class="card-text time"><a id="anchor-20221008192135000" href="#anchor-20221008192135000">2022-10-08T19:21:35.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Hello!. I'm making my first steps with keripy. So far so good with the basic demo scripts :grinning:.  I notice that the swagger api  exposes a server-sent events method. What type of notifications are sent to the controller? is there documentation regarding the events? Also, I see a /notification method, is that for querying same notifications?</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
-  				<div class="card-text username">pfeairheller</div>
-            	<div class="card-text time"><a id="anchor-20221008204059000" href="#anchor-20221008204059000">2022-10-08T20:40:59.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Hi Rodolfo-  We upgraded the SSE endpoint and the notifications recently to match more of a Firebase approach. 
 
-Anything coming over the SSE channel is just a ping to a live client to refresh some other data set. The Notifications are a persistent dataset that are messages to the controller of an agent to take some action. They are persistent and need to be managed (marked as read, deleted) by the controller of the agent. 
+					</div>
+				</div>
 
-So right now, the main use of SSE events is to let the controller of an agent know that there are new notifications and that a client should reload that dataset. 
+				<div class="card mt-2 ms-3">
+					<div class="card-header">
+						<img
+							src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
+						<div class="card-text username">hvancann</div>
+						<div class="card-text time"><a id="anchor-20220922154626000"
+								href="#anchor-20220922154626000">2022-09-22T15:46:26.000Z</a></div>
+					</div>
 
-Sadly we have not documented the SSE events yet. </div>
-            	<div class="card-text imgInMessage"></div>
+					<div class="card-body">
+						<div class="card-text msg">These are all the nits of the glossary against the recent IETF CESR
+							draft</div>
+
+					</div>
+				</div>
+
+				<div class="card mt-2 ms-3">
+					<div class="card-header">
+						<img
+							src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
+						<div class="card-text username">hvancann</div>
+						<div class="card-text time"><a id="anchor-20220922154626000"
+								href="#anchor-20220922154626000">2022-09-22T15:46:26.000Z</a></div>
+					</div>
+
+					<div class="card-body">
+						<div class="card-text msg">hits</div>
+
+					</div>
+				</div>
+
 			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2022-07-15/3810085503492_e5beacfba6b68179a88b_72.jpg" />
-  				<div class="card-text username">rodolfo.miranda</div>
-            	<div class="card-text time"><a id="anchor-20221008205218000" href="#anchor-20221008205218000">2022-10-08T20:52:18.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
+				<div class="card-text username">hvancann</div>
+				<div class="card-text time"><a id="anchor-20220922155318000"
+						href="#anchor-20220922155318000">2022-09-22T15:53:18.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">thanks Phil, that's good enough. Another quick question, when starting the witness agents with `kli witness demo` ,those three witnesses are deployed with controller ports?</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
-  				<div class="card-text username">pfeairheller</div>
-            	<div class="card-text time"><a id="anchor-20221008210257000" href="#anchor-20221008210257000">2022-10-08T21:02:57.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Yes, they all have preconfigured ports. If you look in the demo-witness-OOBI.json files in the data directory under scripts you’ll see OOBIs for them with the port numbers</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<https:
+						//github.com/henkvancann/keri/blob/main/docs/Q-and-A.md#q-in-the-keripy-repository-what-is-sid-wan-red>
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2022-07-15/3810085503492_e5beacfba6b68179a88b_72.jpg" />
-  				<div class="card-text username">rodolfo.miranda</div>
-            	<div class="card-text time"><a id="anchor-20221008212852000" href="#anchor-20221008212852000">2022-10-08T21:28:52.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
+				<div class="card-text username">hvancann</div>
+				<div class="card-text time"><a id="anchor-20220922155411000"
+						href="#anchor-20220922155411000">2022-09-22T15:54:11.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">from:
-<pre>usage: kli witness start [-h] [-V] [-H HTTP] [-T TCP] [-n NAME] [--base BASE] --alias ALIAS [--passcode BRAN]
+
+			<div class="card-body">
+				<div class="card-text msg">Sure, I am creating this using github pages</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
+				<div class="card-text username">hvancann</div>
+				<div class="card-text time"><a id="anchor-20220922155451000"
+						href="#anchor-20220922155451000">2022-09-22T15:54:51.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<https: //weboftrust.github.io/WOT-terms/mydoc_about_ruby_gems_etc.html> test environment
+						only have a look at the sidebar menu
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
+				<div class="card-text username">hvancann</div>
+				<div class="card-text time"><a id="anchor-20220922155526000"
+						href="#anchor-20220922155526000">2022-09-22T15:55:26.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">These are all the nits of the glossary against the recent IETF CESR draft
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
+				<div class="card-text username">hvancann</div>
+				<div class="card-text time"><a id="anchor-20220922155530000"
+						href="#anchor-20220922155530000">2022-09-22T15:55:30.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">hits</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
+				<div class="card-text username">hvancann</div>
+				<div class="card-text time"><a id="anchor-20220922155815000"
+						href="#anchor-20220922155815000">2022-09-22T15:58:15.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">The HowTo I am currently creating is more focussed on the WOT-terms
+					themselves. But I do agree that a useful elaboration of the Concepts.md (still early draft) would be
+					a practical ‘HowTo’ or ‘HowDone’ :slightly_smiling_face:</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/d9bfd89db24ef66d138680472c4b526d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png" />
+				<div class="card-text username">steven</div>
+				<div class="card-text time"><a id="anchor-20220922160500000"
+						href="#anchor-20220922160500000">2022-09-22T16:05:00.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Can you tag glossary entries (acronyms) with "keripy"?</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
+				<div class="card-text username">hvancann</div>
+				<div class="card-text time"><a id="anchor-20220922193340000"
+						href="#anchor-20220922193340000">2022-09-22T19:33:40.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">I could add a column in the WOT-terms-Manage sheet and then run the
+					counting-terms match tool over the keripy repo. The challenge is : there is not much of white paper
+					text or other plain text to scan through?</div>
+				<div class="card-text imgInMessage"><img
+						src="https://raw.githubusercontent.com/WebOfTrust/WOT-terms/main/static/slack/img/keripy/Terms-WOT-manage.png"
+						alt="Terms-WOT-manage.png"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/d9bfd89db24ef66d138680472c4b526d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png" />
+				<div class="card-text username">steven</div>
+				<div class="card-text time"><a id="anchor-20220923104445000"
+						href="#anchor-20220923104445000">2022-09-23T10:44:45.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Repo text :smiley:</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-12-02/2792261386674_1bc9ec90c6a196211fa4_72.jpg" />
+				<div class="card-text username">hvancann</div>
+				<div class="card-text time"><a id="anchor-20220923105904000"
+						href="#anchor-20220923105904000">2022-09-23T10:59:04.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Yes _repo text_ is a generally a special kind of text: it looks reasonable
+					and sounds like English (but it isn’t), it leap frogs through concepts, leaves out boundary
+					conditions for what’s been stated, likes to have at least 20% broken links, and so on. So yes, repo
+					text deserves a characterization, you either love it or hate it :stuck_out_tongue_winking_eye:</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2022-07-15/3810085503492_e5beacfba6b68179a88b_72.jpg" />
+				<div class="card-text username">rodolfo.miranda</div>
+				<div class="card-text time"><a id="anchor-20221008192135000"
+						href="#anchor-20221008192135000">2022-10-08T19:21:35.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Hello!. I'm making my first steps with keripy. So far so good with the basic
+					demo scripts :grinning:. I notice that the swagger api exposes a server-sent events method. What
+					type of notifications are sent to the controller? is there documentation regarding the events? Also,
+					I see a /notification method, is that for querying same notifications?</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
+				<div class="card-text username">pfeairheller</div>
+				<div class="card-text time"><a id="anchor-20221008204059000"
+						href="#anchor-20221008204059000">2022-10-08T20:40:59.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Hi Rodolfo- We upgraded the SSE endpoint and the notifications recently to
+					match more of a Firebase approach.
+
+					Anything coming over the SSE channel is just a ping to a live client to refresh some other data set.
+					The Notifications are a persistent dataset that are messages to the controller of an agent to take
+					some action. They are persistent and need to be managed (marked as read, deleted) by the controller
+					of the agent.
+
+					So right now, the main use of SSE events is to let the controller of an agent know that there are
+					new notifications and that a client should reload that dataset.
+
+					Sadly we have not documented the SSE events yet. </div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2022-07-15/3810085503492_e5beacfba6b68179a88b_72.jpg" />
+				<div class="card-text username">rodolfo.miranda</div>
+				<div class="card-text time"><a id="anchor-20221008205218000"
+						href="#anchor-20221008205218000">2022-10-08T20:52:18.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">thanks Phil, that's good enough. Another quick question, when starting the
+					witness agents with `kli witness demo` ,those three witnesses are deployed with controller ports?
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
+				<div class="card-text username">pfeairheller</div>
+				<div class="card-text time"><a id="anchor-20221008210257000"
+						href="#anchor-20221008210257000">2022-10-08T21:02:57.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Yes, they all have preconfigured ports. If you look in the
+					demo-witness-OOBI.json files in the data directory under scripts you’ll see OOBIs for them with the
+					port numbers</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2022-07-15/3810085503492_e5beacfba6b68179a88b_72.jpg" />
+				<div class="card-text username">rodolfo.miranda</div>
+				<div class="card-text time"><a id="anchor-20221008212852000"
+						href="#anchor-20221008212852000">2022-10-08T21:28:52.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">from:
+					<pre>usage: kli witness start [-h] [-V] [-H HTTP] [-T TCP] [-n NAME] [--base BASE] --alias ALIAS [--passcode BRAN]
 
 Runs KERI witness controller. Example: witness -H 5631 -t 5632
 
@@ -6790,7 +7152,7 @@ They are not part of keri core no, but do utilize the same approach to structuri
         
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="undefined" />
+    			<!--<img src="undefined" />-->
   				<div class="card-text username">undefined</div>
             	<div class="card-text time"><a id="anchor-20230212233436000" href="#anchor-20230212233436000">2023-02-12T23:34:36.000Z</a></div>
 			</div>
@@ -6901,7 +7263,7 @@ They are not part of keri core no, but do utilize the same approach to structuri
         
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="undefined" />
+    			<!--<img src="undefined" />-->
   				<div class="card-text username">undefined</div>
             	<div class="card-text time"><a id="anchor-20230212235644000" href="#anchor-20230212235644000">2023-02-12T23:56:44.000Z</a></div>
 			</div>
