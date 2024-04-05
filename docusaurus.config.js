@@ -332,7 +332,7 @@ const config = {
     require.resolve('./clientModules/typesenseInstantSearch.js'),// Typesense InstantSearch Plugin
     require.resolve('./clientModules/showLevels'),
     require.resolve('./clientModules/insertVideo'),
-    // require.resolve('./clientModules/insertSubtitles'),
+    require.resolve('./clientModules/insertSubtitles'),
     require.resolve('./clientModules/dynamicTables'),
     require.resolve('./clientModules/elementGoFullScreen'),
     require.resolve('./clientModules/horizontalScrollHint'),
