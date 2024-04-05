@@ -1,319 +1,560 @@
-<!doctype html><html lang="en-US"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width" /><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script><style>			
-			* {
-				font-family:sans-serif;
-			}
-			body {
-				text-align:center;
-				padding:1em;
-			}
-			.messages {
-				width:100%;
-				max-width:700px;
-				text-align:left;
-				display:inline-block;
-			}
-			.messages img {
-				background-color:rgb(248,244,240);
-				width:36px;
-				height:36px;
-				border-radius:0.2em;
-				display:inline-block;
-				vertical-align:top;
-				margin-right:0.65em;
-			}
-			.imgInMessage img {
-				width:100%;
-				height:auto;
+<!doctype html>
+<html lang="en-US">
 
-			}
-			.messages .time {
-				display:inline-block;
-				color:rgb(200,200,200);
-				margin-left:0.5em;
-			}
-			.messages .username {
-				display:inline-block;
-				font-weight:600;
-				line-height:1;
-			}
-			.messages .message {
-				display:inline-block;
-				vertical-align:top;
-				line-height:1;
-				width:calc(100% - 3em);
-			}
-			.messages .message .msg {
-				line-height:1.5;
-			}
-			pre {
-				border: 1px solid #ccc;
-				margin-top: 1em;
-				padding: 0.5em;
-			}
-			
-			</style><title>Slack Archive</title></head><body><h1 class="mt-3" id="begin">Slack Archive</h1><p class="mt-3"><a class="btn btn-outline-secondary" href="index.html">To Index</a></p><div class="fixed-bottom d-flex justify-content-end"><a href="#begin" class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div><div class="messages">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+	<style>
+		* {
+			font-family: sans-serif;
+		}
+
+		body {
+			text-align: center;
+			padding: 1em;
+		}
+
+		.messages {
+			width: 100%;
+			max-width: 700px;
+			text-align: left;
+			display: inline-block;
+		}
+
+		.messages img {
+			background-color: rgb(248, 244, 240);
+			width: 36px;
+			height: 36px;
+			border-radius: 0.2em;
+			display: inline-block;
+			vertical-align: top;
+			margin-right: 0.65em;
+		}
+
+		.imgInMessage img {
+			width: 100%;
+			height: auto;
+
+		}
+
+		.messages .time {
+			display: inline-block;
+			color: rgb(200, 200, 200);
+			margin-left: 0.5em;
+		}
+
+		.messages .username {
+			display: inline-block;
+			font-weight: 600;
+			line-height: 1;
+		}
+
+		.messages .message {
+			display: inline-block;
+			vertical-align: top;
+			line-height: 1;
+			width: calc(100% - 3em);
+		}
+
+		.messages .message .msg {
+			line-height: 1.5;
+		}
+
+		pre {
+			border: 1px solid #ccc;
+			margin-top: 1em;
+			padding: 0.5em;
+		}
+	</style>
+	<title>Slack Archive</title>
+</head>
+
+<body>
+	<h1 class="mt-3" id="begin">Slack Archive</h1>
+	<p class="mt-3"><a class="btn btn-outline-secondary" href="index.html">To Index</a></p>
+	<div class="fixed-bottom d-flex justify-content-end"><a href="#begin"
+			class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div>
+	<div class="messages">
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
-  				<div class="card-text username">pfeairheller</div>
-            	<div class="card-text time"><a id="anchor-20221218034519000" href="#anchor-20221218034519000">2022-12-18T03:45:19.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/606bec523fdd8d67313b404c09d5ae1f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png" />
+				<div class="card-text username">pfeairheller</div>
+				<div class="card-text time"><a id="anchor-20221218034519000"
+						href="#anchor-20221218034519000">2022-12-18T03:45:19.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U024CJMG22J> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U024CJMG22J> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2022-12-18/4534281303699_12b29f29972a7a183006_72.png" />
-  				<div class="card-text username">paul.knowles</div>
-            	<div class="card-text time"><a id="anchor-20221218034537000" href="#anchor-20221218034537000">2022-12-18T03:45:37.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2022-12-18/4534281303699_12b29f29972a7a183006_72.png" />
+				<div class="card-text username">paul.knowles</div>
+				<div class="card-text time"><a id="anchor-20221218034537000"
+						href="#anchor-20221218034537000">2022-12-18T03:45:37.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U04F9ME0V39> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U04F9ME0V39> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">robert.mitwicki</div>
-            	<div class="card-text time"><a id="anchor-20221218034537000" href="#anchor-20221218034537000">2022-12-18T03:45:37.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">robert.mitwicki</div>
+				<div class="card-text time"><a id="anchor-20221218034537000"
+						href="#anchor-20221218034537000">2022-12-18T03:45:37.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U013F46SDRR> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U013F46SDRR> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-11-16/2734433804852_be5d6472ea7616a43445_72.jpg" />
-  				<div class="card-text username">michal.pietrus</div>
-            	<div class="card-text time"><a id="anchor-20221218034537000" href="#anchor-20221218034537000">2022-12-18T03:45:37.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2021-11-16/2734433804852_be5d6472ea7616a43445_72.jpg" />
+				<div class="card-text username">michal.pietrus</div>
+				<div class="card-text time"><a id="anchor-20221218034537000"
+						href="#anchor-20221218034537000">2022-12-18T03:45:37.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U02N7K951DW> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U02N7K951DW> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2022-08-02/3887705521780_add08edec1fbb204a544_72.jpg" />
-  				<div class="card-text username">daniel.hardman</div>
-            	<div class="card-text time"><a id="anchor-20221218034537000" href="#anchor-20221218034537000">2022-12-18T03:45:37.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2022-08-02/3887705521780_add08edec1fbb204a544_72.jpg" />
+				<div class="card-text username">daniel.hardman</div>
+				<div class="card-text time"><a id="anchor-20221218034537000"
+						href="#anchor-20221218034537000">2022-12-18T03:45:37.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U03RLLP2CR5> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U03RLLP2CR5> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-05-24/5315833935091_b93afcd23af8e5c45914_72.jpg" />
-  				<div class="card-text username">kent</div>
-            	<div class="card-text time"><a id="anchor-20221218034537000" href="#anchor-20221218034537000">2022-12-18T03:45:37.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2023-05-24/5315833935091_b93afcd23af8e5c45914_72.jpg" />
+				<div class="card-text username">kent</div>
+				<div class="card-text time"><a id="anchor-20221218034537000"
+						href="#anchor-20221218034537000">2022-12-18T03:45:37.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U03EUG009MY> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U03EUG009MY> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2022-12-18/4534281303699_12b29f29972a7a183006_72.png" />
-  				<div class="card-text username">paul.knowles</div>
-            	<div class="card-text time"><a id="anchor-20221218052352000" href="#anchor-20221218052352000">2022-12-18T05:23:52.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2022-12-18/4534281303699_12b29f29972a7a183006_72.png" />
+				<div class="card-text username">paul.knowles</div>
+				<div class="card-text time"><a id="anchor-20221218052352000"
+						href="#anchor-20221218052352000">2022-12-18T05:23:52.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Thanks for setting up this channel, <@U024CJMG22J>. I'm a Brit based in Basel, Switzerland. It is a pleasure to e-meet you.
 
-As I mentioned in the <#C03TSFRNWLU|cesrox> channel, I'm the inventor of *OCA*, a core utility technology that underpins Layer 1 of the <https://static1.squarespace.com/static/5ead4c8660689c348c80958e/t/62f2893465394d4b829661bc/1660062007339/HCF+DDE+Trust+Infrastructure+Stack+v1.0.0.pdf|HCF stack>. As such, the <https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32017D0863&amp;from=EN|EUPL v1.2> vs <https://www.apache.org/licenses/LICENSE-2.0|Apache 2.0> licencing debate is of particular interest as it sits at the core of the refactored next-gen data economy.
+			<div class="card-body">
+				<div class="card-text msg">Thanks for setting up this channel, <@U024CJMG22J>. I'm a Brit based in
+						Basel, Switzerland. It is a pleasure to e-meet you.
 
-With the unprecedented projected increase of _"data"_ across the digital landscape over the next several years, Europe is committed to implementing scalable and distributed data ecosystems to ensure European digital sovereignty through the <http://dataspaces.info/common-european-data-spaces/#page-content|Common European Data Spaces> initiative, part of the <https://digital-strategy.ec.europa.eu/en/policies/strategy-data|European Strategy for data>. The major EU-funded projects (e.g., <https://ec.europa.eu/digital-building-blocks/wikis/display/EBSI/Home|EBSI>, the <https://digital-strategy.ec.europa.eu/en/policies/eidas-regulation|eIDAS Regulation>, etc.) use <https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32017D0863&amp;from=EN|EUPL v1.2> as a multilingual open-source licence to support that mission. I thought it would be helpful to add this framing to help people understand the digital landscape in Europe. The EU has developed the EUPL licence to ensure that the European digital infrastructure doesn't fragment. Will the U.S. follow suit? This discussion may act as a catalyst.
+						As I mentioned in the <#C03TSFRNWLU|cesrox> channel, I'm the inventor of *OCA*, a core utility
+							technology that underpins Layer 1 of the <https:
+								//static1.squarespace.com/static/5ead4c8660689c348c80958e/t/62f2893465394d4b829661bc/1660062007339/HCF+DDE+Trust+Infrastructure+Stack+v1.0.0.pdf|HCF
+								stack>. As such, the <https:
+									//eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32017D0863&amp;from=EN|EUPL
+									v1.2> vs <https: //www.apache.org/licenses/LICENSE-2.0|Apache 2.0> licencing debate
+										is of particular interest as it sits at the core of the refactored next-gen data
+										economy.
 
-At HCF, we are adopting the fundamentals of two core utility technologies, <https://oca.colossi.network|OCA> (Semantic domain) and <https://keri.one|KERI> (Inputs domain). We have chosen the EUPL licence at the Foundation to ensure that the core codebases don't fragment. An open-source IPR licence for the underpinnings of an entirely new web infrastructure needs to be robust. By _"robust"_, I mean those fundamentals can't fragment at the lowest technical layers of the DDE. <https://www.apache.org/licenses/LICENSE-2.0|Apache 2.0> is a licence widely adopted for a "broken" Internet. However, thanks to <@U013F46SDRR>'s wisdom at HCF, we are aware of the licencing problem and have drafted a _<https://docs.google.com/document/d/100NZaAWYZ6PZWg_xhKs8GhLPgyAaDYeapEO_nP5_scQ/edit#|"Code of Ethical Licencing">_ to clarify our position.
+										With the unprecedented projected increase of _"data"_ across the digital
+										landscape over the next several years, Europe is committed to implementing
+										scalable and distributed data ecosystems to ensure European digital sovereignty
+										through the <http:
+											//dataspaces.info/common-european-data-spaces/#page-content|Common European
+											Data Spaces> initiative, part of the <https:
+												//digital-strategy.ec.europa.eu/en/policies/strategy-data|European
+												Strategy for data>. The major EU-funded projects (e.g., <https:
+													//ec.europa.eu/digital-building-blocks/wikis/display/EBSI/Home|EBSI>
+													, the <https:
+														//digital-strategy.ec.europa.eu/en/policies/eidas-regulation|eIDAS
+														Regulation>, etc.) use <https:
+															//eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32017D0863&amp;from=EN|EUPL
+															v1.2> as a multilingual open-source licence to support that
+															mission. I thought it would be helpful to add this framing
+															to help people understand the digital landscape in Europe.
+															The EU has developed the EUPL licence to ensure that the
+															European digital infrastructure doesn't fragment. Will the
+															U.S. follow suit? This discussion may act as a catalyst.
 
-As OCA and KERI demonstrate, the innovation across the Semantic and Inputs domains is profound. In line with these new technologies, we may need a new licence to protect them. Innovation in the Governance domain, in this case, is also required. The arguments that Linus Torvalds, the creator of the Linux kernel, puts forward in the video, _<https://www.youtube.com/watch?v=PaKIZ7gJlRU|"GPL v3 violates everything that GPLv2 stood for">_, are precisely why the issue of licencing is such a key topic at HCF.
+															At HCF, we are adopting the fundamentals of two core utility
+															technologies, <https: //oca.colossi.network|OCA> (Semantic
+																domain) and <https: //keri.one|KERI> (Inputs domain). We
+																	have chosen the EUPL licence at the Foundation to
+																	ensure that the core codebases don't fragment. An
+																	open-source IPR licence for the underpinnings of an
+																	entirely new web infrastructure needs to be robust.
+																	By _"robust"_, I mean those fundamentals can't
+																	fragment at the lowest technical layers of the DDE.
+																	<https: //www.apache.org/licenses/LICENSE-2.0|Apache
+																		2.0> is a licence widely adopted for a "broken"
+																		Internet. However, thanks to <@U013F46SDRR>'s
+																			wisdom at HCF, we are aware of the licencing
+																			problem and have drafted a _<https:
+																				//docs.google.com/document/d/100NZaAWYZ6PZWg_xhKs8GhLPgyAaDYeapEO_nP5_scQ/edit#|"Code
+																				of Ethical Licencing">_ to clarify our
+																				position.
 
-The ramifications go far beyond this community. Other core utility technologies in the first layer of the <https://static1.squarespace.com/static/5ead4c8660689c348c80958e/t/62f2893465394d4b829661bc/1660062007339/HCF+DDE+Trust+Infrastructure+Stack+v1.0.0.pdf|HCF> and <https://trustoverip.org/toip-model/|ToIP> stacks will need to be resolute and compatible to stop potential fragmentation. I'm keen to learn from the leading voices of this community before the discussion comes to a natural conclusion. Let's hope we all end up on the same page.
+																				As OCA and KERI demonstrate, the
+																				innovation across the Semantic and
+																				Inputs domains is profound. In line with
+																				these new technologies, we may need a
+																				new licence to protect them. Innovation
+																				in the Governance domain, in this case,
+																				is also required. The arguments that
+																				Linus Torvalds, the creator of the Linux
+																				kernel, puts forward in the video, _
+																				<https:
+																					//www.youtube.com/watch?v=PaKIZ7gJlRU|"GPL
+																					v3 violates everything that GPLv2
+																					stood for">_, are precisely why the
+																					issue of licencing is such a key
+																					topic at HCF.
 
-By the way, outside of HCF, this is the first time I've seen this debate in any other open community forums, so this is a neat place to continue the discussion. We might even persuade some lawyers to join the debate for some of the trickier questions. But, at the very least, we all must clearly understand the consequential outcomes of these critical decisions.
+																					The ramifications go far beyond this
+																					community. Other core utility
+																					technologies in the first layer of
+																					the <https:
+																						//static1.squarespace.com/static/5ead4c8660689c348c80958e/t/62f2893465394d4b829661bc/1660062007339/HCF+DDE+Trust+Infrastructure+Stack+v1.0.0.pdf|HCF>
+																						and <https:
+																							//trustoverip.org/toip-model/|ToIP>
+																							stacks will need to be
+																							resolute and compatible to
+																							stop potential
+																							fragmentation. I'm keen to
+																							learn from the leading
+																							voices of this community
+																							before the discussion comes
+																							to a natural conclusion.
+																							Let's hope we all end up on
+																							the same page.
 
-So, let's keep our toys in the pram and have a healthy and well-considered debate. I'm here to learn.</div>
-            	<div class="card-text imgInMessage"></div>
+																							By the way, outside of HCF,
+																							this is the first time I've
+																							seen this debate in any
+																							other open community forums,
+																							so this is a neat place to
+																							continue the discussion. We
+																							might even persuade some
+																							lawyers to join the debate
+																							for some of the trickier
+																							questions. But, at the very
+																							least, we all must clearly
+																							understand the consequential
+																							outcomes of these critical
+																							decisions.
+
+																							So, let's keep our toys in
+																							the pram and have a healthy
+																							and well-considered debate.
+																							I'm here to learn.</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/4d8f8f3d0ca4149d345a0b1e4c2bcbcf.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png" />
-  				<div class="card-text username">mark</div>
-            	<div class="card-text time"><a id="anchor-20221218064741000" href="#anchor-20221218064741000">2022-12-18T06:47:41.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/4d8f8f3d0ca4149d345a0b1e4c2bcbcf.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png" />
+				<div class="card-text username">mark</div>
+				<div class="card-text time"><a id="anchor-20221218064741000"
+						href="#anchor-20221218064741000">2022-12-18T06:47:41.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U04FT2WF4RJ> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U04FT2WF4RJ> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">robert.mitwicki</div>
-            	<div class="card-text time"><a id="anchor-20221218125607000" href="#anchor-20221218125607000">2022-12-18T12:56:07.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">robert.mitwicki</div>
+				<div class="card-text time"><a id="anchor-20221218125607000"
+						href="#anchor-20221218125607000">2022-12-18T12:56:07.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">One of the argument against supporting EUPL repositories which I saw on <#C03TSFRNWLU|cesrox> channel is to have lowest bar entry. I don't think this is a valid argument since personally I didn't observed that at all. I don't think we have a big problem with adoption because of the license. Even that license is important does not rises the bar best on what I can see. Implementation of keri components under EUPL1.2 license starting being used by businesses and startups in our community. I am already aware of 3 commercial companies which are planning to build business cases based on the components under EUPL1.2 license and few more are I see on horizon including governmental institutions. None of them afaik is worry about the license and they are happy to support its development by putting money and resources to push it further.</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">One of the argument against supporting EUPL repositories which I saw on
+					<#C03TSFRNWLU|cesrox> channel is to have lowest bar entry. I don't think this is a valid argument
+						since personally I didn't observed that at all. I don't think we have a big problem with
+						adoption because of the license. Even that license is important does not rises the bar best on
+						what I can see. Implementation of keri components under EUPL1.2 license starting being used by
+						businesses and startups in our community. I am already aware of 3 commercial companies which are
+						planning to build business cases based on the components under EUPL1.2 license and few more are
+						I see on horizon including governmental institutions. None of them afaik is worry about the
+						license and they are happy to support its development by putting money and resources to push it
+						further.</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">robert.mitwicki</div>
-            	<div class="card-text time"><a id="anchor-20221218130221000" href="#anchor-20221218130221000">2022-12-18T13:02:21.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">robert.mitwicki</div>
+				<div class="card-text time"><a id="anchor-20221218130221000"
+						href="#anchor-20221218130221000">2022-12-18T13:02:21.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">I think using that argument against contribution to EUPL repository is very weak, and we need to remember that core components needs to have sustainable development. If we allow for companies to leverage access to the repositories to gain competitive advantage by not releasing all changes right away. I see that as a huge brier for early adopters and leads to fragmentation since everyone would move with different speed. We saw how business can act in such ecosystems. We intentionally switch to EUPL1.2 in early stage since we want to avoid exactly such situation. It must be fair ecosystem and build together, forcing sharing (giving back) is one of the option to achieve that.</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">I think using that argument against contribution to EUPL repository is very
+					weak, and we need to remember that core components needs to have sustainable development. If we
+					allow for companies to leverage access to the repositories to gain competitive advantage by not
+					releasing all changes right away. I see that as a huge brier for early adopters and leads to
+					fragmentation since everyone would move with different speed. We saw how business can act in such
+					ecosystems. We intentionally switch to EUPL1.2 in early stage since we want to avoid exactly such
+					situation. It must be fair ecosystem and build together, forcing sharing (giving back) is one of the
+					option to achieve that.</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">robert.mitwicki</div>
-            	<div class="card-text time"><a id="anchor-20221218130959000" href="#anchor-20221218130959000">2022-12-18T13:09:59.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">robert.mitwicki</div>
+				<div class="card-text time"><a id="anchor-20221218130959000"
+						href="#anchor-20221218130959000">2022-12-18T13:09:59.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Practically speaking everyone who knows how keri components works, knows that not many developers/companies would be interested in contributing in that code base as the entry level is quite high. It would be lead by few organizations or freelancers which are interested in technology itself, and the rest would consume it as it is. Obviously this know-how can be easily leverage to provide consulting services to those who would like to build products on top. If we won't force sharing some of the organization/individuals could get into trap of conflict of interest where sharing could be treated as direct danger for potential revenue.
 
-I can easily imagine companies like IBM to "take over" development and use their resources to offer "way better" keri implementation for governmental institutions for developing eID projecst or credentials platforms. As community we would not be able to control such development by any mean, and consequences could very destructive for vision of protocols for "new internet"</div>
-            	<div class="card-text imgInMessage"></div>
+			<div class="card-body">
+				<div class="card-text msg">Practically speaking everyone who knows how keri components works, knows that
+					not many developers/companies would be interested in contributing in that code base as the entry
+					level is quite high. It would be lead by few organizations or freelancers which are interested in
+					technology itself, and the rest would consume it as it is. Obviously this know-how can be easily
+					leverage to provide consulting services to those who would like to build products on top. If we
+					won't force sharing some of the organization/individuals could get into trap of conflict of interest
+					where sharing could be treated as direct danger for potential revenue.
+
+					I can easily imagine companies like IBM to "take over" development and use their resources to offer
+					"way better" keri implementation for governmental institutions for developing eID projecst or
+					credentials platforms. As community we would not be able to control such development by any mean,
+					and consequences could very destructive for vision of protocols for "new internet"</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">robert.mitwicki</div>
-            	<div class="card-text time"><a id="anchor-20221218131123000" href="#anchor-20221218131123000">2022-12-18T13:11:23.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">robert.mitwicki</div>
+				<div class="card-text time"><a id="anchor-20221218131123000"
+						href="#anchor-20221218131123000">2022-12-18T13:11:23.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">how likely this scenario is we don't know but worth to mitigate it by simply changing the license. It won't protect  fully against this scenario but for sure help a bit.</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">how likely this scenario is we don't know but worth to mitigate it by simply
+					changing the license. It won't protect fully against this scenario but for sure help a bit.</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2022-08-02/3887705521780_add08edec1fbb204a544_72.jpg" />
-  				<div class="card-text username">daniel.hardman</div>
-            	<div class="card-text time"><a id="anchor-20221219115229000" href="#anchor-20221219115229000">2022-12-19T11:52:29.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2022-08-02/3887705521780_add08edec1fbb204a544_72.jpg" />
+				<div class="card-text username">daniel.hardman</div>
+				<div class="card-text time"><a id="anchor-20221219115229000"
+						href="#anchor-20221219115229000">2022-12-19T11:52:29.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">I find the concern about tech giants taking over development to be unconvincing. That's not because it can't happen, but because A) right now adoption and sponsorship by a tech giant would be a blessing, not a curse; and B) we don't have any reason to believe that if they adopted the technology, they would take it in a bad direction (has Google ruined REST? has Microsoft ruined XML? has Apple ruined JSON?). In my experience, it is during *design* that tech giant influence can dangerously skew things, not when implementing against a crisp spec. Are we still designing KERI and CESR?
 
-I also disagree with Robert's reasoning on barrier to entry. The fact that a number of community members are uneasy about EUPL is direct, concrete, timely proof that EUPL is a barrier to entry; the copyleft in the license scares people away. I KNOW this is true from first-hand experience, and I am confident that my experience isn't a weird anomaly. I believe Robert when he says that he hasn't encountered these barriers with his customers, but I suggest this is true because we are imagining two different kinds of usage. If companies just want to *use* tech that someone else writes, then copyleft is no big deal. All of us use GPL'ed stuff in linux all the time, without giving it a second thought. But if companies want to *contribute to* tech that is copylefted, it's a whole different analysis.
+			<div class="card-body">
+				<div class="card-text msg">I find the concern about tech giants taking over development to be
+					unconvincing. That's not because it can't happen, but because A) right now adoption and sponsorship
+					by a tech giant would be a blessing, not a curse; and B) we don't have any reason to believe that if
+					they adopted the technology, they would take it in a bad direction (has Google ruined REST? has
+					Microsoft ruined XML? has Apple ruined JSON?). In my experience, it is during *design* that tech
+					giant influence can dangerously skew things, not when implementing against a crisp spec. Are we
+					still designing KERI and CESR?
 
-The assertion that EUPL's copyleft is no problem whatsoever rings false to me. I'm sure tons of EU lawyers have reviewed the license, and as I said, I think it probably IS the case that "derivative work" will end up being acknowledged to exclude source code linked to a library across an interface boundary -- in the EU.
+					I also disagree with Robert's reasoning on barrier to entry. The fact that a number of community
+					members are uneasy about EUPL is direct, concrete, timely proof that EUPL is a barrier to entry; the
+					copyleft in the license scares people away. I KNOW this is true from first-hand experience, and I am
+					confident that my experience isn't a weird anomaly. I believe Robert when he says that he hasn't
+					encountered these barriers with his customers, but I suggest this is true because we are imagining
+					two different kinds of usage. If companies just want to *use* tech that someone else writes, then
+					copyleft is no big deal. All of us use GPL'ed stuff in linux all the time, without giving it a
+					second thought. But if companies want to *contribute to* tech that is copylefted, it's a whole
+					different analysis.
 
-Robert cited a line from the license that says that if no other legal jurisdiction is identified, Belgium law applies. The "if" in the line is the problem, and it actually makes my point. Most companies that offer contracts to their customers identify a legal jurisdiction, and only ones that pick an EU jurisdiction will have the legal perspective that EU lawyers like. It's extremely common (almost universal) to pick the jurisdiction where a company is incorporated, because legal fees are less if the court is local. Thus, the statement that EU law applies if no other law is specified helps almost nobody outside the EU.
+					The assertion that EUPL's copyleft is no problem whatsoever rings false to me. I'm sure tons of EU
+					lawyers have reviewed the license, and as I said, I think it probably IS the case that "derivative
+					work" will end up being acknowledged to exclude source code linked to a library across an interface
+					boundary -- in the EU.
 
-A "derivative work" is NOT guaranteed to be evaluated according to an EU law perspective if a lawsuit is adjudicated in the UK or Mexico or Canada or Japan or the US. That's why I asked if there was case law or precedent that could be cited. I can't find any. That's a problem.
+					Robert cited a line from the license that says that if no other legal jurisdiction is identified,
+					Belgium law applies. The "if" in the line is the problem, and it actually makes my point. Most
+					companies that offer contracts to their customers identify a legal jurisdiction, and only ones that
+					pick an EU jurisdiction will have the legal perspective that EU lawyers like. It's extremely common
+					(almost universal) to pick the jurisdiction where a company is incorporated, because legal fees are
+					less if the court is local. Thus, the statement that EU law applies if no other law is specified
+					helps almost nobody outside the EU.
 
-Speaking just for Provenant, I think we might be able to use EUPL-licensed code and run the risk that the copyleft provision in the license would never be enforced against higher levels of our software stack. But what would make me totally comfortable is if the license had an explicit statement like the following:
+					A "derivative work" is NOT guaranteed to be evaluated according to an EU law perspective if a
+					lawsuit is adjudicated in the UK or Mexico or Canada or Japan or the US. That's why I asked if there
+					was case law or precedent that could be cited. I can't find any. That's a problem.
 
-&gt; In this license, "derivative work" means a work of software that changes the source code of the library, and explicitly excludes works of software that call the library against published library interfaces. Thus, it is possible to consume the library either as a pre-compiled artifact or as unmodified source code without creating a derivative work.
-As I understand it, that is what Robert is claiming the license already means, and what his intention is with respect to the EUPL-licensed cesrox. And that is what I claim is NOT guaranteed by the EUPL license in its current form, because it relies on a legal analysis that is only likely to be true in EU courts. "Likely" and "in EU courts" are both a problem.
+					Speaking just for Provenant, I think we might be able to use EUPL-licensed code and run the risk
+					that the copyleft provision in the license would never be enforced against higher levels of our
+					software stack. But what would make me totally comfortable is if the license had an explicit
+					statement like the following:
 
-The paragraph above is similar to the GNU Classpath Exception (<https://en.wikipedia.org/wiki/GPL_linking_exception#The_Classpath_exception>). There IS good reason to believe that will be honored in jurisdictions around the world. Would you be open to adding such a sentence to the license in your codebase, <@U013F46SDRR>?</div>
-            	<div class="card-text imgInMessage"></div>
+					&gt; In this license, "derivative work" means a work of software that changes the source code of the
+					library, and explicitly excludes works of software that call the library against published library
+					interfaces. Thus, it is possible to consume the library either as a pre-compiled artifact or as
+					unmodified source code without creating a derivative work.
+					As I understand it, that is what Robert is claiming the license already means, and what his
+					intention is with respect to the EUPL-licensed cesrox. And that is what I claim is NOT guaranteed by
+					the EUPL license in its current form, because it relies on a legal analysis that is only likely to
+					be true in EU courts. "Likely" and "in EU courts" are both a problem.
+
+					The paragraph above is similar to the GNU Classpath Exception (<https:
+						//en.wikipedia.org/wiki/GPL_linking_exception#The_Classpath_exception>). There IS good reason to
+						believe that will be honored in jurisdictions around the world. Would you be open to adding such
+						a sentence to the license in your codebase, <@U013F46SDRR>?</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">robert.mitwicki</div>
-            	<div class="card-text time"><a id="anchor-20221219151203000" href="#anchor-20221219151203000">2022-12-19T15:12:03.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">robert.mitwicki</div>
+				<div class="card-text time"><a id="anchor-20221219151203000"
+						href="#anchor-20221219151203000">2022-12-19T15:12:03.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><pre>If companies just want to use tech that someone else writes, then copyleft is no big deal. All of us use GPL'ed stuff in linux all the time, without giving it a second thought. But if companies want to contribute to tech that is copylefted, it's a whole different analysis.<pre>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<pre>If companies just want to use tech that someone else writes, then copyleft is no big deal. All of us use GPL'ed stuff in linux all the time, without giving it a second thought. But if companies want to contribute to tech that is copylefted, it's a whole different analysis.<pre>
 Very good point, I had a chance to work with companies which are on both side means they are interested in contributing to the source code, as well as companies which just consume it (most of them obviously are on the consuming side).
 
 Consuming part is not an issue as you mentioned. The problem is with contribution to the code. Practically speaking this is not easy thing to do, you can't just get random dev throw him into that space and hope that he would do right things. Just starting with 150 pages of whitepaper is high enough barrier for most. I think we can agree that having specific skill set is required and a lot of time to chew what Sam produced.

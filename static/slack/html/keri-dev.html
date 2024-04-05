@@ -1,86 +1,119 @@
-<!doctype html><html lang="en-US"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width" /><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script><style>			
-			* {
-				font-family:sans-serif;
-			}
-			body {
-				text-align:center;
-				padding:1em;
-			}
-			.messages {
-				width:100%;
-				max-width:700px;
-				text-align:left;
-				display:inline-block;
-			}
-			.messages img {
-				background-color:rgb(248,244,240);
-				width:36px;
-				height:36px;
-				border-radius:0.2em;
-				display:inline-block;
-				vertical-align:top;
-				margin-right:0.65em;
-			}
-			.imgInMessage img {
-				width:100%;
-				height:auto;
+<!doctype html>
+<html lang="en-US">
 
-			}
-			.messages .time {
-				display:inline-block;
-				color:rgb(200,200,200);
-				margin-left:0.5em;
-			}
-			.messages .username {
-				display:inline-block;
-				font-weight:600;
-				line-height:1;
-			}
-			.messages .message {
-				display:inline-block;
-				vertical-align:top;
-				line-height:1;
-				width:calc(100% - 3em);
-			}
-			.messages .message .msg {
-				line-height:1.5;
-			}
-			pre {
-				border: 1px solid #ccc;
-				margin-top: 1em;
-				padding: 0.5em;
-			}
-			
-			</style><title>Slack Archive</title></head><body><h1 class="mt-3" id="begin">Slack Archive</h1><p class="mt-3"><a class="btn btn-outline-secondary" href="index.html">To Index</a></p><div class="fixed-bottom d-flex justify-content-end"><a href="#begin" class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div><div class="messages">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+	<style>
+		* {
+			font-family: sans-serif;
+		}
+
+		body {
+			text-align: center;
+			padding: 1em;
+		}
+
+		.messages {
+			width: 100%;
+			max-width: 700px;
+			text-align: left;
+			display: inline-block;
+		}
+
+		.messages img {
+			background-color: rgb(248, 244, 240);
+			width: 36px;
+			height: 36px;
+			border-radius: 0.2em;
+			display: inline-block;
+			vertical-align: top;
+			margin-right: 0.65em;
+		}
+
+		.imgInMessage img {
+			width: 100%;
+			height: auto;
+
+		}
+
+		.messages .time {
+			display: inline-block;
+			color: rgb(200, 200, 200);
+			margin-left: 0.5em;
+		}
+
+		.messages .username {
+			display: inline-block;
+			font-weight: 600;
+			line-height: 1;
+		}
+
+		.messages .message {
+			display: inline-block;
+			vertical-align: top;
+			line-height: 1;
+			width: calc(100% - 3em);
+		}
+
+		.messages .message .msg {
+			line-height: 1.5;
+		}
+
+		pre {
+			border: 1px solid #ccc;
+			margin-top: 1em;
+			padding: 0.5em;
+		}
+	</style>
+	<title>Slack Archive</title>
+</head>
+
+<body>
+	<h1 class="mt-3" id="begin">Slack Archive</h1>
+	<p class="mt-3"><a class="btn btn-outline-secondary" href="index.html">To Index</a></p>
+	<div class="fixed-bottom d-flex justify-content-end"><a href="#begin"
+			class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div>
+	<div class="messages">
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-  				<div class="card-text username">jason</div>
-            	<div class="card-text time"><a id="anchor-20230425065414000" href="#anchor-20230425065414000">2023-04-25T06:54:14.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+				<div class="card-text username">jason</div>
+				<div class="card-text time"><a id="anchor-20230425065414000"
+						href="#anchor-20230425065414000">2023-04-25T06:54:14.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U04HQD29Z7E> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U04HQD29Z7E> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-  				<div class="card-text username">jason</div>
-            	<div class="card-text time"><a id="anchor-20230425070218000" href="#anchor-20230425070218000">2023-04-25T07:02:18.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+				<div class="card-text username">jason</div>
+				<div class="card-text time"><a id="anchor-20230425070218000"
+						href="#anchor-20230425070218000">2023-04-25T07:02:18.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">I created this set of messages using the Qui SDK atop `cesride`:
 
-<pre>{"v":"KERI10JSON0001e7_","t":"icp","d":"ECSkjQRsDs12z3pP916haJSLkp_hQh9g8YcO6BBVU4qJ","i":"ECSkjQRsDs12z3pP916haJSLkp_hQh9g8YcO6BBVU4qJ","s":"0","kt":"2","k":["DNGW8-mK9gJUdIe75iZDopMKOyZTvwoM7nfOHFKzl2Xf","DI_VCGvq9G0p-Hko1h3-1Jxy60oCqGZpgHMO-rpRHTr7","DDZGak_BRJueyzxrXBejsDqtAgGhriN9lG-HZb9C4DIE"],"nt":"2","n":["EGNk3LJHkox4iGsj2MAu1OGZZAbfj4UuNA-4txCyH5rS","EBlimjpkreHaz3Y7D5taJhNYFK9FVkwSNaMwHu7Ew2VQ","EDAuXsx-4R6JgDR_dytf-qXRN_3Ei34JOfyq9Ffs1Uiw"],"bt":"0","b":[],"c":[],"a":[]}-VBD-AADAADh6JRLaiG6AYurdeqnfC2lxbAbDh4G3srBB_ZNqNDbXYmVy57BnhtSLAmNLA_8GnbJh2IDlYXwUs98irSK7WsBABCQZ9w6BWkqgoFi3GnfoRNYkzZMrXYDU4eWypSVWD9U0ZCG_nkEDg5EYwj4MldsW8TX3N75yQzMxTpPE7bJ5BINACB618hVBrLxxvc_GCRv4F5-1tXMPqpW4HDZ9NQtv4WyjRrxTwib4myP8yVVmGInQA0M82LRf00M7Kln4jcXiPIH
+			<div class="card-body">
+				<div class="card-text msg">I created this set of messages using the Qui SDK atop `cesride`:
+
+					<pre>{"v":"KERI10JSON0001e7_","t":"icp","d":"ECSkjQRsDs12z3pP916haJSLkp_hQh9g8YcO6BBVU4qJ","i":"ECSkjQRsDs12z3pP916haJSLkp_hQh9g8YcO6BBVU4qJ","s":"0","kt":"2","k":["DNGW8-mK9gJUdIe75iZDopMKOyZTvwoM7nfOHFKzl2Xf","DI_VCGvq9G0p-Hko1h3-1Jxy60oCqGZpgHMO-rpRHTr7","DDZGak_BRJueyzxrXBejsDqtAgGhriN9lG-HZb9C4DIE"],"nt":"2","n":["EGNk3LJHkox4iGsj2MAu1OGZZAbfj4UuNA-4txCyH5rS","EBlimjpkreHaz3Y7D5taJhNYFK9FVkwSNaMwHu7Ew2VQ","EDAuXsx-4R6JgDR_dytf-qXRN_3Ei34JOfyq9Ffs1Uiw"],"bt":"0","b":[],"c":[],"a":[]}-VBD-AADAADh6JRLaiG6AYurdeqnfC2lxbAbDh4G3srBB_ZNqNDbXYmVy57BnhtSLAmNLA_8GnbJh2IDlYXwUs98irSK7WsBABCQZ9w6BWkqgoFi3GnfoRNYkzZMrXYDU4eWypSVWD9U0ZCG_nkEDg5EYwj4MldsW8TX3N75yQzMxTpPE7bJ5BINACB618hVBrLxxvc_GCRv4F5-1tXMPqpW4HDZ9NQtv4WyjRrxTwib4myP8yVVmGInQA0M82LRf00M7Kln4jcXiPIH
 {"v":"KERI10JSON00013a_","t":"ixn","d":"ELaw_rkRuXpU21iEnXYVSj5fwxde6iUJwpH9s53J9raL","i":"ECSkjQRsDs12z3pP916haJSLkp_hQh9g8YcO6BBVU4qJ","s":"1","p":"ECSkjQRsDs12z3pP916haJSLkp_hQh9g8YcO6BBVU4qJ","a":[{"i":"EHThFVgTY1anKaF7pvM3zrkpanrlJxGgdCUGpLx6iNKL","s":"0","d":"EHThFVgTY1anKaF7pvM3zrkpanrlJxGgdCUGpLx6iNKL"}]}-VBD-AADAADjzCtrIFlFALjbK5bsL9yF8HEJHBKJcSvBrrDuSGN77iUDDub_qv1GefpjAJ_uWbjAx11uwObDMOGFWDeOLN0HABAYlHYccKZWlMgrL7OhA9Qk_N-eR0hFc3dRgU1DV5bLf1s8gvjWynsJJW1LsPpyJomjvFHurI18bn8Dn9CJjtkCACDZ6jQcCv31nv09OUd4IqgXfpeOAqDoT_LtuxulOurk8URxL6W9NJvMIGnACrjXs3psaHDjUMwK8vlR9rouICgH
 {"v":"KERI10JSON00013a_","t":"ixn","d":"ED27Rx7illu2NyaPzjrTmDLMrJ6AnqzZhGWZ7nd3UytE","i":"ECSkjQRsDs12z3pP916haJSLkp_hQh9g8YcO6BBVU4qJ","s":"2","p":"ELaw_rkRuXpU21iEnXYVSj5fwxde6iUJwpH9s53J9raL","a":[{"i":"EAj80gram4PjVcpLdMBil2aPxOhUAU63T1qOiizpsOZt","s":"0","d":"EEC4SA2Sk0ViIfcIZGfeeIrLYnerJaOid_7n1sTZjyLB"}]}-VBD-AADAACXdIIUQvHxt2KAVeDZcLfENl2AZsQlAimjjW4Mf_XiM4VRiFXSuWZZ45unMiDqpXShDcqNZzJZyMxVcFSpMwcFABBbi-72kgciB5C7YdSEhGPGypLXufq_sHldpM5DcdJC98R9hK00YC0YaQB2mzRlkvnbl6_xOEHa4MCuYFEhW6IOACBkJ19npxT4GcKE80MsL9KNQ9C4bgQNIwX46LrgWUNdXa-CC-9Km7IcVWmvAfiBcGesx8c0uh4iIivLhDIu9OsN
 {"v":"KERI10JSON0000e0_","t":"vcp","d":"EHThFVgTY1anKaF7pvM3zrkpanrlJxGgdCUGpLx6iNKL","i":"EHThFVgTY1anKaF7pvM3zrkpanrlJxGgdCUGpLx6iNKL","ii":"ECSkjQRsDs12z3pP916haJSLkp_hQh9g8YcO6BBVU4qJ","s":"0","c":["NB"],"bt":"0","b":[]}-GAB0AAAAAAAAAAAAAAAAAAAAAABELaw_rkRuXpU21iEnXYVSj5fwxde6iUJwpH9s53J9raL

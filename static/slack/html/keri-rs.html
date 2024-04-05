@@ -1,672 +1,893 @@
-<!doctype html><html lang="en-US"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width" /><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script><style>			
-			* {
-				font-family:sans-serif;
-			}
-			body {
-				text-align:center;
-				padding:1em;
-			}
-			.messages {
-				width:100%;
-				max-width:700px;
-				text-align:left;
-				display:inline-block;
-			}
-			.messages img {
-				background-color:rgb(248,244,240);
-				width:36px;
-				height:36px;
-				border-radius:0.2em;
-				display:inline-block;
-				vertical-align:top;
-				margin-right:0.65em;
-			}
-			.imgInMessage img {
-				width:100%;
-				height:auto;
+<!doctype html>
+<html lang="en-US">
 
-			}
-			.messages .time {
-				display:inline-block;
-				color:rgb(200,200,200);
-				margin-left:0.5em;
-			}
-			.messages .username {
-				display:inline-block;
-				font-weight:600;
-				line-height:1;
-			}
-			.messages .message {
-				display:inline-block;
-				vertical-align:top;
-				line-height:1;
-				width:calc(100% - 3em);
-			}
-			.messages .message .msg {
-				line-height:1.5;
-			}
-			pre {
-				border: 1px solid #ccc;
-				margin-top: 1em;
-				padding: 0.5em;
-			}
-			
-			</style><title>Slack Archive</title></head><body><h1 class="mt-3" id="begin">Slack Archive</h1><p class="mt-3"><a class="btn btn-outline-secondary" href="index.html">To Index</a></p><div class="fixed-bottom d-flex justify-content-end"><a href="#begin" class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div><div class="messages">
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">robert.mitwicki</div>
-            	<div class="card-text time"><a id="anchor-20230212211943000" href="#anchor-20230212211943000">2023-02-12T21:19:43.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U013F46SDRR> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/b89b24b2387a804402928b0f3c8bcb83.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png" />
-  				<div class="card-text username">contact.johannes</div>
-            	<div class="card-text time"><a id="anchor-20230212212002000" href="#anchor-20230212212002000">2023-02-12T21:20:02.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U04PXR871PS> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/aa48f6ede2c736698a368e2a4fb5f2bf.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">edyta.pawlak</div>
-            	<div class="card-text time"><a id="anchor-20230212212144000" href="#anchor-20230212212144000">2023-02-12T21:21:44.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U02MLCPJ85A> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-11-16/2734433804852_be5d6472ea7616a43445_72.jpg" />
-  				<div class="card-text username">michal.pietrus</div>
-            	<div class="card-text time"><a id="anchor-20230212212144000" href="#anchor-20230212212144000">2023-02-12T21:21:44.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U02N7K951DW> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
-  				<div class="card-text username">jason</div>
-            	<div class="card-text time"><a id="anchor-20230212212200000" href="#anchor-20230212212200000">2023-02-12T21:22:00.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U04HQD29Z7E> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/84b3ed0d888fc2b8947fd767c4ef5741.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png" />
-  				<div class="card-text username">harold_carr</div>
-            	<div class="card-text time"><a id="anchor-20230212212724000" href="#anchor-20230212212724000">2023-02-12T21:27:24.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U03RTP08W3B> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="undefined" />
-  				<div class="card-text username">undefined</div>
-            	<div class="card-text time"><a id="anchor-20230212233316000" href="#anchor-20230212233316000">2023-02-12T23:33:16.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">This message was deleted.</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 2</p></div>
-				
-						<div class="card mt-2 ms-3">
-							<div class="card-header">
-								<img src="https://secure.gravatar.com/avatar/aa48f6ede2c736698a368e2a4fb5f2bf.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-								<div class="card-text username">edyta.pawlak</div>
-								<div class="card-text time"><a id="anchor-20230212233316000" href="#anchor-20230212233316000">2023-02-12T23:33:16.000Z</a></div>
-							</div>
-							
-							<div class="card-body">    
-								<div class="card-text msg">1. KEL is stored in sled db, you can get it and store it somewhere else or use this db for retrieval.
-2. It's not.
-3. If you have sled database with KEL events inside, you can provide a path to this db in  <https://github.com/THCLab/keriox/blob/dd8053cc5541e7c487586f4b5b5fae8c17515fea/components/controller/src/lib.rs#L63|constructor>. If you have KEL in CESR, you can initialize empty controller and then provide events with `process_stream` function.
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+	<style>
+		* {
+			font-family: sans-serif;
+		}
 
-For multisig example, take look at <https://github.com/THCLab/keriox/blob/dd8053cc5541e7c487586f4b5b5fae8c17515fea/keriox_tests/tests/multisig.rs#L20|this test>.</div>
-								
-							</div>
+		body {
+			text-align: center;
+			padding: 1em;
+		}
+
+		.messages {
+			width: 100%;
+			max-width: 700px;
+			text-align: left;
+			display: inline-block;
+		}
+
+		.messages img {
+			background-color: rgb(248, 244, 240);
+			width: 36px;
+			height: 36px;
+			border-radius: 0.2em;
+			display: inline-block;
+			vertical-align: top;
+			margin-right: 0.65em;
+		}
+
+		.imgInMessage img {
+			width: 100%;
+			height: auto;
+
+		}
+
+		.messages .time {
+			display: inline-block;
+			color: rgb(200, 200, 200);
+			margin-left: 0.5em;
+		}
+
+		.messages .username {
+			display: inline-block;
+			font-weight: 600;
+			line-height: 1;
+		}
+
+		.messages .message {
+			display: inline-block;
+			vertical-align: top;
+			line-height: 1;
+			width: calc(100% - 3em);
+		}
+
+		.messages .message .msg {
+			line-height: 1.5;
+		}
+
+		pre {
+			border: 1px solid #ccc;
+			margin-top: 1em;
+			padding: 0.5em;
+		}
+	</style>
+	<title>Slack Archive</title>
+</head>
+
+<body>
+	<h1 class="mt-3" id="begin">Slack Archive</h1>
+	<p class="mt-3"><a class="btn btn-outline-secondary" href="index.html">To Index</a></p>
+	<div class="fixed-bottom d-flex justify-content-end"><a href="#begin"
+			class="btn btn-outline-secondary mb-2 me-md-2 sticky-bottom" type="button">Back To Top</a></div>
+	<div class="messages">
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">robert.mitwicki</div>
+				<div class="card-text time"><a id="anchor-20230212211943000"
+						href="#anchor-20230212211943000">2023-02-12T21:19:43.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U013F46SDRR> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/b89b24b2387a804402928b0f3c8bcb83.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png" />
+				<div class="card-text username">contact.johannes</div>
+				<div class="card-text time"><a id="anchor-20230212212002000"
+						href="#anchor-20230212212002000">2023-02-12T21:20:02.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U04PXR871PS> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/aa48f6ede2c736698a368e2a4fb5f2bf.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">edyta.pawlak</div>
+				<div class="card-text time"><a id="anchor-20230212212144000"
+						href="#anchor-20230212212144000">2023-02-12T21:21:44.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U02MLCPJ85A> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2021-11-16/2734433804852_be5d6472ea7616a43445_72.jpg" />
+				<div class="card-text username">michal.pietrus</div>
+				<div class="card-text time"><a id="anchor-20230212212144000"
+						href="#anchor-20230212212144000">2023-02-12T21:21:44.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U02N7K951DW> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2023-01-24/4689709890483_9cbf86a069e26983cf09_72.jpg" />
+				<div class="card-text username">jason</div>
+				<div class="card-text time"><a id="anchor-20230212212200000"
+						href="#anchor-20230212212200000">2023-02-12T21:22:00.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U04HQD29Z7E> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/84b3ed0d888fc2b8947fd767c4ef5741.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png" />
+				<div class="card-text username">harold_carr</div>
+				<div class="card-text time"><a id="anchor-20230212212724000"
+						href="#anchor-20230212212724000">2023-02-12T21:27:24.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U03RTP08W3B> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="undefined" />
+				<div class="card-text username">undefined</div>
+				<div class="card-text time"><a id="anchor-20230212233316000"
+						href="#anchor-20230212233316000">2023-02-12T23:33:16.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">This message was deleted.</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 2</p>
+				</div>
+
+				<div class="card mt-2 ms-3">
+					<div class="card-header">
+						<img
+							src="https://secure.gravatar.com/avatar/aa48f6ede2c736698a368e2a4fb5f2bf.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+						<div class="card-text username">edyta.pawlak</div>
+						<div class="card-text time"><a id="anchor-20230212233316000"
+								href="#anchor-20230212233316000">2023-02-12T23:33:16.000Z</a></div>
+					</div>
+
+					<div class="card-body">
+						<div class="card-text msg">1. KEL is stored in sled db, you can get it and store it somewhere
+							else or use this db for retrieval.
+							2. It's not.
+							3. If you have sled database with KEL events inside, you can provide a path to this db in
+							<https:
+								//github.com/THCLab/keriox/blob/dd8053cc5541e7c487586f4b5b5fae8c17515fea/components/controller/src/lib.rs#L63|constructor>
+								. If you have KEL in CESR, you can initialize empty controller and then provide events
+								with `process_stream` function.
+
+								For multisig example, take look at <https:
+									//github.com/THCLab/keriox/blob/dd8053cc5541e7c487586f4b5b5fae8c17515fea/keriox_tests/tests/multisig.rs#L20|this
+									test>.</div>
+
+					</div>
+				</div>
+
+				<div class="card mt-2 ms-3">
+					<div class="card-header">
+						<img
+							src="https://avatars.slack-edge.com/2021-11-16/2734433804852_be5d6472ea7616a43445_72.jpg" />
+						<div class="card-text username">michal.pietrus</div>
+						<div class="card-text time"><a id="anchor-20230212233316000"
+								href="#anchor-20230212233316000">2023-02-12T23:33:16.000Z</a></div>
+					</div>
+
+					<div class="card-body">
+						<div class="card-text msg">Unlikely. To bump Node related bindings it is sufficient to work with
+							latest changes. PR much appreciated!</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2022-07-15/3810085503492_e5beacfba6b68179a88b_72.jpg" />
+				<div class="card-text username">rodolfo.miranda</div>
+				<div class="card-text time"><a id="anchor-20230212235721000"
+						href="#anchor-20230212235721000">2023-02-12T23:57:21.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U03P53FCYB1> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">robert.mitwicki</div>
+				<div class="card-text time"><a id="anchor-20230213113850000"
+						href="#anchor-20230213113850000">2023-02-13T11:38:50.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Define production ready.</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">robert.mitwicki</div>
+				<div class="card-text time"><a id="anchor-20230213114608000"
+						href="#anchor-20230213114608000">2023-02-13T11:46:08.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">The API is pretty stable at that stage, changes are inevitable but nothing
+					big afaik, there are projects which build products based on that implementation if that helps.</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">robert.mitwicki</div>
+				<div class="card-text time"><a id="anchor-20230213131102000"
+						href="#anchor-20230213131102000">2023-02-13T13:11:02.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">if I may ask what demo are you talking about? are you presenting that to
+					someone, in your organization or what is the context of that demo? Are you able to share a bit more?
+
+					Overall all above points can be easily achieved with the current implementation</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 1</p>
+				</div>
+
+				<div class="card mt-2 ms-3">
+					<div class="card-header">
+						<img
+							src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+						<div class="card-text username">robert.mitwicki</div>
+						<div class="card-text time"><a id="anchor-20230213131102000"
+								href="#anchor-20230213131102000">2023-02-13T13:11:02.000Z</a></div>
+					</div>
+
+					<div class="card-body">
+						<div class="card-text msg">you can pull it from DB like this:
+							<https:
+								//github.com/THCLab/keriox/blob/dd8053cc5541e7c487586f4b5b5fae8c17515fea/components/controller/src/test.rs#L28>
+
+								you could parse as well stream and get controller and then connect it with idenfier like
+								this: <https:
+									//github.com/THCLab/keriox/blob/dd8053cc5541e7c487586f4b5b5fae8c17515fea/components/controller/src/test.rs#L59>
+
+									here is an example in DART how those functions are used:
+									<https:
+										//github.com/THCLab/keri-bindings/blob/af89eaf0533225f36c2c85d1535cf6234f6d9d9a/bindings/dart/src/api.rs#L223>
+										<https:
+											//github.com/THCLab/keri-bindings/blob/af89eaf0533225f36c2c85d1535cf6234f6d9d9a/bindings/dart/src/api.rs#L620>
 						</div>
-						
-						<div class="card mt-2 ms-3">
-							<div class="card-header">
-								<img src="https://avatars.slack-edge.com/2021-11-16/2734433804852_be5d6472ea7616a43445_72.jpg" />
-								<div class="card-text username">michal.pietrus</div>
-								<div class="card-text time"><a id="anchor-20230212233316000" href="#anchor-20230212233316000">2023-02-12T23:33:16.000Z</a></div>
-							</div>
-							
-							<div class="card-body">    
-								<div class="card-text msg">Unlikely. To bump Node related bindings it is sufficient to work with latest changes. PR much appreciated!</div>
-								
-							</div>
-						</div>
-						
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2022-07-15/3810085503492_e5beacfba6b68179a88b_72.jpg" />
-  				<div class="card-text username">rodolfo.miranda</div>
-            	<div class="card-text time"><a id="anchor-20230212235721000" href="#anchor-20230212235721000">2023-02-12T23:57:21.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U03P53FCYB1> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">robert.mitwicki</div>
-            	<div class="card-text time"><a id="anchor-20230213113850000" href="#anchor-20230213113850000">2023-02-13T11:38:50.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Define production ready.</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">robert.mitwicki</div>
-            	<div class="card-text time"><a id="anchor-20230213114608000" href="#anchor-20230213114608000">2023-02-13T11:46:08.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">The API is pretty stable at that stage, changes are inevitable but nothing big afaik, there are projects which build products based on that implementation if that helps.</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">robert.mitwicki</div>
-            	<div class="card-text time"><a id="anchor-20230213131102000" href="#anchor-20230213131102000">2023-02-13T13:11:02.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">if I may ask what demo are you talking about? are you presenting that to someone, in your organization or what is the context of that demo? Are you able to share a bit more?
 
-Overall all above points can be easily achieved with the current implementation</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 1</p></div>
-				
-						<div class="card mt-2 ms-3">
-							<div class="card-header">
-								<img src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-								<div class="card-text username">robert.mitwicki</div>
-								<div class="card-text time"><a id="anchor-20230213131102000" href="#anchor-20230213131102000">2023-02-13T13:11:02.000Z</a></div>
-							</div>
-							
-							<div class="card-body">    
-								<div class="card-text msg">you can pull it from DB like this:
-<https://github.com/THCLab/keriox/blob/dd8053cc5541e7c487586f4b5b5fae8c17515fea/components/controller/src/test.rs#L28>
+					</div>
+				</div>
 
-you could parse as well stream and get controller and then connect it with idenfier like this: <https://github.com/THCLab/keriox/blob/dd8053cc5541e7c487586f4b5b5fae8c17515fea/components/controller/src/test.rs#L59>
+			</div>
+		</div>
 
-here is an example in DART how those functions are used:
-<https://github.com/THCLab/keri-bindings/blob/af89eaf0533225f36c2c85d1535cf6234f6d9d9a/bindings/dart/src/api.rs#L223>
-<https://github.com/THCLab/keri-bindings/blob/af89eaf0533225f36c2c85d1535cf6234f6d9d9a/bindings/dart/src/api.rs#L620></div>
-								
-							</div>
-						</div>
-						
-  			</div>
-		</div>
-        
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">robert.mitwicki</div>
-            	<div class="card-text time"><a id="anchor-20230213131417000" href="#anchor-20230213131417000">2023-02-13T13:14:17.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">robert.mitwicki</div>
+				<div class="card-text time"><a id="anchor-20230213131417000"
+						href="#anchor-20230213131417000">2023-02-13T13:14:17.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">we did in the past few demos of keri technologies some of the quite advance where we linked it with credentials like passports or advance IoT use cases. Happy to share some experience if needed.</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">robert.mitwicki</div>
-            	<div class="card-text time"><a id="anchor-20230213131520000" href="#anchor-20230213131520000">2023-02-13T13:15:20.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">some of the use cases are described here: <https://oca.colossi.network/guide/applications/></div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">robert.mitwicki</div>
-            	<div class="card-text time"><a id="anchor-20230213131543000" href="#anchor-20230213131543000">2023-02-13T13:15:43.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">which is in the context of OCA but authentication layer is provided by keri</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">robert.mitwicki</div>
-            	<div class="card-text time"><a id="anchor-20230213131831000" href="#anchor-20230213131831000">2023-02-13T13:18:31.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">worth to take a look on is as well our <https://github.com/THCLab/oca-html-preview-demo>
-demo which we show how we leverage OCA + ACDC + KERI to get accurate data</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-05-24/5315833935091_b93afcd23af8e5c45914_72.jpg" />
-  				<div class="card-text username">kent</div>
-            	<div class="card-text time"><a id="anchor-20230213135019000" href="#anchor-20230213135019000">2023-02-13T13:50:19.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U03EUG009MY> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-01-05/4593385265894_ef460d2b69918720b9c8_72.jpg" />
-  				<div class="card-text username">pdm</div>
-            	<div class="card-text time"><a id="anchor-20230213141322000" href="#anchor-20230213141322000">2023-02-13T14:13:22.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U04HMQT1XFV> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/aa48f6ede2c736698a368e2a4fb5f2bf.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">edyta.pawlak</div>
-            	<div class="card-text time"><a id="anchor-20230213141914000" href="#anchor-20230213141914000">2023-02-13T14:19:14.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">1. KEL is stored in sled db, you can get it and store it somewhere else or use this db for retrieval.
-2. It's not.
-3. If you have sled database with KEL events inside, you can provide a path to this db in  <https://github.com/THCLab/keriox/blob/dd8053cc5541e7c487586f4b5b5fae8c17515fea/components/controller/src/lib.rs#L63|constructor>. If you have KEL in CESR, you can initialize empty controller and then provide events with `process_stream` function.
 
-For multisig example, take look at <https://github.com/THCLab/keriox/blob/dd8053cc5541e7c487586f4b5b5fae8c17515fea/keriox_tests/tests/multisig.rs#L20|this test>.</div>
-            	<div class="card-text imgInMessage"></div>
+			<div class="card-body">
+				<div class="card-text msg">we did in the past few demos of keri technologies some of the quite advance
+					where we linked it with credentials like passports or advance IoT use cases. Happy to share some
+					experience if needed.</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
-		<div class="card mt-5">
-			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">robert.mitwicki</div>
-            	<div class="card-text time"><a id="anchor-20230213165452000" href="#anchor-20230213165452000">2023-02-13T16:54:52.000Z</a></div>
-			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">you can pull it from DB like this:
-<https://github.com/THCLab/keriox/blob/dd8053cc5541e7c487586f4b5b5fae8c17515fea/components/controller/src/test.rs#L28>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
 
-you could parse as well stream and get controller and then connect it with idenfier like this: <https://github.com/THCLab/keriox/blob/dd8053cc5541e7c487586f4b5b5fae8c17515fea/components/controller/src/test.rs#L59>
+			</div>
+		</div>
 
-here is an example in DART how those functions are used:
-<https://github.com/THCLab/keri-bindings/blob/af89eaf0533225f36c2c85d1535cf6234f6d9d9a/bindings/dart/src/api.rs#L223>
-<https://github.com/THCLab/keri-bindings/blob/af89eaf0533225f36c2c85d1535cf6234f6d9d9a/bindings/dart/src/api.rs#L620></div>
-            	<div class="card-text imgInMessage"></div>
-			</div>
-			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
-		</div>
-        
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/d9bfd89db24ef66d138680472c4b526d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png" />
-  				<div class="card-text username">steven</div>
-            	<div class="card-text time"><a id="anchor-20230213181804000" href="#anchor-20230213181804000">2023-02-13T18:18:04.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">robert.mitwicki</div>
+				<div class="card-text time"><a id="anchor-20230213131520000"
+						href="#anchor-20230213131520000">2023-02-13T13:15:20.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U03KLB48Q2E> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">some of the use cases are described here:
+					<https: //oca.colossi.network/guide/applications />
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-11-16/2734433804852_be5d6472ea7616a43445_72.jpg" />
-  				<div class="card-text username">michal.pietrus</div>
-            	<div class="card-text time"><a id="anchor-20230213212941000" href="#anchor-20230213212941000">2023-02-13T21:29:41.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">robert.mitwicki</div>
+				<div class="card-text time"><a id="anchor-20230213131543000"
+						href="#anchor-20230213131543000">2023-02-13T13:15:43.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Unlikely. To bump Node related bindings it is sufficient to work with latest changes. PR much appreciated!</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">which is in the context of OCA but authentication layer is provided by keri
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-01-10/4603428700103_0c709df39f789749cfe3_72.jpg" />
-  				<div class="card-text username">tung</div>
-            	<div class="card-text time"><a id="anchor-20230214054702000" href="#anchor-20230214054702000">2023-02-14T05:47:02.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">robert.mitwicki</div>
+				<div class="card-text time"><a id="anchor-20230213131831000"
+						href="#anchor-20230213131831000">2023-02-13T13:18:31.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U04GUPCB1M4> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">worth to take a look on is as well our <https:
+						//github.com/THCLab/oca-html-preview-demo>
+						demo which we show how we leverage OCA + ACDC + KERI to get accurate data</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="undefined" />
-  				<div class="card-text username">undefined</div>
-            	<div class="card-text time"><a id="anchor-20230215214626000" href="#anchor-20230215214626000">2023-02-15T21:46:26.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2023-05-24/5315833935091_b93afcd23af8e5c45914_72.jpg" />
+				<div class="card-text username">kent</div>
+				<div class="card-text time"><a id="anchor-20230213135019000"
+						href="#anchor-20230213135019000">2023-02-13T13:50:19.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">This message was deleted.</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U03EUG009MY> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 2</p></div>
-				
-						<div class="card mt-2 ms-3">
-							<div class="card-header">
-								<img src="https://avatars.slack-edge.com/2021-11-16/2734433804852_be5d6472ea7616a43445_72.jpg" />
-								<div class="card-text username">michal.pietrus</div>
-								<div class="card-text time"><a id="anchor-20230215214626000" href="#anchor-20230215214626000">2023-02-15T21:46:26.000Z</a></div>
-							</div>
-							
-							<div class="card-body">    
-								<div class="card-text msg">you can refer to our GH repo directly in your `cargo.toml`</div>
-								
-							</div>
-						</div>
-						
-						<div class="card mt-2 ms-3">
-							<div class="card-header">
-								<img src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-								<div class="card-text username">robert.mitwicki</div>
-								<div class="card-text time"><a id="anchor-20230215214626000" href="#anchor-20230215214626000">2023-02-15T21:46:26.000Z</a></div>
-							</div>
-							
-							<div class="card-body">    
-								<div class="card-text msg">Crate is planned only for libraries and sdk, keriox as a whole is more application, subcomponets like cesrox teliox, keliox and more would be expose as crates.</div>
-								
-							</div>
-						</div>
-						
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2021-11-16/2734433804852_be5d6472ea7616a43445_72.jpg" />
-  				<div class="card-text username">michal.pietrus</div>
-            	<div class="card-text time"><a id="anchor-20230215221052000" href="#anchor-20230215221052000">2023-02-15T22:10:52.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2023-01-05/4593385265894_ef460d2b69918720b9c8_72.jpg" />
+				<div class="card-text username">pdm</div>
+				<div class="card-text time"><a id="anchor-20230213141322000"
+						href="#anchor-20230213141322000">2023-02-13T14:13:22.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">you can refer to our GH repo directly in your `cargo.toml`</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U04HMQT1XFV> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">robert.mitwicki</div>
-            	<div class="card-text time"><a id="anchor-20230216073418000" href="#anchor-20230216073418000">2023-02-16T07:34:18.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/aa48f6ede2c736698a368e2a4fb5f2bf.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">edyta.pawlak</div>
+				<div class="card-text time"><a id="anchor-20230213141914000"
+						href="#anchor-20230213141914000">2023-02-13T14:19:14.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Crate is planned only for libraries and sdk, keriox as a whole is more application, subcomponets like cesrox teliox, keliox and more would be expose as crates.</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">1. KEL is stored in sled db, you can get it and store it somewhere else or
+					use this db for retrieval.
+					2. It's not.
+					3. If you have sled database with KEL events inside, you can provide a path to this db in <https:
+						//github.com/THCLab/keriox/blob/dd8053cc5541e7c487586f4b5b5fae8c17515fea/components/controller/src/lib.rs#L63|constructor>
+						. If you have KEL in CESR, you can initialize empty controller and then provide events with
+						`process_stream` function.
+
+						For multisig example, take look at <https:
+							//github.com/THCLab/keriox/blob/dd8053cc5541e7c487586f4b5b5fae8c17515fea/keriox_tests/tests/multisig.rs#L20|this
+							test>.</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
-  				<div class="card-text username">robert.mitwicki</div>
-            	<div class="card-text time"><a id="anchor-20230216073541000" href="#anchor-20230216073541000">2023-02-16T07:35:41.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">robert.mitwicki</div>
+				<div class="card-text time"><a id="anchor-20230213165452000"
+						href="#anchor-20230213165452000">2023-02-13T16:54:52.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg">Is not philosophy, pure math ;) check the types of the function ;)</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">you can pull it from DB like this:
+					<https:
+						//github.com/THCLab/keriox/blob/dd8053cc5541e7c487586f4b5b5fae8c17515fea/components/controller/src/test.rs#L28>
+
+						you could parse as well stream and get controller and then connect it with idenfier like this:
+						<https:
+							//github.com/THCLab/keriox/blob/dd8053cc5541e7c487586f4b5b5fae8c17515fea/components/controller/src/test.rs#L59>
+
+							here is an example in DART how those functions are used:
+							<https:
+								//github.com/THCLab/keri-bindings/blob/af89eaf0533225f36c2c85d1535cf6234f6d9d9a/bindings/dart/src/api.rs#L223>
+								<https:
+									//github.com/THCLab/keri-bindings/blob/af89eaf0533225f36c2c85d1535cf6234f6d9d9a/bindings/dart/src/api.rs#L620>
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/f81c703a7917166c3be25dac8facc8aa.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png" />
-  				<div class="card-text username">7moshe7</div>
-            	<div class="card-text time"><a id="anchor-20230224004622000" href="#anchor-20230224004622000">2023-02-24T00:46:22.000Z</a></div>
+				<img
+					src="https://secure.gravatar.com/avatar/d9bfd89db24ef66d138680472c4b526d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png" />
+				<div class="card-text username">steven</div>
+				<div class="card-text time"><a id="anchor-20230213181804000"
+						href="#anchor-20230213181804000">2023-02-13T18:18:04.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U02MD0HA7EJ> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U03KLB48Q2E> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2022-12-30/4576440506357_bbd30d0ea5eaac73ab9c_72.png" />
-  				<div class="card-text username">nuttawut.kongsuwan</div>
-            	<div class="card-text time"><a id="anchor-20230327025111000" href="#anchor-20230327025111000">2023-03-27T02:51:11.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2021-11-16/2734433804852_be5d6472ea7616a43445_72.jpg" />
+				<div class="card-text username">michal.pietrus</div>
+				<div class="card-text time"><a id="anchor-20230213212941000"
+						href="#anchor-20230213212941000">2023-02-13T21:29:41.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U04H17ZEX9R> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">Unlikely. To bump Node related bindings it is sufficient to work with latest
+					changes. PR much appreciated!</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://secure.gravatar.com/avatar/0fdeaee94cdbe9484baf901657af9acf.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png" />
-  				<div class="card-text username">brad</div>
-            	<div class="card-text time"><a id="anchor-20230427201311000" href="#anchor-20230427201311000">2023-04-27T20:13:11.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2023-01-10/4603428700103_0c709df39f789749cfe3_72.jpg" />
+				<div class="card-text username">tung</div>
+				<div class="card-text time"><a id="anchor-20230214054702000"
+						href="#anchor-20230214054702000">2023-02-14T05:47:02.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U0507HA0BR9> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U04GUPCB1M4> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-04-29/5191268328884_0a699eee1c39fb96ad18_72.jpg" />
-  				<div class="card-text username">markus</div>
-            	<div class="card-text time"><a id="anchor-20230429041707000" href="#anchor-20230429041707000">2023-04-29T04:17:07.000Z</a></div>
+				<img src="undefined" />
+				<div class="card-text username">undefined</div>
+				<div class="card-text time"><a id="anchor-20230215214626000"
+						href="#anchor-20230215214626000">2023-02-15T21:46:26.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U055XBX2EAD> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">This message was deleted.</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 2</p>
+				</div>
+
+				<div class="card mt-2 ms-3">
+					<div class="card-header">
+						<img
+							src="https://avatars.slack-edge.com/2021-11-16/2734433804852_be5d6472ea7616a43445_72.jpg" />
+						<div class="card-text username">michal.pietrus</div>
+						<div class="card-text time"><a id="anchor-20230215214626000"
+								href="#anchor-20230215214626000">2023-02-15T21:46:26.000Z</a></div>
+					</div>
+
+					<div class="card-body">
+						<div class="card-text msg">you can refer to our GH repo directly in your `cargo.toml`</div>
+
+					</div>
+				</div>
+
+				<div class="card mt-2 ms-3">
+					<div class="card-header">
+						<img
+							src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+						<div class="card-text username">robert.mitwicki</div>
+						<div class="card-text time"><a id="anchor-20230215214626000"
+								href="#anchor-20230215214626000">2023-02-15T21:46:26.000Z</a></div>
+					</div>
+
+					<div class="card-body">
+						<div class="card-text msg">Crate is planned only for libraries and sdk, keriox as a whole is
+							more application, subcomponets like cesrox teliox, keliox and more would be expose as
+							crates.</div>
+
+					</div>
+				</div>
+
+			</div>
 		</div>
-        
+
 		<div class="card mt-5">
 			<div class="card-header">
-    			<img src="https://avatars.slack-edge.com/2023-08-09/5712241113667_844bb32e2d495886390c_72.jpg" />
-  				<div class="card-text username">amin.benmansour.10</div>
-            	<div class="card-text time"><a id="anchor-20230713155525000" href="#anchor-20230713155525000">2023-07-13T15:55:25.000Z</a></div>
+				<img src="https://avatars.slack-edge.com/2021-11-16/2734433804852_be5d6472ea7616a43445_72.jpg" />
+				<div class="card-text username">michal.pietrus</div>
+				<div class="card-text time"><a id="anchor-20230215221052000"
+						href="#anchor-20230215221052000">2023-02-15T22:10:52.000Z</a></div>
 			</div>
-			
-  			<div class="card-body">    
-            	<div class="card-text msg"><@U05GQD16J1L> has joined the channel</div>
-            	<div class="card-text imgInMessage"></div>
+
+			<div class="card-body">
+				<div class="card-text msg">you can refer to our GH repo directly in your `cargo.toml`</div>
+				<div class="card-text imgInMessage"></div>
 			</div>
 			<div class="card-footer text-body-secondary">
-    			<div><p>Number of replies: 0</p></div>
-				
-  			</div>
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
 		</div>
-        </div></body></html>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">robert.mitwicki</div>
+				<div class="card-text time"><a id="anchor-20230216073418000"
+						href="#anchor-20230216073418000">2023-02-16T07:34:18.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Crate is planned only for libraries and sdk, keriox as a whole is more
+					application, subcomponets like cesrox teliox, keliox and more would be expose as crates.</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/e367ac5a20c9ed0fce71b5969948ccdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png" />
+				<div class="card-text username">robert.mitwicki</div>
+				<div class="card-text time"><a id="anchor-20230216073541000"
+						href="#anchor-20230216073541000">2023-02-16T07:35:41.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">Is not philosophy, pure math ;) check the types of the function ;)</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/f81c703a7917166c3be25dac8facc8aa.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png" />
+				<div class="card-text username">7moshe7</div>
+				<div class="card-text time"><a id="anchor-20230224004622000"
+						href="#anchor-20230224004622000">2023-02-24T00:46:22.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U02MD0HA7EJ> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2022-12-30/4576440506357_bbd30d0ea5eaac73ab9c_72.png" />
+				<div class="card-text username">nuttawut.kongsuwan</div>
+				<div class="card-text time"><a id="anchor-20230327025111000"
+						href="#anchor-20230327025111000">2023-03-27T02:51:11.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U04H17ZEX9R> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img
+					src="https://secure.gravatar.com/avatar/0fdeaee94cdbe9484baf901657af9acf.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png" />
+				<div class="card-text username">brad</div>
+				<div class="card-text time"><a id="anchor-20230427201311000"
+						href="#anchor-20230427201311000">2023-04-27T20:13:11.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U0507HA0BR9> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2023-04-29/5191268328884_0a699eee1c39fb96ad18_72.jpg" />
+				<div class="card-text username">markus</div>
+				<div class="card-text time"><a id="anchor-20230429041707000"
+						href="#anchor-20230429041707000">2023-04-29T04:17:07.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U055XBX2EAD> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card mt-5">
+			<div class="card-header">
+				<img src="https://avatars.slack-edge.com/2023-08-09/5712241113667_844bb32e2d495886390c_72.jpg" />
+				<div class="card-text username">amin.benmansour.10</div>
+				<div class="card-text time"><a id="anchor-20230713155525000"
+						href="#anchor-20230713155525000">2023-07-13T15:55:25.000Z</a></div>
+			</div>
+
+			<div class="card-body">
+				<div class="card-text msg">
+					<@U05GQD16J1L> has joined the channel
+				</div>
+				<div class="card-text imgInMessage"></div>
+			</div>
+			<div class="card-footer text-body-secondary">
+				<div>
+					<p>Number of replies: 0</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
