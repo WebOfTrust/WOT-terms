@@ -1,6 +1,6 @@
 # Broken Links Report
 
-Created: 2024-04-05T13:47:46.479Z
+Created: 2024-04-05T15:03:14.716Z
 
 Total Broken Links Found: 8
 
@@ -42,7 +42,7 @@ Found on Pages:
 
 
 ## Broken Link #5:
-[https://weboftrust.github.io/WOT-terms/docs/glossary/#Finger-pointing](https://weboftrust.github.io/WOT-terms/docs/glossary/#Finger-pointing)
+[https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID](https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID)
 
 Found on Pages:
 
@@ -51,7 +51,7 @@ Found on Pages:
 
 
 ## Broken Link #6:
-[https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID](https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID)
+[https://weboftrust.github.io/WOT-terms/docs/glossary/#Finger-pointing](https://weboftrust.github.io/WOT-terms/docs/glossary/#Finger-pointing)
 
 Found on Pages:
 
@@ -73,14 +73,14 @@ Found on Pages:
 
 Found on Pages:
 
-- [https://weboftrust.github.io/WOT-terms/slack/html/cesr-dev.html](https://weboftrust.github.io/WOT-terms/slack/html/cesr-dev.html)
-- [https://weboftrust.github.io/WOT-terms/slack/html/did-keri-dev.html](https://weboftrust.github.io/WOT-terms/slack/html/did-keri-dev.html)
-- [https://weboftrust.github.io/WOT-terms/slack/html/edu.html](https://weboftrust.github.io/WOT-terms/slack/html/edu.html)
-- [https://weboftrust.github.io/WOT-terms/slack/html/signify.html](https://weboftrust.github.io/WOT-terms/slack/html/signify.html)
-- [https://weboftrust.github.io/WOT-terms/slack/html/did-keri.html](https://weboftrust.github.io/WOT-terms/slack/html/did-keri.html)
-- [https://weboftrust.github.io/WOT-terms/slack/html/keri-rs.html](https://weboftrust.github.io/WOT-terms/slack/html/keri-rs.html)
-- [https://weboftrust.github.io/WOT-terms/slack/html/general.html](https://weboftrust.github.io/WOT-terms/slack/html/general.html)
-- [https://weboftrust.github.io/WOT-terms/slack/html/keripy.html](https://weboftrust.github.io/WOT-terms/slack/html/keripy.html)
 - [https://weboftrust.github.io/WOT-terms/slack/html/signify-dev.html](https://weboftrust.github.io/WOT-terms/slack/html/signify-dev.html)
+- [https://weboftrust.github.io/WOT-terms/slack/html/did-keri-dev.html](https://weboftrust.github.io/WOT-terms/slack/html/did-keri-dev.html)
+- [https://weboftrust.github.io/WOT-terms/slack/html/cesr-dev.html](https://weboftrust.github.io/WOT-terms/slack/html/cesr-dev.html)
+- [https://weboftrust.github.io/WOT-terms/slack/html/edu.html](https://weboftrust.github.io/WOT-terms/slack/html/edu.html)
+- [https://weboftrust.github.io/WOT-terms/slack/html/general.html](https://weboftrust.github.io/WOT-terms/slack/html/general.html)
+- [https://weboftrust.github.io/WOT-terms/slack/html/did-keri.html](https://weboftrust.github.io/WOT-terms/slack/html/did-keri.html)
+- [https://weboftrust.github.io/WOT-terms/slack/html/signify.html](https://weboftrust.github.io/WOT-terms/slack/html/signify.html)
+- [https://weboftrust.github.io/WOT-terms/slack/html/keri-rs.html](https://weboftrust.github.io/WOT-terms/slack/html/keri-rs.html)
+- [https://weboftrust.github.io/WOT-terms/slack/html/keripy.html](https://weboftrust.github.io/WOT-terms/slack/html/keripy.html)
 
 
