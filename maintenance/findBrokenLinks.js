@@ -24,7 +24,7 @@ const baseUrl = 'https://weboftrust.github.io';
 
 const outputDirectory = path.join(__dirname, '../logs');
 const outputFileName = 'brokenLinks.md';
-const excludedSubdirectories = ['/WOT-terms/slack/'];
+// const excludedSubdirectories = ['/WOT-terms/slack/'];
 const githubToken = process.env.GITHUB_ISSUE_AUTH_TOKEN;
 
 /* END CONFIG */
@@ -39,9 +39,6 @@ console.log('Start Link checking...');
 const siteChecker = new SiteChecker({
     excludeExternalLinks: true,
     maxSocketsPerHost: 10
-    ,
-    includedKeywords: ["*gaswinning*"]
-    // excludedKeywords: ["https://dwarshuis.com"]
 }, {
     link: (result) => {
         // Log every URL that is checked
@@ -66,11 +63,6 @@ const siteChecker = new SiteChecker({
                 brokenLinks[href].push(baseObj.href);
             }
             console.log(`Broken link found: ${result.url.resolved} (${result.brokenReason}). Found on page: ${baseObj.href}`);
-
-
-            // console.log(`Broken internal link found: ${urlObj.href}, Found on page: ${baseObj.href}`);
-
-
         }
 
     },
