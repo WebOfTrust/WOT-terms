@@ -16,8 +16,9 @@ const { SiteChecker } = require('broken-link-checker');
 const { URL } = require('url');
 const path = require('path');
 
+/**********/
+/* CONFIG */
 
-// CONFIG
 const siteUrl = 'https://weboftrust.github.io/WOT-terms';
 const baseUrl = 'https://weboftrust.github.io';
 
@@ -25,7 +26,9 @@ const outputDirectory = path.join(__dirname, '../logs');
 const outputFileName = 'brokenLinks.md';
 const excludedSubdirectories = ['/WOT-terms/slack/'];
 const githubToken = process.env.GITHUB_ISSUE_AUTH_TOKEN;
-// END CONFIG
+
+/* END CONFIG */
+/**************/
 
 const outputFilePath = path.join(outputDirectory, outputFileName);
 let brokenLinks = {};
