@@ -12,36 +12,42 @@ const handleSubtitles = () => {
     let paragraphIndex = [];
 
     paragraphs.forEach((p) => {
-      const matchStartTime = /[0-9]:[0-9][0-9]:[0-9][0-9].[0-9][0-9][0-9]/;
-      const matchEndTime = /,[0-9]:[0-9][0-9]:[0-9][0-9].[0-9][0-9][0-9]/;
-      const strStartTime = p.innerText.match(matchStartTime)[0];
-      const strEndTime = p.innerText.match(matchEndTime)[0].slice(1); // slice the separator, a comma
 
-      // start time
-      let arrStartTime = strStartTime.split(':'); // split it at the colons
-      arrStartTime[2] = arrStartTime[2].split('.'); // split at the dot
+      const matchStartTime = p.innerText.match(/[0-9]:[0-9][0-9]:[0-9][0-9].[0-9][0-9][0-9]/);
+      const matchEndTime = p.innerText.match(/,[0-9]:[0-9][0-9]:[0-9][0-9].[0-9][0-9][0-9]/);
 
-      // leave the miliseconds after the dot
-      let secondsStartTime = convert(arrStartTime);
+      if (matchStartTime && matchEndTime) {
+        const strStartTime = matchStartTime[0];
+        const strEndTime = matchEndTime[0].slice(1); // slice the separator, a comma
 
-      // and place them back after the seconds are dealt with
-      secondsStartTime = secondsStartTime + '.' + arrStartTime[2][1];
+        // start time
+        let arrStartTime = strStartTime.split(':'); // split it at the colons
+        arrStartTime[2] = arrStartTime[2].split('.'); // split at the dot
 
-      // end time
-      let arrEndTime = strEndTime.split(':'); // split it at the colons
-      arrEndTime[2] = arrEndTime[2].split('.');
+        // leave the miliseconds after the dot
+        let secondsStartTime = convert(arrStartTime);
 
-      // leave the miliseconds after the dot
-      let secondsEndTime = convert(arrEndTime);
+        // and place them back after the seconds are dealt with
+        secondsStartTime = secondsStartTime + '.' + arrStartTime[2][1];
 
-      // and place them back after the seconds are dealt with
-      secondsEndTime = secondsEndTime + '.' + arrEndTime[2][1];
+        // end time
+        let arrEndTime = strEndTime.split(':'); // split it at the colons
+        arrEndTime[2] = arrEndTime[2].split('.');
 
-      paragraphIndex.push({
-        text: p.innerHTML.slice(24), // remove the timestamps and the trailing space
-        start: secondsStartTime,
-        end: secondsEndTime,
-      });
+        // leave the miliseconds after the dot
+        let secondsEndTime = convert(arrEndTime);
+
+        // and place them back after the seconds are dealt with
+        secondsEndTime = secondsEndTime + '.' + arrEndTime[2][1];
+
+        paragraphIndex.push({
+          text: p.innerHTML.slice(24), // remove the timestamps and the trailing space
+          start: secondsStartTime,
+          end: secondsEndTime,
+        });
+      } else {
+        console.error('No match found in paragraph text');
+      }
     });
 
     document.querySelector('video').addEventListener('timeupdate', (event) => {
