@@ -27,10 +27,10 @@ The same goes for importing external glossaries and importing metadata.
     - runs on workflow_dispatch (manual start)
     - receives changes that are pushed (content updates, e.g. HowTo's, or design updates)
     - builds and copies */build* to gh-pages
-2. **[Import wiki](https://github.com/WebOfTrust/WOT-terms/actions/workflows/import-wiki.yml)**:
-    - runs on workflow_dispatch (manual start)
-    - copies wiki to /docs/glossary
-    - pushes changes into repo
+2. **[Find broken links](https://github.com/WebOfTrust/WOT-terms/actions/workflows/find-broken-links.yml)**:
+    - runs on *cron* and *workflow_dispatch* (manual start)
+    - checks links
+    - creates issue
 3. **[Import external glossaries](https://github.com/WebOfTrust/WOT-terms/actions/workflows/import-external-glossaries.yml)**:
     - runs on *workflow_dispatch* (manual start)
     - updates external glossaries
@@ -39,10 +39,10 @@ The same goes for importing external glossaries and importing metadata.
     - runs on *workflow_dispatch* (manual start)
     - updates meta data from google sheet
     - pushes updates into repo
-5. **[Find broken links](https://github.com/WebOfTrust/WOT-terms/actions/workflows/find-broken-links.yml)**:
-    - runs on *cron* and *workflow_dispatch* (manual start)
-    - checks links
-    - creates issue
+5. **[Import wiki](https://github.com/WebOfTrust/WOT-terms/actions/workflows/import-wiki.yml)**:
+    - runs on workflow_dispatch (manual start)
+    - copies wiki to /docs/glossary
+    - pushes changes into repo
 6. **Scraper**: To Be Created
     - runs on *workflow_dispatch*:
     - scrapes various sources
