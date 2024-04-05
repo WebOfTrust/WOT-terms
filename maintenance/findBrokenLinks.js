@@ -105,35 +105,36 @@ const siteChecker = new SiteChecker({
             } else {
                 console.log(`Broken links and count written to ${outputFilePath}`);
             }
-
-            // console.log('Creating GitHub issue...');
-
-            // // TODO: Create GitHub should not be inside the file write callback
-            // // Create GitHub issue using Octokit
-            // const issueData = {
-            //     title: 'Broken Links Report',
-            //     body: "Created: " + timestamp + "\n\n" + "Number of broken internal links: " + numberOfBrokenLinks + "\n\n" + "<a href='https://github.com/WebOfTrust/WOT-terms/blob/main/logs/brokenLinks.md'>See full list of broken internal links</a>.",
-            // };
-
-            // const octokit = new Octokit({
-            //     auth: githubToken
-            // });
-
-            // octokit.request('POST /repos/WebOfTrust/WOT-terms/issues', {
-            //     owner: 'WebOfTrust',
-            //     repo: 'WOT-terms',
-            //     title: issueData.title,
-            //     body: issueData.body,
-            //     // labels: [
-            //     //     'bug'
-            //     // ],
-            //     headers: {
-            //         'X-GitHub-Api-Version': '2022-11-28'
-            //     }
-            // });
-
-            // console.log('GitHub issue created.');
         });
+
+        console.log('Creating GitHub issue...');
+
+        // TODO: Create GitHub should not be inside the file write callback
+        // Create GitHub issue using Octokit
+        const issueData = {
+            title: 'Broken Links Report',
+            body: "Created: " + timestamp + "\n\n" + "Number of broken internal links: " + numberOfBrokenLinks + "\n\n" + "<a href='https://github.com/WebOfTrust/WOT-terms/blob/main/logs/brokenLinks.md'>See full list of broken internal links</a>.",
+        };
+
+        const octokit = new Octokit({
+            auth: githubToken
+        });
+
+        octokit.request('POST /repos/WebOfTrust/WOT-terms/issues', {
+            owner: 'WebOfTrust',
+            repo: 'WOT-terms',
+            title: issueData.title,
+            body: issueData.body,
+            // labels: [
+            //     'bug'
+            // ],
+            headers: {
+                'X-GitHub-Api-Version': '2022-11-28'
+            }
+        });
+
+        console.log('GitHub issue created.');
+
     }
 });
 
