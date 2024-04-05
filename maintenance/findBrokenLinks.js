@@ -18,14 +18,8 @@ const path = require('path');
 
 
 // CONFIG
-// const siteUrl = 'https://weboftrust.github.io/WOT-terms';
-// const baseUrl = 'https://weboftrust.github.io';
-// const siteUrl = 'https://github.com/WebOfTrust/WOT-terms/wiki';
-// const baseUrl = 'https://github.com/WebOfTrust/WOT-terms/wiki';
-// const siteUrl = "https://allesmetweb.nl/bouwen/";
-// const baseUrl = "https://allesmetweb.nl";
-const siteUrl = "https://dwarshuis.com";
-const baseUrl = "https://dwarshuis.com";
+const siteUrl = 'https://weboftrust.github.io/WOT-terms';
+const baseUrl = 'https://weboftrust.github.io';
 
 const outputDirectory = path.join(__dirname, '../logs');
 const outputFileName = 'brokenLinks.md';
