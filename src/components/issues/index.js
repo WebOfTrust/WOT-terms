@@ -69,11 +69,11 @@ const Issues = ({ repo }) => {
                 {/* Short links with anchors to each issue. */}
                 <div className="masonry-item w-100 d-flex flex-wrap justify-content-center">
                     {issues.map((issue, index) => (
-                        <a className="btn btn-outline-secondary btn-sm mb-1 me-2" key={index} href={`#issue${issue.number}`}>#{issue.number}: {issue.title.substring(0, 30)}…</a>
+                        <a className="btn btn-outline-secondary btn-sm mb-1 me-2" key={index} href={`#issue${issue.number}`}>
+                            #{issue.number}: {issue.title ? issue.title.substring(0, 30) : 'No Title'}…
+                        </a>
                     ))}
-
                 </div>
-
 
                 {/* Issues */}
                 {
@@ -81,22 +81,21 @@ const Issues = ({ repo }) => {
                         <div style={{ width: masonryWidth + 'px' }} className="masonry-item" key={index}>
                             <div className="card m-2">
                                 <div className="card-header">
-                                    <h3 id={`issue${issue.number}`} className="card-title"><a href={issue.html_url} target="_blank" rel="noopener noreferrer">#{issue.number}</a>: {issue.title}</h3>
+                                    <h3 id={`issue${issue.number}`} className="card-title">
+                                        <a href={issue.html_url} target="_blank" rel="noopener noreferrer">
+                                            #{issue.number}
+                                        </a>: {issue.title}
+                                    </h3>
                                     <span className="float-end">Created: {issue.created_at}</span>
                                     <span className="float-end">Updated: {issue.updated_at}</span>
-
                                 </div>
-                                <div className="card-body" dangerouslySetInnerHTML={{ __html: issue.body.substring(0, 300) + '…' }}>
-
+                                <div className="card-body" dangerouslySetInnerHTML={{ __html: issue.body ? issue.body.substring(0, 300) + '…' : 'No content.' }}>
                                 </div>
-                                {/* <div className="card-footer">
-                            <span className="float-end">Created: {issue.created_at}</span>
-                            <span className="float-end">Updated: {issue.updated_at}</span>
-                        </div> */}
                             </div>
                         </div>
                     ))
                 }
+
             </div>
         </div >
     );
