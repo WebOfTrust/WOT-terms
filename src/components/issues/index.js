@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Masonry from 'masonry-layout';
 // import marked from 'marked'; // does not work
-import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js"; // https://www.npmjs.com/package/marked
+import { marked } from 'marked';
 import DOMPurify from 'dompurify';
 
 const Issues = ({ repo }) => {
