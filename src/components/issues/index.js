@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Masonry from 'masonry-layout';
-// import marked from 'marked'; // does not work
 import { marked } from 'marked';
 import DOMPurify from 'dompurify';
 
