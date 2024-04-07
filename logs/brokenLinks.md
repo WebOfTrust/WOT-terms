@@ -1,8 +1,8 @@
 # Broken Links Report
 
-Created: 2024-04-05T15:03:14.716Z
+Created: 2024-04-05T15:31:50.269Z
 
-Total Broken Links Found: 8
+Total Broken Links Found: 7
 
 ## Broken Link #1:
 [https://weboftrust.github.io/framework/docs/essifLab-principles](https://weboftrust.github.io/framework/docs/essifLab-principles)
@@ -66,21 +66,5 @@ Found on Pages:
 
 - [https://weboftrust.github.io/WOT-terms/docs/dictionary](https://weboftrust.github.io/WOT-terms/docs/dictionary)
 - [https://weboftrust.github.io/WOT-terms/docs/dictionary?level=2](https://weboftrust.github.io/WOT-terms/docs/dictionary?level=2)
-
-
-## Broken Link #8:
-[https://weboftrust.github.io/undefined](https://weboftrust.github.io/undefined)
-
-Found on Pages:
-
-- [https://weboftrust.github.io/WOT-terms/slack/html/signify-dev.html](https://weboftrust.github.io/WOT-terms/slack/html/signify-dev.html)
-- [https://weboftrust.github.io/WOT-terms/slack/html/did-keri-dev.html](https://weboftrust.github.io/WOT-terms/slack/html/did-keri-dev.html)
-- [https://weboftrust.github.io/WOT-terms/slack/html/cesr-dev.html](https://weboftrust.github.io/WOT-terms/slack/html/cesr-dev.html)
-- [https://weboftrust.github.io/WOT-terms/slack/html/edu.html](https://weboftrust.github.io/WOT-terms/slack/html/edu.html)
-- [https://weboftrust.github.io/WOT-terms/slack/html/general.html](https://weboftrust.github.io/WOT-terms/slack/html/general.html)
-- [https://weboftrust.github.io/WOT-terms/slack/html/did-keri.html](https://weboftrust.github.io/WOT-terms/slack/html/did-keri.html)
-- [https://weboftrust.github.io/WOT-terms/slack/html/signify.html](https://weboftrust.github.io/WOT-terms/slack/html/signify.html)
-- [https://weboftrust.github.io/WOT-terms/slack/html/keri-rs.html](https://weboftrust.github.io/WOT-terms/slack/html/keri-rs.html)
-- [https://weboftrust.github.io/WOT-terms/slack/html/keripy.html](https://weboftrust.github.io/WOT-terms/slack/html/keripy.html)
 
 
