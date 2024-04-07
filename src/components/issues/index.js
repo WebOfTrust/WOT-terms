@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
+import BrowserOnly from '@docusaurus/BrowserOnly';
+
 import Masonry from 'masonry-layout';
 import { marked } from 'marked';
 import DOMPurify from 'dompurify';
@@ -100,4 +102,8 @@ const Issues = ({ repo }) => {
     );
 };
 
-export default Issues;
+export default (props) => (
+    <BrowserOnly fallback={<div>Loading...</div>}>
+        {() => <Issues {...props} />}
+    </BrowserOnly>
+);
