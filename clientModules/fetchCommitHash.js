@@ -7,6 +7,17 @@
 */
 
 const fetchCommitHash = () => {
+  // Where are we in the glossary?
+  const urlIsGlossary = baseUrl + 'docs/glossary/'
+  // And, are we in the glossary? Test if urlIsGlossary is in window.location.pathname
+  const urlIsGlossaryInPathname = window.location.pathname.includes(urlIsGlossary);
+
+  // if we are not in the glossary, return
+  if (!urlIsGlossaryInPathname) {
+    return;
+  }
+
+
   const owner = 'WebOfTrust';
   const repo = 'WOT-terms';
   const pathName = window.location.pathname;
