@@ -6,6 +6,10 @@
 
 */
 
+const paths = require('../docusaurus.paths.js');
+const baseUrl = paths.baseUrl;
+
+
 const fetchCommitHash = () => {
   // Where are we in the glossary?
   const urlIsGlossary = baseUrl + 'docs/glossary/'
