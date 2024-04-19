@@ -43,14 +43,8 @@ const createLinkToWikiPage = () => {
     // set rel attribute
     linkToWiki.setAttribute('rel', 'noopener noreferrer');
 
-    // create a paragraph element
-    const paragraphElement = document.createElement('p');
-
-    // append the link to the paragraph
-    paragraphElement.appendChild(linkToWiki);
-
-    // add the paragraph to the page at the end of the page
-    document.querySelector('.markdown').appendChild(paragraphElement);
+    // add the link to the Wiki page at the end of the page
+    document.querySelector('.markdown').appendChild(linkToWiki);
 };
 
 // function to call when the route changes
