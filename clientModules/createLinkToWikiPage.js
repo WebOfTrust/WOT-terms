@@ -2,7 +2,7 @@ const paths = require('../docusaurus.paths.js');
 const baseUrl = paths.baseUrl;
 
 const createLinkToWikiPage = () => {
-    // When are we in the glossary?
+    // Where are we in the glossary?
     const urlIsGlossary = baseUrl + 'docs/glossary/'
     // And, are we in the glossary? Test if urlIsGlossary is in window.location.pathname
     const urlIsGlossaryInPathname = window.location.pathname.includes(urlIsGlossary);
