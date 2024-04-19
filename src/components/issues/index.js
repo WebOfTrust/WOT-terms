@@ -1,18 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
-import Masonry from 'masonry-layout';
 import { marked } from 'marked';
 import DOMPurify from 'dompurify';
 
 const Issues = ({ repo }) => {
     const [issues, setIssues] = useState([]);
-    const [isHtmlCreationComplete, setHtmlCreationComplete] = useState(false);
-    const [masonryWidth, setMasonryWidth] = useState(0); // [0, setMasonryWidth]
-
-    const masonryRef = useRef(null);
-
-
 
     // Fetch issues
     useEffect(() => {
@@ -34,41 +27,16 @@ const Issues = ({ repo }) => {
             };
 
             processIssues();
-            setHtmlCreationComplete(true);
         }
     }, [issues]); // Dependency on issues ensures this runs if issues change
 
-    // Initialize or update Masonry
-    useEffect(() => {
-        if (!isHtmlCreationComplete) {
-            return;
-        }
-        if (issues.length > 0 && typeof window !== 'undefined') { // Check if issues are fetched and window is defined
-
-            // find width of container
-            const issueContainerWidth = document.querySelector('.issue-container').offsetWidth;
-
-            setMasonryWidth(Math.floor(issueContainerWidth > 600 ? issueContainerWidth / 2 - 1 : issueContainerWidth));
-
-            const masonry = new Masonry(masonryRef.current, {
-                itemSelector: '.masonry-item',
-                columnWidth: masonryWidth,
-            });
-
-            return () => {
-                masonry.destroy(); // Clean up Masonry instance on component unmount
-            };
-        }
-    }, [issues, isHtmlCreationComplete, masonryWidth]); // Dependency on issues ensures Masonry is updated when issues change
-
-
     return (
         <div className="mx-auto issue-container">
-            <div ref={masonryRef}>
-                <h2 className="masonry-item w-100">{repo}</h2>
+            <div>
+                <h2 className="w-100">{repo}</h2>
 
                 {/* Short links with anchors to each issue. */}
-                <div className="masonry-item w-100 d-flex flex-wrap justify-content-center">
+                <div className="w-100 d-flex flex-wrap justify-content-center">
                     {issues.map((issue, index) => (
                         <a className="btn btn-outline-secondary btn-sm mb-1 me-2" key={index} href={`#issue${issue.number}`}>
                             #{issue.number}: {issue.title ? issue.title.substring(0, 30) : 'No Title'}…
@@ -79,8 +47,8 @@ const Issues = ({ repo }) => {
                 {/* Issues */}
                 {
                     issues.map((issue, index) => (
-                        <div style={{ width: masonryWidth + 'px' }} className="masonry-item" key={index}>
-                            <div className="card m-2">
+                        <div key={index}>
+                            <div className="card m-2 mb-5">
                                 <div className="card-header">
                                     <h3 id={`issue${issue.number}`} className="card-title">
                                         <a href={issue.html_url} target="_blank" rel="noopener noreferrer">
