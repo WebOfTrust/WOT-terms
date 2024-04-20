@@ -9,6 +9,12 @@
 const paths = require('../docusaurus.paths.js');
 const baseUrl = paths.baseUrl;
 
+const textStrings = {
+  fetchCommitHash: 'Show commit info',
+  loading: 'Loading...',
+  noCommitHash: 'No commit info found',
+};
+
 
 const fetchCommitHash = () => {
   // Where are we in the glossary?
@@ -20,7 +26,6 @@ const fetchCommitHash = () => {
   if (!urlIsGlossaryInPathname) {
     return;
   }
-
 
   const owner = 'WebOfTrust';
   const repo = 'WOT-terms';
@@ -36,7 +41,7 @@ const fetchCommitHash = () => {
   console.log('url: ', url);
 
   const buttonElement = document.createElement('button');
-  buttonElement.innerText = "Show commit hash";
+  buttonElement.innerText = textStrings.fetchCommitHash;
   buttonElement.classList.add('btn', 'btn-outline-secondary', 'mt-5', 'ms-2');
 
   // add the paragraph to the page at the end of the page
@@ -45,6 +50,7 @@ const fetchCommitHash = () => {
 
   // Function to fetch the latest commit hash of the file
   async function fetchLatestCommitHash() {
+    buttonElement.innerText = textStrings.loading;
     try {
       // Fetch the list of commits for the specified file
       const response = await fetch(url, {
@@ -56,8 +62,8 @@ const fetchCommitHash = () => {
       // Check for rate limit before proceeding
       if (response.status === 403 && response.headers.get('X-RateLimit-Remaining') === '0') {
         const resetTime = new Date(response.headers.get('X-RateLimit-Reset') * 1000);
-        console.error(`Rate limit exceeded. Try again after ${resetTime}`);
-        alert(`Rate limit exceeded. Try again after ${resetTime}`);
+        console.error(`Github API rate limit exceeded. Try again after ${resetTime}`);
+        alert(`Github API rate limit exceeded. Try again after ${resetTime}`);
         return;
       }
 
@@ -72,8 +78,8 @@ const fetchCommitHash = () => {
 
       // Check if there are any commits
       if (data.length === 0) {
-        console.log('No commits found for this file.');
-        alert('No commits found for this file.');
+        console.log(textStrings.noCommitHash);
+        buttonElement.innerText = textStrings.noCommitHash;
         return;
       }
 
@@ -111,6 +117,8 @@ const fetchCommitHash = () => {
         // Add each new div element after the buttonElement
         buttonElement.parentNode.insertBefore(divElement, buttonElement.nextSibling);
       });
+
+      buttonElement.innerText = textStrings.fetchCommitHash;
 
       return commits.map(commit => commit.sha);
     } catch (error) {
