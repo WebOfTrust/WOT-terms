@@ -15,19 +15,18 @@ const Issues = ({ repo }) => {
             .catch(error => console.error('Error fetching issues:', error));
     }, [repo]); // Dependency on repo ensures this runs if repo changes
 
-    // Make html from markdown, via marked and DOMPurify
     useEffect(() => {
         if (issues.length > 0 && typeof window !== 'undefined') { // Check if issues are fetched and window is defined
-            const processIssues = () => {
-                issues.forEach(issue => {
-                    issue.body = issue.body ? DOMPurify.sanitize(marked(issue.body)) : '';
-                    issue.created_at = new Date(issue.created_at).toLocaleString();
-                    issue.updated_at = new Date(issue.updated_at).toLocaleString();
-                    issue.state === 'open' ? issue.stateIndicator = 'text-warning-emphasis bg-warning-subtle' : issue.stateIndicator = 'text-light-emphasis bg-light-subtle';
-                });
-            };
+            const processedIssues = issues.map(issue => {
+                const newIssue = { ...issue };
+                newIssue.body = newIssue.body ? DOMPurify.sanitize(marked(newIssue.body)) : '';
+                newIssue.created_at = new Date(newIssue.created_at).toLocaleString();
+                newIssue.updated_at = new Date(newIssue.updated_at).toLocaleString();
+                newIssue.stateIndicator = newIssue.state === 'open' ? 'text-warning-emphasis bg-warning-subtle' : 'text-light-emphasis bg-light-subtle';
+                return newIssue;
+            });
 
-            processIssues();
+            setIssues(processedIssues);
         }
     }, [issues]); // Dependency on issues ensures this runs if issues change
 
