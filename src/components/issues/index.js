@@ -9,7 +9,7 @@ const Issues = ({ repo }) => {
 
     // Fetch issues
     useEffect(() => {
-        fetch(`https://api.github.com/repos/${repo}/issues`)
+        fetch(`https://api.github.com/repos/${repo}/issues?state=all&per_page=100&page=1`)
             .then(response => response.json())
             .then(data => setIssues(data))
             .catch(error => console.error('Error fetching issues:', error));
@@ -23,6 +23,7 @@ const Issues = ({ repo }) => {
                     issue.body = issue.body ? DOMPurify.sanitize(marked(issue.body)) : '';
                     issue.created_at = new Date(issue.created_at).toLocaleString();
                     issue.updated_at = new Date(issue.updated_at).toLocaleString();
+                    issue.state === 'open' ? issue.stateIndicator = 'text-warning-emphasis bg-warning-subtle' : issue.stateIndicator = 'text-light-emphasis bg-light-subtle';
                 });
             };
 
@@ -38,7 +39,7 @@ const Issues = ({ repo }) => {
                 {/* Short links with anchors to each issue. */}
                 <div className="w-100 d-flex flex-wrap justify-content-center">
                     {issues.map((issue, index) => (
-                        <a className="btn btn-outline-secondary btn-sm mb-1 me-2" key={index} href={`#issue${issue.number}`}>
+                        <a className={`btn btn-outline-secondary btn-sm mb-1 me-2 ${issue.stateIndicator}`} key={index} href={`#issue${issue.number}`}>
                             #{issue.number}: {issue.title ? issue.title.substring(0, 30) : 'No Title'}…
                         </a>
                     ))}
@@ -48,15 +49,17 @@ const Issues = ({ repo }) => {
                 {
                     issues.map((issue, index) => (
                         <div key={index}>
-                            <div className="card m-2 mb-5">
+                            <div className={`card m-2 mb-5 ${issue.stateIndicator}`}>
                                 <div className="card-header">
                                     <h3 id={`issue${issue.number}`} className="card-title">
                                         <a href={issue.html_url} target="_blank" rel="noopener noreferrer">
                                             #{issue.number}
                                         </a>: {issue.title}
                                     </h3>
-                                    <span className="float-end">Created: {issue.created_at}</span>
-                                    <span className="float-end">Updated: {issue.updated_at}</span>
+                                    <span>State: {issue.state}</span> –
+                                    <span>Created: {issue.created_at}</span> –
+                                    <span>Updated: {issue.updated_at}</span>
+
                                 </div>
                                 <div className="card-body" dangerouslySetInnerHTML={{ __html: issue.body ? issue.body.substring(0, 300) + '…' : 'No content.' }}>
                                 </div>
