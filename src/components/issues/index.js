@@ -9,24 +9,35 @@ const Issues = ({ repo }) => {
 
     // Fetch issues
     useEffect(() => {
-        fetch(`https://api.github.com/repos/${repo}/issues?state=all&per_page=100&page=1`)
+        fetch(`https://api.github.com/repos/${repo}/issues?state=all&per_page=30&page=1`)
             .then(response => response.json())
-            .then(data => setIssues(data))
+            .then(data => {
+                setIssues(data.map(issue => ({
+                    ...issue,
+                    stateIndicator: getStateIndicator(issue.state)
+                })))
+            })
             .catch(error => console.error('Error fetching issues:', error));
-    }, [repo]); // Dependency on repo ensures this runs if repo changes
 
+    }, [repo]);
+
+    function getStateIndicator(state) {
+        return state === 'open' ? 'text-warning-emphasis bg-warning-subtle' : 'text-light-emphasis bg-light-subtle';
+    }
+
+    // Make html from markdown, via marked and DOMPurify
+    //TODO: use useState
     useEffect(() => {
         if (issues.length > 0 && typeof window !== 'undefined') { // Check if issues are fetched and window is defined
-            const processedIssues = issues.map(issue => {
-                const newIssue = { ...issue };
-                newIssue.body = newIssue.body ? DOMPurify.sanitize(marked(newIssue.body)) : '';
-                newIssue.created_at = new Date(newIssue.created_at).toLocaleString();
-                newIssue.updated_at = new Date(newIssue.updated_at).toLocaleString();
-                newIssue.stateIndicator = newIssue.state === 'open' ? 'text-warning-emphasis bg-warning-subtle' : 'text-light-emphasis bg-light-subtle';
-                return newIssue;
-            });
+            const processIssues = () => {
+                issues.forEach(issue => {
+                    issue.body = issue.body ? DOMPurify.sanitize(marked(issue.body)) : '';
+                    issue.created_at = new Date(issue.created_at).toLocaleString();
+                    issue.updated_at = new Date(issue.updated_at).toLocaleString();
+                });
+            };
 
-            setIssues(processedIssues);
+            processIssues();
         }
     }, [issues]); // Dependency on issues ensures this runs if issues change
 
@@ -38,9 +49,11 @@ const Issues = ({ repo }) => {
                 {/* Short links with anchors to each issue. */}
                 <div className="w-100 d-flex flex-wrap justify-content-center">
                     {issues.map((issue, index) => (
-                        <a className={`generated-index-links btn btn-outline-secondary btn-sm mb-1 me-2 ${issue.stateIndicator}`} key={index} href={`#issue${issue.number}`}>
-                            #{issue.number}: {issue.title ? issue.title.substring(0, 30) : 'No Title'}…
-                        </a>
+                        <div className='generated-index-links m-0 p-1'>
+                            <a className={`w-100 btn btn-outline-secondary btn-sm mb-1 ${issue.stateIndicator}`} key={index} href={`#issue${issue.number}`}>
+                                #{issue.number}: {issue.title ? issue.title.substring(0, 25) : 'No Title'}…
+                            </a>
+                        </div>
                     ))}
                 </div>
 
