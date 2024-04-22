@@ -6,9 +6,10 @@
  * work well for content-centric websites.
  */
 
- html {
+html {
   /* avoid anchors disappear under fixed top menu */
-  scroll-padding-top: 80px;  /* height of your fixed header */
+  scroll-padding-top: 80px;
+  /* height of your fixed header */
 }
 
 
@@ -42,7 +43,7 @@
   Hide the theme selector since the dark theme is not ready yet
   The "\" escapes the "@"
 */
-.colorModeToggle_node_modules-\@docusaurus-theme-classic-lib-theme-Navbar-Content-styles-module  {
+.colorModeToggle_node_modules-\@docusaurus-theme-classic-lib-theme-Navbar-Content-styles-module {
   display: none;
 }
 
@@ -50,10 +51,11 @@
 
 /* Needed since introducion of Bootstrap */
 .navbar--fixed-top {
-    position: sticky;
-    top: 0;
-    z-index: var(--ifm-z-index-fixed);
+  position: sticky;
+  top: 0;
+  z-index: var(--ifm-z-index-fixed);
 }
+
 /* End */
 
 
@@ -156,9 +158,11 @@
 video {
   width: 100%;
 }
+
 video[poster] {
   object-fit: cover;
 }
+
 .video-inline {
   background: #eef9fd;
   border: 3px solid #b2beea;
@@ -191,8 +195,7 @@ video[poster] {
 */
 
 article a[href^="http"]::after,
-article a[href^="https://"]::after
-{
+article a[href^="https://"]::after {
   content: '';
   width: 18px;
   height: 18px;
@@ -230,6 +233,7 @@ table th {
   caret-color: rgb(204, 6, 6);
   transition: all 0.5s ease-in-out;
 }
+
 .googlesheet td.editable:focus {
   outline: 5px dashed rgb(66, 64, 64);
   transition: all 0.5s ease-in-out;
@@ -291,10 +295,12 @@ table td:nth-child(8) {
   background: rgb(155, 204, 242);
   border-radius: 50%;
   font-size: 1.2em;
-  padding: 0.1em 0.25em 0.15em;  /* Adjust vertical and horizontal padding separately */
-  
+  padding: 0.1em 0.25em 0.15em;
+  /* Adjust vertical and horizontal padding separately */
+
   margin-left: 0.3em;
-  line-height: 0.8;  /* Keep this to control the height */
+  line-height: 0.8;
+  /* Keep this to control the height */
   border: none !important;
   vertical-align: middle;
   cursor: pointer;
@@ -308,7 +314,8 @@ table td:nth-child(8) {
 
 
 [aria-describedby='tippy-1'].definition-button {
-  transform: rotate(45deg); /* CSS styles */
+  transform: rotate(45deg);
+  /* CSS styles */
 }
 
 /**
@@ -392,6 +399,7 @@ table td:nth-child(8) {
 .invisible {
   visibility: hidden;
 }
+
 /**
   * END HTML5 Boilerplate
   */
@@ -420,7 +428,8 @@ table td:nth-child(8) {
   z-index: 1040;
   width: 100vw;
   height: 100vh;
-  backdrop-filter: blur(2px); /* Optional: Adds a blur effect to the backdrop */
+  backdrop-filter: blur(2px);
+  /* Optional: Adds a blur effect to the backdrop */
   background-color: var(--docusaurus-instantsearch-modal-bg);
   overflow: scroll;
 }
@@ -459,23 +468,24 @@ table td:nth-child(8) {
 }
 
 #search pre {
-    overflow-x: scroll;
+  overflow-x: scroll;
 }
 
 /* This forces the scrollbar to always be visible in WebKit browsers */
 #search pre::-webkit-scrollbar {
-    -webkit-appearance: none;
-    width: 11px;
+  -webkit-appearance: none;
+  width: 11px;
 }
 
 #search pre::-webkit-scrollbar-thumb {
-    border-radius: 8px;
-    border: 2px solid white; /* should match the background of the container */
-    background-color: rgba(0, 0, 0, .5);
+  border-radius: 8px;
+  border: 2px solid white;
+  /* should match the background of the container */
+  background-color: rgba(0, 0, 0, .5);
 }
 
 #search pre::-webkit-scrollbar-track {
-    background-color: #e5e5e5;
+  background-color: #e5e5e5;
 }
 
 
@@ -508,7 +518,7 @@ table td:nth-child(8) {
   font-size: 1.5em;
 
   /* Style copied from the card properties, via web inspector */
-  border-color: rgba(var(--bs-secondary-rgb),var(--bs-border-opacity))!important;
+  border-color: rgba(var(--bs-secondary-rgb), var(--bs-border-opacity)) !important;
   max-width: 100%;
 }
 
@@ -517,16 +527,19 @@ table td:nth-child(8) {
 }
 
 #clear-refinements .ais-ClearRefinements-button {
-  margin: 0 !important; /* To override the classes that are assigned to typesense buttons, defined in typesenseInstantSearch.js */
+  margin: 0 !important;
+  /* To override the classes that are assigned to typesense buttons, defined in typesenseInstantSearch.js */
 }
 
 #current-refinements-list {
   font-size: 0.7em !important;
 }
+
 #current-refinements-list .ais-CurrentRefinements-label,
 #current-refinements-list .ais-CurrentRefinements-category {
   display: block;
 }
+
 #current-refinements-list .ais-CurrentRefinements-label {
   font-weight: bold;
   margin-top: 1em;
@@ -544,10 +557,11 @@ table td:nth-child(8) {
 
   font-size: 1.2em;
 }
+
 .ais-Pagination-list li a {
   text-decoration: none;
   padding: 0.5em;
-} 
+}
 
 .ais-Hits--empty {
   background: transparent url('/img/travolta.gif') center center no-repeat;
@@ -604,6 +618,7 @@ table td:nth-child(8) {
 .ais-RefinementList-item {
   margin-left: 2.8em;
 }
+
 .ais-RefinementList-item div {
   text-indent: -1.3em;
 }
@@ -628,16 +643,18 @@ table td:nth-child(8) {
 .card-header.gleif {
   background-image: url("/img/logo-gleif.svg");
 }
+
 .card-header.essif-lab {
   background-image: url("/img/logo-essif-lab.png");
 }
+
 .card-header.kerisse {
   background-image: url("/img/stamp.png");
 }
+
 .card-header.gleif,
 .card-header.essif-lab,
-.card-header.kerisse
-{
+.card-header.kerisse {
   background-position: right bottom;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -659,21 +676,22 @@ table td:nth-child(8) {
 
 #search mark {
   position: relative;
-border: 3px solid #337dbe8c;
+  border: 3px solid #337dbe8c;
 }
 
 /* Underlining search hits */
 #search mark::after {
   content: "";
   display: block;
-  height: 0.8em;  /* Adjust the height */
+  height: 0.8em;
+  /* Adjust the height */
   width: 100%;
   position: absolute;
   bottom: -0.3em;
   left: 0;
   background-size: cover;
   background-repeat: repeat-x;
-  
+
   /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 20'%3E%3Cpath d='M0,10 Q20,9 40,11 T80,10 120,11 160,10 200,12 240,10 280,11 300,10' stroke='%23266fff' stroke-opacity='0.7' stroke-width='6' stroke-linecap='round' fill='none'/%3E%3C/svg%3E"); */
 }
 
@@ -792,31 +810,23 @@ https://css-tricks.com/books/greatest-css-tricks/scroll-shadows/
 
   background:
     /* Shadow Cover TOP */
-    linear-gradient(
-      white 30%,
-      rgba(255, 255, 255, 0)
-    ) center top,
-    
+    linear-gradient(white 30%,
+      rgba(255, 255, 255, 0)) center top,
+
     /* Shadow Cover BOTTOM */
-    linear-gradient(
-      rgba(255, 255, 255, 0), 
-      white 70%
-    ) center bottom,
-    
+    linear-gradient(rgba(255, 255, 255, 0),
+      white 70%) center bottom,
+
     /* Shadow TOP */
-    radial-gradient(
-      farthest-side at 50% 0,
+    radial-gradient(farthest-side at 50% 0,
       rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0)
-    ) center top,
-    
+      rgba(0, 0, 0, 0)) center top,
+
     /* Shadow BOTTOM */
-    radial-gradient(
-      farthest-side at 50% 100%,
+    radial-gradient(farthest-side at 50% 100%,
       rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0)
-    ) center bottom;
-  
+      rgba(0, 0, 0, 0)) center bottom;
+
   background-repeat: no-repeat;
   background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
   background-attachment: local, local, scroll, scroll;
@@ -828,32 +838,32 @@ https://css-tricks.com/books/greatest-css-tricks/scroll-shadows/
 */
 
 #glossary_content dt {
-    margin-top: 1.4em;
-    font-size: 125%;
-    font-family: Verdana, sans-serif;
+  margin-top: 1.4em;
+  font-size: 125%;
+  font-family: Verdana, sans-serif;
 }
 
 #glossary_content dt,
 #glossary_content dt a {
-    color: #a3c74e;
+  color: #a3c74e;
 }
 
 #glossary_content dt.letter {
-    text-align: center;
-    font-weight: bold;
-    color: #999;
-    border-bottom: solid 1px #ddd;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 2.2em;
-    color: #666;
+  text-align: center;
+  font-weight: bold;
+  color: #999;
+  border-bottom: solid 1px #ddd;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2.2em;
+  color: #666;
 }
 
 #glossary_content dd {
-    margin-left: 2em;
+  margin-left: 2em;
 }
 
-#glossary_content dt > span.tag {
+#glossary_content dt>span.tag {
   float: right;
   background-color: #eee;
   border: 1px solid #ccc;
@@ -869,55 +879,56 @@ https://css-tricks.com/books/greatest-css-tricks/scroll-shadows/
 }
 
 #glossary_content a {
-    color: #3061a8;
-    text-decoration: none;
+  color: #3061a8;
+  text-decoration: none;
 }
 
 #glossary_content a:hover {
-    border-bottom: solid 1px #3061a8;
+  border-bottom: solid 1px #3061a8;
 }
 
 #glossary_content a:active {
-    background-color: #eee;
+  background-color: #eee;
 }
 
 #glossary_content a:visited {
-    color: #6161a8;
+  color: #6161a8;
 }
 
 #glossary_content p.meta {
-    font-size: 80%;
-    color: #bbb;
-    text-align: right;
-    margin-top: -0.9em;
+  font-size: 80%;
+  color: #bbb;
+  text-align: right;
+  margin-top: -0.9em;
 }
 
 #glossary_content ._slf {
-    float: left;
-    padding-right: 4px;
-    padding-top: 4px;
-    margin-left: -20px;
-    cursor: pointer;
-    width:16px;
-    height:16px;
-    display: none;
+  float: left;
+  padding-right: 4px;
+  padding-top: 4px;
+  margin-left: -20px;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  display: none;
 }
 
-#glossary_content dt:not(.letter):hover > ._slf {
-    display: inline;
+#glossary_content dt:not(.letter):hover>._slf {
+  display: inline;
 }
 
 #glossary_content ._xl {
-    padding-right: 4px;
-    display: none;
-    cursor: pointer;
-    width:16px;
-    height:16px;
+  padding-right: 4px;
+  display: none;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
 }
 
-#glossary_content dt:not(.letter):hover > ._xl {
+#glossary_content dt:not(.letter):hover>._xl {
   display: inline;
 }
+
 /* 
   END ToIP Glossary
 */
@@ -975,6 +986,7 @@ path[marker-end] {
   /* animation: drawSvgArrows 3.5s linear forwards; */
   animation: drawSvgArrows 3.5s linear infinite;
 }
+
 /*
   END SVG
 */
@@ -992,12 +1004,12 @@ article .markdown img,
 
   /* Since images often contain text, it is important to show where the image ends */
   box-shadow:
-  0px 0px 3.9px rgba(0, 0, 0, 0.039),
-  0px 0px 9.4px rgba(0, 0, 0, 0.057),
-  0px 0px 17.8px rgba(0, 0, 0, 0.07),
-  0px 0px 31.7px rgba(0, 0, 0, 0.083),
-  0px 0px 59.3px rgba(0, 0, 0, 0.101),
-  0px 0px 142px rgba(0, 0, 0, 0.14);
+    0px 0px 3.9px rgba(0, 0, 0, 0.039),
+    0px 0px 9.4px rgba(0, 0, 0, 0.057),
+    0px 0px 17.8px rgba(0, 0, 0, 0.07),
+    0px 0px 31.7px rgba(0, 0, 0, 0.083),
+    0px 0px 59.3px rgba(0, 0, 0, 0.101),
+    0px 0px 142px rgba(0, 0, 0, 0.14);
   margin-bottom: 2em;
 }
 
@@ -1018,7 +1030,8 @@ article .markdown .inline-medium-end,
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
+
   article .markdown .inline-thumb-start,
   #hits img.inline-thumb-start {
     float: left;
@@ -1026,6 +1039,7 @@ article .markdown .inline-medium-end,
     max-width: 15%;
     margin: 0 1em 1em 0;
   }
+
   article .markdown .inline-thumb-end,
   #hits img.inline-thumb-end {
     float: right;
@@ -1033,6 +1047,7 @@ article .markdown .inline-medium-end,
     max-width: 15%;
     margin: 0 0 1em 1em;
   }
+
   article .markdown .inline-small-start,
   #hits img.inline-small-start {
     float: left;
@@ -1040,6 +1055,7 @@ article .markdown .inline-medium-end,
     max-width: 25%;
     margin: 0 1em 1em 0;
   }
+
   article .markdown .inline-small-end,
   #hits img.inline-small-end {
     float: right;
@@ -1047,6 +1063,7 @@ article .markdown .inline-medium-end,
     max-width: 25%;
     margin: 0 0 1em 1em;
   }
+
   article .markdown .inline-medium-start,
   #hits img.inline-medium-start {
     float: left;
@@ -1054,6 +1071,7 @@ article .markdown .inline-medium-end,
     max-width: 50%;
     margin: 0 1em 1em 0;
   }
+
   article .markdown .inline-medium-end,
   #hits img.inline-medium-end {
     float: right;
@@ -1085,13 +1103,16 @@ article .markdown .inline-medium-end,
 }
 
 .image-container-full-page::after {
-  content: '×';  /* Unicode character for multiplication sign, resembles a cross */
+  content: '×';
+  /* Unicode character for multiplication sign, resembles a cross */
   position: absolute;
   top: 10px;
   right: 10px;
   font-size: 48px;
-  cursor: pointer; /* Makes it obvious the element is clickable */
+  cursor: pointer;
+  /* Makes it obvious the element is clickable */
 }
+
 /* End full page images */
 
 /* 
@@ -1104,6 +1125,7 @@ article .markdown .inline-medium-end,
 .ais-SearchBox-loadingIndicator {
   display: none;
 }
+
 /* 
   End Various
 */
@@ -1127,6 +1149,7 @@ article .markdown .inline-medium-end,
   padding: 10px 5px !important;
   text-decoration: none !important;
 }
+
 /* 
   End Horizontal scrollable navbar in search results
 */
@@ -1143,6 +1166,7 @@ article .markdown .inline-medium-end,
   color: #aaa;
   pointer-events: none;
 }
+
 /* 
   End Glossary Menu
 */
@@ -1156,6 +1180,7 @@ article .markdown .inline-medium-end,
   font-size: 1.2em;
   font-family: Verdana, sans-serif;
 }
+
 /* 
   End all Glossareis Combined
 */
@@ -1163,19 +1188,22 @@ article .markdown .inline-medium-end,
 
 
 @keyframes outlineAnimation {
-    0% {
-        outline: 2px solid transparent;
-    }
-    50% {
-        outline: 2px solid blue; /* Change color as needed */
-    }
-    100% {
-        outline: 2px solid transparent;
-    }
+  0% {
+    outline: 2px solid transparent;
+  }
+
+  50% {
+    outline: 2px solid blue;
+    /* Change color as needed */
+  }
+
+  100% {
+    outline: 2px solid transparent;
+  }
 }
 
 .animate-outline {
-    animation: outlineAnimation 1s ease-in-out;
+  animation: outlineAnimation 1s ease-in-out;
 }
 
 /* 
@@ -1185,6 +1213,28 @@ article .markdown .inline-medium-end,
   animation: outlineAnimation 1s ease-in-out infinite;
   outline: 3px dashed #222;
 }
+
 /* 
   End Bookmarklets
+*/
+
+
+/* 
+  Auto-generated index links, for example on github issues page
+*/
+.generated-index-links {
+  width: 100%;
+  /* box-sizing: border-box; */
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .generated-index-links {
+    /* width: calc(100% / 4 - 1em); */
+    width: calc(100%/3);
+  }
+}
+
+/* 
+  End Auto-generated index links
 */
