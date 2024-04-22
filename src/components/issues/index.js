@@ -38,7 +38,7 @@ const Issues = ({ repo }) => {
                 {/* Short links with anchors to each issue. */}
                 <div className="w-100 d-flex flex-wrap justify-content-center">
                     {issues.map((issue, index) => (
-                        <a className={`btn btn-outline-secondary btn-sm mb-1 me-2 ${issue.stateIndicator}`} key={index} href={`#issue${issue.number}`}>
+                        <a className={`generated-index-links btn btn-outline-secondary btn-sm mb-1 me-2 ${issue.stateIndicator}`} key={index} href={`#issue${issue.number}`}>
                             #{issue.number}: {issue.title ? issue.title.substring(0, 30) : 'No Title'}…
                         </a>
                     ))}
@@ -55,9 +55,7 @@ const Issues = ({ repo }) => {
                                             #{issue.number}
                                         </a>: {issue.title}
                                     </h3>
-                                    <span>State: {issue.state}</span> –
-                                    <span>Created: {issue.created_at}</span> –
-                                    <span>Updated: {issue.updated_at}</span>
+                                    <span>State: {issue.state}</span> – <span>Created: {issue.created_at}</span> – <span>Updated: {issue.updated_at}</span>
 
                                 </div>
                                 <div className="card-body" dangerouslySetInnerHTML={{ __html: issue.body ? issue.body.substring(0, 300) + '…' : 'No content.' }}>
