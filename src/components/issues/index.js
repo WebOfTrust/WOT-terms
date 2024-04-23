@@ -52,8 +52,8 @@ const Issues = ({ repo }) => {
                 {/* Short links with anchors to each issue. */}
                 <div className="w-100 d-flex flex-wrap justify-content-center">
                     {issues.map((issue, index) => (
-                        <div className='generated-index-links m-0 p-1'>
-                            <a className={`w-100 btn btn-outline-secondary btn-sm p-0 mb-1 p-1 ${issue.stateIndicator}`} key={index} href={`#issue${issue.number}`}>
+                        <div className='generated-index-links m-0 p-1' key={index}>
+                            <a className={`w-100 btn btn-outline-secondary btn-sm p-0 mb-1 p-1 ${issue.stateIndicator}`} href={`#issue${issue.number}`}>
                                 #{issue.number}: {issue.title ? issue.title.substring(0, 25) : 'No Title'}…
                                 <span className="badge bg-danger-subtle text-primary-emphasis border-primary-subtle">{issue.comments}</span>
                             </a>
