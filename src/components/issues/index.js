@@ -71,16 +71,16 @@ const Issues = ({ repo }) => {
                 <div className="w-100 d-flex flex-wrap justify-content-center">
                     {issues.map((issue, index) => (
                         <div className='generated-index-links m-0 p-2' key={index}>
-                            <a className={`text-start position-relative w-100 btn btn-outline-secondary-subtle text-primary-subtle btn-sm p-0 mb-1 p-1 ${issue.stateIndicator}`} href={`#issue${issue.number}`}>
+                            <a title={`Days since last update: ${issue.timeSinceLastUpdate.days}`} className={`text-start position-relative w-100 btn btn-outline-secondary-subtle text-primary-subtle btn-sm p-0 mb-1 p-1 ${issue.stateIndicator}`} href={`#issue${issue.number}`}>
                                 #{issue.number}: {issue.title ? issue.title.substring(0, 25) : 'No Title'}…
                                 {/* <span className="position-absolute top-0 start-100 translate-middle badge bg-primary-subtle text-primary-emphasis border-primary-subtle">{issue.comments}</span> */}
                                 {issue.timeSinceLastUpdate.days > daysSinceLastUpdateAlertThreshold && issue.state === 'open' ? (
-                                    <span title={`Days since last update: ${issue.timeSinceLastUpdate.days}`} className="position-absolute top-0 start-100 translate-middle badge bg-danger border-primary-subtle">
-                                        {issue.timeSinceLastUpdate.days}
+                                    <span className="position-absolute top-0 start-100 translate-middle badge bg-danger border-primary-subtle p-1">
+                                        <span class="visually-hidden">New alerts</span>
                                     </span>
                                 ) : (
-                                    <span title={`Days since last update: ${issue.timeSinceLastUpdate.days}`} className="position-absolute top-0 start-100 translate-middle badge bg-info-subtle border-primary-subtle">
-                                        {issue.timeSinceLastUpdate.days}
+                                    <span className="position-absolute top-0 start-100 translate-middle badge bg-info-subtle border-primary-subtle p-1">
+                                        <span class="visually-hidden">New alerts</span>
                                     </span>
                                 )}
 
