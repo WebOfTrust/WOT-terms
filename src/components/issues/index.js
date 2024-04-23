@@ -88,7 +88,7 @@ const Issues = ({ repo }) => {
 };
 
 export default (props) => (
-    <BrowserOnly fallback={<div className="alert alert-info" role="alert">Loading...</div>}>
+    <BrowserOnly fallback={<div className="alert alert-info" role="alert">Loading…</div>}>
         {() => <Issues {...props} />}
     </BrowserOnly>
 );
