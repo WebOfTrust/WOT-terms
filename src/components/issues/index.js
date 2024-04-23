@@ -6,6 +6,22 @@ import DOMPurify from 'dompurify';
 
 const Issues = ({ repo }) => {
     const [issues, setIssues] = useState([]);
+    const daysSinceLastUpdateAlertThreshold = 100;
+
+    // Function to calculate time since last update
+    const getTimeSince = (updatedDate) => {
+        const now = new Date();
+        const difference = now - updatedDate; // difference in milliseconds
+        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
+        const minutes = Math.floor((difference / 1000 / 60) % 60);
+
+        return {
+            days,
+            hours,
+            minutes
+        };
+    };
 
     // Fetch issues
     useEffect(() => {
@@ -14,7 +30,8 @@ const Issues = ({ repo }) => {
             .then(data => {
                 setIssues(data.map(issue => ({
                     ...issue,
-                    stateIndicator: getStateIndicator(issue.state)
+                    stateIndicator: getStateIndicator(issue.state),
+                    timeSinceLastUpdate: getTimeSince(new Date(issue.updated_at))
                 })))
             })
             .catch(error => {
@@ -27,6 +44,7 @@ const Issues = ({ repo }) => {
     function getStateIndicator(state) {
         return state === 'open' ? 'text-warning-emphasis bg-warning-subtle' : 'text-light-emphasis bg-light-subtle';
     }
+
 
     // Make html from markdown, via marked and DOMPurify
     //TODO: use useState
@@ -53,9 +71,20 @@ const Issues = ({ repo }) => {
                 <div className="w-100 d-flex flex-wrap justify-content-center">
                     {issues.map((issue, index) => (
                         <div className='generated-index-links m-0 p-2' key={index}>
-                            <a className={`position-relative w-100 btn btn-outline-secondary btn-sm p-0 mb-1 p-1 ${issue.stateIndicator}`} href={`#issue${issue.number}`}>
+                            <a className={`text-start position-relative w-100 btn btn-outline-secondary-subtle text-primary-subtle btn-sm p-0 mb-1 p-1 ${issue.stateIndicator}`} href={`#issue${issue.number}`}>
                                 #{issue.number}: {issue.title ? issue.title.substring(0, 25) : 'No Title'}…
-                                <span className="position-absolute top-0 start-100 translate-middle badge bg-primary-subtle text-primary-emphasis border-primary-subtle">{issue.comments}</span>
+                                {/* <span className="position-absolute top-0 start-100 translate-middle badge bg-primary-subtle text-primary-emphasis border-primary-subtle">{issue.comments}</span> */}
+                                {issue.timeSinceLastUpdate.days > daysSinceLastUpdateAlertThreshold && issue.state === 'open' ? (
+                                    <span title="Days since last update" className="position-absolute top-0 start-100 translate-middle badge bg-danger border-primary-subtle">
+                                        {issue.timeSinceLastUpdate.days}
+                                    </span>
+                                ) : (
+                                    <span title="Days since last update" className="position-absolute top-0 start-100 translate-middle badge bg-info-subtle border-primary-subtle">
+                                        {issue.timeSinceLastUpdate.days}
+                                    </span>
+                                )}
+
+
                             </a>
                         </div>
                     ))}
@@ -72,8 +101,13 @@ const Issues = ({ repo }) => {
                                             #{issue.number}
                                         </a>: {issue.title}
                                     </h3>
-                                    <span>State: {issue.state}</span> – <span>Created: {issue.created_at}</span> – <span>Updated: {issue.updated_at}</span>
+                                    <span>State: {issue.state}</span> – <span>Created: {issue.created_at}</span> –
 
+                                    {issue.timeSinceLastUpdate.days > daysSinceLastUpdateAlertThreshold && issue.state === 'open' ? (
+                                        <span className="alert alert-danger p-1">Updated: {issue.updated_at}</span>
+                                    ) : (
+                                        <span>Updated: {issue.updated_at}</span>
+                                    )}
                                 </div>
                                 <div className="card-body" dangerouslySetInnerHTML={{ __html: issue.body ? issue.body.substring(0, 300) + '…' : 'No content.' }}>
                                 </div>
