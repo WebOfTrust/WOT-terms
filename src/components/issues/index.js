@@ -17,7 +17,10 @@ const Issues = ({ repo }) => {
                     stateIndicator: getStateIndicator(issue.state)
                 })))
             })
-            .catch(error => console.error('Error fetching issues:', error));
+            .catch(error => {
+                console.error('Error fetching issues:', error);
+                alert('Error fetching issues.');
+            });
 
     }, [repo]);
 
