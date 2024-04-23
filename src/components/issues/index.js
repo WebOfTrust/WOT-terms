@@ -75,11 +75,11 @@ const Issues = ({ repo }) => {
                                 #{issue.number}: {issue.title ? issue.title.substring(0, 25) : 'No Title'}…
                                 {/* <span className="position-absolute top-0 start-100 translate-middle badge bg-primary-subtle text-primary-emphasis border-primary-subtle">{issue.comments}</span> */}
                                 {issue.timeSinceLastUpdate.days > daysSinceLastUpdateAlertThreshold && issue.state === 'open' ? (
-                                    <span title="Days since last update" className="position-absolute top-0 start-100 translate-middle badge bg-danger border-primary-subtle">
+                                    <span title={`Days since last update: ${issue.timeSinceLastUpdate.days}`} className="position-absolute top-0 start-100 translate-middle badge bg-danger border-primary-subtle">
                                         {issue.timeSinceLastUpdate.days}
                                     </span>
                                 ) : (
-                                    <span title="Days since last update" className="position-absolute top-0 start-100 translate-middle badge bg-info-subtle border-primary-subtle">
+                                    <span title={`Days since last update: ${issue.timeSinceLastUpdate.days}`} className="position-absolute top-0 start-100 translate-middle badge bg-info-subtle border-primary-subtle">
                                         {issue.timeSinceLastUpdate.days}
                                     </span>
                                 )}
