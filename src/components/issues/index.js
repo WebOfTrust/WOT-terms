@@ -1,11 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
-
+import PaginationButtons from './PaginationButtons';
 import { marked } from 'marked';
 import DOMPurify from 'dompurify';
 
 const Issues = ({ repo }) => {
     const [issues, setIssues] = useState([]);
+    const [counter, setCounter] = useState(1);
+
     const daysSinceLastUpdateAlertThreshold = 100;
 
     // Function to calculate time since last update
@@ -24,9 +26,16 @@ const Issues = ({ repo }) => {
     };
 
     // Fetch issues
-    useEffect(() => {
-        fetch(`https://api.github.com/repos/${repo}/issues?state=all&per_page=30&page=1`)
-            .then(response => response.json())
+    const fetchIssues = (page) => {
+        let pageNr = page || 1;
+        fetch(`https://api.github.com/repos/${repo}/issues?state=all&per_page=15&page=${pageNr}`)
+            .then(response => {
+                if (response.status === 403 && response.headers.get('X-RateLimit-Remaining') === '0') {
+                    alert('Rate limit exceeded');
+                    throw new Error('Rate limit exceeded');
+                }
+                return response.json();
+            })
             .then(data => {
                 setIssues(data.map(issue => ({
                     ...issue,
@@ -35,16 +44,18 @@ const Issues = ({ repo }) => {
                 })))
             })
             .catch(error => {
+                console.log('error: ', error);
+
                 console.error('Error fetching issues:', error);
                 alert('Error fetching issues.');
             });
+    };
 
-    }, [repo]);
+    useEffect(fetchIssues, [repo]); // Fetch issues on page load and when repo changes
 
     function getStateIndicator(state) {
         return state === 'open' ? 'text-warning-emphasis bg-warning-subtle' : 'text-light-emphasis bg-light-subtle';
     }
-
 
     // Make html from markdown, via marked and DOMPurify
     //TODO: use useState
@@ -76,17 +87,21 @@ const Issues = ({ repo }) => {
                                 {/* <span className="position-absolute top-0 start-100 translate-middle badge bg-primary-subtle text-primary-emphasis border-primary-subtle">{issue.comments}</span> */}
                                 {issue.timeSinceLastUpdate.days > daysSinceLastUpdateAlertThreshold && issue.state === 'open' ? (
                                     <span className="position-absolute top-0 start-100 translate-middle badge bg-danger border-primary-subtle p-1">
-                                        <span class="visually-hidden">New alerts</span>
+                                        <span className="visually-hidden">New alerts</span>
                                     </span>
                                 ) : (
                                     <span className="position-absolute top-0 start-100 translate-middle badge bg-info-subtle border-primary-subtle p-1">
-                                        <span class="visually-hidden">New alerts</span>
+                                        <span className="visually-hidden">New alerts</span>
                                     </span>
                                 )}
                             </a>
                         </div>
                     ))}
                 </div>
+
+                <p className='text-center'>Page {counter}</p>
+                <PaginationButtons counter={counter} setCounter={setCounter} fetchIssues={fetchIssues} />
+
 
                 {/* Issues */}
                 {
@@ -115,6 +130,8 @@ const Issues = ({ repo }) => {
                 }
 
             </div>
+            <p className='text-center'>Page {counter}</p>
+            <PaginationButtons counter={counter} setCounter={setCounter} fetchIssues={fetchIssues} />
         </div >
     );
 };
