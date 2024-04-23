@@ -83,8 +83,6 @@ const Issues = ({ repo }) => {
                                         <span class="visually-hidden">New alerts</span>
                                     </span>
                                 )}
-
-
                             </a>
                         </div>
                     ))}
