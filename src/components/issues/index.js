@@ -1,12 +1,34 @@
+/*
+  Author: Kor Dwarshuis
+  Created: 2024-04-19
+  Updated: -
+  Description: Fetch issues from a GitHub repository and display them in a Docusaurus page. The issues are fetched via the GitHub API and displayed in a paginated list. The issues are displayed in a card format, with the issue number, title, state, created date, updated date, and body. The body is displayed as HTML, after being converted from markdown via the marked and DOMPurify libraries. The issues are displayed in a paginated list, with 15 issues per page. The page number is displayed at the top and bottom of the list, and the user can navigate between pages using the pagination buttons. The issues are also displayed as short links with anchors, so the user can easily navigate to a specific issue by clicking on the link. The page is styled using Bootstrap.
+
+*/
+
+
 import React, { useState, useEffect, useRef } from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import PaginationButtons from './PaginationButtons';
 import { marked } from 'marked';
 import DOMPurify from 'dompurify';
 
+/**
+ * Renders a list of issues for a given repository.
+ *
+ * @component
+ * @param {Object} props - The component props.
+ * @param {string} props.repo - The name of the repository.
+ * @returns {JSX.Element} The rendered component.
+ */
 const Issues = ({ repo }) => {
     const [issues, setIssues] = useState([]);
     const [counter, setCounter] = useState(1);
+    const [issuesLength, setIssuesLength] = useState(0);
+    useEffect(() => {
+        // after fetching issues
+        setIssuesLength(issues.length)
+    }, [issues])
 
     const daysSinceLastUpdateAlertThreshold = 100;
 
@@ -80,27 +102,33 @@ const Issues = ({ repo }) => {
 
                 {/* Short links with anchors to each issue. */}
                 <div className="w-100 d-flex flex-wrap justify-content-center">
-                    {issues.map((issue, index) => (
-                        <div className='generated-index-links m-0 p-2' key={index}>
-                            <a title={`Days since last update: ${issue.timeSinceLastUpdate.days}`} className={`text-start position-relative w-100 btn btn-outline-secondary-subtle text-primary-subtle btn-sm p-0 mb-1 p-1 ${issue.stateIndicator}`} href={`#issue${issue.number}`}>
-                                #{issue.number}: {issue.title ? issue.title.substring(0, 25) : 'No Title'}…
-                                {/* <span className="position-absolute top-0 start-100 translate-middle badge bg-primary-subtle text-primary-emphasis border-primary-subtle">{issue.comments}</span> */}
-                                {issue.timeSinceLastUpdate.days > daysSinceLastUpdateAlertThreshold && issue.state === 'open' ? (
-                                    <span className="position-absolute top-0 start-100 translate-middle badge bg-danger border-primary-subtle p-1">
-                                        <span className="visually-hidden">New alerts</span>
-                                    </span>
-                                ) : (
-                                    <span className="position-absolute top-0 start-100 translate-middle badge bg-info-subtle border-primary-subtle p-1">
-                                        <span className="visually-hidden">New alerts</span>
-                                    </span>
-                                )}
-                            </a>
+                    {issues.length > 0 ? (
+                        issues.map((issue, index) => (
+                            <div className='generated-index-links m-0 p-2' key={index}>
+                                <a title={`Days since last update: ${issue.timeSinceLastUpdate.days}`} className={`text-start position-relative w-100 btn btn-outline-secondary-subtle text-primary-subtle btn-sm p-0 mb-1 p-1 ${issue.stateIndicator}`} href={`#issue${issue.number}`}>
+                                    #{issue.number}: {issue.title ? issue.title.substring(0, 25) : 'No Title'}…
+                                    {/* <span className="position-absolute top-0 start-100 translate-middle badge bg-primary-subtle text-primary-emphasis border-primary-subtle">{issue.comments}</span> */}
+                                    {issue.timeSinceLastUpdate.days > daysSinceLastUpdateAlertThreshold && issue.state === 'open' ? (
+                                        <span className="position-absolute top-0 start-100 translate-middle badge bg-danger border-primary-subtle p-1">
+                                            <span className="visually-hidden">New alerts</span>
+                                        </span>
+                                    ) : (
+                                        <span className="position-absolute top-0 start-100 translate-middle badge bg-info-subtle border-primary-subtle p-1">
+                                            <span className="visually-hidden">New alerts</span>
+                                        </span>
+                                    )}
+                                </a>
+                            </div>
+                        ))
+                    ) : (
+                        <div className="alert alert-info" role="alert">
+                            No more issues to show
                         </div>
-                    ))}
+                    )}
                 </div>
 
                 <p className='text-center'>Page {counter}</p>
-                <PaginationButtons counter={counter} setCounter={setCounter} fetchIssues={fetchIssues} />
+                <PaginationButtons counter={counter} setCounter={setCounter} fetchIssues={fetchIssues} issuesLength={issuesLength} />
 
 
                 {/* Issues */}
@@ -131,7 +159,7 @@ const Issues = ({ repo }) => {
 
             </div>
             <p className='text-center'>Page {counter}</p>
-            <PaginationButtons counter={counter} setCounter={setCounter} fetchIssues={fetchIssues} />
+            <PaginationButtons counter={counter} setCounter={setCounter} fetchIssues={fetchIssues} issuesLength={issuesLength} />
         </div >
     );
 };
