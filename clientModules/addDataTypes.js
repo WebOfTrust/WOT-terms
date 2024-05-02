@@ -6,7 +6,6 @@
  * @author Kor Dwarshuis
  * @version 1.0.0
  * @license MIT
- * @see https://example.com/more_info_about_calculator for more information about the usage
  * @since 2023-04-01
  */
 
