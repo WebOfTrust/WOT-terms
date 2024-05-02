@@ -1,11 +1,5 @@
-import { Octokit, App } from 'octokit';
 /**
- * Client-Side Upvote Script for Search Results
- * Author: Kor Dwarshuis
- * Created: 2023-09-17
- * Updated: -
- *
- * Description: This script adds upvote functionality to KERISSE search results.
+ * @file This file adds upvote functionality to KERISSE search results.
  * It listens for clicks on elements with the class "upvote" and captures
  * relevant search result data. 
  *
@@ -25,8 +19,11 @@ import { Octokit, App } from 'octokit';
  * https://f3oall.github.io/awesome-notifications/docs/why-such-awesome
  * https://www.npmjs.com/package/awesome-notifications
  * https://github.com/f3oall/awesome-notifications#readme
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2023-09-18
  */
-
+import { Octokit, App } from 'octokit';
 // import AWN from 'awesome-notifications';
 import AWN from './libs/awesome-notifications.js';
 
