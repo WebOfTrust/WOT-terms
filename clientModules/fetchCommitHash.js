@@ -1,10 +1,11 @@
-/*
-  Author: Kor Dwarshuis
-  Created: 2024-04-19
-  Updated: -
-  Description:
-
-*/
+/**
+ * @file This file fetches the commit hashes of current file and shows it after clicking on a button. The info is fetched from the Github API.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @license MIT
+ * @see https://example.com/more_info_about_calculator for more information about the usage
+ * @since 2024-04-19
+ */
 
 const paths = require('../docusaurus.paths.js');
 const baseUrl = paths.baseUrl;
