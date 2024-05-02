@@ -5,6 +5,8 @@
  * @since 2023-05-17
  */
 
+import overview from '@site/static/json/overview.json';
+
 const showGPTsummary = () => {
   // TODO: fix bug where the summary is added multiple times when navigating between pages
   // TODO: endless loop when navigating between pages too fast
