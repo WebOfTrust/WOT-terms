@@ -1,3 +1,11 @@
+/**
+ * @file This file selects elements with a data-youtubeid attribute and inserts a YouTube iframe into each. The iframe's src is set to the video URL using the youtubeid and starttime data attributes of the element.
+ * @example < div className="youtube-video" data-youtubeid="RE2QClKir1E" data-starttime="23"></ div> transforms into an iframe.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2023-02-07
+ */
+
 const insertVideo = () => {
   const refs = [...document.querySelectorAll(`[data-youtubeid`)];
 
