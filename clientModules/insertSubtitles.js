@@ -1,3 +1,12 @@
+/**
+ * @file This file handles the display of subtitles for a video player. It takes no direct input, but it relies on the presence of specific HTML elements on the page, such as a container for the subtitles and a video element.
+
+The purpose of this code is to extract the start and end times of each subtitle from the text content of HTML paragraph elements (< p >), and then display the corresponding subtitle text in the subtitle container when the video playback time falls within the start and end times of that subtitle.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2023-02-12
+ */
+
 const handleSubtitles = () => {
   let counter = document.querySelector('.counter');
   let subtitlecontainer = document.querySelector('.subtitlecontainer');
