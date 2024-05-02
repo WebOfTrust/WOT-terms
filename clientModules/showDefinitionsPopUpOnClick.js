@@ -1,8 +1,8 @@
-/***************
- *
- *
- * This plugin shows popups with definitions when hovering over links.
- *
+/**
+ * @file This file shows popups with definitions when hovering over links.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2023-03-05
  */
 
 import tippy from 'tippy.js';
