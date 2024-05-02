@@ -1,14 +1,10 @@
-/*
-  Author: Kor Dwarshuis
-  Created: 2023-09-11
-  Updated: -
-  Description:
-   This JavaScript file attempts to add a click event listener to the first element with the class name "markdown."
-   If such an element exists and an image within this element is clicked, the script toggles a predefined class to resize the image.
-   
-   Preconditions:
-   - A CSS class defined by the variable `imageFullSizeClass` should exist for toggling the image size.
-*/
+/**
+ * @file This file adds functionality to display images in full-size on a web page when clicked. The functionality is implemented via a class added to the image element.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2023-09-11
+ */
+
 
 const imageFullSize = () => {
   const imageFullSizeClass = 'image-full-page';
