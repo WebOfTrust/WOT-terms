@@ -1,3 +1,10 @@
+/**
+ * @file This file adds a “form” to the title of a term in the glossary, based on the value in the “Form” column of the overview.json file. “Form” can be one of the following: [noun], [verb], [relation], or [adjective/adverb].
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2023-11-01
+ */
+
 import overview from '@site/static/json/overview.json';
 
 const fetchFormsColumnFromWotTerms = () => {
