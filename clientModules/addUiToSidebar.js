@@ -1,3 +1,11 @@
+/**
+ * @file This file adds filtering options plus a search field in the main menu below the “Glossary” menu item.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @license MIT
+ * @since 2023-11-03
+ */
+
 import overview from '/static/json/overview.json';
 import tippy from 'tippy.js';
 import 'tippy.js/themes/light-border.css';
