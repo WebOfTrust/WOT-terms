@@ -1,10 +1,9 @@
-/*
-  File: typesenseInstantSearchInit.js
-  Author: Kor Dwarshuis
-  Created: 2023
-  Updated: 2023
-  Description: This plugin creates the DOM elements for the Typesense search box and search results. The DOM elements for the search hits are in the main Typesense InstantSearch plugin code.
-*/
+/**
+ * @file This file creates the DOM elements for the Typesense search box and search results. The DOM elements for the search hits are in the main Typesense InstantSearch plugin code.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2023-05-19
+ */
 
 import paths from "../docusaurus.paths";
 
