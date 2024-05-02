@@ -1,42 +1,3 @@
-/**
- * @file This module fetches the "Form" column from the WOT terms overview JSON file and displays it in the documentation section of the glossary page. 
- * @module fetchFormsColumnFromWotTerms
- * @requires @site/static/json/overview.json
- */
-
-/**
- * Fetches the "Form" column from the WOT terms overview JSON file and displays it in the documentation section of the glossary page.
- * @function
- * @name fetchFormsColumnFromWotTerms
- * @returns {void}
- */
-
-/**
- * Returns the position of a value in the entriesIndex array.
- * @function
- * @name positionInArray
- * @param {string} value - The value to search for in the entriesIndex array.
- * @returns {number} - The position of the value in the entriesIndex array, or -1 if not found.
- */
-
-/**
- * Gets the name of a form from its abbreviation.
- * @function
- * @name getNameFromAbbreviation
- * @param {string} abbreviation - The abbreviation of the form.
- * @returns {string|null} - The name of the form, or null if the abbreviation is not found.
- */
-
-/**
- * Called when the route is updated. Fetches the "Form" column from the WOT terms overview JSON file and displays it in the documentation section of the glossary page.
- * @function
- * @name onRouteDidUpdate
- * @param {Object} location - The current location object.
- * @param {Object} previousLocation - The previous location object.
- * @returns {void}
- */
-
-
 import overview from '@site/static/json/overview.json';
 
 const fetchFormsColumnFromWotTerms = () => {
@@ -44,17 +5,8 @@ const fetchFormsColumnFromWotTerms = () => {
   const inDocSection =
     window.location.href.indexOf('/docs/glossary/') > -1 ? true : false;
 
-  /**
- * The column names
- * @type {Array<string>}
- */
   const entriesIndex = overview.values[0];
 
-  /**
-   * Returns the position of a value in the entriesIndex array.
-   * @param {string} value - The value to search for in the entriesIndex array.
-   * @returns {number} - The position of the value in the entriesIndex array, or -1 if not found.
-   */
   function positionInArray(value) {
     for (let i = 0; i < entriesIndex.length; i++) {
       if (entriesIndex[i] === value) return i;
