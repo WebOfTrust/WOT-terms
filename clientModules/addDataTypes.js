@@ -1,7 +1,16 @@
-import overview from '@site/static/json/overview.json';
 /**
- *  Add level to body, info from overview.json, which is generated from Google Sheet
+ * @file This file adds html attributes with information to the <article>.
+ * The info is fetched from a json file.
+ * @example An article element could look like this:
+ * <article data-level="3" class="level level3 3 type typeK K" data-type="K">…</article>
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @license MIT
+ * @see https://example.com/more_info_about_calculator for more information about the usage
+ * @since 2023-04-01
  */
+
+import overview from '@site/static/json/overview.json';
 
 const addDataTypes = () => {
   //TODO: make generic function for column number finder
