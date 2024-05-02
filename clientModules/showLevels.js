@@ -1,10 +1,9 @@
 /**
- * Takes div and tr that contain data-level and show/hide these via buttons
- *
+ * @file This file controls the visibility of content on a webpage based on a "level" parameter. This parameter can be set either through the URL or via localStorage. The script also creates buttons that allow users to manually set the level.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2023-02-04
  */
-
-// import the config file
-// import config from '@generated/docusaurus.config';
 
 const levelButtonsAndInfoClassNames = 'show-level-buttons-info-container';
 
