@@ -1,3 +1,11 @@
+/**
+ * @file This file makes tables filterable and sortable.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @license MIT
+ * @since 2023-03-13
+ */
+
 import { List } from './libs/list.js';
 
 const dynamicTables = () => {
