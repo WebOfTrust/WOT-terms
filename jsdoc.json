@@ -1,0 +1,13 @@
+{
+    "source": {
+        "include": [
+            "clientModules"
+        ],
+        "includePattern": ".js",
+        "excludePattern": "node_modules/|static/"
+    },
+    "opts": {
+        "destination": "./static/JSDoc",
+        "recurse": true
+    }
+}
