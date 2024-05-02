@@ -1,3 +1,12 @@
+/**
+ * @file This file contains a function that adds a visual hint to a web page, indicating that the content can be scrolled horizontally. The hint consists of an image of a hand with a pointing finger and the text "Scroll to the right." This hint is shown when the content inside the targeted HTML element is wider than the visible area, indicating that horizontal scrolling is possible.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @license MIT
+ * @see https://example.com/more_info_about_calculator for more information about the usage
+ * @since 2022-01-01
+ */
+
 const horizontalScrollHint = (element) => {
   const el = document.querySelector(element);
 
