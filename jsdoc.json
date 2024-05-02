@@ -8,6 +8,7 @@
     },
     "opts": {
         "destination": "./static/JSDoc",
-        "recurse": true
+        "recurse": true,
+        "template": "./src/JSDoc/JSDoc-custom-template"
     }
 }
