@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwot_terms_docusaurus=self.webpackChunkwot_terms_docusaurus||[]).push([[12787],{21485:t=>{t.exports=JSON.parse('{"title":"Intro","description":"Intro.","slug":"/category/intro","permalink":"/WOT-terms/docs/category/intro","navigation":{"next":{"title":"WOT terms documentation","permalink":"/WOT-terms/docs/intro/intro"}}}')}}]);
