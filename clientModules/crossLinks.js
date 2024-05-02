@@ -1,10 +1,10 @@
-/*
-  File: crossLinks.js
-  Author: Kor Dwarshuis
-  Created: 2023
-  Updated: –
-  Description: This plugin creates links in the content based on keywords. It also creates links to a timestamp in video's. Keywords and urls are in a local json file.
-*/
+/**
+ * @file This file creates links in the content based on keywords. It also creates links to a timestamp in video's. Keywords and urls are in a local json file.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @license MIT
+ * @since 2023-02-01
+ */
 
 import { crossLinks } from '../crossLinksIndex';
 import config from '@generated/docusaurus.config';
