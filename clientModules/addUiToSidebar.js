@@ -11,18 +11,8 @@ import 'tippy.js/themes/light-border.css';
 const paths = require('../docusaurus.paths.js');
 const baseUrl = paths.baseUrl;
 
-/**
- * The column names of the list of websites to scrape.
- * @type {Array<string>}
- */
 const entriesIndex = overview.values[0];
 
-
-/**
- * Returns the position of a value in the entriesIndex array.
- * @param {string} value - The value to search for in the entriesIndex array.
- * @returns {number} - The position of the value in the entriesIndex array, or -1 if not found.
- */
 function positionInArray(value) {
     for (let i = 0; i < entriesIndex.length; i++) {
         if (entriesIndex[i].trim() === value) return i;
@@ -30,12 +20,6 @@ function positionInArray(value) {
     return -1;
 }
 
-/**
- * Returns a set of unique values from a 2D array based on a given column index.
- * @param {Array<Array>} data - The 2D array to search for unique values.
- * @param {number} columnIndex - The index of the column to search for unique values.
- * @returns {Set} - A set of unique values from the specified column.
- */
 function getUniqueValues(data, columnIndex) {
     const uniqueValues = new Set();
     for (let i = 1; i < data.length; i++) {

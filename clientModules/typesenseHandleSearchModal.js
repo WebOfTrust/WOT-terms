@@ -13,15 +13,6 @@ let searchModalStatus = '';
 // Some things need to be done only once, when the app is initialized
 let appInitialized = false;
 
-
-/**
-  Get the value of a search parameter:
-  const paramValue = myRouter.getParam('paramName');
-  console.log(paramValue);
- 
-  Set the value of a search parameter:
-  myRouter.setParam('paramName', 'paramValue');
- */
 function router() {
   function getParam(key) {
     const searchParams = new URLSearchParams(window.location.search);
