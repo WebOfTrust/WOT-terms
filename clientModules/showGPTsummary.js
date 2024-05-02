@@ -1,6 +1,8 @@
-import overview from '@site/static/json/overview.json';
 /**
- *  This plugin adds a GTP generated summary to the top of the page.
+ * @file This file adds a GTP generated summary to the top of the page.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2023-05-17
  */
 
 const showGPTsummary = () => {
