@@ -1,10 +1,9 @@
-/*
-  File: typesenseHandleSearchModal.js
-  Author: Kor Dwarshuis
-  Created: 2023-06-21
-  Updated: 2023-06-23
-  Description: This plugin makes the state of the search modal (open or closed) persistent in the url.
-*/
+/**
+ * @file This file makes the state of the search modal (open or closed) persistent in the url.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2023-06-21
+ */
 
 import paths from "../docusaurus.paths";
 
