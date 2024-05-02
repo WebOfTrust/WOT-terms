@@ -1,9 +1,9 @@
-/*
-  Author: Kor Dwarshuis
-  Created: 2023-08
-  Updated: -
-  Description: This plugin scrolls every search results that shows code in a <pre> element horizontally to the first <mark> element in the <pre> element.
-*/
+/**
+ * @file This file scrolls every search results that shows code in a < pre > element horizontally to the first < mark > element in the < pre > element.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2023-08-09
+ */
 
 function scrollToMarkElementInPre() {
   // Find all <pre> elements on the page
