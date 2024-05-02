@@ -2,7 +2,6 @@
  * @file This file makes the table on the Overview and context page appear in a modal that is almost full screen. It also adds a button to the table that makes it full screen.
  * @author Kor Dwarshuis
  * @version 1.0.0
- * @license MIT
  * @since 2023-03-13
  */
 

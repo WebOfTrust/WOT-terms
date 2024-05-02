@@ -2,7 +2,6 @@
  * @file This file creates a link at the bottom in a glossary page to the Wiki article that is the source for the page.
  * @author Kor Dwarshuis
  * @version 1.0.0
- * @license MIT
  * @since 2023-11-23
  */
 

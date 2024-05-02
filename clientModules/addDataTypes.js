@@ -1,11 +1,10 @@
 /**
- * @file This file adds html attributes with information to the <article>.
+ * @file This file adds html attributes with information to the article html-element.
  * The info is fetched from a json file.
  * @example An article element could look like this:
  * <article data-level="3" class="level level3 3 type typeK K" data-type="K">…</article>
  * @author Kor Dwarshuis
  * @version 1.0.0
- * @license MIT
  * @since 2023-04-01
  */
 

@@ -1,5 +1,12 @@
-import { toLowerCaseAndRemoveSpecialChars } from '../modules-js-universal/toLowerCaseAndRemoveSpecialChars.js';
+/**
+ * @file This file adds the same term from external glossaries to the glossary. The terms are added as Bootstrap accordions in the glossary page. The terms are fetched from json files.
+ * It only works on pages in /docs/glossary/
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2023-10-31
+ */
 
+import { toLowerCaseAndRemoveSpecialChars } from '../modules-js-universal/toLowerCaseAndRemoveSpecialChars.js';
 
 import termsDefinitionsDigitalgovtnz from '@site/static/json/external-glosseries/glossaries/terms-definitions-digitalgovtnz.json';
 
@@ -12,15 +19,6 @@ import termsDefinitionsToip from '@site/static/json/external-glosseries/glossari
 import termsDefinitionsToipDidWebs from '@site/static/json/external-glosseries/glossaries/terms-definitions-toipdidwebs.json';
 
 import termsDefinitionsW3cDid from '@site/static/json/external-glosseries/glossaries/terms-definitions-w3cdid.json';
-
-
-
-
-
-
-/**
- *  This plugin adds a GTP generated summary to the top of the page.
- */
 
 const allTermsDefinitions = [...termsDefinitionsToip, ...termsDefinitionsEssiflab, ...termsDefinitionsDigitalgovtnz, ...termsDefinitionsNist, ...termsDefinitionsW3cDid, ...termsDefinitionsToipDidWebs];
 
