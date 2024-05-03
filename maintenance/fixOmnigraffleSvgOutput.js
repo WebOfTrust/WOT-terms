@@ -1,14 +1,15 @@
+/**
+ * @file This file fixes Omnigraffle svg output. Without these fixes the Docusaurus page does not render.
+ * Environment: NodeJS
+ * Usage:
+ * $ node maintenance/fixOmnigraffleSvgOutput.js
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2023-07-16
+ */
+
 /*
-  Author: Kor Dwarshuis
-  Created: 2023-06
-  Updated: -
-  Description:
-  
-  Run this script from the root of the project using the following command:
-    $ node maintenance/fixOmnigraffleSvgOutput.js
-    
-    This script fixes Omnigraffle svg output. Without these fixes the Docusaurus page does not render.
-    
+  Description:    
     The script will scan the '/static/img' directory for SVG files, and for each file it:
 
     -defines replacements to rectify common OmniGraffle SVG output issues, including the removal of SVG DOCTYPE declaration and XML version tag, and correction of the 'xl:' namespace and 'xl:href' attributes to 'xmlns:xlink' and 'xlink:href' respectively.
