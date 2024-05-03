@@ -1,7 +1,8 @@
 {
     "source": {
         "include": [
-            "clientModules"
+            "clientModules",
+            "maintenance"
         ],
         "includePattern": ".js",
         "excludePattern": "node_modules/|static/"
