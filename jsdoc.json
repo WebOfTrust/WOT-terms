@@ -2,7 +2,8 @@
     "source": {
         "include": [
             "clientModules",
-            "maintenance"
+            "maintenance",
+            "modules-js-node"
         ],
         "includePattern": ".js",
         "excludePattern": "node_modules/|static/"
