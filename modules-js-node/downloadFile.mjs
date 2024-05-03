@@ -1,8 +1,21 @@
-// const axios = require('axios');
+/**
+ * @file This file downloads a file from a given URL and save it to a specified path on the local file system.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2023-11-12
+ */
+
 import axios from 'axios';
-// const fs = require('sfs');
 import fs from 'fs';
 
+/**
+ * Downloads a file from a given URL and save it to a specified path on the local file system.
+ * @async
+ * @param {string} downloadUrl - The URL of the file to download.
+ * @param {string} fullPath - The full path of the file to write to.
+ * @returns {Promise<void>} A Promise that resolves when the file is downloaded and written successfully.
+ * @throws {Error} An error if the file cannot be downloaded.
+ */
 async function downloadFile(downloadUrl, fullPath) {
     try {
         const response = await axios({
