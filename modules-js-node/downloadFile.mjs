@@ -9,8 +9,8 @@ import axios from 'axios';
 import fs from 'fs';
 
 /**
- * Downloads a file from a given URL and save it to a specified path on the local file system.
- * @async
+ * @module downloadFile
+ * @description This module downloads a file from a given URL and saves it to a specified path on the local file system.
  * @param {string} downloadUrl - The URL of the file to download.
  * @param {string} fullPath - The full path of the file to write to.
  * @returns {Promise<void>} A Promise that resolves when the file is downloaded and written successfully.
