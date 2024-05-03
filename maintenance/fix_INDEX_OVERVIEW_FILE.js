@@ -1,5 +1,6 @@
 /**
  * @file This file cleans the content of the index_overview file.
+ * Environment: NodeJS
  * @author Kor Dwarshuis
  * @version 1.0.0
  * @since 2023-12-04
