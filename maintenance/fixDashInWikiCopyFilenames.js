@@ -1,10 +1,10 @@
 /**
- * Author: Kor Dwarshuis
- * Created: 2023-12-04
- * Updated: -
-
- * This script replaces the hyphen character in file names with the minus sign character.
+ * @file This file replaces the hyphen character in file names with the minus sign character.
  * When copying files from the wiki, the hyphen character causes issues with the file names.
+ * Environment: NodeJS
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2023-12-04
  */
 
 require('dotenv').config();
