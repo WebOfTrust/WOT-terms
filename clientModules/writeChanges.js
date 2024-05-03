@@ -1,3 +1,12 @@
+/**
+ * @file This file used to make table cells editable and to send the edited content to a server and create a GitHub issue for each edit. It uses the Octokit library to interact with the GitHub API and the awesome-notifications library to display notifications to the user.
+
+It also uses a MutationObserver to observe changes in the element. When a change is detected, it collects the data of the edited cell (like row, column, row number, column number, column name, proposed text, term) and stores it in the mutation object.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2023-03-15
+ */
+
 import { Octokit, App } from 'octokit';
 
 // https://f3oall.github.io/awesome-notifications/docs/why-such-awesome
