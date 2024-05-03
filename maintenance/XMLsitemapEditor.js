@@ -1,3 +1,13 @@
+/**
+ * @file This file can be used to edit an XML sitemap file. It can be used to remove all URLs that do not end with .pdf, or to remove all URLs that contain a specific string. The script will create a backup of the original file before editing it.
+ * Environment: NodeJS
+ * Usage:
+ * $ node XMLsitemapEditor.js
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2022-01-01
+ */
+
 /*
   Author: Kor Dwarshuis
   Created: 2023-08-11
