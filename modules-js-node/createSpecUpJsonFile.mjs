@@ -1,9 +1,11 @@
-/*
-  Author: Kor Dwarshuis
-  Created: 2024-02-09
-  Updated: -
-  Description: 
-*/
+// TODO: This is not a module, so it should be moved to somewhere else.
+
+/**
+ * @file This file creates JSON files that serve as the source for the Spec-Up document generator. It takes markdown files as input.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2024-02-12
+ */
 
 import fs from 'fs';
 import path from 'path';
