@@ -1,6 +1,7 @@
 /**
  * @file This file checks all links on the WOT-terms site and reports broken links. It also creates a GitHub issue with the broken links.
  * The script should be run from the root of the WOT-terms repository.
+ * Environment: NodeJS
  * Usage: node findBrokenLinks.js
  * @author Kor Dwarshuis
  * @version 1.0.0
