@@ -1,3 +1,10 @@
+/**
+ * @file This file cleans the content of the index_overview file.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2023-12-04
+ */
+
 require('dotenv').config();
 const fs = require('fs');
 
