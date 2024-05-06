@@ -1,6 +1,6 @@
 # Broken Links Report
 
-Created: 2024-04-29T03:11:04.909Z
+Created: 2024-05-06T03:11:47.495Z
 
 Total Broken Links Found: 7
 
@@ -15,7 +15,7 @@ Found on Pages:
 
 
 ## Broken Link #2:
-[https://weboftrust.github.io/WOT-terms/docs/glossary/#key-rotation](https://weboftrust.github.io/WOT-terms/docs/glossary/#key-rotation)
+[https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID](https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID)
 
 Found on Pages:
 
@@ -24,7 +24,7 @@ Found on Pages:
 
 
 ## Broken Link #3:
-[https://weboftrust.github.io/WOT-terms/docs/glossary/#safety-properties](https://weboftrust.github.io/WOT-terms/docs/glossary/#safety-properties)
+[https://weboftrust.github.io/WOT-terms/docs/glossary/#key-rotation](https://weboftrust.github.io/WOT-terms/docs/glossary/#key-rotation)
 
 Found on Pages:
 
@@ -33,7 +33,7 @@ Found on Pages:
 
 
 ## Broken Link #4:
-[https://weboftrust.github.io/WOT-terms/docs/glossary/#keri-agreement-algorithm-for-control-establishment](https://weboftrust.github.io/WOT-terms/docs/glossary/#keri-agreement-algorithm-for-control-establishment)
+[https://weboftrust.github.io/WOT-terms/docs/glossary/#safety-properties](https://weboftrust.github.io/WOT-terms/docs/glossary/#safety-properties)
 
 Found on Pages:
 
@@ -42,7 +42,7 @@ Found on Pages:
 
 
 ## Broken Link #5:
-[https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID](https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID)
+[https://weboftrust.github.io/WOT-terms/docs/glossary/#keri-agreement-algorithm-for-control-establishment](https://weboftrust.github.io/WOT-terms/docs/glossary/#keri-agreement-algorithm-for-control-establishment)
 
 Found on Pages:
 
