@@ -1,5 +1,17 @@
+/**
+ * @file This file unzips a zip file to a specified destination directory.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2023-11-12
+ */
+
 import AdmZip from 'adm-zip';
 
+/**
+ * Unzips a zip file to a specified destination directory
+ * @param {*} zipFilePath 
+ * @param {*} extractToDir 
+ */
 function unzipFile(zipFilePath, extractToDir) {
     try {
         let zip = new AdmZip(zipFilePath);
