@@ -1,4 +1,4 @@
-// TODO: This is not a module, so it should be moved to somewhere else.
+// TODO: This is not a module, so it should be moved to somewhere else. (A module should have an export statement in our definition.)
 
 /**
  * @file This file creates JSON files that serve as the source for the Spec-Up document generator. It takes markdown files as input.
