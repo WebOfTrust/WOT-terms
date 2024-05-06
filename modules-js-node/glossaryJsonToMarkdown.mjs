@@ -1,20 +1,16 @@
 // TODO: This is not a module, so it should be moved to somewhere else. (A module should have an export statement in our definition.)
 
-/*
-  Author: Kor Dwarshuis
-  Created: 2024-02-09
-  Updated: -
-  Description: 
-  This module converts JSON files to markdown files.
-  It is used to convert the glossary JSON files to markdown files. 
-  The JSON files are located in the static/json/external-glosseries/glossaries
-  directory. The markdown files are saved in the 
-  static/json/external-glosseries/glossaries-to-markdown-from-json
-  directory.
-
-  Run this script from the root of the project:
-  $ node modules-js-node/glossaryJsonToMarkdown.mjs
-*/
+/**
+ * @file This file converts JSON files to markdown files.
+ * It is used to convert the glossary JSON files to markdown files. 
+ * The JSON files are located in the static/json/external-glosseries/glossaries directory.
+ * The markdown files are saved in the static/json/external-glosseries/glossaries-to-markdown-from-json directory.
+ * Run this script from the root of the project:
+ * $ node modules-js-node/glossaryJsonToMarkdown.mjs
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2024-02-09
+ */
 
 import fs from 'fs';
 import path from 'path';
