@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: clientModules/typesenseInstantSearchInit.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: clientModules/typesenseInstantSearchInit.js</h1>
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * @file This file creates the DOM elements for the Typesense search box and search results. The DOM elements for the search hits are in the main Typesense InstantSearch plugin code.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2023-05-19
+ */
+
+import paths from "../docusaurus.paths";
+
+const typesenseInstantSearchCreateDomElements = () => {
+    const domStringSearchStart = `&lt;button id="search-start">🔍&lt;/button>`;
+    const domStringSearchResult = `
+&lt;div class="search-modal-backdrop hidden">&lt;/div>
+&lt;div id="search" class="container p-3 hidden" style="max-width: 70em;">
+    &lt;h1 class="search-heading text-center fs-5">KERI Suite Search Engine (KERISSE)&lt;/h1>
+    &lt;p class='text-center'>&lt;span id='index-created-timestamp-target-search-modal'>–&lt;/span>, &lt;span
+        id='index-created-page-count-target-search-modal'>–&lt;/span>&lt;/p>
+    &lt;div id="search-box" class="mt-3 mb-2">&lt;/div>
+    &lt;div id="search-close">✖&lt;/div>
+    &lt;a href="#search-results" class="to-search-results btn btn-light btn-sm mt-3 mb-3 d-block d-md-none">
+        To search results
+    &lt;/a>
+
+    &lt;!--
+    &lt;p id="example-search-terms" class="mt-4 text-center">&lt;small>Try:
+      &lt;a role="button" class="clickable-search-term btn btn-outline-secondary btn-sm d-inline">Keri&lt;/a>
+      &lt;a role="button" class="clickable-search-term btn btn-outline-secondary btn-sm d-inline">ACDC&lt;/a>
+      &lt;a role="button" class="clickable-search-term btn btn-outline-secondary btn-sm d-inline">Trust over IP&lt;/a>
+    &lt;/p>
+    -->
+
+    &lt;ul class="nav justify-content-center">
+        &lt;li class="nav-item">
+            &lt;a target="_blank" rel="noopener" class="nav-link" href="https://keri.one/keri-resources/">KERI resources&lt;/a>
+        &lt;/li>
+        &lt;li class="nav-item">
+            &lt;a target="_blank" rel="noopener" class="nav-link" href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf">KERI Whitepaper&lt;/a>
+        &lt;/li>
+        &lt;li class="nav-item">
+            &lt;a target="_blank" rel="noopener" class="nav-link" href="https://docs.google.com/presentation/d/1lpzYcPrIox9V4hERtn4Kcf7uq01OVU9u3PuVm1aYzR0/edit#slide=id.ga411be7e84_0_0">KERI for Muggles&lt;/a>
+        &lt;/li>
+    &lt;/ul>
+    
+    &lt;div class="search-results-container container mt-3" style="z-index: 1999;">
+
+        &lt;!-- Column with refinement filters -->
+        &lt;div class="row">
+            &lt;div class="col-md-3 p-1 pt-0 column-refinement-filters">
+                &lt;div class="container border-bottom border-top mb-4 pb-2 pt-3">
+                    &lt;div class="row">
+                        &lt;div class="col p-0" style='flex-basis: 0'>
+                            &lt;!-- Something goes wrong in build phase, this is to compensate -->
+                            &lt;h2 class="">Refine&lt;/h2>
+                        &lt;/div>
+                        &lt;div class="text-end col p-0" id="clear-refinements" style='flex-basis: 0'>&lt;/div>
+                    &lt;/div>
+                &lt;/div>
+
+                &lt;div class="" id="filters-section">
+                    &lt;div id="current-refinements-list-container">
+                        &lt;h3 id="current-refinements-list-heading" class="mt-1 fs-6">Current refinements&lt;/h3>
+                        &lt;div id="current-refinements-list" class="fs-6">&lt;/div>
+                        &lt;hr>
+                    &lt;/div>
+
+                    &lt;h3 class="mt-1">Only Images&lt;/h3>
+                    &lt;div id="tag-refinement-list">&lt;/div>
+
+                    &lt;h3 class="mt-1">Category&lt;/h3>
+                    &lt;div id="category-refinement-list">&lt;/div>
+
+                    &lt;h3 class="mt-1">Source&lt;/h3>
+                    &lt;div id="source-refinement-list">&lt;/div>
+
+                    &lt;h3 class="mt-5">Author&lt;/h3>
+                    &lt;div id="author-refinement-list">&lt;/div>
+
+                    &lt;h3 class="mt-5">File type&lt;/h3>
+                    &lt;div id="media-type-refinement-list">&lt;/div>
+                    &lt;!--
+                    &lt;h3 class="mt-5">Knowledge Level&lt;/h3>
+                    &lt;div id="knowledgelevel-refinement-list">&lt;/div>
+
+                    &lt;h3 class="mt-5">Type&lt;/h3>
+                    &lt;div id="type-refinement-list">&lt;/div>
+
+                    &lt;h3 class="mt-5">Subject&lt;/h3>
+                    &lt;div id="subject-refinement-list">&lt;/div>
+                    -->
+                &lt;/div>
+            &lt;/div>
+            &lt;!-- Column with search results -->
+            &lt;div class="col-md-9 p-0 ps-md-3">
+                &lt;h2 class="text-center border-bottom border-top mb-4 pb-3 pt-3" id="search-results">Results&lt;/h2>
+                &lt;div id="hits">&lt;/div>
+                &lt;div id="pagination">&lt;/div>
+            &lt;/div>
+        &lt;/div>
+    &lt;/div>
+&lt;/div>
+  `;
+
+    // Add search to dom
+    if (document.querySelector('#search') === null) {
+        document
+            .querySelector('body')
+            .insertAdjacentHTML('afterbegin', domStringSearchResult);
+    }
+
+    // TODO: find out why check for null does not work
+    // if (document.querySelector('#search-start') === null) {
+    if (document.querySelector('#search-start')) {
+        document.querySelector('#search-start').remove();
+    }
+    document
+        .querySelector('.navbar__items--right')
+        .insertAdjacentHTML('beforeend', domStringSearchStart);
+    // }
+
+
+    /*
+       TIMESTAMP   
+ 
+       The code below Fetches HTML content from indexed-in-KERISSE on this same domain using the `fetch` API.
+       
+       It then parses the fetched HTML using `DOMParser` and queries the DOM to find a paragraph element with the id "index-created-timestamp-source".
+       
+       If the element is found, its text content is added to the search result page; otherwise, an appropriate message indicating the absence of such an element is logged.
+    */
+
+    // Fetching the HTML content
+    fetch(paths.indexedInKERISSE, {
+        headers: {
+            'Cache-Control': 'no-cache',
+            'Pragma': 'no-cache',
+            'Expires': '0'
+        }
+    })
+        .then(response => response.text())
+        .then(html => {
+            // Parsing the fetched HTML string into a DOM object
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+
+            // Finding the paragraph elements by their id's
+            const timestampElement = doc.querySelector('#index-created-timestamp-source');
+            const pageCountElement = doc.querySelector('#index-created-page-count-source');
+
+            if (timestampElement) {
+                // Extracting and logging the content of the paragraph
+                const timestampContent = timestampElement.textContent;
+                document.querySelector('#index-created-timestamp-target-search-modal').textContent = timestampContent;
+            } else {
+                console.log('Element with id "index-created-timestamp-source" not found.');
+            }
+
+            if (pageCountElement) {
+                // Extracting and logging the content of the paragraph
+                const pageCountContent = pageCountElement.textContent;
+                document.querySelector('#index-created-page-count-target-search-modal').textContent = pageCountContent;
+            } else {
+                console.log('Element with id "index-created-page-count-source" not found.');
+            }
+        })
+        .catch(error => {
+            console.error(`Error fetching the content: ${error}`);
+        });
+    // END TIMESTAMP
+
+
+
+};
+
+export function onRouteDidUpdate({ location, previousLocation }) {
+    // Don't execute if we are still on the same page; the lifecycle may be fired
+    // because the hash changes (e.g. when navigating between headings)
+    if (location.pathname === previousLocation?.pathname) return;
+    typesenseInstantSearchCreateDomElements();
+}
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-downloadFile.html">downloadFile</a></li></ul><h3>Global</h3><ul><li><a href="global.html#cleanJsonFile">cleanJsonFile</a></li><li><a href="global.html#unzipFile">unzipFile</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.2</a> on Mon May 06 2024 10:58:56 GMT+0200 (Central European Summer Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>
