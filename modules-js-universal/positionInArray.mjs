@@ -1,4 +1,11 @@
 /**
+ * @file This file returns the position of a value in the entriesIndex array.
+ * @author Kor Dwarshuis
+ * @version 1.0.0
+ * @since 2023-11-05
+ */
+
+/**
  * Returns the position of a value in the entriesIndex array.
  * @param {Array<string>} content - The content to search in.
  * @param {string} value - The value to search for in the entriesIndex array.
