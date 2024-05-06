@@ -1,3 +1,5 @@
+// TODO: This is not a module, so it should be moved to somewhere else. (A module should have an export statement in our definition.)
+
 /*
   Author: Kor Dwarshuis
   Created: 2024-02-09
