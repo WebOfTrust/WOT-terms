@@ -8,7 +8,8 @@
 import fs from 'fs/promises';
 
 /**
- * Cleans a JSON file by removing non-printable characters from string values.
+ * @module cleanJsonFile
+ * @description Cleans a JSON file by removing non-printable characters from string values.
  * @async
  * @param {string} inputFilePath - The path to the input JSON file.
  * @param {string} outputFilePath - The path to write the cleaned JSON data.
