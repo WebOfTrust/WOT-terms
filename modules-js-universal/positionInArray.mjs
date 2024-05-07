@@ -6,7 +6,8 @@
  */
 
 /**
- * Returns the position of a value in the entriesIndex array.
+ * @module positionInArray
+ * @description Returns the position of a value in the entriesIndex array.
  * @param {Array<string>} content - The content to search in.
  * @param {string} value - The value to search for in the entriesIndex array.
  * @returns {number} - The position of the value in the entriesIndex array, or -1 if not found.
