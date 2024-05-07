@@ -6,7 +6,8 @@
  */
 
 /**
- * Description: Converts string to lower case and removes special characters
+ * @module toLowerCaseAndRemoveSpecialChars
+ * @description Description: Converts string to lower case and removes special characters
  * @param {*} str 
  * @returns {string} - The string in lower case without special characters
  */
