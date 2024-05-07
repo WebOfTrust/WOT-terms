@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Module: downloadFile</title>
+    <title>JSDoc: Module: unzipFile</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Module: downloadFile</h1>
+    <h1 class="page-title">Module: unzipFile</h1>
     
 
 
@@ -37,7 +37,7 @@
     <div class="container-overview">
     
         
-            <div class="description">This module downloads a file from a given URL and saves it to a specified path on the local file system.</div>
+            <div class="description">Unzips a zip file to a specified destination directory</div>
         
 
         
@@ -78,13 +78,13 @@
 
         <tr>
             
-                <td class="name"><code>downloadUrl</code></td>
+                <td class="name"><code>zipFilePath</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">string</span>
+<span class="param-type">*</span>
 
 
             
@@ -94,20 +94,20 @@
 
             
 
-            <td class="description last">The URL of the file to download.</td>
+            <td class="description last"></td>
         </tr>
 
     
 
         <tr>
             
-                <td class="name"><code>fullPath</code></td>
+                <td class="name"><code>extractToDir</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">string</span>
+<span class="param-type">*</span>
 
 
             
@@ -117,7 +117,7 @@
 
             
 
-            <td class="description last">The full path of the file to write to.</td>
+            <td class="description last"></td>
         </tr>
 
     
@@ -158,7 +158,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="modules-js-node_downloadFile.mjs.html">modules-js-node/downloadFile.mjs</a>, <a href="modules-js-node_downloadFile.mjs.html#line11">line 11</a>
+        <a href="modules-js-node_unzipFile.mjs.html">modules-js-node/unzipFile.mjs</a>, <a href="modules-js-node_unzipFile.mjs.html#line10">line 10</a>
     </li></ul></dd>
     
 
@@ -181,59 +181,8 @@
 
 
 
-<h5>Throws:</h5>
-
-        
-
-<dl>
-    <dt>
-        <div class="param-desc">
-        An error if the file cannot be downloaded.
-        </div>
-    </dt>
-    <dd></dd>
-    <dt>
-        <dl>
-            <dt>
-                Type
-            </dt>
-            <dd>
-                
-<span class="param-type">Error</span>
 
 
-            </dd>
-        </dl>
-    </dt>
-    <dd></dd>
-</dl>
-
-
-    
-
-
-<h5>Returns:</h5>
-
-        
-<div class="param-desc">
-    A Promise that resolves when the file is downloaded and written successfully.
-</div>
-
-
-
-<dl>
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">Promise.&lt;void></span>
-
-
-    </dd>
-</dl>
-
-    
 
 
 
