@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: clientModules/dynamicTables.js</title>
+    <title>JSDoc: Source: modules-js-universal/toLowerCaseAndRemoveSpecialChars.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: clientModules/dynamicTables.js</h1>
+    <h1 class="page-title">Source: modules-js-universal/toLowerCaseAndRemoveSpecialChars.js</h1>
     
 
 
@@ -26,34 +26,20 @@
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>/**
- * @file This file makes tables filterable and sortable.
+ * @file This file converts string to lower case and removes special characters
  * @author Kor Dwarshuis
  * @version 1.0.0
- * @since 2023-03-13
+ * @since 2023-12-01
  */
 
-import { List } from './libs/list.js';
-
-const dynamicTables = () => {
-  let options = {
-    valueNames: [],
-  };
-
-  // th's in first row contain classnames that are needed for list.js config…
-  let tdClass = document.querySelectorAll('table tr:first-child td');
-  // … so we can add them to the options
-  tdClass.forEach((item) => {
-    options.valueNames.push(item.getAttribute('class'));
-  });
-
-  let list = new List('table-container', options);
-};
-
-export function onRouteDidUpdate({ location, previousLocation }) {
-  // Don't execute if we are still on the same page; the lifecycle may be fired
-  // because the hash changes (e.g. when navigating between headings)
-  // if (location.pathname === previousLocation?.pathname) return;
-  dynamicTables();
+/**
+ * @module toLowerCaseAndRemoveSpecialChars
+ * @description Description: Converts string to lower case and removes special characters
+ * @param {*} str 
+ * @returns {string} - The string in lower case without special characters
+ */
+export function toLowerCaseAndRemoveSpecialChars(str) {
+    return str.toLowerCase().replace(/[\s-_—]/g, '');
 }
 </code></pre>
         </article>
