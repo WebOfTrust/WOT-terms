@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Module: cleanJsonFile</title>
+    <title>JSDoc: Module: toLowerCaseAndRemoveSpecialChars</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Module: cleanJsonFile</h1>
+    <h1 class="page-title">Module: toLowerCaseAndRemoveSpecialChars</h1>
     
 
 
@@ -37,7 +37,7 @@
     <div class="container-overview">
     
         
-            <div class="description">Cleans a JSON file by removing non-printable characters from string values.</div>
+            <div class="description">Description: Converts string to lower case and removes special characters</div>
         
 
         
@@ -78,13 +78,13 @@
 
         <tr>
             
-                <td class="name"><code>inputFilePath</code></td>
+                <td class="name"><code>str</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">string</span>
+<span class="param-type">*</span>
 
 
             
@@ -94,30 +94,7 @@
 
             
 
-            <td class="description last">The path to the input JSON file.</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>outputFilePath</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">string</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">The path to write the cleaned JSON data.</td>
+            <td class="description last"></td>
         </tr>
 
     
@@ -158,7 +135,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="modules-js-node_cleanJson.mjs.html">modules-js-node/cleanJson.mjs</a>, <a href="modules-js-node_cleanJson.mjs.html#line10">line 10</a>
+        <a href="modules-js-universal_toLowerCaseAndRemoveSpecialChars.js.html">modules-js-universal/toLowerCaseAndRemoveSpecialChars.js</a>, <a href="modules-js-universal_toLowerCaseAndRemoveSpecialChars.js.html#line8">line 8</a>
     </li></ul></dd>
     
 
@@ -187,7 +164,7 @@
 
         
 <div class="param-desc">
-    A Promise that resolves when the JSON file is cleaned and written successfully.
+    - The string in lower case without special characters
 </div>
 
 
@@ -198,7 +175,7 @@
     </dt>
     <dd>
         
-<span class="param-type">Promise.&lt;void></span>
+<span class="param-type">string</span>
 
 
     </dd>
