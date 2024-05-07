@@ -8,7 +8,8 @@
 import AdmZip from 'adm-zip';
 
 /**
- * Unzips a zip file to a specified destination directory
+ * @module unzipFile
+ * @description Unzips a zip file to a specified destination directory
  * @param {*} zipFilePath 
  * @param {*} extractToDir 
  */
