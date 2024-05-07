@@ -3,7 +3,8 @@
         "include": [
             "clientModules",
             "maintenance",
-            "modules-js-node"
+            "modules-js-node",
+            "modules-js-universal"
         ],
         "includePattern": ".js",
         "excludePattern": "node_modules/|static/"
