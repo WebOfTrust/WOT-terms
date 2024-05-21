@@ -25,6 +25,15 @@ async function isLibraryInstalled(libraryName, command = libraryName, expectedOu
   }
 }
 
+async function isNpmPackageInstalled(packageName) {
+  try {
+    const { stdout } = await execPromisified(`npm list -g ${packageName}`);
+    return !stdout.includes('empty');
+  } catch (error) {
+    return false;
+  }
+}
+
 const messages = {
   error: ' is not installed',
   success: ' is installed'
@@ -58,7 +67,17 @@ if (!await isLibraryInstalled('curl')) {
   logger.setLogFile('error.log');
   logger.log('curl' + messages.error);
 } else {
-  console.log('curl');
+  console.log('curl' + messages.success);
   logger.setLogFile('success.log');
-  logger.log('curl');
+  logger.log('curl' + messages.success);
+}
+
+if (!await isNpmPackageInstalled('sitemap-generator-cli')) {
+  console.log('sitemap-generator-cli' + messages.error);
+  logger.setLogFile('error.log');
+  logger.log('sitemap-generator-cli' + messages.error);
+} else {
+  console.log('sitemap-generator-cli' + messages.success);
+  logger.setLogFile('success.log');
+  logger.log('sitemap-generator-cli' + messages.success);
 }
