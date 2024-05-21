@@ -7,6 +7,15 @@ source ./${SEARCH_INDEX_DIR}/logger.sh
 
 
 #########################
+# TEST IF REQUIRED LIBRARIES ARE INSTALLED
+#########################
+node "$SCRIPT_DIR/isLibraryInstalled.mjs"
+setLogFile "success.log"
+log "Testing libraries is finished (check outcome in success.log and error.log)"
+
+
+
+#########################
 # INITIALIZING
 #########################
 
