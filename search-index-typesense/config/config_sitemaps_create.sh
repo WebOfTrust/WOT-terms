@@ -11,7 +11,7 @@ source .env
 
 
 ########################################
-# General websites - createSitemap.mjs
+# General websites
 ########################################
 
 sitemap-generator https://keria.readthedocs.io --verbose -f ./search-index-typesense/sitemaps/sitemap-keria.readthedocs.io.xml
