@@ -15,17 +15,6 @@ import logger from './modules/logger.mjs';
 
 const execPromisified = util.promisify(exec);
 
-/**
- * @module isImageMagickInstalled
- * @description …
- * @author Kor Dwarshuis
- * @async
- * @param {string} foo - …
- * @param {string} bar - …
- * @returns …
- */
-
-
 async function isLibraryInstalled(libraryName, command = libraryName, expectedOutput = libraryName) {
   console.log("Testing if " + libraryName + " is installed");
   try {
