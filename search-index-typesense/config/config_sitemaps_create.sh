@@ -14,6 +14,7 @@ source .env
 # General websites
 ########################################
 
+# `sitemap-generator-cli` should be installed globally via `npm install -g sitemap-generator-cli` to run the `sitemap-generator` command.
 sitemap-generator https://keria.readthedocs.io --verbose -f ./search-index-typesense/sitemaps/sitemap-keria.readthedocs.io.xml
 
 sitemap-generator https://keripy.readthedocs.io --verbose -f ./search-index-typesense/sitemaps/sitemap-keripy.readthedocs.io.xml
