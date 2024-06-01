@@ -469,6 +469,15 @@ Much of the operation of internet infrastructure is inherently decentralized, bu
 Centralized value capture systems concentrate value and power and thereby provide both strong temptations for malicious administrators to wield that concentrated power to extract value from participants. \
 We believe that _decentralization of value transfer_ is essential to building trust. Consequently a key component for a decentralized foundation of trust is an interoperable decentralized identity system. [Source: whitepaper page 7](https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf)
 
+## \*Q: How does FIDO2 relate to KERI, can KERI be integrated into FIDO2 or the other way around?
+
+FIDO2 could be used for authentication is witnesses - OOBI.
+FIDO2 is mostly to do more secure authentication factor to federated identifiers like OIDC
+The problem is the use of barer tokens, they are vulnerable to known attacks.
+KERI AID replaces FIDO2 key pairs. KERI is better with key rotation.
+Even the blockchain-based solution did not solve key rotation in a safe way.
+Source: Sam Smith, May 2024, KERI Suite Zoom Meeting
+
 ---
 
 ## Open source licenses
