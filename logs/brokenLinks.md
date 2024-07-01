@@ -1,20 +1,10 @@
 # Broken Links Report
 
-Created: 2024-06-24T03:13:20.020Z
+Created: 2024-07-01T03:12:54.050Z
 
 Total Broken Links Found: 7
 
 ## Broken Link #1:
-[https://weboftrust.github.io/framework/docs/essifLab-principles](https://weboftrust.github.io/framework/docs/essifLab-principles)
-
-Found on Pages:
-
-- [https://weboftrust.github.io/WOT-terms/docs/dictionary](https://weboftrust.github.io/WOT-terms/docs/dictionary)
-- [https://weboftrust.github.io/WOT-terms/docs/glossaries-external/glossary-essiflab](https://weboftrust.github.io/WOT-terms/docs/glossaries-external/glossary-essiflab)
-- [https://weboftrust.github.io/WOT-terms/docs/dictionary?level=2](https://weboftrust.github.io/WOT-terms/docs/dictionary?level=2)
-
-
-## Broken Link #2:
 [https://weboftrust.github.io/WOT-terms/docs/glossary/#key-rotation](https://weboftrust.github.io/WOT-terms/docs/glossary/#key-rotation)
 
 Found on Pages:
@@ -23,7 +13,7 @@ Found on Pages:
 - [https://weboftrust.github.io/WOT-terms/docs/dictionary?level=2](https://weboftrust.github.io/WOT-terms/docs/dictionary?level=2)
 
 
-## Broken Link #3:
+## Broken Link #2:
 [https://weboftrust.github.io/WOT-terms/docs/glossary/#safety-properties](https://weboftrust.github.io/WOT-terms/docs/glossary/#safety-properties)
 
 Found on Pages:
@@ -32,8 +22,17 @@ Found on Pages:
 - [https://weboftrust.github.io/WOT-terms/docs/dictionary?level=2](https://weboftrust.github.io/WOT-terms/docs/dictionary?level=2)
 
 
-## Broken Link #4:
+## Broken Link #3:
 [https://weboftrust.github.io/WOT-terms/docs/glossary/#keri-agreement-algorithm-for-control-establishment](https://weboftrust.github.io/WOT-terms/docs/glossary/#keri-agreement-algorithm-for-control-establishment)
+
+Found on Pages:
+
+- [https://weboftrust.github.io/WOT-terms/docs/dictionary](https://weboftrust.github.io/WOT-terms/docs/dictionary)
+- [https://weboftrust.github.io/WOT-terms/docs/dictionary?level=2](https://weboftrust.github.io/WOT-terms/docs/dictionary?level=2)
+
+
+## Broken Link #4:
+[https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID](https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID)
 
 Found on Pages:
 
@@ -60,11 +59,12 @@ Found on Pages:
 
 
 ## Broken Link #7:
-[https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID](https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier-(AID)
+[https://weboftrust.github.io/framework/docs/essifLab-principles](https://weboftrust.github.io/framework/docs/essifLab-principles)
 
 Found on Pages:
 
 - [https://weboftrust.github.io/WOT-terms/docs/dictionary](https://weboftrust.github.io/WOT-terms/docs/dictionary)
 - [https://weboftrust.github.io/WOT-terms/docs/dictionary?level=2](https://weboftrust.github.io/WOT-terms/docs/dictionary?level=2)
+- [https://weboftrust.github.io/WOT-terms/docs/glossaries-external/glossary-essiflab](https://weboftrust.github.io/WOT-terms/docs/glossaries-external/glossary-essiflab)
 
 
