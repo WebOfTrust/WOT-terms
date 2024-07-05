@@ -11,7 +11,14 @@ Why should you stick to this step by step: | @kordwarshuis ?? |
 
 ## Software used
 
-We use tools such as Puppeteer and Cheerio to achieve our goal. The added value of Puppeteer is the indexing dynamically of generated content.
+The following tools are used for scraping:
+
+- Cheerio
+- Puppeteer
+
+“[Cheerio can parse nearly any HTML or XML document. Cheerio works in both browser and server environments.](https://cheerio.js.org/)”
+
+“[Puppeteer is a Node.js library which provides a high-level API to control Chrome or Firefox over the DevTools Protocol or WebDriver BiDi. Puppeteer runs in the headless (no visible UI) by default but can be configured to run in a visible ("headful") browser.](https://pptr.dev/)”
 
 ## Generating a search index: three steps
 
