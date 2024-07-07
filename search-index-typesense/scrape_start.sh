@@ -29,19 +29,19 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # PREPARING
 #########################
 
-# Prepare file system.
+# Prepare file system. Remove old files and directories and create new ones.
 setLogFile "success.log"
 log "Start preparing file system"
 source "$SCRIPT_DIR/prepare_file_system.sh"
 log "Preparing file system finished"
 
-# Copy handmade stuff.
+# Copy handmade stuff: entries for direct import into Typesense, manual files, sitemaps.
 setLogFile "success.log"
 log "Start copying manual files"
 source "$SCRIPT_DIR/copy_manual_files.sh"
 log "Copying manual files finished"
 
-# Create sitemaps.
+# Create sitemaps via sitemap-generator.
 setLogFile "success.log"
 log "Start creating sitemaps"
 source "$SCRIPT_DIR/config/config_sitemaps_create.sh"
@@ -60,7 +60,7 @@ log "Start renaming files to lowercase"
 node "${SCRIPT_DIR}/renameFilesToLowerCase.mjs" ${SEARCH_INDEX_DIR}/sitemaps
 log "Renaming files to lowercase finished"
 
-# Fetch external content.
+# Fetch external content from Google Sheets.
 setLogFile "success.log"
 log "Start fetching external content"
 node fetchExternalContent/fetchSingleUrlsFromWotTermsGoogleSheet/fetchSingleUrlsFromWotTermsGoogleSheet.js
