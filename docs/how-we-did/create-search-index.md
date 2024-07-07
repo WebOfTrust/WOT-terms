@@ -133,6 +133,26 @@ The documents we want to import have to follow a schema ([Example schema on the 
 
 More info on the [Typesense website](https://typesense.org/docs/).
 
+### More detailed steps
+
+- TEST IF REQUIRED LIBRARIES ARE INSTALLED
+- INITIALIZING
+- Get the directory where the main.sh script is located
+- PREPARING
+- Prepare file system. Remove old files and directories and create new ones.
+- Copy handmade stuff: entries for direct import into Typesense, manual files, sitemaps.
+- Create sitemaps via sitemap-generator.
+- Remove unwanted urls from the sitemaps (new sitemaps generated or not)
+- Filenames to lowercase.
+- Fetch external content from Google Sheets.
+- START SCRAPING
+- Scrape the websites.
+- Split the content.jsonl file into multiple files so the size is optimal for Typesense.
+- Count the total number of lines in all .jsonl files and write it to log dir.
+- Sort and style the index file.
+- BACKING UP
+- Backup output (scrape results, handmade stuff, sitemaps, logs, webpage overview, typesense export).
+
 ### Software used
 
 The following tools are used for scraping:
