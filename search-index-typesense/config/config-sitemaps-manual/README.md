@@ -4,4 +4,4 @@ In this directory you can place handcrafted sitemaps. They will be copied to the
 
 You are free to name the files.
 
-- slack-keri-archive.xml: this is a one time sitemap since this archive will not change anymmore.
+See slack-keri-archive.xml` as an example: this is a one time sitemap since this archive will not change anymmore.
