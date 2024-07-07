@@ -1,4 +1,4 @@
-# What does this do?
+# Information
 
 In this directory you can place handcrafted sitemaps. They will be copied to the sitemaps working dir and included as a source for the scraper bots.
 
