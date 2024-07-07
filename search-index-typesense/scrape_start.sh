@@ -49,9 +49,9 @@ log "Creating sitemaps finished"
 
 # Remove unwanted urls from the sitemaps (new sitemaps generated or not)
 setLogFile "success.log"
-log "Start extracting data"
+log "Start removing unwanted urls from sitemaps"
 node "$SCRIPT_DIR/removeURLsFromSitemap.mjs"
-log "Extracting data finished"
+log "Removing unwanted urls from sitemaps finished"
 
 
 # Filenames to lowercase.
