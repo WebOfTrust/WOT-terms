@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '⚡ Documentation',
+    title: '⚡ KERIDoc',
     Svg: require('@site/static/img/10119973341678815049.svg').default,
     description: (
       <>
-        <strong>KERISSE</strong> is a technical documentation site. You'll find information on decentralized identity technologies: KERI, ACDC and more.
+        <a href="https://weboftrust.github.io/keridoc/">KERIDoc</a>
       </>
     ),
   },
   {
-    title: '⚡ Kerisse',
-    Svg: require('@site/static/img/185139417416345278704481.svg')
+    title: '⚡ KERI Suit Glossary',
+    Svg: require('@site/static/img/9491177161682829258.svg')
       .default,
-    description: <><strong>KERISSE</strong> is the fastest way to find relevant info about Keri.</>,
+    description: (
+      <><a href="https://weboftrust.github.io/WOT-terms/">KERI Suit Glossary</a></>),
   },
   {
-    title: '⚡ Search Engine',
+    title: '⚡ Kerisse',
     Svg: require('@site/static/img/1626701221679047824.svg')
       .default,
-    description: <><strong>KERISSE</strong> is a sophisticated search engine. It searches this documentation site, AND other relevant sites.</>,
+    description: (
+      <><a href="https://weboftrust.github.io/WOT-terms/">KERISSE</a></>
+    ),
   },
-  // {
-  //   title: '⚡ Chatbot',
-  //   Svg: require('@site/static/img/5553419701679821143.svg')
-  //     .default,
-  //   description: <>You can also have a conversation with <strong>KERISSE</strong> via our chatbot. Well informed, polite and patient.</>,
-  // },
 ];
 
 function Feature({ Svg, title, description }) {
