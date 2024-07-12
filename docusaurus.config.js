@@ -160,12 +160,12 @@ const config = {
             label: 'Feedback',
             position: 'left',
           },
-          {
-            to: 'https://weboftrust.github.io/WOT-terms/slack/html/',
-            label: 'Slack history',
-            target: '_self',
-            position: 'left'
-          },
+          // {
+          //   to: 'https://weboftrust.github.io/WOT-terms/slack/html/',
+          //   label: 'Slack history',
+          //   target: '_self',
+          //   position: 'left'
+          // },
           {
             href: 'https://weboftrust.github.io/kerisse/',
             label: 'Kerisse',
