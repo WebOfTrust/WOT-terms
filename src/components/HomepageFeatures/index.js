@@ -24,7 +24,7 @@ const FeatureList = [
     Svg: require('@site/static/img/1626701221679047824.svg')
       .default,
     description: (
-      <><a href="https://weboftrust.github.io/WOT-terms/">KERISSE</a></>
+      <><a href="https://weboftrust.github.io/kerisse/">KERISSE</a></>
     ),
   },
 ];
