@@ -12,9 +12,6 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <p className="p-1">
-          <IndexedInfo />
-        </p>
         <h1 className="hero__title">{siteConfig.title}</h1>
         <img
           className="hero__image"
@@ -25,7 +22,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro/intro"
+            to="/docs/category/glossary"
           >
             START
           </Link>
@@ -44,7 +41,7 @@ export default function Home() {
     >
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        {/* <HomepageFeatures /> */}
       </main>
     </Layout>
   );

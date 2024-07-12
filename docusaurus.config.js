@@ -9,9 +9,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'KERISSE.org',
+  title: 'KERI Suite Glossary',
   tagline:
-    'KERI Suite Search Engine',
+    'KERI Suite Glossary',
   url: paths.url,
   baseUrl: paths.baseUrl,
   onBrokenLinks: 'warn',//'ignore' | 'log' | 'warn' | 'throw'
@@ -97,24 +97,24 @@ const config = {
         autoCollapseCategories: true,
       },
       navbar: {
-        title: 'KERISSE',
+        title: 'KERI Suite Glossary',
         logo: {
-          alt: 'KERISSE Logo',
+          alt: 'KERI Suite Glossary Logo',
           src: 'img/stamp.png',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro/intro',
-            position: 'left',
-            label: 'Documentation',
-          },
-          {
-            type: 'doc',
-            docId: 'how-we-did/cheat-sheet-writing-page',
-            position: 'left',
-            label: 'For contributors to this website',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro.md',
+          //   position: 'left',
+          //   label: 'Documentation',
+          // },
+          // // {
+          //   type: 'doc',
+          //   docId: 'how-we-did/cheat-sheet-writing-page',
+          //   position: 'left',
+          //   label: 'For contributors to this website',
+          // },
           // //TODO: remove when not used anymore
           // {
           //   to: 'docs/concepts/how-to/intro',
@@ -190,30 +190,30 @@ const config = {
           {
             title: 'Docs',
             items: [
-              {
-                label: 'Documentation',
-                to: '/docs/intro/intro',
-              },
-              {
-                label: 'Concepts',
-                to: '/docs/category/concepts',
-              },
-              {
-                label: 'Education',
-                to: '/docs/category/education',
-              },
-              {
-                label: 'Resources',
-                to: '/docs/category/resources',
-              },
+              // {
+              //   label: 'Documentation',
+              //   to: '/docs/intro/intro',
+              // },
+              // // {
+              //   label: 'Concepts',
+              //   to: '/docs/category/concepts',
+              // },
+              // {
+              //   label: 'Education',
+              //   to: '/docs/category/education',
+              // },
+              // {
+              //   label: 'Resources',
+              //   to: '/docs/category/resources',
+              // },
               {
                 label: 'Glossary',
                 to: '/docs/category/glossary',
               },
-              {
-                label: 'How we did',
-                to: '/docs/category/how-we-did',
-              },
+              // {
+              //   label: 'How we did',
+              //   to: '/docs/category/how-we-did',
+              // },
             ],
           },
           {
@@ -343,24 +343,24 @@ const config = {
     //  */
   ],
   clientModules: [
-    require.resolve('./clientModules/typesenseInstantSearchInit.js'),// Typesense InstantSearch Plugin
-    require.resolve('./clientModules/typesenseInstantSearch.js'),// Typesense InstantSearch Plugin
+    // require.resolve('./clientModules/typesenseInstantSearchInit.js'),// Typesense InstantSearch Plugin
+    // require.resolve('./clientModules/typesenseInstantSearch.js'),// Typesense InstantSearch Plugin
     require.resolve('./clientModules/showLevels'),
-    require.resolve('./clientModules/insertVideo'),
-    require.resolve('./clientModules/insertSubtitles'),
-    require.resolve('./clientModules/dynamicTables'),
+    // require.resolve('./clientModules/insertVideo'),
+    // require.resolve('./clientModules/insertSubtitles'),
+    // require.resolve('./clientModules/dynamicTables'),
     require.resolve('./clientModules/elementGoFullScreen'),
-    require.resolve('./clientModules/horizontalScrollHint'),
+    // require.resolve('./clientModules/horizontalScrollHint'),
     require.resolve('./clientModules/showDefinitionsPopUpOnClick'),
-    require.resolve('./clientModules/writeChanges'),
+    // require.resolve('./clientModules/writeChanges'),
     require.resolve('./clientModules/addDataTypes'),
     require.resolve('./clientModules/showGPTsummary'),
-    require.resolve('./clientModules/typesenseHandleSearchModal'),
-    require.resolve('./clientModules/scrollHorizontallyToKeyWordInSearchResults'),
+    // require.resolve('./clientModules/typesenseHandleSearchModal'),
+    // require.resolve('./clientModules/scrollHorizontallyToKeyWordInSearchResults'),
     require.resolve('./clientModules/imageFullSize'),
     require.resolve('./clientModules/upvoteSearchResult'),
     require.resolve('./clientModules/findMentalModelMatches'),
-    require.resolve('./clientModules/fetchFormsColumnFromWotTerms'),
+    // require.resolve('./clientModules/fetchFormsColumnFromWotTerms'),
     require.resolve('./clientModules/addUiToSidebar'),
     require.resolve('./clientModules/createLinkToWikiPage'),
     require.resolve('./clientModules/fetchCommitHash')
