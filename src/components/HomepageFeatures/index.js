@@ -13,11 +13,11 @@ const FeatureList = [
     ),
   },
   {
-    title: '⚡ KERI Suit Glossary',
+    title: '⚡ KERI Suite Glossary',
     Svg: require('@site/static/img/9491177161682829258.svg')
       .default,
     description: (
-      <><a href="https://weboftrust.github.io/WOT-terms/">KERI Suit Glossary</a></>),
+      <><a href="https://weboftrust.github.io/WOT-terms/">KERI Suite Glossary</a></>),
   },
   {
     title: '⚡ Kerisse',
