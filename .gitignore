@@ -20,11 +20,11 @@ yarn-debug.log*
 yarn-error.log*
 
 # logs
-search-index-typesense/search-index-entries/*
-search-index-typesense/logs/*
-search-index-typesense/sitemaps/*
-search-index-typesense/overrides/overridesID.json
-search-index-typesense/singleUrlsFromWotTermsGoogleSheet/*
+_search-index-typesense/search-index-entries/*
+_search-index-typesense/logs/*
+_search-index-typesense/sitemaps/*
+_search-index-typesense/overrides/overridesID.json
+_search-index-typesense/singleUrlsFromWotTermsGoogleSheet/*
 .history
 # media
 # *.mp4
