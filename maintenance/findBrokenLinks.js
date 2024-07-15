@@ -23,6 +23,7 @@ const path = require('path');
 
 const siteUrl = 'https://weboftrust.github.io/WOT-terms';
 const baseUrl = 'https://weboftrust.github.io';
+const repoName = 'WOT-terms';
 
 const outputDirectory = path.join(__dirname, '../logs');
 const outputFileName = 'brokenLinks.md';
@@ -124,7 +125,7 @@ const siteChecker = new SiteChecker({
 
         octokit.request('POST /repos/WebOfTrust/WOT-terms/issues', {
             owner: 'WebOfTrust',
-            repo: 'WOT-terms',
+            repo: repoName,
             title: issueData.title,
             body: issueData.body,
             // labels: [
