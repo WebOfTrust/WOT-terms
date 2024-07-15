@@ -172,13 +172,19 @@ const config = {
           //   position: 'left'
           // },
           {
-            href: 'https://weboftrust.github.io/kerisse/',
-            label: 'Kerisse',
+            href: 'https://weboftrust.github.io/keridoc/',
+            label: 'Keridoc',
             position: 'right',
           },
           {
-            href: 'https://weboftrust.github.io/keridoc/',
-            label: 'Keridoc',
+            href: '/docs/category/glossary',
+            label: 'KERI Suit Glossary',
+            position: 'right',
+          },
+
+          {
+            href: 'https://weboftrust.github.io/kerisse/',
+            label: 'Kerisse',
             position: 'right',
           },
 
