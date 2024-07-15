@@ -121,7 +121,7 @@ const config = {
           // },
           {
             href: 'https://weboftrust.github.io/keridoc/',
-            label: 'Keridoc',
+            label: 'KERIdoc',
             position: 'right',
           },
           {
