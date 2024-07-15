@@ -97,7 +97,7 @@ const config = {
         autoCollapseCategories: true,
       },
       navbar: {
-        title: 'KERI Suite Glossary',
+        title: 'Home',
         logo: {
           alt: 'KERI Suite Glossary Logo',
           src: 'img/stamp.png',
@@ -155,6 +155,11 @@ const config = {
           //     }
           //   ],
           // },
+          {
+            href: '/docs/category/glossary',
+            label: 'Enter glossary',
+            position: 'left',
+          },
           {
             href: '/feedback',
             label: 'Feedback',
