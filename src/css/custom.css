@@ -13,9 +13,24 @@ html {
 }
 
 
+/*
+KERI colors:
+#62783E
+#B4D070
+#A1C64D
+*/
+
+a {
+  color: #62783E;
+}
+
+a:hover {
+  color: #B4D070;
+}
+
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #337dbe;
+  --ifm-color-primary: #62783E;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -67,7 +82,7 @@ html {
 }
 
 .hero {
-  background: #337dbe;
+  background: #62783E;
 }
 
 .hero__image {
@@ -435,7 +450,7 @@ table td:nth-child(8) {
 }
 
 .search-heading {
-  background-image: url("/img/stamp.png");
+  background-image: url("/img/logo-keri-symbol.png");
   background-position: left top;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -649,7 +664,7 @@ table td:nth-child(8) {
 }
 
 .card-header.kerisse {
-  background-image: url("/img/stamp.png");
+  background-image: url("/img/logo-keri-symbol.png");
 }
 
 .card-header.gleif,
