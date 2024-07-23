@@ -5,6 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: '⚡ KERIDoc',
+    subtitle: 'doc.kerisse.org',
     Svg: require('@site/static/img/10119973341678815049.svg').default,
     description: (
       <></>
@@ -13,6 +14,7 @@ const FeatureList = [
   },
   {
     title: '⚡ KERI Suite Glossary',
+    subtitle: 'glossary.kerisse.org',
     Svg: require('@site/static/img/9491177161682829258.svg')
       .default,
     description: (
@@ -21,6 +23,7 @@ const FeatureList = [
   },
   {
     title: '⚡ Kerisse',
+    subtitle: 'search.kerisse.org',
     Svg: require('@site/static/img/1626701221679047824.svg')
       .default,
     description: (
@@ -30,7 +33,8 @@ const FeatureList = [
   },
 ];
 
-function Feature({ Svg, title, description, url }) {
+
+function Feature({ Svg, title, subtitle, description, url }) {
   return (
     (
       <div className={clsx('col col--4')}>
@@ -40,6 +44,7 @@ function Feature({ Svg, title, description, url }) {
           </div>
           <div className="margin-top--lg text--center padding-horiz--md">
             <h3>{title}</h3>
+            <p>{subtitle}</p>
             <p>{description}</p>
           </div>
         </a>
@@ -47,6 +52,7 @@ function Feature({ Svg, title, description, url }) {
     )
   );
 }
+
 
 export default function HomepageFeatures() {
   return (
