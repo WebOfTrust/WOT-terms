@@ -1,7 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;fill-rule:evenodd;clip-rule:evenodd" viewBox="0 0 512 512">
     <defs>
         <style>
-      .fil1{fill:#337DBE !important}
+            .fil1 {
+                fill: #B4D070 !important
+            }
         </style>
     </defs>
     <g id="Layer_x0020_1">
