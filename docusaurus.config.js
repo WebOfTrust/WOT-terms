@@ -100,7 +100,7 @@ const config = {
         title: 'Home',
         logo: {
           alt: 'KERI Suite Glossary Logo',
-          src: 'img/stamp.png',
+          src: 'img/logo-keri-symbol.png',
         },
         items: [
           {
