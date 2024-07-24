@@ -194,7 +194,10 @@ const config = {
                 label: 'KERIDoc',
                 href: 'https://weboftrust.github.io/keridoc/',
               },
-
+              {
+                label: 'Kerific Browser Extension',
+                href: 'https://chromewebstore.google.com/detail/kerific/ckbmkbbmnfbeecfmoiohobcdmopekgmp',
+              },
             ],
           },
         ],
