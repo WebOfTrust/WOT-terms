@@ -10,8 +10,7 @@ const imageFullSize = () => {
   const imageFullSizeClass = 'image-full-page';
 
   // All images get a click event listener via event delegation
-  const markdownElement = document.querySelector('body');
-  // const markdownElement = document.querySelector('.markdown');
+  const markdownElement = document.querySelector('article');
 
   function removeContainer() {
     let container = document.querySelector('.image-container-full-page');
@@ -77,8 +76,6 @@ const imageFullSize = () => {
   }
 };
 
-if (typeof window !== 'undefined') {// should run on client only
-  document.addEventListener('DOMContentLoaded', (event) => {
-    imageFullSize();
-  });
+export function onRouteDidUpdate({ location, previousLocation }) {
+  imageFullSize();
 }
