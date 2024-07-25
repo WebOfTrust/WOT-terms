@@ -200,6 +200,23 @@ const config = {
               },
             ],
           },
+          {
+            title: 'Important resources',
+            items: [
+              {
+                label: 'KERI for Muggles',
+                href: 'https://docs.google.com/presentation/d/1lpzYcPrIox9V4hERtn4Kcf7uq01OVU9u3PuVm1aYzR0/edit#slide=id.ga411be7e84_0_0',
+              },
+              {
+                label: 'KERI Resources',
+                href: 'https://keri.one/keri-resources/',
+              },
+              {
+                label: 'KERI Whitepaper',
+                href: 'https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf',
+              }
+            ],
+          }
         ],
         // copyright: `Copyright © ${new Date().getFullYear()} Web Of Trust.`,
       },
