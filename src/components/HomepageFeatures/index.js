@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '⚡ KERIDoc',
+    title: '⚡ KERI Suite Documentation',
     subtitle: 'doc.kerisse.org',
     Svg: require('@site/static/img/10119973341678815049.svg').default,
     description: (
@@ -22,7 +22,7 @@ const FeatureList = [
     url: 'https://weboftrust.github.io/WOT-terms/'
   },
   {
-    title: '⚡ Kerisse',
+    title: '⚡ KERI Suite Search Engine',
     subtitle: 'search.kerisse.org',
     Svg: require('@site/static/img/1626701221679047824.svg')
       .default,
