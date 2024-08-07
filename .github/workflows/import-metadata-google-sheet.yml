@@ -2,7 +2,7 @@
 
 name: Import metadata from Google Sheets
 on:
-  # A: Triggered on push to the main branch:
+  ## A: Triggered on push to the main branch:
   # push:
   #   branches:
   #     - main
@@ -12,6 +12,9 @@ on:
   
   ## C: Triggered on Wiki changes:
   # gollum
+
+  ## D: Triggered by a workflow call:
+  workflow_call:
 
 jobs:
   deploy:

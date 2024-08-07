@@ -13,6 +13,9 @@ on:
   ## C: Triggered on Wiki changes:
   # gollum
 
+  ## D: Triggered by a workflow call:
+  workflow_call:
+
 jobs:
   deploy:
     name: Import external glossaries
