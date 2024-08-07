@@ -13,28 +13,16 @@ on:
   # gollum
 jobs:
   call-action1:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Import Wiki
-        uses: ./.github/workflows/import-wiki.yml
+    uses: ./.github/workflows/import-wiki.yml
 
   call-action2:
     needs: call-action1
-    runs-on: ubuntu-latest
-    steps:
-      - name: Import metadata from Google Sheet
-        uses: ./.github/workflows/import-metadata-google-sheet.yml
+    uses: ./.github/workflows/import-metadata-google-sheet.yml
 
   call-action3:
     needs: call-action2
-    runs-on: ubuntu-latest
-    steps:
-      - name: Import external glossaries
-        uses: ./.github/workflows/import-external-glossaries.yml
+    uses: ./.github/workflows/import-external-glossaries.yml
 
   call-action4:
     needs: call-action3
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        uses: ./.github/workflows/deploy-to-gh-pages.yml
+    uses: ./.github/workflows/deploy-to-gh-pages.yml
