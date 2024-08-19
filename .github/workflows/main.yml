@@ -18,6 +18,10 @@ jobs:
   call-action2:
     needs: call-action1
     uses: ./.github/workflows/import-metadata-google-sheet.yml
+    secrets:
+      TERMS_WOT_MANAGE_JSON_ENDPOINT: ${{ secrets.TERMS_WOT_MANAGE_JSON_ENDPOINT }}
+      GENERIC_SCRAPER_JSON_ENDPOINT: ${{ secrets.GENERIC_SCRAPER_JSON_ENDPOINT }}
+      ANNOTATED_COPIES_JSON_ENDPOINT: ${{ secrets.ANNOTATED_COPIES_JSON_ENDPOINT }}
 
   call-action3:
     needs: call-action2

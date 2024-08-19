@@ -15,6 +15,13 @@ on:
 
   ## D: Triggered by a workflow call:
   workflow_call:
+    secrets:
+      TERMS_WOT_MANAGE_JSON_ENDPOINT:
+        required: true
+      GENERIC_SCRAPER_JSON_ENDPOINT:
+        required: true
+      ANNOTATED_COPIES_JSON_ENDPOINT:
+        required: true
 
 jobs:
   deploy:
