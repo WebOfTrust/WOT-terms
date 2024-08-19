@@ -26,7 +26,15 @@ jobs:
   call-action3:
     needs: call-action2
     uses: ./.github/workflows/import-external-glossaries.yml
+    secrets:
+      TERMS_WOT_MANAGE_JSON_ENDPOINT: ${{ secrets.TERMS_WOT_MANAGE_JSON_ENDPOINT }}
+      GENERIC_SCRAPER_JSON_ENDPOINT: ${{ secrets.GENERIC_SCRAPER_JSON_ENDPOINT }}
+      ANNOTATED_COPIES_JSON_ENDPOINT: ${{ secrets.ANNOTATED_COPIES_JSON_ENDPOINT }}
 
   call-action4:
     needs: call-action3
     uses: ./.github/workflows/deploy-to-gh-pages.yml
+    secrets:
+      TERMS_WOT_MANAGE_JSON_ENDPOINT: ${{ secrets.TERMS_WOT_MANAGE_JSON_ENDPOINT }}
+      GENERIC_SCRAPER_JSON_ENDPOINT: ${{ secrets.GENERIC_SCRAPER_JSON_ENDPOINT }}
+      ANNOTATED_COPIES_JSON_ENDPOINT: ${{ secrets.ANNOTATED_COPIES_JSON_ENDPOINT }}
