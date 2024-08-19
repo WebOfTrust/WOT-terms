@@ -13,16 +13,16 @@ on:
   # gollum
 jobs:
   call-action1:
-    uses: ./import-wiki.yml
+    uses: ./.github/workflows/import-wiki.yml
 
   call-action2:
     needs: call-action1
-    uses: ./import-metadata-google-sheet.yml
+    uses: ./.github/workflows/import-metadata-google-sheet.yml
 
   call-action3:
     needs: call-action2
-    uses: ./import-external-glossaries.yml
+    uses: ./.github/workflows/import-external-glossaries.yml
 
   call-action4:
     needs: call-action3
-    uses: ./deploy-to-gh-pages.yml
+    uses: ./.github/workflows/deploy-to-gh-pages.yml
