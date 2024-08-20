@@ -11,6 +11,7 @@ on:
   
   ## C: Triggered on Wiki changes:
   # gollum
+
 jobs:
   call-action1:
     uses: ./.github/workflows/import-wiki.yml
@@ -19,24 +20,45 @@ jobs:
       GENERIC_SCRAPER_JSON_ENDPOINT: ${{ secrets.GENERIC_SCRAPER_JSON_ENDPOINT }}
       ANNOTATED_COPIES_JSON_ENDPOINT: ${{ secrets.ANNOTATED_COPIES_JSON_ENDPOINT }}
 
-  call-action2:
+  pause-after-action1:
     needs: call-action1
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pause for 10 seconds
+        run: sleep 10
+
+  call-action2:
+    needs: pause-after-action1
     uses: ./.github/workflows/import-metadata-google-sheet.yml
     secrets:
       TERMS_WOT_MANAGE_JSON_ENDPOINT: ${{ secrets.TERMS_WOT_MANAGE_JSON_ENDPOINT }}
       GENERIC_SCRAPER_JSON_ENDPOINT: ${{ secrets.GENERIC_SCRAPER_JSON_ENDPOINT }}
       ANNOTATED_COPIES_JSON_ENDPOINT: ${{ secrets.ANNOTATED_COPIES_JSON_ENDPOINT }}
 
-  call-action3:
+  pause-after-action2:
     needs: call-action2
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pause for 10 seconds
+        run: sleep 10
+
+  call-action3:
+    needs: pause-after-action2
     uses: ./.github/workflows/import-external-glossaries.yml
     secrets:
       TERMS_WOT_MANAGE_JSON_ENDPOINT: ${{ secrets.TERMS_WOT_MANAGE_JSON_ENDPOINT }}
       GENERIC_SCRAPER_JSON_ENDPOINT: ${{ secrets.GENERIC_SCRAPER_JSON_ENDPOINT }}
       ANNOTATED_COPIES_JSON_ENDPOINT: ${{ secrets.ANNOTATED_COPIES_JSON_ENDPOINT }}
 
-  call-action4:
+  pause-after-action3:
     needs: call-action3
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pause for 10 seconds
+        run: sleep 10
+
+  call-action4:
+    needs: pause-after-action3
     uses: ./.github/workflows/deploy-to-gh-pages.yml
     secrets:
       TERMS_WOT_MANAGE_JSON_ENDPOINT: ${{ secrets.TERMS_WOT_MANAGE_JSON_ENDPOINT }}
