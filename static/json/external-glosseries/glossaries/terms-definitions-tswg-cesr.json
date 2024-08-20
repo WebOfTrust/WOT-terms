@@ -3,7 +3,7 @@
     "organisation": "TSWG (CESR)",
     "url": "https://trustoverip.github.io/tswg-cesr-specification/index.html",
     "term": "Autonomic Identifier (AID)",
-    "definition": "a self-managing cryptonymous identifier that must be self-certifying (self-authenticating) and must be encoded in CESR as a qualified Cryptographic Primitive.",
+    "definition": "a self-managing cryptonymous identifier that shall be self-certifying (self-authenticating) and shall be encoded in CESR as a qualified Cryptographic Primitive.",
     "anchor": "AutonomicIdentifier(AID)"
   },
   {
@@ -66,7 +66,7 @@
     "organisation": "TSWG (CESR)",
     "url": "https://trustoverip.github.io/tswg-cesr-specification/index.html",
     "term": "Primitive",
-    "definition": "a serialization of a unitary value.  All Primitives in KERI must be expressed in CESR.",
+    "definition": "a serialization of a unitary value.  All Primitives in KERI shall be expressed in CESR.",
     "anchor": "Primitive"
   },
   {
