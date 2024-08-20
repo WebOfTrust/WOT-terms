@@ -71,6 +71,10 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
+          # Fetch latest changes and reset
+          git fetch origin main
+          git reset --hard origin/main
+
           git add -A
 
           echo "Status after git add:"
