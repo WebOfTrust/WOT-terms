@@ -105,6 +105,9 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
+          # Pull the latest changes from the repository
+          git pull origin main
+
           git add -A
 
           echo "Status after git add:"
