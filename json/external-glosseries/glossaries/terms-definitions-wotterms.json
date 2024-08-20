@@ -1,6 +1,13 @@
 [
   {
     "organisation": "WebOfTrust",
+    "term": "abandoned identifier",
+    "url": "https://kerisse.org",
+    "anchor": "abandoned-identifier",
+    "definition": "<h1>abandoned identifier</h1><h4>Definition</h4><p>An <a href=\"AID\">AID</a> is abandoned when either the <a href=\"inception-event\">Inception</a> or a subsequent <a href=\"rotation-event\">Rotation event</a> rotates to an empty next key digest list (which means the next threshold must also be 0).</p><p>When an AID is abandoned, <code>ndigers</code> is zero (empty next key digest list ), so any event after the event that made it nontransferable is not accepted.</p><p>So more on the <a href=\"https://github.com/WebOfTrust/keripy/discussions/821\">Keripy github discussion page</a></p>"
+  },
+  {
+    "organisation": "WebOfTrust",
     "term": "access controlled interaction",
     "url": "https://kerisse.org",
     "anchor": "access-controlled-interaction",
@@ -365,6 +372,13 @@
   },
   {
     "organisation": "WebOfTrust",
+    "term": "canonicalization",
+    "url": "https://kerisse.org",
+    "anchor": "canonicalization",
+    "definition": "<h1>canonicalization</h1><h4>Definition</h4><p>In computer science, canonicalization (sometimes standardization or <a href=\"https://en.wikipedia.org/wiki/Normalization_(statistics)\">normalization</a>) is a process for converting data that has more than one possible representation into a &quot;standard,&quot; &quot;normal,&quot; or <a href=\"https://en.wikipedia.org/wiki/Canonical_form\">canonical form</a>.<br>This can be done to compare different representations for equivalence, to count the number of distinct data structures, to improve the efficiency of various algorithms by eliminating repeated calculations, or to make it possible to impose a meaningful sorting order.</p><p>More on source <a href=\"https://en.wikipedia.org/wiki/Canonicalization\">Wikipedia</a></p>"
+  },
+  {
+    "organisation": "WebOfTrust",
     "term": "CBOR",
     "url": "https://kerisse.org",
     "anchor": "CBOR",
@@ -544,6 +558,13 @@
     "url": "https://kerisse.org",
     "anchor": "configuration-files",
     "definition": "<h1>configuration files</h1><h4>Definition</h4><p>In <a href=\"https://en.wikipedia.org/wiki/Computing\">computing</a>, configuration files (commonly known simply as config files) are <a href=\"https://en.wikipedia.org/wiki/Computer_file\">files</a> used to configure the <a href=\"https://en.wikipedia.org/wiki/Parameter_(computer_programming)\">parameters</a> and <a href=\"https://en.wikipedia.org/wiki/Initialization_(programming)\">initial settings</a> for some <a href=\"https://en.wikipedia.org/wiki/Computer_program\">computer programs</a>. They are used for user <a href=\"https://en.wikipedia.org/wiki/Application_software\">applications</a>, <a href=\"https://en.wikipedia.org/wiki/Server_(computing)\">server processes</a> and <a href=\"https://en.wikipedia.org/wiki/Operating_system\">operating system</a> settings.</p><p>More on source <a href=\"https://en.wikipedia.org/wiki/Configuration_file\">Wikipedia</a></p>"
+  },
+  {
+    "organisation": "WebOfTrust",
+    "term": "configuration traits",
+    "url": "https://kerisse.org",
+    "anchor": "configuration-traits",
+    "definition": "<h1>configuration traits</h1><h4>Definition</h4><p>A list of specially defined strings representing a configuration of a <a href=\"key-event-log\">KEL</a>.</p>"
   },
   {
     "organisation": "WebOfTrust",
@@ -2955,10 +2976,17 @@
   },
   {
     "organisation": "WebOfTrust",
+    "term": "self authenticating",
+    "url": "https://kerisse.org",
+    "anchor": "self-authenticating",
+    "definition": "<h1>self authenticating</h1><h4>See</h4><p><a href=\"self-certifying-identifier\">self-certifying</a></p>"
+  },
+  {
+    "organisation": "WebOfTrust",
     "term": "self certifying identifier",
     "url": "https://kerisse.org",
     "anchor": "self-certifying-identifier",
-    "definition": "<h1>self certifying identifier</h1><h4>Definition</h4><p>A Self-Certifying Identifier (SCID) cryptographically binds an identifier to a public and private key pair. It is an identifier that can be proven to be the one and only identifier tied to a public key using cryptography alone.</p><h4>Signing</h4><p>A <a href=\"controller\">controller</a> issues an own Identifier by binding a generated public private key pair to an identifier. After this a controller is able to sign the identifier and create a certificate. Also called a <em>cryptonym</em>. The simplest form of a self-certifying identifier includes either the public key or a unique fingerprint of the public key as a <a href=\"prefix\">prefix</a> in the identifier.</p><h4>Important SCID properties:</h4><ul><li>Self-contained secure cryptographic <a href=\"root-of-trust\">root-of-trust</a></li><li>Decentralized control via <a href=\"PKI\">private key management</a></li><li>Universally unique identifiers</li></ul><h4>Related to KERI</h4><p>A self-certifying identifier (SCID) is a type of <a href=\"cryptonym\">cryptonym</a> that is uniquely cryptographically derived from the public key of an asymmetric non-repudiable signing keypair, (public, private).<br>It is self-certifying or more precisely <strong>self-authenticating</strong> because it does not rely on a trusted entity. The <a href=\"authenticity\">authenticity</a> of a non-repudiable signature made with the private key may be verified by extracting the public key from either the identifier itself or incepting information uniquely associated with the cryptographic derivation process for the identifier. In a <em>basic SCID</em>, the mapping between an identifier and its controlling public key is self-contained in the identifier itself. A basic SCID is <a href=\"ephemeral\">ephemeral</a> i.e. it does not support <a href=\"rotation\">rotation</a> of its keypairs in the event of key weakness or compromise and therefore must be abandoned once the controlling private key becomes weakened or compromised from exposure.</p>"
+    "definition": "<h1>self certifying identifier</h1><h4>Definition</h4><p>A Self-Certifying Identifier (SCID) cryptographically binds an identifier to one or more public/private key pairs. It is an identifier that can be proven to be the one and only identifier tied to a public key using cryptography alone.</p><h4>Signing</h4><p>A <a href=\"controller\">controller</a> issues an own Identifier by binding a generated public private key pair to an identifier. After this a controller is able to sign the identifier and create a certificate. Also called a <em>cryptonym</em>. The simplest form of a self-certifying identifier includes either the public key or a unique fingerprint of the public key as a <a href=\"prefix\">prefix</a> in the identifier.</p><h4>Important SCID properties:</h4><ul><li>Self-contained secure cryptographic <a href=\"root-of-trust\">root-of-trust</a></li><li>Decentralized control via <a href=\"PKI\">private key management</a></li><li>Universally unique identifiers</li></ul><h4>Related to KERI</h4><p>A self-certifying identifier (SCID) is a type of <a href=\"cryptonym\">cryptonym</a> that is uniquely cryptographically derived from the public key of an asymmetric non-repudiable signing keypair, (public, private).<br>It is self-certifying or more precisely <strong>self-authenticating</strong> because it does not rely on a trusted entity. The <a href=\"authenticity\">authenticity</a> of a non-repudiable signature made with the private key may be verified by extracting the public key from either the identifier itself or incepting information uniquely associated with the cryptographic derivation process for the identifier. In a <em>basic SCID</em>, the mapping between an identifier and its controlling public key is self-contained in the identifier itself. A basic SCID is <a href=\"ephemeral\">ephemeral</a> i.e. it does not support <a href=\"rotation\">rotation</a> of its keypairs in the event of key weakness or compromise and therefore must be abandoned once the controlling private key becomes weakened or compromised from exposure.</p>"
   },
   {
     "organisation": "WebOfTrust",
@@ -3148,6 +3176,13 @@
     "url": "https://kerisse.org",
     "anchor": "stale-key",
     "definition": "<h1>stale key</h1><h4>Definition</h4><p>A stale key is an outdated or expired encryption key that should no longer be used for securing data</p><h4>Also see</h4><p><a href=\"stale-event\">Stale (key) event</a></p>"
+  },
+  {
+    "organisation": "WebOfTrust",
+    "term": "streamer",
+    "url": "https://kerisse.org",
+    "anchor": "streamer",
+    "definition": "<h1>streamer</h1><h4>Definition</h4><p> A convenience class for supporting stream parsing, including nested (tunneled, encrypted) CESR streams. Streams can be a mixture/combination of different primitives, including other streams. A stream is a concatenation of primitives.</p><p>It is akin to a cryptographic primitive yet is not a cryptographic primitive itself. </p><p>It supports <a href=\"ESSR\">ESSR</a> by making it easier to handle tunneled streams.<br>Source: Kent Bull in chat Zoom meeting KERI Aug 6, 2024.</p>"
   },
   {
     "organisation": "WebOfTrust",
