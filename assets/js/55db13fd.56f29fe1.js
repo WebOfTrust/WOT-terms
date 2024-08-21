@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwot_terms_docusaurus=self.webpackChunkwot_terms_docusaurus||[]).push([[67017],{71094:s=>{s.exports=JSON.parse('{"title":"Glossary","description":"Web of Trust Glossary.","slug":"/category/glossary","permalink":"/WOT-terms/docs/category/glossary","navigation":{"next":{"title":"ACDC","permalink":"/WOT-terms/docs/glossary/ACDC"}}}')}}]);
