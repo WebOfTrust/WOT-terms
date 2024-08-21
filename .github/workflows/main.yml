@@ -12,6 +12,9 @@ on:
   ## C: Triggered on Wiki changes:
   # gollum
 
+permissions:
+  contents: write
+
 jobs:
   call-action1:
     uses: ./.github/workflows/import-wiki.yml
