@@ -61,6 +61,15 @@ jobs:
       ##############################
 
 
+      
+      ##############################
+      - name: Pull
+        run: |
+          git pull
+          echo $RANDOM > import-external-glossaries.txt
+      ##############################
+
+      
 
       ##############################
       - name: Commit and push the changes after fetching content from various external sources

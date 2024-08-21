@@ -96,6 +96,17 @@ jobs:
 
           node maintenance/fixDashInWikiCopyFilenames.js
 
+
+
+      ##############################
+      - name: Pull
+        run: |
+          git pull
+          echo $RANDOM > import-wiki.txt
+      ##############################
+
+
+
       ##############################
       - name: Commit and push the changes after fetching content from various external sources
         run: |
