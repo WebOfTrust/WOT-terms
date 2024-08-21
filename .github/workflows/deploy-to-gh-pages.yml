@@ -69,6 +69,15 @@ jobs:
 
 
       ##############################
+      - name: Pull
+        run: |
+          git pull
+          echo $RANDOM > deploy-to-gh-pages.txt
+      ##############################
+
+
+
+      ##############################
       - name: Commit and push the changes
         run: |
           echo "Initial status:"
