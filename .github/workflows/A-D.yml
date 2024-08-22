@@ -31,7 +31,7 @@ jobs:
       - name: Pause for 1 second
         run: sleep 1
 
-  call-action4:
+  call-action2:
     needs: pause-after-action1
     uses: ./.github/workflows/D-deploy-to-gh-pages.yml
     secrets:
