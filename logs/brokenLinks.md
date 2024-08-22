@@ -1,19 +1,10 @@
 # Broken Links Report
 
-Created: 2024-08-22T21:05:37.699Z
+Created: 2024-08-22T21:20:08.070Z
 
 Total Broken Links Found: 5
 
 ## Broken Link #1:
-[https://weboftrust.github.io/WOT-terms/docs/concepts/concepts?level=2](https://weboftrust.github.io/WOT-terms/docs/concepts/concepts?level=2)
-
-Found on Pages:
-
-- [https://weboftrust.github.io/WOT-terms/docs/glossary/authentic-web](https://weboftrust.github.io/WOT-terms/docs/glossary/authentic-web)
-- [https://weboftrust.github.io/keridoc/docs/dictionary/](https://weboftrust.github.io/keridoc/docs/dictionary/)
-
-
-## Broken Link #2:
 [https://weboftrust.github.io/WOT-terms/docs/glossary/Pre-rotation](https://weboftrust.github.io/WOT-terms/docs/glossary/Pre-rotation)
 
 Found on Pages:
@@ -21,14 +12,22 @@ Found on Pages:
 - [https://weboftrust.github.io/WOT-terms/docs/glossary/dead-attack](https://weboftrust.github.io/WOT-terms/docs/glossary/dead-attack)
 
 
+## Broken Link #2:
+[https://weboftrust.github.io/WOT-terms/docs/concepts/concepts?level=2](https://weboftrust.github.io/WOT-terms/docs/concepts/concepts?level=2)
+
+Found on Pages:
+
+- [https://weboftrust.github.io/keridoc/docs/dictionary/](https://weboftrust.github.io/keridoc/docs/dictionary/)
+- [https://weboftrust.github.io/keridoc/docs/dictionary/?level=2](https://weboftrust.github.io/keridoc/docs/dictionary/?level=2)
+
+
 ## Broken Link #3:
 [https://weboftrust.github.io/WOT-terms/docs/dictionary?level=2](https://weboftrust.github.io/WOT-terms/docs/dictionary?level=2)
 
 Found on Pages:
 
-- [https://weboftrust.github.io/WOT-terms/docs/glossary/kerific](https://weboftrust.github.io/WOT-terms/docs/glossary/kerific)
-- [https://weboftrust.github.io/WOT-terms/docs/glossary/keri-suite-search-engine](https://weboftrust.github.io/WOT-terms/docs/glossary/keri-suite-search-engine)
 - [https://weboftrust.github.io/keridoc/docs/dictionary/](https://weboftrust.github.io/keridoc/docs/dictionary/)
+- [https://weboftrust.github.io/keridoc/docs/dictionary/?level=2](https://weboftrust.github.io/keridoc/docs/dictionary/?level=2)
 
 
 ## Broken Link #4:
