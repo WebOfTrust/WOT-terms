@@ -1,6 +1,6 @@
 # Summary: This GitHub Actions workflow fetches content from various external sources, updates a glossary, and deploys changes to GitHub Pages.
 
-name: Import Wiki
+name: A - Import Wiki
 on:
   # A: Triggered on push to the main branch:
   # push:

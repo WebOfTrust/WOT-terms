@@ -1,4 +1,4 @@
-name: Import all and Deploy to GitHub Pages
+name: A > B > C > D
 
 on:
   # A: Triggered on push to the main branch:

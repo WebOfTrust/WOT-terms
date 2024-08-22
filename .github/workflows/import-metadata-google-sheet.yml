@@ -1,6 +1,6 @@
 # Summary: This GitHub Actions workflow fetches content from various external sources, updates a glossary, and deploys changes to GitHub Pages.
 
-name: Import metadata from Google Sheets
+name: B - Import metadata from Google Sheets
 on:
   ## A: Triggered on push to the main branch:
   # push:
