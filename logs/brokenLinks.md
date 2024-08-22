@@ -1,6 +1,6 @@
 # Broken Links Report
 
-Created: 2024-08-22T20:36:38.792Z
+Created: 2024-08-22T21:05:37.699Z
 
 Total Broken Links Found: 5
 
@@ -26,8 +26,8 @@ Found on Pages:
 
 Found on Pages:
 
-- [https://weboftrust.github.io/WOT-terms/docs/glossary/keri-suite-search-engine](https://weboftrust.github.io/WOT-terms/docs/glossary/keri-suite-search-engine)
 - [https://weboftrust.github.io/WOT-terms/docs/glossary/kerific](https://weboftrust.github.io/WOT-terms/docs/glossary/kerific)
+- [https://weboftrust.github.io/WOT-terms/docs/glossary/keri-suite-search-engine](https://weboftrust.github.io/WOT-terms/docs/glossary/keri-suite-search-engine)
 - [https://weboftrust.github.io/keridoc/docs/dictionary/](https://weboftrust.github.io/keridoc/docs/dictionary/)
 
 
