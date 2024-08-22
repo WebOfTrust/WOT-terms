@@ -4,7 +4,6 @@
  * Environment: NodeJS
  * Usage: 
  * $ node findBrokenLinks.js
- * @author Kor Dwarshuis
  * @version 1.0.0
  * @since 2023-09-04
  * @see https://www.npmjs.com/package/broken-link-checker
@@ -22,9 +21,9 @@ const path = require('path'); // Path module for working with file and directory
 /* CONFIG */
 
 const siteUrl = 'https://weboftrust.github.io/WOT-terms'; // The URL of the site to check for broken links
-const filterPath = '/WOT-terms'; // The path to limit link checks to
 const baseUrl = 'https://weboftrust.github.io'; // Base URL for resolving relative links
 const repoName = 'WOT-terms'; // Repository name where the GitHub issue will be created
+const filterPath = '/WOT-terms'; // The path to limit link checks to
 
 const outputDirectory = path.join(__dirname, '../logs'); // Directory where the report will be saved
 const outputFileName = 'brokenLinks.md'; // Name of the output file for the broken links report
@@ -41,13 +40,14 @@ console.log('Start Link checking...');
 
 // Custom filter function to limit checks to the specific path defined in filterPath
 function pathFilter(url) {
-    return url.pathname.startsWith(filterPath); // Only check links that start with the path defined in filterPath
+    // Ensure we are only checking URLs that match both the base domain and the specific path
+    return url.href.startsWith(`${baseUrl}${filterPath}`);
 }
 
 const siteChecker = new SiteChecker({
     excludeExternalLinks: true, // Exclude external links (only check internal links)
     maxSocketsPerHost: 10, // Limit the number of concurrent requests to the same host
-    filterLevel: 2,  // Use moderate filtering to apply the custom filter
+    filterLevel: 3,  // Use aggressive filtering to apply the custom filter
     filter: pathFilter // Use the custom filter function defined above
 }, {
     link: (result) => {
