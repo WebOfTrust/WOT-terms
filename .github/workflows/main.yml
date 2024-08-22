@@ -23,12 +23,13 @@ jobs:
       GENERIC_SCRAPER_JSON_ENDPOINT: ${{ secrets.GENERIC_SCRAPER_JSON_ENDPOINT }}
       ANNOTATED_COPIES_JSON_ENDPOINT: ${{ secrets.ANNOTATED_COPIES_JSON_ENDPOINT }}
 
+  # Probably not needed, but just in case
   pause-after-action1:
     needs: call-action1
     runs-on: ubuntu-latest
     steps:
-      - name: Pause for 10 seconds
-        run: sleep 10
+      - name: Pause for 1 second
+        run: sleep 1
 
   call-action2:
     needs: pause-after-action1
@@ -38,12 +39,13 @@ jobs:
       GENERIC_SCRAPER_JSON_ENDPOINT: ${{ secrets.GENERIC_SCRAPER_JSON_ENDPOINT }}
       ANNOTATED_COPIES_JSON_ENDPOINT: ${{ secrets.ANNOTATED_COPIES_JSON_ENDPOINT }}
 
+  # Probably not needed, but just in case
   pause-after-action2:
     needs: call-action2
     runs-on: ubuntu-latest
     steps:
-      - name: Pause for 10 seconds
-        run: sleep 10
+      - name: Pause for 1 second
+        run: sleep 1
 
   call-action3:
     needs: pause-after-action2
@@ -53,12 +55,13 @@ jobs:
       GENERIC_SCRAPER_JSON_ENDPOINT: ${{ secrets.GENERIC_SCRAPER_JSON_ENDPOINT }}
       ANNOTATED_COPIES_JSON_ENDPOINT: ${{ secrets.ANNOTATED_COPIES_JSON_ENDPOINT }}
 
+  # Probably not needed, but just in case
   pause-after-action3:
     needs: call-action3
     runs-on: ubuntu-latest
     steps:
-      - name: Pause for 10 seconds
-        run: sleep 10
+      - name: Pause for 1 second
+        run: sleep 1
 
   call-action4:
     needs: pause-after-action3
