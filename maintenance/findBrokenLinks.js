@@ -47,10 +47,14 @@ function pathFilter(url) {
 const siteChecker = new SiteChecker({
     excludeExternalLinks: true, // Exclude external links (only check internal links)
     maxSocketsPerHost: 10, // Limit the number of concurrent requests to the same host
-    filterLevel: 3,  // Use aggressive filtering to apply the custom filter
-    filter: pathFilter // Use the custom filter function defined above
 }, {
     link: (result) => {
+        // Manually filter out any links that do not start with the specified path
+        if (!result.url.resolved.startsWith(`${baseUrl}${filterPath}`)) {
+            console.log(`Skipping link outside of ${filterPath}: ${result.url.resolved}`);
+            return; // Skip processing for links outside the desired path
+        }
+
         // Log every URL that is checked
         console.log(`Checking link: ${result.url.resolved}`);
 
