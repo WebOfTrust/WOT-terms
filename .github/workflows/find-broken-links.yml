@@ -1,4 +1,4 @@
-name: Find broken links
+name: E - Find broken links
 
 on:
   schedule:
