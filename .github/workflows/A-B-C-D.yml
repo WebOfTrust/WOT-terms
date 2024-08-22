@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   call-action1:
-    uses: ./.github/workflows/import-wiki.yml
+    uses: ./.github/workflows/A-import-wiki.yml
     secrets:
       TERMS_WOT_MANAGE_JSON_ENDPOINT: ${{ secrets.TERMS_WOT_MANAGE_JSON_ENDPOINT }}
       GENERIC_SCRAPER_JSON_ENDPOINT: ${{ secrets.GENERIC_SCRAPER_JSON_ENDPOINT }}
@@ -33,7 +33,7 @@ jobs:
 
   call-action2:
     needs: pause-after-action1
-    uses: ./.github/workflows/import-metadata-google-sheet.yml
+    uses: ./.github/workflows/B-import-metadata-google-sheet.yml
     secrets:
       TERMS_WOT_MANAGE_JSON_ENDPOINT: ${{ secrets.TERMS_WOT_MANAGE_JSON_ENDPOINT }}
       GENERIC_SCRAPER_JSON_ENDPOINT: ${{ secrets.GENERIC_SCRAPER_JSON_ENDPOINT }}
@@ -49,7 +49,7 @@ jobs:
 
   call-action3:
     needs: pause-after-action2
-    uses: ./.github/workflows/import-external-glossaries.yml
+    uses: ./.github/workflows/C-import-external-glossaries.yml
     secrets:
       TERMS_WOT_MANAGE_JSON_ENDPOINT: ${{ secrets.TERMS_WOT_MANAGE_JSON_ENDPOINT }}
       GENERIC_SCRAPER_JSON_ENDPOINT: ${{ secrets.GENERIC_SCRAPER_JSON_ENDPOINT }}
@@ -65,7 +65,7 @@ jobs:
 
   call-action4:
     needs: pause-after-action3
-    uses: ./.github/workflows/deploy-to-gh-pages.yml
+    uses: ./.github/workflows/D-deploy-to-gh-pages.yml
     secrets:
       TERMS_WOT_MANAGE_JSON_ENDPOINT: ${{ secrets.TERMS_WOT_MANAGE_JSON_ENDPOINT }}
       GENERIC_SCRAPER_JSON_ENDPOINT: ${{ secrets.GENERIC_SCRAPER_JSON_ENDPOINT }}
