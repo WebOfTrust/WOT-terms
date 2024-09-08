@@ -18,4 +18,4 @@ The authentic web is the internet as a whole giant verifiable data structure. Al
 KERI solves all hard problems of the authentic web in a scalable manner.
 
 ## Technically oriented deep dive
-See more in [Concepts](https://weboftrust.github.io/WOT-terms/docs/concepts/concepts?level=2) behind KERI
+See more in [Concepts](https://weboftrust.github.io/keridoc/docs/concepts/concepts?level=2) behind KERI
