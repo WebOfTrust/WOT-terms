@@ -255,6 +255,8 @@ const config = {
     [
       require.resolve('@cmfcmf/docusaurus-search-local'),
       {
+        highlightSearchTermsOnTargetPage: true,
+
         // whether to index docs pages
         indexDocs: true,
 
