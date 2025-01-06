@@ -1,6 +1,6 @@
 # Broken Links Report
 
-Created: 2024-12-30T03:27:13.456Z
+Created: 2025-01-06T03:29:12.187Z
 
 Total Broken Links Found: 3
 
@@ -17,8 +17,8 @@ Found on Pages:
 
 Found on Pages:
 
-- [https://weboftrust.github.io/keridoc/docs/dictionary/](https://weboftrust.github.io/keridoc/docs/dictionary/)
 - [https://weboftrust.github.io/keridoc/docs/dictionary/?level=2](https://weboftrust.github.io/keridoc/docs/dictionary/?level=2)
+- [https://weboftrust.github.io/keridoc/docs/dictionary/](https://weboftrust.github.io/keridoc/docs/dictionary/)
 
 
 ## Broken Link #3:
@@ -26,7 +26,7 @@ Found on Pages:
 
 Found on Pages:
 
-- [https://weboftrust.github.io/keridoc/docs/dictionary/](https://weboftrust.github.io/keridoc/docs/dictionary/)
 - [https://weboftrust.github.io/keridoc/docs/dictionary/?level=2](https://weboftrust.github.io/keridoc/docs/dictionary/?level=2)
+- [https://weboftrust.github.io/keridoc/docs/dictionary/](https://weboftrust.github.io/keridoc/docs/dictionary/)
 
 
