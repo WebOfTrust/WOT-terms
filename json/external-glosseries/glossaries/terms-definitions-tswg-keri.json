@@ -38,7 +38,7 @@
     "organisation": "TSWG (Keri)",
     "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
     "term": "Concise Binary Object Representation",
-    "definition": "a binary serialization format, similar in concept to JSON but aiming for greater conciseness. Defined in [RFC7049].",
+    "definition": "something",
     "anchor": "ConciseBinaryObjectRepresentation"
   },
   {
@@ -115,7 +115,7 @@
     "organisation": "TSWG (Keri)",
     "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
     "term": "First-Seen",
-    "definition": "refers to the first instance of a Message received by any Witness or Watcher. The first-seen event is always seen, and can never be unseen. It forms the basis for Duplicity detection in KERI based systems.",
+    "definition": "refers to the first instance of a Message recieved by any Witness or Watcher. The first-seen event is always seen, and can never be unseen. It forms the basis for Duplicity detection in KERI based systems.",
     "anchor": "FirstSeen"
   },
   {
@@ -185,14 +185,14 @@
     "organisation": "TSWG (Keri)",
     "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
     "term": "Key-State",
-    "definition": "a set of authoritative keys for an AID along with other essential information necessary to establish, evolve, verify, and validate control-signing authority for that AID. This information includes the current public keys and their thresholds (for a multi-signature scheme); pre-rotated key digests and their thresholds; witnesses and their thresholds; and configurations. An AIDs key state is first established through its inception event and may evolve via subsequent rotation events. Thus, an AIDs key state is time-dependent.",
+    "definition": "a set of currently authoritative keypairs for an AID and any other information necessary to secure or establish control authority over an AID. This includes current keys, prior next key digests, current thresholds, prior next thresholds, witnesses, witness thresholds, and configurations. A key-state of an AID is first established through an inception event and may be altered by subsequent rotation events.",
     "anchor": "KeyState"
   },
   {
     "organisation": "TSWG (Keri)",
     "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
     "term": "Live-Attack",
-    "definition": "an attack that compromises either the current signing keys used to sign non-establishment events or the current pre-rotated keys needed to sign a subsequent establishment event. See (Security Properties of Prerotation)[#live-attacks].",
+    "definition": "an attack that compromises either the current signing keys used to sign non-establishment events or he current pre-rotated keys needed to sign a subsequent establishment event. See (Security Properties of Prerotation)[#live-attacks].",
     "anchor": "LiveAttack"
   },
   {
@@ -220,7 +220,7 @@
     "organisation": "TSWG (Keri)",
     "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
     "term": "Primitive:",
-    "definition": "a serialization of a unitary value. All Primitives in KERI must be expressed in CESR [1].",
+    "definition": "a serialization of a unitary value.  All Primitives in KERI must be expressed in CESR [1].",
     "anchor": "Primitive:"
   },
   {
@@ -269,7 +269,7 @@
     "organisation": "TSWG (Keri)",
     "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
     "term": "Self-certifying identifier",
-    "definition": "a type of Cryptonym that is uniquely cryptographically derived from the public key of an asymmetric signing keypair, (public, private).",
+    "definition": "a type of Cryptonym that is uniquely cryptographically derived from the public key of an asymmetric non-repudiable signing keypair, (public, private).",
     "anchor": "Selfcertifyingidentifier"
   },
   {
@@ -283,14 +283,14 @@
     "organisation": "TSWG (Keri)",
     "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
     "term": "Verifiable",
-    "definition": "a condition of a KEL: being internally consistent with integrity of its backward and forward chaining digest as well as authenticity of its non-repudiable signatures.",
+    "definition": "a condition for a KEL for being internally consistent with integrity of its backward and forward chaining digest as well as authenticity of its non-repudiable signatures",
     "anchor": "Verifiable"
   },
   {
     "organisation": "TSWG (Keri)",
     "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
     "term": "Verifier",
-    "definition": "any entity or agent that cryptographically verifies the signature(s) and digests on an event Message.",
+    "definition": "any entity or agent that cryptographically verifies the signature(s) and/or digests on an event Message.",
     "anchor": "Verifier"
   },
   {
@@ -304,14 +304,14 @@
     "organisation": "TSWG (Keri)",
     "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
     "term": "Watcher",
-    "definition": "an entity or component that keeps a copy of a KERL for an identifier but that is not designated by the controller of the identifier as one of its witnesses. See annex watcher",
+    "definition": "a watcher is an entity or component that keeps a copy of a KERL for an identifier but is not designated by the controller of the identifier as one of its witnesses. See annex watcher",
     "anchor": "Watcher"
   },
   {
     "organisation": "TSWG (Keri)",
     "url": "https://trustoverip.github.io/tswg-keri-specification/index.html",
     "term": "Witness",
-    "definition": "a witness is an entity or component designated (trusted) by the controller of an identifier. The primary role of a witness is to verify, sign, and keep events associated with an identifier. A witness is the controller of its own self-referential identifier which may or may not be the same as the identifier to which it is a witness. See Annex A under KAWA (KERIs Algorithm for Witness Agreement).",
+    "definition": "a witness is an entity or component designated (trusted) by the controller of an identifier. The primary role of a witness is to verify, sign, and keep events associated with an identifier. A witness is the controller of its own self-referential identifier which may or may not be the same as the identifier to which it is a witness. See Annex Witness.",
     "anchor": "Witness"
   }
 ]

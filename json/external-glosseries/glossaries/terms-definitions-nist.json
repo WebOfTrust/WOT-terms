@@ -701,7 +701,7 @@
   },
   {
     "term": "verifier",
-    "definition": "The entity that verifies the authenticity of a digital signature using the public key of the signatory.",
+    "definition": "An entity that verifies the claimants identity by verifying the claimants possession and control of a token using an authentication protocol. To do this, the Verifier may also need to validate credentials that link the token and identity and check their status.",
     "organisation": "Nist",
     "url": "https://csrc.nist.gov/glossary/term/verifier",
     "anchor": "verifier"
