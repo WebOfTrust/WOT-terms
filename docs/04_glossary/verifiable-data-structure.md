@@ -1,4 +1,3 @@
-# verifiable data structure
 ## Definition
 
 A verifiable data structure is a data structure that incorporates cryptographic techniques to ensure the integrity and authenticity of its contents. It allows users to verify the correctness of the data stored within the structure without relying on a trusted third party.

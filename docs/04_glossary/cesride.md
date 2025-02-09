@@ -1,4 +1,3 @@
-# cesride
 ## Definition
 is concerned with parsing CESR primitives.
 
@@ -10,7 +9,9 @@ Cesride is built from cryptographic primitives that are named clearly and concis
 * [Cigar](cigar)
 * [Salter](salter)
 
-Each primitive will have methods attached to it that permit one to generate and parse the qualified base2 or [base64](base64) representation. Common methods you'll find:
+Each primitive will have methods attached to it that permit one to generate and parse the qualified base2 or [base64](base64) representation. 
+### Methods
+Common methods you'll find:
 
 * `.qb64()` - qualified base-64 representation of cryptographic material as a string
 * `.qb64b()` - qualified base-64 representation of cryptographic material as octets (bytes)

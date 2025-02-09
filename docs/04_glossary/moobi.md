@@ -1,4 +1,3 @@
-# moobi
 ## Definition
 
 Multi [OOBI](OOBI) would allow to share a bunch of different end-points (oobis) all at once. A way for a single store to share multiple endpoints for that store. 

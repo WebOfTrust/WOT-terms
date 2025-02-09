@@ -1,13 +1,17 @@
-# validator
 ## Definition
-determines current authoritative key set for identifier from at least one key event (receipt) log. Types:
+any entity or agent that evaluates whether or not a given signed statement as attributed to an identifier is valid at the time of its issuance.  
+Source: Dr. S. Smith
 
+## Explanation
+determines the current authoritative key set for an identifier from at least one key event (receipt) log. 
+
+Types:
 - Validator of any verifiable data structure
 - Validator as a node in distributed consensus or participant
 
 Validator and [verifier](verifier) are close to synonyms for our purposes.
 
-A `validator` in [KERI](key-event-receipt-infrastructure) and [ACDC](authentic-chained-data-container) is anybody that wants to establish control-authority over an identifier, created by the controller of the identifier. Validators verify the log, they apply duplicity detection or they leverage somebody else's duplicity detection or apply any other logic so they can say "Yes, these are events I can trust".
+A `validator` in [KERI](key-event-receipt-infrastructure) and [ACDC](authentic-chained-data-container) is anybody who wants to establish control authority over an identifier created by the controller of the identifier. Validators verify the log, apply duplicity detection, leverage somebody else's duplicity detection, or apply any other logic so they can say, "Yes, these are events I can trust."
 
 ## Example
 

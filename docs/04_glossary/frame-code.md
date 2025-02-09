@@ -1,3 +1,2 @@
-# frame code
 ## See
-[Group framing code](group-framing-code)
+[Framing code](framing-code)

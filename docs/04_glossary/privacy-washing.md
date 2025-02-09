@@ -1,4 +1,3 @@
-# privacy washing
 ## Definition
 De-identification so that it provides a personal data safe harbour and could be legally acceptable forwarded.
 

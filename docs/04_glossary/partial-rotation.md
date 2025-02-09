@@ -1,7 +1,7 @@
-# partial rotation
 ## Definition
 The pre-rotation mechanism supports partial pre-rotation or **more exactly partial rotation of pre-rotated keypairs**. It's a rotation operation on a set of pre-rotated keys that may keep some keys in reserve (i.e unexposed) while exposing others as needed.
 
+### Purpose
 Partial rotation serves two important purposes:
 - [Reserve rotation](reserve-rotation)
 - [Custodial rotation](custodial-rotation)

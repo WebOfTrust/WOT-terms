@@ -1,3 +1,2 @@
-# secure
 ## See 
 [Security](security)

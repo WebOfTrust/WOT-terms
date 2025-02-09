@@ -1,4 +1,3 @@
-# escrow
 ## Definition
 
 'Escrow' **as a noun** is a (legal) arrangement in which a third party temporarily holds money or property until a particular condition has been met.

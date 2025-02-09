@@ -1,4 +1,3 @@
-# sniffer
 ## Definition
 The _sniffer_ is part of [Parside](parside) and detects if the CESR stream contains CESR binary, CESR Text, JSON, CBOR, MGPK. 
 

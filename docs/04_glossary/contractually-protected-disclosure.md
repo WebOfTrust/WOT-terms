@@ -1,5 +1,8 @@
-# contractually protected disclosure
 ## Definition
+a discloser of an ACDC that leverages a Graduated Disclosure so that contractual protections can be put into place to minimize the leakage of information that can be correlated. A Contractually Protected Disclosure partially or selectively reveals the information contained within the ACDC in the initial interaction with the recipient and discloses further information only after the recipient agrees to the terms established by the discloser. More information may be progressively revealed as the recipient agrees to additional terms.  
+Source: Dr. S. Smith
+
+## Explanation
 Usage of schema-based and contract-based controls to limit the exchange of information to provide both mechanical and legal protection on the sharing of data. 
 
 Mechanical protection is composed of sharing the schema of the data to be shared prior to sharing the actual data contents. This mechanical protection is then combined through the IPEX protocol with disclosures of legal contracts to be agreed to prior to sharing the desired data contents.

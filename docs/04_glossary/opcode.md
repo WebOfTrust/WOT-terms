@@ -1,4 +1,3 @@
-# opcode
 ## Definition
 Opcodes are meant to provide stream processing instructions that are more general and flexible than simply concatenated primitives or groups of primitives. 
 

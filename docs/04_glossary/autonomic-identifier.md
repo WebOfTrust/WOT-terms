@@ -1,5 +1,6 @@
-# autonomic identifier
 ## Definition
+a self-managing cryptonymous identifier that must be self-certifying (self-authenticating) and must be encoded in CESR as a qualified Cryptographic primitive.  
+Source: Dr. S.Smith, 2024
 
 An identifier that is [self-certifying](self-certifying-identifier) and [self-sovereign](self-sovereign-identity) (or *self-managing*).
 

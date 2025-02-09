@@ -1,4 +1,3 @@
-# loci of control
 ## Definition
 Locus of control is the degree to which people believe that they, as opposed to external forces (beyond their influence), have control over the outcome of events in their lives. Also 'LoC'.   
 More on [wikipedia](https://en.wikipedia.org/wiki/Locus_of_control)

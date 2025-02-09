@@ -1,4 +1,3 @@
-# GLEIF
 ## Definition
 Global Legal Entity Identifier Foundation
 

@@ -1,5 +1,8 @@
-# non establishment event
 ## Definition
+a Key event that does not change the current Key state for an AID. Typically, the purpose of a Non-establishment event is to anchor external data to a given Key state as established by the most recent prior Establishment event for an AID.  
+Source: Dr. S. Smith
+
+## Explanation
 A key event tieing or anchoring a data payload to the [key event log](key-event-log) of an identifier. This data payload includes a set of one or more [seals](seal) each of which anchor data to the key event.  
 The data payload event may be used to make verifiable, authoritative statements on behalf of the identifier controller.   
 These might include authorizations of encryption keys, communication routes, service endpoints, and so forth.

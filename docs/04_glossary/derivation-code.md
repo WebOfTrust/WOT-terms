@@ -1,4 +1,3 @@
-# derivation code
 ## Definition
 
 To properly extract and use the [public key](public-key-infrastructure) embedded in a [self-certifying identifier](self-certifying-identifier) we need to know the cryptographic _signing scheme_ used by the [key pair](key-pair). KERI includes this very compactly in the identifier, by replacing the pad character (a character used to fill a void to able to always end up with a fixed length public key) with a special character that encodes the derivation process. We call this the _derivation code_.

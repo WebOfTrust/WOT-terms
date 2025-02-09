@@ -1,3 +1,3 @@
-# authentic data
 ## Definition
-[Integer](integrity) and [Provenanced](provenance) data. Source: Timothy Ruff #IIW37
+[Integer](integrity) and [Provenanced](provenance) data.  
+Source: Timothy Ruff, #IIW37

@@ -1,4 +1,3 @@
-# secure private authentic confidentiality
 ## Definition
 ToIP Trust Spanning Layer Group realized we do have a secure authentication layer (KERI) but we don't have a secure confidentiality and privacy mechanism. Sam Smith proposes SPAC paper to define this.
 Related:

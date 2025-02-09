@@ -1,6 +1,8 @@
-# self addressing identifier
 ## Definition
+any identifier that is deterministically generated out of the content, or a digest of the content.  
+Source: Dr. S. Smtih
 
+## Explanation
 An identifier that is deterministically generated from and embedded in the content it identifies, making it and its data mutually tamper-evident.
 
 ### To generate a SAID

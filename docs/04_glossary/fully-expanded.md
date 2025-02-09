@@ -1,4 +1,3 @@
-# fully expanded
 ## Definition
 The most user-friendly version of an [ACDC](ACDC) credential. It doesn't need to be signed and typically is not signed since the most compact version which is signed can be computed from this form and then the signature can be looked up in the [transaction event log](TEL) of the ACDC in question. 
 

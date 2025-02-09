@@ -1,4 +1,3 @@
-# parside
 ## Definition
 is a bunch of generators. Responsible for pulling out a stream of bits from a CESR stream and parse it.
 Sam Smith suggested for Parside to not iterate stuff, only parse chunks delimited by the [count code](count-code). (Source Cesride: meeting Feb 2 2023)

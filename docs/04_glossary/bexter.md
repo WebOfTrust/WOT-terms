@@ -1,4 +1,3 @@
-# bexter
 ## Definition
 
 The class variable length text that is used in CESR and preserves the round-trip transposability using Base64 URL safe-only encoding even though the text variable length.

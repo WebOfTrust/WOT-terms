@@ -1,4 +1,3 @@
-# secure asset transfer protocol
 ## Definition
 An IETF protocol (and working group) in the making (as of mid 2022) for moving assets between blockchains.
 

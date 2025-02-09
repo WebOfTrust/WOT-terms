@@ -1,8 +1,7 @@
-# fully compact
 ## definition
-The most compact form of an ACDC. This is the only signed variant of an ACDC and this signature is anchored in a transaction event log (TEL) for the ACDC.
+The most compact form of an [ACDC](ACDC). This is the only signed variant of an ACDC and this signature is anchored in a [transaction event log](transaction-event-log) (TEL) for the ACDC.
 This is one valid choice for an ACDC schema.   
-This form is part of the graduated disclosure mechanism in ACDCs.
+This form is part of the [graduated disclosure](graduated-disclosure) mechanism in ACDCs.
 
 ## Anchoring to the TEL
 The extra a fully compact version has to offer over a [most compact](most-compact) version is the anchoring to the [Tranaction event log](transaction-event-log). Here were various proofs ([hashes](distributed-hash-table)) can be "stored" which are optional in all kind of [ACDC](ACDC) variants.

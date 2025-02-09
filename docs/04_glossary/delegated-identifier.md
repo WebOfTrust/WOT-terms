@@ -1,4 +1,3 @@
-# delegated identifier
 ## Definition
 
 Matches the act of [delegation](delegation) with the appropriate digital twin. Consequently when applied recursively, delegation may be used to compose arbitrarily complex trees of hierarchical (delegative) key management event streams. This is a most powerful capability that may provide an essential building block for a generic universal decentralized key management infrastructure (DKMI) that is also compatible with the demand of generic event streaming applications.

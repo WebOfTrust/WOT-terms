@@ -1,4 +1,3 @@
-# chain of custody
 ## Definition
 
 From Wikipedia ([Source](https://en.wikipedia.org/wiki/Chain_of_custody)):

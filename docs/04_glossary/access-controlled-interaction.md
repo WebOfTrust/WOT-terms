@@ -1,4 +1,3 @@
-# access controlled interaction
 ## Definition
 Access controlled actions like submitting a report. If you already have that report then load balancer needs a mechanism to drop repeated requests.
   

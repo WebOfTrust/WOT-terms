@@ -1,4 +1,3 @@
-# judge
 ## Definition
 A judge is an entity or component that examines the entries of one or more [KERLs](key-event-receipt-log) and DELs of a given identifier to validate that the event history is from a non-[duplicitous](duplicity) controller and has been witnessed by a sufficient number of non-duplicitous [witnesses](witness) such that it may be trusted or conversely not-trusted by a [validator](validator).
 

@@ -1,9 +1,12 @@
-# graduated disclosure
 ## Definition
-Lifting confidentiality step by step: Selectively disclosing more data as time and/or necessity progresses, offering backwards verifiability of earlier issued cryptographic proofs.
+a disclosure of an [ACDC](ACDC) that does not reveal its entire content in the initial interaction with the recipient and, instead, partially or selectively reveals only the information contained within the ACDC necessary to further a transaction with the recipient. A Graduated disclosure may involve multiple steps where more information is progressively revealed as the recipient satisfies the conditions set by the [discloser](discloser). [Compact disclosure](compact-disclosure), [Partial disclosure](partial-disclosure), [Selective disclosure](selective-disclosure), and [Full disclosure](full-disclosure) are all Graduated disclosure mechanisms.  
+Source: Dr. S. Smith
+
+## Explanation
+Lifting confidentiality step by step: Selectively disclosing more data as time and/or necessity progresses, offering backward verifiability of earlier issued cryptographic proofs.
 
 ## Example 
-You proof your insurance policy without disclosing details, before enjoying extreme sports. Only when something goes wrong, e.g. 1 in a 100, you disclose the data. This way confidentiality is kept in 99% of the cases.
+You proof your insurance policy without disclosing details before enjoying extreme sports. Only when something goes wrong, e.g., 1 in 100, do you disclose the data. This way confidentiality is kept in 99% of the cases.
 
 ## KERI specific
 Disclosure performed by a presentation exchange that has cross-variant (see [compact variant](compact-variant)) Issuer commitment verifiability as an essential property. It supports graduated disclosure by the [Disclosee](disclosee) of any or all variants wether it be full, compact, metadata, partial, selective, bulk issued, or contractually protected.  

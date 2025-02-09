@@ -1,4 +1,3 @@
-# extensible business reporting language
 ## Definition
 
 XBRL is the open international standard for digital business reporting, managed by a global not for profit consortium, XBRL International. 

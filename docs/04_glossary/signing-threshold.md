@@ -1,4 +1,3 @@
-# signing threshold
 ## Definition
 Is the minimum number of valid signatures to satisfy the requirement for successful verification in a [Threshold Signature Scheme](threshold-signature-scheme).
 

@@ -1,4 +1,3 @@
-# authentic web
 ## Definition
 
 The authentic web is the internet as a whole giant verifiable data structure. Also called _Web5_. The web will be one big graph. That's the mental model of the 'authentic web'.
@@ -18,4 +17,4 @@ The authentic web is the internet as a whole giant verifiable data structure. Al
 KERI solves all hard problems of the authentic web in a scalable manner.
 
 ## Technically oriented deep dive
-See more in [Concepts](https://weboftrust.github.io/WOT-terms/docs/concepts/concepts?level=2) behind KERI
+See more in [Concepts](https://weboftrust.github.io/keridoc/docs/concepts/concepts?level=2) behind KERI
