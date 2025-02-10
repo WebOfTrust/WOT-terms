@@ -1,4 +1,3 @@
-# schema registry
 ## Definition
 Central [registry](registry) for credential schemas based on namespaces. 
 

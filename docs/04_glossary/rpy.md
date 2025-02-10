@@ -1,3 +1,2 @@
-# rpy
 ## Definition
 rpy = reply

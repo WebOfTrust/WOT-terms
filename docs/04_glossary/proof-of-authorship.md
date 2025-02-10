@@ -1,7 +1,8 @@
-# proof of authorship
 ## Definition
 
 Proof that somebody or something has originally created certain content. It's about _data_'s inception. Whereas [proof-of-authority](proof-of-authority) is about _rights_ attached to this data.
+
+## Example
 
 For example, a [signature](https://en.wikipedia.org/wiki/Signature) constitutes direct proof of [authorship](https://en.wikipedia.org/wiki/Authorship); less directly, [handwriting analysis](https://en.wikipedia.org/wiki/Handwriting_analysis) may be submitted as proof of authorship of a document.[[21]](https://en.wikipedia.org/wiki/Proof_(truth)?wprov=srpw1_0#cite_note-21) [Privileged information](https://en.wikipedia.org/wiki/Secret) in a document can serve as proof that the document's author had access to that information; such access might in turn establish the location of the author at certain time, which might then provide the author with an [alibi](https://en.wikipedia.org/wiki/Alibi).  
 [Source](https://en.wikipedia.org/wiki/Proof_(truth))

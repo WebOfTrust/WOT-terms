@@ -1,4 +1,3 @@
-# blind oobi
 ## Definition
 A blind [OOBI](OOBI) means that you have some mechanisms in place for verifying the [AID](AID) instead of via the OOBI itself. A blind OOBI is essentially a [URL](URL). It's called "blind" because the witness is not in the OOBI itself. You haves other ways of verifying the AID supplied. 
 

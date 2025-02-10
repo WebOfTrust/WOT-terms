@@ -1,3 +1,2 @@
-# rct
 ## Definition
 rct = receipt

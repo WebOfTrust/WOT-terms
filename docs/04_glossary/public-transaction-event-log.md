@@ -1,6 +1,5 @@
-# public transaction event log
 ## Definition
-is a public hash-linked data structure of transactions that can be used to track state anchored to a KEL.
+is a public hash-linked data structure of transactions that can be used to track state anchored to a [KEL](key-event-log).
 
 ### Public Verifiable Credential Registry
 A Public Verifiable Credential Registry can be represented in several [TEL](TEL)s to establish issuance or revocation state of a [Verifiable Credential](verifiable-credential) (VC). 

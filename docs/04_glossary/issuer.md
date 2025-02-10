@@ -1,5 +1,8 @@
-# issuer
 ## Definition
+a role of an entity that asserts claims and creates an ACDC from these claims.  
+Source: Dr. S. Smith
+
+## Explanation
 An [ACDC](authentic-chained-data-container) is issued by the Issuer. The Issuer identifier ([AID](autonomic-identifier)) appears in the top level of the ACDC.
 
 ## Rule

@@ -1,4 +1,3 @@
-# collision
 ## Definition
 In cryptography and identity _collision_ generally refers to something going wrong because an identical result has been produced but it refers to - or points to - different sources or assets backing this result.
 

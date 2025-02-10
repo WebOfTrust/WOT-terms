@@ -1,6 +1,8 @@
-# signify keria request authentication protocol
 ## Definition
-SKRAP is a client to the KERIA server. Mobile clients will be using SKRAP to connect to KERI [AID](AID)s via [agent](agent)s in the new, multi-tenant Mark II Agent server, [KERIA](keria). 
+SKRAP is a client to the KERIA server. Mobile clients will be using SKRAP to connect to KERI [AID](AID)s via [agent](agent)s in the new, multi-tenant Mark II Agent server, [KERIA](keria).
+
+## Usage
+
 Also, browser extensions will use SKRAP in order to use a wallet similar to _MetaMask_, except it will be KERIMask, and it will be a browser extension.
 [KERIMask](KERIMask) will connect to KERIA servers in order for a person to control AIDs from their browser extension.
 

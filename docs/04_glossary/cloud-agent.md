@@ -1,4 +1,3 @@
-# cloud agent
 ## Definition
 Cloud agent is software that is installed on the cloud server instances in order to provide security, monitoring, and analysis solutions for the cloud. They actually provide information and helps to provide control over cloud entities.   
 _Paraphrased by @henkvancann based on [source](https://www.cloudopedia.com/cloud-agent/)_.   

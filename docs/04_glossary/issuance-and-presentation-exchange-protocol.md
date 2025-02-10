@@ -1,4 +1,3 @@
-# issuance and presentation exchange protocol
 ## Definition
 provides a uniform mechanism for the issuance and presentation of ACDCs in a securely attributable manner. 
 

@@ -1,4 +1,3 @@
-# weight of weights
 ## Definition
 There are 2 levels in the multi-sign weighted thresholds of [multi-signatures](multisig) in [KERI](KERI) because the solution only needs to focus on _tightly cooperating teams_.
 - An individual using split keys over devices

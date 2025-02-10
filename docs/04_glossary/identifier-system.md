@@ -1,4 +1,3 @@
-# identifier system
 ## Definition
 a system for uniquely identifying (public) identities
 

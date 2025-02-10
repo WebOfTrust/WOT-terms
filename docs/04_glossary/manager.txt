@@ -1,2 +1,1 @@
-# manager
 Dwight is the assistant regional manager.

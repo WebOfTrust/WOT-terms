@@ -1,4 +1,3 @@
-# engagement context role
 ## Definition
 A person that represents the [Legal Entity](legal-entity) in a functional or in another context role and is issued an ECR [vLEI Credential](vlei-credential).
 

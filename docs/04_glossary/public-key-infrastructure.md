@@ -1,4 +1,3 @@
-# public key infrastructure
 ## Definition
 Is a set of roles, policies, hardware, software and procedures needed to create, manage, distribute, use, store and revoke digital certificates and manage public-key encryption.
 

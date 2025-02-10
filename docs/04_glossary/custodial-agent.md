@@ -1,4 +1,3 @@
-# custodial agent
 ## Definition
 An [agent](agent) owned by an individual who has granted [signing authority](signing-authority) to a custodian who is usually also the host of the running agent software. Using [partial rotation](partial-rotation) to facilitate custodial key management the owner of the identifier retains [rotational authority](rotation-authority) and thus the ability to "fire" the custodian at any time without requiring the cooperation of the custodian.
 

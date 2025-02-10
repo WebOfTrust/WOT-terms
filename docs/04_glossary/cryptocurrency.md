@@ -1,4 +1,3 @@
-# cryptocurrency
 ## Definition 
 A digital asset designed to work as a medium of exchange wherein individual coin ownership records are stored in a digital ledger or computerized database using strong cryptography to secure transaction record entries, to control the creation of additional digital coin records.  
 See [more](https://en.wikipedia.org/wiki/Cryptocurrency) on source Wikipedia.

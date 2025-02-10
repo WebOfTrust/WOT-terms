@@ -1,4 +1,3 @@
-# persistent data structure
 ## Definition
 An append only verifiable data structure. What we sign may not change.
 

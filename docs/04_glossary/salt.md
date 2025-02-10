@@ -1,5 +1,8 @@
-# salt
 ## Definition
+random data fed as an additional input to a one-way function that hashes data.  
+Source: Dr. S. Smith
+
+## Explanation
 In [cryptography](https://en.wikipedia.org/wiki/Cryptography), a salt is [random](https://en.wikipedia.org/wiki/Random_Number_Generator) data that is used as an additional input to a [one-way function](https://en.wikipedia.org/wiki/One-way_function) that [hashes](https://en.wikipedia.org/wiki/Cryptographic_hash_function) [data](https://en.wikipedia.org/wiki/Data_(computing)), a [password](https://en.wikipedia.org/wiki/Password) or [passphrase](https://en.wikipedia.org/wiki/Passphrase). 
 
 ### Usage

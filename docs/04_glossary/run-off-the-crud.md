@@ -1,9 +1,10 @@
-# run off the crud
 ## Definition
 
-_RUN off the [CRUD](CRUD)_ 
+_RUN off the [CRUD](CRUD)_ is an alternative to the traditional [CRUD](CRUD) approach to defining basic operations on resources in data management systems (e.g., databases, APIs). RUN stands for Read, Update, Nullify and bears a nuanced approach to deletion.
 
-RUN stands for Read , Update,  Nullify. Why is it preferred ('run off') over the CRUD (Create, Update, Delete)?
+## More
+
+Why is it preferred ('run off') over the CRUD (Create, Update, Delete)?
 
 Consider the need to protect '_authentic data_' in a decentralized environment.
 

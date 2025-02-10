@@ -1,2 +1,2 @@
-# authority
-## See ToIP glossary
+## Definition
+https://glossary.trustoverip.org/#term:authority

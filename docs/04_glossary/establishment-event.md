@@ -1,6 +1,9 @@
-# establishment event
 ## Definition
-A key creation or rotation event that establishes or transfers control authority for an identifier. 
+a [Key Event](key-event) that establishes or changes the key state which includes the current set of authoritative keypairs (key state) for an [AID](AID).  
+Source: dr. S.Smith
+
+## Explanation
+A key _creation_ or _rotation_ event that establishes or transfers control authority for an identifier. 
 
 Establishment events indicate which key pairs are authoritative (controlling) for an identifier at a given point in time.
 

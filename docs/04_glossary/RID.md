@@ -1,3 +1,2 @@
-# RID
 ## See
-[Root autonomic identifier (AID)](root-autonomic-identifier)
+[Root autonomic identifier](root-autonomic-identifier)

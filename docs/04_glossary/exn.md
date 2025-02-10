@@ -1,3 +1,2 @@
-# exn
 ## Definition
 exn = exchange

@@ -1,6 +1,7 @@
-# blinded revocation registry
 ## Definition
 The current state of a [transaction event log](transaction-event-log) (TEL) **may be hidden or blinded** such that _the only way_ for a potential verifier of the state to observe that state is _when the controller of a designated AID discloses it_ at the time of presentation.
+
+## More
 
 | TBW: BE CAREFUL WITH THE REST, JUST TEXT SNIPPETS TYPED IN FROM A CONVERSATION |
 

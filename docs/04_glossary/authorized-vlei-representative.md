@@ -1,4 +1,3 @@
-# authorized vlei representative
 ## Definition
 Also 'AVR'. This a representative of a Legal Entity that are authorized by the [DAR](DAR) of a Legal Entity to request issuance and revocation of:
 - vLEI Legal Entity Credentials

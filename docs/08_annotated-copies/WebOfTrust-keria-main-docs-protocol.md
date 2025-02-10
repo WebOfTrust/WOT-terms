@@ -970,7 +970,7 @@ Document `Signify-Resource` and `Signify-Timestamp` headers here.
                             
 
 ## Signature Input Header
-Document the `Signagture-Input` header here with link to https://httpwg.org/http-extensions/draft-ietf-httpbis-message-signatures.html
+Document the `Signature-Input` header here with link to https://httpwg.org/http-extensions/draft-ietf-httpbis-message-signatures.html
 
                         
 
@@ -1008,7 +1008,8 @@ Document the `Signagture-Input` header here with link to https://httpwg.org/http
                             
 
 ## Signature Header
-Docuemnt the signing method and `Signature` header.
+Document the signing method and `Signature` header.
+
                         
 
 </div>

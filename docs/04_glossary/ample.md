@@ -1,7 +1,10 @@
-# ample
 ## Definition
 
-The minimum required number of participants in an event to have a [supermajority](supermajority) so that one and only one agreement or consensus on an event may be reached. This is a critical part of the [KAACE](KAACE) agreement algorithm (consensus) in KERI for establishing consensus between witnesses on the key state of a KERI identifier. This consensus on key state forms the basis for accountability for a KERI controller, or what a person who controls a KERI identifier may be held legally responsible for.
+The minimum required number of participants in an event to have a [supermajority](supermajority) so that one and only one agreement or consensus on an event may be reached. This is a critical part of the [KAACE](KAACE) agreement algorithm (consensus) in KERI for establishing consensus between witnesses on the key state of a KERI identifier. 
+
+## More
+
+This consensus on key state forms the basis for accountability for a KERI controller, or what a person who controls a KERI identifier may be held legally responsible for.
 
 This supermajority is also called a _sufficient majority_ that is labeled _immune_ from certain kinds of attacks or faults. 
 
@@ -17,7 +20,7 @@ Can apply to either
 1) a group of KERI witnesses for a witnessed event or 
 2) a group of KERI identifier controllers participating in a multi-signature group.
 
-## Problems avoided by using `ample`
+### Problems avoided by using `ample`
 
 Ample witnesses avoids problems of accidental lockout from a multisig group which would occur if the signing threshold for the multisig group was set lower than the "ample" number of participants.
 
@@ -28,7 +31,7 @@ M = Number of participants needed to get the guarantees of "ample"
 
 ![image](https://github.com/WebOfTrust/WOT-terms/assets/65027257/01363aeb-7055-4413-bbc4-8f89325e703a)
 
-## Code Example
+### Code Example
 
 Python code implementation from [keri.core.eventing.py](https://github.com/WebOfTrust/keripy/blob/development/src/keri/core/eventing.py) of the `ample` algorithm used in [KAACE](KAACE):
 

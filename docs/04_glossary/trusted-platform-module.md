@@ -1,4 +1,3 @@
-# trusted platform module
 ## Definition
  A device that enhances the security and privacy (of identity systems) by providing hardware-based cryptographic functions. 
  

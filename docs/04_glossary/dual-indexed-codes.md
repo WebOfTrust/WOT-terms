@@ -1,4 +1,3 @@
-# dual indexed codes
 ## Definition
 a context-specific coding scheme, for the common use case of thresholded multi-signature schemes in [CESR](CESR).
 

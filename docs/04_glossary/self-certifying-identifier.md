@@ -1,6 +1,11 @@
-# self certifying identifier
 ## Definition
+a type of Cryptonym that is uniquely cryptographically derived from the public key of an asymmetric signing keypair (public, private).  
+Source: Dr. S. Smith
 
+<<<<<<< HEAD
+=======
+## Explanation
+>>>>>>> upstream/main
 A Self-Certifying Identifier (SCID) cryptographically binds an identifier to one or more public/private key pairs. It is an identifier that can be proven to be the one and only identifier tied to a public key using cryptography alone.
 
 ## Signing

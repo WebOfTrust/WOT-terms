@@ -1,5 +1,8 @@
-# version
-## Definiton
+## Definition
+an instance of a KEL for an AID in which at least one event is unique between two instances of the [KEL](kel).  
+Source: Dr. S. Smith
+
+## Explanation
 In [software engineering](https://en.wikipedia.org/wiki/Software_engineering), version control (also known as revision control, source control, or source code management) is a class of systems responsible for managing changes to [computer programs](https://en.wikipedia.org/wiki/Computer_program), documents, large web sites, or other collections of information.  
 [Source](https://en.wikipedia.org/wiki/Version_control)
 

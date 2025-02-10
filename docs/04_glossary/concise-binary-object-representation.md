@@ -1,5 +1,8 @@
-# concise binary object representation
 ## Definition
+a binary serialization format, similar in concept to JSON but aiming for greater conciseness. Defined in [[RFC7049](https://trustoverip.github.io/tswg-keri-specification/#ref:RFC7049)].  
+Source: Dr. S.Smith, 2024
+
+## Explanation
 It is a binary data [serialization](https://en.wikipedia.org/wiki/Serialization) format loosely based on [JSON](https://en.wikipedia.org/wiki/JSON) authored by C. Bormann. Like JSON it allows the transmission of data objects that contain [name–value pairs](https://en.wikipedia.org/wiki/Attribute%E2%80%93value_pair), but in a more concise manner. This increases processing and transfer speeds at the cost of [human readability](https://en.wikipedia.org/wiki/Human-readable_medium). 
 
 ### IETF specification

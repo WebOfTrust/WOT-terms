@@ -1,8 +1,11 @@
-# witness
 ## Definition
+a witness is an entity or component designated (trusted) by the controller of an identifier. The primary role of a witness is to verify, sign, and keep events associated with an identifier. A witness is the controller of its own self-referential identifier which may or may not be the same as the identifier to which it is a witness. See also [KERI’s Algorithm for Witness Agreement](keri’s-algorithm-for-witness-agreement).  
+Source: Dr. S. Smith
+
+## KERI-related
 In KERI and ACDC context, a witness is an entity or component designated (trusted) by the controller of an identifier. The primary role of a witness is to verify, sign, and keep events associated with an identifier. A witness is the controller of its own self-referential identifier which may or may not be the same as the identifier to which it is a witness.  
 
-An identifier witness therefore is part of its [trust basis](trust-domain) and may be controlled (but not necessarily so) by its [controller](controller). The purpose of a pool of witnesses is to protect the controller from external exploit of its identifier.  
+An identifier witness, therefore, is part of its [trust basis](trust-domain) and may be controlled (but not necessarily so) by its [controller](controller). The purpose of a pool of witnesses is to protect the controller from external exploit of its identifier.  
 The term _[Backer](backer)_ and _Witness_ are closely related in KERI but not synonyms or interchangeable.
 
 ## KERI witness confusing

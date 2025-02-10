@@ -1,4 +1,3 @@
-# security overlay properties trillema
 ## Definition
 An identifier system has some degree of any combination of the three properties [authenticity](authenticity), [privacy](privacy) and [confidentiality](confidentiality), but not all three completely.
 

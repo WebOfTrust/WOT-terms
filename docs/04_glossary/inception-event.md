@@ -1,12 +1,15 @@
-# inception event
 ## Definition
+an [Establishment Event](establishment-event) that provides the incepting information needed to derive an AID and establish its initial Key state.  
+Source [Sam Smith](https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-keri.md#basic-terminology)
+
+## Explanation
 An inception event is an establishment key event that represents the creation operation of an
-identifier including its derivation and its initial set of controlling keys as well as other inception
+identifier, including its derivation and its initial set of controlling keys as well as other inception
 or configuration data for supporting infrastructure.  
 This is the information needed to derive an [AID](AID) and establish its initial key-state.  
 There may be one and only one inception event operation performed on an identifier.  
 Source [KERI Whitepaper](https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf)  
-Source [Sam Smith](https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-keri.md#basic-terminology)
+
 
 ### Inception Statement
 

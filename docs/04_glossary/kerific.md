@@ -1,4 +1,3 @@
-# kerific
 ## Definition
 *kerific* is a front plugin or extension that currently only works for Chrome and Brave. It matches words in any text on the web that is parseable for kerific and offers buttons to various glossaries and definitions in the [SSI](self-sovereign-identity) field.
 

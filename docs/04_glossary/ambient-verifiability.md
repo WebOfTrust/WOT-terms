@@ -1,4 +1,3 @@
-# ambient verifiability
 ## Definition
 Verifiable by anyone, anywhere, at anytime. Although this seems a general term, it was first used in the context of KERI by Sam Smith.
 

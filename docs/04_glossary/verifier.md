@@ -1,5 +1,8 @@
-# verifier
 ## Definition
+any entity or agent that cryptographically verifies the signature(s) and digests on an event Message.  
+Source Dr. S. Smith
+
+## Explanation
 the entity that (cryptographically) verifies data received from peers (check structure, signatures, dates). More narrowly defined for the KERI suite: cryptographically verifies signature(s) on an event message.
 
 Notice the subtile difference between [validator](validator) and verifier.

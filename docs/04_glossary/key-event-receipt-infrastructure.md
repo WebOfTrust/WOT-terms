@@ -1,7 +1,9 @@
-# key event receipt infrastructure
 ## Definition
+or the KERI protocol, is an identity system-based secure overlay for the Internet.  
+Source: Dr. S.Smtih
 
-Also `KERI`. It's a new approach to decentralized identifiers and decentralized key management that promises significant benefits for `SSI` (self-sovereign identity) and `ToIP` (Trust over IP) infrastructure.  
+## Explanation
+It's a new approach to decentralized identifiers and decentralized key management that promises significant benefits for `SSI` (self-sovereign identity) and `ToIP` (Trust over IP) infrastructure.  
 (_@drummondreed_)
 
 KERI is an identifier system that fixes the internet. It's a fully decentralized permission-less key management architecture. It solves the `secure attribution problem` to its identifiers and allows portability.  
