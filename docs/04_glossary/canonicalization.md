@@ -1,4 +1,4 @@
-# canonicalization
+# Canonicalization
 
 ## Definition
 In computer science, canonicalization (sometimes standardization or [normalization](https://en.wikipedia.org/wiki/Normalization_(statistics))) is a process for converting data that has more than one possible representation into a "standard," "normal," or [canonical form](https://en.wikipedia.org/wiki/Canonical_form).  
