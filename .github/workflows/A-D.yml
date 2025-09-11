@@ -1,0 +1,40 @@
+name: A > D
+
+on:
+  # A: Triggered on push to the main branch:
+  # push:
+  #   branches:
+  #     - main
+
+  # B: Triggered on manual workflow dispatch:
+  workflow_dispatch:
+  
+  ## C: Triggered on Wiki changes:
+  # gollum
+
+permissions:
+  contents: write
+
+jobs:
+  call-action1:
+    uses: ./.github/workflows/A-import-wiki.yml
+    secrets:
+      TERMS_WOT_MANAGE_JSON_ENDPOINT: ${{ secrets.TERMS_WOT_MANAGE_JSON_ENDPOINT }}
+      GENERIC_SCRAPER_JSON_ENDPOINT: ${{ secrets.GENERIC_SCRAPER_JSON_ENDPOINT }}
+      ANNOTATED_COPIES_JSON_ENDPOINT: ${{ secrets.ANNOTATED_COPIES_JSON_ENDPOINT }}
+
+  # Probably not needed, but just in case
+  pause-after-action1:
+    needs: call-action1
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pause for 1 second
+        run: sleep 1
+
+  call-action2:
+    needs: pause-after-action1
+    uses: ./.github/workflows/D-deploy-to-gh-pages.yml
+    secrets:
+      TERMS_WOT_MANAGE_JSON_ENDPOINT: ${{ secrets.TERMS_WOT_MANAGE_JSON_ENDPOINT }}
+      GENERIC_SCRAPER_JSON_ENDPOINT: ${{ secrets.GENERIC_SCRAPER_JSON_ENDPOINT }}
+      ANNOTATED_COPIES_JSON_ENDPOINT: ${{ secrets.ANNOTATED_COPIES_JSON_ENDPOINT }}

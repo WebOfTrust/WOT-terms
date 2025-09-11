@@ -1,0 +1,301 @@
+{
+  "range": "GenericScraper!A1:AD1004",
+  "majorDimension": "ROWS",
+  "values": [
+    [
+      "url",
+      "siteName",
+      "pageTitle",
+      "creationDate",
+      "source",
+      "author",
+      "category",
+      "type",
+      "querySelector"
+    ],
+    [
+      "https://hackmd.io/zku3Dn8qQeub_58Q1ivKLA?view",
+      "Security in KERI/ACDC",
+      "Security in KERI/ACDC",
+      "2023",
+      "Hackmd",
+      "Sam Smith",
+      "Quick notes",
+      "",
+      "#doc"
+    ],
+    [
+      "https://ksoeteman.nl/2022/08/self-sovereign-identity-can-do-just-fine-blockchain-less/",
+      "ksoeteman.nl blog",
+      "Self Sovereign Identity can do just fine, blockchain-less",
+      "Aug 19, 2022",
+      "Blogposts",
+      "Krijn Soeteman",
+      "Blogs",
+      "",
+      ".entry-content p, .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, .entry-content li, .entry-content img, .entry-content pre, .entry-content code"
+    ],
+    [
+      "https://kentbull.com/2023/03/09/keri-tutorial-series-treasure-hunting-in-abydos-issuing-and-verifying-a-credential-acdc/",
+      "Kent Bull, My digital hoofprint",
+      "KERI Tutorial Series: Treasure Hunting in Abydos! Issuing and Verifying a Credential (ACDC)",
+      "March 9, 2023",
+      "Blogposts",
+      "Kent Bull",
+      "Tutorials",
+      "",
+      "article p, article h1, article h2, article h3, article h4, article h5, article h6, article li, article img, article pre, article code"
+    ],
+    [
+      "https://kentbull.com/2023/01/27/keri-tutorial-series-kli-sign-and-verify-with-heartnet/",
+      "Kent Bull, My digital hoofprint",
+      "KERI Tutorial Series – KLI: Sign and Verify with Heartnet",
+      "January 27, 2023",
+      "Blogposts",
+      "Kent Bull",
+      "Tutorials",
+      "",
+      "article p, article h1, article h2, article h3, article h4, article h5, article h6, article li, article img, article pre, article code"
+    ],
+    [
+      "https://kentbull.com/2022/06/05/keri-start/",
+      "Kent Bull, My digital hoofprint",
+      "Reading Mind Map: Key Event Receipt Infrastructure – KERI",
+      "June 5, 2022",
+      "Blogposts",
+      "Kent Bull",
+      "Tutorials",
+      "",
+      "article p, article h1, article h2, article h3, article h4, article h5, article h6, article li, article img, article pre, article code"
+    ],
+    [
+      "https://trustoverip.org/blog/2023/08/31/mid-year-progress-report-on-the-toip-trust-spanning-protocol/",
+      "Trust over IP Foundation",
+      "Mid-Year Progress Report On The Toip Trust Spanning Protocol",
+      "August 31, 2023",
+      "Blogposts",
+      "trustoverip",
+      "Blogs"
+    ],
+    [
+      "https://jolocom.io/blog/how-keri-tackles-the-problem-of-trust/",
+      "",
+      "",
+      "",
+      "Blogposts",
+      "Jolocom",
+      "Blogs",
+      "",
+      ".blog-post-single p, .blog-post-single h1, .blog-post-single h2, .blog-post-single h3, .blog-post-single h4, .blog-post-single h5, .blog-post-single h6, .blog-post-single li, .blog-post-single img"
+    ],
+    [
+      "https://humancolossus.foundation/blog/thinking-of-did-keri-on",
+      "Human Colossus Foundation",
+      "Thinking of DID? KERI On",
+      "17 Jan",
+      "Blogposts",
+      "Robert Mitwicki",
+      "Blogs",
+      "",
+      ".blog-item-content p, .blog-item-content h1, .blog-item-content h2, .blog-item-content h3, .blog-item-content h4, .blog-item-content h5, .blog-item-content h6, .blog-item-content li, .blog-item-content img, .blog-item-content pre, .blog-item-content code"
+    ],
+    [
+      "https://medium.com/spherity/introducing-keri-8f50ed1d8ed7",
+      "Carsten Stöcker's blog",
+      "KERI: A more Performant Ledger for Trusted Identities",
+      "Jul 2, 2020",
+      "Blogposts",
+      "Carsten Stöcker",
+      "Blogs",
+      "",
+      ".ch \u003e p, .ch \u003e h1, .ch \u003e h2, .ch \u003e h3, .ch \u003e h4, .ch \u003e h5, .ch \u003e h6, .ch \u003e li, .ch \u003e img, .ch \u003e pre, .ch \u003e code"
+    ],
+    [
+      "https://medium.com/finema/minimal-disclosure-of-identity-with-zero-knowledge-proof-and-cl-signature-517ed2a61307",
+      "Nuttawut Kongsuwan's blog",
+      "Minimal Disclosure of Identity with Zero-Knowledge Proof and CL-Signature",
+      "Apr 6, 2020",
+      "Blogposts",
+      "Nuttawut Kongsuwan",
+      "Tutorials",
+      "",
+      ".ch \u003e p, .ch \u003e h1, .ch \u003e h2, .ch \u003e h3, .ch \u003e h4, .ch \u003e h5, .ch \u003e h6, .ch \u003e li, .ch \u003e img, .ch \u003e pre, .ch \u003e code"
+    ],
+    [
+      "https://medium.com/finema/verifiable-credential-and-verifiable-presentation-for-decentralized-digital-identity-132d107c2d9f",
+      "Nuttawut Kongsuwan's blog",
+      "Verifiable Credentials for Decentralized Digital Identity",
+      "Apr 6, 2020",
+      "Blogposts",
+      "Nuttawut Kongsuwan",
+      "Tutorials",
+      "",
+      ".ch \u003e p, .ch \u003e h1, .ch \u003e h2, .ch \u003e h3, .ch \u003e h4, .ch \u003e h5, .ch \u003e h6, .ch \u003e li, .ch \u003e img, .ch \u003e pre, .ch \u003e code"
+    ],
+    [
+      "https://medium.com/finema/remote-identity-proofing-for-digital-identity-c9a285c1b774",
+      "Nuttawut Kongsuwan's blog",
+      "Remote Identity Proofing for Digital Identity",
+      "May 6, 2020",
+      "Blogposts",
+      "Nuttawut Kongsuwan",
+      "Tutorials",
+      "",
+      ".ch \u003e p, .ch \u003e h1, .ch \u003e h2, .ch \u003e h3, .ch \u003e h4, .ch \u003e h5, .ch \u003e h6, .ch \u003e li, .ch \u003e img, .ch \u003e pre, .ch \u003e code"
+    ],
+    [
+      "https://medium.com/finema/anonymous-credential-part-1-brief-overview-and-history-c6679034c914",
+      "Nuttawut Kongsuwan's blog",
+      "Anonymous Credential Part 1: Brief Overview and History",
+      "Oct 1, 2020",
+      "Blogposts",
+      "Nuttawut Kongsuwan",
+      "Tutorials",
+      "",
+      ".ch \u003e p, .ch \u003e h1, .ch \u003e h2, .ch \u003e h3, .ch \u003e h4, .ch \u003e h5, .ch \u003e h6, .ch \u003e li, .ch \u003e img, .ch \u003e pre, .ch \u003e code"
+    ],
+    [
+      "https://medium.com/finema/keri-jargon-in-a-nutshell-part-1-fb554d58f9d0",
+      "Nuttawut Kongsuwan's blog",
+      "KERI jargon in a nutshell. Part 1: KERI and AID.",
+      "Mar 22",
+      "Blogposts",
+      "Nuttawut Kongsuwan",
+      "Tutorials",
+      "",
+      ".ch \u003e p, .ch \u003e h1, .ch \u003e h2, .ch \u003e h3, .ch \u003e h4, .ch \u003e h5, .ch \u003e h6, .ch \u003e li, .ch \u003e img, .ch \u003e pre, .ch \u003e code"
+    ],
+    [
+      "https://medium.com/finema/keri-jargon-in-a-nutshell-part-2-said-and-acdc-de6bc544b95e",
+      "Nuttawut Kongsuwan's blog",
+      "KERI jargon in a nutshell. Part 2: SAID and ACDC.",
+      "Jun 5",
+      "Blogposts",
+      "Nuttawut Kongsuwan",
+      "Tutorials",
+      "",
+      ".ch \u003e p, .ch \u003e h1, .ch \u003e h2, .ch \u003e h3, .ch \u003e h4, .ch \u003e h5, .ch \u003e h6, .ch \u003e li, .ch \u003e img, .ch \u003e pre, .ch \u003e code"
+    ],
+    [
+      "https://medium.com/finema/keri-jargon-in-a-nutshell-part-3-oobi-and-ipex-2e6b222f4b87",
+      "Nuttawut Kongsuwan's blog",
+      "KERI jargon in a nutshell. Part 3: OOBI and IPEX.",
+      "Jul 23",
+      "Blogposts",
+      "Nuttawut Kongsuwan",
+      "Tutorials",
+      "",
+      ".ch \u003e p, .ch \u003e h1, .ch \u003e h2, .ch \u003e h3, .ch \u003e h4, .ch \u003e h5, .ch \u003e h6, .ch \u003e li, .ch \u003e img, .ch \u003e pre, .ch \u003e code"
+    ],
+    [
+      "https://medium.com/finema/the-hitchhikers-guide-to-keri-part-2-what-exactly-is-keri-e46a649ac54c",
+      "Nuttawut Kongsuwan's blog",
+      "The Hitchhiker’s Guide to KERI. Part 2: What exactly is KERI?",
+      "",
+      "Blogposts",
+      "Nuttawut Kongsuwan",
+      "Tutorials",
+      "",
+      ".ch \u003e p, .ch \u003e h1, .ch \u003e h2, .ch \u003e h3, .ch \u003e h4, .ch \u003e h5, .ch \u003e h6, .ch \u003e li, .ch \u003e img, .ch \u003e pre, .ch \u003e code"
+    ],
+    [
+      "https://medium.com/finema/the-hitchhikers-guide-to-keri-part-1-51371f655bba",
+      "Nuttawut Kongsuwan's blog",
+      "The Hitchhiker’s Guide to KERI. Part 1: Why should you adopt KERI?",
+      "Jan 19, 2024",
+      "Blogposts",
+      "Nuttawut Kongsuwan",
+      "Tutorials",
+      "",
+      ".ch \u003e p, .ch \u003e h1, .ch \u003e h2, .ch \u003e h3, .ch \u003e h4, .ch \u003e h5, .ch \u003e h6, .ch \u003e li, .ch \u003e img, .ch \u003e pre, .ch \u003e code"
+    ],
+    [
+      "https://medium.com/decentralized-identity/peer-dids-moving-to-difs-id-working-group-7f1664bcbf30",
+      "Daniel Hardman's blog",
+      "Peer DIDs moving to DIF’s ID Working Group",
+      "Apr 7, 2020",
+      "Blogposts",
+      "Daniel Hardman",
+      "Blogs",
+      "DID, DIF",
+      ".ch \u003e p, .ch \u003e h1, .ch \u003e h2, .ch \u003e h3, .ch \u003e h4, .ch \u003e h5, .ch \u003e h6, .ch \u003e li, .ch \u003e img, .ch \u003e pre, .ch \u003e code"
+    ],
+    [
+      "https://daniel-hardman.medium.com/big-desks-and-little-people-e1b1b9e92d79",
+      "Daniel Hardman's blog",
+      "Big Desks and Little People",
+      "May 1",
+      "Blogposts",
+      "Daniel Hardman",
+      "Blogs",
+      "DID, DIF",
+      ".ch \u003e p, .ch \u003e h1, .ch \u003e h2, .ch \u003e h3, .ch \u003e h4, .ch \u003e h5, .ch \u003e h6, .ch \u003e li, .ch \u003e img, .ch \u003e pre, .ch \u003e code"
+    ],
+    [
+      "https://medium.com/happy-blockchains/you-control-therefore-you-are-and-you-get-to-decide-2e2e615714a9",
+      "Happy Blockchains",
+      "You control, therefore you are, and you get to decide",
+      "May 20, 2021",
+      "Blogposts",
+      "Henk van Cann",
+      "Blogs",
+      "AID",
+      ".ch \u003e p, .ch \u003e h1, .ch \u003e h2, .ch \u003e h3, .ch \u003e h4, .ch \u003e h5, .ch \u003e h6, .ch \u003e li, .ch \u003e img, .ch \u003e pre, .ch \u003e code"
+    ],
+    [
+      "https://medium.com/happy-blockchains/navigating-the-crossroads-of-legacy-and-innovation-in-self-sovereign-identifier-solutions-d7724f157283",
+      "Happy Blockchains",
+      "Navigating the Crossroads of Legacy and Innovation in Self-Sovereign Identifier Solutions",
+      "Mar 20",
+      "Blogposts",
+      "Henk van Cann",
+      "Blogs",
+      "",
+      ".ch \u003e p, .ch \u003e h1, .ch \u003e h2, .ch \u003e h3, .ch \u003e h4, .ch \u003e h5, .ch \u003e h6, .ch \u003e li, .ch \u003e img, .ch \u003e pre, .ch \u003e code"
+    ],
+    [
+      "https://medium.com/@hvancann/keri-is-not-complex-or-complicated-instead-it-simplifies-da285b20a7db",
+      "Happy Blockchains",
+      "KERI is not complex or complicated. Instead, it simplifies.",
+      "Juli 12, 2024",
+      "Blogposts",
+      "Henk van Cann",
+      "Blogs",
+      "",
+      ".ch \u003e p, .ch \u003e h1, .ch \u003e h2, .ch \u003e h3, .ch \u003e h4, .ch \u003e h5, .ch \u003e h6, .ch \u003e li, .ch \u003e img, .ch \u003e pre, .ch \u003e code"
+    ],
+    [
+      "https://rufftimo.medium.com/second-generation-verifiable-credentials-c225d390fe90",
+      "Rufftimo",
+      "Second-Generation Verifiable Credentials",
+      "Aug 17",
+      "Blogposts",
+      "Timothy Ruff",
+      "Blogs",
+      "AIDSecond-Generation Verifiable Credentials",
+      ".ch \u003e p, .ch \u003e h1, .ch \u003e h2, .ch \u003e h3, .ch \u003e h4, .ch \u003e h5, .ch \u003e h6, .ch \u003e li, .ch \u003e img, .ch \u003e pre, .ch \u003e code"
+    ],
+    [
+      "https://vleida.substack.com/p/why-we-like-cesr-1-there-will-be",
+      "The vLEIDA Newsletter",
+      "Why we like CESR 1: There will be a lot of cryptography in the future",
+      "Jul 22, 2024",
+      "Blogposts",
+      "Charles Alexander Lanahan",
+      "Blogs",
+      "",
+      "article"
+    ],
+    [
+      "https://vleida.substack.com/p/why-we-like-keri",
+      "The vLEIDA Newsletter",
+      "Why We Like KERI",
+      "May 28, 2024",
+      "Blogposts",
+      "Charles Alexander Lanahan",
+      "Blogs",
+      "",
+      "article"
+    ]
+  ]
+}

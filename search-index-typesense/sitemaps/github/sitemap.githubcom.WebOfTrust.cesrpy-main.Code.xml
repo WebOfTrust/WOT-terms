@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://github.com/WebOfTrust/cesrpy/blob/main/src/cesr/__main__.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/cesrpy/blob/main/src/cesr/cli.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/cesrpy/blob/main/src/cesr/daemon.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/cesrpy/blob/main/src/cesr/xoraing.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/cesrpy/blob/main/tests/conftest.py</loc>
+  </url>
+  <url>
+    <loc>https://github.com/WebOfTrust/cesrpy/blob/main/tests/test_main.py</loc>
+  </url>
+</urlset>

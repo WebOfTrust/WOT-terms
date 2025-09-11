@@ -3,7 +3,7 @@
     "organisation": "ToIP (DID:Webs)",
     "url": "https://trustoverip.github.io/tswg-did-method-webs-specification/index.html",
     "term": "AID controlled identifiers",
-    "definition": "Any identifier, including did:webs DIDs, that have the same AID are by definition referencing the same identity. As defined by KERI TODO: Add link to KERI documentation here.",
+    "definition": "Any identifier, including did:webs DIDs, that have the same AID are by definition referencing the same identity. As defined in the KERI specification",
     "anchor": "AIDcontrolledidentifiers"
   },
   {

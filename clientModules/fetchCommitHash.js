@@ -17,12 +17,12 @@ const textStrings = {
 
 const fetchCommitHash = () => {
   // Where are we in the glossary?
-  const urlIsGlossary = baseUrl + 'docs/glossary/'
+  const glossaryUrl = baseUrl + 'docs/glossary/'
   // And, are we in the glossary? Test if urlIsGlossary is in window.location.pathname
-  const urlIsGlossaryInPathname = window.location.pathname.includes(urlIsGlossary);
+  const isGlossarySection = window.location.pathname.includes(glossaryUrl);
 
   // if we are not in the glossary, return
-  if (!urlIsGlossaryInPathname) {
+  if (!isGlossarySection) {
     return;
   }
 
@@ -31,13 +31,13 @@ const fetchCommitHash = () => {
   const pathName = window.location.pathname;
 
   let filePath = pathName.substring(pathName.indexOf('/', 1) + 1) + ".md";
-  console.log('filePath: ', filePath);
+
   // in filePath, replace the string “glossary” with “04_glossary”
   filePath = filePath.replace('glossary', '04_glossary');
 
   // GitHub API URL
   const url = `https://api.github.com/repos/${owner}/${repo}/commits?path=${filePath}`;
-  console.log('url: ', url);
+
 
   const buttonElement = document.createElement('button');
   buttonElement.innerText = textStrings.fetchCommitHash;

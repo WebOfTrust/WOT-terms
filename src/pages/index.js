@@ -12,20 +12,17 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <p className="p-1">
-          <IndexedInfo />
-        </p>
         <h1 className="hero__title">{siteConfig.title}</h1>
         <img
           className="hero__image"
-          src={require('@site/static/img/stamp.png').default}
+          src={require('@site/static/img/logo-keri-symbol.png').default}
         />
 
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro/intro"
+            to="/docs/category/glossary"
           >
             START
           </Link>

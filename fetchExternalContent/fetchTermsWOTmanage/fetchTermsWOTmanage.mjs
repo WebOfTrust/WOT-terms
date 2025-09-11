@@ -242,16 +242,17 @@ function createMarkDownFiles(content) {
     // End table container
     finalStringAll += `</div>`;
 
-    fs.writeFile(
-      outputPathMarkDown,
-      finalStringAll,
-      // When it goes wrong:
-      function (err) {
-        if (err) {
-          return console.log(err);
-        }
-      }
-    );
+    // Quick fix
+    // fs.writeFile(
+    //   outputPathMarkDown,
+    //   finalStringAll,
+    //   // When it goes wrong:
+    //   function (err) {
+    //     if (err) {
+    //       return console.log(err);
+    //     }
+    //   }
+    // );
   }
 }
 

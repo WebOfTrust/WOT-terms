@@ -1,0 +1,583 @@
+[17:21:20] Preparing file system finished
+[17:21:20] Copying manual files finished
+17:21:21.26 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.trustoverip.tswg-acdc-specification-main.Code.xml sitemap generated successfully
+17:21:21.69 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.trustoverip.tswg-did-method-webs-specification-main.Code.xml sitemap generated successfully
+17:21:22.11 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.trustoverip.tswg-cesr-specification-main.Code.xml sitemap generated successfully
+17:21:22.61 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.trustoverip.tswg-cesr-proof-specification-main.Code.xml sitemap generated successfully
+17:21:23.09 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.trustoverip.tswg-oobi-specification-main.Code.xml sitemap generated successfully
+17:21:23.55 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.trustoverip.tswg-ipex-specification-main.Code.xml sitemap generated successfully
+17:21:23.98 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.trustoverip.tswg-acdc-specification-archived-main.Code.xml sitemap generated successfully
+17:21:24.41 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.trustoverip.acdc-main.Code.xml sitemap generated successfully
+17:21:24.85 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.trustoverip.TSS0033-technology-stack-acdc-main.Code.xml sitemap generated successfully
+17:21:25.28 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.trustoverip.tswg-keri-specification-main.Code.xml sitemap generated successfully
+17:21:25.74 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.trustoverip.tswg-ptel-specification-main.Code.xml sitemap generated successfully
+17:21:26.23 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.trustoverip.keri-main.Code.xml sitemap generated successfully
+17:21:26.90 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.SmithSamuelM.Papers-master.Whitepapers.xml sitemap generated successfully
+17:21:27.34 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.cardano-backer-main.Code.xml sitemap generated successfully
+17:21:27.81 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.cesride-main.Code.xml sitemap generated successfully
+17:21:28.28 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.cesrpy-main.Code.xml sitemap generated successfully
+17:21:28.74 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.gcp-ksm-shim-main.Code.xml sitemap generated successfully
+17:21:29.21 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.ietf-did-keri-main.Code.xml sitemap generated successfully
+17:21:29.75 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.kara-main.Code.xml sitemap generated successfully
+17:21:30.46 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.kassh-main.Code.xml sitemap generated successfully
+17:21:31.51 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.keep-main.Code.xml sitemap generated successfully
+17:21:32.36 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.keri-main.Code.xml sitemap generated successfully
+17:21:32.94 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.keri-swift-main.Code.xml sitemap generated successfully
+17:21:33.39 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.keria-main.Code.xml sitemap generated successfully
+17:21:33.86 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.keride-main.Code.xml sitemap generated successfully
+17:21:34.34 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.keriox-main.Code.xml sitemap generated successfully
+17:21:34.82 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.keripy-main.Code.xml sitemap generated successfully
+17:21:35.28 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.parside-main.Code.xml sitemap generated successfully
+17:21:35.72 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.saidide-main.Code.xml sitemap generated successfully
+17:21:36.18 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.schema-main.Code.xml sitemap generated successfully
+17:21:36.65 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.scir-main.Code.xml sitemap generated successfully
+17:21:37.12 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.shkr-main.Code.xml sitemap generated successfully
+17:21:37.59 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.signifi-main.Code.xml sitemap generated successfully
+17:21:38.04 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.signifide-main.Code.xml sitemap generated successfully
+17:21:38.56 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.signify-ts-main.Code.xml sitemap generated successfully
+17:21:39.02 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.signifypy-main.Code.xml sitemap generated successfully
+17:21:39.46 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.vlei-dev.Code.xml sitemap generated successfully
+17:21:39.94 [createSitemapGithub.mjs:71] search-index-typesense/sitemaps/github/sitemap.githubcom.WebOfTrust.ward-main.Code.xml sitemap generated successfully
+[17:21:39] Creating sitemaps finished
+17:21:40.02 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/.gitignore
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/LICENSE
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/A_DID_for_everything_media/A-DID0.png
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/README.md
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/A_DID_for_everything_media/A-DID2.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/assets/AuthMsgEmbConfPayload.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/assets/AuthenticatableMessage.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/assets/ESSRBaselineMessage.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/A_DID_for_everything_media/A-DID1.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/assets/ESSRDstlessMessage.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/assets/ESSRMessage.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/assets/ESSRMessageDDOSable.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/assets/ESSRMessageDstLimited.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/assets/ESSRMessageKELAnchored.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/assets/ESSROORIMessage.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/assets/ESSRPTSrclessMessage.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/assets/ESSRSrclessMessage.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/assets/End2EndNetwork.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/assets/ExploitationModel.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/assets/IdentityGraph.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/assets/RelationshipBi.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/assets/RelationshipGraph.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/assets/RelationshipUniDiIn.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/assets/RelationshipUniDiOut.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/assets/SecurityOverlaySpiral.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/graphics/AsyncComputation.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/graphics/DistributedFlows.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/graphics/ManyToMany.png
+17:21:40.03 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/graphics/RoutedDataflows.png
+17:21:40.03 [removeURLsFromSitemap.mjs:187] Url removed from sitemap:  https://github.com/WebOfTrust/cardano-backer/blob/main/.env.example
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cardano-backer/blob/main/LICENSE
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cardano-backer/blob/main/requirements.txt
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cardano-backer/blob/main/setup.py
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cardano-backer/blob/main/src/backer/__init__.py
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cardano-backer/blob/main/src/backer/cli/__init__.py
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cardano-backer/blob/main/README.md
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cardano-backer/blob/main/src/backer/cli/commands/__init__.py
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cesride/blob/main/Cargo.toml
+17:21:40.03 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/cesride/blob/main/.gitignore
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cesride/blob/main/LICENSE
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cesride/blob/main/README.md
+17:21:40.03 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/cesride/blob/main/wasm/.gitignore
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cesride/blob/main/Makefile
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cesride/blob/main/wasm/README.md
+17:21:40.03 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/cardano-backer/blob/main/.gitignore
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/package.json
+17:21:40.03 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/.gitignore
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/package-lock.json
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cesride/blob/main/wasm/Cargo.toml
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/node/yarn.lock
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/yarn.lock
+17:21:40.03 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/cesrpy/blob/main/.gitignore
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cesrpy/blob/main/README.md
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cesrpy/blob/main/LICENSE
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cesrpy/blob/main/setup.py
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cesrpy/blob/main/requirements.txt
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cesrpy/blob/main/src/cesr/core/__init__.py
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cesrpy/blob/main/tests/__init__.py
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cesrpy/blob/main/tests/core/__init__.py
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cesride/blob/main/wasm/demo/web/package.json
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/gcp-ksm-shim/blob/main/LICENSE
+17:21:40.03 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/gcp-ksm-shim/blob/main/.gitignore
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/gcp-ksm-shim/blob/main/README.md
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/gcp-ksm-shim/blob/main/requirements.txt
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/gcp-ksm-shim/blob/main/src/gcp_ksm_shim/__init__.py
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/cesrpy/blob/main/src/cesr/__init__.py
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/gcp-ksm-shim/blob/main/src/gcp_ksm_shim/core/__init__.py
+17:21:40.03 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/ietf-did-keri/blob/main/.gitignore
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/gcp-ksm-shim/blob/main/setup.py
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/ietf-did-keri/blob/main/Makefile
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/ietf-did-keri/blob/main/LICENSE
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/ietf-did-keri/blob/main/README.md
+17:21:40.04 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/kassh/blob/main/.gitignore
+17:21:40.03 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/gcp-ksm-shim/blob/main/tests/core/__init__.py
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/kassh/blob/main/Makefile
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/kassh/blob/main/LICENSE
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/kassh/blob/main/requirements.txt
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/kassh/blob/main/README.md
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/kassh/blob/main/setup.py
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/kassh/blob/main/src/kassh/__init__.py
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/kassh/blob/main/src/kassh/app/__init__.py
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/kara/blob/main/LICENSE
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/kassh/blob/main/src/kassh/app/cli/commands/__init__.py
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/kassh/blob/main/src/kassh/app/cli/__init__.py
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/kassh/blob/main/tests/__init__.py
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/kassh/blob/main/src/kassh/app/cli/commands/server/__init__.py
+17:21:40.04 [removeURLsFromSitemap.mjs:187] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/.env.internal-gar
+17:21:40.04 [removeURLsFromSitemap.mjs:187] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/.env.external-gar
+17:21:40.04 [removeURLsFromSitemap.mjs:187] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/.env.lead-external-gar
+17:21:40.04 [removeURLsFromSitemap.mjs:187] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/.env.lar
+17:21:40.04 [removeURLsFromSitemap.mjs:187] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/.env.lead-internal-gar
+17:21:40.04 [removeURLsFromSitemap.mjs:187] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/.env.lead-lar
+17:21:40.04 [removeURLsFromSitemap.mjs:187] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/.env.lead-qar
+17:21:40.04 [removeURLsFromSitemap.mjs:187] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/.env.person
+17:21:40.04 [removeURLsFromSitemap.mjs:187] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/.env.lead-root-gar
+17:21:40.04 [removeURLsFromSitemap.mjs:187] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/.env.qar-local
+17:21:40.04 [removeURLsFromSitemap.mjs:187] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/.env.root-gar
+17:21:40.04 [removeURLsFromSitemap.mjs:187] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/.env.root-gar-local
+17:21:40.04 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/.gitignore
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/LICENSE
+17:21:40.04 [removeURLsFromSitemap.mjs:187] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/.env.qar
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/README.md
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/kassh/blob/main/src/kassh/core/__init__.py
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/app/img.png
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/Makefile
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/app/yarn.lock
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/app/assets/icon.icns
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/package.json
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/app/package.json
+17:21:40.04 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/.gitkeep
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/make.bat
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/avenir-next-lt-pro/AvenirNextLTPro-BoldCn.otf
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/avenir-next-lt-pro/AvenirNextLTPro-BoldCnIt.otf
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/avenir-next-lt-pro/AvenirNextLTPro-Cn.otf
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/avenir-next-lt-pro/AvenirNextLTPro-Bold.otf
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/avenir-next-lt-pro/AvenirNextLTPro-Demi.otf
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/avenir-next-lt-pro/AvenirNextLTPro-CnIt.otf
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/avenir-next-lt-pro/AvenirNextLTPro-DemiCn.otf
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/avenir-next-lt-pro/AvenirNextLTPro-DemiCnIt.otf
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/avenir-next-lt-pro/AvenirNextLTPro-DemiIt.otf
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/avenir-next-lt-pro/AvenirNextLTPro-HeavyCnIt.otf
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/avenir-next-lt-pro/AvenirNextLTPro-HeavyCn.otf
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/avenir-next-lt-pro/AvenirNextLTPro-It.otf
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/avenir-next-lt-pro/AvenirNextLTPro-MediumCn.otf
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/avenir-next-lt-pro/AvenirNextLTPro-Regular.otf
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/avenir-next-lt-pro/AvenirNextLTPro-MediumCnIt.otf
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/avenir-next-lt-pro/AvenirNextLTPro-UltLtCn.otf
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/fonts/avenir-next-lt-pro/AvenirNextLTPro-UltLtCnIt.otf
+17:21:40.04 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/img/.gitkeep
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/img/github-logo.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/img/download-software.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/img/logo/keep2x.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/img/logo/keep3x.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/img/my-connections.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/img/my-tasks.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/img/request-credentials.png
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/README.md
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/img/start-new-connection.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/img/temp-prof-pic.jpg
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/ward/build-ui-root-gar/AvenirNextLTPro-Bold.81cceec7.otf
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/src/assets/img/logo/keep.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/ward/build-ui-root-gar/AvenirNextLTPro-Regular.620313cc.otf
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/ward/build-ui-root-gar/AvenirNextLTPro-Demi.ce399891.otf
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/ward/build-ui-root-gar/temp-prof-pic.c62c7f2d.jpg
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/ward/build-ui-root-gar/keep.f95b485e.png
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/ward/requirements.txt
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/ward/tests/__init__.py
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/ward/README.md
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/ward/setup.py
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/ward/ward/__init__.py
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/LICENSE
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keep/blob/main/yarn.lock
+17:21:40.04 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/docs/.DS_Store
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/README.md
+17:21:40.04 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/.DS_Store
+17:21:40.04 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/docs/README.md
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/Direct-mode-kel-kerl.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/Arelle.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/Java_logo.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/KERI_image_by_CChunningham.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/Keri_logo_color_on_white.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/Docker.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/Key-Event.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/Sphinx.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/TEL-and-KEL.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/ais.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/XBRL.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/autonomic-architecture.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/basic-scid.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/backer-witness.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/bazel-logo.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/dart.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/delegation-keri-muggles.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/delegation_flow.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/caxe.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/didcomm.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/derivation-code.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/gitflow.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/gh-actions.png
+17:21:40.04 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/.gitignore
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/identity_system_security_overlay.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/inception-rotation.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/hash-function.jpg
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/internet_broken.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/keri-gdpr-compliance-muggles.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/key-infra-valence.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/key-event-log-muggles.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/key-rotation-muggles-steps3-4.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/key-rotation-muggles-steps1-2.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/key-rotation-muggles-steps7-8.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/key-rotation-muggles-steps5-6.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/loci-of-control.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/key-rotation-muggles-steps9-10.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/mother-in-law-scolding.gif
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/nodejs.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/npm.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/ntru.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/openapi.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/me-and-mother-in-law.jpg
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/inception-statement.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/platform_locked_trust.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/platypus.jpg
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/prefix.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/paw.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/restapi.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/pubprivkey-caveat.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/sci-muggles.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/sci_issue_bind.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/sci_ssi_book.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/spanning_layer.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/swagger.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/sai_sci.png
+17:21:40.05 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/trust-over-ip-stack.png
+17:21:40.05 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/waist_neck.png
+17:21:40.05 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/web-of-trust.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/postman.png
+17:21:40.05 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/workiva.png
+17:21:40.05 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/webauth.png
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keri-swift/blob/main/LICENSE
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keri-swift/blob/main/README.md
+17:21:40.05 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri-swift/blob/main/docs/docsets/.docset/Contents/Resources/Documents/img/carat.png
+17:21:40.04 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri/blob/main/images/trade-space-limitations.png
+17:21:40.05 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri-swift/blob/main/docs/docsets/.docset/Contents/Resources/Documents/img/gh.png
+17:21:40.05 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri-swift/blob/main/docs/docsets/.docset/Contents/Resources/Documents/img/dash.png
+17:21:40.05 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri-swift/blob/main/docs/docsets/keri_swift.docset/Contents/Resources/Documents/img/carat.png
+17:21:40.05 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri-swift/blob/main/docs/docsets/keri_swift.docset/Contents/Resources/Documents/img/dash.png
+17:21:40.05 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri-swift/blob/main/docs/docsets/keri_swift.docset/Contents/Resources/Documents/img/gh.png
+17:21:40.05 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri-swift/blob/main/docs/docsets/.docset/Contents/Resources/Documents/img/spinner.gif
+17:21:40.05 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri-swift/blob/main/docs/img/carat.png
+17:21:40.05 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/keri-swift/blob/main/.gitignore
+17:21:40.05 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri-swift/blob/main/docs/img/gh.png
+17:21:40.05 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri-swift/blob/main/docs/img/dash.png
+17:21:40.05 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/.gitignore
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/LICENSE
+17:21:40.05 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri-swift/blob/main/docs/img/spinner.gif
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/Makefile
+17:21:40.05 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keri-swift/blob/main/docs/docsets/keri_swift.docset/Contents/Resources/Documents/img/spinner.gif
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/docs/conf.py
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/README.md
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/docs/make.bat
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/docs/index.rst
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/requirements.txt
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/docs/requirements.txt
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/setup.py
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/src/keria/__init__.py
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/src/keria/app/__init__.py
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/commands/__init__.py
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/src/keria/core/__init__.py
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/src/keria/db/__init__.py
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/src/keria/end/__init__.py
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/src/keria/peer/__init__.py
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/src/keria/app/cli/__init__.py
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/README.md
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/src/keria/testing/__init__.py
+17:21:40.05 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/favicon-32x32.png
+17:21:40.05 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/static/swaggerui/favicon-16x16.png
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/tests/app/__init__.py
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/tests/__init__.py
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/tests/end/__init__.py
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/tests/core/__init__.py
+17:21:40.05 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/keride/blob/main/.gitignore
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/tests/peer/__init__.py
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keride/blob/main/Cargo.toml
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keride/blob/main/LICENSE
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keride/blob/main/Makefile
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keride/blob/main/src/cesr/README.md
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keride/blob/main/README.md
+17:21:40.05 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/keride/blob/main/wasm/.gitignore
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keride/blob/main/src/signing/README.md
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keride/blob/main/wasm/README.md
+17:21:40.05 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/keride/blob/main/wasm/demo/node/.gitignore
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keride/blob/main/wasm/demo/node/package.json
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keride/blob/main/wasm/Cargo.toml
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keride/blob/main/wasm/demo/web/package-lock.json
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keride/blob/main/wasm/demo/node/yarn.lock
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keride/blob/main/wasm/demo/web/yarn.lock
+17:21:40.05 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/keriox/blob/main/.gitignore
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keriox/blob/main/Cargo.toml
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keride/blob/main/wasm/demo/web/package.json
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keriox/blob/main/README.md
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keriox/blob/main/LICENSE
+17:21:40.06 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/.gitignore
+17:21:40.06 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/.coveragerc
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/Makefile
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/README.md
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/docs/Makefile
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/LICENSE
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/docs/index.rst
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/docs/conf.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/docs/requirements.txt
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/docs/make.bat
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/publish.sh
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/interop/README.md
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/README.md
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/requirements.txt
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/data/README.md
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/scripts/demo/vLEI/README.md
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/setup.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/challenge/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/delegate/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/contacts/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/did/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/init.py
+17:21:40.05 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keria/blob/main/docs/Makefile
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/ipex/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/local/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/ends/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/oobi/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/multisig/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/ssh/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/passcode/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/vc/registry/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/watcher/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/common/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/witness/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/db/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/core/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/demo/.gitignore
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/help/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/end/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/vc/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/peer/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/favicon-16x16.png
+17:21:40.06 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/static/swaggerui/favicon-32x32.png
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/app/cli/commands/mailbox/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/tests/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/src/keri/vdr/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/tests/app/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/watcher/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/commands/multisig/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/tests/core/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/tests/comply/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/tests/db/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/tests/demo/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/tests/end/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/tests/peer/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/tests/vc/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/tests/vdr/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/tests/help/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/parside/blob/main/Cargo.toml
+17:21:40.06 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/parside/blob/main/.gitignore
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/parside/blob/main/LICENSE
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/parside/blob/main/Makefile
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/parside/blob/main/README.md
+17:21:40.06 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/saidide/blob/main/.gitignore
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/saidide/blob/main/Cargo.toml
+17:21:40.06 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/schema/blob/main/.gitignore
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/saidide/blob/main/LICENSE
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/schema/blob/main/README.md
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/schema/blob/main/LICENSE
+17:21:40.06 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/.gitignore
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/schema/blob/main/desig-aliases/examples/README.md
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/Makefile
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/README.md
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/src/kaslcred/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/LICENSE
+17:21:40.06 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/scir/blob/main/.gitignore
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/schema/blob/main/tools/kaslcred/tests/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/scir/blob/main/LICENSE
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/scir/blob/main/Cargo.toml
+17:21:40.06 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/shkr/blob/main/.gitignore
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/shkr/blob/main/LICENSE
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/shkr/blob/main/Makefile
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/scir/blob/main/README.md
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/shkr/blob/main/requirements.txt
+17:21:40.06 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/shkr/blob/main/salt.icns
+17:21:40.06 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/shkr/blob/main/salt.png
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/shkr/blob/main/README.md
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/shkr/blob/main/shkr/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/shkr/blob/main/setup.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifi/blob/main/LICENSE
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifi/blob/main/README.md
+17:21:40.06 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/signifi/blob/main/.gitignore
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifi/blob/main/setup.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifi/blob/main/requirements.txt
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifi/blob/main/src/signifi/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifi/blob/main/tests/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifi/blob/main/src/signifi/core/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/signifide/blob/main/.gitignore
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifi/blob/main/tests/core/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifide/blob/main/Cargo.toml
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifide/blob/main/README.md
+17:21:40.06 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/signify-ts/blob/main/.gitignore
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifide/blob/main/LICENSE
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signify-ts/blob/main/LICENSE
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signify-ts/blob/main/README.md
+17:21:40.06 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/signify-ts/blob/main/diagrams/account-creation-webpage-workflow.png
+17:21:40.06 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/signify-ts/blob/main/diagrams/account-creation-workflow.png
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signify-ts/blob/main/examples/integration-scripts/package.json
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signify-ts/blob/main/package.json
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signify-ts/blob/main/package-lock.json
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/.gitignore
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/LICENSE
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/.coveragerc
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/docs/Makefile
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/README.md
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/docs/conf.py
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/docs/index.rst
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/docs/make.bat
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/requirements.txt
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/scripts/README.md
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/scripts/__init__.py
+17:21:40.06 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/keripy/blob/main/tests/app/cli/__init__.py
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/setup.py
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/docs/requirements.txt
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/src/__init__.py
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/src/signify/app/__init__.py
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/src/signify/app/cli/commands/__init__.py
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/src/signify/app/cli/__init__.py
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/src/signify/peer/__init__.py
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/tests/__init__.py
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/src/signify/core/__init__.py
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/tests/core/__init__.py
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/tests/app/__init__.py
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/tests/peer/__init__.py
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/vlei/blob/dev/.gitignore
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/vlei/blob/dev/LICENSE
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/vlei/blob/dev/README.md
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/vlei/blob/dev/requirements.txt
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/vlei/blob/dev/Makefile
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/vlei/blob/dev/src/__init__.py
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/vlei/blob/dev/setup.py
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/vlei/blob/dev/src/vlei/app/__init__.py
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/vlei/blob/dev/src/vlei/__init__.py
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/WebOfTrust/ward/blob/main/.gitignore
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/vlei/blob/dev/tests/__init__.py
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/ward/blob/main/Makefile
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/ward/blob/main/LICENSE
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/ward/blob/main/icon.icns
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/ward/blob/main/README.md
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/ward/blob/main/requirements.txt
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/WebOfTrust/ward/blob/main/icon.png
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/ward/blob/main/ward/__init__.py
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/ward/blob/main/setup.py
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/TSS0033-technology-stack-acdc/blob/main/LICENSE
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/trustoverip/TSS0033-technology-stack-acdc/blob/main/.gitignore
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/TSS0033-technology-stack-acdc/blob/main/README.md
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/TSS0033-technology-stack-acdc/blob/main/Makefile
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/trustoverip/TSS0033-technology-stack-acdc/blob/main/docs/images/src/puml/.gitkeep
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/trustoverip/TSS0033-technology-stack-acdc/blob/main/docs/.gitkeep
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/TSS0033-technology-stack-acdc/blob/main/docs/theme/images/banner.png
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/trustoverip/TSS0033-technology-stack-acdc/blob/main/docs/images/src/slideware/.gitkeep
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/TSS0033-technology-stack-acdc/blob/main/requirements.txt
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/TSS0033-technology-stack-acdc/blob/main/docs/theme/images/favicon.png
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/acdc/blob/main/LICENSE
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/acdc/blob/main/README.md
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/trustoverip/keri/blob/main/.gitignore
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/trustoverip/acdc/blob/main/.gitignore
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/keri/blob/main/Makefile
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/keri/blob/main/LICENSE
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/trustoverip/keri/blob/main/docs/.gitkeep
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/keri/blob/main/README.md
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/trustoverip/keri/blob/main/docs/images/src/slideware/.gitkeep
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/keri/blob/main/docs/theme/images/banner.png
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/keri/blob/main/docs/theme/images/favicon.png
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/trustoverip/keri/blob/main/docs/images/src/puml/.gitkeep
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/trustoverip/tswg-acdc-specification-archived/blob/main/.gitignore
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/keri/blob/main/requirements.txt
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-acdc-specification-archived/blob/main/README.md
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-acdc-specification-archived/blob/main/Makefile
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-acdc-specification/blob/main/LICENSE
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-acdc-specification/blob/main/Makefile
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-acdc-specification/blob/main/README.md
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/trustoverip/tswg-acdc-specification/blob/main/.gitignore
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-cesr-proof-specification/blob/main/LICENSE
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-cesr-proof-specification/blob/main/Makefile
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-cesr-proof-specification/blob/main/README.md
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/trustoverip/tswg-cesr-specification/blob/main/.gitignore
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-cesr-specification/blob/main/LICENSE
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/WebOfTrust/signifypy/blob/main/src/signify/__init__.py
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-cesr-specification/blob/main/README.md
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/trustoverip/tswg-cesr-proof-specification/blob/main/.gitignore
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/.gitignore
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-cesr-specification/blob/main/Makefile
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/docs/fonts/KaTeX_AMS-Regular.ttf
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/docs/fonts/KaTeX_Caligraphic-Bold.ttf
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/docs/fonts/KaTeX_Caligraphic-Regular.ttf
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/README.md
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/docs/fonts/KaTeX_Fraktur-Bold.ttf
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/docs/fonts/KaTeX_Fraktur-Regular.ttf
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/docs/fonts/KaTeX_Main-BoldItalic.ttf
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/docs/fonts/KaTeX_Main-Italic.ttf
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/docs/fonts/KaTeX_Main-Regular.ttf
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/docs/fonts/KaTeX_Math-BoldItalic.ttf
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/docs/fonts/KaTeX_Main-Bold.ttf
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/docs/fonts/KaTeX_SansSerif-Bold.ttf
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/docs/fonts/KaTeX_Math-Italic.ttf
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/docs/fonts/KaTeX_SansSerif-Regular.ttf
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/docs/fonts/KaTeX_SansSerif-Italic.ttf
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/docs/fonts/KaTeX_Size1-Regular.ttf
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/docs/fonts/KaTeX_Script-Regular.ttf
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/docs/fonts/KaTeX_Size3-Regular.ttf
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/docs/fonts/KaTeX_Size2-Regular.ttf
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/docs/fonts/KaTeX_Size4-Regular.ttf
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/docs/fonts/KaTeX_Typewriter-Regular.ttf
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/logo-source.png
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/package-lock.json
+17:21:40.07 [removeURLsFromSitemap.mjs:162] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/logo.png
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/trustoverip/tswg-ipex-specification/blob/main/.gitignore
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/package.json
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-ipex-specification/blob/main/LICENSE
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-ipex-specification/blob/main/README.md
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-ipex-specification/blob/main/Makefile
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/trustoverip/tswg-keri-specification/blob/main/.gitignore
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-keri-specification/blob/main/Makefile
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-keri-specification/blob/main/README.md
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/trustoverip/tswg-oobi-specification/blob/main/.gitignore
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-oobi-specification/blob/main/LICENSE
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-oobi-specification/blob/main/Makefile
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/trustoverip/tswg-did-method-webs-specification/blob/main/.DS_Store
+17:21:40.07 [removeURLsFromSitemap.mjs:170] Hidden file URL removed from sitemap:  https://github.com/trustoverip/tswg-ptel-specification/blob/main/.gitignore
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-keri-specification/blob/main/LICENSE
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-ptel-specification/blob/main/Makefile
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-ptel-specification/blob/main/LICENSE
+17:21:40.07 [removeURLsFromSitemap.mjs:209] Removed urls from sitemaps successfully
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-ptel-specification/blob/main/README.md
+17:21:40.07 [removeURLsFromSitemap.mjs:178] Url removed from sitemap:  https://github.com/trustoverip/tswg-oobi-specification/blob/main/README.md
+[17:21:40] Extracting data finished
+17:21:40.12 [renameFilesToLowerCase.mjs:31] github has been renamed to lower case
+17:21:40.12 [renameFilesToLowerCase.mjs:31] sitemap-www.gleif.org-pdf.xml has been renamed to lower case
+17:21:40.12 [renameFilesToLowerCase.mjs:31] slack-keri-archive.xml has been renamed to lower case
+[17:21:40] Renaming files to lowercase finished
+[17:21:40] Extracting data finished
+17:21:40.24 [splitContentJSONL.mjs:62] Done processing gleifPDF.jsonl. Original renamed to gleifPDF.jsonl.not-split
+[17:21:40] Splitting content finished
+[17:21:40] Counting number of lines finished
+[17:21:40] Collecting urls and writing to index file finished
+17:21:40.54 [sortAndStyleScrapedIndex.mjs:81] File sorted and wrapped in HTML successfully!
+[17:21:40] Sorting and styling index file finished
+[17:21:40] Backup completed to /Users/kor/Documents/Werk/Projecten/0158 WOT-terms/_backups/kerisse/2024-04-02_17-21-40
+[17:21:40] Start export from Typesense
+[17:21:40] Finished export from Typesense
+[17:21:40] Copy exported Typesense file to second location, for easy restore.
+[17:21:40] Typesense export completed to /Users/kor/Documents/Werk/Projecten/0158 WOT-terms/_backups/kerisse/2024-04-02_17-21-40
+[17:21:40] Backup finished

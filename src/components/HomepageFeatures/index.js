@@ -4,47 +4,55 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '⚡ Documentation',
+    title: '⚡ KERI Suite Documentation',
+    subtitle: 'doc.kerisse.org',
     Svg: require('@site/static/img/10119973341678815049.svg').default,
     description: (
-      <>
-        <strong>KERISSE</strong> is a technical documentation site. You'll find information on decentralized identity technologies: KERI, ACDC and more.
-      </>
+      <></>
     ),
+    url: 'https://weboftrust.github.io/keridoc/'
   },
   {
-    title: '⚡ Kerisse',
-    Svg: require('@site/static/img/185139417416345278704481.svg')
+    title: '⚡ KERI Suite Glossary',
+    subtitle: 'glossary.kerisse.org',
+    Svg: require('@site/static/img/9491177161682829258.svg')
       .default,
-    description: <><strong>KERISSE</strong> is the fastest way to find relevant info about Keri.</>,
+    description: (
+      <></>),
+    url: 'https://weboftrust.github.io/WOT-terms/'
   },
   {
-    title: '⚡ Search Engine',
+    title: '⚡ KERI Suite Search Engine',
+    subtitle: 'search.kerisse.org',
     Svg: require('@site/static/img/1626701221679047824.svg')
       .default,
-    description: <><strong>KERISSE</strong> is a sophisticated search engine. It searches this documentation site, AND other relevant sites.</>,
+    description: (
+      <></>
+    ),
+    url: 'https://weboftrust.github.io/kerisse/'
   },
-  // {
-  //   title: '⚡ Chatbot',
-  //   Svg: require('@site/static/img/5553419701679821143.svg')
-  //     .default,
-  //   description: <>You can also have a conversation with <strong>KERISSE</strong> via our chatbot. Well informed, polite and patient.</>,
-  // },
 ];
 
-function Feature({ Svg, title, description }) {
+
+function Feature({ Svg, title, subtitle, description, url }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="margin-top--lg text--center">
-        <Svg className={styles.featureSvg} role="img" />
+    (
+      <div className={clsx('col col--4')}>
+        <a className='feature-block' href={`${url}`}>
+          <div className="margin-top--lg text--center">
+            <Svg className={styles.featureSvg} role="img" />
+          </div>
+          <div className="margin-top--lg text--center padding-horiz--md">
+            <h3>{title}</h3>
+            <p>{subtitle}</p>
+            <p>{description}</p>
+          </div>
+        </a>
       </div>
-      <div className="margin-top--lg text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
-      </div>
-    </div>
+    )
   );
 }
+
 
 export default function HomepageFeatures() {
   return (

@@ -1,0 +1,16 @@
+# zero trust computing
+## Definition
+Best practices for implementation of an autonomic identifier system should follow zero trust computing principles. These principles are described at more length elsewhere but may be summarized as follows:
+
+1. Network Hostility. The network is always hostile, internally & externally; Locality is not trustworthy. Solutions must provide means to mitigate network layer security vulnerabilities (man-in-the-middle, DNS hijacking, BGP attacks).  
+2. E2E Security.  Inter-host communication must be end-to-end signed/encrypted and data must be stored signed/encrypted. Data is signed/encrypted in motion and at rest.  
+3. E2E Provenance.  Data flow transformations must be end-to-end provenanced using verifiable data items (verifiable data chains or VCs). Every change shall be provenanced.  
+4. Verify every-time for every-thing.  Every network interaction or data flow must be authenticated and authorized using best practice cryptography.  
+5. Authorization is behavioral.  Policies for authentication and authorization must be dynamically modified based on behavior (reputation).  
+6. No single point of trust.  Policies for authentication and authorization must be governed by end-verified diffuse-trust distributed consensus. Policy is protected by diffuse trust.  
+7. Hosts locked down.  Hosts or host components executing any of the logic mentioned above must be locked down. Any changes to the host execution logic or behavior must be fully security tested and validated over the respective possible combinations of hardware and software platform. This means locking down key management and cryptographic operations on the devices. This includes key generation and storage, as well as signature generation and signature verification. These may benefit from the use of some form of trusted execution environment (TEE) either generally or specially as in a trusted platform module (TPM) or a hardware security module (HSM). In addition to key management and cryptographic operations, special security measures must be implemented regarding secure execution of the application logic (e.g. code injection, insecure object references, cross-site/service request forgery, cross-service scripting, etc.).
+
+Source: Universal Identity Theory by Samuel Smith
+
+## Also see
+[zero trust](zero-trust)

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://github.com/trustoverip/tswg-ptel-specification/blob/main/.circleci/config.yml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/trustoverip/tswg-ptel-specification/blob/main/.editorconfig</loc>
+  </url>
+  <url>
+    <loc>https://github.com/trustoverip/tswg-ptel-specification/blob/main/.github/CODEOWNERS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/trustoverip/tswg-ptel-specification/blob/main/.github/workflows/archive.yml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/trustoverip/tswg-ptel-specification/blob/main/.github/workflows/ghpages.yml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/trustoverip/tswg-ptel-specification/blob/main/.github/workflows/publish.yml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/trustoverip/tswg-ptel-specification/blob/main/.github/workflows/update.yml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/trustoverip/tswg-ptel-specification/blob/main/.note.xml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/trustoverip/tswg-ptel-specification/blob/main/LICENSE.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/trustoverip/tswg-ptel-specification/blob/main/draft-pfeairheller-ptel.md</loc>
+  </url>
+</urlset>

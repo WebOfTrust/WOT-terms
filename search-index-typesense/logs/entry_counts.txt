@@ -1,0 +1,2 @@
+The file gleifPDF.jsonl has 3137 lines.
+The grand total of lines across all .jsonl files is 3137.
