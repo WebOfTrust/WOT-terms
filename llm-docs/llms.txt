@@ -7,3 +7,1264 @@ KERI Suite Glossary
 
 ## Tutorial Sidebar
 
+- [KERI Suite Glossary](https://weboftrust.github.io/WOT-terms/intro.md): This is the KERI Suite Glossary.
+### Intro
+
+  - [KERI Suite Glossary](https://weboftrust.github.io/WOT-terms/_01_intro/intro.md): This is the KERI Suite Glossary.
+
+### Overview
+
+  - [Indexed In KERISSE](https://weboftrust.github.io/WOT-terms/_02_overview/indexed-in-KERISSE.md)
+  - [Overview And Context](https://weboftrust.github.io/WOT-terms/_02_overview/overview-and-context.md)
+
+### Visualisations
+
+  - [Backed And Backerless Issuance And Revocation](https://weboftrust.github.io/WOT-terms/_03_visualisations/backed-and-backerless-issuance-and-revocation.md)
+  - [Keri And Acdc Architecture](https://weboftrust.github.io/WOT-terms/_03_visualisations/keri-and-acdc-architecture.md)
+  - [Keria Service Architecture](https://weboftrust.github.io/WOT-terms/_03_visualisations/keria-service-architecture.md)
+  - [Repo Connections](https://weboftrust.github.io/WOT-terms/_03_visualisations/repo-connections.md)
+  - [Various Visualisations From Slack](https://weboftrust.github.io/WOT-terms/_03_visualisations/various-visualisations-from-slack.md)
+
+### Resources
+
+  - [All Images](https://weboftrust.github.io/WOT-terms/_05_resources/all-images.md)
+  - [KERI Suite Glossary](https://weboftrust.github.io/WOT-terms/_05_resources/intro.md): This is the KERI Suite Glossary.
+  - [Keri.One Labeled](https://weboftrust.github.io/WOT-terms/_05_resources/keri.one-labeled.md)
+#### Mdfiles
+
+    - [WebOfTrust-ietf-cesr-proof-main-draft-pfeairheller-cesr-proof](https://weboftrust.github.io/WOT-terms/_05_resources/mdfiles/draft-pfeairheller-cesr-proof.md): 9286652585568, level 1
+    - [Draft Pfeairheller Did Keri](https://weboftrust.github.io/WOT-terms/_05_resources/mdfiles/draft-pfeairheller-did-keri.md)
+    - [Draft Pfeairheller Ptel](https://weboftrust.github.io/WOT-terms/_05_resources/mdfiles/draft-pfeairheller-ptel.md)
+    - [WebOfTrust-ietf-acdc-main-draft-ssmith-acdc](https://weboftrust.github.io/WOT-terms/_05_resources/mdfiles/draft-ssmith-acdc.md): 4171595971390, level 1
+    - [Draft Ssmith Cesr](https://weboftrust.github.io/WOT-terms/_05_resources/mdfiles/draft-ssmith-cesr.md)
+    - [WebOfTrust-ietf-ipex-main-draft-ssmith-ipex](https://weboftrust.github.io/WOT-terms/_05_resources/mdfiles/draft-ssmith-ipex.md): 8203357166114, level 1
+    - [Draft Ssmith Keri](https://weboftrust.github.io/WOT-terms/_05_resources/mdfiles/draft-ssmith-keri.md)
+    - [Draft Ssmith Oobi](https://weboftrust.github.io/WOT-terms/_05_resources/mdfiles/draft-ssmith-oobi.md)
+    - [Draft Ssmith Said](https://weboftrust.github.io/WOT-terms/_05_resources/mdfiles/draft-ssmith-said.md)
+    - [IdentifierTheory Ssmith Uidt](https://weboftrust.github.io/WOT-terms/_05_resources/mdfiles/IdentifierTheory-ssmith-uidt.md)
+    - [Kli Demo 2022](https://weboftrust.github.io/WOT-terms/_05_resources/mdfiles/kli-demo-2022.md)
+
+
+### Concepts
+
+  - [Concepts](https://weboftrust.github.io/WOT-terms/_06_concepts/concepts.md)
+  - [KERI Suite Glossary](https://weboftrust.github.io/WOT-terms/_06_concepts/intro.md): This is the KERI Suite Glossary.
+  - [Keri Dev Env](https://weboftrust.github.io/WOT-terms/_06_concepts/keri-dev-env.md)
+  - [Mindmap](https://weboftrust.github.io/WOT-terms/_06_concepts/mindmap.md)
+  - [Roadmap](https://weboftrust.github.io/WOT-terms/_06_concepts/roadmap.md)
+#### How To
+
+    - [Contribute To Weboftrust Github](https://weboftrust.github.io/WOT-terms/_06_concepts/how-to/contribute-to-weboftrust-github.md)
+    - [Create A Basic Acdc Graph](https://weboftrust.github.io/WOT-terms/_06_concepts/how-to/create-a-basic-acdc-graph.md)
+    - [Current Open Issues](https://weboftrust.github.io/WOT-terms/_06_concepts/how-to/current-open-issues.md)
+    - [KERI Suite Glossary](https://weboftrust.github.io/WOT-terms/_06_concepts/how-to/intro.md): This is the KERI Suite Glossary.
+    - [Issue A Credential](https://weboftrust.github.io/WOT-terms/_06_concepts/how-to/issue-a-credential.md)
+    - [Make A Schema](https://weboftrust.github.io/WOT-terms/_06_concepts/how-to/make-a-schema.md)
+    - [Present A Credential](https://weboftrust.github.io/WOT-terms/_06_concepts/how-to/present-a-credential.md)
+    - [Set Up Basic Keri Network](https://weboftrust.github.io/WOT-terms/_06_concepts/how-to/set-up-basic-keri-network.md)
+    - [Verify A Credential](https://weboftrust.github.io/WOT-terms/_06_concepts/how-to/verify-a-credential.md)
+
+
+### Education
+
+  - [KERI Suite Glossary](https://weboftrust.github.io/WOT-terms/_07_education/intro.md): This is the KERI Suite Glossary.
+  - [Keri Mooc](https://weboftrust.github.io/WOT-terms/_07_education/keri-mooc.md)
+  - [Q And A Security](https://weboftrust.github.io/WOT-terms/_07_education/q-and-a-security.md)
+  - [Q And A](https://weboftrust.github.io/WOT-terms/_07_education/q-and-a.md)
+  - [Tutorials](https://weboftrust.github.io/WOT-terms/_07_education/tutorials.md)
+
+### Annotated Copies
+
+  - [WebOfTrust-ietf-acdc-main-draft-ssmith-acdc](https://weboftrust.github.io/WOT-terms/_08_annotated-copies/WebOfTrust-ietf-acdc-main-draft-ssmith-acdc.md): 4171595971390, level 1
+  - [WebOfTrust-ietf-cesr-proof-main-draft-pfeairheller-cesr-proof](https://weboftrust.github.io/WOT-terms/_08_annotated-copies/WebOfTrust-ietf-cesr-proof-main-draft-pfeairheller-cesr-proof.md): 9286652585568, level 1
+  - [WebOfTrust-ietf-ipex-main-draft-ssmith-ipex](https://weboftrust.github.io/WOT-terms/_08_annotated-copies/WebOfTrust-ietf-ipex-main-draft-ssmith-ipex.md): 8203357166114, level 1
+  - [WebOfTrust-keria-main-docs-protocol](https://weboftrust.github.io/WOT-terms/_08_annotated-copies/WebOfTrust-keria-main-docs-protocol.md): signify-keria-request-authentication-protocol--skrap-, level 1
+
+### GLEIF
+
+  - [2022 02 07 Verifiable LEI (VLEI) Ecosystem Information Trust Policies Prep 1.0 Publication V0.1 Work](https://weboftrust.github.io/WOT-terms/_gleif/2022-02-07_verifiable-LEI-(vLEI)-Ecosystem-Information-Trust-Policies-Prep-1.0-Publication_v0.1_work.md)
+  - [2022 02 07 Vlei Q A V1.1 Final](https://weboftrust.github.io/WOT-terms/_gleif/2022-02-07_vlei-q-a_v1.1-final.md)
+  - [2022 10 28 Qualified VLEI Issuer VLEI Identifer Credential GF Prep 1.0 Publication V0.9 Work](https://weboftrust.github.io/WOT-terms/_gleif/2022-10-28_Qualified-vLEI-Issuer-vLEI-Identifer-Credential-GF-Prep-1.0-Publication_v0.9_work.md)
+  - [2022 11 01 GLEIF Identifier GF Prep 1.0 Publication V0.6 Work](https://weboftrust.github.io/WOT-terms/_gleif/2022-11-01_GLEIF-Identifier-GF-Prep-1.0-Publication_v0.6_work.md)
+  - [2022 11 22 Legal Entity VLEI Credential GF Prep 1.0 Publication V0.12 Work](https://weboftrust.github.io/WOT-terms/_gleif/2022-11-22_Legal-Entity-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work.md)
+  - [2022 11 23 Legal Entity Engagement Context Role VLEI Credential GF Prep 1.0 Publication V0.12 Work](https://weboftrust.github.io/WOT-terms/_gleif/2022-11-23_Legal-Entity-Engagement-Context-Role-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work.md)
+  - [2022 11 23 Legal Entity Official Organizational Role VLEI Credential GF Prep 1.0 Publication V0.12 Work](https://weboftrust.github.io/WOT-terms/_gleif/2022-11-23_Legal-Entity-Official-Organizational-Role-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work.md)
+  - [1      
+Introduction](https://weboftrust.github.io/WOT-terms/_gleif/2022-11-30_Legal-Entity-QVI-AUTH-vLEI-Credential-GF-Prep-1.0-Publication_v0.6_work.md)
+  - [1     
+Related Specifications](https://weboftrust.github.io/WOT-terms/_gleif/2022-12-01_verifiable-LEI-(vLEI)-Ecosystem-Governance-Framework-Technical-Requirements-Part 3-vLEI-Credential-Schema-Registry-Prep-1.0-Publication_v0.1_work.md)
+  - [2022 12 06 Appendix 1 Non Disclosure Agreement V1.0 Final](https://weboftrust.github.io/WOT-terms/_gleif/2022-12-06_appendix-1-non-disclosure-agreement_v1.0_final.md)
+  - [2022 12 06 Appendix 2 Vlei Issuer Qualification Program Manual V1.0 Final](https://weboftrust.github.io/WOT-terms/_gleif/2022-12-06_appendix-2-vlei-issuer-qualification-program-manual_v1.0_final.md)
+  - [2022 12 06 Appendix 3 Vlei Issuer Qualification Program Checklist V1.0 Final](https://weboftrust.github.io/WOT-terms/_gleif/2022-12-06_appendix-3-vlei-issuer-qualification-program-checklist_v1.0_final.md)
+  - [2022 12 06 Appendix 4 Vlei Issuer Contact Details V1.0 Final](https://weboftrust.github.io/WOT-terms/_gleif/2022-12-06_appendix-4-vlei-issuer-contact-details_v1.0_final.md)
+  - [2022 12 06 Verifiable LEI (VLEI) Ecosystem Governance Framework Technical Requirements Part1 KERI Infrastructure Prep 1.0 Publication V0.6 Work](https://weboftrust.github.io/WOT-terms/_gleif/2022-12-06_verifiable-LEI-(vLEI)-Ecosystem-Governance-Framework-Technical-Requirements-Part1-KERI-Infrastructure-Prep-1.0-Publication_v0.6_work.md)
+  - [2022 12 06 Verifiable LEI (VLEI) Ecosystem Governance Framework Technical Requirements Part2 VLEI Credentials V0.3 Work](https://weboftrust.github.io/WOT-terms/_gleif/2022-12-06_verifiable-LEI-(vLEI)-Ecosystem-Governance-Framework-Technical-Requirements-Part2-vLEI-Credentials_v0.3_work.md)
+  - [2022 12 16 Legal Entity QVI AUTH VLEI Credential Governance Framework V1.0 Final](https://weboftrust.github.io/WOT-terms/_gleif/2022-12-16_Legal-Entity-QVI-AUTH-vLEI-Credential-Governance-Framework_v1.0_final.md)
+
+### Various External Glossaries
+
+  - [Glossary Digital.Govt.Nz](https://weboftrust.github.io/WOT-terms/_glossaries-external/glossary-digital.govt.nz.md)
+  - [Glossary Essiflab](https://weboftrust.github.io/WOT-terms/_glossaries-external/glossary-essiflab.md)
+  - [Glossary Nist](https://weboftrust.github.io/WOT-terms/_glossaries-external/glossary-nist.md)
+  - [Glossary Toip](https://weboftrust.github.io/WOT-terms/_glossaries-external/glossary-toip.md)
+  - [Glossary Toipdidweb](https://weboftrust.github.io/WOT-terms/_glossaries-external/glossary-toipdidweb.md)
+  - [Glossary W3cdid](https://weboftrust.github.io/WOT-terms/_glossaries-external/glossary-w3cdid.md)
+
+### How We Did
+
+  - [Cheat Sheet Writing Page](https://weboftrust.github.io/WOT-terms/_how-we-did/cheat-sheet-writing-page.md)
+  - [Check And Accept Pr Production Edusite Locally](https://weboftrust.github.io/WOT-terms/_how-we-did/check-and-accept-pr-production-edusite-locally.md)
+  - [Create Omnigraffle Infographic And Convert To Svg](https://weboftrust.github.io/WOT-terms/_how-we-did/create-omnigraffle-infographic-and-convert-to-svg.md)
+  - [Create Search Index](https://weboftrust.github.io/WOT-terms/_how-we-did/create-search-index.md)
+  - [Create Terms Link Table](https://weboftrust.github.io/WOT-terms/_how-we-did/create-terms-link-table.md)
+  - [Docusaurus Process](https://weboftrust.github.io/WOT-terms/_how-we-did/docusaurus-process.md)
+  - [Edit Metadata](https://weboftrust.github.io/WOT-terms/_how-we-did/edit-metadata.md)
+  - [Embed Github Hosted Image In Github Wiki Page](https://weboftrust.github.io/WOT-terms/_how-we-did/embed-github-hosted-image-in-github-wiki-page.md)
+  - [File System](https://weboftrust.github.io/WOT-terms/_how-we-did/file-system.md)
+  - [Fill Out Terms Toip Wiki](https://weboftrust.github.io/WOT-terms/_how-we-did/fill-out-terms-toip-wiki.md)
+  - [Install Project Kerisse](https://weboftrust.github.io/WOT-terms/_how-we-did/install-project-kerisse.md)
+  - [KERI Suite Glossary](https://weboftrust.github.io/WOT-terms/_how-we-did/intro.md): This is the KERI Suite Glossary.
+  - [Ip Rights Scraping](https://weboftrust.github.io/WOT-terms/_how-we-did/ip-rights-scraping.md)
+  - [Javascript Jsdoc](https://weboftrust.github.io/WOT-terms/_how-we-did/javascript-jsdoc.md)
+  - [Kerific Browser Extension](https://weboftrust.github.io/WOT-terms/_how-we-did/kerific-browser-extension.md)
+  - [Kerific Discord Bot](https://weboftrust.github.io/WOT-terms/_how-we-did/kerific-discord-bot.md)
+  - [Load Glossary Weboftrust In Docusaurus](https://weboftrust.github.io/WOT-terms/_how-we-did/load-glossary-weboftrust-in-docusaurus.md)
+  - [Organization Of Github Action Scripts](https://weboftrust.github.io/WOT-terms/_how-we-did/organization-of-Github-Action-scripts.md)
+  - [Overrides](https://weboftrust.github.io/WOT-terms/_how-we-did/overrides.md)
+  - [Typesense Search Install Config](https://weboftrust.github.io/WOT-terms/_how-we-did/typesense-search-install-config.md)
+  - [Why Terms Wot Manage Structure](https://weboftrust.github.io/WOT-terms/_how-we-did/why-terms-wot-manage-structure.md)
+
+### Glossary
+
+  - [access-controlled-interaction](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/access-controlled-interaction.md): Definition
+  - [ACDC](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/ACDC.md): See
+  - [ADC](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/ADC.md): See
+  - [ADR](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/ADR.md): See
+  - [agency](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/agency.md): Definition
+  - [custodial-agent](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/agent.md): Definition
+  - [SAID](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/AID.md): See
+  - [ambient-verifiability](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/ambient-verifiability.md): Definition
+  - [ample](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/ample.md): Definition
+  - [APC](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/APC.md): See
+  - [KAPI](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/API.md): Definition
+  - [append-only-event-logs](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/append-only-event-logs.md): Definition
+  - [application-programming-interface](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/application-programming-interface.md): Definition
+  - [architectural-decision-record](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/architectural-decision-record.md): Definition
+  - [attributional-trust](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/attributional-trust.md): Definition
+  - [authentic-chained-data-container](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/authentic-chained-data-container.md): Definition
+  - [authentic-data-container](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/authentic-data-container.md): Definition
+  - [authentic-data](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/authentic-data.md): Definition
+  - [authentic-provenance-chain](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/authentic-provenance-chain.md): Definition
+  - [authentic-web](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/authentic-web.md): Definition
+  - [authenticity](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/authenticity.md): Definition
+  - [authoritative](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/authoritative.md): Definition
+  - [signing-authority](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/authority.md): Definition
+  - [broken-object-level-authorization](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/authorization.md): Definition
+  - [authorized-vlei-representative](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/authorized-vlei-representative.md): Definition
+  - [autonomic-computing-systems](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/autonomic-computing-systems.md): Definition
+  - [root-autonomic-identifier](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/autonomic-identifier.md): Definition
+  - [autonomic-identity-system](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/autonomic-identity-system.md): Definition
+  - [autonomic-namespace](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/autonomic-namespace.md): Definition
+  - [autonomic-trust-basis](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/autonomic-trust-basis.md): Definition
+  - [AVR](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/AVR.md): See
+  - [ledger-backer](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/backer.md): Definition
+  - [BADA](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/BADA.md): See
+  - [base-media-type](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/base-media-type.md): Definition
+  - [base64](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/base64.md): Definition
+  - [bespoke-credential](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/bespoke-credential.md): Definition
+  - [best-available-data-acceptance-mechanism](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/best-available-data-acceptance-mechanism.md): Definition
+  - [bexter](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/bexter.md): Definition
+  - [BFT](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/BFT.md): See
+  - [binding](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/binding.md): Definition
+  - [bis](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/bis.md): Definition
+  - [bivalent](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/bivalent.md): Definition
+  - [blake3](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/blake3.md): Definition
+  - [blind-oobi](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/blind-oobi.md): Definition
+  - [blinded-revocation-registry](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/blinded-revocation-registry.md): Definition
+  - [BOLA](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/BOLA.md): See
+  - [bran](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/bran.md): Definition
+  - [branch](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/branch.md): Definition
+  - [broken-object-level-authorization](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/broken-object-level-authorization.md): Definition
+  - [brv](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/brv.md): Definition
+  - [byzantine-agreement](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/byzantine-agreement.md): Definition
+  - [byzantine-fault-tolerance](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/byzantine-fault-tolerance.md): Definition
+  - [CBOR](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/CBOR.md): See
+  - [certificate-transparency](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/certificate-transparency.md): Definition
+  - [cesr-proof-signatures](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/cesr-proof-signatures.md): Definition
+  - [CESR](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/CESR.md): See
+  - [cesride](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/cesride.md): Definition
+  - [chain-link-confidentiality](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/chain-link-confidentiality.md): Definition
+  - [chain-of-custody](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/chain-of-custody.md): Definition
+  - [cigar](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/cigar.md): Definition
+  - [claim](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/claim.md): Definition
+  - [CLC](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/CLC.md): See
+  - [clone](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/clone.md): Definition
+  - [cloud-agent](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/cloud-agent.md): Definition
+  - [code-table-selector](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/code-table-selector.md): Definition
+  - [code-table](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/code-table.md): Definition
+  - [cold-start-stream-parsing](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/cold-start-stream-parsing.md): Definition
+  - [collective-signature](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/collective-signature.md): Definition
+  - [collision](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/collision.md): Definition
+  - [compact-variant](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/compact-variant.md): Definition
+  - [complementary-integrity-verification](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/complementary-integrity-verification.md): Definition
+  - [text-binary-concatenation-composability](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/composability.md): Definition
+  - [composable-event-streaming-representation](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/composable-event-streaming-representation.md): Definition
+  - [composable](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/composable.md): See
+  - [concatenation](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/concatenation.md): Definition
+  - [concise-binary-object-representation](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/concise-binary-object-representation.md): Definition
+  - [secure-private-authentic-confidentiality](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/confidentiality.md): Definition
+  - [configuration-files](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/configuration-files.md): Definition
+  - [consensus-mechanism](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/consensus-mechanism.md): Definition
+  - [content-addressable-hash](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/content-addressable-hash.md): Definition
+  - [contextual-linkability](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/contextual-linkability.md): Definition
+  - [contingent-disclosure](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/contingent-disclosure.md): Definition
+  - [contractually-protected-disclosure](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/contractually-protected-disclosure.md): Definition
+  - [control-authority](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/control-authority.md): Definition
+  - [controller](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/controller.md): Definition
+  - [cooperative-delegation](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/cooperative-delegation.md): Definition
+  - [coroutines](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/coroutines.md): Definition
+  - [unpermissioned-correlation](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/correlation.md): a correlation established between two or more disclosed ACDCs whereby the discloser of the ACDCs ...
+  - [count-code](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/count-code.md): See
+  - [vlei-role-credential](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/credential.md): Definition
+  - [CRUD](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/CRUD.md): Definition
+  - [crypto-libraries](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/crypto-libraries.md): Definition
+  - [cryptocurrency](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/cryptocurrency.md): Definition
+  - [cryptographic-commitment-scheme](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/cryptographic-commitment-scheme.md): Definition
+  - [cryptographic-primitive](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/cryptographic-primitive.md): Definition
+  - [cryptographic-strength](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/cryptographic-strength.md): Definition
+  - [cryptonym](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/cryptonym.md): Definition
+  - [CSPRNG](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/CSPRNG.md): Definition
+  - [CT](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/CT.md): See
+  - [custodial-agent](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/custodial-agent.md): Definition
+  - [custodial-rotation](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/custodial-rotation.md): Definition
+  - [DAG](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/DAG.md): See
+  - [DAR](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/DAR.md): See
+  - [data-anchor](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/data-anchor.md): Definition
+  - [dead-drop](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/dead-drop.md): Definition
+  - [decentralized-identifier](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/decentralized-identifier.md): Definition
+  - [decentralized-identity](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/decentralized-identity.md): Definition
+  - [decentralized-key-management-infrastructure](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/decentralized-key-management-infrastructure.md): Definition
+  - [DEL](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/DEL.md): See
+  - [delegated-identifier](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/delegated-identifier.md): Definition
+  - [delegation](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/delegation.md): Definition
+  - [derivation-code](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/derivation-code.md): Definition
+  - [designated-aliases](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/designated-aliases.md): Definition
+  - [designated-authorized-representative](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/designated-authorized-representative.md): Definition
+  - [DHT](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/DHT.md): See
+  - [DID](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/DID.md): See
+  - [diger](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/diger.md): Definition
+  - [signed-digest](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/digest.md): Definition
+  - [digital-signature](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/digital-signature.md): Definition
+  - [dip](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/dip.md): Definition
+  - [indirect-mode](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/direct-mode.md): Definition
+  - [directed-acyclic-graph](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/directed-acyclic-graph.md): Definition
+  - [disclosee](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/disclosee.md): Definition
+  - [discloser](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/discloser.md): Definition
+  - [percolated-information-discovery](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/discovery.md): Definition
+  - [distributed-hash-table](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/distributed-hash-table.md): Definition
+  - [DKMI](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/DKMI.md): See
+  - [dnd](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/dnd.md): Definition
+  - [domain-name](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/domain-name.md): Definition
+  - [trust-domain](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/domain.md): Definition
+  - [double-spend-proof](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/double-spend-proof.md): Definition
+  - [DPKI](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/DPKI.md): See
+  - [drt](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/drt.md): Definition
+  - [dual-indexed-codes](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/dual-indexed-codes.md): Definition
+  - [dual-text-binary-encoding-format](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/dual-text-binary-encoding-format.md): Definition
+  - [duplicitous-event-log](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/duplicitous-event-log.md): Definition
+  - [duplicity-detection](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/duplicity-detection.md): Definition
+  - [threshold-of-accountable-duplicity](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/duplicity.md): Definition
+  - [E2E](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/E2E.md): See
+  - [eclipse-attack](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/eclipse-attack.md): Definition
+  - [ECR](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/ECR.md): See
+  - [electronic-signature](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/electronic-signature.md): Definition
+  - [encrypt-sender-sign-receiver](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/encrypt-sender-sign-receiver.md): Definition
+  - [end-role](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/end-role.md): Definition
+  - [end-to-end](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/end-to-end.md): Definition
+  - [end-verifiable](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/end-verifiable.md): Definition
+  - [engagement-context-role](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/engagement-context-role.md): Definition
+  - [Self-sovereign identifier](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/entity.md): Definition
+  - [entropy](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/entropy.md): Definition
+  - [ephemeral](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/ephemeral.md): Definition
+  - [escrow-state](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/escrow-state.md): Definition
+  - [escrow](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/escrow.md): Definition
+  - [ESSR](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/ESSR.md): See
+  - [non-establishment-event](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/establishment-event.md): Definition
+  - [exn](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/exn.md): Definition
+  - [exp](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/exp.md): Definition
+  - [extensible-business-reporting-language](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/extensible-business-reporting-language.md): Definition
+  - [FFI](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/FFI.md): See
+  - [field-map](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/field-map.md): Definition
+  - [first-seen](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/first-seen.md): Definition
+  - [foreign-function-interface](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/foreign-function-interface.md): Definition
+  - [frame-code](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/frame-code.md): See
+  - [full-disclosure](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/full-disclosure.md): Definition
+  - [fully-compact](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/fully-compact.md): definition
+  - [fully-expanded](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/fully-expanded.md): Definition
+  - [GAR](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/GAR.md): See
+  - [ghost-credential](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/ghost-credential.md): Definition
+  - [gleif-authorized-representative](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/gleif-authorized-representative.md): Definition
+  - [GLEIF](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/GLEIF.md): Definition
+  - [GLEIS](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/GLEIS.md): Definition
+  - [gnu-privacy-guard](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/gnu-privacy-guard.md): Definition
+  - [vlei-ecosystem-governance-framework](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/governance-framework.md): Definition
+  - [GPG](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/GPG.md): See
+  - [graduated-disclosure](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/graduated-disclosure.md): Definition
+  - [graph-fragment](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/graph-fragment.md): Definition
+  - [group-code](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/group-code.md): See
+  - [group-framing-code](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/group-framing-code.md): Definition
+  - [hab](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/hab.md): Definition
+  - [habery](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/habery.md): Definition
+  - [hardware-security-module](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/hardware-security-module.md): Definition
+  - [hierarchical-asynchronous-coroutines-and-input-output](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/hierarchical-asynchronous-coroutines-and-input-output.md): Definition
+  - [hierarchical-composition](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/hierarchical-composition.md): Definition
+  - [hierchical-deterministic-keys](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/hierchical-deterministic-keys.md): Definition
+  - [hio](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/hio.md): Definition
+  - [Home](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/Home.md): Welcome to the WebofTrust terms wiki!
+  - [HSM](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/HSM.md): See
+  - [I-O](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/I-O.md): See
+  - [IANA](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/IANA.md): See
+  - [icp](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/icp.md): Definition
+  - [identifier-system](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/identifier-system.md): Definition
+  - [verifiable-legal-entity-identifier](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/identifier.md): Definition
+  - [identity-assurance](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/identity-assurance.md): Definition
+  - [Self-sovereign identifier](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/identity.md): Definition
+  - [inception-event](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/inception-event.md): Definition
+  - [inception](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/inception.md): Definition
+  - [internal-inconsistency](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/inconsistency.md): Definition
+  - [indexed-signature](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/indexed-signature.md): Definition
+  - [indirect-mode](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/indirect-mode.md): Definition
+  - [input-output](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/input-output.md): Definition
+  - [inquisitor](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/inquisitor.md): Definition
+  - [verified-integrity](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/integrity.md): Definition
+  - [interaction-event](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/interaction-event.md): Non-establishment Event that anchors external data to the key-state as established by the most re...
+  - [non-interactive-authentication-design](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/interactive-authentication-design.md): Definition
+  - [interceptor](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/interceptor.md): Definition
+  - [Interleaved Serialisation](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/interleaved-serialisation.md)
+  - [internal-inconsistency](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/internal-inconsistency.md): Definition
+  - [internet-assigned-numbers-authority](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/internet-assigned-numbers-authority.md): Definition
+  - [interoperability](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/interoperability.md): Definition
+  - [interoperable](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/interoperable.md): See
+  - [ip-address](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/ip-address.md): An Internet Protocol address (IP address) is a numerical label such as '192.0.2.1' that is connec...
+  - [IPEX](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/IPEX.md): See
+  - [iss](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/iss.md): Definition
+  - [issuance-and-presentation-exchange-protocol](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/issuance-and-presentation-exchange-protocol.md): Definition
+  - [issuance-event](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/issuance-event.md): Definition
+  - [issuance-exchange](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/issuance-exchange.md): Definition
+  - [issuee](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/issuee.md): Definition
+  - [qualified-vlei-issuer](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/issuer.md): Definition
+  - [ixn](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/ixn.md): Definition
+  - [Javascript Object Notation (JSON)](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/javascript-object-notation-(JSON).md)
+  - [javascript-object-signing-and-encryption](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/javascript-object-signing-and-encryption.md): Definition
+  - [JOSE](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/JOSE.md): See
+  - [JSON](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/JSON.md): See
+  - [judge](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/judge.md): Definition
+  - [juror](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/juror.md): Definition
+  - [jury](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/jury.md): Definition
+  - [KA2CE](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/KA2CE.md): See
+  - [KAACE](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/KAACE.md): See
+  - [KAPI](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/KAPI.md): Definition
+  - [keep](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/keep.md): Definition
+  - [KEL](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/KEL.md): A Key Event Log.
+  - [keri-agreement-algorithm-for-control-establishment](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/keri-agreement-algorithm-for-control-establishment.md): Definition
+  - [keri-command-line-interface](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/keri-command-line-interface.md): Definition
+  - [keri-event-stream](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/keri-event-stream.md): Definition
+  - [keri-improvement-doc](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/keri-improvement-doc.md): Definition
+  - [keri-ox](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/keri-ox.md): Definition
+  - [keri-request-authentication-method](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/keri-request-authentication-method.md): Definition
+  - [keri-suite-search-engine](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/keri-suite-search-engine.md): Definition
+  - [keri-suite](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/keri-suite.md): Definition
+  - [KERI](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/KERI.md): See
+  - [keria](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/keria.md): Definition
+  - [keride](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/keride.md): Definition
+  - [keridemlia](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/keridemlia.md): Definition
+  - [kerific](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/kerific.md): Definition
+  - [KERIMask](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/KERIMask.md): Definition
+  - [Slack Archive](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/keripy.md)
+  - [KERISSE](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/KERISSE.md): See
+  - [KERL](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/KERL.md): See
+  - [kever](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/kever.md): Definition
+  - [key-compromise](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/key-compromise.md): Definition
+  - [key-event-log](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/key-event-log.md): Definition
+  - [key-event-message](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/key-event-message.md): Definition
+  - [key-event-receipt-infrastructure](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/key-event-receipt-infrastructure.md): Definition
+  - [key-event-receipt-log](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/key-event-receipt-log.md): Definition
+  - [key-event-receipt](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/key-event-receipt.md): Definition
+  - [key-event](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/key-event.md): Definition
+  - [key-management](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/key-management.md): Definition
+  - [key-pair](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/key-pair.md): Definition
+  - [key-state](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/key-state.md): Definition
+  - [key-stretching](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/key-stretching.md): Definition
+  - [key-transparency](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/key-transparency.md): Definition
+  - [stale-key](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/key.md): Definition
+  - [keystore](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/keystore.md): Definition
+  - [KID](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/KID.md): See
+  - [kli](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/kli.md): See
+  - [KRAM](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/KRAM.md): See
+  - [ksn](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/ksn.md): Definition
+  - [large-language-model](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/large-language-model.md): Definition
+  - [lead-bytes](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/lead-bytes.md): Definition
+  - [ledger-backer](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/ledger-backer.md): Definition
+  - [legal-entity-engagement-context-role-vlei-credential-governance-framework](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/legal-entity-engagement-context-role-vlei-credential-governance-framework.md): Definition
+  - [legal-entity-official-organizational-role-vlei-credential-governance-framework](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/legal-entity-official-organizational-role-vlei-credential-governance-framework.md): Definition
+  - [legal-entity-vlei-credential-governance-framework](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/legal-entity-vlei-credential-governance-framework.md): Definition
+  - [legal-entity](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/legal-entity.md): Definition
+  - [legitimized-human-meaningful-identifier](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/legitimized-human-meaningful-identifier.md): Definition
+  - [vLEI](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/LEI.md): See
+  - [levels-of-assurance](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/levels-of-assurance.md): Definition
+  - [LID](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/LID.md): See
+  - [listed-identifier](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/listed-identifier.md): Definition
+  - [liveness](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/liveness.md): Definition
+  - [LLM](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/LLM.md): See Large Language Model
+  - [LoA](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/LoA.md): See
+  - [LoC](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/LoC.md): See
+  - [loci-of-control](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/loci-of-control.md): Definition
+  - [locked-state](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/locked-state.md): Definition
+  - [management-TEL](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/management-TEL.md): See
+  - [management-transaction-event-log](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/management-transaction-event-log.md): Definition
+  - [media-type](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/media-type.md): Definition
+  - [message](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/message.md): Definition
+  - [messagepack](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/messagepack.md): Definition
+  - [MFA](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/MFA.md): See
+  - [MIME-type](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/MIME-type.md): See
+  - [moobi](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/moobi.md): Definition
+  - [most-compact](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/most-compact.md): Definition
+  - [multi-factor-authentication](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/multi-factor-authentication.md): Definition
+  - [multi-valent](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/multi-valent.md): Definition
+  - [multicodec](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/multicodec.md): Definition
+  - [multiplexing](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/multiplexing.md): Definition
+  - [multisig](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/multisig.md): Definition
+  - [naive-conversion](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/naive-conversion.md): Definition
+  - [namespace](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/namespace.md): Definition
+  - [ndigs](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/ndigs.md): Definition
+  - [nested-cooperative-delegated-identifiers](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/nested-cooperative-delegated-identifiers.md): Definition
+  - [NFT](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/NFT.md): See
+  - [non-establishment-event](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/non-establishment-event.md): Definition
+  - [non-fungible-token](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/non-fungible-token.md): Definition
+  - [non-interactive-authentication-design](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/non-interactive-authentication-design.md): Definition
+  - [non-normative](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/non-normative.md): Definition
+  - [non-repudiable](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/non-repudiable.md): Definition
+  - [non-transferable-identifier](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/non-transferable-identifier.md): Definition
+  - [non-transferable](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/non-transferable.md): Definition
+  - [normative](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/normative.md): Definition
+  - [official-organizational-role](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/official-organizational-role.md): Definition
+  - [one-way-function](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/one-way-function.md): Definition
+  - [OOBI](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/OOBI.md): See
+  - [OOR](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/OOR.md): See
+  - [opcode](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/opcode.md): Definition
+  - [out-of-band-introduction](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/out-of-band-introduction.md): Definition
+  - [owner](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/owner.md): See
+  - [ownership](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/ownership.md): See
+  - [P2P](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/P2P.md): See
+  - [pre-pad](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/pad.md): Definition
+  - [parside](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/parside.md): Definition
+  - [partial-disclosure](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/partial-disclosure.md): Definition
+  - [partial-pre-rotation](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/partial-pre-rotation.md): See
+  - [partial-rotation](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/partial-rotation.md): Definition
+  - [party](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/party.md): Definition
+  - [passcode](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/passcode.md): Definition
+  - [pathing](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/pathing.md): Definition
+  - [payload](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/payload.md): Definition
+  - [peer-to-peer](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/peer-to-peer.md): Definition
+  - [percolated-information-discovery](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/percolated-information-discovery.md): Definition
+  - [persistent-data-structure](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/persistent-data-structure.md): Definition
+  - [persistent-identifier](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/persistent-identifier.md): See
+  - [PGP](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/PGP.md): See
+  - [PID](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/PID.md): See
+  - [pii](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/pii.md): Definition
+  - [pipelining](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/pipelining.md): Definition
+  - [PKI](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/PKI.md): See
+  - [post-pad](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/post-pad.md): Definition
+  - [post-quantum](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/post-quantum.md): Definition
+  - [pre-pad](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/pre-pad.md): Definition
+  - [pre-rotation](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/pre-rotation.md): Definition
+  - [prefix](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/prefix.md): Definition
+  - [presentation-exchange](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/presentation-exchange.md): Definition
+  - [pretty-good-privacy](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/pretty-good-privacy.md): Definition
+  - [primary-root-of-trust](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/primary-root-of-trust.md): Definition
+  - [primitive](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/primitive.md): Definition
+  - [privacy-washing](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/privacy-washing.md): Definition
+  - [privacy](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/privacy.md): Definition
+  - [PRNG](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/PRNG.md): Definition
+  - [promiscuous-mode](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/promiscuous-mode.md): Definition
+  - [proof-of-authority](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/proof-of-authority.md): Definition
+  - [proof-of-authorship](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/proof-of-authorship.md): Definition
+  - [WebOfTrust-keria-main-docs-protocol](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/protocol.md): signify-keria-request-authentication-protocol--skrap-, level 1
+  - [provenance](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/provenance.md): Defintion
+  - [provenanced](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/provenanced.md): Definition
+  - [pseudo-random-number](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/pseudo-random-number.md): Definition
+  - [PTEL](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/PTEL.md): See
+  - [public-key-infrastructure](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/public-key-infrastructure.md): Definition
+  - [public-transaction-event-log](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/public-transaction-event-log.md): Definition
+  - [public-verifiable-credential-registry](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/public-verifiable-credential-registry.md): Definition
+  - [QAR](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/QAR.md): See
+  - [qry](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/qry.md): Definition
+  - [qualified-vlei-issuer-vlei-credential-governance-framework](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/qualified-vlei-issuer-vlei-credential-governance-framework.md): Definition
+  - [qualified-vlei-issuer](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/qualified-vlei-issuer.md): Definition
+  - [qualified](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/qualified.md): Definition
+  - [qvi-authorized-representative](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/qvi-authorized-representative.md): A designated representative of a QVI authorized, to conduct QVI operations with GLEIF and Legal E...
+  - [QVI](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/QVI.md): See
+  - [race-condition](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/race-condition.md): Definition
+  - [rainbow-table-attack](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/rainbow-table-attack.md): Definition
+  - [rct](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/rct.md): Definition
+  - [read-update-nullify](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/read-update-nullify.md): Definition
+  - [receipt-log](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/receipt-log.md): Definition
+  - [receipt](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/receipt.md): Definition
+  - [reconciliation](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/reconciliation.md): Definition
+  - [redundant-credential](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/redundant-credential.md): Definition
+  - [registrar](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/registrar.md): Definition
+  - [registration-interaction](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/registration-interaction.md): Definition
+  - [verifiable-data-registry](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/registry.md): Definition
+  - [replay-attack](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/replay-attack.md): Definition
+  - [repo](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/repo.md): Definition
+  - [reputation](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/reputation.md): Definition
+  - [reputational-trust](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/reputational-trust.md): Definition
+  - [reserve-rotation](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/reserve-rotation.md): Definition
+  - [rev](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/rev.md): Definition
+  - [revocation-event](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/revocation-event.md): Definition
+  - [revocation](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/revocation.md): Definition
+  - [ricardian-contract](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/ricardian-contract.md): Definition
+  - [RID](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/RID.md): See
+  - [root-autonomic-identifier](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/root-autonomic-identifier.md): Definition
+  - [secondary-root-of-trust](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/root-of-trust.md): Definition
+  - [rot](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/rot.md): Definition
+  - [rotation-authority](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/rotation-authority.md): Definition
+  - [rotation-event](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/rotation-event.md): Definition
+  - [rotation](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/rotation.md): Definition
+  - [rpy](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/rpy.md): Definition
+  - [run-off-the-crud](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/run-off-the-crud.md): Definition
+  - [RUN](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/RUN.md): Definition
+  - [SAD](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/SAD.md): See
+  - [SAID](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/SAID.md): See
+  - [sally](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/sally.md): Definition
+  - [salt](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/salt.md): Definition
+  - [salter](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/salter.md): Definition
+  - [salty-nonce-blinding-factor](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/salty-nonce-blinding-factor.md): Definition
+  - [SATP](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/SATP.md): See
+  - [schema-namespace-registry](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/schema-namespace-registry.md): Definition
+  - [schema-registry](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/schema-registry.md): Definition
+  - [SCID](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/SCID.md): See
+  - [seal](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/seal.md): Definition
+  - [secondary-root-of-trust](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/secondary-root-of-trust.md): Definition
+  - [secure-asset-transfer-protocol](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/secure-asset-transfer-protocol.md): Definition
+  - [secure-attribution](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/secure-attribution.md): Definition
+  - [secure-private-authentic-confidentiality](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/secure-private-authentic-confidentiality.md): Definition
+  - [secure](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/secure.md): See
+  - [security-cost-performance-architecture-trade-off](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/security-cost-performance-architecture-trade-off.md): Definition
+  - [security-overlay-properties-trillema](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/security-overlay-properties-trillema.md): Definition
+  - [threshold-structure-security](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/security.md): Definition
+  - [seed](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/seed.md): Definition
+  - [selective-disclosure](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/selective-disclosure.md): Definition
+  - [self-addressing-data](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/self-addressing-data.md): Definition
+  - [self-addressing-identifier](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/self-addressing-identifier.md): Definition
+  - [Self-certifying identifier](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/self-certifying-identifier.md): Definition
+  - [self-framing](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/self-framing.md): Definition
+  - [Self-sovereign identifier](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/self-sovereign-identity.md): Definition
+  - [self-sovereignty](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/self-sovereignty.md): See
+  - [server-sent-event](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/server-sent-event.md): Definition
+  - [service-endpoint](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/service-endpoint.md): Definition
+  - [siger](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/siger.md): See
+  - [signed-digest](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/signed-digest.md): Definition
+  - [signer](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/signer.md): Definition
+  - [signify-keria-request-authentication-protocol](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/signify-keria-request-authentication-protocol.md): Definition
+  - [Slack Archive](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/signify.md)
+  - [signing-authority](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/signing-authority.md): Definition
+  - [signing-threshold](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/signing-threshold.md): Definition
+  - [simple-keri-for-web-auth](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/simple-keri-for-web-auth.md): Definition
+  - [single-signature-identifier](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/single-signature-identifier.md): Definition
+  - [SKRAP](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/SKRAP.md): See
+  - [SKWA](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/SKWA.md): See
+  - [sniffable](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/sniffable.md): Definition
+  - [sniffer](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/sniffer.md): Definition
+  - [unsolicited-issuance](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/solicited-issuance.md): Definition
+  - [source-of-truth](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/source-of-truth.md): Definition
+  - [SPAC](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/SPAC.md): See
+  - [spanning-layer](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/spanning-layer.md): Definition
+  - [spurn](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/spurn.md): Definition
+  - [ssi-system](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/ssi-system.md): Definition
+  - [SSI](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/SSI.md): See
+  - [stale-event](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/stale-event.md): Definition
+  - [stale-key](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/stale-key.md): Definition
+  - [strip-parameter](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/strip-parameter.md): Definition
+  - [sub-shell](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/sub-shell.md): Definition
+  - [supermajority](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/supermajority.md): Definition
+  - [tcp-endpoint](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/tcp-endpoint.md): Definition
+  - [TCP](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/TCP.md): See
+  - [TEE](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/TEE.md): See
+  - [management-TEL](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/TEL.md): See
+  - [text-binary-concatenation-composability](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/text-binary-concatenation-composability.md): Definition
+  - [tholder](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/tholder.md): Definition
+  - [threshold-of-accountable-duplicity](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/threshold-of-accountable-duplicity.md): Definition
+  - [threshold-signature-scheme](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/threshold-signature-scheme.md): Definition
+  - [threshold-structure-security](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/threshold-structure-security.md): Definition
+  - [TOAD](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/TOAD.md): See
+  - [top-level-section](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/top-level-section.md): Definition
+  - [TPM](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/TPM.md): See
+  - [trans-contextual-value](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/trans-contextual-value.md): Definition
+  - [virtual-credential-transaction-event-log](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/transaction-event-log.md): Definition
+  - [transfer-off-ledger](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/transfer-off-ledger.md): Definition
+  - [transferable-identifier](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/transferable-identifier.md): Definition
+  - [transferable](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/transferable.md): Definition
+  - [transmission-control-protocol](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/transmission-control-protocol.md): Definition
+  - [trust-domain](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/trust-domain.md): Definition
+  - [trust-spanning-protocol](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/trust-spanning-protocol.md): Definition
+  - [trusted-execution-environment](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/trusted-execution-environment.md): Definition
+  - [trusted-platform-module](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/trusted-platform-module.md): Definition
+  - [ts-node](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/ts-node.md): Definition
+  - [TSP](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/TSP.md): See
+  - [UI](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/UI.md): See
+  - [uniform-resource-locator](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/uniform-resource-locator.md): Definition
+  - [univalent](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/univalent.md): Definition
+  - [unsolicited-issuance](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/unsolicited-issuance.md): Definition
+  - [URL](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/URL.md): See
+  - [user-interface](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/user-interface.md): Definition
+  - [validate](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/validate.md): Definition
+  - [validator](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/validator.md): Definition
+  - [VC TEL](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/VC-TEL.md)
+  - [VC](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/VC.md): See
+  - [vcp](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/vcp.md): Definition
+  - [vdr](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/vdr.md): See
+  - [VDS](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/VDS.md): See
+  - [veracity](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/veracity.md): Definition
+  - [verfer](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/verfer.md): Definition
+  - [Verifiable Credential](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/verifiable-credential.md): Definition
+  - [verifiable-data-registry](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/verifiable-data-registry.md): Definition
+  - [verifiable-data-structure](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/verifiable-data-structure.md): Definition
+  - [verifiable-identifier](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/verifiable-identifier.md): Definition
+  - [verifiable-legal-entity-identifier](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/verifiable-legal-entity-identifier.md): Definition
+  - [verifiable](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/verifiable.md): Definition
+  - [verification](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/verification.md): Definition
+  - [verified-integrity](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/verified-integrity.md): Definition
+  - [verifier](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/verifier.md): Definition
+  - [verify-signature](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/verify-signature.md): Definition
+  - [verify](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/verify.md): Definition
+  - [version-code](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/version-code.md): Definition
+  - [version-string](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/version-string.md): Definition
+  - [version](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/version.md): Definition
+  - [VID](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/VID.md): See
+  - [virtual-credential-transaction-event-log](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/virtual-credential-transaction-event-log.md): Definition
+  - [vlei-credential](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/vlei-credential.md): Definition
+  - [vlei-ecosystem-governance-framework](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/vlei-ecosystem-governance-framework.md): Definition
+  - [vlei-role-credential](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/vlei-role-credential.md): Definition
+  - [vLEI](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/vLEI.md): See
+  - [vrt](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/vrt.md): Definition
+  - [wallet](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/wallet.md): Definition
+  - [watcher](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/watcher.md): Definition
+  - [web-of-trust](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/web-of-trust.md): Definition
+  - [weight-of-weights](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/weight-of-weights.md): Definition
+  - [well-known-witnesses](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/well-known-witnesses.md): Definition
+  - [witness](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/witness.md): Definition
+  - [XBRL](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/XBRL.md): See
+  - [xip](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/xip.md): Definition
+  - [zero-trust-computing](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/zero-trust-computing.md): Definition
+  - [zero-trust](https://weboftrust.github.io/WOT-terms/_safe-can-go-in-2026/zero-trust.md): Definition
+
+### Test
+
+  - [2022 11 22 Legal Entity VLEI Credential GF Prep 1.0 Publication V0.12 Work](https://weboftrust.github.io/WOT-terms/_test/2022-11-22_Legal-Entity-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work.md)
+  - [Converted Test Document Bij ChatGPT](https://weboftrust.github.io/WOT-terms/_test/converted_test_document_bij_chatGPT.md)
+  - [Howtos](https://weboftrust.github.io/WOT-terms/_test/howtos.md)
+  - [Kerific Test](https://weboftrust.github.io/WOT-terms/_test/kerific-test.md)
+  - [Result](https://weboftrust.github.io/WOT-terms/_test/result.md)
+  - [Term Test](https://weboftrust.github.io/WOT-terms/_test/term_test.md)
+  - [Term Test2](https://weboftrust.github.io/WOT-terms/_test/term_test2.md)
+  - [Term Test3](https://weboftrust.github.io/WOT-terms/_test/term_test3.md)
+  - [Term Test4](https://weboftrust.github.io/WOT-terms/_test/term_test4.md)
+#### Did Webs Iiw37 Tutorial
+
+    - [KERI Suite Glossary](https://weboftrust.github.io/WOT-terms/_test/did-webs-iiw37-tutorial/intro.md): This is the KERI Suite Glossary.
+
+#### Gleif Legal
+
+    - [2022 10 28 Qualified VLEI Issuer VLEI Identifer Credential GF Prep 1.0 Publication V0.9 Work](https://weboftrust.github.io/WOT-terms/_test/gleif-legal/2022-10-28_Qualified-vLEI-Issuer-vLEI-Identifer-Credential-GF-Prep-1.0-Publication_v0.9_work.md)
+    - [2022 11 01 GLEIF Identifier GF Prep 1.0 Publication V0.6 Work](https://weboftrust.github.io/WOT-terms/_test/gleif-legal/2022-11-01_GLEIF-Identifier-GF-Prep-1.0-Publication_v0.6_work.md)
+    - [2022 11 22 Legal Entity VLEI Credential GF Prep 1.0 Publication V0.12 Work](https://weboftrust.github.io/WOT-terms/_test/gleif-legal/2022-11-22_Legal-Entity-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work.md)
+    - [2022 11 23 Legal Entity Engagement Context Role VLEI Credential GF Prep 1.0 Publication V0.12 Work](https://weboftrust.github.io/WOT-terms/_test/gleif-legal/2022-11-23_Legal-Entity-Engagement-Context-Role-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work.md)
+    - [2022 11 23 Legal Entity Official Organizational Role VLEI Credential GF Prep 1.0 Publication V0.12 Work](https://weboftrust.github.io/WOT-terms/_test/gleif-legal/2022-11-23_Legal-Entity-Official-Organizational-Role-vLEI-Credential-GF-Prep-1.0-Publication_v0.12_work.md)
+    - [1      
+Introduction](https://weboftrust.github.io/WOT-terms/_test/gleif-legal/2022-11-30_Legal-Entity-QVI-AUTH-vLEI-Credential-GF-Prep-1.0-Publication_v0.6_work.md)
+    - [1     
+Related Specifications](https://weboftrust.github.io/WOT-terms/_test/gleif-legal/2022-12-01_verifiable-LEI-(vLEI)-Ecosystem-Governance-Framework-Technical-Requirements-Part 3-vLEI-Credential-Schema-Registry-Prep-1.0-Publication_v0.1_work.md)
+    - [2022 12 06 Verifiable LEI (VLEI) Ecosystem Governance Framework Technical Requirements Part1 KERI Infrastructure Prep 1.0 Publication V0.6 Work](https://weboftrust.github.io/WOT-terms/_test/gleif-legal/2022-12-06_verifiable-LEI-(vLEI)-Ecosystem-Governance-Framework-Technical-Requirements-Part1-KERI-Infrastructure-Prep-1.0-Publication_v0.6_work.md)
+
+
+### Video
+
+  - [2024 03 24 KERI Dev Call](https://weboftrust.github.io/WOT-terms/_video/2024-03-24-KERI-dev-call.md)
+  - [Lets Keri On Together](https://weboftrust.github.io/WOT-terms/_video/lets-keri-on-together.md)
+
+### Glossary
+
+  - [abandoned identifier](https://weboftrust.github.io/WOT-terms/04_glossary/abandoned-identifier.md): Definition
+  - [access-controlled-interaction](https://weboftrust.github.io/WOT-terms/04_glossary/access-controlled-interaction.md): Definition
+  - [ACDC](https://weboftrust.github.io/WOT-terms/04_glossary/ACDC.md): See
+  - [ADC](https://weboftrust.github.io/WOT-terms/04_glossary/ADC.md): See
+  - [ADR](https://weboftrust.github.io/WOT-terms/04_glossary/ADR.md): See
+  - [agency](https://weboftrust.github.io/WOT-terms/04_glossary/agency.md): Definition
+  - [custodial-agent](https://weboftrust.github.io/WOT-terms/04_glossary/agent.md): Definition
+  - [SAID](https://weboftrust.github.io/WOT-terms/04_glossary/AID.md): See
+  - [ambient-verifiability](https://weboftrust.github.io/WOT-terms/04_glossary/ambient-verifiability.md): Definition
+  - [ample](https://weboftrust.github.io/WOT-terms/04_glossary/ample.md): Definition
+  - [APC](https://weboftrust.github.io/WOT-terms/04_glossary/APC.md): See
+  - [KAPI](https://weboftrust.github.io/WOT-terms/04_glossary/API.md): Definition
+  - [append-only-event-logs](https://weboftrust.github.io/WOT-terms/04_glossary/append-only-event-logs.md): Definition
+  - [application-programming-interface](https://weboftrust.github.io/WOT-terms/04_glossary/application-programming-interface.md): Definition
+  - [architectural-decision-record](https://weboftrust.github.io/WOT-terms/04_glossary/architectural-decision-record.md): Definition
+  - [attribute](https://weboftrust.github.io/WOT-terms/04_glossary/attribute.md): Definition
+  - [attributional-trust](https://weboftrust.github.io/WOT-terms/04_glossary/attributional-trust.md): Definition
+  - [authentic-chained-data-container](https://weboftrust.github.io/WOT-terms/04_glossary/authentic-chained-data-container.md): Definition
+  - [authentic-data-container](https://weboftrust.github.io/WOT-terms/04_glossary/authentic-data-container.md): Definition
+  - [authentic-data](https://weboftrust.github.io/WOT-terms/04_glossary/authentic-data.md): Definition
+  - [authentic-provenance-chain](https://weboftrust.github.io/WOT-terms/04_glossary/authentic-provenance-chain.md): Definition
+  - [authentic-web](https://weboftrust.github.io/WOT-terms/04_glossary/authentic-web.md): Definition
+  - [authenticity](https://weboftrust.github.io/WOT-terms/04_glossary/authenticity.md): Definition
+  - [authoritative](https://weboftrust.github.io/WOT-terms/04_glossary/authoritative.md): Definition
+  - [signing-authority](https://weboftrust.github.io/WOT-terms/04_glossary/authority.md): Definition
+  - [broken-object-level-authorization](https://weboftrust.github.io/WOT-terms/04_glossary/authorization.md): Definition
+  - [authorized-vlei-representative](https://weboftrust.github.io/WOT-terms/04_glossary/authorized-vlei-representative.md): Definition
+  - [autonomic-computing-systems](https://weboftrust.github.io/WOT-terms/04_glossary/autonomic-computing-systems.md): Definition
+  - [root-autonomic-identifier](https://weboftrust.github.io/WOT-terms/04_glossary/autonomic-identifier.md): Definition
+  - [autonomic-identity-system](https://weboftrust.github.io/WOT-terms/04_glossary/autonomic-identity-system.md): Definition
+  - [autonomic-namespace](https://weboftrust.github.io/WOT-terms/04_glossary/autonomic-namespace.md): Definition
+  - [autonomic-trust-basis](https://weboftrust.github.io/WOT-terms/04_glossary/autonomic-trust-basis.md): Definition
+  - [AVR](https://weboftrust.github.io/WOT-terms/04_glossary/AVR.md): See
+  - [ledger-backer](https://weboftrust.github.io/WOT-terms/04_glossary/backer.md): Definition
+  - [BADA](https://weboftrust.github.io/WOT-terms/04_glossary/BADA.md): See
+  - [base-media-type](https://weboftrust.github.io/WOT-terms/04_glossary/base-media-type.md): Definition
+  - [base64](https://weboftrust.github.io/WOT-terms/04_glossary/base64.md): Definition
+  - [bespoke-credential](https://weboftrust.github.io/WOT-terms/04_glossary/bespoke-credential.md): Definition
+  - [best-available-data-acceptance-mechanism](https://weboftrust.github.io/WOT-terms/04_glossary/best-available-data-acceptance-mechanism.md): Definition
+  - [bexter](https://weboftrust.github.io/WOT-terms/04_glossary/bexter.md): Definition
+  - [BFT](https://weboftrust.github.io/WOT-terms/04_glossary/BFT.md): See
+  - [binding](https://weboftrust.github.io/WOT-terms/04_glossary/binding.md): Definition
+  - [bis](https://weboftrust.github.io/WOT-terms/04_glossary/bis.md): Definition
+  - [bivalent](https://weboftrust.github.io/WOT-terms/04_glossary/bivalent.md): Definition
+  - [blake3](https://weboftrust.github.io/WOT-terms/04_glossary/blake3.md): Definition
+  - [blind-oobi](https://weboftrust.github.io/WOT-terms/04_glossary/blind-oobi.md): Definition
+  - [blinded-revocation-registry](https://weboftrust.github.io/WOT-terms/04_glossary/blinded-revocation-registry.md): Definition
+  - [BOLA](https://weboftrust.github.io/WOT-terms/04_glossary/BOLA.md): See
+  - [bran](https://weboftrust.github.io/WOT-terms/04_glossary/bran.md): Definition
+  - [branch](https://weboftrust.github.io/WOT-terms/04_glossary/branch.md): Definition
+  - [broken-object-level-authorization](https://weboftrust.github.io/WOT-terms/04_glossary/broken-object-level-authorization.md): Definition
+  - [brv](https://weboftrust.github.io/WOT-terms/04_glossary/brv.md): Definition
+  - [byzantine-agreement](https://weboftrust.github.io/WOT-terms/04_glossary/byzantine-agreement.md): Definition
+  - [byzantine-fault-tolerance](https://weboftrust.github.io/WOT-terms/04_glossary/byzantine-fault-tolerance.md): Definition
+  - [Canonicalization](https://weboftrust.github.io/WOT-terms/04_glossary/canonicalization.md): Definition
+  - [CBOR](https://weboftrust.github.io/WOT-terms/04_glossary/CBOR.md): See
+  - [certificate-transparency](https://weboftrust.github.io/WOT-terms/04_glossary/certificate-transparency.md): Definition
+  - [cesr-proof-signatures](https://weboftrust.github.io/WOT-terms/04_glossary/cesr-proof-signatures.md): Definition
+  - [CESR-version](https://weboftrust.github.io/WOT-terms/04_glossary/CESR-version.md): Definition
+  - [CESR](https://weboftrust.github.io/WOT-terms/04_glossary/CESR.md): See
+  - [cesride](https://weboftrust.github.io/WOT-terms/04_glossary/cesride.md): Definition
+  - [chain-link-confidential-disclosure](https://weboftrust.github.io/WOT-terms/04_glossary/chain-link-confidential-disclosure.md): Definition
+  - [chain-link-confidentiality](https://weboftrust.github.io/WOT-terms/04_glossary/chain-link-confidentiality.md): Definition
+  - [chain-of-custody](https://weboftrust.github.io/WOT-terms/04_glossary/chain-of-custody.md): Definition
+  - [cigar](https://weboftrust.github.io/WOT-terms/04_glossary/cigar.md): Definition
+  - [claim](https://weboftrust.github.io/WOT-terms/04_glossary/claim.md): Definition
+  - [CLC](https://weboftrust.github.io/WOT-terms/04_glossary/CLC.md): See
+  - [clone](https://weboftrust.github.io/WOT-terms/04_glossary/clone.md): Definition
+  - [cloud-agent](https://weboftrust.github.io/WOT-terms/04_glossary/cloud-agent.md): Definition
+  - [code-table-selector](https://weboftrust.github.io/WOT-terms/04_glossary/code-table-selector.md): Definition
+  - [code-table](https://weboftrust.github.io/WOT-terms/04_glossary/code-table.md): Definition
+  - [cold-start-stream-parsing](https://weboftrust.github.io/WOT-terms/04_glossary/cold-start-stream-parsing.md): Definition
+  - [collective-signature](https://weboftrust.github.io/WOT-terms/04_glossary/collective-signature.md): Definition
+  - [collision](https://weboftrust.github.io/WOT-terms/04_glossary/collision.md): Definition
+  - [compact-disclosure](https://weboftrust.github.io/WOT-terms/04_glossary/compact-disclosure.md): Definition
+  - [compact-variant](https://weboftrust.github.io/WOT-terms/04_glossary/compact-variant.md): Definition
+  - [complementary-integrity-verification](https://weboftrust.github.io/WOT-terms/04_glossary/complementary-integrity-verification.md): Definition
+  - [text-binary-concatenation-composability](https://weboftrust.github.io/WOT-terms/04_glossary/composability.md): Definition
+  - [composable-event-streaming-representation](https://weboftrust.github.io/WOT-terms/04_glossary/composable-event-streaming-representation.md): Definition
+  - [composable](https://weboftrust.github.io/WOT-terms/04_glossary/composable.md): See
+  - [concatenation](https://weboftrust.github.io/WOT-terms/04_glossary/concatenation.md): Definition
+  - [concise-binary-object-representation](https://weboftrust.github.io/WOT-terms/04_glossary/concise-binary-object-representation.md): Definition
+  - [secure-private-authentic-confidentiality](https://weboftrust.github.io/WOT-terms/04_glossary/confidentiality.md): Definition
+  - [configuration-files](https://weboftrust.github.io/WOT-terms/04_glossary/configuration-files.md): Definition
+  - [Configuration traits](https://weboftrust.github.io/WOT-terms/04_glossary/configuration-traits.md): Definition
+  - [consensus-mechanism](https://weboftrust.github.io/WOT-terms/04_glossary/consensus-mechanism.md): Definition
+  - [content-addressable-hash](https://weboftrust.github.io/WOT-terms/04_glossary/content-addressable-hash.md): Definition
+  - [contextual-linkability](https://weboftrust.github.io/WOT-terms/04_glossary/contextual-linkability.md): Definition
+  - [contingent-disclosure](https://weboftrust.github.io/WOT-terms/04_glossary/contingent-disclosure.md): Definition
+  - [contractually-protected-disclosure](https://weboftrust.github.io/WOT-terms/04_glossary/contractually-protected-disclosure.md): Definition
+  - [control-authority](https://weboftrust.github.io/WOT-terms/04_glossary/control-authority.md): Definition
+  - [controller](https://weboftrust.github.io/WOT-terms/04_glossary/controller.md): Definition
+  - [cooperative-delegation](https://weboftrust.github.io/WOT-terms/04_glossary/cooperative-delegation.md): Definition
+  - [coroutines](https://weboftrust.github.io/WOT-terms/04_glossary/coroutines.md): Definition
+  - [unpermissioned-correlation](https://weboftrust.github.io/WOT-terms/04_glossary/correlation.md): a correlation established between two or more disclosed ACDCs whereby the discloser of the ACDCs ...
+  - [count-code](https://weboftrust.github.io/WOT-terms/04_glossary/count-code.md): See
+  - [vlei-role-credential](https://weboftrust.github.io/WOT-terms/04_glossary/credential.md): Definition
+  - [CRUD](https://weboftrust.github.io/WOT-terms/04_glossary/CRUD.md): Definition
+  - [crypto-libraries](https://weboftrust.github.io/WOT-terms/04_glossary/crypto-libraries.md): Definition
+  - [cryptocurrency](https://weboftrust.github.io/WOT-terms/04_glossary/cryptocurrency.md): Definition
+  - [cryptographic-commitment-scheme](https://weboftrust.github.io/WOT-terms/04_glossary/cryptographic-commitment-scheme.md): Definition
+  - [cryptographic-primitive](https://weboftrust.github.io/WOT-terms/04_glossary/cryptographic-primitive.md): Definition
+  - [cryptographic-strength](https://weboftrust.github.io/WOT-terms/04_glossary/cryptographic-strength.md): Definition
+  - [cryptonym](https://weboftrust.github.io/WOT-terms/04_glossary/cryptonym.md): Definition
+  - [CSPRNG](https://weboftrust.github.io/WOT-terms/04_glossary/CSPRNG.md): Definition
+  - [CT](https://weboftrust.github.io/WOT-terms/04_glossary/CT.md): See
+  - [current-threshold](https://weboftrust.github.io/WOT-terms/04_glossary/current-threshold.md): Definition
+  - [custodial-agent](https://weboftrust.github.io/WOT-terms/04_glossary/custodial-agent.md): Definition
+  - [custodial-rotation](https://weboftrust.github.io/WOT-terms/04_glossary/custodial-rotation.md): Definition
+  - [DAG](https://weboftrust.github.io/WOT-terms/04_glossary/DAG.md): See
+  - [DAR](https://weboftrust.github.io/WOT-terms/04_glossary/DAR.md): See
+  - [data-anchor](https://weboftrust.github.io/WOT-terms/04_glossary/data-anchor.md): Definition
+  - [Dead attack](https://weboftrust.github.io/WOT-terms/04_glossary/dead-attack.md): Definition
+  - [dead-drop](https://weboftrust.github.io/WOT-terms/04_glossary/dead-drop.md): Definition
+  - [decentralized-identifier](https://weboftrust.github.io/WOT-terms/04_glossary/decentralized-identifier.md): Definition
+  - [decentralized-identity](https://weboftrust.github.io/WOT-terms/04_glossary/decentralized-identity.md): Definition
+  - [decentralized-key-management-infrastructure](https://weboftrust.github.io/WOT-terms/04_glossary/decentralized-key-management-infrastructure.md): Definition
+  - [DEL](https://weboftrust.github.io/WOT-terms/04_glossary/DEL.md): See
+  - [delegated-identifier](https://weboftrust.github.io/WOT-terms/04_glossary/delegated-identifier.md): Definition
+  - [delegation](https://weboftrust.github.io/WOT-terms/04_glossary/delegation.md): Definition
+  - [derivation-code](https://weboftrust.github.io/WOT-terms/04_glossary/derivation-code.md): Definition
+  - [designated-aliases](https://weboftrust.github.io/WOT-terms/04_glossary/designated-aliases.md): Definition
+  - [designated-authorized-representative](https://weboftrust.github.io/WOT-terms/04_glossary/designated-authorized-representative.md): Definition
+  - [DHT](https://weboftrust.github.io/WOT-terms/04_glossary/DHT.md): See
+  - [DID](https://weboftrust.github.io/WOT-terms/04_glossary/DID.md): See
+  - [diger](https://weboftrust.github.io/WOT-terms/04_glossary/diger.md): Definition
+  - [signed-digest](https://weboftrust.github.io/WOT-terms/04_glossary/digest.md): Definition
+  - [digital-signature](https://weboftrust.github.io/WOT-terms/04_glossary/digital-signature.md): Definition
+  - [dip](https://weboftrust.github.io/WOT-terms/04_glossary/dip.md): Definition
+  - [indirect-mode](https://weboftrust.github.io/WOT-terms/04_glossary/direct-mode.md): Definition
+  - [directed-acyclic-graph](https://weboftrust.github.io/WOT-terms/04_glossary/directed-acyclic-graph.md): Definition
+  - [disclosee](https://weboftrust.github.io/WOT-terms/04_glossary/disclosee.md): Definition
+  - [discloser](https://weboftrust.github.io/WOT-terms/04_glossary/discloser.md): Definition
+  - [percolated-information-discovery](https://weboftrust.github.io/WOT-terms/04_glossary/discovery.md): Definition
+  - [distributed-hash-table](https://weboftrust.github.io/WOT-terms/04_glossary/distributed-hash-table.md): Definition
+  - [DKMI](https://weboftrust.github.io/WOT-terms/04_glossary/DKMI.md): See
+  - [dnd](https://weboftrust.github.io/WOT-terms/04_glossary/dnd.md): Definition
+  - [domain-name](https://weboftrust.github.io/WOT-terms/04_glossary/domain-name.md): Definition
+  - [trust-domain](https://weboftrust.github.io/WOT-terms/04_glossary/domain.md): Definition
+  - [double-spend-proof](https://weboftrust.github.io/WOT-terms/04_glossary/double-spend-proof.md): Definition
+  - [DPKI](https://weboftrust.github.io/WOT-terms/04_glossary/DPKI.md): See
+  - [drt](https://weboftrust.github.io/WOT-terms/04_glossary/drt.md): Definition
+  - [dual-indexed-codes](https://weboftrust.github.io/WOT-terms/04_glossary/dual-indexed-codes.md): Definition
+  - [dual-text-binary-encoding-format](https://weboftrust.github.io/WOT-terms/04_glossary/dual-text-binary-encoding-format.md): Definition
+  - [duplicitous-event-log](https://weboftrust.github.io/WOT-terms/04_glossary/duplicitous-event-log.md): Definition
+  - [duplicity-detection](https://weboftrust.github.io/WOT-terms/04_glossary/duplicity-detection.md): Definition
+  - [threshold-of-accountable-duplicity](https://weboftrust.github.io/WOT-terms/04_glossary/duplicity.md): Definition
+  - [E2E](https://weboftrust.github.io/WOT-terms/04_glossary/E2E.md): See
+  - [eclipse-attack](https://weboftrust.github.io/WOT-terms/04_glossary/eclipse-attack.md): Definition
+  - [ECR](https://weboftrust.github.io/WOT-terms/04_glossary/ECR.md): See
+  - [edge](https://weboftrust.github.io/WOT-terms/04_glossary/edge.md): Definition
+  - [electronic-signature](https://weboftrust.github.io/WOT-terms/04_glossary/electronic-signature.md): Definition
+  - [encrypt-sender-sign-receiver](https://weboftrust.github.io/WOT-terms/04_glossary/encrypt-sender-sign-receiver.md): Definition
+  - [end-role](https://weboftrust.github.io/WOT-terms/04_glossary/end-role.md): Definition
+  - [end-to-end](https://weboftrust.github.io/WOT-terms/04_glossary/end-to-end.md): Definition
+  - [end-verifiability](https://weboftrust.github.io/WOT-terms/04_glossary/end-verifiability.md): a data item or statement may be cryptographically securely attributable to its source (party at t...
+  - [end-verifiable](https://weboftrust.github.io/WOT-terms/04_glossary/end-verifiable.md): Definition
+  - [engagement-context-role](https://weboftrust.github.io/WOT-terms/04_glossary/engagement-context-role.md): Definition
+  - [Self-sovereign identifier](https://weboftrust.github.io/WOT-terms/04_glossary/entity.md): Definition
+  - [entropy](https://weboftrust.github.io/WOT-terms/04_glossary/entropy.md): Definition
+  - [ephemeral](https://weboftrust.github.io/WOT-terms/04_glossary/ephemeral.md): Definition
+  - [escrow-state](https://weboftrust.github.io/WOT-terms/04_glossary/escrow-state.md): Definition
+  - [escrow](https://weboftrust.github.io/WOT-terms/04_glossary/escrow.md): Definition
+  - [ESSR](https://weboftrust.github.io/WOT-terms/04_glossary/ESSR.md): See
+  - [non-establishment-event](https://weboftrust.github.io/WOT-terms/04_glossary/establishment-event.md): Definition
+  - [exn](https://weboftrust.github.io/WOT-terms/04_glossary/exn.md): Definition
+  - [exp](https://weboftrust.github.io/WOT-terms/04_glossary/exp.md): Definition
+  - [extensible-business-reporting-language](https://weboftrust.github.io/WOT-terms/04_glossary/extensible-business-reporting-language.md): Definition
+  - [FFI](https://weboftrust.github.io/WOT-terms/04_glossary/FFI.md): See
+  - [field-map](https://weboftrust.github.io/WOT-terms/04_glossary/field-map.md): Definition
+  - [first-seen](https://weboftrust.github.io/WOT-terms/04_glossary/first-seen.md): Definition
+  - [foreign-function-interface](https://weboftrust.github.io/WOT-terms/04_glossary/foreign-function-interface.md): Definition
+  - [frame-code](https://weboftrust.github.io/WOT-terms/04_glossary/frame-code.md): See
+  - [group-framing-code](https://weboftrust.github.io/WOT-terms/04_glossary/framing-code.md): Definition
+  - [full-disclosure](https://weboftrust.github.io/WOT-terms/04_glossary/full-disclosure.md): Definition
+  - [fully-compact](https://weboftrust.github.io/WOT-terms/04_glossary/fully-compact.md): definition
+  - [fully-expanded](https://weboftrust.github.io/WOT-terms/04_glossary/fully-expanded.md): Definition
+  - [GAR](https://weboftrust.github.io/WOT-terms/04_glossary/GAR.md): See
+  - [ghost-credential](https://weboftrust.github.io/WOT-terms/04_glossary/ghost-credential.md): Definition
+  - [gleif-authorized-representative](https://weboftrust.github.io/WOT-terms/04_glossary/gleif-authorized-representative.md): Definition
+  - [GLEIF](https://weboftrust.github.io/WOT-terms/04_glossary/GLEIF.md): Definition
+  - [GLEIS](https://weboftrust.github.io/WOT-terms/04_glossary/GLEIS.md): Definition
+  - [gnu-privacy-guard](https://weboftrust.github.io/WOT-terms/04_glossary/gnu-privacy-guard.md): Definition
+  - [vlei-ecosystem-governance-framework](https://weboftrust.github.io/WOT-terms/04_glossary/governance-framework.md): Definition
+  - [GPG](https://weboftrust.github.io/WOT-terms/04_glossary/GPG.md): See
+  - [graduated-disclosure](https://weboftrust.github.io/WOT-terms/04_glossary/graduated-disclosure.md): Definition
+  - [graph-fragment](https://weboftrust.github.io/WOT-terms/04_glossary/graph-fragment.md): Definition
+  - [group-code](https://weboftrust.github.io/WOT-terms/04_glossary/group-code.md): See
+  - [group-framing-code](https://weboftrust.github.io/WOT-terms/04_glossary/group-framing-code.md): Definition
+  - [hab](https://weboftrust.github.io/WOT-terms/04_glossary/hab.md): Definition
+  - [habery](https://weboftrust.github.io/WOT-terms/04_glossary/habery.md): Definition
+  - [hardware-security-module](https://weboftrust.github.io/WOT-terms/04_glossary/hardware-security-module.md): Definition
+  - [hierarchical-asynchronous-coroutines-and-input-output](https://weboftrust.github.io/WOT-terms/04_glossary/hierarchical-asynchronous-coroutines-and-input-output.md): Definition
+  - [hierarchical-composition](https://weboftrust.github.io/WOT-terms/04_glossary/hierarchical-composition.md): Definition
+  - [hierchical-deterministic-keys](https://weboftrust.github.io/WOT-terms/04_glossary/hierchical-deterministic-keys.md): Definition
+  - [hio](https://weboftrust.github.io/WOT-terms/04_glossary/hio.md): Definition
+  - [Home](https://weboftrust.github.io/WOT-terms/04_glossary/Home.md): Welcome to the WebofTrust terms wiki!
+  - [HSM](https://weboftrust.github.io/WOT-terms/04_glossary/HSM.md): See
+  - [I-O](https://weboftrust.github.io/WOT-terms/04_glossary/I-O.md): See
+  - [IANA](https://weboftrust.github.io/WOT-terms/04_glossary/IANA.md): See
+  - [icp](https://weboftrust.github.io/WOT-terms/04_glossary/icp.md): Definition
+  - [identifier-system](https://weboftrust.github.io/WOT-terms/04_glossary/identifier-system.md): Definition
+  - [verifiable-legal-entity-identifier](https://weboftrust.github.io/WOT-terms/04_glossary/identifier.md): Definition
+  - [identity-assurance](https://weboftrust.github.io/WOT-terms/04_glossary/identity-assurance.md): Definition
+  - [Self-sovereign identifier](https://weboftrust.github.io/WOT-terms/04_glossary/identity.md): Definition
+  - [inception-event](https://weboftrust.github.io/WOT-terms/04_glossary/inception-event.md): Definition
+  - [inception](https://weboftrust.github.io/WOT-terms/04_glossary/inception.md): Definition
+  - [internal-inconsistency](https://weboftrust.github.io/WOT-terms/04_glossary/inconsistency.md): Definition
+  - [indexed-signature](https://weboftrust.github.io/WOT-terms/04_glossary/indexed-signature.md): Definition
+  - [indirect-mode](https://weboftrust.github.io/WOT-terms/04_glossary/indirect-mode.md): Definition
+  - [information-theoretic-security](https://weboftrust.github.io/WOT-terms/04_glossary/information-theoretic-security.md): Definition
+  - [input-output](https://weboftrust.github.io/WOT-terms/04_glossary/input-output.md): Definition
+  - [inquisitor](https://weboftrust.github.io/WOT-terms/04_glossary/inquisitor.md): Definition
+  - [verified-integrity](https://weboftrust.github.io/WOT-terms/04_glossary/integrity.md): Definition
+  - [interaction-event](https://weboftrust.github.io/WOT-terms/04_glossary/interaction-event.md): Non-establishment Event that anchors external data to the key-state as established by the most re...
+  - [non-interactive-authentication-design](https://weboftrust.github.io/WOT-terms/04_glossary/interactive-authentication-design.md): Definition
+  - [interceptor](https://weboftrust.github.io/WOT-terms/04_glossary/interceptor.md): Definition
+  - [interleaved-serialization](https://weboftrust.github.io/WOT-terms/04_glossary/interleaved-serialization.md): Definition
+  - [internal-inconsistency](https://weboftrust.github.io/WOT-terms/04_glossary/internal-inconsistency.md): Definition
+  - [internet-assigned-numbers-authority](https://weboftrust.github.io/WOT-terms/04_glossary/internet-assigned-numbers-authority.md): Definition
+  - [interoperability](https://weboftrust.github.io/WOT-terms/04_glossary/interoperability.md): Definition
+  - [interoperable](https://weboftrust.github.io/WOT-terms/04_glossary/interoperable.md): See
+  - [ip-address](https://weboftrust.github.io/WOT-terms/04_glossary/ip-address.md): An Internet Protocol address (IP address) is a numerical label such as '192.0.2.1' that is connec...
+  - [IPEX](https://weboftrust.github.io/WOT-terms/04_glossary/IPEX.md): See
+  - [iss](https://weboftrust.github.io/WOT-terms/04_glossary/iss.md): Definition
+  - [issuance-and-presentation-exchange-protocol](https://weboftrust.github.io/WOT-terms/04_glossary/issuance-and-presentation-exchange-protocol.md): Definition
+  - [issuance-event](https://weboftrust.github.io/WOT-terms/04_glossary/issuance-event.md): Definition
+  - [issuance-exchange](https://weboftrust.github.io/WOT-terms/04_glossary/issuance-exchange.md): Definition
+  - [issuee](https://weboftrust.github.io/WOT-terms/04_glossary/issuee.md): Definition
+  - [qualified-vlei-issuer](https://weboftrust.github.io/WOT-terms/04_glossary/issuer.md): Definition
+  - [ITPS](https://weboftrust.github.io/WOT-terms/04_glossary/ITPS.md): See
+  - [ixn](https://weboftrust.github.io/WOT-terms/04_glossary/ixn.md): Definition
+  - [javascript-object-notation](https://weboftrust.github.io/WOT-terms/04_glossary/javascript-object-notation.md): Definition
+  - [javascript-object-signing-and-encryption](https://weboftrust.github.io/WOT-terms/04_glossary/javascript-object-signing-and-encryption.md): Definition
+  - [JOSE](https://weboftrust.github.io/WOT-terms/04_glossary/JOSE.md): See
+  - [JSON](https://weboftrust.github.io/WOT-terms/04_glossary/JSON.md): See
+  - [judge](https://weboftrust.github.io/WOT-terms/04_glossary/judge.md): Definition
+  - [juror](https://weboftrust.github.io/WOT-terms/04_glossary/juror.md): Definition
+  - [jury](https://weboftrust.github.io/WOT-terms/04_glossary/jury.md): Definition
+  - [KA2CE](https://weboftrust.github.io/WOT-terms/04_glossary/KA2CE.md): See
+  - [KAACE](https://weboftrust.github.io/WOT-terms/04_glossary/KAACE.md): See
+  - [KAPI](https://weboftrust.github.io/WOT-terms/04_glossary/KAPI.md): Definition
+  - [KAWA](https://weboftrust.github.io/WOT-terms/04_glossary/KAWA.md): See
+  - [keep](https://weboftrust.github.io/WOT-terms/04_glossary/keep.md): Definition
+  - [KEL](https://weboftrust.github.io/WOT-terms/04_glossary/KEL.md): A Key Event Log.
+  - [keri-agreement-algorithm-for-control-establishment](https://weboftrust.github.io/WOT-terms/04_glossary/keri-agreement-algorithm-for-control-establishment.md): Definition
+  - [keri-command-line-interface](https://weboftrust.github.io/WOT-terms/04_glossary/keri-command-line-interface.md): Definition
+  - [keri-event-stream](https://weboftrust.github.io/WOT-terms/04_glossary/keri-event-stream.md): Definition
+  - [keri-improvement-doc](https://weboftrust.github.io/WOT-terms/04_glossary/keri-improvement-doc.md): Definition
+  - [keri-ox](https://weboftrust.github.io/WOT-terms/04_glossary/keri-ox.md): Definition
+  - [keri-request-authentication-method](https://weboftrust.github.io/WOT-terms/04_glossary/keri-request-authentication-method.md): Definition
+  - [keri-suite-search-engine](https://weboftrust.github.io/WOT-terms/04_glossary/keri-suite-search-engine.md): Definition
+  - [keri-suite](https://weboftrust.github.io/WOT-terms/04_glossary/keri-suite.md): Definition
+  - [KERI](https://weboftrust.github.io/WOT-terms/04_glossary/KERI.md): See
+  - [keri’s-algorithm-for-witness-agreement](https://weboftrust.github.io/WOT-terms/04_glossary/keri’s-algorithm-for-witness-agreement.md): Definition
+  - [KERIA-agent](https://weboftrust.github.io/WOT-terms/04_glossary/KERIA-agent.md): Definition
+  - [keria](https://weboftrust.github.io/WOT-terms/04_glossary/keria.md): Definition
+  - [keride](https://weboftrust.github.io/WOT-terms/04_glossary/keride.md): Definition
+  - [keridemlia](https://weboftrust.github.io/WOT-terms/04_glossary/keridemlia.md): Definition
+  - [kerific](https://weboftrust.github.io/WOT-terms/04_glossary/kerific.md): Definition
+  - [KERIMask](https://weboftrust.github.io/WOT-terms/04_glossary/KERIMask.md): Definition
+  - [Slack Archive](https://weboftrust.github.io/WOT-terms/04_glossary/keripy.md)
+  - [KERISSE](https://weboftrust.github.io/WOT-terms/04_glossary/KERISSE.md): See
+  - [KERL](https://weboftrust.github.io/WOT-terms/04_glossary/KERL.md): See
+  - [kever](https://weboftrust.github.io/WOT-terms/04_glossary/kever.md): Definition
+  - [key-compromise](https://weboftrust.github.io/WOT-terms/04_glossary/key-compromise.md): Definition
+  - [key-event-log](https://weboftrust.github.io/WOT-terms/04_glossary/key-event-log.md): Definition
+  - [key-event-message](https://weboftrust.github.io/WOT-terms/04_glossary/key-event-message.md): Definition
+  - [key-event-receipt-infrastructure](https://weboftrust.github.io/WOT-terms/04_glossary/key-event-receipt-infrastructure.md): Definition
+  - [key-event-receipt-log](https://weboftrust.github.io/WOT-terms/04_glossary/key-event-receipt-log.md): Definition
+  - [key-event-receipt](https://weboftrust.github.io/WOT-terms/04_glossary/key-event-receipt.md): Definition
+  - [key-event](https://weboftrust.github.io/WOT-terms/04_glossary/key-event.md): Definition
+  - [key-management](https://weboftrust.github.io/WOT-terms/04_glossary/key-management.md): Definition
+  - [key-pair](https://weboftrust.github.io/WOT-terms/04_glossary/key-pair.md): Definition
+  - [key-state](https://weboftrust.github.io/WOT-terms/04_glossary/key-state.md): Definition
+  - [key-stretching](https://weboftrust.github.io/WOT-terms/04_glossary/key-stretching.md): Definition
+  - [key-transparency](https://weboftrust.github.io/WOT-terms/04_glossary/key-transparency.md): Definition
+  - [stale-key](https://weboftrust.github.io/WOT-terms/04_glossary/key.md): Definition
+  - [keystore](https://weboftrust.github.io/WOT-terms/04_glossary/keystore.md): Definition
+  - [KID](https://weboftrust.github.io/WOT-terms/04_glossary/KID.md): See
+  - [kli](https://weboftrust.github.io/WOT-terms/04_glossary/kli.md): See
+  - [KRAM](https://weboftrust.github.io/WOT-terms/04_glossary/KRAM.md): See
+  - [ksn](https://weboftrust.github.io/WOT-terms/04_glossary/ksn.md): Definition
+  - [large-language-model](https://weboftrust.github.io/WOT-terms/04_glossary/large-language-model.md): Definition
+  - [lead-bytes](https://weboftrust.github.io/WOT-terms/04_glossary/lead-bytes.md): Definition
+  - [ledger-backer](https://weboftrust.github.io/WOT-terms/04_glossary/ledger-backer.md): Definition
+  - [legal-entity-engagement-context-role-vlei-credential-governance-framework](https://weboftrust.github.io/WOT-terms/04_glossary/legal-entity-engagement-context-role-vlei-credential-governance-framework.md): Definition
+  - [legal-entity-official-organizational-role-vlei-credential-governance-framework](https://weboftrust.github.io/WOT-terms/04_glossary/legal-entity-official-organizational-role-vlei-credential-governance-framework.md): Definition
+  - [legal-entity-vlei-credential-governance-framework](https://weboftrust.github.io/WOT-terms/04_glossary/legal-entity-vlei-credential-governance-framework.md): Definition
+  - [legal-entity](https://weboftrust.github.io/WOT-terms/04_glossary/legal-entity.md): Definition
+  - [legitimized-human-meaningful-identifier](https://weboftrust.github.io/WOT-terms/04_glossary/legitimized-human-meaningful-identifier.md): Definition
+  - [vLEI](https://weboftrust.github.io/WOT-terms/04_glossary/LEI.md): See
+  - [levels-of-assurance](https://weboftrust.github.io/WOT-terms/04_glossary/levels-of-assurance.md): Definition
+  - [LID](https://weboftrust.github.io/WOT-terms/04_glossary/LID.md): See
+  - [listed-identifier](https://weboftrust.github.io/WOT-terms/04_glossary/listed-identifier.md): Definition
+  - [live-attack](https://weboftrust.github.io/WOT-terms/04_glossary/live-attack.md): Definition
+  - [liveness](https://weboftrust.github.io/WOT-terms/04_glossary/liveness.md): Definition
+  - [LLM](https://weboftrust.github.io/WOT-terms/04_glossary/LLM.md): See Large Language Model
+  - [LoA](https://weboftrust.github.io/WOT-terms/04_glossary/LoA.md): See
+  - [LoC](https://weboftrust.github.io/WOT-terms/04_glossary/LoC.md): See
+  - [loci-of-control](https://weboftrust.github.io/WOT-terms/04_glossary/loci-of-control.md): Definition
+  - [locked-state](https://weboftrust.github.io/WOT-terms/04_glossary/locked-state.md): Definition
+  - [management-TEL](https://weboftrust.github.io/WOT-terms/04_glossary/management-TEL.md): See
+  - [management-transaction-event-log](https://weboftrust.github.io/WOT-terms/04_glossary/management-transaction-event-log.md): Definition
+  - [media-type](https://weboftrust.github.io/WOT-terms/04_glossary/media-type.md): Definition
+  - [message](https://weboftrust.github.io/WOT-terms/04_glossary/message.md): Definition
+  - [messagepack](https://weboftrust.github.io/WOT-terms/04_glossary/messagepack.md): Definition
+  - [MFA](https://weboftrust.github.io/WOT-terms/04_glossary/MFA.md): See
+  - [MIME-type](https://weboftrust.github.io/WOT-terms/04_glossary/MIME-type.md): See
+  - [moobi](https://weboftrust.github.io/WOT-terms/04_glossary/moobi.md): Definition
+  - [most-compact](https://weboftrust.github.io/WOT-terms/04_glossary/most-compact.md): Definition
+  - [multi-factor-authentication](https://weboftrust.github.io/WOT-terms/04_glossary/multi-factor-authentication.md): Definition
+  - [multi-valent](https://weboftrust.github.io/WOT-terms/04_glossary/multi-valent.md): Definition
+  - [multicodec](https://weboftrust.github.io/WOT-terms/04_glossary/multicodec.md): Definition
+  - [multiplexing](https://weboftrust.github.io/WOT-terms/04_glossary/multiplexing.md): Definition
+  - [multisig](https://weboftrust.github.io/WOT-terms/04_glossary/multisig.md): Definition
+  - [naive-conversion](https://weboftrust.github.io/WOT-terms/04_glossary/naive-conversion.md): Definition
+  - [namespace](https://weboftrust.github.io/WOT-terms/04_glossary/namespace.md): Definition
+  - [ndigs](https://weboftrust.github.io/WOT-terms/04_glossary/ndigs.md): Definition
+  - [nested-cooperative-delegated-identifiers](https://weboftrust.github.io/WOT-terms/04_glossary/nested-cooperative-delegated-identifiers.md): Definition
+  - [next-threshold](https://weboftrust.github.io/WOT-terms/04_glossary/next-threshold.md): Definition
+  - [NFT](https://weboftrust.github.io/WOT-terms/04_glossary/NFT.md): See
+  - [non-establishment-event](https://weboftrust.github.io/WOT-terms/04_glossary/non-establishment-event.md): Definition
+  - [non-fungible-token](https://weboftrust.github.io/WOT-terms/04_glossary/non-fungible-token.md): Definition
+  - [non-interactive-authentication-design](https://weboftrust.github.io/WOT-terms/04_glossary/non-interactive-authentication-design.md): Definition
+  - [non-normative](https://weboftrust.github.io/WOT-terms/04_glossary/non-normative.md): Definition
+  - [non-repudiable](https://weboftrust.github.io/WOT-terms/04_glossary/non-repudiable.md): Definition
+  - [non-transferable-identifier](https://weboftrust.github.io/WOT-terms/04_glossary/non-transferable-identifier.md): Definition
+  - [non-transferable](https://weboftrust.github.io/WOT-terms/04_glossary/non-transferable.md): Definition
+  - [normative](https://weboftrust.github.io/WOT-terms/04_glossary/normative.md): Definition
+  - [official-organizational-role](https://weboftrust.github.io/WOT-terms/04_glossary/official-organizational-role.md): Definition
+  - [one-way-function](https://weboftrust.github.io/WOT-terms/04_glossary/one-way-function.md): Definition
+  - [OOBI](https://weboftrust.github.io/WOT-terms/04_glossary/OOBI.md): See
+  - [OOR](https://weboftrust.github.io/WOT-terms/04_glossary/OOR.md): See
+  - [opcode](https://weboftrust.github.io/WOT-terms/04_glossary/opcode.md): Definition
+  - [operator](https://weboftrust.github.io/WOT-terms/04_glossary/operator.md): Definition
+  - [out-of-band-introduction](https://weboftrust.github.io/WOT-terms/04_glossary/out-of-band-introduction.md): Definition
+  - [owner](https://weboftrust.github.io/WOT-terms/04_glossary/owner.md): See
+  - [ownership](https://weboftrust.github.io/WOT-terms/04_glossary/ownership.md): See
+  - [P2P](https://weboftrust.github.io/WOT-terms/04_glossary/P2P.md): See
+  - [pre-pad](https://weboftrust.github.io/WOT-terms/04_glossary/pad.md): Definition
+  - [parside](https://weboftrust.github.io/WOT-terms/04_glossary/parside.md): Definition
+  - [partial-disclosure](https://weboftrust.github.io/WOT-terms/04_glossary/partial-disclosure.md): Definition
+  - [partial-pre-rotation](https://weboftrust.github.io/WOT-terms/04_glossary/partial-pre-rotation.md): See
+  - [partial-rotation](https://weboftrust.github.io/WOT-terms/04_glossary/partial-rotation.md): Definition
+  - [party](https://weboftrust.github.io/WOT-terms/04_glossary/party.md): Definition
+  - [passcode](https://weboftrust.github.io/WOT-terms/04_glossary/passcode.md): Definition
+  - [pathing](https://weboftrust.github.io/WOT-terms/04_glossary/pathing.md): Definition
+  - [payload](https://weboftrust.github.io/WOT-terms/04_glossary/payload.md): Definition
+  - [peer-to-peer](https://weboftrust.github.io/WOT-terms/04_glossary/peer-to-peer.md): Definition
+  - [percolated-discovery](https://weboftrust.github.io/WOT-terms/04_glossary/percolated-discovery.md): a discovery mechanism for information associated with an AID or a SAID, which is based on Invasio...
+  - [percolated-information-discovery](https://weboftrust.github.io/WOT-terms/04_glossary/percolated-information-discovery.md): Definition
+  - [perfect-security](https://weboftrust.github.io/WOT-terms/04_glossary/perfect-security.md): a special case of Information theoretic security ITPS.
+  - [persistent-data-structure](https://weboftrust.github.io/WOT-terms/04_glossary/persistent-data-structure.md): Definition
+  - [persistent-identifier](https://weboftrust.github.io/WOT-terms/04_glossary/persistent-identifier.md): See
+  - [PGP](https://weboftrust.github.io/WOT-terms/04_glossary/PGP.md): See
+  - [PID](https://weboftrust.github.io/WOT-terms/04_glossary/PID.md): See
+  - [pii](https://weboftrust.github.io/WOT-terms/04_glossary/pii.md): Definition
+  - [pipelining](https://weboftrust.github.io/WOT-terms/04_glossary/pipelining.md): Definition
+  - [PKI](https://weboftrust.github.io/WOT-terms/04_glossary/PKI.md): See
+  - [post-pad](https://weboftrust.github.io/WOT-terms/04_glossary/post-pad.md): Definition
+  - [post-quantum](https://weboftrust.github.io/WOT-terms/04_glossary/post-quantum.md): Definition
+  - [pre-pad](https://weboftrust.github.io/WOT-terms/04_glossary/pre-pad.md): Definition
+  - [pre-rotation](https://weboftrust.github.io/WOT-terms/04_glossary/pre-rotation.md): Definition
+  - [prefix](https://weboftrust.github.io/WOT-terms/04_glossary/prefix.md): Definition
+  - [presentation-exchange](https://weboftrust.github.io/WOT-terms/04_glossary/presentation-exchange.md): Definition
+  - [pretty-good-privacy](https://weboftrust.github.io/WOT-terms/04_glossary/pretty-good-privacy.md): Definition
+  - [primary-root-of-trust](https://weboftrust.github.io/WOT-terms/04_glossary/primary-root-of-trust.md): Definition
+  - [primitive](https://weboftrust.github.io/WOT-terms/04_glossary/primitive.md): Definition
+  - [privacy-washing](https://weboftrust.github.io/WOT-terms/04_glossary/privacy-washing.md): Definition
+  - [privacy](https://weboftrust.github.io/WOT-terms/04_glossary/privacy.md): Definition
+  - [PRNG](https://weboftrust.github.io/WOT-terms/04_glossary/PRNG.md): Definition
+  - [proem](https://weboftrust.github.io/WOT-terms/04_glossary/proem.md): Definition
+  - [promiscuous-mode](https://weboftrust.github.io/WOT-terms/04_glossary/promiscuous-mode.md): Definition
+  - [proof-of-authority](https://weboftrust.github.io/WOT-terms/04_glossary/proof-of-authority.md): Definition
+  - [proof-of-authorship](https://weboftrust.github.io/WOT-terms/04_glossary/proof-of-authorship.md): Definition
+  - [WebOfTrust-keria-main-docs-protocol](https://weboftrust.github.io/WOT-terms/04_glossary/protocol.md): signify-keria-request-authentication-protocol--skrap-, level 1
+  - [provenance](https://weboftrust.github.io/WOT-terms/04_glossary/provenance.md): Defintion
+  - [provenanced](https://weboftrust.github.io/WOT-terms/04_glossary/provenanced.md): Definition
+  - [pseudo-random-number](https://weboftrust.github.io/WOT-terms/04_glossary/pseudo-random-number.md): Definition
+  - [PTEL](https://weboftrust.github.io/WOT-terms/04_glossary/PTEL.md): See
+  - [public-key-infrastructure](https://weboftrust.github.io/WOT-terms/04_glossary/public-key-infrastructure.md): Definition
+  - [public-transaction-event-log](https://weboftrust.github.io/WOT-terms/04_glossary/public-transaction-event-log.md): Definition
+  - [public-verifiable-credential-registry](https://weboftrust.github.io/WOT-terms/04_glossary/public-verifiable-credential-registry.md): Definition
+  - [QAR](https://weboftrust.github.io/WOT-terms/04_glossary/QAR.md): See
+  - [qry](https://weboftrust.github.io/WOT-terms/04_glossary/qry.md): Definition
+  - [quadlet](https://weboftrust.github.io/WOT-terms/04_glossary/quadlet.md): Definition
+  - [qualified-vlei-issuer-vlei-credential-governance-framework](https://weboftrust.github.io/WOT-terms/04_glossary/qualified-vlei-issuer-vlei-credential-governance-framework.md): Definition
+  - [qualified-vlei-issuer](https://weboftrust.github.io/WOT-terms/04_glossary/qualified-vlei-issuer.md): Definition
+  - [qualified](https://weboftrust.github.io/WOT-terms/04_glossary/qualified.md): Definition
+  - [qvi-authorized-representative](https://weboftrust.github.io/WOT-terms/04_glossary/qvi-authorized-representative.md): A designated representative of a QVI authorized, to conduct QVI operations with GLEIF and Legal E...
+  - [QVI](https://weboftrust.github.io/WOT-terms/04_glossary/QVI.md): See
+  - [race-condition](https://weboftrust.github.io/WOT-terms/04_glossary/race-condition.md): Definition
+  - [rainbow-table-attack](https://weboftrust.github.io/WOT-terms/04_glossary/rainbow-table-attack.md): Definition
+  - [rct](https://weboftrust.github.io/WOT-terms/04_glossary/rct.md): Definition
+  - [read-update-nullify](https://weboftrust.github.io/WOT-terms/04_glossary/read-update-nullify.md): Definition
+  - [receipt-log](https://weboftrust.github.io/WOT-terms/04_glossary/receipt-log.md): Definition
+  - [receipt](https://weboftrust.github.io/WOT-terms/04_glossary/receipt.md): Definition
+  - [reconciliation](https://weboftrust.github.io/WOT-terms/04_glossary/reconciliation.md): Definition
+  - [redundant-credential](https://weboftrust.github.io/WOT-terms/04_glossary/redundant-credential.md): Definition
+  - [registrar](https://weboftrust.github.io/WOT-terms/04_glossary/registrar.md): Definition
+  - [registration-interaction](https://weboftrust.github.io/WOT-terms/04_glossary/registration-interaction.md): Definition
+  - [verifiable-data-registry](https://weboftrust.github.io/WOT-terms/04_glossary/registry.md): Definition
+  - [replay-attack](https://weboftrust.github.io/WOT-terms/04_glossary/replay-attack.md): Definition
+  - [repo](https://weboftrust.github.io/WOT-terms/04_glossary/repo.md): Definition
+  - [reputation](https://weboftrust.github.io/WOT-terms/04_glossary/reputation.md): Definition
+  - [reputational-trust](https://weboftrust.github.io/WOT-terms/04_glossary/reputational-trust.md): Definition
+  - [reserve-rotation](https://weboftrust.github.io/WOT-terms/04_glossary/reserve-rotation.md): Definition
+  - [rev](https://weboftrust.github.io/WOT-terms/04_glossary/rev.md): Definition
+  - [revocation-event](https://weboftrust.github.io/WOT-terms/04_glossary/revocation-event.md): Definition
+  - [revocation](https://weboftrust.github.io/WOT-terms/04_glossary/revocation.md): Definition
+  - [ricardian-contract](https://weboftrust.github.io/WOT-terms/04_glossary/ricardian-contract.md): Definition
+  - [RID](https://weboftrust.github.io/WOT-terms/04_glossary/RID.md): See
+  - [root-autonomic-identifier](https://weboftrust.github.io/WOT-terms/04_glossary/root-autonomic-identifier.md): Definition
+  - [secondary-root-of-trust](https://weboftrust.github.io/WOT-terms/04_glossary/root-of-trust.md): Definition
+  - [rot](https://weboftrust.github.io/WOT-terms/04_glossary/rot.md): Definition
+  - [rotation-authority](https://weboftrust.github.io/WOT-terms/04_glossary/rotation-authority.md): Definition
+  - [rotation-event](https://weboftrust.github.io/WOT-terms/04_glossary/rotation-event.md): Definition
+  - [rotation](https://weboftrust.github.io/WOT-terms/04_glossary/rotation.md): Definition
+  - [rpy](https://weboftrust.github.io/WOT-terms/04_glossary/rpy.md): Definition
+  - [rules](https://weboftrust.github.io/WOT-terms/04_glossary/rules.md): a top-level field map within an ACDC that provides a legal language as a Ricardian Contract, whic...
+  - [run-off-the-crud](https://weboftrust.github.io/WOT-terms/04_glossary/run-off-the-crud.md): Definition
+  - [RUN](https://weboftrust.github.io/WOT-terms/04_glossary/RUN.md): Definition
+  - [SAD](https://weboftrust.github.io/WOT-terms/04_glossary/SAD.md): See
+  - [SAID](https://weboftrust.github.io/WOT-terms/04_glossary/SAID.md): See
+  - [sally](https://weboftrust.github.io/WOT-terms/04_glossary/sally.md): Definition
+  - [salt](https://weboftrust.github.io/WOT-terms/04_glossary/salt.md): Definition
+  - [salter](https://weboftrust.github.io/WOT-terms/04_glossary/salter.md): Definition
+  - [salty-nonce-blinding-factor](https://weboftrust.github.io/WOT-terms/04_glossary/salty-nonce-blinding-factor.md): Definition
+  - [SATP](https://weboftrust.github.io/WOT-terms/04_glossary/SATP.md): See
+  - [schema-namespace-registry](https://weboftrust.github.io/WOT-terms/04_glossary/schema-namespace-registry.md): Definition
+  - [schema-registry](https://weboftrust.github.io/WOT-terms/04_glossary/schema-registry.md): Definition
+  - [schema](https://weboftrust.github.io/WOT-terms/04_glossary/schema.md): the SAID of a JSON schema that is used to issue and verify an ACDC.
+  - [SCID](https://weboftrust.github.io/WOT-terms/04_glossary/SCID.md): See
+  - [seal](https://weboftrust.github.io/WOT-terms/04_glossary/seal.md): Definition
+  - [secondary-root-of-trust](https://weboftrust.github.io/WOT-terms/04_glossary/secondary-root-of-trust.md): Definition
+  - [secure-asset-transfer-protocol](https://weboftrust.github.io/WOT-terms/04_glossary/secure-asset-transfer-protocol.md): Definition
+  - [secure-attribution](https://weboftrust.github.io/WOT-terms/04_glossary/secure-attribution.md): Definition
+  - [secure-private-authentic-confidentiality](https://weboftrust.github.io/WOT-terms/04_glossary/secure-private-authentic-confidentiality.md): Definition
+  - [secure](https://weboftrust.github.io/WOT-terms/04_glossary/secure.md): See
+  - [security-cost-performance-architecture-trade-off](https://weboftrust.github.io/WOT-terms/04_glossary/security-cost-performance-architecture-trade-off.md): Definition
+  - [security-overlay-properties-trillema](https://weboftrust.github.io/WOT-terms/04_glossary/security-overlay-properties-trillema.md): Definition
+  - [threshold-structure-security](https://weboftrust.github.io/WOT-terms/04_glossary/security.md): Definition
+  - [seed](https://weboftrust.github.io/WOT-terms/04_glossary/seed.md): Definition
+  - [selective-disclosure](https://weboftrust.github.io/WOT-terms/04_glossary/selective-disclosure.md): Definition
+  - [self-addressed-data](https://weboftrust.github.io/WOT-terms/04_glossary/self-addressed-data.md): Definition
+  - [self-addressing-data](https://weboftrust.github.io/WOT-terms/04_glossary/self-addressing-data.md): Definition
+  - [self-addressing-identifier](https://weboftrust.github.io/WOT-terms/04_glossary/self-addressing-identifier.md): Definition
+  - [self authenticating](https://weboftrust.github.io/WOT-terms/04_glossary/self-authenticating.md): See
+  - [Self-certifying identifier](https://weboftrust.github.io/WOT-terms/04_glossary/self-certifying-identifier.md): Definition
+  - [self-framing](https://weboftrust.github.io/WOT-terms/04_glossary/self-framing.md): Definition
+  - [Self-sovereign identifier](https://weboftrust.github.io/WOT-terms/04_glossary/self-sovereign-identity.md): Definition
+  - [self-sovereignty](https://weboftrust.github.io/WOT-terms/04_glossary/self-sovereignty.md): See
+  - [semver](https://weboftrust.github.io/WOT-terms/04_glossary/semver.md): Semantic Versioning Specification 2.0. See also (https//semver.org/].
+  - [server-sent-event](https://weboftrust.github.io/WOT-terms/04_glossary/server-sent-event.md): Definition
+  - [service-endpoint](https://weboftrust.github.io/WOT-terms/04_glossary/service-endpoint.md): Definition
+  - [siger](https://weboftrust.github.io/WOT-terms/04_glossary/siger.md): See
+  - [signed-digest](https://weboftrust.github.io/WOT-terms/04_glossary/signed-digest.md): Definition
+  - [signer](https://weboftrust.github.io/WOT-terms/04_glossary/signer.md): Definition
+  - [signify-keria-request-authentication-protocol](https://weboftrust.github.io/WOT-terms/04_glossary/signify-keria-request-authentication-protocol.md): Definition
+  - [Slack Archive](https://weboftrust.github.io/WOT-terms/04_glossary/signify.md)
+  - [signing-authority](https://weboftrust.github.io/WOT-terms/04_glossary/signing-authority.md): Definition
+  - [signing-threshold](https://weboftrust.github.io/WOT-terms/04_glossary/signing-threshold.md): Definition
+  - [simple-keri-for-web-auth](https://weboftrust.github.io/WOT-terms/04_glossary/simple-keri-for-web-auth.md): Definition
+  - [single-signature-identifier](https://weboftrust.github.io/WOT-terms/04_glossary/single-signature-identifier.md): Definition
+  - [SKRAP](https://weboftrust.github.io/WOT-terms/04_glossary/SKRAP.md): See
+  - [SKWA](https://weboftrust.github.io/WOT-terms/04_glossary/SKWA.md): See
+  - [sniffable](https://weboftrust.github.io/WOT-terms/04_glossary/sniffable.md): Definition
+  - [sniffer](https://weboftrust.github.io/WOT-terms/04_glossary/sniffer.md): Definition
+  - [unsolicited-issuance](https://weboftrust.github.io/WOT-terms/04_glossary/solicited-issuance.md): Definition
+  - [source-of-truth](https://weboftrust.github.io/WOT-terms/04_glossary/source-of-truth.md): Definition
+  - [SPAC](https://weboftrust.github.io/WOT-terms/04_glossary/SPAC.md): See
+  - [spanning-layer](https://weboftrust.github.io/WOT-terms/04_glossary/spanning-layer.md): Definition
+  - [spurn](https://weboftrust.github.io/WOT-terms/04_glossary/spurn.md): Definition
+  - [ssi-system](https://weboftrust.github.io/WOT-terms/04_glossary/ssi-system.md): Definition
+  - [SSI](https://weboftrust.github.io/WOT-terms/04_glossary/SSI.md): See
+  - [stable](https://weboftrust.github.io/WOT-terms/04_glossary/stable.md): Definition
+  - [stale-event](https://weboftrust.github.io/WOT-terms/04_glossary/stale-event.md): Definition
+  - [stale-key](https://weboftrust.github.io/WOT-terms/04_glossary/stale-key.md): Definition
+  - [stream](https://weboftrust.github.io/WOT-terms/04_glossary/stream.md): Definition
+  - [streamer](https://weboftrust.github.io/WOT-terms/04_glossary/streamer.md): Definition
+  - [strip-parameter](https://weboftrust.github.io/WOT-terms/04_glossary/strip-parameter.md): Definition
+  - [sub-shell](https://weboftrust.github.io/WOT-terms/04_glossary/sub-shell.md): Definition
+  - [supermajority](https://weboftrust.github.io/WOT-terms/04_glossary/supermajority.md): Definition
+  - [untargeted-acdc](https://weboftrust.github.io/WOT-terms/04_glossary/targeted-acdc.md): an ACDC without the presence of the Issuee field in the attribute or attribute aggregate sections.
+  - [tcp-endpoint](https://weboftrust.github.io/WOT-terms/04_glossary/tcp-endpoint.md): Definition
+  - [TCP](https://weboftrust.github.io/WOT-terms/04_glossary/TCP.md): See
+  - [TEE](https://weboftrust.github.io/WOT-terms/04_glossary/TEE.md): See
+  - [management-TEL](https://weboftrust.github.io/WOT-terms/04_glossary/TEL.md): See
+  - [text-binary-concatenation-composability](https://weboftrust.github.io/WOT-terms/04_glossary/text-binary-concatenation-composability.md): Definition
+  - [tholder](https://weboftrust.github.io/WOT-terms/04_glossary/tholder.md): Definition
+  - [threshold-of-accountable-duplicity](https://weboftrust.github.io/WOT-terms/04_glossary/threshold-of-accountable-duplicity.md): Definition
+  - [threshold-signature-scheme](https://weboftrust.github.io/WOT-terms/04_glossary/threshold-signature-scheme.md): Definition
+  - [threshold-structure-security](https://weboftrust.github.io/WOT-terms/04_glossary/threshold-structure-security.md): Definition
+  - [TOAD](https://weboftrust.github.io/WOT-terms/04_glossary/TOAD.md): See
+  - [top-level-section](https://weboftrust.github.io/WOT-terms/04_glossary/top-level-section.md): Definition
+  - [TPM](https://weboftrust.github.io/WOT-terms/04_glossary/TPM.md): See
+  - [trans-contextual-value](https://weboftrust.github.io/WOT-terms/04_glossary/trans-contextual-value.md): Definition
+  - [virtual-credential-transaction-event-log](https://weboftrust.github.io/WOT-terms/04_glossary/transaction-event-log.md): Definition
+  - [transfer-off-ledger](https://weboftrust.github.io/WOT-terms/04_glossary/transfer-off-ledger.md): Definition
+  - [transferable-identifier](https://weboftrust.github.io/WOT-terms/04_glossary/transferable-identifier.md): Definition
+  - [transferable](https://weboftrust.github.io/WOT-terms/04_glossary/transferable.md): Definition
+  - [transmission-control-protocol](https://weboftrust.github.io/WOT-terms/04_glossary/transmission-control-protocol.md): Definition
+  - [tritet](https://weboftrust.github.io/WOT-terms/04_glossary/tritet.md): 3 bits. See Performant resynchronization with unique start bits.
+  - [trust-domain](https://weboftrust.github.io/WOT-terms/04_glossary/trust-domain.md): Definition
+  - [trust-spanning-protocol](https://weboftrust.github.io/WOT-terms/04_glossary/trust-spanning-protocol.md): Definition
+  - [trusted-execution-environment](https://weboftrust.github.io/WOT-terms/04_glossary/trusted-execution-environment.md): Definition
+  - [trusted-platform-module](https://weboftrust.github.io/WOT-terms/04_glossary/trusted-platform-module.md): Definition
+  - [ts-node](https://weboftrust.github.io/WOT-terms/04_glossary/ts-node.md): Definition
+  - [TSP](https://weboftrust.github.io/WOT-terms/04_glossary/TSP.md): See
+  - [UI](https://weboftrust.github.io/WOT-terms/04_glossary/UI.md): See
+  - [uniform-resource-locator](https://weboftrust.github.io/WOT-terms/04_glossary/uniform-resource-locator.md): Definition
+  - [univalent](https://weboftrust.github.io/WOT-terms/04_glossary/univalent.md): Definition
+  - [unpermissioned-correlation](https://weboftrust.github.io/WOT-terms/04_glossary/unpermissioned-correlation.md): a correlation established between two or more disclosed ACDCs whereby the discloser of the ACDCs ...
+  - [unsolicited-issuance](https://weboftrust.github.io/WOT-terms/04_glossary/unsolicited-issuance.md): Definition
+  - [untargeted-acdc](https://weboftrust.github.io/WOT-terms/04_glossary/untargeted-acdc.md): an ACDC without the presence of the Issuee field in the attribute or attribute aggregate sections.
+  - [URL](https://weboftrust.github.io/WOT-terms/04_glossary/URL.md): See
+  - [user-interface](https://weboftrust.github.io/WOT-terms/04_glossary/user-interface.md): Definition
+  - [validate](https://weboftrust.github.io/WOT-terms/04_glossary/validate.md): Definition
+  - [validator](https://weboftrust.github.io/WOT-terms/04_glossary/validator.md): Definition
+  - [variable-length](https://weboftrust.github.io/WOT-terms/04_glossary/variable-length.md): a type of count code allowing for vaiable size signatures or attachments which can be parsed to g...
+  - [VC](https://weboftrust.github.io/WOT-terms/04_glossary/VC.md): See
+  - [vcp](https://weboftrust.github.io/WOT-terms/04_glossary/vcp.md): Definition
+  - [VCTEL](https://weboftrust.github.io/WOT-terms/04_glossary/VCTEL.md): See
+  - [vdr](https://weboftrust.github.io/WOT-terms/04_glossary/vdr.md): See
+  - [VDS](https://weboftrust.github.io/WOT-terms/04_glossary/VDS.md): See
+  - [veracity](https://weboftrust.github.io/WOT-terms/04_glossary/veracity.md): Definition
+  - [verfer](https://weboftrust.github.io/WOT-terms/04_glossary/verfer.md): Definition
+  - [Verifiable Credential](https://weboftrust.github.io/WOT-terms/04_glossary/verifiable-credential.md): Definition
+  - [verifiable-data-registry](https://weboftrust.github.io/WOT-terms/04_glossary/verifiable-data-registry.md): Definition
+  - [verifiable-data-structure](https://weboftrust.github.io/WOT-terms/04_glossary/verifiable-data-structure.md): Definition
+  - [verifiable-identifier](https://weboftrust.github.io/WOT-terms/04_glossary/verifiable-identifier.md): Definition
+  - [verifiable-legal-entity-identifier](https://weboftrust.github.io/WOT-terms/04_glossary/verifiable-legal-entity-identifier.md): Definition
+  - [verifiable](https://weboftrust.github.io/WOT-terms/04_glossary/verifiable.md): Definition
+  - [verification](https://weboftrust.github.io/WOT-terms/04_glossary/verification.md): Definition
+  - [verified-integrity](https://weboftrust.github.io/WOT-terms/04_glossary/verified-integrity.md): Definition
+  - [verifier](https://weboftrust.github.io/WOT-terms/04_glossary/verifier.md): Definition
+  - [verify-signature](https://weboftrust.github.io/WOT-terms/04_glossary/verify-signature.md): Definition
+  - [verify](https://weboftrust.github.io/WOT-terms/04_glossary/verify.md): Definition
+  - [version-code](https://weboftrust.github.io/WOT-terms/04_glossary/version-code.md): Definition
+  - [version-string](https://weboftrust.github.io/WOT-terms/04_glossary/version-string.md): Definition
+  - [version](https://weboftrust.github.io/WOT-terms/04_glossary/version.md): Definition
+  - [VID](https://weboftrust.github.io/WOT-terms/04_glossary/VID.md): See
+  - [virtual-credential-transaction-event-log](https://weboftrust.github.io/WOT-terms/04_glossary/virtual-credential-transaction-event-log.md): Definition
+  - [virtual-credential](https://weboftrust.github.io/WOT-terms/04_glossary/virtual-credential.md): Definition
+  - [vlei-credential](https://weboftrust.github.io/WOT-terms/04_glossary/vlei-credential.md): Definition
+  - [vlei-ecosystem-governance-framework](https://weboftrust.github.io/WOT-terms/04_glossary/vlei-ecosystem-governance-framework.md): Definition
+  - [vlei-role-credential](https://weboftrust.github.io/WOT-terms/04_glossary/vlei-role-credential.md): Definition
+  - [vLEI](https://weboftrust.github.io/WOT-terms/04_glossary/vLEI.md): See
+  - [vrt](https://weboftrust.github.io/WOT-terms/04_glossary/vrt.md): Definition
+  - [wallet](https://weboftrust.github.io/WOT-terms/04_glossary/wallet.md): Definition
+  - [watcher](https://weboftrust.github.io/WOT-terms/04_glossary/watcher.md): Definition
+  - [web-of-trust](https://weboftrust.github.io/WOT-terms/04_glossary/web-of-trust.md): Definition
+  - [weight-of-weights](https://weboftrust.github.io/WOT-terms/04_glossary/weight-of-weights.md): Definition
+  - [weight](https://weboftrust.github.io/WOT-terms/04_glossary/weight.md): an optional field map in the Edge section that provides edge weight property that enables directe...
+  - [well-known-witnesses](https://weboftrust.github.io/WOT-terms/04_glossary/well-known-witnesses.md): Definition
+  - [witness](https://weboftrust.github.io/WOT-terms/04_glossary/witness.md): Definition
+  - [XBRL](https://weboftrust.github.io/WOT-terms/04_glossary/XBRL.md): See
+  - [xip](https://weboftrust.github.io/WOT-terms/04_glossary/xip.md): Definition
+  - [zero-trust-computing](https://weboftrust.github.io/WOT-terms/04_glossary/zero-trust-computing.md): Definition
+  - [zero-trust](https://weboftrust.github.io/WOT-terms/04_glossary/zero-trust.md): Definition
+
+### Annotated Copies
+
+  - [WebOfTrust-ietf-acdc-main-draft-ssmith-acdc](https://weboftrust.github.io/WOT-terms/08_annotated-copies/WebOfTrust-ietf-acdc-main-draft-ssmith-acdc.md): 4171595971390, level 1
+  - [WebOfTrust-ietf-cesr-proof-main-draft-pfeairheller-cesr-proof](https://weboftrust.github.io/WOT-terms/08_annotated-copies/WebOfTrust-ietf-cesr-proof-main-draft-pfeairheller-cesr-proof.md): 9286652585568, level 1
+  - [WebOfTrust-ietf-ipex-main-draft-ssmith-ipex](https://weboftrust.github.io/WOT-terms/08_annotated-copies/WebOfTrust-ietf-ipex-main-draft-ssmith-ipex.md): 8203357166114, level 1
+  - [WebOfTrust-keria-main-docs-protocol](https://weboftrust.github.io/WOT-terms/08_annotated-copies/WebOfTrust-keria-main-docs-protocol.md): signify-keria-request-authentication-protocol--skrap-, level 1
+
+### Video
+
+  - [KERI DEV Meeting March 28 2024](https://weboftrust.github.io/WOT-terms/video/keri-dev-meeting-March-28-2024.md): Zoom recording
+
