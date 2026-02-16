@@ -114,6 +114,9 @@ jobs:
 
       ##############################
       # Docs: https://github.com/osodevops/docusaurus-llm-docs
+      - name: Generate resolved sidebar for LLM docs
+        run: node scripts/generate-sidebar-for-llm.js ./docs ./sidebars-resolved.js
+
       - name: Generate LLM documentation
         uses: osodevops/docusaurus-llm-docs@v1
         id: llm-docs
@@ -123,6 +126,7 @@ jobs:
           base-url: 'https://weboftrust.github.io/WOT-terms'
           product-name: 'KERIGlos'
           tagline: 'KERI Suite Glossary'
+          sidebar-path: './sidebars-resolved.js'
 
       - name: Copy LLM docs to build output and repo
         run: |
