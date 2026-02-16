@@ -1,0 +1,9 @@
+# KERIGlos Documentation
+
+KERI Suite Glossary
+
+> [!TIP]
+> A complete archive of all documentation in Markdown format is available at https://weboftrust.github.io/WOT-terms/markdown.zip
+
+## Tutorial Sidebar
+

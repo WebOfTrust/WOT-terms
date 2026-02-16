@@ -1,0 +1,7 @@
+# KERIGlos Documentation
+
+KERI Suite Glossary
+
+> This file contains the complete documentation in a single file for LLM consumption.
+> For a lightweight index, see https://weboftrust.github.io/WOT-terms/llms.txt
+> For individual markdown files, download https://weboftrust.github.io/WOT-terms/markdown.zip
