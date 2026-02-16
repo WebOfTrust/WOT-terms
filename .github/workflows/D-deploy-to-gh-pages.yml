@@ -113,6 +113,41 @@ jobs:
 
 
       ##############################
+      # Docs: https://github.com/osodevops/docusaurus-llm-docs
+      - name: Generate LLM documentation
+        uses: osodevops/docusaurus-llm-docs@v1
+        id: llm-docs
+        with:
+          build-dir: './build'
+          output-dir: './build/llm-docs'
+          base-url: 'https://weboftrust.github.io/WOT-terms'
+          product-name: 'KERIGlos'
+          tagline: 'KERI Suite Glossary'
+
+      - name: Copy LLM docs to build output and repo
+        run: |
+          cp ${{ steps.llm-docs.outputs.llms-txt-path }} ./build/llms.txt
+          cp ${{ steps.llm-docs.outputs.llms-full-txt-path }} ./build/llms-full.txt
+          cp ${{ steps.llm-docs.outputs.markdown-zip-path }} ./build/markdown.zip
+
+          mkdir -p ./llm-docs
+          cp ${{ steps.llm-docs.outputs.llms-txt-path }} ./llm-docs/llms.txt
+          cp ${{ steps.llm-docs.outputs.llms-full-txt-path }} ./llm-docs/llms-full.txt
+          cp ${{ steps.llm-docs.outputs.markdown-zip-path }} ./llm-docs/markdown.zip
+
+      - name: Commit LLM docs to repo
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add llm-docs/
+          git diff --cached --exit-code && exit 0
+          git commit -m "chore: update LLM documentation assets"
+          git push
+      ##############################
+
+
+
+      ##############################
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
