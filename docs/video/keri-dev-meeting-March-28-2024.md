@@ -4,7 +4,10 @@ title : KERI DEV Meeting March 28 2024
 ## Zoom recording
 
 
-<img src="/img/still-keri-dev-meeting-march-28-2024.png" alt="Video Placeholder" onclick="this.outerHTML='<video width=\'320\' height=\'240\' controls><source src=\'/mp4/GMT20240328-140310_Recording_opt.mp4\' type=\'video/mp4\'>Your browser does not support the video tag.</video>'" style="cursor:pointer;">
+<video width="320" height="240" controls poster="/img/still-keri-dev-meeting-march-28-2024.png">
+  <source src="/mp4/GMT20240328-140310_Recording_opt.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
 ## Chat
 
