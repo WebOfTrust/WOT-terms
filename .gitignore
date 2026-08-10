@@ -32,3 +32,5 @@ _search-index-typesense/singleUrlsFromWotTermsGoogleSheet/*
 copy-to-testsite.sh
 docusaurus.paths.*.js
 restore.jsonl
+# Generated resolved sidebar for LLM docs
+sidebars-resolved.js
